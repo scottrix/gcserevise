@@ -1,0 +1,967 @@
+{
+  "subject": "Mathematics",
+  "id": "mathematics",
+  "examBoards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+  "papers": {
+    "AQA": { "count": 3, "duration": "1h 30m", "marks": 80, "total": 240 },
+    "Edexcel": { "count": 3, "duration": "1h 30m", "marks": 80, "total": 240 },
+    "OCR": { "count": 3, "duration": "1h 30m", "marks": 100, "total": 300 },
+    "Eduqas": { "count": 2, "duration": "2h 15m", "marks": 120, "total": 240 },
+    "CCEA": { "count": 2, "type": "modular", "units": ["M1/M2 + M5/M6 (Foundation)", "M3/M4 + M7/M8 (Higher)"] }
+  },
+  "tiers": ["Foundation", "Higher"],
+  "grades": {
+    "Foundation": "1-5",
+    "Higher": "4-9"
+  },
+  "strands": [
+    {
+      "id": "number",
+      "name": "Number",
+      "weighting": { "Foundation": 25, "Higher": 15 },
+      "topics": [
+        {
+          "id": "N1",
+          "name": "Ordering Numbers",
+          "tier": "both",
+          "description": "Order positive and negative integers, decimals and fractions; use the symbols =, ≠, <, >, ≤, ≥",
+          "keywords": ["inequalities", "ordering", "negative numbers", "decimals", "fractions", "comparison symbols"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N2",
+          "name": "Four Operations",
+          "tier": "both",
+          "description": "Add, subtract, multiply and divide integers, decimals and fractions; mixed numbers; place value; financial terms",
+          "keywords": ["addition", "subtraction", "multiplication", "division", "fractions", "decimals", "mixed numbers", "profit", "loss", "interest"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N3",
+          "name": "Order of Operations",
+          "tier": "both",
+          "description": "Use brackets, powers, roots and reciprocals; understand and use the conventions of BIDMAS/BODMAS",
+          "keywords": ["BIDMAS", "BODMAS", "brackets", "indices", "powers", "roots", "order of operations"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N4",
+          "name": "Prime Numbers, Factors & Multiples",
+          "tier": "both",
+          "description": "Prime numbers, factors, multiples, HCF, LCM, prime factorisation, product notation",
+          "keywords": ["prime", "factors", "multiples", "HCF", "LCM", "prime factorisation", "product of primes"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N5",
+          "name": "Systematic Listing",
+          "tier": "both",
+          "description": "Systematic listing strategies including the product rule for counting",
+          "keywords": ["listing", "combinations", "product rule", "systematic"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N6",
+          "name": "Powers and Roots",
+          "tier": "both",
+          "description": "Use positive integer powers and roots; square, cube and higher; recognise powers of 2, 3, 4, 5; estimate powers and roots",
+          "keywords": ["squares", "cubes", "square root", "cube root", "powers", "indices", "estimating"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N7",
+          "name": "Integer Indices",
+          "tier": "both",
+          "description": "Calculate with integer indices; negative and fractional indices (Higher)",
+          "keywords": ["indices", "negative indices", "fractional indices", "index laws"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N8",
+          "name": "Surds",
+          "tier": "higher",
+          "description": "Calculate exactly with fractions, multiples of π; simplify surds, rationalise denominators",
+          "keywords": ["surds", "rationalise", "simplify", "exact values", "π"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "N9",
+          "name": "Standard Form",
+          "tier": "both",
+          "description": "Calculate with numbers in standard form A × 10^n where 1 ≤ A < 10",
+          "keywords": ["standard form", "scientific notation", "powers of 10"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N10",
+          "name": "Terminating & Recurring Decimals",
+          "tier": "both",
+          "description": "Convert between terminating decimals and fractions; recurring decimals to fractions (Higher)",
+          "keywords": ["terminating", "recurring", "decimals", "fractions", "converting"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N11",
+          "name": "Fractions in Ratio Problems",
+          "tier": "both",
+          "description": "Work with fractions in ratio problems",
+          "keywords": ["fractions", "ratio", "sharing", "proportion"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N12",
+          "name": "Fractions & Percentages as Operators",
+          "tier": "both",
+          "description": "Interpret fractions and percentages as operators",
+          "keywords": ["fractions", "percentages", "of", "operators", "calculating"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N13",
+          "name": "Units & Conversions",
+          "tier": "both",
+          "description": "Use standard units of measure; compound measures; metric/imperial conversions",
+          "keywords": ["units", "conversions", "metric", "imperial", "length", "mass", "time", "volume"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N14",
+          "name": "Estimation & Approximation",
+          "tier": "both",
+          "description": "Estimate calculations; check results using approximation",
+          "keywords": ["estimation", "approximation", "rounding", "checking", "sensible answers"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N15",
+          "name": "Rounding & Error Intervals",
+          "tier": "both",
+          "description": "Round to decimal places and significant figures; use error intervals from truncation and rounding",
+          "keywords": ["rounding", "decimal places", "significant figures", "error intervals", "truncation"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "N16",
+          "name": "Upper and Lower Bounds",
+          "tier": "higher",
+          "description": "Calculate upper and lower bounds; use bounds in calculations",
+          "keywords": ["bounds", "upper", "lower", "limits of accuracy", "error intervals"],
+          "foundation": false,
+          "higher": true
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra",
+      "weighting": { "Foundation": 20, "Higher": 30 },
+      "topics": [
+        {
+          "id": "A1",
+          "name": "Algebraic Notation",
+          "tier": "both",
+          "description": "Use and interpret algebraic notation: ab, 3y, a², a³, a/b, brackets",
+          "keywords": ["notation", "expressions", "terms", "coefficients", "powers"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A2",
+          "name": "Substitution",
+          "tier": "both",
+          "description": "Substitute numerical values into formulae and expressions",
+          "keywords": ["substitution", "formulae", "expressions", "evaluating"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A3",
+          "name": "Algebraic Terminology",
+          "tier": "both",
+          "description": "Understand expressions, equations, formulae, identities, inequalities, terms, factors",
+          "keywords": ["expression", "equation", "formula", "identity", "inequality", "term", "factor"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A4",
+          "name": "Simplifying Expressions",
+          "tier": "both",
+          "description": "Simplify and manipulate algebraic expressions: collecting like terms, expanding brackets, factorising",
+          "keywords": ["simplifying", "collecting like terms", "expanding", "factorising", "brackets"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A5",
+          "name": "Rearranging Formulae",
+          "tier": "both",
+          "description": "Use standard mathematical formulae; rearrange formulae to change the subject",
+          "keywords": ["formula", "subject", "rearranging", "manipulating", "changing the subject"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A6",
+          "name": "Algebraic Proof",
+          "tier": "higher",
+          "description": "Know the difference between an equation and an identity; argue mathematically to show algebraic expressions are equivalent",
+          "keywords": ["identity", "proof", "equivalent expressions", "conjecture"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "A7",
+          "name": "Functions",
+          "tier": "higher",
+          "description": "Work with functions and their inverses; composite functions; f(x), fg(x), f⁻¹(x) notation",
+          "keywords": ["functions", "inverse", "composite", "notation", "domain", "range"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "A8",
+          "name": "Coordinates",
+          "tier": "both",
+          "description": "Work with coordinates in all four quadrants",
+          "keywords": ["coordinates", "quadrants", "plotting", "x-coordinate", "y-coordinate"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A9",
+          "name": "Straight Line Graphs",
+          "tier": "both",
+          "description": "Plot graphs of equations; y = mx + c; find equation of line through two points; parallel and perpendicular lines (Higher)",
+          "keywords": ["linear", "gradient", "intercept", "y=mx+c", "parallel", "perpendicular"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A10",
+          "name": "Gradients & Intercepts",
+          "tier": "both",
+          "description": "Identify and interpret gradients and intercepts of linear functions graphically and algebraically",
+          "keywords": ["gradient", "intercept", "slope", "linear", "equation"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A11",
+          "name": "Quadratic Graphs",
+          "tier": "both",
+          "description": "Identify roots, intercepts and turning points of quadratic functions; completing the square (Higher)",
+          "keywords": ["quadratic", "parabola", "roots", "intercepts", "turning point", "vertex"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A12",
+          "name": "Other Graphs",
+          "tier": "both",
+          "description": "Recognise, sketch and interpret graphs of linear, quadratic, cubic, reciprocal, exponential and trigonometric functions",
+          "keywords": ["cubic", "reciprocal", "exponential", "trigonometric", "sketching"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A13",
+          "name": "Graph Transformations",
+          "tier": "higher",
+          "description": "Sketch translations and reflections of a given function",
+          "keywords": ["translation", "reflection", "transformation", "sketching"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "A14",
+          "name": "Real-Life Graphs",
+          "tier": "both",
+          "description": "Plot and interpret graphs including reciprocal and non-standard functions in real contexts",
+          "keywords": ["real-life", "interpretation", "modelling", "conversion graphs"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A15",
+          "name": "Gradients & Areas Under Graphs",
+          "tier": "both",
+          "description": "Calculate or estimate gradients and areas under graphs; interpret in distance-time and velocity-time contexts",
+          "keywords": ["gradient", "area under curve", "distance-time", "velocity-time", "rate of change"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A16",
+          "name": "Circles",
+          "tier": "higher",
+          "description": "Recognise and use the equation of a circle with centre at the origin; find equation of tangent at a point",
+          "keywords": ["circle", "equation", "tangent", "radius", "centre"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "A17",
+          "name": "Solving Linear Equations",
+          "tier": "both",
+          "description": "Solve linear equations in one unknown; include unknown on both sides, brackets, fractions",
+          "keywords": ["linear equations", "solving", "unknown", "rearranging"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A18",
+          "name": "Solving Quadratic Equations",
+          "tier": "both",
+          "description": "Solve quadratic equations algebraically by factorising; completing the square and quadratic formula (Higher); solve graphically",
+          "keywords": ["quadratic", "factorising", "completing the square", "quadratic formula", "roots"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A19",
+          "name": "Simultaneous Equations",
+          "tier": "both",
+          "description": "Solve two simultaneous equations; linear/linear and linear/quadratic (Higher)",
+          "keywords": ["simultaneous", "elimination", "substitution", "linear", "quadratic"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A20",
+          "name": "Iteration",
+          "tier": "higher",
+          "description": "Find approximate solutions using systematic iteration; use suffix notation in recursive formulae",
+          "keywords": ["iteration", "recursive", "approximation", "convergence"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "A21",
+          "name": "Modelling with Algebra",
+          "tier": "both",
+          "description": "Translate simple situations into algebraic expressions or formulae; derive and solve equations",
+          "keywords": ["modelling", "word problems", "forming equations", "applications"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A22",
+          "name": "Inequalities",
+          "tier": "both",
+          "description": "Solve linear inequalities; represent solutions on number line and using set notation; quadratic inequalities (Higher)",
+          "keywords": ["inequalities", "number line", "set notation", "region", "quadratic inequalities"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A23",
+          "name": "Generating Sequences",
+          "tier": "both",
+          "description": "Generate terms of a sequence from term-to-term or position-to-term rules",
+          "keywords": ["sequences", "term-to-term", "position-to-term", "generating"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A24",
+          "name": "Types of Sequences",
+          "tier": "both",
+          "description": "Recognise and use sequences: triangular, square, cube, arithmetic, geometric, Fibonacci-type, quadratic (Higher)",
+          "keywords": ["arithmetic", "geometric", "Fibonacci", "triangular", "quadratic sequences"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "A25",
+          "name": "nth Term",
+          "tier": "both",
+          "description": "Find the nth term of linear sequences; quadratic sequences (Higher)",
+          "keywords": ["nth term", "linear sequence", "quadratic sequence", "formula"],
+          "foundation": true,
+          "higher": true
+        }
+      ]
+    },
+    {
+      "id": "ratio",
+      "name": "Ratio, Proportion & Rates of Change",
+      "weighting": { "Foundation": 25, "Higher": 20 },
+      "topics": [
+        {
+          "id": "R1",
+          "name": "Compound Units",
+          "tier": "both",
+          "description": "Convert between standard units; use compound units: speed, rates of pay, prices, density, pressure",
+          "keywords": ["compound units", "speed", "density", "pressure", "rates of pay", "unit pricing"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R2",
+          "name": "Scale Drawings",
+          "tier": "both",
+          "description": "Use scale factors, scale diagrams and maps",
+          "keywords": ["scale factor", "scale diagram", "maps", "ratio", "enlargement"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R3",
+          "name": "Fractions of Amounts",
+          "tier": "both",
+          "description": "Express one quantity as a fraction of another",
+          "keywords": ["fraction of", "fraction of amount", "ratio as fraction"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R4",
+          "name": "Simplifying Ratio",
+          "tier": "both",
+          "description": "Use ratio notation; reduce ratios to simplest form",
+          "keywords": ["ratio", "simplifying", "simplest form", "equivalent ratios"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R5",
+          "name": "Dividing in a Ratio",
+          "tier": "both",
+          "description": "Divide a given quantity into two parts in a given part:part or part:whole ratio",
+          "keywords": ["sharing", "dividing", "ratio", "part", "whole"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R6",
+          "name": "Multiplicative Relationships",
+          "tier": "both",
+          "description": "Express a multiplicative relationship between two quantities as a ratio or a fraction",
+          "keywords": ["multiplicative", "ratio", "fraction", "relationship"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R7",
+          "name": "Proportion",
+          "tier": "both",
+          "description": "Understand proportion as equality of ratios; relate ratios to fractions",
+          "keywords": ["proportion", "equality", "ratios", "fractions"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R8",
+          "name": "Ratio & Linear Functions",
+          "tier": "both",
+          "description": "Relate ratios to fractions and linear functions; represent ratios graphically",
+          "keywords": ["ratio", "linear function", "graphical", "gradient"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R9",
+          "name": "Percentages",
+          "tier": "both",
+          "description": "Define percentage; interpret percentages and percentage changes; percentage increase/decrease; original value problems; compound interest",
+          "keywords": ["percentage", "increase", "decrease", "change", "compound interest", "original value"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R10",
+          "name": "Direct & Inverse Proportion",
+          "tier": "both",
+          "description": "Solve problems involving direct and inverse proportion; graphical and algebraic representations",
+          "keywords": ["direct proportion", "inverse proportion", "graphical", "algebraic", "y=kx"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R11",
+          "name": "Compound Measures",
+          "tier": "both",
+          "description": "Compare lengths, areas and volumes using ratio notation and scale factors; make links to similarity",
+          "keywords": ["compound", "speed", "density", "pressure", "unit pricing"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R12",
+          "name": "Similarity & Trigonometry",
+          "tier": "both",
+          "description": "Understand that X is inversely proportional to Y is equivalent to X is proportional to 1/Y",
+          "keywords": ["inverse proportion", "reciprocal", "proportionality"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R13",
+          "name": "Equations of Proportion",
+          "tier": "higher",
+          "description": "Interpret equations that describe direct and inverse proportion",
+          "keywords": ["equations", "direct proportion", "inverse proportion", "constant"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "R14",
+          "name": "Graphs & Rates of Change",
+          "tier": "both",
+          "description": "Interpret the gradient of a straight line graph as a rate of change",
+          "keywords": ["gradient", "rate of change", "straight line", "graph"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "R15",
+          "name": "Instantaneous Rate of Change",
+          "tier": "higher",
+          "description": "Calculate the instantaneous rate of change by drawing or estimating a tangent",
+          "keywords": ["instantaneous", "tangent", "gradient", "rate of change", "curve"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "R16",
+          "name": "Growth & Decay",
+          "tier": "both",
+          "description": "Set up, solve and interpret answers in growth and decay problems; compound interest",
+          "keywords": ["growth", "decay", "compound interest", "exponential", "iteration"],
+          "foundation": true,
+          "higher": true
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry & Measures",
+      "weighting": { "Foundation": 15, "Higher": 20 },
+      "topics": [
+        {
+          "id": "G1",
+          "name": "Geometric Notation",
+          "tier": "both",
+          "description": "Use conventional terms and notation: points, lines, vertices, edges, planes, parallel, perpendicular, right angles, polygons, regular polygons",
+          "keywords": ["notation", "points", "lines", "vertices", "edges", "planes", "parallel", "perpendicular"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G2",
+          "name": "Constructions",
+          "tier": "both",
+          "description": "Use the standard ruler and compass constructions; perpendicular bisector, angle bisector, constructing triangles",
+          "keywords": ["constructions", "ruler", "compass", "perpendicular bisector", "angle bisector", "locus"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G3",
+          "name": "Angles",
+          "tier": "both",
+          "description": "Apply angle properties at a point, on a straight line, vertically opposite; parallel lines; angles in triangles and polygons",
+          "keywords": ["angles", "parallel lines", "alternate", "corresponding", "polygon", "triangle", "quadrilateral"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G4",
+          "name": "Quadrilaterals & Triangles",
+          "tier": "both",
+          "description": "Apply the properties and definitions of quadrilaterals and triangles",
+          "keywords": ["square", "rectangle", "parallelogram", "trapezium", "kite", "rhombus", "isosceles", "equilateral"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G5",
+          "name": "Congruence Criteria",
+          "tier": "both",
+          "description": "Know and use the criteria for congruent triangles: SSS, SAS, ASA, RHS",
+          "keywords": ["congruent", "triangles", "SSS", "SAS", "ASA", "RHS"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G6",
+          "name": "Geometric Proof",
+          "tier": "higher",
+          "description": "Apply angle facts, triangle congruence, similarity and properties of quadrilaterals to conjecture and derive results",
+          "keywords": ["proof", "conjecture", "derivation", "geometric reasoning"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "G7",
+          "name": "Transformations",
+          "tier": "both",
+          "description": "Identify, describe and construct congruent and similar shapes; rotation, reflection, translation, enlargement; fractional and negative scale factors",
+          "keywords": ["transformation", "rotation", "reflection", "translation", "enlargement", "scale factor"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G8",
+          "name": "Combined Transformations",
+          "tier": "higher",
+          "description": "Describe the changes and invariance achieved by combinations of transformations",
+          "keywords": ["combined", "transformation", "invariance", "succession"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "G9",
+          "name": "Circle Parts",
+          "tier": "both",
+          "description": "Identify and apply definitions of circle: centre, radius, chord, diameter, circumference, tangent, arc, sector, segment",
+          "keywords": ["circle", "radius", "diameter", "circumference", "arc", "sector", "segment", "tangent", "chord"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G10",
+          "name": "Circle Theorems",
+          "tier": "higher",
+          "description": "Apply and prove circle theorems: angle at centre, angle in semicircle, angles in same segment, cyclic quadrilateral, tangent properties, alternate segment",
+          "keywords": ["circle theorems", "angle at centre", "semicircle", "cyclic quadrilateral", "tangent", "alternate segment"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "G11",
+          "name": "Coordinate Geometry Problems",
+          "tier": "both",
+          "description": "Solve geometrical problems on coordinate axes",
+          "keywords": ["coordinates", "geometric problems", "lines", "shapes"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G12",
+          "name": "3D Shapes",
+          "tier": "both",
+          "description": "Identify properties of cuboids, prisms, cylinders, pyramids, cones, spheres; faces, surfaces, edges, vertices",
+          "keywords": ["3D", "cuboid", "prism", "cylinder", "pyramid", "cone", "sphere", "faces", "edges"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G13",
+          "name": "Plans & Elevations",
+          "tier": "both",
+          "description": "Construct and interpret plans and elevations of 3D shapes",
+          "keywords": ["plan", "elevation", "front", "side", "3D", "projection"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G14",
+          "name": "Units of Measure",
+          "tier": "both",
+          "description": "Use standard units of measure and related concepts; length, area, volume, capacity, mass, time, money",
+          "keywords": ["units", "measure", "length", "area", "volume", "mass", "time", "capacity"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G15",
+          "name": "Measuring & Bearings",
+          "tier": "both",
+          "description": "Measure line segments and angles; use bearings to specify direction",
+          "keywords": ["measuring", "ruler", "protractor", "bearings", "three-figure bearings", "compass"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G16",
+          "name": "Area & Volume",
+          "tier": "both",
+          "description": "Know and apply formulae to calculate area of triangles, parallelograms, trapezia; volume of cuboids and prisms",
+          "keywords": ["area", "volume", "triangle", "parallelogram", "trapezium", "cuboid", "prism"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G17",
+          "name": "Circles: Area & Circumference",
+          "tier": "both",
+          "description": "Calculate circumference and area of circles; arcs and sectors; surface area and volume of spheres, pyramids, cones (Higher)",
+          "keywords": ["circumference", "area of circle", "arc length", "sector area", "surface area", "sphere", "cone"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G18",
+          "name": "Arcs & Sectors",
+          "tier": "both",
+          "description": "Calculate arc lengths, angles and areas of sectors of circles",
+          "keywords": ["arc", "sector", "circumference", "area", "angle"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G19",
+          "name": "Similar Shapes",
+          "tier": "higher",
+          "description": "Compare the areas and volumes of similar shapes; apply relationships between lengths, areas and volumes in similar figures",
+          "keywords": ["similar", "scale factor", "area factor", "volume factor"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "G20",
+          "name": "Pythagoras & Trigonometry",
+          "tier": "both",
+          "description": "Know and use Pythagoras' theorem; trigonometric ratios in right-angled triangles; use these in 3D (Higher)",
+          "keywords": ["Pythagoras", "trigonometry", "sin", "cos", "tan", "right-angled triangle", "3D"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G21",
+          "name": "Exact Trigonometric Values",
+          "tier": "both",
+          "description": "Know the exact values of sin θ and cos θ for θ = 0°, 30°, 45°, 60°, 90°; know exact value of tan θ for θ = 0°, 30°, 45°, 60°",
+          "keywords": ["exact values", "sin", "cos", "tan", "special angles", "0°", "30°", "45°", "60°", "90°"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G22",
+          "name": "Sine & Cosine Rules",
+          "tier": "higher",
+          "description": "Know and apply the sine rule and cosine rule to find unknown lengths and angles",
+          "keywords": ["sine rule", "cosine rule", "non-right-angled", "ambiguous case"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "G23",
+          "name": "Area of Triangle Formula",
+          "tier": "higher",
+          "description": "Know and use the formula: Area = ½ab sin C",
+          "keywords": ["area of triangle", "sine", "angle between sides"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "G24",
+          "name": "Vectors",
+          "tier": "both",
+          "description": "Describe translations as 2D vectors; apply addition and subtraction of vectors; scalar multiplication",
+          "keywords": ["vectors", "translation", "addition", "subtraction", "scalar", "column vector"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "G25",
+          "name": "Vector Proofs",
+          "tier": "higher",
+          "description": "Use vectors to construct geometric arguments and proofs",
+          "keywords": ["vectors", "proof", "geometric", "collinear", "parallel"],
+          "foundation": false,
+          "higher": true
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "name": "Probability",
+      "weighting": { "Foundation": 15, "Higher": 15 },
+      "topics": [
+        {
+          "id": "P1",
+          "name": "Recording Outcomes",
+          "tier": "both",
+          "description": "Record, describe and analyse the frequency of outcomes of simple probability experiments",
+          "keywords": ["frequency", "outcomes", "experiments", "recording", "tables", "frequency trees"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "P2",
+          "name": "Fairness & Randomness",
+          "tier": "both",
+          "description": "Understand that the probabilities of all possible outcomes sum to 1; randomness, fairness, equally likely events",
+          "keywords": ["random", "fair", "equally likely", "probability sum", "expected outcomes"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "P3",
+          "name": "Probability Scale",
+          "tier": "both",
+          "description": "Understand the 0-1 probability scale; use relative frequency and theoretical probability",
+          "keywords": ["probability scale", "theoretical probability", "relative frequency", "0 to 1"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "P4",
+          "name": "Mutually Exclusive Events",
+          "tier": "both",
+          "description": "Enumerate sets and combinations of sets systematically; mutually exclusive events; probability sums to 1",
+          "keywords": ["mutually exclusive", "exhaustive", "probability sum", "sets"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "P5",
+          "name": "Experimental vs Theoretical",
+          "tier": "both",
+          "description": "Understand that empirical samples tend towards theoretical probability",
+          "keywords": ["empirical", "theoretical", "sample", "tend towards", "convergence"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "P6",
+          "name": "Systematic Listing",
+          "tier": "both",
+          "description": "Enumerate sets and combinations of sets; Venn diagrams; systematic listing strategies",
+          "keywords": ["systematic", "listing", "combinations", "Venn diagrams", "sets", "union", "intersection"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "P7",
+          "name": "Possibility Spaces",
+          "tier": "both",
+          "description": "Construct and use possibility spaces for single and combined experiments",
+          "keywords": ["possibility space", "sample space", "combined experiments", "outcomes"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "P8",
+          "name": "Tree Diagrams",
+          "tier": "both",
+          "description": "Calculate the probability of independent and dependent combined events using tree diagrams",
+          "keywords": ["tree diagram", "independent", "dependent", "combined events", "multiplying probabilities"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "P9",
+          "name": "Conditional Probability",
+          "tier": "higher",
+          "description": "Calculate and interpret conditional probabilities; use two-way tables, tree diagrams and Venn diagrams",
+          "keywords": ["conditional", "given that", "two-way table", "tree diagram", "Venn diagram", "P(A|B)"],
+          "foundation": false,
+          "higher": true
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "weighting": { "Foundation": 15, "Higher": 15 },
+      "topics": [
+        {
+          "id": "S1",
+          "name": "Sampling",
+          "tier": "both",
+          "description": "Infer properties of populations from samples; understand limitations of sampling",
+          "keywords": ["sample", "population", "inference", "representative", "bias", "limitations"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "S2",
+          "name": "Charts & Diagrams",
+          "tier": "both",
+          "description": "Interpret and construct: tables, bar charts, pie charts, pictograms, vertical line charts, time series",
+          "keywords": ["bar chart", "pie chart", "pictogram", "time series", "frequency table", "vertical line chart"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "S3",
+          "name": "Grouped Data",
+          "tier": "higher",
+          "description": "Interpret and construct diagrams for grouped data: histograms with equal/unequal class intervals, cumulative frequency graphs",
+          "keywords": ["histogram", "frequency density", "cumulative frequency", "class intervals", "grouped data"],
+          "foundation": false,
+          "higher": true
+        },
+        {
+          "id": "S4",
+          "name": "Measures of Central Tendency",
+          "tier": "both",
+          "description": "Interpret, analyse and compare distributions: median, mean, mode, modal class; range, quartiles, interquartile range (Higher)",
+          "keywords": ["median", "mean", "mode", "modal class", "range", "quartile", "interquartile range", "box plot"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "S5",
+          "name": "Describing Populations",
+          "tier": "both",
+          "description": "Apply statistics to describe a population",
+          "keywords": ["population", "statistics", "description", "conclusions"],
+          "foundation": true,
+          "higher": true
+        },
+        {
+          "id": "S6",
+          "name": "Scatter Graphs",
+          "tier": "both",
+          "description": "Use and interpret scatter graphs; correlation; lines of best fit; interpolation and extrapolation",
+          "keywords": ["scatter graph", "correlation", "line of best fit", "interpolation", "extrapolation", "outlier"],
+          "foundation": true,
+          "higher": true
+        }
+      ]
+    }
+  ],
+  "formulaSheets": {
+    "studentsMustMemorise": [
+      "Area of rectangle = length × width",
+      "Area of triangle = ½ × base × height",
+      "Area of parallelogram = base × height",
+      "Area of trapezium = ½(a + b) × height",
+      "Circumference of circle = 2πr = πd",
+      "Area of circle = πr²",
+      "Pythagoras' theorem: a² + b² = c²",
+      "sin θ = opposite/hypotenuse",
+      "cos θ = adjacent/hypotenuse",
+      "tan θ = opposite/adjacent",
+      "Quadratic formula (Higher): x = (-b ± √(b²-4ac))/2a"
+    ],
+    "providedInExam": [
+      "Area of trapezium = ½(a + b)h",
+      "Volume of prism = area of cross-section × length",
+      "Circumference of circle = πd = 2πr",
+      "Area of circle = πr²",
+      "Volume of sphere = 4/3 πr³ (Higher)",
+      "Surface area of sphere = 4πr² (Higher)",
+      "Volume of cone = ⅓πr²h (Higher)",
+      "Surface area of cone = πrl + πr² (Higher)",
+      "Sine rule: a/sin A = b/sin B = c/sin C (Higher)",
+      "Cosine rule: a² = b² + c² - 2bc cos A (Higher)",
+      "Area of triangle = ½ab sin C (Higher)"
+    ]
+  },
+  "notes": {
+    "contentIdentical": "All exam boards use identical subject content (DfE mandated). Differences are in paper structure and question style only.",
+    "foundationHigher": "Foundation tier covers grades 1-5, Higher covers grades 4-9. Higher tier includes all Foundation content plus additional topics.",
+    "calculatorPapers": "All boards have one non-calculator paper. AQA/Edexcel: Paper 1; OCR: Paper 2/5; Eduqas: Paper 1."
+  }
+}
