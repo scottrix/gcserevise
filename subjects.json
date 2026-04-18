@@ -1,0 +1,345 @@
+{
+  "site": "GCSE Revise",
+  "description": "Comprehensive GCSE revision notes for all subjects and exam boards",
+  "examBoards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+  "grading": {
+    "England": "9-1",
+    "Wales": "A*-G",
+    "NorthernIreland": "A*-G"
+  },
+  "subjects": [
+    {
+      "id": "english-language",
+      "name": "English Language",
+      "category": "Core",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "english-literature",
+      "name": "English Literature",
+      "category": "Core",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "category": "Core",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 3,
+      "topics": []
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "category": "Science",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "category": "Science",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "category": "Science",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "combined-science",
+      "name": "Combined Science (Trilogy)",
+      "category": "Science",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "CCEA"],
+      "papers": 6,
+      "topics": []
+    },
+    {
+      "id": "computer-science",
+      "name": "Computer Science",
+      "category": "Science",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "category": "Humanities",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "category": "Humanities",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 3,
+      "topics": []
+    },
+    {
+      "id": "religious-studies",
+      "name": "Religious Studies",
+      "category": "Humanities",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "french",
+      "name": "French",
+      "category": "Languages",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "Eduqas", "CCEA"],
+      "papers": 4,
+      "topics": []
+    },
+    {
+      "id": "spanish",
+      "name": "Spanish",
+      "category": "Languages",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "Eduqas", "CCEA"],
+      "papers": 4,
+      "topics": []
+    },
+    {
+      "id": "german",
+      "name": "German",
+      "category": "Languages",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "Eduqas", "CCEA"],
+      "papers": 4,
+      "topics": []
+    },
+    {
+      "id": "art-design",
+      "name": "Art and Design",
+      "category": "Creative",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "category": "Creative",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "drama",
+      "name": "Drama",
+      "category": "Creative",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "design-technology",
+      "name": "Design and Technology",
+      "category": "Technical",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "physical-education",
+      "name": "Physical Education",
+      "category": "Other",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "business",
+      "name": "Business Studies",
+      "category": "Other",
+      "universal": true,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "category": "Other",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "OCR", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "category": "Other",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "OCR"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "sociology",
+      "name": "Sociology",
+      "category": "Other",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "Eduqas"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "citizenship",
+      "name": "Citizenship Studies",
+      "category": "Humanities",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "OCR"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "media-studies",
+      "name": "Media Studies",
+      "category": "Creative",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "food-nutrition",
+      "name": "Food Preparation and Nutrition",
+      "category": "Technical",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "OCR", "Eduqas"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "latin",
+      "name": "Latin",
+      "category": "Languages",
+      "universal": false,
+      "boards": ["Edexcel", "OCR", "Eduqas"],
+      "papers": 3,
+      "topics": []
+    },
+    {
+      "id": "astronomy",
+      "name": "Astronomy",
+      "category": "Science",
+      "universal": false,
+      "boards": ["Edexcel"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "geology",
+      "name": "Geology",
+      "category": "Science",
+      "universal": false,
+      "boards": ["Eduqas"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "ancient-history",
+      "name": "Ancient History",
+      "category": "Humanities",
+      "universal": false,
+      "boards": ["OCR"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "classical-civilisation",
+      "name": "Classical Civilisation",
+      "category": "Humanities",
+      "universal": false,
+      "boards": ["OCR"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "law",
+      "name": "Law",
+      "category": "Other",
+      "universal": false,
+      "boards": ["AQA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "dance",
+      "name": "Dance",
+      "category": "Creative",
+      "universal": false,
+      "boards": ["AQA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "film-studies",
+      "name": "Film Studies",
+      "category": "Creative",
+      "universal": false,
+      "boards": ["Eduqas"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "category": "Science",
+      "universal": false,
+      "boards": ["Eduqas"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "category": "Technical",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "CCEA"],
+      "papers": 2,
+      "topics": []
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "category": "Mathematics",
+      "universal": false,
+      "boards": ["AQA", "Edexcel", "CCEA"],
+      "papers": 2,
+      "topics": []
+    }
+  ]
+}

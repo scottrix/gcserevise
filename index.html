@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCSE Revise - Free Revision Notes for All Subjects & Exam Boards</title>
+    <meta name="description" content="Comprehensive GCSE revision notes for all subjects and exam boards. Free, student-friendly resources for AQA, Edexcel, OCR, Eduqas, and CCEA.">
+    <link rel="canonical" href="https://scottrix.github.io/gcserevise/">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "GCSE Revise",
+        "url": "https://scottrix.github.io/gcserevise/",
+        "description": "Free GCSE revision notes for all subjects and exam boards",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://scottrix.github.io/gcserevise/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <a href="/" class="logo">📚 GCSE Revise</a>
+            <nav class="nav">
+                <a href="#subjects">Subjects</a>
+                <a href="#exam-boards">Exam Boards</a>
+                <a href="#about">About</a>
+            </nav>
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-btn" title="Toggle theme">🌙</button>
+                <button id="mobile-menu-btn" class="mobile-menu-btn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav" id="mobile-nav">
+        <div class="mobile-nav-header">
+            <span class="logo">📚 GCSE Revise</span>
+            <button id="close-mobile" class="close-btn">✕</button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="#subjects">Subjects</a>
+            <a href="#exam-boards">Exam Boards</a>
+            <a href="#about">About</a>
+        </nav>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <main>
+        <section class="hero">
+            <h1>Free GCSE Revision Notes</h1>
+            <p class="hero-subtitle">Comprehensive revision materials for all subjects and exam boards</p>
+            <div class="search-box">
+                <input type="search" id="search" placeholder="Search for a subject or topic...">
+                <button onclick="handleSearch()">Search</button>
+            </div>
+            <div class="quick-stats">
+                <div class="stat">
+                    <span class="stat-number">37</span>
+                    <span class="stat-label">Subjects</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label">Exam Boards</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">600+</span>
+                    <span class="stat-label">Topics</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="exam-boards" class="exam-boards">
+            <h2>Supported Exam Boards</h2>
+            <div class="board-grid">
+                <div class="board-card" data-board="AQA">
+                    <h3>AQA</h3>
+                    <p>Assessment and Qualifications Alliance</p>
+                    <span class="subject-count">~35 subjects</span>
+                </div>
+                <div class="board-card" data-board="Edexcel">
+                    <h3>Edexcel</h3>
+                    <p>Pearson Edexcel</p>
+                    <span class="subject-count">~40 subjects</span>
+                </div>
+                <div class="board-card" data-board="OCR">
+                    <h3>OCR</h3>
+                    <p>Oxford, Cambridge and RSA</p>
+                    <span class="subject-count">~28 subjects</span>
+                </div>
+                <div class="board-card" data-board="Eduqas">
+                    <h3>Eduqas</h3>
+                    <p>WJEC (for England)</p>
+                    <span class="subject-count">~22 subjects</span>
+                </div>
+                <div class="board-card" data-board="CCEA">
+                    <h3>CCEA</h3>
+                    <p>Northern Ireland</p>
+                    <span class="subject-count">~41 subjects</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="subjects" class="subjects">
+            <h2>Browse by Subject</h2>
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">All</button>
+                <button class="category-tab" data-category="Core">Core</button>
+                <button class="category-tab" data-category="Science">Science</button>
+                <button class="category-tab" data-category="Humanities">Humanities</button>
+                <button class="category-tab" data-category="Languages">Languages</button>
+                <button class="category-tab" data-category="Creative">Creative</button>
+                <button class="category-tab" data-category="Technical">Technical</button>
+                <button class="category-tab" data-category="Other">Other</button>
+            </div>
+            <div id="subjects-grid" class="subjects-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About GCSE Revise</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>GCSE Revise provides free, comprehensive revision notes for all GCSE subjects across all major UK exam boards.</p>
+                    <p>Each topic includes:</p>
+                    <ul>
+                        <li>📊 Clear explanations of key concepts</li>
+                        <li>📝 Detailed revision notes</li>
+                        <li>💡 Real-world examples</li>
+                        <li>❓ Practice questions with answers</li>
+                        <li>🎯 Exam-specific tips and techniques</li>
+                        <li>📚 Key term glossaries</li>
+                    </ul>
+                </div>
+                <div class="about-features">
+                    <div class="feature">
+                        <span class="feature-icon">📱</span>
+                        <h4>Mobile Friendly</h4>
+                        <p>Revise anywhere on your phone</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🌙</span>
+                        <h4>Dark Mode</h4>
+                        <p>Easy on the eyes for late-night revision</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🔒</span>
+                        <h4>Privacy First</h4>
+                        <p>No login required, no data collected</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">£</span>
+                        <h4>100% Free</h4>
+                        <p>All content available at no cost</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+        <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+        <p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a></p>
+    </footer>
+
+    <script src="subjects.json" type="application/json"></script>
+    <script src="app.js"></script>
+</body>
+</html>
