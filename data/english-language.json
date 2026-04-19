@@ -1,0 +1,227 @@
+{
+  "subject": "English Language",
+  "id": "english-language",
+  "examBoards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+  "papers": {
+    "AQA": [
+      { "name": "Paper 1", "title": "Explorations in Creative Reading and Writing", "duration": "1h 45m", "marks": 80, "weighting": 50 },
+      { "name": "Paper 2", "title": "Writers' Viewpoints and Perspectives", "duration": "1h 45m", "marks": 80, "weighting": 50 }
+    ],
+    "Edexcel": [
+      { "name": "Paper 1", "title": "Fiction and Imaginative Writing", "duration": "1h 45m", "marks": 80, "weighting": 50 },
+      { "name": "Paper 2", "title": "Non-fiction and Transactional Writing", "duration": "1h 45m", "marks": 80, "weighting": 50 }
+    ],
+    "OCR": [
+      { "name": "Paper 1", "title": "Communicating Information and Ideas", "duration": "2h", "marks": 80, "weighting": 50 },
+      { "name": "Paper 2", "title": "Exploring Effects and Impact", "duration": "2h", "marks": 80, "weighting": 50 }
+    ],
+    "Eduqas": [
+      { "name": "Paper 1", "title": "20th Century Literature Reading and Creative Prose Writing", "duration": "1h 45m", "marks": 80, "weighting": 50 },
+      { "name": "Paper 2", "title": "19th and 21st Century Non-fiction Reading and Transactional/Persuasive Writing", "duration": "2h", "marks": 80, "weighting": 50 }
+    ],
+    "CCEA": [
+      { "name": "Paper 1", "title": "External Assessment", "duration": "varies", "marks": "varies", "weighting": 60 },
+      { "name": "Paper 2", "title": "Controlled Assessment", "duration": "varies", "marks": "varies", "weighting": 40 }
+    ]
+  },
+  "assessmentObjectives": [
+    { "id": "AO1", "description": "Identify and interpret explicit and implicit information and ideas; select and synthesise evidence from different texts", "weighting": "15-20%" },
+    { "id": "AO2", "description": "Explain, comment on and analyse how writers use language and structure to achieve effects and influence readers", "weighting": "25-30%" },
+    { "id": "AO3", "description": "Compare writers' ideas and perspectives, and how these are conveyed across texts", "weighting": "15-20%" },
+    { "id": "AO4", "description": "Evaluate texts critically and support this with appropriate textual references", "weighting": "15-20%" },
+    { "id": "AO5", "description": "Communicate clearly, effectively and imaginatively, selecting and adapting tone, style and register for different forms, purposes and audiences", "weighting": "20-25%" },
+    { "id": "AO6", "description": "Use a range of vocabulary and sentence structures for clarity, purpose and effect, with accurate spelling and punctuation", "weighting": "10-15%" }
+  ],
+  "strands": [
+    {
+      "id": "reading",
+      "name": "Reading Skills",
+      "topics": [
+        {
+          "id": "R1",
+          "name": "Retrieval and Literal Comprehension",
+          "description": "Finding and extracting explicit information from texts",
+          "skills": ["scanning", "skimming", "locating specific details", "identifying key information"],
+          "ao": ["AO1"]
+        },
+        {
+          "id": "R2",
+          "name": "Inference and Deduction",
+          "description": "Reading between the lines to understand implied meanings",
+          "skills": ["interpreting subtext", "understanding tone", "drawing conclusions", "inferring character feelings", "understanding implications"],
+          "ao": ["AO1"]
+        },
+        {
+          "id": "R3",
+          "name": "Language Analysis",
+          "description": "Analysing how writers use language to create effects",
+          "skills": ["metaphor", "simile", "personification", "alliteration", "onomatopoeia", "sensory language", "emotive language", "semantic fields", "word choice", "tone"],
+          "ao": ["AO2"]
+        },
+        {
+          "id": "R4",
+          "name": "Structure Analysis",
+          "description": "Analysing how writers organise and structure their texts",
+          "skills": ["paragraphing", "sentence variety", "openings and endings", "narrative perspective", "focus shifts", "pacing", "temporal structure", "climactic moments"],
+          "ao": ["AO2"]
+        },
+        {
+          "id": "R5",
+          "name": "Evaluation",
+          "description": "Critically evaluating texts and supporting opinions with evidence",
+          "skills": ["judging effectiveness", "critical assessment", "supporting opinions", "analysing impact on reader", "discussing writer's choices"],
+          "ao": ["AO4"]
+        },
+        {
+          "id": "R6",
+          "name": "Comparison",
+          "description": "Comparing texts and identifying similarities and differences",
+          "skills": ["comparing perspectives", "comparing methods", "comparing tone and style", "synthesising information", "identifying differences"],
+          "ao": ["AO3"]
+        },
+        {
+          "id": "R7",
+          "name": "Synthesis",
+          "description": "Combining information from multiple sources",
+          "skills": ["summarising", "combining evidence", "identifying common themes", "drawing together ideas"],
+          "ao": ["AO1", "AO3"]
+        },
+        {
+          "id": "R8",
+          "name": "Understanding Perspectives",
+          "description": "Identifying and understanding writers' viewpoints and perspectives",
+          "skills": ["identifying viewpoint", "understanding bias", "recognising perspective", "analysing how perspective is conveyed"],
+          "ao": ["AO3"]
+        }
+      ]
+    },
+    {
+      "id": "writing-creative",
+      "name": "Creative Writing",
+      "topics": [
+        {
+          "id": "WC1",
+          "name": "Descriptive Writing",
+          "description": "Writing descriptively to create vivid images and atmosphere",
+          "skills": ["sensory imagery", "vivid vocabulary", "figurative language", "show-don't-tell", "atmosphere and mood", "spatial organisation", "micro and macro description"],
+          "ao": ["AO5", "AO6"]
+        },
+        {
+          "id": "WC2",
+          "name": "Narrative Writing",
+          "description": "Writing engaging stories with plot, character and setting",
+          "skills": ["plot structure", "character development", "setting creation", "dialogue", "narrative voice", "tension and suspense", "openings and endings"],
+          "ao": ["AO5", "AO6"]
+        },
+        {
+          "id": "WC3",
+          "name": "Vocabulary and Word Choice",
+          "description": "Selecting and using ambitious vocabulary effectively",
+          "skills": ["ambitious synonyms", "powerful verbs", "precise adjectives", "avoiding repetition", "appropriate register"],
+          "ao": ["AO6"]
+        },
+        {
+          "id": "WC4",
+          "name": "Sentence Structures",
+          "description": "Using varied sentence structures for effect",
+          "skills": ["simple sentences", "compound sentences", "complex sentences", "sentence starters", "varied length", "short sentences for impact"],
+          "ao": ["AO6"]
+        },
+        {
+          "id": "WC5",
+          "name": "Punctuation",
+          "description": "Using punctuation accurately and for effect",
+          "skills": ["full stops", "commas", "colons", "semi-colons", "dashes", "speech marks", "apostrophes", "ellipsis"],
+          "ao": ["AO6"]
+        }
+      ]
+    },
+    {
+      "id": "writing-transactional",
+      "name": "Transactional and Persuasive Writing",
+      "topics": [
+        {
+          "id": "WT1",
+          "name": "Persuasive Writing",
+          "description": "Writing to persuade and convince an audience",
+          "skills": ["rhetorical questions", "triples", "emotive language", "direct address", "statistics", "expert opinion", "counter-arguments", "call to action"],
+          "ao": ["AO5", "AO6"]
+        },
+        {
+          "id": "WT2",
+          "name": "Letters",
+          "description": "Writing formal and informal letters",
+          "skills": ["letter structure", "formal register", "informal register", "addressing the recipient", "signing off"],
+          "ao": ["AO5", "AO6"]
+        },
+        {
+          "id": "WT3",
+          "name": "Speeches",
+          "description": "Writing engaging speeches for different audiences",
+          "skills": ["direct address", "rhetorical devices", "memorability", "audience engagement", "speech structure"],
+          "ao": ["AO5", "AO6"]
+        },
+        {
+          "id": "WT4",
+          "name": "Articles",
+          "description": "Writing newspaper and magazine articles",
+          "skills": ["headlines", "subheadings", "engaging openings", "factual content", "article structure", "journalistic style"],
+          "ao": ["AO5", "AO6"]
+        },
+        {
+          "id": "WT5",
+          "name": "Reviews",
+          "description": "Writing reviews of films, books, products, etc.",
+          "skills": ["judgment", "evidence", "recommendations", "balanced view", "review structure"],
+          "ao": ["AO5", "AO6"]
+        },
+        {
+          "id": "WT6",
+          "name": "Audience and Purpose",
+          "description": "Adapting writing for different audiences and purposes",
+          "skills": ["audience awareness", "purpose identification", "tone adaptation", "register choices", "formal vs informal"],
+          "ao": ["AO5"]
+        }
+      ]
+    },
+    {
+      "id": "spelling",
+      "name": "Spelling, Punctuation and Grammar",
+      "topics": [
+        {
+          "id": "SPG1",
+          "name": "Spelling Rules and Patterns",
+          "description": "Understanding and applying spelling rules",
+          "skills": ["common patterns", "homophones", "subject-specific vocabulary", "commonly misspelt words", "prefixes and suffixes"],
+          "ao": ["AO6"]
+        },
+        {
+          "id": "SPG2",
+          "name": "Punctuation for Effect",
+          "description": "Using punctuation to create specific effects",
+          "skills": ["commas for clauses", "colons for lists and emphasis", "semi-colons for linking", "dashes for dramatic effect", "ellipsis for suspense"],
+          "ao": ["AO6"]
+        },
+        {
+          "id": "SPG3",
+          "name": "Grammar and Syntax",
+          "description": "Understanding and using grammatical structures correctly",
+          "skills": ["subject-verb agreement", "tense consistency", "clause structures", "active and passive voice", "subject terminology"],
+          "ao": ["AO6"]
+        },
+        {
+          "id": "SPG4",
+          "name": "Paragraphing",
+          "description": "Organising writing into effective paragraphs",
+          "skills": ["topic sentences", "coherent paragraphs", "linking paragraphs", "paragraph length", "structural coherence"],
+          "ao": ["AO5", "AO6"]
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "spokenLanguage": "Spoken Language is a separate non-exam assessment, graded Pass/Merit/Distinction. It does not count towards the GCSE grade.",
+    "paperDifferences": "All boards assess similar skills but structure papers differently. AQA and Edexcel split into creative/imaginative and non-fiction/transactional papers.",
+    "textTypes": "Students encounter 19th, 20th and 21st century texts including fiction, non-fiction, literary non-fiction, journalism, speeches and essays."
+  }
+}

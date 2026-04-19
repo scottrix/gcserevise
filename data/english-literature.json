@@ -1,0 +1,298 @@
+{
+  "subject": "English Literature",
+  "id": "english-literature",
+  "examBoards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+  "papers": {
+    "AQA": [
+      { "name": "Paper 1", "title": "Shakespeare and the 19th-century novel", "duration": "1h 45m", "marks": 64, "weighting": 40 },
+      { "name": "Paper 2", "title": "Modern texts and poetry", "duration": "2h 15m", "marks": 96, "weighting": 60 }
+    ],
+    "Edexcel": [
+      { "name": "Paper 1", "title": "Shakespeare and Post-1914 Literature", "duration": "1h 45m", "marks": 64, "weighting": 50 },
+      { "name": "Paper 2", "title": "19th Century Novel and Poetry since 1789", "duration": "2h 15m", "marks": 96, "weighting": 50 }
+    ],
+    "OCR": [
+      { "name": "Paper 1", "title": "Exploring Modern and Literary Heritage Texts", "duration": "2h", "marks": 80, "weighting": 50 },
+      { "name": "Paper 2", "title": "Exploring Poetry and Shakespeare", "duration": "2h 30m", "marks": 80, "weighting": 50 }
+    ],
+    "Eduqas": [
+      { "name": "Paper 1", "title": "Shakespeare and Poetry", "duration": "2h", "marks": 80, "weighting": 40 },
+      { "name": "Paper 2", "title": "Post-1914 Prose/Drama, 19th Century Prose and Unseen Poetry", "duration": "2h 30m", "marks": 120, "weighting": 60 }
+    ],
+    "CCEA": [
+      { "name": "Unit 1", "title": "The Study of Prose", "duration": "1h 45m", "marks": 60, "weighting": 30 },
+      { "name": "Unit 2", "title": "The Study of Drama and Poetry", "duration": "2h", "marks": 60, "weighting": 30 },
+      { "name": "Unit 3", "title": "The Study of Shakespeare", "duration": "1h 45m", "marks": 80, "weighting": 40 }
+    ]
+  },
+  "assessmentObjectives": [
+    { "id": "AO1", "description": "Read, understand and respond to texts. Maintain a critical style and develop an informed personal response. Use textual references, including quotations, to support and develop interpretations.", "weighting": "25-35%" },
+    { "id": "AO2", "description": "Analyse the language, form and structure used by a writer to create meanings and effects, using relevant subject terminology where appropriate.", "weighting": "30-40%" },
+    { "id": "AO3", "description": "Show understanding of the relationships between texts and the contexts in which they were written.", "weighting": "15-25%" },
+    { "id": "AO4", "description": "Use a range of vocabulary and sentence structures for clarity, purpose and effect, with accurate spelling and punctuation.", "weighting": "5-10%" }
+  ],
+  "settexts": {
+    "shakespeare": {
+      "name": "Shakespeare Plays",
+      "description": "All boards offer a choice of Shakespeare plays for detailed study",
+      "common": ["Macbeth", "Romeo and Juliet", "The Tempest", "The Merchant of Venice", "Much Ado About Nothing", "Julius Caesar"],
+      "additional": {
+        "Edexcel": ["Henry V"],
+        "OCR": ["Henry V", "Twelfth Night", "Richard III"],
+        "Eduqas": ["Henry V", "Twelfth Night"],
+        "CCEA": ["Henry V", "Twelfth Night"]
+      }
+    },
+    "nineteenth-century": {
+      "name": "19th Century Novels",
+      "description": "Students study one 19th century novel in detail",
+      "common": ["Dr Jekyll and Mr Hyde", "A Christmas Carol", "Great Expectations", "Jane Eyre", "Frankenstein", "Pride and Prejudice", "The Sign of Four"],
+      "additional": {
+        "OCR": ["The War of the Worlds", "The Picture of Dorian Gray"],
+        "Eduqas": ["The War of the Worlds"],
+        "CCEA": ["The War of the Worlds"]
+      }
+    },
+    "modern-texts": {
+      "name": "Modern Texts (Post-1914)",
+      "description": "Students study one modern text - drama or prose",
+      "drama": ["An Inspector Calls", "Blood Brothers", "The History Boys", "DNA", "The Curious Incident of the Dog in the Night-Time", "A Taste of Honey"],
+      "prose": ["Lord of the Flies", "Animal Farm", "Never Let Me Go", "Anita and Me", "Pigeon English"],
+      "additional": {
+        "AQA": ["Princess & The Hustler", "Leave Taking", "My Name is Leon"],
+        "OCR": ["The Crucible", "To Kill a Mockingbird", "Of Mice and Men"],
+        "Eduqas": ["The Crucible", "To Kill a Mockingbird", "Of Mice and Men", "Things Fall Apart"],
+        "Edexcel": ["Things Fall Apart"]
+      }
+    },
+    "poetry": {
+      "name": "Poetry Anthologies",
+      "description": "Students study a poetry anthology and respond to unseen poetry",
+      "anthologies": {
+        "AQA": ["Love and Relationships", "Power and Conflict", "Worlds and Lives"],
+        "Edexcel": ["Time and Place", "Relationships", "Conflict"],
+        "OCR": ["Toward a World Unknown", "Love and Relationships", "Conflict"],
+        "Eduqas": ["Poetry Anthology (18 poems)"]
+      }
+    }
+  },
+  "strands": [
+    {
+      "id": "analysis",
+      "name": "Literary Analysis Skills",
+      "topics": [
+        {
+          "id": "L1",
+          "name": "Context Analysis",
+          "description": "Understanding historical, social and cultural context of texts",
+          "skills": ["historical context", "social background", "author's biography", "literary period", "political influences", "gender and class", "religious context"],
+          "ao": ["AO3"]
+        },
+        {
+          "id": "L2",
+          "name": "Plot Analysis",
+          "description": "Understanding and analysing narrative structure and plot development",
+          "skills": ["narrative structure", "key events", "turning points", "subplots", "dramatic irony", "foreshadowing", "pacing", "openings and endings"],
+          "ao": ["AO1"]
+        },
+        {
+          "id": "L3",
+          "name": "Character Analysis",
+          "description": "Analysing characters and their development",
+          "skills": ["character arcs", "protagonist/antagonist", "minor characters", "motivation", "relationships", "character foil", "dialogue analysis", "physical descriptions"],
+          "ao": ["AO1", "AO2"]
+        },
+        {
+          "id": "L4",
+          "name": "Theme Analysis",
+          "description": "Identifying and analysing themes in texts",
+          "skills": ["major themes", "minor themes", "theme development", "universal themes", "author's purpose", "modern relevance"],
+          "ao": ["AO1", "AO3"]
+        },
+        {
+          "id": "L5",
+          "name": "Language Analysis",
+          "description": "Analysing language choices and their effects",
+          "skills": ["word choice", "imagery", "metaphor", "simile", "personification", "symbolism", "irony", "tone", "rhetorical devices"],
+          "ao": ["AO2"]
+        },
+        {
+          "id": "L6",
+          "name": "Form Analysis",
+          "description": "Analysing the form of texts and its significance",
+          "skills": ["genre conventions", "dramatic form", "novel form", "poetry form", "narrative perspective", "literary tradition"],
+          "ao": ["AO2"]
+        },
+        {
+          "id": "L7",
+          "name": "Structure Analysis",
+          "description": "Analysing structural choices in texts",
+          "skills": ["text organisation", "act/scene divisions", "chronological structure", "flashbacks", "linear vs non-linear", "cyclical structure", "climactic moments"],
+          "ao": ["AO2"]
+        }
+      ]
+    },
+    {
+      "id": "shakespeare",
+      "name": "Shakespeare Topics",
+      "topics": [
+        {
+          "id": "S1",
+          "name": "Shakespearean Context",
+          "description": "Understanding Shakespeare's theatre, era and conventions",
+          "skills": ["Elizabethan theatre", "Globe Theatre", "Jacobean context", "theatrical conventions", "audience expectations", "patronage system"],
+          "ao": ["AO3"]
+        },
+        {
+          "id": "S2",
+          "name": "Shakespearean Language",
+          "description": "Analysing Shakespeare's distinctive language use",
+          "skills": ["iambic pentameter", "blank verse", "prose", "soliloquy", "asides", "imagery", "rhetorical devices", "wordplay"],
+          "ao": ["AO2"]
+        },
+        {
+          "id": "S3",
+          "name": "Shakespearean Dramatic Techniques",
+          "description": "Understanding dramatic techniques in Shakespeare's plays",
+          "skills": ["dramatic irony", "tension building", "stagecraft", "entrances and exits", "comedy and tragedy", "tragic hero"],
+          "ao": ["AO2"]
+        },
+        {
+          "id": "S4",
+          "name": "Shakespeare Extract Analysis",
+          "description": "How to analyse Shakespeare extracts effectively",
+          "skills": ["close reading", "quotation selection", "language analysis", "structure awareness", "linking to whole play"],
+          "ao": ["AO1", "AO2"]
+        }
+      ]
+    },
+    {
+      "id": "poetry",
+      "name": "Poetry Skills",
+      "topics": [
+        {
+          "id": "P1",
+          "name": "Poetry Terminology",
+          "description": "Key terms for analysing poetry",
+          "skills": ["stanza", "verse", "enjambment", "caesura", "rhyme scheme", "meter", "free verse", "sonnet", "ballad"],
+          "ao": ["AO2"]
+        },
+        {
+          "id": "P2",
+          "name": "Comparing Poems",
+          "description": "How to compare poems effectively",
+          "skills": ["identifying similarities", "identifying differences", "comparing themes", "comparing methods", "comparing contexts", "comparing tones"],
+          "ao": ["AO1", "AO2", "AO3"]
+        },
+        {
+          "id": "P3",
+          "name": "Unseen Poetry",
+          "description": "Approaches to analysing unseen poems",
+          "skills": ["first impressions", "identifying form", "language analysis", "structure analysis", "theme identification", "personal response"],
+          "ao": ["AO1", "AO2"]
+        },
+        {
+          "id": "P4",
+          "name": "Poetry Context",
+          "description": "Understanding context in poetry",
+          "skills": ["historical period", "poet's biography", "social context", "political context", "literary movement"],
+          "ao": ["AO3"]
+        }
+      ]
+    },
+    {
+      "id": "nineteenth-century",
+      "name": "19th Century Novel Topics",
+      "topics": [
+        {
+          "id": "N1",
+          "name": "Victorian Context",
+          "description": "Understanding the Victorian era and its influence on literature",
+          "skills": ["Industrial Revolution", "social class", "gender roles", "religion", "science vs religion", "imperialism", "poverty"],
+          "ao": ["AO3"]
+        },
+        {
+          "id": "N2",
+          "name": "Victorian Novel Conventions",
+          "description": "Understanding conventions of Victorian novels",
+          "skills": ["serialised publication", "Gothic elements", "realism", "social commentary", "moral purpose", "first-person narration"],
+          "ao": ["AO2"]
+        },
+        {
+          "id": "N3",
+          "name": "Gothic Literature",
+          "description": "Understanding Gothic conventions in 19th century texts",
+          "skills": ["horror and terror", "supernatural elements", "duality", "secrets and mysteries", "atmosphere", "setting"],
+          "ao": ["AO2", "AO3"]
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "name": "Modern Text Topics",
+      "topics": [
+        {
+          "id": "M1",
+          "name": "Modern Context",
+          "description": "Understanding 20th/21st century contexts",
+          "skills": ["world wars", "social change", "class system", "gender equality", "multiculturalism", "technology", "political movements"],
+          "ao": ["AO3"]
+        },
+        {
+          "id": "M2",
+          "name": "Modern Dramatic Techniques",
+          "description": "Understanding techniques in modern drama",
+          "skills": ["stage directions", "dramatic irony", "cliffhangers", "props and staging", "naturalism", "expressionism", "breaking the fourth wall"],
+          "ao": ["AO2"]
+        },
+        {
+          "id": "M3",
+          "name": "Modern Novel Techniques",
+          "description": "Understanding techniques in modern novels",
+          "skills": ["stream of consciousness", "unreliable narrator", "multiple perspectives", "fragmented narrative", "symbolism", "allegory"],
+          "ao": ["AO2"]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name": "Writing About Literature",
+      "topics": [
+        {
+          "id": "W1",
+          "name": "Using Quotations",
+          "description": "Embedding and analysing quotations effectively",
+          "skills": ["selecting relevant quotations", "embedding quotations", "analysing language", "linking to themes", "linking to context"],
+          "ao": ["AO1", "AO2"]
+        },
+        {
+          "id": "W2",
+          "name": "Essay Structure",
+          "description": "Organising literature essays effectively",
+          "skills": ["introduction", "thesis statement", "topic sentences", "PEEL paragraphs", "conclusion", "linking paragraphs"],
+          "ao": ["AO1", "AO4"]
+        },
+        {
+          "id": "W3",
+          "name": "Critical Style",
+          "description": "Developing a critical analytical style",
+          "skills": ["formal language", "analytical verbs", "avoiding description", "developing argument", "personal response"],
+          "ao": ["AO1", "AO4"]
+        },
+        {
+          "id": "W4",
+          "name": "Subject Terminology",
+          "description": "Using literary terminology accurately",
+          "skills": ["language terms", "structural terms", "form terms", "dramatic terms", "poetic terms", "appropriate use"],
+          "ao": ["AO2"]
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "closedBook": "All boards are closed book - students cannot take texts into the exam and must memorise key quotations.",
+    "extractBased": "Shakespeare and 19th century novel questions usually include an extract which students analyse before linking to the whole text.",
+    "poetry": "Students must know their anthology poems well and also respond to unseen poetry.",
+    "textChoice": "Texts studied vary by school. Check with your teacher which texts you are studying."
+  }
+}
