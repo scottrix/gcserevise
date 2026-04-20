@@ -94,11 +94,15 @@ function filterByBoard(board) {
 }
 
 function openSubject(subjectId) {
-    // For now, just show an alert - will be replaced with actual page navigation
+  const landingPages = ['mathematics', 'english-language', 'english-literature'];
+  if (landingPages.includes(subjectId)) {
+    window.location.href = `${subjectId}.html`;
+  } else {
     const subject = subjectsData.find(s => s.id === subjectId);
     if (subject) {
-        alert(`Subject: ${subject.name}\nBoards: ${subject.boards.join(', ')}\n\nThis page will be implemented with full topic lists and revision notes.`);
+      alert(`${subject.name} revision notes coming soon!\n\nCheck back later for full topic coverage.`);
     }
+  }
 }
 
 function handleSearch() {
