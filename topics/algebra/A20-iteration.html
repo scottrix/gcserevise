@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iteration - GCSE Maths Revision</title>
+<meta name="description" content="Learn to find approximate solutions using systematic iteration. Higher tier GCSE Maths.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Algebra</a> <span>›</span>
+<span>Iteration</span>
+</nav>
+
+<article class="topic-header">
+<h1>A20: Iteration</h1>
+<div class="topic-meta">
+<span class="badge higher">Higher Only</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Find approximate solutions using systematic iteration; use suffix notation in recursive formulae</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Iteration:</strong> A method for finding approximate solutions to equations by repeatedly applying a formula.
+</div>
+
+<div class="key-point">
+<strong>Recursive formula:</strong> Uses previous values to find new values. Written with suffix notation: x₁, x₂, x₃, etc.
+</div>
+
+<div class="formula-box">
+<strong>General form:</strong> x<sub>n+1</sub> = f(x<sub>n</sub>)<br>
+Start with x₁ and find x₂, x₃, x₄, ...
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Setting Up Iteration</h2>
+
+<div class="key-point">
+<strong>Method:</strong>
+<ol>
+<li>Rearrange the equation to x = f(x) form</li>
+<li>Choose a starting value x₁</li>
+<li>Apply the formula repeatedly</li>
+<li>Stop when values converge (stop changing)</li>
+</ol>
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>Find an iterative formula for x² - 3x - 5 = 0</p>
+<p><strong>Solution:</strong></p>
+<p>Rearrange: x² = 3x + 5</p>
+<p>x = √(3x + 5)</p>
+<p><strong>Iterative formula: x<sub>n+1</sub> = √(3x<sub>n</sub> + 5)</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>Find another iterative formula for x² - 3x - 5 = 0</p>
+<p><strong>Solution:</strong></p>
+<p>Alternative rearrangement: x² - 3x = 5</p>
+<p>x(x - 3) = 5</p>
+<p>x = <sup>5</sup>⁄<sub>x - 3</sub></p>
+<p><strong>Iterative formula: x<sub>n+1</sub> = <sup>5</sup>⁄<sub>x<sub>n</sub> - 3</sub></strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Applying Iteration</h2>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>Use x<sub>n+1</sub> = √(3x<sub>n</sub> + 5) with x₁ = 4 to find x₂, x₃, x₄, x₅.</p>
+<p><strong>Solution:</strong></p>
+<p>x₂ = √(3(4) + 5) = √17 = 4.123...</p>
+<p>x₃ = √(3(4.123) + 5) = √17.369 = 4.168...</p>
+<p>x₄ = √(3(4.168) + 5) = √17.504 = 4.184...</p>
+<p>x₅ = √(3(4.184) + 5) = √17.552 = 4.189...</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Finding Solutions to Given Accuracy</h2>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>Find a solution to x² - x - 2 = 0 correct to 2 decimal places, using x<sub>n+1</sub> = √(x<sub>n</sub> + 2) with x₁ = 2.</p>
+<p><strong>Solution:</strong></p>
+<p>x₂ = √(2 + 2) = 2</p>
+<p>x₃ = √(2 + 2) = 2</p>
+<p>The values converge to x = 2</p>
+<p><strong>Check:</strong> 2² - 2 - 2 = 0 ✓</p>
+<p><strong>Solution: x = 2.00</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>Solve x³ + x = 5 correct to 3 d.p. using x<sub>n+1</sub> = <sup>5</sup>⁄<sub>x<sub>n</sub>²</sub> + 1 with x₁ = 2.</p>
+<p><strong>Solution:</strong></p>
+<p>x₂ = <sup>5</sup>⁄<sub>4</sub> + 1 = 2.25</p>
+<p>x₃ = <sup>5</sup>⁄<sub>5.0625</sub> + 1 = 1.988...</p>
+<p>x₄ = <sup>5</sup>⁄<sub>3.953</sub> + 1 = 2.264...</p>
+<p>x₅ = <sup>5</sup>⁄<sub>5.124</sub> + 1 = 1.976...</p>
+<p>This formula is diverging. Try a different rearrangement.</p>
+<p>x<sub>n+1</sub> = ³√(5 - x<sub>n</sub>) with x₁ = 2:</p>
+<p>x₂ = ³√(3) = 1.442</p>
+<p>x₃ = ³√(3.558) = 1.527</p>
+<p>x₄ = ³√(3.473) = 1.514</p>
+<p>x₅ = ³√(3.486) = 1.516</p>
+<p>x₆ = ³√(3.484) = 1.516</p>
+<p><strong>Solution: x = 1.516</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Convergence and Divergence</h2>
+
+<div class="key-point">
+<strong>Convergence:</strong> Values get closer to the solution (good!).<br>
+<strong>Divergence:</strong> Values get further apart (try a different rearrangement).
+</div>
+
+<div class="key-point">
+<strong>Tip:</strong> If iteration diverges, try rearranging the equation differently.
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Rearrange x² + 2x - 4 = 0 into the form x = √(4 - 2x).</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Use x<sub>n+1</sub> = <sup>4</sup>⁄<sub>x<sub>n</sub></sub> - 2 with x₁ = 1. Find x₂ and x₃.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Use x<sub>n+1</sub> = √(x<sub>n</sub> + 2) with x₁ = 2. Find x₂, x₃, x₄.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Find a root of x³ - 2x - 3 = 0 using x<sub>n+1</sub> = ³√(2x<sub>n</sub> + 3), x₁ = 2, to 2 d.p.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Write down an iterative formula from x = 5 - x³.</p>
+</div>
+<div class="question">
+<p><strong>Q6:</strong> A sequence converges to 1.618. What equation might it be solving?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>x² + 2x = 4 → x² = 4 - 2x → x = √(4 - 2x) (when x > 0)</li>
+<li>x₂ = 2, x₃ = 0</li>
+<li>x₂ = 2, x₃ = 2, x₄ = 2 (converges)</li>
+<li>x ≈ 1.89</li>
+<li>x<sub>n+1</sub> = 5 - x<sub>n</sub>³</li>
+<li>x² = x + 1 (golden ratio) or similar</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always show your working with each iteration step</li>
+<li>Use ANS button on calculator for accuracy</li>
+<li>Stop when values are the same to required accuracy</li>
+<li>If diverging, try a different rearrangement</li>
+<li>Check your answer in the original equation</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="A19-simultaneous-equations.html" class="nav-prev">← Previous: Simultaneous Equations</a>
+<a href="A21-modelling-with-algebra.html" class="nav-next">Next Topic: Modelling with Algebra →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

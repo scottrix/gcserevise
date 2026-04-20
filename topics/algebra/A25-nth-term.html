@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>nth Term - GCSE Maths Revision</title>
+<meta name="description" content="Learn to find the nth term of linear and quadratic sequences. Free GCSE Maths revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Algebra</a> <span>›</span>
+<span>nth Term</span>
+</nav>
+
+<article class="topic-header">
+<h1>A25: nth Term</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Find the nth term of linear sequences; quadratic sequences (Higher)</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>nth term:</strong> A formula that allows you to find any term in a sequence without working out all the previous terms.
+</div>
+
+<div class="key-point">
+<strong>Position numbers:</strong> The position of each term (1st = position 1, 2nd = position 2, etc.)
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Finding nth Term of Linear Sequences</h2>
+
+<div class="key-point">
+<strong>Method:</strong>
+<ol>
+<li>Find the common difference (d)</li>
+<li>Multiply position (n) by the difference: dn</li>
+<li>Find what to add/subtract by comparing to dn</li>
+<li>Write as: dn + c</li>
+</ol>
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>Find the nth term of: 5, 8, 11, 14, 17, ...</p>
+<p><strong>Solution:</strong></p>
+<p>Step 1: Find the difference: 8 - 5 = 3</p>
+<p>Step 2: Start with 3n: 3, 6, 9, 12, 15</p>
+<p>Step 3: Compare to sequence: 5, 8, 11, 14, 17</p>
+<p>Difference: +2, +2, +2, +2, +2</p>
+<p><strong>nth term: 3n + 2</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>Find the nth term of: 20, 17, 14, 11, 8, ...</p>
+<p><strong>Solution:</strong></p>
+<p>Difference: -3</p>
+<p>Start with -3n: -3, -6, -9, -12, -15</p>
+<p>Compare: 20, 17, 14, 11, 8</p>
+<p>Difference: +23 (since 20 = -3 + 23)</p>
+<p><strong>nth term: -3n + 23 or 23 - 3n</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>Find the nth term of: 3, 7, 11, 15, 19, ...</p>
+<p><strong>Solution:</strong></p>
+<p>Difference: 4</p>
+<p>4n: 4, 8, 12, 16, 20</p>
+<p>Compare: 3, 7, 11, 15, 19</p>
+<p>Difference: -1</p>
+<p><strong>nth term: 4n - 1</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Using the nth Term</h2>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>Find the 50th term of the sequence with nth term 4n - 1.</p>
+<p><strong>Solution:</strong></p>
+<p>Substitute n = 50:</p>
+<p>4(50) - 1 = 200 - 1 = 199</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>Is 100 a term in the sequence 3n + 5?</p>
+<p><strong>Solution:</strong></p>
+<p>Set 3n + 5 = 100</p>
+<p>3n = 95</p>
+<p>n = 31.67 (not a whole number)</p>
+<p><strong>100 is NOT in the sequence</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Finding nth Term of Quadratic Sequences (Higher)</h2>
+
+<div class="key-point">
+<strong>Method:</strong>
+<ol>
+<li>Find first differences</li>
+<li>Find second differences (constant for quadratic)</li>
+<li>Half of second difference = coefficient of n²</li>
+<li>Subtract n² term from sequence to find remainder</li>
+</ol>
+</div>
+
+<div class="example">
+<div class="example-title">Example 6</div>
+<p>Find the nth term of: 4, 7, 12, 19, 28, ...</p>
+<p><strong>Solution:</strong></p>
+<p>Sequence: 4, 7, 12, 19, 28</p>
+<p>1st diff: 3, 5, 7, 9</p>
+<p>2nd diff: 2, 2, 2 (constant)</p>
+<p>Half of 2nd diff = 1, so start with n²</p>
+<p>n²: 1, 4, 9, 16, 25</p>
+<p>Sequence - n²: 3, 3, 3, 3, 3</p>
+<p><strong>nth term: n² + 3</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 7</div>
+<p>Find the nth term of: 5, 9, 15, 23, 33, ...</p>
+<p><strong>Solution:</strong></p>
+<p>Sequence: 5, 9, 15, 23, 33</p>
+<p>1st diff: 4, 6, 8, 10</p>
+<p>2nd diff: 2, 2, 2</p>
+<p>Half = 1, so n² term</p>
+<p>n²: 1, 4, 9, 16, 25</p>
+<p>Sequence - n²: 4, 5, 6, 7, 8 (linear: n + 3)</p>
+<p><strong>nth term: n² + n + 3</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 8</div>
+<p>Find the nth term of: 3, 9, 19, 33, 51, ...</p>
+<p><strong>Solution:</strong></p>
+<p>1st diff: 6, 10, 14, 18</p>
+<p>2nd diff: 4, 4, 4</p>
+<p>Half = 2, so 2n²</p>
+<p>2n²: 2, 8, 18, 32, 50</p>
+<p>Sequence - 2n²: 1, 1, 1, 1, 1</p>
+<p><strong>nth term: 2n² + 1</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 More Complex Quadratic Sequences</h2>
+
+<div class="example">
+<div class="example-title">Example 9</div>
+<p>Find the nth term of: 6, 15, 28, 45, 66, ...</p>
+<p><strong>Solution:</strong></p>
+<p>1st diff: 9, 13, 17, 21</p>
+<p>2nd diff: 4, 4, 4</p>
+<p>Half = 2, so 2n²</p>
+<p>2n²: 2, 8, 18, 32, 50</p>
+<p>Sequence - 2n²: 4, 7, 10, 13, 16 (linear: 3n + 1)</p>
+<p><strong>nth term: 2n² + 3n + 1</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Find the nth term of: 6, 10, 14, 18, 22, ...</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Find the nth term of: 50, 46, 42, 38, 34, ...</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Find the 100th term of: 7n - 3</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Is 80 a term in the sequence 5n + 10?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Find the nth term of: 2, 5, 10, 17, 26, ...</p>
+</div>
+<div class="question">
+<p><strong>Q6:</strong> Find the nth term of: 6, 11, 18, 27, 38, ...</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>4n + 2</li>
+<li>-4n + 54 or 54 - 4n</li>
+<li>697</li>
+<li>5n + 10 = 80 → n = 14, yes it's the 14th term</li>
+<li>n² + 1</li>
+<li>n² + 2n + 3</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Linear: Find difference, then multiply n by this and adjust</li>
+<li>Quadratic: Check second difference are constant</li>
+<li>Half of second difference = coefficient of n²</li>
+<li>Always check by substituting n = 1, 2, 3</li>
+<li>For linear, quick check: 1st term shows if constant is right</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="A24-types-of-sequences.html" class="nav-prev">← Previous: Types of Sequences</a>
+<a href="../ratio/R1-compound-units.html" class="nav-next">Next Topic: Compound Units →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tree Diagrams - GCSE Maths Revision</title>
+<meta name="description" content="Calculate probability of independent and dependent combined events using tree diagrams. Free GCSE Maths revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Probability</a> <span>›</span>
+<span>Tree Diagrams</span>
+</nav>
+
+<article class="topic-header">
+<h1>P8: Tree Diagrams</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Calculate the probability of independent and dependent combined events using tree diagrams</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Tree Diagrams:</strong> A visual way to show all possible outcomes of combined events. Each branch represents an outcome with its probability.
+</div>
+
+<h3>Key Rules</h3>
+<table class="comparison-table">
+<tr><th>Rule</th><th>Description</th></tr>
+<tr><td>Branches sum to 1</td><td>P(A) + P(not A) = 1 at each branching point</td></tr>
+<tr><td>Multiply along</td><td>Multiply probabilities along branches for combined probability</td></tr>
+<tr><td>Add across</td><td>Add probabilities of different ways to get the same outcome</td></tr>
+<tr><td>Check total = 1</td><td>All final outcomes should sum to 1</td></tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📝 Drawing Tree Diagrams</h2>
+
+<div class="key-point">
+<strong>Structure:</strong> Start on the left. Each branch shows an outcome with its probability written on it. Each branch splits into further branches for subsequent events.
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>A fair coin is flipped twice. Draw a tree diagram.</p>
+<p><strong>Tree diagram:</strong></p>
+<pre>
+        ┌── H (1/2) ──→ HH (1/4)
+    H (1/2)
+    │       └── T (1/2) ──→ HT (1/4)
+Start
+    │       ┌── H (1/2) ──→ TH (1/4)
+    T (1/2)
+        └── T (1/2) ──→ TT (1/4)
+</pre>
+<p>Probabilities: P(HH) = 1/2 × 1/2 = 1/4</p>
+<p>Check: 1/4 + 1/4 + 1/4 + 1/4 = 1 ✓</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Independent Events</h2>
+
+<div class="key-point">
+<strong>Independent:</strong> The outcome of one event doesn't affect the probability of another. Probabilities stay the same at each branch.
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>A bag contains 3 red and 7 blue counters. A counter is drawn, replaced, and another drawn. Find P(at least one red).</p>
+<p><strong>Solution:</strong></p>
+<p>P(red) = 3/10, P(blue) = 7/10</p>
+<pre>
+           ┌── R (3/10) ──→ RR (9/100)
+       R (3/10)
+       │   └── B (7/10) ──→ RB (21/100)
+Start
+       │   ┌── R (3/10) ──→ BR (21/100)
+       B (7/10)
+           └── B (7/10) ──→ BB (49/100)
+</pre>
+<p>P(at least one red) = P(RR) + P(RB) + P(BR)</p>
+<p>= 9/100 + 21/100 + 21/100 = 51/100 = <strong>0.51</strong></p>
+<p><em>Alternative: 1 - P(BB) = 1 - 49/100 = 51/100</em></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Dependent Events</h2>
+
+<div class="key-point">
+<strong>Dependent:</strong> The outcome of one event affects the probability of another. Probabilities change after the first event (without replacement).
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>A bag contains 3 red and 7 blue counters. Two counters are drawn WITHOUT replacement. Find P(one of each colour).</p>
+<p><strong>Solution:</strong></p>
+<p>First draw: P(R) = 3/10, P(B) = 7/10</p>
+<p>After red: 2R, 7B left → P(R) = 2/9, P(B) = 7/9</p>
+<p>After blue: 3R, 6B left → P(R) = 3/9, P(B) = 6/9</p>
+<pre>
+           ┌── R (2/9) ──→ RR (6/90)
+       R (3/10)
+       │   └── B (7/9) ──→ RB (21/90)
+Start
+       │   ┌── R (3/9) ──→ BR (21/90)
+       B (7/10)
+           └── B (6/9) ──→ BB (42/90)
+</pre>
+<p>P(one of each) = P(RB) + P(BR)</p>
+<p>= 21/90 + 21/90 = 42/90 = 7/15</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Using Tree Diagrams for Calculation</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Multiply along branches, then add probabilities for the outcomes you want.
+</div>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>Weather forecast: P(rain) = 0.3. If it rains, P(bus late) = 0.6. If not rain, P(bus late) = 0.2. Find P(bus late).</p>
+<p><strong>Solution:</strong></p>
+<pre>
+           ┌── Late (0.6) ──→ RL (0.18)
+       Rain (0.3)
+       │   └── On time (0.4) ──→ RT (0.12)
+Start
+       │   ┌── Late (0.2) ──→ NL (0.14)
+       No rain (0.7)
+           └── On time (0.4) ──→ NT (0.56)
+</pre>
+<p>P(bus late) = P(RL) + P(NL) = 0.18 + 0.14 = <strong>0.32</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Three or More Events</h2>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>A coin is flipped 3 times. Find P(exactly 2 heads).</p>
+<p><strong>Solution:</strong></p>
+<p>Tree has 8 endpoints: HHH, HHT, HTH, HTT, THH, THT, TTH, TTT</p>
+<p>Each has probability (1/2)³ = 1/8</p>
+<p>Exactly 2 heads: HHT, HTH, THH (3 outcomes)</p>
+<p>P(exactly 2 heads) = 3 × 1/8 = <strong>3/8</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> A biased coin has P(H) = 0.7. It's flipped twice. Find P(two heads).</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A bag has 4 red and 6 blue balls. Two are drawn WITH replacement. Find P(both blue).</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Same bag, but WITHOUT replacement. Find P(both blue).</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> A test has 80% accuracy for a disease. If someone has the disease, P(positive) = 0.8. If healthy, P(positive) = 0.2. 5% of people have the disease. Find P(positive test).</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A coin is flipped 3 times. Find P(at least one tail).</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>P(HH) = 0.7 × 0.7 = 0.49</li>
+<li>P(BB) = 6/10 × 6/10 = 36/100 = 0.36</li>
+<li>P(BB) = 6/10 × 5/9 = 30/90 = 1/3</li>
+<li>P(positive) = 0.05 × 0.8 + 0.95 × 0.2 = 0.04 + 0.19 = 0.23</li>
+<li>1 - P(HHH) = 1 - 1/8 = 7/8</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always label branches with both the outcome AND probability</li>
+<li>Check branches from each point sum to 1</li>
+<li>For "without replacement" problems, update probabilities after each draw</li>
+<li>"At least one" = 1 - P(none) - use this shortcut!</li>
+<li>Check your final answer - all probabilities should sum to 1</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="P7-possibility-spaces.html" class="nav-prev">← Previous: Possibility Spaces</a>
+<a href="P9-conditional-probability.html" class="nav-next">Next Topic: Conditional Probability →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

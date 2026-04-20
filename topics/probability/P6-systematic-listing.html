@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Systematic Listing - GCSE Maths Revision</title>
+<meta name="description" content="Learn about systematic listing strategies, Venn diagrams, sets, union and intersection. Free GCSE Maths revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Probability</a> <span>›</span>
+<span>Systematic Listing</span>
+</nav>
+
+<article class="topic-header">
+<h1>P6: Systematic Listing</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Enumerate sets and combinations of sets; Venn diagrams; systematic listing strategies</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Systematic Listing:</strong> A method of listing all possible outcomes in an organised way to ensure none are missed or repeated.
+</div>
+
+<h3>Key Terms</h3>
+<table class="comparison-table">
+<tr><th>Term</th><th>Symbol</th><th>Meaning</th></tr>
+<tr><td>Union</td><td>A ∪ B</td><td>Elements in A OR B (or both)</td></tr>
+<tr><td>Intersection</td><td>A ∩ B</td><td>Elements in A AND B</td></tr>
+<tr><td>Complement</td><td>A'</td><td>Elements NOT in A</td></tr>
+<tr><td>Universal Set</td><td>ξ or U</td><td>All possible elements</td></tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📝 Systematic Listing Strategies</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Fix one element and vary the other systematically. This ensures you don't miss any combinations.
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>A meal consists of one sandwich and one drink. Sandwiches: Ham (H), Cheese (C), Tuna (T). Drinks: Water (W), Juice (J). List all possible meals.</p>
+<p><strong>Systematic listing:</strong></p>
+<p>Fix Ham: H-W, H-J</p>
+<p>Fix Cheese: C-W, C-J</p>
+<p>Fix Tuna: T-W, T-J</p>
+<p><strong>6 possible meals</strong></p>
+<p><em>Using product rule: 3 × 2 = 6 ✓</em></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>List all 2-digit numbers that can be made using digits 2, 5, 8 if repetition is allowed.</p>
+<p><strong>Systematic listing:</strong></p>
+<p>Fix first digit as 2: 22, 25, 28</p>
+<p>Fix first digit as 5: 52, 55, 58</p>
+<p>Fix first digit as 8: 82, 85, 88</p>
+<p><strong>9 numbers: 22, 25, 28, 52, 55, 58, 82, 85, 88</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Product Rule for Counting</h2>
+
+<div class="key-point">
+<strong>Rule:</strong> If there are m ways to do one thing and n ways to do another, there are m × n ways to do both.
+</div>
+
+<div class="formula-box">
+<strong>Total combinations = m × n × p × ...</strong>
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>A password uses 3 letters. How many possible passwords are there?</p>
+<p><strong>Solution:</strong></p>
+<p>First letter: 26 choices</p>
+<p>Second letter: 26 choices</p>
+<p>Third letter: 26 choices</p>
+<p>Total = 26 × 26 × 26 = <strong>17,576</strong> passwords</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Venn Diagrams</h2>
+
+<div class="key-point">
+<strong>Venn Diagrams:</strong> Visual representation of sets showing overlap (intersection) and total coverage (union).
+</div>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>In a class of 30: 18 study Maths, 14 study English, 7 study both. Draw a Venn diagram.</p>
+<p><strong>Solution:</strong></p>
+<pre>
+    ┌─────────┬─────────┐
+    │  Maths  │ English │
+    │   11    │    7    │    11 = Maths only (18 - 7)
+    │         │         │     7 = Both
+    ├─────────┴─────────┤     7 = English only (14 - 7)
+    │ Both:      7      │     5 = Neither (30 - 11 - 7 - 7)
+    │ English:   7      │
+    │ Neither:   5      │
+    └───────────────────┘
+</pre>
+<p>Check: 11 + 7 + 7 + 5 = 30 ✓</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Set Notation</h2>
+
+<div class="key-point">
+<strong>Notation:</strong> Use proper set notation to describe regions in Venn diagrams.
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>Given sets A and B, describe each region:</p>
+<p>a) A ∩ B (A and B both)</p>
+<p>b) A ∪ B (A or B or both)</p>
+<p>c) A' (not in A)</p>
+<p>d) A ∩ B' (in A but not B)</p>
+<p><strong>Descriptions:</strong></p>
+<p>a) Elements that are in BOTH A and B (middle overlap)</p>
+<p>b) Elements in A, B, or both (both circles)</p>
+<p>c) Elements NOT in A (outside circle A)</p>
+<p>d) Elements in A ONLY (left crescent, not in B)</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Finding Probabilities from Sets</h2>
+
+<div class="example">
+<div class="example-title">Example 6</div>
+<p>In a group of 50 people: 30 like pizza, 25 like burgers, 15 like both. Find:</p>
+<p>a) P(likes pizza only)</p>
+<p>b) P(likes neither)</p>
+<p>c) P(likes pizza or burgers)</p>
+<p><strong>Solution:</strong></p>
+<p>Pizza only = 30 - 15 = 15 people</p>
+<p>Burgers only = 25 - 15 = 10 people</p>
+<p>Both = 15 people</p>
+<p>Neither = 50 - 15 - 10 - 15 = 10 people</p>
+<p>a) P(pizza only) = 15/50 = <strong>0.3</strong></p>
+<p>b) P(neither) = 10/50 = <strong>0.2</strong></p>
+<p>c) P(pizza or burgers) = (15 + 10 + 15)/50 = 40/50 = <strong>0.8</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> A lunch has 3 sandwich options and 4 drink options. How many possible lunches?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> List all outcomes when spinning two 2-sided spinners showing A and B.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> In a survey of 40: 22 have cats, 18 have dogs, 8 have both. How many have neither?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> In a Venn diagram with sets A and B, shade the region A' ∩ B.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A 4-digit PIN uses digits 0-9. How many possible PINs?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>3 × 4 = 12 possible lunches</li>
+<li>AA, AB, BA, BB (4 outcomes)</li>
+<li>Cats only = 22-8 = 14, Dogs only = 18-8 = 10, Both = 8, Neither = 40-14-10-8 = 8</li>
+<li>The region in B but NOT in A (right crescent)</li>
+<li>10 × 10 × 10 × 10 = 10,000 possible PINs</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always list combinations systematically to avoid missing any</li>
+<li>Use the product rule to check your listing (multiply choices)</li>
+<li>In Venn diagrams, work from the inside out (intersection first)</li>
+<li>Check the total in a Venn diagram equals the universal set</li>
+<li>Shade carefully when asked to identify regions in Venn diagrams</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="P5-experimental-theoretical.html" class="nav-prev">← Previous: Experimental vs Theoretical</a>
+<a href="P7-possibility-spaces.html" class="nav-next">Next Topic: Possibility Spaces →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

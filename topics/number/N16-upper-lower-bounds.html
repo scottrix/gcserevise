@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upper and Lower Bounds - GCSE Maths Revision</title>
+<meta name="description" content="Learn to calculate upper and lower bounds and use them in calculations. Free GCSE Maths revision (Higher tier).">
+<meta name="keywords" content="bounds, upper, lower, limits of accuracy, error intervals">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Number</a> <span>›</span>
+<span>Upper and Lower Bounds</span>
+</nav>
+
+<article class="topic-header">
+<h1>N16: Upper and Lower Bounds</h1>
+<div class="topic-meta">
+<span class="badge higher">Higher Only</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Calculate upper and lower bounds; use bounds in calculations</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Lower Bound:</strong> The smallest value that would round to the given number.
+</div>
+
+<div class="key-point">
+<strong>Upper Bound:</strong> The smallest value that would NOT round to the given number (just above the largest value that would round to it).
+</div>
+
+<div class="formula-box">
+<strong>Finding Bounds:</strong><br>
+For a number rounded to the nearest unit d:<br>
+• Lower bound = value - ½d<br>
+• Upper bound = value + ½d<br>
+<br>
+<strong>Error Interval:</strong> lower ≤ actual < upper
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Finding Bounds</h2>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>Find the upper and lower bounds of 24 cm measured to the nearest cm</p>
+<p><strong>Solution:</strong></p>
+<p>Half the unit = 0.5 cm</p>
+<p>Lower bound = 24 - 0.5 = 23.5 cm</p>
+<p>Upper bound = 24 + 0.5 = 24.5 cm</p>
+<p><strong>Error interval: 23.5 ≤ x < 24.5</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>Find the bounds for 8.0 m measured to 1 decimal place</p>
+<p><strong>Solution:</strong></p>
+<p>Half the unit = 0.05 m</p>
+<p>Lower bound = 8.0 - 0.05 = 7.95 m</p>
+<p>Upper bound = 8.0 + 0.05 = 8.05 m</p>
+<p><strong>Error interval: 7.95 ≤ x < 8.05</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>Find the bounds for 6400 measured to 2 significant figures</p>
+<p><strong>Solution:</strong></p>
+<p>Rounded to nearest 100</p>
+<p>Half the unit = 50</p>
+<p>Lower bound = 6400 - 50 = 6350</p>
+<p>Upper bound = 6400 + 50 = 6450</p>
+<p><strong>Error interval: 6350 ≤ x < 6450</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Bounds in Calculations</h2>
+
+<div class="key-point">
+<strong>Key Principle:</strong> To find the maximum of a calculation, use bounds that make the result as large as possible. For minimum, use bounds that make it as small as possible.
+</div>
+
+<div class="formula-box">
+<strong>Rules for Bounds Calculations:</strong><br>
+Addition: Max = UB + UB, Min = LB + LB<br>
+Subtraction: Max = UB - LB, Min = LB - UB<br>
+Multiplication: Max = UB × UB, Min = LB × LB<br>
+Division: Max = UB ÷ LB, Min = LB ÷ UB
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Addition and Subtraction</h2>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>A piece of wood is 15 cm (nearest cm) and another is 28 cm (nearest cm). Find the minimum and maximum possible total length.</p>
+<p><strong>Solution:</strong></p>
+<p>Piece 1 bounds: 14.5 ≤ x < 15.5</p>
+<p>Piece 2 bounds: 27.5 ≤ x < 28.5</p>
+<p>Minimum: 14.5 + 27.5 = 42 cm</p>
+<p>Maximum: just below 15.5 + 28.5 = 44 cm</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>Calculate the maximum possible difference between two lengths: 12 cm and 8 cm, both to the nearest cm.</p>
+<p><strong>Solution:</strong></p>
+<p>12 cm bounds: 11.5 ≤ x < 12.5</p>
+<p>8 cm bounds: 7.5 ≤ x < 8.5</p>
+<p>Maximum difference: 12.5 - 7.5 = 5 cm</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Multiplication and Division</h2>
+
+<div class="example">
+<div class="example-title">Example 6</div>
+<p>A rectangle has length 8 cm and width 5 cm, both measured to the nearest cm. Find the minimum and maximum possible area.</p>
+<p><strong>Solution:</strong></p>
+<p>Length bounds: 7.5 ≤ l < 8.5</p>
+<p>Width bounds: 4.5 ≤ w < 5.5</p>
+<p>Minimum area: 7.5 × 4.5 = 33.75 cm²</p>
+<p>Maximum area: just below 8.5 × 5.5 = 46.75 cm²</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 7</div>
+<p>Speed is calculated using s = d/t. If d = 200 m (nearest 10 m) and t = 25 s (nearest second), find the maximum possible speed.</p>
+<p><strong>Solution:</strong></p>
+<p>Distance bounds: 195 ≤ d < 205</p>
+<p>Time bounds: 24.5 ≤ t < 25.5</p>
+<p>Maximum speed = Upper distance ÷ Lower time</p>
+<p>Maximum speed ≈ 205 ÷ 24.5 = 8.37 m/s</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Compound Measures</h2>
+
+<div class="example">
+<div class="example-title">Example 8</div>
+<p>A block has mass 240 g (nearest 10 g) and volume 80 cm³ (nearest cm³). Find the minimum and maximum possible density.</p>
+<p><strong>Solution:</strong></p>
+<p>Mass bounds: 235 ≤ m < 245</p>
+<p>Volume bounds: 79.5 ≤ v < 80.5</p>
+<p>Density = mass ÷ volume</p>
+<p>Minimum density = 235 ÷ 80.5 = 2.92 g/cm³</p>
+<p>Maximum density = 245 ÷ 79.5 = 3.08 g/cm³</p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Find the bounds for 35 measured to the nearest 5</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A length is 12.4 cm to 1 d.p. Find the error interval.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Two lengths are 20 cm and 15 cm (both nearest cm). Find the minimum perimeter.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> A rectangle is 10 cm by 6 cm (both nearest cm). Find the maximum possible area.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Distance = 150 km (nearest km), Time = 2 hours (nearest hour). Find the maximum possible speed.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>32.5 ≤ x < 37.5</li>
+<li>12.35 ≤ x < 12.45</li>
+<li>Min perimeter: 19.5 + 14.5 = 34 cm</li>
+<li>Max area: just below 10.5 × 6.5 = 68.25 cm²</li>
+<li>Max speed: 150.5 ÷ 1.5 = 100.33 km/h</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always state what the number is rounded to first</li>
+<li>Remember: upper bound is NOT included (use < symbol)</li>
+<li>For maximum: use largest values in numerator, smallest in denominator</li>
+<li>For minimum: use smallest values in numerator, largest in denominator</li>
+<li>Write the error interval clearly with correct inequality symbols</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="N15-rounding-error-intervals.html" class="nav-prev">← Previous: Rounding & Error Intervals</a>
+<a href="#" class="nav-next">End of Number Strand →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vector Proofs - GCSE Maths Revision</title>
+<meta name="description" content="Learn to use vectors to construct geometric arguments and proofs. Higher tier only. Free GCSE Maths revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Geometry</a> <span>›</span>
+<span>Vector Proofs</span>
+</nav>
+
+<article class="topic-header">
+<h1>G25: Vector Proofs</h1>
+<div class="topic-meta">
+<span class="badge higher">Higher Only</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Use vectors to construct geometric arguments and proofs</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Vector proofs</strong> use vector algebra to prove geometric properties such as parallel lines, midpoints, and collinear points.
+</div>
+
+<div class="key-point">
+<strong>Key facts:</strong>
+<ul>
+<li>Two vectors are parallel if one is a scalar multiple of the other</li>
+<li>Points are collinear if they lie on the same straight line</li>
+<li>A midpoint divides a line in ratio 1:1</li>
+</ul>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Proving Lines are Parallel</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Show that the vector along one line is a scalar multiple of the vector along the other line.
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>ABC is a triangle. M is the midpoint of AB, N is the midpoint of AC. Prove MN is parallel to BC.</p>
+<p><strong>Proof:</strong></p>
+<p>Let AB = 2a and AC = 2b</p>
+<p>AM = a (M is midpoint of AB)</p>
+<p>AN = b (N is midpoint of AC)</p>
+<p>MN = AN - AM = b - a</p>
+<p>BC = AC - AB = 2b - 2a = 2(b - a) = 2MN</p>
+<p>Therefore BC = 2MN, so MN and BC are parallel.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Proving Collinearity</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Show that the vector from one point to another is a scalar multiple of the vector from another pair of points.
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>Points A, B, C have position vectors a, b, c where b = 2a and c = 3a. Prove A, B, C are collinear.</p>
+<p><strong>Proof:</strong></p>
+<p>AB = b - a = 2a - a = a</p>
+<p>BC = c - b = 3a - 2a = a</p>
+<p>AB = BC, so B lies on the line from A to C.</p>
+<p>Therefore A, B, C are collinear.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Finding Ratios</h2>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>OABC is a parallelogram. M is the midpoint of OB. Find the ratio in which N divides AC.</p>
+<p><strong>Solution:</strong></p>
+<p>Let OA = a and OC = c</p>
+<p>OB = a + c (diagonal of parallelogram)</p>
+<p>OM = ½OB = ½(a + c)</p>
+<p>AC = c - a</p>
+<p>Let AN = k(c - a)</p>
+<p>ON = OA + AN = a + k(c - a) = (1-k)a + kc</p>
+<p>Also, OM = ON (M and N coincide)</p>
+<p>½(a + c) = (1-k)a + kc</p>
+<p>Comparing coefficients: ½ = 1 - k and ½ = k</p>
+<p>k = ½</p>
+<p>N is the midpoint of AC (ratio 1:1).</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Proving Medians Intersect at Centroid</h2>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>Prove that the medians of a triangle intersect at a point that divides each median in ratio 2:1.</p>
+<p><strong>Proof:</strong></p>
+<p>Let triangle vertices be A, B, C with position vectors a, b, c.</p>
+<p>Midpoint of BC: M = (b + c)/2</p>
+<p>A point dividing AM in ratio 2:1 from A: G = (a + 2M)/3</p>
+<p>G = (a + b + c)/3</p>
+<p>By symmetry, the same point divides other medians in ratio 2:1.</p>
+<p>Therefore all medians intersect at G (centroid).</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Vector Notation in Proofs</h2>
+
+<div class="key-point">
+<strong>Position vectors:</strong> Vector from origin to a point, usually written as a, b, c.
+</div>
+
+<div class="key-point">
+<strong>Displacement vectors:</strong> Vector from one point to another. AB = b - a.
+</div>
+
+<div class="key-point">
+<strong>Ratio notation:</strong> If point P divides AB in ratio m:n, then:</p>
+</div>
+
+<div class="formula-box">
+OP = (na + mb)/(m + n)
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Common Proof Techniques</h2>
+
+<div class="key-point">
+<strong>Techniques:</strong>
+<ul>
+<li>Express vectors in terms of given vectors</li>
+<li>Use properties of parallel vectors</li>
+<li>Apply midpoint formula</li>
+<li>Compare coefficients of a and b</li>
+<li>Use the fact that parallel vectors are scalar multiples</li>
+</ul>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> If AB = 3a and BC = 3a, prove A, B, C are collinear.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> M is midpoint of AB where OA = a and OB = b. Find OM.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Show that if AB = 2CD, then AB is parallel to CD.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Point P divides AB in ratio 2:3. Find OP in terms of OA and OB.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> ABCD is a quadrilateral. If AB = DC, prove ABCD is a parallelogram.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>AC = AB + BC = 6a. Since AB and AC are parallel, A, B, C collinear.</li>
+<li>OM = (a + b)/2</li>
+<li>AB = 2CD means AB is a scalar multiple of CD, therefore parallel.</li>
+<li>OP = (3a + 2b)/5</li>
+<li>AB = DC means opposite sides are equal and parallel, so ABCD is a parallelogram.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always define your vectors at the start</li>
+<li>Use the midpoint formula: (a + b)/2</li>
+<li>Parallel vectors: one is a scalar multiple of another</li>
+<li>For ratios, use the section formula</li>
+<li>Check that you've answered what was asked</li>
+<li>Draw a clear diagram to help visualise the problem</li>
+<li>Write clear conclusions with "therefore" statements</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="G24-vectors.html" class="nav-prev">← Previous: Vectors</a>
+<a href="#" class="nav-next">Next Topic: End of Geometry →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

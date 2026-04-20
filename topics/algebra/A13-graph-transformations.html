@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Graph Transformations - GCSE Maths Revision</title>
+<meta name="description" content="Learn about graph transformations including translations and reflections. Higher tier GCSE Maths.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Algebra</a> <span>›</span>
+<span>Graph Transformations</span>
+</nav>
+
+<article class="topic-header">
+<h1>A13: Graph Transformations</h1>
+<div class="topic-meta">
+<span class="badge higher">Higher Only</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Sketch translations and reflections of a given function</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Transformations:</strong> Moving or reflecting a graph without changing its basic shape.
+</div>
+
+<table class="comparison-table">
+<tr><th>Transformation</th><th>Notation</th><th>Effect</th></tr>
+<tr><td>Translation up</td><td>y = f(x) + a</td><td>Move up by a units</td></tr>
+<tr><td>Translation down</td><td>y = f(x) - a</td><td>Move down by a units</td></tr>
+<tr><td>Translation right</td><td>y = f(x - a)</td><td>Move right by a units</td></tr>
+<tr><td>Translation left</td><td>y = f(x + a)</td><td>Move left by a units</td></tr>
+<tr><td>Reflection in x-axis</td><td>y = -f(x)</td><td>Flip vertically</td></tr>
+<tr><td>Reflection in y-axis</td><td>y = f(-x)</td><td>Flip horizontally</td></tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📝 Translations</h2>
+
+<div class="key-point">
+<strong>Translation:</strong> Moving a graph without rotation or reflection.
+</div>
+
+<div class="key-point">
+<strong>Vertical translations (outside the function):</strong>
+<ul>
+<li>y = f(x) + a: shift UP by a units</li>
+<li>y = f(x) - a: shift DOWN by a units</li>
+</ul>
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>The graph of y = x² is translated to give y = x² + 3. Describe the transformation.</p>
+<p><strong>Solution:</strong></p>
+<p>The "+3" is outside the function, so this is a vertical translation.</p>
+<p><strong>Answer:</strong> Translation of 3 units UP</p>
+</div>
+
+<div class="key-point">
+<strong>Horizontal translations (inside the function):</strong>
+<ul>
+<li>y = f(x - a): shift RIGHT by a units</li>
+<li>y = f(x + a): shift LEFT by a units</li>
+</ul>
+<p><em>Warning: The direction is opposite to what you might expect!</em></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>The graph of y = x² is translated to give y = (x - 2)². Describe the transformation.</p>
+<p><strong>Solution:</strong></p>
+<p>The "-2" is inside the function. The minus means shift RIGHT.</p>
+<p><strong>Answer:</strong> Translation of 2 units RIGHT</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>Describe the transformation from y = f(x) to y = f(x + 4)</p>
+<p><strong>Solution:</strong></p>
+<p>The "+4" is inside the function. The plus means shift LEFT.</p>
+<p><strong>Answer:</strong> Translation of 4 units LEFT</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Combined Translations</h2>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>Describe the transformation from y = x² to y = (x - 3)² + 2</p>
+<p><strong>Solution:</strong></p>
+<p>Inside: (x - 3) means shift 3 units RIGHT</p>
+<p>Outside: +2 means shift 2 units UP</p>
+<p><strong>Answer:</strong> Translation by vector <sup>3</sup>⁄<sub>2</sub> (right 3, up 2)</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>The graph of y = sin x is transformed to y = sin(x - 45°) - 1. Describe the transformation.</p>
+<p><strong>Solution:</strong></p>
+<p>x - 45°: shift 45° RIGHT</p>
+<p>- 1: shift 1 unit DOWN</p>
+<p><strong>Answer:</strong> Translation: right by 45°, down by 1 unit</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Reflections</h2>
+
+<div class="key-point">
+<strong>Reflection in the x-axis:</strong> y = -f(x)
+<ul>
+<li>All y-coordinates change sign</li>
+<li>Points above x-axis move below and vice versa</li>
+<li>Graph is flipped vertically</li>
+</ul>
+</div>
+
+<div class="example">
+<div class="example-title">Example 6</div>
+<p>y = f(x) has points (0, 2), (1, 3), (2, 1). Find the points on y = -f(x).</p>
+<p><strong>Solution:</strong></p>
+<p>Multiply each y-coordinate by -1:</p>
+<p>(0, -2), (1, -3), (2, -1)</p>
+</div>
+
+<div class="key-point">
+<strong>Reflection in the y-axis:</strong> y = f(-x)
+<ul>
+<li>All x-coordinates change sign</li>
+<li>Points to the right of y-axis move left and vice versa</li>
+<li>Graph is flipped horizontally</li>
+</ul>
+</div>
+
+<div class="example">
+<div class="example-title">Example 7</div>
+<p>y = f(x) has points (1, 2), (2, 3), (3, 1). Find the points on y = f(-x).</p>
+<p><strong>Solution:</strong></p>
+<p>Multiply each x-coordinate by -1:</p>
+<p>(-1, 2), (-2, 3), (-3, 1)</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Describing Transformations</h2>
+
+<div class="example">
+<div class="example-title">Example 8</div>
+<p>The graph of y = x³ is transformed to y = -(x + 1)³ + 2. Describe fully the transformation.</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Negative outside: reflection in x-axis</li>
+<li>(x + 1): shift LEFT by 1</li>
+<li>+ 2: shift UP by 2</li>
+</ul>
+<p><strong>Answer:</strong> Reflection in x-axis, then translation left by 1 and up by 2</p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> y = f(x) is transformed to y = f(x) + 5. Describe the transformation.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> y = f(x) is transformed to y = f(x - 2). Describe the transformation.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> y = f(x) is transformed to y = -f(x). Describe the transformation.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> y = f(x) is transformed to y = f(-x). Describe the transformation.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> y = x² has vertex (0, 0). Where is the vertex of y = (x - 3)² + 4?</p>
+</div>
+<div class="question">
+<p><strong>Q6:</strong> y = f(x) passes through (2, 4). Where does y = -f(x) pass through?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Translation 5 units UP</li>
+<li>Translation 2 units RIGHT</li>
+<li>Reflection in the x-axis</li>
+<li>Reflection in the y-axis</li>
+<li>(3, 4)</li>
+<li>(2, -4)</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Inside the bracket: horizontal transformation (opposite direction)</li>
+<li>Outside the bracket: vertical transformation (same direction)</li>
+<li>Minus sign outside: reflection in x-axis</li>
+<li>Minus sign inside: reflection in y-axis</li>
+<li>x - a means right; x + a means left</li>
+<li>Always state the transformation type AND direction</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="A12-other-graphs.html" class="nav-prev">← Previous: Other Graphs</a>
+<a href="A14-real-life-graphs.html" class="nav-next">Next Topic: Real-Life Graphs →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

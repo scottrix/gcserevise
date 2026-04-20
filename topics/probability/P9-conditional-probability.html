@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conditional Probability - GCSE Maths Revision</title>
+<meta name="description" content="Calculate and interpret conditional probabilities using two-way tables, tree diagrams and Venn diagrams. Free GCSE Maths Higher revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Probability</a> <span>›</span>
+<span>Conditional Probability</span>
+</nav>
+
+<article class="topic-header">
+<h1>P9: Conditional Probability</h1>
+<div class="topic-meta">
+<span class="badge higher">Higher Only</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Calculate and interpret conditional probabilities; use two-way tables, tree diagrams and Venn diagrams</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Conditional probability is the probability of an event occurring GIVEN that another event has already occurred. Written as P(A|B) - "probability of A given B".
+</div>
+
+<h3>Key Formula</h3>
+<div class="formula-box">
+<strong>Conditional Probability Formula:</strong><br>
+P(A|B) = P(A ∩ B) ÷ P(B)<br><br>
+<strong>In words:</strong> P(A given B) = P(A and B) ÷ P(B)
+</div>
+
+<h3>Key Terms</h3>
+<table class="comparison-table">
+<tr><th>Notation</th><th>Meaning</th></tr>
+<tr><td>P(A|B)</td><td>Probability of A given that B has occurred</td></tr>
+<tr><td>P(A ∩ B)</td><td>Probability of A and B both occurring</td></tr>
+<tr><td>P(A ∪ B)</td><td>Probability of A or B or both occurring</td></tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📝 Understanding Conditional Probability</h2>
+
+<div class="key-point">
+<strong>Key Idea:</strong> When we know B has happened, we restrict our sample space to only outcomes where B occurred.
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>In a class of 30 students: 18 study Maths, 12 study English, 6 study both. Find P(studies Maths | studies English).</p>
+<p><strong>Solution:</strong></p>
+<p>P(Maths | English) = P(Maths ∩ English) ÷ P(English)</p>
+<p>= (6/30) ÷ (12/30)</p>
+<p>= 6/12 = <strong>1/2</strong></p>
+<p><em>Alternative: Among the 12 who study English, 6 study Maths. So 6/12 = 1/2</em></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Two-Way Tables</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Use the row or column totals to find conditional probabilities. Restrict to one row or column.
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>A survey of 100 people:</p>
+<table class="comparison-table">
+<tr><th></th><th>Left-handed</th><th>Right-handed</th><th>Total</th></tr>
+<tr><th>Male</th><td>8</td><td>42</td><td>50</td></tr>
+<tr><th>Female</th><td>4</td><td>46</td><td>50</td></tr>
+<tr><th>Total</th><td>12</td><td>88</td><td>100</td></tr>
+</table>
+<p>Find:</p>
+<p>a) P(Male | Left-handed)</p>
+<p>b) P(Left-handed | Male)</p>
+<p><strong>Solutions:</strong></p>
+<p>a) P(Male | Left-handed) = 8/12 = <strong>2/3</strong></p>
+<p><em>Among left-handed people (12), 8 are male</em></p>
+<p>b) P(Left-handed | Male) = 8/50 = <strong>4/25</strong></p>
+<p><em>Among males (50), 8 are left-handed</em></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Tree Diagrams for Conditional Probability</h2>
+
+<div class="key-point">
+<strong>Method:</strong> The second set of branches shows conditional probabilities. Probabilities change based on what happened first.
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>A bag has 5 red and 3 blue balls. Two balls are drawn without replacement. Find P(second is red | first was blue).</p>
+<p><strong>Solution:</strong></p>
+<p>After drawing a blue ball, 5 red and 2 blue remain.</p>
+<p>P(second is red | first was blue) = 5/7</p>
+<p><em>This is read directly from the tree diagram branch.</em></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>Using the same bag, find P(first was blue | second is red).</p>
+<p><strong>Solution:</strong></p>
+<p>P(B|R) = P(B ∩ R) / P(R)</p>
+<p>P(B ∩ R) = P(B first) × P(R second | B first) = 3/8 × 5/7 = 15/56</p>
+<p>P(R) = P(RR) + P(BR) = (5/8 × 4/7) + (3/8 × 5/7) = 20/56 + 15/56 = 35/56</p>
+<p>P(B|R) = (15/56) ÷ (35/56) = 15/35 = <strong>3/7</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Venn Diagrams and Conditional Probability</h2>
+
+<div class="key-point">
+<strong>Method:</strong> P(A|B) is the proportion of B that also contains A. Find values from the Venn diagram.
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>60 students: 35 study Maths, 28 study Physics, 15 study both. Find P(studies Physics | studies Maths).</p>
+<p><strong>Solution:</strong></p>
+<p>Maths only = 35 - 15 = 20</p>
+<p>Physics only = 28 - 15 = 13</p>
+<p>Neither = 60 - 20 - 15 - 13 = 12</p>
+<p>P(Physics | Maths) = P(Physics ∩ Maths) / P(Maths)</p>
+<p>= 15/35 = <strong>3/7</strong></p>
+<p><em>Among 35 Maths students, 15 also study Physics</em></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Independent Events and Conditional Probability</h2>
+
+<div class="key-point">
+<strong>Test for Independence:</strong> If P(A|B) = P(A), then A and B are independent. The probability of A doesn't change when we know B.
+</div>
+
+<div class="formula-box">
+<strong>Independent Events:</strong> P(A|B) = P(A)<br>
+<strong>Also:</strong> P(A ∩ B) = P(A) × P(B)
+</div>
+
+<div class="example">
+<div class="example-title">Example 6</div>
+<p>From the earlier two-way table, are "being male" and "being left-handed" independent?</p>
+<p><strong>Solution:</strong></p>
+<p>P(Left-handed) = 12/100 = 0.12</p>
+<p>P(Left-handed | Male) = 8/50 = 0.16</p>
+<p>Since 0.16 ≠ 0.12, the events are <strong>NOT independent</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Multiplication Rule</h2>
+
+<div class="key-point">
+<strong>Formula:</strong> P(A ∩ B) = P(A) × P(B|A) = P(B) × P(A|B)
+</div>
+
+<div class="example">
+<div class="example-title">Example 7</div>
+<p>P(A) = 0.6 and P(B|A) = 0.3. Find P(A ∩ B).</p>
+<p><strong>Solution:</strong></p>
+<p>P(A ∩ B) = P(A) × P(B|A) = 0.6 × 0.3 = <strong>0.18</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> In a group: P(A) = 0.4, P(B) = 0.5, P(A ∩ B) = 0.2. Find P(A|B).</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A box has 4 red and 6 blue counters. Two are drawn without replacement. Find P(second red | first blue).</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> In a survey: P(likes tea) = 0.6, P(likes coffee) = 0.5, P(likes both) = 0.3. Find P(likes coffee | likes tea).</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> P(A|B) = 0.4 and P(B) = 0.3. Find P(A ∩ B).</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Two dice are rolled. Given that the sum is 8, find P(at least one die shows 4).</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>P(A|B) = P(A ∩ B) / P(B) = 0.2 / 0.5 = 0.4</li>
+<li>After blue drawn: 4 red, 5 blue left. P(second red) = 4/9</li>
+<li>P(coffee | tea) = P(both) / P(tea) = 0.3 / 0.6 = 0.5</li>
+<li>P(A ∩ B) = P(A|B) × P(B) = 0.4 × 0.3 = 0.12</li>
+<li>Sum = 8: (2,6), (3,5), (4,4), (5,3), (6,2) - 5 outcomes. At least one 4: (4,4) only. P = 1/5</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Read "given that" or "if" as the conditional event (the one after |)</li>
+<li>P(A|B) ≠ P(B|A) - the order matters!</li>
+<li>In two-way tables, conditional probability restricts to one row or column</li>
+<li>If P(A|B) = P(A), events are independent</li>
+<li>Use P(A ∩ B) = P(A) × P(B|A) when you need the probability of both events</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="P8-tree-diagrams.html" class="nav-prev">← Previous: Tree Diagrams</a>
+<a href="#" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>
