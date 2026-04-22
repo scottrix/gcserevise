@@ -94,7 +94,7 @@ function filterByBoard(board) {
 }
 
 function openSubject(subjectId) {
-  const landingPages = ['mathematics', 'english-language', 'english-literature'];
+  const landingPages = ['mathematics', 'english-language', 'english-literature', 'combined-science'];
   if (landingPages.includes(subjectId)) {
     window.location.href = `${subjectId}.html`;
   } else {

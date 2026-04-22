@@ -1,0 +1,737 @@
+{
+  "subject": "Combined Science (Trilogy)",
+  "id": "combined-science",
+  "examBoards": ["AQA", "Edexcel", "OCR", "CCEA"],
+  "tierEntry": {
+    "foundation": "Grades 1-1 to 5-5",
+    "higher": "Grades 4-4 to 9-9"
+  },
+  "papers": {
+    "AQA": [
+      { "name": "Biology Paper 1", "title": "Cell biology, Organisation, Infection and response, Bioenergetics", "duration": "1h 15m", "marks": 70, "weighting": "16.7%" },
+      { "name": "Biology Paper 2", "title": "Homeostasis, Inheritance, variation and evolution, Ecology", "duration": "1h 15m", "marks": 70, "weighting": "16.7%" },
+      { "name": "Chemistry Paper 1", "title": "Atomic structure, Bonding, Quantitative chemistry, Chemical changes, Energy changes", "duration": "1h 15m", "marks": 70, "weighting": "16.7%" },
+      { "name": "Chemistry Paper 2", "title": "Rate of reaction, Organic chemistry, Chemical analysis, Chemistry of the atmosphere, Using resources", "duration": "1h 15m", "marks": 70, "weighting": "16.7%" },
+      { "name": "Physics Paper 1", "title": "Energy, Electricity, Particle model, Atomic structure", "duration": "1h 15m", "marks": 70, "weighting": "16.7%" },
+      { "name": "Physics Paper 2", "title": "Forces, Waves, Magnetism and electromagnetism", "duration": "1h 15m", "marks": 70, "weighting": "16.7%" }
+    ],
+    "Edexcel": [
+      { "name": "Biology Paper 1", "title": "Key concepts in biology, Cells and control, Genetics, Natural selection and genetic modification, Health, disease and the development of medicines", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" },
+      { "name": "Biology Paper 2", "title": "Key concepts in biology, Ecosystems, Adaptation, dependence, Inheritance, Hormones and the nervous system, Reproduction", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" },
+      { "name": "Chemistry Paper 1", "title": "Key concepts in chemistry, States of matter, Methods of separating and purifying, The Periodic Table, Chemical changes, Acids, Electrolytic processes, Obtaining and using metals, Reversible reactions", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" },
+      { "name": "Chemistry Paper 2", "title": "Key concepts in chemistry, Groups of the Periodic Table, Rates of reaction, Fuels, Heat energy changes in chemical reactions, Earth and atmospheric science", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" },
+      { "name": "Physics Paper 1", "title": "Key concepts of physics, Motion, Forces, Conservation of energy, Waves, Radiation", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" },
+      { "name": "Physics Paper 2", "title": "Key concepts of physics, Motion, Forces, Conservation of energy, Waves, Radiation, Electromagnetism, Particle model", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" }
+    ],
+    "OCR": [
+      { "name": "Biology Paper 1", "title": "Community level systems, Ecosystems, Inheritance, Variation and evolution, The human body, Disease and drugs", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" },
+      { "name": "Biology Paper 2", "title": "Community level systems, Ecosystems, Inheritance, Variation and evolution, The human body, Disease and drugs, Photosynthesis, Respiration, Homeostasis", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" },
+      { "name": "Chemistry Paper 1", "title": "Particles, Chemical reactions, Elements, compounds and mixtures, The Periodic Table, Chemical bonds, Structure and properties", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" },
+      { "name": "Chemistry Paper 2", "title": "Particles, Chemical reactions, Elements, compounds and mixtures, The Periodic Table, Chemical bonds, Structure and properties, Quantitative chemistry, Global challenges", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" },
+      { "name": "Physics Paper 1", "title": "Matter, Forces, Energy, Waves, Electromagnetism, Radioactivity, Particle model, Electricity", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" },
+      { "name": "Physics Paper 2", "title": "Matter, Forces, Energy, Waves, Electromagnetism, Radioactivity, Particle model, Electricity", "duration": "1h 10m", "marks": 60, "weighting": "16.7%" }
+    ]
+  },
+  "assessmentObjectives": {
+    "biology": [
+      { "id": "AO1", "description": "Demonstrate knowledge and understanding of scientific ideas", "weighting": "30-35%" },
+      { "id": "AO2", "description": "Apply knowledge and understanding of scientific ideas and scientific enquiry", "weighting": "35-40%" },
+      { "id": "AO3", "description": "Analyse information and ideas to interpret and evaluate scientific ideas and processes", "weighting": "25-30%" }
+    ],
+    "chemistry": [
+      { "id": "AO1", "description": "Demonstrate knowledge and understanding of scientific ideas", "weighting": "30-35%" },
+      { "id": "AO2", "description": "Apply knowledge and understanding of scientific ideas and scientific enquiry", "weighting": "35-40%" },
+      { "id": "AO3", "description": "Analyse information and ideas to interpret and evaluate scientific ideas and processes", "weighting": "25-30%" }
+    ],
+    "physics": [
+      { "id": "AO1", "description": "Demonstrate knowledge and understanding of scientific ideas", "weighting": "30-35%" },
+      { "id": "AO2", "description": "Apply knowledge and understanding of scientific ideas and scientific enquiry", "weighting": "35-40%" },
+      { "id": "AO3", "description": "Analyse information and ideas to interpret and evaluate scientific ideas and processes", "weighting": "25-30%" }
+    ]
+  },
+  "requiredPracticals": 21,
+  "strands": [
+    {
+      "id": "bio-cell",
+      "name": "Biology: Cell Biology",
+      "topics": [
+        {
+          "id": "B1",
+          "name": "Cell Structure",
+          "description": "Plant and animal cells, prokaryotic and eukaryotic cells, microscopy",
+          "skills": ["cell membrane", "cytoplasm", "nucleus", "mitochondria", "ribosomes", "cell wall", "chloroplasts", "vacuole", "bacterial cells", "microscope calculations"],
+          "tier": "both"
+        },
+        {
+          "id": "B2",
+          "name": "Cell Division",
+          "description": "Mitosis, the cell cycle and stem cells",
+          "skills": ["chromosomes", "mitosis", "cell cycle", "stem cells", "differentiation", "therapeutic cloning", "ethical issues"],
+          "tier": "both"
+        },
+        {
+          "id": "B3",
+          "name": "Transport in Cells",
+          "description": "Diffusion, osmosis and active transport",
+          "skills": ["diffusion", "osmosis", "active transport", "concentration gradient", "surface area to volume ratio", "osmosis practical"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "bio-organisation",
+      "name": "Biology: Organisation",
+      "topics": [
+        {
+          "id": "B4",
+          "name": "Tissues and Organs",
+          "description": "Cell specialisation, tissues, organs and organ systems",
+          "skills": ["tissues", "organs", "organ systems", "specialised cells", "glandular tissue", "muscular tissue", "epithelial tissue"],
+          "tier": "both"
+        },
+        {
+          "id": "B5",
+          "name": "Digestive System",
+          "description": "The human digestive system and enzyme action",
+          "skills": ["digestive system", "enzymes", "amylase", "protease", "lipase", "bile", "digestion", "absorption", "food tests practical"],
+          "tier": "both"
+        },
+        {
+          "id": "B6",
+          "name": "The Heart and Blood",
+          "description": "The circulatory system, blood vessels and the heart",
+          "skills": ["heart", "blood vessels", "arteries", "veins", "capillaries", "red blood cells", "white blood cells", "platelets", "plasma", "coronary heart disease", "stents", "statins"],
+          "tier": "both"
+        },
+        {
+          "id": "B7",
+          "name": "Plant Organisation",
+          "description": "Plant tissues, organs and transport systems",
+          "skills": ["epidermal tissue", "palisade mesophyll", "spongy mesophyll", "xylem", "phloem", "transpiration", "translocation", "root hair cells"],
+          "tier": "both"
+        },
+        {
+          "id": "B8",
+          "name": "Health and Disease",
+          "description": "Health, disease and risk factors",
+          "skills": ["health", "disease", "risk factors", "communicable disease", "non-communicable disease", "diet and exercise", "cancer", "smoking", "alcohol"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "bio-infection",
+      "name": "Biology: Infection and Response",
+      "topics": [
+        {
+          "id": "B9",
+          "name": "Pathogens and Disease",
+          "description": "Communicable diseases caused by pathogens",
+          "skills": ["bacteria", "viruses", "fungi", "protists", "malaria", "HIV", "measles", "salmonella", "gonorrhoea", "rose black spot"],
+          "tier": "both"
+        },
+        {
+          "id": "B10",
+          "name": "Body Defences",
+          "description": "The body's defence systems against pathogens",
+          "skills": ["skin", "mucus", "stomach acid", "white blood cells", "phagocytosis", "antibodies", "antitoxins", "immune system"],
+          "tier": "both"
+        },
+        {
+          "id": "B11",
+          "name": "Vaccines and Drugs",
+          "description": "Vaccination, antibiotics and painkillers",
+          "skills": ["vaccination", "antibiotics", "antibiotic resistance", "painkillers", "drug development", "clinical trials", "monoclonal antibodies"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "bio-bioenergetics",
+      "name": "Biology: Bioenergetics",
+      "topics": [
+        {
+          "id": "B12",
+          "name": "Photosynthesis",
+          "description": "Photosynthesis, factors affecting rate and uses of glucose",
+          "skills": ["photosynthesis equation", "light intensity", "CO2 concentration", "temperature", "limiting factors", "inverse square law", "glucose uses", "photosynthesis practical"],
+          "tier": "both"
+        },
+        {
+          "id": "B13",
+          "name": "Respiration",
+          "description": "Aerobic and anaerobic respiration in cells",
+          "skills": ["aerobic respiration", "anaerobic respiration", "fermentation", "lactic acid", "oxygen debt", "metabolism", "liver function"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "bio-homeostasis",
+      "name": "Biology: Homeostasis",
+      "topics": [
+        {
+          "id": "B14",
+          "name": "Nervous System",
+          "description": "The nervous system and reflex actions",
+          "skills": ["stimulus", "receptor", "coordinator", "effector", "response", "reflex arc", "synapse", "neurotransmitter", "reaction time practical"],
+          "tier": "both"
+        },
+        {
+          "id": "B15",
+          "name": "The Endocrine System",
+          "description": "Hormones and the endocrine system",
+          "skills": ["endocrine system", "pituitary gland", "thyroid", "adrenaline", "insulin", "glucagon", "diabetes", "negative feedback"],
+          "tier": "both"
+        },
+        {
+          "id": "B16",
+          "name": "Reproduction and Hormones",
+          "description": "Human reproduction, hormones and contraception",
+          "skills": ["menstrual cycle", "FSH", "LH", "oestrogen", "progesterone", "contraception", "IVF", "plant hormones", "auxin", "gibberellins"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "bio-inheritance",
+      "name": "Biology: Inheritance, Variation and Evolution",
+      "topics": [
+        {
+          "id": "B17",
+          "name": "DNA and Genetics",
+          "description": "DNA, genes, chromosomes and genetic inheritance",
+          "skills": ["DNA", "genes", "chromosomes", "alleles", "dominant", "recessive", "Punnett squares", "genotype", "phenotype", "homozygous", "heterozygous", "sex determination", "polydactyly", "cystic fibrosis"],
+          "tier": "both"
+        },
+        {
+          "id": "B18",
+          "name": "Genetic Variation",
+          "description": "Variation, mutations and genetic engineering",
+          "skills": ["variation", "mutations", "genetic engineering", "GMOs", "selective breeding", "cloning", "adult cell cloning", "embryo cloning", "issues with genetic engineering"],
+          "tier": "both"
+        },
+        {
+          "id": "B19",
+          "name": "Evolution",
+          "description": "Theory of evolution, natural selection and classification",
+          "skills": ["evolution", "natural selection", "Darwin", "Wallace", "fossils", "extinction", "classification", "kingdoms", "evolutionary trees", "antibiotic resistance"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "bio-ecology",
+      "name": "Biology: Ecology",
+      "topics": [
+        {
+          "id": "B20",
+          "name": "Ecosystems",
+          "description": "Communities, ecosystems and interdependence",
+          "skills": ["ecosystem", "community", "population", "habitat", "interdependence", "competition", "predation", "food chains", "food webs", "trophic levels", "pyramids of biomass"],
+          "tier": "both"
+        },
+        {
+          "id": "B21",
+          "name": "Nutrient Cycles",
+          "description": "The carbon cycle and the water cycle",
+          "skills": ["carbon cycle", "water cycle", "decomposition", "decay", "composting", "biogas", "required practical"],
+          "tier": "both"
+        },
+        {
+          "id": "B22",
+          "name": "Human Impact on the Environment",
+          "description": "Biodiversity, pollution and sustainability",
+          "skills": ["biodiversity", "deforestation", "pollution", "global warming", "food security", "sustainable farming", "conservation", "quadrats", "transects"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "chem-atomic",
+      "name": "Chemistry: Atomic Structure and the Periodic Table",
+      "topics": [
+        {
+          "id": "C1",
+          "name": "Atoms and Elements",
+          "description": "Atoms, elements, compounds and mixtures",
+          "skills": ["atoms", "elements", "compounds", "mixtures", "chemical symbols", "word equations", "symbol equations", "balancing equations", "state symbols"],
+          "tier": "both"
+        },
+        {
+          "id": "C2",
+          "name": "The Periodic Table",
+          "description": "Development of the Periodic Table and properties of groups",
+          "skills": ["periodic table", "groups", "periods", "metals", "non-metals", "Group 1 alkali metals", "Group 7 halogens", "Group 0 noble gases", "transition metals"],
+          "tier": "both"
+        },
+        {
+          "id": "C3",
+          "name": "History of the Atom",
+          "description": "Development of the atomic model",
+          "skills": ["Dalton", "Thomson", "Rutherford", "Bohr", "plum pudding model", "nuclear model", "electron shells", "isotopes", "relative atomic mass"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "chem-bonding",
+      "name": "Chemistry: Bonding, Structure and Properties",
+      "topics": [
+        {
+          "id": "C4",
+          "name": "Ionic Bonding",
+          "description": "Ionic bonding, structure and properties of ionic compounds",
+          "skills": ["ionic bonding", "ions", "cation", "anion", "giant ionic structure", "ionic compounds", "melting points", "electrical conductivity", "dot and cross diagrams"],
+          "tier": "both"
+        },
+        {
+          "id": "C5",
+          "name": "Covalent Bonding",
+          "description": "Covalent bonding, simple molecules and giant covalent structures",
+          "skills": ["covalent bonding", "shared electrons", "simple molecules", "giant covalent structures", "diamond", "graphite", "graphene", "fullerenes", "nanotubes", "polymers", "dot and cross diagrams"],
+          "tier": "both"
+        },
+        {
+          "id": "C6",
+          "name": "Metallic Bonding",
+          "description": "Metallic bonding and properties of metals",
+          "skills": ["metallic bonding", "delocalised electrons", "alloys", "properties of metals", "conductivity", "malleability", "shape memory alloys"],
+          "tier": "both"
+        },
+        {
+          "id": "C7",
+          "name": "States of Matter",
+          "description": "States of matter and changes of state",
+          "skills": ["solid", "liquid", "gas", "melting", "boiling", "freezing", "condensing", "sublimation", "state symbols", "predicting states"],
+          "tier": "both"
+        },
+        {
+          "id": "C8",
+          "name": "Nanoscience",
+          "description": "Nanoparticles and their uses",
+          "skills": ["nanoparticles", "nanoscience", "surface area to volume ratio", "uses of nanoparticles", "risks of nanoparticles"],
+          "tier": "higher"
+        }
+      ]
+    },
+    {
+      "id": "chem-quantitative",
+      "name": "Chemistry: Quantitative Chemistry",
+      "topics": [
+        {
+          "id": "C9",
+          "name": "Chemical Calculations",
+          "description": "Relative masses, moles and reacting masses",
+          "skills": ["relative atomic mass", "relative formula mass", "mole", "Avogadro constant", "reacting masses", "conservation of mass", "balancing equations"],
+          "tier": "both"
+        },
+        {
+          "id": "C10",
+          "name": "Concentration and Yield",
+          "description": "Concentration, percentage yield and atom economy",
+          "skills": ["concentration", "percentage yield", "atom economy", "limiting reactants", "excess reactants", "uncertainty", "titrations"],
+          "tier": "both"
+        },
+        {
+          "id": "C11",
+          "name": "Gas Calculations",
+          "description": "Volume of gases and gas calculations",
+          "skills": ["gas volume", "molar gas volume", "ideal gas equation", "gas calculations at RTp"],
+          "tier": "higher"
+        }
+      ]
+    },
+    {
+      "id": "chem-changes",
+      "name": "Chemistry: Chemical Changes",
+      "topics": [
+        {
+          "id": "C12",
+          "name": "Reactivity of Metals",
+          "description": "Reactivity series, extraction and displacement reactions",
+          "skills": ["reactivity series", "displacement reactions", "extraction of metals", "oxidation", "reduction", "iron", "aluminium", "copper", "corrosion", "rusting"],
+          "tier": "both"
+        },
+        {
+          "id": "C13",
+          "name": "Reactions of Acids",
+          "description": "Acids, bases, neutralisation and making salts",
+          "skills": ["acids", "bases", "alkalis", "pH scale", "neutralisation", "salt preparation", "titrations", "strong and weak acids", "hydroxides", "carbonates"],
+          "tier": "both"
+        },
+        {
+          "id": "C14",
+          "name": "Electrolysis",
+          "description": "Electrolysis of molten and aqueous ionic compounds",
+          "skills": ["electrolysis", "anode", "cathode", "electrolyte", "molten electrolysis", "aqueous electrolysis", "extraction of aluminium", "electroplating", "hydrogen production"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "chem-energy",
+      "name": "Chemistry: Energy Changes",
+      "topics": [
+        {
+          "id": "C15",
+          "name": "Exothermic and Endothermic Reactions",
+          "description": "Energy changes in reactions and reaction profiles",
+          "skills": ["exothermic", "endothermic", "reaction profiles", "activation energy", "bond energy calculations", "combustion", "neutralisation", "displacement", "thermal decomposition"],
+          "tier": "both"
+        },
+        {
+          "id": "C16",
+          "name": "Chemical Cells and Fuel Cells",
+          "description": "How cells and fuel cells produce electricity",
+          "skills": ["chemical cells", "voltage", "fuel cells", "hydrogen fuel cell", "advantages and disadvantages", "electrode reactions"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "chem-rate",
+      "name": "Chemistry: Rate and Extent of Chemical Change",
+      "topics": [
+        {
+          "id": "C17",
+          "name": "Rate of Reaction",
+          "description": "Factors affecting rate and measuring rate of reaction",
+          "skills": ["temperature", "concentration", "surface area", "catalysts", "collision theory", "activation energy", "measuring rate", "rate graphs", "rate practical"],
+          "tier": "both"
+        },
+        {
+          "id": "C18",
+          "name": "Reversible Reactions and Equilibrium",
+          "description": "Reversible reactions, dynamic equilibrium and Le Chatelier's principle",
+          "skills": ["reversible reactions", "dynamic equilibrium", "Le Chatelier's principle", "position of equilibrium", "Haber process", "conditions for equilibrium"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "chem-organic",
+      "name": "Chemistry: Organic Chemistry",
+      "topics": [
+        {
+          "id": "C19",
+          "name": "Hydrocarbons and Crude Oil",
+          "description": "Crude oil, fractional distillation and hydrocarbons",
+          "skills": ["crude oil", "fractional distillation", "hydrocarbons", "alkanes", "homologous series", "viscosity", "flammability", "boiling point", "cracking", "alkenes"],
+          "tier": "both"
+        },
+        {
+          "id": "C20",
+          "name": "Alcohols, Carboxylic Acids and Polymers",
+          "description": "Functional groups and organic reactions",
+          "skills": ["alcohols", "carboxylic acids", "esters", "addition polymers", "condensation polymers", "functional groups", "combustion of alcohols practical", "DNA structure"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "chem-analysis",
+      "name": "Chemistry: Chemical Analysis",
+      "topics": [
+        {
+          "id": "C21",
+          "name": "Pure Substances and Formulations",
+          "description": "Purity, formulations and identification of substances",
+          "skills": ["pure substances", "formulations", "melting point analysis", "boiling point analysis", "chromatography", "Rf values"],
+          "tier": "both"
+        },
+        {
+          "id": "C22",
+          "name": "Testing for Ions and Gases",
+          "description": "Chemical tests for ions and gases",
+          "skills": ["flame tests", "sodium hydroxide tests", "carbonate test", "halide test", "sulfate test", "gas tests", "hydrogen", "oxygen", "CO2", "chlorine"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "chem-atmosphere",
+      "name": "Chemistry: Chemistry of the Atmosphere",
+      "topics": [
+        {
+          "id": "C23",
+          "name": "Earth's Atmosphere",
+          "description": "The evolution of the Earth's atmosphere",
+          "skills": ["early atmosphere", "oxygen", "carbon dioxide", "nitrogen", "evolution of atmosphere", "volcanoes", "algae", "greenhouse effect", "carbon cycle"],
+          "tier": "both"
+        },
+        {
+          "id": "C24",
+          "name": "Climate Change and Pollution",
+          "description": "Greenhouse gases, climate change and air pollution",
+          "skills": ["greenhouse gases", "CO2", "methane", "climate change", "global warming", "carbon footprint", "air pollution", "sulfur dioxide", "oxides of nitrogen", "particulates"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "chem-resources",
+      "name": "Chemistry: Using Resources",
+      "topics": [
+        {
+          "id": "C25",
+          "name": "Water and Waste",
+          "description": "Potable water, waste water treatment and water quality",
+          "skills": ["potable water", "water treatment", "desalination", "waste water", "sewage treatment", "fertilisers", "NPK", "life cycle assessment"],
+          "tier": "both"
+        },
+        {
+          "id": "C26",
+          "name": "Sustainable Chemistry",
+          "description": "Sustainability, corrosion prevention and materials",
+          "skills": ["sustainability", "corrosion prevention", "alloys", "ceramics", "composites", "phosphate rock", "recycling", "reducing use of resources"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "phys-energy",
+      "name": "Physics: Energy",
+      "topics": [
+        {
+          "id": "P1",
+          "name": "Energy Stores and Transfers",
+          "description": "Energy stores, systems and energy transfers",
+          "skills": ["kinetic energy", "gravitational potential", "elastic potential", "thermal energy", "chemical energy", "nuclear energy", "dissipation", "sankey diagrams", "efficiency"],
+          "tier": "both"
+        },
+        {
+          "id": "P2",
+          "name": "Conservation and Efficiency",
+          "description": "Conservation of energy and efficiency calculations",
+          "skills": ["conservation of energy", "efficiency", "useful energy", "wasted energy", "efficiency calculations", "improving efficiency"],
+          "tier": "both"
+        },
+        {
+          "id": "P3",
+          "name": "National and Global Energy",
+          "description": "Energy resources, renewable and non-renewable energy",
+          "skills": ["fossil fuels", "nuclear power", "renewable energy", "solar", "wind", "hydroelectric", "tidal", "geothermal", "biofuel", "energy trends", "environmental impact"],
+          "tier": "both"
+        },
+        {
+          "id": "P4",
+          "name": "Specific Heat Capacity",
+          "description": "Specific heat capacity and calculations",
+          "skills": ["specific heat capacity", "SHC equation", "SHC practical", "temperature change", "energy calculations", "thermal insulation practical"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "phys-electricity",
+      "name": "Physics: Electricity",
+      "topics": [
+        {
+          "id": "P5",
+          "name": "Circuit Basics",
+          "description": "Standard circuit symbols, current, voltage and resistance",
+          "skills": ["circuit symbols", "current", "potential difference", "resistance", "ammeter", "voltmeter", "series circuits", "parallel circuits", "V=IR", "I-V characteristics practical"],
+          "tier": "both"
+        },
+        {
+          "id": "P6",
+          "name": "Series and Parallel Circuits",
+          "description": "Rules for current, voltage and resistance in series and parallel",
+          "skills": ["series current rule", "parallel current rule", "series voltage rule", "parallel voltage rule", "series resistance", "parallel resistance", "resistors in series", "resistors in parallel"],
+          "tier": "both"
+        },
+        {
+          "id": "P7",
+          "name": "Electrical Power and Energy",
+          "description": "Power, energy transfers and the National Grid",
+          "skills": ["power", "P=VI", "P=I2R", "energy transferred", "E=Pt", "E=QV", "National Grid", "step-up transformers", "step-down transformers", "mains electricity", "AC/DC"],
+          "tier": "both"
+        },
+        {
+          "id": "P8",
+          "name": "Static Electricity",
+          "description": "Static electricity, electric fields and sparks",
+          "skills": ["static charge", "friction", "induction", "electric fields", "sparking", "dangers of static", "uses of static", "Van de Graaff", "lightning"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "phys-particle",
+      "name": "Physics: Particle Model of Matter",
+      "topics": [
+        {
+          "id": "P9",
+          "name": "States of Matter and Changes of State",
+          "description": "The particle model and changes of state",
+          "skills": ["solid", "liquid", "gas", "particle model", "density", "internal energy", "changes of state", "latent heat", "specific latent heat", "heating and cooling curves"],
+          "tier": "both"
+        },
+        {
+          "id": "P10",
+          "name": "Particle Motion and Pressure",
+          "description": "Particle motion in gases and gas pressure",
+          "skills": ["Brownian motion", "gas pressure", "temperature and pressure", "volume and pressure", "Boyle's law", "absolute zero", "kelvin temperature scale"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "phys-atomic",
+      "name": "Physics: Atomic Structure",
+      "topics": [
+        {
+          "id": "P11",
+          "name": "Nuclear Model and Isotopes",
+          "description": "Development of the nuclear model and isotopes",
+          "skills": ["nuclear model", "Rutherford scattering", "protons", "neutrons", "electrons", "isotopes", "atomic number", "mass number", "radioactive decay", "alpha", "beta", "gamma"],
+          "tier": "both"
+        },
+        {
+          "id": "P12",
+          "name": "Nuclear Radiation and Hazards",
+          "description": "Types of radiation, half-life and hazards",
+          "skills": ["alpha radiation", "beta radiation", "gamma radiation", "half-life", "decay curves", "contamination", "irradiation", "background radiation", "uses of radiation", "dangers of radiation", "nuclear equations"],
+          "tier": "both"
+        },
+        {
+          "id": "P13",
+          "name": "Nuclear Fission and Fusion",
+          "description": "Nuclear fission, fusion and nuclear power",
+          "skills": ["nuclear fission", "nuclear fusion", "chain reaction", "uranium", "plutonium", "nuclear power stations", "fusion reactors", "hydrogen fuel"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "phys-forces",
+      "name": "Physics: Forces",
+      "topics": [
+        {
+          "id": "P14",
+          "name": "Scalar and Vector Quantities",
+          "description": "Scalars, vectors and forces",
+          "skills": ["scalar", "vector", "force", "weight", "mass", "gravity", "resultant force", "free body diagrams", "resolving forces"],
+          "tier": "both"
+        },
+        {
+          "id": "P15",
+          "name": "Motion and Acceleration",
+          "description": "Distance, displacement, speed, velocity and acceleration",
+          "skills": ["distance", "displacement", "speed", "velocity", "acceleration", "v=u+at", "distance-time graphs", "velocity-time graphs", "area under graph", "SUVAT equations"],
+          "tier": "both"
+        },
+        {
+          "id": "P16",
+          "name": "Newton's Laws and Momentum",
+          "description": "Newton's laws, inertia and momentum",
+          "skills": ["Newton's First Law", "Newton's Second Law", "F=ma", "Newton's Third Law", "inertia", "mass and weight", "momentum", "conservation of momentum", "force and momentum", "F=mv-mu/t"],
+          "tier": "both"
+        },
+        {
+          "id": "P17",
+          "name": "Stopping Distances",
+          "description": "Braking distance, thinking distance and stopping distance",
+          "skills": ["stopping distance", "thinking distance", "braking distance", "reaction time", "speed and stopping", "road safety", "braking force", "KE and braking"],
+          "tier": "both"
+        },
+        {
+          "id": "P18",
+          "name": "Forces and Elasticity",
+          "description": "Hooke's law, springs and elastic deformation",
+          "skills": ["Hooke's law", "spring constant", "elastic deformation", "plastic deformation", "limit of proportionality", "F=ke", "elastic potential energy", "spring practical"],
+          "tier": "both"
+        },
+        {
+          "id": "P19",
+          "name": "Pressure",
+          "description": "Pressure in fluids and atmospheric pressure",
+          "skills": ["pressure", "p=F/A", "atmospheric pressure", "pressure in liquids", "upthrust", "Pascal's principle", "pressure and depth"],
+          "tier": "both"
+        },
+        {
+          "id": "P20",
+          "name": "Moments and Centre of Mass",
+          "description": "Moments, levers and centre of mass",
+          "skills": ["moment", "M=Fd", "principle of moments", "levers", "gears", "centre of mass", "stability"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "phys-waves",
+      "name": "Physics: Waves",
+      "topics": [
+        {
+          "id": "P21",
+          "name": "Wave Properties",
+          "description": "Transverse and longitudinal waves, wave speed calculations",
+          "skills": ["transverse waves", "longitudinal waves", "amplitude", "wavelength", "frequency", "period", "wave speed", "v=fλ", "wave equation", "ripple tank practical"],
+          "tier": "both"
+        },
+        {
+          "id": "P22",
+          "name": "Electromagnetic Spectrum",
+          "description": "The EM spectrum, properties and uses of EM waves",
+          "skills": ["radio waves", "microwaves", "infrared", "visible light", "ultraviolet", "X-rays", "gamma rays", "EM spectrum order", "uses of EM waves", "dangers of EM waves", "ionising radiation"],
+          "tier": "both"
+        },
+        {
+          "id": "P23",
+          "name": "Sound and Ultrasound",
+          "description": "Sound waves, ultrasound and their applications",
+          "skills": ["sound waves", "ultrasound", "echo sounding", "sonar", "medical ultrasound", "frequency range of hearing", "infrasound"],
+          "tier": "both"
+        },
+        {
+          "id": "P24",
+          "name": "Light and Optics",
+          "description": "Reflection, refraction and lenses",
+          "skills": ["reflection", "refraction", "Snell's law", "refractive index", "total internal reflection", "convex lenses", "concave lenses", "focal point", "magnification"],
+          "tier": "both"
+        },
+        {
+          "id": "P25",
+          "name": "Black Body Radiation",
+          "description": "Black body radiation and temperature",
+          "skills": ["black body radiation", "absorption", "emission", "temperature and radiation", "perfect black body", "Earth's temperature and radiation balance"],
+          "tier": "higher"
+        }
+      ]
+    },
+    {
+      "id": "phys-magnetism",
+      "name": "Physics: Magnetism and Electromagnetism",
+      "topics": [
+        {
+          "id": "P26",
+          "name": "Magnets and Magnetic Fields",
+          "description": "Permanent and induced magnets, magnetic fields",
+          "skills": ["permanent magnets", "induced magnets", "magnetic field", "field lines", "north and south poles", "Earth's magnetic field", "compasses"],
+          "tier": "both"
+        },
+        {
+          "id": "P27",
+          "name": "Electromagnets",
+          "description": "The motor effect, electromagnets and their uses",
+          "skills": ["solenoid", "electromagnet", "motor effect", "Fleming's left-hand rule", "F=BIl", "electric motor", "loudspeaker", "factors affecting electromagnet strength"],
+          "tier": "both"
+        },
+        {
+          "id": "P28",
+          "name": "Electromagnetic Induction",
+          "description": "Generators, transformers and the National Grid",
+          "skills": ["electromagnetic induction", "generator effect", "alternators", "dynamos", "transformers", "step-up", "step-down", "Vp/Vs = Np/Ns", "microphones"],
+          "tier": "both"
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "trilogyVsTriple": "Combined Science Trilogy covers approximately 70% of each separate science. Students receive a double grade (e.g. 6-6, 7-7).",
+    "requiredPracticals": "21 required practicals across the three sciences. Questions on these appear in the written exams.",
+    "mathsSkills": "Students need maths skills including: calculating means, using SI units, understanding significant figures, using percentages, plotting graphs, using equations, rearranging formulae.",
+    "workingScientifically": "All exam boards assess Working Scientifically skills including: experimental design, data analysis, evaluating methods, understanding variables, identifying risks, drawing conclusions."
+  }
+}
