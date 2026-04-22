@@ -1,0 +1,399 @@
+{
+  "subject": "Biology",
+  "id": "biology",
+  "examBoards": ["AQA", "Edexcel", "OCR", "CCEA"],
+  "tierEntry": {
+    "foundation": "Grades 1-5",
+    "higher": "Grades 4-9"
+  },
+  "papers": {
+    "AQA": [
+      { "name": "Paper 1", "title": "Cell biology, Organisation, Infection and response, Bioenergetics", "duration": "1h 45m", "marks": 100, "weighting": 50 },
+      { "name": "Paper 2", "title": "Homeostasis, Inheritance, variation and evolution, Ecology", "duration": "1h 45m", "marks": 100, "weighting": 50 }
+    ],
+    "Edexcel": [
+      { "name": "Paper 1", "title": "Key concepts in biology, Cells and control, Genetics, Natural selection, Health and disease", "duration": "1h 45m", "marks": 100, "weighting": 50 },
+      { "name": "Paper 2", "title": "Key concepts in biology, Ecosystems, Adaptation, Inheritance, Hormones, Reproduction", "duration": "1h 45m", "marks": 100, "weighting": 50 }
+    ],
+    "OCR": [
+      { "name": "Paper 1", "title": "Community level systems, Ecosystems, Inheritance, Variation and evolution, The human body, Disease and drugs", "duration": "1h 45m", "marks": 90, "weighting": 50 },
+      { "name": "Paper 2", "title": "Community level systems, Ecosystems, Inheritance, Variation and evolution, The human body, Disease and drugs, Photosynthesis, Respiration, Homeostasis", "duration": "1h 45m", "marks": 90, "weighting": 50 }
+    ],
+    "CCEA": [
+      { "name": "Paper 1", "title": "Cells, Living organisms, Nutrition and health, Where do living things live?", "duration": "1h 15m", "marks": 60, "weighting": 30 },
+      { "name": "Paper 2", "title": "How the body works, Variation and genetics, Hormones and plants", "duration": "1h 15m", "marks": 60, "weighting": 30 },
+      { "name": "Paper 3", "title": "Practical skills and data analysis", "duration": "1h", "marks": 60, "weighting": 40 }
+    ]
+  },
+  "assessmentObjectives": [
+    { "id": "AO1", "description": "Demonstrate knowledge and understanding of scientific ideas, techniques and procedures", "weighting": "30-35%" },
+    { "id": "AO2", "description": "Apply knowledge and understanding of scientific ideas, techniques and procedures", "weighting": "35-40%" },
+    { "id": "AO3", "description": "Analyse information and ideas to interpret and evaluate scientific ideas and processes", "weighting": "25-30%" }
+  ],
+  "requiredPracticals": 10,
+  "strands": [
+    {
+      "id": "cell-biology",
+      "name": "Cell Biology",
+      "topics": [
+        {
+          "id": "B1",
+          "name": "Cell Structure",
+          "description": "Plant and animal cells, prokaryotic and eukaryotic cells, microscopy and magnification",
+          "skills": ["eukaryotic cells", "prokaryotic cells", "animal cell structure", "plant cell structure", "cell membrane", "cytoplasm", "nucleus", "mitochondria", "ribosomes", "cell wall", "chloroplasts", "permanent vacuole", "bacterial cells", "microscopy", "magnification", "resolution", "light microscope", "electron microscope"],
+          "tier": "both"
+        },
+        {
+          "id": "B2",
+          "name": "Cell Division",
+          "description": "The cell cycle, mitosis, meiosis and stem cells",
+          "skills": ["cell cycle", "mitosis", "meiosis", "chromosomes", "DNA", "genes", "stem cells", "embryonic stem cells", "adult stem cells", "differentiation", "therapeutic cloning", "ethical issues of stem cells", "growth and reproduction"],
+          "tier": "both"
+        },
+        {
+          "id": "B3",
+          "name": "Transport in Cells",
+          "description": "Diffusion, osmosis and active transport",
+          "skills": ["diffusion", "concentration gradient", "osmosis", "partially permeable membrane", "active transport", "surface area to volume ratio", "osmosis required practical", "water potential", "turgid", "flaccid", "plasmolysis", "calculating percentage change"],
+          "tier": "both"
+        },
+        {
+          "id": "B4",
+          "name": "Cell Specialisation",
+          "description": "How cells become specialised for their function",
+          "skills": ["specialised cells", "sperm cell", "nerve cell", "muscle cell", "root hair cell", "xylem cell", "phloem cell", "cell differentiation", "animal cell differentiation", "plant cell differentiation"],
+          "tier": "both"
+        },
+        {
+          "id": "B5",
+          "name": "Culturing Microorganisms",
+          "description": "Growing bacteria and calculating bacterial growth",
+          "skills": ["bacterial multiplication", "binary fission", "culturing bacteria", "agar plates", "aseptic technique", "zone of inhibition", "calculating cross-sectional area", "growth curves", "mean division time"],
+          "tier": "higher"
+        }
+      ]
+    },
+    {
+      "id": "organisation",
+      "name": "Organisation",
+      "topics": [
+        {
+          "id": "B6",
+          "name": "Principles of Organisation",
+          "description": "Cell specialisation, tissues, organs and organ systems",
+          "skills": ["tissues", "organs", "organ systems", "hierarchy of organisation", "glandular tissue", "muscular tissue", "epithelial tissue", "connective tissue", "epidermal tissue", "palisade mesophyll", "spongy mesophyll"],
+          "tier": "both"
+        },
+        {
+          "id": "B7",
+          "name": "The Digestive System",
+          "description": "The human digestive system and enzyme action",
+          "skills": ["digestive system", "digestion", "absorption", "alimentary canal", "enzymes", "amylase", "protease", "lipase", "bile", "lock and key theory", "denaturation", "optimum pH", "optimum temperature", "food tests practical", "catalyst", "active site", "specificity"],
+          "tier": "both"
+        },
+        {
+          "id": "B8",
+          "name": "The Heart and Blood Vessels",
+          "description": "The circulatory system, blood vessels and the heart",
+          "skills": ["heart", "double circulatory system", "right ventricle", "left ventricle", "atria", "ventricles", "pacemaker", "arteries", "veins", "capillaries", "red blood cells", "white blood cells", "platelets", "plasma", "coronary heart disease", "stents", "statins", "artificial hearts", "heart valves", "blood groups"],
+          "tier": "both"
+        },
+        {
+          "id": "B9",
+          "name": "Plant Organisation",
+          "description": "Plant tissues, organs and transport systems",
+          "skills": ["epidermal tissue", "palisade mesophyll", "spongy mesophyll", "xylem", "phloem", "transpiration", "translocation", "root hair cells", "stomata", "guard cells", "factors affecting transpiration", "transpiration stream"],
+          "tier": "both"
+        },
+        {
+          "id": "B10",
+          "name": "Health and Disease",
+          "description": "Health, disease and risk factors for non-communicable diseases",
+          "skills": ["health", "disease", "communicable disease", "non-communicable disease", "risk factors", "diet and exercise", "cancer", "benign tumours", "malignant tumours", "smoking", "alcohol", "carcinogens", "obesity", "type 2 diabetes", "cardiovascular disease"],
+          "tier": "both"
+        },
+        {
+          "id": "B11",
+          "name": "The Effect of Lifestyle on Non-Communicable Diseases",
+          "description": "How lifestyle factors affect risk of disease",
+          "skills": ["risk factors and diseases", "casual mechanisms", "smoking and lung disease", "alcohol and liver disease", "diet and heart disease", "exercise and health", "obesity and diabetes", "interpreting data on risk", "costs of non-communicable diseases"],
+          "tier": "higher"
+        }
+      ]
+    },
+    {
+      "id": "infection",
+      "name": "Infection and Response",
+      "topics": [
+        {
+          "id": "B12",
+          "name": "Pathogens and Disease",
+          "description": "Communicable diseases caused by pathogens",
+          "skills": ["pathogens", "bacteria", "viruses", "fungi", "protists", "malaria", "HIV/AIDS", "measles", "salmonella", "gonorrhoea", "rose black spot", "athletes foot", "tobacco mosaic virus", "how pathogens spread", "vector"],
+          "tier": "both"
+        },
+        {
+          "id": "B13",
+          "name": "The Body's Defences",
+          "description": "The body's defence systems against pathogens",
+          "skills": ["skin", "mucus", "stomach acid", "tears", "white blood cells", "phagocytosis", "antibodies", "antitoxins", "immune system", "primary defences", "secondary defences"],
+          "tier": "both"
+        },
+        {
+          "id": "B14",
+          "name": "Vaccination",
+          "description": "How vaccination provides immunity",
+          "skills": ["vaccination", "immunisation", "antigens", "antibodies", "memory cells", "herd immunity", "MMR", "debate over vaccination", "pros and cons of vaccination"],
+          "tier": "both"
+        },
+        {
+          "id": "B15",
+          "name": "Antibiotics and Painkillers",
+          "description": "How antibiotics and painkillers work",
+          "skills": ["antibiotics", "antibiotic resistance", "painkillers", "symptom relief", "bacteria vs viruses", "Alexander Fleming", "penicillin", "MRSA", "prescribing antibiotics", "drug development", "preclinical testing", "clinical trials", "double-blind trials", "placebo"],
+          "tier": "both"
+        },
+        {
+          "id": "B16",
+          "name": "Monoclonal Antibodies",
+          "description": "Production and uses of monoclonal antibodies",
+          "skills": ["monoclonal antibodies", "hybridoma cells", "B-lymphocytes", "tumour cells", "pregnancy testing", "cancer treatment", "location of blood clots", "advantages and disadvantages", "ethical issues"],
+          "tier": "higher"
+        },
+        {
+          "id": "B17",
+          "name": "Plant Diseases",
+          "description": "Detecting and identifying plant diseases and defences",
+          "skills": ["plant diseases", "deficiency diseases", "nitrate deficiency", "magnesium deficiency", "stunted growth", "chlorosis", "plant defences", "physical defences", "chemical defences", "aphids", "identifying plant disease", "ion deficiency"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "bioenergetics",
+      "name": "Bioenergetics",
+      "topics": [
+        {
+          "id": "B18",
+          "name": "Photosynthesis",
+          "description": "The process of photosynthesis, factors affecting rate and uses of glucose",
+          "skills": ["photosynthesis equation", "light energy", "chlorophyll", "light intensity", "CO2 concentration", "temperature", "limiting factors", "inverse square law", "glucose uses", "starch", "cellulose", "lipids", "amino acids", "photosynthesis practical", "rate of photosynthesis"],
+          "tier": "both"
+        },
+        {
+          "id": "B19",
+          "name": "Plant Uses of Glucose",
+          "description": "How plants use glucose produced in photosynthesis",
+          "skills": ["respiration", "starch for storage", "cellulose for cell walls", "lipids for storage", "amino acids for proteins", "nitrates", "growth and reproduction", "energy transfer"],
+          "tier": "both"
+        },
+        {
+          "id": "B20",
+          "name": "Aerobic Respiration",
+          "description": "The process of aerobic respiration in cells",
+          "skills": ["aerobic respiration", "respiration equation", "mitochondria", "ATP", "energy release", "metabolism", "respiration in exercise", "oxygen debt", "lactic acid"],
+          "tier": "both"
+        },
+        {
+          "id": "B21",
+          "name": "Anaerobic Respiration",
+          "description": "Anaerobic respiration in animals and plants, fermentation",
+          "skills": ["anaerobic respiration", "lactic acid", "oxygen debt", "fermentation", "yeast", "alcohol", "carbon dioxide", "comparative yields of respiration", "lactic acid removal by liver"],
+          "tier": "both"
+        },
+        {
+          "id": "B22",
+          "name": "Metabolism",
+          "description": "Metabolism and the liver",
+          "skills": ["metabolism", "liver function", "detoxification", "lactic acid removal", "deamination", "urea", "glycogen storage", "breakdown of molecules", "synthesis of molecules", "enzymes in metabolism"],
+          "tier": "higher"
+        }
+      ]
+    },
+    {
+      "id": "homeostasis",
+      "name": "Homeostasis and Response",
+      "topics": [
+        {
+          "id": "B23",
+          "name": "Principles of Homeostasis",
+          "description": "Homeostasis and maintaining a constant internal environment",
+          "skills": ["homeostasis", "internal conditions", "automatic control systems", "receptors", "coordinators", "effectors", "negative feedback", "positive feedback", "stability"],
+          "tier": "both"
+        },
+        {
+          "id": "B24",
+          "name": "The Nervous System",
+          "description": "Structure and function of the nervous system, reflex actions",
+          "skills": ["central nervous system", "CNS", "brain", "spinal cord", "sensory neurone", "relay neurone", "motor neurone", "reflex arc", "stimulus", "receptor", "effector", "response", "synapse", "neurotransmitter", "reaction time practical"],
+          "tier": "both"
+        },
+        {
+          "id": "B25",
+          "name": "The Brain",
+          "description": "Structure and function of the brain",
+          "skills": ["cerebral cortex", "cerebellum", "medulla", "brain scanning", "CT scans", "PET scans", "difficulty investigating brain function", "treating brain damage"],
+          "tier": "higher"
+        },
+        {
+          "id": "B26",
+          "name": "The Eye",
+          "description": "Structure and function of the eye, accommodation and eye defects",
+          "skills": ["sclera", "cornea", "iris", "pupil", "lens", "retina", "optic nerve", "accommodation", "near point", "far point", "myopia", "hyperopia", "contact lenses", "laser eye surgery", "cataracts", "colour blindness"],
+          "tier": "both"
+        },
+        {
+          "id": "B27",
+          "name": "The Endocrine System",
+          "description": "Hormones and the endocrine system",
+          "skills": ["endocrine system", "hormones", "pituitary gland", "thyroid", "adrenal glands", "pancreas", "ovaries", "testes", "adrenaline", "insulin", "glucagon", "thyroxine", "negative feedback loops"],
+          "tier": "both"
+        },
+        {
+          "id": "B28",
+          "name": "Control of Blood Glucose",
+          "description": "How blood glucose concentration is regulated",
+          "skills": ["blood glucose", "insulin", "glucagon", "liver", "glycogen", "diabetes type 1", "diabetes type 2", "insulin injections", "pancreas", "negative feedback", "obesity and diabetes"],
+          "tier": "both"
+        },
+        {
+          "id": "B29",
+          "name": "Human Reproduction and Hormones",
+          "description": "Hormones in the menstrual cycle and reproduction",
+          "skills": ["menstrual cycle", "FSH", "LH", "oestrogen", "progesterone", "ovulation", "uterus lining", "contraception", "oral contraceptive pill", "implants", "patches", "barrier methods", "IVF", "fertility treatment", "ethical issues of IVF"],
+          "tier": "both"
+        },
+        {
+          "id": "B30",
+          "name": "Plant Hormones",
+          "description": "Auxins, gibberellins and ethylene in plant responses",
+          "skills": ["auxin", "phototropism", "geotropism", "gibberellins", "ethylene", "plant growth regulators", "seed germination", "root growth", "weedkillers", "ripening of fruit", "dormancy", "plant hormone practical"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "inheritance",
+      "name": "Inheritance, Variation and Evolution",
+      "topics": [
+        {
+          "id": "B31",
+          "name": "DNA and the Genome",
+          "description": "DNA structure, genes, chromosomes and the human genome",
+          "skills": ["DNA", "double helix", "genome", "human genome project", "chromosomes", "genes", "alleles", "nucleotide bases", "A-T C-G pairs", "importance of understanding the genome"],
+          "tier": "both"
+        },
+        {
+          "id": "B32",
+          "name": "Genetic Inheritance",
+          "description": "How genetic characteristics are inherited, Punnett squares",
+          "skills": ["dominant alleles", "recessive alleles", "homozygous", "heterozygous", "genotype", "phenotype", "Punnett squares", "probability", "monohybrid inheritance", "sex determination", "XX and XY chromosomes", "polydactyly", "cystic fibrosis", "carriers"],
+          "tier": "both"
+        },
+        {
+          "id": "B33",
+          "name": "Sex-Linked Inheritance",
+          "description": "How some characteristics are linked to sex chromosomes",
+          "skills": ["sex-linked genes", "X-linked inheritance", "colour blindness", "haemophilia", "carrier females", "affected males", "sex-linked Punnett squares"],
+          "tier": "higher"
+        },
+        {
+          "id": "B34",
+          "name": "Genetic Engineering",
+          "description": "Genetic engineering, GMOs and cloning",
+          "skills": ["genetic engineering", "genetic modification", "GMOs", "restriction enzymes", "ligase enzymes", "vector", "plasmid", "bacteria and insulin production", "GM crops", "advantages and disadvantages of GM", "golden rice", "herbicide-resistant crops", "gene therapy"],
+          "tier": "both"
+        },
+        {
+          "id": "B35",
+          "name": "Selective Breeding",
+          "description": "Selective breeding and its consequences",
+          "skills": ["selective breeding", "artificial selection", "dairy cattle", "disease-resistant crops", "domestic animals", "inbreeding", "reduced genetic variation", "advantages and disadvantages"],
+          "tier": "both"
+        },
+        {
+          "id": "B36",
+          "name": "Cloning",
+          "description": "Types of cloning including cuttings, tissue culture and animal cloning",
+          "skills": ["cuttings", "tissue culture", "animal cloning", "adult cell cloning", "embryo cloning", "Dolly the sheep", "advantages and disadvantages of cloning", "cloning endangered species"],
+          "tier": "both"
+        },
+        {
+          "id": "B37",
+          "name": "Variation",
+          "description": "Causes of variation within and between species",
+          "skills": ["variation", "genetic variation", "environmental variation", "continuous variation", "discontinuous variation", "mutation", "mutagens", "inherited vs acquired characteristics", "normal distribution curves"],
+          "tier": "both"
+        },
+        {
+          "id": "B38",
+          "name": "Evolution",
+          "description": "The theory of evolution by natural selection",
+          "skills": ["evolution", "natural selection", "Darwin", "Wallace", "survival of the fittest", "adaptation", "speciation", "fossils", "fossil record", "extinction", "antibiotic-resistant bacteria as evolution", "evidence for evolution"],
+          "tier": "both"
+        },
+        {
+          "id": "B39",
+          "name": "Classification",
+          "description": "Classification systems and the three-domain system",
+          "skills": ["classification", "Carl Linnaeus", "kingdoms", "phylum", "class", "order", "family", "genus", "species", "binomial system", "three-domain system", "Archaea", "Bacteria", "Eukarya", "evolutionary trees", "genetic similarities"],
+          "tier": "both"
+        }
+      ]
+    },
+    {
+      "id": "ecology",
+      "name": "Ecology",
+      "topics": [
+        {
+          "id": "B40",
+          "name": "Ecosystems and Interdependence",
+          "description": "Communities, ecosystems and how organisms depend on each other",
+          "skills": ["ecosystem", "community", "population", "habitat", "interdependence", "competition", "predation", "food chains", "food webs", "trophic levels", "producer", "primary consumer", "secondary consumer", "tertiary consumer", "decomposer", "pyramids of biomass", "predator-prey cycles", "stable community"],
+          "tier": "both"
+        },
+        {
+          "id": "B41",
+          "name": "Nutrient Cycles",
+          "description": "The carbon cycle and the water cycle",
+          "skills": ["carbon cycle", "water cycle", "decomposition", "decay", "composting", "biogas generators", "factors affecting decomposition", "temperature", "moisture", "oxygen availability", "required practical: decomposition"],
+          "tier": "both"
+        },
+        {
+          "id": "B42",
+          "name": "Biodiversity",
+          "description": "Biodiversity, human impacts and conservation",
+          "skills": ["biodiversity", "deforestation", "peat destruction", "pollution", "land pollution", "water pollution", "air pollution", "smoke and acid rain", "global warming", "climate change", "carbon dioxide and methane", "impact of environmental changes", "conservation", "protecting habitats", "captive breeding programmes", "national parks", "reintroduction of species"],
+          "tier": "both"
+        },
+        {
+          "id": "B43",
+          "name": "Trophic Levels and Biomass Transfer",
+          "description": "How energy is transferred through trophic levels",
+          "skills": ["trophic levels", "biomass transfer", "efficiency of energy transfer", "calculating efficiency", "why biomass decreases", "energy losses", "respiration", "excretion", "waste", "pyramid of numbers", "pyramid of biomass"],
+          "tier": "higher"
+        },
+        {
+          "id": "B44",
+          "name": "Food Security",
+          "description": "Food security and sustainable food production",
+          "skills": ["food security", "sustainable food production", "farming methods", "factory farming", "fish stocks", "overfishing", "sustainable fisheries", "biotechnology", "mycoprotein", "fungus Fusarium", "reducing energy waste in food chains"],
+          "tier": "both"
+        },
+        {
+          "id": "B45",
+          "name": "Investigating Populations",
+          "description": "Sampling techniques and estimating population size",
+          "skills": ["quadrats", "transects", "systematic sampling", "random sampling", "estimating population size", "capture-mark-recapture", "abundance", "distribution of organisms", "required practical: quadrats and transects", "mean", "median", "mode", "range"],
+          "tier": "both"
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "tripleVsCombined": "Triple Biology includes all Combined Science content plus additional higher-tier topics and more depth. Topics unique to Triple or significantly expanded include: culturing microorganisms, cell specialisation detail, monoclonal antibodies, the brain, the eye, sex-linked inheritance, trophic levels and biomass transfer, plant diseases.",
+    "requiredPracticals": "AQA has 10 required practicals: microscopy, osmosis, food tests, enzymes, photosynthesis, reaction time, decay, field investigations, plant hormones, and microorganism growth.",
+    "mathsSkills": "Biology requires maths skills including: calculating magnification, percentage change, mean/median/mode, interpreting graphs, using standard form, calculating cross-sectional areas of zones of inhibition, probability in genetics (Punnett squares).",
+    "workingScientifically": "All exam boards assess Working Scientifically: experimental design, variables, risk assessment, data analysis, evaluating methods, drawing conclusions, identifying sources of error."
+  }
+}
