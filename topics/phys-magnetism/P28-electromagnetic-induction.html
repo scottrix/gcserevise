@@ -37,36 +37,213 @@
 </article>
 
 <section class="section">
-<h2>📋 Key Concepts</h2>
+<h2>📋 Key Definitions</h2>
 
 <div class="key-point">
-<strong>Electromagnetic Induction:</strong> Generators, transformers and the National Grid
+<strong>Electromagnetic induction:</strong> The process of inducing a potential difference (and current if the circuit is complete) in a conductor by moving it through a magnetic field, or by changing the magnetic field around a conductor.
 </div>
 
-<h3>Key Terms</h3>
+<div class="key-point">
+<strong>Generator effect:</strong> When a wire moves through a magnetic field (or a magnetic field changes through a coil), a potential difference is induced. If the conductor is part of a complete circuit, a current flows. This is the opposite of the motor effect.
+</div>
+
+<div class="key-point">
+<strong>Transformer:</strong> A device that changes the voltage of an alternating current. It consists of a primary coil and a secondary coil wound on the same iron core. Transformers only work with AC.
+</div>
+
+<div class="key-point">
+<strong>Step-up transformer:</strong> A transformer that increases the voltage (more turns on the secondary coil than the primary).
+</div>
+
+<div class="key-point">
+<strong>Step-down transformer:</strong> A transformer that decreases the voltage (fewer turns on the secondary coil than the primary).
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Electromagnetic Induction</h2>
+
+<h3>How Induction Happens</h3>
+<p>There are two ways to induce a potential difference:</p>
 <ul>
-  <li>electromagnetic induction</li>
-          <li>generator effect</li>
-          <li>alternators</li>
-          <li>dynamos</li>
-          <li>transformers</li>
-          <li>step-up</li>
-          <li>step-down</li>
-          <li>Vp/Vs = Np/Ns</li>
-          <li>microphones</li>
+<li><strong>Moving a conductor through a magnetic field:</strong> If a wire is moved through a magnetic field (or a magnet is moved into a coil), a potential difference is induced across the ends of the conductor.</li>
+<li><strong>Changing the magnetic field through a coil:</strong> If the magnetic field through a coil changes (e.g. by moving a magnet in and out), a potential difference is induced across the coil.</li>
+</ul>
+
+<div class="key-point">
+<strong>Key rule:</strong> The induced potential difference always opposes the change that produced it (Lenz's law). This means the induced current creates a magnetic field that tries to stop the original change &mdash; if you push a magnet into a coil, the coil's induced field repels the magnet.
+</div>
+
+<h3>Factors Affecting Induced PD</h3>
+<p>To increase the size of the induced potential difference:</p>
+<ul>
+<li>Use a <strong>stronger magnet</strong> (increase magnetic field strength)</li>
+<li>Move the conductor <strong>faster</strong> (rate of change of field)</li>
+<li>Use <strong>more turns</strong> on the coil (each turn adds its induced PD)</li>
 </ul>
 </section>
 
 <section class="section">
-<h2>📝 What You Need to Know</h2>
+<h2>🔄 Generators</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>Alternator (AC generator)</th>
+<th>Dynamo (DC generator)</th>
+</tr>
+<tr>
+<td>Output</td>
+<td>Alternating current (AC)</td>
+<td>Direct current (DC)</td>
+</tr>
+<tr>
+<td>Connection to coil</td>
+<td>Slip rings</td>
+<td>Split ring commutator</td>
+</tr>
+<tr>
+<td>How it works</td>
+<td>Coil rotates in magnetic field. Slip rings maintain continuous contact, allowing the current to alternate as the coil rotates.</td>
+<td>Coil rotates in magnetic field. Split ring commutator reverses connections every half turn, keeping current in one direction.</td>
+</tr>
+<tr>
+<td>PD graph</td>
+<td>Sinusoidal (positive and negative peaks)</td>
+<td>Pulsating (always positive, varies from zero to maximum)</td>
+</tr>
+</table>
 
 <div class="key-point">
-<strong>Core knowledge:</strong> Make sure you understand each of the key terms above and can explain them in your own words. Exam questions often ask you to define terms or explain processes.
+<strong>How a generator works:</strong> A coil rotates in a magnetic field. As the coil turns, the magnetic flux through the coil changes, inducing a potential difference. When the coil is perpendicular to the field, maximum flux links the coil but the rate of change is zero (PD = 0). When the coil is parallel to the field, minimum flux links but the rate of change is maximum (PD = maximum).
+</div>
+</section>
+
+<section class="section">
+<h2>🔌 Transformers</h2>
+
+<div class="formula-box">
+Transformer equation: Vp / Vs = Np / Ns<br>
+<br>
+Where:<br>
+Vp = primary voltage (V)<br>
+Vs = secondary voltage (V)<br>
+Np = number of turns on primary coil<br>
+Ns = number of turns on secondary coil
+</div>
+
+<div class="formula-box">
+For a 100% efficient transformer: Vp x Ip = Vs x Is<br>
+<br>
+Where:<br>
+Ip = primary current (A)<br>
+Is = secondary current (A)
+</div>
+
+<h3>How Transformers Work</h3>
+<ol>
+<li>An alternating current in the primary coil produces a <strong>changing magnetic field</strong>.</li>
+<li>The iron core carries the changing magnetic field to the secondary coil.</li>
+<li>The changing magnetic field through the secondary coil <strong>induces a potential difference</strong> across it (electromagnetic induction).</li>
+<li>If the secondary coil is part of a complete circuit, an alternating current flows.</li>
+</ol>
+
+<div class="key-point">
+<strong>Why transformers only work with AC:</strong> Transformers need a changing magnetic field to induce a potential difference in the secondary coil. AC produces a continuously changing magnetic field. DC produces a constant magnetic field, so no induction occurs in the secondary coil after the initial switch-on.
+</div>
+
+<h3>Transformer Types</h3>
+
+<table class="comparison-table">
+<tr>
+<th>Transformer type</th>
+<th>Turns relationship</th>
+<th>Voltage relationship</th>
+<th>Current relationship</th>
+</tr>
+<tr>
+<td>Step-up</td>
+<td>Ns &gt; Np (more on secondary)</td>
+<td>Vs &gt; Vp (voltage increases)</td>
+<td>Is &lt; Ip (current decreases)</td>
+</tr>
+<tr>
+<td>Step-down</td>
+<td>Ns &lt; Np (fewer on secondary)</td>
+<td>Vs &lt; Vp (voltage decreases)</td>
+<td>Is &gt; Ip (current increases)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🏭 The National Grid</h2>
+
+<div class="key-point">
+<strong>The National Grid:</strong> A network of cables and transformers that connects power stations to consumers (homes, factories, etc.). It uses step-up and step-down transformers to reduce energy loss in transmission.
+</div>
+
+<h3>Why High Voltage is Used</h3>
+<ul>
+<li>Power stations generate electricity at about 25,000 V.</li>
+<li>A <strong>step-up transformer</strong> increases this to 400,000 V for transmission across the country.</li>
+<li>Higher voltage means lower current (P = VI, so for the same power, higher V gives lower I).</li>
+<li>Lower current means less energy lost as heat in the cables (P = I2R).</li>
+<li>At the consumer end, <strong>step-down transformers</strong> reduce the voltage to 230 V for safe home use.</li>
+</ul>
+
+<div class="key-point">
+<strong>Key calculation:</strong> For a given power transmitted, doubling the voltage halves the current. Since energy loss is proportional to current squared (P = I2R), halving the current reduces energy loss to one quarter. This is why very high voltages are used for long-distance transmission.
+</div>
+</section>
+
+<section class="section">
+<h2>🧮 Worked Examples</h2>
+
+<div class="example">
+<div class="example-title">Example 1: Transformer turns calculation</div>
+<p>A step-down transformer has 2000 turns on the primary coil and 100 turns on the secondary coil. The primary voltage is 230 V. Calculate the secondary voltage.</p>
+<p><strong>Solution:</strong></p>
+<p>Vp / Vs = Np / Ns</p>
+<p>230 / Vs = 2000 / 100 = 20</p>
+<p>Vs = 230 / 20 = <strong>11.5 V</strong></p>
 </div>
 
 <div class="example">
-<div class="example-title">Key Fact</div>
-<p>Generators, transformers and the National Grid. This topic is assessed across all major exam boards including AQA, Edexcel, OCR and CCEA.</p>
+<div class="example-title">Example 2: Step-up transformer</div>
+<p>A step-up transformer has 500 turns on the primary and 10,000 turns on the secondary. The input voltage is 25,000 V. Calculate the output voltage.</p>
+<p><strong>Solution:</strong></p>
+<p>Vp / Vs = Np / Ns</p>
+<p>25000 / Vs = 500 / 10000 = 0.05</p>
+<p>Vs = 25000 / 0.05 = <strong>500,000 V</strong> (500 kV)</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 3: Transformer current calculation</div>
+<p>A 100% efficient transformer has a primary voltage of 230 V and a secondary voltage of 11.5 V. The primary current is 0.2 A. Calculate the secondary current.</p>
+<p><strong>Solution:</strong></p>
+<p>Vp x Ip = Vs x Is</p>
+<p>230 x 0.2 = 11.5 x Is</p>
+<p>46 = 11.5 x Is</p>
+<p>Is = 46 / 11.5 = <strong>4 A</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 4: National Grid energy loss</div>
+<p>Explain why the National Grid transmits electricity at 400,000 V rather than at 25,000 V.</p>
+<p><strong>Solution:</strong></p>
+<p>Transmitting at a higher voltage means a lower current for the same power (P = VI). Energy lost as heat in the cables depends on the current squared (P = I2R), so a lower current means much less energy is wasted as heat. Transmitting at 400,000 V instead of 25,000 V reduces the current by a factor of 16, and the power loss by a factor of 256 (16 squared).</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 5: Finding turns ratio</div>
+<p>A transformer converts 230 V to 46 V. The primary coil has 1150 turns. Calculate the number of turns on the secondary coil.</p>
+<p><strong>Solution:</strong></p>
+<p>Vp / Vs = Np / Ns</p>
+<p>230 / 46 = 1150 / Ns</p>
+<p>5 = 1150 / Ns</p>
+<p>Ns = 1150 / 5 = <strong>230 turns</strong></p>
+<p>This is a step-down transformer (fewer turns on secondary, lower voltage).</p>
 </div>
 </section>
 
@@ -75,19 +252,22 @@
 
 <div class="practice-questions">
 <div class="question">
-<p><strong>Q1:</strong> Define the following key term from this topic: electromagnetic induction</p>
+<p><strong>Q1:</strong> <span class="badge foundation">Foundation</span> State three ways to increase the size of an induced potential difference.</p>
 </div>
 <div class="question">
-<p><strong>Q2:</strong> Explain electromagnetic induction in your own words.</p>
+<p><strong>Q2:</strong> <span class="badge foundation">Foundation</span> Explain the difference between an alternator and a dynamo.</p>
 </div>
 <div class="question">
-<p><strong>Q3:</strong> How does generator effect relate to electromagnetic induction?</p>
+<p><strong>Q3:</strong> <span class="badge higher">Higher</span> A transformer has 800 turns on the primary coil and 40 turns on the secondary coil. The primary voltage is 230 V. Calculate the secondary voltage.</p>
 </div>
 <div class="question">
-<p><strong>Q4:</strong> Give an example of alternators in electromagnetic induction.</p>
+<p><strong>Q4:</strong> <span class="badge higher">Higher</span> A 100% efficient step-up transformer has an input voltage of 25,000 V and an input current of 400 A. The output voltage is 400,000 V. Calculate the output current.</p>
 </div>
 <div class="question">
-<p><strong>Q5:</strong> Describe how this topic connects to other areas of Combined Science.</p>
+<p><strong>Q5:</strong> <span class="badge foundation">Foundation</span> Explain why the National Grid uses step-up transformers between power stations and transmission cables.</p>
+</div>
+<div class="question">
+<p><strong>Q6:</strong> <span class="badge higher">Higher</span> Explain why transformers only work with alternating current and not with direct current.</p>
 </div>
 </div>
 </section>
@@ -95,27 +275,30 @@
 <section class="section">
 <h2>✅ Answers</h2>
 <ol>
-<li>electromagnetic induction: check your notes for the precise definition required by your exam board.</li>
-<li>Generators, transformers and the National Grid - ensure your explanation includes key terminology from the topic.</li>
-<li>generator effect is directly related to electromagnetic induction as it forms part of the core understanding.</li>
-<li>Examples will vary - check with your teacher or textbook for specific examples relevant to your exam board.</li>
-<li>This topic links to other areas through shared concepts such as energy, particles, or cellular processes.</li>
+<li><strong>Q1:</strong> Three from: use a stronger magnet, move the conductor faster through the field, use more turns of wire on the coil.</li>
+<li><strong>Q2:</strong> An alternator produces alternating current (AC) and uses slip rings to connect the coil to the circuit. A dynamo produces direct current (DC) and uses a split ring commutator to reverse the connections every half turn, keeping the current flowing in one direction only.</li>
+<li><strong>Q3:</strong> Vp / Vs = Np / Ns, so 230 / Vs = 800 / 40 = 20. Vs = 230 / 20 = <strong>11.5 V</strong></li>
+<li><strong>Q4:</strong> Vp x Ip = Vs x Is. 25000 x 400 = 400000 x Is. 10,000,000 = 400000 x Is. Is = 10,000,000 / 400,000 = <strong>25 A</strong></li>
+<li><strong>Q5:</strong> Step-up transformers increase the voltage for transmission. Higher voltage means lower current for the same power. Lower current means less energy is lost as heat in the transmission cables (since P = I2R), making the system more efficient.</li>
+<li><strong>Q6:</strong> Transformers work by electromagnetic induction: the primary coil's AC produces a changing magnetic field in the iron core, which induces a potential difference in the secondary coil. With DC, the current and magnetic field are constant, so there is no changing field to induce a PD in the secondary coil (except briefly at switch-on or switch-off).</li>
 </ol>
 </section>
 
 <section class="section">
 <h2>🎯 Exam Tips</h2>
 <ul>
-<li>Learn the key definitions word-for-word - examiners mark these precisely</li>
-<li>Use correct scientific terminology in your answers</li>
-<li>Practice explaining processes step by step</li>
-<li>Link this topic to required practicals where possible</li>
-<li>Foundation questions often test recall and basic understanding</li>
+<li>For electromagnetic induction, remember: <strong>movement</strong> or <strong>change</strong> is needed. A stationary wire in a constant field produces no induced PD.</li>
+<li>Know the difference between slip rings (alternator/AC) and split ring commutator (dynamo/DC) &mdash; this is a very common question.</li>
+<li>In transformer calculations, always set up the ratio Vp/Vs = Np/Ns carefully &mdash; make sure primary values are on one side and secondary on the other.</li>
+<li>For National Grid questions, link: high voltage &rarr; low current &rarr; less heat loss (P = I2R). Always mention the I2R equation.</li>
+<li>Transformers are <strong>never 100% efficient in reality</strong> &mdash; some energy is lost as heat in the coils and core. But for calculations, assume 100% efficiency unless told otherwise.</li>
+<li>Remember: step-up means voltage goes up and current goes down; step-down means voltage goes down and current goes up. Voltage and current change in opposite directions.</li>
+<li>When explaining how a transformer works, mention all four steps: AC in primary &rarr; changing magnetic field in core &rarr; induced PD in secondary &rarr; AC in secondary (if circuit complete).</li>
 </ul>
 </section>
 
 <nav class="topic-nav">
-<a href="P27-electromagnets.html" class="nav-prev">← P27: Electromagnets</a>
+<a href="P27-electromagnets.html" class="nav-prev">&larr; P27: Electromagnets</a>
 <span class="nav-next"></span>
 </nav>
 </main>

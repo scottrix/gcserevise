@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Forces and Elasticity - GCSE Combined Science Revision</title>
-<meta name="description" content="Hooke's law, springs and elastic deformation. Free GCSE Combined Science revision notes.">
+<meta name="description" content="Hooke's law, spring constant, elastic and plastic deformation, elastic potential energy and spring practical. Free GCSE Combined Science Physics revision notes.">
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -37,35 +37,145 @@
 </article>
 
 <section class="section">
-<h2>📋 Key Concepts</h2>
+<h2>📋 Key Definitions</h2>
 
 <div class="key-point">
-<strong>Forces and Elasticity:</strong> Hooke's law, springs and elastic deformation
+<strong>Elastic deformation:</strong> When a force is applied to an object and it changes shape, but returns to its original shape when the force is removed. Example: a spring stretching and then returning to its original length.
 </div>
 
-<h3>Key Terms</h3>
-<ul>
-  <li>Hooke's law</li>
-          <li>spring constant</li>
-          <li>elastic deformation</li>
-          <li>plastic deformation</li>
-          <li>limit of proportionality</li>
-          <li>F=ke</li>
-          <li>elastic potential energy</li>
-          <li>spring practical</li>
-</ul>
+<div class="key-point">
+<strong>Plastic deformation:</strong> When a force is applied to an object and it changes shape permanently &mdash; it does NOT return to its original shape when the force is removed. Example: overstretching a spring so it stays stretched.
+</div>
+
+<div class="key-point">
+<strong>Hooke's Law:</strong> The extension of a spring is directly proportional to the force applied, provided the limit of proportionality is not exceeded.
+</div>
+
+<div class="key-point">
+<strong>Limit of proportionality:</strong> The maximum force at which extension is still proportional to force. Beyond this point, Hooke's Law no longer applies.
+</div>
+
+<div class="key-point">
+<strong>Spring constant (k):</strong> A measure of the stiffness of a spring. A higher spring constant means a stiffer spring (more force needed for the same extension). Measured in N/m.
+</div>
 </section>
 
 <section class="section">
-<h2>📝 What You Need to Know</h2>
+<h2>📐 Hooke's Law &mdash; F = ke</h2>
+
+<div class="formula-box">
+<p><strong>F = ke</strong></p>
+<p>F = force (N), k = spring constant (N/m), e = extension (m)</p>
+</div>
+
+<p>Extension is the increase in length from the original, unstretched length: <strong>extension = stretched length &minus; original length</strong>.</p>
 
 <div class="key-point">
-<strong>Core knowledge:</strong> Make sure you understand each of the key terms above and can explain them in your own words. Exam questions often ask you to define terms or explain processes.
+<strong>Hooke's Law means:</strong> If you double the force, the extension doubles. If you triple the force, the extension triples. This only works up to the limit of proportionality.
 </div>
 
 <div class="example">
-<div class="example-title">Key Fact</div>
-<p>Hooke's law, springs and elastic deformation. This topic is assessed across all major exam boards including AQA, Edexcel, OCR and CCEA.</p>
+<div class="example-title">Worked Example 1: Calculating force</div>
+<p>A spring has a spring constant of 200 N/m. Calculate the force needed to extend it by 0.05 m (5 cm).</p>
+<p>F = ke = 200 &times; 0.05 = <strong>10 N</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 2: Calculating extension</div>
+<p>A force of 15 N is applied to a spring with spring constant 300 N/m. Calculate the extension.</p>
+<p>e = F / k = 15 / 300 = <strong>0.05 m</strong> (or 5 cm)</p>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 3: Calculating spring constant</div>
+<p>A force of 8 N causes a spring to extend by 0.04 m. Calculate the spring constant.</p>
+<p>k = F / e = 8 / 0.04 = <strong>200 N/m</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 Force-Extension Graphs</h2>
+
+<p>When you plot force (y-axis) against extension (x-axis) for a spring:</p>
+<ul>
+<li>The graph is a <strong>straight line through the origin</strong> &mdash; this shows Hooke's Law (F is proportional to e)</li>
+<li>The <strong>gradient</strong> of the straight line = spring constant k</li>
+<li>The graph curves at the <strong>limit of proportionality</strong> &mdash; beyond this, extension is no longer proportional to force</li>
+<li>If the force is removed before the limit of proportionality, the spring returns to its original length (elastic deformation)</li>
+<li>If the force exceeds the elastic limit, the spring is permanently deformed (plastic deformation)</li>
+</ul>
+
+<div class="comparison-table">
+<table>
+<thead>
+<tr><th>Point on graph</th><th>Meaning</th></tr>
+</thead>
+<tbody>
+<tr><td>Limit of proportionality</td><td>Maximum force where F &prop; e. Beyond this, the graph curves.</td></tr>
+<tr><td>Elastic limit</td><td>Maximum force for elastic deformation. Beyond this, plastic deformation occurs. The spring will not return to its original length.</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="section">
+<h2>⚡ Elastic Potential Energy</h2>
+
+<p>When a spring is stretched or compressed, it stores <strong>elastic potential energy</strong>.</p>
+
+<div class="formula-box">
+<p><strong>E<sub>e</sub> = &frac12;ke&sup2;</strong></p>
+<p>E<sub>e</sub> = elastic potential energy (J), k = spring constant (N/m), e = extension (m)</p>
+</div>
+
+<div class="formula-box">
+<p><strong>E<sub>e</sub> = &frac12;Fe</strong></p>
+<p>(This is the area under a force-extension graph up to extension e)</p>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 4: Calculating elastic potential energy</div>
+<p>A spring with spring constant 400 N/m is extended by 0.1 m. Calculate the elastic potential energy stored.</p>
+<p>E<sub>e</sub> = &frac12;ke&sup2; = &frac12; &times; 400 &times; 0.1&sup2; = &frac12; &times; 400 &times; 0.01 = <strong>2 J</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 5: Energy using force and extension</div>
+<p>A force of 20 N extends a spring by 0.05 m. Calculate the elastic potential energy stored.</p>
+<p>E<sub>e</sub> = &frac12;Fe = &frac12; &times; 20 &times; 0.05 = <strong>0.5 J</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>🧪 Required Practical: Investigating Springs</h2>
+
+<h3>Aim</h3>
+<p>To investigate the relationship between force and extension for a spring, and determine the spring constant.</p>
+
+<h3>Method</h3>
+<ol>
+<li>Set up a clamp stand with a spring hanging from it and a ruler alongside</li>
+<li>Measure the original length of the spring (with no mass attached)</li>
+<li>Hang a 1 N (100 g) mass on the spring and measure the new length</li>
+<li>Calculate the extension: extension = new length &minus; original length</li>
+<li>Add masses in 1 N increments, measuring the new length each time</li>
+<li>Calculate the extension for each force</li>
+<li>Plot a graph of force (y-axis) against extension (x-axis)</li>
+</ol>
+
+<h3>Analysis</h3>
+<ul>
+<li>The graph should be a straight line through the origin (Hooke's Law region)</li>
+<li>The <strong>gradient</strong> of the straight-line section = spring constant k</li>
+<li>The point where the line starts to curve = limit of proportionality</li>
+</ul>
+
+<div class="key-point">
+<strong>Safety:</strong> Wear eye protection. Do not exceed the elastic limit of the spring (it could snap). Stand up so you can move away quickly if the spring breaks.
+</div>
+
+<div class="key-point">
+<strong>Improving accuracy:</strong> Take readings at eye level to avoid parallax error. Measure the original length carefully before adding any mass. Repeat the experiment and calculate a mean.
 </div>
 </section>
 
@@ -74,19 +184,19 @@
 
 <div class="practice-questions">
 <div class="question">
-<p><strong>Q1:</strong> Define the following key term from this topic: Hooke's law</p>
+<p><strong>Q1:</strong> <span class="badge foundation">Foundation</span> State Hooke's Law and explain what the limit of proportionality is.</p>
 </div>
 <div class="question">
-<p><strong>Q2:</strong> Explain forces and elasticity in your own words.</p>
+<p><strong>Q2:</strong> <span class="badge foundation">Foundation</span> A spring has a spring constant of 250 N/m. Calculate the force needed to extend it by 0.08 m.</p>
 </div>
 <div class="question">
-<p><strong>Q3:</strong> How does spring constant relate to forces and elasticity?</p>
+<p><strong>Q3:</strong> <span class="badge higher">Higher</span> A force of 12 N extends a spring by 0.06 m. Calculate the spring constant and the elastic potential energy stored.</p>
 </div>
 <div class="question">
-<p><strong>Q4:</strong> Give an example of elastic deformation in forces and elasticity.</p>
+<p><strong>Q4:</strong> <span class="badge higher">Higher</span> Describe how to find the spring constant from a force-extension graph.</p>
 </div>
 <div class="question">
-<p><strong>Q5:</strong> Describe how this topic connects to other areas of Combined Science.</p>
+<p><strong>Q5:</strong> <span class="badge foundation">Foundation</span> Explain the difference between elastic deformation and plastic deformation.</p>
 </div>
 </div>
 </section>
@@ -94,28 +204,29 @@
 <section class="section">
 <h2>✅ Answers</h2>
 <ol>
-<li>Hooke's law: check your notes for the precise definition required by your exam board.</li>
-<li>Hooke's law, springs and elastic deformation - ensure your explanation includes key terminology from the topic.</li>
-<li>spring constant is directly related to forces and elasticity as it forms part of the core understanding.</li>
-<li>Examples will vary - check with your teacher or textbook for specific examples relevant to your exam board.</li>
-<li>This topic links to other areas through shared concepts such as energy, particles, or cellular processes.</li>
+<li><strong>Hooke's Law states that extension is directly proportional to the force applied, provided the limit of proportionality is not exceeded. The limit of proportionality is the maximum force at which this proportional relationship still holds. Beyond this point, extension increases more rapidly than force.</strong></li>
+<li><strong>F = ke = 250 &times; 0.08 = 20 N</strong></li>
+<li><strong>k = F / e = 12 / 0.06 = 200 N/m. E<sub>e</sub> = &frac12;ke&sup2; = &frac12; &times; 200 &times; 0.06&sup2; = &frac12; &times; 200 &times; 0.0036 = 0.36 J</strong></li>
+<li><strong>Plot force on the y-axis and extension on the x-axis. In the Hooke's Law region, the graph is a straight line through the origin. The spring constant k equals the gradient of this straight line (gradient = F/e = k).</strong></li>
+<li><strong>Elastic deformation: the object returns to its original shape when the force is removed. Plastic deformation: the object does NOT return to its original shape &mdash; the deformation is permanent.</strong></li>
 </ol>
 </section>
 
 <section class="section">
 <h2>🎯 Exam Tips</h2>
 <ul>
-<li>Learn the key definitions word-for-word - examiners mark these precisely</li>
-<li>Use correct scientific terminology in your answers</li>
-<li>Practice explaining processes step by step</li>
-<li>Link this topic to required practicals where possible</li>
-<li>Foundation questions often test recall and basic understanding</li>
+<li>Remember: <strong>extension</strong> is not the same as <strong>length</strong>. Extension = new length &minus; original length</li>
+<li>The gradient of the force-extension graph = <strong>spring constant k</strong> (not the other way round)</li>
+<li>Hooke's Law only applies up to the <strong>limit of proportionality</strong> &mdash; always mention this condition</li>
+<li>For elastic potential energy, use E = &frac12;ke&sup2; or E = &frac12;Fe &mdash; note the &frac12; in both</li>
+<li>In the practical, describe measuring extension (not length), plotting the graph, and finding k from the gradient</li>
+<li>The elastic limit is different from the limit of proportionality &mdash; the elastic limit is where permanent deformation begins</li>
 </ul>
 </section>
 
 <nav class="topic-nav">
-<a href="P17-stopping-distances.html" class="nav-prev">← P17: Stopping Distances</a>
-<a href="P19-pressure.html" class="nav-next">P19: Pressure →</a>
+<a href="P17-stopping-distances.html" class="nav-prev">&larr; P17: Stopping Distances</a>
+<a href="P19-pressure.html" class="nav-next">P19: Pressure &rarr;</a>
 </nav>
 </main>
 
@@ -136,7 +247,6 @@ this.textContent = "☀️";
 localStorage.setItem("gcserevise-theme", "light");
 }
 });
-
 if (localStorage.getItem("gcserevise-theme") === "light") {
 document.documentElement.classList.add("light-mode");
 document.getElementById("theme-toggle").textContent = "☀️";

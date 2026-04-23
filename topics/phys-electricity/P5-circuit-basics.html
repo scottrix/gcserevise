@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Circuit Basics - GCSE Combined Science Revision</title>
-<meta name="description" content="Standard circuit symbols, current, voltage and resistance. Free GCSE Combined Science revision notes.">
+<meta name="description" content="Standard circuit symbols, current, voltage, resistance and Ohms Law. Free GCSE Combined Science Physics revision.">
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -33,62 +33,178 @@
 <span class="badge foundation">Foundation</span><span class="badge higher">Higher</span>
 <span class="badge">All Boards</span>
 </div>
-<p class="topic-desc">Standard circuit symbols, current, voltage and resistance</p>
+<p class="topic-desc">Standard circuit symbols, current, voltage and resistance — Ohm's Law and I-V characteristics.</p>
 </article>
 
 <section class="section">
-<h2>📋 Key Concepts</h2>
-
+<h2>📋 Key Definitions</h2>
 <div class="key-point">
-<strong>Circuit Basics:</strong> Standard circuit symbols, current, voltage and resistance
+<strong>Electric current:</strong> The rate of flow of charge. Measured in amperes (A) using an ammeter connected in series. Current is the same in all parts of a series circuit.
 </div>
-
-<h3>Key Terms</h3>
-<ul>
-  <li>circuit symbols</li>
-          <li>current</li>
-          <li>potential difference</li>
-          <li>resistance</li>
-          <li>ammeter</li>
-          <li>voltmeter</li>
-          <li>series circuits</li>
-          <li>parallel circuits</li>
-          <li>V=IR</li>
-          <li>I-V characteristics practical</li>
-</ul>
+<div class="key-point">
+<strong>Potential difference (voltage):</strong> The energy transferred per unit charge passing between two points. Measured in volts (V) using a voltmeter connected in parallel across the component.
+</div>
+<div class="key-point">
+<strong>Resistance:</strong> The opposition to the flow of current. Measured in ohms (Ω). Higher resistance means less current for a given voltage.
+</div>
 </section>
 
 <section class="section">
-<h2>📝 What You Need to Know</h2>
+<h2>🔌 Standard Circuit Symbols</h2>
+<table class="comparison-table">
+<tr><th>Component</th><th>Symbol Description</th><th>Key Detail</th></tr>
+<tr><td><strong>Cell</strong></td><td>Long line (+) and short thick line (-)</td><td>Provides energy to the circuit</td></tr>
+<tr><td><strong>Battery</strong></td><td>Two or more cells joined together</td><td>Long line = positive terminal</td></tr>
+<tr><td><strong>Switch (open)</strong></td><td>Gap in the circuit line</td><td>Circuit is incomplete — no current</td></tr>
+<tr><td><strong>Switch (closed)</strong></td><td>Line completes the circuit</td><td>Circuit is complete — current flows</td></tr>
+<tr><td><strong>Lamp</strong></td><td>Circle with a cross inside</td><td>Converts electrical energy to light</td></tr>
+<tr><td><strong>Resistor</strong></td><td>Rectangle</td><td>Opposes current flow at constant rate</td></tr>
+<tr><td><strong>Variable resistor</strong></td><td>Rectangle with diagonal arrow</td><td>Resistance can be changed</td></tr>
+<tr><td><strong>Ammeter</strong></td><td>Circle with 'A' inside</td><td>Connected in series, measures current</td></tr>
+<tr><td><strong>Voltmeter</strong></td><td>Circle with 'V' inside</td><td>Connected in parallel, measures voltage</td></tr>
+<tr><td><strong>Diode</strong></td><td>Triangle pointing to a line</td><td>Current flows in one direction only</td></tr>
+<tr><td><strong>LED</strong></td><td>Triangle with arrows (light)</td><td>Diode that emits light when forward biased</td></tr>
+<tr><td><strong>Fuse</strong></td><td>Rectangle with line through it</td><td>Melts if current is too high, breaks circuit</td></tr>
+<tr><td><strong>Thermistor</strong></td><td>Rectangle with 't' or diagonal line</td><td>Resistance decreases as temperature increases</td></tr>
+<tr><td><strong>LDR</strong></td><td>Circle with arrows, rectangle inside</td><td>Resistance decreases as light intensity increases</td></tr>
+</table>
+</section>
 
+<section class="section">
+<h2>📐 Ohm's Law</h2>
 <div class="key-point">
-<strong>Core knowledge:</strong> Make sure you understand each of the key terms above and can explain them in your own words. Exam questions often ask you to define terms or explain processes.
+<strong>Ohm's Law:</strong> The current through a resistor at constant temperature is directly proportional to the potential difference across it. This means V = I x R.
+</div>
+<div class="formula-box">
+V = I x R
+</div>
+<p>Where:</p>
+<ul>
+<li><strong>V</strong> = potential difference, in volts (V)</li>
+<li><strong>I</strong> = current, in amperes (A)</li>
+<li><strong>R</strong> = resistance, in ohms (Ω)</li>
+</ul>
+<div class="formula-box">
+R = V / I
+</div>
+<div class="formula-box">
+I = V / R
+</div>
+</section>
+
+<section class="section">
+<h2>📊 I-V Characteristics</h2>
+<div class="key-point">
+<strong>Required practical:</strong> Investigate the I-V characteristics of a resistor, a filament lamp and a diode to see how current varies with potential difference.
+</div>
+<table class="comparison-table">
+<tr><th>Component</th><th>I-V Graph Shape</th><th>Explanation</th></tr>
+<tr><td><strong>Resistor (at constant temperature)</strong></td><td>Straight line through origin</td><td>Current is directly proportional to voltage (Ohmic conductor). Resistance is constant.</td></tr>
+<tr><td><strong>Filament lamp</strong></td><td>Curve that flattens at higher voltages</td><td>As current increases, the filament heats up, resistance increases, so current increases less quickly. Not an Ohmic conductor.</td></tr>
+<tr><td><strong>Diode</strong></td><td>Current only in forward direction; zero in reverse</td><td>Diode only conducts when forward biased (positive to the anode). Very high resistance in reverse direction.</td></tr>
+</table>
+<h3>Method for I-V Characteristics Practical</h3>
+<ol>
+<li>Set up a circuit with a variable resistor (or variable power supply), ammeter in series, and voltmeter in parallel across the component.</li>
+<li>Vary the potential difference across the component from 0 V upwards in small steps.</li>
+<li>Record the current at each voltage.</li>
+<li>Repeat for negative voltages (reverse the power supply connections).</li>
+<li>Plot a graph of current (y-axis) against voltage (x-axis).</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🌡️ Thermistors and LDRs</h2>
+<table class="comparison-table">
+<tr><th>Component</th><th>Condition</th><th>Resistance</th><th>Current</th></tr>
+<tr><td rowspan="2"><strong>Thermistor</strong></td><td>Temperature increases</td><td>Resistance decreases</td><td>Current increases</td></tr>
+<tr><td>Temperature decreases</td><td>Resistance increases</td><td>Current decreases</td></tr>
+<tr><td rowspan="2"><strong>LDR</strong></td><td>Light intensity increases</td><td>Resistance decreases</td><td>Current increases</td></tr>
+<tr><td>Light intensity decreases</td><td>Resistance increases</td><td>Current decreases</td></tr>
+</table>
+<div class="key-point">
+<strong>Applications:</strong> Thermistors are used in temperature sensors (e.g. thermostats, car engine temperature sensors). LDRs are used in light sensors (e.g. automatic street lights, burglar alarms, camera light meters).
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Worked Examples</h2>
+
+<div class="example">
+<div class="example-title">Worked Example 1 — Using Ohm's Law to find Voltage</div>
+<p><strong>Question:</strong> A resistor has a resistance of 10 Ω and a current of 3 A flows through it. Calculate the potential difference across the resistor.</p>
+<p><strong>Solution:</strong></p>
+<div class="formula-box">
+V = I x R = 3 x 10 = 30 V
+</div>
 </div>
 
 <div class="example">
-<div class="example-title">Key Fact</div>
-<p>Standard circuit symbols, current, voltage and resistance. This topic is assessed across all major exam boards including AQA, Edexcel, OCR and CCEA.</p>
+<div class="example-title">Worked Example 2 — Using Ohm's Law to find Resistance</div>
+<p><strong>Question:</strong> A lamp has a potential difference of 12 V across it and a current of 0.5 A flows through it. Calculate the resistance of the lamp.</p>
+<p><strong>Solution:</strong></p>
+<div class="formula-box">
+R = V / I = 12 / 0.5 = 24 Ω
+</div>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 3 — Using Ohm's Law to find Current</div>
+<p><strong>Question:</strong> A 220 Ω resistor is connected to a 6 V battery. Calculate the current flowing through it.</p>
+<p><strong>Solution:</strong></p>
+<div class="formula-box">
+I = V / R = 6 / 220 = 0.027 A = 27 mA
+</div>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 4 — Thermistor Calculation</div>
+<p><strong>Question:</strong> A thermistor has a resistance of 5000 Ω at 20 °C. When heated to 80 °C its resistance drops to 200 Ω. It is connected to a 9 V battery. Calculate the current at each temperature.</p>
+<p><strong>Solution:</strong></p>
+<p>At 20 °C: I = V / R = 9 / 5000 = 0.0018 A = 1.8 mA</p>
+<div class="formula-box">
+At 80 °C: I = V / R = 9 / 200 = 0.045 A = 45 mA
+</div>
+<p>As temperature increases, resistance decreases and current increases.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 5 — LDR in a Circuit</div>
+<p><strong>Question:</strong> An LDR is connected in series with a 6 V battery and a lamp. In bright light the LDR has resistance 200 Ω and the lamp has resistance 100 Ω. In darkness the LDR resistance rises to 10 000 Ω. Calculate the total current in each condition.</p>
+<p><strong>Solution:</strong></p>
+<p>Bright light: Total R = 200 + 100 = 300 Ω. I = 6 / 300 = 0.02 A = 20 mA (lamp is on).</p>
+<div class="formula-box">
+Darkness: Total R = 10 000 + 100 = 10 100 Ω. I = 6 / 10 100 = 0.000594 A = 0.59 mA (lamp is very dim/off).
+</div>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 6 — Explaining I-V Characteristics</div>
+<p><strong>Question:</strong> Explain why the I-V graph for a filament lamp is curved, not a straight line.</p>
+<p><strong>Solution:</strong> As the current through the filament lamp increases, the filament gets hotter. The increased vibration of the metal ions in the filament makes it harder for electrons to pass through, so resistance increases. This means that as voltage increases, the current does not increase proportionally — the graph curves and flattens. The filament lamp is not an Ohmic conductor because its resistance changes with temperature.</p>
 </div>
 </section>
 
 <section class="section">
 <h2>❓ Practice Questions</h2>
-
 <div class="practice-questions">
 <div class="question">
-<p><strong>Q1:</strong> Define the following key term from this topic: circuit symbols</p>
+<p><strong>Q1:</strong> <span class="badge foundation">Foundation</span> Name the component that measures current and state how it is connected in a circuit.</p>
 </div>
 <div class="question">
-<p><strong>Q2:</strong> Explain circuit basics in your own words.</p>
+<p><strong>Q2:</strong> <span class="badge foundation">Foundation</span> A resistor has 8 V across it and a current of 2 A flows through it. Calculate its resistance.</p>
 </div>
 <div class="question">
-<p><strong>Q3:</strong> How does current relate to circuit basics?</p>
+<p><strong>Q3:</strong> <span class="badge foundation">Foundation</span> Describe the difference between the I-V graph of a resistor and a filament lamp.</p>
 </div>
 <div class="question">
-<p><strong>Q4:</strong> Give an example of potential difference in circuit basics.</p>
+<p><strong>Q4:</strong> <span class="badge higher">Higher</span> A thermistor is connected to a 5 V supply. At 25 °C its resistance is 1000 Ω. At 100 °C its resistance is 100 Ω. Calculate the current at each temperature and explain the difference.</p>
 </div>
 <div class="question">
-<p><strong>Q5:</strong> Describe how this topic connects to other areas of Combined Science.</p>
+<p><strong>Q5:</strong> <span class="badge higher">Higher</span> Explain why a diode only allows current to flow in one direction. How would this appear on an I-V graph?</p>
+</div>
+<div class="question">
+<p><strong>Q6:</strong> <span class="badge higher">Higher</span> A student investigates the I-V characteristics of a resistor. They vary the voltage and measure the current. State one safety precaution and one way to improve accuracy.</p>
 </div>
 </div>
 </section>
@@ -96,22 +212,25 @@
 <section class="section">
 <h2>✅ Answers</h2>
 <ol>
-<li>circuit symbols: check your notes for the precise definition required by your exam board.</li>
-<li>Standard circuit symbols, current, voltage and resistance - ensure your explanation includes key terminology from the topic.</li>
-<li>current is directly related to circuit basics as it forms part of the core understanding.</li>
-<li>Examples will vary - check with your teacher or textbook for specific examples relevant to your exam board.</li>
-<li>This topic links to other areas through shared concepts such as energy, particles, or cellular processes.</li>
+<li>An ammeter measures current. It is connected in series with the component — the current flows through it.</li>
+<li>R = V / I = 8 / 2 = 4 Ω.</li>
+<li>A resistor (at constant temperature) gives a straight line through the origin — current is directly proportional to voltage (Ohmic). A filament lamp gives a curved graph that flattens at higher voltages — as current increases, the filament heats up and resistance increases, so current increases more slowly (non-Ohmic).</li>
+<li>At 25 °C: I = 5 / 1000 = 0.005 A = 5 mA. At 100 °C: I = 5 / 100 = 0.05 A = 50 mA. The current is much higher at 100 °C because the thermistor's resistance decreases as temperature increases (more charge carriers are released), allowing more current to flow.</li>
+<li>A diode has very low resistance in the forward direction (allows current through) but very high resistance in the reverse direction (blocks current). On the I-V graph: there is current in the forward direction (positive voltage), rising steeply once the threshold voltage is exceeded. In the reverse direction (negative voltage), the current is essentially zero.</li>
+<li>Safety precaution: do not exceed the maximum voltage rating of the resistor to avoid overheating/burning out. Improving accuracy: take multiple readings and calculate a mean, or use smaller voltage increments to get more data points for a smoother graph.</li>
 </ol>
 </section>
 
 <section class="section">
 <h2>🎯 Exam Tips</h2>
 <ul>
-<li>Learn the key definitions word-for-word - examiners mark these precisely</li>
-<li>Use correct scientific terminology in your answers</li>
-<li>Practice explaining processes step by step</li>
-<li>Link this topic to required practicals where possible</li>
-<li>Foundation questions often test recall and basic understanding</li>
+<li>Remember: <strong>ammeter in series, voltmeter in parallel</strong> — this comes up frequently.</li>
+<li>When drawing circuit symbols, make sure you know the difference between a <strong>cell</strong> (one pair of lines) and a <strong>battery</strong> (multiple cells).</li>
+<li>Ohm's Law only applies to <strong>Ohmic conductors at constant temperature</strong> — filament lamps and diodes do not obey Ohm's Law.</li>
+<li>For thermistor questions: hot = low resistance = high current. Cold = high resistance = low current.</li>
+<li>For LDR questions: bright light = low resistance = high current. Dark = high resistance = low current.</li>
+<li>When explaining a filament lamp graph, always mention <strong>increasing resistance due to increasing temperature</strong>.</li>
+<li>Current is the same in all parts of a series circuit — this is a key rule for P6.</li>
 </ul>
 </section>
 
@@ -122,7 +241,7 @@
 </main>
 
 <footer class="site-footer">
-<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>GCSE Revise — Free revision notes for all subjects and exam boards</p>
 </footer>
 
 <script>
@@ -138,7 +257,6 @@ this.textContent = "☀️";
 localStorage.setItem("gcserevise-theme", "light");
 }
 });
-
 if (localStorage.getItem("gcserevise-theme") === "light") {
 document.documentElement.classList.add("light-mode");
 document.getElementById("theme-toggle").textContent = "☀️";
