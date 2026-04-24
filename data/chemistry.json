@@ -1,0 +1,140 @@
+{
+  "subject": "Chemistry",
+  "id": "chemistry",
+  "examBoards": ["AQA", "Edexcel", "OCR", "CCEA"],
+  "tierEntry": {
+    "foundation": "Grades 1-5",
+    "higher": "Grades 4-9"
+  },
+  "papers": {
+    "AQA": [
+      { "name": "Paper 1", "title": "Atomic structure and the periodic table, Bonding, structure and properties, Quantitative chemistry, Chemical changes, Energy changes", "duration": "1h 45m", "marks": 100, "weighting": 50 },
+      { "name": "Paper 2", "title": "Rate and extent of chemical change, Organic chemistry, Chemical analysis, Chemistry of the atmosphere, Using resources", "duration": "1h 45m", "marks": 100, "weighting": 50 }
+    ],
+    "Edexcel": [
+      { "name": "Paper 1", "title": "Key concepts in chemistry, States of matter, Methods of separating and purifying, The Periodic Table, Chemical changes, Acids, Electrolytic processes, Obtaining and using metals, Reversible reactions", "duration": "1h 45m", "marks": 100, "weighting": 50 },
+      { "name": "Paper 2", "title": "Key concepts in chemistry, Groups of the Periodic Table, Rates of reaction, Fuels, Heat energy changes in chemical reactions, Earth and atmospheric science, Qualitative analysis, Quantitative analysis", "duration": "1h 45m", "marks": 100, "weighting": 50 }
+    ],
+    "OCR": [
+      { "name": "Paper 1", "title": "Particles, Chemical reactions, Elements, compounds and mixtures, The Periodic Table, Chemical bonds, Structure and properties", "duration": "1h 45m", "marks": 90, "weighting": 50 },
+      { "name": "Paper 2", "title": "Particles, Chemical reactions, Elements, compounds and mixtures, The Periodic Table, Chemical bonds, Structure and properties, Quantitative chemistry, Global challenges, Chemical analysis", "duration": "1h 45m", "marks": 90, "weighting": 50 }
+    ],
+    "CCEA": [
+      { "name": "Paper 1", "title": "Structures, reactions and uses of chemicals, Earth and its atmosphere", "duration": "1h 15m", "marks": 60, "weighting": 30 },
+      { "name": "Paper 2", "title": "Structures, reactions and uses of chemicals, Earth and its atmosphere, Quantitative chemistry", "duration": "1h 15m", "marks": 60, "weighting": 30 },
+      { "name": "Paper 3", "title": "Practical skills and data analysis", "duration": "1h", "marks": 60, "weighting": 40 }
+    ]
+  },
+  "assessmentObjectives": [
+    { "id": "AO1", "description": "Demonstrate knowledge and understanding of scientific ideas, techniques and procedures", "weighting": "30-35%" },
+    { "id": "AO2", "description": "Apply knowledge and understanding of scientific ideas, techniques and procedures", "weighting": "35-40%" },
+    { "id": "AO3", "description": "Analyse information and ideas to interpret and evaluate scientific ideas and processes", "weighting": "25-30%" }
+  ],
+  "requiredPracticals": 8,
+  "strands": [
+    {
+      "id": "atomic-structure",
+      "name": "Atomic Structure and the Periodic Table",
+      "topics": [
+        { "id": "C1", "name": "Atoms and Elements", "description": "Atoms, elements, compounds, mixtures and chemical equations", "skills": ["atoms", "elements", "compounds", "mixtures", "chemical symbols", "word equations", "symbol equations", "balancing equations", "state symbols"], "tier": "both" },
+        { "id": "C2", "name": "The Periodic Table", "description": "Development and structure of the Periodic Table, properties of groups", "skills": ["periodic table", "groups", "periods", "metals", "non-metals", "Group 1 alkali metals", "Group 7 halogens", "Group 0 noble gases", "transition metals", "Mendeleev", "atomic number"], "tier": "both" },
+        { "id": "C3", "name": "History of the Atom", "description": "Development of the atomic model from Dalton to Bohr", "skills": ["Dalton", "Thomson", "Rutherford", "Bohr", "plum pudding model", "nuclear model", "electron shells", "isotopes", "relative atomic mass"], "tier": "both" },
+        { "id": "C4", "name": "Mixtures and Separation Techniques", "description": "Methods of separating mixtures including distillation, chromatography and crystallisation", "skills": ["filtration", "evaporation", "crystallisation", "simple distillation", "fractional distillation", "chromatography", "Rf values", "drinking water purification", "saturated solutions"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "bonding",
+      "name": "Bonding, Structure and Properties",
+      "topics": [
+        { "id": "C5", "name": "Ionic Bonding", "description": "Ionic bonding, structure and properties of ionic compounds", "skills": ["ionic bonding", "ions", "cation", "anion", "giant ionic structure", "ionic compounds", "melting points", "electrical conductivity", "dot and cross diagrams", "electrostatic attraction"], "tier": "both" },
+        { "id": "C6", "name": "Covalent Bonding", "description": "Covalent bonding, simple molecules and giant covalent structures", "skills": ["covalent bonding", "shared electrons", "simple molecules", "giant covalent structures", "diamond", "graphite", "graphene", "fullerenes", "nanotubes", "polymers", "dot and cross diagrams", "intermolecular forces"], "tier": "both" },
+        { "id": "C7", "name": "Metallic Bonding and Alloys", "description": "Metallic bonding, properties of metals and alloys", "skills": ["metallic bonding", "delocalised electrons", "alloys", "properties of metals", "conductivity", "malleability", "shape memory alloys", "sea of electrons", "lattice of positive ions"], "tier": "both" },
+        { "id": "C8", "name": "States of Matter", "description": "States of matter and state changes with particle theory", "skills": ["solid", "liquid", "gas", "melting", "boiling", "freezing", "condensing", "sublimation", "state symbols", "predicting states", "limiting factors of simple model"], "tier": "both" },
+        { "id": "C9", "name": "Nanoscience and Nanoparticles", "description": "Nanoparticles, their properties and uses", "skills": ["nanoparticles", "nanoscience", "surface area to volume ratio", "uses of nanoparticles", "risks of nanoparticles", "nanotubes", "fullerenes", "medicine delivery", "sunscreen debate"], "tier": "higher" }
+      ]
+    },
+    {
+      "id": "quantitative",
+      "name": "Quantitative Chemistry",
+      "topics": [
+        { "id": "C10", "name": "Relative Masses and Moles", "description": "Relative atomic mass, relative formula mass and the mole concept", "skills": ["relative atomic mass", "relative formula mass", "mole", "Avogadro constant", "Ar", "Mr", "moles of atoms", "moles of compounds", "molar mass"], "tier": "both" },
+        { "id": "C11", "name": "Reacting Masses", "description": "Calculating masses of reactants and products from equations", "skills": ["conservation of mass", "balanced equations", "reacting mass calculations", "mass of product", "limiting reactant", "excess reactant", "stoichiometry", "three-step method"], "tier": "both" },
+        { "id": "C12", "name": "Concentration and Yield", "description": "Concentration of solutions, percentage yield and atom economy", "skills": ["concentration", "g/dm³", "mol/dm³", "percentage yield", "atom economy", "limiting reactants", "excess reactants", "uncertainty", "titrations", "practical yield"], "tier": "both" },
+        { "id": "C13", "name": "Gas Volumes", "description": "Volume of gases and the ideal gas equation", "skills": ["gas volume", "molar gas volume", "ideal gas equation", "pV=nRT", "gas calculations at RTP", "Avogadro's law", "calculating volume from mass"], "tier": "higher" },
+        { "id": "C14", "name": "Titrations", "description": "Titration technique, calculations and concordant results", "skills": ["titration", "titrant", "analyte", "end point", "indicator", "concordant results", "mean titre", "uncertainty in titrations", "calculating concentration from titration"], "tier": "higher" }
+      ]
+    },
+    {
+      "id": "chemical-changes",
+      "name": "Chemical Changes",
+      "topics": [
+        { "id": "C15", "name": "Reactivity of Metals", "description": "The reactivity series, displacement reactions and metal extraction", "skills": ["reactivity series", "displacement reactions", "extraction of metals", "oxidation", "reduction", "iron", "aluminium", "copper", "corrosion", "rusting", "sacrificial protection", "galvanising"], "tier": "both" },
+        { "id": "C16", "name": "Reactions of Acids", "description": "Acids, bases, alkalis, neutralisation and making salts", "skills": ["acids", "bases", "alkalis", "pH scale", "neutralisation", "salt preparation", "strong and weak acids", "hydroxides", "carbonates", "neutralisation equations", "acid-metal reactions"], "tier": "both" },
+        { "id": "C17", "name": "Electrolysis", "description": "Electrolysis of molten and aqueous ionic compounds", "skills": ["electrolysis", "anode", "cathode", "electrolyte", "molten electrolysis", "aqueous electrolysis", "extraction of aluminium", "electroplating", "hydrogen production", "copper purification", "half equations"], "tier": "both" },
+        { "id": "C18", "name": "Oxidation and Reduction", "description": "Oxidation and reduction in terms of electrons, half equations and ionic equations", "skills": ["oxidation", "reduction", "oxidation in terms of oxygen", "oxidation in terms of electrons", "redox reactions", "half equations", "ionic equations", "oxidising agents", "reducing agents"], "tier": "higher" }
+      ]
+    },
+    {
+      "id": "energy-changes",
+      "name": "Energy Changes",
+      "topics": [
+        { "id": "C19", "name": "Exothermic and Endothermic Reactions", "description": "Energy changes in reactions, reaction profiles and activation energy", "skills": ["exothermic", "endothermic", "reaction profiles", "activation energy", "bond energy calculations", "combustion", "neutralisation", "displacement", "thermal decomposition", "energy level diagrams"], "tier": "both" },
+        { "id": "C20", "name": "Chemical Cells and Fuel Cells", "description": "How chemical cells and hydrogen fuel cells produce electricity", "skills": ["chemical cells", "voltage", "fuel cells", "hydrogen fuel cell", "advantages and disadvantages", "electrode reactions", "half equations for fuel cell", "rechargeable cells", "non-rechargeable cells"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "rate",
+      "name": "Rate and Extent of Chemical Change",
+      "topics": [
+        { "id": "C21", "name": "Rate of Reaction", "description": "Factors affecting rate and measuring rate of reaction using collision theory", "skills": ["temperature", "concentration", "surface area", "catalysts", "collision theory", "activation energy", "measuring rate", "rate graphs", "rate practical", "steeper gradient", "tangent method"], "tier": "both" },
+        { "id": "C22", "name": "Reversible Reactions and Equilibrium", "description": "Reversible reactions, dynamic equilibrium and Le Chatelier's principle", "skills": ["reversible reactions", "dynamic equilibrium", "Le Chatelier's principle", "position of equilibrium", "Haber process", "conditions for equilibrium", "effect of temperature on equilibrium", "effect of pressure on equilibrium", "effect of concentration on equilibrium"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "organic",
+      "name": "Organic Chemistry",
+      "topics": [
+        { "id": "C23", "name": "Hydrocarbons and Crude Oil", "description": "Crude oil, fractional distillation and properties of hydrocarbons", "skills": ["crude oil", "fractional distillation", "hydrocarbons", "alkanes", "homologous series", "viscosity", "flammability", "boiling point", "chain length and properties", "petrochemicals"], "tier": "both" },
+        { "id": "C24", "name": "Cracking and Alkenes", "description": "Cracking of hydrocarbons and properties of alkenes", "skills": ["cracking", "alkenes", "C=C double bond", "catalytic cracking", "steam cracking", "addition reactions", "bromine water test", "uses of alkenes", "shortage of small molecules"], "tier": "both" },
+        { "id": "C25", "name": "Alcohols, Carboxylic Acids and Esters", "description": "Functional groups and reactions of alcohols, carboxylic acids and esters", "skills": ["alcohols", "carboxylic acids", "esters", "functional groups", "combustion of alcohols practical", "methanol", "ethanol", "ethanoic acid", "reaction of alcohols with sodium", "oxidation of alcohols", "condensation reactions"], "tier": "both" },
+        { "id": "C26", "name": "Polymers", "description": "Addition and condensation polymers, their formation and uses", "skills": ["addition polymers", "condensation polymers", "polyethylene", "polypropene", "polyesters", "polyamides", "natural polymers", "DNA", "amino acids", "polymerisation reactions", "disposal problems", "biodegradable polymers"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "analysis",
+      "name": "Chemical Analysis",
+      "topics": [
+        { "id": "C27", "name": "Pure Substances and Formulations", "description": "Purity, formulations and identification of substances using melting and boiling points", "skills": ["pure substances", "formulations", "melting point analysis", "boiling point analysis", "formulations in everyday products", "medicines", "paints", "fertilisers as formulations"], "tier": "both" },
+        { "id": "C28", "name": "Chromatography", "description": "Paper chromatography, Rf values and interpreting chromatograms", "skills": ["chromatography", "paper chromatography", "Rf values", "chromatogram interpretation", "solvent front", "baseline", "calculating Rf", "separating dyes", "two-way chromatography"], "tier": "both" },
+        { "id": "C29", "name": "Testing for Ions and Gases", "description": "Chemical tests for cations, anions and gases", "skills": ["flame tests", "sodium hydroxide tests", "carbonate test", "halide test", "sulfate test", "gas tests", "hydrogen test", "oxygen test", "CO2 test", "chlorine test", "precipitation reactions", "instrumental analysis"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "atmosphere",
+      "name": "Chemistry of the Atmosphere",
+      "topics": [
+        { "id": "C30", "name": "Earth's Early Atmosphere", "description": "The evolution of the Earth's atmosphere over billions of years", "skills": ["early atmosphere", "volcanoes", "carbon dioxide", "water vapour", "nitrogen", "oxygen production", "algae and photosynthesis", "reduction of CO2", "oceans forming", "greenhouse effect"], "tier": "both" },
+        { "id": "C31", "name": "Greenhouse Gases and Climate Change", "description": "Greenhouse gases, human activities and their effect on climate", "skills": ["greenhouse gases", "CO2", "methane", "climate change", "global warming", "carbon footprint", "human activities", "fossil fuels", "deforestation", "evidence for climate change", "limiting impact"], "tier": "both" },
+        { "id": "C32", "name": "Air Pollution", "description": "Atmospheric pollutants and their effects on health and the environment", "skills": ["sulfur dioxide", "oxides of nitrogen", "particulates", "acid rain", "photochemical smog", "health effects", "environmental effects", "diesel engines", "catalytic converters", "reducing pollution"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "resources",
+      "name": "Using Resources",
+      "topics": [
+        { "id": "C33", "name": "Potable Water", "description": "Potable water, water treatment and desalination", "skills": ["potable water", "water treatment", "desalination", "distillation", "reverse osmosis", "water quality", "fluoridation", "purifying sea water practical", "dissolved ions analysis"], "tier": "both" },
+        { "id": "C34", "name": "Waste Water Treatment", "description": "Sewage treatment and processing waste water", "skills": ["waste water", "sewage treatment", "screening", "sedimentation", "biological treatment", "aerobic digestion", "anaerobic digestion", "sludge", "effluent", "industrial waste water"], "tier": "both" },
+        { "id": "C35", "name": "Corrosion and Its Prevention", "description": "Rusting of iron and methods of corrosion prevention", "skills": ["corrosion", "rusting", "iron", "water and oxygen", "sacrificial protection", "galvanising", "painting", "greasing", "tin plating", "zinc", "magnesium blocks", "aluminium oxide layer"], "tier": "both" },
+        { "id": "C36", "name": "Alloys, Ceramics and Composites", "description": "Properties and uses of alloys, ceramics, polymers and composites", "skills": ["alloys", "brass", "bronze", "stainless steel", "ceramics", "glass", "clay ceramics", "composites", "fibreglass", "carbon fibre", "concrete", "smart materials", "shape memory alloys"], "tier": "both" },
+        { "id": "C37", "name": "Life Cycle Assessment and Recycling", "description": "LCA, sustainability, recycling and reducing resource use", "skills": ["life cycle assessment", "LCA", "recycling", "sustainability", "reduce", "reuse", "repair", "recycle", "phosphate rock", "NPK fertilisers", "finite resources", "sustainable development", "evaluating LCAs"], "tier": "both" },
+        { "id": "C38", "name": "Using Materials", "description": "The Haber process, NPK fertilisers and industrial processes", "skills": ["Haber process", "NPK fertilisers", "ammonia production", "nitrogen fixation", "conditions for Haber process", "compromise conditions", "fertiliser composition", "potassium", "phosphorus", "nitrogen for plant growth"], "tier": "both" }
+      ]
+    }
+  ],
+  "notes": {
+    "tripleVsCombined": "Triple Chemistry includes all Combined Science Chemistry content in greater depth, plus additional topics. Topics unique to Triple or significantly expanded include: separation techniques, nanoscience, titrations, gas volumes, oxidation and reduction (half equations), alcohols/carboxylic acids/esters in more detail, polymers (addition and condensation), chromatography detail, waste water treatment, corrosion prevention, alloys/ceramics/composites, life cycle assessment detail, the Haber process and NPK fertilisers.",
+    "requiredPracticals": "AQA has 8 required practicals: preparing a salt, electrolysis, energy changes in reactions, investigating reaction rates, chromatography, identifying ions, water purification, and temperature changes.",
+    "mathsSkills": "Chemistry requires maths skills including: calculating relative formula mass, moles, reacting masses, concentration, percentage yield, atom economy, gas volumes, interpreting graphs, drawing tangents to curves, calculating gradients, using standard form and significant figures.",
+    "workingScientifically": "All exam boards assess Working Scientifically: experimental design, variables, risk assessment, data analysis, evaluating methods, drawing conclusions, identifying sources of error."
+  }
+}
