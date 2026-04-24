@@ -1,0 +1,114 @@
+{
+  "subject": "Physics",
+  "id": "physics",
+  "examBoards": ["AQA", "Edexcel", "OCR", "CCEA"],
+  "tierEntry": {
+    "foundation": "Grades 1-5",
+    "higher": "Grades 4-9"
+  },
+  "papers": {
+    "AQA": [
+      { "name": "Paper 1", "title": "Energy, Electricity, Particle model of matter, Atomic structure", "duration": "1h 45m", "marks": 100, "weighting": 50 },
+      { "name": "Paper 2", "title": "Forces, Waves, Magnetism and electromagnetism", "duration": "1h 45m", "marks": 100, "weighting": 50 }
+    ],
+    "Edexcel": [
+      { "name": "Paper 1", "title": "Key concepts of physics, Motion, Forces, Conservation of energy, Waves, Radiation", "duration": "1h 45m", "marks": 100, "weighting": 50 },
+      { "name": "Paper 2", "title": "Key concepts of physics, Motion, Forces, Conservation of energy, Waves, Radiation, Electromagnetism, Particle model", "duration": "1h 45m", "marks": 100, "weighting": 50 }
+    ],
+    "OCR": [
+      { "name": "Paper 1", "title": "Matter, Forces, Energy, Waves, Electromagnetism, Radioactivity, Particle model, Electricity", "duration": "1h 45m", "marks": 90, "weighting": 50 },
+      { "name": "Paper 2", "title": "Matter, Forces, Energy, Waves, Electromagnetism, Radioactivity, Particle model, Electricity", "duration": "1h 45m", "marks": 90, "weighting": 50 }
+    ],
+    "CCEA": [
+      { "name": "Paper 1", "title": "Motion, Force, Energy, Waves, Radioactivity", "duration": "1h 15m", "marks": 60, "weighting": 30 },
+      { "name": "Paper 2", "title": "Electricity, Magnetism, Matter, Space", "duration": "1h 15m", "marks": 60, "weighting": 30 },
+      { "name": "Paper 3", "title": "Practical skills and data analysis", "duration": "1h", "marks": 60, "weighting": 40 }
+    ]
+  },
+  "assessmentObjectives": [
+    { "id": "AO1", "description": "Demonstrate knowledge and understanding of scientific ideas, techniques and procedures", "weighting": "30-35%" },
+    { "id": "AO2", "description": "Apply knowledge and understanding of scientific ideas, techniques and procedures", "weighting": "35-40%" },
+    { "id": "AO3", "description": "Analyse information and ideas to interpret and evaluate scientific ideas and processes", "weighting": "25-30%" }
+  ],
+  "requiredPracticals": 10,
+  "strands": [
+    {
+      "id": "phys-energy",
+      "name": "Energy",
+      "topics": [
+        { "id": "P1", "name": "Energy Stores and Transfers", "description": "Energy stores, systems and energy transfers including kinetic, gravitational potential, elastic potential, thermal, chemical and nuclear", "skills": ["kinetic energy", "gravitational potential", "elastic potential", "thermal energy", "chemical energy", "nuclear energy", "dissipation", "sankey diagrams", "energy transfers", "closed systems"], "tier": "both" },
+        { "id": "P2", "name": "Conservation and Efficiency", "description": "Conservation of energy, efficiency calculations and improving efficiency", "skills": ["conservation of energy", "efficiency", "useful energy", "wasted energy", "efficiency calculations", "improving efficiency", "efficiency formula", "mechanical efficiency", "thermal efficiency"], "tier": "both" },
+        { "id": "P3", "name": "National and Global Energy", "description": "Energy resources, renewable and non-renewable energy sources", "skills": ["fossil fuels", "nuclear power", "renewable energy", "solar", "wind", "hydroelectric", "tidal", "geothermal", "biofuel", "energy trends", "environmental impact", "sustainability"], "tier": "both" },
+        { "id": "P4", "name": "Specific Heat Capacity", "description": "Specific heat capacity, SHC equation and required practical", "skills": ["specific heat capacity", "SHC equation", "SHC practical", "temperature change", "energy calculations", "thermal insulation practical", "comparison of SHC values"], "tier": "both" },
+        { "id": "P5", "name": "Specific Latent Heat", "description": "Specific latent heat of fusion and vaporisation, heating and cooling curves", "skills": ["specific latent heat", "latent heat of fusion", "latent heat of vaporisation", "change of state", "heating and cooling curves", "latent heat calculations", "internal energy"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "phys-electricity",
+      "name": "Electricity",
+      "topics": [
+        { "id": "P6", "name": "Circuit Basics", "description": "Standard circuit symbols, current, potential difference and resistance", "skills": ["circuit symbols", "current", "potential difference", "resistance", "ammeter", "voltmeter", "V=IR", "I-V characteristics practical", "ohmic conductors", "filament lamp", "diode"], "tier": "both" },
+        { "id": "P7", "name": "Series and Parallel Circuits", "description": "Rules for current, voltage and resistance in series and parallel circuits", "skills": ["series current rule", "parallel current rule", "series voltage rule", "parallel voltage rule", "series resistance", "parallel resistance", "resistors in series", "resistors in parallel", "LDRs", "thermistors"], "tier": "both" },
+        { "id": "P8", "name": "Electrical Power and Energy", "description": "Power, energy transfers and the National Grid", "skills": ["power", "P=VI", "P=I2R", "energy transferred", "E=Pt", "E=QV", "National Grid", "step-up transformers", "step-down transformers", "mains electricity", "AC/DC", "kWh"], "tier": "both" },
+        { "id": "P9", "name": "Static Electricity", "description": "Static charge, electric fields and their effects", "skills": ["static charge", "friction", "induction", "electric fields", "sparking", "dangers of static", "uses of static", "Van de Graaff", "lightning", "earthing"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "phys-particle",
+      "name": "Particle Model of Matter",
+      "topics": [
+        { "id": "P10", "name": "Density and States of Matter", "description": "The particle model, density calculations and changes of state", "skills": ["solid", "liquid", "gas", "particle model", "density", "density practical", "internal energy", "changes of state", "heating and cooling curves", "limitation of particle model"], "tier": "both" },
+        { "id": "P11", "name": "Particle Motion and Pressure", "description": "Particle motion in gases, gas pressure and temperature relationships", "skills": ["Brownian motion", "gas pressure", "temperature and pressure", "volume and pressure", "Boyle's law", "absolute zero", "kelvin temperature scale", "pV = constant"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "phys-atomic",
+      "name": "Atomic Structure",
+      "topics": [
+        { "id": "P12", "name": "Nuclear Model and Isotopes", "description": "Development of the nuclear model and isotopes", "skills": ["nuclear model", "Rutherford scattering", "protons", "neutrons", "electrons", "isotopes", "atomic number", "mass number", "radioactive decay", "alpha", "beta", "gamma", "background radiation"], "tier": "both" },
+        { "id": "P13", "name": "Nuclear Radiation and Hazards", "description": "Types of nuclear radiation, half-life and hazards of radiation", "skills": ["alpha radiation", "beta radiation", "gamma radiation", "half-life", "decay curves", "contamination", "irradiation", "background radiation", "uses of radiation", "dangers of radiation", "nuclear equations", "penetration power"], "tier": "both" },
+        { "id": "P14", "name": "Nuclear Fission and Fusion", "description": "Nuclear fission, fusion and nuclear power", "skills": ["nuclear fission", "nuclear fusion", "chain reaction", "uranium", "plutonium", "nuclear power stations", "fusion reactors", "hydrogen fuel", "advantages and disadvantages"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "phys-forces",
+      "name": "Forces",
+      "topics": [
+        { "id": "P15", "name": "Scalar and Vector Quantities", "description": "Scalars, vectors and forces including weight and mass", "skills": ["scalar", "vector", "force", "weight", "mass", "gravity", "resultant force", "free body diagrams", "resolving forces", "contact forces", "non-contact forces"], "tier": "both" },
+        { "id": "P16", "name": "Motion and Acceleration", "description": "Distance, displacement, speed, velocity and acceleration, motion graphs", "skills": ["distance", "displacement", "speed", "velocity", "acceleration", "v=u+at", "distance-time graphs", "velocity-time graphs", "area under graph", "SUVAT equations", "terminal velocity"], "tier": "both" },
+        { "id": "P17", "name": "Newton's Laws and Momentum", "description": "Newton's three laws of motion, inertia and momentum", "skills": ["Newton's First Law", "Newton's Second Law", "F=ma", "Newton's Third Law", "inertia", "mass and weight", "momentum", "conservation of momentum", "force and momentum", "F=mv-mu/t", "impact forces"], "tier": "both" },
+        { "id": "P18", "name": "Stopping Distances", "description": "Braking distance, thinking distance and factors affecting stopping distance", "skills": ["stopping distance", "thinking distance", "braking distance", "reaction time", "speed and stopping", "road safety", "braking force", "KE and braking", "factors affecting stopping distance"], "tier": "both" },
+        { "id": "P19", "name": "Forces and Elasticity", "description": "Hooke's law, springs and elastic deformation", "skills": ["Hooke's law", "spring constant", "elastic deformation", "plastic deformation", "limit of proportionality", "F=ke", "elastic potential energy", "spring practical", "extension"], "tier": "both" },
+        { "id": "P20", "name": "Pressure", "description": "Pressure in fluids and atmospheric pressure", "skills": ["pressure", "p=F/A", "atmospheric pressure", "pressure in liquids", "upthrust", "Pascal's principle", "pressure and depth", "floating and sinking"], "tier": "both" },
+        { "id": "P21", "name": "Moments and Centre of Mass", "description": "Moments, levers, gears and centre of mass", "skills": ["moment", "M=Fd", "principle of moments", "levers", "gears", "centre of mass", "stability", "force multipliers"], "tier": "both" }
+      ]
+    },
+    {
+      "id": "phys-waves",
+      "name": "Waves",
+      "topics": [
+        { "id": "P22", "name": "Wave Properties", "description": "Transverse and longitudinal waves, wave speed calculations and the ripple tank practical", "skills": ["transverse waves", "longitudinal waves", "amplitude", "wavelength", "frequency", "period", "wave speed", "v=fλ", "wave equation", "ripple tank practical"], "tier": "both" },
+        { "id": "P23", "name": "Electromagnetic Spectrum", "description": "The EM spectrum, properties and uses of EM waves", "skills": ["radio waves", "microwaves", "infrared", "visible light", "ultraviolet", "X-rays", "gamma rays", "EM spectrum order", "uses of EM waves", "dangers of EM waves", "ionising radiation"], "tier": "both" },
+        { "id": "P24", "name": "Sound and Ultrasound", "description": "Sound waves, ultrasound and their applications", "skills": ["sound waves", "ultrasound", "echo sounding", "sonar", "medical ultrasound", "frequency range of hearing", "infrasound", "speed of sound"], "tier": "both" },
+        { "id": "P25", "name": "Light and Optics", "description": "Reflection, refraction, Snell's law and lenses", "skills": ["reflection", "refraction", "Snell's law", "refractive index", "total internal reflection", "convex lenses", "concave lenses", "focal point", "magnification", "critical angle"], "tier": "both" },
+        { "id": "P26", "name": "Black Body Radiation", "description": "Black body radiation and Earth's temperature and radiation balance", "skills": ["black body radiation", "absorption", "emission", "temperature and radiation", "perfect black body", "Earth's temperature and radiation balance", "Stefan-Boltzmann law"], "tier": "higher" }
+      ]
+    },
+    {
+      "id": "phys-magnetism",
+      "name": "Magnetism and Electromagnetism",
+      "topics": [
+        { "id": "P27", "name": "Magnets and Magnetic Fields", "description": "Permanent and induced magnets, magnetic fields and the Earth's magnetic field", "skills": ["permanent magnets", "induced magnets", "magnetic field", "field lines", "north and south poles", "Earth's magnetic field", "compasses", "magnetic materials"], "tier": "both" },
+        { "id": "P28", "name": "Electromagnets and the Motor Effect", "description": "Electromagnets, the motor effect and Fleming's left-hand rule", "skills": ["solenoid", "electromagnet", "motor effect", "Fleming's left-hand rule", "F=BIl", "electric motor", "loudspeaker", "factors affecting electromagnet strength"], "tier": "both" },
+        { "id": "P29", "name": "Electromagnetic Induction", "description": "The generator effect, transformers and the National Grid", "skills": ["electromagnetic induction", "generator effect", "alternators", "dynamos", "transformers", "step-up", "step-down", "Vp/Vs = Np/Ns", "microphones", "induced potential"], "tier": "both" },
+        { "id": "P30", "name": "Space Physics", "description": "The Solar System, orbits, red-shift and the Big Bang theory", "skills": ["solar system", "planets", "orbits", "artificial satellites", "geostationary orbit", "red-shift", "Big Bang theory", "CMBR", "expanding universe", "life cycle of stars", "fusion in stars"], "tier": "both" }
+      ]
+    }
+  ],
+  "notes": {
+    "tripleVsCombined": "Triple Physics includes all Combined Science Physics content in greater depth, plus additional topics. Topics unique to Triple or significantly expanded include: specific latent heat, particle motion and pressure in more detail, moments and centre of mass, light and optics (Snell's law, lenses), black body radiation, and space physics (orbits, red-shift, Big Bang, life cycle of stars).",
+    "requiredPracticals": "AQA has 10 required practicals: SHC, thermal insulation, I-V characteristics, resistors in series/parallel, density, SHC of water, radiation absorption, force and extension, acceleration, waves in a ripple tank.",
+    "mathsSkills": "Physics requires the most maths of all sciences: rearranging equations, using standard form, significant figures, calculating gradients and areas under graphs, using tangents to curves, converting units, vector addition, resolving forces, using pro-ratio calculations.",
+    "workingScientifically": "All exam boards assess Working Scientifically: experimental design, variables, risk assessment, data analysis, evaluating methods, drawing conclusions, identifying sources of error."
+  }
+}
