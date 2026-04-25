@@ -300,6 +300,82 @@
 </div>
 </div>
 
+<section class="maths-skill">
+<h2>Maths Skills</h2>
+<div class="key-point">
+<h3>Pressure in Solids: p = F/A</h3>
+<p>Rearrange to find any unknown: F = p &times; A or A = F/p. Always convert units: force in newtons, area in m&sup2;, pressure in Pa (N/m&sup2;). Common conversions: 1 kPa = 1000 Pa, 1 MPa = 1 000 000 Pa. For irregular shapes, calculate area using appropriate geometry (e.g. A = &pi;r&sup2; for a circle).</p>
+</div>
+<div class="example">
+<div class="example-title">Worked Example</div>
+<p>A drawing pin has a head area of 1 cm&sup2; (1 &times; 10<sup>&minus;4</sup> m&sup2;) and a point area of 0.05 mm&sup2; (5 &times; 10<sup>&minus;8</sup> m&sup2;). A force of 10 N is applied to the head. Calculate the pressure at the head and at the point.</p>
+<p>Head: p = 10 / 1 &times; 10<sup>&minus;4</sup> = 100 000 Pa = 100 kPa</p>
+<p>Point: p = 10 / 5 &times; 10<sup>&minus;8</sup> = 200 000 000 Pa = 200 MPa</p>
+<p>The pressure at the point is 2000 times greater &mdash; this is why the pin enters the wall.</p>
+</div>
+<div class="key-point">
+<h3>Pressure in Liquids: p = &rho;gh</h3>
+<p>This formula gives the pressure due to a column of liquid of density &rho; and height h. Total pressure at a depth includes atmospheric pressure: p<sub>total</sub> = p<sub>atm</sub> + &rho;gh. Convert all units consistently: &rho; in kg/m&sup3;, g in N/kg, h in m, p in Pa.</p>
+</div>
+<div class="example">
+<div class="example-title">Worked Example</div>
+<p>Calculate the total pressure at a depth of 30 m in seawater (&rho; = 1025 kg/m&sup3;, atmospheric pressure = 101 kPa, g = 9.8 N/kg).</p>
+<p>p = 101 000 + (1025 &times; 9.8 &times; 30) = 101 000 + 301 350 = <strong>402 350 Pa</strong> = 402.4 kPa</p>
+</div>
+<div class="key-point">
+<h3>Converting Pressure Units</h3>
+<p>1 atm = 101 325 Pa = 101.3 kPa. 1 bar = 100 000 Pa = 100 kPa. 1 mmHg = 133 Pa. When solving problems, always convert all pressures to the same unit (preferably Pa) before calculating.</p>
+</div>
+</section>
+
+<section class="misconception">
+<h2>Common Misconceptions</h2>
+<div class="key-point">
+<h3>Direction of Pressure in Fluids</h3>
+<p><span class="wrong">Pressure in a fluid only acts downwards.</span> <span class="right">Pressure in a fluid acts equally in all directions at any given depth. This is why water pushes sideways on dam walls and upwards on the bottom of a submerged object (creating upthrust). A hole at any depth in a container will leak water sideways, not just downwards, proving the pressure acts in all directions.</span></p>
+</div>
+<div class="key-point">
+<h3>Why Objects Float</h3>
+<p><span class="wrong">Objects float because they are light.</span> <span class="right">Objects float when the upthrust (weight of displaced fluid) equals or exceeds their weight. Whether an object floats depends on its overall density relative to the fluid. A massive steel ship floats because its hollow shape gives it a low overall density (total mass / total volume is less than water). A small steel ball sinks because steel is denser than water, regardless of how light the ball is.</span></p>
+</div>
+</section>
+
+<section class="extended-question">
+<h2>6-Mark Extended Question</h2>
+<div class="question">
+<p><strong>Explain why an object may float in one liquid but sink in another, in terms of density and upthrust.</strong> [6 marks]</p>
+</div>
+<button class="show-answer" onclick="this.nextElementSibling.classList.toggle('visible')">Show model answer</button>
+<div class="answer" style="display:none">
+<p>Whether an object floats depends on whether the upthrust from the liquid can support its weight (1). Upthrust equals the weight of the fluid displaced by the object, which depends on the density of the fluid (1). If the object is placed in a denser liquid, the weight of the displaced volume of liquid is greater, so the upthrust is greater (1). For example, an egg sinks in fresh water but floats in very salty water because salt water is denser (1). In fresh water, the weight of the displaced water (upthrust) is less than the egg's weight, so it sinks (1). In salt water, the same displaced volume has a greater weight, producing a greater upthrust that can equal the egg's weight, so it floats. The critical factor is the ratio of the object's density to the fluid's density: if the object is less dense, it floats; if more dense, it sinks (1).</p>
+</div>
+</section>
+
+<section class="ao3-section">
+<h2>AO3: Analyse and Evaluate</h2>
+<div class="question">
+<p>A student measures the pressure at different depths in an unknown liquid using a pressure sensor. The atmospheric pressure is 101 000 Pa.</p>
+<table class="comparison-table">
+<thead><tr><th>Depth (m)</th><th>Total pressure (Pa)</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>101 000</td></tr>
+<tr><td>0.5</td><td>106 900</td></tr>
+<tr><td>1.0</td><td>112 800</td></tr>
+<tr><td>1.5</td><td>118 700</td></tr>
+<tr><td>2.0</td><td>124 600</td></tr>
+<tr><td>2.5</td><td>130 500</td></tr>
+</tbody>
+</table>
+<p><strong>(a)</strong> Show that the pressure due to the liquid alone increases linearly with depth. <strong>(b)</strong> Calculate the density of the liquid. <strong>(c)</strong> Suggest what the liquid might be.</p>
+</div>
+<div class="key-point">
+<h3>Evaluation</h3>
+<p><strong>(a)</strong> Subtract atmospheric pressure to find the liquid pressure: at 0.5 m, p = 106 900 &minus; 101 000 = 5900 Pa. At 1.0 m: 11 800 Pa. At 1.5 m: 17 700 Pa. At 2.0 m: 23 600 Pa. At 2.5 m: 29 500 Pa. The pressure increases by 5900 Pa per 0.5 m, which is 11 800 Pa per metre &mdash; a constant rate, confirming a linear relationship.</p>
+<p><strong>(b)</strong> From p = &rho;gh: &rho; = p/(gh) = 11 800 / (9.8 &times; 1) = <strong>1204 kg/m&sup3;</strong>.</p>
+<p><strong>(c)</strong> This density is close to that of salt water (approximately 1025&ndash;1200 kg/m&sup3;) or possibly glycerine (1260 kg/m&sup3;). Given the context, the most likely liquid is dense salt water or a saline solution.</p>
+</div>
+</section>
+
 <div class="topic-nav"><a href="P19-forces-and-elasticity.html" class="nav-prev">← Previous</a><a href="P21-moments-and-centre-of-mass.html" class="nav-next">Next →</a></div>
 </main>
 <footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>

@@ -237,6 +237,77 @@
 </div>
 </div>
 
+<section class="section">
+<h2>🔬 Required Practical</h2>
+<div class="required-practical">
+<h3>Required Practical: Investigating I-V Characteristics</h3>
+<p><strong>Aim:</strong> To investigate how the current through a resistor, a filament lamp, and a diode varies with the potential difference across each component.</p>
+<p><strong>Method:</strong> Set up a circuit with a variable power supply, the component being tested, an ammeter in series, and a voltmeter in parallel across the component. Vary the potential difference using the variable supply and record the ammeter and voltmeter readings for a range of p.d. values. Reverse the power supply connections and repeat for negative p.d. values. Plot a graph of current (y-axis) against potential difference (x-axis) for each component. For the diode, use a protective resistor in series to prevent damage from excessive current.</p>
+<p><strong>Variables:</strong> Independent: potential difference across the component. Dependent: current through the component. Control: temperature of the component (allow to cool between readings), same component used throughout each test.</p>
+<p><strong>Analysis:</strong> For a resistor, the I-V graph should be a straight line through the origin, showing current is directly proportional to p.d. (ohmic conductor). For a filament lamp, the graph curves and levels off at higher currents, showing resistance increases as the filament heats up. For a diode, current is zero in the reverse direction and only flows above a threshold voltage (~0.7 V) in the forward direction. The gradient of the I-V graph represents 1/R for the linear region.</p>
+<p><strong>Common exam questions:</strong> "Why must you allow the resistor to cool between readings?" &mdash; To keep the temperature constant, because resistance changes with temperature for most conductors. "Why does the filament lamp graph curve?" &mdash; As current increases, the filament gets hotter, ions vibrate more, and resistance increases, so the current does not increase proportionally with p.d. "Why is a protective resistor needed for the diode?" &mdash; To limit the current and prevent the diode from being damaged by excessive current in the forward direction.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔢 Maths Skills</h2>
+<div class="maths-skill">
+<h3>Mathematical Skills for this Topic</h3>
+<p><strong>Rearranging V = IR:</strong> To find current: I = V / R. To find resistance: R = V / I. These rearrangements are used constantly in circuit calculations. Always ensure units are consistent: V in volts, I in amperes, R in ohms. Convert mA to A by dividing by 1000, and k&Omega; to &Omega; by multiplying by 1000.</p>
+<p><strong>Plotting and interpreting I-V graphs:</strong> Current goes on the y-axis and potential difference on the x-axis. For an ohmic conductor, the gradient = 1/R (steeper gradient means lower resistance). For a non-ohmic conductor, the gradient changes along the curve &mdash; the resistance at any point is found by dividing the p.d. by the current at that point (R = V/I), NOT from the gradient of the tangent. Include both positive and negative values on the x-axis for I-V characteristic graphs.</p>
+<p><strong>Calculating charge from Q = It:</strong> Time must be in seconds. Convert minutes by multiplying by 60. For example, a current of 0.5 A for 3 minutes: Q = 0.5 &times; 180 = 90 C.</p>
+<p><strong>Calculating energy from V = W/Q:</strong> Rearranging gives W = VQ. This tells you the energy transferred when charge Q flows through a potential difference V. For example, 5 C of charge flows through a 12 V battery: W = 12 &times; 5 = 60 J.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Misconceptions</h2>
+<div class="misconception">
+<h3>Watch Out!</h3>
+<p>Students often think that current is "used up" as it flows through a circuit. <span class="wrong">Wrong: Current gets used up by components in a circuit, so there is less current after a resistor than before it.</span> <span class="right">Correct: Current is the same at every point in a series circuit. Charge is conserved &mdash; the same amount of charge flows per second through every component. It is energy that is transferred (used), not current. A resistor transfers energy from each coulomb of charge, but the number of coulombs per second remains the same.</span></p>
+<p>Students often think that higher resistance always means less current regardless of the voltage. <span class="wrong">Wrong: A higher resistance always means less current, no matter what the voltage is.</span> <span class="right">Correct: Current depends on both resistance AND potential difference (I = V/R). A high resistance can still carry a large current if the voltage is high enough. For example, a 1000 &Omega; resistor with 1000 V across it carries 1 A, while a 10 &Omega; resistor with only 1 V across it carries just 0.1 A. You must consider both V and R together.</span></p>
+</div>
+</section>
+
+<section class="section">
+<h2>✍️ 6-Mark Question</h2>
+<div class="extended-question">
+<h3>Extended Answer Question</h3>
+<p><strong>6 marks:</strong> Compare the I-V characteristics of an ohmic resistor, a filament lamp and a diode. Explain the differences.</p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>An ohmic resistor (at constant temperature) has a straight-line I-V graph passing through the origin. The current is directly proportional to the potential difference, which means the resistance is constant. This is because the temperature of the resistor stays constant, so the arrangement of ions in the material does not change and electrons can flow through with the same ease at all currents.</p>
+<p>A filament lamp has a curved I-V graph that levels off at higher currents. At low p.d., the graph is roughly linear, but as the p.d. and current increase, the curve bends over. This happens because the filament heats up as more current flows. The metal ions in the filament vibrate more vigorously at higher temperatures, making it harder for electrons to pass through. The resistance therefore increases with current, limiting further increases in current even as the p.d. continues to rise. The graph is symmetrical about the origin because the lamp behaves the same regardless of the direction of current.</p>
+<p>A diode has a very different I-V characteristic. In the reverse direction (negative p.d.), the current is effectively zero because the diode has extremely high resistance. In the forward direction, the current is approximately zero until the threshold voltage (about 0.7 V for a silicon diode) is reached. Above this voltage, the current rises very sharply as the resistance drops dramatically. The diode only allows current to flow in one direction, making it useful for converting AC to DC.</p>
+<p><em>Mark scheme: 2 marks for describing the ohmic resistor (straight line, constant resistance), 2 marks for describing the filament lamp (curve, increasing resistance with temperature), 2 marks for describing the diode (one direction only, threshold voltage)</em></p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO3: Analyse &amp; Evaluate</h2>
+<div class="ao3-section">
+<h3>Analysis and Evaluation</h3>
+<p>A student measured the current through an unknown component at different potential differences. The results are shown below:</p>
+<table class="comparison-table">
+<thead><tr><th>P.d. (V)</th><th>Current (mA)</th></tr></thead>
+<tbody>
+<tr><td>-3.0</td><td>0</td></tr>
+<tr><td>-2.0</td><td>0</td></tr>
+<tr><td>-1.0</td><td>0</td></tr>
+<tr><td>0.0</td><td>0</td></tr>
+<tr><td>0.5</td><td>0</td></tr>
+<tr><td>0.7</td><td>2</td></tr>
+<tr><td>1.0</td><td>28</td></tr>
+<tr><td>1.5</td><td>85</td></tr>
+<tr><td>2.0</td><td>160</td></tr>
+</tbody>
+</table>
+<p>Identify the component and calculate its resistance at 1.5 V.</p>
+<p><strong>Answer:</strong> The component is a diode. The evidence is that no current flows in the reverse direction (negative p.d.), and current only begins to flow above approximately 0.7 V in the forward direction, then rises sharply. This matches the I-V characteristic of a silicon diode. Resistance at 1.5 V: R = V/I = 1.5 / 0.085 = 17.6 &Omega; (to 2 s.f. = 18 &Omega;). Note that the current must be converted from mA to A (85 mA = 0.085 A) before using Ohm's law.</p>
+</div>
+</section>
+
 <div class="topic-nav"><a href="../physics-energy/P5-specific-latent-heat.html" class="nav-prev">← Previous</a><a href="P7-series-and-parallel-circuits.html" class="nav-next">Next →</a></div>
 </main>
 <footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>

@@ -312,6 +312,77 @@
 </div>
 </div>
 
+<section class="maths-skill">
+<h2>Maths Skills</h2>
+<div class="key-point">
+<h3>Half-Life Calculations</h3>
+<p>After n half-lives, the fraction of remaining nuclei or count rate = (1/2)<sup>n</sup>. To find the number of half-lives: n = total time / half-life. For whole number half-lives, simply halve repeatedly. For non-integer values, use the formula: N = N<sub>0</sub> &times; (1/2)<sup>n</sup>.</p>
+</div>
+<div class="example">
+<div class="example-title">Worked Example</div>
+<p>Iodine-131 has a half-life of 8 days. A sample has an initial activity of 6400 counts/s. What is the activity after 20 days?</p>
+<p>n = 20 / 8 = 2.5 half-lives</p>
+<p>Activity = 6400 &times; (1/2)<sup>2.5</sup> = 6400 &times; 0.1768 = 1131 counts/s</p>
+</div>
+<div class="key-point">
+<h3>Interpreting Decay Curves</h3>
+<p>A decay curve is an exponential graph of count rate (or number of undecayed nuclei) against time. To find the half-life from a graph, read the initial count rate, find the time at which the count rate has halved, and repeat from different starting points to check consistency. The curve never reaches zero &mdash; it approaches it asymptotically.</p>
+</div>
+<div class="key-point">
+<h3>Logarithmic Decay (Higher)</h3>
+<p>When the count rate data is plotted on a logarithmic scale, an exponential decay appears as a straight line. The gradient of this line is related to the decay constant. This makes it easier to determine the half-life from noisy experimental data, as the straight-line fit smooths out random fluctuations.</p>
+</div>
+</section>
+
+<section class="misconception">
+<h2>Common Misconceptions</h2>
+<div class="key-point">
+<h3>What Half-Life Measures</h3>
+<p><span class="wrong">Half-life is the time for all the radiation to halve.</span> <span class="right">Half-life is the time for the count rate (activity) OR the number of unstable nuclei in a sample to halve. It does not mean the radiation itself halves &mdash; each remaining nucleus still emits radiation at the same rate. It is the number of active nuclei that decreases by half over each half-life period.</span></p>
+</div>
+<div class="key-point">
+<h3>Irradiation vs Contamination</h3>
+<p><span class="wrong">Irradiation and contamination are the same thing.</span> <span class="right">Irradiation is exposure to radiation from an external source &mdash; it stops as soon as you move away or shield the source. Contamination is when radioactive material gets on or into your body &mdash; it continues to irradiate you from close range until the material is removed or decays. Contamination is generally more dangerous because the source remains in contact with your body.</span></p>
+</div>
+</section>
+
+<section class="extended-question">
+<h2>6-Mark Extended Question</h2>
+<div class="question">
+<p><strong>Compare the properties of alpha, beta and gamma radiation and explain why different types are used for different applications.</strong> [6 marks]</p>
+</div>
+<button class="show-answer" onclick="this.nextElementSibling.classList.toggle('visible')">Show model answer</button>
+<div class="answer" style="display:none">
+<p>Alpha radiation consists of two protons and two neutrons (a helium nucleus). It is strongly ionising but has low penetration &mdash; stopped by paper or a few cm of air (1). This makes alpha suitable for smoke detectors, where it ionises air in a chamber; smoke absorbs the alpha particles, breaking the circuit and triggering the alarm (1). Beta radiation is a high-speed electron, moderately ionising and moderately penetrating &mdash; stopped by a few mm of aluminium (1). This makes beta ideal for monitoring sheet metal thickness, as it partially penetrates thin materials, giving a count rate sensitive to small changes in thickness (1). Gamma radiation is an electromagnetic wave, weakly ionising but highly penetrating &mdash; reduced by thick lead or metres of concrete (1). This makes gamma suitable for sterilising medical equipment and for cancer radiotherapy, where deep penetration into the body is needed to reach tumours without surgery (1).</p>
+</div>
+</section>
+
+<section class="ao3-section">
+<h2>AO3: Analyse and Evaluate</h2>
+<div class="question">
+<p>A student measures the count rate of a radioactive sample every 10 seconds and records the following data (background already subtracted):</p>
+<table class="comparison-table">
+<thead><tr><th>Time (s)</th><th>Count rate (counts/s)</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>800</td></tr>
+<tr><td>10</td><td>565</td></tr>
+<tr><td>20</td><td>400</td></tr>
+<tr><td>30</td><td>283</td></tr>
+<tr><td>40</td><td>200</td></tr>
+<tr><td>50</td><td>142</td></tr>
+<tr><td>60</td><td>100</td></tr>
+</tbody>
+</table>
+<p><strong>(a)</strong> Determine the half-life of the isotope. <strong>(b)</strong> Predict the count rate at 90 seconds. <strong>(c)</strong> Explain why the student should subtract the background count before performing these calculations.</p>
+</div>
+<div class="key-point">
+<h3>Evaluation</h3>
+<p><strong>(a)</strong> The count rate halves from 800 to 400 in 20 s, and from 400 to 200 in another 20 s. The half-life is <strong>20 seconds</strong>.</p>
+<p><strong>(b)</strong> At 90 s, n = 90/20 = 4.5 half-lives. Count rate = 800 &times; (1/2)<sup>4.5</sup> = 800 &times; 0.0442 = <strong>35.4 counts/s</strong>.</p>
+<p><strong>(c)</strong> Background radiation adds a constant offset to every reading. Without subtracting it, the apparent half-life would be incorrect because the count rate would not halve truly &mdash; at low activities, the background would make the count rate appear higher than it really is, falsely increasing the measured half-life.</p>
+</div>
+</section>
+
 <div class="topic-nav"><a href="P12-nuclear-model-and-isotopes.html" class="nav-prev">← Previous</a><a href="P14-nuclear-fission-and-fusion.html" class="nav-next">Next →</a></div>
 </main>
 <footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>

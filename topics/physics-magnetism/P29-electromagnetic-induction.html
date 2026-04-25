@@ -227,6 +227,105 @@ Is = 100 A</p>
 </div>
 </section>
 
+<section class="maths-skill">
+<h2>Maths Skills</h2>
+<h3>Transformer Equations</h3>
+<div class="formula-box">
+<h3>Key Equations</h3>
+<p><strong>Vp / Vs = Np / Ns</strong> &#8212; transformer equation</p>
+<p><strong>Vp &#215; Ip = Vs &#215; Is</strong> &#8212; power conservation (ideal transformer)</p>
+<p><strong>Efficiency = (Vs &#215; Is) / (Vp &#215; Ip) &#215; 100%</strong></p>
+</div>
+<div class="example">
+<div class="example-title">Worked Example 1: Finding Secondary Voltage</div>
+<p>A transformer has 2000 turns on the primary coil and 500 turns on the secondary coil. The primary voltage is 230 V. Calculate the secondary voltage.</p>
+<p>Vp / Vs = Np / Ns</p>
+<p>230 / Vs = 2000 / 500 = 4</p>
+<p>Vs = 230 / 4 = 57.5 V (this is a step-down transformer)</p>
+</div>
+<div class="example">
+<div class="example-title">Worked Example 2: Finding Primary Current</div>
+<p>A step-up transformer converts 12 V to 48 V. The secondary current is 2 A. Calculate the primary current, assuming 100% efficiency.</p>
+<p>Vp &#215; Ip = Vs &#215; Is</p>
+<p>12 &#215; Ip = 48 &#215; 2 = 96</p>
+<p>Ip = 96 / 12 = 8 A</p>
+<p>Note: the primary current is larger than the secondary current because voltage was stepped up. The extra current is needed to supply the same power at a lower voltage.</p>
+</div>
+<h3>Transformer Efficiency</h3>
+<div class="example">
+<div class="example-title">Worked Example 3: Calculating Efficiency</div>
+<p>A transformer has a primary voltage of 230 V and primary current of 0.5 A. The secondary voltage is 12 V and the secondary current is 8 A. Calculate the efficiency.</p>
+<p>Input power = 230 &#215; 0.5 = 115 W</p>
+<p>Output power = 12 &#215; 8 = 96 W</p>
+<p>Efficiency = (96 / 115) &#215; 100% = 83.5%</p>
+<p>The 19 W of wasted power is lost as heat in the coils and as eddy currents in the iron core.</p>
+</div>
+<h3>National Grid Power Loss</h3>
+<div class="example">
+<div class="example-title">Calculating Power Saved</div>
+<p>A power station generates 500 MW of power. The transmission cables have a total resistance of 20 &#937;. Compare the power lost when transmitting at 25,000 V versus 400,000 V.</p>
+<p>At 25,000 V: I = P/V = 500 &#215; 10&#8310; / 25,000 = 20,000 A. Power lost = I&#178;R = (20,000)&#178; &#215; 20 = 8 &#215; 10&#8313; W = 8000 MW (more than generated &#8212; impossible!)</p>
+<p>At 400,000 V: I = 500 &#215; 10&#8310; / 400,000 = 1250 A. Power lost = (1250)&#178; &#215; 20 = 3.1 &#215; 10&#8311; W = 31 MW.</p>
+<p>Step-up transformers reduce power loss by a factor of about 256 (from impossible to manageable).</p>
+</div>
+</section>
+
+<section class="misconception">
+<h2>Common Misconceptions</h2>
+<div class="misconception-item">
+<p><span class="wrong">"Transformers work with DC."</span> <span class="right">Transformers only work with AC. A transformer requires a changing magnetic field in the iron core to induce a potential difference in the secondary coil (by electromagnetic induction). DC produces a constant current and therefore a constant magnetic field, which does not induce a pd in the secondary coil after the initial switch-on moment. The National Grid uses AC precisely because transformers are needed to step voltage up and down.</span></p>
+</div>
+<div class="misconception-item">
+<p><span class="wrong">"The generator effect and the motor effect are completely different processes."</span> <span class="right">They are reverse processes of the same underlying phenomenon: the interaction between electricity and magnetism. The motor effect converts electrical energy into mechanical energy (current + field &#8594; force). The generator effect converts mechanical energy into electrical energy (motion + field &#8594; induced current). A motor can act as a generator and vice versa. In fact, when you spin a motor by hand, it generates a potential difference.</span></p>
+</div>
+<div class="misconception-item">
+<p><span class="wrong">"A step-up transformer increases both voltage and current."</span> <span class="right">A step-up transformer increases voltage but decreases current (and vice versa for step-down). If voltage increases by a factor of 4, current decreases by a factor of 4, so that power is conserved (VpIp = VsIs). You cannot increase both voltage and current simultaneously in a transformer, as this would create energy from nothing, violating conservation of energy.</span></p>
+</div>
+</section>
+
+<section class="extended-question">
+<h2>6-Mark Extended Question</h2>
+<div class="question">
+<p><strong>Explain how a transformer works and why step-up transformers are used in the National Grid.</strong> [6 marks]</p>
+</div>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>A transformer consists of two coils of wire (the primary and secondary) wound around a soft iron core. When an alternating current flows in the primary coil, it produces a changing magnetic field in the iron core. This changing magnetic field passes through the secondary coil and, by electromagnetic induction, induces an alternating potential difference across the secondary coil. The iron core guides the magnetic field from the primary to the secondary coil efficiently. If the secondary coil has more turns than the primary, the induced voltage is higher than the input voltage (step-up transformer). If it has fewer turns, the output voltage is lower (step-down transformer). The ratio of voltages equals the ratio of turns: Vp/Vs = Np/Ns. Transformers only work with AC because a changing magnetic field is needed for induction. In the National Grid, step-up transformers are used at power stations to increase the voltage from about 25,000 V to 400,000 V for long-distance transmission. This is because power loss in the transmission cables is proportional to current squared (P = I&#178;R). By increasing the voltage by a factor of 16, the current is reduced by a factor of 16, and the power loss is reduced by a factor of 16&#178; = 256. This makes transmission far more efficient. At substations near towns, step-down transformers reduce the voltage to 230 V for safe domestic use.</p>
+</div>
+</section>
+
+<section class="ao3-section">
+<h2>AO3: Analyse and Evaluate</h2>
+<div class="question">
+<p>A student tests a transformer and records the following data:</p>
+<div class="comparison-table">
+<table>
+<thead><tr><th>Primary turns (Np)</th><th>Secondary turns (Ns)</th><th>Primary voltage (Vp)</th><th>Secondary voltage (Vs) measured</th><th>Secondary voltage (Vs) calculated</th></tr></thead>
+<tbody>
+<tr><td>100</td><td>50</td><td>12.0 V</td><td>5.8 V</td><td>6.0 V</td></tr>
+<tr><td>100</td><td>200</td><td>12.0 V</td><td>22.5 V</td><td>24.0 V</td></tr>
+<tr><td>200</td><td>100</td><td>24.0 V</td><td>11.2 V</td><td>12.0 V</td></tr>
+</tbody>
+</table>
+</div>
+<p>(a) Verify the calculated values of Vs using the transformer equation.</p>
+<p>(b) The measured values are all slightly lower than the calculated values. Explain why.</p>
+<p>(c) The student then measures the currents: for the first row, Ip = 0.50 A and Is = 0.95 A. Calculate the efficiency and explain where the lost energy goes.</p>
+</div>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>(a) Using Vp/Vs = Np/Ns:</p>
+<p>Row 1: 12.0/Vs = 100/50 = 2, so Vs = 6.0 V &#10003;</p>
+<p>Row 2: 12.0/Vs = 100/200 = 0.5, so Vs = 24.0 V &#10003;</p>
+<p>Row 3: 24.0/Vs = 200/100 = 2, so Vs = 12.0 V &#10003;</p>
+<p>(b) The calculated values assume an ideal (100% efficient) transformer. The measured values are lower because real transformers are not perfectly efficient. Some energy is lost as heat due to resistance in the copper coils (copper losses) and as heat from eddy currents induced in the iron core (iron losses). There is also some magnetic flux that does not link both coils (flux leakage). The step-up transformer (row 2) shows the largest discrepancy because the higher secondary voltage means more turns on the secondary coil, increasing resistance and copper losses.</p>
+<p>(c) Input power = Vp &#215; Ip = 12.0 &#215; 0.50 = 6.0 W</p>
+<p>Output power = Vs &#215; Is = 5.8 &#215; 0.95 = 5.51 W</p>
+<p>Efficiency = (5.51 / 6.0) &#215; 100% = 91.8%</p>
+<p>The 0.49 W of lost energy (8.2%) is dissipated as thermal energy: some heats the copper wire due to its resistance, and some heats the iron core due to eddy currents. Laminating the iron core would reduce eddy current losses and improve efficiency.</p>
+</div>
+</section>
+
 <div class="topic-nav"><a href="P28-electromagnets-and-the-motor-effect.html" class="nav-prev">&#8592; Previous</a><a href="P30-space-physics.html" class="nav-next">Next &#8594;</a></div>
 </main>
 <footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>
