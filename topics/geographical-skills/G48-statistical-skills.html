@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G48: Statistical Skills and Data Analysis - GCSE Geography</title>
+<meta name="description" content="Learn about median, mean, range, quartiles, IQR, mode, percentage change, percentiles, bivariate data, trend lines, best fit, interpolation and extrapolation. Free GCSE Geography revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../geography.html">Geography</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../geography.html">Geography</a> <span>›</span>
+<span>Geographical Skills</span> <span>›</span>
+<span>Statistical Skills and Data Analysis</span>
+</nav>
+
+<article class="topic-header">
+<h1>G48: Statistical Skills and Data Analysis</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Measures of central tendency and spread, percentage change, percentiles, bivariate data, trend lines, lines of best fit, interpolation and extrapolation in geographical data analysis.</p>
+</article>
+
+<section class="section">
+<h2>📊 Measures of Central Tendency</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Measures of central tendency identify the "typical" or "middle" value in a dataset. The three main measures are the mean, median, and mode.
+</div>
+
+<h3>The Mean</h3>
+<div class="formula-box">
+<strong>Mean</strong> = Sum of all values ÷ Number of values
+
+<strong>Example:</strong> River velocity measurements (m/s) at 5 sites: 0.3, 0.5, 0.8, 1.2, 1.7
+Mean = (0.3 + 0.5 + 0.8 + 1.2 + 1.7) ÷ 5 = 4.5 ÷ 5 = 0.9 m/s
+</div>
+
+<p><strong>Advantage:</strong> Uses all data values; essential for further statistical calculations.</p>
+<p><strong>Disadvantage:</strong> Distorted by extreme values (outliers). For example, if one velocity measurement was 5.2 m/s (perhaps near a waterfall), the mean becomes (0.3 + 0.5 + 0.8 + 1.2 + 5.2) ÷ 5 = 8.0 ÷ 5 = 1.6 m/s - no longer representative of the typical value.</p>
+
+<h3>The Median</h3>
+<div class="formula-box">
+<strong>Median</strong> = Middle value when data is arranged in order
+
+<strong>For odd number of values:</strong> The middle value.
+Data: 0.3, 0.5, 0.8, 1.2, 1.7 → Median = 0.8 m/s
+
+<strong>For even number of values:</strong> Mean of the two middle values.
+Data: 0.3, 0.5, 0.8, 1.2, 1.7, 5.2 → Median = (0.8 + 1.2) ÷ 2 = 1.0 m/s
+</div>
+
+<p><strong>Advantage:</strong> Not affected by extreme values; gives a better representation of "typical" when data has outliers.</p>
+<p><strong>Disadvantage:</strong> Doesn't use all data values; less useful for further statistical analysis.</p>
+
+<h3>The Mode</h3>
+<div class="formula-box">
+<strong>Mode</strong> = Most frequently occurring value
+
+<strong>Example:</strong> Environmental quality scores: 12, 15, 18, 18, 18, 22, 25, 30
+Mode = 18 (appears 3 times)
+
+A dataset can have: no mode (all values unique), one mode (unimodal), two modes (bimodal), or multiple modes.
+</div>
+
+<p><strong>Advantage:</strong> Shows the most common value; the only measure that works for categorical data (e.g. most common land use type).</p>
+<p><strong>Disadvantage:</strong> May not exist; not useful for numerical analysis; multiple modes can be confusing.</p>
+
+<table class="comparison-table">
+<tr>
+<th>Measure</th>
+<th>When to Use</th>
+<th>Geographical Example</th>
+</tr>
+<tr>
+<td>Mean</td>
+<td>When data has no extreme outliers; for further calculations</td>
+<td>Average rainfall across a year; mean GNI per head for a region</td>
+</tr>
+<tr>
+<td>Median</td>
+<td>When data has outliers that would distort the mean</td>
+<td>Typical house price in an area (a few mansions would distort the mean)</td>
+</tr>
+<tr>
+<td>Mode</td>
+<td>For categorical data; finding the most common value</td>
+<td>Most common rock type; most frequent wind direction</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📏 Measures of Spread</h2>
+
+<h3>Range</h3>
+<div class="formula-box">
+<strong>Range</strong> = Highest value − Lowest value
+
+<strong>Example:</strong> Temperatures recorded: 8°C, 12°C, 15°C, 19°C, 23°C
+Range = 23 − 8 = 15°C
+A larger range indicates greater variability in the data.
+</div>
+
+<p><strong>Advantage:</strong> Simple to calculate and understand.</p>
+<p><strong>Disadvantage:</strong> Only uses two values; heavily affected by outliers. A single extreme value makes the range much larger without reflecting the actual spread of most data.</p>
+
+<h3>Interquartile Range (IQR)</h3>
+<div class="key-point">
+<strong>Definition:</strong> The IQR measures the spread of the middle 50% of data, removing the influence of the lowest 25% and highest 25% of values. It is more robust than the range because it ignores extreme values.
+</div>
+
+<div class="formula-box">
+<strong>Calculating the IQR:</strong>
+1. Arrange data in ascending order
+2. Find Q1 (lower quartile) = median of the lower half of data
+3. Find Q3 (upper quartile) = median of the upper half of data
+4. IQR = Q3 − Q1
+
+<strong>Example:</strong> Environmental quality scores from 12 sites:
+15, 18, 22, 24, 26, 28, 30, 33, 35, 38, 42, 55
+Lower half: 15, 18, 22, 24, 26, 28 → Q1 = (22+24)÷2 = 23
+Upper half: 30, 33, 35, 38, 42, 55 → Q3 = (35+38)÷2 = 36.5
+IQR = 36.5 − 23 = 13.5
+Note: The range is 55 − 15 = 40, but the IQR of 13.5 better represents the typical spread.
+</div>
+
+<h3>Box and Whisker Plots</h3>
+<div class="key-point">
+<strong>Definition:</strong> A box and whisker plot visually displays the median, quartiles, and range of a dataset. The "box" shows the IQR (Q1 to Q3), the line inside the box is the median, and the "whiskers" extend to the minimum and maximum values (or to 1.5 × IQR from the box, with outliers shown as individual points).
+</div>
+
+<p>Box plots are useful for comparing the distribution of data between two or more groups (e.g. comparing environmental quality scores in two different areas of a city).</p>
+</section>
+
+<section class="section">
+<h2>🔢 Percentage Change</h2>
+
+<div class="formula-box">
+<strong>Percentage Change</strong> = ((New value − Original value) ÷ Original value) × 100
+
+<strong>Percentage increase</strong> = positive result
+<strong>Percentage decrease</strong> = negative result
+
+<strong>Example 1:</strong> A country's population grew from 45 million (2000) to 62 million (2020).
+Percentage change = ((62 − 45) ÷ 45) × 100 = (17 ÷ 45) × 100 = 37.8% increase
+
+<strong>Example 2:</strong> UK coal production fell from 100 million tonnes (1990) to 2 million tonnes (2020).
+Percentage change = ((2 − 100) ÷ 100) × 100 = (−98 ÷ 100) × 100 = −98% decrease
+</div>
+
+<div class="key-point">
+<strong>Common Error:</strong> Using the new value as the denominator instead of the original. The percentage change must always be calculated relative to the ORIGINAL (starting) value, not the final value. Also, be careful to distinguish between percentage change and percentage point change (e.g. unemployment rising from 5% to 7% is a 2 percentage point increase, but a 40% increase relative to the original 5%).
+</div>
+
+<h3>Reverse Percentage Calculations</h3>
+<div class="formula-box">
+<strong>Reverse percentage:</strong> If a value has increased by X%, the original value = New value ÷ (1 + X/100)
+
+<strong>Example:</strong> After a 25% increase, rainfall is now 750 mm. What was the original?
+Original = 750 ÷ 1.25 = 600 mm
+</div>
+</section>
+
+<section class="section">
+<h2>📊 Percentiles</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A percentile is the value below which a given percentage of data falls. The 25th percentile (P25) is the value below which 25% of data lies - this is the same as Q1. The 50th percentile (P50) is the median. The 75th percentile (P75) = Q3.
+</div>
+
+<div class="formula-box">
+<strong>Key Percentiles:</strong>
+P25 (25th percentile) = Q1 (lower quartile)
+P50 (50th percentile) = Median
+P75 (75th percentile) = Q3 (upper quartile)
+
+<strong>Example:</strong> If a country's GNI per head is at the 70th percentile globally, it means 70% of countries have a lower GNI per head and 30% have a higher one.
+</div>
+
+<div class="example">
+<div class="example-title">Example: Using Percentiles in Geography</div>
+<p>The IMD (Index of Multiple Deprivation) ranks every area in England from most to least deprived. An area at the 10th percentile of deprivation means only 10% of areas are more deprived - it is among the most deprived 10% of areas. An area at the 80th percentile is among the 20% least deprived areas. Percentiles allow meaningful comparison of relative position regardless of the actual values.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔗 Bivariate Data</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Bivariate data involves two variables that are measured for each observation. The purpose is to investigate whether a relationship (correlation) exists between the two variables. In geography, bivariate data is commonly displayed on scatter graphs.
+</div>
+
+<h3>Types of Relationship</h3>
+<ul>
+<li><strong>Positive correlation:</strong> Both variables increase together (e.g. GNI per head and life expectancy)</li>
+<li><strong>Negative correlation:</strong> One variable increases as the other decreases (e.g. distance from CBD and land value)</li>
+<li><strong>No correlation:</strong> No apparent relationship (e.g. country area and population density)</li>
+<li><strong>Causal relationship:</strong> A change in one variable directly causes a change in the other (e.g. increasing CO₂ causes temperature rise)</li>
+<li><strong>Non-causal relationship:</strong> Variables are correlated but one does not cause the other - there may be a third factor (e.g. ice cream sales and drowning are both correlated with hot weather, but one doesn't cause the other)</li>
+</ul>
+
+<div class="key-point">
+<strong>Key Rule:</strong> Correlation does NOT prove causation. Two variables may be strongly correlated because of a third underlying factor. Always consider whether the relationship makes geographical sense before claiming one variable causes the other.
+</div>
+</section>
+
+<section class="section">
+<h2>📈 Trend Lines and Lines of Best Fit</h2>
+
+<h3>Drawing a Line of Best Fit</h3>
+<div class="formula-box">
+<strong>Rules for drawing a line of best fit:</strong>
+1. The line should follow the general trend of the data
+2. Roughly equal numbers of points should be above and below the line
+3. The line should pass through or near as many points as possible
+4. Ignore clear outliers when positioning the line
+5. The line should extend across the full range of data (for interpolation)
+6. The line may be extended beyond the data range (for extrapolation) but this should be done cautiously
+</div>
+
+<h3>Interpolation</h3>
+<div class="key-point">
+<strong>Definition:</strong> Interpolation is estimating a value WITHIN the range of existing data by reading off the line of best fit. It is generally reliable because the trend has been established by observed data.
+</div>
+
+<div class="example">
+<div class="example-title">Example: Interpolation</div>
+<p>A scatter graph shows the relationship between GNI per head (x-axis, range $5,000-$50,000) and life expectancy (y-axis, range 65-83 years). To estimate the life expectancy for a country with GNI per head of $25,000 (which is within the data range), find $25,000 on the x-axis, go up to the line of best fit, and read across to the y-axis. The estimated life expectancy might be approximately 76 years.</p>
+</div>
+
+<h3>Extrapolation</h3>
+<div class="key-point">
+<strong>Definition:</strong> Extrapolation is estimating a value OUTSIDE (beyond) the range of existing data by extending the line of best fit. It is less reliable because it assumes the trend continues in the same way, which may not be true.
+</div>
+
+<div class="example">
+<div class="example-title">Example: Extrapolation (and Its Risks)</div>
+<p>Using the same scatter graph, to estimate life expectancy at a GNI per head of $80,000 (beyond the data range), you would extend the line of best fit beyond $50,000. The extrapolation might suggest a life expectancy of 90+ years. However, this is unreliable because: life expectancy has a natural upper limit; above a certain income, additional wealth may not improve health; and the relationship may flatten off (a "diminishing returns" curve would be more accurate than a straight line).</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th></th>
+<th>Interpolation</th>
+<th>Extrapolation</th>
+</tr>
+<tr>
+<td>Where</td>
+<td>Within the data range</td>
+<td>Outside the data range</td>
+</tr>
+<tr>
+<td>Reliability</td>
+<td>Generally reliable</td>
+<td>Less reliable - trend may change</td>
+</tr>
+<tr>
+<td>Assumption</td>
+<td>Trend between known points continues</td>
+<td>Trend continues beyond known data</td>
+</tr>
+<tr>
+<td>Risk</td>
+<td>Low - supported by surrounding data</td>
+<td>High - no data to verify the estimate</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📉 Using Statistics in Geography Exams</h2>
+
+<h3>Common Statistical Exam Questions</h3>
+<table class="comparison-table">
+<tr>
+<th>Question Type</th>
+<th>How to Approach It</th>
+</tr>
+<tr>
+<td>Calculate the mean/median/mode</td>
+<td>Show your working; arrange data in order for median; identify the most frequent for mode</td>
+</tr>
+<tr>
+<td>Calculate percentage change</td>
+<td>Use the formula: ((New − Original) ÷ Original) × 100; always use ORIGINAL as denominator</td>
+</tr>
+<tr>
+<td>Calculate the IQR</td>
+<td>Find Q1 and Q3; IQR = Q3 − Q1; show ordered data</td>
+</tr>
+<tr>
+<td>Interpret a scatter graph</td>
+<td>Describe the type and strength of correlation; draw a line of best fit; identify anomalies</td>
+</tr>
+<tr>
+<td>Use a line of best fit to estimate</td>
+<td>Read off the line for the given x-value; state whether it is interpolation or extrapolation</td>
+</tr>
+<tr>
+<td>Compare two datasets</td>
+<td>Compare means AND ranges/IQRs; use phrases like "on average higher" and "more variable"</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Exam Technique:</strong> When comparing two datasets in geography, always compare BOTH the central tendency (mean/median) AND the spread (range/IQR). For example: "Area A has a higher mean environmental quality score (32 vs 21) but also greater variation (IQR 18 vs 10), suggesting quality is generally better but less consistent than Area B."
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Calculate the mean, median, mode, and range for the following data: 12, 15, 18, 18, 22, 25, 30, 35</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A country's exports were $4.2 billion in 2015 and $6.3 billion in 2025. Calculate the percentage change.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Explain the difference between the range and the interquartile range. Why is the IQR often preferred?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is the difference between interpolation and extrapolation? Which is more reliable and why?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain what is meant by "correlation does not prove causation" with a geographical example.</p>
+</div>
+<div class="question">
+<p><strong>Q6:</strong> Using the following data, calculate Q1, Q3, and the IQR: 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 50</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Mean = (12+15+18+18+22+25+30+35) ÷ 8 = 175 ÷ 8 = 21.875 ≈ 21.9. Median = (18+22) ÷ 2 = 20 (middle two of 8 values). Mode = 18 (appears twice, all others appear once). Range = 35 − 12 = 23.</li>
+<li>Percentage change = ((6.3 − 4.2) ÷ 4.2) × 100 = (2.1 ÷ 4.2) × 100 = 0.5 × 100 = 50% increase.</li>
+<li>The range is the difference between the highest and lowest values, using only two data points. The IQR is the difference between Q3 and Q1, measuring the spread of the middle 50% of data. The IQR is preferred because it ignores the most extreme values (the top 25% and bottom 25%) that may be outliers, giving a better representation of typical variation. For example, if one house in an area costs £5 million while others are £150,000-£300,000, the range would be huge but the IQR would still reflect typical variation.</li>
+<li>Interpolation estimates a value within the existing data range by reading off the line of best fit. Extrapolation estimates a value beyond the data range by extending the line of best fit. Interpolation is more reliable because it is supported by observed data on either side of the estimate. Extrapolation is less reliable because it assumes the trend continues in the same way beyond the data, which may not be true (e.g. a population growth trend may flatten off).</li>
+<li>"Correlation does not prove causation" means that just because two variables are statistically related, it does not mean one causes the other. There may be a third underlying factor affecting both. For example, there is a positive correlation between a country's GNI per head and life expectancy, but higher GNI does not directly cause longer life - instead, higher GNI enables better healthcare, nutrition, and sanitation, which cause improved health. The correlation identifies a relationship, but understanding the mechanism requires geographical knowledge.</li>
+<li>11 values arranged: 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 50. Median = 20 (6th value). Lower half: 5, 8, 11, 14, 17 → Q1 = 11. Upper half: 23, 26, 29, 32, 50 → Q3 = 29. IQR = Q3 − Q1 = 29 − 11 = 18. Note: the range is 50 − 5 = 45, but the IQR of 18 better represents the typical spread because the outlier of 50 inflates the range.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always show your working in statistical calculations - marks are given for method as well as answer</li>
+<li>When calculating the median, always arrange data in order first</li>
+<li>For percentage change, always divide by the ORIGINAL value (the starting value)</li>
+<li>When comparing datasets, discuss central tendency AND spread</li>
+<li>Remember: correlation ≠ causation - always consider alternative explanations</li>
+<li>For interpolation/extrapolation questions, state which one you are doing and comment on reliability</li>
+<li>Practise calculating IQR - it appears on both fieldwork and skills questions</li>
+<li>Use precise statistical language: "positively correlated", "significant outlier", "central tendency"</li>
+<li>Know the difference between percentage change and percentage point change</li>
+</ul>
+</section>
+
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>Geography Exam Tips:</strong><br>
+Practice OS map skills regularly — grid references, scale, distance and gradient. Know which graph type is appropriate for different data. Understand statistical measures and their limitations. Always question data reliability and potential bias.
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception">
+<h3>Watch Out!</h3>
+<p>Students often write vague answers without specific geographical evidence. <span class="wrong">Wrong: Writing generalised statements like 'it causes problems'</span> <span class="right">Correct: Using specific data and named examples, e.g. 'the 2010 Haiti earthquake killed over 200,000 people due to poor building quality'</span></p>
+<p>Students often confuse causes and effects. <span class="wrong">Wrong: Mixing up what caused the event with what resulted from it</span> <span class="right">Correct: Clearly separate causes (why it happened) from effects (what happened as a result)</span></p>
+<p>Students often describe rather than evaluate. <span class="wrong">Wrong: Listing strategies without assessing their effectiveness</span> <span class="right">Correct: Weighing up strengths and weaknesses of each approach and reaching a supported judgement</span></p>
+</div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>6 marks: Explain the key factors affecting statistical skills and data analysis.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Statistical Skills and Data Analysis involves multiple interconnected factors that geographers must understand. The key concepts include the processes that create and change statistical skills and data analysis, the impacts on both people and environment, and the strategies used to manage associated challenges. For a comprehensive answer, specific case study evidence should be used throughout, with named examples and data to support each point. Geographical terminology should be used precisely, and the interrelationship between physical and human factors should be demonstrated. Top-level responses evaluate the relative importance of different factors and consider how the situation varies between locations.</p>
+<p><em>Mark scheme: 2 marks for identifying key factors, 2 marks for explaining processes with detail, 2 marks for using specific evidence</em></p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p>AO1 requires knowledge of the key facts and processes related to statistical skills and data analysis. AO2 demands understanding of how and why these processes operate, and their implications. AO3 asks you to analyse, evaluate and make judgements — this is where grade 9 answers stand out by weighing up competing perspectives and reaching supported conclusions. AO4 may involve interpreting maps, graphs or data related to this topic. To move from grade 5 to grade 9: use precise geographical terminology, support every point with specific case study evidence, and always evaluate rather than just describe.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul>
+<li><a href="https://www.bbc.co.uk/bitesize/topics/zk4t97h" target="_blank" rel="noopener">BBC Bitesize</a></li>
+<li><a href="https://www.youtube.com/@GeographySep" target="_blank" rel="noopener">Geography Online</a></li>
+<li><a href="https://www.youtube.com/@PickUpAGeographyGrade" target="_blank" rel="noopener">Pick Up A Geography Grade</a></li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="G47-graphical-numerical-skills.html" class="nav-prev">← Previous Topic: Graphical and Numerical Skills</a>
+<a href="#" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

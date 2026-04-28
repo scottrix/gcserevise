@@ -1,0 +1,130 @@
+{
+"subject": "Geography",
+"id": "geography",
+"examBoards": ["AQA", "Edexcel B", "OCR B", "Eduqas B", "CCEA"],
+"tierEntry": {
+  "foundation": "Grades 1-5",
+  "higher": "Grades 4-9"
+},
+"papers": {
+  "AQA": [
+    { "name": "Paper 1", "title": "Living with the Physical Environment", "duration": "1h 30m", "marks": 88, "weighting": 35 },
+    { "name": "Paper 2", "title": "Challenges in the Human Environment", "duration": "1h 30m", "marks": 88, "weighting": 35 },
+    { "name": "Paper 3", "title": "Geographical Applications", "duration": "1h 15m", "marks": 76, "weighting": 30 }
+  ],
+  "Edexcel B": [
+    { "name": "Paper 1", "title": "The Physical Environment", "duration": "1h 30m", "marks": 94, "weighting": 37.5 },
+    { "name": "Paper 2", "title": "The Human Environment", "duration": "1h 30m", "marks": 94, "weighting": 37.5 },
+    { "name": "Paper 3", "title": "Geographical Investigations", "duration": "1h 15m", "marks": 62, "weighting": 25 }
+  ],
+  "OCR B": [
+    { "name": "Paper 1", "title": "Our Natural World", "duration": "1h 15m", "marks": 70, "weighting": 35 },
+    { "name": "Paper 2", "title": "People and Society", "duration": "1h 15m", "marks": 70, "weighting": 35 },
+    { "name": "Paper 3", "title": "Geographical Exploration", "duration": "1h 30m", "marks": 60, "weighting": 30 }
+  ]
+},
+"assessmentObjectives": [
+  { "id": "AO1", "description": "Demonstrate knowledge of locations, places, processes, environments and different scales", "weighting": "30%" },
+  { "id": "AO2", "description": "Demonstrate geographical understanding of concepts and how they relate to different contexts", "weighting": "30%" },
+  { "id": "AO3", "description": "Apply knowledge and understanding to interpret, analyse and evaluate geographical information and issues", "weighting": "30%" },
+  { "id": "AO4", "description": "Select, adapt and use a variety of skills and techniques to investigate questions and issues", "weighting": "10%" }
+],
+"strands": [
+  {
+    "id": "natural-hazards",
+    "name": "The Challenge of Natural Hazards",
+    "topics": [
+      { "id": "G1", "name": "Natural Hazards", "description": "Definition of natural hazards, types (geological, meteorological), and factors affecting hazard risk", "tier": "both" },
+      { "id": "G2", "name": "Plate Tectonics", "description": "Plate tectonics theory, global distribution of earthquakes and volcanoes, plate margins", "tier": "both" },
+      { "id": "G3", "name": "Tectonic Hazards: Effects and Responses", "description": "Primary and secondary effects, immediate and long-term responses, contrasting wealth", "tier": "both" },
+      { "id": "G4", "name": "Managing Tectonic Hazards", "description": "Reasons people live in at-risk areas, monitoring, prediction, protection and planning", "tier": "both" },
+      { "id": "G5", "name": "Global Atmospheric Circulation", "description": "General atmospheric circulation model, pressure belts, surface winds and climate patterns", "tier": "both" },
+      { "id": "G6", "name": "Tropical Storms", "description": "Global distribution, formation and development of tropical storms, structure and features", "tier": "both" },
+      { "id": "G7", "name": "Tropical Storms: Effects and Responses", "description": "Effects of tropical storms, responses using a named example, monitoring and prediction", "tier": "both" },
+      { "id": "G8", "name": "UK Weather Hazards", "description": "Types of UK weather hazard, extreme weather events and their impacts", "tier": "both" },
+      { "id": "G9", "name": "Climate Change", "description": "Evidence for climate change, natural and human causes", "tier": "both" },
+      { "id": "G10", "name": "Managing Climate Change", "description": "Mitigation and adaptation strategies for climate change", "tier": "both" }
+    ]
+  },
+  {
+    "id": "living-world",
+    "name": "The Living World",
+    "topics": [
+      { "id": "G11", "name": "Ecosystems", "description": "Ecosystems at different scales, biotic and abiotic components, food chains and nutrient cycling", "tier": "both" },
+      { "id": "G12", "name": "Global Ecosystems and Biomes", "description": "Distribution and characteristics of large-scale global ecosystems", "tier": "both" },
+      { "id": "G13", "name": "Tropical Rainforests", "description": "Physical characteristics, interdependence, plant and animal adaptations, biodiversity", "tier": "both" },
+      { "id": "G14", "name": "Deforestation of Tropical Rainforests", "description": "Rates and causes of deforestation, economic and environmental impacts", "tier": "both" },
+      { "id": "G15", "name": "Sustainable Rainforest Management", "description": "Value of rainforests, strategies for sustainable management", "tier": "both" },
+      { "id": "G16", "name": "Hot Deserts", "description": "Physical characteristics, adaptations, development opportunities and challenges", "tier": "both" },
+      { "id": "G17", "name": "Desertification", "description": "Causes and strategies to reduce the risk of desertification", "tier": "both" },
+      { "id": "G18", "name": "Cold Environments", "description": "Physical characteristics of polar and tundra environments, adaptations and opportunities", "tier": "both" },
+      { "id": "G19", "name": "Managing Cold Environments", "description": "Value of cold environments, balancing development and conservation", "tier": "both" }
+    ]
+  },
+  {
+    "id": "physical-landscapes-uk",
+    "name": "Physical Landscapes in the UK",
+    "topics": [
+      { "id": "G20", "name": "UK Physical Landscapes", "description": "Overview of UK landscapes, upland and lowland areas, river systems", "tier": "both" },
+      { "id": "G21", "name": "Coastal Processes", "description": "Wave types, weathering, mass movement, erosion, transportation and deposition", "tier": "both" },
+      { "id": "G22", "name": "Coastal Landforms", "description": "How geology influences coastal forms, erosion and deposition landforms", "tier": "both" },
+      { "id": "G23", "name": "Coastal Management", "description": "Hard and soft engineering, managed retreat, UK case study", "tier": "both" },
+      { "id": "G24", "name": "River Processes", "description": "Long profile, fluvial erosion, transportation and deposition", "tier": "both" },
+      { "id": "G25", "name": "River Landforms", "description": "Erosion and deposition landforms including meanders and flood plains", "tier": "both" },
+      { "id": "G26", "name": "Flood Risk and Management", "description": "Physical and human factors, hydrographs, hard and soft engineering, UK case study", "tier": "both" },
+      { "id": "G27", "name": "Glacial Processes and Landforms", "description": "Glacial erosion, transportation, deposition and resulting landforms", "tier": "both" },
+      { "id": "G28", "name": "Glacial Tourism and Management", "description": "Economic activities in glaciated uplands, conflicts and management", "tier": "both" }
+    ]
+  },
+  {
+    "id": "urban-issues",
+    "name": "Urban Issues and Challenges",
+    "topics": [
+      { "id": "G29", "name": "Urbanisation and Megacities", "description": "Global pattern of urban change, factors affecting urbanisation, emergence of megacities", "tier": "both" },
+      { "id": "G30", "name": "Urban Growth in LICs and NEEs", "description": "Case study of a major city in an LIC/NEE: opportunities, challenges and planning", "tier": "both" },
+      { "id": "G31", "name": "Urban Change in the UK", "description": "UK city case study: migration impacts, opportunities, challenges and regeneration", "tier": "both" },
+      { "id": "G32", "name": "Sustainable Urban Living", "priority": "both", "description": "Features of sustainable urban living and transport strategies", "tier": "both" }
+    ]
+  },
+  {
+    "id": "changing-economic-world",
+    "name": "The Changing Economic World",
+    "topics": [
+      { "id": "G33", "name": "Measuring Development", "description": "Economic and social measures of development, limitations, Demographic Transition Model", "tier": "both" },
+      { "id": "G34", "name": "Uneven Development and its Consequences", "description": "Causes and consequences of uneven development", "tier": "both" },
+      { "id": "G35", "name": "Reducing the Development Gap", "description": "Strategies to reduce the development gap including aid, trade and investment", "tier": "both" },
+      { "id": "G36", "name": "Economic Development in LICs and NEEs", "description": "Case study: changing industrial structure, TNCs, aid, environmental impacts", "tier": "both" },
+      { "id": "G37", "name": "Economic Change in the UK", "description": "De-industrialisation, post-industrial economy, north-south divide, UK in the wider world", "tier": "both" }
+    ]
+  },
+  {
+    "id": "resource-management",
+    "name": "The Challenge of Resource Management",
+    "topics": [
+      { "id": "G38", "name": "Resource Management Overview", "description": "Significance of food, water and energy, global inequalities in supply and consumption", "tier": "both" },
+      { "id": "G39", "name": "Food Resources", "description": "Global patterns, factors affecting supply, strategies to increase supply, sustainability", "tier": "both" },
+      { "id": "G40", "name": "Water Resources", "description": "Surplus and deficit patterns, availability factors, strategies, sustainability", "tier": "both" },
+      { "id": "G41", "name": "Energy Resources", "description": "Global distribution of consumption and supply, renewable and non-renewable, sustainability", "tier": "both" }
+    ]
+  },
+  {
+    "id": "geographical-applications",
+    "name": "Geographical Applications",
+    "topics": [
+      { "id": "G42", "name": "Issue Evaluation", "description": "Critical thinking using pre-release resources, stakeholder analysis, reasoned justifications", "tier": "both" },
+      { "id": "G43", "name": "Fieldwork: Enquiry Process", "description": "Formulating questions, selecting evidence, identifying locations, risk assessment", "tier": "both" },
+      { "id": "G44", "name": "Fieldwork: Data Collection and Presentation", "description": "Primary and secondary data, sampling methods, presentation techniques", "tier": "both" },
+      { "id": "G45", "name": "Fieldwork: Analysis, Conclusions and Evaluation", "description": "Data analysis, statistical techniques, drawing conclusions, evaluating enquiries", "tier": "both" }
+    ]
+  },
+  {
+    "id": "geographical-skills",
+    "name": "Geographical Skills",
+    "topics": [
+      { "id": "G46", "name": "Cartographic Skills", "description": "Atlas maps, OS maps, grid references, scale, distance, gradient, contours, sketch maps", "tier": "both" },
+      { "id": "G47", "name": "Graphical and Numerical Skills", "description": "Constructing and interpreting graphs, numerical skills, proportion and ratio", "tier": "both" },
+      { "id": "G48", "name": "Statistical Skills and Data Analysis", "description": "Measures of central tendency, bivariate data, trend lines, identifying weaknesses", "tier": "both" }
+    ]
+  }
+]
+}
