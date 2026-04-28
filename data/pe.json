@@ -1,0 +1,99 @@
+{
+"subject": "Physical Education",
+"id": "pe",
+"examBoards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+"tierEntry": {
+  "foundation": "Grades 1-5",
+  "higher": "Grades 4-9"
+},
+"papers": {
+  "AQA": [
+    { "name": "Paper 1", "title": "The Human Body and Movement", "duration": "1h 15m", "marks": 78, "weighting": 30 },
+    { "name": "Paper 2", "title": "Socio-Cultural Influences and Well-Being", "duration": "1h 15m", "marks": 78, "weighting": 30 },
+    { "name": "NEA", "title": "Practical Performance + Analysis", "duration": "N/A", "marks": 100, "weighting": 40 }
+  ]
+},
+"assessmentObjectives": [
+  { "id": "AO1", "description": "Demonstrate knowledge and understanding of physical activity and sport", "weighting": "30%" },
+  { "id": "AO2", "description": "Apply knowledge and understanding of physical activity and sport", "weighting": "30%" },
+  { "id": "AO3", "description": "Analyse and evaluate physical activity and sport", "weighting": "25%" },
+  { "id": "AO4", "description": "Demonstrate and apply relevant practical skills", "weighting": "15%" }
+],
+"strands": [
+  {
+    "id": "applied-anatomy-physiology",
+    "name": "Applied Anatomy and Physiology",
+    "topics": [
+      { "id": "PE1", "name": "The Skeletal System", "description": "Bones, structure and functions of the skeleton", "tier": "both" },
+      { "id": "PE2", "name": "The Muscular System", "description": "Major muscles, antagonistic pairs, types of contraction", "tier": "both" },
+      { "id": "PE3", "name": "Joints and Movement", "description": "Synovial joints, types of movement at joints", "tier": "both" },
+      { "id": "PE4", "name": "The Cardio-Respiratory System", "description": "Pathway of air, gaseous exchange, heart structure, blood vessels", "tier": "both" },
+      { "id": "PE5", "name": "Cardiac Output, Stroke Volume and Heart Rate", "description": "Relationships between CO, SV and HR; heart rate graphs", "tier": "both" },
+      { "id": "PE6", "name": "Mechanics of Breathing", "description": "Intercostal muscles, ribs and diaphragm in breathing", "tier": "both" },
+      { "id": "PE7", "name": "Spirometer Trace Interpretation", "description": "Tidal volume, reserve volumes, interpreting traces", "tier": "both" },
+      { "id": "PE8", "name": "Aerobic and Anaerobic Exercise", "description": "Definitions, equations, EPOC/oxygen debt, recovery", "tier": "both" },
+      { "id": "PE9", "name": "Short and Long Term Effects of Exercise", "description": "Immediate, short-term and long-term effects on body systems", "tier": "both" }
+    ]
+  },
+  {
+    "id": "movement-analysis",
+    "name": "Movement Analysis",
+    "topics": [
+      { "id": "PE10", "name": "Lever Systems", "description": "First, second and third class levers; mechanical advantage", "tier": "both" },
+      { "id": "PE11", "name": "Movement Analysis in Sport", "description": "Types of movement at joints in sporting actions", "tier": "both" },
+      { "id": "PE12", "name": "Planes and Axes of Movement", "description": "Frontal, transverse, sagittal planes and axes in sport", "tier": "both" }
+    ]
+  },
+  {
+    "id": "physical-training",
+    "name": "Physical Training",
+    "topics": [
+      { "id": "PE13", "name": "Health and Fitness", "description": "Definitions and relationship between health and fitness", "tier": "both" },
+      { "id": "PE14", "name": "Components of Fitness", "description": "Definitions and sporting links for 10 components", "tier": "both" },
+      { "id": "PE15", "name": "Fitness Testing", "description": "Reasons, limitations and procedures for fitness tests", "tier": "both" },
+      { "id": "PE16", "name": "Principles of Training", "description": "SPORT and FITT principles applied to training programmes", "tier": "both" },
+      { "id": "PE17", "name": "Training Methods", "description": "Circuit, continuous, Fartlek, interval, weight, plyometric training", "tier": "both" },
+      { "id": "PE18", "name": "Optimising Training and Preventing Injury", "description": "Training zones, one rep max, injury prevention strategies", "tier": "both" },
+      { "id": "PE19", "name": "High Altitude Training", "description": "Physiological adaptations, benefits and limitations", "tier": "both" },
+      { "id": "PE20", "name": "Seasonal Training", "description": "Pre-season, competition and post-season phases", "tier": "both" },
+      { "id": "PE21", "name": "Warm Up and Cool Down", "description": "Constituent parts and benefits of warming up and cooling down", "tier": "both" }
+    ]
+  },
+  {
+    "id": "sports-psychology",
+    "name": "Sports Psychology",
+    "topics": [
+      { "id": "PE22", "name": "Skill Classification", "description": "Basic/complex, open/closed, gross/fine skill classifications", "tier": "both" },
+      { "id": "PE23", "name": "Goal Setting and SMART Targets", "description": "Performance vs outcome goals, SMART targets", "tier": "both" },
+      { "id": "PE24", "name": "Information Processing", "description": "Input, decision making, output and feedback model", "tier": "both" },
+      { "id": "PE25", "name": "Guidance in Sport", "description": "Visual, verbal, manual and mechanical guidance", "tier": "both" },
+      { "id": "PE26", "name": "Feedback in Sport", "description": "Types of feedback and evaluation for different performers", "tier": "both" },
+      { "id": "PE27", "name": "Arousal and the Inverted-U Theory", "description": "Arousal levels, inverted-U graph, stress management", "tier": "both" },
+      { "id": "PE28", "name": "Aggression, Personality and Motivation", "description": "Direct/indirect aggression, introvert/extrovert, motivation types", "tier": "both" }
+    ]
+  },
+  {
+    "id": "socio-cultural-influences",
+    "name": "Socio-Cultural Influences",
+    "topics": [
+      { "id": "PE29", "name": "Engagement Patterns in Sport", "description": "Participation by gender, race, age, disability and socio-economics", "tier": "both" },
+      { "id": "PE30", "name": "Commercialisation of Sport", "description": "Sponsorship, media and their impacts on sport", "tier": "both" },
+      { "id": "PE31", "name": "Technology in Sport", "description": "Positive and negative impacts of technology on all stakeholders", "tier": "both" },
+      { "id": "PE32", "name": "Ethics in Sport", "description": "Etiquette, sportsmanship, gamesmanship and contract to compete", "tier": "both" },
+      { "id": "PE33", "name": "Performance Enhancing Drugs", "description": "Categories of PEDs, blood doping, advantages and disadvantages", "tier": "both" },
+      { "id": "PE34", "name": "Spectator Behaviour and Hooliganism", "description": "Effects of spectators, hooliganism causes and strategies", "tier": "both" }
+    ]
+  },
+  {
+    "id": "health-fitness-wellbeing",
+    "name": "Health, Fitness and Wellbeing",
+    "topics": [
+      { "id": "PE35", "name": "Physical, Emotional and Social Health", "description": "How participation improves physical, mental and social health", "tier": "both" },
+      { "id": "PE36", "name": "Sedentary Lifestyle and Obesity", "description": "Consequences of inactivity, obesity and impacts on health", "tier": "both" },
+      { "id": "PE37", "name": "Somatotypes", "description": "Endomorph, mesomorph and ectomorph body types in sport", "tier": "both" },
+      { "id": "PE38", "name": "Diet and Nutrition", "description": "Balanced diet, nutrients and their roles in performance", "tier": "both" },
+      { "id": "PE39", "name": "Hydration and Dehydration", "description": "Water balance, consequences of dehydration on performance", "tier": "both" }
+    ]
+  }
+]
+}
