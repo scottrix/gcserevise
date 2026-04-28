@@ -1,0 +1,83 @@
+{
+"subject": "History",
+"id": "history",
+"examBoards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+"tierEntry": {
+  "foundation": "Grades 1-5",
+  "higher": "Grades 4-9"
+},
+"papers": {
+  "AQA": [
+    { "name": "Paper 1", "title": "Understanding the Modern World", "duration": "2h", "marks": 84, "weighting": 50 },
+    { "name": "Paper 2", "title": "Shaping the Nation", "duration": "2h", "marks": 84, "weighting": 50 }
+  ],
+  "Edexcel": [
+    { "name": "Paper 1", "title": "Thematic Study and Historic Environment", "duration": "1h 15m", "marks": 52, "weighting": 30 },
+    { "name": "Paper 2", "title": "Period Study and British Depth Study", "duration": "1h 45m", "marks": 64, "weighting": 40 },
+    { "name": "Paper 3", "title": "Modern Depth Study", "duration": "1h 20m", "marks": 52, "weighting": 30 }
+  ]
+},
+"assessmentObjectives": [
+  { "id": "AO1", "description": "Recall, select and organise historical knowledge", "weighting": "35%" },
+  { "id": "AO2", "description": "Explain and analyse historical events and periods", "weighting": "35%" },
+  { "id": "AO3", "description": "Analyse and evaluate historical sources and interpretations", "weighting": "30%" }
+],
+"strands": [
+  {
+    "id": "germany-1890-1945",
+    "name": "Germany, 1890-1945: Democracy and Dictatorship",
+    "topics": [
+      { "id": "H1", "name": "Kaiser Wilhelm and Germany", "description": "Kaiser Wilhelm II, the growth of constitutional government, the influence of Prussia, the army and the Navy Laws", "tier": "both" },
+      { "id": "H2", "name": "The Weimar Republic", "description": "The establishment of the Weimar Republic, the Constitution, challenges from left and right, the Spartacist uprising and Kapp Putsch", "tier": "both" },
+      { "id": "H3", "name": "Hyperinflation and the Ruhr Crisis", "description": "The occupation of the Ruhr, hyperinflation of 1923, impacts on different social groups, and the recovery under Stresemann", "tier": "both" },
+      { "id": "H4", "name": "The Golden Years: Stresemann", "description": "Stresemann's policies: currency reform, Dawes Plan, Locarno Pact, League of Nations entry, cultural developments in Weimar", "tier": "both" },
+      { "id": "H5", "name": "The Rise of the Nazis", "description": "The impact of the Wall Street Crash, the 1930 and 1932 elections, the role of Hitler, the SA, propaganda and the appointment as Chancellor", "tier": "both" },
+      { "id": "H6", "name": "Nazi Consolidation of Power", "description": "Reichstag Fire, Enabling Act, Night of the Long Knives, death of Hindenburg, creation of the Fuhrer state", "tier": "both" },
+      { "id": "H7", "name": "Nazi Economic Policies", "description": "Reducing unemployment, the Reich Labour Service, the Strength Through Joy programme, rearmament, the impact on workers", "tier": "both" },
+      { "id": "H8", "name": "Nazi Racial Policy and the Holocaust", "description": "Persecution of minorities, the Nuremberg Laws, Kristallnacht, ghettos, the Final Solution, and opposition to Nazi rule", "tier": "both" },
+      { "id": "H9", "name": "Youth and Education in Nazi Germany", "description": "Hitler Youth, the League of German Maidens, control of education, the Nazi curriculum, and resistance from the Edelweiss Pirates", "tier": "both" },
+      { "id": "H10", "name": "Women and the Family in Nazi Germany", "description": "Nazi views on women's role, the Three Ks, marriage loans, Mother's Cross, and the impact of war on women's employment", "tier": "both" }
+    ]
+  },
+  {
+    "id": "inter-war-years",
+    "name": "Conflict and Tension: The Inter-War Years, 1918-1939",
+    "topics": [
+      { "id": "H11", "name": "The Treaty of Versailles", "description": "The Big Three, terms of the treaty (territorial, military, financial, war guilt), German reactions, and the establishment of the League of Nations", "tier": "both" },
+      { "id": "H12", "name": "The League of Nations", "description": "The Covenant, membership problems, the Assembly and Council, the Permanent Court, successes in the 1920s (Aaland Islands, Greece-Bulgaria)", "tier": "both" },
+      { "id": "H13", "name": "The League in the 1930s", "description": "Manchuria (1931), Abyssinia (1935-36), the impact of the Great Depression, disarmament failures, and the collapse of the League", "tier": "both" },
+      { "id": "H14", "name": "Hitler's Foreign Policy", "description": "Rearmament, the Saar, remilitarisation of the Rhineland, Anschluss with Austria, the Sudetenland and the Munich Agreement", "tier": "both" },
+      { "id": "H15", "name": "Appeasement", "description": "The reasons for appeasement, Chamberlain's policy, the Munich Agreement, the occupation of Czechoslovakia, and the end of appeasement", "tier": "both" },
+      { "id": "H16", "name": "The Road to War", "description": "The Nazi-Soviet Pact, the invasion of Poland, the declaration of war, and the collapse of international peace by 1939", "tier": "both" }
+    ]
+  },
+  {
+    "id": "health-and-people",
+    "name": "Britain: Health and the People, c1000 to the Present Day",
+    "topics": [
+      { "id": "H17", "name": "Medicine in Medieval England", "description": "Religious and rational approaches, Hippocrates and Galen, the Church and medicine, hospitals, the Black Death and responses", "tier": "both" },
+      { "id": "H18", "name": "The Renaissance and Medicine", "description": "Vesalius, Paré, Harvey, the printing press, the Royal Society, and the Great Plague of 1665", "tier": "both" },
+      { "id": "H19", "name": "The Fight Against Disease", "description": "Jenner and vaccination, Pasteur and germ theory, Koch, Lister and antiseptics, the development of pharmaceuticals and penicillin", "tier": "both" },
+      { "id": "H20", "name": "Surgery and Anaesthetics", "description": "The problem of pain: Simpson and chloroform, the problem of infection: Lister and carbolic acid, the problem of bleeding: blood transfusions", "tier": "both" },
+      { "id": "H21", "name": "Public Health in the 19th Century", "description": "Cholera epidemics, Edwin Chadwick, the 1848 and 1875 Public Health Acts, John Snow and the Broad Street pump", "tier": "both" },
+      { "id": "H22", "name": "The Liberal Reforms", "description": "Booth and Rowntree's surveys, the 1906 Liberal government, old age pensions, National Insurance, free school meals, the People's Budget", "tier": "both" },
+      { "id": "H23", "name": "The NHS and the Welfare State", "description": "The Beveridge Report, the establishment of the NHS in 1948, Aneurin Bevan, opposition from doctors, the impact of the welfare state", "tier": "both" },
+      { "id": "H24", "name": "Modern Medicine and Health", "description": "The development of the NHS, advances in technology (X-rays, scanners), transplant surgery, antibiotics crisis, and 21st century challenges", "tier": "both" },
+      { "id": "H25", "name": "Factors in Medical Progress", "description": "The role of individuals, war, government, chance, communication, and science and technology in driving medical change across the period", "tier": "both" }
+    ]
+  },
+  {
+    "id": "elizabethan-england",
+    "name": "Elizabethan England, c1568-1603",
+    "topics": [
+      { "id": "H26", "name": "Elizabeth's Background and Accession", "description": "Elizabeth's early life, the religious settlement, challenges to the settlement, the role of the Church of England", "tier": "both" },
+      { "id": "H27", "name": "Challenges at Home and Abroad", "description": "The Revolt of the Northern Earls, the Ridolfi, Throckmorton and Babington Plots, Mary Queen of Scots, and the execution 1587", "tier": "both" },
+      { "id": "H28", "name": "The Spanish Armada", "description": "Causes of conflict with Spain, the Netherlands, Drake's raids, the Armada of 1588, reasons for English victory, and consequences", "tier": "both" },
+      { "id": "H29", "name": "Education and the Elizabethan World", "description": "Education for boys and girls, the grammar schools, universities, the role of the theatre, the puritan challenge to entertainment", "tier": "both" },
+      { "id": "H30", "name": "The Problem of the Poor", "description": "Causes of poverty, attitudes to the poor, the 1572 and 1601 Poor Laws, vagabonds and vagrancy, the treatment of the deserving and undeserving poor", "tier": "both" },
+      { "id": "H31", "name": "Exploration and the New World", "description": "Drake's circumnavigation, Raleigh and Virginia, the reasons for exploration, the impact on indigenous peoples, and mercantilism", "tier": "both" },
+      { "id": "H32", "name": "The Historic Environment", "description": "A specified site for study each year — may include country houses, theatres, or other Elizabethan buildings, their purpose and significance", "tier": "both" }
+    ]
+  }
+]
+}
