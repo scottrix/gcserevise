@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boolean Logic - GCSE Computer Science</title>
+<meta name="description" content="Learn about logic gates, truth tables, Boolean expressions and combining gates into circuits. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Computer Systems</span> <span>›</span>
+<span>Boolean Logic</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS24: Boolean Logic</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Computer Systems</span>
+</div>
+<p class="topic-desc">Logic gates (NOT, AND, OR, XOR), truth tables, Boolean expressions, and combining gates into logic circuits.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is Boolean Logic?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Boolean logic is a form of algebra where all values are either TRUE (1) or FALSE (0). It is named after mathematician George Boole and forms the basis of how computers make decisions.
+</div>
+
+<p>Computers process all data as binary (0s and 1s). Boolean logic allows computers to make decisions based on these binary values. Logic gates are the physical electronic circuits that implement Boolean logic operations. Each gate takes one or more binary inputs and produces a single binary output.</p>
+
+<ul>
+<li>Boolean values: TRUE = 1, FALSE = 0</li>
+<li>Logic gates are hardware implementations of Boolean operations</li>
+<li>Gates are the building blocks of computer circuits</li>
+<li>Multiple gates can be combined to create complex logic circuits</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🚫 NOT Gate</h2>
+
+<div class="key-point">
+<strong>NOT gate:</strong> Takes a single input and produces the opposite (inverted) output. If input is 1, output is 0. If input is 0, output is 1. Also called an inverter.
+</div>
+
+<p><strong>Boolean expression:</strong> Q = <span style="text-decoration:overline">A</span> (spoken as "NOT A" or "A bar")</p>
+
+<table class="comparison-table">
+<tr>
+<th>Input A</th>
+<th>Output Q</th>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>If A = 1 (TRUE), then NOT A = 0 (FALSE). If a sensor detects that a door is open (1), the NOT gate would output that the door is NOT closed (0 is false - it's not closed).</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔗 AND Gate</h2>
+
+<div class="key-point">
+<strong>AND gate:</strong> Takes two inputs and outputs 1 (TRUE) only if BOTH inputs are 1. If either or both inputs are 0, the output is 0.
+</div>
+
+<p><strong>Boolean expression:</strong> Q = A . B (spoken as "A AND B" - the dot represents AND)</p>
+
+<table class="comparison-table">
+<tr>
+<th>Input A</th>
+<th>Input B</th>
+<th>Output Q</th>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A car engine should only start if the key is turned (A = 1) AND the brake is pressed (B = 1). If either condition is not met, the engine will not start (Q = 0).</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔀 OR Gate</h2>
+
+<div class="key-point">
+<strong>OR gate:</strong> Takes two inputs and outputs 1 (TRUE) if EITHER or BOTH inputs are 1. The output is 0 only when both inputs are 0.
+</div>
+
+<p><strong>Boolean expression:</strong> Q = A + B (spoken as "A OR B" - the plus represents OR)</p>
+
+<table class="comparison-table">
+<tr>
+<th>Input A</th>
+<th>Input B</th>
+<th>Output Q</th>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>An alarm should sound if the front door is open (A = 1) OR the back door is open (B = 1). If either door is open, the alarm triggers.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>✖️ XOR Gate (Exclusive OR)</h2>
+
+<div class="key-point">
+<strong>XOR gate:</strong> Takes two inputs and outputs 1 (TRUE) if the inputs are DIFFERENT. If both inputs are the same (both 0 or both 1), the output is 0. Think of it as "one or the other, but not both."
+</div>
+
+<p><strong>Boolean expression:</strong> Q = A &oplus; B (spoken as "A XOR B")</p>
+
+<table class="comparison-table">
+<tr>
+<th>Input A</th>
+<th>Input B</th>
+<th>Output Q</th>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A light with two switches (like a staircase light) uses XOR logic. When the switches are in different positions, the light is on. When both are in the same position, the light is off.</p>
+</div>
+
+<div class="formula-box">
+<strong>Key Difference - OR vs XOR:</strong><br>
+OR outputs 1 when A=1, B=1 (both true)<br>
+XOR outputs 0 when A=1, B=1 (both true)<br>
+XOR is "exclusive" - it excludes the case where both are true
+</div>
+</section>
+
+<section class="section">
+<h2>🔧 Combining Gates into Circuits</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Logic gates can be combined (cascaded) to create more complex circuits. The output of one gate can become the input of another. Circuits with up to 3 inputs may appear in exams.
+</div>
+
+<h3>Method for Solving Logic Circuits</h3>
+<ol>
+<li>Identify each gate in the circuit and label its output</li>
+<li>Work through the circuit from left to right (inputs to outputs)</li>
+<li>For each gate, determine its output based on its inputs</li>
+<li>Use the intermediate outputs as inputs for the next gate</li>
+<li>Build the complete truth table column by column</li>
+</ol>
+
+<div class="example">
+<div class="example-title">Example: Circuit with expression Q = NOT (A AND B)</div>
+<p>This circuit has an AND gate followed by a NOT gate (also called a NAND gate).</p>
+<table class="comparison-table">
+<tr>
+<th>A</th>
+<th>B</th>
+<th>A . B</th>
+<th>NOT (A . B)</th>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</table>
+</div>
+
+<div class="example">
+<div class="example-title">Example: 3-Input Circuit Q = (A OR B) AND C</div>
+<table class="comparison-table">
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>A + B</th>
+<th>(A + B) . C</th>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</table>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Boolean Expressions</h2>
+
+<div class="formula-box">
+<strong>Boolean Notation:</strong><br>
+AND = dot ( . ): A . B means "A AND B"<br>
+OR = plus ( + ): A + B means "A OR B"<br>
+NOT = overbar ( &#x0305; ): <span style="text-decoration:overline">A</span> means "NOT A"<br>
+XOR = &oplus; symbol: A &oplus; B means "A XOR B"<br><br>
+<strong>Order of operations:</strong> NOT first, then AND, then OR<br>
+Brackets override normal order of operations
+</div>
+
+<div class="example">
+<div class="example-title">Drawing Circuits from Expressions</div>
+<p><strong>Expression: Q = <span style="text-decoration:overline">A</span> . B</strong></p>
+<p>This means: NOT A is ANDed with B. The circuit has: A goes into a NOT gate, the output of NOT A goes into an AND gate along with B.</p>
+
+<p><strong>Expression: Q = (A + B) . <span style="text-decoration:overline">C</span></strong></p>
+<p>This means: (A OR B) is ANDed with NOT C. The circuit has: A and B go into an OR gate, C goes into a NOT gate, then both outputs go into an AND gate.</p>
+
+<p><strong>Expression: Q = A . B + C</strong></p>
+<p>This means: (A AND B) OR C. The circuit has: A and B go into an AND gate, the result is ORed with C. (AND is evaluated before OR.)</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ Gate Summary Comparison</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Gate</th>
+<th>Inputs</th>
+<th>Output is 1 when...</th>
+<th>Expression</th>
+</tr>
+<tr>
+<td>NOT</td>
+<td>1</td>
+<td>Input is 0</td>
+<td><span style="text-decoration:overline">A</span></td>
+</tr>
+<tr>
+<td>AND</td>
+<td>2</td>
+<td>Both inputs are 1</td>
+<td>A . B</td>
+</tr>
+<tr>
+<td>OR</td>
+<td>2</td>
+<td>Either or both inputs are 1</td>
+<td>A + B</td>
+</tr>
+<tr>
+<td>XOR</td>
+<td>2</td>
+<td>Inputs are different</td>
+<td>A &oplus; B</td>
+</tr>
+<tr>
+<td>NAND</td>
+<td>2</td>
+<td>NOT both inputs are 1</td>
+<td><span style="text-decoration:overline">A . B</span></td>
+</tr>
+<tr>
+<td>NOR</td>
+<td>2</td>
+<td>Both inputs are 0</td>
+<td><span style="text-decoration:overline">A + B</span></td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Confusing OR and XOR</td>
+<td>OR gives 1 when both are 1; XOR gives 0</td>
+<td>Remember: XOR = "exclusive" = one OR the other, not both</td>
+</tr>
+<tr>
+<td>Wrong order of operations</td>
+<td>NOT, AND, OR - not left to right</td>
+<td>Apply NOT first, then AND, then OR; use brackets to clarify</td>
+</tr>
+<tr>
+<td>Missing rows in truth tables</td>
+<td>2 inputs = 4 rows; 3 inputs = 8 rows</td>
+<td>Count in binary: 00, 01, 10, 11 for 2 inputs</td>
+</tr>
+<tr>
+<td>Forgetting intermediate columns</td>
+<td>Working out the final column in your head leads to errors</td>
+<td>Always show intermediate steps as separate columns</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Draw the truth table for Q = A . <span style="text-decoration:overline">B</span></p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A circuit has the expression Q = (A OR B) AND NOT C. Draw the full truth table.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> What is the difference between OR and XOR? Give a real-world example of each.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write the Boolean expression for a circuit where A and B go into an OR gate, and the output is fed into a NOT gate.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> How many rows does a truth table need for a circuit with 3 inputs?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Q = A . NOT B: A=0 B=0 Q=0; A=0 B=1 Q=0; A=1 B=0 Q=1; A=1 B=1 Q=0. Output is 1 only when A=1 AND B=0.</li>
+<li>Three inputs = 8 rows. Q=1 only when (A=1 OR B=1) AND C=0. Rows where Q=1: (0,1,0), (1,0,0), (1,1,0). All other rows Q=0.</li>
+<li>OR outputs 1 if either or both inputs are 1. XOR outputs 1 only if the inputs are different. OR example: alarm if front OR back door is open. XOR example: staircase light controlled by two switches - on when switches differ.</li>
+<li>Q = <span style="text-decoration:overline">A + B</span> (this is the NOR gate function)</li>
+<li>2<sup>3</sup> = 8 rows, covering all combinations from 000 to 111.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always show intermediate columns in truth tables - marks are awarded for working</li>
+<li>Learn the Boolean notation: dot = AND, plus = OR, overbar = NOT</li>
+<li>When drawing circuits from expressions, work from the inside out (brackets first)</li>
+<li>For 3-input truth tables, count in binary: 000, 001, 010, 011, 100, 101, 110, 111</li>
+<li>Remember order of operations: NOT, then AND, then OR</li>
+<li>Practise converting between expressions, circuits, and truth tables in both directions</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../computer-systems/CS23-hardware-software.html" class="nav-prev">← Previous Topic: Hardware & Software</a>
+<a href="../computer-systems/CS25-software-classification.html" class="nav-next">Next Topic: Software Classification →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

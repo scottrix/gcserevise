@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arithmetic and Relational Operations - GCSE Computer Science</title>
+<meta name="description" content="Learn about arithmetic operators, DIV, MOD, relational operators and order of operations for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Arithmetic &amp; Relational Operations</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS8: Arithmetic and Relational Operations</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Master arithmetic operators including DIV and MOD, relational operators for comparison, and the order of operations in pseudo-code.</p>
+</article>
+
+<section class="section">
+<h2>➕ Arithmetic Operators</h2>
+
+<div class="key-point">
+<strong>Arithmetic operators</strong> perform mathematical calculations on numeric values. At GCSE, you need to know seven operators including DIV and MOD.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Operator</th>
+<th>Symbol</th>
+<th>Description</th>
+<th>Example</th>
+<th>Result</th>
+</tr>
+<tr>
+<td>Addition</td>
+<td>+</td>
+<td>Add two values</td>
+<td>5 + 3</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Subtraction</td>
+<td>-</td>
+<td>Subtract second from first</td>
+<td>10 - 4</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Multiplication</td>
+<td>*</td>
+<td>Multiply two values</td>
+<td>6 * 7</td>
+<td>42</td>
+</tr>
+<tr>
+<td>Real division</td>
+<td>/</td>
+<td>Divide, returns decimal</td>
+<td>7 / 2</td>
+<td>3.5</td>
+</tr>
+<tr>
+<td>Integer division</td>
+<td>DIV</td>
+<td>Divide, returns whole number only</td>
+<td>7 DIV 2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Modulo (remainder)</td>
+<td>MOD</td>
+<td>Returns the remainder after division</td>
+<td>7 MOD 2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Exponent</td>
+<td>^</td>
+<td>Raises to a power</td>
+<td>2 ^ 3</td>
+<td>8</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔢 DIV and MOD in Detail</h2>
+
+<div class="key-point">
+<strong>DIV</strong> gives the whole number result of division (quotient). <strong>MOD</strong> gives the remainder. Together they describe any division completely: for a / b, the quotient is a DIV b and the remainder is a MOD b.
+</div>
+
+<div class="formula-box">
+<strong>The Division Relationship:</strong><br>
+dividend = divisor * quotient + remainder<br>
+a = b * (a DIV b) + (a MOD b)<br><br>
+Example: 17 / 5<br>
+17 DIV 5 = 3 (the quotient)<br>
+17 MOD 5 = 2 (the remainder)<br>
+Check: 5 * 3 + 2 = 17 ✓
+</div>
+
+<div class="example">
+<div class="example-title">DIV and MOD Worked Examples</div>
+<table class="comparison-table">
+<tr><th>Expression</th><th>Result</th><th>Explanation</th></tr>
+<tr><td>10 DIV 3</td><td>3</td><td>10 / 3 = 3.33..., whole number part = 3</td></tr>
+<tr><td>10 MOD 3</td><td>1</td><td>Remainder when 10 is divided by 3</td></tr>
+<tr><td>20 DIV 4</td><td>5</td><td>20 / 4 = 5 exactly, no remainder</td></tr>
+<tr><td>20 MOD 4</td><td>0</td><td>No remainder</td></tr>
+<tr><td>15 DIV 4</td><td>3</td><td>15 / 4 = 3.75, whole number part = 3</td></tr>
+<tr><td>15 MOD 4</td><td>3</td><td>Remainder = 15 - (4 * 3) = 15 - 12 = 3</td></tr>
+</table>
+</div>
+
+<h3>Common Uses of MOD</h3>
+<ul>
+<li><strong>Checking even/odd:</strong> IF number MOD 2 = 0 THEN it is even</li>
+<li><strong>Finding last digit:</strong> number MOD 10 gives the last digit of any integer</li>
+<li><strong>Time calculations:</strong> minutes MOD 60 gives remaining minutes</li>
+<li><strong>Wrapping values:</strong> index MOD arrayLength keeps index in range</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Using MOD to Check Even/Odd</div>
+<pre>INPUT number
+IF number MOD 2 = 0 THEN
+    OUTPUT number, " is even"
+ELSE
+    OUTPUT number, " is odd"
+ENDIF</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ Relational Operators</h2>
+
+<div class="key-point">
+<strong>Relational operators</strong> compare two values and return a Boolean result (TRUE or FALSE). They are used in IF conditions and WHILE loop conditions.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Operator</th>
+<th>Symbol</th>
+<th>Meaning</th>
+<th>Example</th>
+<th>Result</th>
+</tr>
+<tr>
+<td>Equal to</td>
+<td>=</td>
+<td>Both values are the same</td>
+<td>5 = 5</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>Not equal to</td>
+<td>&lt;&gt;</td>
+<td>Values are different</td>
+<td>5 &lt;&gt; 3</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>Less than</td>
+<td>&lt;</td>
+<td>First value is smaller</td>
+<td>3 &lt; 5</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>Greater than</td>
+<td>&gt;</td>
+<td>First value is larger</td>
+<td>7 &gt; 4</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>Less than or equal to</td>
+<td>&lt;=</td>
+<td>First value is smaller or equal</td>
+<td>5 &lt;= 5</td>
+<td>TRUE</td>
+</tr>
+<tr>
+<td>Greater than or equal to</td>
+<td>&gt;=</td>
+<td>First value is larger or equal</td>
+<td>6 &gt;= 3</td>
+<td>TRUE</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Exam Warning:</strong> In pseudo-code, = means "equal to" (comparison), NOT assignment. Assignment uses the left-arrow (&larr;). This is different from languages like Python where = is assignment and == is comparison.
+</div>
+
+<div class="example">
+<div class="example-title">Relational Operators in Conditions</div>
+<pre>IF age >= 18 THEN
+    OUTPUT "Adult"
+ENDIF
+
+WHILE attempts &lt; 3
+    INPUT "Try again: ", guess
+    attempts &larr; attempts + 1
+ENDWHILE
+
+IF password = "secret" THEN
+    OUTPUT "Access granted"
+ENDIF</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>📐 Order of Operations</h2>
+
+<div class="key-point">
+<strong>BODMAS/BIAS</strong> applies in programming just as in maths. Operations are evaluated in a specific order: Brackets first, then exponents, then division/multiplication, then addition/subtraction.
+</div>
+
+<div class="formula-box">
+<strong>Operator Precedence (highest to lowest):</strong><br>
+1. Brackets () - always evaluated first<br>
+2. Exponentiation ^<br>
+3. Division /, DIV, MOD and Multiplication *<br>
+4. Addition + and Subtraction -<br>
+5. Relational operators (=, &lt;&gt;, &lt;, &gt;, &lt;=, &gt;=)<br>
+6. Boolean operators (NOT, AND, OR)<br><br>
+When operators have the same precedence, evaluate left to right.
+</div>
+
+<div class="example">
+<div class="example-title">Order of Operations Examples</div>
+<pre>3 + 4 * 2       = 3 + 8 = 11    (multiplication before addition)
+(3 + 4) * 2     = 7 * 2 = 14    (brackets first)
+10 - 3 - 2      = 7 - 2 = 5     (left to right)
+2 ^ 3 ^ 2       = 8 ^ 2 = 64    (left to right for exponents)
+10 DIV 3 + 1    = 3 + 1 = 4     (DIV before addition)
+10 + 3 MOD 2    = 10 + 1 = 11   (MOD before addition)</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Complex Expression</div>
+<pre>result &larr; 2 + 3 * 4 ^ 2 - 1</pre>
+<p>Step 1: 4 ^ 2 = 16</p>
+<p>Step 2: 3 * 16 = 48</p>
+<p>Step 3: 2 + 48 = 50</p>
+<p>Step 4: 50 - 1 = 49</p>
+<p><strong>result = 49</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Confusing / and DIV</td>
+<td>/ returns a decimal, DIV returns an integer</td>
+<td>Use / for real results, DIV for whole number results</td>
+</tr>
+<tr>
+<td>Using = for assignment</td>
+<td>In pseudo-code = means "equal to"</td>
+<td>Use &larr; for assignment</td>
+</tr>
+<tr>
+<td>Forgetting brackets</td>
+<td>Average of 3+4+5 is not 3+4+5/3</td>
+<td>Use (3+4+5)/3 = 4, not 3+4+5/3 = 8.67</td>
+</tr>
+<tr>
+<td>MOD with negative numbers</td>
+<td>Different languages handle this differently</td>
+<td>At GCSE, assume positive numbers only</td>
+</tr>
+<tr>
+<td>Wrong order of operations</td>
+<td>2+3*4 = 14, not 20</td>
+<td>Use brackets to make your intention clear</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Evaluate: 17 DIV 5 and 17 MOD 5</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Write pseudo-code that checks if a number is divisible by 3.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Evaluate step by step: 3 + 4 * 2 - 1</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write pseudo-code that takes a number of minutes and outputs the hours and remaining minutes.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> What is the result of (10 + 5) / 3? What about 10 + 5 / 3?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>17 DIV 5 = 3 (17 / 5 = 3.4, whole number part = 3). 17 MOD 5 = 2 (remainder = 17 - 5*3 = 2).</li>
+<li>
+<pre>INPUT number
+IF number MOD 3 = 0 THEN
+    OUTPUT number, " is divisible by 3"
+ELSE
+    OUTPUT number, " is not divisible by 3"
+ENDIF</pre>
+</li>
+<li>Step 1: 4 * 2 = 8. Step 2: 3 + 8 = 11. Step 3: 11 - 1 = 10.</li>
+<li>
+<pre>INPUT totalMinutes
+hours &larr; totalMinutes DIV 60
+minutes &larr; totalMinutes MOD 60
+OUTPUT hours, " hours and ", minutes, " minutes"</pre>
+</li>
+<li>(10 + 5) / 3 = 15 / 3 = 5.0. 10 + 5 / 3 = 10 + 1.67 = 11.67. Brackets change the result!</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>DIV gives the whole number part of division; MOD gives the remainder</li>
+<li>Use MOD 2 = 0 to check for even numbers</li>
+<li>Use MOD 10 to get the last digit of a number</li>
+<li>Always use brackets to make order of operations clear</li>
+<li>In pseudo-code, = means "is equal to" (comparison), not assignment</li>
+<li>Practise DIV and MOD calculations - they appear frequently in exams</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS7-programming-constructs.html" class="nav-prev">← Previous: Programming Constructs</a>
+<a href="CS9-boolean-operations.html" class="nav-next">Next Topic: Boolean Operations →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Number Bases - GCSE Computer Science</title>
+<meta name="description" content="Learn about decimal, binary, hexadecimal number bases and why computers use them for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Data Representation</span> <span>›</span>
+<span>Number Bases</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS15: Number Bases</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Understanding decimal (base 10), binary (base 2), and hexadecimal (base 16) number systems, and why computers use binary and humans use hex.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is a Number Base?</h2>
+
+<div class="key-point">
+<strong>A number base (or radix)</strong> is the number of unique digits used to represent numbers in a positional numeral system. The position of each digit determines its value - this is called positional notation.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Number Base</th>
+<th>Name</th>
+<th>Digits Used</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>Base 10</td>
+<td>Decimal / Denary</td>
+<td>0, 1, 2, 3, 4, 5, 6, 7, 8, 9</td>
+<td>255</td>
+</tr>
+<tr>
+<td>Base 2</td>
+<td>Binary</td>
+<td>0, 1</td>
+<td>11111111</td>
+</tr>
+<tr>
+<td>Base 16</td>
+<td>Hexadecimal</td>
+<td>0-9, A, B, C, D, E, F</td>
+<td>FF</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔟 Decimal (Base 10)</h2>
+
+<div class="key-point">
+<strong>Decimal</strong> is the number system we use every day. It has 10 digits (0-9). Each position represents a power of 10: units, tens, hundreds, thousands, etc.
+</div>
+
+<div class="formula-box">
+<strong>Decimal Place Values:</strong><br>
+Position:    4    3    2    1    0<br>
+Multiplier: 10000 1000 100  10   1<br><br>
+Example: 3754 = 3x1000 + 7x100 + 5x10 + 4x1<br>
+       = 3000 + 700 + 50 + 4 = 3754
+</div>
+
+<div class="key-point">
+<strong>Why do humans use base 10?</strong> Most likely because we have 10 fingers! There is nothing mathematically special about base 10 - it is just what we are used to.
+</div>
+</section>
+
+<section class="section">
+<h2>01️⃣ Binary (Base 2)</h2>
+
+<div class="key-point">
+<strong>Binary</strong> uses only two digits: 0 and 1. Each position represents a power of 2. Binary is the fundamental language of computers because electronic circuits have two states: on (1) and off (0).
+</div>
+
+<div class="formula-box">
+<strong>Binary Place Values (8-bit):</strong><br>
+Position:     7    6    5    4    3    2    1    0<br>
+Multiplier:  128   64   32   16    8    4    2    1<br><br>
+Example: 10110100<br>
+= 1x128 + 0x64 + 1x32 + 1x16 + 0x8 + 1x4 + 0x2 + 0x1<br>
+= 128 + 32 + 16 + 4 = 180
+</div>
+
+<div class="example">
+<div class="example-title">Binary Values</div>
+<table class="comparison-table">
+<tr><th>Binary</th><th>Decimal</th></tr>
+<tr><td>00000000</td><td>0</td></tr>
+<tr><td>00000001</td><td>1</td></tr>
+<tr><td>00001010</td><td>10</td></tr>
+<tr><td>01100100</td><td>100</td></tr>
+<tr><td>11111111</td><td>255</td></tr>
+</table>
+<p>An 8-bit binary number can represent values from 0 to 255 (256 different values).</p>
+</div>
+</section>
+
+<section class="section">
+<h2>💻 Why Computers Use Binary</h2>
+
+<div class="key-point">
+<strong>Computers use binary</strong> because their hardware is built from billions of transistors, which are electronic switches with exactly two states: ON (electricity flowing) and OFF (no electricity flowing). These two states map perfectly to 1 and 0.
+</div>
+
+<h3>Reasons for Binary</h3>
+<ul>
+<li><strong>Transistors have two states:</strong> on or off - this naturally maps to 1 and 0</li>
+<li><strong>Reliability:</strong> With only two states, it is easy to distinguish between them even with electrical noise</li>
+<li><strong>Simplicity:</strong> Logic gates (AND, OR, NOT) work naturally with binary inputs</li>
+<li><strong>Cost effective:</strong> Two-state circuits are cheaper and simpler to manufacture</li>
+</ul>
+
+<div class="key-point">
+<strong>Key point:</strong> If we tried to use more states (e.g. base 10 with 10 voltage levels), it would be much harder to distinguish between similar values, especially with electrical interference. Binary's two clear states make it incredibly reliable.
+</div>
+</section>
+
+<section class="section">
+<h2>🔟🔢 Hexadecimal (Base 16)</h2>
+
+<div class="key-point">
+<strong>Hexadecimal</strong> uses 16 digits: 0-9 and A-F (where A=10, B=11, C=12, D=13, E=14, F=15). Each position represents a power of 16. Hex is used as a shorthand for binary because it is much easier for humans to read.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Hex Digit</th>
+<th>Decimal Value</th>
+<th>Binary (4 bits)</th>
+</tr>
+<tr><td>0</td><td>0</td><td>0000</td></tr>
+<tr><td>1</td><td>1</td><td>0001</td></tr>
+<tr><td>2</td><td>2</td><td>0010</td></tr>
+<tr><td>3</td><td>3</td><td>0011</td></tr>
+<tr><td>4</td><td>4</td><td>0100</td></tr>
+<tr><td>5</td><td>5</td><td>0101</td></tr>
+<tr><td>6</td><td>6</td><td>0110</td></tr>
+<tr><td>7</td><td>7</td><td>0111</td></tr>
+<tr><td>8</td><td>8</td><td>1000</td></tr>
+<tr><td>9</td><td>9</td><td>1001</td></tr>
+<tr><td>A</td><td>10</td><td>1010</td></tr>
+<tr><td>B</td><td>11</td><td>1011</td></tr>
+<tr><td>C</td><td>12</td><td>1100</td></tr>
+<tr><td>D</td><td>13</td><td>1101</td></tr>
+<tr><td>E</td><td>14</td><td>1110</td></tr>
+<tr><td>F</td><td>15</td><td>1111</td></tr>
+</table>
+
+<div class="formula-box">
+<strong>Hex Place Values:</strong><br>
+Position:     2    1    0<br>
+Multiplier:  256   16    1<br><br>
+Example: 3C4<br>
+= 3 x 256 + 12 x 16 + 4 x 1<br>
+= 768 + 192 + 4 = 964
+</div>
+</section>
+
+<section class="section">
+<h2>🤔 Why Use Hexadecimal?</h2>
+
+<div class="key-point">
+<strong>Hex is NOT used by the computer</strong> - the computer always uses binary internally. Hex is used by <strong>humans</strong> as a convenient shorthand for binary values. One hex digit represents exactly 4 binary digits (bits).
+</div>
+
+<div class="example">
+<div class="example-title">Hex as Binary Shorthand</div>
+<p><strong>Binary:</strong> 1101001111010110 (16 digits - hard to read!)</p>
+<p><strong>Hex:</strong> D3D6 (4 digits - much easier!)</p>
+<p>Each hex digit maps to exactly 4 bits: D=1101, 3=0011, D=1101, 6=0110</p>
+</div>
+
+<h3>Where Hex is Used</h3>
+<ul>
+<li><strong>Colour codes:</strong> #FF0000 = red (RR GG BB format)</li>
+<li><strong>Memory addresses:</strong> 0x7FFF (shorter than 0111111111111111)</li>
+<li><strong>MAC addresses:</strong> 4A:3B:FC:12:D5:77</li>
+<li><strong>Error codes:</strong> 0x80070005 (easier to identify than the binary equivalent)</li>
+<li><strong>Machine code:</strong> Programming at a low level uses hex for readability</li>
+</ul>
+
+<table class="comparison-table">
+<tr>
+<th>Representation</th>
+<th>Value</th>
+<th>Length</th>
+<th>Readability</th>
+</tr>
+<tr>
+<td>Binary</td>
+<td>1111111111111111</td>
+<td>16 digits</td>
+<td>Hard to read</td>
+</tr>
+<tr>
+<td>Decimal</td><td>65535</td>
+<td>5 digits</td>
+<td>Can't see bit patterns</td>
+</tr>
+<tr>
+<td>Hex</td>
+<td>FFFF</td>
+<td>4 digits</td>
+<td>Short and bit-aligned</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying computers use hex</td>
+<td>Computers only use binary; hex is for humans</td>
+<td>Computers use binary; hex is a human-readable shorthand</td>
+</tr>
+<tr>
+<td>Counting binary positions from right as 1</td>
+<td>Positions start at 0, not 1</td>
+<td>Rightmost bit is position 0 (worth 1), next is position 1 (worth 2)</td>
+</tr>
+<tr>
+<td>Forgetting hex digits go up to F</td>
+<td>A=10 through F=15, not just 0-9</td>
+<td>Memorise A=10, B=11, C=12, D=13, E=14, F=15</td>
+</tr>
+<tr>
+<td>Confusing digit count with value</td>
+<td>8-bit binary is not the same as decimal 8</td>
+<td>8 bits can store 0-255, which is 256 different values</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> What is the decimal value of binary 10110?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What is the decimal value of hex 2F?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Why do computers use binary instead of decimal?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Why is hexadecimal used instead of binary when humans read computer data?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> What decimal number does the hex digit C represent?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>1x16 + 0x8 + 1x4 + 1x2 + 0x1 = 16 + 4 + 2 = 22</li>
+<li>2 x 16 + 15 x 1 = 32 + 15 = 47</li>
+<li>Computers use binary because their hardware consists of transistors that have only two states: on (1) and off (0). This makes binary the natural representation for electronic circuits. Using only two states also makes it reliable and easy to distinguish between values even with electrical noise.</li>
+<li>Hexadecimal is used because one hex digit represents exactly 4 binary bits, making it a compact and easy-to-read shorthand for binary. A 16-digit binary number like 1111111111111111 becomes just FFFF in hex. It is much easier for humans to read and less error-prone than long binary strings.</li>
+<li>C = 12 in decimal.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Remember: computers ONLY use binary internally - hex is for human convenience</li>
+<li>Binary place values double each position: 1, 2, 4, 8, 16, 32, 64, 128</li>
+<li>Hex place values multiply by 16: 1, 16, 256, 4096</li>
+<li>Each hex digit = exactly 4 binary bits</li>
+<li>Know the hex digits: A=10, B=11, C=12, D=13, E=14, F=15</li>
+<li>When explaining why binary: mention transistors, on/off states, reliability</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../programming/CS14-random-number-generation.html" class="nav-prev">← Previous: Random Number Generation</a>
+<a href="CS16-converting-number-bases.html" class="nav-next">Next Topic: Converting Number Bases →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

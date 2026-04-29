@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detecting & Preventing Cyber Threats - GCSE Computer Science</title>
+<meta name="description" content="Learn about biometrics, password systems, CAPTCHA, penetration testing, anti-malware and defence in depth. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Cyber Security</span> <span>›</span>
+<span>Detecting & Preventing Cyber Threats</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS34: Detecting & Preventing Cyber Threats</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Cyber Security</span>
+</div>
+<p class="topic-desc">Methods to detect and prevent cyber security threats including biometrics, password policies, CAPTCHA, penetration testing, anti-malware, and defence in depth.</p>
+</article>
+
+<section class="section">
+<h2>📋 Overview of Detection and Prevention</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Effective cyber security requires both detection (identifying threats) and prevention (stopping threats). No single method is sufficient - multiple layers of defence are needed.
+</div>
+
+<p>The best approach to cyber security combines technical measures (software and hardware), physical measures (controlling access to equipment), and procedural measures (policies and training for users). This multi-layered approach is called defence in depth.</p>
+
+<ul>
+<li>Technical measures: firewalls, encryption, anti-malware, access controls</li>
+<li>Physical measures: locked doors, CCTV, security guards</li>
+<li>Procedural measures: security policies, staff training, incident response plans</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔐 Biometric Measures</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Biometric security uses unique biological characteristics to identify and authenticate users. Biometrics are very difficult to forge or steal.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Biometric Type</th>
+<th>How It Works</th>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+<tr>
+<td>Fingerprint</td>
+<td>Scans unique ridge patterns on fingertips</td>
+<td>Quick, reliable, widely available</td>
+<td>Dirt/wet fingers can affect reading</td>
+</tr>
+<tr>
+<td>Facial recognition</td>
+<td>Maps facial features and proportions</td>
+<td>Contactless, convenient</td>
+<td>Can be fooled by photos; lighting affects accuracy</td>
+</tr>
+<tr>
+<td>Iris/retina</td>
+<td>Scans unique patterns in the eye</td>
+<td>Extremely accurate, very hard to fake</td>
+<td>Expensive equipment, intrusive</td>
+</tr>
+<tr>
+<td>Voice recognition</td>
+<td>Analyses unique vocal characteristics</td>
+<td>Can be used over phone, convenient</td>
+<td>Background noise, illness affect accuracy</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Why biometrics are strong:</strong> They are something you ARE, not something you KNOW (password) or HAVE (token). You cannot forget, lose, or easily share a biometric. However, if biometric data is stolen, it cannot be changed like a password can.
+</div>
+</section>
+
+<section class="section">
+<h2>🔑 Password Systems and Policies</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A password policy is a set of rules that govern how passwords are created, used, and managed within an organisation. Strong password policies significantly reduce the risk of unauthorised access.
+</div>
+
+<h3>Password Complexity Requirements</h3>
+<ul>
+<li>Minimum length (typically 8+ characters, preferably 12+)</li>
+<li>Mix of character types: uppercase, lowercase, numbers, symbols</li>
+<li>Cannot be a common password or dictionary word</li>
+<li>Cannot be the same as previous passwords</li>
+<li>Cannot contain the username or real name</li>
+</ul>
+
+<h3>Password Change Policies</h3>
+<ul>
+<li>Regular forced changes (e.g. every 90 days)</li>
+<li>Must change immediately if a breach is suspected</li>
+<li>Cannot reuse recent passwords</li>
+<li>Account lockout after multiple failed attempts</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Strong vs Weak Passwords</div>
+<p><strong>Weak:</strong> password123, 12345678, letmein, admin, Qwerty123</p>
+<p><strong>Strong:</strong> T7#kM9$pL2@wQ4, MyD0g-Lik3s!Bark1ng, C0rr3ct-Hors3-Batt3ry-Stapl</p>
+<p>Strong passwords use length, variety of characters, and avoid common words or patterns.</p>
+</div>
+
+<div class="key-point">
+<strong>Password Best Practices:</strong> Use different passwords for each account. Use a password manager to store complex passwords securely. Never share passwords. Never write passwords on sticky notes. Enable two-factor authentication wherever possible.
+</div>
+</section>
+
+<section class="section">
+<h2>🤖 CAPTCHA</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a challenge designed to determine whether the user is a human or a computer (bot). It prevents automated programs from abusing online services.
+</div>
+
+<ul>
+<li>Prevents bots from creating fake accounts</li>
+<li>Prevents automated brute force password attacks</li>
+<li>Prevents bots from spamming forms or buying tickets in bulk</li>
+<li>Common types: distorted text recognition, image selection, checkbox ("I'm not a robot")</li>
+<li>Modern reCAPTCHA analyses user behaviour (mouse movement, browsing patterns)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When creating a new email account, you may be asked to select all images containing traffic lights, or type the distorted text shown in an image. This is easy for a human but very difficult for a computer program, proving you are human.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📧 Email Confirmations and Verification</h2>
+
+<div class="key-point">
+<strong>Purpose:</strong> Email confirmation verifies that the person registering an account owns the email address they provided. It also enables account recovery if the password is forgotten.
+</div>
+
+<ul>
+<li>When registering, a confirmation link is sent to the provided email</li>
+<li>The user must click the link to verify they own the email address</li>
+<li>Prevents people from registering with someone else's email</li>
+<li>Used for password resets - a reset link is sent to the registered email</li>
+<li>Can detect suspicious login attempts by sending a verification email</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔄 Automatic Updates</h2>
+
+<div class="key-point">
+<strong>Purpose:</strong> Automatic updates ensure that software is always running the latest version with all security patches applied. This closes known vulnerabilities that attackers could exploit.
+</div>
+
+<ul>
+<li>Operating systems, browsers, and applications release security patches regularly</li>
+<li>Automatic updates apply these patches without requiring user action</li>
+<li>Many attacks exploit vulnerabilities that already have patches available</li>
+<li>Users who delay updates leave their systems vulnerable</li>
+<li>Automatic updates should be enabled for OS, browsers, and all security software</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Why This Matters</div>
+<p>The WannaCry ransomware attack in 2017 exploited a vulnerability in Windows that Microsoft had already patched two months earlier. Organisations that had applied the update were protected; those that hadn't were infected. Automatic updates would have prevented this.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔍 Penetration Testing</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Penetration testing (pen testing) is an authorised simulated cyber attack on a computer system, performed to identify security weaknesses. A professional "ethical hacker" tries to find and exploit vulnerabilities before real attackers do.
+</div>
+
+<ul>
+<li>Authorised and legal - conducted with the organisation's permission</li>
+<li>Simulates the methods that real attackers would use</li>
+<li>Identifies vulnerabilities in systems, networks, and applications</li>
+<li>Tests both technical and social engineering defences</li>
+<li>Results are reported so the organisation can fix the vulnerabilities</li>
+<li>Should be conducted regularly, especially after significant system changes</li>
+</ul>
+
+<div class="example">
+<div class="example-title">What Pen Testers Do</div>
+<p>A penetration tester might: attempt to break into the network from outside (like a real hacker), try social engineering attacks on employees (phishing, blagging), test whether firewalls and access controls can be bypassed, check for unpatched software, and attempt to escalate privileges once inside the system. They then report all vulnerabilities found so they can be fixed before real attackers discover them.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🛡️ Anti-Malware Software</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Anti-malware software (also called antivirus software) detects, prevents, and removes malicious software from a computer system. It protects against viruses, Trojans, spyware, ransomware, and other threats.
+</div>
+
+<h3>How Anti-Malware Works</h3>
+
+<ul>
+<li><strong>Signature-based detection:</strong> Compares files against a database of known malware signatures (unique patterns). Must be updated regularly with new signatures.</li>
+<li><strong>Heuristic analysis:</strong> Monitors program behaviour for suspicious activity, detecting new or unknown malware that doesn't match any signature.</li>
+<li><strong>Quarantine:</strong> Isolates suspicious files so they cannot cause harm, allowing the user to review and decide whether to delete them.</li>
+<li><strong>Real-time protection:</strong> Scans files as they are accessed, opened, or downloaded to catch malware before it executes.</li>
+</ul>
+
+<div class="example">
+<div class="example-title">How It Works</div>
+<p>When you download a file, anti-malware scans it: first checking its signature against the known malware database, then analysing its behaviour if no signature match is found. If malware is detected, the file is quarantined and the user is alerted. Regular scans also check all files on the system.</p>
+</div>
+
+<h3>Limitations of Anti-Malware</h3>
+<ul>
+<li>Cannot detect brand new malware not yet in the signature database (zero-day)</li>
+<li>Must be updated frequently with new malware definitions</li>
+<li>Can be bypassed by sophisticated malware</li>
+<li>Does not protect against social engineering attacks</li>
+<li>Can slow down system performance during scans</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🏗️ Defence in Depth</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Defence in depth is a security strategy that uses multiple layers of protection. If one layer fails, other layers still provide security. No single measure is completely effective on its own.
+</div>
+
+<p>Defence in depth combines technical, physical, and procedural measures:</p>
+
+<table class="comparison-table">
+<tr>
+<th>Layer</th>
+<th>Measures</th>
+<th>What It Protects Against</th>
+</tr>
+<tr>
+<td>Technical</td>
+<td>Firewalls, encryption, anti-malware, access controls, automatic updates</td>
+<td>Network attacks, malware, data interception</td>
+</tr>
+<tr>
+<td>Physical</td>
+<td>Locked doors, CCTV, security guards, biometric building access</td>
+<td>Physical theft, unauthorised access, shoulder surfing</td>
+</tr>
+<tr>
+<td>Procedural</td>
+<td>Security policies, staff training, password policies, pen testing</td>
+<td>Social engineering, weak passwords, insider threats</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Defence in Depth in Practice</div>
+<p>A school network might use: firewall (technical), encryption on Wi-Fi (technical), anti-malware on all computers (technical), staff training on phishing (procedural), strong password policy (procedural), locked server room (physical), regular pen testing (procedural), automatic updates enabled (technical). If an attacker gets through the firewall, anti-malware still catches malware. If anti-malware misses a threat, staff training helps users avoid clicking suspicious links.</p>
+</div>
+
+<div class="formula-box">
+<strong>Defence in Depth Principle:</strong><br>
+Multiple layers of different security types<br>
+If one layer is breached, others still protect<br>
+Combine: Technical + Physical + Procedural measures<br>
+Every layer must be maintained and regularly reviewed
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "anti-malware stops all threats"</td>
+<td>It cannot detect zero-day or very new malware</td>
+<td>Anti-malware is one layer, not complete protection</td>
+</tr>
+<tr>
+<td>Confusing CAPTCHA with authentication</td>
+<td>CAPTCHA verifies human vs bot, not identity</td>
+<td>CAPTCHA = bot prevention; Authentication = identity verification</td>
+</tr>
+<tr>
+<td>Saying "penetration testing is hacking"</td>
+<td>Pen testing is authorised and legal; hacking is not</td>
+<td>Pen testing = authorised ethical testing with permission</td>
+</tr>
+<tr>
+<td>Listing only technical measures for defence in depth</td>
+<td>Defence in depth includes physical and procedural measures too</td>
+<td>Always mention all three: technical, physical, procedural</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Describe two biometric security measures and explain their advantages over passwords.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What is the purpose of CAPTCHA? Give an example of how it works.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Explain how anti-malware software detects threats, including its limitations.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is penetration testing and why is it important?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain the principle of defence in depth, giving examples of technical, physical, and procedural measures.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Fingerprint scanning: reads unique ridge patterns on fingertips. Facial recognition: maps facial features. Advantages over passwords: cannot be forgotten, lost, or easily shared; very difficult to forge; the user always has their biometric with them.</li>
+<li>CAPTCHA determines whether the user is human or a computer program (bot). It prevents automated attacks like fake account creation, brute force attacks, and ticket scalping. Example: asking the user to select all images containing traffic lights - easy for humans, difficult for bots.</li>
+<li>Anti-malware detects threats using: signature-based detection (comparing files to known malware patterns), heuristic analysis (monitoring behaviour for suspicious activity), and real-time scanning of files as they are accessed. Limitations: cannot detect brand new malware not in the signature database (zero-day), requires regular updates, can be bypassed by sophisticated threats, and does not protect against social engineering.</li>
+<li>Penetration testing is an authorised simulated cyber attack performed by ethical hackers to identify security vulnerabilities before real attackers can exploit them. It is important because it finds weaknesses that can then be fixed proactively, tests both technical and human defences, and provides a realistic assessment of security posture.</li>
+<li>Defence in depth uses multiple layers of security so that if one layer fails, others still provide protection. Technical measures: firewalls, encryption, anti-malware, automatic updates. Physical measures: locked doors, CCTV, biometric building access. Procedural measures: security policies, staff training, password policies, pen testing. No single measure is sufficient; the combination of all three types provides robust security.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all detection and prevention methods with how they work</li>
+<li>Be able to explain biometrics as "something you ARE" vs passwords "something you KNOW"</li>
+<li>CAPTCHA = human vs bot test, NOT authentication</li>
+<li>Anti-malware: know both how it works AND its limitations</li>
+<li>Defence in depth: always mention technical, physical, AND procedural</li>
+<li>When asked "how to protect a network," combine multiple methods</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../cyber-security/CS33-cyber-security-threats.html" class="nav-prev">← Previous Topic: Cyber Security Threats</a>
+<a href="../databases-impacts/CS35-relational-databases.html" class="nav-next">Next Topic: Relational Databases →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

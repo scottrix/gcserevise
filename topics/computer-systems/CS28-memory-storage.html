@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memory & Storage - GCSE Computer Science</title>
+<meta name="description" content="Learn about RAM, ROM, cache, registers, virtual memory, secondary storage and embedded systems. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Computer Systems</span> <span>›</span>
+<span>Memory & Storage</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS28: Memory & Storage</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Computer Systems</span>
+</div>
+<p class="topic-desc">Primary memory (RAM, ROM, cache, registers), virtual memory, secondary storage types, cloud storage, and embedded systems.</p>
+</article>
+
+<section class="section">
+<h2>📋 Primary Memory</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Primary memory is the memory that is directly accessible by the CPU. It holds the data and instructions that the CPU is currently using or will need soon. Primary memory includes RAM and ROM.
+</div>
+
+<p>Primary memory is located close to the CPU and can be accessed much faster than secondary storage. Without primary memory, the CPU would have to fetch every instruction and piece of data from slow secondary storage, making the computer extremely slow.</p>
+</section>
+
+<section class="section">
+<h2>💾 RAM (Random Access Memory)</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> RAM is volatile memory that stores the data and programs currently in use. It is called "random access" because any location can be accessed in the same amount of time. RAM loses its contents when power is turned off.
+</div>
+
+<ul>
+<li><strong>Volatile:</strong> contents are lost when power is switched off</li>
+<li><strong>Read and write:</strong> the CPU can both read from and write to RAM</li>
+<li>Stores the operating system, running programs, and current data</li>
+<li>Contents change constantly as programs run and data is processed</li>
+<li>More RAM = more programs/data can be held simultaneously = better multitasking</li>
+<li>Larger RAM reduces the need for virtual memory (which is slow)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you open a word processor, the program code is loaded from the hard drive into RAM. When you type, your text is stored in RAM. If the power cuts out before you save, the text in RAM is lost. Saving writes the data from RAM to the hard drive (non-volatile storage).</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔒 ROM (Read Only Memory)</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> ROM is non-volatile memory that stores permanent instructions. Its contents cannot be changed (or are very difficult to change). ROM retains its data even when power is switched off.
+</div>
+
+<ul>
+<li><strong>Non-volatile:</strong> contents are preserved when power is switched off</li>
+<li><strong>Read only:</strong> the CPU can read from ROM but cannot write to it</li>
+<li>Stores the BIOS/boot program that starts the computer</li>
+<li>Contains startup instructions that load the OS into RAM</li>
+<li>Contents are set during manufacture and typically never change</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you turn on your computer, the CPU reads the boot instructions from ROM. These instructions tell the computer to perform a power-on self-test (POST) and then load the operating system from the hard drive into RAM. Only then can the computer be used.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>RAM</th>
+<th>ROM</th>
+</tr>
+<tr>
+<td>Volatility</td>
+<td>Volatile (lost without power)</td>
+<td>Non-volatile (retained without power)</td>
+</tr>
+<tr>
+<td>Read/Write</td>
+<td>Read and write</td>
+<td>Read only</td>
+</tr>
+<tr>
+<td>Contents</td>
+<td>Running programs and current data</td>
+<td>Permanent boot/startup instructions</td>
+</tr>
+<tr>
+<td>Changeable</td>
+<td>Yes - constantly changing</td>
+<td>No - set at manufacture</td>
+</tr>
+<tr>
+<td>Capacity</td>
+<td>Large (typically 4-32 GB)</td>
+<td>Small (typically a few MB)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚡ Cache Memory</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Cache is a small, very fast memory located between the CPU and RAM. It stores frequently accessed data and instructions to reduce the time the CPU spends waiting for data from slower RAM.
+</div>
+
+<ul>
+<li>Much faster than RAM but slower than registers</li>
+<li>Much smaller than RAM (typically a few MB)</li>
+<li>Stores copies of the most frequently used data from RAM</li>
+<li>Cache hit: data is found in cache (fast access)</li>
+<li>Cache miss: data is not in cache, must be fetched from RAM (slow)</li>
+<li>L1 cache: smallest, fastest, inside CPU core</li>
+<li>L2 cache: larger, slightly slower, per core or shared</li>
+<li>L3 cache: largest, slowest cache, shared between all cores</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>📝 Registers</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Registers are the smallest, fastest memory locations in the computer system. They are located inside the CPU itself and hold individual data values currently being processed.
+</div>
+
+<ul>
+<li>Fastest memory in the system - access is nearly instant</li>
+<li>Very small capacity (typically 32 or 64 bits each)</li>
+<li>Located directly inside the CPU</li>
+<li>Examples: PC, MAR, MDR, ACC, CIR</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>📊 Memory Hierarchy</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Memory Type</th>
+<th>Speed</th>
+<th>Capacity</th>
+<th>Cost per MB</th>
+<th>Location</th>
+</tr>
+<tr>
+<td>Registers</td>
+<td>Fastest</td>
+<td>Smallest (bytes)</td>
+<td>Most expensive</td>
+<td>Inside CPU</td>
+</tr>
+<tr>
+<td>L1 Cache</td>
+<td>Very fast</td>
+<td>Very small (KB)</td>
+<td>Very expensive</td>
+<td>Inside CPU</td>
+</tr>
+<tr>
+<td>L2 Cache</td>
+<td>Fast</td>
+<td>Small (MB)</td>
+<td>Expensive</td>
+<td>Inside/near CPU</td>
+</tr>
+<tr>
+<td>L3 Cache</td>
+<td>Moderate</td>
+<td>Medium (MB)</td>
+<td>Moderate</td>
+<td>Near CPU</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>Moderate</td>
+<td>Large (GB)</td>
+<td>Cheap</td>
+<td>Motherboard</td>
+</tr>
+<tr>
+<td>Secondary Storage</td>
+<td>Slowest</td>
+<td>Largest (TB)</td>
+<td>Cheapest</td>
+<td>Connected to motherboard</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Memory Hierarchy Rule:</strong><br>
+As you go DOWN the hierarchy: speed decreases, capacity increases, cost per MB decreases<br>
+As you go UP the hierarchy: speed increases, capacity decreases, cost per MB increases
+</div>
+</section>
+
+<section class="section">
+<h2>🔄 Virtual Memory</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Virtual memory is a technique where the operating system uses a section of the hard drive as if it were additional RAM. When RAM is full, the OS moves less-used data from RAM to a "swap file" or "page file" on the hard drive.
+</div>
+
+<ul>
+<li>Used when RAM is full and more memory is needed</li>
+<li>The OS creates a swap file/page file on the hard drive</li>
+<li>Less frequently used data is "swapped out" from RAM to disk</li>
+<li>When the swapped-out data is needed, it is "swapped in" back to RAM</li>
+<li>This process is called paging or swapping</li>
+<li>Virtual memory is MUCH slower than RAM (hard drive access is slow)</li>
+<li>Too much paging (thrashing) severely slows down the computer</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>You have 8 GB of RAM and open programs using 10 GB. The OS moves 2 GB of the least recently used data to the hard drive swap file. When you switch back to a program whose data was swapped out, the OS must swap it back in from disk - this causes a noticeable delay.</p>
+</div>
+
+<div class="key-point">
+<strong>Exam Point:</strong> Adding more RAM reduces the need for virtual memory, which improves performance because RAM is much faster than accessing the hard drive for swapping.
+</div>
+</section>
+
+<section class="section">
+<h2>💿 Secondary Storage</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Secondary storage is non-volatile, long-term storage that holds data permanently, even when the power is off. It is used to store the operating system, applications, and user files. It is much slower than primary memory but has much larger capacity.
+</div>
+
+<h3>Magnetic Storage - HDD (Hard Disk Drive)</h3>
+<ul>
+<li>Uses spinning magnetic disks (platters) and read/write heads</li>
+<li>Large capacity (up to several TB)</li>
+<li>Relatively cheap per GB</li>
+<li>Slower access than SSD (moving parts)</li>
+<li>Can be damaged by physical shocks and magnetic fields</li>
+<li>Uses: bulk storage, backups, desktop computers</li>
+</ul>
+
+<h3>Solid State Storage - SSD (Solid State Drive)</h3>
+<ul>
+<li>Uses flash memory chips (no moving parts)</li>
+<li>Faster access than HDD (no mechanical movement)</li>
+<li>More expensive per GB than HDD</li>
+<li>More durable (no moving parts to damage)</li>
+<li>Lower power consumption</li>
+<li>Limited write cycles (eventually wears out)</li>
+<li>Uses: laptops, high-performance computers, tablets</li>
+</ul>
+
+<h3>Solid State Storage - USB Flash Drive</h3>
+<ul>
+<li>Portable flash memory storage</li>
+<li>Small, lightweight, convenient</li>
+<li>Plug into USB port</li>
+<li>Low to moderate capacity (typically 8 GB - 256 GB)</li>
+<li>Uses: transferring files between computers, portable backups</li>
+</ul>
+
+<h3>Optical Storage - CD/DVD/Blu-ray</h3>
+<ul>
+<li>Uses laser to read/write data on a reflective disc surface</li>
+<li>CD: ~700 MB, DVD: ~4.7 GB (single layer), Blu-ray: ~25 GB</li>
+<li>Relatively slow access</li>
+<li>Easily scratched and damaged</li>
+<li>Types: ROM (read-only), R (recordable once), RW (rewritable)</li>
+<li>Uses: software distribution, video, music, backups</li>
+</ul>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>HDD (Magnetic)</th>
+<td>SSD (Solid State)</th>
+<th>Optical (CD/DVD)</th>
+</tr>
+<tr>
+<td>Speed</td>
+<td>Medium</td>
+<td>Fast</td>
+<td>Slow</td>
+</tr>
+<tr>
+<td>Capacity</td>
+<td>Very large (TB)</td>
+<td>Large (GB-TB)</td>
+<td>Small (MB-GB)</td>
+</tr>
+<tr>
+<td>Cost per GB</td>
+<td>Cheapest</td>
+<td>Moderate</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Durability</td>
+<td>Low (moving parts)</td>
+<td>High (no moving parts)</td>
+<td>Low (easily scratched)</td>
+</tr>
+<tr>
+<td>Portability</td>
+<td>Low (internal)</td>
+<td>Low (internal)</td>
+<td>High (discs)</td>
+</tr>
+<tr>
+<td>Power use</td>
+<td>High</td>
+<td>Low</td>
+<td>Medium</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>☁️ Cloud Storage</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Cloud storage stores data on remote servers accessed via the internet, rather than on local storage devices. The data is managed by a third-party provider.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+<tr>
+<td>Accessible from anywhere with internet</td>
+<td>Requires internet connection to access</td>
+</tr>
+<tr>
+<td>Automatic backups</td>
+<td>Security concerns (data on someone else's servers)</td>
+</tr>
+<tr>
+<td>Easy sharing with others</td>
+<td>Slow upload/download with poor internet</td>
+</tr>
+<tr>
+<td>Scalable storage (pay for what you use)</td>
+<td>Ongoing subscription costs</td>
+</tr>
+<tr>
+<td>No risk of local device failure losing data</td>
+<td>Privacy concerns (provider could access data)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📟 Embedded Systems</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> An embedded system is a computer system built into a larger device, designed to perform a specific, dedicated function. It typically has a microprocessor, ROM (not RAM), and limited I/O.
+</div>
+
+<ul>
+<li>Purpose-built for a specific task (not general-purpose)</li>
+<li>Contains a microprocessor, ROM, and limited I/O</li>
+<li>Often has no screen or keyboard (headless)</li>
+<li>Runs a single program stored in ROM</li>
+<li>Low power consumption</li>
+<li>Reliable - must work without crashing</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Examples of Embedded Systems</div>
+<p>Microwave oven controller, washing machine, car engine management system, traffic lights, digital watch, central heating thermostat, medical devices (pacemaker), industrial robots.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "RAM is permanent storage"</td>
+<td>RAM is volatile - it loses data without power</td>
+<td>RAM = temporary; secondary storage = permanent</td>
+</tr>
+<tr>
+<td>Confusing cache and RAM</td>
+<td>Cache is much smaller and faster than RAM</td>
+<td>Cache = small, fast buffer between CPU and RAM</td>
+</tr>
+<tr>
+<td>Saying "virtual memory is as fast as RAM"</td>
+<td>Virtual memory uses the hard drive, which is much slower</td>
+<td>Virtual memory is significantly slower than RAM</td>
+</tr>
+<tr>
+<td>Saying SSDs have moving parts</td>
+<td>SSDs use flash memory with no moving parts</td>
+<td>Only HDDs have moving parts (spinning disks)</td>
+</tr>
+<tr>
+<td>Saying ROM stores running programs</td>
+<td>ROM stores permanent boot instructions; RAM stores running programs</td>
+<td>ROM = startup; RAM = currently running</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Explain the difference between RAM and ROM.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Describe the memory hierarchy from fastest to slowest.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> What is virtual memory and why does it slow down a computer?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Compare HDD and SSD storage, giving two advantages and one disadvantage of each.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> What is an embedded system? Give three examples.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>RAM is volatile (loses data without power), read-write, and stores running programs and current data. ROM is non-volatile (retains data without power), read-only, and stores permanent boot/startup instructions.</li>
+<li>Registers (fastest) > L1 Cache > L2 Cache > L3 Cache > RAM > Secondary Storage (slowest). Speed decreases and capacity increases as you move down the hierarchy.</li>
+<li>Virtual memory uses a section of the hard drive as extra RAM when actual RAM is full. The OS moves less-used data from RAM to disk (swapping/paging). It slows down the computer because hard drive access is much slower than RAM access. When the CPU needs data that has been swapped to disk, it must wait while it is loaded back into RAM.</li>
+<li>HDD advantages: cheaper per GB, very large capacity available. HDD disadvantage: slower access due to moving parts, less durable. SSD advantages: faster access (no moving parts), more durable. SSD disadvantage: more expensive per GB, limited write cycles.</li>
+<li>An embedded system is a computer system built into a larger device, designed to perform one specific dedicated function. It typically has a microprocessor and ROM rather than full RAM. Examples: microwave oven controller, washing machine, car engine management system.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always mention "volatile" for RAM and "non-volatile" for ROM - these are key terms</li>
+<li>Know the memory hierarchy in order of speed</li>
+<li>For virtual memory, always explain it uses the hard drive (which is slower)</li>
+<li>Compare storage types across: speed, capacity, cost, durability, portability</li>
+<li>Embedded systems = dedicated function, microprocessor + ROM, limited I/O</li>
+<li>Adding more RAM improves performance by reducing virtual memory usage</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../computer-systems/CS27-systems-architecture.html" class="nav-prev">← Previous Topic: Systems Architecture</a>
+<a href="../networks/CS29-network-types-topologies.html" class="nav-next">Next Topic: Network Types & Topologies →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

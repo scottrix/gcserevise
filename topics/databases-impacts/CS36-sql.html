@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SQL - GCSE Computer Science</title>
+<meta name="description" content="Learn SQL commands: SELECT, INSERT, UPDATE, DELETE with practical examples. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Databases & Impacts</span> <span>›</span>
+<span>SQL</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS36: SQL</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Databases & Impacts</span>
+</div>
+<p class="topic-desc">SQL commands for querying and modifying databases: SELECT, INSERT, UPDATE, DELETE with WHERE, ORDER BY, and practical examples.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is SQL?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> SQL (Structured Query Language) is the standard language used to create, read, update, and delete data in relational databases. It allows users to communicate with a database to retrieve and modify data.
+</div>
+
+<p>SQL is used by nearly all relational database management systems (MySQL, PostgreSQL, SQLite, SQL Server, Oracle). You need to know four main SQL commands for GCSE: SELECT, INSERT, UPDATE, and DELETE.</p>
+
+<ul>
+<li>SQL is a declarative language - you specify WHAT data you want, not HOW to get it</li>
+<li>Keywords are usually written in UPPERCASE (convention, not required)</li>
+<li>String values must be enclosed in single quotes: 'Alice'</li>
+<li>Numeric values do not need quotes: 1001</li>
+</ul>
+
+<h3>Sample Tables Used Throughout</h3>
+
+<p><strong>Students Table:</strong></p>
+<table class="comparison-table">
+<tr>
+<th>StudentID</th>
+<th>FirstName</th>
+<th>LastName</th>
+<th>Form</th>
+<th>YearGroup</th>
+</tr>
+<tr>
+<td>1001</td>
+<td>Alice</td>
+<td>Smith</td>
+<td>10A</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1002</td>
+<td>Bob</td>
+<td>Jones</td>
+<td>10B</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1003</td>
+<td>Clara</td>
+<td>Patel</td>
+<td>10A</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1004</td>
+<td>David</td>
+<td>Smith</td>
+<td>11A</td>
+<td>11</td>
+</tr>
+<tr>
+<td>1005</td>
+<td>Eve</td>
+<td>Williams</td>
+<td>11B</td>
+<td>11</td>
+</tr>
+</table>
+
+<p><strong>Courses Table:</strong></p>
+<table class="comparison-table">
+<tr>
+<th>CourseID</th>
+<th>CourseName</th>
+<th>Teacher</th>
+<th>Room</th>
+</tr>
+<tr>
+<td>CS01</td>
+<td>Computer Science</td>
+<td>Mr Khan</td>
+<td>R12</td>
+</tr>
+<tr>
+<td>MA01</td>
+<td>Mathematics</td>
+<td>Mrs Brown</td>
+<td>R5</td>
+</tr>
+<tr>
+<td>EN01</td>
+<td>English</td>
+<td>Ms Taylor</td>
+<td>R8</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔍 SELECT - Reading Data</h2>
+
+<div class="formula-box">
+<strong>Basic SELECT Syntax:</strong><br>
+SELECT field1, field2 FROM tablename<br>
+SELECT * FROM tablename<br><br>
+With conditions:<br>
+SELECT field1, field2 FROM tablename WHERE condition<br><br>
+With sorting:<br>
+SELECT field1, field2 FROM tablename WHERE condition ORDER BY field ASC/DESC
+</div>
+
+<h3>Basic SELECT</h3>
+
+<div class="example">
+<div class="example-title">Select all fields from Students</div>
+<p><code>SELECT * FROM Students</code></p>
+<p>Returns all columns and all rows from the Students table.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Select specific fields</div>
+<p><code>SELECT FirstName, LastName FROM Students</code></p>
+<p>Returns only the FirstName and LastName columns for all students.</p>
+</div>
+
+<h3>SELECT with WHERE</h3>
+
+<div class="key-point">
+<strong>WHERE clause:</strong> The WHERE clause filters records - only records that match the condition are returned. It is used with SELECT, UPDATE, and DELETE.
+</div>
+
+<div class="example">
+<div class="example-title">Filter by exact match</div>
+<p><code>SELECT FirstName, LastName FROM Students WHERE Form = '10A'</code></p>
+<p>Returns: Alice Smith, Clara Patel (only students in form 10A)</p>
+</div>
+
+<div class="example">
+<div class="example-title">Filter by numeric comparison</div>
+<p><code>SELECT FirstName, LastName FROM Students WHERE YearGroup > 10</code></p>
+<p>Returns: David Smith, Eve Williams (only students in year 11)</p>
+</div>
+
+<h3>WHERE Operators</h3>
+
+<table class="comparison-table">
+<tr>
+<th>Operator</th>
+<th>Meaning</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>=</td>
+<td>Equal to</td>
+<td>WHERE Form = '10A'</td>
+</tr>
+<tr>
+<td>!= or &lt;&gt;</td>
+<td>Not equal to</td>
+<td>WHERE Form != '10A'</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>Greater than</td>
+<td>WHERE YearGroup > 10</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>Less than</td>
+<td>WHERE YearGroup &lt; 11</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>Greater than or equal to</td>
+<td>WHERE YearGroup >= 10</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>Less than or equal to</td>
+<td>WHERE YearGroup &lt;= 10</td>
+</tr>
+<tr>
+<td>LIKE</td>
+<td>Pattern matching</td>
+<td>WHERE LastName LIKE 'S%' (starts with S)</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Combining conditions with AND / OR</div>
+<p><code>SELECT FirstName, LastName FROM Students WHERE Form = '10A' AND YearGroup = 10</code></p>
+<p>Returns: Alice Smith, Clara Patel (must match BOTH conditions)</p>
+
+<p><code>SELECT FirstName, LastName FROM Students WHERE Form = '10A' OR Form = '11A'</code></p>
+<p>Returns: Alice Smith, Clara Patel, David Smith (matches EITHER condition)</p>
+</div>
+
+<h3>SELECT with ORDER BY</h3>
+
+<div class="key-point">
+<strong>ORDER BY clause:</strong> The ORDER BY clause sorts the results. ASC sorts in ascending order (A-Z, 1-9). DESC sorts in descending order (Z-A, 9-1). Default is ASC if not specified.
+</div>
+
+<div class="example">
+<div class="example-title">Sort ascending</div>
+<p><code>SELECT FirstName, LastName FROM Students ORDER BY LastName ASC</code></p>
+<p>Returns: Bob Jones, Clara Patel, Alice Smith, David Smith, Eve Williams</p>
+<p>(Alphabetical order by last name)</p>
+</div>
+
+<div class="example">
+<div class="example-title">Sort descending</div>
+<p><code>SELECT FirstName, LastName FROM Students ORDER BY YearGroup DESC, LastName ASC</code></p>
+<p>Returns year 11 students first (DESC), then within each year, sorted by last name (ASC).</p>
+</div>
+
+<h3>Complex SELECT Examples</h3>
+
+<div class="example">
+<div class="example-title">Combined WHERE and ORDER BY</div>
+<p><code>SELECT FirstName, LastName, Form FROM Students WHERE YearGroup = 10 ORDER BY LastName ASC</code></p>
+<p>Returns year 10 students sorted alphabetically by last name: Bob Jones, Clara Patel, Alice Smith</p>
+</div>
+
+<div class="example">
+<div class="example-title">LIKE with wildcards</div>
+<p><code>SELECT FirstName, LastName FROM Students WHERE LastName LIKE 'S%'</code></p>
+<p>Returns: Alice Smith, David Smith (last names starting with 'S')</p>
+<p>The % symbol matches any sequence of characters. 'S%' means "starts with S followed by anything."</p>
+</div>
+</section>
+
+<section class="section">
+<h2>➕ INSERT - Adding Data</h2>
+
+<div class="formula-box">
+<strong>INSERT Syntax:</strong><br>
+INSERT INTO tablename (field1, field2, field3) VALUES ('value1', 'value2', 'value3')
+</div>
+
+<div class="example">
+<div class="example-title">Insert a new student</div>
+<p><code>INSERT INTO Students (StudentID, FirstName, LastName, Form, YearGroup) VALUES (1006, 'Frank', 'Chen', '10B', 10)</code></p>
+<p>This adds a new record: Frank Chen, StudentID 1006, Form 10B, YearGroup 10.</p>
+</div>
+
+<div class="key-point">
+<strong>Important:</strong> String values must be in single quotes ('Frank'). Numeric values do not need quotes (1006, 10). The order of values must match the order of fields listed. If inserting into all fields, you can omit the field list: <code>INSERT INTO Students VALUES (1006, 'Frank', 'Chen', '10B', 10)</code>
+</div>
+</section>
+
+<section class="section">
+<h2>✏️ UPDATE - Modifying Data</h2>
+
+<div class="formula-box">
+<strong>UPDATE Syntax:</strong><br>
+UPDATE tablename SET field1 = 'newvalue' WHERE condition<br><br>
+Multiple fields:<br>
+UPDATE tablename SET field1 = 'value1', field2 = 'value2' WHERE condition
+</div>
+
+<div class="example">
+<div class="example-title">Update a single field</div>
+<p><code>UPDATE Students SET Form = '11A' WHERE StudentID = 1001</code></p>
+<p>This changes Alice Smith's form from 10A to 11A.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Update multiple fields</div>
+<p><code>UPDATE Students SET Form = '11A', YearGroup = 11 WHERE StudentID = 1001</code></p>
+<p>This changes both Alice's form and year group.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Update multiple records</div>
+<p><code>UPDATE Students SET YearGroup = 11 WHERE YearGroup = 10</code></p>
+<p>This promotes ALL year 10 students to year 11. Be careful - without a specific WHERE clause, you could update every record!</p>
+</div>
+
+<div class="key-point">
+<strong>Warning:</strong> Always include a WHERE clause with UPDATE. If you write <code>UPDATE Students SET Form = '10A'</code> without a WHERE clause, it would change the Form of EVERY student in the table to 10A!
+</div>
+</section>
+
+<section class="section">
+<h2>🗑️ DELETE - Removing Data</h2>
+
+<div class="formula-box">
+<strong>DELETE Syntax:</strong><br>
+DELETE FROM tablename WHERE condition
+</div>
+
+<div class="example">
+<div class="example-title">Delete a specific record</div>
+<p><code>DELETE FROM Students WHERE StudentID = 1005</code></p>
+<p>This removes Eve Williams from the Students table.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Delete multiple records</div>
+<p><code>DELETE FROM Students WHERE YearGroup = 11</code></p>
+<p>This removes ALL year 11 students from the table.</p>
+</div>
+
+<div class="key-point">
+<strong>Warning:</strong> Always include a WHERE clause with DELETE. <code>DELETE FROM Students</code> without a WHERE clause would delete EVERY record in the table! The data would be permanently lost.
+</div>
+</section>
+
+<section class="section">
+<h2>📊 SQL Command Summary</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Command</th>
+<th>Purpose</th>
+<th>Key Clauses</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>SELECT</td>
+<td>Read/query data</td>
+<td>FROM, WHERE, ORDER BY</td>
+<td>SELECT * FROM Students WHERE YearGroup = 10</td>
+</tr>
+<tr>
+<td>INSERT</td>
+<td>Add new records</td>
+<td>INTO, VALUES</td>
+<td>INSERT INTO Students VALUES (1006, 'Frank', 'Chen', '10B', 10)</td>
+</tr>
+<tr>
+<td>UPDATE</td>
+<td>Modify existing records</td>
+<td>SET, WHERE</td>
+<td>UPDATE Students SET Form = '11A' WHERE StudentID = 1001</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>Remove records</td>
+<td>FROM, WHERE</td>
+<td>DELETE FROM Students WHERE StudentID = 1005</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Forgetting single quotes around strings</td>
+<td>SQL will treat it as a column name, not a value</td>
+<td>Use 'Alice' not Alice for string values</td>
+</tr>
+<tr>
+<td>UPDATE or DELETE without WHERE</td>
+<td>Changes or deletes ALL records in the table</td>
+<td>Always include a WHERE clause</td>
+</tr>
+<tr>
+<td>Wrong order in INSERT</td>
+<td>Values must match the order of fields</td>
+<td>Ensure VALUES order matches field list</td>
+</tr>
+<tr>
+<td>Using = instead of LIKE for pattern matching</td>
+<td>= only matches exact values</td>
+<td>Use LIKE with % for partial matches</td>
+</tr>
+<tr>
+<td>Forgetting to specify ASC/DESC</td>
+<td>Default is ASC which may not be what you want</td>
+<td>Always specify the sort direction explicitly</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Write an SQL query to show the first name and last name of all students in form 10B.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Write an SQL query to show all details of students whose last name starts with 'S', sorted by first name alphabetically.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Write an SQL statement to insert a new student: StudentID 1007, Grace Lee, form 10A, year 10.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write an SQL statement to change Bob Jones's form from 10B to 11B and his year group to 11.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Write an SQL statement to delete all students in year group 11.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li><code>SELECT FirstName, LastName FROM Students WHERE Form = '10B'</code></li>
+<li><code>SELECT * FROM Students WHERE LastName LIKE 'S%' ORDER BY FirstName ASC</code></li>
+<li><code>INSERT INTO Students (StudentID, FirstName, LastName, Form, YearGroup) VALUES (1007, 'Grace', 'Lee', '10A', 10)</code></li>
+<li><code>UPDATE Students SET Form = '11B', YearGroup = 11 WHERE StudentID = 1002</code></li>
+<li><code>DELETE FROM Students WHERE YearGroup = 11</code></li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always use single quotes for string values: 'Alice', '10A'</li>
+<li>Never forget the WHERE clause with UPDATE and DELETE</li>
+<li>Write SQL keywords in UPPERCASE for clarity</li>
+<li>For SELECT, think: what fields? FROM what table? WHERE what condition? ORDER BY what?</li>
+<li>LIKE with % for pattern matching: 'S%' = starts with S, '%son%' = contains 'son'</li>
+<li>ORDER BY defaults to ASC - specify DESC if you want descending</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../databases-impacts/CS35-relational-databases.html" class="nav-prev">← Previous Topic: Relational Databases</a>
+<a href="../databases-impacts/CS37-ethical-legal-environmental-impacts.html" class="nav-next">Next Topic: Ethical, Legal & Environmental Impacts →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

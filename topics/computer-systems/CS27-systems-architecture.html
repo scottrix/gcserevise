@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Systems Architecture - GCSE Computer Science</title>
+<meta name="description" content="Learn about CPU components, registers, buses, the fetch-execute cycle and factors affecting performance. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Computer Systems</span> <span>›</span>
+<span>Systems Architecture</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS27: Systems Architecture</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Computer Systems</span>
+</div>
+<p class="topic-desc">CPU components, buses, registers, the fetch-decode-execute cycle, and factors affecting processor performance.</p>
+</article>
+
+<section class="section">
+<h2>📋 CPU Components</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> The CPU (Central Processing Unit) is the brain of the computer. It processes data by executing instructions. The CPU contains the ALU, control unit, clock, and registers, connected by internal buses.
+</div>
+
+<h3>ALU (Arithmetic Logic Unit)</h3>
+<p>The ALU performs all calculations and logical operations:</p>
+<ul>
+<li><strong>Arithmetic operations:</strong> addition, subtraction, multiplication, division</li>
+<li><strong>Logic operations:</strong> comparisons (equal to, greater than, less than), AND, OR, NOT</li>
+<li>Produces results that are stored in the accumulator (ACC)</li>
+<li>Sets status flags based on results (zero flag, carry flag, negative flag)</li>
+</ul>
+
+<h3>Control Unit (CU)</h3>
+<p>The control unit coordinates all activities within the CPU:</p>
+<ul>
+<li>Directs the flow of data between the CPU and other components</li>
+<li>Controls the fetch-decode-execute cycle</li>
+<li>Sends control signals to other components</li>
+<li>Decodes instructions fetched from memory</li>
+<li>Tells the ALU what operation to perform</li>
+<li>Manages timing of all CPU operations using the clock</li>
+</ul>
+
+<h3>Clock</h3>
+<p>The clock generates regular pulses that synchronise all CPU operations:</p>
+<ul>
+<li>Each pulse is one "tick" of the clock</li>
+<li>Clock speed is measured in GHz (gigahertz) - billions of ticks per second</li>
+<li>Each instruction takes one or more clock cycles to complete</li>
+<li>Higher clock speed = more instructions per second = faster processing</li>
+<li>A 3 GHz CPU ticks 3 billion times per second</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>📝 CPU Registers</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Registers are small, very fast memory locations inside the CPU. They hold data and instructions currently being processed. Registers are the fastest type of memory in a computer system.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Register</th>
+<th>Full Name</th>
+<th>Function</th>
+</tr>
+<tr>
+<td>PC</td>
+<td>Program Counter</td>
+<td>Holds the memory address of the NEXT instruction to be fetched</td>
+</tr>
+<tr>
+<td>MAR</td>
+<td>Memory Address Register</td>
+<td>Holds the address in memory that is about to be read from or written to</td>
+</tr>
+<tr>
+<td>MDR</td>
+<td>Memory Data Register</td>
+<td>Holds the data that has been read from or is about to be written to memory</td>
+</tr>
+<tr>
+<td>ACC</td>
+<td>Accumulator</td>
+<td>Holds the results of calculations performed by the ALU</td>
+</tr>
+<tr>
+<td>CIR</td>
+<td>Current Instruction Register</td>
+<td>Holds the instruction that is currently being decoded and executed</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">How Registers Work Together</div>
+<p>When the CPU needs to fetch an instruction:</p>
+<p>1. The PC holds the address of the next instruction (e.g. 100)</p>
+<p>2. This address is copied to the MAR</p>
+<p>3. The instruction at that address is loaded into the MDR</p>
+<p>4. The instruction in the MDR is copied to the CIR for decoding</p>
+<p>5. The PC is incremented to point to the next instruction (e.g. 101)</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🚌 System Buses</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Buses are parallel wires that connect components of the computer system, allowing data, addresses, and control signals to move between them.
+</div>
+
+<h3>Address Bus</h3>
+<ul>
+<li>Carries memory addresses from the CPU to memory</li>
+<li>Unidirectional - signals travel from CPU to memory only</li>
+<li>The CPU places the address it wants to access on this bus</li>
+<li>Width determines how much memory can be addressed (e.g. 32-bit bus = 2<sup>32</sup> addresses)</li>
+</ul>
+
+<h3>Data Bus</h3>
+<ul>
+<li>Carries data between the CPU, memory, and I/O devices</li>
+<li>Bidirectional - data flows both ways</li>
+<li>Carries instructions read from memory AND results written back to memory</li>
+<li>Width determines how much data can be transferred at once (e.g. 64-bit bus = 64 bits at a time)</li>
+</ul>
+
+<h3>Control Bus</h3>
+<ul>
+<li>Carries control signals from the CPU to coordinate activities</li>
+<li>Bidirectional - some signals go both ways</li>
+<li>Key signals: Read/Write (determines if memory is read or written), Clock (synchronises timing), Interrupt (signals that need attention)</li>
+</ul>
+
+<table class="comparison-table">
+<tr>
+<th>Bus</th>
+<th>Carries</th>
+<th>Direction</th>
+</tr>
+<tr>
+<td>Address Bus</td>
+<td>Memory addresses</td>
+<td>Unidirectional (CPU → memory)</td>
+</tr>
+<tr>
+<td>Data Bus</td>
+<td>Data and instructions</td>
+<td>Bidirectional</td>
+</tr>
+<tr>
+<td>Control Bus</td>
+<td>Control signals (read, write, clock)</td>
+<td>Bidirectional</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔄 The Fetch-Decode-Execute Cycle</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> The fetch-decode-execute cycle (also called the instruction cycle) is the process the CPU follows for every instruction. It fetches the next instruction from memory, decodes it to understand what to do, then executes it.
+</div>
+
+<h3>Fetch Phase</h3>
+<ol>
+<li>The address in the PC is copied to the MAR via the address bus</li>
+<li>The instruction stored at that memory address is copied to the MDR via the data bus</li>
+<li>The instruction in the MDR is copied to the CIR</li>
+<li>The PC is incremented by 1 (to point to the next instruction)</li>
+</ol>
+
+<h3>Decode Phase</h3>
+<ol>
+<li>The control unit decodes the instruction in the CIR</li>
+<li>It identifies the operation (opcode) and any data needed (operand)</li>
+<li>The control unit prepares the necessary signals and pathways</li>
+</ol>
+
+<h3>Execute Phase</h3>
+<ol>
+<li>The instruction is executed (e.g. a calculation by the ALU)</li>
+<li>Results may be stored in the ACC or written back to memory</li>
+<li>If data needs to be read from or written to memory, the MAR and MDR are used again</li>
+</ol>
+
+<div class="example">
+<div class="example-title">Example: ADD 5</div>
+<p><strong>Fetch:</strong> PC holds address 50. Address 50 is copied to MAR. The instruction "ADD 5" at address 50 is copied to MDR, then to CIR. PC is incremented to 51.</p>
+<p><strong>Decode:</strong> The CU decodes "ADD 5" - it identifies this is an addition operation with the value 5.</p>
+<p><strong>Execute:</strong> The ALU adds 5 to the current value in the ACC. The result is stored in the ACC.</p>
+</div>
+
+<div class="formula-box">
+<strong>Fetch-Decode-Execute Summary:</strong><br>
+Fetch: PC → MAR → (memory) → MDR → CIR; PC++<br>
+Decode: CU interprets instruction in CIR<br>
+Execute: ALU performs operation; result stored in ACC or memory<br>
+The cycle repeats continuously while the computer is running
+</div>
+</section>
+
+<section class="section">
+<h2>⚡ Factors Affecting CPU Performance</h2>
+
+<h3>Clock Speed</h3>
+<div class="key-point">
+<strong>Key Concept:</strong> Clock speed determines how many instruction cycles the CPU can perform per second. A higher clock speed means more instructions can be processed in the same time.
+</div>
+<ul>
+<li>Measured in GHz (billions of cycles per second)</li>
+<li>Higher clock speed = more cycles per second = faster processing</li>
+<li>Overclocking increases clock speed beyond the rated speed but generates more heat</li>
+<li>Higher clock speeds increase power consumption and heat output</li>
+</ul>
+
+<h3>Number of Cores</h3>
+<div class="key-point">
+<strong>Key Concept:</strong> A core is a complete processing unit within the CPU. A multi-core processor has multiple cores that can execute instructions simultaneously.
+</div>
+<ul>
+<li>Dual-core = 2 cores, Quad-core = 4 cores, Octa-core = 8 cores</li>
+<li>More cores can process multiple instructions at the same time (parallel processing)</li>
+<li>However, doubling cores does NOT double speed - not all tasks can be split across cores</li>
+<li>Some software is not written to take advantage of multiple cores</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A quad-core 2 GHz CPU does NOT run at 8 GHz. Each core runs at 2 GHz but can work on different tasks simultaneously. If a task can be split into 4 independent parts, it could complete up to 4 times faster. But many tasks must be done sequentially and cannot be split.</p>
+</div>
+
+<h3>Cache Size</h3>
+<div class="key-point">
+<strong>Key Concept:</strong> Cache is a small, very fast memory between the CPU and RAM. It stores frequently used data and instructions so the CPU can access them quickly without waiting for RAM.
+</div>
+<ul>
+<li>L1 cache: smallest, fastest, inside the CPU core</li>
+<li>L2 cache: larger, slightly slower, per core or shared</li>
+<li>L3 cache: largest, slowest (but still faster than RAM), shared across cores</li>
+<li>Larger cache = more data available quickly = fewer slow trips to RAM = better performance</li>
+<li>Cache hit = data is in cache (fast); Cache miss = data must be fetched from RAM (slow)</li>
+</ul>
+
+<table class="comparison-table">
+<tr>
+<th>Factor</th>
+<th>How It Improves Performance</th>
+<th>Limitation</th>
+</tr>
+<tr>
+<td>Higher clock speed</td>
+<td>More cycles per second</td>
+<td>More heat, more power consumption</td>
+</tr>
+<tr>
+<td>More cores</td>
+<td>Parallel processing of multiple tasks</td>
+<td>Not all software uses multiple cores; diminishing returns</td>
+</tr>
+<tr>
+<td>Larger cache</td>
+<td>Fewer slow accesses to RAM</td>
+<td>More expensive; larger cache is slightly slower</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "the PC holds the current instruction"</td>
+<td>PC holds the address of the NEXT instruction</td>
+<td>PC = next; CIR = current</td>
+</tr>
+<tr>
+<td>Saying "more cores = faster speed"</td>
+<td>More cores = more parallel tasks, not faster clock</td>
+<td>More cores allow parallel processing, not higher speed</td>
+</tr>
+<tr>
+<td>Confusing MAR and MDR</td>
+<td>MAR holds addresses; MDR holds data</td>
+<td>MAR = Memory Address Register (where); MDR = Memory Data Register (what)</td>
+</tr>
+<tr>
+<td>Saying "the data bus is unidirectional"</td>
+<td>Data must flow both ways (read and write)</td>
+<td>Data bus is bidirectional; address bus is unidirectional</td>
+</tr>
+<tr>
+<td>Forgetting to increment the PC</td>
+<td>The PC must move to the next instruction</td>
+<td>Always mention "PC is incremented" in the fetch phase</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Describe the role of each of the following CPU components: ALU, Control Unit, PC, MAR, MDR, ACC.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Explain the three stages of the fetch-decode-execute cycle.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> How does increasing the number of cores affect CPU performance? Why doesn't doubling the cores double the speed?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is the purpose of cache memory? Why does a larger cache improve performance?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> State whether each bus is unidirectional or bidirectional: address bus, data bus, control bus.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>ALU: performs arithmetic and logic operations. Control Unit: coordinates all CPU activities, decodes instructions. PC: holds the memory address of the next instruction to fetch. MAR: holds the memory address to read from or write to. MDR: holds the data being read from or written to memory. ACC: stores the results of ALU calculations.</li>
+<li>Fetch: the address in the PC is copied to the MAR, the instruction at that address is copied to the MDR, then to the CIR, and the PC is incremented. Decode: the control unit decodes the instruction in the CIR to identify the operation and operands. Execute: the instruction is carried out (e.g. ALU performs calculation) and results are stored in the ACC or written to memory.</li>
+<li>More cores allow the CPU to process multiple instructions simultaneously (parallel processing). However, doubling cores does not double speed because: not all tasks can be divided into parallel parts, some software is not written to use multiple cores, and cores share some resources (cache, bus bandwidth).</li>
+<li>Cache stores frequently used data and instructions close to the CPU, providing faster access than RAM. A larger cache holds more frequently used data, reducing cache misses (times the CPU must wait for data from slower RAM). Fewer cache misses = less wasted time = better performance.</li>
+<li>Address bus: unidirectional (CPU to memory). Data bus: bidirectional. Control bus: bidirectional.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all CPU components and registers with their full names and functions</li>
+<li>Be able to describe the fetch-decode-execute cycle step by step</li>
+<li>Remember: PC = next instruction address, CIR = current instruction, ACC = calculation result</li>
+<li>For performance questions, discuss clock speed, cores, AND cache</li>
+<li>Never say "more cores = double the speed" - explain parallel processing carefully</li>
+<li>Know the direction of each bus: address = one way, data and control = both ways</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../computer-systems/CS26-programming-languages-translators.html" class="nav-prev">← Previous Topic: Programming Languages & Translators</a>
+<a href="../computer-systems/CS28-memory-storage.html" class="nav-next">Next Topic: Memory & Storage →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

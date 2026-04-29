@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subroutines - GCSE Computer Science</title>
+<meta name="description" content="Learn about procedures, functions, parameters, return values, local vs global variables and modularity for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Subroutines</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS12: Subroutines</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Understanding procedures, functions, parameters, return values, local vs global variables, and the benefits of structured programming.</p>
+</article>
+
+<section class="section">
+<h2>📋 What are Subroutines?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A subroutine is a named, self-contained block of code that performs a specific task. It is defined once and can be called (invoked) from anywhere in the program. Subroutines make code more organised, reusable, and easier to debug.
+</div>
+
+<p>There are two types of subroutines:</p>
+<ul>
+<li><strong>Procedures</strong> - perform an action but do not return a value</li>
+<li><strong>Functions</strong> - perform a calculation and return a value</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔲 Procedures</h2>
+
+<div class="key-point">
+<strong>A procedure</strong> is a subroutine that performs a task but does not return a value to the calling code. It may produce output, change variables, or modify data structures, but it doesn't send a result back.
+</div>
+
+<div class="example">
+<div class="example-title">Defining and Calling a Procedure</div>
+<pre>PROCEDURE greet(name)
+    OUTPUT "Hello, " &amp; name &amp; "!"
+ENDPROCEDURE
+
+// Calling the procedure
+greet("Alice")    // Output: Hello, Alice!
+greet("Bob")      // Output: Hello, Bob!</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Procedure with Multiple Parameters</div>
+<pre>PROCEDURE displayScore(name, score)
+    OUTPUT name &amp; " scored " &amp; STR(score) &amp; " points"
+ENDPROCEDURE
+
+displayScore("Alice", 95)    // Output: Alice scored 95 points
+displayScore("Bob", 72)      // Output: Bob scored 72 points</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔧 Functions</h2>
+
+<div class="key-point">
+<strong>A function</strong> is a subroutine that performs a calculation and <strong>returns a value</strong> to the calling code. The returned value can be stored in a variable, used in an expression, or output directly.
+</div>
+
+<div class="example">
+<div class="example-title">Defining and Calling a Function</div>
+<pre>FUNCTION calculateArea(length, width)
+    area &larr; length * width
+    RETURN area
+ENDFUNCTION
+
+// Calling the function and storing the result
+roomArea &larr; calculateArea(5, 4)
+OUTPUT "Area = " &amp; STR(roomArea)    // Area = 20</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Function in an Expression</div>
+<pre>FUNCTION circleArea(radius)
+    RETURN 3.14159 * radius * radius
+ENDFUNCTION
+
+// Using the function directly in output
+OUTPUT circleArea(10)    // 314.159</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Function with Conditional Return</div>
+<pre>FUNCTION getGrade(score)
+    IF score >= 90 THEN
+        RETURN "A*"
+    ELSEIF score >= 80 THEN
+        RETURN "A"
+    ELSEIF score >= 70 THEN
+        RETURN "B"
+    ELSE
+        RETURN "C or below"
+    ENDIF
+ENDFUNCTION
+
+OUTPUT getGrade(85)    // A</pre>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Procedure</th>
+<th>Function</th>
+</tr>
+<tr>
+<td>Returns a value?</td>
+<td>No</td>
+<td>Yes - must include RETURN</td>
+</tr>
+<tr>
+<td>How to call</td>
+<td>As a standalone statement</td>
+<td>As part of an expression or assignment</td>
+</tr>
+<tr>
+<td>Typical use</td>
+<td>Displaying output, modifying data</td>
+<td>Calculations, data lookups, conversions</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>displayMenu()</td>
+<td>calculateAverage(80, 90, 70)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📦 Parameters and Arguments</h2>
+
+<div class="key-point">
+<strong>Parameters</strong> are the variables listed in the subroutine definition. <strong>Arguments</strong> are the actual values passed to the subroutine when it is called. Parameters act as placeholders; arguments fill them with real data.
+</div>
+
+<div class="example">
+<div class="example-title">Parameters vs Arguments</div>
+<pre>// 'name' and 'age' are PARAMETERS (placeholders)
+PROCEDURE displayInfo(name, age)
+    OUTPUT name &amp; " is " &amp; STR(age) &amp; " years old"
+ENDPROCEDURE
+
+// "Alice" and 16 are ARGUMENTS (actual values)
+displayInfo("Alice", 16)</pre>
+</div>
+
+<div class="formula-box">
+<strong>Key Points:</strong><br>
+Parameters: defined in the subroutine header (variables)<br>
+Arguments: the actual values passed when calling (data)<br>
+The number and order of arguments must match the parameters<br>
+Each parameter acts as a local variable inside the subroutine
+</div>
+</section>
+
+<section class="section">
+<h2>🔙 Return Values</h2>
+
+<div class="key-point">
+<strong>The RETURN statement</strong> sends a value back from a function to the calling code. A function can only return one value, though that value could be an array or record. Once RETURN is executed, the function ends immediately.
+</div>
+
+<div class="example">
+<div class="example-title">Return Value Examples</div>
+<pre>FUNCTION add(a, b)
+    RETURN a + b              // Returns the sum
+ENDFUNCTION
+
+FUNCTION isEven(number)
+    IF number MOD 2 = 0 THEN
+        RETURN TRUE           // Returns Boolean TRUE
+    ELSE
+        RETURN FALSE          // Returns Boolean FALSE
+    ENDIF
+ENDFUNCTION
+
+FUNCTION maxOf(a, b)
+    IF a > b THEN
+        RETURN a
+    ELSE
+        RETURN b
+    ENDIF
+ENDFUNCTION
+
+result &larr; add(3, 7)         // result = 10
+check &larr; isEven(4)          // check = TRUE
+bigger &larr; maxOf(15, 8)      // bigger = 15</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🌍 Local vs Global Variables</h2>
+
+<div class="key-point">
+<strong>Global variables</strong> are accessible from anywhere in the program. <strong>Local variables</strong> exist only inside the subroutine where they are declared and cannot be accessed outside it.
+</div>
+
+<div class="example">
+<div class="example-title">Local vs Global Scope</div>
+<pre>counter &larr; 0                    // Global variable
+
+PROCEDURE increment()
+    localCount &larr; 0            // Local variable
+    counter &larr; counter + 1    // Modifies global
+    localCount &larr; localCount + 1
+    OUTPUT "Local: ", localCount
+ENDPROCEDURE
+
+increment()    // Output: Local: 1
+increment()    // Output: Local: 1 (localCount resets each call)
+OUTPUT "Global: ", counter    // Output: Global: 2</pre>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Local Variable</th>
+<th>Global Variable</th>
+</tr>
+<tr>
+<td>Where declared</td>
+<td>Inside a subroutine</td>
+<td>At the top level of the program</td>
+</tr>
+<tr>
+<td>Accessible from</td>
+<td>Only within that subroutine</td>
+<td>Anywhere in the program</td>
+</tr>
+<tr>
+<td>Lifetime</td>
+<td>Created and destroyed with each call</td>
+<td>Exists for the entire program run</td>
+</tr>
+<tr>
+<td>Risk of bugs</td>
+<td>Low - isolated scope</td>
+<td>High - can be changed accidentally</td>
+</tr>
+<tr>
+<td>Best practice</td>
+<td>Preferred - use local where possible</td>
+<td>Minimise use to avoid side effects</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Best practice:</strong> Use local variables wherever possible. Global variables can cause unexpected bugs because any part of the program can modify them. Local variables keep data safe and contained within their subroutine.
+</div>
+</section>
+
+<section class="section">
+<h2>🏗️ Benefits of Structured Programming</h2>
+
+<div class="key-point">
+<strong>Structured programming</strong> uses subroutines to break a program into manageable, self-contained modules. This approach has several major benefits.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Benefit</th>
+<th>Explanation</th>
+</tr>
+<tr>
+<td>Reusability</td>
+<td>Write once, call many times. A calculateTax() function can be used in multiple places without rewriting the code.</td>
+</tr>
+<tr>
+<td>Readability</td>
+<td>Subroutine names describe what the code does. displayInvoice() is clearer than 50 lines of code.</td>
+</tr>
+<tr>
+<td>Debugging</td>
+<td>Test each subroutine independently. If a bug occurs, you know which subroutine to check.</td>
+</tr>
+<tr>
+<td>Teamwork</td>
+<td>Different programmers can work on different subroutines simultaneously.</td>
+</tr>
+<tr>
+<td>Maintainability</td>
+<td>Fix a bug in one place and it is fixed everywhere. Update one subroutine instead of finding every copy.</td>
+</tr>
+<tr>
+<td>Abstraction</td>
+<td>Call a subroutine without needing to know how it works internally. Just know what it does and what it returns.</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Key Principle:</strong><br>
+Decompose your program into subroutines where each one has a single, clear purpose. This is the foundation of structured programming and modularity.
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> What is the difference between a procedure and a function?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Write a function called calculatePerimeter that takes the length and width of a rectangle and returns the perimeter.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Explain the difference between a parameter and an argument.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is the advantage of using local variables instead of global variables?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Write a procedure called displayGrade that takes a score and outputs "Pass" if the score is 50 or above, or "Fail" otherwise.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>A procedure performs a task but does not return a value. A function performs a calculation and returns a value using the RETURN statement. Functions are used in expressions; procedures are called as standalone statements.</li>
+<li>
+<pre>FUNCTION calculatePerimeter(length, width)
+    perimeter &larr; 2 * (length + width)
+    RETURN perimeter
+ENDFUNCTION</pre>
+</li>
+<li>Parameters are the variable names listed in the subroutine definition (placeholders). Arguments are the actual values passed to the subroutine when it is called. For example, in FUNCTION add(a, b), a and b are parameters; when calling add(3, 5), the values 3 and 5 are arguments.</li>
+<li>Local variables can only be accessed within the subroutine where they are declared, which prevents accidental modification from other parts of the program. This reduces bugs and makes the code more predictable and maintainable.</li>
+<li>
+<pre>PROCEDURE displayGrade(score)
+    IF score >= 50 THEN
+        OUTPUT "Pass"
+    ELSE
+        OUTPUT "Fail"
+    ENDIF
+ENDPROCEDURE</pre>
+</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Functions MUST have a RETURN statement - procedures do not</li>
+<li>Use the correct keywords: FUNCTION/ENDFUNCTION and PROCEDURE/ENDPROCEDURE</li>
+<li>Parameters go in the subroutine header; arguments are passed when calling</li>
+<li>Prefer local variables over global variables - explain why in exams</li>
+<li>When asked about benefits of subroutines, mention: reusability, readability, debugging, teamwork, and maintainability</li>
+<li>A RETURN statement immediately ends the function - no code after it will execute</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS11-input-output-string-handling.html" class="nav-prev">← Previous: Input, Output &amp; String Handling</a>
+<a href="CS13-robust-secure-programming.html" class="nav-next">Next Topic: Robust &amp; Secure Programming →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

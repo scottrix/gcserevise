@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Converting Number Bases - GCSE Computer Science</title>
+<meta name="description" content="Learn how to convert between binary, decimal and hexadecimal for GCSE Computer Science. Free revision notes with step-by-step examples.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Data Representation</span> <span>›</span>
+<span>Converting Number Bases</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS16: Converting Number Bases</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Step-by-step methods for converting between binary, decimal and hexadecimal - the essential skill for GCSE Computer Science.</p>
+</article>
+
+<section class="section">
+<h2>📋 Overview of Conversions</h2>
+
+<div class="key-point">
+<strong>You need to be able to convert between all three number bases:</strong> decimal (base 10), binary (base 2), and hexadecimal (base 16). There are six possible conversions to master.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>From</th>
+<th>To</th>
+<th>Method</th>
+</tr>
+<tr>
+<td>Binary</td>
+<td>Decimal</td>
+<td>Add up positional values where bit is 1</td>
+</tr>
+<tr>
+<td>Decimal</td>
+<td>Binary</td>
+<td>Repeated division by 2 (or subtract largest power of 2)</td>
+</tr>
+<tr>
+<td>Hex</td>
+<td>Decimal</td>
+<td>Multiply each digit by its place value and add</td>
+</tr>
+<tr>
+<td>Decimal</td>
+<td>Hex</td>
+<td>Repeated division by 16</td>
+</tr>
+<tr>
+<td>Binary</td>
+<td>Hex</td>
+<td>Group bits into fours, convert each group</td>
+</tr>
+<tr>
+<td>Hex</td>
+<td>Binary</td>
+<td>Expand each hex digit to 4 bits</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>01️⃣➡️🔟 Binary to Decimal</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Write out the binary place values above each bit. Add up all the place values where there is a 1. Ignore positions with a 0.
+</div>
+
+<div class="formula-box">
+<strong>8-bit Place Values:</strong><br>
+128  64  32  16  8  4  2  1<br><br>
+For each bit position: if bit = 1, add the place value; if bit = 0, ignore it.
+</div>
+
+<div class="example">
+<div class="example-title">Convert 10110100 to decimal</div>
+<pre>Place values: 128  64  32  16   8   4   2   1
+Binary:         1   0   1   1   0   1   0   0
+
+128 + 0 + 32 + 16 + 0 + 4 + 0 + 0 = 180</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Convert 01101011 to decimal</div>
+<pre>Place values: 128  64  32  16   8   4   2   1
+Binary:         0   1   1   0   1   0   1   1
+
+0 + 64 + 32 + 0 + 8 + 0 + 2 + 1 = 107</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔟➡️01️⃣ Decimal to Binary</h2>
+
+<h3>Method 1: Repeated Division by 2</h3>
+
+<div class="key-point">
+<strong>Method:</strong> Repeatedly divide the decimal number by 2. Record the remainder each time (it will always be 0 or 1). Read the remainders from bottom to top to get the binary number.
+</div>
+
+<div class="example">
+<div class="example-title">Convert 107 to binary using division</div>
+<pre>107 / 2 = 53 remainder 1
+ 53 / 2 = 26 remainder 1
+ 26 / 2 = 13 remainder 0
+ 13 / 2 =  6 remainder 1
+  6 / 2 =  3 remainder 0
+  3 / 2 =  1 remainder 1
+  1 / 2 =  0 remainder 1</pre>
+<p>Read remainders from BOTTOM to TOP: <strong>1101011</strong></p>
+<p>In 8 bits: <strong>01101011</strong></p>
+</div>
+
+<h3>Method 2: Subtracting Powers of 2</h3>
+
+<div class="key-point">
+<strong>Method:</strong> Find the largest power of 2 that fits into the number. Subtract it and put a 1 in that position. Repeat with the remainder. Put 0s in positions where the power doesn't fit.
+</div>
+
+<div class="example">
+<div class="example-title">Convert 180 to binary using subtraction</div>
+<pre>180 - 128 = 52    → bit 7 = 1
+ 52 - 64 = can't  → bit 6 = 0
+ 52 - 32 = 20     → bit 5 = 1
+ 20 - 16 = 4      → bit 4 = 1
+  4 - 8 = can't   → bit 3 = 0
+  4 - 4 = 0       → bit 2 = 1
+  0 - 2 = can't   → bit 1 = 0
+  0 - 1 = can't   → bit 0 = 0</pre>
+<p>Result: <strong>10110100</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔢➡️🔟 Hex to Decimal</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Multiply each hex digit by its place value (powers of 16) and add the results together. Remember: A=10, B=11, C=12, D=13, E=14, F=15.
+</div>
+
+<div class="formula-box">
+<strong>Hex Place Values:</strong><br>
+Position:      2     1     0<br>
+Multiplier:   256    16     1<br><br>
+For each hex digit: multiply digit value by its place value, then add all results.
+</div>
+
+<div class="example">
+<div class="example-title">Convert 3C4 to decimal</div>
+<pre>3C4 = 3 x 256 + C x 16 + 4 x 1
+    = 3 x 256 + 12 x 16 + 4 x 1
+    = 768 + 192 + 4
+    = 964</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Convert FF to decimal</div>
+<pre>FF = F x 16 + F x 1
+   = 15 x 16 + 15 x 1
+   = 240 + 15
+   = 255</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔟➡️🔢 Decimal to Hex</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Repeatedly divide the decimal number by 16. Record the remainder each time. Convert remainders 10-15 to A-F. Read the remainders from bottom to top.
+</div>
+
+<div class="example">
+<div class="example-title">Convert 964 to hexadecimal</div>
+<pre>964 / 16 = 60 remainder 4
+ 60 / 16 =  3 remainder 12 (= C)
+  3 / 16 =  0 remainder 3</pre>
+<p>Read from bottom to top: <strong>3C4</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Convert 255 to hexadecimal</div>
+<pre>255 / 16 = 15 remainder 15 (= F)
+ 15 / 16 =  0 remainder 15 (= F)</pre>
+<p>Read from bottom to top: <strong>FF</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>01️⃣➡️🔢 Binary to Hex</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Group the binary digits into groups of 4, starting from the right. Convert each group of 4 bits to its hex equivalent. This works because 1 hex digit = exactly 4 binary bits.
+</div>
+
+<div class="example">
+<div class="example-title">Convert 11010110 to hex</div>
+<pre>Binary:  1101  0110
+Groups:   D     6</pre>
+<p>Result: <strong>D6</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Convert 1011001111010110 to hex</div>
+<pre>Binary:  1011  0011  1101  0110
+Groups:   B     3     D     6</pre>
+<p>Result: <strong>B3D6</strong></p>
+</div>
+
+<div class="key-point">
+<strong>Tip:</strong> If the binary number doesn't divide evenly into groups of 4, add leading zeros to the left. For example, 11010 becomes 0001 1010 = 1A.
+</div>
+</section>
+
+<section class="section">
+<h2>🔢➡️01️⃣ Hex to Binary</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Convert each hex digit to its 4-bit binary equivalent. Write the groups of 4 bits next to each other. This is the reverse of binary-to-hex.
+</div>
+
+<div class="example">
+<div class="example-title">Convert 7B to binary</div>
+<pre>7 = 0111
+B = 1011</pre>
+<p>Result: <strong>01111011</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Convert FACE to binary</div>
+<pre>F = 1111
+A = 1010
+C = 1100
+E = 1110</pre>
+<p>Result: <strong>1111101011001110</strong></p>
+</div>
+
+<div class="key-point">
+<strong>Tip:</strong> Always write each hex digit as exactly 4 bits, including leading zeros. So hex 3 = 0011, not just 11.
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Reading division remainders top-to-bottom</td>
+<td>The first remainder is the least significant bit</td>
+<td>Always read remainders from BOTTOM to TOP</td>
+</tr>
+<tr>
+<td>Not padding binary groups to 4 bits</td>
+<td>Hex 3 = 0011, not 11</td>
+<td>Always use 4 bits per hex digit, pad with leading zeros</td>
+</tr>
+<tr>
+<td>Grouping binary from left instead of right</td>
+<td>Wrong grouping gives wrong answer</td>
+<td>Always group from the RIGHT, add leading zeros to left group</td>
+</tr>
+<tr>
+<td>Forgetting A=10 through F=15</td>
+<td>Hex digits above 9 are letters</td>
+<td>Memorise: A=10, B=11, C=12, D=13, E=14, F=15</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Convert binary 11001010 to decimal.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Convert decimal 200 to binary (8 bits).</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Convert hex A5 to decimal.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Convert binary 111100001010 to hex.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Convert hex 2F to binary.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>128 + 64 + 0 + 0 + 8 + 0 + 2 + 0 = 202</li>
+<li>200 - 128 = 72, 72 - 64 = 8, 8 - 8 = 0. Binary: 11001000</li>
+<li>A x 16 + 5 x 1 = 10 x 16 + 5 = 160 + 5 = 165</li>
+<li>Group: 1111 0000 1010 = F0A</li>
+<li>2 = 0010, F = 1111. Binary: 00101111</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Write out the place values above each binary digit - it prevents mistakes</li>
+<li>For binary-to-hex, group from the RIGHT in groups of 4</li>
+<li>For hex-to-binary, always write 4 bits per hex digit (pad with zeros)</li>
+<li>Division remainders are read BOTTOM to TOP</li>
+<li>Practise all six conversions until they become automatic</li>
+<li>In the exam, show your working - you can get partial marks</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS15-number-bases.html" class="nav-prev">← Previous: Number Bases</a>
+<a href="CS17-units-information.html" class="nav-next">Next Topic: Units of Information →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

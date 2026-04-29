@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relational Databases - GCSE Computer Science</title>
+<meta name="description" content="Learn about tables, records, fields, primary keys, foreign keys and entity-relationship diagrams. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Databases & Impacts</span> <span>›</span>
+<span>Relational Databases</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS35: Relational Databases</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Databases & Impacts</span>
+</div>
+<p class="topic-desc">Database concepts including tables, records, fields, primary keys, foreign keys, and how relational databases eliminate data inconsistency and redundancy.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is a Database?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A database is an organised, structured collection of data that can be easily accessed, managed, and updated. A relational database stores data in multiple linked tables that relate to each other.
+</div>
+
+<p>Databases are used everywhere: schools store student records, shops store product and customer data, banks store account information. A well-designed database makes it easy to find, add, update, and delete data efficiently and accurately.</p>
+
+<ul>
+<li>Databases store data in a structured, organised way</li>
+<li>They allow efficient searching, sorting, and filtering</li>
+<li>Multiple users can access and update data simultaneously</li>
+<li>Data is kept consistent and accurate</li>
+<li>Relational databases link tables together using keys</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>📊 Database Structure</h2>
+
+<h3>Tables</h3>
+<div class="key-point">
+<strong>Definition:</strong> A table is a structured set of data organised in rows and columns. Each table stores data about one type of entity (e.g. a table for Students, a table for Courses).
+</div>
+
+<h3>Fields (Columns)</h3>
+<div class="key-point">
+<strong>Definition:</strong> A field is a single category of data within a table. Each field has a name and a data type (e.g. text, integer, date). A field stores one piece of information for each record.
+</div>
+
+<ul>
+<li>Each column in a table represents one field</li>
+<li>Fields have specific data types (text, number, date, Boolean)</li>
+<li>Examples: StudentID, FirstName, LastName, DateOfBirth</li>
+<li>Each field must have a unique name within its table</li>
+</ul>
+
+<h3>Records (Rows)</h3>
+<div class="key-point">
+<strong>Definition:</strong> A record is a single, complete set of data in a table. Each row represents one item or entity, containing values for every field.
+</div>
+
+<ul>
+<li>Each row in a table represents one record</li>
+<li>A record contains data for all fields in the table</li>
+<li>Each record should be uniquely identifiable</li>
+<li>Example: one student's complete information (ID, name, DOB, etc.)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example: Students Table</div>
+<table class="comparison-table">
+<tr>
+<th>StudentID</th>
+<th>FirstName</th>
+<th>LastName</th>
+<th>Form</th>
+<th>DateOfBirth</th>
+</tr>
+<tr>
+<td>1001</td>
+<td>Alice</td>
+<td>Smith</td>
+<td>10A</td>
+<td>2008-03-15</td>
+</tr>
+<tr>
+<td>1002</td>
+<td>Bob</td>
+<td>Jones</td>
+<td>10B</td>
+<td>2008-07-22</td>
+</tr>
+<tr>
+<td>1003</td>
+<td>Clara</td>
+<td>Patel</td>
+<td>10A</td>
+<td>2008-11-09</td>
+</tr>
+</table>
+<p>Fields: StudentID, FirstName, LastName, Form, DateOfBirth</p>
+<p>Records: 3 (one per student)</p>
+<p>Each cell contains one piece of data (one field value for one record)</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔑 Primary Keys</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A primary key is a field (or combination of fields) that uniquely identifies each record in a table. No two records can have the same primary key value. A primary key cannot be left empty (null).
+</div>
+
+<ul>
+<li>Must be unique - no two records share the same primary key value</li>
+<li>Cannot be null (empty) - every record must have a primary key value</li>
+<li>Usually a number (ID field) rather than a name (names may not be unique)</li>
+<li>Often auto-incremented (the database assigns the next number automatically)</li>
+<li>Every table should have a primary key</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Why Not Use Names as Primary Keys?</div>
+<p>In a school, two students could have the same name "John Smith." A name field would not be unique, so it cannot be a primary key. A StudentID like "1001" is unique - no two students share the same ID.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Composite Primary Key</div>
+<p>Sometimes a single field isn't enough to uniquely identify a record. A composite primary key uses two or more fields together to create uniqueness. Example: In an "Enrolments" table, neither StudentID nor CourseID alone is unique (a student takes many courses, a course has many students). But the combination of StudentID + CourseID is unique for each enrolment.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔗 Foreign Keys</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A foreign key is a field in one table that references the primary key of another table. It creates a link (relationship) between the two tables, allowing them to be connected.
+</div>
+
+<ul>
+<li>A foreign key in one table points to a primary key in another table</li>
+<li>It creates a relationship between tables</li>
+<li>Foreign key values must match an existing primary key value in the related table</li>
+<li>Foreign keys CAN be repeated (unlike primary keys)</li>
+<li>Foreign keys CAN be null (if the relationship is optional)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example: Linking Tables</div>
+<p><strong>Students Table:</strong></p>
+<table class="comparison-table">
+<tr>
+<th>StudentID (PK)</th>
+<th>FirstName</th>
+<th>LastName</th>
+<th>TutorGroupID (FK)</th>
+</tr>
+<tr>
+<td>1001</td>
+<td>Alice</td>
+<td>Smith</td>
+<td>TG01</td>
+</tr>
+<tr>
+<td>1002</td>
+<td>Bob</td>
+<td>Jones</td>
+<td>TG02</td>
+</tr>
+</table>
+<p><strong>TutorGroups Table:</strong></p>
+<table class="comparison-table">
+<tr>
+<th>TutorGroupID (PK)</th>
+<th>TutorName</th>
+<th>Room</th>
+</tr>
+<tr>
+<td>TG01</td>
+<td>Mr Williams</td>
+<td>R12</td>
+</tr>
+<tr>
+<td>TG02</td>
+<td>Mrs Khan</td>
+<td>R15</td>
+</tr>
+</table>
+<p>The TutorGroupID field in the Students table is a foreign key that references the primary key in the TutorGroups table. This links each student to their tutor group.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📈 Entity-Relationship Diagrams</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> An entity-relationship (E-R) diagram is a visual representation of the data and relationships in a database. It shows entities (tables), their attributes (fields), and how they relate to each other.
+</div>
+
+<h3>Components of an E-R Diagram</h3>
+<ul>
+<li><strong>Entity:</strong> A thing about which data is stored (represented by a rectangle). Each entity becomes a table.</li>
+<li><strong>Attribute:</strong> A property of an entity (represented by an oval, or listed inside the rectangle). Each attribute becomes a field.</li>
+<li><strong>Relationship:</strong> A link between entities (represented by a line connecting them).</li>
+</ul>
+
+<h3>Types of Relationships</h3>
+
+<table class="comparison-table">
+<tr>
+<th>Relationship Type</th>
+<th>Notation</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>One-to-One</td>
+<td>1 : 1</td>
+<td>One record in table A relates to exactly one record in table B</td>
+<td>Person : Passport (one person has one passport)</td>
+</tr>
+<tr>
+<td>One-to-Many</td>
+<td>1 : M</td>
+<td>One record in table A relates to many records in table B</td>
+<td>Customer : Orders (one customer can have many orders)</td>
+</tr>
+<tr>
+<td>Many-to-Many</td>
+<td>M : N</td>
+<td>Many records in table A relate to many records in table B</td>
+<td>Students : Courses (many students take many courses)</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Important:</strong> Many-to-many relationships cannot be directly implemented in a relational database. They must be resolved using a linking (junction) table that breaks the M:N relationship into two 1:M relationships.
+</div>
+
+<div class="example">
+<div class="example-title">Resolving a Many-to-Many Relationship</div>
+<p>Students and Courses have a M:N relationship (many students take many courses; many courses have many students). We resolve this by creating an "Enrolments" linking table:</p>
+<p>Students 1 : M Enrolments M : 1 Courses</p>
+<p>The Enrolments table contains StudentID (FK) and CourseID (FK), forming a composite primary key.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>✂️ Eliminating Data Redundancy and Inconsistency</h2>
+
+<div class="key-point">
+<strong>Data Redundancy:</strong> Data redundancy is when the same data is stored in multiple places in a database. This wastes storage space and can lead to data inconsistency.
+</div>
+
+<div class="key-point">
+<strong>Data Inconsistency:</strong> Data inconsistency is when the same data has different values in different places. This happens when redundant data is updated in one place but not in others.
+</div>
+
+<h3>Problems with Redundant Data</h3>
+
+<div class="example">
+<div class="example-title">Example: Flat File with Redundancy</div>
+<table class="comparison-table">
+<tr>
+<th>OrderID</th>
+<th>CustomerName</th>
+<th>CustomerAddress</th>
+<th>Item</th>
+<th>Price</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Alice Smith</td>
+<td>12 Oak Lane</td>
+<td>Widget A</td>
+<td>5.00</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alice Smith</td>
+<td>12 Oak Lane</td>
+<td>Widget B</td>
+<td>7.50</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Alice Smith</td>
+<td>45 Elm Road</td>
+<td>Widget C</td>
+<td>3.00</td>
+</tr>
+</table>
+<p>Alice's address is stored three times (redundancy). In Order 3, her address is different from Orders 1 and 2 (inconsistency). Which is correct? We don't know.</p>
+</div>
+
+<h3>How Relational Databases Solve This</h3>
+<p>By splitting data into separate related tables, each piece of data is stored only ONCE:</p>
+
+<div class="example">
+<div class="example-title">Solution: Normalised Tables</div>
+<p><strong>Customers Table:</strong> CustomerID, CustomerName, CustomerAddress (stored ONCE)</p>
+<p><strong>Orders Table:</strong> OrderID, CustomerID (FK), Item, Price</p>
+<p>Alice's address is stored in only one place. If she moves, we update it once in the Customers table. No redundancy, no inconsistency.</p>
+</div>
+
+<div class="formula-box">
+<strong>Benefits of Relational Databases:</strong><br>
+No redundancy: each piece of data stored only once<br>
+No inconsistency: one change updates everywhere via relationships<br>
+Smaller file sizes: less duplicated data<br>
+Easier maintenance: update one record, not many copies<br>
+Data integrity: foreign keys ensure valid relationships
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Using a name as a primary key</td>
+<td>Names are not necessarily unique</td>
+<td>Use a unique ID number as primary key</td>
+</tr>
+<tr>
+<td>Confusing primary key and foreign key</td>
+<td>They serve different purposes</td>
+<td>PK = uniquely identifies records; FK = links to another table's PK</td>
+</tr>
+<tr>
+<td>Saying foreign keys must be unique</td>
+<td>Foreign keys CAN repeat in a table</td>
+<td>Only primary keys must be unique; foreign keys can repeat</td>
+</tr>
+<tr>
+<td>Trying to create M:N relationship directly</td>
+<td>Relational databases don't support M:N directly</td>
+<td>Use a linking/junction table to resolve M:N</td>
+</tr>
+<tr>
+<td>Confusing fields and records</td>
+<td>Fields = columns; Records = rows</td>
+<td>Field = category of data; Record = one complete set of data</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Define the terms field, record, and table in the context of a database.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What is a primary key? Why is it important?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Explain the difference between a primary key and a foreign key.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is data redundancy and how does a relational database eliminate it?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> How would you resolve a many-to-many relationship in a relational database?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>A field is a single category of data in a table (a column). A record is a complete set of data for one entity in a table (a row). A table is a structured collection of related data organised in rows and columns.</li>
+<li>A primary key is a field that uniquely identifies each record in a table. It must be unique (no two records can have the same value) and cannot be null. It is important because it allows each record to be uniquely identified and retrieved, and it enables relationships between tables via foreign keys.</li>
+<li>A primary key uniquely identifies each record in its own table. A foreign key is a field in one table that references the primary key of another table, creating a link between them. Primary keys must be unique; foreign keys can repeat. Every table has one primary key; foreign keys only exist when there is a relationship between tables.</li>
+<li>Data redundancy is when the same data is stored in multiple places, wasting space and causing inconsistency. A relational database eliminates redundancy by splitting data into separate related tables, so each piece of data is stored only once. When data needs to be linked, foreign keys are used instead of duplicating the data.</li>
+<li>A many-to-many relationship is resolved by creating a linking (junction) table between the two entities. The linking table contains foreign keys referencing the primary keys of both tables, converting the M:N relationship into two 1:M relationships. For example, Students M:N Courses is resolved by creating an Enrolments table with StudentID (FK) and CourseID (FK).</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know the definitions: table, field, record, primary key, foreign key</li>
+<li>Primary key = unique identifier; Foreign key = link to another table</li>
+<li>Always explain WHY primary keys must be unique (to identify each record)</li>
+<li>For redundancy questions, give a concrete example of duplicated data</li>
+<li>Remember: M:N relationships need a linking table to resolve</li>
+<li>Be able to draw simple E-R diagrams showing 1:1, 1:M, and M:N relationships</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../cyber-security/CS34-detecting-preventing-cyber-threats.html" class="nav-prev">← Previous Topic: Detecting & Preventing Cyber Threats</a>
+<a href="../databases-impacts/CS36-sql.html" class="nav-next">Next Topic: SQL →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

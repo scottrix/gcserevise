@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Types - GCSE Computer Science</title>
+<meta name="description" content="Learn about data types, type casting and conversion for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Data Types</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS6: Data Types</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Understanding the five main data types, type casting, and why choosing the right data type matters for memory and validation.</p>
+</article>
+
+<section class="section">
+<h2>📋 The Five Data Types</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A data type defines the kind of data a variable can hold. Choosing the correct data type ensures data is stored efficiently and prevents errors.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Data Type</th>
+<th>Description</th>
+<th>Examples</th>
+<th>Memory</th>
+</tr>
+<tr>
+<td>Integer</td>
+<td>A whole number (no decimal point)</td>
+<td>42, -7, 0, 1000</td>
+<td>2 or 4 bytes</td>
+</tr>
+<tr>
+<td>Real / Float</td>
+<td>A number with a decimal point</td>
+<td>3.14, -0.5, 9.81</td>
+<td>4 or 8 bytes</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td>Can only be TRUE or FALSE</td>
+<td>TRUE, FALSE</td>
+<td>1 byte</td>
+</tr>
+<tr>
+<td>Character</td>
+<td>A single symbol (letter, digit, punctuation)</td>
+<td>'A', '7', '?', 'z'</td>
+<td>1 byte (ASCII)</td>
+</tr>
+<tr>
+<td>String</td>
+<td>A sequence of characters (text)</td>
+<td>"Hello", "CS123", ""</td>
+<td>Variable (1 byte per char)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔢 Integer</h2>
+
+<div class="key-point">
+<strong>Integer</strong> stores whole numbers only - no decimal points. Use integer for counts, ages, positions, and any value that cannot logically be fractional.
+</div>
+
+<div class="example">
+<div class="example-title">Integer Examples</div>
+<pre>age &larr; 16
+score &larr; 0
+lives &larr; 3
+temperature &larr; -5</pre>
+</div>
+
+<div class="key-point">
+<strong>Common mistake:</strong> Storing 3.14 as an integer would lose the decimal part, storing only 3. If a value needs decimal precision, use Real/Float instead.
+</div>
+</section>
+
+<section class="section">
+<h2>📐 Real / Float</h2>
+
+<div class="key-point">
+<strong>Real (or Float)</strong> stores numbers with a decimal point. Use real for measurements, prices, averages, and scientific calculations where precision matters.
+</div>
+
+<div class="example">
+<div class="example-title">Real Examples</div>
+<pre>pi &larr; 3.14159
+price &larr; 9.99
+average &larr; 67.5
+gravity &larr; 9.81</pre>
+</div>
+
+<div class="formula-box">
+<strong>Important:</strong><br>
+Real division (/) always returns a decimal result.<br>
+7 / 2 = 3.5 (real division)<br>
+7 DIV 2 = 3 (integer division - truncates the decimal)
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Boolean</h2>
+
+<div class="key-point">
+<strong>Boolean</strong> can only hold one of two values: TRUE or FALSE. Use boolean for flags, conditions, and yes/no questions.
+</div>
+
+<div class="example">
+<div class="example-title">Boolean Examples</div>
+<pre>isLoggedIn &larr; FALSE
+hasPassed &larr; TRUE
+gameOver &larr; FALSE
+isValid &larr; TRUE</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Boolean in Conditions</div>
+<pre>IF hasPassed = TRUE THEN
+    OUTPUT "Congratulations!"
+ELSE
+    OUTPUT "Try again"
+ENDIF</pre>
+<p>This is equivalent to:</p>
+<pre>IF hasPassed THEN
+    OUTPUT "Congratulations!"
+ENDIF</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔤 Character</h2>
+
+<div class="key-point">
+<strong>Character</strong> stores exactly one symbol - a single letter, digit, or special character. Characters are enclosed in single quotes.
+</div>
+
+<div class="example">
+<div class="example-title">Character Examples</div>
+<pre>grade &larr; 'A'
+separator &larr; ','
+digit &larr; '7'
+symbol &larr; '&amp;'</pre>
+</div>
+
+<div class="key-point">
+<strong>Distinction:</strong> A character '5' is NOT the same as the integer 5. The character '5' has the ASCII code 53, while the integer 5 has the value five. They are stored and processed differently.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 String</h2>
+
+<div class="key-point">
+<strong>String</strong> stores a sequence of zero or more characters. Strings are enclosed in double quotes. An empty string "" contains no characters.
+</div>
+
+<div class="example">
+<div class="example-title">String Examples</div>
+<pre>name &larr; "Alice"
+message &larr; "Hello, World!"
+empty &larr; ""
+serialNumber &larr; "CS-2024-001"</pre>
+</div>
+
+<div class="example">
+<div class="example-title">String Operations</div>
+<pre>greeting &larr; "Hello" &amp; " " &amp; "World"   // Concatenation
+len &larr; LENGTH("Computer")              // len = 8
+sub &larr; SUBSTRING("Computer", 0, 3)    // sub = "Com"
+pos &larr; POSITION("Hello", "ll")        // pos = 2</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔄 Type Casting and Conversion</h2>
+
+<div class="key-point">
+<strong>Type casting</strong> means converting a value from one data type to another. This is necessary when performing operations that require specific types, or when reading input that arrives as a string.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Conversion</th>
+<th>Function</th>
+<th>Example</th>
+<th>Result</th>
+</tr>
+<tr>
+<td>String to Integer</td>
+<td>INT()</td>
+<td>INT("42")</td>
+<td>42</td>
+</tr>
+<tr>
+<td>String to Real</td>
+<td>FLOAT()</td>
+<td>FLOAT("3.14")</td>
+<td>3.14</td>
+</tr>
+<tr>
+<td>Integer to String</td>
+<td>STR()</td>
+<td>STR(42)</td>
+<td>"42"</td>
+</tr>
+<tr>
+<td>Real to Integer</td>
+<td>INT()</td>
+<td>INT(3.99)</td>
+<td>3 (truncates, does not round)</td>
+</tr>
+<tr>
+<td>Integer to Real</td>
+<td>FLOAT()</td>
+<td>FLOAT(7)</td>
+<td>7.0</td>
+</tr>
+<tr>
+<td>Character to Code</td>
+<td>ASC()</td>
+<td>ASC('A')</td>
+<td>65</td>
+</tr>
+<tr>
+<td>Code to Character</td>
+<td>CHR()</td>
+<td>CHR(65)</td>
+<td>'A'</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Type Casting in Practice</div>
+<pre>INPUT userAge             // userAge is received as a string "16"
+age &larr; INT(userAge)     // Convert to integer 16
+age &larr; age + 1         // Now we can do arithmetic: age = 17
+OUTPUT "Next year you will be " &amp; STR(age)  // Convert back to string for output</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>💾 Why Data Types Matter</h2>
+
+<h3>1. Memory Efficiency</h3>
+<div class="key-point">
+Choosing the right data type saves memory. A Boolean needs only 1 byte, while a string might need many bytes. Using a string to store "TRUE" instead of a Boolean wastes memory.
+</div>
+
+<h3>2. Validation</h3>
+<div class="example">
+<div class="example-title">Data Types Prevent Errors</div>
+<p>If age is declared as an integer, the program will reject "hello" as input because it cannot be stored as an integer. The data type acts as a first line of validation.</p>
+<pre>age &larr; INT(INPUT("Enter age: "))
+// If user enters "hello", this will cause an error
+// If user enters "16", age becomes the integer 16</pre>
+</div>
+
+<h3>3. Correct Operations</h3>
+<div class="example">
+<div class="example-title">Operations Depend on Type</div>
+<pre>a &larr; 5 + 3       // Integer addition: a = 8
+b &larr; "5" + "3"   // String concatenation: b = "53"
+c &larr; 5 / 2       // Real division: c = 2.5
+d &larr; 5 DIV 2     // Integer division: d = 2</pre>
+<p>The + operator does different things depending on the data type!</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Using string for numeric data</td>
+<td>Cannot perform arithmetic on strings</td>
+<td>Cast to integer or real first</td>
+</tr>
+<tr>
+<td>Using integer for decimal values</td>
+<td>Loses the decimal part</td>
+<td>Use real/float instead</td>
+</tr>
+<tr>
+<td>Confusing '5' and 5</td>
+<td>Character vs integer - different operations</td>
+<td>Remember quotes mean character/string</td>
+</tr>
+<tr>
+<td>Not casting input</td>
+<td>INPUT usually returns a string</td>
+<td>Use INT() or FLOAT() to convert</td>
+</tr>
+<tr>
+<td>INT(3.9) expecting 4</td>
+<td>INT() truncates, it does not round</td>
+<td>Use rounding functions if needed</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Name the five main data types and give an example value for each.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What is the difference between the integer 7 and the string "7"?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> What is the result of INT("25") + INT("10")?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Why should you store a person's age as an integer rather than a string?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Write pseudo-code that asks the user for a number, converts it to a real, divides it by 2, and outputs the result.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Integer: 42, Real/Float: 3.14, Boolean: TRUE, Character: 'A', String: "Hello".</li>
+<li>The integer 7 can be used in mathematical operations (7 + 3 = 10). The string "7" is text and would concatenate ("7" + "3" = "73"). They are stored and processed differently.</li>
+<li>INT("25") = 25, INT("10") = 10, so 25 + 10 = 35.</li>
+<li>Storing age as an integer allows arithmetic (e.g. checking if age >= 18), saves memory, and validates that the input is a whole number. A string age cannot be compared numerically.</li>
+<li>
+<pre>INPUT userInput
+num &larr; FLOAT(userInput)
+result &larr; num / 2
+OUTPUT result</pre>
+</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all five data types and be able to give appropriate examples</li>
+<li>Use single quotes for characters ('A') and double quotes for strings ("Hello")</li>
+<li>Remember INT() truncates - it does NOT round</li>
+<li>INPUT usually returns a string - you must cast it for arithmetic</li>
+<li>When asked why data types matter, mention memory, validation, and correct operations</li>
+<li>Be careful with + operator: it adds numbers but concatenates strings</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../algorithms/CS5-trace-tables.html" class="nav-prev">← Previous: Trace Tables</a>
+<a href="CS7-programming-constructs.html" class="nav-next">Next Topic: Programming Constructs →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

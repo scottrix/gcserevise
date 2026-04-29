@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programming Languages & Translators - GCSE Computer Science</title>
+<meta name="description" content="Learn about machine code, assembly language, high-level languages, compilers, interpreters and assemblers. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Computer Systems</span> <span>›</span>
+<span>Programming Languages & Translators</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS26: Programming Languages & Translators</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Computer Systems</span>
+</div>
+<p class="topic-desc">Machine code, assembly language, high-level languages, and the translators that convert between them.</p>
+</article>
+
+<section class="section">
+<h2>📋 Levels of Programming Languages</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Programming languages exist at different levels of abstraction from the hardware. Low-level languages are close to what the CPU understands. High-level languages are closer to human language and abstract away hardware details.
+</div>
+
+<p>There are three main levels of programming language:</p>
+<ul>
+<li><strong>Machine code</strong> - the lowest level, binary instructions the CPU executes directly</li>
+<li><strong>Assembly language</strong> - low level, uses mnemonics (short words) instead of binary</li>
+<li><strong>High-level languages</strong> - closest to human language, abstract away hardware details</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔢 Machine Code</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Machine code is the fundamental language of the computer, consisting entirely of binary (0s and 1s). It is the only language the CPU can execute directly without translation.
+</div>
+
+<ul>
+<li>Represented in binary - each instruction is a sequence of bits</li>
+<li>Each CPU architecture has its own machine code (not portable)</li>
+<li>Very difficult for humans to read, write, or debug</li>
+<li>Execution is fast because no translation is needed</li>
+<li>Each instruction typically contains an opcode (operation) and an operand (data/address)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A machine code instruction might look like: <code>10110000 01100001</code></p>
+<p>The first byte (10110000) is the opcode - it tells the CPU to move data. The second byte (01100001) is the operand - the value 97 in decimal. Together, this instruction means "move the value 97 into a register."</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚙️ Assembly Language</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Assembly language is a low-level programming language that uses mnemonics (short, memorable codes) to represent machine code instructions. Each mnemonic corresponds to exactly one machine code instruction.
+</div>
+
+<ul>
+<li>Uses mnemonics instead of binary - much easier for humans</li>
+<li>One-to-one relationship with machine code instructions</li>
+<li>Still specific to a CPU architecture (not portable)</li>
+<li>Gives direct control over hardware (registers, memory addresses)</li>
+<li>Must be translated to machine code by an assembler before execution</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Common Mnemonics</div>
+<table class="comparison-table">
+<tr>
+<th>Mnemonic</th>
+<th>Meaning</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>MOV</td>
+<td>Move</td>
+<td>Copies a value to a register or memory location</td>
+</tr>
+<tr>
+<td>ADD</td>
+<td>Add</td>
+<td>Adds a value to a register</td>
+</tr>
+<tr>
+<td>SUB</td>
+<td>Subtract</td>
+<td>Subtracts a value from a register</td>
+</tr>
+<tr>
+<td>CMP</td>
+<td>Compare</td>
+<td>Compares two values and sets flags</td>
+</tr>
+<tr>
+<td>JMP</td>
+<td>Jump</td>
+<td>Jumps to another instruction (unconditional)</td>
+</tr>
+<tr>
+<td>JE</td>
+<td>Jump if Equal</td>
+<td>Jumps if the previous comparison was equal</td>
+</tr>
+<tr>
+<td>LD</td>
+<td>Load</td>
+<td>Loads data from memory into a register</td>
+</tr>
+<tr>
+<td>ST</td>
+<td>Store</td>
+<td>Stores data from a register into memory</td>
+</tr>
+</table>
+</div>
+</section>
+
+<section class="section">
+<h2>🌐 High-Level Languages</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> High-level languages are programming languages designed to be easy for humans to read and write. They use English-like keywords and abstract away hardware details like memory addresses and registers.
+</div>
+
+<ul>
+<li>Use English-like syntax (IF, WHILE, FOR, PRINT)</li>
+<li>One high-level statement may translate to many machine code instructions</li>
+<li>Portable - code can run on different CPU architectures with recompilation</li>
+<li>Easier to learn, read, write, and debug</li>
+<li>Must be translated to machine code by a compiler or interpreter</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Examples of High-Level Languages</div>
+<p><strong>Python:</strong> <code>print("Hello World")</code></p>
+<p><strong>Java:</strong> <code>System.out.println("Hello World");</code></p>
+<p><strong>C#:</strong> <code>Console.WriteLine("Hello World");</code></p>
+<p>Each of these simple one-line statements might translate to dozens of machine code instructions. The high-level language hides this complexity from the programmer.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ Comparing Language Levels</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>Machine Code</th>
+<th>Assembly Language</th>
+<th>High-Level Language</th>
+</tr>
+<tr>
+<td>Format</td>
+<td>Binary (0s and 1s)</td>
+<td>Mnemonics (MOV, ADD)</td>
+<td>English-like statements</td>
+</tr>
+<tr>
+<td>Translation needed</td>
+<td>None (CPU executes directly)</td>
+<td>Assembler</td>
+<td>Compiler or interpreter</td>
+</tr>
+<tr>
+<td>Portability</td>
+<td>Not portable (CPU-specific)</td>
+<td>Not portable (CPU-specific)</td>
+<td>Portable (with recompilation)</td>
+</tr>
+<tr>
+<td>Ease of reading</td>
+<td>Very difficult</td>
+<td>Difficult</td>
+<td>Easy</td>
+</tr>
+<tr>
+<td>Ease of writing</td>
+<td>Very difficult</td>
+<td>Moderate</td>
+<td>Easy</td>
+</tr>
+<tr>
+<td>Debugging</td>
+<td>Very difficult</td>
+<td>Difficult</td>
+<td>Easier</td>
+</tr>
+<tr>
+<td>Execution speed</td>
+<td>Fastest</td>
+<td>Fast</td>
+<td>Slower (translation overhead)</td>
+</tr>
+<tr>
+<td>Hardware control</td>
+<td>Direct, complete control</td>
+<td>Direct, complete control</td>
+<td>Limited (abstracted)</td>
+</tr>
+<tr>
+<td>Lines of code for same task</td>
+<td>Most</td>
+<td>Many</td>
+<td>Fewest</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔄 Translators</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A translator is a program that converts code written in one programming language into another. The three types are: compiler, interpreter, and assembler.
+</div>
+
+<h3>Compiler</h3>
+<p>A compiler translates the entire source code of a high-level language into machine code all at once, creating an executable file.</p>
+
+<ul>
+<li>Translates ALL the source code before execution</li>
+<li>Produces a standalone executable file (.exe)</li>
+<li>The executable can be run many times without recompiling</li>
+<li>Syntax errors are found during compilation (before running)</li>
+<li>Optimises code for faster execution</li>
+<li>Source code is hidden (only the executable is distributed)</li>
+<li>Slower compilation, but faster execution</li>
+</ul>
+
+<h3>Interpreter</h3>
+<p>An interpreter translates and executes source code one line at a time, without creating a separate executable file.</p>
+
+<ul>
+<li>Translates and executes ONE LINE at a time</li>
+<li>No executable file is created</li>
+<li>Must be re-interpreted each time the program runs</li>
+<li>Errors are found during execution (at runtime)</li>
+<li>Execution is slower than compiled code</li>
+<li>Easier to debug (errors found at the exact line)</li>
+<li>Source code must be present each time the program runs</li>
+</ul>
+
+<h3>Assembler</h3>
+<p>An assembler translates assembly language (mnemonics) into machine code (binary).</p>
+
+<ul>
+<li>Translates mnemonics into binary machine code</li>
+<li>One-to-one translation (each mnemonic = one machine code instruction)</li>
+<li>Produces an object file that can be executed</li>
+<li>Specific to a CPU architecture</li>
+</ul>
+
+<div class="formula-box">
+<strong>Translator Summary:</strong><br>
+Compiler: All source code → Machine code (executable) → Run<br>
+Interpreter: Source code line 1 → Execute → Source code line 2 → Execute → ...<br>
+Assembler: Assembly mnemonics → Machine code (object file) → Run
+</div>
+</section>
+
+<section class="section">
+<h2>📊 Compiler vs Interpreter</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>Compiler</th>
+<th>Interpreter</th>
+</tr>
+<tr>
+<td>Translation</td>
+<td>All at once, before running</td>
+<td>One line at a time, during running</td>
+</tr>
+<tr>
+<td>Output</td>
+<td>Creates executable file</td>
+<td>No executable file created</td>
+</tr>
+<tr>
+<td>Execution speed</td>
+<td>Fast (already translated)</td>
+<td>Slow (translating while running)</td>
+</tr>
+<tr>
+<td>Error detection</td>
+<td>Before running (compile time)</td>
+<td>During running (runtime)</td>
+</tr>
+<tr>
+<td>Distribution</td>
+<td>Share executable (source hidden)</td>
+<td>Must share source code</td>
+</tr>
+<tr>
+<td>Debugging</td>
+<td>Harder (error in compiled output)</td>
+<td>Easier (errors found at exact line)</td>
+</tr>
+<tr>
+<td>Re-running</td>
+<td>No recompilation needed</td>
+<td>Must re-interpret every time</td>
+</tr>
+<tr>
+<td>Platform dependence</td>
+<td>Executable is platform-specific</td>
+<td>Source code is platform-independent</td>
+</tr>
+<tr>
+<td>Examples</td>
+<td>C, C++, Java (to bytecode)</td>
+<td>Python, JavaScript, Ruby</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Note:</strong> Some languages use both. Java is first compiled to bytecode, then the bytecode is interpreted by the Java Virtual Machine (JVM). This gives some of the advantages of both approaches.
+</div>
+</section>
+
+<section class="section">
+<h2>🤔 When to Use Each Translator</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Scenario</th>
+<th>Best Translator</th>
+<th>Why</th>
+</tr>
+<tr>
+<td>Developing a commercial application</td>
+<td>Compiler</td>
+<td>Creates fast executable; source code is protected</td>
+</tr>
+<tr>
+<td>Learning to program / debugging</td>
+<td>Interpreter</td>
+<td>Immediate feedback; errors found at exact line</td>
+</tr>
+<tr>
+<td>Writing device drivers</td>
+<td>Assembler</td>
+<td>Need direct hardware control and speed</td>
+</tr>
+<tr>
+<td>Web development (client-side)</td>
+<td>Interpreter</td>
+<td>JavaScript is interpreted in the browser</td>
+</tr>
+<tr>
+<td>Embedded systems</td>
+<td>Assembler / Compiler</td>
+<td>Need speed and hardware control; limited resources</td>
+</tr>
+<tr>
+<td>Rapid prototyping</td>
+<td>Interpreter</td>
+<td>Quick testing and modification without recompilation</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "compilers are faster"</td>
+<td>Compilation is slow; execution of compiled code is fast</td>
+<td>Be precise: compiled CODE runs faster</td>
+</tr>
+<tr>
+<td>Saying "interpreters find errors before running"</td>
+<td>Interpreters find errors during execution (runtime)</td>
+<td>Compilers find errors before running; interpreters during</td>
+</tr>
+<tr>
+<td>Confusing assembler with assembly language</td>
+<td>Assembly language IS a language; assembler IS a translator</td>
+<td>Assembly = language; Assembler = translator program</td>
+</tr>
+<tr>
+<td>Saying all high-level languages use compilers</td>
+<td>Some use interpreters (Python, JavaScript)</td>
+<td>Match the language to its typical translator</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Explain the difference between machine code and assembly language.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Compare a compiler and an interpreter in terms of how they translate code and when they find errors.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Why might a programmer choose to write in assembly language instead of a high-level language?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is the role of an assembler?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Give two advantages and two disadvantages of using a high-level language compared to assembly language.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Machine code is binary (0s and 1s) that the CPU executes directly. Assembly language uses mnemonics (short text codes like MOV, ADD) that are easier for humans to read. Each mnemonic corresponds to one machine code instruction. Assembly must be translated by an assembler.</li>
+<li>A compiler translates all source code into machine code at once, creating an executable. It finds syntax errors during compilation (before running). An interpreter translates and executes one line at a time. It finds errors at runtime (while the program is running).</li>
+<li>To have direct control over hardware (registers, memory addresses), to write very fast-executing code, or to write code for embedded systems with limited resources where high-level languages may be too resource-heavy.</li>
+<li>An assembler is a translator program that converts assembly language code (mnemonics) into machine code (binary). It performs a one-to-one translation where each mnemonic becomes one machine code instruction.</li>
+<li>Advantages: easier to read/write/debug, portable across different platforms, one statement does more work (fewer lines needed). Disadvantages: slower execution (needs translation), less direct hardware control, the programmer doesn't control exactly what the CPU does.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know the three language levels and their key characteristics</li>
+<li>Be able to compare compiler vs interpreter across all key properties</li>
+<li>Remember: assembly language is the LANGUAGE, assembler is the TRANSLATOR</li>
+<li>Use specific examples of high-level languages (Python, Java, C++)</li>
+<li>When asked "when to use each," consider: need for speed, hardware control, portability, debugging</li>
+<li>Machine code is the ONLY language the CPU understands directly</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../computer-systems/CS25-software-classification.html" class="nav-prev">← Previous Topic: Software Classification</a>
+<a href="../computer-systems/CS27-systems-architecture.html" class="nav-next">Next Topic: Systems Architecture →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber Security Threats - GCSE Computer Science</title>
+<meta name="description" content="Learn about social engineering, malware, phishing, and other cyber security threats. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Cyber Security</span> <span>›</span>
+<span>Cyber Security Threats</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS33: Cyber Security Threats</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Cyber Security</span>
+</div>
+<p class="topic-desc">Social engineering techniques, types of malware, and other common cyber security threats and how they can combine.</p>
+</article>
+
+<section class="section">
+<h2>📋 Social Engineering</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Social engineering is manipulating people into revealing confidential information or performing actions that compromise security. It exploits human psychology rather than technical vulnerabilities.
+</div>
+
+<p>Social engineering attacks target the weakest link in any security system: people. No matter how strong the technical security, a person can be tricked into giving away their password or clicking a malicious link.</p>
+
+<h3>Blagging (Pretexting)</h3>
+<div class="key-point">
+<strong>Definition:</strong> Blagging is inventing a false scenario (pretext) to trick someone into revealing information. The attacker creates a convincing story to gain the victim's trust.
+</div>
+
+<ul>
+<li>Attacker creates a fake identity or scenario</li>
+<li>Common pretext: pretending to be from a bank, IT support, or authority</li>
+<li>Aims to extract personal data, passwords, or financial details</li>
+<li>Often done by phone but can be in person or by email</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>An attacker phones an employee claiming to be from the IT department: "We've detected unusual activity on your account. I need you to confirm your password so we can secure it." The employee, trusting the caller's authority, gives their password. The attacker now has access to the system.</p>
+</div>
+
+<h3>Phishing</h3>
+<div class="key-point">
+<strong>Definition:</strong> Phishing is sending fraudulent emails that appear to come from a trusted source, designed to trick recipients into revealing personal information, clicking malicious links, or downloading malware.
+</div>
+
+<ul>
+<li>Mass emails sent to many people (casting a wide "net")</li>
+<li>Emails look like they come from banks, companies, or authorities</li>
+<li>Often contain urgent or threatening language ("Your account will be closed!")</li>
+<li>Include links to fake websites that look like the real ones</li>
+<li>Spear phishing: targeted at a specific individual using personal details</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>An email appears to be from PayPal: "We noticed suspicious activity on your account. Click here to verify your identity." The link goes to a fake PayPal website that captures the victim's username and password when they try to log in.</p>
+</div>
+
+<h3>Shouldering (Shoulder Surfing)</h3>
+<div class="key-point">
+<strong>Definition:</strong> Shouldering is directly observing someone's screen or keyboard to obtain personal information, such as passwords or PIN numbers, by looking over their shoulder.
+</div>
+
+<ul>
+<li>Attacker physically watches the victim type</li>
+<li>Common in public places: cafes, trains, airports</li>
+<li>Can capture passwords, PINs, confidential data on screen</li>
+<li>Low-tech but effective method</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>Someone on a train looks over a business person's shoulder as they type their email password and read a confidential document on their laptop. The observer now has the password and has seen sensitive information.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🦠 Malware</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Malware (malicious software) is any software deliberately designed to cause damage to a computer, server, client, or network. Different types of malware have different purposes and methods.
+</div>
+
+<h3>Viruses</h3>
+<ul>
+<li>Attaches itself to a legitimate program or file</li>
+<li>Requires a host file to spread - cannot spread on its own</li>
+<li>Activated when the host file is opened or run</li>
+<li>Can replicate by attaching to other files</li>
+<li>May delete files, corrupt data, or display messages</li>
+<li>Spread through email attachments, infected USB drives, or downloads</li>
+</ul>
+
+<h3>Trojans</h3>
+<ul>
+<li>Disguised as legitimate, useful software</li>
+<li>Does NOT replicate itself (unlike a virus)</li>
+<li>User intentionally downloads and installs it, thinking it's safe</li>
+<li>Once installed, it performs malicious actions in the background</li>
+<li>Can create backdoors for remote access, steal data, or install other malware</li>
+<li>Named after the Trojan Horse from Greek mythology</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A user downloads what appears to be a free game. When they install it, the game works normally, but a trojan hidden within it silently records their keystrokes and sends their passwords to the attacker.</p>
+</div>
+
+<h3>Spyware</h3>
+<ul>
+<li>Secretly monitors and collects user activity and data</li>
+<li>Can record keystrokes (keylogger), capture screenshots, or track web browsing</li>
+<li>Sends the collected data back to the attacker</li>
+<li>Often installed without the user's knowledge (bundled with other software)</li>
+<li>Used to steal passwords, credit card details, and personal information</li>
+</ul>
+
+<h3>Ransomware</h3>
+<ul>
+<li>Encrypts the victim's files, making them inaccessible</li>
+<li>Displays a message demanding payment (ransom) for the decryption key</li>
+<li>Often demands payment in cryptocurrency (difficult to trace)</li>
+<li>Can spread across networks, affecting many computers</li>
+<li>Paying the ransom does NOT guarantee files will be decrypted</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>The WannaCry ransomware attack in 2017 encrypted files on over 200,000 computers across 150 countries. Victims saw a message demanding Bitcoin payment to unlock their files. Many organisations, including the NHS, were severely affected.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Malware Type</th>
+<th>How It Spreads</th>
+<th>Primary Purpose</th>
+<th>Replicates?</th>
+</tr>
+<tr>
+<td>Virus</td>
+<td>Attached to host files</td>
+<td>Damage, corruption</td>
+<td>Yes (needs host)</td>
+</tr>
+<tr>
+<td>Trojan</td>
+<td>Disguised as legitimate software</td>
+<td>Backdoor access, data theft</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Spyware</td>
+<td>Bundled with other software</td>
+<td>Monitoring, data collection</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ransomware</td>
+<td>Email attachments, exploits</td>
+<td>Extortion (encrypt files for ransom)</td>
+<td>Varies</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🌐 Other Cyber Security Threats</h2>
+
+<h3>Pharming</h3>
+<div class="key-point">
+<strong>Definition:</strong> Pharming redirects users to a fake website even when they type the correct URL. It manipulates the DNS (Domain Name System) so that the legitimate web address points to the attacker's server.
+</div>
+
+<ul>
+<li>More sophisticated than phishing - no fake email needed</li>
+<li>Victim types the real URL but is taken to a fake site</li>
+<li>Achieved by modifying DNS entries or the host file on the victim's computer</li>
+<li>The fake website looks identical to the real one</li>
+<li>Used to capture login credentials and financial data</li>
+</ul>
+
+<h3>Weak and Default Passwords</h3>
+<ul>
+<li>Many users choose simple, easily guessable passwords (123456, password)</li>
+<li>Default passwords on devices (routers, IoT devices) are often not changed</li>
+<li>Attackers can find default passwords online for any device model</li>
+<li>Brute force attacks try every possible password combination</li>
+<li>Dictionary attacks try common words and password lists</li>
+</ul>
+
+<h3>Misconfigured Access Rights</h3>
+<ul>
+<li>Users given more access permissions than they need</li>
+<li>Former employees' accounts not deactivated when they leave</li>
+<li>Shared accounts where multiple people know the same credentials</li>
+<li>Admin access given to users who only need basic permissions</li>
+<li>Principle of least privilege: users should only have the minimum access needed</li>
+</ul>
+
+<h3>Removable Media</h3>
+<ul>
+<li>USB drives can carry malware that auto-runs when plugged in</li>
+<li>Lost or stolen USB drives can expose sensitive data</li>
+<li>Attackers may leave infected USB drives in public places (baiting)</li>
+<li>Unauthorised copying of data onto removable media (data theft)</li>
+</ul>
+
+<h3>Unpatched and Outdated Software</h3>
+<ul>
+<li>Software vulnerabilities are discovered regularly</li>
+<li>Patches and updates fix these security holes</li>
+<li>Unpatched software leaves known vulnerabilities open for attackers</li>
+<li>Attackers specifically target systems running outdated software</li>
+<li>Zero-day exploits attack vulnerabilities before a patch exists</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔗 How Threats Combine</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Cyber security threats rarely work in isolation. Attackers often combine multiple techniques to increase their chances of success. A social engineering attack might deliver malware, which then exploits unpatched software.
+</div>
+
+<div class="example">
+<div class="example-title">Combined Attack Scenario</div>
+<p><strong>Step 1:</strong> A phishing email (social engineering) is sent to employees of a company, appearing to be from HR with an "urgent policy update" attachment.</p>
+<p><strong>Step 2:</strong> An employee clicks the attachment, which installs a Trojan on their computer.</p>
+<p><strong>Step 3:</strong> The Trojan exploits an unpatched vulnerability in the system to gain administrator access.</p>
+<p><strong>Step 4:</strong> Using the misconfigured access rights (the employee had more permissions than needed), the malware spreads across the network.</p>
+<p><strong>Step 5:</strong> The attacker installs ransomware that encrypts all company files and demands payment.</p>
+<p>This single attack combined: phishing + Trojan + unpatched software + misconfigured access + ransomware.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Confusing virus and Trojan</td>
+<td>Viruses replicate; Trojans don't</td>
+<td>Virus = replicates via host file; Trojan = disguised software</td>
+</tr>
+<tr>
+<td>Confusing phishing and pharming</td>
+<td>Phishing tricks via email; pharming redirects URLs</td>
+<td>Phishing = fake email; Pharming = fake website redirect</td>
+</tr>
+<tr>
+<td>Saying "social engineering is a technical attack"</td>
+<td>It targets people, not technology</td>
+<td>Social engineering exploits human psychology</td>
+</tr>
+<tr>
+<td>Forgetting to mention how threats combine</td>
+<td>Real attacks often use multiple methods</td>
+<td>Explain how phishing can lead to malware, etc.</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Explain the difference between phishing and pharming.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Describe four types of malware and how each one works.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> What is social engineering? Describe blagging, phishing, and shouldering.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Why are weak and default passwords a security threat?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain how multiple cyber security threats could combine in a single attack.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Phishing sends fraudulent emails that appear to be from a trusted source, tricking users into clicking links to fake websites or revealing information. Pharming manipulates DNS so that even when the user types the correct URL, they are redirected to a fake website. Phishing requires the victim to click a link; pharming redirects automatically.</li>
+<li>Virus: attaches to a host file, replicates when the file is opened, can corrupt or delete data. Trojan: disguised as legitimate software, does not replicate, creates backdoors for attackers. Spyware: secretly monitors user activity, records keystrokes and sends data to attacker. Ransomware: encrypts files and demands payment for decryption.</li>
+<li>Social engineering manipulates people into revealing information or performing actions that compromise security. Blagging: inventing a false scenario to gain trust and extract information (e.g. pretending to be IT support). Phishing: sending fraudulent emails appearing to be from trusted sources. Shouldering: directly observing someone's screen or keyboard to capture passwords or data.</li>
+<li>Weak passwords (like 123456) can be easily guessed or cracked using brute force or dictionary attacks. Default passwords on devices are publicly known and can be found online, so any attacker can access a device if the default password hasn't been changed.</li>
+<li>A phishing email (social engineering) tricks a user into opening an attachment that installs a Trojan. The Trojan exploits unpatched software to gain elevated access. Because of misconfigured access rights, the malware spreads across the network. The attacker then installs ransomware to encrypt files and demand payment. This combines social engineering + malware + unpatched software + misconfigured access + ransomware.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know each social engineering technique with specific examples</li>
+<li>Distinguish clearly between virus, Trojan, spyware, and ransomware</li>
+<li>Phishing = email; Pharming = URL redirect (know the difference)</li>
+<li>Always explain that social engineering targets PEOPLE, not technology</li>
+<li>Be prepared to explain how multiple threats combine in an attack</li>
+<li>Use specific, realistic examples rather than vague descriptions</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../networks/CS32-network-security.html" class="nav-prev">← Previous Topic: Network Security</a>
+<a href="../cyber-security/CS34-detecting-preventing-cyber-threats.html" class="nav-next">Next Topic: Detecting & Preventing Cyber Threats →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

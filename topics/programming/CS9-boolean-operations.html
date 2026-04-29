@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boolean Operations - GCSE Computer Science</title>
+<meta name="description" content="Learn about NOT, AND, OR truth tables, De Morgan's Laws and Boolean precedence for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Boolean Operations</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS9: Boolean Operations</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Master NOT, AND, OR truth tables, combining Boolean operators in conditions, De Morgan's Laws, and operator precedence.</p>
+</article>
+
+<section class="section">
+<h2>📋 What are Boolean Operations?</h2>
+
+<div class="key-point">
+<strong>Boolean operations</strong> work on Boolean values (TRUE and FALSE) to produce a Boolean result. They are used to combine or invert conditions in IF statements and WHILE loops.
+</div>
+
+<p>The three Boolean operators are:</p>
+<ul>
+<li><strong>NOT</strong> - inverts (reverses) a Boolean value</li>
+<li><strong>AND</strong> - returns TRUE only if BOTH operands are TRUE</li>
+<li><strong>OR</strong> - returns TRUE if at least ONE operand is TRUE</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔄 NOT</h2>
+
+<div class="key-point">
+<strong>NOT</strong> reverses a Boolean value. NOT TRUE = FALSE, NOT FALSE = TRUE. It is used to invert a condition.
+</div>
+
+<table class="comparison-table">
+<tr><th>A</th><th>NOT A</th></tr>
+<tr><td>TRUE</td><td>FALSE</td></tr>
+<tr><td>FALSE</td><td>TRUE</td></tr>
+</table>
+
+<div class="example">
+<div class="example-title">NOT in Pseudo-code</div>
+<pre>isRaining &larr; TRUE
+IF NOT isRaining THEN
+    OUTPUT "Let's go outside!"
+ELSE
+    OUTPUT "Stay inside"
+ENDIF
+// Output: "Stay inside" (because NOT TRUE = FALSE)</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔗 AND</h2>
+
+<div class="key-point">
+<strong>AND</strong> returns TRUE only when BOTH conditions are TRUE. If either one is FALSE, the result is FALSE.
+</div>
+
+<table class="comparison-table">
+<tr><th>A</th><th>B</th><th>A AND B</th></tr>
+<tr><td>TRUE</td><td>TRUE</td><td>TRUE</td></tr>
+<tr><td>TRUE</td><td>FALSE</td><td>FALSE</td></tr>
+<tr><td>FALSE</td><td>TRUE</td><td>FALSE</td></tr>
+<tr><td>FALSE</td><td>FALSE</td><td>FALSE</td></tr>
+</table>
+
+<div class="example">
+<div class="example-title">AND in Pseudo-code</div>
+<pre>IF age >= 18 AND hasID = TRUE THEN
+    OUTPUT "You can buy alcohol"
+ELSE
+    OUTPUT "You cannot buy alcohol"
+ENDIF
+// Both conditions must be TRUE to allow the purchase</pre>
+</div>
+
+<div class="formula-box">
+<strong>AND Rule:</strong><br>
+Think of AND as a strict gatekeeper.<br>
+TRUE AND TRUE = TRUE (both pass)<br>
+Anything else = FALSE (at least one fails)
+</div>
+</section>
+
+<section class="section">
+<h2>🔀 OR</h2>
+
+<div class="key-point">
+<strong>OR</strong> returns TRUE when at least ONE condition is TRUE. Only returns FALSE when BOTH conditions are FALSE.
+</div>
+
+<table class="comparison-table">
+<tr><th>A</th><th>B</th><th>A OR B</th></tr>
+<tr><td>TRUE</td><td>TRUE</td><td>TRUE</td></tr>
+<tr><td>TRUE</td><td>FALSE</td><td>TRUE</td></tr>
+<tr><td>FALSE</td><td>TRUE</td><td>TRUE</td></tr>
+<tr><td>FALSE</td><td>FALSE</td><td>FALSE</td></tr>
+</table>
+
+<div class="example">
+<div class="example-title">OR in Pseudo-code</div>
+<pre>IF day = "Saturday" OR day = "Sunday" THEN
+    OUTPUT "It's the weekend!"
+ELSE
+    OUTPUT "It's a weekday"
+ENDIF
+// Only one condition needs to be TRUE</pre>
+</div>
+
+<div class="formula-box">
+<strong>OR Rule:</strong><br>
+Think of OR as a lenient gatekeeper.<br>
+FALSE OR FALSE = FALSE (both fail)<br>
+Anything else = TRUE (at least one passes)
+</div>
+</section>
+
+<section class="section">
+<h2>🧮 Combining Boolean Operators</h2>
+
+<div class="key-point">
+<strong>You can combine multiple Boolean operators</strong> in a single condition. Use brackets to make the order of evaluation clear.
+</div>
+
+<div class="example">
+<div class="example-title">Combining AND and OR</div>
+<pre>IF (age >= 18 AND hasID = TRUE) OR isMember = TRUE THEN
+    OUTPUT "Access granted"
+ENDIF</pre>
+<p>Access is granted if: (over 18 AND has ID) OR is a member.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Complex Condition</div>
+<pre>IF (score >= 70 OR coursework >= 80) AND attendance >= 90 THEN
+    OUTPUT "Pass with merit"
+ENDIF</pre>
+<p>Pass with merit requires: (high score OR high coursework) AND good attendance.</p>
+</div>
+
+<div class="key-point">
+<strong>Brackets matter!</strong> The condition "A AND B OR C" is ambiguous. It could mean "(A AND B) OR C" or "A AND (B OR C)" which give different results. Always use brackets to make your intention clear.
+</div>
+
+<div class="example">
+<div class="example-title">Brackets Change the Result</div>
+<p>Let A = FALSE, B = FALSE, C = TRUE</p>
+<p>(A AND B) OR C = (FALSE AND FALSE) OR TRUE = FALSE OR TRUE = <strong>TRUE</strong></p>
+<p>A AND (B OR C) = FALSE AND (FALSE OR TRUE) = FALSE AND TRUE = <strong>FALSE</strong></p>
+<p>Same values, different result - brackets matter!</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📐 De Morgan's Laws</h2>
+
+<div class="key-point">
+<strong>De Morgan's Laws</strong> allow you to simplify complex Boolean expressions by "distributing" NOT over AND/OR. They state that the opposite of an AND expression is an OR expression of the opposites, and vice versa.
+</div>
+
+<div class="formula-box">
+<strong>De Morgan's Laws:</strong><br>
+NOT (A AND B) = (NOT A) OR (NOT B)<br>
+NOT (A OR B) = (NOT A) AND (NOT B)<br><br>
+When you push NOT through AND, it becomes OR (and vice versa).<br>
+Each individual condition is also negated.
+</div>
+
+<div class="example">
+<div class="example-title">De Morgan's Law Example 1</div>
+<p><strong>Original:</strong> NOT (age >= 18 AND hasID = TRUE)</p>
+<p>This means: it is NOT the case that both age >= 18 AND has ID.</p>
+<p><strong>Applying De Morgan's:</strong> (age &lt; 18) OR (hasID = FALSE)</p>
+<p>This means: either too young OR no ID - same meaning, simpler expression!</p>
+</div>
+
+<div class="example">
+<div class="example-title">De Morgan's Law Example 2</div>
+<p><strong>Original:</strong> NOT (raining = TRUE OR snowing = TRUE)</p>
+<p>This means: it is NOT the case that it is raining OR snowing.</p>
+<p><strong>Applying De Morgan's:</strong> (raining = FALSE) AND (snowing = FALSE)</p>
+<p>This means: it is not raining AND it is not snowing - same meaning!</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Original Expression</th>
+<th>De Morgan Equivalent</th>
+<th>English Meaning</th>
+</tr>
+<tr>
+<td>NOT (x > 0 AND x &lt; 100)</td>
+<td>x &lt;= 0 OR x >= 100</td>
+<td>x is outside the range 0-100</td>
+</tr>
+<tr>
+<td>NOT (a = TRUE OR b = TRUE)</td>
+<td>a = FALSE AND b = FALSE</td>
+<td>Both a and b are false</td>
+</tr>
+<tr>
+<td>NOT (age >= 18 AND hasPassport)</td>
+<td>age &lt; 18 OR NOT hasPassport</td>
+<td>Either too young or no passport</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📊 Operator Precedence</h2>
+
+<div class="key-point">
+<strong>Boolean operators have an order of precedence:</strong> NOT is evaluated first, then AND, then OR. Use brackets to override this order.
+</div>
+
+<div class="formula-box">
+<strong>Full Precedence (highest to lowest):</strong><br>
+1. Brackets ()<br>
+2. NOT<br>
+3. AND<br>
+4. OR<br><br>
+So "NOT A OR B AND C" means "(NOT A) OR (B AND C)"
+</div>
+
+<div class="example">
+<div class="example-title">Precedence Example</div>
+<pre>NOT TRUE OR TRUE AND FALSE</pre>
+<p>Step 1: NOT TRUE = FALSE</p>
+<p>Step 2: TRUE AND FALSE = FALSE</p>
+<p>Step 3: FALSE OR FALSE = <strong>FALSE</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Using AND when you mean OR</td>
+<td>"age &lt; 13 AND age > 19" is always FALSE</td>
+<td>Use OR: "age &lt; 13 OR age > 19"</td>
+</tr>
+<tr>
+<td>Forgetting brackets with mixed operators</td>
+<td>A AND B OR C is ambiguous</td>
+<td>Write (A AND B) OR C explicitly</td>
+</tr>
+<tr>
+<td>NOT (A AND B) = NOT A AND NOT B</td>
+<td>This is WRONG - De Morgan says OR, not AND</td>
+<td>NOT (A AND B) = NOT A OR NOT B</td>
+</tr>
+<tr>
+<td>Double negation confusion</td>
+<td>NOT NOT TRUE = TRUE, but it's confusing</td>
+<td>Simplify: remove double NOTs</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Complete the truth table for A AND B where A = TRUE, B = FALSE.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Evaluate: NOT (TRUE OR FALSE)</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Use De Morgan's Laws to simplify: NOT (x >= 0 AND x &lt;= 100)</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write a condition that checks if a person is eligible for a student discount (age &lt; 18 OR hasStudentCard = TRUE) AND isShopping = TRUE.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Evaluate step by step: NOT FALSE AND TRUE OR FALSE</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>TRUE AND FALSE = FALSE. Both must be TRUE for AND to return TRUE.</li>
+<li>TRUE OR FALSE = TRUE. Then NOT TRUE = FALSE.</li>
+<li>Using De Morgan's: NOT(x >= 0) OR NOT(x &lt;= 100) = x &lt; 0 OR x > 100.</li>
+<li>
+<pre>IF (age &lt; 18 OR hasStudentCard = TRUE) AND isShopping = TRUE THEN
+    OUTPUT "Student discount applied"
+ENDIF</pre>
+</li>
+<li>Step 1: NOT FALSE = TRUE (NOT has highest precedence). Step 2: TRUE AND TRUE = TRUE (AND next). Step 3: TRUE OR FALSE = TRUE (OR lowest). Result: TRUE.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Memorise the truth tables for NOT, AND, and OR</li>
+<li>AND needs BOTH to be TRUE; OR needs at least ONE</li>
+<li>Use brackets whenever combining AND and OR in the same condition</li>
+<li>De Morgan's: NOT(AND) becomes OR of NOTs, NOT(OR) becomes AND of NOTs</li>
+<li>Precedence: NOT first, then AND, then OR</li>
+<li>When simplifying conditions, apply De Morgan's Laws to make code clearer</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS8-arithmetic-relational-operations.html" class="nav-prev">← Previous: Arithmetic &amp; Relational Operations</a>
+<a href="CS10-data-structures.html" class="nav-next">Next Topic: Data Structures →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

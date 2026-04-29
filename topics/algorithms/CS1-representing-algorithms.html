@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Representing Algorithms - GCSE Computer Science</title>
+<meta name="description" content="Learn about pseudo-code, flowcharts, decomposition and abstraction for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Algorithms</span> <span>›</span>
+<span>Representing Algorithms</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS1: Representing Algorithms</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">How to write and represent algorithms using pseudo-code, flowcharts, decomposition, and abstraction.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is an Algorithm?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> An algorithm is a step-by-step set of instructions that solves a specific problem. It must be finite, unambiguous, and produce a correct result for all valid inputs.
+</div>
+
+<p>Algorithms can be represented in several ways:</p>
+<ul>
+<li><strong>Pseudo-code</strong> - a text-based description using structured English and programming-like constructs</li>
+<li><strong>Flowcharts</strong> - a visual representation using standard symbols</li>
+<li><strong>Programming languages</strong> - actual code in Python, Java, etc.</li>
+</ul>
+
+<div class="formula-box">
+<strong>Key Principle:</strong><br>
+An algorithm must be:<br>
+Finite - it has a definite end<br>
+Unambiguous - each step has exactly one meaning<br>
+Input - it has defined inputs (zero or more)<br>
+Output - it produces at least one output<br>
+Correct - it solves the problem for all valid inputs
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Pseudo-code Conventions</h2>
+
+<div class="key-point">
+<strong>Pseudo-code</strong> is not a real programming language. It uses structured English with programming constructs to describe algorithms without worrying about syntax rules.
+</div>
+
+<h3>Assignment</h3>
+<div class="example">
+<div class="example-title">Assignment Example</div>
+<pre>name &larr; "Alice"
+age &larr; 16
+total &larr; price * quantity</pre>
+</div>
+
+<h3>Selection (IF/ELSE)</h3>
+<div class="example">
+<div class="example-title">IF/ELSE Example</div>
+<pre>IF age >= 18 THEN
+    OUTPUT "You can vote"
+ELSE
+    OUTPUT "You cannot vote"
+ENDIF</pre>
+</div>
+
+<h3>Iteration (FOR loop)</h3>
+<div class="example">
+<div class="example-title">FOR Loop Example</div>
+<pre>FOR counter &larr; 1 TO 10
+    OUTPUT counter
+NEXT counter</pre>
+</div>
+
+<h3>Iteration (WHILE loop)</h3>
+<div class="example">
+<div class="example-title">WHILE Loop Example</div>
+<pre>WHILE password &lt;&gt; "secret"
+    INPUT "Enter password: ", password
+ENDWHILE</pre>
+</div>
+
+<h3>Iteration (REPEAT loop)</h3>
+<div class="example">
+<div class="example-title">REPEAT UNTIL Example</div>
+<pre>REPEAT
+    INPUT "Enter age (1-120): ", age
+UNTIL age >= 1 AND age <= 120</pre>
+</div>
+
+<h3>Input and Output</h3>
+<div class="example">
+<div class="example-title">I/O Example</div>
+<pre>INPUT "Enter your name: ", name
+OUTPUT "Hello " &amp; name</pre>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Construct</th>
+<th>Pseudo-code Syntax</th>
+<th>Purpose</th>
+</tr>
+<tr>
+<td>Assignment</td>
+<td>variable &larr; value</td>
+<td>Store a value in a variable</td>
+</tr>
+<tr>
+<td>Input</td>
+<td>INPUT prompt, variable</td>
+<td>Get data from the user</td>
+</tr>
+<tr>
+<td>Output</td>
+<td>OUTPUT expression</td>
+<td>Display data to the user</td>
+</tr>
+<tr>
+<td>Selection</td>
+<td>IF...THEN...ELSE...ENDIF</td>
+<td>Make a decision</td>
+</tr>
+<tr>
+<td>Counted loop</td>
+<td>FOR...TO...NEXT</td>
+<td>Repeat a set number of times</td>
+</tr>
+<tr>
+<td>Condition loop</td>
+<td>WHILE...ENDWHILE</td>
+<td>Repeat while condition is true</td>
+</tr>
+<tr>
+<td>Post-test loop</td>
+<td>REPEAT...UNTIL</td>
+<td>Repeat until condition is true</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔀 Flowchart Symbols</h2>
+
+<div class="key-point">
+<strong>Flowcharts</strong> use standard symbols to represent different types of operations in an algorithm. Each symbol has a specific meaning.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Name</th>
+<th>Shape</th>
+<th>Purpose</th>
+<th>Example Content</th>
+</tr>
+<tr>
+<td>Terminator</td>
+<td>Oval / Rounded rectangle</td>
+<td>START and END of the algorithm</td>
+<td>START, STOP</td>
+</tr>
+<tr>
+<td>Process</td>
+<td>Rectangle</td>
+<td>Calculations, assignments, operations</td>
+<td>total &larr; total + 1</td>
+</tr>
+<tr>
+<td>Decision</td>
+<td>Diamond</td>
+<td>Yes/No or True/False questions</td>
+<td>Is age >= 18?</td>
+</tr>
+<tr>
+<td>Input/Output</td>
+<td>Parallelogram</td>
+<td>Getting input or producing output</td>
+<td>INPUT name, OUTPUT result</td>
+</tr>
+<tr>
+<td>Flow lines</td>
+<td>Arrows</td>
+<td>Show the direction of flow</td>
+<td>Arrows connecting symbols</td>
+</tr>
+</table>
+
+<h3>Flowchart Example</h3>
+<div class="example">
+<div class="example-title">Checking if a number is positive</div>
+<pre>START
+  |
+INPUT number
+  |
+IS number >= 0?
+  |-- YES --&gt; OUTPUT "Positive or zero"
+  |-- NO  --&gt; OUTPUT "Negative"
+  |
+STOP</pre>
+</div>
+
+<div class="formula-box">
+<strong>Flowchart Rules:</strong><br>
+Every flowchart must have exactly one START and at least one STOP<br>
+Decision boxes must have exactly TWO exits (Yes and No)<br>
+Flow lines must connect symbols in the correct order<br>
+Flow direction should be top-to-bottom and left-to-right<br>
+All flow lines must have arrows showing direction
+</div>
+</section>
+
+<section class="section">
+<h2>🧩 Decomposition</h2>
+
+<div class="key-point">
+<strong>Decomposition</strong> means breaking down a complex problem into smaller, more manageable sub-problems. Each sub-problem can be solved independently and then combined to solve the original problem.
+</div>
+
+<h3>Why Decompose?</h3>
+<ul>
+<li>Makes complex problems easier to understand and solve</li>
+<li>Allows different people to work on different sub-problems simultaneously</li>
+<li>Makes debugging easier - you can test each part separately</li>
+<li>Allows code to be reused in other programs</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Decomposition Example: Making a Quiz Game</div>
+<p><strong>Big problem:</strong> Create a quiz game</p>
+<p><strong>Sub-problems:</strong></p>
+<ul>
+<li>1. Store the questions and answers</li>
+<li>2. Display a question to the user</li>
+<li>3. Get the user's answer</li>
+<li>4. Check if the answer is correct</li>
+<li>5. Update the score</li>
+<li>6. Check if the quiz is finished</li>
+<li>7. Display the final score</li>
+</ul>
+</div>
+
+<div class="example">
+<div class="example-title">Decomposition Example: Student Registration System</div>
+<p><strong>Big problem:</strong> Build a student registration system</p>
+<p><strong>Sub-problems:</strong></p>
+<ul>
+<li>1. Input student personal details</li>
+<li>2. Validate the data entered</li>
+<li>3. Assign a unique student ID</li>
+<li>4. Store data in a database</li>
+<li>5. Generate a confirmation message</li>
+</ul>
+</div>
+</section>
+
+<section class="section">
+<h2>🔮 Abstraction</h2>
+
+<div class="key-point">
+<strong>Abstraction</strong> means removing unnecessary detail from a problem so you can focus on what matters. You include only the essential information needed to solve the problem and ignore everything else.
+</div>
+
+<h3>Why Use Abstraction?</h3>
+<ul>
+<li>Reduces complexity by removing irrelevant details</li>
+<li>Allows you to create general solutions that work for many similar problems</li>
+<li>Makes problems easier to model and understand</li>
+<li>Helps identify what data and processes are truly needed</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Abstraction Example: Weather Map</div>
+<p><strong>Full reality:</strong> A real landscape has buildings, people, animals, trees, roads, rivers...</p>
+<p><strong>Abstracted version (weather map):</strong> Only shows temperature, rainfall, wind direction - everything else is removed because it is not relevant to weather forecasting.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Abstraction Example: London Underground Map</div>
+<p>The tube map does not show exact geographical positions or distances. It abstracts away these details and only shows the order of stations and interchange points, which is what passengers actually need.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Real World</th>
+<th>Abstracted Model</th>
+<th>Removed Detail</th>
+</tr>
+<tr>
+<td>Physical road network</td>
+<td>Graph of nodes and edges</td>
+<td>Road surface, width, scenery</td>
+</tr>
+<tr>
+<td>A football match</td>
+<td>Score, time, teams</td>
+<td>Individual player movements, crowd noise</td>
+</tr>
+<tr>
+<td>A school</td>
+<td>Student records system</td>
+<td>Building layout, uniform colour</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📥 Identifying Inputs, Processing and Outputs</h2>
+
+<div class="key-point">
+<strong>Every algorithm</strong> can be analysed in terms of its inputs (what goes in), processing (what happens to it), and outputs (what comes out). Identifying these is the first step in designing any algorithm.
+</div>
+
+<div class="formula-box">
+<strong>Input - Process - Output (IPO)</strong><br>
+1. What data do I need? (INPUTS)<br>
+2. What do I need to do with it? (PROCESSING)<br>
+3. What should the result be? (OUTPUTS)
+</div>
+
+<div class="example">
+<div class="example-title">IPO Example: Calculating Average</div>
+<p><strong>Problem:</strong> Calculate the average of three test scores</p>
+<table class="comparison-table">
+<tr><th>Component</th><th>Description</th></tr>
+<tr><td>Input</td><td>Three test scores (score1, score2, score3)</td></tr>
+<tr><td>Processing</td><td>Add the three scores together, divide by 3</td></tr>
+<tr><td>Output</td><td>The average score</td></tr>
+</table>
+<pre>INPUT score1
+INPUT score2
+INPUT score3
+total &larr; score1 + score2 + score3
+average &larr; total / 3
+OUTPUT average</pre>
+</div>
+
+<div class="example">
+<div class="example-title">IPO Example: Password Checker</div>
+<p><strong>Problem:</strong> Check if a password is at least 8 characters long</p>
+<table class="comparison-table">
+<tr><th>Component</th><th>Description</th></tr>
+<tr><td>Input</td><td>A password string</td></tr>
+<tr><td>Processing</td><td>Find the length of the password, compare to 8</td></tr>
+<tr><td>Output</td><td>Whether the password is valid or not</td></tr>
+</table>
+<pre>INPUT password
+IF LENGTH(password) >= 8 THEN
+    OUTPUT "Password accepted"
+ELSE
+    OUTPUT "Password too short"
+ENDIF</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ Decomposition vs Abstraction</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Decomposition</th>
+<th>Abstraction</th>
+</tr>
+<tr>
+<td>What it does</td>
+<td>Breaks a problem into smaller parts</td>
+<td>Removes unnecessary detail</td>
+</tr>
+<tr>
+<td>Goal</td>
+<td>Make each part manageable</td>
+<td>Focus on essentials only</td>
+</tr>
+<tr>
+<td>Result</td>
+<td>Multiple sub-problems</td>
+<td>A simplified model</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>Splitting a game into graphics, logic, input</td>
+<td>Representing a city as just coordinates</td>
+</tr>
+<tr>
+<td>When to use</td>
+<td>Complex problems with many parts</td>
+<td>Problems with too much irrelevant detail</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> What shape is used in a flowchart to represent a decision?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Write pseudo-code that asks the user for a number and outputs "Even" if it is divisible by 2, or "Odd" if it is not.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Explain the difference between decomposition and abstraction.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> A program needs to calculate the area of a rectangle. Identify the inputs, processing and outputs.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Decompose the problem of creating an online shopping system into at least four sub-problems.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>A diamond shape is used to represent a decision in a flowchart.</li>
+<li>
+<pre>INPUT number
+IF number MOD 2 = 0 THEN
+    OUTPUT "Even"
+ELSE
+    OUTPUT "Odd"
+ENDIF</pre>
+</li>
+<li>Decomposition breaks a complex problem into smaller sub-problems that can be solved independently. Abstraction removes unnecessary detail so you can focus on what is essential to solve the problem.</li>
+<li>Inputs: length and width of the rectangle. Processing: multiply length by width. Output: the area of the rectangle.</li>
+<li>Sub-problems: 1) Browse/search products, 2) Add items to basket, 3) Process payment, 4) Manage delivery details, 5) Handle user accounts.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always use the correct pseudo-code keywords: IF, THEN, ELSE, ENDIF, WHILE, ENDWHILE, FOR, TO, NEXT</li>
+<li>Flowchart decision boxes must have exactly two exits (Yes/No)</li>
+<li>When asked to decompose, break the problem into at least 3-4 sub-problems</li>
+<li>When asked about abstraction, explain WHAT detail is removed and WHY</li>
+<li>Use the left-arrow symbol for assignment in pseudo-code, not =</li>
+<li>Remember: decomposition splits up, abstraction strips down</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="#" class="nav-prev">← Previous Topic</a>
+<a href="CS2-efficiency-algorithms.html" class="nav-next">Next Topic: Efficiency of Algorithms →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

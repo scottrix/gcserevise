@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Compression - GCSE Computer Science</title>
+<meta name="description" content="Learn about lossy and lossless compression, Huffman coding and run length encoding. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Data Representation</span> <span>›</span>
+<span>Data Compression</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS22: Data Compression</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Data Representation</span>
+</div>
+<p class="topic-desc">Lossy and lossless compression methods including Huffman coding and run length encoding, and when to use each type.</p>
+</article>
+
+<section class="section">
+<h2>📋 Why Compress Data?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Data compression reduces the number of bits needed to represent data. This saves storage space and reduces the time needed to transmit data over a network.
+</div>
+
+<p>Uncompressed files can be very large. A single uncompressed 3-minute CD-quality song is about 30 MB. A high-resolution photograph can be 50 MB or more. Compression makes files smaller so they take up less storage and can be transmitted faster.</p>
+
+<ul>
+<li>Reduces file size - saves storage space on disk</li>
+<li>Reduces transmission time - faster uploads and downloads</li>
+<li>Reduces bandwidth usage - cheaper for data-heavy applications</li>
+<li>Essential for streaming media (video, music) over the internet</li>
+<li>Two main types: lossy and lossless</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚖️ Lossy vs Lossless Compression</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>Lossy Compression</th>
+<th>Lossless Compression</th>
+</tr>
+<tr>
+<td>How it works</td>
+<td>Permanently removes data that is less important or noticeable</td>
+<td>Reduces file size without losing any data</td>
+</tr>
+<tr>
+<td>Data recovery</td>
+<td>Original data CANNOT be fully restored</td>
+<td>Original data CAN be fully restored</td>
+</tr>
+<tr>
+<td>Compression ratio</td>
+<td>Higher (much smaller files)</td>
+<td>Lower (moderately smaller files)</td>
+</tr>
+<tr>
+<td>Quality</td>
+<td>Some quality is lost</td>
+<td>No quality loss - exact original</td>
+</tr>
+<tr>
+<td>File examples</td>
+<td>JPEG, MP3, MP4</td>
+<td>PNG, FLAC, ZIP</td>
+</tr>
+<tr>
+<td>Typical use</td>
+<td>Streaming, web images, music</td>
+<td>Text files, code, medical images, archives</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Key Difference:</strong> Lossy compression discards some data permanently - you cannot get the original back. Lossless compression finds more efficient ways to represent the same data - the original can be perfectly reconstructed.
+</div>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A 50 MB uncompressed WAV file can be compressed to about 5 MB as an MP3 (lossy) or about 30 MB as a FLAC file (lossless). The MP3 loses audio detail that most listeners won't notice. The FLAC preserves every detail of the original recording.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🌳 Huffman Coding (Lossless)</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Huffman coding is a lossless compression algorithm that assigns shorter binary codes to more frequently occurring characters and longer codes to less frequent characters.
+</div>
+
+<h3>How Huffman Coding Works</h3>
+<ol>
+<li>Count the frequency of each character in the data</li>
+<li>Build a Huffman tree by repeatedly combining the two lowest-frequency nodes</li>
+<li>Assign binary codes: left branch = 0, right branch = 1</li>
+<li>More frequent characters get shorter codes (closer to the root)</li>
+<li>Less frequent characters get longer codes (further from the root)</li>
+</ol>
+
+<h3>Constructing a Huffman Tree - Step by Step</h3>
+
+<div class="example">
+<div class="example-title">Worked Example</div>
+<p><strong>Data: "ABRACADABRA"</strong></p>
+<p>Step 1: Count frequencies:</p>
+<p>A = 5, B = 2, R = 2, C = 1, D = 1</p>
+
+<p>Step 2: Build the tree (combine two lowest each time):</p>
+<p>Combine C(1) and D(1) → CD(2)</p>
+<p>Combine B(2) and R(2) → BR(4)</p>
+<p>Combine CD(2) and BR(4) → CDBR(6)</p>
+<p>Combine A(5) and CDBR(6) → root(11)</p>
+
+<p>Step 3: Assign codes (left=0, right=1):</p>
+<p>A = 0 (1 bit - most frequent)</p>
+<p>C = 100 (3 bits)</p>
+<p>D = 101 (3 bits)</p>
+<p>B = 110 (3 bits)</p>
+<p>R = 111 (3 bits)</p>
+</div>
+
+<h3>Calculating Bit Length with Huffman Coding</h3>
+
+<div class="example">
+<div class="example-title">Bit Length Calculation</div>
+<p>Using "ABRACADABRA" with the codes above:</p>
+<p>A(5 chars x 1 bit) = 5 bits</p>
+<p>B(2 chars x 3 bits) = 6 bits</p>
+<p>R(2 chars x 3 bits) = 6 bits</p>
+<p>C(1 char x 3 bits) = 3 bits</p>
+<p>D(1 char x 3 bits) = 3 bits</p>
+<p><strong>Total Huffman = 23 bits</strong></p>
+</div>
+
+<h3>Comparing to Fixed-Length Encoding</h3>
+
+<div class="example">
+<div class="example-title">Comparison</div>
+<p>With 5 distinct characters, fixed-length encoding needs 3 bits per character (2<sup>2</sup>=4 is too few, 2<sup>3</sup>=8 is enough).</p>
+<p>Fixed-length total = 11 characters x 3 bits = <strong>33 bits</strong></p>
+<p>Huffman total = <strong>23 bits</strong></p>
+<p>Saving = 33 - 23 = 10 bits (30.3% reduction)</p>
+</div>
+
+<div class="formula-box">
+<strong>Huffman Key Points:</strong><br>
+More frequent characters = shorter code<br>
+Less frequent characters = longer code<br>
+No code is a prefix of another (prefix-free property)<br>
+This means the encoded data can be uniquely decoded
+</div>
+</section>
+
+<section class="section">
+<h2>🔢 Run Length Encoding (RLE) (Lossless)</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Run length encoding (RLE) is a lossless compression method that replaces sequences of the same data value (runs) with a count and the value, stored as frequency/data pairs.
+</div>
+
+<h3>How RLE Works</h3>
+<p>RLE is most effective when data contains long runs of repeated values. Instead of storing each value individually, it stores the count followed by the value.</p>
+
+<div class="example">
+<div class="example-title">Example 1: Simple RLE</div>
+<p>Uncompressed: AAAAAABBCCCCCCDDDDDD</p>
+<p>Compressed with RLE: 6A2B6C6D</p>
+<p>Original = 20 characters; Compressed = 8 characters</p>
+<p>This is a significant saving because there are many repeated runs.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 2: RLE with Bitmap Images</div>
+<p>A row of a bitmap image with 1-bit colour depth:</p>
+<p>Uncompressed: 000000001111111100000000</p>
+<p>RLE: 0,8 1,8 0,8 (frequency,data pairs)</p>
+<p>Original = 24 values; Compressed = 6 values</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 3: When RLE Doesn't Work Well</div>
+<p>Data: ABCDEFGHIJKLMNOP</p>
+<p>RLE: 1A1B1C1D1E1F1G1H1I1J1K1L1M1N1O1P</p>
+<p>Original = 16 characters; Compressed = 32 characters</p>
+<p>RLE actually makes the file LARGER when there are no repeated runs. Each character needs a count of 1 plus the character itself.</p>
+</div>
+
+<div class="key-point">
+<strong>Important:</strong> RLE only works well when data has many consecutive repeated values. It is very effective for simple graphics with large areas of the same colour (like icons or diagrams) but poor for complex data with little repetition (like photographs or random data).
+</div>
+</section>
+
+<section class="section">
+<h2>🔄 When to Use Each Compression Type</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Scenario</th>
+<th>Best Compression</th>
+<th>Why</th>
+</tr>
+<tr>
+<td>Streaming music online</td>
+<td>Lossy (MP3)</td>
+<td>Small file size needed; slight quality loss acceptable</td>
+</tr>
+<tr>
+<td>Archiving important documents</td>
+<td>Lossless (ZIP)</td>
+<td>Must preserve exact data; no data loss acceptable</td>
+</tr>
+<tr>
+<td>Web page photographs</td>
+<td>Lossy (JPEG)</td>
+<td>Fast loading important; small visual difference OK</td>
+</tr>
+<tr>
+<td>Medical imaging (X-rays)</td>
+<td>Lossless (PNG)</td>
+<td>Every detail matters for diagnosis</td>
+</tr>
+<tr>
+<td>Simple bitmap with blocks of colour</td>
+<td>RLE</td>
+<td>Long runs of same colour compress very well</td>
+</tr>
+<tr>
+<td>Text with varying character frequencies</td>
+<td>Huffman coding</td>
+<td>Frequent characters get short codes, saving space</td>
+</tr>
+<tr>
+<td>Source code files</td>
+<td>Lossless (ZIP/Huffman)</td>
+<td>Code must be exact - no data loss acceptable</td>
+</tr>
+<tr>
+<td>Video streaming (Netflix, YouTube)</td>
+<td>Lossy (MP4/H.264)</td>
+<td>Massive size reduction needed; some quality loss OK</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Rule of Thumb:</strong> Use lossy when small file size matters more than perfect accuracy (media streaming, web images). Use lossless when data integrity is essential (documents, code, medical images). Use RLE when data has long runs of identical values. Use Huffman when characters have varying frequencies.
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "lossy compression is bad because it loses data"</td>
+<td>Lossy is ideal for many purposes where small size matters</td>
+<td>Consider the use case - streaming needs lossy</td>
+</tr>
+<tr>
+<td>Building Huffman tree incorrectly</td>
+<td>Must always combine the TWO lowest frequency nodes</td>
+<li>Sort frequencies ascending, combine lowest two first</li>
+</tr>
+<tr>
+<td>Forgetting RLE can increase file size</td>
+<td>RLE adds a count to every value, even singles</td>
+<td>RLE is only effective with long repeated runs</td>
+</tr>
+<tr>
+<td>Not comparing Huffman to fixed-length</td>
+<td>Exam questions often ask for the comparison</td>
+<td>Calculate both and show the saving</td>
+</tr>
+<tr>
+<td>Confusing Huffman with RLE</td>
+<td>They work on completely different principles</td>
+<td>Huffman = variable-length codes; RLE = frequency/data pairs</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Explain the difference between lossy and lossless compression.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> The string "MISSISSIPPI" has these character frequencies: M=1, I=4, S=4, P=2. Construct a Huffman tree and assign codes to each character.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Using the Huffman codes from Q2, calculate the total bit length of "MISSISSIPPI" and compare it to a fixed-length encoding.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Apply run length encoding to this bitmap row: 111110000011111</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain why RLE would not be a good compression method for a photograph.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Lossy compression permanently removes some data to achieve a smaller file size; the original cannot be restored. Lossless compression reduces file size without losing any data; the original can be perfectly reconstructed.</li>
+<li>Combine M(1) and P(2) → MP(3). Combine MP(3) and I(4) or S(4): e.g. MP(3) and one of the 4s → e.g. MP(3) + I(4) = MPI(7). Then MPI(7) + S(4) = root(11). Codes will vary depending on tree construction, but shorter codes for I and S, longer for M and P.</li>
+<li>With 4 characters, fixed-length needs 2 bits each. Fixed = 11 x 2 = 22 bits. Huffman depends on your tree from Q2, but should be fewer than 22 bits (likely around 18-19 bits). The saving comes from I and S having short codes.</li>
+<li>RLE: 5,1 5,0 5,1 (or 51150051 depending on notation). Original = 15 values; Compressed = 6 values.</li>
+<li>A photograph contains thousands of subtly different colours in adjacent pixels, with very few long runs of identical values. RLE would produce frequency/data pairs for nearly every pixel, making the compressed file similar in size to or larger than the original. Lossy compression (JPEG) is better for photographs.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know the difference between lossy and lossless and give examples of each</li>
+<li>Practise building Huffman trees step by step - show all stages</li>
+<li>Always compare Huffman encoding to fixed-length and calculate the saving</li>
+<li>Remember RLE uses frequency/data pairs - show the format clearly</li>
+<li>Explain WHY a compression method is suitable for a given scenario, not just which one</li>
+<li>For Huffman, remember: no code is a prefix of another code</li>
+<li>State that RLE can increase file size if data has few repeated runs</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../data-representation/CS21-representing-sound.html" class="nav-prev">← Previous Topic: Representing Sound</a>
+<a href="../computer-systems/CS23-hardware-software.html" class="nav-next">Next Topic: Hardware & Software →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

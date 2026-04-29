@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Units of Information - GCSE Computer Science</title>
+<meta name="description" content="Learn about bits, bytes, kilobytes and data size calculations for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Data Representation</span> <span>›</span>
+<span>Units of Information</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS17: Units of Information</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Understanding bits, bytes, and larger units; calculating file sizes; and comparing data quantities.</p>
+</article>
+
+<section class="section">
+<h2>📋 Fundamental Units</h2>
+
+<div class="key-point">
+<strong>A bit</strong> (binary digit) is the smallest unit of data in computing. It can hold exactly one of two values: 0 or 1. All data in a computer - text, images, sound, video - is ultimately stored as bits.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Unit</th>
+<th>Size</th>
+<th>What It Can Store</th>
+</tr>
+<tr>
+<td>Bit</td>
+<td>0 or 1</td>
+<td>A single binary digit: on/off, yes/no, true/false</td>
+</tr>
+<tr>
+<td>Byte</td>
+<td>8 bits</td>
+<td>A single character (in ASCII), a number from 0-255</td>
+</tr>
+<tr>
+<td>Nibble</td>
+<td>4 bits</td>
+<td>A single hex digit (0-F)</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Key Relationships:</strong><br>
+1 nibble = 4 bits = 1 hex digit<br>
+1 byte = 8 bits = 2 nibbles = 2 hex digits<br>
+1 byte can represent 2^8 = 256 different values (0-255)
+</div>
+</section>
+
+<section class="section">
+<h2>📊 Larger Units</h2>
+
+<div class="key-point">
+<strong>Larger units</strong> are multiples of bytes. At GCSE, you need to know the standard SI prefixes. Note: some specifications use powers of 2 (KiB, MiB) but most GCSE exams use the decimal (power of 10) definitions.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Unit</th>
+<th>Size (Decimal)</th>
+<th>Equivalent</th>
+</tr>
+<tr>
+<td>Kilobyte (KB)</td>
+<td>1,000 bytes</td>
+<td>10^3 bytes</td>
+</tr>
+<tr>
+<td>Megabyte (MB)</td>
+<td>1,000,000 bytes</td>
+<td>10^6 bytes / 1,000 KB</td>
+</tr>
+<tr>
+<td>Gigabyte (GB)</td>
+<td>1,000,000,000 bytes</td>
+<td>10^9 bytes / 1,000 MB</td>
+</tr>
+<tr>
+<td>Terabyte (TB)</td>
+<td>1,000,000,000,000 bytes</td>
+<td>10^12 bytes / 1,000 GB</td>
+</tr>
+<tr>
+<td>Petabyte (PB)</td>
+<td>1,000,000,000,000,000 bytes</td>
+<td>10^15 bytes / 1,000 TB</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Converting Between Units:</strong><br>
+To go UP (e.g. bytes to KB): divide by 1,000<br>
+To go DOWN (e.g. KB to bytes): multiply by 1,000<br><br>
+5,000 bytes = 5,000 / 1,000 = 5 KB<br>
+3 MB = 3 x 1,000 x 1,000 = 3,000,000 bytes
+</div>
+
+<div class="key-point">
+<strong>Note on binary prefixes:</strong> Some systems use KiB (kibibyte = 1024 bytes), MiB (mebibyte = 1048576 bytes), etc. These use powers of 2 (2^10 = 1024). Check your exam board specification for which system to use. Most GCSE exams use the decimal (1000-based) system.
+</div>
+</section>
+
+<section class="section">
+<h2>💾 Calculating File Sizes</h2>
+
+<div class="key-point">
+<strong>To calculate file sizes,</strong> you need to know how many bits or bytes are needed to store each element, then multiply by the number of elements.
+</div>
+
+<h3>Text File Size</h3>
+<div class="example">
+<div class="example-title">Calculating Text File Size</div>
+<p>If each character is stored using 1 byte (ASCII):</p>
+<pre>File size (bytes) = number of characters x 1</pre>
+<p>A text with 500 characters = 500 bytes</p>
+<p>A text with 3,000 characters = 3,000 bytes = 3 KB</p>
+</div>
+
+<h3>Image File Size</h3>
+<div class="example">
+<div class="example-title">Calculating Bitmap Image Size</div>
+<pre>Image size (bits) = width x height x colour depth</pre>
+<p>A 1920x1080 image with 24-bit colour:</p>
+<pre>Size = 1920 x 1080 x 24
+     = 49,766,400 bits
+     = 6,220,800 bytes
+     = 6,220.8 KB
+     = 6.22 MB</pre>
+</div>
+
+<h3>Sound File Size</h3>
+<div class="example">
+<div class="example-title">Calculating Sound File Size</div>
+<pre>File size (bits) = sample rate x sample resolution x duration (seconds)</pre>
+<p>A 3-minute song recorded at 44,100 Hz with 16-bit samples:</p>
+<pre>Size = 44,100 x 16 x 180
+     = 127,008,000 bits
+     = 15,876,000 bytes
+     = 15,876 KB
+     = 15.876 MB</pre>
+<p>For stereo (2 channels): multiply by 2 = 31.75 MB</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ Comparing Quantities</h2>
+
+<div class="key-point">
+<strong>When comparing data quantities,</strong> always convert both values to the same unit first. This avoids confusion and makes comparison straightforward.
+</div>
+
+<div class="example">
+<div class="example-title">Comparing File Sizes</div>
+<p>Which is larger: 2,500 KB or 2 MB?</p>
+<pre>2 MB = 2 x 1,000 KB = 2,000 KB
+2,500 KB > 2,000 KB
+So 2,500 KB is larger than 2 MB</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Storage Capacity Comparison</div>
+<table class="comparison-table">
+<tr><th>Item</th><th>Approximate Size</th></tr>
+<tr><td>A text message</td><td>~100 bytes</td></tr>
+<tr><td>A word document (10 pages)</td><td>~50 KB</td></tr>
+<tr><td>A photo from a phone camera</td><td>~3-5 MB</td></tr>
+<tr><td>A song (MP3)</td><td>~3-5 MB</td></tr>
+<tr><td>A HD movie</td><td>~2-4 GB</td></tr>
+<tr><td>A hard drive</td><td>~1-4 TB</td></tr>
+</table>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Confusing bits and bytes</td>
+<td>1 byte = 8 bits, so 100 bytes = 800 bits</td>
+<td>Always check whether the question asks for bits or bytes</td>
+</tr>
+<tr>
+<td>Using 1024 instead of 1000</td>
+<td>GCSE typically uses decimal (1000-based) units</td>
+<td>Check your exam board - most use 1000 for KB, MB, GB</td>
+</tr>
+<tr>
+<td>Forgetting to convert units before comparing</td>
+<td>2 MB vs 1500 KB cannot be compared directly</td>
+<td>Convert both to the same unit first</td>
+</tr>
+<tr>
+<td>Not including colour depth for images</td>
+<td>Size = width x height is missing the colour depth</td>
+<td>Image size = width x height x colour depth</td>
+</tr>
+<tr>
+<td>Forgetting channels for sound</td>
+<td>Stereo has 2 channels, mono has 1</td>
+<td>Multiply by number of channels for stereo sound</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> How many bytes are in 3.5 KB?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A text file contains 2,000 characters stored in ASCII (1 byte per character). What is the file size in KB?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Calculate the size of a 640x480 pixel image with 8-bit colour depth in KB.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Which is larger: 0.5 GB or 600 MB? Show your working.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A sound file is recorded at 22,050 Hz with 8-bit samples for 60 seconds. Calculate the file size in MB.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>3.5 KB = 3.5 x 1,000 = 3,500 bytes.</li>
+<li>2,000 characters x 1 byte = 2,000 bytes = 2,000 / 1,000 = 2 KB.</li>
+<li>640 x 480 x 8 = 2,457,600 bits = 307,200 bytes = 307.2 KB.</li>
+<li>0.5 GB = 0.5 x 1,000 = 500 MB. 600 MB > 500 MB, so 600 MB is larger.</li>
+<li>22,050 x 8 x 60 = 10,584,000 bits = 1,323,000 bytes = 1,323 KB = 1.323 MB.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>1 byte = 8 bits - this is the most fundamental relationship to remember</li>
+<li>For GCSE, typically use 1000 (not 1024) as the multiplier between units</li>
+<li>Always convert to the same unit before comparing</li>
+<li>For image size: width x height x colour depth (in bits)</li>
+<li>For sound size: sample rate x resolution x duration x channels</li>
+<li>Check if the question asks for the answer in bits, bytes, KB, or MB</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS16-converting-number-bases.html" class="nav-prev">← Previous: Converting Number Bases</a>
+<a href="CS18-binary-arithmetic.html" class="nav-next">Next Topic: Binary Arithmetic →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

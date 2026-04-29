@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Structures - GCSE Computer Science</title>
+<meta name="description" content="Learn about 1D arrays, 2D arrays, records and practical examples for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Data Structures</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS10: Data Structures</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Understanding 1D arrays, 2D arrays, and records - how to declare, access, iterate, and use them in practical programs.</p>
+</article>
+
+<section class="section">
+<h2>📋 What are Data Structures?</h2>
+
+<div class="key-point">
+<strong>Data structures</strong> are ways of organising and storing data so it can be accessed and modified efficiently. At GCSE, you need to know about arrays (1D and 2D) and records.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Data Structure</th>
+<th>Description</th>
+<th>When to Use</th>
+</tr>
+<tr>
+<td>1D Array</td>
+<td>A list of items of the same type, accessed by index</td>
+<td>Storing a list of scores, names, or temperatures</td>
+</tr>
+<tr>
+<td>2D Array</td>
+<td>A grid of items in rows and columns, accessed by two indices</td>
+<td>Storing a seating plan, grid, or spreadsheet</td>
+</tr>
+<tr>
+<td>Record</td>
+<td>A collection of named fields of different types</td>
+<td>Storing related data about one entity (e.g. a student)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📊 1D Arrays</h2>
+
+<div class="key-point">
+<strong>A 1D array</strong> is an indexed collection of items of the same data type stored under one name. Each item is called an element and is accessed using its index (position number). Arrays are zero-indexed in most languages - the first element is at index 0.
+</div>
+
+<h3>Declaring and Initialising</h3>
+<div class="example">
+<div class="example-title">Array Declaration</div>
+<pre>scores &larr; [85, 92, 78, 90, 67]     // Array of 5 integers
+names &larr; ["Ali", "Beth", "Carla"]  // Array of 3 strings</pre>
+</div>
+
+<h3>Accessing Elements</h3>
+<div class="example">
+<div class="example-title">Accessing by Index</div>
+<pre>scores &larr; [85, 92, 78, 90, 67]
+OUTPUT scores[0]     // 85 (first element)
+OUTPUT scores[2]     // 78 (third element)
+OUTPUT scores[4]     // 67 (fifth/last element)</pre>
+</div>
+
+<div class="formula-box">
+<strong>Array Indexing:</strong><br>
+Index 0 = First element<br>
+Index 1 = Second element<br>
+Index n-1 = Last element (where n is the array length)<br><br>
+For array of length 5, valid indices are 0, 1, 2, 3, 4
+</div>
+
+<h3>Modifying Elements</h3>
+<div class="example">
+<div class="example-title">Changing Array Values</div>
+<pre>scores &larr; [85, 92, 78, 90, 67]
+scores[2] &larr; 88    // Change third element from 78 to 88
+OUTPUT scores[2]     // Now outputs 88</pre>
+</div>
+
+<h3>Iterating Through Arrays</h3>
+<div class="example">
+<div class="example-title">Using a FOR Loop</div>
+<pre>scores &larr; [85, 92, 78, 90, 67]
+FOR i &larr; 0 TO 4
+    OUTPUT scores[i]
+NEXT i
+// Outputs: 85, 92, 78, 90, 67</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Finding the Total</div>
+<pre>scores &larr; [85, 92, 78, 90, 67]
+total &larr; 0
+FOR i &larr; 0 TO 4
+    total &larr; total + scores[i]
+NEXT i
+OUTPUT "Total: ", total        // 412
+OUTPUT "Average: ", total / 5  // 82.4</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Finding the Maximum</div>
+<pre>scores &larr; [85, 92, 78, 90, 67]
+maxScore &larr; scores[0]
+FOR i &larr; 1 TO 4
+    IF scores[i] > maxScore THEN
+        maxScore &larr; scores[i]
+    ENDIF
+NEXT i
+OUTPUT "Highest: ", maxScore   // 92</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔲 2D Arrays</h2>
+
+<div class="key-point">
+<strong>A 2D array</strong> is an array of arrays - a grid with rows and columns. Each element is accessed using two indices: the row index and the column index. Think of it like a table or spreadsheet.
+</div>
+
+<h3>Declaring a 2D Array</h3>
+<div class="example">
+<div class="example-title">2D Array Declaration</div>
+<pre>grid &larr; [[1, 2, 3],
+           [4, 5, 6],
+           [7, 8, 9]]</pre>
+<p>This creates a 3x3 grid (3 rows, 3 columns).</p>
+</div>
+
+<h3>Accessing Elements</h3>
+<div class="example">
+<div class="example-title">2D Array Access</div>
+<pre>grid &larr; [[1, 2, 3],
+           [4, 5, 6],
+           [7, 8, 9]]
+OUTPUT grid[0][0]    // 1 (row 0, column 0)
+OUTPUT grid[1][2]    // 6 (row 1, column 2)
+OUTPUT grid[2][1]    // 8 (row 2, column 1)</pre>
+</div>
+
+<div class="formula-box">
+<strong>2D Array Indexing:</strong><br>
+grid[row][column]<br>
+First index = row number (starts at 0)<br>
+Second index = column number (starts at 0)
+</div>
+
+<h3>Iterating Through 2D Arrays</h3>
+<div class="example">
+<div class="example-title">Nested FOR Loop</div>
+<pre>grid &larr; [[1, 2, 3],
+           [4, 5, 6],
+           [7, 8, 9]]
+FOR row &larr; 0 TO 2
+    FOR col &larr; 0 TO 2
+        OUTPUT grid[row][col]
+    NEXT col
+NEXT row
+// Outputs all 9 numbers in order</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Practical Example: Seating Plan</div>
+<pre>seats &larr; [["Empty", "Bob", "Empty"],
+             ["Alice", "Empty", "Carl"],
+             ["Empty", "Dana", "Empty"]]
+OUTPUT seats[1][0]   // "Alice" (row 1, seat 0)
+seats[0][0] &larr; "Eve"   // Assign Eve to row 0, seat 0</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>📄 Records</h2>
+
+<div class="key-point">
+<strong>A record</strong> is a data structure that groups related fields of different data types under one name. Each field has a name and can hold a different type of data. Records are ideal for representing real-world entities.
+</div>
+
+<h3>Defining a Record</h3>
+<div class="example">
+<div class="example-title">Record Definition</div>
+<pre>TYPE Student
+    name AS STRING
+    age AS INTEGER
+    tutorGroup AS STRING
+    averageGrade AS REAL
+ENDTYPE</pre>
+</div>
+
+<h3>Creating and Using Records</h3>
+<div class="example">
+<div class="example-title">Record Instance</div>
+<pre>student1 &larr; NEW Student()
+student1.name &larr; "Alice"
+student1.age &larr; 16
+student1.tutorGroup &larr; "10B"
+student1.averageGrade &larr; 7.5
+
+OUTPUT student1.name          // "Alice"
+OUTPUT student1.averageGrade  // 7.5</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Array of Records</div>
+<pre>TYPE Student
+    name AS STRING
+    score AS INTEGER
+ENDTYPE
+
+class &larr; [NEW Student(), NEW Student(), NEW Student()]
+class[0].name &larr; "Alice"
+class[0].score &larr; 85
+class[1].name &larr; "Bob"
+class[1].score &larr; 72
+class[2].name &larr; "Carla"
+class[2].score &larr; 91
+
+FOR i &larr; 0 TO 2
+    OUTPUT class[i].name, ": ", class[i].score
+NEXT i</pre>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Array</th>
+<th>Record</th>
+</tr>
+<tr>
+<td>Access method</td>
+<td>By index number</td>
+<td>By field name</td>
+</tr>
+<tr>
+<td>Data types</td>
+<td>All elements same type</td>
+<td>Each field can be different type</td>
+</tr>
+<tr>
+<td>When to use</td>
+<td>List of similar items</td>
+<td>Related data about one thing</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>List of scores [85, 92, 78]</td>
+<td>Student {name, age, grade}</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Accessing index 5 in a 5-element array</td>
+<td>Indices go from 0 to 4 for length 5</td>
+<td>Use LENGTH(array) - 1 for the last index</td>
+</tr>
+<tr>
+<td>Confusing row and column in 2D arrays</td>
+<td>grid[0][1] and grid[1][0] are different</td>
+<td>Remember: grid[row][column]</td>
+</tr>
+<tr>
+<td>Forgetting to initialise array elements</td>
+<td>Uninitialised elements may have unknown values</td>
+<td>Set all elements before reading them</td>
+</tr>
+<tr>
+<td>Using wrong data type in arrays</td>
+<td>Arrays hold one type only</td>
+<td>Use records if you need different types</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Write pseudo-code to declare an array of 5 temperatures and output the third temperature.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Write pseudo-code that finds the sum of all elements in the array [10, 20, 30, 40, 50].</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> A 2D array represents a 3x3 tic-tac-toe board. How would you access the centre square?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Define a record called Car with fields for make (string), model (string), year (integer), and price (real).</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Write pseudo-code that iterates through an array of names and outputs only the names that start with "A".</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>
+<pre>temps &larr; [18.5, 20.3, 22.1, 19.8, 21.0]
+OUTPUT temps[2]    // Outputs 22.1 (third element, index 2)</pre>
+</li>
+<li>
+<pre>numbers &larr; [10, 20, 30, 40, 50]
+total &larr; 0
+FOR i &larr; 0 TO 4
+    total &larr; total + numbers[i]
+NEXT i
+OUTPUT total    // 150</pre>
+</li>
+<li>The centre square is at row 1, column 1: <code>board[1][1]</code></li>
+<li>
+<pre>TYPE Car
+    make AS STRING
+    model AS STRING
+    year AS INTEGER
+    price AS REAL
+ENDTYPE</pre>
+</li>
+<li>
+<pre>names &larr; ["Alice", "Bob", "Amy", "Charlie", "Anna"]
+FOR i &larr; 0 TO 4
+    IF SUBSTRING(names[i], 0, 1) = "A" THEN
+        OUTPUT names[i]
+    ENDIF
+NEXT i</pre>
+</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Arrays are zero-indexed - the first element is at index 0</li>
+<li>For 2D arrays, always use grid[row][column] order</li>
+<li>Use FOR loops to iterate through arrays - loop from 0 to LENGTH-1</li>
+<li>Records use dot notation: recordName.fieldName</li>
+<li>You can have arrays of records for storing multiple entities</li>
+<li>Remember: arrays hold one data type, records can hold multiple types</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS9-boolean-operations.html" class="nav-prev">← Previous: Boolean Operations</a>
+<a href="CS11-input-output-string-handling.html" class="nav-next">Next Topic: Input, Output &amp; String Handling →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Searching Algorithms - GCSE Computer Science</title>
+<meta name="description" content="Learn about linear search and binary search algorithms for GCSE Computer Science. Free revision notes with step-by-step workings.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Algorithms</span> <span>›</span>
+<span>Searching Algorithms</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS3: Searching Algorithms</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">How linear search and binary search work, with step-by-step examples and comparison of when to use each.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is a Searching Algorithm?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A searching algorithm finds the position of a specific item (the target) within a data structure such as a list or array. If the item is found, the algorithm returns its position; if not, it indicates the item is not present.
+</div>
+
+<p>At GCSE, you need to know two searching algorithms:</p>
+<ul>
+<li><strong>Linear search</strong> - checks each item one by one from the start</li>
+<li><strong>Binary search</strong> - repeatedly halves the search space (requires sorted data)</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔍 Linear Search</h2>
+
+<div class="key-point">
+<strong>Linear search</strong> checks each item in the list sequentially, starting from the first element, until the target is found or the end of the list is reached. It works on both sorted and unsorted data.
+</div>
+
+<h3>Algorithm in Pseudo-code</h3>
+<div class="example">
+<div class="example-title">Linear Search Pseudo-code</div>
+<pre>FUNCTION linearSearch(list, target)
+    FOR i ← 0 TO LENGTH(list) - 1
+        IF list[i] = target THEN
+            RETURN i
+        ENDIF
+    NEXT i
+    RETURN -1
+ENDFUNCTION</pre>
+</div>
+
+<h3>Step-by-Step Worked Example</h3>
+<div class="example">
+<div class="example-title">Finding 7 in the list [3, 1, 7, 5, 9, 2]</div>
+<p><strong>Target:</strong> 7</p>
+<table class="comparison-table">
+<tr><th>Step</th><th>Index</th><th>Value</th><th>Match?</th></tr>
+<tr><td>1</td><td>0</td><td>3</td><td>No → move on</td></tr>
+<tr><td>2</td><td>1</td><td>1</td><td>No → move on</td></tr>
+<tr><td>3</td><td>2</td><td>7</td><td>Yes! → Return 2</td></tr>
+</table>
+<p><strong>Result:</strong> 7 found at index 2 after 3 comparisons.</p>
+</div>
+
+<div class="formula-box">
+<strong>Linear Search Performance:</strong><br>
+Best case: 1 comparison (item is first)<br>
+Worst case: n comparisons (item is last or not present)<br>
+Average case: n/2 comparisons<br>
+Time complexity: O(n) - linear
+</div>
+</section>
+
+<section class="section">
+<h2>🔲 Binary Search</h2>
+
+<div class="key-point">
+<strong>Binary search</strong> works on a <strong>sorted list</strong>. It compares the target with the middle element. If the target is smaller, the search continues in the left half. If larger, it continues in the right half. This process repeats until the item is found or the search space is empty.
+</div>
+
+<h3>Algorithm in Pseudo-code</h3>
+<div class="example">
+<div class="example-title">Binary Search Pseudo-code</div>
+<pre>FUNCTION binarySearch(list, target)
+    low ← 0
+    high ← LENGTH(list) - 1
+    WHILE low <= high
+        mid ← (low + high) DIV 2
+        IF list[mid] = target THEN
+            RETURN mid
+        ELSEIF list[mid] < target THEN
+            low ← mid + 1
+        ELSE
+            high ← mid - 1
+        ENDIF
+    ENDWHILE
+    RETURN -1
+ENDFUNCTION</pre>
+</div>
+
+<h3>Step-by-Step Worked Example</h3>
+<div class="example">
+<div class="example-title">Finding 23 in the sorted list [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]</div>
+<p><strong>Target:</strong> 23 &nbsp;&nbsp; <strong>Low:</strong> 0 &nbsp;&nbsp; <strong>High:</strong> 9</p>
+
+<table class="comparison-table">
+<tr><th>Step</th><th>Low</th><th>High</th><th>Mid</th><th>list[Mid]</th><th>Action</th></tr>
+<tr><td>1</td><td>0</td><td>9</td><td>4</td><td>16</td><td>16 < 23 → search right half → low = 5</td></tr>
+<tr><td>2</td><td>5</td><td>9</td><td>7</td><td>56</td><td>56 > 23 → search left half → high = 6</td></tr>
+<tr><td>3</td><td>5</td><td>6</td><td>5</td><td>23</td><td>23 = 23 → Found! Return 5</td></tr>
+</table>
+<p><strong>Result:</strong> 23 found at index 5 after only 3 comparisons!</p>
+</div>
+
+<div class="example">
+<div class="example-title">Finding 50 in the same list (not present)</div>
+<table class="comparison-table">
+<tr><th>Step</th><th>Low</th><th>High</th><th>Mid</th><th>list[Mid]</th><th>Action</th></tr>
+<tr><td>1</td><td>0</td><td>9</td><td>4</td><td>16</td><td>16 < 50 → low = 5</td></tr>
+<tr><td>2</td><td>5</td><td>9</td><td>7</td><td>56</td><td>56 > 50 → high = 6</td></tr>
+<tr><td>3</td><td>5</td><td>6</td><td>5</td><td>23</td><td>23 < 50 → low = 6</td></tr>
+<tr><td>4</td><td>6</td><td>6</td><td>6</td><td>38</td><td>38 < 50 → low = 7</td></tr>
+<tr><td>5</td><td>7</td><td>6</td><td>-</td><td>-</td><td>low > high → not found. Return -1</td></tr>
+</table>
+<p><strong>Result:</strong> 50 is not in the list. Only 4 comparisons needed to confirm this.</p>
+</div>
+
+<div class="formula-box">
+<strong>Binary Search Performance:</strong><br>
+Best case: 1 comparison (item is in the middle)<br>
+Worst case: log₂(n) comparisons (rounded up)<br>
+Time complexity: O(log n) - logarithmic<br>
+<strong>IMPORTANT:</strong> The list MUST be sorted first!
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ Comparing Linear and Binary Search</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Linear Search</th>
+<th>Binary Search</th>
+</tr>
+<tr>
+<td>Data requirement</td>
+<td>Works on any list (sorted or unsorted)</td>
+<td>Requires a sorted list</td>
+</tr>
+<tr>
+<td>Time complexity</td>
+<td>O(n)</td>
+<td>O(log n)</td>
+</tr>
+<tr>
+<td>Best case</td>
+<td>1 comparison</td>
+<td>1 comparison</td>
+</tr>
+<tr>
+<td>Worst case (n=1000)</td>
+<td>1000 comparisons</td>
+<td>10 comparisons</td>
+</tr>
+<tr>
+<td>Worst case (n=1,000,000)</td>
+<td>1,000,000 comparisons</td>
+<td>20 comparisons</td>
+</tr>
+<tr>
+<td>Implementation</td>
+<td>Simple - just loop through</td>
+<td>More complex - needs low/high pointers</td>
+</tr>
+<tr>
+<td>Adding items</td>
+<td>Easy - just append</td>
+<td>Must insert in correct position to maintain sort</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🤔 When to Use Each Algorithm</h2>
+
+<div class="key-point">
+<strong>Use linear search when:</strong> the list is small, the list is unsorted, or you only need to search once.
+</div>
+
+<div class="key-point">
+<strong>Use binary search when:</strong> the list is large and already sorted, or you need to search the same list many times.
+</div>
+
+<div class="example">
+<div class="example-title">Decision Example</div>
+<p><strong>Scenario A:</strong> You have an unsorted list of 20 names and need to find one person.</p>
+<p>→ Use <strong>linear search</strong> - the list is unsorted and small.</p>
+<p><strong>Scenario B:</strong> You have a sorted dictionary of 100,000 words and need to look up many words.</p>
+<p>→ Use <strong>binary search</strong> - the list is large and sorted, and you're searching repeatedly.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Using binary search on unsorted data</td>
+<td>Binary search relies on the order to eliminate half the list</td>
+<td>Sort the list first, or use linear search instead</td>
+</tr>
+<tr>
+<td>Forgetting to update low/high correctly</td>
+<td>Setting low=mid instead of mid+1 can cause infinite loops</td>
+<td>Use low ← mid + 1 and high ← mid - 1</td>
+</tr>
+<tr>
+<td>Using integer division incorrectly for mid</td>
+<td>Floating-point mid values cause errors</td>
+<td>Use mid ← (low + high) DIV 2</td>
+</tr>
+<tr>
+<td>Stopping too early in binary search</td>
+<td>The item might be in the remaining half</td>
+<td>Continue until low > high</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Describe how a linear search works.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Why must data be sorted before binary search can be used?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Perform a binary search for the value 72 in the list [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. Show each step.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> A sorted list contains 256 items. What is the maximum number of comparisons needed by binary search?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain one advantage and one disadvantage of linear search compared to binary search.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>A linear search checks each item in a list one by one, starting from the first element, until the target is found or the end of the list is reached. It works on both sorted and unsorted data.</li>
+<li>Binary search compares the target with the middle element and eliminates half the list based on whether the target is smaller or larger. This only works if the list is sorted, because the algorithm relies on the fact that all items before the middle are smaller and all items after are larger.</li>
+<li>Step 1: low=0, high=9, mid=4, list[4]=16. 16<72, so low=5. Step 2: low=5, high=9, mid=7, list[7]=56. 56<72, so low=8. Step 3: low=8, high=9, mid=8, list[8]=72. 72=72, found at index 8.</li>
+<li>log₂(256) = 8. Maximum 8 comparisons.</li>
+<li>Advantage: Linear search works on unsorted data, unlike binary search. Disadvantage: Linear search is much slower for large datasets - O(n) vs O(log n).</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always state that binary search <strong>requires sorted data</strong></li>
+<li>In binary search, use mid ← (low + high) DIV 2 (integer division)</li>
+<li>Show your working in step-by-step questions - draw a table with low, high, mid columns</li>
+<li>When comparing, mention time complexity: O(n) vs O(log n)</li>
+<li>Don't forget: linear search can work on unsorted data, binary search cannot</li>
+<li>Practise working through binary search step-by-step on paper - this is a common exam question</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS2-efficiency-algorithms.html" class="nav-prev">← Previous: Efficiency of Algorithms</a>
+<a href="CS4-sorting-algorithms.html" class="nav-next">Next Topic: Sorting Algorithms →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

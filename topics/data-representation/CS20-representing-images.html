@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Representing Images - GCSE Computer Science</title>
+<meta name="description" content="Learn about bitmap images, pixels, resolution, colour depth and calculating image file sizes. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Data Representation</span> <span>›</span>
+<span>Representing Images</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS20: Representing Images</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Data Representation</span>
+</div>
+<p class="topic-desc">How images are stored as bitmap data using pixels, resolution and colour depth, and how these properties affect file size and quality.</p>
+</article>
+
+<section class="section">
+<h2>📋 Bitmap Images</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A bitmap image is made up of a grid of small squares called pixels (picture elements). Each pixel is assigned a binary value that represents its colour.
+</div>
+
+<p>Computers store images as numbers. In a bitmap image, the image is divided into a grid of tiny squares called pixels. Each pixel stores a binary number that represents a specific colour. When viewed from a distance, these pixels blend together to form the complete image.</p>
+
+<ul>
+<li>A bitmap image is a 2D grid of pixels</li>
+<li>Each pixel has a single colour, stored as a binary value</li>
+<li>The more pixels and the more colours, the more realistic the image looks</li>
+<li>Common bitmap formats include JPEG, PNG, GIF, BMP</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A simple 3x3 black and white image of a cross:</p>
+<p>1 0 1</p>
+<p>0 1 0</p>
+<p>1 0 1</p>
+<p>Where 1 = black, 0 = white. This 9-pixel image needs 9 bits of storage (1 bit per pixel).</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Pixels and Resolution</h2>
+
+<h3>Pixels</h3>
+<p>A pixel is the smallest addressable element of a bitmap image. Each pixel stores colour data as a binary value. The total number of pixels in an image determines its level of detail.</p>
+
+<h3>Resolution</h3>
+<div class="key-point">
+<strong>Definition:</strong> Resolution is the number of pixels in an image, expressed as width x height. For example, 1920 x 1080 means 1920 pixels across and 1080 pixels down.
+</div>
+
+<ul>
+<li>Higher resolution = more pixels = more detail = larger file size</li>
+<li>Lower resolution = fewer pixels = less detail = smaller file size</li>
+<li>Resolution is often measured in pixels per inch (PPI) for screens, or dots per inch (DPI) for printing</li>
+<li>An image of 1920 x 1080 has 2,073,600 pixels total</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>An image with resolution 800 x 600 has 480,000 pixels.</p>
+<p>An image with resolution 1920 x 1080 has 2,073,600 pixels.</p>
+<p>The higher resolution image contains over 4 times as many pixels and will show much more detail.</p>
+</div>
+
+<div class="formula-box">
+<strong>Key Formula:</strong><br>
+Total pixels = Width x Height<br>
+File size (bits) = Width x Height x Colour Depth
+</div>
+</section>
+
+<section class="section">
+<h2>🎨 Colour Depth</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Colour depth (also called bit depth) is the number of bits used to represent the colour of each pixel. More bits per pixel means more possible colours.
+</div>
+
+<p>The colour depth determines how many different colours can be represented in an image:</p>
+
+<table class="comparison-table">
+<tr>
+<th>Colour Depth</th>
+<th>Bits per Pixel</th>
+<th>Number of Colours</th>
+<th>Example Use</th>
+</tr>
+<tr>
+<td>1-bit</td>
+<td>1</td>
+<td>2 (black and white)</td>
+<td>Simple icons, fax</td>
+</tr>
+<tr>
+<td>8-bit</td>
+<td>8</td>
+<td>256</td>
+<td>GIF images, early games</td>
+</tr>
+<tr>
+<td>16-bit</td>
+<td>16</td>
+<td>65,536</td>
+<td>High colour displays</td>
+</tr>
+<tr>
+<td>24-bit</td>
+<td>24</td>
+<td>16,777,216</td>
+<td>True colour (photographs)</td>
+</tr>
+<tr>
+<td>32-bit</td>
+<td>32</td>
+<td>4,294,967,296</td>
+<td>True colour + alpha channel</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Key Formula:</strong><br>
+Number of colours = 2<sup>colour depth</sup><br>
+Example: 8-bit colour = 2<sup>8</sup> = 256 colours
+</div>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A 24-bit image uses 8 bits for red, 8 bits for green, and 8 bits for blue (RGB). Each channel can represent 256 shades (0-255), giving 256 x 256 x 256 = 16,777,216 possible colours. This is known as "True Colour" because it is enough colours to represent what the human eye can distinguish.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📐 Calculating Image File Size</h2>
+
+<div class="formula-box">
+<strong>Image File Size Formula:</strong><br>
+File size (bits) = Width (pixels) x Height (pixels) x Colour depth (bits per pixel)<br><br>
+To convert to bytes: divide by 8<br>
+To convert to kilobytes: divide by 8 x 1024<br>
+To convert to megabytes: divide by 8 x 1024 x 1024
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 1</div>
+<p><strong>Calculate the file size of a 1024 x 768 image with 24-bit colour depth.</strong></p>
+<p>File size = 1024 x 768 x 24</p>
+<p>= 786,432 x 24</p>
+<p>= 18,874,368 bits</p>
+<p>= 18,874,368 / 8 = 2,359,296 bytes</p>
+<p>= 2,359,296 / 1024 = 2,304 KB</p>
+<p>= 2,304 / 1024 = 2.25 MB</p>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 2</div>
+<p><strong>Calculate the file size of a 640 x 480 image with 8-bit colour depth.</strong></p>
+<p>File size = 640 x 480 x 8</p>
+<p>= 307,200 x 8</p>
+<p>= 2,457,600 bits</p>
+<p>= 2,457,600 / 8 = 307,200 bytes</p>
+<p>= 307,200 / 1024 = 300 KB</p>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 3</div>
+<p><strong>A 2000 x 1500 image uses 16-bit colour depth. How many megabytes is the uncompressed file?</strong></p>
+<p>File size = 2000 x 1500 x 16</p>
+<p>= 3,000,000 x 16</p>
+<p>= 48,000,000 bits</p>
+<p>= 48,000,000 / 8 = 6,000,000 bytes</p>
+<p>= 6,000,000 / 1024 / 1024 = 5.72 MB</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ How Properties Affect File Size and Quality</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Change</th>
+<th>Effect on File Size</th>
+<th>Effect on Quality</th>
+</tr>
+<tr>
+<td>Increase resolution (more pixels)</td>
+<td>Increases</td>
+<td>Improves (more detail)</td>
+</tr>
+<tr>
+<td>Decrease resolution (fewer pixels)</td>
+<td>Decreases</td>
+<td>Degrades (pixelation)</td>
+</tr>
+<tr>
+<td>Increase colour depth</td>
+<td>Increases</td>
+<td>Improves (more colours, smoother gradients)</td>
+</tr>
+<tr>
+<td>Decrease colour depth</td>
+<td>Decreases</td>
+<td>Degrades (banding, colour steps)</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Important:</strong> There is always a trade-off between file size and image quality. Higher resolution and greater colour depth produce better images but require more storage space and bandwidth.
+</div>
+
+<h3>Doubling the Resolution</h3>
+<p>If you double both the width and the height of an image, the file size quadruples (4x), because the total number of pixels is width x height - doubling both means 2 x 2 = 4 times as many pixels.</p>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>Image A: 100 x 100 at 24-bit = 100 x 100 x 24 = 240,000 bits</p>
+<p>Image B: 200 x 200 at 24-bit = 200 x 200 x 24 = 960,000 bits</p>
+<p>Doubling both dimensions = 4x the file size, not 2x.</p>
+</div>
+
+<h3>Doubling the Colour Depth</h3>
+<p>Doubling the colour depth doubles the file size, as each pixel now uses twice as many bits.</p>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>Image A: 100 x 100 at 8-bit = 100 x 100 x 8 = 80,000 bits</p>
+<p>Image B: 100 x 100 at 16-bit = 100 x 100 x 16 = 160,000 bits</p>
+<p>Doubling colour depth = 2x the file size.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔍 Bitmap vs Vector Images</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>Bitmap</th>
+<th>Vector</th>
+</tr>
+<tr>
+<td>Made of</td>
+<td>Pixels</td>
+<td>Geometric shapes (lines, curves)</td>
+</tr>
+<tr>
+<td>Scaling up</td>
+<td>Becomes pixelated/blurred</td>
+<td>Stays sharp at any size</td>
+</tr>
+<tr>
+<td>File size</td>
+<td>Large for detailed images</td>
+<td>Generally smaller</td>
+</tr>
+<tr>
+<td>Best for</td>
+<td>Photographs</td>
+<td>Logos, diagrams, illustrations</td>
+</tr>
+<tr>
+<td>Editing</td>
+<td>Edit individual pixels</td>
+<td>Edit properties of shapes</td>
+</tr>
+<tr>
+<td>Examples</td>
+<td>JPEG, PNG, GIF, BMP</td>
+<td>SVG, AI</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Exam Focus:</strong> The GCSE specification primarily focuses on bitmap images. However, you should understand the key differences between bitmap and vector representations.
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Forgetting to convert bits to bytes</td>
+<td>File sizes are usually given in bytes or KB</td>
+<td>Always divide by 8 to get bytes first</td>
+</tr>
+<tr>
+<td>Confusing resolution with image size on screen</td>
+<td>Resolution is pixel count, not physical dimensions</td>
+<td>Think of resolution as width x height in pixels</td>
+</tr>
+<tr>
+<td>Saying "doubling resolution doubles file size"</td>
+<td>Doubling both dimensions quadruples the pixel count</td>
+<td>Remember: 2W x 2H = 4x pixels</td>
+</tr>
+<tr>
+<td>Forgetting the formula includes colour depth</td>
+<td>File size depends on both pixel count and colour depth</td>
+<td>Always use: W x H x colour depth</td>
+</tr>
+<tr>
+<td>Confusing bitmap with vector</td>
+<td>They store images in fundamentally different ways</td>
+<td>Bitmap = pixels; Vector = mathematical instructions</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> An image has a resolution of 1920 x 1080 and a colour depth of 24 bits. Calculate the file size in megabytes.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What is the effect on file size if you double the width of an image but keep the height and colour depth the same?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> An image uses 8-bit colour depth. How many different colours can it represent?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Explain the trade-off between image quality and file size when increasing colour depth.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A 500 x 400 image has a file size of 1,600,000 bits. What is the colour depth?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>File size = 1920 x 1080 x 24 = 49,766,400 bits = 6,220,800 bytes = 6,075 KB = 5.93 MB</li>
+<li>The file size doubles, because total pixels = W x H. Doubling W means 2W x H = 2 x (W x H), so twice as many pixels.</li>
+<li>2<sup>8</sup> = 256 colours</li>
+<li>Increasing colour depth allows more colours to be represented, producing smoother gradients and more realistic images, but each pixel needs more bits, so the file size increases proportionally.</li>
+<li>Colour depth = 1,600,000 / (500 x 400) = 1,600,000 / 200,000 = 8 bits per pixel</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always show your working in file size calculations - marks are given for each step</li>
+<li>Remember the formula: File size = W x H x colour depth</li>
+<li>Don't forget to convert between bits, bytes, KB, and MB when asked</li>
+<li>If asked about quality vs file size, mention the trade-off</li>
+<li>When asked about doubling resolution, calculate the new pixel count, don't just guess</li>
+<li>Be precise: say "colour depth" not just "bits", and "resolution" not just "size"</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="#" class="nav-prev">← Previous Topic</a>
+<a href="../data-representation/CS21-representing-sound.html" class="nav-next">Next Topic: Representing Sound →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

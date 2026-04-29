@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Network Protocols - GCSE Computer Science</title>
+<meta name="description" content="Learn about TCP, IP, HTTP, HTTPS, SMTP, IMAP and why protocols are needed. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Networks</span> <span>›</span>
+<span>Network Protocols</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS30: Network Protocols</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Networks</span>
+</div>
+<p class="topic-desc">What protocols are, why they are needed, and the key protocols: TCP, IP, HTTP/HTTPS, SMTP, IMAP.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is a Protocol?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A protocol is a set of rules that governs how data is transmitted between devices on a network. Protocols define the format, timing, sequencing, and error checking of data transmission.
+</div>
+
+<p>Without protocols, devices would have no common language to communicate. Imagine two people trying to have a conversation - one speaking only French and the other only Japanese. Without a shared language (protocol), no meaningful communication can occur. Network protocols provide the common "language" that all networked devices understand.</p>
+
+<ul>
+<li>Protocols define the format of data being sent</li>
+<li>Protocols define the order and timing of messages</li>
+<li>Protocols define how errors are detected and handled</li>
+<li>Protocols define how connections are established and terminated</li>
+<li>Different protocols handle different aspects of communication</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Analogy</div>
+<p>Think of protocols like the rules of sending a letter: you write the sender's address in one corner, the recipient's address in another, you put a stamp on, and the postal service follows its own rules for sorting and delivery. If everyone follows these rules, letters get delivered correctly. Network protocols work the same way for data.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Why Protocols Are Needed</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Protocols are needed so that different devices and systems can communicate with each other. Without agreed rules, there would be no way to ensure data arrives correctly, completely, and in the right order.
+</div>
+
+<ul>
+<li><strong>Compatibility:</strong> Allow different makes and types of devices to communicate</li>
+<li><strong>Standardisation:</strong> Provide common rules that all manufacturers can follow</li>
+<li><strong>Reliability:</strong> Ensure data arrives correctly and completely</li>
+<li><strong>Error handling:</strong> Define what happens when data is lost or corrupted</li>
+<li><strong>Ordering:</strong> Ensure data is reassembled in the correct sequence</li>
+<li><strong>Security:</strong> Some protocols provide encryption and authentication</li>
+</ul>
+
+<div class="example">
+<div class="example-title">What Happens Without Protocols</div>
+<p>If Device A sends data in one format but Device B expects a different format, Device B cannot understand the data. If Device A sends data too fast for Device B to process, data is lost. If there is no error checking, corrupted data goes undetected. Protocols prevent all these problems by establishing common rules.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔗 Key Network Protocols</h2>
+
+<h3>TCP (Transmission Control Protocol)</h3>
+<div class="key-point">
+<strong>Purpose:</strong> TCP ensures reliable delivery of data between devices. It breaks data into packets, numbers them, checks they all arrive, and reassembles them in the correct order.
+</div>
+
+<ul>
+<li>Provides reliable, ordered delivery of data</li>
+<li>Breaks large data into numbered packets</li>
+<li>Sends packets and waits for acknowledgement (ACK) from receiver</li>
+<li>Resends any packets that are lost or corrupted</li>
+<li>Reassembles packets in the correct order at the destination</li>
+<li>Establishes a connection before sending (three-way handshake)</li>
+<li>Part of the TCP/IP protocol suite</li>
+</ul>
+
+<div class="example">
+<div class="example-title">How TCP Works</div>
+<p>When you download a file, TCP splits it into numbered packets. Each packet is sent and the receiver sends back an acknowledgement. If packet 3 is lost, the receiver notices the gap and asks for it to be resent. Once all packets arrive, TCP reassembles them in order to recreate the complete file.</p>
+</div>
+
+<h3>IP (Internet Protocol)</h3>
+<div class="key-point">
+<strong>Purpose:</strong> IP handles addressing and routing of data packets across networks. It adds source and destination IP addresses to each packet so it can be routed to the correct destination.
+</div>
+
+<ul>
+<li>Provides addressing (IP addresses identify source and destination)</li>
+<li>Routers packets across networks to their destination</li>
+<li>Does NOT guarantee delivery (unreliable - TCP handles reliability)</li>
+<li>Each packet is routed independently (may take different paths)</li>
+<li>IPv4 addresses: 32-bit (e.g. 192.168.1.1)</li>
+<li>IPv6 addresses: 128-bit (e.g. 2001:0db8:85a3:0000:0000:8a2e:0370:7334)</li>
+</ul>
+
+<div class="formula-box">
+<strong>TCP and IP Work Together:</strong><br>
+IP handles addressing and routing (WHERE data goes)<br>
+TCP handles reliability and ordering (HOW data arrives)<br>
+Together they form TCP/IP, the foundation of internet communication
+</div>
+
+<h3>HTTP (Hypertext Transfer Protocol)</h3>
+<div class="key-point">
+<strong>Purpose:</strong> HTTP is the protocol used to transfer web pages from a web server to a web browser. It defines how requests and responses are formatted.
+</div>
+
+<ul>
+<li>Used for viewing web pages in a browser</li>
+<li>Client (browser) sends a request to the server</li>
+<li>Server sends back the requested web page (response)</li>
+<li>Data is sent in plain text (not encrypted)</li>
+<li>Uses port 80 by default</li>
+<li>Not secure - data can be intercepted and read</li>
+</ul>
+
+<h3>HTTPS (HTTP Secure)</h3>
+<div class="key-point">
+<strong>Purpose:</strong> HTTPS is the secure version of HTTP. It encrypts all data between the browser and the server, preventing interception and tampering.
+</div>
+
+<ul>
+<li>Same as HTTP but with encryption (SSL/TLS)</li>
+<li>Data is encrypted before transmission</li>
+<li>Uses port 443 by default</li>
+<li>Prevents eavesdropping and data tampering</li>
+<li>Verified by digital certificates (padlock icon in browser)</li>
+<li>Essential for online banking, shopping, and any sensitive data</li>
+</ul>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>HTTP</th>
+<th>HTTPS</th>
+</tr>
+<tr>
+<td>Encryption</td>
+<td>None (plain text)</td>
+<td>SSL/TLS encryption</td>
+</tr>
+<tr>
+<td>Security</td>
+<td>Not secure</td>
+<td>Secure</td>
+</tr>
+<tr>
+<td>Port</td>
+<td>80</td>
+<td>443</td>
+</tr>
+<tr>
+<td>Certificate</td>
+<td>Not required</td>
+<td>SSL/TLS certificate required</td>
+</tr>
+<tr>
+<td>Use case</td>
+<td>Non-sensitive browsing</td>
+<td>Banking, shopping, login pages</td>
+</tr>
+</table>
+
+<h3>SMTP (Simple Mail Transfer Protocol)</h3>
+<div class="key-point">
+<strong>Purpose:</strong> SMTP is the protocol used for SENDING email from a client to a mail server, and between mail servers.
+</div>
+
+<ul>
+<li>Used to send outgoing email</li>
+<li>Client sends email to mail server via SMTP</li>
+<li>Mail servers use SMTP to forward email to each other</li>
+<li>Uses port 25 (or 587 for secure submission)</li>
+<li>Only handles sending - NOT receiving email</li>
+</ul>
+
+<h3>IMAP (Internet Message Access Protocol)</h3>
+<div class="key-point">
+<strong>Purpose:</strong> IMAP is the protocol used for RECEIVING and managing email on a mail server. It allows the client to view and organise emails while keeping them stored on the server.
+</div>
+
+<ul>
+<li>Used to receive and read incoming email</li>
+<li>Emails remain stored on the server (not downloaded)</li>
+<li>Can access the same email from multiple devices</li>
+<li>Changes (read, delete, move) sync across all devices</li>
+<li>Uses port 143 (or 993 for secure IMAP)</li>
+</ul>
+
+<div class="formula-box">
+<strong>Email Protocol Summary:</strong><br>
+SMTP = Sending email (client to server, server to server)<br>
+IMAP = Receiving/reading email (client reads from server)<br>
+Remember: SMTP = Send Mail; IMAP = I Manage And Read
+</div>
+</section>
+
+<section class="section">
+<h2>📊 Protocol Layers</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Protocols are organised in layers, where each layer handles a specific aspect of communication. Higher layers handle user-facing functions; lower layers handle data transport. Each layer only communicates with the layer directly above and below it.
+</div>
+
+<ul>
+<li>Each layer has a specific role and doesn't need to know how other layers work</li>
+<li>Layers can be changed independently (e.g. switch from Wi-Fi to Ethernet without changing the application)</li>
+<li>Data is passed down through layers when sending, and up when receiving</li>
+<li>Each layer adds its own header (encapsulation)</li>
+<li>Each layer removes its header when receiving (decapsulation)</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "SMTP receives email"</td>
+<td>SMTP only sends; IMAP receives</td>
+<td>SMTP = sending; IMAP = receiving</td>
+</tr>
+<tr>
+<td>Confusing HTTP and HTTPS</td>
+<td>HTTPS adds encryption; HTTP doesn't</td>
+<td>HTTPS = HTTP + SSL/TLS encryption</td>
+</tr>
+<tr>
+<td>Saying "IP guarantees delivery"</td>
+<td>IP does NOT guarantee delivery; TCP does</td>
+<td>IP = addressing/routing; TCP = reliability</td>
+</tr>
+<tr>
+<td>Saying "protocols are optional"</td>
+<td>Without protocols, communication is impossible</td>
+<td>Protocols are essential - they are the rules of communication</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> What is a network protocol and why are protocols needed?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Explain the roles of TCP and IP and how they work together.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> What is the difference between HTTP and HTTPS?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Which protocol is used for sending email and which for receiving it?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain why protocols are organised in layers.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>A network protocol is a set of rules that governs how data is transmitted between devices. Protocols are needed to ensure different devices can communicate, data arrives correctly and completely, errors are handled, and communication is standardised across different manufacturers and systems.</li>
+<li>TCP ensures reliable delivery by breaking data into packets, numbering them, checking they all arrive, and reassembling them in order. IP handles addressing and routing, adding source and destination addresses to packets so they can be delivered across networks. They work together: IP routes packets to the destination, and TCP ensures they all arrive correctly and in order.</li>
+<li>HTTP transfers web pages in plain text (no encryption) and is not secure. HTTPS is the same as HTTP but adds SSL/TLS encryption, making the data unreadable to anyone intercepting it. HTTPS also uses digital certificates to verify the server's identity. HTTP uses port 80; HTTPS uses port 443.</li>
+<li>SMTP (Simple Mail Transfer Protocol) is used for sending email. IMAP (Internet Message Access Protocol) is used for receiving and reading email.</li>
+<li>Protocols are layered so each layer handles one specific aspect of communication. Layers can be changed independently (e.g. switching from Wi-Fi to Ethernet doesn't affect the application layer). Each layer only needs to communicate with the layers directly above and below it, making the system modular and easier to develop and maintain.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know the definition of a protocol: "a set of rules for data communication"</li>
+<li>Be able to explain the role of each key protocol (TCP, IP, HTTP, HTTPS, SMTP, IMAP)</li>
+<li>Remember: SMTP = sending, IMAP = receiving (not the other way round)</li>
+<li>Always mention encryption when comparing HTTP and HTTPS</li>
+<li>TCP = reliability; IP = addressing/routing</li>
+<li>Protocol layers allow modularity and independence between layers</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../networks/CS29-network-types-topologies.html" class="nav-prev">← Previous Topic: Network Types & Topologies</a>
+<a href="../networks/CS31-tcp-ip-model.html" class="nav-next">Next Topic: TCP/IP Model →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

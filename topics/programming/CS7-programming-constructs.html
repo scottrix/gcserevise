@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programming Constructs - GCSE Computer Science</title>
+<meta name="description" content="Learn about variables, constants, sequence, selection and iteration for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Programming Constructs</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS7: Programming Constructs</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Understanding variables, constants, sequence, selection (IF/CASE), and iteration (FOR/WHILE/REPEAT) - the building blocks of all programs.</p>
+</article>
+
+<section class="section">
+<h2>📦 Variables and Constants</h2>
+
+<div class="key-point">
+<strong>Variable:</strong> A named storage location in memory whose value can change during program execution. <strong>Constant:</strong> A named value that cannot be changed once it has been set.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Variable</th>
+<th>Constant</th>
+</tr>
+<tr>
+<td>Value can change?</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>When to use</td>
+<td>Values that need updating (score, counter)</td>
+<td>Fixed values (PI, tax rate, max attempts)</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>score &larr; 0, then score &larr; score + 1</td>
+<td>CONST PI &larr; 3.14159</td>
+</tr>
+<tr>
+<td>Advantage</td>
+<td>Flexible - can be updated</td>
+<td>Prevents accidental changes, makes code readable</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Variables vs Constants</div>
+<pre>CONST VAT_RATE &larr; 0.20        // Constant - won't change
+CONST MAX_SCORE &larr; 100        // Constant - won't change
+score &larr; 0                    // Variable - will change
+name &larr; ""                    // Variable - will change
+
+score &larr; score + 10          // OK - variable can change
+// VAT_RATE &larr; 0.25          // ERROR - constant cannot change</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Assignment</h2>
+
+<div class="key-point">
+<strong>Assignment</strong> means storing a value in a variable. The variable name goes on the left, the value or expression goes on the right. The previous value is overwritten.
+</div>
+
+<div class="example">
+<div class="example-title">Assignment Examples</div>
+<pre>age &larr; 16                    // Assign the value 16
+name &larr; "Bob"               // Assign the string "Bob"
+total &larr; price * quantity   // Assign the result of an expression
+counter &larr; counter + 1     // Increment: add 1 to current value</pre>
+</div>
+
+<div class="formula-box">
+<strong>Key Rule:</strong> Assignment is NOT the same as mathematical equality.<br>
+counter &larr; counter + 1 means "take the current value of counter, add 1, and store the result back in counter". In maths, x = x + 1 has no solution!
+</div>
+</section>
+
+<section class="section">
+<h2>➡️ Sequence</h2>
+
+<div class="key-point">
+<strong>Sequence</strong> means executing instructions one after another in order, from top to bottom. This is the simplest programming construct - every program uses sequence.
+</div>
+
+<div class="example">
+<div class="example-title">Sequence Example</div>
+<pre>INPUT "Enter length: ", length
+INPUT "Enter width: ", width
+area &larr; length * width
+OUTPUT "Area = ", area</pre>
+<p>Each line executes in order: input, input, calculate, output. No decisions, no repetition.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔀 Selection</h2>
+
+<div class="key-point">
+<strong>Selection</strong> allows a program to choose between different paths based on a condition. The three forms are: IF...THEN, IF...THEN...ELSE, and CASE/SWITCH.
+</div>
+
+<h3>IF...THEN</h3>
+<div class="example">
+<div class="example-title">Simple IF</div>
+<pre>IF temperature > 30 THEN
+    OUTPUT "It is hot today"
+ENDIF</pre>
+<p>The body only executes if the condition is TRUE.</p>
+</div>
+
+<h3>IF...THEN...ELSE</h3>
+<div class="example">
+<div class="example-title">IF with ELSE</div>
+<pre>IF age >= 17 THEN
+    OUTPUT "You can learn to drive"
+ELSE
+    OUTPUT "You cannot learn to drive yet"
+ENDIF</pre>
+<p>One path if TRUE, another path if FALSE.</p>
+</div>
+
+<h3>ELSEIF for Multiple Conditions</h3>
+<div class="example">
+<div class="example-title">ELSEIF Chain</div>
+<pre>IF grade >= 90 THEN
+    OUTPUT "A*"
+ELSEIF grade >= 80 THEN
+    OUTPUT "A"
+ELSEIF grade >= 70 THEN
+    OUTPUT "B"
+ELSEIF grade >= 60 THEN
+    OUTPUT "C"
+ELSE
+    OUTPUT "Below C"
+ENDIF</pre>
+</div>
+
+<h3>CASE / SWITCH</h3>
+<div class="example">
+<div class="example-title">CASE Statement</div>
+<pre>CASE OF day
+    1 : OUTPUT "Monday"
+    2 : OUTPUT "Tuesday"
+    3 : OUTPUT "Wednesday"
+    4 : OUTPUT "Thursday"
+    5 : OUTPUT "Friday"
+    OTHERWISE : OUTPUT "Weekend"
+ENDCASE</pre>
+<p>Use CASE when checking a single variable against several specific values.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>IF...ELSE</th>
+<th>CASE</th>
+</tr>
+<tr>
+<td>Best for</td>
+<td>Range checks, complex conditions</td>
+<td>Checking specific values of one variable</td>
+</tr>
+<tr>
+<td>Conditions</td>
+<td>Can combine multiple variables</td>
+<td>One variable only</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>IF age >= 18 AND hasID THEN</td>
+<td>CASE OF menuChoice</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔄 Iteration</h2>
+
+<div class="key-point">
+<strong>Iteration</strong> means repeating a block of code. There are three types: count-controlled (FOR), condition-controlled (WHILE), and post-condition (REPEAT...UNTIL).
+</div>
+
+<h3>FOR Loop (Count-Controlled)</h3>
+<div class="example">
+<div class="example-title">FOR Loop</div>
+<pre>FOR i &larr; 1 TO 10
+    OUTPUT i
+NEXT i
+// Outputs: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10</pre>
+<p>Use FOR when you know exactly how many times you need to repeat.</p>
+</div>
+
+<div class="example">
+<div class="example-title">FOR Loop with STEP</div>
+<pre>FOR i &larr; 10 TO 1 STEP -1
+    OUTPUT i
+NEXT i
+// Outputs: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1</pre>
+</div>
+
+<h3>WHILE Loop (Pre-condition)</h3>
+<div class="example">
+<div class="example-title">WHILE Loop</div>
+<pre>password &larr; ""
+WHILE password &lt;&gt; "secret"
+    INPUT "Enter password: ", password
+ENDWHILE
+OUTPUT "Access granted"</pre>
+<p>Use WHILE when you don't know how many times to repeat, and the loop may need to execute zero times.</p>
+</div>
+
+<h3>REPEAT...UNTIL (Post-condition)</h3>
+<div class="example">
+<div class="example-title">REPEAT UNTIL Loop</div>
+<pre>REPEAT
+    INPUT "Enter a number 1-10: ", num
+UNTIL num >= 1 AND num <= 10</pre>
+<p>Use REPEAT when the loop body must execute at least once.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>FOR</th>
+<th>WHILE</th>
+<th>REPEAT...UNTIL</th>
+</tr>
+<tr>
+<td>When to use</td>
+<td>Known number of repetitions</td>
+<td>Unknown, may run 0 times</td>
+<td>Unknown, must run at least once</td>
+</tr>
+<tr>
+<td>Condition checked</td>
+<td>Automatically (counter)</td>
+<td>Before each iteration</td>
+<td>After each iteration</td>
+</tr>
+<tr>
+<td>Can run zero times?</td>
+<td>No (if range is valid)</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Infinite loop risk</td>
+<td>Low (counter handles it)</td>
+<td>High (must update condition)</td>
+<td>High (must update condition)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🪆 Nesting Constructs</h2>
+
+<div class="key-point">
+<strong>Nesting</strong> means placing one construct inside another. You can put IF statements inside loops, loops inside IF statements, or loops inside other loops. This allows complex logic.
+</div>
+
+<div class="example">
+<div class="example-title">IF inside a FOR loop</div>
+<pre>FOR i &larr; 1 TO 20
+    IF i MOD 2 = 0 THEN
+        OUTPUT i, " is even"
+    ELSE
+        OUTPUT i, " is odd"
+    ENDIF
+NEXT i</pre>
+</div>
+
+<div class="example">
+<div class="example-title">WHILE loop inside an IF statement</div>
+<pre>INPUT difficulty
+IF difficulty = "hard" THEN
+    attempts &larr; 0
+    WHILE attempts &lt; 3
+        INPUT "Guess the number: ", guess
+        IF guess = secretNumber THEN
+            OUTPUT "Correct!"
+        ELSE
+            OUTPUT "Wrong!"
+        ENDIF
+        attempts &larr; attempts + 1
+    ENDWHILE
+ENDIF</pre>
+</div>
+
+<div class="key-point">
+<strong>Exam Tip:</strong> When nesting, always match your opening and closing keywords. Every IF needs an ENDIF, every WHILE needs an ENDWHILE, and every FOR needs a NEXT. Indent your code to make the structure clear.
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Explain the difference between a variable and a constant.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Write pseudo-code that asks for a number and outputs "Positive", "Negative", or "Zero" using selection.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> When would you use a REPEAT...UNTIL loop instead of a WHILE loop?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write pseudo-code using a FOR loop to output all multiples of 3 from 3 to 30.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Write pseudo-code that keeps asking for a password until the user enters "open123", then outputs "Welcome".</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>A variable is a named memory location whose value can change during execution. A constant is a named value that cannot be changed once set. Constants prevent accidental changes and make code more readable.</li>
+<li>
+<pre>INPUT number
+IF number > 0 THEN
+    OUTPUT "Positive"
+ELSEIF number &lt; 0 THEN
+    OUTPUT "Negative"
+ELSE
+    OUTPUT "Zero"
+ENDIF</pre>
+</li>
+<li>Use REPEAT...UNTIL when the loop body must execute at least once (e.g. input validation). Use WHILE when the loop may need to execute zero times (e.g. searching a list that might be empty).</li>
+<li>
+<pre>FOR i &larr; 3 TO 30 STEP 3
+    OUTPUT i
+NEXT i</pre>
+</li>
+<li>
+<pre>password &larr; ""
+WHILE password &lt;&gt; "open123"
+    INPUT "Enter password: ", password
+ENDWHILE
+OUTPUT "Welcome"</pre>
+</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always close your constructs: ENDIF, ENDWHILE, NEXT, ENDCASE</li>
+<li>Use constants (CONST) for values that should never change</li>
+<li>Choose the right loop: FOR for counted, WHILE for pre-condition, REPEAT for post-condition</li>
+<li>WHILE checks before running; REPEAT checks after - know the difference</li>
+<li>Indent nested constructs to show structure clearly</li>
+<li>Remember: sequence, selection, and iteration are the THREE basic constructs</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS6-data-types.html" class="nav-prev">← Previous: Data Types</a>
+<a href="CS8-arithmetic-relational-operations.html" class="nav-next">Next Topic: Arithmetic and Relational Operations →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

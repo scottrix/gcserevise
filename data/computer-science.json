@@ -1,0 +1,101 @@
+{
+"subject": "Computer Science",
+"id": "computer-science",
+"examBoards": ["AQA", "Edexcel", "OCR", "Eduqas"],
+"tierEntry": {
+  "foundation": "Grades 1-5",
+  "higher": "Grades 4-9"
+},
+"papers": {
+  "AQA": [
+    { "name": "Paper 1", "title": "Computational Thinking and Programming Skills", "duration": "2h", "marks": 90, "weighting": 50 },
+    { "name": "Paper 2", "title": "Computing Concepts", "duration": "1h 45m", "marks": 90, "weighting": 50 }
+  ]
+},
+"assessmentObjectives": [
+  { "id": "AO1", "description": "Demonstrate knowledge and understanding of computing concepts", "weighting": "45%" },
+  { "id": "AO2", "description": "Apply knowledge and understanding of computing concepts", "weighting": "30%" },
+  { "id": "AO3", "description": "Analyse, evaluate and make reasoned judgements about computing issues", "weighting": "25%" }
+],
+"strands": [
+  {
+    "id": "algorithms",
+    "name": "Fundamentals of Algorithms",
+    "topics": [
+      { "id": "CS1", "name": "Representing Algorithms", "description": "Pseudo-code, flowcharts, decomposition and abstraction", "tier": "both" },
+      { "id": "CS2", "name": "Efficiency of Algorithms", "description": "Comparing time efficiency of algorithms", "tier": "both" },
+      { "id": "CS3", "name": "Searching Algorithms", "description": "Linear search and binary search", "tier": "both" },
+      { "id": "CS4", "name": "Sorting Algorithms", "description": "Merge sort and bubble sort", "tier": "both" },
+      { "id": "CS5", "name": "Trace Tables", "description": "Using trace tables to determine algorithm purpose", "tier": "both" }
+    ]
+  },
+  {
+    "id": "programming",
+    "name": "Programming",
+    "topics": [
+      { "id": "CS6", "name": "Data Types", "description": "Integer, real, Boolean, character and string", "tier": "both" },
+      { "id": "CS7", "name": "Programming Constructs", "description": "Variables, constants, sequence, selection, iteration", "tier": "both" },
+      { "id": "CS8", "name": "Arithmetic and Relational Operations", "description": "Arithmetic operators, DIV, MOD, relational operators", "tier": "both" },
+      { "id": "CS9", "name": "Boolean Operations", "description": "NOT, AND, OR in conditions", "tier": "both" },
+      { "id": "CS10", "name": "Data Structures", "description": "Arrays (1D and 2D), records", "tier": "both" },
+      { "id": "CS11", "name": "Input, Output and String Handling", "description": "I/O, string operations, type conversion", "tier": "both" },
+      { "id": "CS12", "name": "Subroutines", "description": "Procedures, functions, parameters, return values", "tier": "both" },
+      { "id": "CS13", "name": "Robust and Secure Programming", "description": "Validation, authentication, testing, test data", "tier": "both" },
+      { "id": "CS14", "name": "Random Number Generation", "description": "Using random numbers in programs", "tier": "both" }
+    ]
+  },
+  {
+    "id": "data-representation",
+    "name": "Fundamentals of Data Representation",
+    "topics": [
+      { "id": "CS15", "name": "Number Bases", "description": "Decimal, binary and hexadecimal", "tier": "both" },
+      { "id": "CS16", "name": "Converting Between Number Bases", "description": "Converting binary, decimal and hexadecimal", "tier": "both" },
+      { "id": "CS17", "name": "Units of Information", "description": "Bits, bytes and decimal prefixes", "tier": "both" },
+      { "id": "CS18", "name": "Binary Arithmetic", "description": "Binary addition and logical binary shifts", "tier": "both" },
+      { "id": "CS19", "name": "Character Encoding", "description": "ASCII and Unicode", "tier": "both" },
+      { "id": "CS20", "name": "Representing Images", "description": "Bitmap images, pixels, colour depth, file size", "tier": "both" },
+      { "id": "CS21", "name": "Representing Sound", "description": "Sampling rate, sample resolution, file size", "tier": "both" },
+      { "id": "CS22", "name": "Data Compression", "description": "Huffman coding and run length encoding", "tier": "both" }
+    ]
+  },
+  {
+    "id": "computer-systems",
+    "name": "Computer Systems",
+    "topics": [
+      { "id": "CS23", "name": "Hardware and Software", "description": "Definitions and relationship between hardware and software", "tier": "both" },
+      { "id": "CS24", "name": "Boolean Logic", "description": "Truth tables, logic gates and circuits", "tier": "both" },
+      { "id": "CS25", "name": "Software Classification", "description": "System vs application software, OS functions", "tier": "both" },
+      { "id": "CS26", "name": "Programming Languages and Translators", "description": "Low-level vs high-level, compiler, interpreter, assembler", "tier": "both" },
+      { "id": "CS27", "name": "Systems Architecture", "description": "CPU components, factors affecting performance, Fetch-Execute cycle", "tier": "both" },
+      { "id": "CS28", "name": "Memory and Storage", "description": "RAM, ROM, cache, secondary storage, cloud, embedded systems", "tier": "both" }
+    ]
+  },
+  {
+    "id": "networks",
+    "name": "Computer Networks",
+    "topics": [
+      { "id": "CS29", "name": "Network Types and Topologies", "description": "PAN, LAN, WAN, wired vs wireless", "tier": "both" },
+      { "id": "CS30", "name": "Network Protocols", "description": "TCP, IP, HTTP, HTTPS, SMTP, IMAP", "tier": "both" },
+      { "id": "CS31", "name": "The TCP/IP Model", "description": "Four layers and their protocols", "tier": "both" },
+      { "id": "CS32", "name": "Network Security", "description": "Authentication, encryption, firewalls, MAC filtering", "tier": "both" }
+    ]
+  },
+  {
+    "id": "cyber-security",
+    "name": "Cyber Security",
+    "topics": [
+      { "id": "CS33", "name": "Cyber Security Threats", "description": "Social engineering, malware, phishing, weak passwords", "tier": "both" },
+      { "id": "CS34", "name": "Detecting and Preventing Cyber Threats", "description": "Biometrics, CAPTCHA, updates, penetration testing", "tier": "both" }
+    ]
+  },
+  {
+    "id": "databases-impacts",
+    "name": "Databases and Impacts of Digital Technology",
+    "topics": [
+      { "id": "CS35", "name": "Relational Databases", "description": "Tables, records, fields, primary and foreign keys", "tier": "both" },
+      { "id": "CS36", "name": "SQL", "description": "SELECT, INSERT, UPDATE, DELETE statements", "tier": "both" },
+      { "id": "CS37", "name": "Ethical, Legal and Environmental Impacts", "description": "Impacts of digital technology on society", "tier": "both" }
+    ]
+  }
+]
+}

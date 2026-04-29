@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trace Tables - GCSE Computer Science</title>
+<meta name="description" content="Learn how to use trace tables to step through algorithms for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Algorithms</span> <span>›</span>
+<span>Trace Tables</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS5: Trace Tables</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Using trace tables to step through algorithms, track variable values, and identify the purpose of unknown algorithms.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is a Trace Table?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A trace table is a table used to record the value of variables each time they change as an algorithm is executed step by step. It helps you understand how an algorithm works, find logic errors, and determine what an unknown algorithm does.
+</div>
+
+<p>Trace tables are essential for:</p>
+<ul>
+<li>Understanding how an algorithm processes data step by step</li>
+<li>Testing algorithms with different inputs (dry running)</li>
+<li>Finding logic errors by comparing expected vs actual values</li>
+<li>Identifying the purpose of unfamiliar algorithms</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>📝 Setting Up a Trace Table</h2>
+
+<div class="key-point">
+<strong>Setting up a trace table:</strong> Create a column for each variable in the algorithm, plus a column for any OUTPUT statements. Each row represents one execution step where a variable changes.
+</div>
+
+<div class="formula-box">
+<strong>Rules for Trace Tables:</strong><br>
+1. One column per variable + one for OUTPUT<br>
+2. Each row = one step where a variable changes<br>
+3. Only record a value when it changes<br>
+4. Leave cells blank if a variable doesn't change in that step<br>
+5. Record outputs in the OUTPUT column when they occur
+</div>
+
+<div class="example">
+<div class="example-title">Basic Trace Table Setup</div>
+<p>For an algorithm with variables <code>x</code>, <code>y</code>, and <code>total</code>:</p>
+<table class="comparison-table">
+<tr><th>Step</th><th>x</th><th>y</th><th>total</th><th>OUTPUT</th></tr>
+<tr><td>Initial</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+</table>
+</div>
+</section>
+
+<section class="section">
+<h2>🔢 Stepping Through Algorithms</h2>
+
+<h3>Example 1: Simple Counter</h3>
+<div class="example">
+<div class="example-title">Algorithm</div>
+<pre>count ← 0
+total ← 0
+FOR i ← 1 TO 4
+    count ← count + 1
+    total ← total + i * 2
+NEXT i
+OUTPUT total</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Trace Table</div>
+<table class="comparison-table">
+<tr><th>Iteration</th><th>i</th><th>count</th><th>total</th><th>OUTPUT</th></tr>
+<tr><td>Initial</td><td>-</td><td>0</td><td>0</td><td>-</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>2</td><td>-</td></tr>
+<tr><td>2</td><td>2</td><td>2</td><td>6</td><td>-</td></tr>
+<tr><td>3</td><td>3</td><td>3</td><td>12</td><td>-</td></tr>
+<tr><td>4</td><td>4</td><td>4</td><td>20</td><td>-</td></tr>
+<tr><td>End</td><td>-</td><td>-</td><td>-</td><td>20</td></tr>
+</table>
+<p><strong>Explanation:</strong> total accumulates 2 + 4 + 6 + 8 = 20</p>
+</div>
+
+<h3>Example 2: Finding the Maximum</h3>
+<div class="example">
+<div class="example-title">Algorithm</div>
+<pre>numbers ← [3, 7, 2, 9, 5]
+max ← numbers[0]
+FOR i ← 1 TO 4
+    IF numbers[i] > max THEN
+        max ← numbers[i]
+    ENDIF
+NEXT i
+OUTPUT max</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Trace Table</div>
+<table class="comparison-table">
+<tr><th>Iteration</th><th>i</th><th>numbers[i]</th><th>max</th><th>OUTPUT</th></tr>
+<tr><td>Initial</td><td>-</td><td>-</td><td>3</td><td>-</td></tr>
+<tr><td>1</td><td>1</td><td>7</td><td>7</td><td>-</td></tr>
+<tr><td>2</td><td>2</td><td>2</td><td>7</td><td>-</td></tr>
+<tr><td>3</td><td>3</td><td>9</td><td>9</td><td>-</td></tr>
+<tr><td>4</td><td>4</td><td>5</td><td>9</td><td>-</td></tr>
+<tr><td>End</td><td>-</td><td>-</td><td>-</td><td>9</td></tr>
+</table>
+<p><strong>Explanation:</strong> The algorithm finds the maximum value in the array. When numbers[i] > max, the new max is recorded.</p>
+</div>
+
+<h3>Example 3: WHILE Loop with Condition</h3>
+<div class="example">
+<div class="example-title">Algorithm</div>
+<pre>num ← 10
+WHILE num > 1
+    IF num MOD 2 = 0 THEN
+        num ← num DIV 2
+    ELSE
+        num ← num * 3 + 1
+    ENDIF
+ENDWHILE
+OUTPUT num</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Trace Table</div>
+<table class="comparison-table">
+<tr><th>Step</th><th>num (before)</th><th>Condition</th><th>Action</th><th>num (after)</th><th>OUTPUT</th></tr>
+<tr><td>1</td><td>10</td><td>10 > 1: TRUE, 10 MOD 2 = 0</td><td>num ← 10 DIV 2</td><td>5</td><td>-</td></tr>
+<tr><td>2</td><td>5</td><td>5 > 1: TRUE, 5 MOD 2 ≠ 0</td><td>num ← 5*3+1</td><td>16</td><td>-</td></tr>
+<tr><td>3</td><td>16</td><td>16 > 1: TRUE, 16 MOD 2 = 0</td><td>num ← 16 DIV 2</td><td>8</td><td>-</td></tr>
+<tr><td>4</td><td>8</td><td>8 > 1: TRUE, 8 MOD 2 = 0</td><td>num ← 8 DIV 2</td><td>4</td><td>-</td></tr>
+<tr><td>5</td><td>4</td><td>4 > 1: TRUE, 4 MOD 2 = 0</td><td>num ← 4 DIV 2</td><td>2</td><td>-</td></tr>
+<tr><td>6</td><td>2</td><td>2 > 1: TRUE, 2 MOD 2 = 0</td><td>num ← 2 DIV 2</td><td>1</td><td>-</td></tr>
+<tr><td>7</td><td>1</td><td>1 > 1: FALSE</td><td>Exit loop</td><td>-</td><td>1</td></tr>
+</table>
+<p><strong>This is the Collatz sequence!</strong> The algorithm halves even numbers and triples+1 odd numbers until reaching 1.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔎 Identifying the Purpose of Unknown Algorithms</h2>
+
+<div class="key-point">
+<strong>Exam technique:</strong> When given an unknown algorithm, create a trace table and look at the pattern of values. The OUTPUT and how variables change will reveal what the algorithm does.
+</div>
+
+<div class="example">
+<div class="example-title">What does this algorithm do?</div>
+<pre>x ← 17
+y ← 5
+WHILE x >= y
+    x ← x - y
+ENDWHILE
+OUTPUT x</pre>
+
+<table class="comparison-table">
+<tr><th>Step</th><th>x</th><th>y</th><th>x >= y?</th></tr>
+<tr><td>1</td><td>12</td><td>5</td><td>TRUE</td></tr>
+<tr><td>2</td><td>7</td><td>5</td><td>TRUE</td></tr>
+<tr><td>3</td><td>2</td><td>5</td><td>FALSE → exit</td></tr>
+</table>
+<p><strong>OUTPUT: 2</strong></p>
+<p><strong>Purpose:</strong> This calculates the <strong>remainder</strong> when x is divided by y (the MOD operation). 17 MOD 5 = 2. It repeatedly subtracts y from x until x < y.</p>
+</div>
+
+<div class="example">
+<div class="example-title">What does this algorithm do?</div>
+<pre>result ← 1
+FOR i ← 1 TO 5
+    result ← result * i
+NEXT i
+OUTPUT result</pre>
+
+<table class="comparison-table">
+<tr><th>i</th><th>result</th></tr>
+<tr><td>-</td><td>1</td></tr>
+<tr><td>1</td><td>1</td></tr>
+<tr><td>2</td><td>2</td></tr>
+<tr><td>3</td><td>6</td></tr>
+<tr><td>4</td><td>24</td></tr>
+<tr><td>5</td><td>120</td></tr>
+</table>
+<p><strong>OUTPUT: 120</strong></p>
+<p><strong>Purpose:</strong> This calculates <strong>5 factorial (5!)</strong> = 1 × 2 × 3 × 4 × 5 = 120.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>👁️ Visual Inspection of Trace Tables</h2>
+
+<div class="key-point">
+<strong>Tip:</strong> When looking at a completed trace table, examine the OUTPUT column and look for patterns in how variables change. Common patterns include: counting, accumulating (sum), finding maximum/minimum, searching, and computing remainders.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Pattern in Variables</th>
+<th>What the Algorithm is Doing</th>
+</tr>
+<tr>
+<td>One variable increases by 1 each step</td>
+<td>Counting</td>
+</tr>
+<tr>
+<td>One variable adds another variable each step</td>
+<td>Accumulating / calculating a total</td>
+</tr>
+<tr>
+<td>A variable is replaced only when a new value is larger</td>
+<td>Finding the maximum</td>
+</tr>
+<tr>
+<td>A variable is replaced only when a new value is smaller</td>
+<td>Finding the minimum</td>
+</tr>
+<tr>
+<td>A variable is multiplied by another each step</td>
+<td>Calculating a product / factorial / power</td>
+</tr>
+<tr>
+<td>A variable decreases by repeated subtraction</td>
+<td>Division or MOD operation</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🐛 Using Trace Tables for Debugging</h2>
+
+<div class="example">
+<div class="example-title">Finding the Error</div>
+<p>This algorithm is supposed to calculate the average of 3 numbers, but it gives the wrong answer:</p>
+<pre>total ← 0
+INPUT a
+INPUT b
+INPUT c
+total ← a + b + c
+average ← total / 2
+OUTPUT average</pre>
+<p>Input: a = 10, b = 20, c = 30</p>
+<table class="comparison-table">
+<tr><th>Variable</th><th>Expected</th><th>Actual</th></tr>
+<tr><td>total</td><td>60</td><td>60</td></tr>
+<tr><td>average</td><td>20</td><td>30</td></tr>
+</table>
+<p><strong>Error found:</strong> The algorithm divides by 2 instead of 3. The line should be <code>average ← total / 3</code>.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Not recording initial values</td>
+<td>You need the starting point to trace correctly</td>
+<td>Always fill in initial variable values before the loop</td>
+</tr>
+<tr>
+<td>Recording values that don't change</td>
+<td>It clutters the table and wastes time</td>
+<td>Only fill in a cell when the variable actually changes</td>
+</tr>
+<tr>
+<td>Missing an iteration</td>
+<td>Your trace will be incomplete and give wrong results</td>
+<td>Check FOR loop bounds carefully - count each iteration</td>
+</tr>
+<tr>
+<td>Wrong operator (DIV vs /)</td>
+<td>Integer division gives different results from real division</td>
+<td>Use DIV for integer division, / for real division</td>
+</tr>
+<tr>
+<td>Not evaluating conditions properly</td>
+<td>IF conditions may or may not execute their body</td>
+<td>Always evaluate the condition and record whether it was TRUE or FALSE</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Complete a trace table for this algorithm with input num = 7:</p>
+<pre>result ← 0
+FOR i ← 1 TO num
+    result ← result + i
+NEXT i
+OUTPUT result</pre>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What does the following algorithm compute? Use a trace table with x = 24, y = 6.</p>
+<pre>count ← 0
+WHILE x >= y
+    x ← x - y
+    count ← count + 1
+ENDWHILE
+OUTPUT count</pre>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Complete a trace table for the following algorithm with the array [4, 1, 8, 3]:</p>
+<pre>min ← numbers[0]
+FOR i ← 1 TO 3
+    IF numbers[i] < min THEN
+        min ← numbers[i]
+    ENDIF
+NEXT i
+OUTPUT min</pre>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Explain why trace tables are useful for debugging.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A trace table shows a variable that increases by 1 each iteration. What is the algorithm most likely doing?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>
+<table class="comparison-table">
+<tr><th>i</th><th>result</th></tr>
+<tr><td>-</td><td>0</td></tr>
+<tr><td>1</td><td>1</td></tr>
+<tr><td>2</td><td>3</td></tr>
+<tr><td>3</td><td>6</td></tr>
+<tr><td>4</td><td>10</td></tr>
+<tr><td>5</td><td>15</td></tr>
+<tr><td>6</td><td>21</td></tr>
+<tr><td>7</td><td>28</td></tr>
+</table>
+OUTPUT: 28 (This calculates the sum 1+2+3+4+5+6+7 = 28)
+</li>
+<li>The algorithm counts how many times y fits into x - it performs integer division (24 DIV 6 = 4). The OUTPUT is 4.</li>
+<li>Initial: min = 4. i=1: numbers[1]=1, 1<4, min=1. i=2: numbers[2]=8, 8>1, no change. i=3: numbers[3]=3, 3>1, no change. OUTPUT: 1 (the minimum value).</li>
+<li>Trace tables let you step through an algorithm line by line, recording variable values. This allows you to compare what you expected to happen with what actually happens, making it easy to spot where a logic error occurs.</li>
+<li>It is most likely counting. A variable that increments by 1 each step is typically a counter.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always set up columns before you start tracing - include every variable and an OUTPUT column</li>
+<li>Record initial values before the loop begins</li>
+<li>Go through the algorithm line by line - don't skip steps</li>
+<li>For IF statements, evaluate the condition and only update variables if the condition is TRUE</li>
+<li>When asked "what does this algorithm do?", trace it first then describe the overall purpose</li>
+<li>Double-check your arithmetic - one wrong calculation will throw off the rest of the table</li>
+<li>If asked to find an error, trace the algorithm and compare with what should happen</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS4-sorting-algorithms.html" class="nav-prev">← Previous: Sorting Algorithms</a>
+<a href="../programming/CS6-data-types.html" class="nav-next">Next Topic: Data Types →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

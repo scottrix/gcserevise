@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Network Types & Topologies - GCSE Computer Science</title>
+<meta name="description" content="Learn about PAN, LAN, WAN, wired vs wireless networking, advantages and disadvantages, and network topologies. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Networks</span> <span>›</span>
+<span>Network Types & Topologies</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS29: Network Types & Topologies</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Networks</span>
+</div>
+<p class="topic-desc">Types of computer networks (PAN, LAN, WAN), wired and wireless connections, advantages and disadvantages of networking, and network topologies.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is a Computer Network?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A computer network is two or more computers and other devices connected together to share data, information, and resources.
+</div>
+
+<p>Before networks, computers worked in isolation (standalone). Each computer had its own printer, its own storage, and no way to share data with other computers. Networks allow computers to communicate and share resources efficiently.</p>
+
+<ul>
+<li>Networks allow sharing of files, printers, and internet connections</li>
+<li>Users can communicate via email, messaging, and video calls</li>
+<li>Centralised data storage makes backups easier</li>
+<li>Software can be shared and updated centrally</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🌐 Types of Networks</h2>
+
+<h3>PAN (Personal Area Network)</h3>
+<div class="key-point">
+<strong>Definition:</strong> A PAN is a network that connects devices within a very small range, typically within a few metres of an individual person.
+</div>
+<ul>
+<li>Very small range (usually under 10 metres)</li>
+<li>Connects personal devices together</li>
+<li>Typically uses Bluetooth or USB</li>
+<li>Examples: connecting wireless headphones to a phone, a smartwatch to a phone</li>
+</ul>
+
+<h3>LAN (Local Area Network)</h3>
+<div class="key-point">
+<strong>Definition:</strong> A LAN is a network that covers a small geographical area, such as a single building, office, school, or home. LANs are typically owned and managed by the organisation that uses them.
+</div>
+<ul>
+<li>Small geographical area (one building or site)</li>
+<li>Usually owned and maintained by the organisation</li>
+<li>Typically uses Ethernet (wired) or Wi-Fi (wireless)</li>
+<li>High data transfer rates</li>
+<li>Lower cost to set up and maintain</li>
+<li>Examples: school network, home network, office network</li>
+</ul>
+
+<h3>WAN (Wide Area Network)</h3>
+<div class="key-point">
+<strong>Definition:</strong> A WAN is a network that covers a large geographical area, such as a city, country, or the whole world. WANs typically connect multiple LANs together over long distances.
+</div>
+<ul>
+<li>Large geographical area (cities, countries, continents)</li>
+<li>Uses third-party telecommunications infrastructure (phone lines, satellites)</li>
+<li>Typically uses fibre optic or satellite connections</li>
+<li>Lower data transfer rates than LANs (generally)</li>
+<li>Higher cost and more complex to maintain</li>
+<li>The internet is the largest WAN in the world</li>
+</ul>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>PAN</th>
+<th>LAN</th>
+<th>WAN</th>
+</tr>
+<tr>
+<td>Range</td>
+<td>Under 10 metres</td>
+<td>One building/site</td>
+<td>Cities, countries, worldwide</td>
+</tr>
+<tr>
+<td>Ownership</td>
+<td>Personal</td>
+<td>Organisation</td>
+<td>Third-party telecoms</td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>Low</td>
+<td>High</td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>Very low</td>
+<td>Low to moderate</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Technology</td>
+<td>Bluetooth, USB</td>
+<td>Ethernet, Wi-Fi</td>
+<td>Fibre optic, satellite</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔌 Wired vs Wireless Connections</h2>
+
+<h3>Wired Connections</h3>
+
+<h4>Ethernet</h4>
+<ul>
+<li>Uses copper cables (Cat5e, Cat6) to transmit data as electrical signals</li>
+<li>Very reliable and secure (physical cable required to intercept)</li>
+<li>Speeds up to 10 Gbps</li>
+<li>Not affected by interference or signal blocking</li>
+<li>Devices must be physically connected - limits mobility</li>
+</ul>
+
+<h4>Fibre Optic</h4>
+<ul>
+<li>Uses glass or plastic fibres to transmit data as pulses of light</li>
+<li>Extremely fast (up to 100 Gbps+)</li>
+<li>Can transmit over very long distances without signal loss</li>
+<li>Not affected by electromagnetic interference</li>
+<li>Very expensive to install</li>
+<li>Used for backbone connections and WAN links</li>
+</ul>
+
+<h3>Wireless Connections</h3>
+
+<h4>Wi-Fi</h4>
+<ul>
+<li>Uses radio waves to transmit data through the air</li>
+<li>Convenient - no cables needed, devices can move freely</li>
+<td>Speeds up to several Gbps (Wi-Fi 6)</li>
+<li>Signal can be blocked by walls and interference</li>
+<li>Less secure - signals can be intercepted</li>
+<li>Range typically 30-100 metres indoors</li>
+</ul>
+
+<h4>Bluetooth</h4>
+<ul>
+<li>Uses short-range radio waves (typically under 10 metres)</li>
+<li>Low power consumption - designed for battery-powered devices</li>
+<li>Relatively slow data transfer rate</li>
+<li>Used for connecting personal devices (headphones, keyboards, speakers)</li>
+</ul>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>Ethernet</th>
+<th>Fibre Optic</th>
+<th>Wi-Fi</th>
+<th>Bluetooth</th>
+</tr>
+<tr>
+<td>Medium</td>
+<td>Copper cable</td>
+<td>Glass/plastic fibre</td>
+<td>Radio waves</td>
+<td>Radio waves</td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>Up to 10 Gbps</td>
+<td>Up to 100+ Gbps</td>
+<td>Up to several Gbps</td>
+<td>Low (1-3 Mbps)</td>
+</tr>
+<tr>
+<td>Range</td>
+<td>100m per cable</td>
+<td>Many km</td>
+<td>30-100m</td>
+<td>Under 10m</td>
+</tr>
+<tr>
+<td>Mobility</td>
+<td>Fixed</td>
+<td>Fixed</td>
+<td>Mobile</td>
+<td>Mobile</td>
+</tr>
+<tr>
+<td>Security</td>
+<td>High (physical)</td>
+<td>High (physical)</td>
+<td>Lower (broadcast)</td>
+<td>Lower (broadcast)</td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>Low</td>
+<td>High</td>
+<td>Low</td>
+<td>Very low</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚖️ Advantages and Disadvantages of Networking</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+<tr>
+<td>Resource sharing (printers, storage)</td>
+<td>Security risks (hackers, malware can spread)</td>
+</tr>
+<tr>
+<td>File sharing between users</td>
+<td>Cost of setting up and maintaining the network</td>
+</tr>
+<tr>
+<td>Centralised data and backups</td>
+<td>If server fails, many users are affected</td>
+</tr>
+<tr>
+<td>Communication (email, messaging)</td>
+<td>Slower access to shared resources at peak times</td>
+</tr>
+<tr>
+<td>Shared internet connection</td>
+<td>Unauthorised access to sensitive data</td>
+</tr>
+<tr>
+<td>Software can be updated centrally</td>
+<td>Need for specialist network staff (IT support)</td>
+</tr>
+<tr>
+<td>Users can access their files from any computer</td>
+<td>Network cables and hardware need maintenance</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔷 Network Topologies</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A network topology is the physical or logical arrangement of devices and connections in a network. The two main topologies you need to know are star and mesh.
+</div>
+
+<h3>Star Topology</h3>
+<p>In a star topology, all devices connect to a central hub or switch. All communication goes through this central device.</p>
+
+<ul>
+<li><strong>Advantages:</strong></li>
+<li>If one cable fails, only that device is affected</li>
+<li>Easy to add new devices without disrupting the network</li>
+<li>Central hub makes it easy to manage and monitor</li>
+<li>High performance - each device has its own dedicated connection</li>
+<li><strong>Disadvantages:</strong></li>
+<li>If the central hub/switch fails, the entire network goes down</li>
+<li>Requires more cabling than some other topologies</li>
+<li>The central device is a single point of failure</li>
+</ul>
+
+<h3>Mesh Topology</h3>
+<p>In a mesh topology, devices are interconnected with multiple connections. In a full mesh, every device is connected to every other device. In a partial mesh, some devices have multiple connections.</p>
+
+<ul>
+<li><strong>Advantages:</strong></li>
+<li>No single point of failure - data can be routed around failed connections</li>
+<li>Highly reliable and fault-tolerant</li>
+<li>Data can take multiple paths to its destination</li>
+<li><strong>Disadvantages:</strong></li>
+<li>Very expensive (lots of cabling/connections needed)</li>
+<li>Complex to set up and manage</li>
+<li>Full mesh is impractical for large networks (n(n-1)/2 connections)</li>
+</ul>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>Star Topology</th>
+<th>Mesh Topology</th>
+</tr>
+<tr>
+<td>Central device</td>
+<td>Yes (hub/switch)</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Single point of failure</td>
+<td>Yes (central hub)</td>
+<td>No (multiple paths)</td>
+</tr>
+<tr>
+<td>Cable cost</td>
+<td>Moderate</td>
+<td>High (full mesh)</td>
+</tr>
+<tr>
+<td>Reliability</td>
+<td>Moderate</td>
+<td>Very high</td>
+</tr>
+<tr>
+<td>Scalability</td>
+<td>Easy to add devices</td>
+<td>Difficult (exponential connections)</td>
+</tr>
+<tr>
+<td>Typical use</td>
+<td>Home/office LANs</td>
+<td>Backbone networks, critical infrastructure</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "the internet is a LAN"</td>
+<td>The internet spans the globe - it's a WAN</td>
+<td>Internet = largest WAN; home network = LAN</td>
+</tr>
+<tr>
+<td>Saying "wireless is always better"</td>
+<td>Wireless has security and reliability trade-offs</td>
+<td>Compare speed, security, cost, and convenience</td>
+</tr>
+<tr>
+<td>Forgetting mesh has no single point of failure</td>
+<td>This is the key advantage of mesh</td>
+<td>Mesh = multiple paths = no single point of failure</td>
+</tr>
+<tr>
+<td>Saying "star topology fails if a cable breaks"</td>
+<td>In star, one cable break only affects one device</td>
+<td>In star: hub failure = total failure; cable failure = one device</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Define PAN, LAN, and WAN, giving an example of each.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Compare Ethernet and Wi-Fi, giving two advantages and two disadvantages of each.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Give three advantages and three disadvantages of using a computer network.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Compare star and mesh topologies. What is the main advantage of each?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Why is fibre optic cable used for backbone connections rather than copper Ethernet?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>PAN: Personal Area Network, very small range (under 10m), connects personal devices like phone to headphones. LAN: Local Area Network, covers a single building/site, e.g. a school network. WAN: Wide Area Network, covers large geographical area, e.g. the internet.</li>
+<li>Ethernet advantages: faster and more reliable, more secure (physical cable needed). Ethernet disadvantages: limited mobility, requires cabling to each device. Wi-Fi advantages: no cables needed, devices can move freely. Wi-Fi disadvantages: less secure (signals can be intercepted), signal can be blocked or interfered with.</li>
+<li>Advantages: resource sharing (printers), file sharing between users, centralised backups. Disadvantages: security risks (malware spreads), cost of setup and maintenance, if server fails many users affected.</li>
+<li>Star: all devices connect to a central hub/switch. Main advantage: easy to add devices, one cable failure only affects one device. Mesh: devices have multiple interconnections. Main advantage: no single point of failure - highly reliable because data can route around failed connections.</li>
+<li>Fibre optic uses light signals through glass fibres, giving much higher speeds, ability to transmit over much longer distances without signal loss, and immunity to electromagnetic interference. Copper Ethernet is limited by distance and is affected by interference.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know the three network types and their ranges</li>
+<li>For wired vs wireless, always compare security, speed, cost, and mobility</li>
+<li>Give balanced advantages AND disadvantages of networking</li>
+<li>Star topology: central hub is the single point of failure</li>
+<li>Mesh topology: no single point of failure is the key advantage</li>
+<li>The internet is a WAN, not a LAN</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../computer-systems/CS28-memory-storage.html" class="nav-prev">← Previous Topic: Memory & Storage</a>
+<a href="../networks/CS30-network-protocols.html" class="nav-next">Next Topic: Network Protocols →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

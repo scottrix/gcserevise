@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robust &amp; Secure Programming - GCSE Computer Science</title>
+<meta name="description" content="Learn about validation, authentication, testing, test data types, errors and debugging for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Robust &amp; Secure Programming</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS13: Robust &amp; Secure Programming</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Validation, authentication, testing strategies, test data types, syntax vs logic errors, and debugging techniques for writing robust and secure programs.</p>
+</article>
+
+<section class="section">
+<h2>✅ Validation</h2>
+
+<div class="key-point">
+<strong>Validation</strong> is the process of checking that input data is reasonable, sensible, and within acceptable limits before it is processed. Validation does NOT check if data is accurate - only that it is acceptable.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Check Type</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>Range check</td>
+<td>Checks that a value is within a specified range</td>
+<td>Age must be between 0 and 120</td>
+</tr>
+<tr>
+<td>Length check</td>
+<td>Checks that a string has an acceptable number of characters</td>
+<td>Password must be at least 8 characters</td>
+</tr>
+<tr>
+<td>Type check</td>
+<td>Checks that the data is of the correct data type</td>
+<td>Age must be an integer, not a string</td>
+</tr>
+<tr>
+<td>Presence check</td>
+<td>Checks that a field has not been left empty</td>
+<td>Name field cannot be blank</td>
+</tr>
+<tr>
+<td>Format check</td>
+<td>Checks that data follows a specific pattern</td>
+<td>Email must contain @, date must be DD/MM/YYYY</td>
+</tr>
+<tr>
+<td>Lookup check</td>
+<td>Checks that a value exists in a predefined list</td>
+<td>Country must be in the list of valid countries</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Validation in Pseudo-code</div>
+<pre>REPEAT
+    INPUT "Enter age (1-120): ", ageInput
+    age &larr; INT(ageInput)
+    IF age &lt; 1 OR age > 120 THEN
+        OUTPUT "Age must be between 1 and 120"
+    ENDIF
+UNTIL age >= 1 AND age &lt;= 120</pre>
+</div>
+
+<div class="key-point">
+<strong>Validation vs Verification:</strong> Validation checks if data is reasonable. Verification checks if data is correct (e.g. double-entry where you type the data twice to confirm it). They are different processes!
+</div>
+</section>
+
+<section class="section">
+<h2>🔐 Authentication</h2>
+
+<div class="key-point">
+<strong>Authentication</strong> is the process of verifying a user's identity. The most common method is a username and password system. Authentication ensures that only authorised users can access a system.
+</div>
+
+<div class="example">
+<div class="example-title">Simple Authentication Pseudo-code</div>
+<pre>storedUsername &larr; "admin"
+storedPassword &larr; "S3cur3!"
+attempts &larr; 0
+authenticated &larr; FALSE
+
+WHILE attempts &lt; 3 AND authenticated = FALSE
+    INPUT "Username: ", username
+    INPUT "Password: ", password
+    IF username = storedUsername AND password = storedPassword THEN
+        authenticated &larr; TRUE
+        OUTPUT "Access granted"
+    ELSE
+        attempts &larr; attempts + 1
+        OUTPUT "Invalid credentials. Attempts remaining: ", 3 - attempts
+    ENDIF
+ENDWHILE
+
+IF authenticated = FALSE THEN
+    OUTPUT "Account locked"
+ENDIF</pre>
+</div>
+
+<h3>Additional Authentication Measures</h3>
+<ul>
+<li><strong>Lockout after failed attempts</strong> - prevents brute force attacks</li>
+<li><strong>Password masking</strong> - shows *** instead of typed characters</li>
+<li><strong>Two-factor authentication (2FA)</strong> - requires a second form of verification (e.g. code sent to phone)</li>
+<li><strong>Strong password rules</strong> - minimum length, mix of characters</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧪 Testing Strategies</h2>
+
+<div class="key-point">
+<strong>Testing</strong> is the process of running a program with various inputs to check it works correctly. Good testing uses a range of test data to find errors.
+</div>
+
+<h3>Types of Test Data</h3>
+
+<table class="comparison-table">
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Example (age 1-120)</th>
+</tr>
+<tr>
+<td>Normal data</td>
+<td>Typical, valid data that the program should accept</td>
+<td>25, 50, 80</td>
+</tr>
+<tr>
+<td>Boundary data</td>
+<td>Data at the edge of valid ranges - the minimum and maximum acceptable values</td>
+<td>1, 120 (just within range)</td>
+</tr>
+<tr>
+<td>Erroneous data</td>
+<td>Data that is invalid and should be rejected</td>
+<td>-5, 150, "hello"</td>
+</tr>
+<tr>
+<td>Extreme data</td>
+<td>Very large or very small valid data at the extremes of what is possible</td>
+<td>1, 120 (same as boundary in this case)</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Test Data for a Password (6-20 characters)</div>
+<table class="comparison-table">
+<tr><th>Test Type</th><th>Test Data</th><th>Expected Result</th></tr>
+<tr><td>Normal</td><td>"password1" (10 chars)</td><td>Accepted</td></tr>
+<tr><td>Boundary</td><td>"abcdef" (6 chars)</td><td>Accepted (min length)</td></tr>
+<tr><td>Boundary</td><td>"twentycharacterpw" (20 chars)</td><td>Accepted (max length)</td></tr>
+<tr><td>Boundary</td><td>"abcde" (5 chars)</td><td>Rejected (one below min)</td></tr>
+<tr><td>Erroneous</td><td>"" (empty string)</td><td>Rejected</td></tr>
+<tr><td>Erroneous</td><td>"a"*21 (21 chars)</td><td>Rejected (over max)</td></tr>
+</table>
+</div>
+
+<div class="key-point">
+<strong>Exam Tip:</strong> Boundary data tests the exact limits. For a range of 1-100, boundary data is 1, 100, 0, and 101. The boundary values that are just outside the valid range are especially important.
+</div>
+</section>
+
+<section class="section">
+<h2>🐛 Syntax vs Logic Errors</h2>
+
+<div class="key-point">
+<strong>Syntax errors</strong> are mistakes in the grammar/rules of the programming language. The program cannot run at all. <strong>Logic errors</strong> are mistakes in the program's logic - the program runs but produces incorrect results.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Syntax Error</th>
+<th>Logic Error</th>
+</tr>
+<tr>
+<td>What it is</td>
+<td>Code that breaks the language rules</td>
+<td>Code that runs but does the wrong thing</td>
+</tr>
+<tr>
+<td>Does it run?</td>
+<td>No - the program fails to compile/run</td>
+<td>Yes - but produces wrong output</td>
+</tr>
+<tr>
+<td>Detection</td>
+<td>Found automatically by the translator/IDE</td>
+<td>Found by testing with different inputs</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>IF age > 18 THEN (missing ENDIF)</td>
+<td>average &larr; total / 2 instead of / 3</td>
+</tr>
+<tr>
+<td>Fix</td>
+<td>Correct the syntax rule violation</td>
+<td>Trace through logic to find the mistake</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Syntax Error Examples</div>
+<pre>OUTPUT "Hello           // Missing closing quote
+IF x > 5                 // Missing THEN
+FOR i &larr; 1 TO 10       // Missing NEXT i
+score &larr;                // Missing value after assignment</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Logic Error Examples</div>
+<pre>// Wrong formula: area of rectangle should be length * width
+area &larr; length + width          // Uses + instead of *
+
+// Off by one: should loop 10 times
+FOR i &larr; 0 TO 10                // Loops 11 times instead of 10
+
+// Wrong comparison: should be &lt;=
+IF score > 50 THEN                // Should be >= for "pass at 50"</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔧 Debugging Techniques</h2>
+
+<div class="key-point">
+<strong>Debugging</strong> is the process of finding and fixing errors in a program. Common techniques include using trace tables, adding output statements, using IDE debuggers, and dry running.
+</div>
+
+<ul>
+<li><strong>Trace tables</strong> - step through the program line by line, recording variable values</li>
+<li><strong>Output statements</strong> - add temporary OUTPUT commands to display variable values at key points</li>
+<li><strong>IDE debugger</strong> - use breakpoints to pause execution and inspect variables</li>
+<li><strong>Dry running</strong> - manually execute the code on paper with sample inputs</li>
+<li><strong>Watch variables</strong> - monitor specific variables to see when they change unexpectedly</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Debugging with Output Statements</div>
+<pre>// Bug: average is always wrong
+total &larr; 0
+FOR i &larr; 0 TO 4
+    INPUT score
+    total &larr; total + score
+    OUTPUT "DEBUG: total = ", total   // Debug line
+NEXT i
+OUTPUT "DEBUG: final total = ", total  // Debug line
+average &larr; total / 5
+OUTPUT "DEBUG: average = ", average    // Debug line
+OUTPUT "Average: ", average</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Confusing validation and verification</td>
+<td>They are different processes</td>
+<td>Validation = is it reasonable? Verification = is it correct?</td>
+</tr>
+<tr>
+<td>Only testing with normal data</td>
+<td>Errors often occur at boundaries</td>
+<td>Always test with boundary and erroneous data</td>
+</tr>
+<tr>
+<td>Saying extreme = erroneous</td>
+td>Extreme data IS valid (just very large/small), erroneous is NOT valid</td>
+<td>Extreme data should be accepted; erroneous should be rejected</td>
+</tr>
+<tr>
+<td>Forgetting boundary-adjacent values</td>
+<td>Both 1 and 0 for range 1-100 are boundary</td>
+<td>Test just inside AND just outside the boundary</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Name three types of validation check and give an example of each.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A program asks for a test score between 0 and 100. Give examples of normal, boundary, and erroneous test data.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Explain the difference between a syntax error and a logic error.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write pseudo-code that validates a username to be between 3 and 20 characters.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Describe two techniques for debugging a logic error.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Range check: age must be 0-120. Length check: password must be at least 8 characters. Type check: quantity must be an integer. Presence check: name cannot be empty. Format check: email must contain @.</li>
+<li>Normal: 75 (typical valid score). Boundary: 0, 100 (just within range), -1, 101 (just outside range). Erroneous: -50, 150, "hello" (clearly invalid).</li>
+<li>A syntax error is a mistake in the grammar of the programming language that prevents the program from running (e.g. missing ENDIF). A logic error is a mistake in the program's logic where it runs but produces incorrect results (e.g. dividing by the wrong number).</li>
+<li>
+<pre>REPEAT
+    INPUT "Enter username (3-20 chars): ", username
+    IF LENGTH(username) &lt; 3 OR LENGTH(username) > 20 THEN
+        OUTPUT "Username must be between 3 and 20 characters"
+    ENDIF
+UNTIL LENGTH(username) >= 3 AND LENGTH(username) &lt;= 20</pre>
+</li>
+<li>1) Use a trace table to step through the program line by line, recording variable values and comparing with expected values. 2) Add temporary OUTPUT statements at key points to display variable values and check if they match expectations.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all six validation types: range, length, type, presence, format, lookup</li>
+<li>Remember: validation checks if data is reasonable, verification checks if it is correct</li>
+<li>For test data, always provide normal, boundary, AND erroneous examples</li>
+<li>Boundary data includes values just inside AND just outside the valid range</li>
+<li>Syntax errors prevent running; logic errors allow running but produce wrong output</li>
+<li>When debugging, use trace tables and output statements to track variable values</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS12-subroutines.html" class="nav-prev">← Previous: Subroutines</a>
+<a href="CS14-random-number-generation.html" class="nav-next">Next Topic: Random Number Generation →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

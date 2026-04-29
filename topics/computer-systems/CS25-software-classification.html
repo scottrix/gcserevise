@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Software Classification - GCSE Computer Science</title>
+<meta name="description" content="Learn about system software, application software, OS functions and utility programs. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Computer Systems</span> <span>›</span>
+<span>Software Classification</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS25: Software Classification</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Computer Systems</span>
+</div>
+<p class="topic-desc">System software vs application software, operating system functions, and utility programs.</p>
+</article>
+
+<section class="section">
+<h2>📋 System Software vs Application Software</h2>
+
+<div class="key-point">
+<strong>Key Distinction:</strong> System software manages the computer and provides a platform for other software. Application software performs tasks for the user. System software works behind the scenes; application software is what the user interacts with directly.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>System Software</th>
+<th>Application Software</th>
+</tr>
+<tr>
+<td>Purpose</td>
+<td>Manage hardware and provide a platform</td>
+<td>Perform specific tasks for the user</td>
+</tr>
+<tr>
+<td>User interaction</td>
+<td>Often runs in background</td>
+<td>User interacts directly</td>
+</tr>
+<tr>
+<td>Dependency</td>
+<td>Runs without application software</td>
+<td>Cannot run without system software</td>
+</tr>
+<tr>
+<td>Examples</td>
+<td>OS, drivers, utilities, translators</td>
+<td>Word processor, browser, games</td>
+</tr>
+<tr>
+<td>Necessity</td>
+<td>Essential for computer to function</td>
+<td>Optional - installed as needed</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🖥️ Operating System Functions</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> An operating system (OS) is system software that manages computer hardware and software resources. It provides common services for application programs and acts as an intermediary between the user and the hardware.
+</div>
+
+<h3>1. Processor Management</h3>
+<p>The OS manages how the CPU's time is allocated to different programs:</p>
+<ul>
+<li>Schedules which process runs and when (scheduling algorithms)</li>
+<li>Allocates CPU time slices to each running program</li>
+<li>Switches between processes rapidly (context switching)</li>
+<li>Ensures no single program monopolises the CPU</li>
+<li>Manages process priorities (some tasks are more urgent than others)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you have a web browser, music player, and word processor open simultaneously, the OS rapidly switches the CPU between them so each appears to be running at the same time. This is called multitasking.</p>
+</div>
+
+<h3>2. Memory Management</h3>
+<p>The OS manages the computer's RAM:</p>
+<ul>
+<li>Allocates memory space to each running program</li>
+<li>Prevents programs from accessing each other's memory (memory protection)</li>
+<li>Manages virtual memory (uses hard drive space when RAM is full)</li>
+<li>Releases memory when programs close</li>
+<li>Decides which data stays in RAM and which is swapped to disk</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>If you have 8 GB of RAM and open programs needing 10 GB, the OS uses virtual memory - it moves less-used data to the hard drive (paging/swap file) to free up RAM for active programs.</p>
+</div>
+
+<h3>3. Input/Output (I/O) Management</h3>
+<p>The OS controls all input and output devices:</p>
+<ul>
+<li>Manages communication between hardware devices and software</li>
+<li>Uses device drivers to translate between OS and specific hardware</li>
+<li>Handles input from keyboard, mouse, and other devices</li>
+<li>Sends output to screen, printer, and other devices</li>
+<li>Manages data buffers to handle different speeds of devices</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you click "Print," the OS sends the document data to the printer driver, which translates it into the specific commands the printer understands. The OS manages the print queue if multiple documents are waiting.</p>
+</div>
+
+<h3>4. Security</h3>
+<p>The OS protects the computer system:</p>
+<ul>
+<li>Manages user accounts and passwords</li>
+<li>Controls access rights and file permissions</li>
+<li>Prevents unauthorised access to data and resources</li>
+<li>Manages firewall settings</li>
+<li>Logs user activity for auditing</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>The OS requires a password to log in. It also determines that User A can read and edit the "Projects" folder, but User B can only read it. This is access control managed by the OS.</p>
+</div>
+
+<h3>5. File Management</h3>
+<p>The OS organises and manages files on storage devices:</p>
+<ul>
+<li>Creates, renames, copies, moves, and deletes files and folders</li>
+<li>Maintains the file system structure (directories/folders hierarchy)</li>
+<li>Keeps track of where files are physically stored on disk</li>
+<li>Manages file permissions (read, write, execute)</li>
+<li>Handles file allocation and deals with fragmentation</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you save a document, the OS determines where on the hard drive to store it, records its location in the file allocation table, and creates the directory entry so you can find it later in your "Documents" folder.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔧 Utility Programs</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Utility programs are system software that perform maintenance and housekeeping tasks to keep the computer running efficiently. They are not essential for the computer to function but help maintain performance and security.
+</div>
+
+<h3>Defragmentation</h3>
+<p>Over time, files on a hard disk become fragmented - pieces of the same file are scattered across different physical locations on the disk. Defragmentation rearranges file fragments so they are stored in contiguous (adjacent) sectors.</p>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>Before Defrag</th>
+<th>After Defrag</th>
+</tr>
+<tr>
+<td>File storage</td>
+<td>Fragments scattered across disk</td>
+<td>File pieces stored together</td>
+</tr>
+<tr>
+<td>Read speed</td>
+<td>Slow - read head moves frequently</td>
+<td>Fast - read head moves less</td>
+</tr>
+<tr>
+<td>Disk wear</td>
+<td>More movement = more wear</td>
+<td>Less movement = less wear</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Note:</strong> Defragmentation is only needed for HDD (magnetic disk drives). SSDs do not need defragmentation because they have no moving parts and can access any location instantly. In fact, defragmenting an SSD can reduce its lifespan.
+</div>
+
+<h3>Compression</h3>
+<p>Compression utilities reduce file sizes to save disk space and speed up file transfers:</p>
+<ul>
+<li>Lossless compression (ZIP, RAR) - no data loss, can be fully restored</li>
+<li>Lossy compression (JPEG, MP3) - some data removed, smaller files</li>
+<li>Compress files before emailing or backing up</li>
+<li>Decompress files when needed for use</li>
+</ul>
+
+<h3>Backup</h3>
+<p>Backup utilities create copies of data for safekeeping:</p>
+
+<table class="comparison-table">
+<tr>
+<th>Backup Type</th>
+<th>What It Copies</th>
+<th>Speed</th>
+<th>Storage Used</th>
+</tr>
+<tr>
+<td>Full backup</td>
+<td>All files and data</td>
+<td>Slow</td>
+<td>Largest</td>
+</tr>
+<tr>
+<td>Incremental backup</td>
+<td>Only files changed since last backup</td>
+<td>Fast</td>
+<td>Smallest</td>
+</tr>
+<tr>
+<td>Differential backup</td>
+<td>Files changed since last full backup</td>
+<td>Medium</td>
+<td>Medium</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Important:</strong> Backups should be stored in a different location from the original data (offsite or in the cloud). This protects against physical disasters (fire, flood, theft) that could destroy both the original and the backup if stored together.
+</div>
+</section>
+
+<section class="section">
+<h2>📊 Application Software Categories</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Category</th>
+<th>Description</th>
+<th>Examples</th>
+<th>Advantages</th>
+</tr>
+<tr>
+<td>General-purpose</td>
+<td>Can perform many different tasks</td>
+<td>Word processor, spreadsheet, database</td>
+<td>Versatile, widely available, lots of features</td>
+</tr>
+<tr>
+<td>Special-purpose</td>
+<td>Designed for one specific task</td>
+<td>Payroll system, CAD, accounting software</td>
+<td>Optimised for the task, easier to use for that purpose</td>
+</tr>
+<tr>
+<td>Bespoke (custom)</td>
+<td>Custom-built for one organisation</td>
+<td>Company inventory system, school management</td>
+<td>Exactly meets needs, competitive advantage</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Comparison</div>
+<p><strong>General-purpose:</strong> Microsoft Excel can do budgets, charts, data analysis, schedules - many different tasks.</p>
+<p><strong>Special-purpose:</strong> Sage Accounting is designed specifically for accounting tasks - nothing else.</p>
+<p><strong>Bespoke:</strong> A custom-built system for a specific hospital to manage patient records exactly to their requirements.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "the OS is just the desktop"</td>
+<td>The OS does far more - memory, process, I/O management</td>
+<td>Remember all 5 OS functions</td>
+</tr>
+<tr>
+<td>Confusing utility software with application software</td>
+<td>Utilities maintain the system; applications serve the user</td>
+<td>Utilities = system maintenance; Apps = user tasks</td>
+</tr>
+<tr>
+<td>Saying "defrag speeds up SSDs"</td>
+<td>SSDs have no moving parts; defrag is for HDDs only</td>
+<td>Defrag only applies to magnetic hard drives</td>
+</tr>
+<tr>
+<td>Forgetting offsite backup importance</td>
+<td>Onsite backups can be destroyed with the original</td>
+<td>Always store backups in a separate location</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> List and briefly describe the five main functions of an operating system.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Explain the difference between a full backup and an incremental backup.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Why is defragmentation not needed for SSDs?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is the difference between general-purpose and special-purpose application software? Give an example of each.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain why backups should be stored in a different location from the original data.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Processor management (schedules CPU time); Memory management (allocates RAM); I/O management (controls devices); Security (user accounts, permissions); File management (organises files on disk).</li>
+<li>Full backup copies all files every time (slow, uses most storage). Incremental backup only copies files that have changed since the last backup (fast, uses least storage).</li>
+<li>SSDs use flash memory with no moving parts. Data can be accessed equally quickly from any location on the drive, so having file fragments in non-contiguous locations does not slow down access. Defragmentation only benefits HDDs where the physical read head must move to different locations.</li>
+<li>General-purpose software can be used for many different tasks (e.g. a word processor can write letters, essays, reports). Special-purpose software is designed for one specific task (e.g. a payroll system that only calculates employee wages).</li>
+<li>If backups are stored in the same location as the original data, a disaster such as fire, flood, or theft could destroy both the original and the backup. Storing backups offsite ensures a copy survives even if the original location is destroyed.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all five OS functions and be able to describe each with an example</li>
+<li>Understand the three types of backup and their trade-offs</li>
+<li>Remember: defragmentation is for HDDs only, NOT SSDs</li>
+<li>Be able to distinguish system software from application software</li>
+<li>Know the three categories of application software (general, special, bespoke)</li>
+<li>Explain utility programs by their function, not just by name</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../computer-systems/CS24-boolean-logic.html" class="nav-prev">← Previous Topic: Boolean Logic</a>
+<a href="../computer-systems/CS26-programming-languages-translators.html" class="nav-next">Next Topic: Programming Languages & Translators →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

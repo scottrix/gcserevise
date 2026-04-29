@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TCP/IP Model - GCSE Computer Science</title>
+<meta name="description" content="Learn about the four layers of the TCP/IP model, encapsulation, and the function of each layer. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Networks</span> <span>›</span>
+<span>TCP/IP Model</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS31: TCP/IP Model</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Networks</span>
+</div>
+<p class="topic-desc">The four layers of the TCP/IP model, the function of each layer, and how data is encapsulated and passed between layers.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is the TCP/IP Model?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> The TCP/IP model is a conceptual framework that describes how data is transmitted over a network. It divides network communication into four layers, each with a specific role. Data passes down through the layers when being sent, and up through the layers when being received.
+</div>
+
+<p>The TCP/IP model is the foundation of all internet communication. It was developed by the US Department of Defense and has become the standard model for network communication. Each layer handles a different aspect of getting data from one device to another, and the layers work together seamlessly.</p>
+
+<ul>
+<li>The model has 4 layers, each with a specific function</li>
+<li>Each layer only communicates with the layer above and below it</li>
+<li>Layers can be developed and changed independently</li>
+<li>Data is encapsulated as it passes down the layers (headers added)</li>
+<li>Data is decapsulated as it passes up the layers (headers removed)</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🌐 The Four Layers</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Layer Number</th>
+<th>Layer Name</th>
+<th>Key Protocols</th>
+<th>Main Function</th>
+</tr>
+<tr>
+<td>4 (Top)</td>
+<td>Application</td>
+<td>HTTP, HTTPS, SMTP, IMAP, FTP</td>
+<td>Provides network services to applications</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Transport</td>
+<td>TCP, UDP</td>
+<td>End-to-end delivery and reliability</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Internet</td>
+<td>IP</td>
+<td>Addressing and routing across networks</td>
+</tr>
+<tr>
+<td>1 (Bottom)</td>
+<td>Link</td>
+<td>Ethernet, Wi-Fi</td>
+<td>Physical transmission on local network</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🖥️ Layer 4: Application Layer</h2>
+
+<div class="key-point">
+<strong>Function:</strong> The application layer provides network services directly to user applications. It is the layer that users interact with most directly. It determines what data is sent and how it is formatted for the application.
+</div>
+
+<ul>
+<li>Highest layer - closest to the user</li>
+<li>Provides the interface between applications and the network</li>
+<li>Formats data for the specific application being used</li>
+<li>Handles high-level protocols that applications use</li>
+<li>Protocols at this layer include: HTTP/HTTPS (web), SMTP/IMAP (email), FTP (file transfer)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you type a URL into your web browser, the browser uses HTTP (application layer) to format a request for the web page. The application layer doesn't care how the data gets to the server - it just prepares the request in the correct format.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🚚 Layer 3: Transport Layer</h2>
+
+<div class="key-point">
+<strong>Function:</strong> The transport layer manages end-to-end communication between two devices. It ensures data is delivered reliably (TCP) or quickly (UDP), breaks data into segments, and handles flow control.
+</div>
+
+<ul>
+<li>Manages communication between sending and receiving devices</li>
+<li>Breaks large data into smaller segments for transmission</li>
+<li>Numbers segments so they can be reassembled in order</li>
+<li>TCP provides reliable delivery with acknowledgements</li>
+<li>UDP provides fast delivery without guaranteed reliability</li>
+<li>Adds port numbers to identify which application should receive the data</li>
+</ul>
+
+<h3>TCP vs UDP at the Transport Layer</h3>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>TCP</th>
+<th>UDP</th>
+</tr>
+<tr>
+<td>Connection</td>
+<td>Connection-oriented (establishes connection first)</td>
+<td>Connectionless (just sends data)</td>
+</tr>
+<tr>
+<td>Reliability</td>
+<td>Reliable (acks, resends lost data)</td>
+<td>Unreliable (no guarantee of delivery)</td>
+</tr>
+<tr>
+<td>Ordering</td>
+<td>Ordered (reassembles in sequence)</td>
+<td>Not ordered (arrives in any order)</td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>Slower (overhead of checks)</td>
+<td>Faster (no overhead)</td>
+</tr>
+<tr>
+<td>Use case</td>
+<td>Web pages, email, file transfer</td>
+<td>Video streaming, online gaming, VoIP</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">When to Use Each</div>
+<p><strong>TCP:</strong> Downloading a file - every byte must arrive correctly, so reliability matters more than speed.</p>
+<p><strong>UDP:</strong> Live video call - a few dropped frames are acceptable, but delay (latency) is very noticeable, so speed matters more than guaranteed delivery.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🗺️ Layer 2: Internet Layer</h2>
+
+<div class="key-point">
+<strong>Function:</strong> The internet layer handles addressing and routing of data packets across networks. It adds IP addresses to identify the source and destination, and determines the best route for packets to take across interconnected networks.
+</div>
+
+<ul>
+<li>Adds source and destination IP addresses to packets</li>
+<li>Routers operate at this layer - they read IP addresses to forward packets</li>
+<li>Determines the best path (route) for data across networks</li>
+<li>Packets may take different routes to reach the same destination</li>
+<li>Handles IPv4 and IPv6 addressing</li>
+<li>Does not guarantee delivery (that's TCP's job at the transport layer)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you send data from London to Tokyo, the internet layer adds the destination IP address and routers at each network junction read this address to decide where to forward the packet next. The packet may pass through many routers, each making a forwarding decision based on the IP address.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔌 Layer 1: Link Layer</h2>
+
+<div class="key-point">
+<strong>Function:</strong> The link layer handles the physical transmission of data on a local network segment. It is responsible for getting data from one device to the next on the same network, using MAC addresses and physical media.
+</div>
+
+<ul>
+<li>Lowest layer - closest to the physical hardware</li>
+<li>Handles transmission on the local network (same network segment)</li>
+<li>Adds MAC addresses for device identification on the local network</li>
+<li>Converts data into signals (electrical, radio, light) for transmission</li>
+<li>Handles error detection at the physical level</li>
+<li>Technologies: Ethernet (wired), Wi-Fi (wireless)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When your laptop sends data over Wi-Fi, the link layer converts the data into radio waves transmitted through the air. When data arrives at your router via an Ethernet cable, the link layer converts the electrical signals back into data and passes it up to the internet layer.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📦 Encapsulation</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Encapsulation is the process where each layer adds its own header (control information) to the data as it passes down the layers. When data is received, each layer removes its header (decapsulation) as it passes up the layers.
+</div>
+
+<h3>Sending Data (Down the Layers)</h3>
+<ol>
+<li><strong>Application layer:</strong> Creates the data (e.g. HTTP request) and passes it down</li>
+<li><strong>Transport layer:</strong> Adds transport header (port numbers, sequence numbers) → creates a segment</li>
+<li><strong>Internet layer:</strong> Adds IP header (source and destination IP addresses) → creates a packet</li>
+<li><strong>Link layer:</strong> Adds frame header (MAC addresses) and trailer (error checking) → creates a frame</li>
+</ol>
+
+<h3>Receiving Data (Up the Layers)</h3>
+<ol>
+<li><strong>Link layer:</strong> Removes frame header/trailer, passes packet up</li>
+<li><strong>Internet layer:</strong> Removes IP header, passes segment up</li>
+<li><strong>Transport layer:</strong> Removes transport header, passes data up</li>
+<li><strong>Application layer:</strong> Receives the data (e.g. displays the web page)</li>
+</ol>
+
+<div class="example">
+<div class="example-title">Encapsulation Example</div>
+<p>Sending a web page request:</p>
+<p>1. Application: HTTP request data "GET /index.html"</p>
+<p>2. Transport: [TCP header | HTTP data] = segment</p>
+<p>3. Internet: [IP header | TCP header | HTTP data] = packet</p>
+<p>4. Link: [Frame header | IP header | TCP header | HTTP data | Frame trailer] = frame</p>
+<p>Each layer wraps the data from the layer above with its own header information.</p>
+</div>
+
+<div class="formula-box">
+<strong>Encapsulation Summary:</strong><br>
+Application: creates DATA<br>
+Transport: adds port/sequence → SEGMENT<br>
+Internet: adds IP addresses → PACKET<br>
+Link: adds MAC addresses + error check → FRAME<br><br>
+Each layer adds a header; the link layer also adds a trailer
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Confusing layer order</td>
+<td>Application is the TOP, Link is the BOTTOM</td>
+<td>Remember: Application (4) > Transport (3) > Internet (2) > Link (1)</td>
+</tr>
+<tr>
+<td>Saying IP works at the link layer</td>
+<td>IP works at the Internet layer (it's in the name!)</td>
+<td>Internet Protocol = Internet layer</td>
+</tr>
+<tr>
+<td>Forgetting encapsulation includes both headers AND trailer</td>
+<td>The link layer adds a frame trailer for error checking</td>
+<td>Link layer = header + data + trailer</td>
+</tr>
+<tr>
+<td>Confusing MAC and IP addresses</td>
+<td>MAC = link layer (local); IP = internet layer (global)</td>
+<td>MAC = hardware address (local network); IP = logical address (across networks)</td>
+</tr>
+<tr>
+<td>Saying UDP is unreliable so it's never used</td>
+<td>UDP is chosen deliberately for speed-critical applications</td>
+<td>UDP is appropriate for streaming, gaming where speed > reliability</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Name the four layers of the TCP/IP model from top to bottom and state the main function of each.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Explain the difference between TCP and UDP at the transport layer. Give an example of when each would be used.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Describe the process of encapsulation as data is sent down the layers.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Which layer of the TCP/IP model handles routing of data across networks? Which protocol operates at this layer?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain why the TCP/IP model uses layers rather than having a single protocol handle everything.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Application (top): provides network services to applications (HTTP, SMTP). Transport: manages end-to-end delivery, reliability, and segmentation (TCP, UDP). Internet: handles addressing and routing across networks (IP). Link (bottom): handles physical transmission on the local network (Ethernet, Wi-Fi).</li>
+<li>TCP is connection-oriented, reliable (uses acknowledgements and resends lost data), and ordered. UDP is connectionless, unreliable (no guarantees), and faster. TCP is used for web browsing and email where all data must arrive. UDP is used for live video streaming and online gaming where speed matters more than perfect delivery.</li>
+<li>Encapsulation: the application layer creates data and passes it down. The transport layer adds a header with port numbers (creating a segment). The internet layer adds an IP header with source and destination addresses (creating a packet). The link layer adds a frame header with MAC addresses and a frame trailer for error checking (creating a frame). Each layer wraps the data from above with its own control information.</li>
+<li>The Internet layer handles routing of data across networks. The Internet Protocol (IP) operates at this layer, adding source and destination IP addresses to packets and determining the best route for them.</li>
+<li>Layers allow each aspect of communication to be developed independently. A change at one layer (e.g. switching from Wi-Fi to Ethernet at the link layer) doesn't affect other layers. Layers make the model modular, easier to understand, and allow different technologies to work together. Without layers, a single protocol would need to handle everything from physical signals to application formatting, which would be extremely complex.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all four layers in order: Application, Transport, Internet, Link</li>
+<li>Be able to name the key protocol(s) at each layer</li>
+<li>Understand encapsulation: each layer adds a header going down, removes it going up</li>
+<li>Know when TCP vs UDP is appropriate (reliability vs speed)</li>
+<li>Remember: IP = Internet layer, HTTP/SMTP = Application layer, Ethernet/Wi-Fi = Link layer</li>
+<li>The link layer is the ONLY layer that adds a trailer (for error checking)</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../networks/CS30-network-protocols.html" class="nav-prev">← Previous Topic: Network Protocols</a>
+<a href="../networks/CS32-network-security.html" class="nav-next">Next Topic: Network Security →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

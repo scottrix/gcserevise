@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Network Security - GCSE Computer Science</title>
+<meta name="description" content="Learn about authentication, encryption, firewalls, MAC filtering and layered security. Free GCSE Computer Science revision.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Networks</span> <span>›</span>
+<span>Network Security</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS32: Network Security</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+<span class="badge">Networks</span>
+</div>
+<p class="topic-desc">Authentication methods, encryption techniques, firewalls, MAC address filtering, and the importance of layered security.</p>
+</article>
+
+<section class="section">
+<h2>📋 Why Network Security Matters</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Networks are vulnerable to unauthorised access, data theft, and malicious attacks because data travels across shared infrastructure. Effective network security uses multiple methods to protect data and systems.
+</div>
+
+<p>When computers are connected to a network, they become accessible to other devices - including potential attackers. Security measures are needed to ensure that only authorised users can access data and that data cannot be intercepted or tampered with during transmission.</p>
+
+<ul>
+<li>Network connections create potential entry points for attackers</li>
+<li>Data travelling across networks can be intercepted</li>
+<li>Wireless networks are especially vulnerable (signals broadcast through air)</li>
+<li>Multiple security methods are needed - no single method is enough</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔐 Authentication</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Authentication is the process of verifying that a user is who they claim to be. It ensures that only authorised people can access a system or network.
+</div>
+
+<h3>Passwords</h3>
+<p>The most common authentication method. A user enters a username and a secret password that only they should know.</p>
+<ul>
+<li>Simple and widely used</li>
+<li>Can be guessed, stolen, or cracked using brute force</li>
+<li>Should be complex (mix of letters, numbers, symbols)</li>
+<li>Should be changed regularly and never shared</li>
+</ul>
+
+<h3>Biometrics</h3>
+<p>Authentication using unique biological characteristics:</p>
+<ul>
+<li>Fingerprint recognition</li>
+<li>Facial recognition</li>
+<li>Iris/retina scanning</li>
+<li>Voice recognition</li>
+<li>Very difficult to forge or steal</li>
+<li>Cannot be forgotten like a password</li>
+<li>Concerns about privacy and storage of biometric data</li>
+</ul>
+
+<h3>Two-Factor Authentication (2FA)</h3>
+<div class="key-point">
+<strong>Definition:</strong> Two-factor authentication requires the user to provide two different types of evidence to prove their identity. This combines something you KNOW (password) with something you HAVE (phone/token) or something you ARE (biometric).
+</div>
+
+<ul>
+<li>Factor 1: Something you KNOW (password, PIN)</li>
+<li>Factor 2: Something you HAVE (phone, security token, smart card)</li>
+<li>Factor 3: Something you ARE (fingerprint, face scan)</li>
+<li>Even if a password is stolen, the attacker still needs the second factor</li>
+<li>Examples: bank card + PIN, password + SMS code, password + authenticator app</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you log into Google, you enter your password (something you know). Google then sends a code to your phone (something you have) that you must also enter. Even if someone steals your password, they cannot log in without also having your phone.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Method</th>
+<th>How It Works</th>
+<th>Strengths</th>
+<th>Weaknesses</th>
+</tr>
+<tr>
+<td>Password</td>
+<td>Secret text known only to user</td>
+<td>Simple, cheap, widely supported</td>
+<td>Can be guessed, stolen, shared</td>
+</tr>
+<tr>
+<td>Biometrics</td>
+<td>Unique physical characteristic</td>
+<td>Very hard to forge, can't forget</td>
+<td>Expensive, privacy concerns</td>
+</tr>
+<tr>
+<td>2FA</td>
+<td>Two different types of evidence</td>
+<td>Much stronger than single factor</td>
+<td>Slightly inconvenient, relies on second device</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔒 Encryption</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Encryption is the process of converting plaintext data into ciphertext (unreadable form) using an encryption algorithm and a key. Only someone with the correct decryption key can convert it back to readable plaintext.
+</div>
+
+<h3>Symmetric Encryption</h3>
+<div class="key-point">
+<strong>Definition:</strong> Symmetric encryption uses the SAME key to encrypt and decrypt data. Both the sender and receiver must have the same secret key.
+</div>
+
+<ul>
+<li>Same key for encryption and decryption</li>
+<li>Fast to encrypt and decrypt</li>
+<li>The key must be shared securely between sender and receiver</li>
+<li>Problem: how do you safely share the key? If intercepted, security is compromised</li>
+<li>Example: AES (Advanced Encryption Standard)</li>
+</ul>
+
+<h3>Asymmetric Encryption (Public Key Encryption)</h3>
+<div class="key-point">
+<strong>Definition:</strong> Asymmetric encryption uses a PAIR of keys: a public key (shared openly) and a private key (kept secret). Data encrypted with the public key can only be decrypted with the matching private key.
+</div>
+
+<ul>
+<li>Two keys: public key (shared with everyone) and private key (kept secret)</li>
+<li>Public key encrypts; private key decrypts</li>
+<li>No need to share a secret key - the public key can be freely distributed</li>
+<li>Slower than symmetric encryption</li>
+<li>Example: RSA encryption</li>
+</ul>
+
+<div class="example">
+<div class="example-title">How Asymmetric Encryption Works</div>
+<p>Alice wants to send a secure message to Bob:</p>
+<p>1. Alice obtains Bob's public key (anyone can have it)</p>
+<p>2. Alice encrypts the message using Bob's public key</p>
+<p>3. Alice sends the encrypted message to Bob</p>
+<p>4. Even if the message is intercepted, only Bob's private key can decrypt it</p>
+<p>5. Bob uses his private key to decrypt and read the message</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>Symmetric Encryption</th>
+<th>Asymmetric Encryption</th>
+</tr>
+<tr>
+<td>Keys used</td>
+<td>One (same for encrypt and decrypt)</td>
+<td>Two (public and private key pair)</td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>Fast</td>
+<td>Slower</td>
+</tr>
+<tr>
+<td>Key distribution</td>
+<td>Problem - must share secret key securely</td>
+<td>No problem - public key can be shared openly</td>
+</tr>
+<tr>
+<td>Security risk</td>
+<td>Key can be intercepted during sharing</td>
+<td>Private key must be kept secret</td>
+</tr>
+<tr>
+<td>Use case</td>
+<td>Bulk data encryption (fast)</td>
+<td>Secure key exchange, digital signatures</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🛡️ Firewalls</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and an untrusted external network (like the internet).
+</div>
+
+<h3>Packet Filtering</h3>
+<p>The most common type of firewall examines each data packet and decides whether to allow or block it based on rules:</p>
+
+<ul>
+<li>Examines packet headers (source IP, destination IP, port numbers, protocol)</li>
+<li>Compares each packet against a set of rules (access control list)</li>
+<li>Allows packets that match permitted rules</li>
+<li>Blocks packets that match denied rules or don't match any rule</li>
+<li>Can block traffic from specific IP addresses or on specific ports</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Firewall Rules Example</div>
+<p>Rule 1: ALLOW incoming traffic on port 443 (HTTPS web traffic)</p>
+<p>Rule 2: ALLOW outgoing traffic on port 80 (HTTP)</p>
+<p>Rule 3: BLOCK incoming traffic on port 23 (Telnet - insecure)</p>
+<p>Rule 4: BLOCK all traffic from IP address 192.168.45.100 (known attacker)</p>
+<p>Rule 5: BLOCK all other incoming traffic (default deny)</p>
+</div>
+
+<ul>
+<li><strong>Advantages:</strong> Effective at blocking unauthorised access, can be configured to protect specific services, provides a single checkpoint for network traffic</li>
+<li><strong>Limitations:</strong> Cannot prevent attacks from within the network, cannot detect all types of malicious content, cannot prevent social engineering attacks, requires expert configuration</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>📡 MAC Address Filtering</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> MAC address filtering is a security method where a network only allows devices with specific, pre-approved MAC addresses to connect. A MAC address is a unique identifier assigned to every network interface card.
+</div>
+
+<ul>
+<li>Each network device has a unique MAC address (e.g. 00:1A:2B:3C:4D:5E)</li>
+<li>The network maintains a whitelist of approved MAC addresses</li>
+<li>Only devices with approved MAC addresses can connect</li>
+<li>Used primarily on wireless networks (Wi-Fi routers)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A company Wi-Fi network allows only these MAC addresses to connect: the CEO's laptop, the receptionist's tablet, and the meeting room computer. Any other device trying to connect is refused, even if they know the Wi-Fi password.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+<tr>
+<td>Simple to set up</td>
+<td>MAC addresses can be spoofed (faked)</td>
+</tr>
+<tr>
+<td>Prevents casual unauthorised access</td>
+<td>Difficult to manage with many devices</td>
+</tr>
+<tr>
+<td>Adds an extra layer of security</td>
+<td>Must update the list when devices change</td>
+</tr>
+<tr>
+<td>No additional software needed</td>
+<td>Not sufficient as the only security measure</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🏗️ Defence in Depth (Layered Security)</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Defence in depth is a security strategy that uses multiple layers of different security measures. If one layer fails, the other layers still provide protection. No single security measure is foolproof.
+</div>
+
+<p>The principle of defence in depth recognises that no single security method is perfect. Each method has weaknesses that can be exploited. By combining multiple methods, the overall security is much stronger.</p>
+
+<ul>
+<li>If a password is compromised, 2FA still protects the account</li>
+<li>If an attacker gets past the firewall, encryption still protects the data</li>
+<li>If MAC filtering is spoofed, the firewall still blocks unauthorised traffic</li>
+<li>Multiple layers create multiple obstacles for attackers</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Defence in Depth Example</div>
+<p>A secure company network might use ALL of these:</p>
+<p>1. Firewall (blocks unauthorised external access)</p>
+<p>2. Encryption (protects data even if intercepted)</p>
+<p>3. Password + 2FA (prevents unauthorised login)</p>
+<p>4. MAC address filtering (only approved devices can connect)</p>
+<p>5. Anti-malware software (detects and removes malicious programs)</p>
+<p>6. Regular security updates (patches known vulnerabilities)</p>
+</div>
+
+<div class="formula-box">
+<strong>Defence in Depth Principle:</strong><br>
+Multiple layers of security > Any single security measure<br>
+If one layer fails, other layers still provide protection<br>
+Use different types of security at each layer (technical, physical, procedural)
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "encryption prevents hacking"</td>
+<td>Encryption only protects data content, not access</td>
+<td>Encryption protects data confidentiality, not system access</td>
+</tr>
+<tr>
+<td>Confusing symmetric and asymmetric encryption</td>
+<td>They use different key systems</td>
+<td>Symmetric = same key; Asymmetric = public/private key pair</td>
+</tr>
+<tr>
+<td>Saying "MAC filtering is very secure"</td>
+<td>MAC addresses can be easily spoofed</td>
+<td>MAC filtering is a useful extra layer but not sufficient alone</td>
+</tr>
+<tr>
+<td>Saying "firewalls prevent all attacks"</td>
+<td>Firewalls cannot prevent internal attacks or social engineering</td>
+<td>Firewalls are one layer in defence in depth</td>
+</tr>
+<tr>
+<td>Saying "2FA is just two passwords"</td>
+<td>2FA uses two DIFFERENT TYPES of factor</td>
+<td>2FA = knowledge + possession (or biometric)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Explain the difference between symmetric and asymmetric encryption.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What is two-factor authentication? Give an example.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> How does a firewall using packet filtering work?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is MAC address filtering and what is its main weakness?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain the principle of defence in depth and why it is important.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Symmetric encryption uses the same key for both encryption and decryption. It is fast but the key must be shared securely between sender and receiver. Asymmetric encryption uses a pair of keys: a public key (shared openly) for encryption and a private key (kept secret) for decryption. It is slower but solves the key distribution problem.</li>
+<li>Two-factor authentication requires two different types of evidence to verify identity: something you know (password/PIN), something you have (phone/token), or something you are (biometric). Example: logging into online banking requires your password (know) and a code sent to your phone (have).</li>
+<li>A firewall using packet filtering examines each data packet's header information (source IP, destination IP, port numbers, protocol) and compares it against a set of predefined rules. Packets matching allowed rules are permitted through; packets matching denied rules or not matching any rule are blocked.</li>
+<li>MAC address filtering only allows devices with pre-approved MAC addresses to connect to a network. Its main weakness is that MAC addresses can be spoofed - an attacker can configure their device to use an approved MAC address and bypass the filter.</li>
+<li>Defence in depth uses multiple layers of different security measures so that if one layer fails, others still provide protection. It is important because no single security measure is foolproof - each has weaknesses. By combining methods like firewalls, encryption, authentication, and MAC filtering, the overall security is much stronger than any single method alone.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all authentication methods and their strengths/weaknesses</li>
+<li>Be clear on symmetric vs asymmetric: same key vs public/private key pair</li>
+<li>For firewalls, explain packet filtering with specific rule examples</li>
+<li>Always mention MAC spoofing as a weakness of MAC filtering</li>
+<li>Defence in depth: multiple layers, different types, redundancy</li>
+<li>When asked "how to secure a network," combine multiple methods</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="../networks/CS31-tcp-ip-model.html" class="nav-prev">← Previous Topic: TCP/IP Model</a>
+<a href="../cyber-security/CS33-cyber-security-threats.html" class="nav-next">Next Topic: Cyber Security Threats →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

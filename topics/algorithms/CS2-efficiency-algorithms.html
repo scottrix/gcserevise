@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Efficiency of Algorithms - GCSE Computer Science</title>
+<meta name="description" content="Learn about time complexity and comparing algorithm efficiency for GCSE Computer Science. Free revision notes.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Algorithms</span> <span>›</span>
+<span>Efficiency of Algorithms</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS2: Efficiency of Algorithms</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Understanding how efficient algorithms are and why some algorithms are better than others for solving the same problem.</p>
+</article>
+
+<section class="section">
+<h2>📋 What is Algorithm Efficiency?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Algorithm efficiency measures how much time and/or memory an algorithm uses to solve a problem. A more efficient algorithm uses fewer resources (time and space) to produce the same result.
+</div>
+
+<p>Two algorithms might solve the same problem, but one could be much faster or use less memory. Understanding efficiency helps you choose the best algorithm for a given situation.</p>
+
+<div class="formula-box">
+<strong>Key Concept - Time Complexity:</strong><br>
+Time complexity describes how the running time of an algorithm grows as the size of the input increases. It is not measured in seconds - it is measured in terms of the number of operations relative to input size (n).
+</div>
+</section>
+
+<section class="section">
+<h2>📊 Comparing Algorithms</h2>
+
+<div class="key-point">
+<strong>Key Principle:</strong> When two algorithms solve the same problem, the more efficient one will complete in fewer steps, especially as the input size increases.
+</div>
+
+<div class="example">
+<div class="example-title">Example: Finding a Name in a Phone Book</div>
+<p><strong>Algorithm A (Linear approach):</strong> Read every name from the first page until you find the one you want.</p>
+<p><strong>Algorithm B (Binary approach):</strong> Open the book in the middle. If the name is earlier, discard the second half. Repeat with the remaining half.</p>
+<p>For a phone book with 1000 names:</p>
+<ul>
+<li>Algorithm A: Up to <strong>1000 checks</strong> (worst case)</li>
+<li>Algorithm B: At most <strong>10 checks</strong> (worst case)</li>
+</ul>
+<p>Algorithm B is far more efficient for large phone books!</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Input Size (n)</th>
+<th>Linear - O(n)</th>
+<th>Binary - O(log n)</th>
+<th>Difference</th>
+</tr>
+<tr>
+<td>10</td>
+<td>10 checks</td>
+<td>4 checks</td>
+<td>2.5x faster</td>
+</tr>
+<tr>
+<td>100</td>
+<td>100 checks</td>
+<td>7 checks</td>
+<td>14x faster</td>
+</tr>
+<tr>
+<td>1,000</td>
+<td>1,000 checks</td>
+<td>10 checks</td>
+<td>100x faster</td>
+</tr>
+<tr>
+<td>1,000,000</td>
+<td>1,000,000 checks</td>
+<td>20 checks</td>
+<td>50,000x faster</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📈 How Efficiency Varies with Input Size</h2>
+
+<div class="key-point">
+<strong>Crucial Point:</strong> Some algorithms that seem fast for small inputs become extremely slow for large inputs. The rate at which time increases matters more than the time for a single small input.
+</div>
+
+<h3>Common Time Complexities (Big O Notation)</h3>
+
+<table class="comparison-table">
+<tr>
+<th>Complexity</th>
+<th>Name</th>
+<th>Meaning</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>O(1)</td>
+<td>Constant time</td>
+<td>Time stays the same regardless of input size</td>
+<td>Accessing an array element by index</td>
+</tr>
+<tr>
+<td>O(log n)</td>
+<td>Logarithmic</td>
+<td>Time increases very slowly - halves the problem each step</td>
+<td>Binary search</td>
+</tr>
+<tr>
+<td>O(n)</td>
+<td>Linear</td>
+<td>Time increases proportionally with input size</td>
+<td>Linear search</td>
+</tr>
+<tr>
+<td>O(n log n)</td>
+<td>Linearithmic</td>
+<td>Time increases slightly more than linearly</td>
+<td>Merge sort</td>
+</tr>
+<tr>
+<td>O(n²)</td>
+<td>Quadratic</td>
+<td>Time increases with the square of input size</td>
+<td>Bubble sort</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Order of Efficiency (Best to Worst):</strong><br>
+O(1) &gt; O(log n) &gt; O(n) &gt; O(n log n) &gt; O(n²)<br><br>
+As n gets larger, the difference between these becomes dramatic.<br>
+O(n²) algorithms become unusable for large datasets.
+</div>
+</section>
+
+<section class="section">
+<h2>🔢 Practical Implications</h2>
+
+<div class="example">
+<div class="example-title">Scenario: Sorting Student Records</div>
+<p>A school has 10,000 student records to sort by surname.</p>
+<p><strong>Bubble sort (O(n²)):</strong> Up to 100,000,000 comparisons</p>
+<p><strong>Merge sort (O(n log n)):</strong> Approximately 140,000 comparisons</p>
+<p>Merge sort is over <strong>700 times faster</strong> for this dataset!</p>
+</div>
+
+<h3>When Does Efficiency Matter?</h3>
+<ul>
+<li><strong>Small datasets (n < 100):</strong> The difference between algorithms is small - simpler algorithms may be acceptable</li>
+<li><strong>Medium datasets (100-10,000):</strong> Choice of algorithm starts to matter - O(n²) begins to slow down</li>
+<li><strong>Large datasets (10,000+):</strong> Algorithm choice is critical - O(n²) algorithms may take hours or days</li>
+</ul>
+
+<div class="key-point">
+<strong>Exam Focus:</strong> At GCSE level, you need to understand that some algorithms are more efficient than others and explain WHY. You should be able to compare linear search vs binary search, and bubble sort vs merge sort, in terms of efficiency.
+</div>
+</section>
+
+<section class="section">
+<h2>🔬 Measuring Efficiency Practically</h2>
+
+<h3>Counting Operations</h3>
+<p>One way to measure efficiency is to count the number of key operations an algorithm performs.</p>
+
+<div class="example">
+<div class="example-title">Counting Comparisons in Linear Search</div>
+<pre>FOR i ← 0 TO LENGTH(list) - 1
+    IF list[i] = target THEN   // This comparison happens n times
+        OUTPUT "Found at position ", i
+    ENDIF
+NEXT i</pre>
+<p>Comparisons: n (where n is the length of the list)</p>
+<p>Best case: 1 comparison (item is first)</p>
+<p>Worst case: n comparisons (item is last or not present)</p>
+</div>
+
+<div class="example">
+<div class="example-title">Counting Comparisons in Binary Search</div>
+<p>Each step halves the remaining search space.</p>
+<p>After 1 comparison: n/2 items remain</p>
+<p>After 2 comparisons: n/4 items remain</p>
+<p>After k comparisons: n/2^k items remain</p>
+<p>Maximum comparisons: log₂(n)</p>
+<p>For 1,000,000 items: only 20 comparisons needed!</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ Time vs Space Efficiency</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Aspect</th>
+<th>Time Efficiency</th>
+<th>Space Efficiency</th>
+</tr>
+<tr>
+<td>Measures</td>
+<td>How fast the algorithm runs</td>
+<td>How much memory it uses</td>
+</tr>
+<tr>
+<td>Trade-off</td>
+<td>Using more memory can speed things up</td>
+<td>Using less memory may slow things down</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>Merge sort is fast but needs extra arrays</td>
+<td>Bubble sort is slow but uses no extra memory</td>
+</tr>
+<tr>
+<td>GCSE focus</td>
+<td>Time complexity is the main focus</td>
+<td>Awareness that memory matters too</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Trade-off Principle:</strong><br>
+Sometimes you can make an algorithm faster by using more memory (e.g. storing pre-computed results). Other times, using less memory means recalculating values and running slower. This is the time-space trade-off.
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> What does time complexity measure?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> An algorithm has O(n) time complexity. If it takes 5 seconds to process 1000 items, approximately how long would it take to process 5000 items?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Explain why binary search is more efficient than linear search for large datasets.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Give an example of a situation where using a less efficient algorithm might be acceptable.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A bubble sort on 100 items takes up to 10,000 comparisons. How many comparisons would it take for 1000 items?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Time complexity measures how the running time of an algorithm grows as the input size increases. It describes the relationship between input size and number of operations.</li>
+<li>Approximately 25 seconds. O(n) means time is proportional to input size. 5000 is 5 times 1000, so 5 × 5 = 25 seconds.</li>
+<li>Binary search halves the search space each step, so it needs at most log₂(n) comparisons. Linear search checks every item, needing up to n comparisons. For large n, log₂(n) is vastly smaller than n.</li>
+<li>When the dataset is very small (e.g. sorting 10 items), the difference between efficient and inefficient algorithms is negligible. Also, when the algorithm only runs once and speed is not critical.</li>
+<li>Up to 1,000,000 comparisons. Bubble sort is O(n²), so for 1000 items: 1000 × 1000 = 1,000,000.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>You don't need to calculate exact Big O values - just understand the concept</li>
+<li>Be able to explain that binary search is more efficient than linear search because it halves the search space</li>
+<li>Be able to explain that merge sort is more efficient than bubble sort for large datasets</li>
+<li>Use the terms "time complexity" and "proportional to" in your answers</li>
+<li>If asked to compare algorithms, always mention how performance changes as input size grows</li>
+<li>Remember: O(n²) algorithms become impractical for large datasets</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS1-representing-algorithms.html" class="nav-prev">← Previous: Representing Algorithms</a>
+<a href="CS3-searching-algorithms.html" class="nav-next">Next Topic: Searching Algorithms →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>

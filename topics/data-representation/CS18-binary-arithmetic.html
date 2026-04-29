@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Binary Arithmetic - GCSE Computer Science</title>
+<meta name="description" content="Learn about binary addition, overflow, and binary shifts for GCSE Computer Science. Free revision notes with step-by-step examples.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Data Representation</span> <span>›</span>
+<span>Binary Arithmetic</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS18: Binary Arithmetic</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">All Boards</span>
+</div>
+<p class="topic-desc">Binary addition rules, overflow errors, adding multiple binary numbers, and logical binary shift operations (left and right).</p>
+</article>
+
+<section class="section">
+<h2>📋 Binary Addition Rules</h2>
+
+<div class="key-point">
+<strong>Binary addition</strong> follows the same principles as decimal addition but with only two digits (0 and 1). There are only four rules to remember.
+</div>
+
+<div class="formula-box">
+<strong>The Four Binary Addition Rules:</strong><br>
+0 + 0 = 0<br>
+0 + 1 = 1<br>
+1 + 0 = 1<br>
+1 + 1 = 10 (which is 0, carry 1)<br><br>
+When carrying into a column that already has a 1:<br>
+1 + 1 + 1 = 11 (which is 1, carry 1)
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Input A</th>
+<th>Input B</th>
+<th>Carry In</th>
+<th>Sum</th>
+<th>Carry Out</th>
+</tr>
+<tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>
+</section>
+
+<section class="section">
+<h2>➕ Binary Addition Step-by-Step</h2>
+
+<div class="example">
+<div class="example-title">Add 01010100 and 00111001 (8-bit)</div>
+<pre>  Carry:  0 1 1 0 0 0 0 0
+  Num A:  0 1 0 1 0 1 0 0   (84)
+  Num B:  0 0 1 1 1 0 0 1   (57)
+  -----------------------
+Result:  1 0 0 0 1 1 0 1   (141)</pre>
+<p>Step through from right to left, carrying 1 whenever the column sum is 2 or more.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Add 01101011 and 00110110 (8-bit)</div>
+<pre>  Carry:  0 1 1 0 1 1 0 0
+  Num A:  0 1 1 0 1 0 1 1   (107)
+  Num B:  0 0 1 1 0 1 1 0   (54)
+  -----------------------
+Result:  1 0 1 0 0 0 0 1   (161)</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Add 11110000 and 00001111 (8-bit)</div>
+<pre>  Carry:  1 1 1 1 1 1 1 1
+  Num A:  1 1 1 1 0 0 0 0   (240)
+  Num B:  0 0 0 0 1 1 1 1   (15)
+  -----------------------
+Result:  1 0 0 0 0 1 1 1 1   (BUT this is 9 bits!)</pre>
+<p>The result is 255, which needs 8 bits: <strong>11111111</strong>. The 9th bit is a carry out that overflows.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Overflow</h2>
+
+<div class="key-point">
+<strong>Overflow</strong> occurs when the result of a binary addition requires more bits than are available. If adding two 8-bit numbers produces a 9th bit (a carry out from the leftmost column), the result cannot be stored correctly in 8 bits. This is an overflow error.
+</div>
+
+<div class="example">
+<div class="example-title">Overflow Example</div>
+<pre>  Num A:  1 1 0 0 1 1 0 0   (204)
+  Num B:  0 1 1 0 0 1 0 1   (101)
+  -----------------------
+Result: 1 0 0 1 1 0 0 0 1</pre>
+<p>The result needs 9 bits but we only have 8. The 9th bit (leftmost 1) is lost, leaving 00110001 = 49. The correct answer should be 305, but we get 49 - this is an overflow error!</p>
+</div>
+
+<div class="key-point">
+<strong>Detecting overflow:</strong> If there is a carry out from the most significant bit (leftmost column), overflow has occurred. The stored result will be incorrect. In programming, you need to check for this condition.
+</div>
+
+<div class="formula-box">
+<strong>Overflow Rule:</strong><br>
+If two positive binary numbers are added and the result appears negative (in signed representation) or exceeds the available bits, an overflow has occurred.<br><br>
+For 8-bit unsigned numbers: overflow happens when the sum exceeds 255.
+</div>
+</section>
+
+<section class="section">
+<h2>🔢 Adding Multiple Binary Numbers</h2>
+
+<div class="key-point">
+<strong>To add more than two binary numbers,</strong> add them two at a time. Add the first two, then add the third to that result, and so on. Check for overflow at each step.
+</div>
+
+<div class="example">
+<div class="example-title">Add 01010011 + 00110110 + 00011001</div>
+<p><strong>Step 1:</strong> Add the first two numbers</p>
+<pre>  01010011  (83)
++ 00110110  (54)
+---------
+  10001001  (137)</pre>
+
+<p><strong>Step 2:</strong> Add the result to the third number</p>
+<pre>  10001001  (137)
++ 00011001  (25)
+---------
+  10100010  (162)</pre>
+
+<p><strong>Check:</strong> 83 + 54 + 25 = 162 ✓ No overflow.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⬅️ Binary Shift Left</h2>
+
+<div class="key-point">
+<strong>A binary shift left</strong> moves all bits one position to the left. A 0 fills the empty position on the right. The leftmost bit is discarded. Shifting left by 1 position <strong>multiplies the number by 2</strong>. Shifting left by n positions multiplies by 2^n.
+</div>
+
+<div class="example">
+<div class="example-title">Shift Left by 1</div>
+<pre>Original:  0 0 0 1 0 1 1 0   (22)
+Shift left: 0 0 1 0 1 1 0 0   (44)</pre>
+<p>22 x 2 = 44. The shift left has multiplied the value by 2.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Shift Left by 2</div>
+<pre>Original:  0 0 0 1 0 1 1 0   (22)
+Shift 1:   0 0 1 0 1 1 0 0   (44)
+Shift 2:   0 1 0 1 1 0 0 0   (88)</pre>
+<p>22 x 2^2 = 22 x 4 = 88. Each shift left multiplies by 2.</p>
+</div>
+
+<div class="key-point">
+<strong>Warning:</strong> If a 1 bit is shifted out from the leftmost position, data is lost. This is similar to overflow. For example, shifting 10110000 left by 1 would lose the leading 1.
+</div>
+</section>
+
+<section class="section">
+<h2>➡️ Binary Shift Right</h2>
+
+<div class="key-point">
+<strong>A binary shift right</strong> moves all bits one position to the right. A 0 fills the empty position on the left. The rightmost bit is discarded. Shifting right by 1 position <strong>divides the number by 2</strong> (integer division, discarding any remainder). Shifting right by n positions divides by 2^n.
+</div>
+
+<div class="example">
+<div class="example-title">Shift Right by 1</div>
+<pre>Original:  0 0 1 0 1 1 0 0   (44)
+Shift right: 0 0 0 1 0 1 1 0   (22)</pre>
+<p>44 / 2 = 22. The shift right has divided the value by 2.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Shift Right with Remainder Loss</div>
+<pre>Original:  0 0 0 1 0 1 1 1   (23)
+Shift right: 0 0 0 0 1 0 1 1   (11)</pre>
+<p>23 / 2 = 11.5, but integer division gives 11. The remainder (the rightmost 1 bit) is lost.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Shift Right by 2</div>
+<pre>Original:  0 1 0 1 1 0 0 0   (88)
+Shift 1:   0 0 1 0 1 1 0 0   (44)
+Shift 2:   0 0 0 1 0 1 1 0   (22)</pre>
+<p>88 / 2^2 = 88 / 4 = 22. Each shift right divides by 2.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 Shift Operations Summary</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Operation</th>
+<th>Effect</th>
+<th>Mathematical Equivalent</th>
+<th>Bits Lost</th>
+<th>Bits Added</th>
+</tr>
+<tr>
+<td>Shift left by 1</td>
+<td>Move all bits left, fill right with 0</td>
+<td>Multiply by 2</td>
+<td>Leftmost bit</td>
+<td>0 on right</td>
+</tr>
+<tr>
+<td>Shift left by n</td>
+<td>Move all bits left n times</td>
+<td>Multiply by 2^n</td>
+<td>n leftmost bits</td>
+<td>n zeros on right</td>
+</tr>
+<tr>
+<td>Shift right by 1</td>
+<td>Move all bits right, fill left with 0</td>
+<td>Divide by 2 (integer)</td>
+<td>Rightmost bit</td>
+<td>0 on left</td>
+</tr>
+<tr>
+<td>Shift right by n</td>
+<td>Move all bits right n times</td>
+<td>Divide by 2^n (integer)</td>
+<td>n rightmost bits</td>
+<td>n zeros on left</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Shift Formulas:</strong><br>
+Shift left by n = multiply by 2^n<br>
+Shift right by n = integer divide by 2^n<br><br>
+These are logical shifts (always fill with 0).<br>
+Arithmetic shifts (for signed numbers) preserve the sign bit.
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Forgetting to carry in binary addition</td>
+<td>1+1 = 10, not just 0</td>
+<td>Always carry the 1 to the next column left</td>
+</tr>
+<tr>
+<td>Not checking for overflow</td>
+<td>The result may be incorrect if bits are lost</td>
+<td>Check if there is a carry out from the leftmost bit</td>
+</tr>
+<tr>
+<td>Shifting in the wrong direction</td>
+<td>Left multiplies, right divides</td>
+<td>Left = multiply, Right = divide</td>
+</tr>
+<tr>
+<td>Forgetting that shift right loses data</td>
+<td>The rightmost bit is discarded, not wrapped</td>
+<td>Be aware that odd numbers lose their remainder</td>
+</tr>
+<tr>
+<td>Shifting left causing overflow</td>
+<td>If a 1 is shifted out, the value is wrong</td>
+<td>Check if the result fits in the available bits</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Add the binary numbers 01011010 and 00110101. Show your working.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Add 10110011 and 01101010. Does overflow occur? Explain why.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Perform a binary shift left by 2 on 00101100. What is the result in decimal?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Perform a binary shift right by 1 on 01101010. What is the result in decimal?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> What mathematical operation does a shift left by 3 perform?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>
+<pre>  Carry:  0 0 1 1 0 0 0 0
+  Num A:  0 1 0 1 1 0 1 0   (90)
+  Num B:  0 0 1 1 0 1 0 1   (53)
+  -----------------------
+Result:  1 0 0 0 1 1 1 1   (143)</pre>
+</li>
+<li>
+<pre>  Num A:  1 0 1 1 0 0 1 1   (179)
+  Num B:  0 1 1 0 1 0 1 0   (106)</pre>
+Result would be 100101101 (285), but this needs 9 bits. With only 8 bits, we get 00101101 (45). Overflow occurs because 179 + 106 = 285, which exceeds the maximum 8-bit value of 255. The carry out from the leftmost column indicates overflow.
+</li>
+<li>Original: 00101100 (44). Shift left 1: 01011000 (88). Shift left 2: 10110000 (176). Result = 176. Check: 44 x 2^2 = 44 x 4 = 176.</li>
+<li>Original: 01101010 (106). Shift right 1: 00110101 (53). Result = 53. Check: 106 / 2 = 53.</li>
+<li>A shift left by 3 multiplies the number by 2^3 = 8. For example, 00000101 (5) shifted left by 3 becomes 00101000 (40), and 5 x 8 = 40.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Write binary additions in columns, working from right to left</li>
+<li>Always show your carry bits - examiners award marks for working</li>
+<li>Check for overflow: if there is a carry out from the MSB (most significant bit), overflow has occurred</li>
+<li>Shift left = multiply by 2^n; shift right = integer divide by 2^n</li>
+<li>When shifting, lost bits are discarded (not wrapped around)</li>
+<li>A shift right on an odd number will lose the remainder</li>
+</ul>
+</section>
+
+<nav class="topic-nav">
+<a href="CS17-units-information.html" class="nav-prev">← Previous: Units of Information</a>
+<a href="CS19-character-encoding.html" class="nav-next">Next Topic: Character Encoding →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body>
+</html>
