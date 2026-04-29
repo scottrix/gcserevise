@@ -1,0 +1,117 @@
+{
+  "subject": "French",
+  "id": "french",
+  "examBoards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+  "tierEntry": {
+    "foundation": "Grades 1-5",
+    "higher": "Grades 4-9"
+  },
+  "papers": {
+    "AQA": [
+      { "name": "Paper 1", "title": "Listening", "duration": "35m (F) / 45m (H)", "marks": 40, "weighting": 25 },
+      { "name": "Paper 2", "title": "Speaking", "duration": "7-12m + prep", "marks": 60, "weighting": 25 },
+      { "name": "Paper 3", "title": "Reading", "duration": "45m (F) / 60m (H)", "marks": 50, "weighting": 25 },
+      { "name": "Paper 4", "title": "Writing", "duration": "1h (F) / 1h 15m (H)", "marks": 50, "weighting": 25 }
+    ]
+  },
+  "assessmentObjectives": [
+    { "id": "AO1", "description": "Understand and respond to spoken language", "weighting": "25%" },
+    { "id": "AO2", "description": "Understand and respond to written language", "weighting": "25%" },
+    { "id": "AO3", "description": "Interact and communicate effectively in speech", "weighting": "25%" },
+    { "id": "AO4", "description": "Communicate effectively in writing", "weighting": "25%" }
+  ],
+  "strands": [
+    {
+      "id": "identity-relationships",
+      "name": "Theme 1.1: Identity and Relationships",
+      "topics": [
+        { "id": "FR1", "name": "Describing Yourself and Others", "description": "Name, age, personality, appearance; adjectives agreement; physical and character descriptions", "tier": "both" },
+        { "id": "FR2", "name": "Family and Friends", "description": "Family members, relationships, getting on with others; possessive adjectives; reflexive verbs", "tier": "both" },
+        { "id": "FR3", "name": "Marriage and Partnerships", "description": "Relationships, marriage, civil partnerships; opinions on relationships; future tense plans", "tier": "both" }
+      ]
+    },
+    {
+      "id": "healthy-living",
+      "name": "Theme 1.2: Healthy Living and Lifestyle",
+      "topics": [
+        { "id": "FR4", "name": "Food, Diet and Healthy Eating", "description": "Meals, food vocabulary, healthy eating; partitive articles; opinions on diet and lifestyle", "tier": "both" },
+        { "id": "FR5", "name": "Sport and Exercise", "description": "Sports, fitness, exercise routines; faire de + sport; jouer à + sport; advantages of sport", "tier": "both" },
+        { "id": "FR6", "name": "Health, Illness and Wellbeing", "description": "Parts of the body, illnesses, at the doctor/pharmacy; avoir mal à; health advice", "tier": "both" },
+        { "id": "FR7", "name": "Smoking, Drugs and Alcohol", "description": "Dangers of smoking, drugs and alcohol; opinions; il faut / il ne faut pas; healthy choices", "tier": "both" }
+      ]
+    },
+    {
+      "id": "education-work",
+      "name": "Theme 1.3: Education and Work",
+      "topics": [
+        { "id": "FR8", "name": "School Life and Subjects", "description": "School subjects, timetable, opinions on subjects; the French school system; comparisons", "tier": "both" },
+        { "id": "FR9", "name": "School Rules and Uniform", "description": "School rules, uniform, facilities; il faut / on doit / interdiction; expressing obligation", "tier": "both" },
+        { "id": "FR10", "name": "Future Plans and Careers", "description": "Jobs, careers, further study; future plans; conditional tense (je voudrais); applications", "tier": "both" }
+      ]
+    },
+    {
+      "id": "free-time-activities",
+      "name": "Theme 2.1: Free-Time Activities",
+      "topics": [
+        { "id": "FR11", "name": "Hobbies and Interests", "description": "Leisure activities, reading, music, films; hobbies in different tenses; opinions and reasons", "tier": "both" },
+        { "id": "FR12", "name": "Technology in Everyday Life", "description": "Social media, internet, smartphones; advantages and dangers; opinions on technology use", "tier": "both" },
+        { "id": "FR13", "name": "Going Out and Entertainment", "description": "Cinema, concerts, restaurants; inviting friends; arranging to go out; accepting and declining", "tier": "both" }
+      ]
+    },
+    {
+      "id": "customs-festivals",
+      "name": "Theme 2.2: Customs, Festivals and Celebrations",
+      "topics": [
+        { "id": "FR14", "name": "French Traditions and Festivals", "description": "Bastille Day, Noël, Pâques, Chandeleur; French cultural traditions; celebrations in France", "tier": "both" },
+        { "id": "FR15", "name": "Francophone Culture", "description": "Culture in French-speaking countries; food, music, art; la Francophonie; cultural diversity", "tier": "both" },
+        { "id": "FR16", "name": "Food and Drink Culture", "description": "French cuisine, meals, regional specialities; at the café/restaurant; ordering food; typical dishes", "tier": "both" }
+      ]
+    },
+    {
+      "id": "celebrity-culture",
+      "name": "Theme 2.3: Celebrity Culture",
+      "topics": [
+        { "id": "FR17", "name": "Famous French-Speaking People", "description": "Famous francophone figures; sport, music, film stars; describing achievements; role models", "tier": "both" },
+        { "id": "FR18", "name": "The Influence of Celebrities", "description": "Impact of celebrity culture; social media influencers; positive and negative influences; opinions", "tier": "both" }
+      ]
+    },
+    {
+      "id": "travel-tourism",
+      "name": "Theme 3.1: Travel and Tourism",
+      "topics": [
+        { "id": "FR19", "name": "Holidays and Travel", "description": "Holiday destinations, travel by train/plane/car; accommodation; the perfect tense for past holidays", "tier": "both" },
+        { "id": "FR20", "name": "Places of Interest in France", "description": "Paris, regions of France, tourist attractions; describing towns; ce qui/ce que; visiting France", "tier": "both" },
+        { "id": "FR21", "name": "At the Hotel and Tourist Information", "description": "Booking accommodation, asking for information, dealing with problems; hotel vocabulary; role-plays", "tier": "both" }
+      ]
+    },
+    {
+      "id": "media-technology",
+      "name": "Theme 3.2: Media and Technology",
+      "topics": [
+        { "id": "FR22", "name": "Television, Film and Music", "description": "TV programmes, films, music genres; opinions and justifications; comparing media; French media", "tier": "both" },
+        { "id": "FR23", "name": "The Internet and Social Media", "description": "Online activities, social networks, cyberbullying; advantages and risks; internet safety", "tier": "both" }
+      ]
+    },
+    {
+      "id": "environment-living",
+      "name": "Theme 3.3: The Environment and Where People Live",
+      "topics": [
+        { "id": "FR24", "name": "Your Local Area", "description": "Describing your town/region; what there is to do; facilities; il y a / il n'y a pas de; advantages and disadvantages", "tier": "both" },
+        { "id": "FR25", "name": "Environmental Problems and Solutions", "description": "Pollution, recycling, climate change; environmental vocabulary; il faut + infinitive; solutions", "tier": "both" },
+        { "id": "FR26", "name": "Charity and Voluntary Work", "description": "Volunteering, helping others, charity organisations; imperfect tense; community projects", "tier": "both" }
+      ]
+    },
+    {
+      "id": "grammar",
+      "name": "Grammar and Language Skills",
+      "topics": [
+        { "id": "FR27", "name": "Tenses: Present, Perfect and Imperfect", "description": "Forming and using the present, perfect (passé composé) and imperfect tenses; when to use each", "tier": "both" },
+        { "id": "FR28", "name": "Tenses: Future and Conditional", "description": "The near future (aller + infinitive), simple future and conditional (je voudrais); expressing plans and wishes", "tier": "both" },
+        { "id": "FR29", "name": "Articles, Adjectives and Agreement", "description": "Definite, indefinite and partitive articles; adjective agreement (gender and number); position of adjectives", "tier": "both" },
+        { "id": "FR30", "name": "Pronouns and Negation", "description": "Subject, object and reflexive pronouns; y and en; negation (ne...pas, ne...jamais, ne...rien, ne...plus)", "tier": "both" },
+        { "id": "FR31", "name": "Prepositions and Conjunctions", "description": "Key prepositions (à, de, en, dans); conjunctions (mais, parce que, cependant, donc); connecting ideas", "tier": "both" },
+        { "id": "FR32", "name": "Question Forms and Modal Verbs", "description": "Forming questions (three methods); modal verbs (pouvoir, devoir, vouloir, savoir); expressing ability and obligation", "tier": "both" }
+      ]
+    }
+  ]
+}
