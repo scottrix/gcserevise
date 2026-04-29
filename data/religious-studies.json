@@ -1,0 +1,116 @@
+{
+  "subject": "Religious Studies",
+  "id": "religious-studies",
+  "examBoards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+  "tierEntry": {
+    "foundation": "Grades 1-5",
+    "higher": "Grades 4-9"
+  },
+  "papers": {
+    "AQA": [
+      { "name": "Paper 1", "title": "The Study of Religions: Beliefs, Teachings and Practices", "duration": "1h 45m", "marks": 96, "weighting": 50 },
+      { "name": "Paper 2", "title": "Thematic Studies", "duration": "1h 45m", "marks": 96, "weighting": 50 }
+    ]
+  },
+  "assessmentObjectives": [
+    { "id": "AO1", "description": "Demonstrate knowledge and understanding of religion and belief", "weighting": 50 },
+    { "id": "AO2", "description": "Analyse and evaluate aspects of religion and belief, including their significance, influence and impact", "weighting": 50 }
+  ],
+  "strands": [
+    {
+      "id": "christianity-beliefs",
+      "name": "Christianity: Beliefs and Teachings",
+      "topics": [
+        { "id": "RS1", "name": "The Nature of God", "description": "God as omnipotent, loving and just; the problem of evil and suffering; the oneness of God and the Trinity", "tier": "both" },
+        { "id": "RS2", "name": "Creation", "description": "Different Christian beliefs about creation including Genesis 1:1-3 and John 1:1-3; the role of Word and Spirit", "tier": "both" },
+        { "id": "RS3", "name": "The Incarnation", "description": "Beliefs about the incarnation and Jesus as the Son of God; fully human and fully divine", "tier": "both" },
+        { "id": "RS4", "name": "The Crucifixion and Resurrection", "description": "Beliefs about the crucifixion, resurrection and ascension of Jesus and their significance", "tier": "both" },
+        { "id": "RS5", "name": "Sin and Salvation", "description": "Original sin; the means of salvation including law, grace and Spirit; atonement", "tier": "both" },
+        { "id": "RS6", "name": "The Afterlife", "description": "Different Christian beliefs about the afterlife: resurrection, judgement, heaven and hell", "tier": "both" }
+      ]
+    },
+    {
+      "id": "christianity-practices",
+      "name": "Christianity: Practices",
+      "topics": [
+        { "id": "RS7", "name": "Forms of Worship", "description": "Liturgical, non-liturgical and informal worship; private worship; the role of the Bible", "tier": "both" },
+        { "id": "RS8", "name": "Prayer", "description": "The significance of prayer; the Lord's Prayer; set prayers and informal prayer", "tier": "both" },
+        { "id": "RS9", "name": "Sacraments: Baptism and Eucharist", "description": "The meaning of sacrament; infant and believers' baptism; Holy Communion and its significance", "tier": "both" },
+        { "id": "RS10", "name": "Pilgrimage", "description": "The role and importance of pilgrimage; contrasting examples of Lourdes and Iona", "tier": "both" },
+        { "id": "RS11", "name": "Christmas and Easter", "description": "The celebrations of Christmas and Easter and their importance for Christians in Britain today", "tier": "both" },
+        { "id": "RS12", "name": "The Role of the Church", "description": "The Church in the local community; food banks and street pastors; mission and evangelism", "tier": "both" },
+        { "id": "RS13", "name": "The Worldwide Church", "description": "Working for reconciliation; responding to persecution; the work of CAFOD, Christian Aid or Tearfund", "tier": "both" }
+      ]
+    },
+    {
+      "id": "islam-beliefs",
+      "name": "Islam: Beliefs and Teachings",
+      "topics": [
+        { "id": "RS14", "name": "The Six Articles and Five Roots", "description": "The six articles of faith in Sunni Islam; the five roots of Usul ad-Din in Shi'a Islam; key similarities and differences", "tier": "both" },
+        { "id": "RS15", "name": "Tawhid: The Oneness of God", "description": "The nature of God: omnipotence, beneficence, mercy, fairness and justice; immanence and transcendence", "tier": "both" },
+        { "id": "RS16", "name": "Angels", "description": "The nature and role of angels including Jibril and Mika'il", "tier": "both" },
+        { "id": "RS17", "name": "Predestination and Free Will", "description": "Predestination and human freedom and its relationship to the Day of Judgement", "tier": "both" },
+        { "id": "RS18", "name": "Akhirah: Life After Death", "description": "Human responsibility and accountability; resurrection; heaven and hell", "tier": "both" },
+        { "id": "RS19", "name": "Risalah: Prophethood", "description": "The role and importance of Adam, Ibrahim and Muhammad as prophets; the holy books", "tier": "both" },
+        { "id": "RS20", "name": "The Imamate", "description": "The role and significance of the imamate in Shi'a Islam", "tier": "both" }
+      ]
+    },
+    {
+      "id": "islam-practices",
+      "name": "Islam: Practices",
+      "topics": [
+        { "id": "RS21", "name": "The Five Pillars", "description": "Shahadah: declaration of faith and its place in Muslim practice", "tier": "both" },
+        { "id": "RS22", "name": "Salah: Prayer", "description": "How and why Muslims pray; times, directions, wudu, rak'ahs; Jummah; Sunni and Shi'a differences", "tier": "both" },
+        { "id": "RS23", "name": "Sawm: Fasting", "description": "The role and significance of fasting during Ramadan; origins, duties, exceptions, Night of Power", "tier": "both" },
+        { "id": "RS24", "name": "Zakah and Khums", "description": "The role and significance of giving alms; how and why it is given; Khums in Shi'a Islam", "tier": "both" },
+        { "id": "RS25", "name": "Hajj: Pilgrimage", "description": "The role and significance of pilgrimage to Makkah; Ka'aba, Mina, Arafat, Muzdalifah", "tier": "both" },
+        { "id": "RS26", "name": "Jihad", "description": "Greater and lesser jihad; origins, influence and conditions for the declaration of lesser jihad", "tier": "both" },
+        { "id": "RS27", "name": "Islamic Festivals", "description": "Id-ul-Adha, Id-ul-Fitr and Ashura; their origins, meanings and importance in Britain today", "tier": "both" }
+      ]
+    },
+    {
+      "id": "relationships-families",
+      "name": "Theme A: Relationships and Families",
+      "topics": [
+        { "id": "RS28", "name": "Human Sexuality and Relationships", "description": "Heterosexual and same-sex relationships; sexual relationships before and outside of marriage", "tier": "both" },
+        { "id": "RS29", "name": "Marriage and Divorce", "description": "The nature and purpose of marriage; same-sex marriage and cohabitation; divorce and remarrying", "tier": "both" },
+        { "id": "RS30", "name": "Contraception and Family Planning", "description": "Religious teachings on contraception; contrasting Christian and Muslim perspectives", "tier": "both" },
+        { "id": "RS31", "name": "The Nature and Purpose of Families", "description": "The role of parents and children; extended and nuclear families; procreation, stability, faith education", "tier": "both" },
+        { "id": "RS32", "name": "Gender Equality and Prejudice", "description": "The roles of men and women; gender equality; gender prejudice and discrimination including examples", "tier": "both" }
+      ]
+    },
+    {
+      "id": "religion-life",
+      "name": "Theme B: Religion and Life",
+      "topics": [
+        { "id": "RS33", "name": "The Origins of the Universe", "description": "Religious teachings about origins; the Big Bang theory; the relationship between scientific and religious views", "tier": "both" },
+        { "id": "RS34", "name": "Stewardship and the Environment", "description": "The duty to protect the world; stewardship, dominion, responsibility, awe and wonder; use and abuse of the environment", "tier": "both" },
+        { "id": "RS35", "name": "The Origins of Human Life", "description": "Religious teachings about the origins of human life; evolution and religious views", "tier": "both" },
+        { "id": "RS36", "name": "Abortion", "description": "Sanctity of life and quality of life; situations when the mother's life is at risk; contrasting perspectives", "tier": "both" },
+        { "id": "RS37", "name": "Euthanasia and the Afterlife", "description": "Beliefs about euthanasia; beliefs about death and an afterlife; their impact on the value of human life", "tier": "both" },
+        { "id": "RS38", "name": "Animal Rights and Experimentation", "description": "The use and abuse of animals; animal experimentation; use of animals for food; contrasting perspectives", "tier": "both" }
+      ]
+    },
+    {
+      "id": "religion-peace-conflict",
+      "name": "Theme D: Religion, Peace and Conflict",
+      "topics": [
+        { "id": "RS39", "name": "Peace, Justice and Reconciliation", "description": "The meaning and significance of peace, justice, forgiveness and reconciliation", "tier": "both" },
+        { "id": "RS40", "name": "Violence, Terrorism and War", "description": "Violent protest; terrorism; reasons for war including greed, self-defence and retaliation", "tier": "both" },
+        { "id": "RS41", "name": "Just War and Holy War", "description": "The just war theory and its criteria; holy war; contrasting Christian and Muslim perspectives", "tier": "both" },
+        { "id": "RS42", "name": "Nuclear Weapons and Pacifism", "description": "Nuclear weapons and deterrence; weapons of mass destruction; pacifism; religious peace-making", "tier": "both" }
+      ]
+    },
+    {
+      "id": "religion-crime-punishment",
+      "name": "Theme E: Religion, Crime and Punishment",
+      "topics": [
+        { "id": "RS43", "name": "Good, Evil and the Causes of Crime", "description": "Good and evil intentions and actions; reasons for crime: poverty, mental health, greed, opposition to unjust law", "tier": "both" },
+        { "id": "RS44", "name": "Types of Crime", "description": "Hate crimes, theft and murder; views about people who break the law for different reasons", "tier": "both" },
+        { "id": "RS45", "name": "Aims of Punishment", "description": "Retribution, deterrence and reformation; religious views on the purpose of punishment", "tier": "both" },
+        { "id": "RS46", "name": "The Treatment of Criminals", "description": "Prison, corporal punishment and community service; religious perspectives on treatment of offenders", "tier": "both" },
+        { "id": "RS47", "name": "Forgiveness and the Death Penalty", "description": "Religious teachings on forgiveness; the death penalty; ethical arguments based on utility and sanctity of life", "tier": "both" }
+      ]
+    }
+  ]
+}
