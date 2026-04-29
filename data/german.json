@@ -1,0 +1,117 @@
+{
+  "subject": "German",
+  "id": "german",
+  "examBoards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
+  "tierEntry": {
+    "foundation": "Grades 1-5",
+    "higher": "Grades 4-9"
+  },
+  "papers": {
+    "AQA": [
+      { "name": "Paper 1", "title": "Listening", "duration": "35m (F) / 45m (H)", "marks": 40, "weighting": 25 },
+      { "name": "Paper 2", "title": "Speaking", "duration": "7-12m + prep", "marks": 60, "weighting": 25 },
+      { "name": "Paper 3", "title": "Reading", "duration": "45m (F) / 60m (H)", "marks": 50, "weighting": 25 },
+      { "name": "Paper 4", "title": "Writing", "duration": "1h (F) / 1h 15m (H)", "marks": 50, "weighting": 25 }
+    ]
+  },
+  "assessmentObjectives": [
+    { "id": "AO1", "description": "Understand and respond to spoken language", "weighting": "25%" },
+    { "id": "AO2", "description": "Understand and respond to written language", "weighting": "25%" },
+    { "id": "AO3", "description": "Interact and communicate effectively in speech", "weighting": "25%" },
+    { "id": "AO4", "description": "Communicate effectively in writing", "weighting": "25%" }
+  ],
+  "strands": [
+    {
+      "id": "gm-identity-relationships",
+      "name": "Theme 1.1: Identity and Relationships",
+      "topics": [
+        { "id": "GM1", "name": "Describing Yourself and Others", "description": "Name, age, personality, appearance; adjectives endings; physical and character descriptions", "tier": "both" },
+        { "id": "GM2", "name": "Family and Friends", "description": "Family members, relationships, getting on with others; possessive adjectives (mein, dein); reflexive verbs", "tier": "both" },
+        { "id": "GM3", "name": "Marriage and Partnerships", "description": "Relationships, marriage, partnerships; opinions on relationships; future tense plans", "tier": "both" }
+      ]
+    },
+    {
+      "id": "gm-healthy-living",
+      "name": "Theme 1.2: Healthy Living and Lifestyle",
+      "topics": [
+        { "id": "GM4", "name": "Food, Diet and Healthy Eating", "description": "Meals, food vocabulary, healthy eating; German food culture; opinions on diet and lifestyle", "tier": "both" },
+        { "id": "GM5", "name": "Sport and Exercise", "description": "Sports, fitness, exercise routines; advantages of sport; gern/lieber/am liebsten", "tier": "both" },
+        { "id": "GM6", "name": "Health, Illness and Wellbeing", "description": "Parts of the body, illnesses, at the doctor/pharmacy; health advice; modal verbs", "tier": "both" },
+        { "id": "GM7", "name": "Smoking, Drugs and Alcohol", "description": "Dangers of smoking, drugs and alcohol; opinions; man soll/man darf nicht; healthy choices", "tier": "both" }
+      ]
+    },
+    {
+      "id": "gm-education-work",
+      "name": "Theme 1.3: Education and Work",
+      "topics": [
+        { "id": "GM8", "name": "School Life and Subjects", "description": "School subjects, timetable, opinions on subjects; the German school system; comparisons", "tier": "both" },
+        { "id": "GM9", "name": "School Rules and Uniform", "description": "School rules, uniform, facilities; man muss / man darf; expressing obligation and permission", "tier": "both" },
+        { "id": "GM10", "name": "Future Plans and Careers", "description": "Jobs, careers, further study; future plans; conditional (ich möchte); applications and work experience", "tier": "both" }
+      ]
+    },
+    {
+      "id": "gm-free-time-activities",
+      "name": "Theme 2.1: Free-Time Activities",
+      "topics": [
+        { "id": "GM11", "name": "Hobbies and Interests", "description": "Leisure activities, reading, music, films; hobbies in different tenses; opinions and reasons", "tier": "both" },
+        { "id": "GM12", "name": "Technology in Everyday Life", "description": "Social media, internet, smartphones; advantages and dangers; opinions on technology use", "tier": "both" },
+        { "id": "GM13", "name": "Going Out and Entertainment", "description": "Cinema, concerts, restaurants; inviting friends; arranging to go out; accepting and declining", "tier": "both" }
+      ]
+    },
+    {
+      "id": "gm-customs-festivals",
+      "name": "Theme 2.2: Customs, Festivals and Celebrations",
+      "topics": [
+        { "id": "GM14", "name": "German Traditions and Festivals", "description": "Oktoberfest, Weihnachten, Karneval, Ostern, Tag der Deutschen Einheit; German cultural traditions", "tier": "both" },
+        { "id": "GM15", "name": "German-Speaking Culture", "description": "Culture in German-speaking countries; food, music, art; DACH region; cultural diversity", "tier": "both" },
+        { "id": "GM16", "name": "Food and Drink Culture", "description": "German cuisine, meals, regional specialities; at the café/restaurant; ordering food; typical dishes", "tier": "both" }
+      ]
+    },
+    {
+      "id": "gm-celebrity-culture",
+      "name": "Theme 2.3: Celebrity Culture",
+      "topics": [
+        { "id": "GM17", "name": "Famous German-Speaking People", "description": "Famous German-speaking figures; sport, music, film stars; describing achievements; role models", "tier": "both" },
+        { "id": "GM18", "name": "The Influence of Celebrities", "description": "Impact of celebrity culture; social media influencers; positive and negative influences; opinions", "tier": "both" }
+      ]
+    },
+    {
+      "id": "gm-travel-tourism",
+      "name": "Theme 3.1: Travel and Tourism",
+      "topics": [
+        { "id": "GM19", "name": "Holidays and Travel", "description": "Holiday destinations, travel by train/plane/car; accommodation; the perfect tense for past holidays", "tier": "both" },
+        { "id": "GM20", "name": "Places of Interest in Germany", "description": "Berlin, Munich, regions of Germany, tourist attractions; describing towns; visiting German-speaking countries", "tier": "both" },
+        { "id": "GM21", "name": "At the Hotel and Tourist Information", "description": "Booking accommodation, asking for information, dealing with problems; hotel vocabulary; role-plays", "tier": "both" }
+      ]
+    },
+    {
+      "id": "gm-media-technology",
+      "name": "Theme 3.2: Media and Technology",
+      "topics": [
+        { "id": "GM22", "name": "Television, Film and Music", "description": "TV programmes, films, music genres; opinions and justifications; comparing media; German media", "tier": "both" },
+        { "id": "GM23", "name": "The Internet and Social Media", "description": "Online activities, social networks, cyberbullying; advantages and risks; internet safety", "tier": "both" }
+      ]
+    },
+    {
+      "id": "gm-environment-living",
+      "name": "Theme 3.3: The Environment and Where People Live",
+      "topics": [
+        { "id": "GM24", "name": "Your Local Area", "description": "Describing your town/region; what there is to do; facilities; advantages and disadvantages of where you live", "tier": "both" },
+        { "id": "GM25", "name": "Environmental Problems and Solutions", "description": "Pollution, recycling, climate change; environmental vocabulary; man muss/sollte; solutions", "tier": "both" },
+        { "id": "GM26", "name": "Charity and Voluntary Work", "description": "Volunteering, helping others, charity organisations; imperfect tense; community projects", "tier": "both" }
+      ]
+    },
+    {
+      "id": "gm-grammar",
+      "name": "Grammar and Language Skills",
+      "topics": [
+        { "id": "GM27", "name": "Tenses: Present, Perfect and Imperfect", "description": "Forming and using the present, perfect (Perfekt) and imperfect (Präteritum) tenses; when to use each", "tier": "both" },
+        { "id": "GM28", "name": "Tenses: Future and Conditional", "description": "The future (werden + infinitive), conditional (würde + infinitive); expressing plans and wishes", "tier": "both" },
+        { "id": "GM29", "name": "Cases: Nominative, Accusative, Dative and Genitive", "description": "The four German cases; when to use each; definite and indefinite articles in all cases; prepositions taking specific cases", "tier": "both" },
+        { "id": "GM30", "name": "Word Order and Conjunctions", "description": "Main clause word order; subordinate clauses (verb to end); coordinating vs subordinating conjunctions; dass, weil, wenn, obwohl", "tier": "both" },
+        { "id": "GM31", "name": "Adjective Endings and Pronouns", "description": "Adjective endings after der/die/das and ein/eine; possessive adjectives; personal and relative pronouns", "tier": "both" },
+        { "id": "GM32", "name": "Separable and Modal Verbs", "description": "Separable verb prefixes (an-, aus-, mit-, zu-); modal verbs (können, müssen, dürfen, sollen, wollen, möchten); word order with modals", "tier": "both" }
+      ]
+    }
+  ]
+}
