@@ -94,7 +94,7 @@ function filterByBoard(board) {
 }
 
 function openSubject(subjectId) {
-  const landingPages = ['mathematics', 'english-language', 'english-literature', 'combined-science', 'biology', 'chemistry', 'physics', 'geography', 'history', 'pe', 'computer-science', 'religious-studies', 'french', 'german'];
+  const landingPages = ['mathematics', 'english-language', 'english-literature', 'combined-science', 'biology', 'chemistry', 'physics', 'geography', 'history', 'pe', 'computer-science', 'religious-studies', 'french', 'german', 'art-design'];
   if (landingPages.includes(subjectId)) {
     window.location.href = `${subjectId}.html`;
   } else {
