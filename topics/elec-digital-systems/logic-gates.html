@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logic Gates - GCSE Electronics</title>
+<meta name="description" content="Learn about fundamental logic gates including AND, OR, NOT, NAND, NOR and XOR, their truth tables and practical applications.">
+<meta name="keywords" content="AND gate, OR gate, NOT gate, NAND gate, NOR gate, XOR gate, truth table, logic gate, Boolean, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Logic Gates - GCSE Electronics">
+<meta property="og:description" content="Learn about fundamental logic gates including AND, OR, NOT, NAND, NOR and XOR, their truth tables and practical applications.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-digital-systems/logic-gates.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-digital-systems/logic-gates.html">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Digital Systems</span> <span>›</span>
+<span>Logic Gates</span>
+</nav>
+<article class="topic-header">
+<h1>E6: Logic Gates</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">AND, OR, NOT, NAND, NOR, XOR gates and truth tables</p>
+</article>
+<section class="section">
+<h2>Logic Gates</h2>
+<p>AND, OR, NOT, NAND, NOR, XOR gates and truth tables</p>
+<div class="key-point">
+<strong>Key Fact:</strong> An AND gate outputs 1 only when ALL inputs are 1; its truth table has one high output for two inputs.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An OR gate outputs 1 when ANY input is 1; it produces a low output only when all inputs are 0.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A NOT gate (inverter) outputs the complement of its single input: 0 becomes 1 and 1 becomes 0.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A NAND gate is the complement of AND: output is 0 only when all inputs are 1; it is a universal gate.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A NOR gate is the complement of OR: output is 1 only when all inputs are 0; also a universal gate.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An XOR (exclusive OR) gate outputs 1 when inputs are different; XNOR outputs 1 when inputs are the same.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> NAND and NOR are universal gates: any Boolean function can be implemented using only NAND or only NOR gates.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Logic 1 typically corresponds to a high voltage (e.g. 5 V); logic 0 to a low voltage (e.g. 0 V).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Truth tables list all possible input combinations and the corresponding output for each.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For n inputs, a truth table has 2ⁿ rows covering every input combination.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Logic gates are built from transistors; CMOS technology uses complementary pairs of MOSFETs.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Propagation delay is the time between a change at the input and the corresponding change at the output.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Logic Gates, you must know:</p>
+<ul><li><strong>Logic gate:</strong> A digital circuit that performs a Boolean logic operation on one or more inputs to produce a single output.</li>
+<li><strong>Truth table:</strong> A table listing all possible input combinations and the resulting output of a logic circuit.</li>
+<li><strong>Universal gate:</strong> A gate (NAND or NOR) that can implement any Boolean function without any other gate type.</li>
+<li><strong>Propagation delay:</strong> The time taken for a signal change at the input to produce a change at the output.</li>
+<li><strong>XOR gate:</strong> Exclusive OR gate; outputs 1 when the two inputs are different.</li>
+<li><strong>CMOS:</strong> Complementary Metal-Oxide-Semiconductor; a technology for building low-power logic gates.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> Draw the truth table for a 2-input AND gate.</p></div>
+<div class="question"><p><strong>Q:</strong> What is the output of a NAND gate when both inputs are 1?</p></div>
+<div class="question"><p><strong>Q:</strong> Why are NAND and NOR called universal gates?</p></div>
+<div class="question"><p><strong>Q:</strong> How many rows does a truth table for a 3-input logic gate have?</p></div>
+<div class="question"><p><strong>Q:</strong> What is the difference between XOR and XNOR gates?</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>A=0,B=0→0; A=0,B=1→0; A=1,B=0→0; A=1,B=1→1.</li>
+<li>0. A NAND gate produces the complement of the AND output.</li>
+<li>Because any Boolean function can be implemented using only NAND gates or only NOR gates, without needing any other gate type.</li>
+<li>2³ = 8 rows.</li>
+<li>XOR outputs 1 when inputs are different; XNOR outputs 1 when inputs are the same (XOR followed by NOT).</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always write truth tables with inputs in binary counting order (00, 01, 10, 11).</li>
+<li>Remember: NAND = NOT(AND); NOR = NOT(OR); the bubble on the symbol indicates inversion.</li>
+<li>When asked to identify a gate from a truth table, look at which rows give output 1.</li>
+<li>For universal gate questions, show how NOT, AND and OR can each be made from NAND gates.</li>
+<li>Label gate symbols clearly with the gate type and input/output labels.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Electronics Exam Tips:</strong><br>
+Use precise electronics terminology in all answers. When performing calculations, always show working and include units. For circuit analysis, state which law or rule you are applying (e.g. Ohm's law, Kirchhoff's laws). For design questions, justify component choices with calculations. For evaluation questions, consider performance, cost and practical constraints. WJEC Eduqas C690QS rewards answers that demonstrate understanding through use of specific electronic evidence and accurate calculations.
+</div>
+</section>
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing OR and XOR truth tables.</span> <span class="right">✓ OR outputs 1 when any input is 1; XOR outputs 1 only when inputs differ (0,1 or 1,0).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting the bubble (inversion) on NAND and NOR gate symbols.</span> <span class="right">✓ NAND has a bubble on the output of an AND symbol; NOR has a bubble on the output of an OR symbol.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Omitting rows from a truth table.</span> <span class="right">✓ A complete truth table for n inputs must have 2ⁿ rows covering all combinations.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Stating that AND and OR are universal gates.</span> <span class="right">✓ Only NAND and NOR are universal gates; AND and OR cannot implement inversion alone.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the function of each fundamental logic gate (AND, OR, NOT, NAND, NOR, XOR) and explain why NAND is a universal gate.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>An AND gate outputs 1 only when all inputs are 1. An OR gate outputs 1 when any input is 1. A NOT gate inverts its single input. A NAND gate outputs 0 only when all inputs are 1 (complement of AND). A NOR gate outputs 1 only when all inputs are 0 (complement of OR). An XOR gate outputs 1 when its inputs are different. NAND is a universal gate because any Boolean function can be built using only NAND gates: a NOT gate is a NAND with both inputs tied together; an AND gate is a NAND followed by a NOT (two NANDs); an OR gate is implemented by inverting both inputs first then feeding them to a NAND (De Morgan&#x27;s equivalence). Since NOT, AND and OR together can implement any Boolean expression, and all three can be built from NAND alone, NAND is universal. The same reasoning applies to NOR.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of logic gates, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of logic gates to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Logic+Gates" target="_blank" rel="noopener">YouTube: GCSE Electronics Logic Gates</a></li></ul>
+</section>
+<nav class="topic-nav">
+<a href="../elec-fundamentals/power-energy-circuits.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-digital-systems/boolean-algebra.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body></html>

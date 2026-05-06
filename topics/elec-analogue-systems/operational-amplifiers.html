@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Operational Amplifiers - GCSE Electronics</title>
+<meta name="description" content="Learn about operational amplifiers including op-amp characteristics, the ideal op-amp model, and inverting and non-inverting amplifier configurations for WJEC Eduqas Electronics.">
+<meta name="keywords" content="op-amp, operational amplifier, ideal op-amp, inverting amplifier, non-inverting amplifier, open-loop gain, input impedance, virtual earth, feedback, differential amplifier, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Operational Amplifiers - GCSE Electronics">
+<meta property="og:description" content="Learn about operational amplifiers including op-amp characteristics, the ideal op-amp model, and inverting and non-inverting amplifier configurations for WJEC Eduqas Electronics.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/operational-amplifiers.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/operational-amplifiers.html">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Analogue Systems</span> <span>›</span>
+<span>Operational Amplifiers</span>
+</nav>
+<article class="topic-header">
+<h1>E11: Operational Amplifiers</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Op-amp characteristics, ideal op-amp, inverting and non-inverting configurations</p>
+</article>
+<section class="section">
+<h2>Operational Amplifiers</h2>
+<p>Op-amp characteristics, ideal op-amp, inverting and non-inverting configurations</p>
+<div class="key-point">
+<strong>Key Fact:</strong> An operational amplifier (op-amp) is a high-gain differential amplifier with two inputs: inverting (−) and non-inverting (+).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The ideal op-amp has infinite open-loop gain, infinite input impedance, zero output impedance and infinite bandwidth.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A real op-amp has very high but finite open-loop gain (typically 10⁵ to 10⁶), high input impedance and low output impedance.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Negative feedback is used to control gain and improve stability; it reduces overall gain to a predictable value set by external components.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The inverting amplifier configuration has the input signal applied to the inverting input via Rin with feedback resistor Rf from output to inverting input.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Gain of an inverting amplifier: Av = −Rf/Rin; the output is 180° out of phase with the input.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The non-inverting amplifier has the input applied to the non-inverting input; feedback via a voltage divider to the inverting input.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Gain of a non-inverting amplifier: Av = 1 + Rf/R1; the output is in phase with the input.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The virtual earth (virtual ground) principle: when negative feedback is applied, the two inputs are at virtually the same potential.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Op-amps require dual-rail power supplies (typically ±15 V) or single-rail with a virtual mid-rail reference.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Slew rate limits how fast the output voltage can change, measured in V/µs.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Input bias currents are small currents that flow into the op-amp inputs; they can cause offset errors in precision circuits.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Operational Amplifiers, you must know:</p>
+<ul><li><strong>Op-amp:</strong> A high-gain differential voltage amplifier with inverting and non-inverting inputs.</li>
+<li><strong>Open-loop gain:</strong> The voltage gain of an op-amp with no external feedback; very high (10⁵ or more).</li>
+<li><strong>Virtual earth:</strong> A point held at approximately 0 V by negative feedback, though not directly connected to ground.</li>
+<li><strong>Slew rate:</strong> The maximum rate of change of output voltage, measured in V/µs.</li>
+<li><strong>Input impedance:</strong> The resistance looking into the op-amp input; ideally infinite so no current is drawn.</li>
+<li><strong>Negative feedback:</strong> Feeding a fraction of the output back to the inverting input to control gain and stability.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> An inverting amplifier has Rin = 10 kΩ and Rf = 100 kΩ. What is its voltage gain?</p></div>
+<div class="question"><p><strong>Q:</strong> A non-inverting amplifier has Rf = 47 kΩ and R1 = 10 kΩ. Calculate the voltage gain.</p></div>
+<div class="question"><p><strong>Q:</strong> State two properties of an ideal op-amp.</p></div>
+<div class="question"><p><strong>Q:</strong> What is the virtual earth principle in an inverting amplifier?</p></div>
+<div class="question"><p><strong>Q:</strong> Why is negative feedback used in op-amp circuits?</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>Av = −Rf/Rin = −100/10 = −10. The gain magnitude is 10 and the output is inverted.</li>
+<li>Av = 1 + Rf/R1 = 1 + 47/10 = 1 + 4.7 = 5.7.</li>
+<li>Infinite open-loop gain and infinite input impedance (also zero output impedance and infinite bandwidth).</li>
+<li>Negative feedback keeps the inverting input at virtually the same potential as the non-inverting input (0 V), so it acts as a virtual earth.</li>
+<li>Negative feedback reduces and stabilises gain, increases bandwidth, reduces distortion and makes the gain depend on external resistors rather than the op-amp&#x27;s internal gain.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always show the formula before substituting values: Av = −Rf/Rin for inverting, Av = 1 + Rf/R1 for non-inverting.</li>
+<li>Remember the minus sign for inverting amplifier gain — the output is phase-inverted.</li>
+<li>When asked about ideal op-amp properties, list at least two: infinite gain, infinite input impedance, zero output impedance.</li>
+<li>Draw the op-amp circuit diagram with correct input labels: (−) for inverting, (+) for non-inverting.</li>
+<li>State the virtual earth principle when explaining how an inverting amplifier works.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Electronics Exam Tips:</strong><br>
+Use precise electronics terminology in all answers. When performing calculations, always show working and include units. For circuit analysis, state which law or rule you are applying (e.g. Ohm's law, Kirchhoff's laws). For design questions, justify component choices with calculations. For evaluation questions, consider performance, cost and practical constraints. WJEC Eduqas C690QS rewards answers that demonstrate understanding through use of specific electronic evidence and accurate calculations.
+</div>
+</section>
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Forgetting the minus sign in the inverting amplifier gain formula.</span> <span class="right">✓ Av = −Rf/Rin; the negative sign indicates 180° phase inversion.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Using Av = −Rf/Rin for a non-inverting amplifier.</span> <span class="right">✓ Non-inverting gain is Av = 1 + Rf/R1; there is no minus sign.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Assuming op-amp gain is the same with and without feedback.</span> <span class="right">✓ Open-loop gain is very high (10⁵+); closed-loop gain with feedback is set by resistor ratios.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing the inverting (−) and non-inverting (+) input symbols.</span> <span class="right">✓ The minus sign denotes the inverting input; the plus sign denotes the non-inverting input.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the characteristics of an ideal op-amp and explain how negative feedback is used in both inverting and non-inverting amplifier configurations.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>An ideal op-amp has infinite open-loop gain, infinite input impedance, zero output impedance and infinite bandwidth. In practice, real op-amps have very high gain (10⁵–10⁶) and input impedance, with low output impedance. In an inverting amplifier, the input signal is applied through Rin to the inverting input, with Rf providing negative feedback from output to inverting input; the non-inverting input is grounded. Due to the virtual earth principle, both inputs sit at approximately 0 V, so gain is Av = −Rf/Rin. In a non-inverting amplifier, the input goes to the non-inverting input, and a fraction of the output is fed back to the inverting input via a voltage divider (Rf and R1); gain is Av = 1 + Rf/R1. Negative feedback in both configurations stabilises the gain, makes it dependent on resistor values rather than the op-amp&#x27;s internal characteristics, increases bandwidth and reduces distortion.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of operational amplifiers, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of operational amplifiers to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Operational+Amplifiers" target="_blank" rel="noopener">YouTube: GCSE Electronics Operational Amplifiers</a></li></ul>
+</section>
+<nav class="topic-nav">
+<a href="../elec-digital-systems/digital-systems-design.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-analogue-systems/amplifier-circuits.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body></html>

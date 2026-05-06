@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Systems Design - GCSE Electronics</title>
+<meta name="description" content="Learn to design digital systems using state diagrams, timing diagrams, and subsystem integration for complete electronic solutions.">
+<meta name="keywords" content="digital systems design, state diagram, timing diagram, system integration, state machine, Moore, Mealy, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Digital Systems Design - GCSE Electronics">
+<meta property="og:description" content="Learn to design digital systems using state diagrams, timing diagrams, and subsystem integration for complete electronic solutions.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-digital-systems/digital-systems-design.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-digital-systems/digital-systems-design.html">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Digital Systems</span> <span>›</span>
+<span>Digital Systems Design</span>
+</nav>
+<article class="topic-header">
+<h1>E10: Digital Systems Design</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Designing digital systems, state diagrams, timing diagrams and system integration</p>
+</article>
+<section class="section">
+<h2>Digital Systems Design</h2>
+<p>Designing digital systems, state diagrams, timing diagrams and system integration</p>
+<div class="key-point">
+<strong>Key Fact:</strong> Digital system design involves specifying, designing and implementing circuits that process digital signals.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A state diagram shows the sequence of states a system transitions through, with arrows for transitions and labels for conditions.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Moore machines: outputs depend only on the current state; Mealy machines: outputs depend on current state and inputs.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> State diagrams use circles for states and labelled arrows for transitions; each arrow shows the input condition causing the transition.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Timing diagrams display signal levels against time, showing the relationship between clock, input and output waveforms.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> System integration combines subsystems (combinational logic, registers, counters) into a complete working system.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Design steps: define specification → state diagram → state table → state assignment → logic equations → circuit implementation.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> State reduction eliminates redundant states to minimise the number of flip-flops required.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Unused states should be mapped to ensure the system returns to a valid state (self-correcting design).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A system block diagram shows major subsystems and data flow between them at a high level.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Propagation delays accumulate through cascaded logic, determining the maximum clock frequency of the system.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Glitches (temporary unwanted transitions) can occur in combinational logic due to unequal propagation paths.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Digital Systems Design, you must know:</p>
+<ul><li><strong>State diagram:</strong> A graphical representation of a finite state machine showing states as circles and transitions as arrows.</li>
+<li><strong>Moore machine:</strong> A finite state machine whose outputs depend only on the current state, not on the inputs.</li>
+<li><strong>Mealy machine:</strong> A finite state machine whose outputs depend on both the current state and the current inputs.</li>
+<li><strong>State table:</strong> A tabular listing of all states, their next states for each input, and their outputs.</li>
+<li><strong>State assignment:</strong> The process of assigning binary codes to each state for implementation with flip-flops.</li>
+<li><strong>Glitch:</strong> A brief, unwanted transition in a digital signal caused by unequal propagation delays in logic paths.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> What is the key difference between a Moore machine and a Mealy machine?</p></div>
+<div class="question"><p><strong>Q:</strong> What are the main steps in designing a digital system?</p></div>
+<div class="question"><p><strong>Q:</strong> Why is state reduction important in digital system design?</p></div>
+<div class="question"><p><strong>Q:</strong> What information does a timing diagram convey?</p></div>
+<div class="question"><p><strong>Q:</strong> Why should unused states be considered in a design?</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>In a Moore machine, outputs depend only on the current state; in a Mealy machine, outputs depend on both the current state and the inputs.</li>
+<li>Specification → state diagram → state table → state assignment → derive logic equations → implement with flip-flops and gates.</li>
+<li>State reduction eliminates redundant states, reducing the number of flip-flops and logic gates needed, simplifying the circuit and lowering cost.</li>
+<li>It shows the voltage levels of signals (clock, inputs, outputs) over time, illustrating their relationships and delays.</li>
+<li>Unused states could be entered due to noise or power-up; a self-correcting design ensures the system returns to a valid operating state.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always label state diagram circles with state names/outputs and arrows with transition conditions.</li>
+<li>When drawing timing diagrams, show the clock first, then inputs, then outputs, with correct timing relationships.</li>
+<li>Convert state diagrams to state tables before deriving logic equations.</li>
+<li>Show unused states in your state table and specify transitions back to valid states.</li>
+<li>For system integration questions, draw a clear block diagram showing all subsystems and data paths.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Electronics Exam Tips:</strong><br>
+Use precise electronics terminology in all answers. When performing calculations, always show working and include units. For circuit analysis, state which law or rule you are applying (e.g. Ohm's law, Kirchhoff's laws). For design questions, justify component choices with calculations. For evaluation questions, consider performance, cost and practical constraints. WJEC Eduqas C690QS rewards answers that demonstrate understanding through use of specific electronic evidence and accurate calculations.
+</div>
+</section>
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Omitting transition conditions on state diagram arrows.</span> <span class="right">✓ Every arrow must be labelled with the input condition that causes the transition.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing Moore and Mealy output timing.</span> <span class="right">✓ Moore outputs change only at state transitions (synchronous); Mealy outputs can change whenever inputs change (asynchronous).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Ignoring unused states in a state machine design.</span> <span class="right">✓ All unused states must transition to a known valid state to make the design self-correcting.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Drawing timing diagrams without aligning signal changes to clock edges.</span> <span class="right">✓ Flip-flop outputs change only on clock edges; show all output transitions aligned with the active clock edge.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the process of designing a digital system from specification to implementation, including the role of state diagrams and timing diagrams.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Digital system design begins with a specification defining the required behaviour, inputs and outputs. From the specification, a state diagram is drawn showing each state as a circle and transitions as labelled arrows indicating input conditions. The state diagram is converted to a state table listing each state, its next state for every input combination, and the output. State reduction identifies and merges equivalent states to minimise flip-flop count. State assignment allocates a unique binary code to each state. Logic equations for next-state and output functions are derived from the state table using K-maps or Boolean algebra. The circuit is implemented using flip-flops (to store state) and combinational logic (for next-state and output decoding). Timing diagrams are essential throughout: they verify correct operation by showing clock, input and output waveforms over time, confirming that outputs change at the correct clock edges and that propagation delays do not cause setup/hold violations. For system integration, a block diagram shows how subsystems connect, and timing analysis ensures the complete system meets its maximum clock frequency requirement.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of digital systems design, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of digital systems design to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Digital+Systems+Design" target="_blank" rel="noopener">YouTube: GCSE Electronics Digital Systems Design</a></li></ul>
+</section>
+<nav class="topic-nav">
+<a href="../elec-digital-systems/sequential-logic.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-analogue-systems/operational-amplifiers.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body></html>

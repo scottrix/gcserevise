@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Power Supplies &amp; Regulation - GCSE Electronics</title>
+<meta name="description" content="Learn about power supplies and voltage regulation including rectification, smoothing circuits, voltage regulators and Zener diode applications for WJEC Eduqas Electronics.">
+<meta name="keywords" content="power supply, rectification, smoothing, voltage regulation, Zener diode, bridge rectifier, regulator, ripple, transformer, filter capacitor, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Power Supplies &amp; Regulation - GCSE Electronics">
+<meta property="og:description" content="Learn about power supplies and voltage regulation including rectification, smoothing circuits, voltage regulators and Zener diode applications for WJEC Eduqas Electronics.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-applications/power-supplies.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-applications/power-supplies.html">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Electronics Applications</span> <span>›</span>
+<span>Power Supplies &amp; Regulation</span>
+</nav>
+<article class="topic-header">
+<h1>E19: Power Supplies &amp; Regulation</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Rectification, smoothing, voltage regulation and Zener diodes</p>
+</article>
+<section class="section">
+<h2>Power Supplies &amp; Regulation</h2>
+<p>Rectification, smoothing, voltage regulation and Zener diodes</p>
+<div class="key-point">
+<strong>Key Fact:</strong> A power supply converts AC mains to a stable DC voltage through transformer, rectifier, smoothing and regulation stages.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A step-down transformer reduces the AC mains voltage to a lower AC voltage suitable for the circuit.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Half-wave rectification uses a single diode and only rectifies one half of the AC cycle, giving 50% efficiency.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Full-wave rectification using a bridge rectifier uses four diodes and rectifies both halves of the AC cycle.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The output of a rectifier is pulsating DC; a smoothing capacitor converts this to a more constant DC level.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Ripple voltage is the residual AC variation on the DC output; larger capacitance reduces ripple for a given load current.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Ripple voltage formula: V_ripple ≈ I_load / (f × C), where f is the ripple frequency (100 Hz for full-wave on 50 Hz mains).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A Zener diode operates in reverse breakdown to provide a stable reference voltage; it is the simplest form of voltage regulator.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A Zener regulator circuit uses a series resistor to limit current: R_s = (V_in − V_Z) / (I_Z + I_load).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A three-terminal voltage regulator (e.g. 7805 for 5 V, 7812 for 12 V) provides a fixed, stable output with built-in protection.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Linear regulators dissipate excess voltage as heat; efficiency is V_out / V_in, so they run hot when the difference is large.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Switch-mode power supplies (SMPS) use high-frequency switching for higher efficiency and smaller size than linear regulators.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Power Supplies &amp; Regulation, you must know:</p>
+<ul><li><strong>Rectification:</strong> The process of converting AC to pulsating DC using diodes that allow current to flow in one direction only.</li>
+<li><strong>Smoothing:</strong> Using a capacitor to reduce the ripple on a rectified DC output, producing a more constant voltage.</li>
+<li><strong>Ripple voltage:</strong> The small AC variation remaining on a DC supply after smoothing; reduced by larger capacitance or lower load current.</li>
+<li><strong>Zener diode:</strong> A diode designed to operate in reverse breakdown at a specific voltage, used for voltage regulation and reference.</li>
+<li><strong>Voltage regulator:</strong> A circuit or IC that maintains a constant output voltage despite variations in input voltage or load current.</li>
+<li><strong>Bridge rectifier:</strong> A configuration of four diodes that provides full-wave rectification of an AC input.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> What is the ripple frequency of a full-wave rectifier supplied from 50 Hz mains?</p></div>
+<div class="question"><p><strong>Q:</strong> A Zener regulator has V_in = 12 V, V_Z = 5.1 V, I_Z = 20 mA and I_load = 50 mA. Calculate R_s.</p></div>
+<div class="question"><p><strong>Q:</strong> Explain why a smoothing capacitor reduces ripple voltage.</p></div>
+<div class="question"><p><strong>Q:</strong> State two advantages of a bridge rectifier over a half-wave rectifier.</p></div>
+<div class="question"><p><strong>Q:</strong> Why does a 7805 regulator need a heat sink when the input voltage is significantly above 5 V?</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>100 Hz, because both halves of the AC cycle are rectified, doubling the frequency.</li>
+<li>R_s = (V_in − V_Z)/(I_Z + I_load) = (12 − 5.1)/(0.02 + 0.05) = 6.9/0.07 = 98.6 Ω ≈ 100 Ω.</li>
+<li>The capacitor charges during the rectifier peak and discharges into the load during the trough, filling in the gaps between rectified pulses.</li>
+<li>A bridge rectifier uses both halves of the AC cycle (higher output) and has lower ripple because the ripple frequency is doubled.</li>
+<li>The regulator dissipates power P = (V_in − V_out) × I_load as heat; with a large voltage difference, this power can exceed the device&#x27;s dissipation limit.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Draw the full power supply block diagram: transformer → rectifier → smoothing → regulator, and label each stage.</li>
+<li>For ripple calculations, always identify whether it is half-wave (f = 50 Hz) or full-wave (f = 100 Hz) before using V_ripple ≈ I/(fC).</li>
+<li>When calculating Zener series resistance, include both the Zener current and the load current in the denominator.</li>
+<li>State the purpose of each stage before attempting calculations: transformer (voltage reduction), rectifier (AC to DC), smoothing (reduce ripple), regulator (constant voltage).</li>
+<li>Remember that a Zener diode regulator requires a minimum Zener current to maintain regulation; check this condition in your answer.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Electronics Exam Tips:</strong><br>
+Use precise electronics terminology in all answers. When performing calculations, always show working and include units. For circuit analysis, state which law or rule you are applying (e.g. Ohm's law, Kirchhoff's laws). For design questions, justify component choices with calculations. For evaluation questions, consider performance, cost and practical constraints. WJEC Eduqas C690QS rewards answers that demonstrate understanding through use of specific electronic evidence and accurate calculations.
+</div>
+</section>
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Using 50 Hz for the ripple frequency of a full-wave rectifier.</span> <span class="right">✓ Full-wave rectification doubles the frequency; the ripple frequency is 100 Hz on a 50 Hz mains supply.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to include load current when calculating the Zener series resistor.</span> <span class="right">✓ R_s = (V_in − V_Z)/(I_Z + I_load); both Zener and load current flow through the series resistor.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Assuming a smoothing capacitor removes all ripple.</span> <span class="right">✓ A capacitor reduces ripple but does not eliminate it; some AC variation always remains on the DC output.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing linear and switch-mode regulator efficiency.</span> <span class="right">✓ Linear regulators dissipate excess voltage as heat (low efficiency with large V_drop); SMPS achieve higher efficiency by switching at high frequency.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the stages of a regulated DC power supply from mains AC input to stable DC output, explaining the role of rectification, smoothing and voltage regulation.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>A regulated DC power supply converts mains AC to stable DC through four stages. First, a step-down transformer reduces the 230 V AC mains to a lower AC voltage (e.g. 12 V AC). Second, a rectifier converts the AC to pulsating DC: a half-wave rectifier uses one diode and only passes one half-cycle, while a bridge rectifier uses four diodes to pass both half-cycles, producing full-wave rectified DC with a ripple frequency of 100 Hz. Third, a smoothing capacitor (typically hundreds or thousands of microfarads) charges during the rectifier peaks and discharges into the load during the troughs, reducing the ripple voltage. The ripple is approximately V_ripple = I_load/(f × C). Fourth, a voltage regulator provides a constant output voltage regardless of remaining ripple or load current changes. A Zener diode regulator uses the reverse breakdown voltage as a reference, with a series resistor to limit current. A three-terminal IC regulator (e.g. 7805) provides tighter regulation with built-in current limiting and thermal shutdown. The result is a clean, stable DC supply suitable for powering electronic circuits.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of power supplies &amp; regulation, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of power supplies &amp; regulation to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Power+Supplies+&amp;+Regulation" target="_blank" rel="noopener">YouTube: GCSE Electronics Power Supplies &amp; Regulation</a></li></ul>
+</section>
+<nav class="topic-nav">
+<a href="../elec-practical-circuits/safety-electronics.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-applications/sensors-transducers.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body></html>

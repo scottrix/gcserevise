@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analogue Signals &amp; Filters - GCSE Electronics</title>
+<meta name="description" content="Learn about analogue signals and filters including signal types, frequency response, RC low-pass and high-pass filters, and signal conditioning for WJEC Eduqas Electronics.">
+<meta name="keywords" content="analogue signal, digital signal, frequency response, low-pass filter, high-pass filter, RC filter, cut-off frequency, signal conditioning, attenuation, decibel, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Analogue Signals &amp; Filters - GCSE Electronics">
+<meta property="og:description" content="Learn about analogue signals and filters including signal types, frequency response, RC low-pass and high-pass filters, and signal conditioning for WJEC Eduqas Electronics.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/analogue-signals-filters.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/analogue-signals-filters.html">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Analogue Systems</span> <span>›</span>
+<span>Analogue Signals &amp; Filters</span>
+</nav>
+<article class="topic-header">
+<h1>E14: Analogue Signals &amp; Filters</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Signal types, frequency response, RC filters and signal conditioning</p>
+</article>
+<section class="section">
+<h2>Analogue Signals &amp; Filters</h2>
+<p>Signal types, frequency response, RC filters and signal conditioning</p>
+<div class="key-point">
+<strong>Key Fact:</strong> An analogue signal varies continuously in amplitude and time; a digital signal has discrete voltage levels.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Frequency response describes how a circuit&#x27;s gain varies with frequency; it is typically plotted as a Bode diagram.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An RC low-pass filter allows frequencies below the cut-off to pass while attenuating higher frequencies.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An RC high-pass filter allows frequencies above the cut-off to pass while attenuating lower frequencies.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The cut-off frequency (f_c) of an RC filter: f_c = 1/(2πRC); at this frequency the output is −3 dB (0.707 of input).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Above the cut-off, a low-pass filter attenuates at −20 dB/decade (−6 dB/octave) for a first-order RC filter.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Below the cut-off, a high-pass filter attenuates at −20 dB/decade as frequency decreases.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Signal conditioning includes amplification, filtering, level shifting and impedance matching to prepare signals for processing.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A buffer (voltage follower) using an op-amp provides impedance matching: high input impedance, low output impedance, unity gain.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Cascading two first-order filters creates a second-order filter with −40 dB/decade roll-off but may require active buffering.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The time constant τ = RC determines the filter&#x27;s transient response; after 5τ the capacitor is considered fully charged.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Active filters use op-amps to provide gain and avoid the loading effects inherent in passive RC filters.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Analogue Signals &amp; Filters, you must know:</p>
+<ul><li><strong>Low-pass filter:</strong> A circuit that allows frequencies below the cut-off to pass and attenuates frequencies above it.</li>
+<li><strong>High-pass filter:</strong> A circuit that allows frequencies above the cut-off to pass and attenuates frequencies below it.</li>
+<li><strong>Cut-off frequency:</strong> The frequency at which filter output falls to −3 dB (0.707) of the pass-band value; f_c = 1/(2πRC).</li>
+<li><strong>Roll-off:</strong> The rate at which a filter attenuates signals beyond the cut-off frequency, e.g. −20 dB/decade.</li>
+<li><strong>Signal conditioning:</strong> Processing a signal (amplifying, filtering, level shifting) to make it suitable for the next stage.</li>
+<li><strong>Bode diagram:</strong> A plot of gain (in dB) and phase against frequency (log scale) showing a circuit&#x27;s frequency response.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> Calculate the cut-off frequency of an RC low-pass filter with R = 1 kΩ and C = 100 nF.</p></div>
+<div class="question"><p><strong>Q:</strong> What is the roll-off rate of a first-order RC low-pass filter above the cut-off frequency?</p></div>
+<div class="question"><p><strong>Q:</strong> Explain the purpose of a voltage follower buffer in a filter circuit.</p></div>
+<div class="question"><p><strong>Q:</strong> A high-pass RC filter has C = 10 nF and R = 15 kΩ. What is the cut-off frequency?</p></div>
+<div class="question"><p><strong>Q:</strong> State two reasons for using an active filter rather than a passive RC filter.</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>f_c = 1/(2πRC) = 1/(2π × 1000 × 100 × 10⁻⁹) = 1/(6.283 × 10⁻⁴) = 1592 Hz ≈ 1.6 kHz.</li>
+<li>−20 dB/decade, which is equivalent to −6 dB/octave.</li>
+<li>A voltage follower provides high input impedance and low output impedance, preventing the filter from being loaded by the next stage.</li>
+<li>f_c = 1/(2πRC) = 1/(2π × 15000 × 10 × 10⁻⁹) = 1/(9.425 × 10⁻⁴) = 1061 Hz ≈ 1.06 kHz.</li>
+<li>Active filters can provide gain and do not suffer from loading effects because the op-amp buffers the output.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always write the cut-off frequency formula f_c = 1/(2πRC) before substituting values.</li>
+<li>Convert all units to base SI (Ω, F, Hz) before calculating to avoid powers-of-ten errors.</li>
+<li>Remember: at the cut-off frequency, the output voltage is 0.707 × Vin (i.e. −3 dB), not zero.</li>
+<li>Distinguish between roll-off rates: first order = −20 dB/decade, second order = −40 dB/decade.</li>
+<li>When sketching Bode plots, mark the cut-off frequency clearly and show the −20 dB/decade slope.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Electronics Exam Tips:</strong><br>
+Use precise electronics terminology in all answers. When performing calculations, always show working and include units. For circuit analysis, state which law or rule you are applying (e.g. Ohm's law, Kirchhoff's laws). For design questions, justify component choices with calculations. For evaluation questions, consider performance, cost and practical constraints. WJEC Eduqas C690QS rewards answers that demonstrate understanding through use of specific electronic evidence and accurate calculations.
+</div>
+</section>
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Calculating cut-off frequency as f_c = 1/(RC) without the 2π factor.</span> <span class="right">✓ The correct formula is f_c = 1/(2πRC); the 2π factor converts angular frequency to Hz.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking the output is zero at the cut-off frequency.</span> <span class="right">✓ At f_c the output is −3 dB, which is 0.707 of the pass-band value — not zero.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing the roll-off rates of first-order and second-order filters.</span> <span class="right">✓ First-order roll-off is −20 dB/decade; second-order is −40 dB/decade.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to convert component values to base SI units before calculating.</span> <span class="right">✓ Convert kΩ to Ω, nF to F, µF to F etc. before substituting into f_c = 1/(2πRC).</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the operation of RC low-pass and high-pass filters, explaining how the cut-off frequency is determined and how signal conditioning prepares signals for further processing.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>An RC low-pass filter consists of a resistor in series with the signal path and a capacitor in parallel to ground; it allows low frequencies to pass while attenuating high frequencies as the capacitor&#x27;s reactance decreases. An RC high-pass filter has the capacitor in series and the resistor to ground; it blocks low frequencies (where the capacitor&#x27;s reactance is high) and passes high frequencies. The cut-off frequency for both is f_c = 1/(2πRC), at which the output amplitude falls to 0.707 of the input (−3 dB). Above f_c, a low-pass filter rolls off at −20 dB/decade; below f_c, a high-pass filter rolls off at the same rate. Signal conditioning prepares raw signals for further processing by amplifying weak signals, filtering unwanted noise, level-shifting to match voltage ranges, and impedance matching using buffer amplifiers (voltage followers) to prevent loading. Active filters using op-amps overcome the limitations of passive RC filters by providing gain, eliminating loading effects and enabling sharper roll-off through higher-order designs.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of analogue signals &amp; filters, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of analogue signals &amp; filters to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Analogue+Signals+&amp;+Filters" target="_blank" rel="noopener">YouTube: GCSE Electronics Analogue Signals &amp; Filters</a></li></ul>
+</section>
+<nav class="topic-nav">
+<a href="../elec-analogue-systems/comparator-circuits.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-practical-circuits/circuit-construction.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body></html>

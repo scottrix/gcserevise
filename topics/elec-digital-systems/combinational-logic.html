@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Combinational Logic Systems - GCSE Electronics</title>
+<meta name="description" content="Study combinational logic systems including adders (half and full), multiplexers, decoders and multi-gate circuit design and analysis.">
+<meta name="keywords" content="combinational logic, half adder, full adder, multiplexer, decoder, encoder, carry, sum, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Combinational Logic Systems - GCSE Electronics">
+<meta property="og:description" content="Study combinational logic systems including adders (half and full), multiplexers, decoders and multi-gate circuit design and analysis.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-digital-systems/combinational-logic.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-digital-systems/combinational-logic.html">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Digital Systems</span> <span>›</span>
+<span>Combinational Logic Systems</span>
+</nav>
+<article class="topic-header">
+<h1>E8: Combinational Logic Systems</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Combining logic gates, half adder, full adder, multiplexers and decoders</p>
+</article>
+<section class="section">
+<h2>Combinational Logic Systems</h2>
+<p>Combining logic gates, half adder, full adder, multiplexers and decoders</p>
+<div class="key-point">
+<strong>Key Fact:</strong> Combinational logic produces outputs determined solely by current inputs, with no memory or feedback.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A half adder adds two single-bit binary numbers, producing Sum (XOR) and Carry (AND).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A full adder adds three bits (two inputs plus carry-in), producing Sum and Carry-out using two half adders and an OR gate.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Sum = A ⊕ B ⊕ C_in; Carry-out = A·B + C_in·(A ⊕ B).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Multiple full adders can be cascaded to build multi-bit ripple-carry adders.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A multiplexer (MUX) selects one of several inputs and routes it to a single output, controlled by select lines.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A 2ⁿ-to-1 MUX has n select lines and 2ⁿ data inputs.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A decoder converts a binary input on n lines to one of 2ⁿ output lines being active (e.g. 3-to-8 decoder).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An encoder performs the reverse of a decoder: it converts active input lines into a binary code output.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Priority encoders resolve conflicts when multiple inputs are active by selecting the highest-priority input.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Comparators compare two binary numbers and output whether A &gt; B, A = B or A &lt; B.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Combinational circuits can be analysed by writing the Boolean expression from the gate diagram or deriving a truth table.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Combinational Logic Systems, you must know:</p>
+<ul><li><strong>Half adder:</strong> A combinational circuit that adds two single bits, producing a Sum and Carry output.</li>
+<li><strong>Full adder:</strong> A combinational circuit that adds three bits (two inputs and a carry-in), producing Sum and Carry-out.</li>
+<li><strong>Multiplexer:</strong> A data selector that routes one of several inputs to a single output based on select lines.</li>
+<li><strong>Decoder:</strong> A circuit that converts a binary input into one active output line among many.</li>
+<li><strong>Ripple-carry adder:</strong> A multi-bit adder built by cascading full adders, where carry propagates from one stage to the next.</li>
+<li><strong>Priority encoder:</strong> An encoder that assigns priority to inputs so the highest-priority active input is encoded.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> What logic gates does a half adder use?</p></div>
+<div class="question"><p><strong>Q:</strong> How does a full adder differ from a half adder?</p></div>
+<div class="question"><p><strong>Q:</strong> How many select lines does an 8-to-1 multiplexer need?</p></div>
+<div class="question"><p><strong>Q:</strong> What does a 3-to-8 decoder do?</p></div>
+<div class="question"><p><strong>Q:</strong> Write the Boolean expressions for a full adder.</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>An XOR gate for the Sum (A ⊕ B) and an AND gate for the Carry (A · B).</li>
+<li>A full adder includes a carry-in input, allowing it to add three bits (A, B and C_in); a half adder only adds two bits.</li>
+<li>3 select lines, since 2³ = 8.</li>
+<li>It takes a 3-bit binary input and activates exactly one of its 8 output lines corresponding to that binary value.</li>
+<li>Sum = A ⊕ B ⊕ C_in; Carry-out = A·B + C_in·(A ⊕ B).</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>When analysing a combinational circuit, work from inputs to outputs, writing expressions at each gate.</li>
+<li>For adder questions, clearly state Sum and Carry expressions separately.</li>
+<li>Remember: a half adder cannot handle carry-in; always use a full adder when carry propagation is needed.</li>
+<li>For MUX questions, identify the number of select lines: n = log₂(number of data inputs).</li>
+<li>Build truth tables for combinational circuits by evaluating each gate step by step.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Electronics Exam Tips:</strong><br>
+Use precise electronics terminology in all answers. When performing calculations, always show working and include units. For circuit analysis, state which law or rule you are applying (e.g. Ohm's law, Kirchhoff's laws). For design questions, justify component choices with calculations. For evaluation questions, consider performance, cost and practical constraints. WJEC Eduqas C690QS rewards answers that demonstrate understanding through use of specific electronic evidence and accurate calculations.
+</div>
+</section>
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Using a half adder where a carry-in from a previous stage is required.</span> <span class="right">✓ Use a full adder when there is a carry-in input; half adders only work for the least significant bit.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing multiplexer and decoder functions.</span> <span class="right">✓ A multiplexer selects one input from many to route to an output; a decoder activates one output from many based on a binary input.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting carry propagation delay in ripple-carry adders.</span> <span class="right">✓ Each full adder must wait for the carry from the previous stage, creating a ripple delay proportional to the number of bits.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Omitting the OR gate that combines carry terms in a full adder.</span> <span class="right">✓ Carry-out = A·B + C_in·(A ⊕ B); the two carry terms are combined with an OR gate.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the structure and operation of a full adder, and explain how multiple full adders are combined to create a multi-bit adder.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>A full adder adds three single-bit inputs: A, B and a carry-in (C_in), producing a Sum and Carry-out. The Sum is computed as A ⊕ B ⊕ C_in using two XOR gates. The Carry-out is A·B + C_in·(A ⊕ B), requiring two AND gates and one OR gate. A full adder can be built from two half adders and an OR gate: the first half adder adds A and B to give a partial sum and carry, the second half adder adds the partial sum to C_in, and the OR gate combines the two carry signals. To build a multi-bit (e.g. 4-bit) ripple-carry adder, four full adders are cascaded: the carry-out of each stage connects to the carry-in of the next. The least significant full adder has its C_in set to 0. The result is computed bit by bit, with carries rippling from right to left. This ripple propagation introduces delay — the worst case is when a carry must propagate through all stages — which limits the speed of large adders.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of combinational logic systems, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of combinational logic systems to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Combinational+Logic+Systems" target="_blank" rel="noopener">YouTube: GCSE Electronics Combinational Logic Systems</a></li></ul>
+</section>
+<nav class="topic-nav">
+<a href="../elec-digital-systems/boolean-algebra.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-digital-systems/sequential-logic.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body></html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comparator Circuits - GCSE Electronics</title>
+<meta name="description" content="Learn about comparator circuits including threshold detection, Schmitt triggers and hysteresis for WJEC Eduqas Electronics.">
+<meta name="keywords" content="comparator, threshold, Schmitt trigger, hysteresis, positive feedback, trigger level, upper threshold, lower threshold, noise immunity, switching circuit, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Comparator Circuits - GCSE Electronics">
+<meta property="og:description" content="Learn about comparator circuits including threshold detection, Schmitt triggers and hysteresis for WJEC Eduqas Electronics.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/comparator-circuits.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/comparator-circuits.html">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Analogue Systems</span> <span>›</span>
+<span>Comparator Circuits</span>
+</nav>
+<article class="topic-header">
+<h1>E13: Comparator Circuits</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Comparators, threshold detection, Schmitt trigger and hysteresis</p>
+</article>
+<section class="section">
+<h2>Comparator Circuits</h2>
+<p>Comparators, threshold detection, Schmitt trigger and hysteresis</p>
+<div class="key-point">
+<strong>Key Fact:</strong> A comparator compares two input voltages and switches its output to indicate which is higher; no negative feedback is used.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> When V+ &gt; V−, the output goes to positive saturation; when V+ &lt; V−, the output goes to negative saturation.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A simple comparator has a single threshold voltage; the output switches when the input crosses this level.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Noise on the input signal can cause a simple comparator to chatter (switch rapidly) near the threshold.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A Schmitt trigger uses positive feedback to create two different threshold voltages: upper (V_UT) and lower (V_LT).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Hysteresis is the difference between the upper and lower thresholds; it prevents output chatter caused by input noise.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The output only switches high when the input rises above V_UT, and only switches low when the input falls below V_LT.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For an inverting Schmitt trigger with reference voltage Vref and feedback resistors R1, R2: V_UT and V_LT depend on the resistor divider and supply rails.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The hysteresis voltage (V_H) = V_UT − V_LT; a wider hysteresis gives greater noise immunity but less sensitivity.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Positive feedback in a Schmitt trigger accelerates the switching transition, producing a clean, fast output edge.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Comparators are used in level detectors, zero-crossing detectors, window comparators and oscillator circuits.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A Schmitt trigger can also be built with a transistor circuit or as a dedicated IC (e.g. 74HC14).
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Comparator Circuits, you must know:</p>
+<ul><li><strong>Comparator:</strong> A circuit that compares two voltages and switches its output to indicate which input is larger.</li>
+<li><strong>Schmitt trigger:</strong> A comparator with positive feedback that introduces hysteresis, having two threshold voltages.</li>
+<li><strong>Hysteresis:</strong> The difference between the upper and lower switching thresholds; prevents noise-induced output chatter.</li>
+<li><strong>Upper threshold (V_UT):</strong> The input voltage at which the output switches from low to high in a Schmitt trigger.</li>
+<li><strong>Lower threshold (V_LT):</strong> The input voltage at which the output switches from high to low in a Schmitt trigger.</li>
+<li><strong>Positive feedback:</strong> Feedback that reinforces the output state, accelerating switching and creating hysteresis.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> Explain why a simple comparator can produce a chattering output when the input signal is noisy.</p></div>
+<div class="question"><p><strong>Q:</strong> A Schmitt trigger has V_UT = 4 V and V_LT = 2 V. What is the hysteresis voltage?</p></div>
+<div class="question"><p><strong>Q:</strong> State the role of positive feedback in a Schmitt trigger.</p></div>
+<div class="question"><p><strong>Q:</strong> A comparator has V+ = 3.2 V and V− = 3.0 V. What is the output state?</p></div>
+<div class="question"><p><strong>Q:</strong> Give two applications of comparator circuits.</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>Noise causes the input to cross the single threshold repeatedly, making the output switch rapidly between states.</li>
+<li>V_H = V_UT − V_LT = 4 − 2 = 2 V.</li>
+<li>Positive feedback creates two distinct threshold voltages (hysteresis), accelerates switching transitions and eliminates output chatter.</li>
+<li>Since V+ &gt; V−, the output is at positive saturation (high).</li>
+<li>Level detection (e.g. over-temperature alarm) and zero-crossing detection (e.g. in signal processing or timing circuits).</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>When drawing a Schmitt trigger, clearly show the positive feedback resistor from output to non-inverting input.</li>
+<li>Label both threshold voltages (V_UT and V_LT) on the transfer characteristic and state the hysteresis value.</li>
+<li>Explain hysteresis using the analogy: the output &#x27;remembers&#x27; its previous state until the opposite threshold is crossed.</li>
+<li>For calculations, always state the hysteresis formula: V_H = V_UT − V_LT.</li>
+<li>Distinguish between a simple comparator (one threshold) and a Schmitt trigger (two thresholds with hysteresis).</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Electronics Exam Tips:</strong><br>
+Use precise electronics terminology in all answers. When performing calculations, always show working and include units. For circuit analysis, state which law or rule you are applying (e.g. Ohm's law, Kirchhoff's laws). For design questions, justify component choices with calculations. For evaluation questions, consider performance, cost and practical constraints. WJEC Eduqas C690QS rewards answers that demonstrate understanding through use of specific electronic evidence and accurate calculations.
+</div>
+</section>
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing positive feedback in a Schmitt trigger with negative feedback.</span> <span class="right">✓ A Schmitt trigger uses positive feedback to create hysteresis; negative feedback would eliminate the switching behaviour.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Assuming a comparator has a single switching threshold like a Schmitt trigger.</span> <span class="right">✓ A simple comparator has one threshold; a Schmitt trigger has two thresholds (V_UT and V_LT) with hysteresis.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that comparator outputs saturate at the supply rail voltages.</span> <span class="right">✓ The output saturates near +Vsat or −Vsat (the supply rails), not at the input voltage level.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking hysteresis reduces sensitivity is always a disadvantage.</span> <span class="right">✓ Greater hysteresis improves noise immunity; the trade-off is reduced sensitivity to small signal changes near the threshold.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Explain the operation of a Schmitt trigger comparator circuit and describe how hysteresis eliminates output chatter.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>A Schmitt trigger is a comparator circuit that uses positive feedback to create two distinct threshold voltages: an upper threshold (V_UT) and a lower threshold (V_LT). When the input rises above V_UT, the output switches to its high state and remains high until the input falls below V_LT. Similarly, when the input falls below V_LT, the output switches low and remains low until the input rises above V_UT again. This dual-threshold behaviour creates hysteresis (V_H = V_UT − V_LT), which means the circuit has memory of its previous output state. Hysteresis eliminates output chatter because small noise fluctuations around a single threshold cannot cause repeated switching — the input must move fully through the hysteresis window to change the output state. Positive feedback also accelerates the switching transition, producing clean, fast output edges. The hysteresis width can be adjusted by choosing appropriate feedback resistor values: a wider hysteresis gives greater noise immunity at the cost of reduced sensitivity.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of comparator circuits, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of comparator circuits to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Comparator+Circuits" target="_blank" rel="noopener">YouTube: GCSE Electronics Comparator Circuits</a></li></ul>
+</section>
+<nav class="topic-nav">
+<a href="../elec-analogue-systems/amplifier-circuits.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-analogue-systems/analogue-signals-filters.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body></html>
