@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Series &amp; Moving Averages - GCSE Statistics</title>
+<meta name="description" content="GCSE Statistics time series and moving averages: trends, seasonal variation, 4-point moving averages, mean seasonal variation, and prediction with worked examples.">
+<meta name="keywords" content="time series, trend, seasonal variation, moving average, 4-point moving average, mean seasonal variation, prediction, cyclical variation, GCSE Statistics, Edexcel 1ST0 & AQA 8382">
+<meta property="og:title" content="Time Series &amp; Moving Averages - GCSE Statistics">
+<meta property="og:description" content="GCSE Statistics time series and moving averages: trends, seasonal variation, 4-point moving averages, mean seasonal variation, and prediction with worked examples.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/stats-calculation/time-series-moving-averages.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/stats-calculation/time-series-moving-averages.html">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../statistics.html">Statistics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../statistics.html">Statistics</a> <span>›</span>
+<span>Statistical Calculation &amp; Analysis</span> <span>›</span>
+<span>Time Series &amp; Moving Averages</span>
+</nav>
+<article class="topic-header">
+<h1>ST18: Time Series &amp; Moving Averages</h1>
+<div class="topic-meta">
+<span class="badge">Edexcel 1ST0 &amp; AQA 8382</span>
+</div>
+<p class="topic-desc">Learn how to identify trends and seasonal variation, calculate 4-point moving averages, determine mean seasonal variation, and make predictions for GCSE Statistics.</p>
+</article>
+<section class="section">
+<h2>Time Series &amp; Moving Averages</h2>
+<p>Learn how to identify trends and seasonal variation, calculate 4-point moving averages, determine mean seasonal variation, and make predictions for GCSE Statistics.</p>
+<div class="key-point">
+<strong>Key Fact:</strong> A time series is a sequence of data values collected at regular time intervals (e.g. monthly sales, quarterly temperatures).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The trend is the long-term general direction of the data, ignoring short-term fluctuations; it can be increasing, decreasing, or stationary.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Seasonal variation is a regular, repeating pattern that occurs at fixed periods within a year (e.g. higher ice cream sales in summer).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Cyclical variation is a longer-term pattern that repeats over more than one year (e.g. economic boom and bust cycles); it is harder to predict than seasonal variation.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A moving average smooths out short-term fluctuations to reveal the underlying trend; it is calculated by averaging overlapping groups of consecutive data values.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A 4-point moving average is used for quarterly data; each average covers four consecutive quarters and is centred between the middle two quarters.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Because a 4-point moving average falls between two time periods, a second set of 2-point moving averages (centred moving averages) is needed to align with actual time periods.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> To calculate a centred 4-point moving average: first find the 4-point totals, then find the mean of each pair of consecutive 4-point averages.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The seasonal variation for a quarter = actual value – trend value (from the centred moving average); positive means above trend, negative means below trend.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The mean seasonal variation for each quarter is found by averaging all the seasonal variations for that specific quarter across different years.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> To make a prediction: estimate the trend (e.g. by extending the moving average line), then add the appropriate mean seasonal variation for the quarter.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Predictions based on time series assume that past patterns will continue; they become less reliable the further into the future they are made.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Time Series &amp; Moving Averages, you must know:</p>
+<ul><li><strong>Time series:</strong> Data collected at regular time intervals, such as monthly or quarterly, which can be analysed for trends and seasonal patterns.</li>
+<li><strong>Trend:</strong> The long-term general direction of a time series, found by smoothing out short-term fluctuations using a moving average.</li>
+<li><strong>Seasonal variation:</strong> A regular, repeating pattern in a time series that occurs at fixed periods within a year (e.g. higher sales each December).</li>
+<li><strong>Moving average:</strong> An average calculated from overlapping groups of consecutive data values, used to smooth out short-term fluctuations and reveal the trend.</li>
+<li><strong>4-point moving average:</strong> A moving average calculated from four consecutive time periods, commonly used for quarterly data; it must be centred to align with time periods.</li>
+<li><strong>Mean seasonal variation:</strong> The average of all seasonal variation values for a particular quarter, used to adjust trend-based predictions for seasonal effects.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> What is the purpose of calculating a moving average for a time series?</p></div>
+<div class="question"><p><strong>Q:</strong> Why does a 4-point moving average need to be centred?</p></div>
+<div class="question"><p><strong>Q:</strong> The actual value for Q3 is 240 and the trend value is 200. What is the seasonal variation for Q3?</p></div>
+<div class="question"><p><strong>Q:</strong> The mean seasonal variations are: Q1 = –20, Q2 = +10, Q3 = +40, Q4 = –30. The predicted trend value for Q1 next year is 210. Predict the actual value.</p></div>
+<div class="question"><p><strong>Q:</strong> Why might a prediction made using a time series model be unreliable?</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>A moving average smooths out short-term fluctuations and seasonal variation, revealing the underlying long-term trend.</li>
+<li>A 4-point average falls between two time periods (between Q2 and Q3 for quarterly data). Centring aligns the average with an actual time period.</li>
+<li>Seasonal variation = 240 – 200 = +40. This means Q3 values are typically 40 above the trend.</li>
+<li>Predicted value = trend + mean seasonal variation = 210 + (–20) = 190.</li>
+<li>Predictions assume past patterns will continue, but trends may change and seasonal patterns may shift due to external factors, making long-term predictions less reliable.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>When calculating a 4-point moving average, always show the 4-point totals and the centring step separately to gain full method marks.</li>
+<li>In exam questions, always calculate the mean seasonal variation for each quarter to 1 decimal place unless told otherwise.</li>
+<li>When predicting future values, state the trend estimate first, then add the mean seasonal variation, and show the calculation clearly.</li>
+<li>Always comment on the reliability of predictions — short-term predictions are more reliable than long-term ones, and they assume patterns continue.</li>
+<li>When describing a time series, use the terms &#x27;increasing trend&#x27;, &#x27;seasonal variation&#x27;, and quote specific values from your calculations.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Statistics Exam Tips:</strong><br>
+Use precise statistical terminology in all answers. When performing calculations, always show working including the formula, substitution and final answer. For interpretation questions, always refer back to the context and use data to support your conclusions. For evaluation questions, consider reliability, validity, bias and alternative explanations. Edexcel 1ST0 and AQA 8382 reward answers that demonstrate understanding through correct use of statistical notation and evidence-based reasoning.
+</div>
+</section>
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to centre a 4-point moving average</span> <span class="right">✓ A 4-point moving average falls between two time periods; you must calculate a second set of 2-point averages of consecutive 4-point averages to centre them.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Using the seasonal variation instead of the mean seasonal variation for predictions</span> <span class="right">✓ Use the MEAN seasonal variation (average of all variations for that quarter), not a single year&#x27;s value, as it is more reliable.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Adding the mean seasonal variation to the wrong trend estimate</span> <span class="right">✓ Ensure the trend estimate corresponds to the correct quarter before adding the mean seasonal variation for that specific quarter.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Assuming a prediction is certain because it is calculated from a model</span> <span class="right">✓ All predictions are estimates; state that they assume past trends and seasonal patterns will continue, and that they become less reliable further into the future.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A shop records its quarterly sales (£thousands) over two years. Calculate the 4-point centred moving averages and the mean seasonal variations.
+Q1: 12, Q2: 18, Q3: 25, Q4: 15, Q1: 14, Q2: 20, Q3: 27, Q4: 17</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Step 1: Calculate 4-point moving totals and averages:
+Q1–Q4: 12+18+25+15 = 70, average = 17.5 (centred between Q2 and Q3)
+Q2–Q5: 18+25+15+14 = 72, average = 18.0
+Q3–Q6: 25+15+14+20 = 74, average = 18.5
+Q4–Q7: 15+14+20+27 = 76, average = 19.0
+Q5–Q8: 14+20+27+17 = 78, average = 19.5
+
+Step 2: Centre the averages:
+Q3 Y1: (17.5+18.0)÷2 = 17.75
+Q4 Y1: (18.0+18.5)÷2 = 18.25
+Q1 Y2: (18.5+19.0)÷2 = 18.75
+Q2 Y2: (19.0+19.5)÷2 = 19.25
+
+Step 3: Calculate seasonal variations (actual – trend):
+Q3 Y1: 25 – 17.75 = +7.25
+Q4 Y1: 15 – 18.25 = –3.25
+Q1 Y2: 14 – 18.75 = –4.75
+Q2 Y2: 20 – 19.25 = +0.75
+
+Step 4: Mean seasonal variations (average same quarters — only one year of centred data here, so use available values):
+Q1: –4.75, Q2: +0.75, Q3: +7.25, Q4: –3.25
+
+These show Q3 is the peak season (sales £7,250 above trend) and Q1 is the low season (£4,750 below trend).</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of time series &amp; moving averages, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of time series &amp; moving averages to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate statistical methods and conclusions, assessing appropriateness, reliability, validity and bias through the statistical enquiry cycle.</p>
+</div>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/statistics" target="_blank" rel="noopener">BBC Bitesize: GCSE Statistics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Statistics+Time+Series+&amp;+Moving+Averages" target="_blank" rel="noopener">YouTube: GCSE Statistics Time Series &amp; Moving Averages</a></li></ul>
+</section>
+<nav class="topic-nav">
+<a href="../stats-calculation/correlation-regression.html" class="nav-prev">← Previous Topic</a>
+<a href="../stats-interpretation/probability-fundamentals.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body></html>

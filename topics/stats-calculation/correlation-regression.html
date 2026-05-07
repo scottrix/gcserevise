@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Correlation &amp; Regression - GCSE Statistics</title>
+<meta name="description" content="GCSE Statistics correlation and regression: scatter graphs, lines of best fit, Spearman&#x27;s rank, Pearson&#x27;s PMCC, interpolation, and extrapolation with worked examples.">
+<meta name="keywords" content="correlation, scatter graph, line of best fit, Spearman&#x27;s rank, Pearson&#x27;s PMCC, interpolation, extrapolation, regression, causation, GCSE Statistics, Edexcel 1ST0 & AQA 8382">
+<meta property="og:title" content="Correlation &amp; Regression - GCSE Statistics">
+<meta property="og:description" content="GCSE Statistics correlation and regression: scatter graphs, lines of best fit, Spearman&#x27;s rank, Pearson&#x27;s PMCC, interpolation, and extrapolation with worked examples.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/stats-calculation/correlation-regression.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/stats-calculation/correlation-regression.html">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../statistics.html">Statistics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../statistics.html">Statistics</a> <span>›</span>
+<span>Statistical Calculation &amp; Analysis</span> <span>›</span>
+<span>Correlation &amp; Regression</span>
+</nav>
+<article class="topic-header">
+<h1>ST17: Correlation &amp; Regression</h1>
+<div class="topic-meta">
+<span class="badge">Edexcel 1ST0 &amp; AQA 8382</span>
+</div>
+<p class="topic-desc">Learn how to interpret scatter graphs, draw lines of best fit, calculate Spearman&#x27;s rank and Pearson&#x27;s PMCC, and understand interpolation and extrapolation for GCSE Statistics.</p>
+</article>
+<section class="section">
+<h2>Correlation &amp; Regression</h2>
+<p>Learn how to interpret scatter graphs, draw lines of best fit, calculate Spearman&#x27;s rank and Pearson&#x27;s PMCC, and understand interpolation and extrapolation for GCSE Statistics.</p>
+<div class="key-point">
+<strong>Key Fact:</strong> Correlation measures the strength and direction of the linear relationship between two variables; it does not imply causation.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Positive correlation: as one variable increases, the other tends to increase. Negative correlation: as one increases, the other tends to decrease.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A scatter graph is the first step in assessing correlation; the pattern of points reveals the type and strength of the relationship.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A line of best fit is drawn through the data points on a scatter graph so that roughly equal numbers of points lie above and below the line.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The line of best fit should pass through the point (x̄, ̅) and can be used to estimate one variable given a value of the other.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Interpolation is using the line of best fit to estimate within the range of observed data; it is generally reliable.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Extrapolation is using the line of best fit to estimate outside the range of observed data; it is unreliable because the relationship may not continue.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Spearman&#x27;s rank correlation coefficient (rₛ) measures the strength of monotonic (rank-based) relationships: rₛ = 1 – 6Σd² ÷ (n(n² – 1)), where d is the difference in ranks.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Spearman&#x27;s rₛ ranges from –1 to +1; +1 means perfect increasing monotonic relationship, –1 means perfect decreasing, and 0 means no monotonic relationship.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Pearson&#x27;s product-moment correlation coefficient (r) measures the strength of linear correlation: it also ranges from –1 to +1.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Pearson&#x27;s r is suitable only for linear relationships between two quantitative variables; Spearman&#x27;s rₛ can handle non-linear monotonic relationships.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Correlation does not imply causation: two variables may be correlated because of a confounding variable, coincidence, or both being effects of a common cause.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Correlation &amp; Regression, you must know:</p>
+<ul><li><strong>Correlation:</strong> A numerical measure of the strength and direction of the relationship between two variables, ranging from –1 to +1.</li>
+<li><strong>Line of best fit:</strong> A straight line drawn through a scatter graph so that approximately equal numbers of points lie above and below it; it must pass through (x̄, ̅).</li>
+<li><strong>Spearman&#x27;s rank correlation coefficient:</strong> A measure of monotonic correlation based on the ranks of data values: rₛ = 1 – 6Σd² ÷ (n(n² – 1)).</li>
+<li><strong>Pearson&#x27;s product-moment correlation coefficient (PMCC):</strong> A measure of the strength of linear correlation between two quantitative variables, denoted r and ranging from –1 to +1.</li>
+<li><strong>Interpolation:</strong> Using a line of best fit to predict a value within the range of the observed data, which is generally reliable.</li>
+<li><strong>Extrapolation:</strong> Using a line of best fit to predict a value outside the range of the observed data, which is unreliable as the relationship may not hold.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> Two judges rank 5 contestants. The rank differences are: 0, 1, 1, 2, 0. Calculate Spearman&#x27;s rₛ.</p></div>
+<div class="question"><p><strong>Q:</strong> Pearson&#x27;s r for two variables is –0.85. Describe the correlation.</p></div>
+<div class="question"><p><strong>Q:</strong> A line of best fit is drawn for data where x ranges from 10 to 50. Is predicting y when x = 30 interpolation or extrapolation?</p></div>
+<div class="question"><p><strong>Q:</strong> Why is it unreliable to use a line of best fit to predict y when x = 90 if the observed x values range from 10 to 50?</p></div>
+<div class="question"><p><strong>Q:</strong> Give a reason why correlation does not imply causation.</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>Σd² = 0 + 1 + 1 + 4 + 0 = 6. rₛ = 1 – (6 × 6) ÷ (5 × (25 – 1)) = 1 – 36 ÷ 120 = 1 – 0.3 = 0.7. Moderate positive agreement.</li>
+<li>Strong negative linear correlation: as one variable increases, the other tends to decrease, and the points lie close to a straight line with negative slope.</li>
+<li>Interpolation, because x = 30 is within the observed range of 10 to 50.</li>
+<li>This is extrapolation; we cannot assume the linear relationship continues beyond the observed data range.</li>
+<li>Two variables may be correlated due to a third confounding variable; e.g. ice cream sales and drowning rates are both linked to hot weather, not to each other.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>When calculating Spearman&#x27;s rank, if two or more values are tied, assign each the mean of the ranks they would have occupied.</li>
+<li>Always state the type and strength of correlation (e.g. &#x27;strong positive&#x27;) when describing a scatter graph — do not just say &#x27;there is a correlation&#x27;.</li>
+<li>When using a line of best fit for predictions, always state whether you are interpolating or extrapolating and comment on reliability.</li>
+<li>In Spearman&#x27;s rank questions, show a table of data values, ranks, rank differences (d), and d² to gain full method marks.</li>
+<li>When asked &#x27;does correlation imply causation?&#x27;, the answer is always no — explain that other factors (confounding variables) could cause both variables to change.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Statistics Exam Tips:</strong><br>
+Use precise statistical terminology in all answers. When performing calculations, always show working including the formula, substitution and final answer. For interpretation questions, always refer back to the context and use data to support your conclusions. For evaluation questions, consider reliability, validity, bias and alternative explanations. Edexcel 1ST0 and AQA 8382 reward answers that demonstrate understanding through correct use of statistical notation and evidence-based reasoning.
+</div>
+</section>
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to rank the data before calculating Spearman&#x27;s rₛ</span> <span class="right">✓ Spearman&#x27;s uses RANKS, not the raw data values. Assign ranks from 1 (smallest) to n (largest) for each variable separately.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing interpolation with extrapolation</span> <span class="right">✓ Interpolation is WITHIN the data range (reliable); extrapolation is OUTSIDE the data range (unreliable). Always check the x-value against the observed range.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Saying &#x27;correlation proves causation&#x27;</span> <span class="right">✓ Correlation shows association only; causation requires controlled experiments or further evidence. Always state that correlation does not imply causation.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not drawing the line of best fit through the mean point (x̄, ̅)</span> <span class="right">✓ The line of best fit must pass through (x̄, ̅); draw this point first, then position the line so roughly half the data points are above and half below.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Two judges rank 6 films. Calculate Spearman&#x27;s rank correlation coefficient.
+Film: A, B, C, D, E, F
+Judge 1 ranks: 1, 2, 3, 4, 5, 6
+Judge 2 ranks: 2, 1, 4, 3, 6, 5</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Film | Rank 1 | Rank 2 | d (R1–R2) | d²
+A    | 1      | 2      | –1       | 1
+B    | 2      | 1      | 1        | 1
+C    | 3      | 4      | –1       | 1
+D    | 4      | 3      | 1        | 1
+E    | 5      | 6      | –1       | 1
+F    | 6      | 5      | 1        | 1
+                             Σd² = 6
+
+rₛ = 1 – 6Σd² ÷ (n(n² – 1)) = 1 – (6 × 6) ÷ (6 × 35) = 1 – 36 ÷ 210 = 1 – 0.171 = 0.829
+
+rₛ ≈ 0.83, indicating strong positive agreement between the two judges. They rank the films in a very similar order.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of correlation &amp; regression, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of correlation &amp; regression to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate statistical methods and conclusions, assessing appropriateness, reliability, validity and bias through the statistical enquiry cycle.</p>
+</div>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/statistics" target="_blank" rel="noopener">BBC Bitesize: GCSE Statistics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Statistics+Correlation+&amp;+Regression" target="_blank" rel="noopener">YouTube: GCSE Statistics Correlation &amp; Regression</a></li></ul>
+</section>
+<nav class="topic-nav">
+<a href="../stats-calculation/skewness-outliers.html" class="nav-prev">← Previous Topic</a>
+<a href="../stats-calculation/time-series-moving-averages.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer"><p>GCSE Revise - Free revision notes for all subjects and exam boards</p></footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+</body></html>
