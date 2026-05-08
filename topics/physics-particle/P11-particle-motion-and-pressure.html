@@ -320,13 +320,13 @@
 </div>
 </section>
 
-<section class="extended-question">
+<div class="extended-question">
 <h2>6-Mark Extended Question</h2>
 <div class="question">
 <p><strong>Explain, in terms of particle motion, why the pressure of a gas increases when its temperature increases at constant volume.</strong> [6 marks]</p>
 </div>
-<button class="show-answer" onclick="this.nextElementSibling.classList.toggle('visible')">Show model answer</button>
-<div class="answer" style="display:none">
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show model answer</button>
+<div class="model-answer">
 <p>When the temperature of a gas increases, thermal energy is transferred to the gas particles, increasing their average kinetic energy (1). The particles move faster on average (1). Because the volume is constant, the particles travel the same distance between collisions with the walls (1). However, since they are moving faster, they collide with the walls more frequently (1) and each collision exerts a greater force on the wall because the change in momentum per collision is larger (1). The total force on the walls per unit area therefore increases, which means the pressure increases (1).</p>
 </div>
 </section>

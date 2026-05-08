@@ -335,13 +335,13 @@
 </div>
 </section>
 
-<section class="extended-question">
+<div class="extended-question">
 <h2>6-Mark Extended Question</h2>
 <div class="question">
 <p><strong>Describe how the motion of an object falling through a fluid changes from the moment it is released until it reaches terminal velocity. Explain the forces involved.</strong> [6 marks]</p>
 </div>
-<button class="show-answer" onclick="this.nextElementSibling.classList.toggle('visible')">Show model answer</button>
-<div class="answer" style="display:none">
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show model answer</button>
+<div class="model-answer">
 <p>When the object is first released, the only force acting is its weight (gravity) downwards, so it accelerates downwards (1). As it accelerates, its speed increases and so the drag (air resistance or fluid resistance) acting upwards increases (1). The resultant downward force is weight minus drag, so it decreases, meaning the acceleration decreases but the object still speeds up (1). Eventually, the drag force increases until it equals the weight of the object (1). At this point, the resultant force is zero and the acceleration becomes zero (1). The object now falls at a constant maximum speed called terminal velocity, where weight and drag are balanced and there is no further change in speed (1).</p>
 </div>
 </section>
