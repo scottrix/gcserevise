@@ -501,6 +501,58 @@ Brackets override normal order of operations
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing AND, OR, NOT gates with their truth table outputs</span> <span class="right">✓ AND: output 1 only when ALL inputs are 1. OR: output 1 when ANY input is 1. NOT: output is the opposite of the input. Memorise the truth tables.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Drawing logic gate symbols incorrectly in exams</span> <span class="right">✓ AND gate: D-shape. OR gate: curved D with curved input side. NOT gate: triangle with circle. Each symbol is distinct — practice drawing them.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that a NOT gate can only have ONE input</span> <span class="right">✓ NOT (inverter) takes exactly one input and produces the opposite. It cannot have two inputs. AND and OR gates can have two or more inputs.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not recognising that NAND and NOR are the negated versions of AND and OR</span> <span class="right">✓ NAND = NOT AND (output is opposite of AND). NOR = NOT OR (output is opposite of OR). Adding the circle (bubble) on the output inverts the gate's normal result.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Draw and complete the truth table for the following logic circuit: A AND B is fed into a NOT gate. Then explain what type of gate this combination produces. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>The circuit is: A AND B → NOT = NAND gate
+
+A | B | A AND B | NOT (A AND B)
+0 | 0 |    0    |    1
+0 | 1 |    0    |    1
+1 | 0 |    0    |    1
+1 | 1 |    1    |    0
+
+This combination produces a NAND gate. The output is 0 only when both inputs are 1, and 1 in all other cases. The NAND gate is the negation of the AND gate — adding a NOT gate to the output of an AND gate produces the NAND truth table.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including Boolean logic and logic gates: AND, OR and NOT for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including Boolean logic and logic gates: AND, OR and NOT to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including Boolean logic and logic gates: AND, OR and NOT, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Learn truth tables for AND, OR, NOT, NAND, NOR, XOR. AND: all 1s → 1. OR: any 1 → 1. NOT: flip. NAND = NOT AND. NOR = NOT OR. XOR: different inputs → 1. Draw gate symbols clearly. For logic circuits, work through gate by gate from inputs to output. Complete intermediate columns in truth tables. NAND is a universal gate — any logic function can be built from NAND gates alone.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zr7ycdm" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Boolean+Logic+Gates+AND+OR+NOT+Truth+Tables" target="_blank" rel="noopener">YouTube: GCSE Computer Science Boolean Logic Gates AND OR NOT Truth Tables</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../computer-systems/CS23-hardware-software.html" class="nav-prev">← Previous Topic: Hardware & Software</a>
 <a href="../computer-systems/CS25-software-classification.html" class="nav-next">Next Topic: Software Classification →</a>

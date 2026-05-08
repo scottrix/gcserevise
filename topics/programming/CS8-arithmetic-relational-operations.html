@@ -372,6 +372,59 @@ OUTPUT hours, " hours and ", minutes, " minutes"</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing = (assignment) with == (comparison)</span> <span class="right">✓ A single = assigns a value to a variable; == compares two values for equality. In pseudo-code, ← is assignment and = is comparison.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting operator precedence — assuming left-to-right evaluation always applies</span> <span class="right">✓ BODMAS/BIDMAS rules apply: brackets first, then multiplication/division, then addition/subtraction. Use brackets to make order explicit.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Using DIV when MOD is needed (or vice versa)</span> <span class="right">✓ DIV gives the integer quotient (7 DIV 2 = 3); MOD gives the remainder (7 MOD 2 = 1). MOD is used to check divisibility (e.g. n MOD 2 = 0 means n is even).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing <> (not equal) with < (less than) or > (greater than)</span> <span class="right">✓ In pseudo-code, <> means 'not equal to'. < means 'less than' and > means 'greater than'. These are different relational operators.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Write pseudo-code that inputs a number and determines whether it is divisible by both 3 and 5, divisible by 3 only, divisible by 5 only, or neither. Output an appropriate message for each case. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>INPUT number
+IF number MOD 3 = 0 AND number MOD 5 = 0 THEN
+  OUTPUT 'Divisible by both 3 and 5'
+ELSE IF number MOD 3 = 0 THEN
+  OUTPUT 'Divisible by 3 only'
+ELSE IF number MOD 5 = 0 THEN
+  OUTPUT 'Divisible by 5 only'
+ELSE
+  OUTPUT 'Not divisible by 3 or 5'
+ENDIF</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including arithmetic and relational operators: DIV and MOD for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including arithmetic and relational operators: DIV and MOD to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including arithmetic and relational operators: DIV and MOD, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Know your operators: +, -, *, /, DIV, MOD, ^ for arithmetic; =, <>, <, >, <=, >= for comparison; AND, OR, NOT for logic. MOD is essential for divisibility checks and wrapping values. DIV for integer division. Always use brackets to clarify order of operations. In pseudo-code, ← is assignment; = is equality comparison. Remember BODMAS applies in expressions.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Arithmetic+Relational+Operators+MOD+DIV" target="_blank" rel="noopener">YouTube: GCSE Computer Science Arithmetic Relational Operators MOD DIV</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS7-programming-constructs.html" class="nav-prev">← Previous: Programming Constructs</a>
 <a href="CS9-boolean-operations.html" class="nav-next">Next Topic: Boolean Operations →</a>

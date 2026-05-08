@@ -316,6 +316,67 @@ Example: 3C4<br>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking binary digits can be 0, 1, or 2</span> <span class="right">✓ Binary (base 2) only uses digits 0 and 1. The digit 2 is invalid in binary — 2 in decimal is 10 in binary.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing the place values of different number bases</span> <span class="right">✓ Binary place values are powers of 2 (1, 2, 4, 8, 16...), hexadecimal uses powers of 16 (1, 16, 256...), and decimal uses powers of 10 (1, 10, 100...).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking hexadecimal is a different number system from binary in terms of storage</span> <span class="right">✓ Hexadecimal is a shorthand representation of binary for human readability. Each hex digit represents 4 binary bits; the computer still stores binary.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing that 10 in binary equals 10 in decimal</span> <span class="right">✓ 10 in binary equals 2 in decimal. 10 in hexadecimal equals 16 in decimal. Always check which base is being used.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Convert the decimal number 156 to binary and to hexadecimal. Show your working for each conversion. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Decimal to Binary (divide by 2, record remainders):
+156 ÷ 2 = 78 r 0
+78 ÷ 2 = 39 r 0
+39 ÷ 2 = 19 r 1
+19 ÷ 2 = 9 r 1
+9 ÷ 2 = 4 r 1
+4 ÷ 2 = 2 r 0
+2 ÷ 2 = 1 r 0
+1 ÷ 2 = 0 r 1
+Read remainders bottom-up: 10011100
+
+Decimal to Hexadecimal (divide by 16):
+156 ÷ 16 = 9 remainder 12
+9 ÷ 16 = 0 remainder 9
+12 = C in hex
+Read remainders bottom-up: 9C
+
+So 156₁₀ = 10011100₂ = 9C₁₆</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including number bases: binary, decimal and hexadecimal for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including number bases: binary, decimal and hexadecimal to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including number bases: binary, decimal and hexadecimal, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Binary → Decimal: multiply each bit by its place value (powers of 2) and sum. Decimal → Binary: repeated division by 2, read remainders bottom-up. Hex → Binary: convert each hex digit to 4 binary bits. Binary → Hex: group bits in fours from right, convert each group. Always show your working step by step. Label the base of your answer (₂, ₁₀, ₁₆).
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3w7nk7" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Number+Bases+Binary+Decimal+Hexadecimal+Conversion" target="_blank" rel="noopener">YouTube: GCSE Computer Science Number Bases Binary Decimal Hexadecimal Conversion</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../programming/CS14-random-number-generation.html" class="nav-prev">← Previous: Random Number Generation</a>
 <a href="CS16-converting-number-bases.html" class="nav-next">Next Topic: Converting Number Bases →</a>

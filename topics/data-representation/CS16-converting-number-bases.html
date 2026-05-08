@@ -346,6 +346,61 @@ E = 1110</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Padding binary with zeros on the wrong side when converting to hex</span> <span class="right">✓ When grouping binary into 4-bit groups for hex conversion, pad with leading zeros on the LEFT, not trailing zeros on the right.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that hex digits A-F represent 10-15</span> <span class="right">✓ A=10, B=11, C=12, D=13, E=14, F=15. These are single hex digits, not two-digit numbers. F is 15, not 16.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Adding binary without carrying when the column sum exceeds 1</span> <span class="right">✓ In binary addition: 0+0=0, 0+1=1, 1+1=10 (0 carry 1), 1+1+1=11 (1 carry 1). You must carry just like in decimal addition.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Converting binary to hex by converting each bit individually instead of grouping in fours</span> <span class="right">✓ Group binary into sets of 4 bits from the right, then convert each group to one hex digit. Converting bit-by-bit gives wrong results.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Convert the hexadecimal number 3F to binary and then to decimal. Show all working. [3 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Hex to Binary:
+3 = 0011
+F = 1111
+3F = 00111111
+
+Binary to Decimal:
+00111111
+0×128 + 0×64 + 1×32 + 1×16 + 1×8 + 1×4 + 1×2 + 1×1
+= 0 + 0 + 32 + 16 + 8 + 4 + 2 + 1
+= 63
+
+So 3F₁₆ = 00111111₂ = 63₁₀</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including converting between number bases for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including converting between number bases to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including converting between number bases, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Binary↔Hex: group bits in fours. Pad with leading zeros on the left if needed. Memorise hex values 0-F (0-15). For addition, show carries clearly. For conversions, always show working — marks are given for method. Double-check by converting back. Label every answer with the correct base subscript.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3w7nk7" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Converting+Between+Number+Bases+Binary+Hex+Decimal" target="_blank" rel="noopener">YouTube: GCSE Computer Science Converting Between Number Bases Binary Hex Decimal</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS15-number-bases.html" class="nav-prev">← Previous: Number Bases</a>
 <a href="CS17-units-information.html" class="nav-next">Next Topic: Units of Information →</a>

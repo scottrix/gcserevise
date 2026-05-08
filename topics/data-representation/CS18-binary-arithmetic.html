@@ -363,6 +363,60 @@ Result would be 100101101 (285), but this needs 9 bits. With only 8 bits, we get
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to carry when binary addition column sum exceeds 1</span> <span class="right">✓ In binary: 1+1 = 10 (write 0, carry 1). 1+1+1 = 11 (write 1, carry 1). Always carry just like decimal addition.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing binary shift direction — left vs right</span> <span class="right">✓ Left shift multiplies by 2 (fills with 0 on right). Right shift divides by 2 and discards the remainder (fills with 0 on left for positive numbers).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking overflow only occurs in very large numbers</span> <span class="right">✓ Overflow occurs whenever the result exceeds the available number of bits. Even small numbers like 11111111 + 1 = 100000000 overflow an 8-bit register.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Losing bits during a right binary shift and not recording them</span> <span class="right">✓ A right shift discards the least significant bit — this is integer division by 2 with truncation. The lost bit represents the remainder and cannot be recovered.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Perform the binary addition: 10110110 + 01101001. Show your working including any carries, and state whether overflow has occurred in an 8-bit system. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>  10110110
++ 01101001
+  --------
+  100011111
+
+Working right to left:
+0+1=1, 1+0=1, 1+0=1, 0+1=1, 1+0=1, 1+1=0 carry 1, 0+1+1=0 carry 1, 1+0+1=0 carry 1
+
+Result: 100011111 (9 bits)
+
+Overflow has occurred because the result requires 9 bits but an 8-bit register can only hold 8 bits. The 9th bit (carry out) is lost, and the stored result would be 00011111 = 31, which is incorrect.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including binary arithmetic: addition and shifts for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including binary arithmetic: addition and shifts to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including binary arithmetic: addition and shifts, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Binary addition: add column by column from right, carry when sum ≥ 2. Check for overflow by seeing if result needs more bits than available. Binary shift: left = ×2, right = ÷2. Show the direction clearly. Right shift loses the LSB — state this. For two's complement, left shift can overflow into the sign bit. Always show carries in your working.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3w7nk7" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Binary+Addition+Overflow+Binary+Shifts" target="_blank" rel="noopener">YouTube: GCSE Computer Science Binary Addition Overflow Binary Shifts</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS17-units-information.html" class="nav-prev">← Previous: Units of Information</a>
 <a href="CS19-character-encoding.html" class="nav-next">Next Topic: Character Encoding →</a>

@@ -484,6 +484,54 @@ As you go UP the hierarchy: speed increases, capacity decreases, cost per MB inc
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing virtual memory with RAM</span> <span class="right">✓ Virtual memory uses space on the hard drive/SSD as overflow when RAM is full. It is much slower than RAM because disk access is slower than memory access.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking SSD and HDD have the same performance characteristics</span> <span class="right">✓ SSD has no moving parts, faster read/write speeds, lower latency, and is more durable. HDD has spinning magnetic platters, slower access, but higher capacity at lower cost.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting the memory hierarchy — cache vs RAM vs secondary storage</span> <span class="right">✓ Speed: Cache > RAM > SSD > HDD. Capacity: HDD > SSD > RAM > Cache. Cost per GB: Cache > RAM > SSD > HDD. Each level trades speed for capacity and cost.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing deleting a file permanently removes it from secondary storage</span> <span class="right">✓ Deleting a file typically removes the reference from the file system but the data remains on disk until overwritten. 'Secure deletion' or disk wiping is needed to truly erase data.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Explain the concept of virtual memory, why it is needed, and one disadvantage of using it. [3 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Virtual memory is a technique where the operating system uses a section of the hard drive/SSD as if it were additional RAM. When the physical RAM becomes full, the OS moves less frequently used data from RAM to a designated area on disk called the swap file or page file.
+
+It is needed because it allows the computer to run more programs simultaneously than the physical RAM could hold, preventing 'out of memory' errors when multitasking.
+
+Disadvantage: Accessing virtual memory is much slower than accessing RAM because disk read/write speeds are significantly slower than memory access. If the system relies heavily on virtual memory (thrashing), performance degrades severely as the CPU spends more time swapping data between disk and RAM than executing instructions.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including memory and storage: RAM, ROM, cache and virtual memory for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including memory and storage: RAM, ROM, cache and virtual memory to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including memory and storage: RAM, ROM, cache and virtual memory, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Memory hierarchy: Cache (fastest, smallest) → RAM → Virtual Memory → SSD → HDD (slowest, largest). RAM: volatile, fast, working storage. ROM: non-volatile, boot instructions. Virtual memory: disk space used as RAM overflow, slow. SSD vs HDD: speed, durability, cost, capacity. When asked about performance, consider the bottleneck — if RAM is full, virtual memory slows everything down (thrashing).
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zr7ycdm" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Memory+Storage+RAM+Cache+Virtual+Memory+SSD+HDD" target="_blank" rel="noopener">YouTube: GCSE Computer Science Memory Storage RAM Cache Virtual Memory SSD HDD</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../computer-systems/CS27-systems-architecture.html" class="nav-prev">← Previous Topic: Systems Architecture</a>
 <a href="../networks/CS29-network-types-topologies.html" class="nav-next">Next Topic: Network Types & Topologies →</a>

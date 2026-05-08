@@ -354,6 +354,54 @@ Memory: O(n) - needs extra space for temporary arrays
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking bubble sort is the most efficient sorting algorithm</span> <span class="right">✓ Bubble sort has O(n²) time complexity, making it inefficient for large datasets. Merge sort (O(n log n)) is more efficient for large amounts of data.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing the pass logic in bubble sort — thinking one pass fully sorts the list</span> <span class="right">✓ One pass of bubble sort moves the largest unsorted element to its correct position; it takes n-1 passes to fully sort a list of n elements.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing merge sort requires no extra memory</span> <span class="right">✓ Merge sort requires additional memory to merge sub-lists (O(n) space complexity), unlike bubble sort which sorts in-place.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking insertion sort is always O(n²)</span> <span class="right">✓ Insertion sort is O(n²) in the worst and average cases, but O(n) in the best case when the data is already nearly sorted.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A school stores 2000 student records that need to be sorted by surname. Compare bubble sort and merge sort for this task, explaining which is more suitable and why. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Bubble sort has O(n²) time complexity. For 2000 records, this means up to approximately 4,000,000 comparisons in the worst case. It sorts in-place, so uses minimal extra memory.
+
+Merge sort has O(n log n) time complexity. For 2000 records, this means approximately 2000 × 11 = 22,000 comparisons, which is far fewer. However, it requires O(n) extra memory for merging.
+
+Merge sort is more suitable because 2000 records is a large dataset where the difference between O(n²) and O(n log n) is significant. The faster sorting time outweighs the extra memory cost on modern systems. Bubble sort would be impractically slow for this volume of data.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including sorting algorithms: bubble sort and merge sort for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including sorting algorithms: bubble sort and merge sort to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including sorting algorithms: bubble sort and merge sort, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+When comparing sorting algorithms, always give the time complexity of each and explain what it means for the given dataset size. Mention trade-offs: bubble sort is simple and in-place but slow; merge sort is fast but uses extra memory. For bubble sort questions, describe how each pass works and that n-1 passes are needed. Show the comparison count for a specific n to illustrate efficiency differences.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zjsg87h" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Sorting+Algorithms+Bubble+Merge+Insertion" target="_blank" rel="noopener">YouTube: GCSE Computer Science Sorting Algorithms Bubble Merge Insertion</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS3-searching-algorithms.html" class="nav-prev">← Previous: Searching Algorithms</a>
 <a href="CS5-trace-tables.html" class="nav-next">Next Topic: Trace Tables →</a>

@@ -375,6 +375,55 @@ UNTIL LENGTH(username) >= 3 AND LENGTH(username) &lt;= 20</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing validation and verification</span> <span class="right">✓ Validation checks if data is reasonable/acceptable (e.g. range checks); verification checks if data is correct by confirming it (e.g. double entry of passwords).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking validation guarantees data is correct</span> <span class="right">✓ Validation only checks that data meets rules (format, range, type); it cannot check if the data is factually correct. A valid age of 150 passes a type check but is wrong.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to validate BOTH input range and type</span> <span class="right">✓ Robust programs should check that input is the correct data type AND within an acceptable range. Type checking alone does not prevent unreasonable values.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing authentication and authorisation are the same</span> <span class="right">✓ Authentication verifies WHO you are (e.g. username/password); authorisation determines WHAT you can access (e.g. admin vs standard user permissions).</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A program asks a user to enter their age (1-120). Describe three different validation checks that should be applied, and explain the difference between validation and verification. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Three validation checks:
+1. Type check — ensure the input is an integer, not text or a decimal.
+2. Range check — ensure the value is between 1 and 120 (inclusive).
+3. Presence check — ensure the user has actually entered a value and not left it blank.
+
+Validation checks that data is reasonable and meets predefined rules (e.g. format, range, type). Verification checks that data entered is what the user intended, typically by asking them to enter it twice or showing a confirmation screen. Validation cannot guarantee accuracy — a user could enter 25 when their real age is 17, which passes validation but is incorrect.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including robust and secure programming: validation and verification for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including robust and secure programming: validation and verification to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including robust and secure programming: validation and verification, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Validation = is the data reasonable? (type check, range check, length check, presence check, format check, lookup check). Verification = is the data what was intended? (double entry, visual check). Authentication = who are you? Authorisation = what can you do? Always name the specific type of validation check, not just 'it checks the input'. Show validation code using WHILE loops with appropriate conditions.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Validation+Verification+Robust+Programming" target="_blank" rel="noopener">YouTube: GCSE Computer Science Validation Verification Robust Programming</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS12-subroutines.html" class="nav-prev">← Previous: Subroutines</a>
 <a href="CS14-random-number-generation.html" class="nav-next">Next Topic: Random Number Generation →</a>

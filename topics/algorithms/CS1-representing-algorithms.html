@@ -470,6 +470,54 @@ ENDIF</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Using = instead of ← for assignment in pseudo-code</span> <span class="right">✓ In pseudo-code, use the left-arrow ← for assignment; = is used for comparison in conditions.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking pseudo-code must follow exact Python/Java syntax</span> <span class="right">✓ Pseudo-code is language-independent structured English; it describes logic without strict syntax rules.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that flowchart decision boxes must have exactly two exits</span> <span class="right">✓ Every diamond (decision) must have exactly two paths: Yes and No. A decision with one exit is invalid.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing decomposition with abstraction</span> <span class="right">✓ Decomposition breaks a problem into smaller sub-problems; abstraction removes unnecessary detail to simplify.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A teacher wants to create an algorithm to calculate the average test score for a class of 30 students. Explain how you would use decomposition and abstraction to design this algorithm. [6 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Decomposition: I would break the problem into sub-problems: (1) Input each student's score, (2) Calculate the total of all scores, (3) Divide the total by 30 to find the average, (4) Output the result.
+
+Abstraction: I would remove unnecessary details such as student names, the subject of the test, and the date — only the numeric scores are needed to calculate an average. I would also assume all 30 students took the same test, ignoring any absent students.
+
+By decomposing, each sub-problem can be solved and tested independently. By abstracting, the algorithm focuses only on the essential data (scores) and ignores irrelevant information.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including representing algorithms, pseudo-code and flowcharts for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including representing algorithms, pseudo-code and flowcharts to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including representing algorithms, pseudo-code and flowcharts, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+When writing pseudo-code, always use the correct keywords (IF, THEN, ELSE, ENDIF, WHILE, ENDWHILE, FOR, TO, NEXT). Use ← for assignment, not =. For flowchart questions, draw each symbol carefully — ovals for START/STOP, rectangles for processes, diamonds for decisions, parallelograms for I/O. Decision diamonds must have exactly two exits (Yes/No). In decomposition questions, break into at least 3-4 sub-problems. For abstraction, always state WHAT detail is removed and WHY it is unnecessary.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3tbkmn" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Representing+Algorithms+Pseudocode+Flowcharts" target="_blank" rel="noopener">YouTube: GCSE Computer Science Representing Algorithms Pseudocode Flowcharts</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="#" class="nav-prev">← Previous Topic</a>
 <a href="CS2-efficiency-algorithms.html" class="nav-next">Next Topic: Efficiency of Algorithms →</a>

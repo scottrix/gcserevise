@@ -422,6 +422,57 @@ Data integrity: foreign keys ensure valid relationships
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking a flat file and a relational database are the same</span> <span class="right">✓ A flat file stores all data in a single table with redundant data. A relational database splits data into linked tables, reducing redundancy and improving data integrity.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing primary key and foreign key</span> <span class="right">✓ A primary key uniquely identifies each record in a table. A foreign key is a field in one table that references the primary key of another table, creating the relationship between them.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that a primary key must be unique and cannot be NULL</span> <span class="right">✓ Every record must have a unique primary key value — no duplicates and no empty (NULL) values. This ensures each record can be uniquely identified.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not understanding why normalisation reduces data redundancy</span> <span class="right">✓ Without normalisation, the same data (e.g. customer name) is repeated in multiple records. Normalisation splits this into separate tables linked by keys, so each piece of data is stored only once.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A school stores student data in a flat file with fields: StudentID, Name, TutorGroup, TutorName, TutorRoom. Explain two problems with this flat file design, and describe how a relational database would solve them. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Problem 1: Data redundancy — the TutorName and TutorRoom are repeated for every student in the same tutor group. If 30 students share a tutor, the tutor's name and room appear 30 times.
+Problem 2: Update anomaly — if a tutor changes room, every record for their students must be updated. Missing one record causes data inconsistency.
+
+Relational database solution:
+Students table: StudentID (PK), Name, TutorGroup (FK)
+Tutors table: TutorGroup (PK), TutorName, TutorRoom
+
+The TutorGroup field in Students is a foreign key linking to the Tutors table. Now each tutor's name and room are stored only once. If a tutor changes room, only ONE record in the Tutors table needs updating, eliminating redundancy and update anomalies.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including relational databases: primary keys, foreign keys and normalisation for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including relational databases: primary keys, foreign keys and normalisation to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including relational databases: primary keys, foreign keys and normalisation, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Flat file: single table, redundancy, anomalies. Relational DB: linked tables, keys, less redundancy. Primary key: unique, NOT NULL, identifies records. Foreign key: links to another table's PK. Normalisation: reduces redundancy, prevents insert/update/delete anomalies. Entity-relationship diagrams show relationships (1:1, 1:M, M:N). Always name tables, fields, and key types in your answers.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z4d4wxs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Relational+Databases+Primary+Key+Foreign+Key+Normalisation" target="_blank" rel="noopener">YouTube: GCSE Computer Science Relational Databases Primary Key Foreign Key Normalisation</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../cyber-security/CS34-detecting-preventing-cyber-threats.html" class="nav-prev">← Previous Topic: Detecting & Preventing Cyber Threats</a>
 <a href="../databases-impacts/CS36-sql.html" class="nav-next">Next Topic: SQL →</a>

@@ -361,6 +361,59 @@ This means the encoded data can be uniquely decoded
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing lossy and lossless compression</span> <span class="right">✓ Lossy compression permanently removes data to reduce file size; the original cannot be restored. Lossless compression reduces file size without losing any data; the original can be perfectly reconstructed.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking lossy compression makes files useless</span> <span class="right">✓ Lossy compression removes data that is less noticeable to humans (e.g. high frequencies in audio, fine detail in images). The result is still usable — just not identical to the original.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not understanding how RLE works — thinking it compresses all data</span> <span class="right">✓ Run-length encoding (RLE) only compresses data with repeated sequences. Data without repetition (e.g. ABCDEF) would actually increase in size with RLE, not decrease.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing lossless compression can achieve any compression ratio</span> <span class="right">✓ Lossless compression has limits based on the information content of the data. Typical lossless ratios are 2:1 to 3:1; claiming 100:1 for lossless is unrealistic.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A bitmap image contains the following pixel data: RRRRGGGGBBBBYYYY. Explain how run-length encoding would compress this data, and calculate the compression ratio. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Original data: RRRRGGGGBBBBYYYY (16 characters)
+
+RLE compression stores each colour and its count:
+R4G4B4Y4 (8 characters)
+
+Each run is encoded as: colour character + count digit.
+
+Compression ratio = original size ÷ compressed size = 16 ÷ 8 = 2:1
+
+The data has been compressed to half its original size. RLE is effective here because the data contains long runs of identical values. If the data were RGBYRGBY (no repeats), RLE would not compress it effectively.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including data compression: lossy and lossless methods for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including data compression: lossy and lossless methods to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including data compression: lossy and lossless methods, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Lossy: permanently removes data, smaller files, cannot reconstruct original. Use for streaming, photos, music. Lossless: no data loss, larger files, exact reconstruction. Use for text, code, medical images. RLE: stores (value, count) pairs for repeated data. Effectiveness depends on repetition length. When asked which to use, consider: is exact reproduction needed? Is the data text/audio/video?
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3w7nk7" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Data+Compression+Lossy+Lossless+RLE" target="_blank" rel="noopener">YouTube: GCSE Computer Science Data Compression Lossy Lossless RLE</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../data-representation/CS21-representing-sound.html" class="nav-prev">← Previous Topic: Representing Sound</a>
 <a href="../computer-systems/CS23-hardware-software.html" class="nav-next">Next Topic: Hardware & Software →</a>

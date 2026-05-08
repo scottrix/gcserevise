@@ -301,6 +301,50 @@ Sometimes you can make an algorithm faster by using more memory (e.g. storing pr
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking a faster algorithm is always better regardless of memory usage</span> <span class="right">✓ Efficiency considers both time and space; a faster algorithm may use significantly more memory, which could be unsuitable for constrained systems.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing time complexity with actual running time</span> <span class="right">✓ Time complexity describes how the number of operations grows with input size (Big O), not the actual clock time a program takes to run.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing O(n) is always worse than O(log n) for all inputs</span> <span class="right">✓ O(log n) scales better for large inputs, but for very small datasets the constant overhead of O(log n) algorithms may make O(n) faster in practice.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking Big O notation measures exact step counts</span> <span class="right">✓ Big O notation describes the upper bound of growth rate as input tends to infinity, ignoring constants and lower-order terms.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Two algorithms solve the same problem. Algorithm A has time complexity O(n²) and Algorithm B has O(n log n). Explain which algorithm is more efficient for large datasets and why. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Algorithm B (O(n log n)) is more efficient for large datasets. As n increases, n² grows much faster than n log n. For example, with n = 1000: Algorithm A performs roughly 1,000,000 operations while Algorithm B performs roughly 10,000 operations. Big O notation shows that Algorithm B scales better because its growth rate is lower, meaning it will be significantly faster for large inputs. However, for very small datasets Algorithm A might be comparable due to lower constant overhead.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including algorithm efficiency and Big O notation for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including algorithm efficiency and Big O notation to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including algorithm efficiency and Big O notation, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+When comparing algorithm efficiency, always refer to Big O notation and explain how the number of operations grows with input size. Use concrete examples (e.g. n=100, n=1000) to illustrate differences. Remember that time complexity is about growth rate, not actual speed. Mention that Big O ignores constants and lower-order terms. If asked to compare algorithms, consider both time AND space complexity where relevant.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3tbkmn" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Algorithm+Efficiency+Big+O+Notation" target="_blank" rel="noopener">YouTube: GCSE Computer Science Algorithm Efficiency Big O Notation</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS1-representing-algorithms.html" class="nav-prev">← Previous: Representing Algorithms</a>
 <a href="CS3-searching-algorithms.html" class="nav-next">Next Topic: Searching Algorithms →</a>

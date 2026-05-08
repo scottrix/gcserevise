@@ -359,6 +359,62 @@ ENDIF</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to cast input from string to the correct data type</span> <span class="right">✓ INPUT usually returns a string; you must convert it to INTEGER or REAL before arithmetic, e.g. age ← INTEGER(INPUT('Age: ')).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking string indexing starts at 1 in all languages</span> <span class="right">✓ Python and most languages use 0-based indexing; the first character is at index 0. Always check the convention for your exam board.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing LENGTH() and SUBSTRING() functions</span> <span class="right">✓ LENGTH() returns the number of characters in a string; SUBSTRING(string, start, length) extracts a portion of the string.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not realising that string concatenation does not add spaces automatically</span> <span class="right">✓ Joining 'Hello' & 'World' gives 'HelloWorld'. You must explicitly include a space: 'Hello' & ' ' & 'World' gives 'Hello World'.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Write pseudo-code that inputs a full name (e.g. 'Jane Smith'), extracts and outputs the first name and last name separately, then outputs the initials in uppercase. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>INPUT 'Enter full name: ', fullname
+space_pos ← 0
+FOR i ← 0 TO LENGTH(fullname) - 1
+  IF fullname[i] = ' ' THEN
+    space_pos ← i
+  ENDIF
+NEXT i
+firstname ← SUBSTRING(fullname, 0, space_pos)
+lastname ← SUBSTRING(fullname, space_pos + 1, LENGTH(fullname) - space_pos - 1)
+OUTPUT 'First name: ' & firstname
+OUTPUT 'Last name: ' & lastname
+initials ← UPPER(firstname[0]) & '.' & UPPER(lastname[0]) & '.'
+OUTPUT 'Initials: ' & initials</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including input, output and string handling functions for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including input, output and string handling functions to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including input, output and string handling functions, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Know key string functions: LENGTH(), SUBSTRING(), UPPER(), LOWER(), LEFT(), RIGHT(), ASC(), CHR(). Always cast input to the correct type before processing. Remember string indexing convention for your exam board. For string manipulation, find the space position first to split names. Show each step clearly when extracting substrings.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+String+Handling+Input+Output+Functions" target="_blank" rel="noopener">YouTube: GCSE Computer Science String Handling Input Output Functions</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS10-data-structures.html" class="nav-prev">← Previous: Data Structures</a>
 <a href="CS12-subroutines.html" class="nav-next">Next Topic: Subroutines →</a>

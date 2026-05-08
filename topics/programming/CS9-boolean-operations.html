@@ -346,6 +346,67 @@ ENDIF</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking AND and OR are interchangeable</span> <span class="right">✓ AND requires ALL conditions to be true; OR requires at least ONE condition to be true. They produce different results and are not interchangeable.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that NOT reverses a Boolean value</span> <span class="right">✓ NOT TRUE = FALSE and NOT FALSE = TRUE. NOT flips the result — it is used to negate conditions, e.g. WHILE NOT finished.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Assuming AND is evaluated before OR without brackets</span> <span class="right">✓ AND has higher precedence than OR in most languages. Use brackets to make intent clear: (A OR B) AND C is different from A OR (B AND C).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing NOT with negative numbers or minus signs</span> <span class="right">✓ NOT is a logical operator that reverses True/False. It is not the same as the arithmetic minus sign. NOT(5 > 3) = FALSE, not -5.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A login system requires a username of at least 5 characters AND a password of at least 8 characters. The user is locked out after 3 failed attempts. Write pseudo-code using Boolean operators to implement this. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>attempts ← 0
+loggedin ← FALSE
+WHILE attempts < 3 AND loggedin = FALSE
+  INPUT 'Username: ', username
+  INPUT 'Password: ', password
+  IF LENGTH(username) >= 5 AND LENGTH(password) >= 8 THEN
+    OUTPUT 'Login successful'
+    loggedin ← TRUE
+  ELSE
+    attempts ← attempts + 1
+    IF NOT loggedin AND attempts < 3 THEN
+      OUTPUT 'Invalid credentials, try again'
+    ENDIF
+  ENDIF
+ENDWHILE
+IF NOT loggedin THEN
+  OUTPUT 'Account locked: too many attempts'
+ENDIF</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including Boolean operations: AND, OR and NOT for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including Boolean operations: AND, OR and NOT to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including Boolean operations: AND, OR and NOT, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+AND needs ALL conditions True, OR needs ANY condition True, NOT reverses. Use brackets to make complex conditions clear. Build truth tables if asked to evaluate Boolean expressions. For validation, AND is used when ALL criteria must be met; OR when ANY criterion is sufficient. Remember AND has higher precedence than OR — use brackets to override.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Boolean+Logic+AND+OR+NOT+Operators" target="_blank" rel="noopener">YouTube: GCSE Computer Science Boolean Logic AND OR NOT Operators</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS8-arithmetic-relational-operations.html" class="nav-prev">← Previous: Arithmetic &amp; Relational Operations</a>
 <a href="CS10-data-structures.html" class="nav-next">Next Topic: Data Structures →</a>

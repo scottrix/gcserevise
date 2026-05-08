@@ -392,6 +392,69 @@ OUTPUT "Welcome"</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Using IF instead of WHILE for repeated actions</span> <span class="right">✓ IF executes once based on a condition; WHILE repeats as long as the condition is true. Use IF for decisions, WHILE for repetition.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking FOR and WHILE loops are interchangeable in all situations</span> <span class="right">✓ FOR loops are for counted iteration (known number of repeats); WHILE loops are for conditional iteration (unknown number of repeats until a condition is met).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that WHILE checks the condition BEFORE the loop body, so it may never execute</span> <span class="right">✓ A WHILE loop is pre-tested: if the condition is FALSE initially, the loop body never executes. A REPEAT-UNTIL loop is post-tested and always executes at least once.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing ELSE and ELSEIF/ELIF</span> <span class="right">✓ ELSE is the default case when no IF or ELSEIF condition is true. ELSEIF/ELIF allows additional conditions to be checked in sequence after the initial IF.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Write pseudo-code for a program that asks a user to enter a password. The password must be at least 8 characters long and contain at least one digit. The program should keep asking until a valid password is entered, then output 'Password accepted'. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>valid ← FALSE
+WHILE valid = FALSE
+  INPUT 'Enter password: ', password
+  IF LENGTH(password) >= 8 THEN
+    found_digit ← FALSE
+    FOR i ← 0 TO LENGTH(password) - 1
+      IF password[i] >= '0' AND password[i] <= '9' THEN
+        found_digit ← TRUE
+      ENDIF
+    NEXT i
+    IF found_digit = TRUE THEN
+      valid ← TRUE
+    ELSE
+      OUTPUT 'Password must contain at least one digit'
+    ENDIF
+  ELSE
+    OUTPUT 'Password must be at least 8 characters'
+  ENDIF
+ENDWHILE
+OUTPUT 'Password accepted'</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including programming constructs: sequence, selection and iteration for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including programming constructs: sequence, selection and iteration to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including programming constructs: sequence, selection and iteration, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Choose the correct construct: IF for decisions, FOR for counted repetition (known number), WHILE for conditional repetition (unknown count). Always indent nested constructs clearly. For validation, use a WHILE loop with a Boolean flag. Show initialisation of variables BEFORE the loop. Remember: WHILE = pre-tested (may not execute), REPEAT-UNTIL = post-tested (always executes at least once). Use ENDIF, ENDWHILE to close each construct.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Programming+Constructs+Selection+Iteration" target="_blank" rel="noopener">YouTube: GCSE Computer Science Programming Constructs Selection Iteration</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS6-data-types.html" class="nav-prev">← Previous: Data Types</a>
 <a href="CS8-arithmetic-relational-operations.html" class="nav-next">Next Topic: Arithmetic and Relational Operations →</a>

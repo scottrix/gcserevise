@@ -386,6 +386,63 @@ NEXT i</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking arrays and records are the same thing</span> <span class="right">✓ An array stores multiple values of the SAME data type accessed by index; a record stores related values of DIFFERENT data types accessed by field name.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing 0-based and 1-based indexing</span> <span class="right">✓ Most programming languages use 0-based indexing (first element is index 0). Some pseudo-code uses 1-based. Always check the exam board convention.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that arrays have a fixed size once declared</span> <span class="right">✓ In most GCSE-level languages, arrays have a fixed size declared at creation. You cannot add or remove elements beyond the declared size.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing a 2D array is a completely different concept from a 1D array</span> <span class="right">✓ A 2D array is an array of arrays — each row is itself a 1D array. Access uses two indices: array[row][column].</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A program needs to store the names and test scores of 5 students. Explain why a record is more suitable than two separate arrays, and write pseudo-code to declare and use this data structure. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Using two separate arrays (one for names, one for scores) keeps related data in separate structures, making it harder to keep data together when sorting or passing to subroutines. A record groups related fields of different types into one unit.
+
+TYPE Student
+  name : STRING
+  score : INTEGER
+ENDTYPE
+
+declare students : ARRAY[1:5] OF Student
+students[1].name ← 'Alice'
+students[1].score ← 87
+students[2].name ← 'Bob'
+students[2].score ← 72
+
+This keeps each student's name and score together as a single unit, making the data easier to manage, sort, and pass to subroutines.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including data structures: arrays and records for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including data structures: arrays and records to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including data structures: arrays and records, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Arrays: same type, accessed by index. Records: different types, accessed by field name. Always state the size when declaring an array. For 2D arrays, use two indices [row][column]. Know the difference between arrays (same type, indexed) and records (different types, named fields). When asked to choose, consider whether the data is the same type (array) or mixed types (record).
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Data+Structures+Arrays+Records+2D+Arrays" target="_blank" rel="noopener">YouTube: GCSE Computer Science Data Structures Arrays Records 2D Arrays</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS9-boolean-operations.html" class="nav-prev">← Previous: Boolean Operations</a>
 <a href="CS11-input-output-string-handling.html" class="nav-next">Next Topic: Input, Output &amp; String Handling →</a>

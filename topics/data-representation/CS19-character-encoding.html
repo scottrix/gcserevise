@@ -371,6 +371,54 @@ ENDIF</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking ASCII and Unicode store the same number of characters</span> <span class="right">✓ ASCII uses 7 bits (128 characters) or 8 bits (Extended ASCII, 256 characters). Unicode uses up to 32 bits and can represent over 143,000 characters from all world languages.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing Unicode always uses 4 bytes per character</span> <span class="right">✓ Unicode uses variable-length encoding: UTF-8 uses 1-4 bytes per character. Common ASCII characters still use just 1 byte in UTF-8, making it backward-compatible.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that ASCII cannot represent non-English characters</span> <span class="right">✓ ASCII only covers English letters, digits, and basic symbols. It cannot represent characters from other languages (Chinese, Arabic, etc.) — this is why Unicode was developed.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing character code with the character itself</span> <span class="right">✓ A character code (e.g. 65 in ASCII) is the numeric representation stored in memory. The character 'A' is how it is displayed. The computer stores 65, not 'A'.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Explain why Unicode was developed as an alternative to ASCII, and discuss one advantage and one disadvantage of using Unicode. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Unicode was developed because ASCII could only represent 128 characters (or 256 in Extended ASCII), which is insufficient for the world's languages, symbols, and emoji. ASCII only covers English alphabet characters, digits, and basic punctuation.
+
+Advantage: Unicode supports over 143,000 characters from all writing systems worldwide, enabling global communication and multilingual documents in a single encoding standard.
+
+Disadvantage: Unicode requires more storage space per character than ASCII — up to 4 bytes compared to ASCII's 1 byte. This means text files are larger when using Unicode, though UTF-8 mitigates this by using 1 byte for ASCII characters.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including character encoding: ASCII and Unicode for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including character encoding: ASCII and Unicode to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including character encoding: ASCII and Unicode, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+ASCII: 7-bit (128 chars) or 8-bit Extended (256 chars). Unicode: variable length, 143,000+ chars. Know why Unicode replaced ASCII (international support). ASCII advantage: small file size. Unicode advantage: universal character support. UTF-8 is backward-compatible with ASCII. When comparing, always discuss storage size vs character support trade-off.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3w7nk7" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+ASCII+Unicode+Character+Encoding" target="_blank" rel="noopener">YouTube: GCSE Computer Science ASCII Unicode Character Encoding</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS18-binary-arithmetic.html" class="nav-prev">← Previous: Binary Arithmetic</a>
 <a href="#" class="nav-next">Next Topic →</a>

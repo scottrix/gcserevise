@@ -395,6 +395,56 @@ OUTPUT: 28 (This calculates the sum 1+2+3+4+5+6+7 = 28)
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Leaving columns out of a trace table because the variable 'doesn't change'</span> <span class="right">✓ Every variable used in the algorithm must have its own column in the trace table, even if its value doesn't change — you still record the initial value.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Recording output values inside variable columns instead of noting them separately</span> <span class="right">✓ Outputs should be recorded as they occur, often in a separate 'OUTPUT' column or noted at the side; they are not stored in variables unless explicitly assigned.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Only recording variable values at the end rather than after each iteration</span> <span class="right">✓ A trace table must show how variable values change after each step or loop iteration, not just the final values — this is how you debug algorithms.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to update the loop counter in a trace table</span> <span class="right">✓ The loop counter (e.g. 'counter' in a FOR loop) must be updated in the trace table each iteration, as it controls when the loop terminates.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>The following pseudo-code processes an array: FOR i ← 1 TO 4 IF numbers[i] > max THEN max ← numbers[i] ENDIF NEXT i. Given numbers = [3, 7, 2, 9] and max = 0 initially, complete a trace table showing the value of i, numbers[i], max and the condition result for each iteration. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Iteration | i | numbers[i] | Condition (numbers[i] > max) | max after
+1 | 1 | 3 | 3 > 0 = TRUE | 3
+2 | 2 | 7 | 7 > 3 = TRUE | 7
+3 | 3 | 2 | 2 > 7 = FALSE | 7
+4 | 4 | 9 | 9 > 7 = TRUE | 9
+
+The algorithm finds the maximum value in the array. After all iterations, max = 9.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including trace tables and dry-running algorithms for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including trace tables and dry-running algorithms to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including trace tables and dry-running algorithms, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Always create a column for EVERY variable in the algorithm, plus any output. Update values row by row as each line of code executes. For loops, record each iteration separately. For IF statements, show the condition evaluation (TRUE/FALSE). Don't skip rows even if a variable doesn't change — write the same value. If asked to find an error in code, completing a trace table will reveal where the logic goes wrong.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3tbkmn" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Trace+Tables+Dry+Running+Algorithms" target="_blank" rel="noopener">YouTube: GCSE Computer Science Trace Tables Dry Running Algorithms</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS4-sorting-algorithms.html" class="nav-prev">← Previous: Sorting Algorithms</a>
 <a href="../programming/CS6-data-types.html" class="nav-next">Next Topic: Data Types →</a>

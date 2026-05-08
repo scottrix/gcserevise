@@ -379,6 +379,58 @@ The cycle repeats continuously while the computer is running
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing the ALU and the CU within the CPU</span> <span class="right">✓ The ALU (Arithmetic Logic Unit) performs calculations and logical comparisons. The CU (Control Unit) manages and coordinates all CPU activities, decoding instructions and sending control signals.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking more cores always means faster performance for all programs</span> <span class="right">✓ More cores improve performance for programs designed to split work across cores (parallel processing). Single-threaded programs only use one core, so extra cores provide no benefit.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing cache memory is the same as RAM</span> <span class="right">✓ Cache is much smaller, faster, and more expensive than RAM. It sits between the CPU and RAM, storing frequently used instructions/data to reduce access time.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting the Fetch-Decode-Execute cycle order</span> <span class="right">✓ The cycle is always: 1) FETCH the next instruction from memory, 2) DECODE what the instruction means, 3) EXECUTE the instruction. Then repeat.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the role of the CPU in the Fetch-Decode-Execute cycle, explaining the purpose of the Program Counter, Memory Address Register, and Accumulator. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>The CPU continuously performs the Fetch-Decode-Execute cycle:
+
+FETCH: The Program Counter (PC) holds the address of the next instruction. This address is copied to the Memory Address Register (MAR). The instruction at that address is fetched from RAM and stored in the Memory Data Register (MDR). The PC is then incremented to point to the next instruction.
+
+DECODE: The Control Unit (CU) decodes the fetched instruction to determine what operation to perform and what data is needed.
+
+EXECUTE: The Arithmetic Logic Unit (ALU) performs any calculations or logic operations. The result is stored in the Accumulator (a special register that holds the results of arithmetic/logic operations). If needed, the result may be stored back in RAM.
+
+The cycle then repeats from FETCH.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including systems architecture: CPU components and the fetch-decode-execute cycle for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including systems architecture: CPU components and the fetch-decode-execute cycle to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including systems architecture: CPU components and the fetch-decode-execute cycle, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+CPU components: ALU (calculations), CU (control/decode), registers (PC, MAR, MDR, Accumulator). FDE cycle: Fetch → Decode → Execute — always in this order. PC = next instruction address. MAR = address to access. MDR = data at that address. Accumulator = calculation results. Cache: fast, small, expensive. More cores = parallel processing benefit only. Clock speed = cycles per second.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zr7ycdm" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+CPU+Architecture+Fetch+Decode+Execute+Cycle" target="_blank" rel="noopener">YouTube: GCSE Computer Science CPU Architecture Fetch Decode Execute Cycle</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../computer-systems/CS26-programming-languages-translators.html" class="nav-prev">← Previous Topic: Programming Languages & Translators</a>
 <a href="../computer-systems/CS28-memory-storage.html" class="nav-next">Next Topic: Memory & Storage →</a>

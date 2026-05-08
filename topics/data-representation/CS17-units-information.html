@@ -287,6 +287,55 @@ So 2,500 KB is larger than 2 MB</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing bits and bytes</span> <span class="right">✓ 1 byte = 8 bits. A bit is a single 0 or 1; a byte is the smallest addressable unit of memory and can store one character.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking 1 KB = 1000 bytes</span> <span class="right">✓ In computing, 1 KiB (kibibyte) = 1024 bytes (2¹⁰). The term KB is often used informally for 1024 bytes, though technically KB = 1000 bytes in SI units.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Mixing up the prefixes: kilo, mega, giga, tera</span> <span class="right">✓ Each prefix is 1024 times the previous: 1 KiB = 1024 B, 1 MiB = 1024 KiB, 1 GiB = 1024 MiB, 1 TiB = 1024 GiB.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that file sizes and storage are measured in bytes, not bits</span> <span class="right">✓ Storage and file sizes use bytes (KB, MB, GB). Network speeds are often measured in bits per second (Mbps, Gbps). Don't confuse MB with Mb.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A photo is 4.2 MB. Calculate how many photos of this size can be stored on a 16 GB memory card. Show your working and state any assumptions. [3 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>16 GB = 16 × 1024 MB = 16384 MB
+Number of photos = 16384 ÷ 4.2 = 3900.95...
+
+Assumption: 1 GB = 1024 MB (binary prefix) and the storage has no overhead for file system metadata.
+
+Approximately 3900 photos can be stored.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including units of information: bits, bytes and prefixes for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including units of information: bits, bytes and prefixes to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including units of information: bits, bytes and prefixes, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Know the hierarchy: bit → byte → KiB → MiB → GiB → TiB. Each step is ×1024. Always convert to the same unit before calculating. Watch for bits vs bytes (b vs B). If a question asks about storage capacity, convert everything to the same unit first. Show your conversion steps clearly for method marks.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3w7nk7" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Units+of+Information+Bytes+Kilobytes+Megabytes" target="_blank" rel="noopener">YouTube: GCSE Computer Science Units of Information Bytes Kilobytes Megabytes</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS16-converting-number-bases.html" class="nav-prev">← Previous: Converting Number Bases</a>
 <a href="CS18-binary-arithmetic.html" class="nav-next">Next Topic: Binary Arithmetic →</a>

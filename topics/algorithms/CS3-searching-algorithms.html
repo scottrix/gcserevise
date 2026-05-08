@@ -306,6 +306,54 @@ Time complexity: O(log n) - logarithmic<br>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking binary search works on unsorted data</span> <span class="right">✓ Binary search requires the data to be sorted first; it halves the search space by comparing to the middle element, which only works on ordered data.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing linear search and binary search time complexities</span> <span class="right">✓ Linear search is O(n) — checks each item in turn. Binary search is O(log n) — halves the search space each step. Binary search is faster for large sorted datasets.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing binary search is always better than linear search</span> <span class="right">✓ Binary search only works on sorted data and has more complex logic; for small or unsorted datasets, linear search may be simpler and equally effective.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that linear search works on any data order</span> <span class="right">✓ Linear search checks each item sequentially and works on both sorted and unsorted data — it does not require the data to be in any particular order.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A sorted list contains 1024 student names. Compare the maximum number of comparisons needed by linear search and binary search to find a specific name. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Linear search: In the worst case, it would check all 1024 items, so the maximum number of comparisons is 1024 (O(n)).
+
+Binary search: Each comparison halves the search space: 1024 → 512 → 256 → 128 → 64 → 32 → 16 → 8 → 4 → 2 → 1. This takes a maximum of 10 comparisons (O(log₂ n), since 2¹⁰ = 1024).
+
+Binary search is significantly more efficient for this sorted dataset, requiring at most 10 comparisons compared to 1024 for linear search.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including searching algorithms: linear and binary search for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including searching algorithms: linear and binary search to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including searching algorithms: linear and binary search, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+When comparing search algorithms, always state the time complexity of each (O(n) vs O(log n)) and explain what this means in practice. For binary search, always mention that the data MUST be sorted. Show your working for maximum comparisons: for binary search, calculate log₂(n). For linear search, the worst case is n comparisons. Use a worked example with a specific value of n to illustrate.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zjsg87h" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Searching+Algorithms+Linear+Binary+Search" target="_blank" rel="noopener">YouTube: GCSE Computer Science Searching Algorithms Linear Binary Search</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS2-efficiency-algorithms.html" class="nav-prev">← Previous: Efficiency of Algorithms</a>
 <a href="CS4-sorting-algorithms.html" class="nav-next">Next Topic: Sorting Algorithms →</a>

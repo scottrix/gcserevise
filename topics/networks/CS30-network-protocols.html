@@ -320,6 +320,56 @@ Remember: SMTP = Send Mail; IMAP = I Manage And Read
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing HTTP and HTTPS — thinking they are different protocols entirely</span> <span class="right">✓ HTTPS is HTTP with encryption (SSL/TLS). They serve the same purpose (web page transfer) but HTTPS encrypts data, making it secure for sensitive information like passwords.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking TCP and UDP serve the same purpose</span> <span class="right">✓ TCP is reliable (checks delivery, resends lost packets, orders data); UDP is fast but unreliable (no delivery check, no ordering). TCP for web/email; UDP for streaming/gaming.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting what each layer of the TCP/IP model does</span> <span class="right">✓ Application: user-facing protocols (HTTP, FTP, SMTP). Transport: end-to-end delivery (TCP, UDP). Internet: routing packets (IP). Link: physical transmission (Ethernet, WiFi).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing a protocol and a port number are the same thing</span> <span class="right">✓ A protocol is a set of rules for communication (e.g. HTTP). A port number identifies the specific service on a device (e.g. HTTP uses port 80). They work together but are different concepts.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Explain the difference between TCP and UDP, giving one example of when each would be used and justifying your choice. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>TCP (Transmission Control Protocol) is a reliable, connection-oriented protocol. It establishes a connection before sending, checks all packets arrive, resends any lost packets, and reassembles data in the correct order.
+
+UDP (User Datagram Protocol) is an unreliable, connectionless protocol. It sends packets without checking delivery or order, making it faster but with no guarantee of arrival.
+
+Example for TCP: Email (SMTP) — emails must arrive completely and in order; reliability matters more than speed. Lost or reordered email content would be unacceptable.
+
+Example for UDP: Live video streaming — speed matters more than reliability; a few lost frames are acceptable but delayed packets cause buffering. TCP's retransmission delays would make the stream lag and buffer.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including network protocols: HTTP, FTP, SMTP, TCP and UDP for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including network protocols: HTTP, FTP, SMTP, TCP and UDP to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including network protocols: HTTP, FTP, SMTP, TCP and UDP, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Know key protocols: HTTP/HTTPS (web, port 80/443), FTP (file transfer, 21), SMTP (send email, 25), POP3/IMAP (receive email, 110/143), TCP (reliable delivery), UDP (fast, unreliable), IP (addressing/routing). TCP = reliable, UDP = fast. HTTPS = HTTP + encryption. Know the 4 TCP/IP layers and their purposes. Port numbers identify services.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zqb8qxh" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Network+Protocols+TCP+UDP+HTTP+FTP+SMTP" target="_blank" rel="noopener">YouTube: GCSE Computer Science Network Protocols TCP UDP HTTP FTP SMTP</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../networks/CS29-network-types-topologies.html" class="nav-prev">← Previous Topic: Network Types & Topologies</a>
 <a href="../networks/CS31-tcp-ip-model.html" class="nav-next">Next Topic: TCP/IP Model →</a>

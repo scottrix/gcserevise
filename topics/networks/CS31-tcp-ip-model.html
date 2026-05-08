@@ -346,6 +346,56 @@ Each layer adds a header; the link layer also adds a trailer
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing the TCP/IP model with the OSI model</span> <span class="right">✓ TCP/IP has 4 layers (Application, Transport, Internet, Link). OSI has 7 layers. TCP/IP is the practical model used on the internet; OSI is the theoretical reference model.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking data is sent as a single block across the network</span> <span class="right">✓ Data is broken into packets, each with headers containing source/destination IP, port numbers, and sequence numbers. Packets may take different routes and are reassembled at the destination.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that each layer adds its own header to the packet</span> <span class="right">✓ As data passes down the layers, each layer encapsulates it with its own header (Application → Transport → Internet → Link). At the destination, each layer strips its header going back up.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing the Internet layer handles physical transmission</span> <span class="right">✓ The Internet layer handles logical addressing (IP addresses) and routing. The Link layer handles the actual physical transmission over the network medium (Ethernet frames, WiFi signals).</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the four layers of the TCP/IP model, explaining the role of each layer and giving one protocol that operates at each layer. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Application layer: Provides the interface for user applications and handles high-level protocols. Formats data for the user and manages application-level communication. Protocol: HTTP (web browsing).
+
+Transport layer: Manages end-to-end communication between applications, ensuring data is delivered reliably or quickly depending on the protocol. Handles port addressing and error checking. Protocol: TCP (reliable delivery with error checking).
+
+Internet layer: Handles logical addressing (IP addresses) and routing of packets across networks. Determines the best path for data to travel from source to destination. Protocol: IP (Internet Protocol for addressing and routing).
+
+Link layer: Manages physical transmission of data over the network medium. Handles hardware addressing (MAC addresses), framing, and error detection at the physical level. Protocol: Ethernet (wired LAN transmission).</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including the TCP/IP model and its four layers for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including the TCP/IP model and its four layers to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including the TCP/IP model and its four layers, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+4 TCP/IP layers (top to bottom): Application → Transport → Internet → Link. Each layer has a specific role and uses specific protocols. Data is encapsulated going down, decapsulated going up. Packets contain headers from each layer. Application = user interface, Transport = delivery, Internet = routing, Link = physical. Know which protocols belong to which layer.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zqb8qxh" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+TCP+IP+Model+Layers+Encapsulation" target="_blank" rel="noopener">YouTube: GCSE Computer Science TCP IP Model Layers Encapsulation</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../networks/CS30-network-protocols.html" class="nav-prev">← Previous Topic: Network Protocols</a>
 <a href="../networks/CS32-network-security.html" class="nav-next">Next Topic: Network Security →</a>

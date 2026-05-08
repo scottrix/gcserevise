@@ -352,6 +352,61 @@ ENDIF</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking RANDOM() generates truly random numbers</span> <span class="right">✓ Computer-generated 'random' numbers are pseudo-random — they use a mathematical formula starting from a seed value. They are deterministic, not truly random.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to set the range when generating random numbers</span> <span class="right">✓ RANDOM() generates a decimal between 0 and 1 by default. To get integers in a range, use RANDOM_INT(min, max) or transform: INT(RANDOM() * (max - min + 1)) + min.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not understanding that the same seed produces the same sequence</span> <span class="right">✓ Pseudo-random number generators produce the same sequence for the same seed. This is useful for testing but means numbers are predictable if the seed is known.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing RANDOM_INT(1,6) with RANDOM_INT(0,6) for dice simulation</span> <span class="right">✓ RANDOM_INT(1,6) simulates a die correctly (1-6). RANDOM_INT(0,6) includes 0 and 7 values, giving 7 possible outcomes instead of 6.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Write pseudo-code for a program that simulates rolling two dice and calculates the total. The program should roll 1000 times and count how many times the total is 7. Output the count and the percentage. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>count ← 0
+FOR i ← 1 TO 1000
+  die1 ← RANDOM_INT(1, 6)
+  die2 ← RANDOM_INT(1, 6)
+  total ← die1 + die2
+  IF total = 7 THEN
+    count ← count + 1
+  ENDIF
+NEXT i
+percentage ← (count / 1000) * 100
+OUTPUT 'Total of 7 appeared ' & count & ' times'
+OUTPUT 'Percentage: ' & percentage & '%'</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including random number generation and simulation for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including random number generation and simulation to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including random number generation and simulation, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Use RANDOM_INT(min, max) for integer ranges; RANDOM() for decimals 0-1. Always specify the correct inclusive range. For a die: RANDOM_INT(1,6). For a coin: IF RANDOM_INT(0,1) = 0 THEN heads. For simulations, use a FOR loop with the number of trials. Count results and calculate percentages. Mention that computer random numbers are pseudo-random when discussing limitations.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Random+Number+Generation+Simulation" target="_blank" rel="noopener">YouTube: GCSE Computer Science Random Number Generation Simulation</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS13-robust-secure-programming.html" class="nav-prev">← Previous: Robust &amp; Secure Programming</a>
 <a href="../data-representation/CS15-number-bases.html" class="nav-next">Next Topic: Number Bases →</a>

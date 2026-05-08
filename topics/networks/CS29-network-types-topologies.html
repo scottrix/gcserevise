@@ -428,6 +428,60 @@
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking a LAN must be wired and a WAN must be wireless</span> <span class="right">✓ LANs and WANs are distinguished by geographic scope, not connection type. A LAN can use WiFi; a WAN typically uses wired backbone connections between locations.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing star and mesh topology advantages</span> <span class="right">✓ Star: central device, easy to add nodes, single point of failure at hub/switch. Mesh: multiple connections, no single point of failure, expensive and complex to cable.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing the internet and the World Wide Web are the same thing</span> <span class="right">✓ The internet is the global network of interconnected networks (infrastructure). The WWW is a service that runs on the internet using HTTP and web browsers to access web pages.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking client-server and peer-to-peer networks are types of topology</span> <span class="right">✓ Client-server and P2P are network MODELS (how resources are shared), not topologies (how devices are physically/logically connected). A star topology can use either model.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Compare star and mesh network topologies, giving two advantages and one disadvantage of each. Explain which topology would be better for a school network. [6 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Star topology:
+Advantage 1: Easy to add new devices — just connect to the central switch/hub
+Advantage 2: If one cable fails, only that device is affected; others continue working
+Disadvantage: If the central switch/hub fails, the entire network goes down (single point of failure)
+
+Mesh topology:
+Advantage 1: No single point of failure — data can route through multiple paths
+Advantage 2: High reliability — if one connection fails, data finds alternative routes
+Disadvantage: Expensive and complex to cable — every device needs a connection to every other device
+
+Star topology is better for a school because it is cost-effective, easy to manage and expand (adding new computers is simple), and schools typically have a central server room with a switch. The cost and complexity of a full mesh would be impractical for 100+ devices. The central switch can be made redundant to mitigate the single point of failure.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including network types and topologies: LAN, WAN, star and mesh for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including network types and topologies: LAN, WAN, star and mesh to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including network types and topologies: LAN, WAN, star and mesh, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+LAN = small area, WAN = large area. Topologies: star, mesh, ring, bus — know advantages/disadvantages of each. Client-server: central server, security, backup. P2P: no central server, each node equal, less secure. Internet ≠ WWW. For comparison, give balanced points on both sides. For scenario questions, justify your choice with specific reasons relating to the scenario.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zqb8qxh" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Network+Types+Topologies+LAN+WAN+Star+Mesh" target="_blank" rel="noopener">YouTube: GCSE Computer Science Network Types Topologies LAN WAN Star Mesh</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../computer-systems/CS28-memory-storage.html" class="nav-prev">← Previous Topic: Memory & Storage</a>
 <a href="../networks/CS30-network-protocols.html" class="nav-next">Next Topic: Network Protocols →</a>

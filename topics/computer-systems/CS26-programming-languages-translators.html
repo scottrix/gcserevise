@@ -469,6 +469,58 @@ Assembler: Assembly mnemonics → Machine code (object file) → Run
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking assembly language is the same as machine code</span> <span class="right">✓ Assembly language uses mnemonics (ADD, MOV, LDR) which are human-readable. Machine code is pure binary (1s and 0s) that the CPU executes directly.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing high-level languages are always better than low-level languages</span> <span class="right">✓ High-level languages are easier to write and portable, but low-level languages give direct hardware control and can be more efficient for specific tasks like device drivers.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing assembly language mnemonics with high-level language commands</span> <span class="right">✓ Assembly mnemonics (LDR, STR, ADD, MOV) correspond to single CPU instructions. High-level commands (print, if, for) may translate to many machine code instructions.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that all code must eventually become machine code to execute</span> <span class="right">✓ Regardless of whether you write in Python, Java, or assembly, the CPU can only execute machine code (binary). Every language must be translated to machine code at some point.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Compare high-level and low-level programming languages, giving two advantages of each. Explain why a device driver might be written in a low-level language. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>High-level languages (e.g. Python, Java):
+Advantage 1: Easier to read, write and debug because they use English-like commands
+Advantage 2: Portable — code can run on different hardware architectures with minimal changes
+
+Low-level languages (e.g. assembly):
+Advantage 1: Direct hardware control — can access specific memory addresses and CPU registers
+Advantage 2: More efficient — produces faster, more compact code with no unnecessary instructions
+
+A device driver would be written in a low-level language because it needs direct access to hardware components (ports, registers, memory-mapped I/O). High-level languages abstract away these hardware details, making them unsuitable for the precise, hardware-specific operations a driver must perform. Low-level code ensures the driver can communicate with the device at the register level.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including programming languages and translators: compilers and interpreters for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including programming languages and translators: compilers and interpreters to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including programming languages and translators: compilers and interpreters, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+High-level: English-like, portable, one-to-many translation, easier debugging. Low-level: hardware-specific, faster execution, one-to-one translation, direct memory/register access. Assembly = mnemonics, Machine code = binary. All code must become machine code to run. For comparison, use a structured table or clear paragraphs for each side. Always explain WHY for scenario-based questions.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zr7ycdm" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Programming+Languages+High+Level+Low+Level+Assembly" target="_blank" rel="noopener">YouTube: GCSE Computer Science Programming Languages High Level Low Level Assembly</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../computer-systems/CS25-software-classification.html" class="nav-prev">← Previous Topic: Software Classification</a>
 <a href="../computer-systems/CS27-systems-architecture.html" class="nav-next">Next Topic: Systems Architecture →</a>

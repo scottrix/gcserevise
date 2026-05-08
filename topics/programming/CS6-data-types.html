@@ -388,6 +388,53 @@ OUTPUT result</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking integer division and float division always give the same result</span> <span class="right">✓ Integer division truncates the decimal part (7 ÷ 2 = 3), while float division preserves it (7 ÷ 2 = 3.5). Using the wrong type causes data loss.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing character and string data types</span> <span class="right">✓ A character is a single symbol (e.g. 'A'), stored in 1 byte. A string is a sequence of characters (e.g. 'Hello'), and its storage depends on length.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing Boolean can only be TRUE/FALSE text</span> <span class="right">✓ In most languages, Boolean values are stored as 1 (TRUE) or 0 (FALSE) in memory; the keywords TRUE/FALSE are how they are represented in code.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that real/float numbers cannot represent all decimals exactly</span> <span class="right">✓ Floating-point numbers use binary representation and cannot store some decimal fractions exactly (e.g. 0.1), which can cause rounding errors in calculations.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A program stores a student's name, their test score as a whole number, their height in metres, and whether they have passed. State the most appropriate data type for each value and explain your choice. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Name: STRING — a name consists of multiple characters (e.g. 'Alice'), so a string is needed rather than a single character.
+Test score: INTEGER — test scores are whole numbers (e.g. 85), so integer is appropriate as no decimal part is needed.
+Height: REAL/FLOAT — height in metres requires decimal places (e.g. 1.65), so a real/float type is needed to store the fractional part.
+Passed: BOOLEAN — the student has either passed or not passed, so only two values (TRUE/FALSE) are needed, making Boolean the most efficient choice.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including data types: integer, real, string, character and boolean for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including data types: integer, real, string, character and boolean to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including data types: integer, real, string, character and boolean, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+When asked about data types, always state the type AND explain why it is the most appropriate. Consider: does it need decimal places? Is it text or a single character? Is it a true/false value? Is it a whole number? Remember that INTEGER is for whole numbers only, REAL/FLOAT for decimals, STRING for text, CHAR for single characters, and BOOLEAN for true/false. Casting between types (e.g. str() to int()) is a common exam topic.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Data+Types+Integer+String+Boolean+Float" target="_blank" rel="noopener">YouTube: GCSE Computer Science Data Types Integer String Boolean Float</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../algorithms/CS5-trace-tables.html" class="nav-prev">← Previous: Trace Tables</a>
 <a href="CS7-programming-constructs.html" class="nav-next">Next Topic: Programming Constructs →</a>

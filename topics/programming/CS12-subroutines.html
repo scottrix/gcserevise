@@ -386,6 +386,67 @@ ENDPROCEDURE</pre>
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing parameters and arguments</span> <span class="right">✓ Parameters are the variables defined in the subroutine header; arguments are the actual values passed when the subroutine is called.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking procedures and functions are the same</span> <span class="right">✓ A function RETURNS a value; a procedure does NOT return a value. Use a function when you need a result back; use a procedure for actions like displaying output.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not understanding local vs global variable scope</span> <span class="right">✓ A local variable exists only inside the subroutine where it is declared. A global variable can be accessed anywhere. Local variables prevent accidental modification of data.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to use RETURN in a function</span> <span class="right">✓ A function must include a RETURN statement to send a value back to the calling code. Without RETURN, the function behaves like a procedure and the calling code receives no result.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Write a function called CalculateGrade that takes a test score as a parameter and returns a grade: 'A' for 80+, 'B' for 60-79, 'C' for 40-59, 'U' for below 40. Then write a procedure called DisplayResult that takes a name and grade and outputs a message. Show how both would be called. [6 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>FUNCTION CalculateGrade(score : INTEGER) RETURNS STRING
+  IF score >= 80 THEN
+    RETURN 'A'
+  ELSE IF score >= 60 THEN
+    RETURN 'B'
+  ELSE IF score >= 40 THEN
+    RETURN 'C'
+  ELSE
+    RETURN 'U'
+  ENDIF
+ENDFUNCTION
+
+PROCEDURE DisplayResult(name : STRING, grade : STRING)
+  OUTPUT name & ' achieved grade ' & grade
+ENDPROCEDURE
+
+grade ← CalculateGrade(75)
+DisplayResult('Alice', grade)</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including subroutines: functions and procedures for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including subroutines: functions and procedures to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including subroutines: functions and procedures, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+FUNCTION returns a value — must include RETURN. PROCEDURE does not return a value. Parameters are in the header; arguments are in the call. Use local variables inside subroutines to avoid scope issues. Always declare the return type for functions. Show the function/procedure definition AND how it is called. Advantages of subroutines: reusability, readability, easier debugging, team working.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Subroutines+Functions+Procedures+Parameters" target="_blank" rel="noopener">YouTube: GCSE Computer Science Subroutines Functions Procedures Parameters</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="CS11-input-output-string-handling.html" class="nav-prev">← Previous: Input, Output &amp; String Handling</a>
 <a href="CS13-robust-secure-programming.html" class="nav-next">Next Topic: Robust &amp; Secure Programming →</a>

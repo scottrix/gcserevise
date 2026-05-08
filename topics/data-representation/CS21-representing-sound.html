@@ -356,6 +356,59 @@ To convert to MB: divide by 8 x 1024 x 1024
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing sample rate and bit depth</span> <span class="right">✓ Sample rate is how many samples per second (Hz); bit depth is how many bits per sample. Both affect quality and file size, but they measure different things.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking increasing sample rate alone guarantees CD-quality sound</span> <span class="right">✓ CD-quality requires BOTH a sample rate of 44,100 Hz AND a bit depth of 16 bits. High sample rate with low bit depth still sounds poor.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to multiply by the number of channels (mono/stereo) for sound file size</span> <span class="right">✓ Stereo sound uses 2 channels, so the file size is double that of mono. Always check if the question specifies mono or stereo.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not understanding the relationship between sample rate and Nyquist's theorem</span> <span class="right">✓ To accurately reproduce a sound, the sample rate must be at least twice the highest frequency in the sound (Nyquist rate). Human hearing goes to ~20kHz, so CD uses 44.1kHz.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A 3-minute stereo audio recording uses a sample rate of 44,100 Hz and a bit depth of 16 bits. Calculate the file size in megabytes. [3 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Duration = 3 × 60 = 180 seconds
+Samples per channel = 44,100 × 180 = 7,938,000
+Bits per sample = 16
+Number of channels = 2 (stereo)
+
+File size in bits = 44,100 × 180 × 16 × 2 = 254,016,000 bits
+File size in bytes = 254,016,000 ÷ 8 = 31,752,000 bytes
+File size in MB = 31,752,000 ÷ 1,048,576 = 30.28 MB
+
+The file size is approximately 30.28 MB.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including representing sound: sample rate and bit depth for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including representing sound: sample rate and bit depth to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including representing sound: sample rate and bit depth, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Sound file size = sample rate × duration × bit depth × channels. Always check mono (1) vs stereo (2). Convert to requested unit at the end. Higher sample rate = better quality, larger file. Higher bit depth = more dynamic range, larger file. Know CD quality: 44,100 Hz, 16-bit. Nyquist: sample rate ≥ 2× highest frequency.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3w7nk7" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Representing+Sound+Sample+Rate+Bit+Depth" target="_blank" rel="noopener">YouTube: GCSE Computer Science Representing Sound Sample Rate Bit Depth</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../data-representation/CS20-representing-images.html" class="nav-prev">← Previous Topic: Representing Images</a>
 <a href="../data-representation/CS22-data-compression.html" class="nav-next">Next Topic: Data Compression →</a>

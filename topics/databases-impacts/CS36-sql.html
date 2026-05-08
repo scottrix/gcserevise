@@ -466,6 +466,56 @@ DELETE FROM tablename WHERE condition
 </ul>
 </section>
 
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Forgetting the WHERE clause filters rows BEFORE results are returned</span> <span class="right">✓ WHERE filters which records are included in the query results. Without WHERE, ALL records in the table are returned. Always include WHERE when you need specific records.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing SELECT and INSERT SQL statements</span> <span class="right">✓ SELECT retrieves/reads data from a database. INSERT adds new records to a table. SELECT is a query; INSERT modifies data.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not using quotes around text values in WHERE clauses</span> <span class="right">✓ Text/string values in SQL must be enclosed in single quotes: WHERE name = 'Alice'. Numeric values do not need quotes: WHERE age = 16.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that SQL keywords are not case-sensitive but data values are</span> <span class="right">✓ SQL keywords (SELECT, FROM, WHERE) can be uppercase or lowercase. However, string comparisons ARE case-sensitive in many databases: 'alice' ≠ 'Alice'.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A table called Students has fields: StudentID, Name, TutorGroup, Grade. Write SQL statements to: (1) Show all students in tutor group '7B' with their names and grades. (2) Add a new student with ID 105, name 'Kai', tutor group '7B', grade 'B'. (3) Update the grade of student ID 105 to 'A'. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>1. SELECT Name, Grade FROM Students WHERE TutorGroup = '7B';
+
+2. INSERT INTO Students (StudentID, Name, TutorGroup, Grade) VALUES (105, 'Kai', '7B', 'B');
+
+3. UPDATE Students SET Grade = 'A' WHERE StudentID = 105;
+
+Note: Text values are enclosed in single quotes. The WHERE clause in the UPDATE ensures only student 105's grade is changed — without it, ALL students' grades would be updated to 'A'.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including SQL: SELECT, INSERT, UPDATE and DELETE statements for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including SQL: SELECT, INSERT, UPDATE and DELETE statements to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including SQL: SELECT, INSERT, UPDATE and DELETE statements, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Know SQL commands: SELECT (read), INSERT (add), UPDATE (modify), DELETE (remove). Always use WHERE with UPDATE and DELETE to avoid affecting all records. Single quotes for text values, no quotes for numbers. End statements with semicolons. SELECT * returns all fields. Use AND/OR for multiple conditions. ORDER BY for sorting. For joins, use table.field syntax to avoid ambiguity.
+</div>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z4d4wxs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+SQL+SELECT+INSERT+UPDATE+DELETE+Commands" target="_blank" rel="noopener">YouTube: GCSE Computer Science SQL SELECT INSERT UPDATE DELETE Commands</a></li></ul>
+</section>
+
 <nav class="topic-nav">
 <a href="../databases-impacts/CS35-relational-databases.html" class="nav-prev">← Previous Topic: Relational Databases</a>
 <a href="../databases-impacts/CS37-ethical-legal-environmental-impacts.html" class="nav-next">Next Topic: Ethical, Legal & Environmental Impacts →</a>
