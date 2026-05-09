@@ -94,7 +94,7 @@ function filterByBoard(board) {
 }
 
 function openSubject(subjectId) {
-  const landingPages = ['mathematics', 'english-language', 'english-literature', 'combined-science', 'biology', 'chemistry', 'physics', 'geography', 'history', 'pe', 'computer-science', 'religious-studies', 'french', 'german', 'art-design', 'music', 'drama', 'design-and-technology', 'business', 'economics', 'psychology', 'sociology', 'citizenship-studies', 'media-studies', 'food-preparation-nutrition', 'latin', 'astronomy', 'geology', 'ancient-history', 'classical-civilisation', 'law', 'dance', 'film-studies', 'electronics', 'engineering', 'statistics'];
+  const landingPages = ['mathematics', 'english-language', 'english-literature', 'combined-science', 'biology', 'chemistry', 'physics', 'geography', 'history', 'pe', 'computer-science', 'religious-studies', 'french', 'german', 'spanish', 'art-and-design', 'music', 'drama', 'design-and-technology', 'business', 'economics', 'psychology', 'sociology', 'citizenship-studies', 'media-studies', 'food-preparation-nutrition', 'latin', 'astronomy', 'geology', 'ancient-history', 'classical-civilisation', 'law', 'dance', 'film-studies', 'electronics', 'engineering', 'statistics'];
   if (landingPages.includes(subjectId)) {
     window.location.href = `${subjectId}.html`;
   } else {
