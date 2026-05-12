@@ -444,12 +444,10 @@ body {
 
 /* Topic & Landing Page Styles */
 .topic-content {
-max-width: 1200px;
-margin: 0 auto;
-padding: 1.5rem 1rem 3rem;
 display: flex;
 gap: 1.5rem;
 align-items: flex-start;
+padding: 1.5rem 1rem 3rem;
 }
 
 .sidebar {
@@ -523,6 +521,7 @@ box-shadow: 0 2px 8px var(--shadow);
 .page-body {
 flex: 1;
 min-width: 0;
+max-width: 900px;
 }
 
 @media (max-width: 900px) {
