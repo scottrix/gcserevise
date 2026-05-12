@@ -48,10 +48,27 @@ subjectSlug = href.replace(/^..\/..\/?/, '').replace(/\.html$/, '');
 break;
 }
 }
+// Fallback: extract subject slug from the nav link in the header
+if (!subjectSlug) {
+var navLinks = document.querySelectorAll('header .nav a');
+for (var j = 0; j < navLinks.length; j++) {
+var nhref = navLinks[j].getAttribute('href') || '';
+if (nhref.indexOf('../../') === 0 && nhref.indexOf('index') === -1) {
+subjectSlug = nhref.replace(/^..\/..\/?/, '').replace(/\.html$/, '');
+break;
+}
+}
+}
 var prefix = '../../';
 var landingHref = prefix + subjectSlug + '.html';
 var currentTopicFile = segs[segs.length - 1];
 
+if (!subjectSlug) {
+nav.innerHTML = '<h3>Subjects</h3><ul>' +
+SUBJ_DATA.map(function(s) {
+return '<li><a href="' + s.id + '.html">' + s.name + '</a></li>';
+}).join('') + '</ul>';
+} else {
 nav.innerHTML = '<h3>Topics</h3><ul id="sidebar-topics"><li><a href="' + landingHref + '">&larr; ' + (subjectSlug.replace(/-/g,' ')) + '</a></li></ul>';
 
 fetch(landingHref).then(function(r) { return r.text(); }).then(function(html) {
@@ -72,7 +89,8 @@ var cls = isActive ? ' class="active"' : '';
 items += '<li><a href="' + fullHref + '"' + cls + '>' + label + '</a></li>';
 });
 ul.innerHTML = items;
-}).catch(function() {});
+}).catch(function(err) { console.error('Sidebar fetch failed:', landingHref, err); });
+}
 } else {
 nav.innerHTML = '<h3>Subjects</h3><ul>' +
 SUBJ_DATA.map(function(s) {
