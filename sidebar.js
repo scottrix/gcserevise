@@ -26,10 +26,7 @@ var path = location.pathname;
 var currentPage = path.split('/').pop().replace('.html','');
 var isTopicPage = path.indexOf('/topics/') !== -1;
 var isLandingPage = !isTopicPage && currentPage !== 'index' && currentPage !== '';
-var main = document.querySelector('main.topic-content');
-if (!main) return;
 
-// Build sidebar nav element
 var nav = document.createElement('nav');
 nav.className = 'sidebar';
 nav.id = 'sidebar-nav';
@@ -83,16 +80,8 @@ return '<li><a href="' + s.id + '.html">' + s.name + '</a></li>';
 }).join('') + '</ul>';
 }
 
-// Insert sidebar as first child of main, then wrap remaining content
-main.insertBefore(nav, main.firstChild);
-
-// Wrap everything after the sidebar into a div
-var wrapper = document.createElement('div');
-wrapper.className = 'page-body';
-while (nav.nextSibling) {
-wrapper.appendChild(nav.nextSibling);
-}
-main.appendChild(wrapper);
+// Append sidebar to body (it's position:fixed, so it doesn't need to be inside main)
+document.body.appendChild(nav);
 
 // Mobile toggle
 var btn = document.createElement('button');

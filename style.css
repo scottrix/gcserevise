@@ -444,23 +444,22 @@ body {
 
 /* Topic & Landing Page Styles */
 .topic-content {
-display: flex;
-gap: 1.5rem;
-align-items: flex-start;
 padding: 1.5rem 1rem 3rem;
+padding-left: 240px;
+min-height: 100vh;
 }
 
 .sidebar {
 width: 220px;
-flex-shrink: 0;
-position: sticky;
-top: 70px;
-max-height: calc(100vh - 90px);
+position: fixed;
+top: 60px;
+left: 0;
+height: calc(100vh - 60px);
 overflow-y: auto;
 background: var(--bg-secondary);
-border: 1px solid var(--border);
-border-radius: 8px;
+border-right: 1px solid var(--border);
 padding: 0.75rem 0;
+z-index: 50;
 }
 
 .sidebar h3 {
@@ -519,23 +518,17 @@ box-shadow: 0 2px 8px var(--shadow);
 }
 
 .page-body {
-flex: 1;
-min-width: 0;
 max-width: 900px;
+margin: 0 auto;
 }
 
 @media (max-width: 900px) {
 .sidebar {
 display: none;
-position: fixed;
-top: 0;
-left: 0;
 width: 280px;
 height: 100vh;
-max-height: 100vh;
 z-index: 150;
 border-radius: 0;
-border-right: 1px solid var(--border);
 }
 
 .sidebar.open {
@@ -549,7 +542,7 @@ justify-content: center;
 }
 
 .topic-content {
-flex-direction: column;
+padding-left: 1rem;
 }
 }
 
