@@ -44,7 +44,7 @@ var bcLinks = document.querySelectorAll('.breadcrumb a');
 for (var i = 0; i < bcLinks.length; i++) {
 var href = bcLinks[i].getAttribute('href') || '';
 if (href.indexOf('index.html') === -1 && href.indexOf('#') === -1) {
-subjectSlug = href.replace(/\.html$/, '').replace(/^..\/..\/?/, '');
+subjectSlug = href.replace(/^..\/..\/?/, '').replace(/\.html$/, '');
 break;
 }
 }
