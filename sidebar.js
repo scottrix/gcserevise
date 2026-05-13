@@ -26,6 +26,7 @@ var path = location.pathname;
 var currentPage = path.split('/').pop().replace('.html','');
 var isTopicPage = path.indexOf('/topics/') !== -1;
 var isLandingPage = !isTopicPage && currentPage !== 'index' && currentPage !== '';
+if (currentPage === 'index' || currentPage === '') return;
 
 var nav = document.createElement('nav');
 nav.className = 'sidebar';
