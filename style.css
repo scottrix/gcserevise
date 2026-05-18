@@ -1006,3 +1006,17 @@ padding-right: 1rem;
 :root:not(.light-mode) .extended-question .model-answer { background: #1a2e1a; border-color: #66bb6a; }
 :root:not(.light-mode) .ao3-section { background: #1a2a28; border-color: #26a69a; }
 :root:not(.light-mode) .ao3-section h3 { color: #26a69a; }
+
+.disclaimer-banner {
+  background: var(--bg-card);
+  border: 1px solid var(--warning);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+.disclaimer-banner a {
+  color: var(--accent);
+  text-decoration: underline;
+}
