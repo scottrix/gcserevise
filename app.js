@@ -21,16 +21,16 @@ function renderSubjects(category) {
         ? subjectsData 
         : subjectsData.filter(s => s.category === category);
 
-    grid.innerHTML = filtered.map(subject => `
-        <div class="subject-card" onclick="openSubject('${subject.id}')">
-            <div class="subject-category">${subject.category}</div>
-            <h3>${subject.name}</h3>
-            <div class="paper-count">${subject.papers} paper${subject.papers > 1 ? 's' : ''}</div>
-            <div class="board-badges">
-                ${subject.boards.map(b => `<span class="board-badge">${b}</span>`).join('')}
-            </div>
-        </div>
-    `).join('');
+  grid.innerHTML = filtered.map(subject => `
+    <a href="${subject.id}.html" class="subject-card">
+      <div class="subject-category">${subject.category}</div>
+      <h3>${subject.name}</h3>
+      <div class="paper-count">${subject.papers} paper${subject.papers > 1 ? 's' : ''}</div>
+      <div class="board-badges">
+        ${subject.boards.map(b => `<span class="board-badge">${b}</span>`).join('')}
+      </div>
+    </a>
+  `).join('');
 }
 
 // Category tab handling
@@ -78,13 +78,13 @@ function filterByBoard(board) {
     const grid = document.getElementById('subjects-grid');
     const filtered = subjectsData.filter(s => s.boards.includes(board));
 
-    grid.innerHTML = filtered.map(subject => `
-        <div class="subject-card" onclick="openSubject('${subject.id}')">
-            <div class="subject-category">${subject.category}</div>
-            <h3>${subject.name}</h3>
-            <div class="paper-count">${subject.papers} paper${subject.papers > 1 ? 's' : ''}</div>
-        </div>
-    `).join('');
+  grid.innerHTML = filtered.map(subject => `
+    <a href="${subject.id}.html" class="subject-card">
+      <div class="subject-category">${subject.category}</div>
+      <h3>${subject.name}</h3>
+      <div class="paper-count">${subject.papers} paper${subject.papers > 1 ? 's' : ''}</div>
+    </a>
+  `).join('');
 
     // Update tabs
     document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
@@ -118,16 +118,16 @@ function handleSearch() {
     if (filtered.length === 0) {
         grid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: var(--text-secondary);">No subjects found matching your search.</p>';
     } else {
-        grid.innerHTML = filtered.map(subject => `
-            <div class="subject-card" onclick="openSubject('${subject.id}')">
-                <div class="subject-category">${subject.category}</div>
-                <h3>${subject.name}</h3>
-                <div class="paper-count">${subject.papers} paper${subject.papers > 1 ? 's' : ''}</div>
-                <div class="board-badges">
-                    ${subject.boards.map(b => `<span class="board-badge">${b}</span>`).join('')}
-                </div>
-            </div>
-        `).join('');
+    grid.innerHTML = filtered.map(subject => `
+      <a href="${subject.id}.html" class="subject-card">
+        <div class="subject-category">${subject.category}</div>
+        <h3>${subject.name}</h3>
+        <div class="paper-count">${subject.papers} paper${subject.papers > 1 ? 's' : ''}</div>
+        <div class="board-badges">
+          ${subject.boards.map(b => `<span class="board-badge">${b}</span>`).join('')}
+        </div>
+      </a>
+    `).join('');
     }
 }
 

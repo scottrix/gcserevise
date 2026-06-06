@@ -28,11 +28,12 @@
     <header class="site-header">
         <div class="header-content">
             <a href="/" class="logo">📚 GCSE Revise</a>
-            <nav class="nav">
-                <a href="#subjects">Subjects</a>
-                <a href="#exam-boards">Exam Boards</a>
-                <a href="#about">About</a>
-            </nav>
+      <nav class="nav">
+        <a href="https://scottrix.github.io/">Scottrix</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#exam-boards">Exam Boards</a>
+        <a href="#about">About</a>
+      </nav>
             <div class="header-actions">
                 <button id="theme-toggle" class="theme-btn" title="Toggle theme">🌙</button>
                 <button id="mobile-menu-btn" class="mobile-menu-btn">☰</button>
@@ -45,11 +46,12 @@
             <span class="logo">📚 GCSE Revise</span>
             <button id="close-mobile" class="close-btn">✕</button>
         </div>
-        <nav class="mobile-nav-links">
-            <a href="#subjects">Subjects</a>
-            <a href="#exam-boards">Exam Boards</a>
-            <a href="#about">About</a>
-        </nav>
+      <nav class="mobile-nav-links">
+        <a href="https://scottrix.github.io/">Scottrix</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#exam-boards">Exam Boards</a>
+        <a href="#about">About</a>
+      </nav>
     </div>
     <div class="overlay" id="overlay"></div>
 
@@ -122,9 +124,85 @@
                 <button class="category-tab" data-category="Technical">Technical</button>
                 <button class="category-tab" data-category="Other">Other</button>
             </div>
-            <div id="subjects-grid" class="subjects-grid">
-                <!-- Populated by JavaScript -->
-            </div>
+      <div id="subjects-grid" class="subjects-grid">
+        <div class="subject-category" data-category="Core">
+          <h3 class="category-heading">Core</h3>
+          <div class="category-subjects">
+            <a href="english-language.html" class="subject-card" data-category="Core"><span class="subject-name">English Language</span></a>
+            <a href="english-literature.html" class="subject-card" data-category="Core"><span class="subject-name">English Literature</span></a>
+            <a href="mathematics.html" class="subject-card" data-category="Core"><span class="subject-name">Mathematics</span></a>
+          </div>
+        </div>
+        <div class="subject-category" data-category="Science">
+          <h3 class="category-heading">Science</h3>
+          <div class="category-subjects">
+            <a href="biology.html" class="subject-card" data-category="Science"><span class="subject-name">Biology</span></a>
+            <a href="chemistry.html" class="subject-card" data-category="Science"><span class="subject-name">Chemistry</span></a>
+            <a href="physics.html" class="subject-card" data-category="Science"><span class="subject-name">Physics</span></a>
+            <a href="combined-science.html" class="subject-card" data-category="Science"><span class="subject-name">Combined Science</span></a>
+            <a href="computer-science.html" class="subject-card" data-category="Science"><span class="subject-name">Computer Science</span></a>
+            <a href="astronomy.html" class="subject-card" data-category="Science"><span class="subject-name">Astronomy</span></a>
+            <a href="geology.html" class="subject-card" data-category="Science"><span class="subject-name">Geology</span></a>
+            <a href="electronics.html" class="subject-card" data-category="Science"><span class="subject-name">Electronics</span></a>
+          </div>
+        </div>
+        <div class="subject-category" data-category="Humanities">
+          <h3 class="category-heading">Humanities</h3>
+          <div class="category-subjects">
+            <a href="history.html" class="subject-card" data-category="Humanities"><span class="subject-name">History</span></a>
+            <a href="geography.html" class="subject-card" data-category="Humanities"><span class="subject-name">Geography</span></a>
+            <a href="religious-studies.html" class="subject-card" data-category="Humanities"><span class="subject-name">Religious Studies</span></a>
+            <a href="citizenship-studies.html" class="subject-card" data-category="Humanities"><span class="subject-name">Citizenship Studies</span></a>
+            <a href="classical-civilisation.html" class="subject-card" data-category="Humanities"><span class="subject-name">Classical Civilisation</span></a>
+            <a href="ancient-history.html" class="subject-card" data-category="Humanities"><span class="subject-name">Ancient History</span></a>
+          </div>
+        </div>
+        <div class="subject-category" data-category="Languages">
+          <h3 class="category-heading">Languages</h3>
+          <div class="category-subjects">
+            <a href="french.html" class="subject-card" data-category="Languages"><span class="subject-name">French</span></a>
+            <a href="spanish.html" class="subject-card" data-category="Languages"><span class="subject-name">Spanish</span></a>
+            <a href="german.html" class="subject-card" data-category="Languages"><span class="subject-name">German</span></a>
+            <a href="latin.html" class="subject-card" data-category="Languages"><span class="subject-name">Latin</span></a>
+          </div>
+        </div>
+        <div class="subject-category" data-category="Creative">
+          <h3 class="category-heading">Creative</h3>
+          <div class="category-subjects">
+            <a href="art-and-design.html" class="subject-card" data-category="Creative"><span class="subject-name">Art and Design</span></a>
+            <a href="music.html" class="subject-card" data-category="Creative"><span class="subject-name">Music</span></a>
+            <a href="drama.html" class="subject-card" data-category="Creative"><span class="subject-name">Drama</span></a>
+            <a href="dance.html" class="subject-card" data-category="Creative"><span class="subject-name">Dance</span></a>
+            <a href="media-studies.html" class="subject-card" data-category="Creative"><span class="subject-name">Media Studies</span></a>
+            <a href="film-studies.html" class="subject-card" data-category="Creative"><span class="subject-name">Film Studies</span></a>
+          </div>
+        </div>
+        <div class="subject-category" data-category="Technical">
+          <h3 class="category-heading">Technical</h3>
+          <div class="category-subjects">
+            <a href="design-and-technology.html" class="subject-card" data-category="Technical"><span class="subject-name">Design and Technology</span></a>
+            <a href="food-preparation-nutrition.html" class="subject-card" data-category="Technical"><span class="subject-name">Food Preparation and Nutrition</span></a>
+            <a href="engineering.html" class="subject-card" data-category="Technical"><span class="subject-name">Engineering</span></a>
+          </div>
+        </div>
+        <div class="subject-category" data-category="Other">
+          <h3 class="category-heading">Other</h3>
+          <div class="category-subjects">
+            <a href="business.html" class="subject-card" data-category="Other"><span class="subject-name">Business Studies</span></a>
+            <a href="economics.html" class="subject-card" data-category="Other"><span class="subject-name">Economics</span></a>
+            <a href="psychology.html" class="subject-card" data-category="Other"><span class="subject-name">Psychology</span></a>
+            <a href="sociology.html" class="subject-card" data-category="Other"><span class="subject-name">Sociology</span></a>
+            <a href="law.html" class="subject-card" data-category="Other"><span class="subject-name">Law</span></a>
+            <a href="pe.html" class="subject-card" data-category="Other"><span class="subject-name">Physical Education</span></a>
+          </div>
+        </div>
+        <div class="subject-category" data-category="Mathematics">
+          <h3 class="category-heading">Mathematics</h3>
+          <div class="category-subjects">
+            <a href="statistics.html" class="subject-card" data-category="Mathematics"><span class="subject-name">Statistics</span></a>
+          </div>
+        </div>
+      </div>
         </section>
 
         <section id="about" class="about">
