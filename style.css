@@ -1020,3 +1020,55 @@ padding-right: 1rem;
   color: var(--accent);
   text-decoration: underline;
 }
+
+.affiliate-section {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-card);
+}
+.affiliate-section h3 {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.6rem;
+}
+.affiliate-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.8rem;
+}
+.affiliate-card {
+  display: block;
+  background: var(--bg-secondary, #1a1a2e);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.8rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: border-color 0.2s;
+}
+.affiliate-card:hover {
+  border-color: var(--accent);
+}
+.affiliate-card-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.affiliate-card-desc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+.affiliate-card-store {
+  font-size: 0.75rem;
+  color: var(--accent);
+  margin-top: 0.3rem;
+}
+.affiliate-disclaimer {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 0.6rem;
+  line-height: 1.4;
+}
