@@ -1,43 +1,20 @@
 (function() {
-  var ASIN_RE = /\/dp\/([A-Z0-9]{10})/i;
   var FASTMAIL_RE = /join\.fastmail\.com/;
-  var IMG_BASE = 'https://images-eu.ssl-images-amazon.com/images/P/';
-  var IMG_SUFFIX = '.02._SL160_.jpg';
 
-  function extractAsin(href) {
-    var m = href && href.match(ASIN_RE);
-    return m ? m[1] : null;
-  }
-
-  function addProductImages() {
-    var cards = document.querySelectorAll('.affiliate-card');
-    for (var i = 0; i < cards.length; i++) {
-      var card = cards[i];
-      if (card.querySelector('.affiliate-card-img')) continue;
-
-      var href = card.getAttribute('href') || '';
-      var asin = extractAsin(href);
-      if (!asin) continue;
-
-      var imgDiv = document.createElement('div');
-      imgDiv.className = 'affiliate-card-img';
-
-      var img = document.createElement('img');
-      img.alt = 'Product image';
-      img.loading = 'lazy';
-      img.src = IMG_BASE + asin + IMG_SUFFIX;
-      img.onerror = function() {
-        this.parentNode.className = 'affiliate-card-img affiliate-card-img-fallback';
-        this.removeAttribute('src');
-      };
-
-      imgDiv.appendChild(img);
-      card.insertBefore(imgDiv, card.firstChild);
-    }
+  function getIconPath() {
+    var depth = 0;
+    var path = window.location.pathname;
+    var parts = path.split('/').filter(Boolean);
+    if (parts.length > 2) depth = 2;
+    else if (parts.length > 1) depth = 1;
+    var prefix = '';
+    for (var i = 0; i < depth; i++) prefix += '../';
+    return prefix + 'fastmail_icon.svg';
   }
 
   function addFastmailIcons() {
     var cards = document.querySelectorAll('.affiliate-card');
+    var iconPath = getIconPath();
     for (var i = 0; i < cards.length; i++) {
       var card = cards[i];
       if (!FASTMAIL_RE.test(card.href)) continue;
@@ -45,9 +22,12 @@
 
       card.setAttribute('data-fastmail', '');
 
-      var icon = document.createElement('div');
+      var icon = document.createElement('img');
       icon.className = 'affiliate-card-icon';
-      icon.textContent = '\u2709';
+      icon.src = iconPath;
+      icon.alt = 'Fastmail';
+      icon.style.width = '32px';
+      icon.style.height = '32px';
       card.insertBefore(icon, card.firstChild);
 
       var tm = document.createElement('div');
@@ -58,7 +38,6 @@
   }
 
   function init() {
-    addProductImages();
     addFastmailIcons();
   }
 
