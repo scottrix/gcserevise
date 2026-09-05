@@ -46,6 +46,26 @@
 <span class="badge higher">Higher</span>
 <span class="badge">All Boards</span>
 </div>
+<div class="selector-bar">
+  
+<div class="selector-group">
+  <label for="board-select">Exam Board: </label>
+  <select id="board-select" onchange="updateSubjectUrl()">
+    <option value="aqa">AQA</option><option value="edexcel">Edexcel</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+  </select>
+</div>
+  
+</div>
+<div class="selector-bar">
+  
+<div class="selector-group">
+  <label for="board-select">Exam Board: </label>
+  <select id="board-select" onchange="updateSubjectUrl()">
+    <option value="aqa">AQA</option><option value="edexcel">Edexcel</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+  </select>
+</div>
+  
+</div>
 <p class="topic-desc">Complete revision notes for GCSE French covering 32 topics across 3 themes plus grammar. Aligned with AQA, Edexcel, OCR, Eduqas and CCEA specifications. Covers Theme 1 (People and Lifestyle), Theme 2 (Popular Culture), Theme 3 (Communication and the World Around Us) and essential grammar.</p>
 </article>
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
@@ -361,5 +381,66 @@ document.getElementById("theme-toggle").textContent = "☀️";
 </aside>
 <script src="sidebar.js"></script>
 <script src="affiliate-images.js"></script>
+
+<script>
+function updateSubjectUrl() {
+    const board = document.getElementById('board-select')?.value || 'aqa';
+    const tier = document.getElementById('tier-select')?.value || 'foundation';
+    const subject = '{subject_id}';
+    
+    // Update all topic links
+    document.querySelectorAll('.topic-card').forEach(card => {{
+        const href = card.getAttribute('href');
+        if (href && href.startsWith('topics/')) {{
+            // Extract topic file name
+            const match = href.match(/topics\/([^\/]+)\/([^\/]+)\.html/);
+            if (match) {{
+                const topicDir = match[1];
+                const fileName = match[2];
+                const newHref = `topics/{subject_id}/${board}/${tier}/${fileName}`;
+                card.setAttribute('href', newHref);
+            }}
+        }}
+    }});
+    
+    // Set initial values from URL
+    const path = window.location.pathname;
+    const boardMatch = path.match(/{subject_id}\/([^\/]+)\//);
+    const tierMatch = path.match(/{subject_id}\/[^\/]+\/([^\/]+)\//);
+    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
+    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
+}}
+document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+</script>
+
+<script>
+function updateSubjectUrl() {
+    const board = document.getElementById('board-select')?.value || 'aqa';
+    const tier = document.getElementById('tier-select')?.value || 'foundation';
+    
+    // Update all topic links
+    document.querySelectorAll('.topic-card').forEach(card => {
+        const href = card.getAttribute('href');
+        if (href && href.startsWith('topics/')) {
+            // Extract topic file name
+            const match = href.match(/topics\/([^\/]+)\/([^\/]+)\.html/);
+            if (match) {
+                const topicDir = match[1];
+                const fileName = match[2];
+                const newHref = `topics/french/${board}/${tier}/${fileName}`;
+                card.setAttribute('href', newHref);
+            }
+        }
+    });
+    
+    // Set initial values from URL
+    const path = window.location.pathname;
+    const boardMatch = path.match(/french\/([^\/]+)\//);
+    const tierMatch = path.match(/french\/[^\/]+\/([^\/]+)\//);
+    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
+    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
+}
+document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+</script>
 </body>
 </html>
