@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Representing Sound - GCSE Computer Science</title>
+<meta name="description" content="Learn about analogue to digital conversion, sampling rate, sample resolution and calculating sound file sizes. Free GCSE Computer Science revision.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, binary, hexadecimal, number bases, character encoding, images, sound, compression, Representing, learn, about, analogue, digital">
+<meta property="og:title" content="Representing Sound - GCSE Computer Science">
+<meta property="og:description" content="Learn about analogue to digital conversion, sampling rate, sample resolution and calculating sound file sizes. Free GCSE Computer Science revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/data-representation/CS21-representing-sound.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/data-representation/CS21-representing-sound.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Representing Sound">
+<meta name="twitter:description" content="Learn about analogue to digital conversion, sampling rate, sample resolution and calculating sound file sizes. Free GCSE Computer Science revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Calculate the file size in MB of a 5-minute stereo recording sampled at 44,100 Hz with 16-bit resolution.", "acceptedAnswer": {"@type": "Answer", "text": "File size = 44,100 x 16 x 300 x 2 = 423,360,000 bits = 52,920,000 bytes = 50.47 MB"}}, {"@type": "Question", "name": "Explain why a higher sampling rate produces better quality sound.", "acceptedAnswer": {"@type": "Answer", "text": "A higher sampling rate takes more samples per second, which means the digital recording captures more detail of the original sound wave. This means the recreated sound is closer to the original, especially for higher frequency sounds."}}, {"@type": "Question", "name": "What is the minimum sampling rate needed to accurately record a sound with a maximum frequency of 15,000 Hz?", "acceptedAnswer": {"@type": "Answer", "text": "At least 30,000 Hz (2 x 15,000), according to Nyquist's Theorem."}}, {"@type": "Question", "name": "A 60-second mono recording at 22,050 Hz with 16-bit resolution produces a file of how many kilobytes?", "acceptedAnswer": {"@type": "Answer", "text": "File size = 22,050 x 16 x 60 x 1 = 21,168,000 bits = 2,646,000 bytes = 2,584 KB"}}, {"@type": "Question", "name": "What is the difference between sampling rate and sample resolution?", "acceptedAnswer": {"@type": "Answer", "text": "Sampling rate is how many samples are taken per second (measured in Hz). Sample resolution is how many bits are used to represent each sample (measured in bits). Rate affects time-based accuracy; resolution affects amplitude accuracy."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Data Representation</span> <span>›</span>
+<span>Representing Sound</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS21: Representing Sound</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span>
+<span class="badge">Data Representation</span>
+</div>
+<p class="topic-desc">How sound is converted from analogue to digital using sampling, and how sampling rate and resolution affect quality and file size.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Analogue vs Digital Sound</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Sound is an analogue signal - a continuous wave. Computers can only store digital data (binary 0s and 1s), so analogue sound must be converted to digital form using a process called sampling.
+</div>
+
+<p>Sound waves are continuous - they have smooth, unbroken curves that represent changes in air pressure over time. Computers cannot store continuous data; they work with discrete binary values. The solution is to measure the sound wave at regular intervals and record each measurement as a binary number. This process is called analogue-to-digital conversion (ADC).</p>
+
+<ul>
+<li>Analogue sound is continuous - infinite possible values at infinite points in time</li>
+<li>Digital sound is discrete - finite number of values at specific points in time</li>
+<li>ADC converts analogue to digital for storage and processing</li>
+<li>DAC (digital-to-analogue converter) converts digital back to analogue for playback</li>
+<li>The quality of digital sound depends on how closely it approximates the original wave</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Analogy</div>
+<p>Imagine drawing a smooth curve on graph paper. You can only mark points where grid lines cross. The more grid lines (higher sampling rate) and the finer the grid (higher resolution), the closer your dots will match the curve. With fewer, coarser dots, the recreation becomes blocky and inaccurate.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Sampling Rate</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Sampling rate is the number of samples taken per second, measured in Hertz (Hz). A higher sampling rate means more measurements of the sound wave are taken each second.
+</div>
+
+<p>When digitising sound, the analogue wave is measured at regular intervals. The number of measurements taken every second is the sampling rate.</p>
+
+<ul>
+<li>Measured in Hertz (Hz) - 1 Hz = 1 sample per second</li>
+<li>CD quality uses 44,100 Hz (44.1 kHz) - 44,100 samples per second</li>
+<li>Telephone quality uses about 8,000 Hz (8 kHz)</li>
+<li>Higher sampling rate = closer to original wave = better quality = larger file size</li>
+<li>Lower sampling rate = less detail captured = poorer quality = smaller file size</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A sound wave sampled at 8,000 Hz takes 8,000 measurements every second. At 44,100 Hz, it takes 44,100 measurements every second - over 5 times as many. The higher rate captures more detail of the original sound wave, especially higher frequencies.</p>
+</div>
+
+<h3>Nyquist's Theorem</h3>
+<div class="key-point">
+<strong>Nyquist's Theorem:</strong> To accurately reproduce a sound, the sampling rate must be at least twice the highest frequency in the sound. Human hearing ranges up to about 20,000 Hz, so CD quality uses 44,100 Hz (just over 2 x 20,000).
+</div>
+</section>
+
+<section class="section">
+<h2>🎨 Sample Resolution (Bit Depth)</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Sample resolution (also called bit depth) is the number of bits used to represent each sample. More bits per sample means more possible amplitude values can be recorded.
+</div>
+
+<p>Each sample records the amplitude (height) of the sound wave at that point. The sample resolution determines how precisely the amplitude is measured:</p>
+
+<table class="comparison-table">
+<tr>
+<th>Sample Resolution</th>
+<th>Bits per Sample</th>
+<th>Number of Amplitude Values</th>
+<th>Example Use</th>
+</tr>
+<tr>
+<td>8-bit</td>
+<td>8</td>
+<td>256</td>
+<td>Telephone, basic audio</td>
+</tr>
+<tr>
+<td>16-bit</td>
+<td>16</td>
+<td>65,536</td>
+<td>CD quality audio</td>
+</tr>
+<tr>
+<td>24-bit</td>
+<td>24</td>
+<td>16,777,216</td>
+<td>Studio recording</td>
+</tr>
+<tr>
+<td>32-bit</td>
+<td>32</td>
+<td>4,294,967,296</td>
+<td>Professional audio production</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Key Formula:</strong><br>
+Number of amplitude values = 2<sup>sample resolution</sup><br>
+Example: 16-bit resolution = 2<sup>16</sup> = 65,536 possible amplitude levels
+</div>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>With 8-bit resolution, each sample can be one of 256 values. With 16-bit resolution, each sample can be one of 65,536 values. The finer resolution means the digital recording is much closer to the smooth original wave, producing less quantisation noise and better dynamic range.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📐 Calculating Sound File Size</h2>
+
+<div class="formula-box">
+<strong>Sound File Size Formula:</strong><br>
+File size (bits) = Sample rate x Sample resolution x Duration (seconds) x Number of channels<br><br>
+Where:<br>
+Sample rate = samples per second (Hz)<br>
+Sample resolution = bits per sample<br>
+Duration = length of audio in seconds<br>
+Channels = 1 for mono, 2 for stereo<br><br>
+To convert to bytes: divide by 8<br>
+To convert to KB: divide by 8 x 1024<br>
+To convert to MB: divide by 8 x 1024 x 1024
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 1</div>
+<p><strong>Calculate the file size of a 3-minute stereo audio recording at CD quality (44,100 Hz, 16-bit).</strong></p>
+<p>Duration = 3 x 60 = 180 seconds</p>
+<p>File size = 44,100 x 16 x 180 x 2</p>
+<p>= 44,100 x 16 = 705,600</p>
+<p>= 705,600 x 180 = 127,008,000</p>
+<p>= 127,008,000 x 2 = 254,016,000 bits</p>
+<p>= 254,016,000 / 8 = 31,752,000 bytes</p>
+<p>= 31,752,000 / 1024 / 1024 = 30.28 MB</p>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 2</div>
+<p><strong>Calculate the file size of a 30-second mono recording at 8,000 Hz sample rate with 8-bit resolution.</strong></p>
+<p>File size = 8,000 x 8 x 30 x 1</p>
+<p>= 64,000 x 30</p>
+<p>= 1,920,000 bits</p>
+<p>= 1,920,000 / 8 = 240,000 bytes</p>
+<p>= 240,000 / 1024 = 234.375 KB</p>
+</div>
+
+<div class="example">
+<div class="example-title">Worked Example 3</div>
+<p><strong>A 2-minute stereo recording at 22,050 Hz with 16-bit resolution. Calculate the file size in MB.</strong></p>
+<p>Duration = 2 x 60 = 120 seconds</p>
+<p>File size = 22,050 x 16 x 120 x 2</p>
+<p>= 22,050 x 16 = 352,800</p>
+<p>= 352,800 x 120 = 42,336,000</p>
+<p>= 42,336,000 x 2 = 84,672,000 bits</p>
+<p>= 84,672,000 / 8 / 1024 / 1024 = 10.09 MB</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ How Sampling Rate and Resolution Affect Quality and File Size</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Change</th>
+<th>Effect on Quality</th>
+<th>Effect on File Size</th>
+</tr>
+<tr>
+<td>Increase sampling rate</td>
+<td>Improves (captures more detail, higher frequencies)</td>
+<td>Increases (more samples per second)</td>
+</tr>
+<tr>
+<td>Decrease sampling rate</td>
+<td>Degrades (loss of high frequencies, aliasing)</td>
+<td>Decreases</td>
+</tr>
+<tr>
+<td>Increase sample resolution</td>
+<td>Improves (more amplitude levels, less quantisation noise)</td>
+<td>Increases (more bits per sample)</td>
+</tr>
+<tr>
+<td>Decrease sample resolution</td>
+<td>Degrades (more quantisation noise, reduced dynamic range)</td>
+<td>Decreases</td>
+</tr>
+<tr>
+<td>Use stereo instead of mono</td>
+<td>Improves (spatial sound, richer audio)</td>
+<td>Doubles (2 channels instead of 1)</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Important:</strong> There is always a trade-off between sound quality and file size. Higher sampling rates and greater sample resolution produce better quality audio but require significantly more storage space. Compression can reduce file size, but may also affect quality.
+</div>
+
+<div class="example">
+<div class="example-title">Comparison</div>
+<p>CD quality (44,100 Hz, 16-bit, stereo) for 1 minute = ~10.1 MB</p>
+<p>Telephone quality (8,000 Hz, 8-bit, mono) for 1 minute = ~469 KB</p>
+<p>CD quality is over 20 times larger but sounds dramatically better because it captures far more of the original sound detail.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔍 The Analogue-to-Digital Conversion Process</h2>
+
+<h3>Step-by-Step</h3>
+<ol>
+<li>The analogue sound wave is received by a microphone</li>
+<li>The microphone converts sound pressure into an electrical signal</li>
+<li>An analogue-to-digital converter (ADC) samples the signal at regular intervals (sampling rate)</li>
+<li>Each sample is rounded to the nearest available digital value (quantisation), determined by the sample resolution</li>
+<li>Each quantised value is encoded as a binary number</li>
+<li>The binary data is stored digitally</li>
+</ol>
+
+<h3>Playback (Digital-to-Analogue)</h3>
+<ol>
+<li>Binary data is read from storage</li>
+<li>A digital-to-analogue converter (DAC) converts the binary values back into an electrical signal</li>
+<li>The DAC creates a smooth curve between sample points (interpolation)</li>
+<li>An amplifier and speaker convert the electrical signal back into sound waves</li>
+</ol>
+
+<div class="key-point">
+<strong>Note:</strong> The digital recording is never a perfect copy of the original. Accuracy depends on the sampling rate and sample resolution. Higher values mean the digital version is closer to the original analogue wave.
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Forgetting to multiply by number of channels</td>
+<td>Stereo has 2 channels, doubling the data</td>
+<td>Always include channels: mono=1, stereo=2</td>
+</tr>
+<tr>
+<td>Confusing sampling rate with sample resolution</td>
+<td>Rate is how often; resolution is how precisely</td>
+<td>Rate = samples per second (Hz); Resolution = bits per sample</td>
+</tr>
+<tr>
+<td>Forgetting to convert minutes to seconds</td>
+<td>The formula uses seconds, not minutes</td>
+<td>Always multiply minutes by 60 first</td>
+</tr>
+<tr>
+<td>Not converting bits to bytes when asked</td>
+<td>Exam questions usually want KB or MB</td>
+<td>Divide by 8 for bytes, then by 1024 for KB/MB</td>
+</tr>
+<tr>
+<td>Saying "higher sampling rate = better quality" without explaining why</td>
+<td>You need to explain the connection</td>
+<td>More samples = closer to original wave = captures more detail</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Calculate the file size in MB of a 5-minute stereo recording sampled at 44,100 Hz with 16-bit resolution.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Explain why a higher sampling rate produces better quality sound.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> What is the minimum sampling rate needed to accurately record a sound with a maximum frequency of 15,000 Hz?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> A 60-second mono recording at 22,050 Hz with 16-bit resolution produces a file of how many kilobytes?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> What is the difference between sampling rate and sample resolution?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>File size = 44,100 x 16 x 300 x 2 = 423,360,000 bits = 52,920,000 bytes = 50.47 MB</li>
+<li>A higher sampling rate takes more samples per second, which means the digital recording captures more detail of the original sound wave. This means the recreated sound is closer to the original, especially for higher frequency sounds.</li>
+<li>At least 30,000 Hz (2 x 15,000), according to Nyquist's Theorem.</li>
+<li>File size = 22,050 x 16 x 60 x 1 = 21,168,000 bits = 2,646,000 bytes = 2,584 KB</li>
+<li>Sampling rate is how many samples are taken per second (measured in Hz). Sample resolution is how many bits are used to represent each sample (measured in bits). Rate affects time-based accuracy; resolution affects amplitude accuracy.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always show your working in file size calculations - marks are given for steps</li>
+<li>Remember: File size = sample rate x resolution x duration x channels</li>
+<li>Convert minutes to seconds before calculating</li>
+<li>Don't forget channels: mono = 1, stereo = 2</li>
+<li>When explaining quality, use terms like "closer to the original wave" and "more detail captured"</li>
+<li>Know Nyquist's theorem: sample rate must be at least 2x the highest frequency</li>
+<li>Be ready to compare the effect of changing sampling rate vs changing sample resolution</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing sample rate and bit depth</span> <span class="right">✓ Sample rate is how many samples per second (Hz); bit depth is how many bits per sample. Both affect quality and file size, but they measure different things.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking increasing sample rate alone guarantees CD-quality sound</span> <span class="right">✓ CD-quality requires BOTH a sample rate of 44,100 Hz AND a bit depth of 16 bits. High sample rate with low bit depth still sounds poor.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to multiply by the number of channels (mono/stereo) for sound file size</span> <span class="right">✓ Stereo sound uses 2 channels, so the file size is double that of mono. Always check if the question specifies mono or stereo.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not understanding the relationship between sample rate and Nyquist's theorem</span> <span class="right">✓ To accurately reproduce a sound, the sample rate must be at least twice the highest frequency in the sound (Nyquist rate). Human hearing goes to ~20kHz, so CD uses 44.1kHz.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A 3-minute stereo audio recording uses a sample rate of 44,100 Hz and a bit depth of 16 bits. Calculate the file size in megabytes. [3 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Duration = 3 × 60 = 180 seconds
+Samples per channel = 44,100 × 180 = 7,938,000
+Bits per sample = 16
+Number of channels = 2 (stereo)
+
+File size in bits = 44,100 × 180 × 16 × 2 = 254,016,000 bits
+File size in bytes = 254,016,000 ÷ 8 = 31,752,000 bytes
+File size in MB = 31,752,000 ÷ 1,048,576 = 30.28 MB
+
+The file size is approximately 30.28 MB.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including representing sound: sample rate and bit depth for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including representing sound: sample rate and bit depth to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including representing sound: sample rate and bit depth, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Sound file size = sample rate × duration × bit depth × channels. Always check mono (1) vs stereo (2). Convert to requested unit at the end. Higher sample rate = better quality, larger file. Higher bit depth = more dynamic range, larger file. Know CD quality: 44,100 Hz, 16-bit. Nyquist: sample rate ≥ 2× highest frequency.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3w7nk7" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Representing+Sound+Sample+Rate+Bit+Depth" target="_blank" rel="noopener">YouTube: GCSE Computer Science Representing Sound Sample Rate Bit Depth</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/data-representation/CS21-representing-sound.html&text=Representing Sound" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/data-representation/CS21-representing-sound.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/data-representation/CS21-representing-sound.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Representing Sound%20https://scottrix.github.io/gcserevise/topics/data-representation/CS21-representing-sound.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/data-representation/CS21-representing-sound.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS15-number-bases.html">Number Bases</a></li>
+<li><a href="CS16-converting-number-bases.html">Converting Number Bases</a></li>
+<li><a href="CS17-units-information.html">Units of Information</a></li>
+<li><a href="CS18-binary-arithmetic.html">Binary Arithmetic</a></li>
+<li><a href="CS19-character-encoding.html">Character Encoding</a></li>
+<li><a href="CS20-representing-images.html">Representing Images</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../data-representation/CS20-representing-images.html" class="nav-prev">← Previous Topic: Representing Images</a>
+<a href="../data-representation/CS22-data-compression.html" class="nav-next">Next Topic: Data Compression →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Data+Representation+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Data Representation Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Data Representation revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Representing+Sound+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Representing Sound Books →</div>
+  <div class="affiliate-card-desc">Browse Representing Sound books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

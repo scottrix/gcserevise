@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diodes &amp; Transistors - GCSE Electronics</title>
+<meta name="description" content="Learn about semiconductor diodes, LEDs, and bipolar junction transistors used as electronic switches and signal amplifiers.">
+<meta name="keywords" content="diode, LED, bipolar transistor, NPN, PNP, switch, amplifier, semiconductor, base, collector, emitter, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Diodes &amp; Transistors - GCSE Electronics">
+<meta property="og:description" content="Learn about semiconductor diodes, LEDs, and bipolar junction transistors used as electronic switches and signal amplifiers.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-fundamentals/diodes-transistors.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-fundamentals/diodes-transistors.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Diodes &amp;amp; Transistors">
+<meta name="twitter:description" content="Learn about semiconductor diodes, LEDs, and bipolar junction transistors used as electronic switches and signal amplifiers.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:What is the typical forward voltage drop of a silicon diode?", "acceptedAnswer": {"@type": "Answer", "text": "Approximately 0.7 V."}}, {"@type": "Question", "name": "Q:A transistor has h_FE = 100 and I_B = 50 μA. What is I_C?", "acceptedAnswer": {"@type": "Answer", "text": "I_C = h_FE × I_B = 100 × 50 × 10⁻⁶ = 5 mA."}}, {"@type": "Question", "name": "Q:Why does an LED need a series resistor?", "acceptedAnswer": {"@type": "Answer", "text": "To limit the forward current to a safe value; without it, excessive current would destroy the LED."}}, {"@type": "Question", "name": "Q:What are the three terminals of a BJT?", "acceptedAnswer": {"@type": "Answer", "text": "Base, collector and emitter."}}, {"@type": "Question", "name": "Q:Describe the difference between using a transistor as a switch and as an amplifier.", "acceptedAnswer": {"@type": "Answer", "text": "As a switch, the transistor operates between cut-off and saturation; as an amplifier, it operates in the active region where small base current changes produce proportionally larger collector current changes."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Electronic Fundamentals</span> <span>›</span>
+<span>Diodes &amp; Transistors</span>
+</nav>
+<article class="topic-header">
+<h1>E4: Diodes &amp; Transistors</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Semiconductor diodes, LEDs, bipolar transistors as switches and amplifiers</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Diodes &amp; Transistors</h2>
+<p>Semiconductor diodes, LEDs, bipolar transistors as switches and amplifiers</p>
+<div class="key-point">
+<strong>Key Fact:</strong> A semiconductor diode allows current to flow in one direction only; it has a forward voltage drop of about 0.7 V for silicon.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An LED (light-emitting diode) emits light when forward biased; it requires a series resistor to limit current.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A bipolar junction transistor (BJT) has three terminals: base, collector and emitter.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An NPN transistor switches on when the base-emitter voltage exceeds ~0.7 V, allowing collector current to flow.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> In switching mode, a transistor is driven between cut-off (off) and saturation (fully on).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Current gain h_FE = I_C/I_B; a small base current controls a much larger collector current.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> As an amplifier, a transistor operates in its active region, producing a magnified copy of the input signal.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A common-emitter amplifier inverts the signal and provides voltage, current and power gain.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A base resistor limits base current to protect the transistor; R_B = (V_in − 0.7)/I_B.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A PNP transistor operates with opposite polarity: current flows when the base is pulled low.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Transistor saturation occurs when I_C reaches its maximum, limited by the supply and load resistance.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Protection diodes are placed across inductive loads (relays, motors) to prevent back-EMF damage.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Diodes &amp; Transistors, you must know:</p>
+<ul><li><strong>Forward bias:</strong> Applying voltage across a diode in the direction that allows current to flow.</li>
+<li><strong>Reverse bias:</strong> Applying voltage across a diode in the direction that blocks current flow.</li>
+<li><strong>Current gain (h_FE):</strong> The ratio of collector current to base current in a bipolar transistor.</li>
+<li><strong>Saturation:</strong> The transistor state where collector current is at its maximum and V_CE is near zero.</li>
+<li><strong>Cut-off:</strong> The transistor state where base current is zero and no collector current flows.</li>
+<li><strong>Active region:</strong> The transistor operating region between cut-off and saturation, used for amplification.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> What is the typical forward voltage drop of a silicon diode?</p></div>
+<div class="question"><p><strong>Q:</strong> A transistor has h_FE = 100 and I_B = 50 μA. What is I_C?</p></div>
+<div class="question"><p><strong>Q:</strong> Why does an LED need a series resistor?</p></div>
+<div class="question"><p><strong>Q:</strong> What are the three terminals of a BJT?</p></div>
+<div class="question"><p><strong>Q:</strong> Describe the difference between using a transistor as a switch and as an amplifier.</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>Approximately 0.7 V.</li>
+<li>I_C = h_FE × I_B = 100 × 50 × 10⁻⁶ = 5 mA.</li>
+<li>To limit the forward current to a safe value; without it, excessive current would destroy the LED.</li>
+<li>Base, collector and emitter.</li>
+<li>As a switch, the transistor operates between cut-off and saturation; as an amplifier, it operates in the active region where small base current changes produce proportionally larger collector current changes.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always include a series resistor when calculating LED circuits.</li>
+<li>State the value of V_BE (0.7 V for silicon) before using it in calculations.</li>
+<li>For switching circuits, verify the transistor is in saturation by checking I_C &lt; h_FE × I_B.</li>
+<li>Label base, collector and emitter clearly on any circuit diagram.</li>
+<li>Remember that a common-emitter amplifier inverts the output signal.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+  <strong>GCSE Electronics Exam Tips — Diodes & Transistors:</strong><br>
+  1. For Diodes & Transistors questions, use correct electronic symbols and terminology<br>
+    2. Always show your working in calculations, including units at each step<br>
+    3. When analysing circuits, state which law or rule you are applying first<br>
+    4. For evaluation questions on Diodes & Transistors, compare component choices and consider cost, reliability and tolerance<br>
+    5. Draw circuit diagrams neatly with conventional symbols
+</div><h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Omitting the series resistor for an LED in a circuit diagram.</span> <span class="right">✓ An LED must always have a series resistor to limit current to a safe value.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing NPN and PNP transistor biasing.</span> <span class="right">✓ NPN turns on when base is higher than emitter by ~0.7 V; PNP turns on when base is lower than emitter.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Assuming a transistor in saturation has a large V_CE.</span> <span class="right">✓ In saturation, V_CE(sat) is very small, typically 0.2 V or less.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to check that the base resistor provides enough current for saturation.</span> <span class="right">✓ Calculate I_B = (V_in − 0.7)/R_B and verify I_C = h_FE × I_B exceeds the load current needed.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Explain how a bipolar junction transistor can be used both as an electronic switch and as an amplifier.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>A bipolar junction transistor (BJT) has three terminals: base, collector and emitter. A small base current I_B controls a larger collector current I_C, where I_C = h_FE × I_B. As a switch, the transistor is driven between two states: cut-off (no base current, no collector current, switch open) and saturation (base current sufficient to allow maximum collector current, switch closed). A logic-level input at the base turns the load on or off. As an amplifier, the transistor is biased into the active region between cut-off and saturation. A small varying input signal at the base produces proportional variations in collector current, resulting in a larger output signal at the collector. In a common-emitter configuration, the amplifier provides voltage, current and power gain but inverts the signal. The bias components set the operating point so the output can swing symmetrically without clipping.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of diodes &amp; transistors, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of diodes &amp; transistors to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Diodes+&amp;+Transistors" target="_blank" rel="noopener">YouTube: GCSE Electronics Diodes &amp; Transistors</a></li></ul>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/elec-fundamentals/diodes-transistors.html&text=Diodes &amp;amp; Transistors" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/elec-fundamentals/diodes-transistors.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/elec-fundamentals/diodes-transistors.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Diodes &amp;amp; Transistors%20https://scottrix.github.io/gcserevise/topics/elec-fundamentals/diodes-transistors.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/elec-fundamentals/diodes-transistors.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="capacitors-inductors.html">Capacitors &amp;amp; Inductors</a></li>
+<li><a href="ohms-law-resistors.html">Ohm&amp;#x27;s Law &amp;amp; Resistor Networks</a></li>
+<li><a href="power-energy-circuits.html">Power &amp;amp; Energy in Circuits</a></li>
+<li><a href="voltage-current-resistance.html">Voltage, Current &amp;amp; Resistance</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Electronics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Electronics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../elec-fundamentals/capacitors-inductors.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-fundamentals/power-energy-circuits.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Electronics Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Electronics revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+WJEC+Eduqas+C690QS+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE WJEC Eduqas C690QS Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE WJEC Eduqas C690QS revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Diodes+%26+Transistors+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Diodes &amp; Transistors Books →</div>
+  <div class="affiliate-card-desc">Browse Diodes &amp; Transistors books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>

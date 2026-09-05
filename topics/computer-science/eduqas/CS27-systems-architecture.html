@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Systems Architecture - GCSE Computer Science</title>
+<meta name="description" content="Learn about CPU components, registers, buses, the fetch-execute cycle and factors affecting performance. Free GCSE Computer Science revision.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, hardware, software, CPU, logic gates, programming languages, translators, memory, storage, Systems, Architecture, learn, about">
+<meta property="og:title" content="Systems Architecture - GCSE Computer Science">
+<meta property="og:description" content="Learn about CPU components, registers, buses, the fetch-execute cycle and factors affecting performance. Free GCSE Computer Science revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/computer-systems/CS27-systems-architecture.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/computer-systems/CS27-systems-architecture.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Systems Architecture">
+<meta name="twitter:description" content="Learn about CPU components, registers, buses, the fetch-execute cycle and factors affecting performance. Free GCSE Computer Science revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Describe the role of each of the following CPU components: ALU, Control Unit, PC, MAR, MDR, ACC.", "acceptedAnswer": {"@type": "Answer", "text": "ALU: performs arithmetic and logic operations. Control Unit: coordinates all CPU activities, decodes instructions. PC: holds the memory address of the next instruction to fetch. MAR: holds the memory address to read from or write to. MDR: holds the data being read from or written to memory. ACC: sto"}}, {"@type": "Question", "name": "Explain the three stages of the fetch-decode-execute cycle.", "acceptedAnswer": {"@type": "Answer", "text": "Fetch: the address in the PC is copied to the MAR, the instruction at that address is copied to the MDR, then to the CIR, and the PC is incremented. Decode: the control unit decodes the instruction in the CIR to identify the operation and operands. Execute: the instruction is carried out (e.g. ALU p"}}, {"@type": "Question", "name": "How does increasing the number of cores affect CPU performance? Why doesn't doubling the cores double the speed?", "acceptedAnswer": {"@type": "Answer", "text": "More cores allow the CPU to process multiple instructions simultaneously (parallel processing). However, doubling cores does not double speed because: not all tasks can be divided into parallel parts, some software is not written to use multiple cores, and cores share some resources (cache, bus band"}}, {"@type": "Question", "name": "What is the purpose of cache memory? Why does a larger cache improve performance?", "acceptedAnswer": {"@type": "Answer", "text": "Cache stores frequently used data and instructions close to the CPU, providing faster access than RAM. A larger cache holds more frequently used data, reducing cache misses (times the CPU must wait for data from slower RAM). Fewer cache misses = less wasted time = better performance."}}, {"@type": "Question", "name": "State whether each bus is unidirectional or bidirectional: address bus, data bus, control bus.", "acceptedAnswer": {"@type": "Answer", "text": "Address bus: unidirectional (CPU to memory). Data bus: bidirectional. Control bus: bidirectional."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Computer Systems</span> <span>›</span>
+<span>Systems Architecture</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS27: Systems Architecture</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+<span class="badge">Computer Systems</span>
+</div>
+<p class="topic-desc">CPU components, buses, registers, the fetch-decode-execute cycle, and factors affecting processor performance.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 CPU Components</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> The CPU (Central Processing Unit) is the brain of the computer. It processes data by executing instructions. The CPU contains the ALU, control unit, clock, and registers, connected by internal buses.
+</div>
+
+<h3>ALU (Arithmetic Logic Unit)</h3>
+<p>The ALU performs all calculations and logical operations:</p>
+<ul>
+<li><strong>Arithmetic operations:</strong> addition, subtraction, multiplication, division</li>
+<li><strong>Logic operations:</strong> comparisons (equal to, greater than, less than), AND, OR, NOT</li>
+<li>Produces results that are stored in the accumulator (ACC)</li>
+<li>Sets status flags based on results (zero flag, carry flag, negative flag)</li>
+</ul>
+
+<h3>Control Unit (CU)</h3>
+<p>The control unit coordinates all activities within the CPU:</p>
+<ul>
+<li>Directs the flow of data between the CPU and other components</li>
+<li>Controls the fetch-decode-execute cycle</li>
+<li>Sends control signals to other components</li>
+<li>Decodes instructions fetched from memory</li>
+<li>Tells the ALU what operation to perform</li>
+<li>Manages timing of all CPU operations using the clock</li>
+</ul>
+
+<h3>Clock</h3>
+<p>The clock generates regular pulses that synchronise all CPU operations:</p>
+<ul>
+<li>Each pulse is one "tick" of the clock</li>
+<li>Clock speed is measured in GHz (gigahertz) - billions of ticks per second</li>
+<li>Each instruction takes one or more clock cycles to complete</li>
+<li>Higher clock speed = more instructions per second = faster processing</li>
+<li>A 3 GHz CPU ticks 3 billion times per second</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>📝 CPU Registers</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Registers are small, very fast memory locations inside the CPU. They hold data and instructions currently being processed. Registers are the fastest type of memory in a computer system.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Register</th>
+<th>Full Name</th>
+<th>Function</th>
+</tr>
+<tr>
+<td>PC</td>
+<td>Program Counter</td>
+<td>Holds the memory address of the NEXT instruction to be fetched</td>
+</tr>
+<tr>
+<td>MAR</td>
+<td>Memory Address Register</td>
+<td>Holds the address in memory that is about to be read from or written to</td>
+</tr>
+<tr>
+<td>MDR</td>
+<td>Memory Data Register</td>
+<td>Holds the data that has been read from or is about to be written to memory</td>
+</tr>
+<tr>
+<td>ACC</td>
+<td>Accumulator</td>
+<td>Holds the results of calculations performed by the ALU</td>
+</tr>
+<tr>
+<td>CIR</td>
+<td>Current Instruction Register</td>
+<td>Holds the instruction that is currently being decoded and executed</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">How Registers Work Together</div>
+<p>When the CPU needs to fetch an instruction:</p>
+<p>1. The PC holds the address of the next instruction (e.g. 100)</p>
+<p>2. This address is copied to the MAR</p>
+<p>3. The instruction at that address is loaded into the MDR</p>
+<p>4. The instruction in the MDR is copied to the CIR for decoding</p>
+<p>5. The PC is incremented to point to the next instruction (e.g. 101)</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🚌 System Buses</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Buses are parallel wires that connect components of the computer system, allowing data, addresses, and control signals to move between them.
+</div>
+
+<h3>Address Bus</h3>
+<ul>
+<li>Carries memory addresses from the CPU to memory</li>
+<li>Unidirectional - signals travel from CPU to memory only</li>
+<li>The CPU places the address it wants to access on this bus</li>
+<li>Width determines how much memory can be addressed (e.g. 32-bit bus = 2<sup>32</sup> addresses)</li>
+</ul>
+
+<h3>Data Bus</h3>
+<ul>
+<li>Carries data between the CPU, memory, and I/O devices</li>
+<li>Bidirectional - data flows both ways</li>
+<li>Carries instructions read from memory AND results written back to memory</li>
+<li>Width determines how much data can be transferred at once (e.g. 64-bit bus = 64 bits at a time)</li>
+</ul>
+
+<h3>Control Bus</h3>
+<ul>
+<li>Carries control signals from the CPU to coordinate activities</li>
+<li>Bidirectional - some signals go both ways</li>
+<li>Key signals: Read/Write (determines if memory is read or written), Clock (synchronises timing), Interrupt (signals that need attention)</li>
+</ul>
+
+<table class="comparison-table">
+<tr>
+<th>Bus</th>
+<th>Carries</th>
+<th>Direction</th>
+</tr>
+<tr>
+<td>Address Bus</td>
+<td>Memory addresses</td>
+<td>Unidirectional (CPU → memory)</td>
+</tr>
+<tr>
+<td>Data Bus</td>
+<td>Data and instructions</td>
+<td>Bidirectional</td>
+</tr>
+<tr>
+<td>Control Bus</td>
+<td>Control signals (read, write, clock)</td>
+<td>Bidirectional</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔄 The Fetch-Decode-Execute Cycle</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> The fetch-decode-execute cycle (also called the instruction cycle) is the process the CPU follows for every instruction. It fetches the next instruction from memory, decodes it to understand what to do, then executes it.
+</div>
+
+<h3>Fetch Phase</h3>
+<ol>
+<li>The address in the PC is copied to the MAR via the address bus</li>
+<li>The instruction stored at that memory address is copied to the MDR via the data bus</li>
+<li>The instruction in the MDR is copied to the CIR</li>
+<li>The PC is incremented by 1 (to point to the next instruction)</li>
+</ol>
+
+<h3>Decode Phase</h3>
+<ol>
+<li>The control unit decodes the instruction in the CIR</li>
+<li>It identifies the operation (opcode) and any data needed (operand)</li>
+<li>The control unit prepares the necessary signals and pathways</li>
+</ol>
+
+<h3>Execute Phase</h3>
+<ol>
+<li>The instruction is executed (e.g. a calculation by the ALU)</li>
+<li>Results may be stored in the ACC or written back to memory</li>
+<li>If data needs to be read from or written to memory, the MAR and MDR are used again</li>
+</ol>
+
+<div class="example">
+<div class="example-title">Example: ADD 5</div>
+<p><strong>Fetch:</strong> PC holds address 50. Address 50 is copied to MAR. The instruction "ADD 5" at address 50 is copied to MDR, then to CIR. PC is incremented to 51.</p>
+<p><strong>Decode:</strong> The CU decodes "ADD 5" - it identifies this is an addition operation with the value 5.</p>
+<p><strong>Execute:</strong> The ALU adds 5 to the current value in the ACC. The result is stored in the ACC.</p>
+</div>
+
+<div class="formula-box">
+<strong>Fetch-Decode-Execute Summary:</strong><br>
+Fetch: PC → MAR → (memory) → MDR → CIR; PC++<br>
+Decode: CU interprets instruction in CIR<br>
+Execute: ALU performs operation; result stored in ACC or memory<br>
+The cycle repeats continuously while the computer is running
+</div>
+</section>
+
+<section class="section">
+<h2>⚡ Factors Affecting CPU Performance</h2>
+
+<h3>Clock Speed</h3>
+<div class="key-point">
+<strong>Key Concept:</strong> Clock speed determines how many instruction cycles the CPU can perform per second. A higher clock speed means more instructions can be processed in the same time.
+</div>
+<ul>
+<li>Measured in GHz (billions of cycles per second)</li>
+<li>Higher clock speed = more cycles per second = faster processing</li>
+<li>Overclocking increases clock speed beyond the rated speed but generates more heat</li>
+<li>Higher clock speeds increase power consumption and heat output</li>
+</ul>
+
+<h3>Number of Cores</h3>
+<div class="key-point">
+<strong>Key Concept:</strong> A core is a complete processing unit within the CPU. A multi-core processor has multiple cores that can execute instructions simultaneously.
+</div>
+<ul>
+<li>Dual-core = 2 cores, Quad-core = 4 cores, Octa-core = 8 cores</li>
+<li>More cores can process multiple instructions at the same time (parallel processing)</li>
+<li>However, doubling cores does NOT double speed - not all tasks can be split across cores</li>
+<li>Some software is not written to take advantage of multiple cores</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A quad-core 2 GHz CPU does NOT run at 8 GHz. Each core runs at 2 GHz but can work on different tasks simultaneously. If a task can be split into 4 independent parts, it could complete up to 4 times faster. But many tasks must be done sequentially and cannot be split.</p>
+</div>
+
+<h3>Cache Size</h3>
+<div class="key-point">
+<strong>Key Concept:</strong> Cache is a small, very fast memory between the CPU and RAM. It stores frequently used data and instructions so the CPU can access them quickly without waiting for RAM.
+</div>
+<ul>
+<li>L1 cache: smallest, fastest, inside the CPU core</li>
+<li>L2 cache: larger, slightly slower, per core or shared</li>
+<li>L3 cache: largest, slowest (but still faster than RAM), shared across cores</li>
+<li>Larger cache = more data available quickly = fewer slow trips to RAM = better performance</li>
+<li>Cache hit = data is in cache (fast); Cache miss = data must be fetched from RAM (slow)</li>
+</ul>
+
+<table class="comparison-table">
+<tr>
+<th>Factor</th>
+<th>How It Improves Performance</th>
+<th>Limitation</th>
+</tr>
+<tr>
+<td>Higher clock speed</td>
+<td>More cycles per second</td>
+<td>More heat, more power consumption</td>
+</tr>
+<tr>
+<td>More cores</td>
+<td>Parallel processing of multiple tasks</td>
+<td>Not all software uses multiple cores; diminishing returns</td>
+</tr>
+<tr>
+<td>Larger cache</td>
+<td>Fewer slow accesses to RAM</td>
+<td>More expensive; larger cache is slightly slower</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "the PC holds the current instruction"</td>
+<td>PC holds the address of the NEXT instruction</td>
+<td>PC = next; CIR = current</td>
+</tr>
+<tr>
+<td>Saying "more cores = faster speed"</td>
+<td>More cores = more parallel tasks, not faster clock</td>
+<td>More cores allow parallel processing, not higher speed</td>
+</tr>
+<tr>
+<td>Confusing MAR and MDR</td>
+<td>MAR holds addresses; MDR holds data</td>
+<td>MAR = Memory Address Register (where); MDR = Memory Data Register (what)</td>
+</tr>
+<tr>
+<td>Saying "the data bus is unidirectional"</td>
+<td>Data must flow both ways (read and write)</td>
+<td>Data bus is bidirectional; address bus is unidirectional</td>
+</tr>
+<tr>
+<td>Forgetting to increment the PC</td>
+<td>The PC must move to the next instruction</td>
+<td>Always mention "PC is incremented" in the fetch phase</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Describe the role of each of the following CPU components: ALU, Control Unit, PC, MAR, MDR, ACC.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Explain the three stages of the fetch-decode-execute cycle.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> How does increasing the number of cores affect CPU performance? Why doesn't doubling the cores double the speed?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is the purpose of cache memory? Why does a larger cache improve performance?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> State whether each bus is unidirectional or bidirectional: address bus, data bus, control bus.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>ALU: performs arithmetic and logic operations. Control Unit: coordinates all CPU activities, decodes instructions. PC: holds the memory address of the next instruction to fetch. MAR: holds the memory address to read from or write to. MDR: holds the data being read from or written to memory. ACC: stores the results of ALU calculations.</li>
+<li>Fetch: the address in the PC is copied to the MAR, the instruction at that address is copied to the MDR, then to the CIR, and the PC is incremented. Decode: the control unit decodes the instruction in the CIR to identify the operation and operands. Execute: the instruction is carried out (e.g. ALU performs calculation) and results are stored in the ACC or written to memory.</li>
+<li>More cores allow the CPU to process multiple instructions simultaneously (parallel processing). However, doubling cores does not double speed because: not all tasks can be divided into parallel parts, some software is not written to use multiple cores, and cores share some resources (cache, bus bandwidth).</li>
+<li>Cache stores frequently used data and instructions close to the CPU, providing faster access than RAM. A larger cache holds more frequently used data, reducing cache misses (times the CPU must wait for data from slower RAM). Fewer cache misses = less wasted time = better performance.</li>
+<li>Address bus: unidirectional (CPU to memory). Data bus: bidirectional. Control bus: bidirectional.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all CPU components and registers with their full names and functions</li>
+<li>Be able to describe the fetch-decode-execute cycle step by step</li>
+<li>Remember: PC = next instruction address, CIR = current instruction, ACC = calculation result</li>
+<li>For performance questions, discuss clock speed, cores, AND cache</li>
+<li>Never say "more cores = double the speed" - explain parallel processing carefully</li>
+<li>Know the direction of each bus: address = one way, data and control = both ways</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing the ALU and the CU within the CPU</span> <span class="right">✓ The ALU (Arithmetic Logic Unit) performs calculations and logical comparisons. The CU (Control Unit) manages and coordinates all CPU activities, decoding instructions and sending control signals.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking more cores always means faster performance for all programs</span> <span class="right">✓ More cores improve performance for programs designed to split work across cores (parallel processing). Single-threaded programs only use one core, so extra cores provide no benefit.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing cache memory is the same as RAM</span> <span class="right">✓ Cache is much smaller, faster, and more expensive than RAM. It sits between the CPU and RAM, storing frequently used instructions/data to reduce access time.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting the Fetch-Decode-Execute cycle order</span> <span class="right">✓ The cycle is always: 1) FETCH the next instruction from memory, 2) DECODE what the instruction means, 3) EXECUTE the instruction. Then repeat.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the role of the CPU in the Fetch-Decode-Execute cycle, explaining the purpose of the Program Counter, Memory Address Register, and Accumulator. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>The CPU continuously performs the Fetch-Decode-Execute cycle:
+
+FETCH: The Program Counter (PC) holds the address of the next instruction. This address is copied to the Memory Address Register (MAR). The instruction at that address is fetched from RAM and stored in the Memory Data Register (MDR). The PC is then incremented to point to the next instruction.
+
+DECODE: The Control Unit (CU) decodes the fetched instruction to determine what operation to perform and what data is needed.
+
+EXECUTE: The Arithmetic Logic Unit (ALU) performs any calculations or logic operations. The result is stored in the Accumulator (a special register that holds the results of arithmetic/logic operations). If needed, the result may be stored back in RAM.
+
+The cycle then repeats from FETCH.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including systems architecture: CPU components and the fetch-decode-execute cycle for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including systems architecture: CPU components and the fetch-decode-execute cycle to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including systems architecture: CPU components and the fetch-decode-execute cycle, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+CPU components: ALU (calculations), CU (control/decode), registers (PC, MAR, MDR, Accumulator). FDE cycle: Fetch → Decode → Execute — always in this order. PC = next instruction address. MAR = address to access. MDR = data at that address. Accumulator = calculation results. Cache: fast, small, expensive. More cores = parallel processing benefit only. Clock speed = cycles per second.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zr7ycdm" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+CPU+Architecture+Fetch+Decode+Execute+Cycle" target="_blank" rel="noopener">YouTube: GCSE Computer Science CPU Architecture Fetch Decode Execute Cycle</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/computer-systems/CS27-systems-architecture.html&text=Systems Architecture" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/computer-systems/CS27-systems-architecture.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/computer-systems/CS27-systems-architecture.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Systems Architecture%20https://scottrix.github.io/gcserevise/topics/computer-systems/CS27-systems-architecture.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/computer-systems/CS27-systems-architecture.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS23-hardware-software.html">Hardware &amp; Software</a></li>
+<li><a href="CS24-boolean-logic.html">Boolean Logic</a></li>
+<li><a href="CS25-software-classification.html">Software Classification</a></li>
+<li><a href="CS26-programming-languages-translators.html">Programming Languages &amp; Translators</a></li>
+<li><a href="CS28-memory-storage.html">Memory &amp; Storage</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../computer-systems/CS26-programming-languages-translators.html" class="nav-prev">← Previous Topic: Programming Languages & Translators</a>
+<a href="../computer-systems/CS28-memory-storage.html" class="nav-next">Next Topic: Memory & Storage →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Systems+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Systems Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Systems revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Systems+Architecture+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Systems Architecture Books →</div>
+  <div class="affiliate-card-desc">Browse Systems Architecture books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

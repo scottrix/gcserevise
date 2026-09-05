@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TCP/IP Model - GCSE Computer Science</title>
+<meta name="description" content="Learn about the four layers of the TCP/IP model, encapsulation, and the function of each layer. Free GCSE Computer Science revision.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, networks, topologies, protocols, TCP IP, network security, WiFi, ethernet, TCPIP, Model, learn, about, layers">
+<meta property="og:title" content="TCP/IP Model - GCSE Computer Science">
+<meta property="og:description" content="Learn about the four layers of the TCP/IP model, encapsulation, and the function of each layer. Free GCSE Computer Science revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/networks/CS31-tcp-ip-model.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/networks/CS31-tcp-ip-model.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="TCP/IP Model">
+<meta name="twitter:description" content="Learn about the four layers of the TCP/IP model, encapsulation, and the function of each layer. Free GCSE Computer Science revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Name the four layers of the TCP/IP model from top to bottom and state the main function of each.", "acceptedAnswer": {"@type": "Answer", "text": "Application (top): provides network services to applications (HTTP, SMTP). Transport: manages end-to-end delivery, reliability, and segmentation (TCP, UDP). Internet: handles addressing and routing across networks (IP). Link (bottom): handles physical transmission on the local network (Ethernet, Wi-"}}, {"@type": "Question", "name": "Explain the difference between TCP and UDP at the transport layer. Give an example of when each would be used.", "acceptedAnswer": {"@type": "Answer", "text": "TCP is connection-oriented, reliable (uses acknowledgements and resends lost data), and ordered. UDP is connectionless, unreliable (no guarantees), and faster. TCP is used for web browsing and email where all data must arrive. UDP is used for live video streaming and online gaming where speed matter"}}, {"@type": "Question", "name": "Describe the process of encapsulation as data is sent down the layers.", "acceptedAnswer": {"@type": "Answer", "text": "Encapsulation: the application layer creates data and passes it down. The transport layer adds a header with port numbers (creating a segment). The internet layer adds an IP header with source and destination addresses (creating a packet). The link layer adds a frame header with MAC addresses and a "}}, {"@type": "Question", "name": "Which layer of the TCP/IP model handles routing of data across networks? Which protocol operates at this layer?", "acceptedAnswer": {"@type": "Answer", "text": "The Internet layer handles routing of data across networks. The Internet Protocol (IP) operates at this layer, adding source and destination IP addresses to packets and determining the best route for them."}}, {"@type": "Question", "name": "Explain why the TCP/IP model uses layers rather than having a single protocol handle everything.", "acceptedAnswer": {"@type": "Answer", "text": "Layers allow each aspect of communication to be developed independently. A change at one layer (e.g. switching from Wi-Fi to Ethernet at the link layer) doesn't affect other layers. Layers make the model modular, easier to understand, and allow different technologies to work together. Without layers"}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Networks</span> <span>›</span>
+<span>TCP/IP Model</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS31: TCP/IP Model</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span>
+<span class="badge">Networks</span>
+</div>
+<p class="topic-desc">The four layers of the TCP/IP model, the function of each layer, and how data is encapsulated and passed between layers.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 What is the TCP/IP Model?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> The TCP/IP model is a conceptual framework that describes how data is transmitted over a network. It divides network communication into four layers, each with a specific role. Data passes down through the layers when being sent, and up through the layers when being received.
+</div>
+
+<p>The TCP/IP model is the foundation of all internet communication. It was developed by the US Department of Defense and has become the standard model for network communication. Each layer handles a different aspect of getting data from one device to another, and the layers work together seamlessly.</p>
+
+<ul>
+<li>The model has 4 layers, each with a specific function</li>
+<li>Each layer only communicates with the layer above and below it</li>
+<li>Layers can be developed and changed independently</li>
+<li>Data is encapsulated as it passes down the layers (headers added)</li>
+<li>Data is decapsulated as it passes up the layers (headers removed)</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🌐 The Four Layers</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Layer Number</th>
+<th>Layer Name</th>
+<th>Key Protocols</th>
+<th>Main Function</th>
+</tr>
+<tr>
+<td>4 (Top)</td>
+<td>Application</td>
+<td>HTTP, HTTPS, SMTP, IMAP, FTP</td>
+<td>Provides network services to applications</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Transport</td>
+<td>TCP, UDP</td>
+<td>End-to-end delivery and reliability</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Internet</td>
+<td>IP</td>
+<td>Addressing and routing across networks</td>
+</tr>
+<tr>
+<td>1 (Bottom)</td>
+<td>Link</td>
+<td>Ethernet, Wi-Fi</td>
+<td>Physical transmission on local network</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🖥️ Layer 4: Application Layer</h2>
+
+<div class="key-point">
+<strong>Function:</strong> The application layer provides network services directly to user applications. It is the layer that users interact with most directly. It determines what data is sent and how it is formatted for the application.
+</div>
+
+<ul>
+<li>Highest layer - closest to the user</li>
+<li>Provides the interface between applications and the network</li>
+<li>Formats data for the specific application being used</li>
+<li>Handles high-level protocols that applications use</li>
+<li>Protocols at this layer include: HTTP/HTTPS (web), SMTP/IMAP (email), FTP (file transfer)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you type a URL into your web browser, the browser uses HTTP (application layer) to format a request for the web page. The application layer doesn't care how the data gets to the server - it just prepares the request in the correct format.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🚚 Layer 3: Transport Layer</h2>
+
+<div class="key-point">
+<strong>Function:</strong> The transport layer manages end-to-end communication between two devices. It ensures data is delivered reliably (TCP) or quickly (UDP), breaks data into segments, and handles flow control.
+</div>
+
+<ul>
+<li>Manages communication between sending and receiving devices</li>
+<li>Breaks large data into smaller segments for transmission</li>
+<li>Numbers segments so they can be reassembled in order</li>
+<li>TCP provides reliable delivery with acknowledgements</li>
+<li>UDP provides fast delivery without guaranteed reliability</li>
+<li>Adds port numbers to identify which application should receive the data</li>
+</ul>
+
+<h3>TCP vs UDP at the Transport Layer</h3>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>TCP</th>
+<th>UDP</th>
+</tr>
+<tr>
+<td>Connection</td>
+<td>Connection-oriented (establishes connection first)</td>
+<td>Connectionless (just sends data)</td>
+</tr>
+<tr>
+<td>Reliability</td>
+<td>Reliable (acks, resends lost data)</td>
+<td>Unreliable (no guarantee of delivery)</td>
+</tr>
+<tr>
+<td>Ordering</td>
+<td>Ordered (reassembles in sequence)</td>
+<td>Not ordered (arrives in any order)</td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>Slower (overhead of checks)</td>
+<td>Faster (no overhead)</td>
+</tr>
+<tr>
+<td>Use case</td>
+<td>Web pages, email, file transfer</td>
+<td>Video streaming, online gaming, VoIP</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">When to Use Each</div>
+<p><strong>TCP:</strong> Downloading a file - every byte must arrive correctly, so reliability matters more than speed.</p>
+<p><strong>UDP:</strong> Live video call - a few dropped frames are acceptable, but delay (latency) is very noticeable, so speed matters more than guaranteed delivery.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🗺️ Layer 2: Internet Layer</h2>
+
+<div class="key-point">
+<strong>Function:</strong> The internet layer handles addressing and routing of data packets across networks. It adds IP addresses to identify the source and destination, and determines the best route for packets to take across interconnected networks.
+</div>
+
+<ul>
+<li>Adds source and destination IP addresses to packets</li>
+<li>Routers operate at this layer - they read IP addresses to forward packets</li>
+<li>Determines the best path (route) for data across networks</li>
+<li>Packets may take different routes to reach the same destination</li>
+<li>Handles IPv4 and IPv6 addressing</li>
+<li>Does not guarantee delivery (that's TCP's job at the transport layer)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you send data from London to Tokyo, the internet layer adds the destination IP address and routers at each network junction read this address to decide where to forward the packet next. The packet may pass through many routers, each making a forwarding decision based on the IP address.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔌 Layer 1: Link Layer</h2>
+
+<div class="key-point">
+<strong>Function:</strong> The link layer handles the physical transmission of data on a local network segment. It is responsible for getting data from one device to the next on the same network, using MAC addresses and physical media.
+</div>
+
+<ul>
+<li>Lowest layer - closest to the physical hardware</li>
+<li>Handles transmission on the local network (same network segment)</li>
+<li>Adds MAC addresses for device identification on the local network</li>
+<li>Converts data into signals (electrical, radio, light) for transmission</li>
+<li>Handles error detection at the physical level</li>
+<li>Technologies: Ethernet (wired), Wi-Fi (wireless)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When your laptop sends data over Wi-Fi, the link layer converts the data into radio waves transmitted through the air. When data arrives at your router via an Ethernet cable, the link layer converts the electrical signals back into data and passes it up to the internet layer.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📦 Encapsulation</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Encapsulation is the process where each layer adds its own header (control information) to the data as it passes down the layers. When data is received, each layer removes its header (decapsulation) as it passes up the layers.
+</div>
+
+<h3>Sending Data (Down the Layers)</h3>
+<ol>
+<li><strong>Application layer:</strong> Creates the data (e.g. HTTP request) and passes it down</li>
+<li><strong>Transport layer:</strong> Adds transport header (port numbers, sequence numbers) → creates a segment</li>
+<li><strong>Internet layer:</strong> Adds IP header (source and destination IP addresses) → creates a packet</li>
+<li><strong>Link layer:</strong> Adds frame header (MAC addresses) and trailer (error checking) → creates a frame</li>
+</ol>
+
+<h3>Receiving Data (Up the Layers)</h3>
+<ol>
+<li><strong>Link layer:</strong> Removes frame header/trailer, passes packet up</li>
+<li><strong>Internet layer:</strong> Removes IP header, passes segment up</li>
+<li><strong>Transport layer:</strong> Removes transport header, passes data up</li>
+<li><strong>Application layer:</strong> Receives the data (e.g. displays the web page)</li>
+</ol>
+
+<div class="example">
+<div class="example-title">Encapsulation Example</div>
+<p>Sending a web page request:</p>
+<p>1. Application: HTTP request data "GET /index.html"</p>
+<p>2. Transport: [TCP header | HTTP data] = segment</p>
+<p>3. Internet: [IP header | TCP header | HTTP data] = packet</p>
+<p>4. Link: [Frame header | IP header | TCP header | HTTP data | Frame trailer] = frame</p>
+<p>Each layer wraps the data from the layer above with its own header information.</p>
+</div>
+
+<div class="formula-box">
+<strong>Encapsulation Summary:</strong><br>
+Application: creates DATA<br>
+Transport: adds port/sequence → SEGMENT<br>
+Internet: adds IP addresses → PACKET<br>
+Link: adds MAC addresses + error check → FRAME<br><br>
+Each layer adds a header; the link layer also adds a trailer
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Confusing layer order</td>
+<td>Application is the TOP, Link is the BOTTOM</td>
+<td>Remember: Application (4) > Transport (3) > Internet (2) > Link (1)</td>
+</tr>
+<tr>
+<td>Saying IP works at the link layer</td>
+<td>IP works at the Internet layer (it's in the name!)</td>
+<td>Internet Protocol = Internet layer</td>
+</tr>
+<tr>
+<td>Forgetting encapsulation includes both headers AND trailer</td>
+<td>The link layer adds a frame trailer for error checking</td>
+<td>Link layer = header + data + trailer</td>
+</tr>
+<tr>
+<td>Confusing MAC and IP addresses</td>
+<td>MAC = link layer (local); IP = internet layer (global)</td>
+<td>MAC = hardware address (local network); IP = logical address (across networks)</td>
+</tr>
+<tr>
+<td>Saying UDP is unreliable so it's never used</td>
+<td>UDP is chosen deliberately for speed-critical applications</td>
+<td>UDP is appropriate for streaming, gaming where speed > reliability</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Name the four layers of the TCP/IP model from top to bottom and state the main function of each.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Explain the difference between TCP and UDP at the transport layer. Give an example of when each would be used.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Describe the process of encapsulation as data is sent down the layers.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Which layer of the TCP/IP model handles routing of data across networks? Which protocol operates at this layer?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain why the TCP/IP model uses layers rather than having a single protocol handle everything.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Application (top): provides network services to applications (HTTP, SMTP). Transport: manages end-to-end delivery, reliability, and segmentation (TCP, UDP). Internet: handles addressing and routing across networks (IP). Link (bottom): handles physical transmission on the local network (Ethernet, Wi-Fi).</li>
+<li>TCP is connection-oriented, reliable (uses acknowledgements and resends lost data), and ordered. UDP is connectionless, unreliable (no guarantees), and faster. TCP is used for web browsing and email where all data must arrive. UDP is used for live video streaming and online gaming where speed matters more than perfect delivery.</li>
+<li>Encapsulation: the application layer creates data and passes it down. The transport layer adds a header with port numbers (creating a segment). The internet layer adds an IP header with source and destination addresses (creating a packet). The link layer adds a frame header with MAC addresses and a frame trailer for error checking (creating a frame). Each layer wraps the data from above with its own control information.</li>
+<li>The Internet layer handles routing of data across networks. The Internet Protocol (IP) operates at this layer, adding source and destination IP addresses to packets and determining the best route for them.</li>
+<li>Layers allow each aspect of communication to be developed independently. A change at one layer (e.g. switching from Wi-Fi to Ethernet at the link layer) doesn't affect other layers. Layers make the model modular, easier to understand, and allow different technologies to work together. Without layers, a single protocol would need to handle everything from physical signals to application formatting, which would be extremely complex.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all four layers in order: Application, Transport, Internet, Link</li>
+<li>Be able to name the key protocol(s) at each layer</li>
+<li>Understand encapsulation: each layer adds a header going down, removes it going up</li>
+<li>Know when TCP vs UDP is appropriate (reliability vs speed)</li>
+<li>Remember: IP = Internet layer, HTTP/SMTP = Application layer, Ethernet/Wi-Fi = Link layer</li>
+<li>The link layer is the ONLY layer that adds a trailer (for error checking)</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing the TCP/IP model with the OSI model</span> <span class="right">✓ TCP/IP has 4 layers (Application, Transport, Internet, Link). OSI has 7 layers. TCP/IP is the practical model used on the internet; OSI is the theoretical reference model.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking data is sent as a single block across the network</span> <span class="right">✓ Data is broken into packets, each with headers containing source/destination IP, port numbers, and sequence numbers. Packets may take different routes and are reassembled at the destination.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that each layer adds its own header to the packet</span> <span class="right">✓ As data passes down the layers, each layer encapsulates it with its own header (Application → Transport → Internet → Link). At the destination, each layer strips its header going back up.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing the Internet layer handles physical transmission</span> <span class="right">✓ The Internet layer handles logical addressing (IP addresses) and routing. The Link layer handles the actual physical transmission over the network medium (Ethernet frames, WiFi signals).</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the four layers of the TCP/IP model, explaining the role of each layer and giving one protocol that operates at each layer. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Application layer: Provides the interface for user applications and handles high-level protocols. Formats data for the user and manages application-level communication. Protocol: HTTP (web browsing).
+
+Transport layer: Manages end-to-end communication between applications, ensuring data is delivered reliably or quickly depending on the protocol. Handles port addressing and error checking. Protocol: TCP (reliable delivery with error checking).
+
+Internet layer: Handles logical addressing (IP addresses) and routing of packets across networks. Determines the best path for data to travel from source to destination. Protocol: IP (Internet Protocol for addressing and routing).
+
+Link layer: Manages physical transmission of data over the network medium. Handles hardware addressing (MAC addresses), framing, and error detection at the physical level. Protocol: Ethernet (wired LAN transmission).</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including the TCP/IP model and its four layers for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including the TCP/IP model and its four layers to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including the TCP/IP model and its four layers, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+4 TCP/IP layers (top to bottom): Application → Transport → Internet → Link. Each layer has a specific role and uses specific protocols. Data is encapsulated going down, decapsulated going up. Packets contain headers from each layer. Application = user interface, Transport = delivery, Internet = routing, Link = physical. Know which protocols belong to which layer.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zqb8qxh" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+TCP+IP+Model+Layers+Encapsulation" target="_blank" rel="noopener">YouTube: GCSE Computer Science TCP IP Model Layers Encapsulation</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/networks/CS31-tcp-ip-model.html&text=TCP/IP Model" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/networks/CS31-tcp-ip-model.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/networks/CS31-tcp-ip-model.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=TCP/IP Model%20https://scottrix.github.io/gcserevise/topics/networks/CS31-tcp-ip-model.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/networks/CS31-tcp-ip-model.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS29-network-types-topologies.html">Network Types &amp; Topologies</a></li>
+<li><a href="CS30-network-protocols.html">Network Protocols</a></li>
+<li><a href="CS32-network-security.html">Network Security</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../networks/CS30-network-protocols.html" class="nav-prev">← Previous Topic: Network Protocols</a>
+<a href="../networks/CS32-network-security.html" class="nav-next">Next Topic: Network Security →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Networks+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Networks Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Networks revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=TCP/IP+Model+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse TCP/IP Model Books →</div>
+  <div class="affiliate-card-desc">Browse TCP/IP Model books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

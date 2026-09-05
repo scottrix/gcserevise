@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Probability Scale - GCSE Maths Revision</title>
+<meta name="description" content="Understand the 0-1 probability scale, theoretical probability and relative frequency. Free GCSE Maths revision.">
+<meta name="keywords" content="GCSE Maths, GCSE revision, free revision notes, probability, combined events, tree diagrams, Venn diagrams, conditional probability, relative frequency, Scale, understand, theoretical, relative, frequency, maths">
+<meta property="og:title" content="Probability Scale - GCSE Maths">
+<meta property="og:description" content="Understand the 0-1 probability scale, theoretical probability and relative frequency. Free GCSE Maths revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/probability/P3-probability-scale.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/probability/P3-probability-scale.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Probability Scale">
+<meta name="twitter:description" content="Understand the 0-1 probability scale, theoretical probability and relative frequency. Free GCSE Maths revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "A fair dice is rolled. Find P(rolling a number greater than 4).", "acceptedAnswer": {"@type": "Answer", "text": "P(5 or 6) = 2/6 = 1/3"}}, {"@type": "Question", "name": "A bag has 4 red, 5 blue and 1 green ball. What is P(green)?", "acceptedAnswer": {"@type": "Answer", "text": "P(green) = 1/10 = 0.1"}}, {"@type": "Question", "name": "A spinner is spun 80 times. It lands on red 32 times. Find the relative frequency of red.", "acceptedAnswer": {"@type": "Answer", "text": "Relative frequency = 32/80 = 0.4"}}, {"@type": "Question", "name": "Place these on a probability scale: P(A) = 0, P(B) = 2/3, P(C) = 0.25, P(D) = 1", "acceptedAnswer": {"@type": "Answer", "text": "P(A) = 0 (impossible), P(C) = 0.25 (unlikely), P(B) = 2/3 ≈ 0.67 (likely), P(D) = 1 (certain)"}}, {"@type": "Question", "name": "A coin is flipped 1000 times. Heads appears 485 times. Is the coin fair?", "acceptedAnswer": {"@type": "Answer", "text": "Relative frequency = 485/1000 = 0.485. This is close to 0.5, so the coin appears fair (within expected variation)."}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Probability</a> <span>›</span>
+<span>Probability Scale</span>
+</nav>
+
+<article class="topic-header">
+<h1>P3: Probability Scale</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Understand the 0-1 probability scale; use relative frequency and theoretical probability</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>The Probability Scale:</strong> All probabilities are between 0 and 1. 0 means impossible, 1 means certain, 0.5 means even chance.
+</div>
+
+<h3>The Probability Scale</h3>
+<div class="formula-box">
+<pre>
+0        0.25       0.5       0.75        1
+|---------|----------|----------|----------|
+Impossible Unlikely   Even      Likely    Certain
+          1/4        Chance     3/4
+                     50%
+</pre>
+</div>
+
+<h3>Key Probabilities</h3>
+<table class="comparison-table">
+<tr><th>Value</th><th>Meaning</th><th>Example</th></tr>
+<tr><td>0</td><td>Impossible (will never happen)</td><td>Rolling a 7 on normal dice</td></tr>
+<tr><td>0.5</td><td>Even chance (50-50)</td><td>Getting heads on fair coin</td></tr>
+<tr><td>1</td><td>Certain (will definitely happen)</td><td>Rolling less than 7 on normal dice</td></tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📝 Theoretical Probability</h2>
+
+<div class="key-point">
+<strong>Formula:</strong> P(event) = Number of favourable outcomes ÷ Total number of possible outcomes
+</div>
+
+<div class="formula-box">
+P(event) = <sup>Number of ways event can happen</sup>/<sub>Total number of possible outcomes</sub>
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>A fair 6-sided dice is rolled. Find P(rolling an even number).</p>
+<p><strong>Solution:</strong></p>
+<p>Favourable outcomes: 2, 4, 6 (3 outcomes)</p>
+<p>Total outcomes: 1, 2, 3, 4, 5, 6 (6 outcomes)</p>
+<p>P(even) = 3/6 = <strong>1/2</strong> = 0.5</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>A bag contains 5 red, 3 blue and 2 green balls. Find P(red).</p>
+<p><strong>Solution:</strong></p>
+<p>Total balls = 5 + 3 + 2 = 10</p>
+<p>P(red) = 5/10 = <strong>1/2</strong> = 0.5</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Relative Frequency</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Relative frequency is the experimental probability based on actual trials. It estimates the true probability.
+</div>
+
+<div class="formula-box">
+Relative Frequency = <sup>Number of times event occurs</sup>/<sub>Total number of trials</sub>
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>A coin is flipped 200 times. Heads appears 95 times. Find the relative frequency of heads.</p>
+<p><strong>Solution:</strong></p>
+<p>Relative frequency = 95/200 = <strong>0.475</strong></p>
+<p><em>Note: Theoretical probability is 0.5, but experimental varies.</em></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>A dice is rolled 60 times. The number 3 appears 8 times. Find the relative frequency of rolling a 3.</p>
+<p><strong>Solution:</strong></p>
+<p>Relative frequency = 8/60 = <strong>2/15 ≈ 0.133</strong></p>
+<p><em>Theoretical probability would be 1/6 ≈ 0.167</em></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Words and Probability</h2>
+
+<div class="key-point">
+<strong>Language:</strong> Probability can be described using words: impossible, unlikely, even chance, likely, certain.
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>Describe the probability of each event using words from the probability scale:</p>
+<p>a) P(snow in July in UK) ≈ 0.05</p>
+<p>b) P(getting a head when flipping a coin) = 0.5</p>
+<p>c) P(getting a number less than 7 on a dice) = 1</p>
+<p><strong>Answers:</strong></p>
+<p>a) Very unlikely (close to 0)</p>
+<p>b) Even chance (exactly 0.5)</p>
+<p>c) Certain (exactly 1)</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Comparing Probabilities</h2>
+
+<div class="key-point">
+<strong>Tip:</strong> Convert all probabilities to the same format (decimals, fractions or percentages) to compare them easily.
+</div>
+
+<div class="example">
+<div class="example-title">Example 6</div>
+<p>Which is more likely: P(A) = 3/8 or P(B) = 0.35?</p>
+<p><strong>Solution:</strong></p>
+<p>P(A) = 3/8 = 0.375</p>
+<p>P(B) = 0.35</p>
+<p>0.375 > 0.35, so <strong>P(A) is more likely</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> A fair dice is rolled. Find P(rolling a number greater than 4).</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A bag has 4 red, 5 blue and 1 green ball. What is P(green)?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> A spinner is spun 80 times. It lands on red 32 times. Find the relative frequency of red.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Place these on a probability scale: P(A) = 0, P(B) = 2/3, P(C) = 0.25, P(D) = 1</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A coin is flipped 1000 times. Heads appears 485 times. Is the coin fair?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>P(5 or 6) = 2/6 = 1/3</li>
+<li>P(green) = 1/10 = 0.1</li>
+<li>Relative frequency = 32/80 = 0.4</li>
+<li>P(A) = 0 (impossible), P(C) = 0.25 (unlikely), P(B) = 2/3 ≈ 0.67 (likely), P(D) = 1 (certain)</li>
+<li>Relative frequency = 485/1000 = 0.485. This is close to 0.5, so the coin appears fair (within expected variation).</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always give probabilities as fractions, decimals or percentages</li>
+<li>Never give probability as a ratio or "1 in 6" - use 1/6 instead</li>
+<li>Theoretical probability is calculated; relative frequency is from experiments</li>
+<li>More trials = relative frequency gets closer to theoretical probability</li>
+<li>Check your answer is between 0 and 1 - if not, you've made an error</li>
+</ul>
+</section>
+
+<section class="section"><h2>🧠 Problem-Solving Strategies</h2><div class="maths-skill"><h3>Problem-Solving</h3><div class="key-point">When placing events on the probability scale: (1) Calculate the exact probability first, (2) Convert to a decimal to locate it on the 0–1 scale, (3) Use the words impossible/unlikely/even chance/likely/certain to describe position, (4) For comparison problems, always convert to the same format (decimals, fractions, or percentages).</div><div class="example"><div class="example-title">Multi-Step Problem</div><p>A bag contains 3 red, 5 blue and 2 green counters. A counter is drawn at random. Place each event on the probability scale: (a) P(red), (b) P(not blue), (c) P(red or green).</p><p><strong>Solution:</strong> Total = 10. (a) P(red) = 3/10 = 0.3 — unlikely. (b) P(not blue) = 1 − 5/10 = 0.5 — even chance. (c) P(red or green) = (3+2)/10 = 5/10 = 0.5 — even chance.</p></div></div></section>
+
+<section class="section"><h2>⚠️ Common Errors</h2><div class="misconception"><h3>Watch Out!</h3><p>1. <span class="wrong">Wrong: Giving probability as a ratio like "1 in 6" or "1:6"</span> <span class="right">Correct: Write as a fraction 1/6, decimal 0.167, or percentage 16.7%</span></p><p>2. <span class="wrong">Wrong: Writing a probability greater than 1 or less than 0</span> <span class="right">Correct: All probabilities must be between 0 and 1 inclusive — if your answer is outside this range, check your calculation</span></p><p>3. <span class="wrong">Wrong: Confusing relative frequency with theoretical probability when asked to "calculate" probability</span> <span class="right">Correct: "Calculate" means use theoretical probability (favourable/total); "estimate from experiment" means use relative frequency</span></p></div></section>
+
+<section class="section"><h2>✍️ 6-Mark Exam Question</h2><div class="extended-question"><h3>Extended Answer</h3><p><strong>6 marks:</strong> A fair 10-sided dice has faces numbered 1 to 10. (a) Calculate P(prime number). (b) Calculate P(multiple of 3). (c) Show that P(prime number or multiple of 3) is NOT found by simply adding your answers to (a) and (b). Explain why.</p><button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button><div class="model-answer"><p>(a) Primes from 1–10: 2, 3, 5, 7 → 4 primes. P(prime) = 4/10 = 2/5 = 0.4.</p><p>(b) Multiples of 3 from 1–10: 3, 6, 9 → 3 values. P(multiple of 3) = 3/10 = 0.3.</p><p>(c) Numbers that are prime OR multiple of 3: 2, 3, 5, 6, 7, 9 → 6 values. P(prime or multiple of 3) = 6/10 = 0.6. But 0.4 + 0.3 = 0.7 ≠ 0.6. Simply adding gives the wrong answer because 3 is counted twice — it is both prime AND a multiple of 3. The events are not mutually exclusive.</p><p><em>Mark scheme: M1 for listing primes, A1 for P(prime)=0.4, M1 for listing multiples of 3, A1 for P(multiple of 3)=0.3, M1 for demonstrating overlap, A1 for explanation about non-mutually-exclusive events</em></p></div></div></section>
+
+<section class="section"><h2>📊 AO3: Reason &amp; Interpret</h2><div class="ao3-section"><h3>Reasoning and Interpretation</h3><p>A weather app says there is a 70% chance of rain tomorrow. Sam says "It will definitely rain." Nina says "It might rain."</p><p><strong>(a)</strong> On the probability scale, where does 70% sit?</p><p><strong>(b)</strong> Who is correct — Sam or Nina? Explain your answer.</p><p><strong>(c)</strong> Over 100 days with the same forecast, on how many days would you expect it to rain? Is this a guarantee?</p><div class="key-point"><strong>Answers:</strong> (a) 0.7 — between "likely" and "certain", closer to "likely". (b) Nina — 0.7 means likely but not certain (not equal to 1). Sam is wrong because 70% ≠ 100%. (c) Expected = 70 out of 100 days. Not a guarantee — probability is about expectation, not certainty for any single day.</div></div></section>
+
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul>
+      <li><a href="https://www.bbc.co.uk/bitesize/topics/zpqtk7h" target="_blank" rel="noopener">BBC Bitesize</a></li>
+      <li><a href="https://www.youtube.com/c/corbettmaths/videos" target="_blank" rel="noopener">Corbettmaths</a></li>
+      <li><a href="https://www.youtube.com/@TheGCSEMathsTutor" target="_blank" rel="noopener">The GCSE Maths Tutor</a></li>
+    </ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/probability/P3-probability-scale.html&text=Probability Scale" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/probability/P3-probability-scale.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/probability/P3-probability-scale.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Probability Scale%20https://scottrix.github.io/gcserevise/topics/probability/P3-probability-scale.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/probability/P3-probability-scale.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="P1-recording-outcomes.html">Recording Outcomes</a></li>
+<li><a href="P2-fairness-randomness.html">Fairness &amp; Randomness</a></li>
+<li><a href="P4-mutually-exclusive.html">Mutually Exclusive Events</a></li>
+<li><a href="P5-experimental-theoretical.html">Experimental vs Theoretical</a></li>
+<li><a href="P6-systematic-listing.html">Systematic Listing</a></li>
+<li><a href="P7-possibility-spaces.html">Possibility Spaces</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Mathematics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Mathematics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="P2-fairness-randomness.html" class="nav-prev">← Previous: Fairness & Randomness</a>
+<a href="P4-mutually-exclusive.html" class="nav-next">Next Topic: Mutually Exclusive Events →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Maths+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Maths Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Maths revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Probability+Scale+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Probability Scale Books →</div>
+  <div class="affiliate-card-desc">Browse Probability Scale books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

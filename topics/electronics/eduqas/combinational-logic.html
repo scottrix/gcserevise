@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Combinational Logic Systems - GCSE Electronics</title>
+<meta name="description" content="Study combinational logic systems including adders (half and full), multiplexers, decoders and multi-gate circuit design and analysis.">
+<meta name="keywords" content="combinational logic, half adder, full adder, multiplexer, decoder, encoder, carry, sum, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Combinational Logic Systems - GCSE Electronics">
+<meta property="og:description" content="Study combinational logic systems including adders (half and full), multiplexers, decoders and multi-gate circuit design and analysis.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-digital-systems/combinational-logic.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-digital-systems/combinational-logic.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Combinational Logic Systems">
+<meta name="twitter:description" content="Study combinational logic systems including adders (half and full), multiplexers, decoders and multi-gate circuit design and analysis.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:What logic gates does a half adder use?", "acceptedAnswer": {"@type": "Answer", "text": "An XOR gate for the Sum (A ⊕ B) and an AND gate for the Carry (A · B)."}}, {"@type": "Question", "name": "Q:How does a full adder differ from a half adder?", "acceptedAnswer": {"@type": "Answer", "text": "A full adder includes a carry-in input, allowing it to add three bits (A, B and C_in); a half adder only adds two bits."}}, {"@type": "Question", "name": "Q:How many select lines does an 8-to-1 multiplexer need?", "acceptedAnswer": {"@type": "Answer", "text": "3 select lines, since 2³ = 8."}}, {"@type": "Question", "name": "Q:What does a 3-to-8 decoder do?", "acceptedAnswer": {"@type": "Answer", "text": "It takes a 3-bit binary input and activates exactly one of its 8 output lines corresponding to that binary value."}}, {"@type": "Question", "name": "Q:Write the Boolean expressions for a full adder.", "acceptedAnswer": {"@type": "Answer", "text": "Sum = A ⊕ B ⊕ C_in; Carry-out = A·B + C_in·(A ⊕ B)."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Digital Systems</span> <span>›</span>
+<span>Combinational Logic Systems</span>
+</nav>
+<article class="topic-header">
+<h1>E8: Combinational Logic Systems</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Combining logic gates, half adder, full adder, multiplexers and decoders</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Combinational Logic Systems</h2>
+<p>Combining logic gates, half adder, full adder, multiplexers and decoders</p>
+<div class="key-point">
+<strong>Key Fact:</strong> Combinational logic produces outputs determined solely by current inputs, with no memory or feedback.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A half adder adds two single-bit binary numbers, producing Sum (XOR) and Carry (AND).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A full adder adds three bits (two inputs plus carry-in), producing Sum and Carry-out using two half adders and an OR gate.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Sum = A ⊕ B ⊕ C_in; Carry-out = A·B + C_in·(A ⊕ B).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Multiple full adders can be cascaded to build multi-bit ripple-carry adders.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A multiplexer (MUX) selects one of several inputs and routes it to a single output, controlled by select lines.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A 2ⁿ-to-1 MUX has n select lines and 2ⁿ data inputs.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A decoder converts a binary input on n lines to one of 2ⁿ output lines being active (e.g. 3-to-8 decoder).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An encoder performs the reverse of a decoder: it converts active input lines into a binary code output.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Priority encoders resolve conflicts when multiple inputs are active by selecting the highest-priority input.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Comparators compare two binary numbers and output whether A &gt; B, A = B or A &lt; B.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Combinational circuits can be analysed by writing the Boolean expression from the gate diagram or deriving a truth table.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Combinational Logic Systems, you must know:</p>
+<ul><li><strong>Half adder:</strong> A combinational circuit that adds two single bits, producing a Sum and Carry output.</li>
+<li><strong>Full adder:</strong> A combinational circuit that adds three bits (two inputs and a carry-in), producing Sum and Carry-out.</li>
+<li><strong>Multiplexer:</strong> A data selector that routes one of several inputs to a single output based on select lines.</li>
+<li><strong>Decoder:</strong> A circuit that converts a binary input into one active output line among many.</li>
+<li><strong>Ripple-carry adder:</strong> A multi-bit adder built by cascading full adders, where carry propagates from one stage to the next.</li>
+<li><strong>Priority encoder:</strong> An encoder that assigns priority to inputs so the highest-priority active input is encoded.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> What logic gates does a half adder use?</p></div>
+<div class="question"><p><strong>Q:</strong> How does a full adder differ from a half adder?</p></div>
+<div class="question"><p><strong>Q:</strong> How many select lines does an 8-to-1 multiplexer need?</p></div>
+<div class="question"><p><strong>Q:</strong> What does a 3-to-8 decoder do?</p></div>
+<div class="question"><p><strong>Q:</strong> Write the Boolean expressions for a full adder.</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>An XOR gate for the Sum (A ⊕ B) and an AND gate for the Carry (A · B).</li>
+<li>A full adder includes a carry-in input, allowing it to add three bits (A, B and C_in); a half adder only adds two bits.</li>
+<li>3 select lines, since 2³ = 8.</li>
+<li>It takes a 3-bit binary input and activates exactly one of its 8 output lines corresponding to that binary value.</li>
+<li>Sum = A ⊕ B ⊕ C_in; Carry-out = A·B + C_in·(A ⊕ B).</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>When analysing a combinational circuit, work from inputs to outputs, writing expressions at each gate.</li>
+<li>For adder questions, clearly state Sum and Carry expressions separately.</li>
+<li>Remember: a half adder cannot handle carry-in; always use a full adder when carry propagation is needed.</li>
+<li>For MUX questions, identify the number of select lines: n = log₂(number of data inputs).</li>
+<li>Build truth tables for combinational circuits by evaluating each gate step by step.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+  <strong>GCSE Electronics Exam Tips — Combinational Logic Systems:</strong><br>
+  1. For Combinational Logic Systems questions, use correct electronic symbols and terminology<br>
+    2. Always show your working in calculations, including units at each step<br>
+    3. When analysing circuits, state which law or rule you are applying first<br>
+    4. For evaluation questions on Combinational Logic Systems, compare component choices and consider cost, reliability and tolerance<br>
+    5. Draw circuit diagrams neatly with conventional symbols
+</div><h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Using a half adder where a carry-in from a previous stage is required.</span> <span class="right">✓ Use a full adder when there is a carry-in input; half adders only work for the least significant bit.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing multiplexer and decoder functions.</span> <span class="right">✓ A multiplexer selects one input from many to route to an output; a decoder activates one output from many based on a binary input.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting carry propagation delay in ripple-carry adders.</span> <span class="right">✓ Each full adder must wait for the carry from the previous stage, creating a ripple delay proportional to the number of bits.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Omitting the OR gate that combines carry terms in a full adder.</span> <span class="right">✓ Carry-out = A·B + C_in·(A ⊕ B); the two carry terms are combined with an OR gate.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the structure and operation of a full adder, and explain how multiple full adders are combined to create a multi-bit adder.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>A full adder adds three single-bit inputs: A, B and a carry-in (C_in), producing a Sum and Carry-out. The Sum is computed as A ⊕ B ⊕ C_in using two XOR gates. The Carry-out is A·B + C_in·(A ⊕ B), requiring two AND gates and one OR gate. A full adder can be built from two half adders and an OR gate: the first half adder adds A and B to give a partial sum and carry, the second half adder adds the partial sum to C_in, and the OR gate combines the two carry signals. To build a multi-bit (e.g. 4-bit) ripple-carry adder, four full adders are cascaded: the carry-out of each stage connects to the carry-in of the next. The least significant full adder has its C_in set to 0. The result is computed bit by bit, with carries rippling from right to left. This ripple propagation introduces delay — the worst case is when a carry must propagate through all stages — which limits the speed of large adders.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of combinational logic systems, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of combinational logic systems to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Combinational+Logic+Systems" target="_blank" rel="noopener">YouTube: GCSE Electronics Combinational Logic Systems</a></li></ul>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/elec-digital-systems/combinational-logic.html&text=Combinational Logic Systems" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/elec-digital-systems/combinational-logic.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/elec-digital-systems/combinational-logic.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Combinational Logic Systems%20https://scottrix.github.io/gcserevise/topics/elec-digital-systems/combinational-logic.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/elec-digital-systems/combinational-logic.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="boolean-algebra.html">Boolean Algebra</a></li>
+<li><a href="digital-systems-design.html">Digital Systems Design</a></li>
+<li><a href="logic-gates.html">Logic Gates</a></li>
+<li><a href="sequential-logic.html">Sequential Logic &amp;amp; Flip-Flops</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Electronics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Electronics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../elec-digital-systems/boolean-algebra.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-digital-systems/sequential-logic.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Electronics Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Electronics revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+WJEC+Eduqas+C690QS+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE WJEC Eduqas C690QS Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE WJEC Eduqas C690QS revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Combinational+Logic+Systems+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Combinational Logic Systems Books →</div>
+  <div class="affiliate-card-desc">Browse Combinational Logic Systems books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>

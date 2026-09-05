@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analogue Signals &amp; Filters - GCSE Electronics</title>
+<meta name="description" content="Learn about analogue signals and filters including signal types, frequency response, RC low-pass and high-pass filters, and signal conditioning for WJEC Eduqas Electronics.">
+<meta name="keywords" content="analogue signal, digital signal, frequency response, low-pass filter, high-pass filter, RC filter, cut-off frequency, signal conditioning, attenuation, decibel, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Analogue Signals &amp; Filters - GCSE Electronics">
+<meta property="og:description" content="Learn about analogue signals and filters including signal types, frequency response, RC low-pass and high-pass filters, and signal conditioning for WJEC Eduqas Electronics.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/analogue-signals-filters.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/analogue-signals-filters.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Analogue Signals &amp;amp; Filters">
+<meta name="twitter:description" content="Learn about analogue signals and filters including signal types, frequency response, RC low-pass and high-pass filters, and signal conditioning for WJEC Eduqas Electronics.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:Calculate the cut-off frequency of an RC low-pass filter with R = 1 kΩ and C = 100 nF.", "acceptedAnswer": {"@type": "Answer", "text": "f_c = 1/(2πRC) = 1/(2π × 1000 × 100 × 10⁻⁹) = 1/(6.283 × 10⁻⁴) = 1592 Hz ≈ 1.6 kHz."}}, {"@type": "Question", "name": "Q:What is the roll-off rate of a first-order RC low-pass filter above the cut-off frequency?", "acceptedAnswer": {"@type": "Answer", "text": "−20 dB/decade, which is equivalent to −6 dB/octave."}}, {"@type": "Question", "name": "Q:Explain the purpose of a voltage follower buffer in a filter circuit.", "acceptedAnswer": {"@type": "Answer", "text": "A voltage follower provides high input impedance and low output impedance, preventing the filter from being loaded by the next stage."}}, {"@type": "Question", "name": "Q:A high-pass RC filter has C = 10 nF and R = 15 kΩ. What is the cut-off frequency?", "acceptedAnswer": {"@type": "Answer", "text": "f_c = 1/(2πRC) = 1/(2π × 15000 × 10 × 10⁻⁹) = 1/(9.425 × 10⁻⁴) = 1061 Hz ≈ 1.06 kHz."}}, {"@type": "Question", "name": "Q:State two reasons for using an active filter rather than a passive RC filter.", "acceptedAnswer": {"@type": "Answer", "text": "Active filters can provide gain and do not suffer from loading effects because the op-amp buffers the output."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Analogue Systems</span> <span>›</span>
+<span>Analogue Signals &amp; Filters</span>
+</nav>
+<article class="topic-header">
+<h1>E14: Analogue Signals &amp; Filters</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Signal types, frequency response, RC filters and signal conditioning</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Analogue Signals &amp; Filters</h2>
+<p>Signal types, frequency response, RC filters and signal conditioning</p>
+<div class="key-point">
+<strong>Key Fact:</strong> An analogue signal varies continuously in amplitude and time; a digital signal has discrete voltage levels.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Frequency response describes how a circuit&#x27;s gain varies with frequency; it is typically plotted as a Bode diagram.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An RC low-pass filter allows frequencies below the cut-off to pass while attenuating higher frequencies.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An RC high-pass filter allows frequencies above the cut-off to pass while attenuating lower frequencies.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The cut-off frequency (f_c) of an RC filter: f_c = 1/(2πRC); at this frequency the output is −3 dB (0.707 of input).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Above the cut-off, a low-pass filter attenuates at −20 dB/decade (−6 dB/octave) for a first-order RC filter.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Below the cut-off, a high-pass filter attenuates at −20 dB/decade as frequency decreases.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Signal conditioning includes amplification, filtering, level shifting and impedance matching to prepare signals for processing.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A buffer (voltage follower) using an op-amp provides impedance matching: high input impedance, low output impedance, unity gain.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Cascading two first-order filters creates a second-order filter with −40 dB/decade roll-off but may require active buffering.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The time constant τ = RC determines the filter&#x27;s transient response; after 5τ the capacitor is considered fully charged.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Active filters use op-amps to provide gain and avoid the loading effects inherent in passive RC filters.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Analogue Signals &amp; Filters, you must know:</p>
+<ul><li><strong>Low-pass filter:</strong> A circuit that allows frequencies below the cut-off to pass and attenuates frequencies above it.</li>
+<li><strong>High-pass filter:</strong> A circuit that allows frequencies above the cut-off to pass and attenuates frequencies below it.</li>
+<li><strong>Cut-off frequency:</strong> The frequency at which filter output falls to −3 dB (0.707) of the pass-band value; f_c = 1/(2πRC).</li>
+<li><strong>Roll-off:</strong> The rate at which a filter attenuates signals beyond the cut-off frequency, e.g. −20 dB/decade.</li>
+<li><strong>Signal conditioning:</strong> Processing a signal (amplifying, filtering, level shifting) to make it suitable for the next stage.</li>
+<li><strong>Bode diagram:</strong> A plot of gain (in dB) and phase against frequency (log scale) showing a circuit&#x27;s frequency response.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> Calculate the cut-off frequency of an RC low-pass filter with R = 1 kΩ and C = 100 nF.</p></div>
+<div class="question"><p><strong>Q:</strong> What is the roll-off rate of a first-order RC low-pass filter above the cut-off frequency?</p></div>
+<div class="question"><p><strong>Q:</strong> Explain the purpose of a voltage follower buffer in a filter circuit.</p></div>
+<div class="question"><p><strong>Q:</strong> A high-pass RC filter has C = 10 nF and R = 15 kΩ. What is the cut-off frequency?</p></div>
+<div class="question"><p><strong>Q:</strong> State two reasons for using an active filter rather than a passive RC filter.</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>f_c = 1/(2πRC) = 1/(2π × 1000 × 100 × 10⁻⁹) = 1/(6.283 × 10⁻⁴) = 1592 Hz ≈ 1.6 kHz.</li>
+<li>−20 dB/decade, which is equivalent to −6 dB/octave.</li>
+<li>A voltage follower provides high input impedance and low output impedance, preventing the filter from being loaded by the next stage.</li>
+<li>f_c = 1/(2πRC) = 1/(2π × 15000 × 10 × 10⁻⁹) = 1/(9.425 × 10⁻⁴) = 1061 Hz ≈ 1.06 kHz.</li>
+<li>Active filters can provide gain and do not suffer from loading effects because the op-amp buffers the output.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always write the cut-off frequency formula f_c = 1/(2πRC) before substituting values.</li>
+<li>Convert all units to base SI (Ω, F, Hz) before calculating to avoid powers-of-ten errors.</li>
+<li>Remember: at the cut-off frequency, the output voltage is 0.707 × Vin (i.e. −3 dB), not zero.</li>
+<li>Distinguish between roll-off rates: first order = −20 dB/decade, second order = −40 dB/decade.</li>
+<li>When sketching Bode plots, mark the cut-off frequency clearly and show the −20 dB/decade slope.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+  <strong>GCSE Electronics Exam Tips — Analogue Signals & Filters:</strong><br>
+  1. For Analogue Signals & Filters questions, use correct electronic symbols and terminology<br>
+    2. Always show your working in calculations, including units at each step<br>
+    3. When analysing circuits, state which law or rule you are applying first<br>
+    4. For evaluation questions on Analogue Signals & Filters, compare component choices and consider cost, reliability and tolerance<br>
+    5. Draw circuit diagrams neatly with conventional symbols
+</div><h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Calculating cut-off frequency as f_c = 1/(RC) without the 2π factor.</span> <span class="right">✓ The correct formula is f_c = 1/(2πRC); the 2π factor converts angular frequency to Hz.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking the output is zero at the cut-off frequency.</span> <span class="right">✓ At f_c the output is −3 dB, which is 0.707 of the pass-band value — not zero.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing the roll-off rates of first-order and second-order filters.</span> <span class="right">✓ First-order roll-off is −20 dB/decade; second-order is −40 dB/decade.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to convert component values to base SI units before calculating.</span> <span class="right">✓ Convert kΩ to Ω, nF to F, µF to F etc. before substituting into f_c = 1/(2πRC).</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe the operation of RC low-pass and high-pass filters, explaining how the cut-off frequency is determined and how signal conditioning prepares signals for further processing.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>An RC low-pass filter consists of a resistor in series with the signal path and a capacitor in parallel to ground; it allows low frequencies to pass while attenuating high frequencies as the capacitor&#x27;s reactance decreases. An RC high-pass filter has the capacitor in series and the resistor to ground; it blocks low frequencies (where the capacitor&#x27;s reactance is high) and passes high frequencies. The cut-off frequency for both is f_c = 1/(2πRC), at which the output amplitude falls to 0.707 of the input (−3 dB). Above f_c, a low-pass filter rolls off at −20 dB/decade; below f_c, a high-pass filter rolls off at the same rate. Signal conditioning prepares raw signals for further processing by amplifying weak signals, filtering unwanted noise, level-shifting to match voltage ranges, and impedance matching using buffer amplifiers (voltage followers) to prevent loading. Active filters using op-amps overcome the limitations of passive RC filters by providing gain, eliminating loading effects and enabling sharper roll-off through higher-order designs.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of analogue signals &amp; filters, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of analogue signals &amp; filters to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Analogue+Signals+&amp;+Filters" target="_blank" rel="noopener">YouTube: GCSE Electronics Analogue Signals &amp; Filters</a></li></ul>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/analogue-signals-filters.html&text=Analogue Signals &amp;amp; Filters" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/analogue-signals-filters.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/analogue-signals-filters.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Analogue Signals &amp;amp; Filters%20https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/analogue-signals-filters.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/analogue-signals-filters.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="amplifier-circuits.html">Amplifier Circuits</a></li>
+<li><a href="comparator-circuits.html">Comparator Circuits</a></li>
+<li><a href="operational-amplifiers.html">Operational Amplifiers</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Electronics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Electronics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../elec-analogue-systems/comparator-circuits.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-practical-circuits/circuit-construction.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Electronics Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Electronics revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+WJEC+Eduqas+C690QS+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE WJEC Eduqas C690QS Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE WJEC Eduqas C690QS revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Analogue+Signals+%26+Filters+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Analogue Signals &amp; Filters Books →</div>
+  <div class="affiliate-card-desc">Browse Analogue Signals &amp; Filters books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>

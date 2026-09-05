@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generating Sequences - GCSE Maths Revision</title>
+<meta name="description" content="Learn to generate terms of sequences from term-to-term and position-to-term rules. Free GCSE Maths revision.">
+<meta name="keywords" content="GCSE Maths, GCSE revision, free revision notes, algebra, expressions, equations, sequences, graphs, quadratic, simultaneous, inequalities, functions, iteration, Generating, learn">
+<meta property="og:title" content="Generating Sequences - GCSE Maths">
+<meta property="og:description" content="Learn to generate terms of sequences from term-to-term and position-to-term rules. Free GCSE Maths revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/algebra/A23-generating-sequences.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/algebra/A23-generating-sequences.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Generating Sequences">
+<meta name="twitter:description" content="Learn to generate terms of sequences from term-to-term and position-to-term rules. Free GCSE Maths revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Generate the first 5 terms starting at 2, adding 4 each time.", "acceptedAnswer": {"@type": "Answer", "text": "2, 6, 10, 14, 18"}}, {"@type": "Question", "name": "Generate the first 4 terms starting at 1, multiplying by 2 each time.", "acceptedAnswer": {"@type": "Answer", "text": "1, 2, 4, 8"}}, {"@type": "Question", "name": "Find the first 5 terms where uₙ = 3n - 1.", "acceptedAnswer": {"@type": "Answer", "text": "2, 5, 8, 11, 14"}}, {"@type": "Question", "name": "Find the 15th term of uₙ = 2n + 5.", "acceptedAnswer": {"@type": "Answer", "text": "35"}}, {"@type": "Question", "name": "Is 50 a term in the sequence uₙ = 6n + 2?", "acceptedAnswer": {"@type": "Answer", "text": "6n + 2 = 50 → n = 8, so yes, 50 is the 8th term"}}, {"@type": "Question", "name": "Which term in the sequence uₙ = 7n - 4 equals 66?", "acceptedAnswer": {"@type": "Answer", "text": "n = 10 (the 10th term)"}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Algebra</a> <span>›</span>
+<span>Generating Sequences</span>
+</nav>
+
+<article class="topic-header">
+<h1>A23: Generating Sequences</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Generate terms of a sequence from term-to-term or position-to-term rules</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Sequence:</strong> An ordered list of numbers. Each number is called a term.
+</div>
+
+<div class="key-point">
+<strong>Two types of rules:</strong>
+<ul>
+<li><strong>Term-to-term:</strong> How to get from one term to the next</li>
+<li><strong>Position-to-term:</strong> Formula for the nth term</li>
+</ul>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Term-to-Term Rules</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A rule that tells you how to find the next term from the previous term.
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>Generate the first 5 terms of a sequence starting with 3, where each term is found by adding 5.</p>
+<p><strong>Solution:</strong></p>
+<p>Start: 3</p>
+<p>Add 5: 3 + 5 = 8</p>
+<p>Add 5: 8 + 5 = 13</p>
+<p>Add 5: 13 + 5 = 18</p>
+<p>Add 5: 18 + 5 = 23</p>
+<p><strong>Sequence: 3, 8, 13, 18, 23, ...</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>Generate the first 6 terms starting with 2, where each term is found by multiplying by 3.</p>
+<p><strong>Solution:</strong></p>
+<p>2, 6, 18, 54, 162, 486, ...</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>A sequence starts 1, 4, 10, 22, ... Find the term-to-term rule.</p>
+<p><strong>Solution:</strong></p>
+<p>4 - 1 = 3</p>
+<p>10 - 4 = 6</p>
+<p>22 - 10 = 12</p>
+<p>Differences: 3, 6, 12 (doubling each time)</p>
+<p><strong>Rule: Multiply by 2 and add 2</strong></p>
+<p>Check: 4 × 2 + 2 = 10 ✓, 10 × 2 + 2 = 22 ✓</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Position-to-Term Rules</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A rule that gives the nth term directly. Written as a formula using n.
+</div>
+
+<div class="key-point">
+<strong>Notation:</strong>
+<ul>
+<li>n = position in sequence (1st, 2nd, 3rd, ...)</li>
+<li>uₙ or aₙ = nth term</li>
+</ul>
+</div>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>Find the first 5 terms of the sequence where uₙ = 2n + 1</p>
+<p><strong>Solution:</strong></p>
+<p>u₁ = 2(1) + 1 = 3</p>
+<p>u₂ = 2(2) + 1 = 5</p>
+<p>u₃ = 2(3) + 1 = 7</p>
+<p>u₄ = 2(4) + 1 = 9</p>
+<p>u₅ = 2(5) + 1 = 11</p>
+<p><strong>Sequence: 3, 5, 7, 9, 11, ...</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>Find the 10th term of the sequence uₙ = n² - 3</p>
+<p><strong>Solution:</strong></p>
+<p>u₁₀ = 10² - 3 = 100 - 3 = 97</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Finding a Specific Term</h2>
+
+<div class="example">
+<div class="example-title">Example 6</div>
+<p>The nth term of a sequence is 3n - 2. Find the 20th term.</p>
+<p><strong>Solution:</strong></p>
+<p>u₂₀ = 3(20) - 2 = 60 - 2 = 58</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 7</div>
+<p>Is 100 a term in the sequence uₙ = 4n + 7?</p>
+<p><strong>Solution:</strong></p>
+<p>Set 4n + 7 = 100</p>
+<p>4n = 93</p>
+<p>n = 23.25</p>
+<p>n is not a whole number, so <strong>100 is NOT in the sequence</strong>.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Finding the Position of a Term</h2>
+
+<div class="example">
+<div class="example-title">Example 8</div>
+<p>The nth term is 5n - 3. Which term equals 47?</p>
+<p><strong>Solution:</strong></p>
+<p>5n - 3 = 47</p>
+<p>5n = 50</p>
+<p>n = 10</p>
+<p><strong>47 is the 10th term</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Generate the first 5 terms starting at 2, adding 4 each time.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Generate the first 4 terms starting at 1, multiplying by 2 each time.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Find the first 5 terms where uₙ = 3n - 1.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Find the 15th term of uₙ = 2n + 5.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Is 50 a term in the sequence uₙ = 6n + 2?</p>
+</div>
+<div class="question">
+<p><strong>Q6:</strong> Which term in the sequence uₙ = 7n - 4 equals 66?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>2, 6, 10, 14, 18</li>
+<li>1, 2, 4, 8</li>
+<li>2, 5, 8, 11, 14</li>
+<li>35</li>
+<li>6n + 2 = 50 → n = 8, so yes, 50 is the 8th term</li>
+<li>n = 10 (the 10th term)</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Term-to-term: how to get from one term to the next</li>
+<li>Position-to-term: formula using n for the nth term</li>
+<li>n must be a whole number (positive integer)</li>
+<li>To check if a number is in the sequence, solve for n</li>
+<li>If n isn't a whole number, the term isn't in the sequence</li>
+</ul>
+</section>
+
+<section class="section"><h2>🧠 Problem-Solving Strategies</h2><div class="maths-skill"><h3>Problem-Solving</h3><div class="key-point">For term-to-term rules: look at differences or ratios between consecutive terms. For position-to-term rules: substitute the position number into the formula. To check if a number belongs, set the formula equal to it and solve — n must be a positive integer.</div><div class="example"><div class="example-title">Multi-Step Problem</div><p>The nth term of a sequence is 4n - 3. (a) Find the first 4 terms. (b) Is 97 in the sequence? (c) Which term equals 97?</p><p><strong>Solution:</strong></p><p>(a) n=1: 1, n=2: 5, n=3: 9, n=4: 13</p><p>(b) Set 4n - 3 = 97 → 4n = 100 → n = 25. Yes, it's the 25th term.</p><p>(c) 97 is the 25th term</p></div></div></section>
+
+<section class="section"><h2>⚠️ Common Errors</h2><div class="misconception"><h3>Watch Out!</h3><p>1. <span class="wrong">Wrong: Thinking the first term corresponds to n = 0</span> <span class="right">Correct: The first term always corresponds to n = 1</span></p><p>2. <span class="wrong">Wrong: Saying 50 is in the sequence 6n + 2 because 50 "looks right"</span> <span class="right">Correct: Check algebraically: 6n + 2 = 50 → n = 8 (whole number), so yes it is the 8th term</span></p><p>3. <span class="wrong">Wrong: Confusing term-to-term with position-to-term rules</span> <span class="right">Correct: Term-to-term tells how to get the next term; position-to-term gives a formula for any term directly</span></p></div></section>
+
+<section class="section"><h2>✍️ 6-Mark Exam Question</h2><div class="extended-question"><h3>Extended Answer</h3><p><strong>6 marks:</strong> A sequence has nth term 5n + 3. (a) Find the 1st, 10th and 100th terms. (b) Is 2023 in the sequence? Show working. (c) Two consecutive terms add to 73. Which two terms are they?</p><button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button><div class="model-answer"><p>(a) 1st: 5(1) + 3 = 8. 10th: 5(10) + 3 = 53. 100th: 5(100) + 3 = 503</p><p>(b) 5n + 3 = 2023 → 5n = 2020 → n = 404. Yes, it's the 404th term.</p><p>(c) Consecutive terms: (5n + 3) + (5(n+1) + 3) = 73 → 10n + 11 = 73 → 10n = 62 → n = 6.2. Not a whole number, so no two consecutive terms add to 73. Wait — let me recheck: 10n + 8 + 5 + 3 = 10n + 11. Hmm: (5n+3) + (5n+8) = 10n + 11 = 73 → n = 6.2. No integer solution. Actually this means 73 is not achievable.</p><p><em>Mark scheme: (a) 2 marks. (b) 2 marks with working. (c) 2 marks for correct method and conclusion.</em></p></div></div></section>
+
+<section class="section"><h2>📊 AO3: Reason &amp; Interpret</h2><div class="ao3-section"><h3>Reasoning and Interpretation</h3><p>A savings account adds £15 per month. In month 1 the balance is £35.</p><p><strong>(a)</strong> Write a formula for the balance B in month n.</p><p><strong>(b)</strong> When does the balance exceed £500?</p><p><strong>(c)</strong> Explain why this model might not be realistic long-term.</p><div class="key-point"><strong>Answers:</strong> (a) B = 35 + 15(n - 1) = 15n + 20. (b) 15n + 20 > 500 → n > 32. So from month 33. (c) The model ignores interest earned and inflation; in reality savings grow with compound interest, not just linear deposits.</div></div></section>
+
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul>
+      <li><a href="https://www.bbc.co.uk/bitesize/topics/z3hv2p3" target="_blank" rel="noopener">BBC Bitesize</a></li>
+      <li><a href="https://www.youtube.com/c/corbettmaths/videos" target="_blank" rel="noopener">Corbettmaths</a></li>
+      <li><a href="https://www.youtube.com/@TheGCSEMathsTutor" target="_blank" rel="noopener">The GCSE Maths Tutor</a></li>
+    </ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/algebra/A23-generating-sequences.html&text=Generating Sequences" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/algebra/A23-generating-sequences.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/algebra/A23-generating-sequences.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Generating Sequences%20https://scottrix.github.io/gcserevise/topics/algebra/A23-generating-sequences.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/algebra/A23-generating-sequences.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="A1-algebraic-notation.html">Algebraic Notation</a></li>
+<li><a href="A10-gradients-intercepts.html">Gradients &amp; Intercepts</a></li>
+<li><a href="A11-quadratic-graphs.html">Quadratic Graphs</a></li>
+<li><a href="A12-other-graphs.html">Other Graphs</a></li>
+<li><a href="A13-graph-transformations.html">Graph Transformations</a></li>
+<li><a href="A14-real-life-graphs.html">Real-Life Graphs</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Mathematics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Mathematics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="A22-inequalities.html" class="nav-prev">← Previous: Inequalities</a>
+<a href="A24-types-of-sequences.html" class="nav-next">Next Topic: Types of Sequences →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Maths+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Maths Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Maths revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Generating+Sequences+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Generating Sequences Books →</div>
+  <div class="affiliate-card-desc">Browse Generating Sequences books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

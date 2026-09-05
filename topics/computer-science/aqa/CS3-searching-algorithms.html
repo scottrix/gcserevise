@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Searching Algorithms - GCSE Computer Science</title>
+<meta name="description" content="Learn about linear search and binary search algorithms for GCSE Computer Science. Free revision notes with step-by-step workings.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, algorithms, pseudo-code, flowcharts, searching, sorting, trace tables, computational thinking, learn, about, linear, search, binary">
+<meta property="og:title" content="Searching Algorithms - GCSE Computer Science">
+<meta property="og:description" content="Learn about linear search and binary search algorithms for GCSE Computer Science. Free revision notes with step-by-step workings.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/algorithms/CS3-searching-algorithms.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/algorithms/CS3-searching-algorithms.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Searching Algorithms">
+<meta name="twitter:description" content="Learn about linear search and binary search algorithms for GCSE Computer Science. Free revision notes with step-by-step workings.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Describe how a linear search works.", "acceptedAnswer": {"@type": "Answer", "text": "A linear search checks each item in a list one by one, starting from the first element, until the target is found or the end of the list is reached. It works on both sorted and unsorted data."}}, {"@type": "Question", "name": "Why must data be sorted before binary search can be used?", "acceptedAnswer": {"@type": "Answer", "text": "Binary search compares the target with the middle element and eliminates half the list based on whether the target is smaller or larger. This only works if the list is sorted, because the algorithm relies on the fact that all items before the middle are smaller and all items after are larger."}}, {"@type": "Question", "name": "Perform a binary search for the value 72 in the list [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. Show each step.", "acceptedAnswer": {"@type": "Answer", "text": "Step 1: low=0, high=9, mid=4, list[4]=16. 16<72, so low=5. Step 2: low=5, high=9, mid=7, list[7]=56. 56<72, so low=8. Step 3: low=8, high=9, mid=8, list[8]=72. 72=72, found at index 8."}}, {"@type": "Question", "name": "A sorted list contains 256 items. What is the maximum number of comparisons needed by binary search?", "acceptedAnswer": {"@type": "Answer", "text": "log₂(256) = 8. Maximum 8 comparisons."}}, {"@type": "Question", "name": "Explain one advantage and one disadvantage of linear search compared to binary search.", "acceptedAnswer": {"@type": "Answer", "text": "Advantage: Linear search works on unsorted data, unlike binary search. Disadvantage: Linear search is much slower for large datasets - O(n) vs O(log n)."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Algorithms</span> <span>›</span>
+<span>Searching Algorithms</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS3: Searching Algorithms</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">How linear search and binary search work, with step-by-step examples and comparison of when to use each.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 What is a Searching Algorithm?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A searching algorithm finds the position of a specific item (the target) within a data structure such as a list or array. If the item is found, the algorithm returns its position; if not, it indicates the item is not present.
+</div>
+
+<p>At GCSE, you need to know two searching algorithms:</p>
+<ul>
+<li><strong>Linear search</strong> - checks each item one by one from the start</li>
+<li><strong>Binary search</strong> - repeatedly halves the search space (requires sorted data)</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔍 Linear Search</h2>
+
+<div class="key-point">
+<strong>Linear search</strong> checks each item in the list sequentially, starting from the first element, until the target is found or the end of the list is reached. It works on both sorted and unsorted data.
+</div>
+
+<h3>Algorithm in Pseudo-code</h3>
+<div class="example">
+<div class="example-title">Linear Search Pseudo-code</div>
+<pre>FUNCTION linearSearch(list, target)
+    FOR i ← 0 TO LENGTH(list) - 1
+        IF list[i] = target THEN
+            RETURN i
+        ENDIF
+    NEXT i
+    RETURN -1
+ENDFUNCTION</pre>
+</div>
+
+<h3>Step-by-Step Worked Example</h3>
+<div class="example">
+<div class="example-title">Finding 7 in the list [3, 1, 7, 5, 9, 2]</div>
+<p><strong>Target:</strong> 7</p>
+<table class="comparison-table">
+<tr><th>Step</th><th>Index</th><th>Value</th><th>Match?</th></tr>
+<tr><td>1</td><td>0</td><td>3</td><td>No → move on</td></tr>
+<tr><td>2</td><td>1</td><td>1</td><td>No → move on</td></tr>
+<tr><td>3</td><td>2</td><td>7</td><td>Yes! → Return 2</td></tr>
+</table>
+<p><strong>Result:</strong> 7 found at index 2 after 3 comparisons.</p>
+</div>
+
+<div class="formula-box">
+<strong>Linear Search Performance:</strong><br>
+Best case: 1 comparison (item is first)<br>
+Worst case: n comparisons (item is last or not present)<br>
+Average case: n/2 comparisons<br>
+Time complexity: O(n) - linear
+</div>
+</section>
+
+<section class="section">
+<h2>🔲 Binary Search</h2>
+
+<div class="key-point">
+<strong>Binary search</strong> works on a <strong>sorted list</strong>. It compares the target with the middle element. If the target is smaller, the search continues in the left half. If larger, it continues in the right half. This process repeats until the item is found or the search space is empty.
+</div>
+
+<h3>Algorithm in Pseudo-code</h3>
+<div class="example">
+<div class="example-title">Binary Search Pseudo-code</div>
+<pre>FUNCTION binarySearch(list, target)
+    low ← 0
+    high ← LENGTH(list) - 1
+    WHILE low <= high
+        mid ← (low + high) DIV 2
+        IF list[mid] = target THEN
+            RETURN mid
+        ELSEIF list[mid] < target THEN
+            low ← mid + 1
+        ELSE
+            high ← mid - 1
+        ENDIF
+    ENDWHILE
+    RETURN -1
+ENDFUNCTION</pre>
+</div>
+
+<h3>Step-by-Step Worked Example</h3>
+<div class="example">
+<div class="example-title">Finding 23 in the sorted list [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]</div>
+<p><strong>Target:</strong> 23 &nbsp;&nbsp; <strong>Low:</strong> 0 &nbsp;&nbsp; <strong>High:</strong> 9</p>
+
+<table class="comparison-table">
+<tr><th>Step</th><th>Low</th><th>High</th><th>Mid</th><th>list[Mid]</th><th>Action</th></tr>
+<tr><td>1</td><td>0</td><td>9</td><td>4</td><td>16</td><td>16 < 23 → search right half → low = 5</td></tr>
+<tr><td>2</td><td>5</td><td>9</td><td>7</td><td>56</td><td>56 > 23 → search left half → high = 6</td></tr>
+<tr><td>3</td><td>5</td><td>6</td><td>5</td><td>23</td><td>23 = 23 → Found! Return 5</td></tr>
+</table>
+<p><strong>Result:</strong> 23 found at index 5 after only 3 comparisons!</p>
+</div>
+
+<div class="example">
+<div class="example-title">Finding 50 in the same list (not present)</div>
+<table class="comparison-table">
+<tr><th>Step</th><th>Low</th><th>High</th><th>Mid</th><th>list[Mid]</th><th>Action</th></tr>
+<tr><td>1</td><td>0</td><td>9</td><td>4</td><td>16</td><td>16 < 50 → low = 5</td></tr>
+<tr><td>2</td><td>5</td><td>9</td><td>7</td><td>56</td><td>56 > 50 → high = 6</td></tr>
+<tr><td>3</td><td>5</td><td>6</td><td>5</td><td>23</td><td>23 < 50 → low = 6</td></tr>
+<tr><td>4</td><td>6</td><td>6</td><td>6</td><td>38</td><td>38 < 50 → low = 7</td></tr>
+<tr><td>5</td><td>7</td><td>6</td><td>-</td><td>-</td><td>low > high → not found. Return -1</td></tr>
+</table>
+<p><strong>Result:</strong> 50 is not in the list. Only 4 comparisons needed to confirm this.</p>
+</div>
+
+<div class="formula-box">
+<strong>Binary Search Performance:</strong><br>
+Best case: 1 comparison (item is in the middle)<br>
+Worst case: log₂(n) comparisons (rounded up)<br>
+Time complexity: O(log n) - logarithmic<br>
+<strong>IMPORTANT:</strong> The list MUST be sorted first!
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ Comparing Linear and Binary Search</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Linear Search</th>
+<th>Binary Search</th>
+</tr>
+<tr>
+<td>Data requirement</td>
+<td>Works on any list (sorted or unsorted)</td>
+<td>Requires a sorted list</td>
+</tr>
+<tr>
+<td>Time complexity</td>
+<td>O(n)</td>
+<td>O(log n)</td>
+</tr>
+<tr>
+<td>Best case</td>
+<td>1 comparison</td>
+<td>1 comparison</td>
+</tr>
+<tr>
+<td>Worst case (n=1000)</td>
+<td>1000 comparisons</td>
+<td>10 comparisons</td>
+</tr>
+<tr>
+<td>Worst case (n=1,000,000)</td>
+<td>1,000,000 comparisons</td>
+<td>20 comparisons</td>
+</tr>
+<tr>
+<td>Implementation</td>
+<td>Simple - just loop through</td>
+<td>More complex - needs low/high pointers</td>
+</tr>
+<tr>
+<td>Adding items</td>
+<td>Easy - just append</td>
+<td>Must insert in correct position to maintain sort</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🤔 When to Use Each Algorithm</h2>
+
+<div class="key-point">
+<strong>Use linear search when:</strong> the list is small, the list is unsorted, or you only need to search once.
+</div>
+
+<div class="key-point">
+<strong>Use binary search when:</strong> the list is large and already sorted, or you need to search the same list many times.
+</div>
+
+<div class="example">
+<div class="example-title">Decision Example</div>
+<p><strong>Scenario A:</strong> You have an unsorted list of 20 names and need to find one person.</p>
+<p>→ Use <strong>linear search</strong> - the list is unsorted and small.</p>
+<p><strong>Scenario B:</strong> You have a sorted dictionary of 100,000 words and need to look up many words.</p>
+<p>→ Use <strong>binary search</strong> - the list is large and sorted, and you're searching repeatedly.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Using binary search on unsorted data</td>
+<td>Binary search relies on the order to eliminate half the list</td>
+<td>Sort the list first, or use linear search instead</td>
+</tr>
+<tr>
+<td>Forgetting to update low/high correctly</td>
+<td>Setting low=mid instead of mid+1 can cause infinite loops</td>
+<td>Use low ← mid + 1 and high ← mid - 1</td>
+</tr>
+<tr>
+<td>Using integer division incorrectly for mid</td>
+<td>Floating-point mid values cause errors</td>
+<td>Use mid ← (low + high) DIV 2</td>
+</tr>
+<tr>
+<td>Stopping too early in binary search</td>
+<td>The item might be in the remaining half</td>
+<td>Continue until low > high</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Describe how a linear search works.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Why must data be sorted before binary search can be used?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Perform a binary search for the value 72 in the list [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. Show each step.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> A sorted list contains 256 items. What is the maximum number of comparisons needed by binary search?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain one advantage and one disadvantage of linear search compared to binary search.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>A linear search checks each item in a list one by one, starting from the first element, until the target is found or the end of the list is reached. It works on both sorted and unsorted data.</li>
+<li>Binary search compares the target with the middle element and eliminates half the list based on whether the target is smaller or larger. This only works if the list is sorted, because the algorithm relies on the fact that all items before the middle are smaller and all items after are larger.</li>
+<li>Step 1: low=0, high=9, mid=4, list[4]=16. 16<72, so low=5. Step 2: low=5, high=9, mid=7, list[7]=56. 56<72, so low=8. Step 3: low=8, high=9, mid=8, list[8]=72. 72=72, found at index 8.</li>
+<li>log₂(256) = 8. Maximum 8 comparisons.</li>
+<li>Advantage: Linear search works on unsorted data, unlike binary search. Disadvantage: Linear search is much slower for large datasets - O(n) vs O(log n).</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always state that binary search <strong>requires sorted data</strong></li>
+<li>In binary search, use mid ← (low + high) DIV 2 (integer division)</li>
+<li>Show your working in step-by-step questions - draw a table with low, high, mid columns</li>
+<li>When comparing, mention time complexity: O(n) vs O(log n)</li>
+<li>Don't forget: linear search can work on unsorted data, binary search cannot</li>
+<li>Practise working through binary search step-by-step on paper - this is a common exam question</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking binary search works on unsorted data</span> <span class="right">✓ Binary search requires the data to be sorted first; it halves the search space by comparing to the middle element, which only works on ordered data.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing linear search and binary search time complexities</span> <span class="right">✓ Linear search is O(n) — checks each item in turn. Binary search is O(log n) — halves the search space each step. Binary search is faster for large sorted datasets.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing binary search is always better than linear search</span> <span class="right">✓ Binary search only works on sorted data and has more complex logic; for small or unsorted datasets, linear search may be simpler and equally effective.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that linear search works on any data order</span> <span class="right">✓ Linear search checks each item sequentially and works on both sorted and unsorted data — it does not require the data to be in any particular order.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A sorted list contains 1024 student names. Compare the maximum number of comparisons needed by linear search and binary search to find a specific name. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Linear search: In the worst case, it would check all 1024 items, so the maximum number of comparisons is 1024 (O(n)).
+
+Binary search: Each comparison halves the search space: 1024 → 512 → 256 → 128 → 64 → 32 → 16 → 8 → 4 → 2 → 1. This takes a maximum of 10 comparisons (O(log₂ n), since 2¹⁰ = 1024).
+
+Binary search is significantly more efficient for this sorted dataset, requiring at most 10 comparisons compared to 1024 for linear search.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including searching algorithms: linear and binary search for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including searching algorithms: linear and binary search to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including searching algorithms: linear and binary search, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+When comparing search algorithms, always state the time complexity of each (O(n) vs O(log n)) and explain what this means in practice. For binary search, always mention that the data MUST be sorted. Show your working for maximum comparisons: for binary search, calculate log₂(n). For linear search, the worst case is n comparisons. Use a worked example with a specific value of n to illustrate.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zjsg87h" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Searching+Algorithms+Linear+Binary+Search" target="_blank" rel="noopener">YouTube: GCSE Computer Science Searching Algorithms Linear Binary Search</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/algorithms/CS3-searching-algorithms.html&text=Searching Algorithms" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/algorithms/CS3-searching-algorithms.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/algorithms/CS3-searching-algorithms.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Searching Algorithms%20https://scottrix.github.io/gcserevise/topics/algorithms/CS3-searching-algorithms.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/algorithms/CS3-searching-algorithms.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS1-representing-algorithms.html">Representing Algorithms</a></li>
+<li><a href="CS2-efficiency-algorithms.html">Efficiency of Algorithms</a></li>
+<li><a href="CS4-sorting-algorithms.html">Sorting Algorithms</a></li>
+<li><a href="CS5-trace-tables.html">Trace Tables</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="CS2-efficiency-algorithms.html" class="nav-prev">← Previous: Efficiency of Algorithms</a>
+<a href="CS4-sorting-algorithms.html" class="nav-next">Next Topic: Sorting Algorithms →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Searching+Algorithms+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Searching Algorithms Books →</div>
+  <div class="affiliate-card-desc">Browse Searching Algorithms books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

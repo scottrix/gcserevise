@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Probability Fundamentals - GCSE Statistics</title>
+<meta name="description" content="GCSE Statistics probability fundamentals: 0-1 scale, expected frequency, relative risk, absolute risk, experimental vs theoretical probability, tree diagrams and Venn diagrams for Edexcel 1ST0 and AQA 8382.">
+<meta name="keywords" content="probability scale, expected frequency, relative risk, absolute risk, experimental probability, theoretical probability, tree diagram, Venn diagram, mutually exclusive, independent events, GCSE Statistics, Edexcel 1ST0 & AQA 8382">
+<meta property="og:title" content="Probability Fundamentals - GCSE Statistics">
+<meta property="og:description" content="GCSE Statistics probability fundamentals: 0-1 scale, expected frequency, relative risk, absolute risk, experimental vs theoretical probability, tree diagrams and Venn diagrams for Edexcel 1ST0 and AQA 8382.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-fundamentals.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-fundamentals.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Probability Fundamentals">
+<meta name="twitter:description" content="GCSE Statistics probability fundamentals: 0-1 scale, expected frequency, relative risk, absolute risk, experimental vs theoretical probability, tree diagrams and Venn diagrams for Edexcel 1ST0 and AQA 8382.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:A fair six-sided die is rolled 300 times. What is the expected frequency of rolling a 4?", "acceptedAnswer": {"@type": "Answer", "text": "P(4) = 1/6. Expected frequency = (1/6) × 300 = 50"}}, {"@type": "Question", "name": "Q:In a medical trial, 40 out of 1000 people taking a drug experienced side effects, compared with 80 out of 1000 taking a placebo. Calculate the relative risk.", "acceptedAnswer": {"@type": "Answer", "text": "Relative risk = P(side effects with drug) ÷ P(side effects with placebo) = (40/1000) ÷ (80/1000) = 0.04 ÷ 0.08 = 0.5. The drug group has half the risk."}}, {"@type": "Question", "name": "Q:A bag contains 4 red and 6 blue counters. Two counters are drawn without replacement. Draw a tree diagram and find P(both red).", "acceptedAnswer": {"@type": "Answer", "text": "P(R then R) = (4/10) × (3/9) = 12/90 = 2/15 ≈ 0.133"}}, {"@type": "Question", "name": "Q:In a Venn diagram, P(A) = 0.6, P(B) = 0.5 and P(A∩B) = 0.2. Find P(A∪B).", "acceptedAnswer": {"@type": "Answer", "text": "P(A∪B) = P(A) + P(B) − P(A∩B) = 0.6 + 0.5 − 0.2 = 0.9"}}, {"@type": "Question", "name": "Q:A coin is tossed 500 times and heads appears 270 times. Find the experimental probability of heads. Is the coin fair?", "acceptedAnswer": {"@type": "Answer", "text": "Experimental probability = 270/500 = 0.54. Expected for fair coin = 0.5. The result is close to 0.5 but slightly high; with 500 trials this small difference could still be due to chance."}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../statistics.html">Statistics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../statistics.html">Statistics</a> <span>›</span>
+<span>Statistical Interpretation &amp; Evaluation</span> <span>›</span>
+<span>Probability Fundamentals</span>
+</nav>
+<article class="topic-header">
+<h1>ST19: Probability Fundamentals</h1>
+<div class="topic-meta">
+<span class="badge">Edexcel 1ST0 &amp; AQA 8382</span>
+</div>
+<p class="topic-desc">Covers the foundational principles of probability including the 0–1 probability scale, expected frequency, relative risk, absolute risk, experimental versus theoretical probability, and the use of tree diagrams and Venn diagrams to calculate probabilities for combined events.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Probability Fundamentals</h2>
+<p>Covers the foundational principles of probability including the 0–1 probability scale, expected frequency, relative risk, absolute risk, experimental versus theoretical probability, and the use of tree diagrams and Venn diagrams to calculate probabilities for combined events.</p>
+<div class="key-point">
+<strong>Key Fact:</strong> All probabilities lie on the 0–1 scale: 0 means impossible, 1 means certain, 0.5 means even chance
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> P(event) = number of favourable outcomes ÷ total number of equally likely outcomes for theoretical probability
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Expected frequency = probability × number of trials; e.g. if P(green) = 0.3 and you spin 200 times, expect 60 greens
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Relative risk = P(event in group A) ÷ P(event in group B); a relative risk of 2 means group A is twice as likely to experience the event
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Absolute risk = P(event occurring); absolute risk difference = P(event in A) − P(event in B) gives the actual change in likelihood
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Experimental probability (relative frequency) = frequency of outcome ÷ total trials; it tends towards theoretical probability as trials increase (law of large numbers)
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For mutually exclusive events: P(A or B) = P(A) + P(B); they cannot happen simultaneously so there is no overlap
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For independent events: P(A and B) = P(A) × P(B); the outcome of one does not affect the other
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Tree diagrams show all possible outcomes for two or more stages; multiply along branches for ‘and’ probabilities, add across end branches for ‘or’ probabilities
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Venn diagrams use overlapping circles to represent sets; P(A∪B) = P(A) + P(B) − P(A∩B) for non-mutually exclusive events
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Conditional probability: P(A|B) = P(A∩B) ÷ P(B); the probability of A given that B has already occurred
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Sample space diagrams list all possible outcome pairs in a grid; each cell is equally likely so counting favourable cells gives the probability
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Probability Fundamentals, you must know:</p>
+<ul><li><strong>Probability:</strong> A measure on a scale from 0 to 1 of how likely an event is to occur</li>
+<li><strong>Expected frequency:</strong> The number of times an event is predicted to occur: probability × number of trials</li>
+<li><strong>Relative risk:</strong> The ratio of the probability of an event in one group to the probability in another group</li>
+<li><strong>Absolute risk:</strong> The actual probability of an event occurring, expressed as a proportion or percentage</li>
+<li><strong>Mutually exclusive:</strong> Events that cannot happen at the same time; P(A and B) = 0</li>
+<li><strong>Independent events:</strong> Events where the outcome of one does not affect the probability of the other</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> A fair six-sided die is rolled 300 times. What is the expected frequency of rolling a 4?</p></div>
+<div class="question"><p><strong>Q:</strong> In a medical trial, 40 out of 1000 people taking a drug experienced side effects, compared with 80 out of 1000 taking a placebo. Calculate the relative risk.</p></div>
+<div class="question"><p><strong>Q:</strong> A bag contains 4 red and 6 blue counters. Two counters are drawn without replacement. Draw a tree diagram and find P(both red).</p></div>
+<div class="question"><p><strong>Q:</strong> In a Venn diagram, P(A) = 0.6, P(B) = 0.5 and P(A∩B) = 0.2. Find P(A∪B).</p></div>
+<div class="question"><p><strong>Q:</strong> A coin is tossed 500 times and heads appears 270 times. Find the experimental probability of heads. Is the coin fair?</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>P(4) = 1/6. Expected frequency = (1/6) × 300 = 50</li>
+<li>Relative risk = P(side effects with drug) ÷ P(side effects with placebo) = (40/1000) ÷ (80/1000) = 0.04 ÷ 0.08 = 0.5. The drug group has half the risk.</li>
+<li>P(R then R) = (4/10) × (3/9) = 12/90 = 2/15 ≈ 0.133</li>
+<li>P(A∪B) = P(A) + P(B) − P(A∩B) = 0.6 + 0.5 − 0.2 = 0.9</li>
+<li>Experimental probability = 270/500 = 0.54. Expected for fair coin = 0.5. The result is close to 0.5 but slightly high; with 500 trials this small difference could still be due to chance.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always state probabilities as fractions, decimals or percentages — never as ratios like ‘1 in 5’</li>
+<li>When calculating relative risk, clearly identify which group is the numerator and which is the denominator; state what the value means in context</li>
+<li>In tree diagram questions, label each branch with its probability and check that pairs of branches from the same node sum to 1</li>
+<li>For Venn diagram questions, always fill in the intersection first, then work outwards to the exclusive regions</li>
+<li>When asked to compare experimental and theoretical probability, use the law of large numbers: more trials means experimental probability gets closer to theoretical probability</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+  <strong>GCSE Statistics Exam Tips — Probability Fundamentals:</strong><br>
+  1. For Probability Fundamentals questions, show every step of your working clearly — method marks count even if the final answer is wrong<br>
+    2. Check your answer makes sense in context (estimation, units, reasonableness)<br>
+    3. Use correct mathematical notation and state formulae before substituting values<br>
+    4. If a Probability Fundamentals question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line<br>
+    5. For problem-solving, identify the topic first, then recall the relevant method
+</div><h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Adding probabilities that are not mutually exclusive without subtracting the overlap</span> <span class="right">✓ Use P(A∪B) = P(A) + P(B) − P(A∩B) when events can both occur</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Multiplying probabilities without checking independence first</span> <span class="right">✓ Only multiply for ‘and’ when events are independent; for dependent events, adjust the second probability</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing relative risk and absolute risk difference</span> <span class="right">✓ Relative risk is a ratio (division); absolute risk difference is P(A) − P(B) (subtraction)</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that probabilities on branches from the same node in a tree diagram must sum to 1</span> <span class="right">✓ Always check: the probabilities of all branches from one node add to 1</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A game uses a biased coin where P(heads) = 0.6. The coin is tossed twice. Calculate the probability of getting: (a) two heads, (b) at least one tail.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>(a) P(H and H) = 0.6 × 0.6 = 0.36
+
+(b) P(at least one tail) = 1 − P(both heads) = 1 − 0.36 = 0.64
+
+Alternatively using a tree diagram:
+• P(H,T) = 0.6 × 0.4 = 0.24
+• P(T,H) = 0.4 × 0.6 = 0.24
+• P(T,T) = 0.4 × 0.4 = 0.16
+P(at least one tail) = 0.24 + 0.24 + 0.16 = 0.64
+
+Using the complement is quicker and reduces the chance of missing an outcome.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of probability fundamentals, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of probability fundamentals to interpret data, reason statistically and draw conclusions in context.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate statistical methods and conclusions, assessing appropriateness, reliability, validity and bias through the statistical enquiry cycle.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/statistics" target="_blank" rel="noopener">BBC Bitesize: GCSE Statistics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Statistics+Probability+Fundamentals" target="_blank" rel="noopener">YouTube: GCSE Statistics Probability Fundamentals</a></li></ul>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-fundamentals.html&text=Probability Fundamentals" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-fundamentals.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-fundamentals.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Probability Fundamentals%20https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-fundamentals.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-fundamentals.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="index-numbers-population-estimation.html">Index Numbers &amp;amp; Population Estimation</a></li>
+<li><a href="probability-distributions-comparisons.html">Probability Distributions &amp;amp; Comparisons</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Statistics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Statistics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../stats-calculation/time-series-moving-averages.html" class="nav-prev">← Previous Topic</a>
+<a href="../stats-interpretation/probability-distributions-comparisons.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Statistics Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Statistics revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Edexcel+1ST0+%26+AQA+8382+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Edexcel 1ST0 &amp; AQA 8382 Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Edexcel 1ST0 &amp; AQA 8382 revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Probability+Fundamentals+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Probability Fundamentals Books →</div>
+  <div class="affiliate-card-desc">Browse Probability Fundamentals books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>

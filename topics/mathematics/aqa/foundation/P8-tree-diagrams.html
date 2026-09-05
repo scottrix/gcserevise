@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tree Diagrams - GCSE Maths Revision</title>
+<meta name="description" content="Calculate probability of independent and dependent combined events using tree diagrams. Free GCSE Maths revision.">
+<meta name="keywords" content="GCSE Maths, GCSE revision, free revision notes, probability, combined events, tree diagrams, Venn diagrams, conditional probability, relative frequency, Tree, Diagrams, calculate, independent, dependent, combined">
+<meta property="og:title" content="Tree Diagrams - GCSE Maths">
+<meta property="og:description" content="Calculate probability of independent and dependent combined events using tree diagrams. Free GCSE Maths revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/probability/P8-tree-diagrams.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/probability/P8-tree-diagrams.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tree Diagrams">
+<meta name="twitter:description" content="Calculate probability of independent and dependent combined events using tree diagrams. Free GCSE Maths revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "A biased coin has P(H) = 0.7. It's flipped twice. Find P(two heads).", "acceptedAnswer": {"@type": "Answer", "text": "P(HH) = 0.7 × 0.7 = 0.49"}}, {"@type": "Question", "name": "A bag has 4 red and 6 blue balls. Two are drawn WITH replacement. Find P(both blue).", "acceptedAnswer": {"@type": "Answer", "text": "P(BB) = 6/10 × 6/10 = 36/100 = 0.36"}}, {"@type": "Question", "name": "Same bag, but WITHOUT replacement. Find P(both blue).", "acceptedAnswer": {"@type": "Answer", "text": "P(BB) = 6/10 × 5/9 = 30/90 = 1/3"}}, {"@type": "Question", "name": "A test has 80% accuracy for a disease. If someone has the disease, P(positive) = 0.8. If healthy, P(positive) = 0.2. 5% of people have the disease. Find P(positive test).", "acceptedAnswer": {"@type": "Answer", "text": "P(positive) = 0.05 × 0.8 + 0.95 × 0.2 = 0.04 + 0.19 = 0.23"}}, {"@type": "Question", "name": "A coin is flipped 3 times. Find P(at least one tail).", "acceptedAnswer": {"@type": "Answer", "text": "1 - P(HHH) = 1 - 1/8 = 7/8"}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Probability</a> <span>›</span>
+<span>Tree Diagrams</span>
+</nav>
+
+<article class="topic-header">
+<h1>P8: Tree Diagrams</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Calculate the probability of independent and dependent combined events using tree diagrams</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Tree Diagrams:</strong> A visual way to show all possible outcomes of combined events. Each branch represents an outcome with its probability.
+</div>
+
+<h3>Key Rules</h3>
+<table class="comparison-table">
+<tr><th>Rule</th><th>Description</th></tr>
+<tr><td>Branches sum to 1</td><td>P(A) + P(not A) = 1 at each branching point</td></tr>
+<tr><td>Multiply along</td><td>Multiply probabilities along branches for combined probability</td></tr>
+<tr><td>Add across</td><td>Add probabilities of different ways to get the same outcome</td></tr>
+<tr><td>Check total = 1</td><td>All final outcomes should sum to 1</td></tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📝 Drawing Tree Diagrams</h2>
+
+<div class="key-point">
+<strong>Structure:</strong> Start on the left. Each branch shows an outcome with its probability written on it. Each branch splits into further branches for subsequent events.
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>A fair coin is flipped twice. Draw a tree diagram.</p>
+<p><strong>Tree diagram:</strong></p>
+<pre>
+        ┌── H (1/2) ──→ HH (1/4)
+    H (1/2)
+    │       └── T (1/2) ──→ HT (1/4)
+Start
+    │       ┌── H (1/2) ──→ TH (1/4)
+    T (1/2)
+        └── T (1/2) ──→ TT (1/4)
+</pre>
+<p>Probabilities: P(HH) = 1/2 × 1/2 = 1/4</p>
+<p>Check: 1/4 + 1/4 + 1/4 + 1/4 = 1 ✓</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Independent Events</h2>
+
+<div class="key-point">
+<strong>Independent:</strong> The outcome of one event doesn't affect the probability of another. Probabilities stay the same at each branch.
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>A bag contains 3 red and 7 blue counters. A counter is drawn, replaced, and another drawn. Find P(at least one red).</p>
+<p><strong>Solution:</strong></p>
+<p>P(red) = 3/10, P(blue) = 7/10</p>
+<pre>
+           ┌── R (3/10) ──→ RR (9/100)
+       R (3/10)
+       │   └── B (7/10) ──→ RB (21/100)
+Start
+       │   ┌── R (3/10) ──→ BR (21/100)
+       B (7/10)
+           └── B (7/10) ──→ BB (49/100)
+</pre>
+<p>P(at least one red) = P(RR) + P(RB) + P(BR)</p>
+<p>= 9/100 + 21/100 + 21/100 = 51/100 = <strong>0.51</strong></p>
+<p><em>Alternative: 1 - P(BB) = 1 - 49/100 = 51/100</em></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Dependent Events</h2>
+
+<div class="key-point">
+<strong>Dependent:</strong> The outcome of one event affects the probability of another. Probabilities change after the first event (without replacement).
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>A bag contains 3 red and 7 blue counters. Two counters are drawn WITHOUT replacement. Find P(one of each colour).</p>
+<p><strong>Solution:</strong></p>
+<p>First draw: P(R) = 3/10, P(B) = 7/10</p>
+<p>After red: 2R, 7B left → P(R) = 2/9, P(B) = 7/9</p>
+<p>After blue: 3R, 6B left → P(R) = 3/9, P(B) = 6/9</p>
+<pre>
+           ┌── R (2/9) ──→ RR (6/90)
+       R (3/10)
+       │   └── B (7/9) ──→ RB (21/90)
+Start
+       │   ┌── R (3/9) ──→ BR (21/90)
+       B (7/10)
+           └── B (6/9) ──→ BB (42/90)
+</pre>
+<p>P(one of each) = P(RB) + P(BR)</p>
+<p>= 21/90 + 21/90 = 42/90 = 7/15</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Using Tree Diagrams for Calculation</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Multiply along branches, then add probabilities for the outcomes you want.
+</div>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>Weather forecast: P(rain) = 0.3. If it rains, P(bus late) = 0.6. If not rain, P(bus late) = 0.2. Find P(bus late).</p>
+<p><strong>Solution:</strong></p>
+<pre>
+           ┌── Late (0.6) ──→ RL (0.18)
+       Rain (0.3)
+       │   └── On time (0.4) ──→ RT (0.12)
+Start
+       │   ┌── Late (0.2) ──→ NL (0.14)
+       No rain (0.7)
+           └── On time (0.4) ──→ NT (0.56)
+</pre>
+<p>P(bus late) = P(RL) + P(NL) = 0.18 + 0.14 = <strong>0.32</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Three or More Events</h2>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>A coin is flipped 3 times. Find P(exactly 2 heads).</p>
+<p><strong>Solution:</strong></p>
+<p>Tree has 8 endpoints: HHH, HHT, HTH, HTT, THH, THT, TTH, TTT</p>
+<p>Each has probability (1/2)³ = 1/8</p>
+<p>Exactly 2 heads: HHT, HTH, THH (3 outcomes)</p>
+<p>P(exactly 2 heads) = 3 × 1/8 = <strong>3/8</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> A biased coin has P(H) = 0.7. It's flipped twice. Find P(two heads).</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A bag has 4 red and 6 blue balls. Two are drawn WITH replacement. Find P(both blue).</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Same bag, but WITHOUT replacement. Find P(both blue).</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> A test has 80% accuracy for a disease. If someone has the disease, P(positive) = 0.8. If healthy, P(positive) = 0.2. 5% of people have the disease. Find P(positive test).</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A coin is flipped 3 times. Find P(at least one tail).</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>P(HH) = 0.7 × 0.7 = 0.49</li>
+<li>P(BB) = 6/10 × 6/10 = 36/100 = 0.36</li>
+<li>P(BB) = 6/10 × 5/9 = 30/90 = 1/3</li>
+<li>P(positive) = 0.05 × 0.8 + 0.95 × 0.2 = 0.04 + 0.19 = 0.23</li>
+<li>1 - P(HHH) = 1 - 1/8 = 7/8</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always label branches with both the outcome AND probability</li>
+<li>Check branches from each point sum to 1</li>
+<li>For "without replacement" problems, update probabilities after each draw</li>
+<li>"At least one" = 1 - P(none) - use this shortcut!</li>
+<li>Check your final answer - all probabilities should sum to 1</li>
+</ul>
+</section>
+
+<section class="section"><h2>🧠 Problem-Solving Strategies</h2><div class="maths-skill"><h3>Problem-Solving</h3><div class="key-point">For tree diagram problems: (1) Always label each branch with both outcome AND probability, (2) Check that branches from each node sum to 1, (3) Multiply along branches for combined probability, (4) Add across different paths to the same result, (5) For "at least" problems, use 1 − P(none), (6) For "without replacement", update probabilities after each draw.</div><div class="example"><div class="example-title">Multi-Step Problem</div><p>A bag contains 4 red and 6 blue balls. Two balls are drawn WITHOUT replacement. Find P(both same colour) and P(at least one red).</p><p><strong>Solution:</strong> P(RR) = 4/10 × 3/9 = 12/90. P(BB) = 6/10 × 5/9 = 30/90. P(same colour) = 12/90 + 30/90 = 42/90 = 7/15. P(at least one red) = 1 − P(BB) = 1 − 30/90 = 60/90 = 2/3.</p></div></div></section>
+
+<section class="section"><h2>⚠️ Common Errors</h2><div class="misconception"><h3>Watch Out!</h3><p>1. <span class="wrong">Wrong: Adding probabilities along branches instead of multiplying</span> <span class="right">Correct: Multiply along branches (AND rule), add across different paths (OR rule)</span></p><p>2. <span class="wrong">Wrong: Using the same probabilities for both draws in a "without replacement" problem</span> <span class="right">Correct: After removing one item, the total decreases by 1 and the remaining count changes — update all probabilities</span></p><p>3. <span class="wrong">Wrong: Only counting one order (e.g. RB) when there are two ways to get one of each (RB and BR)</span> <span class="right">Correct: P(one of each) = P(RB) + P(BR) — add both paths on the tree</span></p></div></section>
+
+<section class="section"><h2>✍️ 6-Mark Exam Question</h2><div class="extended-question"><h3>Extended Answer</h3><p><strong>6 marks:</strong> A bag contains 3 red, 5 blue and 2 green counters. Two counters are drawn at random without replacement. (a) Draw a tree diagram showing all outcomes. (b) Find P(both counters are the same colour). (c) Find P(at least one green counter).</p><button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button><div class="model-answer"><p>Total = 10 counters.</p><p>(a) First draw: P(R)=3/10, P(B)=5/10, P(G)=2/10. After R: P(R)=2/9, P(B)=5/9, P(G)=2/9. After B: P(R)=3/9, P(B)=4/9, P(G)=2/9. After G: P(R)=3/8, P(B)=5/8, P(G)=1/8.</p><p>(b) P(same colour) = P(RR) + P(BB) + P(GG) = (3/10×2/9) + (5/10×4/9) + (2/10×1/8) = 6/90 + 20/90 + 2/80 = 6/90 + 20/90 + 2.25/90 = 28.25/90. Converting: 6/90 + 20/90 + 1/40 = 2/30 + 1/6 + 1/40 = 8/120 + 20/120 + 3/120 = 31/120.</p><p>(c) P(at least one green) = 1 − P(no green) = 1 − [P(RR) + P(RB) + P(BR) + P(BB)] = 1 − (6/90 + 15/90 + 15/90 + 20/90) = 1 − 56/90 = 34/90 = 17/45.</p><p><em>Mark scheme: M1 for correct first branch probabilities, M1 for correct second branch probabilities, A1 for tree diagram, M1 for same colour calculation, A1 for 31/120, M1 for complement method, A1 for 17/45</em></p></div></div></section>
+
+<section class="section"><h2>📊 AO3: Reason &amp; Interpret</h2><div class="ao3-section"><h3>Reasoning and Interpretation</h3><p>A medical test for a disease has a 95% accuracy rate. 1% of the population has the disease. If someone has the disease, P(positive) = 0.95. If someone does not have the disease, P(positive) = 0.05.</p><p><strong>(a)</strong> Draw a tree diagram and find P(positive test result).</p><p><strong>(b)</strong> Find P(has disease | positive test). This is the "real" accuracy from the patient's perspective.</p><p><strong>(c)</strong> Explain why most positive tests are actually false positives despite the 95% accuracy.</p><div class="key-point"><strong>Answers:</strong> (a) P(positive) = 0.01×0.95 + 0.99×0.05 = 0.0095 + 0.0495 = 0.059. (b) P(disease|positive) = 0.0095/0.059 ≈ 0.161 (only 16.1%!). (c) Because the disease is rare (1%), the 5% false positive rate applied to 99% of people produces many more false positives than the true positives from the 1% who actually have the disease.</div></div></section>
+
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul>
+      <li><a href="https://www.bbc.co.uk/bitesize/topics/zpqtk7h" target="_blank" rel="noopener">BBC Bitesize</a></li>
+      <li><a href="https://www.youtube.com/c/corbettmaths/videos" target="_blank" rel="noopener">Corbettmaths</a></li>
+      <li><a href="https://www.youtube.com/@TheGCSEMathsTutor" target="_blank" rel="noopener">The GCSE Maths Tutor</a></li>
+    </ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/probability/P8-tree-diagrams.html&text=Tree Diagrams" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/probability/P8-tree-diagrams.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/probability/P8-tree-diagrams.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Tree Diagrams%20https://scottrix.github.io/gcserevise/topics/probability/P8-tree-diagrams.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/probability/P8-tree-diagrams.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="P1-recording-outcomes.html">Recording Outcomes</a></li>
+<li><a href="P2-fairness-randomness.html">Fairness &amp; Randomness</a></li>
+<li><a href="P3-probability-scale.html">Probability Scale</a></li>
+<li><a href="P4-mutually-exclusive.html">Mutually Exclusive Events</a></li>
+<li><a href="P5-experimental-theoretical.html">Experimental vs Theoretical</a></li>
+<li><a href="P6-systematic-listing.html">Systematic Listing</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Mathematics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Mathematics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="P7-possibility-spaces.html" class="nav-prev">← Previous: Possibility Spaces</a>
+<a href="P9-conditional-probability.html" class="nav-next">Next Topic: Conditional Probability →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Maths+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Maths Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Maths revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Tree+Diagrams+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Tree Diagrams Books →</div>
+  <div class="affiliate-card-desc">Browse Tree Diagrams books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Input, Output &amp; String Handling - GCSE Computer Science</title>
+<meta name="description" content="Learn about INPUT, OUTPUT, string operations, character codes and type conversion for GCSE Computer Science. Free revision notes.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, programming, data types, constructs, boolean, subroutines, robust programming, input output, Input, Output, amp, String, Handling">
+<meta property="og:title" content="Input, Output &amp; String Handling - GCSE Computer Science">
+<meta property="og:description" content="Learn about INPUT, OUTPUT, string operations, character codes and type conversion for GCSE Computer Science. Free revision notes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/programming/CS11-input-output-string-handling.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/programming/CS11-input-output-string-handling.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Input, Output &amp;amp; String Handling">
+<meta name="twitter:description" content="Learn about INPUT, OUTPUT, string operations, character codes and type conversion for GCSE Computer Science. Free revision notes.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does LENGTH(\"GCSE Computer Science\") return?", "acceptedAnswer": {"@type": "Answer", "text": "20 characters (including the space)."}}, {"@type": "Question", "name": "Write pseudo-code that asks for a word and outputs the first three characters.", "acceptedAnswer": {"@type": "Answer", "text": "INPUT word\nOUTPUT SUBSTRING(word, 0, 3)"}}, {"@type": "Question", "name": "What is the ASCII code for 'A'? What is CHR(97)?", "acceptedAnswer": {"@type": "Answer", "text": "The ASCII code for 'A' is 65. CHR(97) = 'a'."}}, {"@type": "Question", "name": "Write pseudo-code that takes two numbers as input, adds them, and outputs the result as a sentence.", "acceptedAnswer": {"@type": "Answer", "text": "INPUT \"Enter first number: \", a\nINPUT \"Enter second number: \", b\nnum1 ← FLOAT(a)\nnum2 ← FLOAT(b)\ntotal ← num1 + num2\nOUTPUT a & \" + \" & b & \" = \" & STR(total)"}}, {"@type": "Question", "name": "Write pseudo-code that checks if the first character of a word is uppercase.", "acceptedAnswer": {"@type": "Answer", "text": "INPUT word\nfirstChar ← SUBSTRING(word, 0, 1)\nIF ASC(firstChar) >= 65 AND ASC(firstChar) <= 90 THEN\n    OUTPUT \"First character is uppercase\"\nELSE\n    OUTPUT \"First character is not uppercase\"\nENDIF"}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Input, Output &amp; String Handling</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS11: Input, Output &amp; String Handling</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Mastering INPUT and OUTPUT commands, string operations (LENGTH, POSITION, SUBSTRING), concatenation, character codes, and type conversion.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📥 INPUT Command</h2>
+
+<div class="key-point">
+<strong>INPUT</strong> gets data from the user (or another source) and stores it in a variable. In most pseudo-code, INPUT returns a string, so you may need to convert it to the correct data type.
+</div>
+
+<div class="example">
+<div class="example-title">INPUT Examples</div>
+<pre>INPUT name                         // Get a string
+INPUT "Enter your age: ", age      // With prompt
+age &larr; INT(INPUT("Enter age: "))  // Get and convert to integer</pre>
+</div>
+
+<div class="key-point">
+<strong>Important:</strong> Data received via INPUT is usually a string. If you need to perform arithmetic, you must convert it using INT(), FLOAT(), or other type conversion functions.
+</div>
+</section>
+
+<section class="section">
+<h2>📤 OUTPUT Command</h2>
+
+<div class="key-point">
+<strong>OUTPUT</strong> displays data to the user. You can output variables, strings, numbers, and expressions. Use &amp; to concatenate (join) items in the output.
+</div>
+
+<div class="example">
+<div class="example-title">OUTPUT Examples</div>
+<pre>OUTPUT "Hello, World!"                    // Simple string
+OUTPUT score                              // Variable value
+OUTPUT "Your score is " &amp; STR(score)      // Combined string and variable
+OUTPUT "Total: ", total, " Average: ", avg  // Multiple items</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Formatted Output</div>
+<pre>name &larr; "Alice"
+score &larr; 95
+OUTPUT "Name: " &amp; name &amp; " | Score: " &amp; STR(score)
+// Output: Name: Alice | Score: 95</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 String Operations</h2>
+
+<div class="key-point">
+<strong>String operations</strong> allow you to manipulate text data. At GCSE, you need to know LENGTH, POSITION (or INSTR), SUBSTRING, and concatenation.
+</div>
+
+<h3>LENGTH</h3>
+<div class="example">
+<div class="example-title">LENGTH Function</div>
+<pre>word &larr; "Computer"
+OUTPUT LENGTH(word)    // 8
+OUTPUT LENGTH("Hi")    // 2
+OUTPUT LENGTH("")      // 0 (empty string)</pre>
+</div>
+
+<h3>POSITION (or INSTR)</h3>
+<div class="example">
+<div class="example-title">POSITION Function</div>
+<pre>text &larr; "Hello World"
+OUTPUT POSITION(text, "World")    // 6 (found at position 6)
+OUTPUT POSITION(text, "xyz")      // -1 (not found)
+OUTPUT POSITION(text, "o")        // 5 (first occurrence)</pre>
+</div>
+
+<div class="key-point">
+<strong>Note:</strong> POSITION returns the index of the first character of the found substring. If the substring is not found, it returns -1. Positions are zero-indexed in many specifications.
+</div>
+
+<h3>SUBSTRING</h3>
+<div class="example">
+<div class="example-title">SUBSTRING Function</div>
+<pre>text &larr; "Computer Science"
+OUTPUT SUBSTRING(text, 0, 3)     // "Com" (from position 0, 3 characters)
+OUTPUT SUBSTRING(text, 9, 7)     // "Science" (from position 9, 7 characters)
+OUTPUT SUBSTRING(text, 3, 3)     // "put"</pre>
+</div>
+
+<div class="formula-box">
+<strong>SUBSTRING(string, start, length):</strong><br>
+start = the index where the substring begins (0-indexed)<br>
+length = how many characters to extract<br><br>
+"Computer"[0:3] means characters at positions 0, 1, 2 = "Com"
+</div>
+
+<h3>Concatenation</h3>
+<div class="example">
+<div class="example-title">String Concatenation</div>
+<pre>firstName &larr; "Alice"
+lastName &larr; "Smith"
+fullName &larr; firstName &amp; " " &amp; lastName
+OUTPUT fullName    // "Alice Smith"</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔤 Character-Code Conversion</h2>
+
+<div class="key-point">
+<strong>Every character</strong> is stored in a computer as a numeric code (ASCII or Unicode). The ASC() function converts a character to its code, and CHR() converts a code back to a character.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Function</th>
+<th>Purpose</th>
+<th>Example</th>
+<th>Result</th>
+</tr>
+<tr>
+<td>ASC(character)</td>
+<td>Returns the character code of a single character</td>
+<td>ASC('A')</td>
+<td>65</td>
+</tr>
+<tr>
+<td>CHR(code)</td>
+<td>Returns the character for a given code</td>
+<td>CHR(65)</td>
+<td>'A'</td>
+</tr>
+</table>
+
+<h3>Key ASCII Codes to Remember</h3>
+<table class="comparison-table">
+<tr><th>Character</th><th>ASCII Code</th></tr>
+<tr><td>'A'</td><td>65</td></tr>
+<tr><td>'Z'</td><td>90</td></tr>
+<tr><td>'a'</td><td>97</td></tr>
+<tr><td>'z'</td><td>122</td></tr>
+<tr><td>'0'</td><td>48</td></tr>
+<tr><td>'9'</td><td>57</td></tr>
+<tr><td>' '</td><td>32</td></tr>
+</table>
+
+<div class="formula-box">
+<strong>Useful ASCII Facts:</strong><br>
+Uppercase letters: 65 (A) to 90 (Z)<br>
+Lowercase letters: 97 (a) to 122 (z)<br>
+Digits: 48 (0) to 57 (9)<br>
+Difference between 'a' and 'A': 97 - 65 = 32<br>
+To convert uppercase to lowercase: CHR(ASC(char) + 32)
+</div>
+
+<div class="example">
+<div class="example-title">Converting Uppercase to Lowercase</div>
+<pre>letter &larr; 'G'
+lower &larr; CHR(ASC(letter) + 32)
+OUTPUT lower    // 'g'</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Checking if a Character is a Digit</div>
+<pre>INPUT char
+IF ASC(char) >= 48 AND ASC(char) &lt;= 57 THEN
+    OUTPUT char, " is a digit"
+ELSE
+    OUTPUT char, " is not a digit"
+ENDIF</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔄 Type Conversion Functions</h2>
+
+<div class="key-point">
+<strong>Type conversion</strong> functions change data from one type to another. These are essential when working with user input (which arrives as a string) or when formatting output.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Function</th>
+<th>Converts To</th>
+<th>Example</th>
+<th>Result</th>
+</tr>
+<tr>
+<td>INT(value)</td>
+<td>Integer</td>
+<td>INT("42")</td>
+<td>42</td>
+</tr>
+<tr>
+<td>INT(value)</td>
+<td>Integer (truncates)</td>
+<td>INT(3.99)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>FLOAT(value)</td>
+<td>Real / Float</td>
+<td>FLOAT("3.14")</td>
+<td>3.14</td>
+</tr>
+<tr>
+<td>STR(value)</td>
+<td>String</td>
+<td>STR(42)</td>
+<td>"42"</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Complete Input/Output Example</div>
+<pre>INPUT "Enter first number: ", input1
+INPUT "Enter second number: ", input2
+num1 &larr; FLOAT(input1)
+num2 &larr; FLOAT(input2)
+total &larr; num1 + num2
+OUTPUT "The sum of " &amp; input1 &amp; " and " &amp; input2 &amp; " is " &amp; STR(total)</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Not converting INPUT to number</td>
+<td>"5" + "3" = "53" not 8</td>
+<td>Use INT() or FLOAT() before arithmetic</td>
+</tr>
+<tr>
+<td>SUBSTRING wrong parameters</td>
+<td>Confusing start position with end position</td>
+<td>SUBSTRING(string, start, length) - start + length</td>
+</tr>
+<tr>
+<td>POSITION returning -1</td>
+<td>Forgetting to handle "not found" case</td>
+<td>Check if result = -1 before using it</td>
+</tr>
+<tr>
+<td>ASC() on a string</td>
+<td>ASC() takes a single character, not a string</td>
+<td>Use ASC(SUBSTRING(text, 0, 1)) for first char</td>
+</tr>
+<tr>
+<td>Forgetting STR() in output</td>
+<td>Cannot concatenate string with number directly</td>
+<td>Convert number to string with STR() first</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> What does LENGTH("GCSE Computer Science") return?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Write pseudo-code that asks for a word and outputs the first three characters.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> What is the ASCII code for 'A'? What is CHR(97)?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write pseudo-code that takes two numbers as input, adds them, and outputs the result as a sentence.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Write pseudo-code that checks if the first character of a word is uppercase.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>20 characters (including the space).</li>
+<li>
+<pre>INPUT word
+OUTPUT SUBSTRING(word, 0, 3)</pre>
+</li>
+<li>The ASCII code for 'A' is 65. CHR(97) = 'a'.</li>
+<li>
+<pre>INPUT "Enter first number: ", a
+INPUT "Enter second number: ", b
+num1 &larr; FLOAT(a)
+num2 &larr; FLOAT(b)
+total &larr; num1 + num2
+OUTPUT a &amp; " + " &amp; b &amp; " = " &amp; STR(total)</pre>
+</li>
+<li>
+<pre>INPUT word
+firstChar &larr; SUBSTRING(word, 0, 1)
+IF ASC(firstChar) >= 65 AND ASC(firstChar) &lt;= 90 THEN
+    OUTPUT "First character is uppercase"
+ELSE
+    OUTPUT "First character is not uppercase"
+ENDIF</pre>
+</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always convert INPUT to the correct type before arithmetic</li>
+<li>Remember: SUBSTRING(string, start, length) not (start, end)</li>
+<li>POSITION returns -1 if the substring is not found</li>
+<li>Know the key ASCII codes: A=65, a=97, 0=48</li>
+<li>Use &amp; for string concatenation in pseudo-code</li>
+<li>Use STR() to convert numbers to strings for output</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to cast input from string to the correct data type</span> <span class="right">✓ INPUT usually returns a string; you must convert it to INTEGER or REAL before arithmetic, e.g. age ← INTEGER(INPUT('Age: ')).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking string indexing starts at 1 in all languages</span> <span class="right">✓ Python and most languages use 0-based indexing; the first character is at index 0. Always check the convention for your exam board.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing LENGTH() and SUBSTRING() functions</span> <span class="right">✓ LENGTH() returns the number of characters in a string; SUBSTRING(string, start, length) extracts a portion of the string.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not realising that string concatenation does not add spaces automatically</span> <span class="right">✓ Joining 'Hello' & 'World' gives 'HelloWorld'. You must explicitly include a space: 'Hello' & ' ' & 'World' gives 'Hello World'.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Write pseudo-code that inputs a full name (e.g. 'Jane Smith'), extracts and outputs the first name and last name separately, then outputs the initials in uppercase. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>INPUT 'Enter full name: ', fullname
+space_pos ← 0
+FOR i ← 0 TO LENGTH(fullname) - 1
+  IF fullname[i] = ' ' THEN
+    space_pos ← i
+  ENDIF
+NEXT i
+firstname ← SUBSTRING(fullname, 0, space_pos)
+lastname ← SUBSTRING(fullname, space_pos + 1, LENGTH(fullname) - space_pos - 1)
+OUTPUT 'First name: ' & firstname
+OUTPUT 'Last name: ' & lastname
+initials ← UPPER(firstname[0]) & '.' & UPPER(lastname[0]) & '.'
+OUTPUT 'Initials: ' & initials</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including input, output and string handling functions for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including input, output and string handling functions to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including input, output and string handling functions, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Know key string functions: LENGTH(), SUBSTRING(), UPPER(), LOWER(), LEFT(), RIGHT(), ASC(), CHR(). Always cast input to the correct type before processing. Remember string indexing convention for your exam board. For string manipulation, find the space position first to split names. Show each step clearly when extracting substrings.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+String+Handling+Input+Output+Functions" target="_blank" rel="noopener">YouTube: GCSE Computer Science String Handling Input Output Functions</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/programming/CS11-input-output-string-handling.html&text=Input, Output &amp;amp; String Handling" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/programming/CS11-input-output-string-handling.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/programming/CS11-input-output-string-handling.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Input, Output &amp;amp; String Handling%20https://scottrix.github.io/gcserevise/topics/programming/CS11-input-output-string-handling.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/programming/CS11-input-output-string-handling.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS10-data-structures.html">Data Structures</a></li>
+<li><a href="CS12-subroutines.html">Subroutines</a></li>
+<li><a href="CS13-robust-secure-programming.html">Robust &amp;amp; Secure Programming</a></li>
+<li><a href="CS14-random-number-generation.html">Random Number Generation</a></li>
+<li><a href="CS6-data-types.html">Data Types</a></li>
+<li><a href="CS7-programming-constructs.html">Programming Constructs</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="CS10-data-structures.html" class="nav-prev">← Previous: Data Structures</a>
+<a href="CS12-subroutines.html" class="nav-next">Next Topic: Subroutines →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Input,+Output+%26+String+Handling+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Input, Output &amp; String Handling Books →</div>
+  <div class="affiliate-card-desc">Browse Input, Output &amp; String Handling books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

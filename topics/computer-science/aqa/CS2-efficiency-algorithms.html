@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Efficiency of Algorithms - GCSE Computer Science</title>
+<meta name="description" content="Learn about time complexity and comparing algorithm efficiency for GCSE Computer Science. Free revision notes.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, algorithms, pseudo-code, flowcharts, searching, sorting, trace tables, computational thinking, Efficiency, of, learn, about, complexity">
+<meta property="og:title" content="Efficiency of Algorithms - GCSE Computer Science">
+<meta property="og:description" content="Learn about time complexity and comparing algorithm efficiency for GCSE Computer Science. Free revision notes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Efficiency of Algorithms">
+<meta name="twitter:description" content="Learn about time complexity and comparing algorithm efficiency for GCSE Computer Science. Free revision notes.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does time complexity measure?", "acceptedAnswer": {"@type": "Answer", "text": "Time complexity measures how the running time of an algorithm grows as the input size increases. It describes the relationship between input size and number of operations."}}, {"@type": "Question", "name": "An algorithm has O(n) time complexity. If it takes 5 seconds to process 1000 items, approximately how long would it take to process 5000 items?", "acceptedAnswer": {"@type": "Answer", "text": "Approximately 25 seconds. O(n) means time is proportional to input size. 5000 is 5 times 1000, so 5 × 5 = 25 seconds."}}, {"@type": "Question", "name": "Explain why binary search is more efficient than linear search for large datasets.", "acceptedAnswer": {"@type": "Answer", "text": "Binary search halves the search space each step, so it needs at most log₂(n) comparisons. Linear search checks every item, needing up to n comparisons. For large n, log₂(n) is vastly smaller than n."}}, {"@type": "Question", "name": "Give an example of a situation where using a less efficient algorithm might be acceptable.", "acceptedAnswer": {"@type": "Answer", "text": "When the dataset is very small (e.g. sorting 10 items), the difference between efficient and inefficient algorithms is negligible. Also, when the algorithm only runs once and speed is not critical."}}, {"@type": "Question", "name": "A bubble sort on 100 items takes up to 10,000 comparisons. How many comparisons would it take for 1000 items?", "acceptedAnswer": {"@type": "Answer", "text": "Up to 1,000,000 comparisons. Bubble sort is O(n²), so for 1000 items: 1000 × 1000 = 1,000,000."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Algorithms</span> <span>›</span>
+<span>Efficiency of Algorithms</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS2: Efficiency of Algorithms</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Understanding how efficient algorithms are and why some algorithms are better than others for solving the same problem.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 What is Algorithm Efficiency?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Algorithm efficiency measures how much time and/or memory an algorithm uses to solve a problem. A more efficient algorithm uses fewer resources (time and space) to produce the same result.
+</div>
+
+<p>Two algorithms might solve the same problem, but one could be much faster or use less memory. Understanding efficiency helps you choose the best algorithm for a given situation.</p>
+
+<div class="formula-box">
+<strong>Key Concept - Time Complexity:</strong><br>
+Time complexity describes how the running time of an algorithm grows as the size of the input increases. It is not measured in seconds - it is measured in terms of the number of operations relative to input size (n).
+</div>
+</section>
+
+<section class="section">
+<h2>📊 Comparing Algorithms</h2>
+
+<div class="key-point">
+<strong>Key Principle:</strong> When two algorithms solve the same problem, the more efficient one will complete in fewer steps, especially as the input size increases.
+</div>
+
+<div class="example">
+<div class="example-title">Example: Finding a Name in a Phone Book</div>
+<p><strong>Algorithm A (Linear approach):</strong> Read every name from the first page until you find the one you want.</p>
+<p><strong>Algorithm B (Binary approach):</strong> Open the book in the middle. If the name is earlier, discard the second half. Repeat with the remaining half.</p>
+<p>For a phone book with 1000 names:</p>
+<ul>
+<li>Algorithm A: Up to <strong>1000 checks</strong> (worst case)</li>
+<li>Algorithm B: At most <strong>10 checks</strong> (worst case)</li>
+</ul>
+<p>Algorithm B is far more efficient for large phone books!</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Input Size (n)</th>
+<th>Linear - O(n)</th>
+<th>Binary - O(log n)</th>
+<th>Difference</th>
+</tr>
+<tr>
+<td>10</td>
+<td>10 checks</td>
+<td>4 checks</td>
+<td>2.5x faster</td>
+</tr>
+<tr>
+<td>100</td>
+<td>100 checks</td>
+<td>7 checks</td>
+<td>14x faster</td>
+</tr>
+<tr>
+<td>1,000</td>
+<td>1,000 checks</td>
+<td>10 checks</td>
+<td>100x faster</td>
+</tr>
+<tr>
+<td>1,000,000</td>
+<td>1,000,000 checks</td>
+<td>20 checks</td>
+<td>50,000x faster</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📈 How Efficiency Varies with Input Size</h2>
+
+<div class="key-point">
+<strong>Crucial Point:</strong> Some algorithms that seem fast for small inputs become extremely slow for large inputs. The rate at which time increases matters more than the time for a single small input.
+</div>
+
+<h3>Common Time Complexities (Big O Notation)</h3>
+
+<table class="comparison-table">
+<tr>
+<th>Complexity</th>
+<th>Name</th>
+<th>Meaning</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>O(1)</td>
+<td>Constant time</td>
+<td>Time stays the same regardless of input size</td>
+<td>Accessing an array element by index</td>
+</tr>
+<tr>
+<td>O(log n)</td>
+<td>Logarithmic</td>
+<td>Time increases very slowly - halves the problem each step</td>
+<td>Binary search</td>
+</tr>
+<tr>
+<td>O(n)</td>
+<td>Linear</td>
+<td>Time increases proportionally with input size</td>
+<td>Linear search</td>
+</tr>
+<tr>
+<td>O(n log n)</td>
+<td>Linearithmic</td>
+<td>Time increases slightly more than linearly</td>
+<td>Merge sort</td>
+</tr>
+<tr>
+<td>O(n²)</td>
+<td>Quadratic</td>
+<td>Time increases with the square of input size</td>
+<td>Bubble sort</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Order of Efficiency (Best to Worst):</strong><br>
+O(1) &gt; O(log n) &gt; O(n) &gt; O(n log n) &gt; O(n²)<br><br>
+As n gets larger, the difference between these becomes dramatic.<br>
+O(n²) algorithms become unusable for large datasets.
+</div>
+</section>
+
+<section class="section">
+<h2>🔢 Practical Implications</h2>
+
+<div class="example">
+<div class="example-title">Scenario: Sorting Student Records</div>
+<p>A school has 10,000 student records to sort by surname.</p>
+<p><strong>Bubble sort (O(n²)):</strong> Up to 100,000,000 comparisons</p>
+<p><strong>Merge sort (O(n log n)):</strong> Approximately 140,000 comparisons</p>
+<p>Merge sort is over <strong>700 times faster</strong> for this dataset!</p>
+</div>
+
+<h3>When Does Efficiency Matter?</h3>
+<ul>
+<li><strong>Small datasets (n < 100):</strong> The difference between algorithms is small - simpler algorithms may be acceptable</li>
+<li><strong>Medium datasets (100-10,000):</strong> Choice of algorithm starts to matter - O(n²) begins to slow down</li>
+<li><strong>Large datasets (10,000+):</strong> Algorithm choice is critical - O(n²) algorithms may take hours or days</li>
+</ul>
+
+<div class="key-point">
+<strong>Exam Focus:</strong> At GCSE level, you need to understand that some algorithms are more efficient than others and explain WHY. You should be able to compare linear search vs binary search, and bubble sort vs merge sort, in terms of efficiency.
+</div>
+</section>
+
+<section class="section">
+<h2>🔬 Measuring Efficiency Practically</h2>
+
+<h3>Counting Operations</h3>
+<p>One way to measure efficiency is to count the number of key operations an algorithm performs.</p>
+
+<div class="example">
+<div class="example-title">Counting Comparisons in Linear Search</div>
+<pre>FOR i ← 0 TO LENGTH(list) - 1
+    IF list[i] = target THEN   // This comparison happens n times
+        OUTPUT "Found at position ", i
+    ENDIF
+NEXT i</pre>
+<p>Comparisons: n (where n is the length of the list)</p>
+<p>Best case: 1 comparison (item is first)</p>
+<p>Worst case: n comparisons (item is last or not present)</p>
+</div>
+
+<div class="example">
+<div class="example-title">Counting Comparisons in Binary Search</div>
+<p>Each step halves the remaining search space.</p>
+<p>After 1 comparison: n/2 items remain</p>
+<p>After 2 comparisons: n/4 items remain</p>
+<p>After k comparisons: n/2^k items remain</p>
+<p>Maximum comparisons: log₂(n)</p>
+<p>For 1,000,000 items: only 20 comparisons needed!</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ Time vs Space Efficiency</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Aspect</th>
+<th>Time Efficiency</th>
+<th>Space Efficiency</th>
+</tr>
+<tr>
+<td>Measures</td>
+<td>How fast the algorithm runs</td>
+<td>How much memory it uses</td>
+</tr>
+<tr>
+<td>Trade-off</td>
+<td>Using more memory can speed things up</td>
+<td>Using less memory may slow things down</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>Merge sort is fast but needs extra arrays</td>
+<td>Bubble sort is slow but uses no extra memory</td>
+</tr>
+<tr>
+<td>GCSE focus</td>
+<td>Time complexity is the main focus</td>
+<td>Awareness that memory matters too</td>
+</tr>
+</table>
+
+<div class="formula-box">
+<strong>Trade-off Principle:</strong><br>
+Sometimes you can make an algorithm faster by using more memory (e.g. storing pre-computed results). Other times, using less memory means recalculating values and running slower. This is the time-space trade-off.
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> What does time complexity measure?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> An algorithm has O(n) time complexity. If it takes 5 seconds to process 1000 items, approximately how long would it take to process 5000 items?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Explain why binary search is more efficient than linear search for large datasets.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Give an example of a situation where using a less efficient algorithm might be acceptable.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A bubble sort on 100 items takes up to 10,000 comparisons. How many comparisons would it take for 1000 items?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Time complexity measures how the running time of an algorithm grows as the input size increases. It describes the relationship between input size and number of operations.</li>
+<li>Approximately 25 seconds. O(n) means time is proportional to input size. 5000 is 5 times 1000, so 5 × 5 = 25 seconds.</li>
+<li>Binary search halves the search space each step, so it needs at most log₂(n) comparisons. Linear search checks every item, needing up to n comparisons. For large n, log₂(n) is vastly smaller than n.</li>
+<li>When the dataset is very small (e.g. sorting 10 items), the difference between efficient and inefficient algorithms is negligible. Also, when the algorithm only runs once and speed is not critical.</li>
+<li>Up to 1,000,000 comparisons. Bubble sort is O(n²), so for 1000 items: 1000 × 1000 = 1,000,000.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>You don't need to calculate exact Big O values - just understand the concept</li>
+<li>Be able to explain that binary search is more efficient than linear search because it halves the search space</li>
+<li>Be able to explain that merge sort is more efficient than bubble sort for large datasets</li>
+<li>Use the terms "time complexity" and "proportional to" in your answers</li>
+<li>If asked to compare algorithms, always mention how performance changes as input size grows</li>
+<li>Remember: O(n²) algorithms become impractical for large datasets</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking a faster algorithm is always better regardless of memory usage</span> <span class="right">✓ Efficiency considers both time and space; a faster algorithm may use significantly more memory, which could be unsuitable for constrained systems.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing time complexity with actual running time</span> <span class="right">✓ Time complexity describes how the number of operations grows with input size (Big O), not the actual clock time a program takes to run.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing O(n) is always worse than O(log n) for all inputs</span> <span class="right">✓ O(log n) scales better for large inputs, but for very small datasets the constant overhead of O(log n) algorithms may make O(n) faster in practice.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking Big O notation measures exact step counts</span> <span class="right">✓ Big O notation describes the upper bound of growth rate as input tends to infinity, ignoring constants and lower-order terms.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Two algorithms solve the same problem. Algorithm A has time complexity O(n²) and Algorithm B has O(n log n). Explain which algorithm is more efficient for large datasets and why. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Algorithm B (O(n log n)) is more efficient for large datasets. As n increases, n² grows much faster than n log n. For example, with n = 1000: Algorithm A performs roughly 1,000,000 operations while Algorithm B performs roughly 10,000 operations. Big O notation shows that Algorithm B scales better because its growth rate is lower, meaning it will be significantly faster for large inputs. However, for very small datasets Algorithm A might be comparable due to lower constant overhead.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including algorithm efficiency and Big O notation for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including algorithm efficiency and Big O notation to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including algorithm efficiency and Big O notation, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+When comparing algorithm efficiency, always refer to Big O notation and explain how the number of operations grows with input size. Use concrete examples (e.g. n=100, n=1000) to illustrate differences. Remember that time complexity is about growth rate, not actual speed. Mention that Big O ignores constants and lower-order terms. If asked to compare algorithms, consider both time AND space complexity where relevant.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3tbkmn" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Algorithm+Efficiency+Big+O+Notation" target="_blank" rel="noopener">YouTube: GCSE Computer Science Algorithm Efficiency Big O Notation</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html&text=Efficiency of Algorithms" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Efficiency of Algorithms%20https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS1-representing-algorithms.html">Representing Algorithms</a></li>
+<li><a href="CS3-searching-algorithms.html">Searching Algorithms</a></li>
+<li><a href="CS4-sorting-algorithms.html">Sorting Algorithms</a></li>
+<li><a href="CS5-trace-tables.html">Trace Tables</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="CS1-representing-algorithms.html" class="nav-prev">← Previous: Representing Algorithms</a>
+<a href="CS3-searching-algorithms.html" class="nav-next">Next Topic: Searching Algorithms →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Efficiency+of+Algorithms+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Efficiency of Algorithms Books →</div>
+  <div class="affiliate-card-desc">Browse Efficiency of Algorithms books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

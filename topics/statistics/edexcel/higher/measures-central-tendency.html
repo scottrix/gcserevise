@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Measures of Central Tendency - GCSE Statistics</title>
+<meta name="description" content="GCSE Statistics measures of central tendency: mode, median, mean, weighted mean, geometric mean, and choosing the appropriate average with worked examples.">
+<meta name="keywords" content="mode, median, mean, weighted mean, geometric mean, average, central tendency, estimate, grouped data, GCSE Statistics, Edexcel 1ST0 & AQA 8382">
+<meta property="og:title" content="Measures of Central Tendency - GCSE Statistics">
+<meta property="og:description" content="GCSE Statistics measures of central tendency: mode, median, mean, weighted mean, geometric mean, and choosing the appropriate average with worked examples.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/stats-calculation/measures-central-tendency.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/stats-calculation/measures-central-tendency.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Measures of Central Tendency">
+<meta name="twitter:description" content="GCSE Statistics measures of central tendency: mode, median, mean, weighted mean, geometric mean, and choosing the appropriate average with worked examples.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:Find the mode, median, and mean of: 3, 5, 5, 7, 10", "acceptedAnswer": {"@type": "Answer", "text": "Mode = 5 (appears twice). Median = 5 (middle value of 5 numbers). Mean = (3 + 5 + 5 + 7 + 10) ÷ 5 = 30 ÷ 5 = 6."}}, {"@type": "Question", "name": "Q:A student scores 65, 70, and 75 in tests weighted 2, 3, and 5 respectively. Calculate the weighted mean.", "acceptedAnswer": {"@type": "Answer", "text": "Weighted mean = (2 × 65 + 3 × 70 + 5 × 75) ÷ (2 + 3 + 5) = (130 + 210 + 375) ÷ 10 = 715 ÷ 10 = 71.5."}}, {"@type": "Question", "name": "Q:An investment grows by 10% in year 1 and 20% in year 2. Why is the geometric mean more appropriate than the arithmetic mean for the average growth rate?", "acceptedAnswer": {"@type": "Answer", "text": "Growth is multiplicative, so the geometric mean = √(1.10 × 1.20) = √1.32 ≈ 1.149, giving an average growth rate of about 14.9%. The arithmetic mean (15%) would overestimate the overall growth."}}, {"@type": "Question", "name": "Q:A dataset has values 2, 3, 3, 3, 100. Explain why the median is more appropriate than the mean.", "acceptedAnswer": {"@type": "Answer", "text": "The outlier 100 pulls the mean to 22.2, which does not represent the data well. The median of 3 better reflects the central value since most data are around 3."}}, {"@type": "Question", "name": "Q:From a grouped frequency table with total frequency 50 and Σ(f × midpoint) = 1200, find the estimated mean.", "acceptedAnswer": {"@type": "Answer", "text": "Estimated mean = 1200 ÷ 50 = 24."}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../statistics.html">Statistics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../statistics.html">Statistics</a> <span>›</span>
+<span>Statistical Calculation &amp; Analysis</span> <span>›</span>
+<span>Measures of Central Tendency</span>
+</nav>
+<article class="topic-header">
+<h1>ST14: Measures of Central Tendency</h1>
+<div class="topic-meta">
+<span class="badge">Edexcel 1ST0 &amp; AQA 8382</span>
+</div>
+<p class="topic-desc">Learn how to calculate and interpret mode, median, mean, weighted mean, and geometric mean, and how to choose the most appropriate average for GCSE Statistics.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Measures of Central Tendency</h2>
+<p>Learn how to calculate and interpret mode, median, mean, weighted mean, and geometric mean, and how to choose the most appropriate average for GCSE Statistics.</p>
+<div class="key-point">
+<strong>Key Fact:</strong> The mode is the value that occurs most frequently in a dataset; a dataset can have no mode, one mode (unimodal), or multiple modes (bimodal or multimodal).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The mode is the only average that can be used for qualitative (categorical) data, since it does not require numerical values.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The median is the middle value when all data are arranged in order; for n values, the median position is at (n + 1) ÷ 2.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For an even number of data values, the median is the mean of the two middle values.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The mean (arithmetic mean) = sum of all values ÷ number of values; it uses every data value and is affected by outliers.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The weighted mean multiplies each value by its weight, sums these products, then divides by the sum of the weights: x̄ = Σ(wx) ÷ Σw.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The geometric mean of n values is the nth root of their product: GM = ⁿ√(x₁ × x₂ × … × xₙ); it is used for data that grows multiplicatively such as percentage changes.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For grouped data, the estimated mean uses midpoints of each class interval: estimated mean = Σ(f × midpoint) ÷ Σf.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The mean is affected by extreme values (outliers), whereas the median and mode are not; this is important when choosing which average to use.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Use the median when data is skewed or contains outliers; use the mean when data is roughly symmetric with no extreme values.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Use the mode when data is categorical or when you need the most common value; use the weighted mean when values have different levels of importance.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> When comparing distributions, always state which average you are using and justify your choice.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Measures of Central Tendency, you must know:</p>
+<ul><li><strong>Mode:</strong> The most frequently occurring value in a dataset; the only average that can be used for categorical data.</li>
+<li><strong>Median:</strong> The middle value of an ordered dataset; found at position (n + 1) ÷ 2 for n data values.</li>
+<li><strong>Mean:</strong> The sum of all values divided by the number of values; it uses every data point and is affected by outliers.</li>
+<li><strong>Weighted mean:</strong> An average where each value is multiplied by its weight before summing, then divided by the total weight: x̄ = Σ(wx) ÷ Σw.</li>
+<li><strong>Geometric mean:</strong> The nth root of the product of n values, used for data involving multiplicative growth or percentage changes.</li>
+<li><strong>Estimated mean:</strong> The mean calculated from a grouped frequency table using the midpoints of class intervals, giving an approximation rather than the exact value.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> Find the mode, median, and mean of: 3, 5, 5, 7, 10</p></div>
+<div class="question"><p><strong>Q:</strong> A student scores 65, 70, and 75 in tests weighted 2, 3, and 5 respectively. Calculate the weighted mean.</p></div>
+<div class="question"><p><strong>Q:</strong> An investment grows by 10% in year 1 and 20% in year 2. Why is the geometric mean more appropriate than the arithmetic mean for the average growth rate?</p></div>
+<div class="question"><p><strong>Q:</strong> A dataset has values 2, 3, 3, 3, 100. Explain why the median is more appropriate than the mean.</p></div>
+<div class="question"><p><strong>Q:</strong> From a grouped frequency table with total frequency 50 and Σ(f × midpoint) = 1200, find the estimated mean.</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>Mode = 5 (appears twice). Median = 5 (middle value of 5 numbers). Mean = (3 + 5 + 5 + 7 + 10) ÷ 5 = 30 ÷ 5 = 6.</li>
+<li>Weighted mean = (2 × 65 + 3 × 70 + 5 × 75) ÷ (2 + 3 + 5) = (130 + 210 + 375) ÷ 10 = 715 ÷ 10 = 71.5.</li>
+<li>Growth is multiplicative, so the geometric mean = √(1.10 × 1.20) = √1.32 ≈ 1.149, giving an average growth rate of about 14.9%. The arithmetic mean (15%) would overestimate the overall growth.</li>
+<li>The outlier 100 pulls the mean to 22.2, which does not represent the data well. The median of 3 better reflects the central value since most data are around 3.</li>
+<li>Estimated mean = 1200 ÷ 50 = 24.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always show your working when calculating the mean — write out the sum and the division separately so you can gain method marks even if you make an arithmetic error.</li>
+<li>When asked which average to use, consider: Is the data skewed? Are there outliers? Is the data categorical? Then justify your answer.</li>
+<li>For weighted mean questions, clearly show the weights and the calculation Σ(wx) ÷ Σw — do not just write the answer.</li>
+<li>Remember that the mode can be found from a bar chart (tallest bar) and the median from a cumulative frequency curve (at 50% of total frequency).</li>
+<li>When a question asks for the mean from grouped data, always state that it is an estimated mean because you are using midpoints, not the actual values.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+  <strong>GCSE Statistics Exam Tips — Measures of Central Tendency:</strong><br>
+  1. For Measures of Central Tendency questions, show every step of your working clearly — method marks count even if the final answer is wrong<br>
+    2. Check your answer makes sense in context (estimation, units, reasonableness)<br>
+    3. Use correct mathematical notation and state formulae before substituting values<br>
+    4. If a Measures of Central Tendency question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line<br>
+    5. For problem-solving, identify the topic first, then recall the relevant method
+</div><h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Finding the median by just picking the middle number without ordering the data first</span> <span class="right">✓ Data must be arranged in ascending order before finding the median; the median position is (n + 1) ÷ 2 for n values.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Using the arithmetic mean for average percentage growth rates</span> <span class="right">✓ Use the geometric mean for multiplicative data like growth rates; the arithmetic mean overestimates the true average growth.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Calculating the mean of a grouped frequency table using class boundaries instead of midpoints</span> <span class="right">✓ Use the midpoint of each class interval (average of lower and upper boundaries) to estimate the mean, not the boundary values.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Choosing the mean when the data is heavily skewed or has outliers without justification</span> <span class="right">✓ If data is skewed or has outliers, the median is usually more representative; the mean is pulled towards the extreme values.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>The table shows the number of siblings for 30 students. Calculate the estimated mean.
+0–1: frequency 8, 2–3: frequency 14, 4–5: frequency 6, 6–7: frequency 2</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Find midpoints and calculate f × midpoint:
+
+Class | Midpoint (m) | f | f × m
+0–1   | 0.5           | 8 | 4
+2–3   | 2.5           |14 | 35
+4–5   | 4.5           | 6 | 27
+6–7   | 6.5           | 2 | 13
+Total |               |30 | 79
+
+Estimated mean = Σ(f × m) ÷ Σf = 79 ÷ 30 = 2.63 (to 2 d.p.)
+
+This is an estimate because we have used midpoints rather than the actual data values within each class.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of measures of central tendency, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of measures of central tendency to interpret data, reason statistically and draw conclusions in context.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate statistical methods and conclusions, assessing appropriateness, reliability, validity and bias through the statistical enquiry cycle.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/statistics" target="_blank" rel="noopener">BBC Bitesize: GCSE Statistics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Statistics+Measures+of+Central+Tendency" target="_blank" rel="noopener">YouTube: GCSE Statistics Measures of Central Tendency</a></li></ul>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/stats-calculation/measures-central-tendency.html&text=Measures of Central Tendency" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/stats-calculation/measures-central-tendency.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/stats-calculation/measures-central-tendency.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Measures of Central Tendency%20https://scottrix.github.io/gcserevise/topics/stats-calculation/measures-central-tendency.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/stats-calculation/measures-central-tendency.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="correlation-regression.html">Correlation &amp;amp; Regression</a></li>
+<li><a href="measures-spread.html">Measures of Spread</a></li>
+<li><a href="skewness-outliers.html">Skewness &amp;amp; Outliers</a></li>
+<li><a href="time-series-moving-averages.html">Time Series &amp;amp; Moving Averages</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Statistics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Statistics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../stats-presentation/graphical-misrepresentation.html" class="nav-prev">← Previous Topic</a>
+<a href="../stats-calculation/measures-spread.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Statistics Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Statistics revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Edexcel+1ST0+%26+AQA+8382+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Edexcel 1ST0 &amp; AQA 8382 Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Edexcel 1ST0 &amp; AQA 8382 revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Measures+of+Central+Tendency+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Measures of Central Tendency Books →</div>
+  <div class="affiliate-card-desc">Browse Measures of Central Tendency books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>

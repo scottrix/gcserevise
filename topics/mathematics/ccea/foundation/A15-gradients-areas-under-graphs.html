@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gradients & Areas Under Graphs - GCSE Maths Revision</title>
+<meta name="description" content="Learn to calculate gradients and areas under graphs for distance-time and velocity-time contexts. Free GCSE Maths revision.">
+<meta name="keywords" content="GCSE Maths, GCSE revision, free revision notes, algebra, expressions, equations, sequences, graphs, quadratic, simultaneous, inequalities, functions, iteration, Gradients, Areas">
+<meta property="og:title" content="Gradients & Areas Under Graphs - GCSE Maths">
+<meta property="og:description" content="Learn to calculate gradients and areas under graphs for distance-time and velocity-time contexts. Free GCSE Maths revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/algebra/A15-gradients-areas-under-graphs.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/algebra/A15-gradients-areas-under-graphs.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gradients &amp; Areas Under Graphs">
+<meta name="twitter:description" content="Learn to calculate gradients and areas under graphs for distance-time and velocity-time contexts. Free GCSE Maths revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "On a distance-time graph, what does the gradient represent?", "acceptedAnswer": {"@type": "Answer", "text": "Speed"}}, {"@type": "Question", "name": "On a velocity-time graph, what does the gradient represent?", "acceptedAnswer": {"@type": "Answer", "text": "Acceleration"}}, {"@type": "Question", "name": "On a velocity-time graph, what does the area under the graph represent?", "acceptedAnswer": {"@type": "Answer", "text": "Distance travelled"}}, {"@type": "Question", "name": "A car travels 200 miles in 4 hours. Calculate the gradient of the distance-time graph.", "acceptedAnswer": {"@type": "Answer", "text": "50 miles per hour"}}, {"@type": "Question", "name": "A velocity-time graph shows a triangle with base 10s and height 30 m/s. Calculate the distance travelled.", "acceptedAnswer": {"@type": "Answer", "text": "150 m"}}, {"@type": "Question", "name": "A car accelerates from 10 m/s to 30 m/s in 8 seconds. Calculate the acceleration.", "acceptedAnswer": {"@type": "Answer", "text": "2.5 m/s²"}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Algebra</a> <span>›</span>
+<span>Gradients & Areas Under Graphs</span>
+</nav>
+
+<article class="topic-header">
+<h1>A15: Gradients & Areas Under Graphs</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Calculate or estimate gradients and areas under graphs; interpret in distance-time and velocity-time contexts</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Gradient of a graph:</strong> The rate of change. Calculated by finding the change in y divided by the change in x.
+</div>
+
+<div class="key-point">
+<strong>Area under a graph:</strong> Can represent important quantities in real contexts (e.g., distance for velocity-time graphs).
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Finding Gradients</h2>
+
+<div class="key-point">
+<strong>Formula:</strong>
+<div class="formula-box">
+Gradient = <sup>change in y</sup>⁄<sub>change in x</sub> = <sup>Δy</sup>⁄<sub>Δx</sub>
+</div>
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>Find the gradient between points (1, 3) and (4, 9) on a graph.</p>
+<p><strong>Solution:</strong></p>
+<p>Gradient = <sup>9 - 3</sup>⁄<sub>4 - 1</sub> = <sup>6</sup>⁄<sub>3</sub> = 2</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Gradients on Distance-Time Graphs</h2>
+
+<div class="key-point">
+<strong>Interpretation:</strong> On a distance-time graph, the gradient represents SPEED.
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>A distance-time graph shows a car travelling from 0 km to 150 km in 3 hours. Calculate the speed.</p>
+<p><strong>Solution:</strong></p>
+<p>Speed = gradient = <sup>150 - 0</sup>⁄<sub>3 - 0</sub> = 50 km/h</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>At a specific point on a distance-time graph, the gradient is 25. What does this mean?</p>
+<p><strong>Solution:</strong></p>
+<p>The instantaneous speed is 25 (units per hour/minute depending on scale).</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Gradients on Velocity-Time Graphs</h2>
+
+<div class="key-point">
+<strong>Interpretation:</strong> On a velocity-time graph, the gradient represents ACCELERATION.
+</div>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>A velocity-time graph shows velocity increasing from 0 m/s to 20 m/s in 5 seconds. Calculate acceleration.</p>
+<p><strong>Solution:</strong></p>
+<p>Acceleration = gradient = <sup>20 - 0</sup>⁄<sub>5 - 0</sub> = 4 m/s²</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>On a velocity-time graph, what does a horizontal line mean?</p>
+<p><strong>Solution:</strong></p>
+<p>Gradient = 0, so acceleration = 0. The object is moving at constant velocity.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Area Under a Graph</h2>
+
+<div class="key-point">
+<strong>Method:</strong>
+<ol>
+<li>Divide the area into shapes (rectangles, triangles, trapeziums)</li>
+<li>Calculate the area of each shape</li>
+<li>Add them together</li>
+</ol>
+</div>
+
+<div class="example">
+<div class="example-title">Example 6</div>
+<p>Find the area under the line y = 2x from x = 0 to x = 4.</p>
+<p><strong>Solution:</strong></p>
+<p>This forms a triangle with base 4 and height 8.</p>
+<p>Area = ½ × 4 × 8 = 16 square units</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Area Under Velocity-Time Graphs</h2>
+
+<div class="key-point">
+<strong>Interpretation:</strong> On a velocity-time graph, the area under the graph represents DISTANCE TRAVELLED.
+</div>
+
+<div class="example">
+<div class="example-title">Example 7</div>
+<p>A car accelerates uniformly from 0 to 15 m/s in 10 seconds, then travels at constant speed for 20 seconds. Find total distance.</p>
+<p><strong>Solution:</strong></p>
+<p>Part 1 (triangle): Area = ½ × 10 × 15 = 75 m</p>
+<p>Part 2 (rectangle): Area = 20 × 15 = 300 m</p>
+<p><strong>Total distance:</strong> 75 + 300 = 375 m</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 8</div>
+<p>A velocity-time graph shows:</p>
+<ul>
+<li>0-5s: velocity increases from 0 to 10 m/s</li>
+<li>5-15s: constant velocity of 10 m/s</li>
+<li>15-20s: velocity decreases from 10 m/s to 0</li>
+</ul>
+<p>Calculate total distance.</p>
+<p><strong>Solution:</strong></p>
+<p>Area 1 = ½ × 5 × 10 = 25 m</p>
+<p>Area 2 = 10 × 10 = 100 m</p>
+<p>Area 3 = ½ × 5 × 10 = 25 m</p>
+<p><strong>Total:</strong> 25 + 100 + 25 = 150 m</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Estimating Area Under Curves</h2>
+
+<div class="key-point">
+<strong>Method:</strong> Count squares or use the trapezium rule for curved graphs.
+</div>
+
+<div class="example">
+<div class="example-title">Example 9</div>
+<p>Estimate the area under a curve by counting squares. If 15 full squares and 8 half-squares are under the curve, and each square represents 2 units²:</p>
+<p><strong>Solution:</strong></p>
+<p>Total squares = 15 + 4 = 19 squares</p>
+<p>Area ≈ 19 × 2 = 38 units²</p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> On a distance-time graph, what does the gradient represent?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> On a velocity-time graph, what does the gradient represent?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> On a velocity-time graph, what does the area under the graph represent?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> A car travels 200 miles in 4 hours. Calculate the gradient of the distance-time graph.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A velocity-time graph shows a triangle with base 10s and height 30 m/s. Calculate the distance travelled.</p>
+</div>
+<div class="question">
+<p><strong>Q6:</strong> A car accelerates from 10 m/s to 30 m/s in 8 seconds. Calculate the acceleration.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Speed</li>
+<li>Acceleration</li>
+<li>Distance travelled</li>
+<li>50 miles per hour</li>
+<li>150 m</li>
+<li>2.5 m/s²</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Distance-time: gradient = speed, area = no meaning</li>
+<li>Velocity-time: gradient = acceleration, area = distance</li>
+<li>Split area into triangles and rectangles for calculations</li>
+<li>For curves, count squares or estimate</li>
+<li>Always check units in your answer</li>
+</ul>
+</section>
+
+<section class="section"><h2>🧠 Problem-Solving Strategies</h2><div class="maths-skill"><h3>Problem-Solving</h3><div class="key-point">Distance-time: gradient = speed. Velocity-time: gradient = acceleration, area = distance. Split curved areas into trapeziums or count squares. For instantaneous rate, draw a tangent and find its gradient.</div><div class="example"><div class="example-title">Multi-Step Problem</div><p>A velocity-time graph shows: 0-4s: velocity increases from 0 to 12 m/s; 4-10s: constant velocity 12 m/s; 10-14s: velocity decreases from 12 to 0 m/s. (a) Find the acceleration for each section. (b) Find total distance. (c) Find average speed.</p><p><strong>Solution:</strong></p><p>(a) 0-4s: <sup>12</sup>⁄<sub>4</sub> = 3 m/s². 4-10s: 0 m/s². 10-14s: <sup>-12</sup>⁄<sub>4</sub> = -3 m/s²</p><p>(b) Triangle: ½×4×12 = 24. Rectangle: 6×12 = 72. Triangle: ½×4×12 = 24. Total = 120 m</p><p>(c) Average speed = <sup>120</sup>⁄<sub>14</sub> ≈ 8.57 m/s</p></div></div></section>
+
+<section class="section"><h2>⚠️ Common Errors</h2><div class="misconception"><h3>Watch Out!</h3><p>1. <span class="wrong">Wrong: Area under a distance-time graph gives distance</span> <span class="right">Correct: Area under a distance-time graph has no physical meaning — use gradient for speed</span></p><p>2. <span class="wrong">Wrong: Gradient of a velocity-time graph gives speed</span> <span class="right">Correct: Gradient gives acceleration (rate of change of velocity)</span></p><p>3. <span class="wrong">Wrong: The area under a curved graph can be found exactly using a triangle formula</span> <span class="right">Correct: For curves, estimate using trapeziums or counting squares — it's an approximation</span></p></div></section>
+
+<section class="section"><h2>✍️ 6-Mark Exam Question</h2><div class="extended-question"><h3>Extended Answer</h3><p><strong>6 marks:</strong> A car accelerates uniformly from rest to 25 m/s in 10 seconds, maintains 25 m/s for 30 seconds, then decelerates uniformly to rest in 5 seconds. (a) Calculate the acceleration. (b) Calculate the total distance. (c) If the speed limit is 60 km/h, is the car breaking the limit? Show working.</p><button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button><div class="model-answer"><p>(a) Acceleration = <sup>25</sup>⁄<sub>10</sub> = 2.5 m/s²</p><p>(b) Area 1: ½ × 10 × 25 = 125 m. Area 2: 30 × 25 = 750 m. Area 3: ½ × 5 × 25 = 62.5 m. Total = 937.5 m</p><p>(c) 25 m/s × 3.6 = 90 km/h. This exceeds 60 km/h, so yes, the car is breaking the speed limit.</p><p><em>Mark scheme: (a) 1 mark. (b) 3 marks. (c) 2 marks for conversion and conclusion.</em></p></div></div></section>
+
+<section class="section"><h2>📊 AO3: Reason &amp; Interpret</h2><div class="ao3-section"><h3>Reasoning and Interpretation</h3><p>A runner's velocity-time graph shows a curve that gradually flattens.</p><p><strong>(a)</strong> What does the flattening curve tell you about the runner's acceleration?</p><p><strong>(b)</strong> How would you estimate the total distance from this graph?</p><p><strong>(c)</strong> Explain why a straight-line graph would be unrealistic for this situation.</p><div class="key-point"><strong>Answers:</strong> (a) The runner's acceleration is decreasing — they speed up more slowly. (b) Count squares under the curve, or divide into trapeziums and sum areas. (c) A straight line means constant acceleration — runners cannot keep accelerating at the same rate; they tire and approach a maximum speed.</div></div></section>
+
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul>
+      <li><a href="https://www.bbc.co.uk/bitesize/topics/z3hv2p3" target="_blank" rel="noopener">BBC Bitesize</a></li>
+      <li><a href="https://www.youtube.com/c/corbettmaths/videos" target="_blank" rel="noopener">Corbettmaths</a></li>
+      <li><a href="https://www.youtube.com/@TheGCSEMathsTutor" target="_blank" rel="noopener">The GCSE Maths Tutor</a></li>
+    </ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/algebra/A15-gradients-areas-under-graphs.html&text=Gradients &amp; Areas Under Graphs" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/algebra/A15-gradients-areas-under-graphs.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/algebra/A15-gradients-areas-under-graphs.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Gradients &amp; Areas Under Graphs%20https://scottrix.github.io/gcserevise/topics/algebra/A15-gradients-areas-under-graphs.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/algebra/A15-gradients-areas-under-graphs.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="A1-algebraic-notation.html">Algebraic Notation</a></li>
+<li><a href="A10-gradients-intercepts.html">Gradients &amp; Intercepts</a></li>
+<li><a href="A11-quadratic-graphs.html">Quadratic Graphs</a></li>
+<li><a href="A12-other-graphs.html">Other Graphs</a></li>
+<li><a href="A13-graph-transformations.html">Graph Transformations</a></li>
+<li><a href="A14-real-life-graphs.html">Real-Life Graphs</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Mathematics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Mathematics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="A14-real-life-graphs.html" class="nav-prev">← Previous: Real-Life Graphs</a>
+<a href="A16-circles.html" class="nav-next">Next Topic: Circles →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Maths+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Maths Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Maths revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Gradients+%26+Areas+Under+Graphs+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Gradients & Areas Under Graphs Books →</div>
+  <div class="affiliate-card-desc">Browse Gradients & Areas Under Graphs books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

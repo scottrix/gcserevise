@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boolean Operations - GCSE Computer Science</title>
+<meta name="description" content="Learn about NOT, AND, OR truth tables, De Morgan's Laws and Boolean precedence for GCSE Computer Science. Free revision notes.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, programming, data types, constructs, boolean, subroutines, robust programming, input output, Operations, learn, about, truth, tables">
+<meta property="og:title" content="Boolean Operations - GCSE Computer Science">
+<meta property="og:description" content="Learn about NOT, AND, OR truth tables, De Morgan's Laws and Boolean precedence for GCSE Computer Science. Free revision notes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/programming/CS9-boolean-operations.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/programming/CS9-boolean-operations.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Boolean Operations">
+<meta name="twitter:description" content="Learn about NOT, AND, OR truth tables, De Morgan&#x27;s Laws and Boolean precedence for GCSE Computer Science. Free revision notes.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Complete the truth table for A AND B where A = TRUE, B = FALSE.", "acceptedAnswer": {"@type": "Answer", "text": "TRUE AND FALSE = FALSE. Both must be TRUE for AND to return TRUE."}}, {"@type": "Question", "name": "Evaluate: NOT (TRUE OR FALSE)", "acceptedAnswer": {"@type": "Answer", "text": "TRUE OR FALSE = TRUE. Then NOT TRUE = FALSE."}}, {"@type": "Question", "name": "Use De Morgan's Laws to simplify: NOT (x >= 0 AND x <= 100)", "acceptedAnswer": {"@type": "Answer", "text": "Using De Morgan's: NOT(x >= 0) OR NOT(x <= 100) = x < 0 OR x > 100."}}, {"@type": "Question", "name": "Write a condition that checks if a person is eligible for a student discount (age < 18 OR hasStudentCard = TRUE) AND isShopping = TRUE.", "acceptedAnswer": {"@type": "Answer", "text": "IF (age < 18 OR hasStudentCard = TRUE) AND isShopping = TRUE THEN\n    OUTPUT \"Student discount applied\"\nENDIF"}}, {"@type": "Question", "name": "Evaluate step by step: NOT FALSE AND TRUE OR FALSE", "acceptedAnswer": {"@type": "Answer", "text": "Step 1: NOT FALSE = TRUE (NOT has highest precedence). Step 2: TRUE AND TRUE = TRUE (AND next). Step 3: TRUE OR FALSE = TRUE (OR lowest). Result: TRUE."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Boolean Operations</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS9: Boolean Operations</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Master NOT, AND, OR truth tables, combining Boolean operators in conditions, De Morgan's Laws, and operator precedence.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 What are Boolean Operations?</h2>
+
+<div class="key-point">
+<strong>Boolean operations</strong> work on Boolean values (TRUE and FALSE) to produce a Boolean result. They are used to combine or invert conditions in IF statements and WHILE loops.
+</div>
+
+<p>The three Boolean operators are:</p>
+<ul>
+<li><strong>NOT</strong> - inverts (reverses) a Boolean value</li>
+<li><strong>AND</strong> - returns TRUE only if BOTH operands are TRUE</li>
+<li><strong>OR</strong> - returns TRUE if at least ONE operand is TRUE</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔄 NOT</h2>
+
+<div class="key-point">
+<strong>NOT</strong> reverses a Boolean value. NOT TRUE = FALSE, NOT FALSE = TRUE. It is used to invert a condition.
+</div>
+
+<table class="comparison-table">
+<tr><th>A</th><th>NOT A</th></tr>
+<tr><td>TRUE</td><td>FALSE</td></tr>
+<tr><td>FALSE</td><td>TRUE</td></tr>
+</table>
+
+<div class="example">
+<div class="example-title">NOT in Pseudo-code</div>
+<pre>isRaining &larr; TRUE
+IF NOT isRaining THEN
+    OUTPUT "Let's go outside!"
+ELSE
+    OUTPUT "Stay inside"
+ENDIF
+// Output: "Stay inside" (because NOT TRUE = FALSE)</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔗 AND</h2>
+
+<div class="key-point">
+<strong>AND</strong> returns TRUE only when BOTH conditions are TRUE. If either one is FALSE, the result is FALSE.
+</div>
+
+<table class="comparison-table">
+<tr><th>A</th><th>B</th><th>A AND B</th></tr>
+<tr><td>TRUE</td><td>TRUE</td><td>TRUE</td></tr>
+<tr><td>TRUE</td><td>FALSE</td><td>FALSE</td></tr>
+<tr><td>FALSE</td><td>TRUE</td><td>FALSE</td></tr>
+<tr><td>FALSE</td><td>FALSE</td><td>FALSE</td></tr>
+</table>
+
+<div class="example">
+<div class="example-title">AND in Pseudo-code</div>
+<pre>IF age >= 18 AND hasID = TRUE THEN
+    OUTPUT "You can buy alcohol"
+ELSE
+    OUTPUT "You cannot buy alcohol"
+ENDIF
+// Both conditions must be TRUE to allow the purchase</pre>
+</div>
+
+<div class="formula-box">
+<strong>AND Rule:</strong><br>
+Think of AND as a strict gatekeeper.<br>
+TRUE AND TRUE = TRUE (both pass)<br>
+Anything else = FALSE (at least one fails)
+</div>
+</section>
+
+<section class="section">
+<h2>🔀 OR</h2>
+
+<div class="key-point">
+<strong>OR</strong> returns TRUE when at least ONE condition is TRUE. Only returns FALSE when BOTH conditions are FALSE.
+</div>
+
+<table class="comparison-table">
+<tr><th>A</th><th>B</th><th>A OR B</th></tr>
+<tr><td>TRUE</td><td>TRUE</td><td>TRUE</td></tr>
+<tr><td>TRUE</td><td>FALSE</td><td>TRUE</td></tr>
+<tr><td>FALSE</td><td>TRUE</td><td>TRUE</td></tr>
+<tr><td>FALSE</td><td>FALSE</td><td>FALSE</td></tr>
+</table>
+
+<div class="example">
+<div class="example-title">OR in Pseudo-code</div>
+<pre>IF day = "Saturday" OR day = "Sunday" THEN
+    OUTPUT "It's the weekend!"
+ELSE
+    OUTPUT "It's a weekday"
+ENDIF
+// Only one condition needs to be TRUE</pre>
+</div>
+
+<div class="formula-box">
+<strong>OR Rule:</strong><br>
+Think of OR as a lenient gatekeeper.<br>
+FALSE OR FALSE = FALSE (both fail)<br>
+Anything else = TRUE (at least one passes)
+</div>
+</section>
+
+<section class="section">
+<h2>🧮 Combining Boolean Operators</h2>
+
+<div class="key-point">
+<strong>You can combine multiple Boolean operators</strong> in a single condition. Use brackets to make the order of evaluation clear.
+</div>
+
+<div class="example">
+<div class="example-title">Combining AND and OR</div>
+<pre>IF (age >= 18 AND hasID = TRUE) OR isMember = TRUE THEN
+    OUTPUT "Access granted"
+ENDIF</pre>
+<p>Access is granted if: (over 18 AND has ID) OR is a member.</p>
+</div>
+
+<div class="example">
+<div class="example-title">Complex Condition</div>
+<pre>IF (score >= 70 OR coursework >= 80) AND attendance >= 90 THEN
+    OUTPUT "Pass with merit"
+ENDIF</pre>
+<p>Pass with merit requires: (high score OR high coursework) AND good attendance.</p>
+</div>
+
+<div class="key-point">
+<strong>Brackets matter!</strong> The condition "A AND B OR C" is ambiguous. It could mean "(A AND B) OR C" or "A AND (B OR C)" which give different results. Always use brackets to make your intention clear.
+</div>
+
+<div class="example">
+<div class="example-title">Brackets Change the Result</div>
+<p>Let A = FALSE, B = FALSE, C = TRUE</p>
+<p>(A AND B) OR C = (FALSE AND FALSE) OR TRUE = FALSE OR TRUE = <strong>TRUE</strong></p>
+<p>A AND (B OR C) = FALSE AND (FALSE OR TRUE) = FALSE AND TRUE = <strong>FALSE</strong></p>
+<p>Same values, different result - brackets matter!</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📐 De Morgan's Laws</h2>
+
+<div class="key-point">
+<strong>De Morgan's Laws</strong> allow you to simplify complex Boolean expressions by "distributing" NOT over AND/OR. They state that the opposite of an AND expression is an OR expression of the opposites, and vice versa.
+</div>
+
+<div class="formula-box">
+<strong>De Morgan's Laws:</strong><br>
+NOT (A AND B) = (NOT A) OR (NOT B)<br>
+NOT (A OR B) = (NOT A) AND (NOT B)<br><br>
+When you push NOT through AND, it becomes OR (and vice versa).<br>
+Each individual condition is also negated.
+</div>
+
+<div class="example">
+<div class="example-title">De Morgan's Law Example 1</div>
+<p><strong>Original:</strong> NOT (age >= 18 AND hasID = TRUE)</p>
+<p>This means: it is NOT the case that both age >= 18 AND has ID.</p>
+<p><strong>Applying De Morgan's:</strong> (age &lt; 18) OR (hasID = FALSE)</p>
+<p>This means: either too young OR no ID - same meaning, simpler expression!</p>
+</div>
+
+<div class="example">
+<div class="example-title">De Morgan's Law Example 2</div>
+<p><strong>Original:</strong> NOT (raining = TRUE OR snowing = TRUE)</p>
+<p>This means: it is NOT the case that it is raining OR snowing.</p>
+<p><strong>Applying De Morgan's:</strong> (raining = FALSE) AND (snowing = FALSE)</p>
+<p>This means: it is not raining AND it is not snowing - same meaning!</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Original Expression</th>
+<th>De Morgan Equivalent</th>
+<th>English Meaning</th>
+</tr>
+<tr>
+<td>NOT (x > 0 AND x &lt; 100)</td>
+<td>x &lt;= 0 OR x >= 100</td>
+<td>x is outside the range 0-100</td>
+</tr>
+<tr>
+<td>NOT (a = TRUE OR b = TRUE)</td>
+<td>a = FALSE AND b = FALSE</td>
+<td>Both a and b are false</td>
+</tr>
+<tr>
+<td>NOT (age >= 18 AND hasPassport)</td>
+<td>age &lt; 18 OR NOT hasPassport</td>
+<td>Either too young or no passport</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📊 Operator Precedence</h2>
+
+<div class="key-point">
+<strong>Boolean operators have an order of precedence:</strong> NOT is evaluated first, then AND, then OR. Use brackets to override this order.
+</div>
+
+<div class="formula-box">
+<strong>Full Precedence (highest to lowest):</strong><br>
+1. Brackets ()<br>
+2. NOT<br>
+3. AND<br>
+4. OR<br><br>
+So "NOT A OR B AND C" means "(NOT A) OR (B AND C)"
+</div>
+
+<div class="example">
+<div class="example-title">Precedence Example</div>
+<pre>NOT TRUE OR TRUE AND FALSE</pre>
+<p>Step 1: NOT TRUE = FALSE</p>
+<p>Step 2: TRUE AND FALSE = FALSE</p>
+<p>Step 3: FALSE OR FALSE = <strong>FALSE</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Using AND when you mean OR</td>
+<td>"age &lt; 13 AND age > 19" is always FALSE</td>
+<td>Use OR: "age &lt; 13 OR age > 19"</td>
+</tr>
+<tr>
+<td>Forgetting brackets with mixed operators</td>
+<td>A AND B OR C is ambiguous</td>
+<td>Write (A AND B) OR C explicitly</td>
+</tr>
+<tr>
+<td>NOT (A AND B) = NOT A AND NOT B</td>
+<td>This is WRONG - De Morgan says OR, not AND</td>
+<td>NOT (A AND B) = NOT A OR NOT B</td>
+</tr>
+<tr>
+<td>Double negation confusion</td>
+<td>NOT NOT TRUE = TRUE, but it's confusing</td>
+<td>Simplify: remove double NOTs</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Complete the truth table for A AND B where A = TRUE, B = FALSE.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Evaluate: NOT (TRUE OR FALSE)</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Use De Morgan's Laws to simplify: NOT (x >= 0 AND x &lt;= 100)</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write a condition that checks if a person is eligible for a student discount (age &lt; 18 OR hasStudentCard = TRUE) AND isShopping = TRUE.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Evaluate step by step: NOT FALSE AND TRUE OR FALSE</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>TRUE AND FALSE = FALSE. Both must be TRUE for AND to return TRUE.</li>
+<li>TRUE OR FALSE = TRUE. Then NOT TRUE = FALSE.</li>
+<li>Using De Morgan's: NOT(x >= 0) OR NOT(x &lt;= 100) = x &lt; 0 OR x > 100.</li>
+<li>
+<pre>IF (age &lt; 18 OR hasStudentCard = TRUE) AND isShopping = TRUE THEN
+    OUTPUT "Student discount applied"
+ENDIF</pre>
+</li>
+<li>Step 1: NOT FALSE = TRUE (NOT has highest precedence). Step 2: TRUE AND TRUE = TRUE (AND next). Step 3: TRUE OR FALSE = TRUE (OR lowest). Result: TRUE.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Memorise the truth tables for NOT, AND, and OR</li>
+<li>AND needs BOTH to be TRUE; OR needs at least ONE</li>
+<li>Use brackets whenever combining AND and OR in the same condition</li>
+<li>De Morgan's: NOT(AND) becomes OR of NOTs, NOT(OR) becomes AND of NOTs</li>
+<li>Precedence: NOT first, then AND, then OR</li>
+<li>When simplifying conditions, apply De Morgan's Laws to make code clearer</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking AND and OR are interchangeable</span> <span class="right">✓ AND requires ALL conditions to be true; OR requires at least ONE condition to be true. They produce different results and are not interchangeable.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that NOT reverses a Boolean value</span> <span class="right">✓ NOT TRUE = FALSE and NOT FALSE = TRUE. NOT flips the result — it is used to negate conditions, e.g. WHILE NOT finished.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Assuming AND is evaluated before OR without brackets</span> <span class="right">✓ AND has higher precedence than OR in most languages. Use brackets to make intent clear: (A OR B) AND C is different from A OR (B AND C).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing NOT with negative numbers or minus signs</span> <span class="right">✓ NOT is a logical operator that reverses True/False. It is not the same as the arithmetic minus sign. NOT(5 > 3) = FALSE, not -5.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A login system requires a username of at least 5 characters AND a password of at least 8 characters. The user is locked out after 3 failed attempts. Write pseudo-code using Boolean operators to implement this. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>attempts ← 0
+loggedin ← FALSE
+WHILE attempts < 3 AND loggedin = FALSE
+  INPUT 'Username: ', username
+  INPUT 'Password: ', password
+  IF LENGTH(username) >= 5 AND LENGTH(password) >= 8 THEN
+    OUTPUT 'Login successful'
+    loggedin ← TRUE
+  ELSE
+    attempts ← attempts + 1
+    IF NOT loggedin AND attempts < 3 THEN
+      OUTPUT 'Invalid credentials, try again'
+    ENDIF
+  ENDIF
+ENDWHILE
+IF NOT loggedin THEN
+  OUTPUT 'Account locked: too many attempts'
+ENDIF</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including Boolean operations: AND, OR and NOT for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including Boolean operations: AND, OR and NOT to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including Boolean operations: AND, OR and NOT, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+AND needs ALL conditions True, OR needs ANY condition True, NOT reverses. Use brackets to make complex conditions clear. Build truth tables if asked to evaluate Boolean expressions. For validation, AND is used when ALL criteria must be met; OR when ANY criterion is sufficient. Remember AND has higher precedence than OR — use brackets to override.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Boolean+Logic+AND+OR+NOT+Operators" target="_blank" rel="noopener">YouTube: GCSE Computer Science Boolean Logic AND OR NOT Operators</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/programming/CS9-boolean-operations.html&text=Boolean Operations" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/programming/CS9-boolean-operations.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/programming/CS9-boolean-operations.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Boolean Operations%20https://scottrix.github.io/gcserevise/topics/programming/CS9-boolean-operations.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/programming/CS9-boolean-operations.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS10-data-structures.html">Data Structures</a></li>
+<li><a href="CS11-input-output-string-handling.html">Input, Output &amp;amp; String Handling</a></li>
+<li><a href="CS12-subroutines.html">Subroutines</a></li>
+<li><a href="CS13-robust-secure-programming.html">Robust &amp;amp; Secure Programming</a></li>
+<li><a href="CS14-random-number-generation.html">Random Number Generation</a></li>
+<li><a href="CS6-data-types.html">Data Types</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="CS8-arithmetic-relational-operations.html" class="nav-prev">← Previous: Arithmetic &amp; Relational Operations</a>
+<a href="CS10-data-structures.html" class="nav-next">Next Topic: Data Structures →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Boolean+Operations+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Boolean Operations Books →</div>
+  <div class="affiliate-card-desc">Browse Boolean Operations books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

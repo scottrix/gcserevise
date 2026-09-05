@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Network Security - GCSE Computer Science</title>
+<meta name="description" content="Learn about authentication, encryption, firewalls, MAC filtering and layered security. Free GCSE Computer Science revision.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, networks, topologies, protocols, TCP IP, network security, WiFi, ethernet, Network, Security, learn, about, authentication">
+<meta property="og:title" content="Network Security - GCSE Computer Science">
+<meta property="og:description" content="Learn about authentication, encryption, firewalls, MAC filtering and layered security. Free GCSE Computer Science revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/networks/CS32-network-security.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/networks/CS32-network-security.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Network Security">
+<meta name="twitter:description" content="Learn about authentication, encryption, firewalls, MAC filtering and layered security. Free GCSE Computer Science revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain the difference between symmetric and asymmetric encryption.", "acceptedAnswer": {"@type": "Answer", "text": "Symmetric encryption uses the same key for both encryption and decryption. It is fast but the key must be shared securely between sender and receiver. Asymmetric encryption uses a pair of keys: a public key (shared openly) for encryption and a private key (kept secret) for decryption. It is slower b"}}, {"@type": "Question", "name": "What is two-factor authentication? Give an example.", "acceptedAnswer": {"@type": "Answer", "text": "Two-factor authentication requires two different types of evidence to verify identity: something you know (password/PIN), something you have (phone/token), or something you are (biometric). Example: logging into online banking requires your password (know) and a code sent to your phone (have)."}}, {"@type": "Question", "name": "How does a firewall using packet filtering work?", "acceptedAnswer": {"@type": "Answer", "text": "A firewall using packet filtering examines each data packet's header information (source IP, destination IP, port numbers, protocol) and compares it against a set of predefined rules. Packets matching allowed rules are permitted through; packets matching denied rules or not matching any rule are blo"}}, {"@type": "Question", "name": "What is MAC address filtering and what is its main weakness?", "acceptedAnswer": {"@type": "Answer", "text": "MAC address filtering only allows devices with pre-approved MAC addresses to connect to a network. Its main weakness is that MAC addresses can be spoofed - an attacker can configure their device to use an approved MAC address and bypass the filter."}}, {"@type": "Question", "name": "Explain the principle of defence in depth and why it is important.", "acceptedAnswer": {"@type": "Answer", "text": "Defence in depth uses multiple layers of different security measures so that if one layer fails, others still provide protection. It is important because no single security measure is foolproof - each has weaknesses. By combining methods like firewalls, encryption, authentication, and MAC filtering,"}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Networks</span> <span>›</span>
+<span>Network Security</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS32: Network Security</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span>
+<span class="badge">Networks</span>
+</div>
+<p class="topic-desc">Authentication methods, encryption techniques, firewalls, MAC address filtering, and the importance of layered security.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Why Network Security Matters</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Networks are vulnerable to unauthorised access, data theft, and malicious attacks because data travels across shared infrastructure. Effective network security uses multiple methods to protect data and systems.
+</div>
+
+<p>When computers are connected to a network, they become accessible to other devices - including potential attackers. Security measures are needed to ensure that only authorised users can access data and that data cannot be intercepted or tampered with during transmission.</p>
+
+<ul>
+<li>Network connections create potential entry points for attackers</li>
+<li>Data travelling across networks can be intercepted</li>
+<li>Wireless networks are especially vulnerable (signals broadcast through air)</li>
+<li>Multiple security methods are needed - no single method is enough</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔐 Authentication</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Authentication is the process of verifying that a user is who they claim to be. It ensures that only authorised people can access a system or network.
+</div>
+
+<h3>Passwords</h3>
+<p>The most common authentication method. A user enters a username and a secret password that only they should know.</p>
+<ul>
+<li>Simple and widely used</li>
+<li>Can be guessed, stolen, or cracked using brute force</li>
+<li>Should be complex (mix of letters, numbers, symbols)</li>
+<li>Should be changed regularly and never shared</li>
+</ul>
+
+<h3>Biometrics</h3>
+<p>Authentication using unique biological characteristics:</p>
+<ul>
+<li>Fingerprint recognition</li>
+<li>Facial recognition</li>
+<li>Iris/retina scanning</li>
+<li>Voice recognition</li>
+<li>Very difficult to forge or steal</li>
+<li>Cannot be forgotten like a password</li>
+<li>Concerns about privacy and storage of biometric data</li>
+</ul>
+
+<h3>Two-Factor Authentication (2FA)</h3>
+<div class="key-point">
+<strong>Definition:</strong> Two-factor authentication requires the user to provide two different types of evidence to prove their identity. This combines something you KNOW (password) with something you HAVE (phone/token) or something you ARE (biometric).
+</div>
+
+<ul>
+<li>Factor 1: Something you KNOW (password, PIN)</li>
+<li>Factor 2: Something you HAVE (phone, security token, smart card)</li>
+<li>Factor 3: Something you ARE (fingerprint, face scan)</li>
+<li>Even if a password is stolen, the attacker still needs the second factor</li>
+<li>Examples: bank card + PIN, password + SMS code, password + authenticator app</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When you log into Google, you enter your password (something you know). Google then sends a code to your phone (something you have) that you must also enter. Even if someone steals your password, they cannot log in without also having your phone.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Method</th>
+<th>How It Works</th>
+<th>Strengths</th>
+<th>Weaknesses</th>
+</tr>
+<tr>
+<td>Password</td>
+<td>Secret text known only to user</td>
+<td>Simple, cheap, widely supported</td>
+<td>Can be guessed, stolen, shared</td>
+</tr>
+<tr>
+<td>Biometrics</td>
+<td>Unique physical characteristic</td>
+<td>Very hard to forge, can't forget</td>
+<td>Expensive, privacy concerns</td>
+</tr>
+<tr>
+<td>2FA</td>
+<td>Two different types of evidence</td>
+<td>Much stronger than single factor</td>
+<td>Slightly inconvenient, relies on second device</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔒 Encryption</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Encryption is the process of converting plaintext data into ciphertext (unreadable form) using an encryption algorithm and a key. Only someone with the correct decryption key can convert it back to readable plaintext.
+</div>
+
+<h3>Symmetric Encryption</h3>
+<div class="key-point">
+<strong>Definition:</strong> Symmetric encryption uses the SAME key to encrypt and decrypt data. Both the sender and receiver must have the same secret key.
+</div>
+
+<ul>
+<li>Same key for encryption and decryption</li>
+<li>Fast to encrypt and decrypt</li>
+<li>The key must be shared securely between sender and receiver</li>
+<li>Problem: how do you safely share the key? If intercepted, security is compromised</li>
+<li>Example: AES (Advanced Encryption Standard)</li>
+</ul>
+
+<h3>Asymmetric Encryption (Public Key Encryption)</h3>
+<div class="key-point">
+<strong>Definition:</strong> Asymmetric encryption uses a PAIR of keys: a public key (shared openly) and a private key (kept secret). Data encrypted with the public key can only be decrypted with the matching private key.
+</div>
+
+<ul>
+<li>Two keys: public key (shared with everyone) and private key (kept secret)</li>
+<li>Public key encrypts; private key decrypts</li>
+<li>No need to share a secret key - the public key can be freely distributed</li>
+<li>Slower than symmetric encryption</li>
+<li>Example: RSA encryption</li>
+</ul>
+
+<div class="example">
+<div class="example-title">How Asymmetric Encryption Works</div>
+<p>Alice wants to send a secure message to Bob:</p>
+<p>1. Alice obtains Bob's public key (anyone can have it)</p>
+<p>2. Alice encrypts the message using Bob's public key</p>
+<p>3. Alice sends the encrypted message to Bob</p>
+<p>4. Even if the message is intercepted, only Bob's private key can decrypt it</p>
+<p>5. Bob uses his private key to decrypt and read the message</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Property</th>
+<th>Symmetric Encryption</th>
+<th>Asymmetric Encryption</th>
+</tr>
+<tr>
+<td>Keys used</td>
+<td>One (same for encrypt and decrypt)</td>
+<td>Two (public and private key pair)</td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>Fast</td>
+<td>Slower</td>
+</tr>
+<tr>
+<td>Key distribution</td>
+<td>Problem - must share secret key securely</td>
+<td>No problem - public key can be shared openly</td>
+</tr>
+<tr>
+<td>Security risk</td>
+<td>Key can be intercepted during sharing</td>
+<td>Private key must be kept secret</td>
+</tr>
+<tr>
+<td>Use case</td>
+<td>Bulk data encryption (fast)</td>
+<td>Secure key exchange, digital signatures</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🛡️ Firewalls</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and an untrusted external network (like the internet).
+</div>
+
+<h3>Packet Filtering</h3>
+<p>The most common type of firewall examines each data packet and decides whether to allow or block it based on rules:</p>
+
+<ul>
+<li>Examines packet headers (source IP, destination IP, port numbers, protocol)</li>
+<li>Compares each packet against a set of rules (access control list)</li>
+<li>Allows packets that match permitted rules</li>
+<li>Blocks packets that match denied rules or don't match any rule</li>
+<li>Can block traffic from specific IP addresses or on specific ports</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Firewall Rules Example</div>
+<p>Rule 1: ALLOW incoming traffic on port 443 (HTTPS web traffic)</p>
+<p>Rule 2: ALLOW outgoing traffic on port 80 (HTTP)</p>
+<p>Rule 3: BLOCK incoming traffic on port 23 (Telnet - insecure)</p>
+<p>Rule 4: BLOCK all traffic from IP address 192.168.45.100 (known attacker)</p>
+<p>Rule 5: BLOCK all other incoming traffic (default deny)</p>
+</div>
+
+<ul>
+<li><strong>Advantages:</strong> Effective at blocking unauthorised access, can be configured to protect specific services, provides a single checkpoint for network traffic</li>
+<li><strong>Limitations:</strong> Cannot prevent attacks from within the network, cannot detect all types of malicious content, cannot prevent social engineering attacks, requires expert configuration</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>📡 MAC Address Filtering</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> MAC address filtering is a security method where a network only allows devices with specific, pre-approved MAC addresses to connect. A MAC address is a unique identifier assigned to every network interface card.
+</div>
+
+<ul>
+<li>Each network device has a unique MAC address (e.g. 00:1A:2B:3C:4D:5E)</li>
+<li>The network maintains a whitelist of approved MAC addresses</li>
+<li>Only devices with approved MAC addresses can connect</li>
+<li>Used primarily on wireless networks (Wi-Fi routers)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A company Wi-Fi network allows only these MAC addresses to connect: the CEO's laptop, the receptionist's tablet, and the meeting room computer. Any other device trying to connect is refused, even if they know the Wi-Fi password.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+<tr>
+<td>Simple to set up</td>
+<td>MAC addresses can be spoofed (faked)</td>
+</tr>
+<tr>
+<td>Prevents casual unauthorised access</td>
+<td>Difficult to manage with many devices</td>
+</tr>
+<tr>
+<td>Adds an extra layer of security</td>
+<td>Must update the list when devices change</td>
+</tr>
+<tr>
+<td>No additional software needed</td>
+<td>Not sufficient as the only security measure</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🏗️ Defence in Depth (Layered Security)</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Defence in depth is a security strategy that uses multiple layers of different security measures. If one layer fails, the other layers still provide protection. No single security measure is foolproof.
+</div>
+
+<p>The principle of defence in depth recognises that no single security method is perfect. Each method has weaknesses that can be exploited. By combining multiple methods, the overall security is much stronger.</p>
+
+<ul>
+<li>If a password is compromised, 2FA still protects the account</li>
+<li>If an attacker gets past the firewall, encryption still protects the data</li>
+<li>If MAC filtering is spoofed, the firewall still blocks unauthorised traffic</li>
+<li>Multiple layers create multiple obstacles for attackers</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Defence in Depth Example</div>
+<p>A secure company network might use ALL of these:</p>
+<p>1. Firewall (blocks unauthorised external access)</p>
+<p>2. Encryption (protects data even if intercepted)</p>
+<p>3. Password + 2FA (prevents unauthorised login)</p>
+<p>4. MAC address filtering (only approved devices can connect)</p>
+<p>5. Anti-malware software (detects and removes malicious programs)</p>
+<p>6. Regular security updates (patches known vulnerabilities)</p>
+</div>
+
+<div class="formula-box">
+<strong>Defence in Depth Principle:</strong><br>
+Multiple layers of security > Any single security measure<br>
+If one layer fails, other layers still provide protection<br>
+Use different types of security at each layer (technical, physical, procedural)
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "encryption prevents hacking"</td>
+<td>Encryption only protects data content, not access</td>
+<td>Encryption protects data confidentiality, not system access</td>
+</tr>
+<tr>
+<td>Confusing symmetric and asymmetric encryption</td>
+<td>They use different key systems</td>
+<td>Symmetric = same key; Asymmetric = public/private key pair</td>
+</tr>
+<tr>
+<td>Saying "MAC filtering is very secure"</td>
+<td>MAC addresses can be easily spoofed</td>
+<td>MAC filtering is a useful extra layer but not sufficient alone</td>
+</tr>
+<tr>
+<td>Saying "firewalls prevent all attacks"</td>
+<td>Firewalls cannot prevent internal attacks or social engineering</td>
+<td>Firewalls are one layer in defence in depth</td>
+</tr>
+<tr>
+<td>Saying "2FA is just two passwords"</td>
+<td>2FA uses two DIFFERENT TYPES of factor</td>
+<td>2FA = knowledge + possession (or biometric)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Explain the difference between symmetric and asymmetric encryption.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What is two-factor authentication? Give an example.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> How does a firewall using packet filtering work?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is MAC address filtering and what is its main weakness?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain the principle of defence in depth and why it is important.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Symmetric encryption uses the same key for both encryption and decryption. It is fast but the key must be shared securely between sender and receiver. Asymmetric encryption uses a pair of keys: a public key (shared openly) for encryption and a private key (kept secret) for decryption. It is slower but solves the key distribution problem.</li>
+<li>Two-factor authentication requires two different types of evidence to verify identity: something you know (password/PIN), something you have (phone/token), or something you are (biometric). Example: logging into online banking requires your password (know) and a code sent to your phone (have).</li>
+<li>A firewall using packet filtering examines each data packet's header information (source IP, destination IP, port numbers, protocol) and compares it against a set of predefined rules. Packets matching allowed rules are permitted through; packets matching denied rules or not matching any rule are blocked.</li>
+<li>MAC address filtering only allows devices with pre-approved MAC addresses to connect to a network. Its main weakness is that MAC addresses can be spoofed - an attacker can configure their device to use an approved MAC address and bypass the filter.</li>
+<li>Defence in depth uses multiple layers of different security measures so that if one layer fails, others still provide protection. It is important because no single security measure is foolproof - each has weaknesses. By combining methods like firewalls, encryption, authentication, and MAC filtering, the overall security is much stronger than any single method alone.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all authentication methods and their strengths/weaknesses</li>
+<li>Be clear on symmetric vs asymmetric: same key vs public/private key pair</li>
+<li>For firewalls, explain packet filtering with specific rule examples</li>
+<li>Always mention MAC spoofing as a weakness of MAC filtering</li>
+<li>Defence in depth: multiple layers, different types, redundancy</li>
+<li>When asked "how to secure a network," combine multiple methods</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking a firewall alone makes a network completely secure</span> <span class="right">✓ A firewall filters traffic based on rules but cannot prevent all threats — it doesn't protect against phishing, insider threats, or malware downloaded by users.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing encryption and authentication</span> <span class="right">✓ Encryption scrambles data so only authorised parties can read it. Authentication verifies the identity of a user or device. They serve different security purposes.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing SSL/TLS makes a website completely safe</span> <span class="right">✓ SSL/TLS encrypts data in transit between browser and server. It doesn't guarantee the website itself is legitimate or that the server is secure — it only protects the connection.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Not understanding the difference between a firewall and antivirus software</span> <span class="right">✓ A firewall controls network traffic in/out of a network. Antivirus scans files and programs on a device for known malware signatures. They protect against different types of threats.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A company network uses a firewall and encryption. Explain two additional security measures the company should implement, justifying why each is needed despite the existing measures. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>1. Antivirus/Anti-malware software: A firewall cannot detect malware that is already on a device or that a user downloads intentionally (e.g. from a phishing email). Antivirus software scans files and programs for known malware signatures, quarantining or removing threats that bypass the firewall.
+
+2. User authentication (strong passwords + multi-factor authentication): Encryption protects data in transit but does not prevent unauthorised access if an attacker obtains valid credentials. Strong password policies (minimum length, complexity) and MFA (requiring a second verification step like a phone code) significantly reduce the risk of account compromise, even if passwords are leaked.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including network security: firewalls and encryption for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including network security: firewalls and encryption to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including network security: firewalls and encryption, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Network security measures: firewall, encryption, antivirus, authentication (passwords/MFA), user access levels, physical security. Know what each protects against and its limitations. Firewall ≠ antivirus. Encryption ≠ authentication. SSL/TLS = encrypted connection only. For security questions, always suggest multiple measures and explain WHY each is needed. No single measure provides complete protection.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zqb8qxh" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Network+Security+Firewall+Encryption+Authentication" target="_blank" rel="noopener">YouTube: GCSE Computer Science Network Security Firewall Encryption Authentication</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/networks/CS32-network-security.html&text=Network Security" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/networks/CS32-network-security.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/networks/CS32-network-security.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Network Security%20https://scottrix.github.io/gcserevise/topics/networks/CS32-network-security.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/networks/CS32-network-security.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS29-network-types-topologies.html">Network Types &amp; Topologies</a></li>
+<li><a href="CS30-network-protocols.html">Network Protocols</a></li>
+<li><a href="CS31-tcp-ip-model.html">TCP/IP Model</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../networks/CS31-tcp-ip-model.html" class="nav-prev">← Previous Topic: TCP/IP Model</a>
+<a href="../cyber-security/CS33-cyber-security-threats.html" class="nav-next">Next Topic: Cyber Security Threats →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Networks+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Networks Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Networks revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Network+Security+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Network Security Books →</div>
+  <div class="affiliate-card-desc">Browse Network Security books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

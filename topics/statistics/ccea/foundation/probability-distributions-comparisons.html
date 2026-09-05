@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Probability Distributions &amp; Comparisons - GCSE Statistics</title>
+<meta name="description" content="GCSE Statistics probability distributions and comparisons: binomial distribution, normal distribution, 68-95-99.7 rule, standardising, comparing data sets for Edexcel 1ST0 and AQA 8382.">
+<meta name="keywords" content="binomial distribution, normal distribution, 68-95-99.7 rule, standard deviation, standardised score, z-score, comparing distributions, probability distribution, GCSE Statistics, Edexcel 1ST0 & AQA 8382">
+<meta property="og:title" content="Probability Distributions &amp; Comparisons - GCSE Statistics">
+<meta property="og:description" content="GCSE Statistics probability distributions and comparisons: binomial distribution, normal distribution, 68-95-99.7 rule, standardising, comparing data sets for Edexcel 1ST0 and AQA 8382.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-distributions-comparisons.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-distributions-comparisons.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Probability Distributions &amp;amp; Comparisons">
+<meta name="twitter:description" content="GCSE Statistics probability distributions and comparisons: binomial distribution, normal distribution, 68-95-99.7 rule, standardising, comparing data sets for Edexcel 1ST0 and AQA 8382.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:A fair coin is tossed 10 times. What is the probability of getting exactly 7 heads?", "acceptedAnswer": {"@type": "Answer", "text": "X~B(10, 0.5). P(X=7) = ¹⁰C₇ × 0.5⁷ × 0.5³ = 120 × 0.0078125 × 0.125 = 0.1171875 ≈ 0.117"}}, {"@type": "Question", "name": "Q:Heights of a population are normally distributed with mean 170 cm and standard deviation 6 cm. Use the 68–95–99.7 rule to estimate the percentage of people between 158 cm and 182 cm.", "acceptedAnswer": {"@type": "Answer", "text": "158 = 170 − 12 = mean − 2σ. 182 = 170 + 12 = mean + 2σ. By the 68–95–99.7 rule, approximately 95% of data lies within 2σ of the mean."}}, {"@type": "Question", "name": "Q:Student A scores 72 on a test with mean 60 and SD 8. Student B scores 78 on a test with mean 70 and SD 5. Who performed better relative to their class?", "acceptedAnswer": {"@type": "Answer", "text": "z_A = (72−60)/8 = 1.5. z_B = (78−70)/5 = 1.6. Student B performed better as their z-score is higher."}}, {"@type": "Question", "name": "Q:A dice is rolled 20 times. Using a binomial model with p = 1/6 for rolling a 6, find the expected number of sixes and the variance.", "acceptedAnswer": {"@type": "Answer", "text": "Mean = np = 20 × 1/6 ≈ 3.33. Variance = np(1−p) = 20 × (1/6) × (5/6) ≈ 2.78."}}, {"@type": "Question", "name": "Q:Explain why a binomial distribution would not be appropriate for modelling the number of goals scored in a football match.", "acceptedAnswer": {"@type": "Answer", "text": "The binomial requires a fixed number of independent trials with constant probability. Goals in a football match do not have a fixed number of trials, the probability of scoring likely changes during the match, and goals may not be independent events (momentum effects)."}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../statistics.html">Statistics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../statistics.html">Statistics</a> <span>›</span>
+<span>Statistical Interpretation &amp; Evaluation</span> <span>›</span>
+<span>Probability Distributions &amp; Comparisons</span>
+</nav>
+<article class="topic-header">
+<h1>ST20: Probability Distributions &amp; Comparisons</h1>
+<div class="topic-meta">
+<span class="badge">Edexcel 1ST0 &amp; AQA 8382</span>
+</div>
+<p class="topic-desc">Explores key probability distributions including the binomial and normal distributions, the 68–95–99.7 rule for normally distributed data, and techniques for comparing data sets using summary statistics and standardised scores.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Probability Distributions &amp; Comparisons</h2>
+<p>Explores key probability distributions including the binomial and normal distributions, the 68–95–99.7 rule for normally distributed data, and techniques for comparing data sets using summary statistics and standardised scores.</p>
+<div class="key-point">
+<strong>Key Fact:</strong> A probability distribution lists all possible outcomes with their associated probabilities; the total probability always sums to 1
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Binomial distribution models the number of successes in n independent trials, each with the same probability p of success; P(X = r) = ²ⁿCᵣ × pʳ × (1−p)ⁿʻʳ where X~B(n, p)
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For a binomial distribution: mean = np and variance = np(1−p); these are the expected value and spread
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The normal distribution is a continuous bell-shaped curve, fully defined by its mean (μ) and standard deviation (σ); notation X~N(μ, σ²)
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The 68–95–99.7 rule: approximately 68% of data lies within 1σ of the mean, 95% within 2σ, and 99.7% within 3σ
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The normal distribution is symmetric about the mean; the mean, median and mode are all equal
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Standardised score (z-score) = (value − mean) ÷ standard deviation; it measures how many standard deviations a value is from the mean
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Standardising allows comparison between different distributions by converting values to a common N(0,1) scale
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> When comparing two data sets, compare medians or means for location, and IQR or standard deviation for spread
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Use the context when comparing: always state which group is higher/lower and by how much, using summary statistics with units
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A binomial situation requires: fixed number of trials, two outcomes (success/failure), independent trials, and constant probability of success
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For normal distribution calculations, use z-tables or a calculator to find areas under the curve between given z-values
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Probability Distributions &amp; Comparisons, you must know:</p>
+<ul><li><strong>Binomial distribution:</strong> A discrete probability distribution for the number of successes in n independent trials, each with probability p of success</li>
+<li><strong>Normal distribution:</strong> A continuous symmetric bell-shaped probability distribution defined by mean μ and standard deviation σ</li>
+<li><strong>68–95–99.7 rule:</strong> In a normal distribution: 68% within 1σ, 95% within 2σ, 99.7% within 3σ of the mean</li>
+<li><strong>Standardised score (z-score):</strong> (value − mean) ÷ standard deviation; the number of standard deviations a value is from the mean</li>
+<li><strong>Probability distribution:</strong> A complete list of all possible outcomes of a random variable with their associated probabilities</li>
+<li><strong>Variance:</strong> The mean of the squared deviations from the mean; it measures the spread of a distribution (σ²)</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> A fair coin is tossed 10 times. What is the probability of getting exactly 7 heads?</p></div>
+<div class="question"><p><strong>Q:</strong> Heights of a population are normally distributed with mean 170 cm and standard deviation 6 cm. Use the 68–95–99.7 rule to estimate the percentage of people between 158 cm and 182 cm.</p></div>
+<div class="question"><p><strong>Q:</strong> Student A scores 72 on a test with mean 60 and SD 8. Student B scores 78 on a test with mean 70 and SD 5. Who performed better relative to their class?</p></div>
+<div class="question"><p><strong>Q:</strong> A dice is rolled 20 times. Using a binomial model with p = 1/6 for rolling a 6, find the expected number of sixes and the variance.</p></div>
+<div class="question"><p><strong>Q:</strong> Explain why a binomial distribution would not be appropriate for modelling the number of goals scored in a football match.</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>X~B(10, 0.5). P(X=7) = ¹⁰C₇ × 0.5⁷ × 0.5³ = 120 × 0.0078125 × 0.125 = 0.1171875 ≈ 0.117</li>
+<li>158 = 170 − 12 = mean − 2σ. 182 = 170 + 12 = mean + 2σ. By the 68–95–99.7 rule, approximately 95% of data lies within 2σ of the mean.</li>
+<li>z_A = (72−60)/8 = 1.5. z_B = (78−70)/5 = 1.6. Student B performed better as their z-score is higher.</li>
+<li>Mean = np = 20 × 1/6 ≈ 3.33. Variance = np(1−p) = 20 × (1/6) × (5/6) ≈ 2.78.</li>
+<li>The binomial requires a fixed number of independent trials with constant probability. Goals in a football match do not have a fixed number of trials, the probability of scoring likely changes during the match, and goals may not be independent events (momentum effects).</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always state the distribution notation: X~B(n, p) for binomial and X~N(μ, σ²) for normal</li>
+<li>When using the 68–95–99.7 rule, first identify how many standard deviations from the mean the boundary values are</li>
+<li>In comparison questions, compare both location (mean/median) and spread (SD/IQR), and always refer back to the context</li>
+<li>For z-score questions, show the calculation clearly: z = (x − μ)/σ, then interpret the sign and magnitude</li>
+<li>Check whether a question is asking for a binomial or normal approach by looking for keywords: ‘number of successes’ suggests binomial; ‘normally distributed’ suggests normal</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+  <strong>GCSE Statistics Exam Tips — Probability Distributions & Comparisons:</strong><br>
+  1. For Probability Distributions & Comparisons questions, show every step of your working clearly — method marks count even if the final answer is wrong<br>
+    2. Check your answer makes sense in context (estimation, units, reasonableness)<br>
+    3. Use correct mathematical notation and state formulae before substituting values<br>
+    4. If a Probability Distributions & Comparisons question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line<br>
+    5. For problem-solving, identify the topic first, then recall the relevant method
+</div><h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Using σ² instead of σ when applying the 68–95–99.7 rule</span> <span class="right">✓ The rule uses standard deviation σ, not variance σ²; mean ± 2σ covers 95%</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing discrete and continuous distributions</span> <span class="right">✓ Binomial is discrete (count successes); normal is continuous (measure values on a scale)</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Comparing raw scores across different distributions without standardising</span> <span class="right">✓ Convert to z-scores first to make fair comparisons on a common scale</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Assuming all data is normally distributed without checking</span> <span class="right">✓ Only use the normal distribution when told the data is normally distributed or when the distribution is symmetric and bell-shaped</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>The masses of apples from Farm A are normally distributed with mean 150 g and standard deviation 12 g. The masses of apples from Farm B are normally distributed with mean 160 g and standard deviation 20 g. An apple from Farm A has mass 174 g and an apple from Farm B has mass 180 g. Which apple is relatively heavier? Show your working.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Standardise each apple’s mass using z = (value − mean) ÷ SD.
+
+Farm A: z = (174 − 150) ÷ 12 = 24 ÷ 12 = 2.0
+Farm B: z = (180 − 160) ÷ 20 = 20 ÷ 20 = 1.0
+
+The Farm A apple is 2.0 standard deviations above its mean, while the Farm B apple is only 1.0 standard deviation above its mean. Therefore the Farm A apple is relatively heavier compared to its distribution.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of probability distributions &amp; comparisons, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of probability distributions &amp; comparisons to interpret data, reason statistically and draw conclusions in context.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate statistical methods and conclusions, assessing appropriateness, reliability, validity and bias through the statistical enquiry cycle.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/statistics" target="_blank" rel="noopener">BBC Bitesize: GCSE Statistics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Statistics+Probability+Distributions+&amp;+Comparisons" target="_blank" rel="noopener">YouTube: GCSE Statistics Probability Distributions &amp; Comparisons</a></li></ul>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-distributions-comparisons.html&text=Probability Distributions &amp;amp; Comparisons" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-distributions-comparisons.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-distributions-comparisons.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Probability Distributions &amp;amp; Comparisons%20https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-distributions-comparisons.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/stats-interpretation/probability-distributions-comparisons.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="index-numbers-population-estimation.html">Index Numbers &amp;amp; Population Estimation</a></li>
+<li><a href="probability-fundamentals.html">Probability Fundamentals</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Statistics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Statistics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../stats-interpretation/probability-fundamentals.html" class="nav-prev">← Previous Topic</a>
+<a href="../stats-interpretation/index-numbers-population-estimation.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Statistics Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Statistics revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Edexcel+1ST0+%26+AQA+8382+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Edexcel 1ST0 &amp; AQA 8382 Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Edexcel 1ST0 &amp; AQA 8382 revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Probability+Distributions+%26+Comparis+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Probability Distributions &amp; Comparis Books →</div>
+  <div class="affiliate-card-desc">Browse Probability Distributions &amp; Comparis books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>

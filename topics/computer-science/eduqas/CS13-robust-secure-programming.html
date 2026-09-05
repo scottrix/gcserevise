@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robust &amp; Secure Programming - GCSE Computer Science</title>
+<meta name="description" content="Learn about validation, authentication, testing, test data types, errors and debugging for GCSE Computer Science. Free revision notes.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, programming, data types, constructs, boolean, subroutines, robust programming, input output, Robust, amp, Secure, learn, about">
+<meta property="og:title" content="Robust &amp; Secure Programming - GCSE Computer Science">
+<meta property="og:description" content="Learn about validation, authentication, testing, test data types, errors and debugging for GCSE Computer Science. Free revision notes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/programming/CS13-robust-secure-programming.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/programming/CS13-robust-secure-programming.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Robust &amp;amp; Secure Programming">
+<meta name="twitter:description" content="Learn about validation, authentication, testing, test data types, errors and debugging for GCSE Computer Science. Free revision notes.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Name three types of validation check and give an example of each.", "acceptedAnswer": {"@type": "Answer", "text": "Range check: age must be 0-120. Length check: password must be at least 8 characters. Type check: quantity must be an integer. Presence check: name cannot be empty. Format check: email must contain @."}}, {"@type": "Question", "name": "A program asks for a test score between 0 and 100. Give examples of normal, boundary, and erroneous test data.", "acceptedAnswer": {"@type": "Answer", "text": "Normal: 75 (typical valid score). Boundary: 0, 100 (just within range), -1, 101 (just outside range). Erroneous: -50, 150, \"hello\" (clearly invalid)."}}, {"@type": "Question", "name": "Explain the difference between a syntax error and a logic error.", "acceptedAnswer": {"@type": "Answer", "text": "A syntax error is a mistake in the grammar of the programming language that prevents the program from running (e.g. missing ENDIF). A logic error is a mistake in the program's logic where it runs but produces incorrect results (e.g. dividing by the wrong number)."}}, {"@type": "Question", "name": "Write pseudo-code that validates a username to be between 3 and 20 characters.", "acceptedAnswer": {"@type": "Answer", "text": "REPEAT\n    INPUT \"Enter username (3-20 chars): \", username\n    IF LENGTH(username) < 3 OR LENGTH(username) > 20 THEN\n        OUTPUT \"Username must be between 3 and 20 characters\"\n    ENDIF\nUNTIL LENGTH(username) >= 3 AND LENGTH(username) <= 20"}}, {"@type": "Question", "name": "Describe two techniques for debugging a logic error.", "acceptedAnswer": {"@type": "Answer", "text": "1) Use a trace table to step through the program line by line, recording variable values and comparing with expected values. 2) Add temporary OUTPUT statements at key points to display variable values and check if they match expectations."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Robust &amp; Secure Programming</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS13: Robust &amp; Secure Programming</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Validation, authentication, testing strategies, test data types, syntax vs logic errors, and debugging techniques for writing robust and secure programs.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>✅ Validation</h2>
+
+<div class="key-point">
+<strong>Validation</strong> is the process of checking that input data is reasonable, sensible, and within acceptable limits before it is processed. Validation does NOT check if data is accurate - only that it is acceptable.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Check Type</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>Range check</td>
+<td>Checks that a value is within a specified range</td>
+<td>Age must be between 0 and 120</td>
+</tr>
+<tr>
+<td>Length check</td>
+<td>Checks that a string has an acceptable number of characters</td>
+<td>Password must be at least 8 characters</td>
+</tr>
+<tr>
+<td>Type check</td>
+<td>Checks that the data is of the correct data type</td>
+<td>Age must be an integer, not a string</td>
+</tr>
+<tr>
+<td>Presence check</td>
+<td>Checks that a field has not been left empty</td>
+<td>Name field cannot be blank</td>
+</tr>
+<tr>
+<td>Format check</td>
+<td>Checks that data follows a specific pattern</td>
+<td>Email must contain @, date must be DD/MM/YYYY</td>
+</tr>
+<tr>
+<td>Lookup check</td>
+<td>Checks that a value exists in a predefined list</td>
+<td>Country must be in the list of valid countries</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Validation in Pseudo-code</div>
+<pre>REPEAT
+    INPUT "Enter age (1-120): ", ageInput
+    age &larr; INT(ageInput)
+    IF age &lt; 1 OR age > 120 THEN
+        OUTPUT "Age must be between 1 and 120"
+    ENDIF
+UNTIL age >= 1 AND age &lt;= 120</pre>
+</div>
+
+<div class="key-point">
+<strong>Validation vs Verification:</strong> Validation checks if data is reasonable. Verification checks if data is correct (e.g. double-entry where you type the data twice to confirm it). They are different processes!
+</div>
+</section>
+
+<section class="section">
+<h2>🔐 Authentication</h2>
+
+<div class="key-point">
+<strong>Authentication</strong> is the process of verifying a user's identity. The most common method is a username and password system. Authentication ensures that only authorised users can access a system.
+</div>
+
+<div class="example">
+<div class="example-title">Simple Authentication Pseudo-code</div>
+<pre>storedUsername &larr; "admin"
+storedPassword &larr; "S3cur3!"
+attempts &larr; 0
+authenticated &larr; FALSE
+
+WHILE attempts &lt; 3 AND authenticated = FALSE
+    INPUT "Username: ", username
+    INPUT "Password: ", password
+    IF username = storedUsername AND password = storedPassword THEN
+        authenticated &larr; TRUE
+        OUTPUT "Access granted"
+    ELSE
+        attempts &larr; attempts + 1
+        OUTPUT "Invalid credentials. Attempts remaining: ", 3 - attempts
+    ENDIF
+ENDWHILE
+
+IF authenticated = FALSE THEN
+    OUTPUT "Account locked"
+ENDIF</pre>
+</div>
+
+<h3>Additional Authentication Measures</h3>
+<ul>
+<li><strong>Lockout after failed attempts</strong> - prevents brute force attacks</li>
+<li><strong>Password masking</strong> - shows *** instead of typed characters</li>
+<li><strong>Two-factor authentication (2FA)</strong> - requires a second form of verification (e.g. code sent to phone)</li>
+<li><strong>Strong password rules</strong> - minimum length, mix of characters</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧪 Testing Strategies</h2>
+
+<div class="key-point">
+<strong>Testing</strong> is the process of running a program with various inputs to check it works correctly. Good testing uses a range of test data to find errors.
+</div>
+
+<h3>Types of Test Data</h3>
+
+<table class="comparison-table">
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Example (age 1-120)</th>
+</tr>
+<tr>
+<td>Normal data</td>
+<td>Typical, valid data that the program should accept</td>
+<td>25, 50, 80</td>
+</tr>
+<tr>
+<td>Boundary data</td>
+<td>Data at the edge of valid ranges - the minimum and maximum acceptable values</td>
+<td>1, 120 (just within range)</td>
+</tr>
+<tr>
+<td>Erroneous data</td>
+<td>Data that is invalid and should be rejected</td>
+<td>-5, 150, "hello"</td>
+</tr>
+<tr>
+<td>Extreme data</td>
+<td>Very large or very small valid data at the extremes of what is possible</td>
+<td>1, 120 (same as boundary in this case)</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Test Data for a Password (6-20 characters)</div>
+<table class="comparison-table">
+<tr><th>Test Type</th><th>Test Data</th><th>Expected Result</th></tr>
+<tr><td>Normal</td><td>"password1" (10 chars)</td><td>Accepted</td></tr>
+<tr><td>Boundary</td><td>"abcdef" (6 chars)</td><td>Accepted (min length)</td></tr>
+<tr><td>Boundary</td><td>"twentycharacterpw" (20 chars)</td><td>Accepted (max length)</td></tr>
+<tr><td>Boundary</td><td>"abcde" (5 chars)</td><td>Rejected (one below min)</td></tr>
+<tr><td>Erroneous</td><td>"" (empty string)</td><td>Rejected</td></tr>
+<tr><td>Erroneous</td><td>"a"*21 (21 chars)</td><td>Rejected (over max)</td></tr>
+</table>
+</div>
+
+<div class="key-point">
+<strong>Exam Tip:</strong> Boundary data tests the exact limits. For a range of 1-100, boundary data is 1, 100, 0, and 101. The boundary values that are just outside the valid range are especially important.
+</div>
+</section>
+
+<section class="section">
+<h2>🐛 Syntax vs Logic Errors</h2>
+
+<div class="key-point">
+<strong>Syntax errors</strong> are mistakes in the grammar/rules of the programming language. The program cannot run at all. <strong>Logic errors</strong> are mistakes in the program's logic - the program runs but produces incorrect results.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Syntax Error</th>
+<th>Logic Error</th>
+</tr>
+<tr>
+<td>What it is</td>
+<td>Code that breaks the language rules</td>
+<td>Code that runs but does the wrong thing</td>
+</tr>
+<tr>
+<td>Does it run?</td>
+<td>No - the program fails to compile/run</td>
+<td>Yes - but produces wrong output</td>
+</tr>
+<tr>
+<td>Detection</td>
+<td>Found automatically by the translator/IDE</td>
+<td>Found by testing with different inputs</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>IF age > 18 THEN (missing ENDIF)</td>
+<td>average &larr; total / 2 instead of / 3</td>
+</tr>
+<tr>
+<td>Fix</td>
+<td>Correct the syntax rule violation</td>
+<td>Trace through logic to find the mistake</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Syntax Error Examples</div>
+<pre>OUTPUT "Hello           // Missing closing quote
+IF x > 5                 // Missing THEN
+FOR i &larr; 1 TO 10       // Missing NEXT i
+score &larr;                // Missing value after assignment</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Logic Error Examples</div>
+<pre>// Wrong formula: area of rectangle should be length * width
+area &larr; length + width          // Uses + instead of *
+
+// Off by one: should loop 10 times
+FOR i &larr; 0 TO 10                // Loops 11 times instead of 10
+
+// Wrong comparison: should be &lt;=
+IF score > 50 THEN                // Should be >= for "pass at 50"</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔧 Debugging Techniques</h2>
+
+<div class="key-point">
+<strong>Debugging</strong> is the process of finding and fixing errors in a program. Common techniques include using trace tables, adding output statements, using IDE debuggers, and dry running.
+</div>
+
+<ul>
+<li><strong>Trace tables</strong> - step through the program line by line, recording variable values</li>
+<li><strong>Output statements</strong> - add temporary OUTPUT commands to display variable values at key points</li>
+<li><strong>IDE debugger</strong> - use breakpoints to pause execution and inspect variables</li>
+<li><strong>Dry running</strong> - manually execute the code on paper with sample inputs</li>
+<li><strong>Watch variables</strong> - monitor specific variables to see when they change unexpectedly</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Debugging with Output Statements</div>
+<pre>// Bug: average is always wrong
+total &larr; 0
+FOR i &larr; 0 TO 4
+    INPUT score
+    total &larr; total + score
+    OUTPUT "DEBUG: total = ", total   // Debug line
+NEXT i
+OUTPUT "DEBUG: final total = ", total  // Debug line
+average &larr; total / 5
+OUTPUT "DEBUG: average = ", average    // Debug line
+OUTPUT "Average: ", average</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Confusing validation and verification</td>
+<td>They are different processes</td>
+<td>Validation = is it reasonable? Verification = is it correct?</td>
+</tr>
+<tr>
+<td>Only testing with normal data</td>
+<td>Errors often occur at boundaries</td>
+<td>Always test with boundary and erroneous data</td>
+</tr>
+<tr>
+<td>Saying extreme = erroneous</td>
+td>Extreme data IS valid (just very large/small), erroneous is NOT valid</td>
+<td>Extreme data should be accepted; erroneous should be rejected</td>
+</tr>
+<tr>
+<td>Forgetting boundary-adjacent values</td>
+<td>Both 1 and 0 for range 1-100 are boundary</td>
+<td>Test just inside AND just outside the boundary</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Name three types of validation check and give an example of each.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A program asks for a test score between 0 and 100. Give examples of normal, boundary, and erroneous test data.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Explain the difference between a syntax error and a logic error.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write pseudo-code that validates a username to be between 3 and 20 characters.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Describe two techniques for debugging a logic error.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Range check: age must be 0-120. Length check: password must be at least 8 characters. Type check: quantity must be an integer. Presence check: name cannot be empty. Format check: email must contain @.</li>
+<li>Normal: 75 (typical valid score). Boundary: 0, 100 (just within range), -1, 101 (just outside range). Erroneous: -50, 150, "hello" (clearly invalid).</li>
+<li>A syntax error is a mistake in the grammar of the programming language that prevents the program from running (e.g. missing ENDIF). A logic error is a mistake in the program's logic where it runs but produces incorrect results (e.g. dividing by the wrong number).</li>
+<li>
+<pre>REPEAT
+    INPUT "Enter username (3-20 chars): ", username
+    IF LENGTH(username) &lt; 3 OR LENGTH(username) > 20 THEN
+        OUTPUT "Username must be between 3 and 20 characters"
+    ENDIF
+UNTIL LENGTH(username) >= 3 AND LENGTH(username) &lt;= 20</pre>
+</li>
+<li>1) Use a trace table to step through the program line by line, recording variable values and comparing with expected values. 2) Add temporary OUTPUT statements at key points to display variable values and check if they match expectations.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all six validation types: range, length, type, presence, format, lookup</li>
+<li>Remember: validation checks if data is reasonable, verification checks if it is correct</li>
+<li>For test data, always provide normal, boundary, AND erroneous examples</li>
+<li>Boundary data includes values just inside AND just outside the valid range</li>
+<li>Syntax errors prevent running; logic errors allow running but produce wrong output</li>
+<li>When debugging, use trace tables and output statements to track variable values</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing validation and verification</span> <span class="right">✓ Validation checks if data is reasonable/acceptable (e.g. range checks); verification checks if data is correct by confirming it (e.g. double entry of passwords).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking validation guarantees data is correct</span> <span class="right">✓ Validation only checks that data meets rules (format, range, type); it cannot check if the data is factually correct. A valid age of 150 passes a type check but is wrong.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to validate BOTH input range and type</span> <span class="right">✓ Robust programs should check that input is the correct data type AND within an acceptable range. Type checking alone does not prevent unreasonable values.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing authentication and authorisation are the same</span> <span class="right">✓ Authentication verifies WHO you are (e.g. username/password); authorisation determines WHAT you can access (e.g. admin vs standard user permissions).</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A program asks a user to enter their age (1-120). Describe three different validation checks that should be applied, and explain the difference between validation and verification. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Three validation checks:
+1. Type check — ensure the input is an integer, not text or a decimal.
+2. Range check — ensure the value is between 1 and 120 (inclusive).
+3. Presence check — ensure the user has actually entered a value and not left it blank.
+
+Validation checks that data is reasonable and meets predefined rules (e.g. format, range, type). Verification checks that data entered is what the user intended, typically by asking them to enter it twice or showing a confirmation screen. Validation cannot guarantee accuracy — a user could enter 25 when their real age is 17, which passes validation but is incorrect.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including robust and secure programming: validation and verification for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including robust and secure programming: validation and verification to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including robust and secure programming: validation and verification, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Validation = is the data reasonable? (type check, range check, length check, presence check, format check, lookup check). Verification = is the data what was intended? (double entry, visual check). Authentication = who are you? Authorisation = what can you do? Always name the specific type of validation check, not just 'it checks the input'. Show validation code using WHILE loops with appropriate conditions.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Validation+Verification+Robust+Programming" target="_blank" rel="noopener">YouTube: GCSE Computer Science Validation Verification Robust Programming</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/programming/CS13-robust-secure-programming.html&text=Robust &amp;amp; Secure Programming" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/programming/CS13-robust-secure-programming.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/programming/CS13-robust-secure-programming.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Robust &amp;amp; Secure Programming%20https://scottrix.github.io/gcserevise/topics/programming/CS13-robust-secure-programming.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/programming/CS13-robust-secure-programming.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS10-data-structures.html">Data Structures</a></li>
+<li><a href="CS11-input-output-string-handling.html">Input, Output &amp;amp; String Handling</a></li>
+<li><a href="CS12-subroutines.html">Subroutines</a></li>
+<li><a href="CS14-random-number-generation.html">Random Number Generation</a></li>
+<li><a href="CS6-data-types.html">Data Types</a></li>
+<li><a href="CS7-programming-constructs.html">Programming Constructs</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="CS12-subroutines.html" class="nav-prev">← Previous: Subroutines</a>
+<a href="CS14-random-number-generation.html" class="nav-next">Next Topic: Random Number Generation →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Robust+%26+Secure+Programming+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Robust &amp; Secure Programming Books →</div>
+  <div class="affiliate-card-desc">Browse Robust &amp; Secure Programming books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

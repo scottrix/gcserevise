@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sine & Cosine Rules - GCSE Maths Revision</title>
+<meta name="description" content="Learn the sine rule and cosine rule to find unknown lengths and angles in non-right-angled triangles. Higher tier only. Free GCSE Maths revision.">
+<meta name="keywords" content="GCSE Maths, GCSE revision, free revision notes, Sine, Cosine, Rules, learn, unknown, lengths, angles, nonrightangled, triangles, higher, maths, revision">
+<meta property="og:title" content="Sine & Cosine Rules - GCSE Maths Revision">
+<meta property="og:description" content="Learn the sine rule and cosine rule to find unknown lengths and angles in non-right-angled triangles. Higher tier only. Free GCSE Maths revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/geometry/G22-sine-cosine-rules.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/geometry/G22-sine-cosine-rules.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sine &amp; Cosine Rules">
+<meta name="twitter:description" content="Learn the sine rule and cosine rule to find unknown lengths and angles in non-right-angled triangles. Higher tier only. Free GCSE Maths revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "In triangle ABC: A = 35°, B = 70°, b = 15 cm. Find side a.", "acceptedAnswer": {"@type": "Answer", "text": "a = 15 × sin 35°/sin 70° = 9.08 cm"}}, {"@type": "Question", "name": "In triangle PQR: p = 9 cm, q = 7 cm, r = 11 cm. Find angle R.", "acceptedAnswer": {"@type": "Answer", "text": "cos R = (9² + 7² - 11²)/(2 × 9 × 7) = -7/126, R = 93.2°"}}, {"@type": "Question", "name": "In triangle XYZ: x = 12 cm, y = 8 cm, angle Z = 60°. Find side z.", "acceptedAnswer": {"@type": "Answer", "text": "z² = 12² + 8² - 2 × 12 × 8 × cos 60° = 112, z = 10.6 cm"}}, {"@type": "Question", "name": "In triangle DEF: d = 10 cm, e = 14 cm, angle F = 45°. Find side f.", "acceptedAnswer": {"@type": "Answer", "text": "f² = 10² + 14² - 2 × 10 × 14 × cos 45° = 104.3, f = 10.2 cm"}}, {"@type": "Question", "name": "In triangle ABC: a = 7 cm, b = 9 cm, A = 48°. Find angle B.", "acceptedAnswer": {"@type": "Answer", "text": "sin B = 9 × sin 48°/7, B = sin⁻¹(0.954) = 72.6° or 107.4°"}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Geometry</a> <span>›</span>
+<span>Sine & Cosine Rules</span>
+</nav>
+
+<article class="topic-header">
+<h1>G22: Sine & Cosine Rules</h1>
+<div class="topic-meta">
+<span class="badge higher">Higher Only</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Know and apply the sine rule and cosine rule to find unknown lengths and angles</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Sine and cosine rules</strong> are used to find unknown sides and angles in non-right-angled triangles.
+</div>
+
+<div class="key-point">
+<strong>When to use:</strong>
+<ul>
+<li><strong>Sine rule:</strong> When you know a pair (side + opposite angle)</li>
+<li><strong>Cosine rule:</strong> When you have SAS (two sides + included angle) or SSS (three sides)</li>
+</ul>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 The Sine Rule</h2>
+
+<div class="formula-box">
+a/sin A = b/sin B = c/sin C
+</div>
+
+<div class="key-point">
+<strong>Use when:</strong>
+<ul>
+<li>You know two angles and a side (AAS or ASA)</li>
+<li>You know two sides and a non-included angle (SSA)</li>
+</ul>
+</div>
+
+<div class="key-point">
+<strong>Alternative form:</strong>
+</div>
+
+<div class="formula-box">
+sin A/a = sin B/b = sin C/c
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Using the Sine Rule to Find a Side</h2>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>In triangle ABC, angle A = 42°, angle B = 65°, side b = 12 cm. Find side a.</p>
+<p><strong>Solution:</strong></p>
+<p>a/sin A = b/sin B</p>
+<p>a/sin 42° = 12/sin 65°</p>
+<p>a = 12 × sin 42°/sin 65°</p>
+<p>a = 12 × 0.669/0.906</p>
+<p>a = 8.86 cm (to 2 d.p.)</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Using the Sine Rule to Find an Angle</h2>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>In triangle PQR, side p = 8 cm, side q = 10 cm, angle P = 40°. Find angle Q.</p>
+<p><strong>Solution:</strong></p>
+<p>p/sin P = q/sin Q</p>
+<p>8/sin 40° = 10/sin Q</p>
+<p>sin Q = 10 × sin 40°/8</p>
+<p>sin Q = 0.8035</p>
+<p>Q = sin⁻¹(0.8035) = 53.4°</p>
+<p><em>Or possibly 180° - 53.4° = 126.6° (ambiguous case)</em></p>
+</div>
+
+<div class="key-point">
+<strong>Ambiguous case:</strong> When finding an angle using sine rule, there may be two possible answers (θ and 180° - θ).
+</div>
+</section>
+
+<section class="section">
+<h2>📝 The Cosine Rule</h2>
+
+<div class="formula-box">
+a² = b² + c² - 2bc cos A
+</div>
+
+<div class="key-point">
+<strong>Use when:</strong>
+<ul>
+<li>You know two sides and the included angle (SAS)</li>
+<li>You know all three sides (SSS) and want an angle</li>
+</ul>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Using Cosine Rule to Find a Side</h2>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>In triangle ABC, side b = 7 cm, side c = 9 cm, angle A = 50°. Find side a.</p>
+<p><strong>Solution:</strong></p>
+<p>a² = b² + c² - 2bc cos A</p>
+<p>a² = 7² + 9² - 2 × 7 × 9 × cos 50°</p>
+<p>a² = 49 + 81 - 126 × 0.643</p>
+<p>a² = 130 - 81.0</p>
+<p>a² = 49.0</p>
+<p>a = 7.00 cm (to 2 d.p.)</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Using Cosine Rule to Find an Angle</h2>
+
+<div class="formula-box">
+cos A = (b² + c² - a²)/(2bc)
+</div>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>In triangle ABC, sides are a = 6 cm, b = 8 cm, c = 10 cm. Find angle A.</p>
+<p><strong>Solution:</strong></p>
+<p>cos A = (b² + c² - a²)/(2bc)</p>
+<p>cos A = (8² + 10² - 6²)/(2 × 8 × 10)</p>
+<p>cos A = (64 + 100 - 36)/160</p>
+<p>cos A = 128/160 = 0.8</p>
+<p>A = cos⁻¹(0.8) = 36.9°</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Choosing the Right Rule</h2>
+
+<table class="comparison-table">
+<tr><th>Given</th><th>Rule to Use</th></tr>
+<tr><td>Two angles + side</td><td>Sine rule</td></tr>
+<tr><td>Two sides + non-included angle</td><td>Sine rule</td></tr>
+<tr><td>Two sides + included angle</td><td>Cosine rule</td></tr>
+<tr><td>Three sides</td><td>Cosine rule</td></tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> In triangle ABC: A = 35°, B = 70°, b = 15 cm. Find side a.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> In triangle PQR: p = 9 cm, q = 7 cm, r = 11 cm. Find angle R.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> In triangle XYZ: x = 12 cm, y = 8 cm, angle Z = 60°. Find side z.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> In triangle DEF: d = 10 cm, e = 14 cm, angle F = 45°. Find side f.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> In triangle ABC: a = 7 cm, b = 9 cm, A = 48°. Find angle B.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>a = 15 × sin 35°/sin 70° = 9.08 cm</li>
+<li>cos R = (9² + 7² - 11²)/(2 × 9 × 7) = -7/126, R = 93.2°</li>
+<li>z² = 12² + 8² - 2 × 12 × 8 × cos 60° = 112, z = 10.6 cm</li>
+<li>f² = 10² + 14² - 2 × 10 × 14 × cos 45° = 104.3, f = 10.2 cm</li>
+<li>sin B = 9 × sin 48°/7, B = sin⁻¹(0.954) = 72.6° or 107.4°</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Draw and label the triangle clearly</li>
+<li>Check which rule to use based on what you know</li>
+<li>For sine rule finding an angle, check for the ambiguous case</li>
+<li>Always check your calculator is in degrees mode</li>
+<li>Round appropriately at the end, not during calculations</li>
+<li>For cosine rule, make sure you know which angle is opposite which side</li>
+</ul>
+</section>
+
+<section class="section"><h2>🧠 Problem-Solving Strategies</h2><div class="maths-skill"><h3>Problem-Solving</h3><div class="key-point">Sine rule: a/sinA = b/sinB = c/sinC. Use when you have a side-angle pair or two angles and one side. Cosine rule: a squared = b squared + c squared - 2bc cosA. Use when you have two sides and the included angle, or all three sides. The cosine rule is a generalisation of Pythagoras for non-right-angled triangles.</div><div class="example"><div class="example-title">Multi-Step Problem</div><p>In triangle ABC, a = 8 cm, b = 6 cm, C = 50 degrees. Find side c and angle A.</p><p><strong>Solution:</strong> Using cosine rule: c squared = 8 squared + 6 squared - 2(8)(6)cos(50) = 64 + 36 - 96(0.6428) = 100 - 61.7 = 38.3. c = 6.19 cm. Then sine rule: sinA/8 = sin(50)/6.19. sinA = 8 x 0.766/6.19 = 0.990. A = 81.9 degrees.</p></div></div></section>
+
+<section class="section"><h2>⚠️ Common Errors</h2><div class="misconception"><h3>Watch Out!</h3><p>1. <span class="wrong">Wrong: Using the sine rule when you have two sides and the included angle</span> <span class="right">Correct: Two sides and the included angle requires the COSINE rule. The sine rule works best with a side-angle pair or two angles and any side.</span></p><p>2. <span class="wrong">Wrong: The ambiguous case of the sine rule: forgetting that sin(x) = sin(180-x) gives two possible angles</span> <span class="right">Correct: When finding an angle using the sine rule, check if the supplementary angle (180 minus your answer) is also valid. The ambiguous case arises when the given angle is acute and the opposite side is shorter.</span></p><p>3. <span class="wrong">Wrong: In the cosine rule, using the wrong side as angle A opposite side a</span> <span class="right">Correct: In a squared = b squared + c squared - 2bc cosA, side a must be OPPOSITE angle A. Always label consistently.</span></p></div></section>
+
+<section class="section"><h2>✍️ 6-Mark Exam Question</h2><div class="extended-question"><h3>Extended Answer</h3><p><strong>6 marks:</strong> In triangle ABC, a = 7 cm, b = 9 cm and B = 55 degrees. (a) Find angle A. (b) Find side c. (c) Find the area of the triangle.</p><button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button><div class="model-answer"><p>(a) Sine rule: sinA/7 = sin(55)/9. sinA = 7 x sin(55)/9 = 7 x 0.8192/9 = 0.6372. A = 39.6 degrees. Check: 180 - 55 - 39.6 = 85.4 for angle C. Also check ambiguous case: A could be 180 - 39.6 = 140.4 but 140.4 + 55 = 195.4 which exceeds 180, so only 39.6 is valid.</p><p>(b) Angle C = 85.4 degrees. Sine rule: c/sin(85.4) = 9/sin(55). c = 9 x sin(85.4)/sin(55) = 9 x 0.9966/0.8192 = 10.95 cm.</p><p>(c) Area = 1/2 x 7 x 9 x sin(85.4) = 31.5 x 0.9966 = 31.4 cm squared.</p><p><em>Mark scheme: M1 sine rule, A1 angle A, M1 check ambiguous case, A1 side c, M1 area formula, A1 area</em></p></div></div></section>
+
+<section class="section"><h2>📊 AO3: Reason &amp; Interpret</h2><div class="ao3-section"><h3>Reasoning and Interpretation</h3><p>Three towns A, B, C form a triangle. AB = 8 km, AC = 6 km and angle A = 40 degrees.</p><p><strong>(a)</strong> Calculate BC.</p><p><strong>(b)</strong> A student says "Since I know all three sides, I can only use the cosine rule now." Is this true?</p><p><strong>(c)</strong> Find the largest angle in the triangle and explain why it must be opposite the longest side.</p><div class="key-point"><strong>Answers:</strong> (a) Cosine rule: BC squared = 64 + 36 - 2(8)(6)cos(40) = 100 - 96(0.766) = 100 - 73.5 = 26.5. BC = 5.15 km. (b) Not necessarily — you could also use the sine rule to find other angles first since you have a side-angle pair. But the cosine rule is the most direct method. (c) The longest side is AB = 8 km. The largest angle is opposite AB, which is angle C. Using sine rule: sinC/8 = sin(40)/5.15. sinC = 8 x 0.6428/5.15 = 0.999. C = 87.5 degrees. The largest angle is always opposite the longest side because in any triangle, bigger sides face bigger angles.</div></div></section>
+
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul>
+      <li><a href="https://www.bbc.co.uk/bitesize/topics/zs2pdmn" target="_blank" rel="noopener">BBC Bitesize</a></li>
+      <li><a href="https://www.youtube.com/c/corbettmaths/videos" target="_blank" rel="noopener">Corbettmaths</a></li>
+      <li><a href="https://www.youtube.com/@TheGCSEMathsTutor" target="_blank" rel="noopener">The GCSE Maths Tutor</a></li>
+    </ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/geometry/G22-sine-cosine-rules.html&text=Sine &amp; Cosine Rules" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/geometry/G22-sine-cosine-rules.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/geometry/G22-sine-cosine-rules.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Sine &amp; Cosine Rules%20https://scottrix.github.io/gcserevise/topics/geometry/G22-sine-cosine-rules.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/geometry/G22-sine-cosine-rules.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="G1-geometric-notation.html">Geometric Notation</a></li>
+<li><a href="G10-circle-theorems.html">Circle Theorems</a></li>
+<li><a href="G11-coordinate-geometry.html">Coordinate Geometry Problems</a></li>
+<li><a href="G12-3d-shapes.html">3D Shapes</a></li>
+<li><a href="G13-plans-elevations.html">Plans &amp; Elevations</a></li>
+<li><a href="G14-units-measure.html">Units of Measure</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Mathematics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Mathematics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="G21-exact-trig-values.html" class="nav-prev">← Previous: Exact Trigonometric Values</a>
+<a href="G23-area-triangle-formula.html" class="nav-next">Next Topic: Area of Triangle Formula →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Maths+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Maths Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Maths revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Sine+%26+Cosine+Rules+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Sine & Cosine Rules Books →</div>
+  <div class="affiliate-card-desc">Browse Sine & Cosine Rules books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

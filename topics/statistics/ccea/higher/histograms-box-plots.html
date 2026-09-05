@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Histograms &amp; Box Plots - GCSE Statistics</title>
+<meta name="description" content="GCSE Statistics histograms and box plots: frequency density, equal and unequal class widths, box plots, and comparing distributions with worked examples.">
+<meta name="keywords" content="histogram, frequency density, box plot, box-and-whisker diagram, median, quartiles, interquartile range, outlier, skewness, GCSE Statistics, Edexcel 1ST0 & AQA 8382">
+<meta property="og:title" content="Histograms &amp; Box Plots - GCSE Statistics">
+<meta property="og:description" content="GCSE Statistics histograms and box plots: frequency density, equal and unequal class widths, box plots, and comparing distributions with worked examples.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/stats-presentation/histograms-box-plots.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/stats-presentation/histograms-box-plots.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Histograms &amp;amp; Box Plots">
+<meta name="twitter:description" content="GCSE Statistics histograms and box plots: frequency density, equal and unequal class widths, box plots, and comparing distributions with worked examples.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:A histogram has a class interval of width 5 with frequency 30. What is the frequency density?", "acceptedAnswer": {"@type": "Answer", "text": "Frequency density = 30 ÷ 5 = 6."}}, {"@type": "Question", "name": "Q:On a box plot, Q1 = 12, Q2 = 18, Q3 = 24. What is the IQR and what does the median's position tell you about skewness?", "acceptedAnswer": {"@type": "Answer", "text": "IQR = 24 – 12 = 12. The median (18) is exactly midway between Q1 and Q3, so the distribution is approximately symmetric."}}, {"@type": "Question", "name": "Q:A dataset has Q1 = 10, Q3 = 22. What are the outlier boundaries?", "acceptedAnswer": {"@type": "Answer", "text": "IQR = 12. Lower boundary = 10 – 1.5 × 12 = –8. Upper boundary = 22 + 1.5 × 12 = 40. Values below –8 or above 40 are outliers."}}, {"@type": "Question", "name": "Q:In a histogram, the total area of bars is 200 and one bar has an area of 40. What is the frequency for that bar?", "acceptedAnswer": {"@type": "Answer", "text": "Since area is proportional to frequency, the frequency is 40 (assuming the scale factor is 1, i.e. area = frequency)."}}, {"@type": "Question", "name": "Q:Two box plots show the same median but different IQRs. What does this tell you?", "acceptedAnswer": {"@type": "Answer", "text": "The distributions have the same central value, but the one with the larger IQR has greater spread in the middle 50% of the data."}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../statistics.html">Statistics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../statistics.html">Statistics</a> <span>›</span>
+<span>Data Presentation &amp; Visualisation</span> <span>›</span>
+<span>Histograms &amp; Box Plots</span>
+</nav>
+<article class="topic-header">
+<h1>ST12: Histograms &amp; Box Plots</h1>
+<div class="topic-meta">
+<span class="badge">Edexcel 1ST0 &amp; AQA 8382</span>
+</div>
+<p class="topic-desc">Learn how to construct and interpret histograms with equal and unequal class widths, and box plots for comparing distributions in GCSE Statistics.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Histograms &amp; Box Plots</h2>
+<p>Learn how to construct and interpret histograms with equal and unequal class widths, and box plots for comparing distributions in GCSE Statistics.</p>
+<div class="key-point">
+<strong>Key Fact:</strong> A histogram displays continuous data using bars with no gaps between them; the area of each bar (not the height) is proportional to the frequency.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Frequency density = frequency ÷ class width; the vertical axis of a histogram shows frequency density, not frequency.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> When class widths are equal, the bar heights are proportional to the frequencies and frequency density is simply frequency ÷ class width.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> When class widths are unequal, you must calculate frequency density for each bar; the height no longer equals the frequency.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The total area of all bars in a histogram equals the total frequency; you can find missing frequencies by setting up area equations.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A box plot (box-and-whisker diagram) shows five key values: minimum, lower quartile (Q1), median (Q2), upper quartile (Q3), and maximum.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The box in a box plot spans from Q1 to Q3, with a vertical line inside at the median; the whiskers extend to the minimum and maximum values.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Outliers on a box plot are values beyond 1.5 × IQR from the quartiles; they are plotted as individual points and the whisker stops at the last non-outlier value.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> To compare distributions using box plots, comment on the median (central tendency), IQR (spread), and the position of the median within the box (skewness).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> If the median is closer to Q1, the distribution is positively skewed; if closer to Q3, it is negatively skewed; if centred, it is approximately symmetric.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> When drawing a histogram, always label the frequency density axis and mark the class boundaries on the horizontal axis.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> To estimate the frequency of a range within a histogram, calculate the total area of the bars within that range.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Histograms &amp; Box Plots, you must know:</p>
+<ul><li><strong>Histogram:</strong> A graphical display of continuous data using bars with no gaps, where the area of each bar is proportional to the frequency of its class interval.</li>
+<li><strong>Frequency density:</strong> The height of a histogram bar, calculated as frequency ÷ class width; it allows comparison between classes of different widths.</li>
+<li><strong>Box plot:</strong> A diagram showing the five-number summary of a dataset: minimum, lower quartile, median, upper quartile, and maximum, with a box from Q1 to Q3.</li>
+<li><strong>Interquartile range (IQR):</strong> The difference between the upper quartile and lower quartile (Q3 – Q1), representing the spread of the middle 50% of the data.</li>
+<li><strong>Outlier:</strong> A value that lies more than 1.5 × IQR below Q1 or above Q3; it is plotted as a separate point on a box plot.</li>
+<li><strong>Whisker:</strong> The lines extending from the box to the minimum and maximum values (or to the last non-outlier value if outliers are present).</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> A histogram has a class interval of width 5 with frequency 30. What is the frequency density?</p></div>
+<div class="question"><p><strong>Q:</strong> On a box plot, Q1 = 12, Q2 = 18, Q3 = 24. What is the IQR and what does the median&#x27;s position tell you about skewness?</p></div>
+<div class="question"><p><strong>Q:</strong> A dataset has Q1 = 10, Q3 = 22. What are the outlier boundaries?</p></div>
+<div class="question"><p><strong>Q:</strong> In a histogram, the total area of bars is 200 and one bar has an area of 40. What is the frequency for that bar?</p></div>
+<div class="question"><p><strong>Q:</strong> Two box plots show the same median but different IQRs. What does this tell you?</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>Frequency density = 30 ÷ 5 = 6.</li>
+<li>IQR = 24 – 12 = 12. The median (18) is exactly midway between Q1 and Q3, so the distribution is approximately symmetric.</li>
+<li>IQR = 12. Lower boundary = 10 – 1.5 × 12 = –8. Upper boundary = 22 + 1.5 × 12 = 40. Values below –8 or above 40 are outliers.</li>
+<li>Since area is proportional to frequency, the frequency is 40 (assuming the scale factor is 1, i.e. area = frequency).</li>
+<li>The distributions have the same central value, but the one with the larger IQR has greater spread in the middle 50% of the data.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always calculate frequency density before drawing a histogram — never use frequency directly on the y-axis unless all class widths are equal.</li>
+<li>When comparing box plots, write about median (location), IQR (spread), and overall range, and use comparative language such as &#x27;higher&#x27; or &#x27;more spread out&#x27;.</li>
+<li>On a box plot, the whisker does not extend to an outlier — it stops at the last data point within the 1.5 × IQR boundary.</li>
+<li>When estimating frequencies from a histogram, remember frequency = frequency density × class width (i.e. the area of the bar).</li>
+<li>If a histogram question gives you a missing frequency, set up an equation using total area = total frequency and solve.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+  <strong>GCSE Statistics Exam Tips — Histograms & Box Plots:</strong><br>
+  1. For Histograms & Box Plots questions, show every step of your working clearly — method marks count even if the final answer is wrong<br>
+    2. Check your answer makes sense in context (estimation, units, reasonableness)<br>
+    3. Use correct mathematical notation and state formulae before substituting values<br>
+    4. If a Histograms & Box Plots question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line<br>
+    5. For problem-solving, identify the topic first, then recall the relevant method
+</div><h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Using frequency on the y-axis of a histogram with unequal class widths</span> <span class="right">✓ The y-axis must show frequency density (= frequency ÷ class width); using frequency directly gives bars of incorrect height for unequal widths.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Drawing the whisker all the way to an outlier on a box plot</span> <span class="right">✓ The whisker should end at the last data value within the 1.5 × IQR boundary; outliers are shown as separate points beyond the whisker.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Saying a box plot with Q1=10, Q2=15, Q3=16 is negatively skewed because the right side of the box is shorter</span> <span class="right">✓ This is positively skewed — the median is closer to Q3, meaning the lower half of the middle 50% is more spread out, and the tail extends to the right.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Calculating the area of a histogram bar as height × class width when the class boundaries are not stated correctly</span> <span class="right">✓ Use class width = upper boundary – lower boundary (e.g. for 10 ≤ x &lt; 25, the width is 15). Always check boundary conventions carefully.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>The frequency table shows the times taken for 120 runners to complete a race. Draw a histogram.
+0–10 min: frequency 15, 10–20 min: frequency 40, 20–40 min: frequency 45, 40–60 min: frequency 20</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Calculate frequency density for each class:
+
+0–10: width = 10, FD = 15 ÷ 10 = 1.5
+10–20: width = 10, FD = 40 ÷ 10 = 4.0
+20–40: width = 20, FD = 45 ÷ 20 = 2.25
+40–60: width = 20, FD = 20 ÷ 20 = 1.0
+
+Draw the histogram with class boundaries on the x-axis (0, 10, 20, 40, 60) and frequency density on the y-axis. Each bar has no gap and its height equals the frequency density.
+
+Check: total area = (1.5 × 10) + (4.0 × 10) + (2.25 × 20) + (1.0 × 20) = 15 + 40 + 45 + 20 = 120</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of histograms &amp; box plots, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of histograms &amp; box plots to interpret data, reason statistically and draw conclusions in context.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate statistical methods and conclusions, assessing appropriateness, reliability, validity and bias through the statistical enquiry cycle.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/statistics" target="_blank" rel="noopener">BBC Bitesize: GCSE Statistics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Statistics+Histograms+&amp;+Box+Plots" target="_blank" rel="noopener">YouTube: GCSE Statistics Histograms &amp; Box Plots</a></li></ul>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/stats-presentation/histograms-box-plots.html&text=Histograms &amp;amp; Box Plots" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/stats-presentation/histograms-box-plots.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/stats-presentation/histograms-box-plots.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Histograms &amp;amp; Box Plots%20https://scottrix.github.io/gcserevise/topics/stats-presentation/histograms-box-plots.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/stats-presentation/histograms-box-plots.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="charts-diagrams.html">Charts &amp;amp; Diagrams</a></li>
+<li><a href="graphical-misrepresentation.html">Graphical Misrepresentation</a></li>
+<li><a href="graphical-representations.html">Graphical Representations</a></li>
+<li><a href="tables-tabulation.html">Tables &amp;amp; Tabulation</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Statistics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Statistics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../stats-presentation/graphical-representations.html" class="nav-prev">← Previous Topic</a>
+<a href="../stats-presentation/graphical-misrepresentation.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Statistics Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Statistics revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Edexcel+1ST0+%26+AQA+8382+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Edexcel 1ST0 &amp; AQA 8382 Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Edexcel 1ST0 &amp; AQA 8382 revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Histograms+%26+Box+Plots+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Histograms &amp; Box Plots Books →</div>
+  <div class="affiliate-card-desc">Browse Histograms &amp; Box Plots books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>

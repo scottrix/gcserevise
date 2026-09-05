@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Types - GCSE Computer Science</title>
+<meta name="description" content="Learn about data types, type casting and conversion for GCSE Computer Science. Free revision notes.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, programming, data types, constructs, boolean, subroutines, robust programming, input output, Data, Types, learn, about, casting">
+<meta property="og:title" content="Data Types - GCSE Computer Science">
+<meta property="og:description" content="Learn about data types, type casting and conversion for GCSE Computer Science. Free revision notes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/programming/CS6-data-types.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/programming/CS6-data-types.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Data Types">
+<meta name="twitter:description" content="Learn about data types, type casting and conversion for GCSE Computer Science. Free revision notes.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Name the five main data types and give an example value for each.", "acceptedAnswer": {"@type": "Answer", "text": "Integer: 42, Real/Float: 3.14, Boolean: TRUE, Character: 'A', String: \"Hello\"."}}, {"@type": "Question", "name": "What is the difference between the integer 7 and the string \"7\"?", "acceptedAnswer": {"@type": "Answer", "text": "The integer 7 can be used in mathematical operations (7 + 3 = 10). The string \"7\" is text and would concatenate (\"7\" + \"3\" = \"73\"). They are stored and processed differently."}}, {"@type": "Question", "name": "What is the result of INT(\"25\") + INT(\"10\")?", "acceptedAnswer": {"@type": "Answer", "text": "INT(\"25\") = 25, INT(\"10\") = 10, so 25 + 10 = 35."}}, {"@type": "Question", "name": "Why should you store a person's age as an integer rather than a string?", "acceptedAnswer": {"@type": "Answer", "text": "Storing age as an integer allows arithmetic (e.g. checking if age >= 18), saves memory, and validates that the input is a whole number. A string age cannot be compared numerically."}}, {"@type": "Question", "name": "Write pseudo-code that asks the user for a number, converts it to a real, divides it by 2, and outputs the result.", "acceptedAnswer": {"@type": "Answer", "text": "INPUT userInput\nnum ← FLOAT(userInput)\nresult ← num / 2\nOUTPUT result"}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Data Types</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS6: Data Types</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Understanding the five main data types, type casting, and why choosing the right data type matters for memory and validation.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 The Five Data Types</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A data type defines the kind of data a variable can hold. Choosing the correct data type ensures data is stored efficiently and prevents errors.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Data Type</th>
+<th>Description</th>
+<th>Examples</th>
+<th>Memory</th>
+</tr>
+<tr>
+<td>Integer</td>
+<td>A whole number (no decimal point)</td>
+<td>42, -7, 0, 1000</td>
+<td>2 or 4 bytes</td>
+</tr>
+<tr>
+<td>Real / Float</td>
+<td>A number with a decimal point</td>
+<td>3.14, -0.5, 9.81</td>
+<td>4 or 8 bytes</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td>Can only be TRUE or FALSE</td>
+<td>TRUE, FALSE</td>
+<td>1 byte</td>
+</tr>
+<tr>
+<td>Character</td>
+<td>A single symbol (letter, digit, punctuation)</td>
+<td>'A', '7', '?', 'z'</td>
+<td>1 byte (ASCII)</td>
+</tr>
+<tr>
+<td>String</td>
+<td>A sequence of characters (text)</td>
+<td>"Hello", "CS123", ""</td>
+<td>Variable (1 byte per char)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔢 Integer</h2>
+
+<div class="key-point">
+<strong>Integer</strong> stores whole numbers only - no decimal points. Use integer for counts, ages, positions, and any value that cannot logically be fractional.
+</div>
+
+<div class="example">
+<div class="example-title">Integer Examples</div>
+<pre>age &larr; 16
+score &larr; 0
+lives &larr; 3
+temperature &larr; -5</pre>
+</div>
+
+<div class="key-point">
+<strong>Common mistake:</strong> Storing 3.14 as an integer would lose the decimal part, storing only 3. If a value needs decimal precision, use Real/Float instead.
+</div>
+</section>
+
+<section class="section">
+<h2>📐 Real / Float</h2>
+
+<div class="key-point">
+<strong>Real (or Float)</strong> stores numbers with a decimal point. Use real for measurements, prices, averages, and scientific calculations where precision matters.
+</div>
+
+<div class="example">
+<div class="example-title">Real Examples</div>
+<pre>pi &larr; 3.14159
+price &larr; 9.99
+average &larr; 67.5
+gravity &larr; 9.81</pre>
+</div>
+
+<div class="formula-box">
+<strong>Important:</strong><br>
+Real division (/) always returns a decimal result.<br>
+7 / 2 = 3.5 (real division)<br>
+7 DIV 2 = 3 (integer division - truncates the decimal)
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Boolean</h2>
+
+<div class="key-point">
+<strong>Boolean</strong> can only hold one of two values: TRUE or FALSE. Use boolean for flags, conditions, and yes/no questions.
+</div>
+
+<div class="example">
+<div class="example-title">Boolean Examples</div>
+<pre>isLoggedIn &larr; FALSE
+hasPassed &larr; TRUE
+gameOver &larr; FALSE
+isValid &larr; TRUE</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Boolean in Conditions</div>
+<pre>IF hasPassed = TRUE THEN
+    OUTPUT "Congratulations!"
+ELSE
+    OUTPUT "Try again"
+ENDIF</pre>
+<p>This is equivalent to:</p>
+<pre>IF hasPassed THEN
+    OUTPUT "Congratulations!"
+ENDIF</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔤 Character</h2>
+
+<div class="key-point">
+<strong>Character</strong> stores exactly one symbol - a single letter, digit, or special character. Characters are enclosed in single quotes.
+</div>
+
+<div class="example">
+<div class="example-title">Character Examples</div>
+<pre>grade &larr; 'A'
+separator &larr; ','
+digit &larr; '7'
+symbol &larr; '&amp;'</pre>
+</div>
+
+<div class="key-point">
+<strong>Distinction:</strong> A character '5' is NOT the same as the integer 5. The character '5' has the ASCII code 53, while the integer 5 has the value five. They are stored and processed differently.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 String</h2>
+
+<div class="key-point">
+<strong>String</strong> stores a sequence of zero or more characters. Strings are enclosed in double quotes. An empty string "" contains no characters.
+</div>
+
+<div class="example">
+<div class="example-title">String Examples</div>
+<pre>name &larr; "Alice"
+message &larr; "Hello, World!"
+empty &larr; ""
+serialNumber &larr; "CS-2024-001"</pre>
+</div>
+
+<div class="example">
+<div class="example-title">String Operations</div>
+<pre>greeting &larr; "Hello" &amp; " " &amp; "World"   // Concatenation
+len &larr; LENGTH("Computer")              // len = 8
+sub &larr; SUBSTRING("Computer", 0, 3)    // sub = "Com"
+pos &larr; POSITION("Hello", "ll")        // pos = 2</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>🔄 Type Casting and Conversion</h2>
+
+<div class="key-point">
+<strong>Type casting</strong> means converting a value from one data type to another. This is necessary when performing operations that require specific types, or when reading input that arrives as a string.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Conversion</th>
+<th>Function</th>
+<th>Example</th>
+<th>Result</th>
+</tr>
+<tr>
+<td>String to Integer</td>
+<td>INT()</td>
+<td>INT("42")</td>
+<td>42</td>
+</tr>
+<tr>
+<td>String to Real</td>
+<td>FLOAT()</td>
+<td>FLOAT("3.14")</td>
+<td>3.14</td>
+</tr>
+<tr>
+<td>Integer to String</td>
+<td>STR()</td>
+<td>STR(42)</td>
+<td>"42"</td>
+</tr>
+<tr>
+<td>Real to Integer</td>
+<td>INT()</td>
+<td>INT(3.99)</td>
+<td>3 (truncates, does not round)</td>
+</tr>
+<tr>
+<td>Integer to Real</td>
+<td>FLOAT()</td>
+<td>FLOAT(7)</td>
+<td>7.0</td>
+</tr>
+<tr>
+<td>Character to Code</td>
+<td>ASC()</td>
+<td>ASC('A')</td>
+<td>65</td>
+</tr>
+<tr>
+<td>Code to Character</td>
+<td>CHR()</td>
+<td>CHR(65)</td>
+<td>'A'</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Type Casting in Practice</div>
+<pre>INPUT userAge             // userAge is received as a string "16"
+age &larr; INT(userAge)     // Convert to integer 16
+age &larr; age + 1         // Now we can do arithmetic: age = 17
+OUTPUT "Next year you will be " &amp; STR(age)  // Convert back to string for output</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>💾 Why Data Types Matter</h2>
+
+<h3>1. Memory Efficiency</h3>
+<div class="key-point">
+Choosing the right data type saves memory. A Boolean needs only 1 byte, while a string might need many bytes. Using a string to store "TRUE" instead of a Boolean wastes memory.
+</div>
+
+<h3>2. Validation</h3>
+<div class="example">
+<div class="example-title">Data Types Prevent Errors</div>
+<p>If age is declared as an integer, the program will reject "hello" as input because it cannot be stored as an integer. The data type acts as a first line of validation.</p>
+<pre>age &larr; INT(INPUT("Enter age: "))
+// If user enters "hello", this will cause an error
+// If user enters "16", age becomes the integer 16</pre>
+</div>
+
+<h3>3. Correct Operations</h3>
+<div class="example">
+<div class="example-title">Operations Depend on Type</div>
+<pre>a &larr; 5 + 3       // Integer addition: a = 8
+b &larr; "5" + "3"   // String concatenation: b = "53"
+c &larr; 5 / 2       // Real division: c = 2.5
+d &larr; 5 DIV 2     // Integer division: d = 2</pre>
+<p>The + operator does different things depending on the data type!</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Using string for numeric data</td>
+<td>Cannot perform arithmetic on strings</td>
+<td>Cast to integer or real first</td>
+</tr>
+<tr>
+<td>Using integer for decimal values</td>
+<td>Loses the decimal part</td>
+<td>Use real/float instead</td>
+</tr>
+<tr>
+<td>Confusing '5' and 5</td>
+<td>Character vs integer - different operations</td>
+<td>Remember quotes mean character/string</td>
+</tr>
+<tr>
+<td>Not casting input</td>
+<td>INPUT usually returns a string</td>
+<td>Use INT() or FLOAT() to convert</td>
+</tr>
+<tr>
+<td>INT(3.9) expecting 4</td>
+<td>INT() truncates, it does not round</td>
+<td>Use rounding functions if needed</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Name the five main data types and give an example value for each.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What is the difference between the integer 7 and the string "7"?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> What is the result of INT("25") + INT("10")?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Why should you store a person's age as an integer rather than a string?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Write pseudo-code that asks the user for a number, converts it to a real, divides it by 2, and outputs the result.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Integer: 42, Real/Float: 3.14, Boolean: TRUE, Character: 'A', String: "Hello".</li>
+<li>The integer 7 can be used in mathematical operations (7 + 3 = 10). The string "7" is text and would concatenate ("7" + "3" = "73"). They are stored and processed differently.</li>
+<li>INT("25") = 25, INT("10") = 10, so 25 + 10 = 35.</li>
+<li>Storing age as an integer allows arithmetic (e.g. checking if age >= 18), saves memory, and validates that the input is a whole number. A string age cannot be compared numerically.</li>
+<li>
+<pre>INPUT userInput
+num &larr; FLOAT(userInput)
+result &larr; num / 2
+OUTPUT result</pre>
+</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all five data types and be able to give appropriate examples</li>
+<li>Use single quotes for characters ('A') and double quotes for strings ("Hello")</li>
+<li>Remember INT() truncates - it does NOT round</li>
+<li>INPUT usually returns a string - you must cast it for arithmetic</li>
+<li>When asked why data types matter, mention memory, validation, and correct operations</li>
+<li>Be careful with + operator: it adds numbers but concatenates strings</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking integer division and float division always give the same result</span> <span class="right">✓ Integer division truncates the decimal part (7 ÷ 2 = 3), while float division preserves it (7 ÷ 2 = 3.5). Using the wrong type causes data loss.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing character and string data types</span> <span class="right">✓ A character is a single symbol (e.g. 'A'), stored in 1 byte. A string is a sequence of characters (e.g. 'Hello'), and its storage depends on length.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing Boolean can only be TRUE/FALSE text</span> <span class="right">✓ In most languages, Boolean values are stored as 1 (TRUE) or 0 (FALSE) in memory; the keywords TRUE/FALSE are how they are represented in code.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that real/float numbers cannot represent all decimals exactly</span> <span class="right">✓ Floating-point numbers use binary representation and cannot store some decimal fractions exactly (e.g. 0.1), which can cause rounding errors in calculations.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A program stores a student's name, their test score as a whole number, their height in metres, and whether they have passed. State the most appropriate data type for each value and explain your choice. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Name: STRING — a name consists of multiple characters (e.g. 'Alice'), so a string is needed rather than a single character.
+Test score: INTEGER — test scores are whole numbers (e.g. 85), so integer is appropriate as no decimal part is needed.
+Height: REAL/FLOAT — height in metres requires decimal places (e.g. 1.65), so a real/float type is needed to store the fractional part.
+Passed: BOOLEAN — the student has either passed or not passed, so only two values (TRUE/FALSE) are needed, making Boolean the most efficient choice.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including data types: integer, real, string, character and boolean for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including data types: integer, real, string, character and boolean to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including data types: integer, real, string, character and boolean, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+When asked about data types, always state the type AND explain why it is the most appropriate. Consider: does it need decimal places? Is it text or a single character? Is it a true/false value? Is it a whole number? Remember that INTEGER is for whole numbers only, REAL/FLOAT for decimals, STRING for text, CHAR for single characters, and BOOLEAN for true/false. Casting between types (e.g. str() to int()) is a common exam topic.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Data+Types+Integer+String+Boolean+Float" target="_blank" rel="noopener">YouTube: GCSE Computer Science Data Types Integer String Boolean Float</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/programming/CS6-data-types.html&text=Data Types" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/programming/CS6-data-types.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/programming/CS6-data-types.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Data Types%20https://scottrix.github.io/gcserevise/topics/programming/CS6-data-types.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/programming/CS6-data-types.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS10-data-structures.html">Data Structures</a></li>
+<li><a href="CS11-input-output-string-handling.html">Input, Output &amp;amp; String Handling</a></li>
+<li><a href="CS12-subroutines.html">Subroutines</a></li>
+<li><a href="CS13-robust-secure-programming.html">Robust &amp;amp; Secure Programming</a></li>
+<li><a href="CS14-random-number-generation.html">Random Number Generation</a></li>
+<li><a href="CS7-programming-constructs.html">Programming Constructs</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../algorithms/CS5-trace-tables.html" class="nav-prev">← Previous: Trace Tables</a>
+<a href="CS7-programming-constructs.html" class="nav-next">Next Topic: Programming Constructs →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Data+Types+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Data Types Books →</div>
+  <div class="affiliate-card-desc">Browse Data Types books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

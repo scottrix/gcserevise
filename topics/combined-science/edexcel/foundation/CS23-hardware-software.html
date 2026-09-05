@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hardware & Software - GCSE Computer Science</title>
+<meta name="description" content="Learn about hardware components and software categories, and the relationship between them. Free GCSE Computer Science revision.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, hardware, software, CPU, logic gates, programming languages, translators, memory, storage, learn, about, components, categories">
+<meta property="og:title" content="Hardware & Software - GCSE Computer Science">
+<meta property="og:description" content="Learn about hardware components and software categories, and the relationship between them. Free GCSE Computer Science revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/computer-systems/CS23-hardware-software.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/computer-systems/CS23-hardware-software.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hardware &amp; Software">
+<meta name="twitter:description" content="Learn about hardware components and software categories, and the relationship between them. Free GCSE Computer Science revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Define the terms hardware and software.", "acceptedAnswer": {"@type": "Answer", "text": "Hardware is the physical components of a computer system (the parts you can touch). Software is the programs and instructions that tell the hardware what to do (not physical)."}}, {"@type": "Question", "name": "Explain why hardware and software are interdependent.", "acceptedAnswer": {"@type": "Answer", "text": "Hardware needs software to provide it with instructions to execute; without software, hardware has nothing to run. Software needs hardware to execute its instructions; without hardware, software has nothing to run on. Neither can function alone."}}, {"@type": "Question", "name": "Classify each as input, output, or storage: keyboard, monitor, SSD, scanner, speaker, USB drive.", "acceptedAnswer": {"@type": "Answer", "text": "Keyboard = input, Monitor = output, SSD = storage, Scanner = input, Speaker = output, USB drive = storage."}}, {"@type": "Question", "name": "What is the difference between system software and application software? Give two examples of each.", "acceptedAnswer": {"@type": "Answer", "text": "System software manages the hardware and provides a platform for applications (e.g. operating system, device driver). Application software performs specific tasks for the user (e.g. word processor, web browser)."}}, {"@type": "Question", "name": "Explain the difference between general-purpose and special-purpose application software.", "acceptedAnswer": {"@type": "Answer", "text": "General-purpose software can be used for many different tasks (e.g. a word processor can write letters, essays, reports). Special-purpose software is designed for one specific task (e.g. a payroll system that only calculates wages)."}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Computer Systems</span> <span>›</span>
+<span>Hardware & Software</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS23: Hardware & Software</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+<span class="badge">Computer Systems</span>
+</div>
+<p class="topic-desc">The definitions of hardware and software, their categories, and how they work together to make a computer system function.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 What is Hardware?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Hardware refers to the physical components of a computer system - the parts you can see and touch. Hardware includes all the electronic and mechanical parts that make up the computer.
+</div>
+
+<p>Hardware is the tangible, physical equipment of a computer system. Without hardware, there would be nothing to run software on. Every physical part of a computer, from the CPU chip to the keyboard keys, is hardware.</p>
+
+<ul>
+<li>Hardware is physical - you can touch it, see it, move it</li>
+<li>Hardware executes the instructions provided by software</li>
+<li>Hardware can fail physically (broken components, loose connections)</li>
+<li>Different hardware configurations suit different purposes</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Examples of Hardware</div>
+<p>Processor (CPU), memory (RAM), hard drive (HDD/SSD), motherboard, graphics card, monitor, keyboard, mouse, printer, speakers, network card, webcam, microphone.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 What is Software?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Software refers to the programs, instructions, and data that tell the hardware what to do. Software is not physical - it is the set of instructions that the hardware executes.
+</div>
+
+<p>Software is the intangible part of a computer system. It consists of programs (sequences of instructions) that the hardware follows to perform tasks. Without software, hardware is useless - it would have no instructions to execute.</p>
+
+<ul>
+<li>Software is not physical - it is code and data stored electronically</li>
+<li>Software tells hardware what tasks to perform and how to perform them</li>
+<li>Software can be changed, updated, or replaced without changing hardware</li>
+<li>Software can contain bugs (errors in the code)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Examples of Software</div>
+<p>Operating systems (Windows, macOS, Linux), applications (Word, Chrome, Photoshop), games, device drivers, utility programs, compilers, web browsers.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔗 The Relationship Between Hardware and Software</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Hardware and software are interdependent. Hardware needs software to give it instructions; software needs hardware to execute those instructions. Neither can function without the other.
+</div>
+
+<p>The relationship between hardware and software is fundamental to how computers work:</p>
+
+<ul>
+<li>Software provides the instructions; hardware carries them out</li>
+<li>Hardware is the platform that software runs on</li>
+<li>Without software, hardware is just electronic components with no purpose</li>
+<li>Without hardware, software is just code with nothing to execute it</li>
+<li>Better hardware can run more demanding software faster</li>
+<li>Efficient software can make the most of limited hardware</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Analogy</div>
+<p>Think of hardware as a car and software as the driver. The car (hardware) has the physical capability to move, but without a driver (software) giving it instructions, it goes nowhere. The driver (software) has the knowledge and instructions, but without the car (hardware), they cannot travel.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Aspect</th>
+<th>Hardware</th>
+<th>Software</th>
+</tr>
+<tr>
+<td>Nature</td>
+<td>Physical/tangible</td>
+<td>Intangible/code</td>
+</tr>
+<tr>
+<td>Failure mode</td>
+<td>Physical damage, wear and tear</td>
+<td>Bugs, crashes, corruption</td>
+</tr>
+<tr>
+<td>Upgrades</td>
+<td>Replace physical components</td>
+<td>Download updates or new versions</td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>Manufacturing, materials</td>
+<td>Development, licensing</td>
+</tr>
+<tr>
+<td>Examples</td>
+<td>CPU, RAM, HDD, monitor</td>
+<td>OS, apps, drivers, utilities</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🖥️ Categories of Hardware</h2>
+
+<h3>Input Devices</h3>
+<p>Input devices send data INTO the computer system. They allow users to enter data and instructions.</p>
+
+<table class="comparison-table">
+<tr>
+<th>Device</th>
+<th>Type of Input</th>
+<th>How It Works</th>
+</tr>
+<tr>
+<td>Keyboard</td>
+<td>Text, commands</td>
+<td>Key presses generate electrical signals</td>
+</tr>
+<tr>
+<td>Mouse</td>
+<td>Position, clicks</td>
+<td>Optical/laser sensor detects movement</td>
+</tr>
+<tr>
+<td>Microphone</td>
+<td>Sound</td>
+<td>Converts sound waves to electrical signals</td>
+</tr>
+<tr>
+<td>Scanner</td>
+<td>Images, documents</td>
+<td>Light sensor reads reflected light from paper</td>
+</tr>
+<tr>
+<td>Touchscreen</td>
+<td>Touch, gestures</td>
+<td>Capacitive/resistive sensors detect touch</td>
+</tr>
+<tr>
+<td>Webcam</td>
+<td>Video</td>
+<td>Captures light through lens onto sensor</td>
+</tr>
+<tr>
+<td>Sensor (temperature, pressure)</td>
+<td>Environmental readings</td>
+<td>Converts physical quantity to electrical signal</td>
+</tr>
+</table>
+
+<h3>Output Devices</h3>
+<p>Output devices present data FROM the computer to the user. They convert electronic data into a human-readable form.</p>
+
+<table class="comparison-table">
+<tr>
+<th>Device</th>
+<th>Type of Output</th>
+<th>How It Works</th>
+</tr>
+<tr>
+<td>Monitor/screen</td>
+<td>Visual display</td>
+<td>LCD/LED pixels show images</td>
+</tr>
+<tr>
+<td>Printer</td>
+<td>Physical documents</td>
+<td>Inkjet/laser puts ink on paper</td>
+</tr>
+<tr>
+<td>Speaker</td>
+<td>Sound</td>
+<td>Converts electrical signals to sound waves</td>
+</tr>
+<tr>
+<td>Projector</td>
+<td>Large visual display</td>
+<td>Projects light onto a surface</td>
+</tr>
+<tr>
+<td>Actuator</td>
+<td>Physical movement</td>
+<td>Motor/valve responds to electronic control</td>
+</tr>
+</table>
+
+<h3>Storage Devices</h3>
+<p>Storage devices save data permanently or semi-permanently so it can be retrieved later.</p>
+
+<table class="comparison-table">
+<tr>
+<th>Device</th>
+<th>Type</th>
+<th>Characteristics</th>
+</tr>
+<tr>
+<td>HDD (Hard Disk Drive)</td>
+<td>Magnetic</td>
+<td>Large capacity, moving parts, slower</td>
+</tr>
+<tr>
+<td>SSD (Solid State Drive)</td>
+<td>Solid state</td>
+<td>Fast, no moving parts, more expensive</td>
+</tr>
+<tr>
+<td>USB flash drive</td>
+<td>Solid state</td>
+<td>Portable, plug-in, limited writes</td>
+</tr>
+<tr>
+<td>Optical disc (CD/DVD/Blu-ray)</td>
+<td>Optical</td>
+<td>Read by laser, cheap, easily damaged</td>
+</tr>
+</table>
+
+<h3>Processing Components</h3>
+<p>Processing hardware carries out the actual computation - executing instructions and performing calculations.</p>
+<ul>
+<li>CPU (Central Processing Unit) - the "brain" of the computer</li>
+<li>GPU (Graphics Processing Unit) - handles graphics rendering</li>
+<li>Fan and heat sink - keep the processor cool</li>
+<li>Motherboard - connects all components together</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>💾 Categories of Software</h2>
+
+<h3>System Software</h3>
+<div class="key-point">
+<strong>Definition:</strong> System software manages and controls the hardware and provides a platform for application software to run on. It runs in the background and the user may not directly interact with it.
+</div>
+<ul>
+<li>Operating systems (Windows, macOS, Linux, Android, iOS)</li>
+<li>Utility programs (disk defragmenter, antivirus, file compression)</li>
+<li>Device drivers (allow OS to communicate with hardware)</li>
+<li>Translators (compilers, interpreters, assemblers)</li>
+<li>Library programs (shared code resources)</li>
+</ul>
+
+<h3>Application Software</h3>
+<div class="key-point">
+<strong>Definition:</strong> Application software performs specific tasks for the user. It sits on top of the system software and is what the user directly interacts with.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Category</th>
+<th>Description</th>
+<th>Examples</th>
+</tr>
+<tr>
+<td>General-purpose</td>
+<td>Can be used for many different tasks</td>
+<td>Word processor, spreadsheet, web browser</td>
+</tr>
+<tr>
+<td>Special-purpose</td>
+<td>Designed for one specific task</td>
+<td>Payroll system, CAD software, booking system</td>
+</tr>
+<tr>
+<td>Bespoke (custom)</td>
+<td>Custom-built for one organisation</td>
+<td>Company inventory system, school register</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "a CD is software"</td>
+<td>The CD itself is hardware; the programs on it are software</td>
+<td>The disc = hardware; the data/programs = software</td>
+</tr>
+<tr>
+<td>Confusing input and output devices</td>
+<td>Input goes IN, output comes OUT</td>
+<td>Think about the direction of data flow</td>
+</tr>
+<tr>
+<td>Saying "software is the programs on the hard drive"</td>
+<td>Software is the instructions, not the physical storage</td>
+<td>Software = the code/instructions, not the storage medium</td>
+</tr>
+<tr>
+<td>Forgetting device drivers are system software</td>
+<td>Drivers are essential for hardware to work</td>
+<td>Drivers manage hardware-OS communication</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Define the terms hardware and software.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Explain why hardware and software are interdependent.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Classify each as input, output, or storage: keyboard, monitor, SSD, scanner, speaker, USB drive.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is the difference between system software and application software? Give two examples of each.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain the difference between general-purpose and special-purpose application software.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Hardware is the physical components of a computer system (the parts you can touch). Software is the programs and instructions that tell the hardware what to do (not physical).</li>
+<li>Hardware needs software to provide it with instructions to execute; without software, hardware has nothing to run. Software needs hardware to execute its instructions; without hardware, software has nothing to run on. Neither can function alone.</li>
+<li>Keyboard = input, Monitor = output, SSD = storage, Scanner = input, Speaker = output, USB drive = storage.</li>
+<li>System software manages the hardware and provides a platform for applications (e.g. operating system, device driver). Application software performs specific tasks for the user (e.g. word processor, web browser).</li>
+<li>General-purpose software can be used for many different tasks (e.g. a word processor can write letters, essays, reports). Special-purpose software is designed for one specific task (e.g. a payroll system that only calculates wages).</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always define hardware as "physical components" and software as "programs/instructions"</li>
+<li>When asked about the relationship, emphasise interdependence</li>
+<li>Know your input/output/storage device classifications</li>
+<li>Be clear on system vs application software with examples</li>
+<li>A touchscreen is BOTH an input and output device</li>
+<li>Remember: data flows IN through input devices and OUT through output devices</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking hardware and software are interchangeable terms</span> <span class="right">✓ Hardware is the physical components you can touch (CPU, RAM, mouse). Software is the programs and instructions that tell the hardware what to do.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing system software and application software</span> <span class="right">✓ System software manages the computer (OS, utilities, drivers). Application software performs user tasks (word processor, games, browsers).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing RAM and ROM serve the same purpose</span> <span class="right">✓ RAM is volatile (loses data when powered off), used for temporary working storage. ROM is non-volatile (retains data), stores boot-up instructions and firmware.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking the CPU is the only component that affects computer performance</span> <span class="right">✓ Performance depends on CPU speed, number of cores, cache size, RAM size and speed, storage type (SSD vs HDD), and bus width — not just the CPU alone.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Explain the difference between RAM and ROM, and state why both are needed in a computer system. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>RAM (Random Access Memory) is volatile — it loses its contents when power is switched off. It stores the operating system, running programs, and data currently being processed. It is read-write, meaning the CPU can both read from and write to RAM.
+
+ROM (Read Only Memory) is non-volatile — it retains its contents when power is switched off. It stores the BIOS/boot instructions needed to start the computer. It is read-only, meaning the CPU can read from it but cannot write to it.
+
+Both are needed because ROM provides the startup instructions that load the OS into RAM, and RAM provides the working space for the OS and programs to run. Without ROM, the computer could not boot; without RAM, no programs could run.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including hardware and software components for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including hardware and software components to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including hardware and software components, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Hardware = physical, Software = programs. System software vs Application software — learn examples of each. RAM: volatile, read-write, working storage. ROM: non-volatile, read-only, boot instructions. When comparing components, use a table format. For performance questions, consider ALL relevant components, not just the CPU. Always explain WHY a component is needed, not just what it does.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zr7ycdm" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Hardware+Software+RAM+ROM+CPU" target="_blank" rel="noopener">YouTube: GCSE Computer Science Hardware Software RAM ROM CPU</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/computer-systems/CS23-hardware-software.html&text=Hardware &amp; Software" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/computer-systems/CS23-hardware-software.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/computer-systems/CS23-hardware-software.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Hardware &amp; Software%20https://scottrix.github.io/gcserevise/topics/computer-systems/CS23-hardware-software.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/computer-systems/CS23-hardware-software.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS24-boolean-logic.html">Boolean Logic</a></li>
+<li><a href="CS25-software-classification.html">Software Classification</a></li>
+<li><a href="CS26-programming-languages-translators.html">Programming Languages &amp; Translators</a></li>
+<li><a href="CS27-systems-architecture.html">Systems Architecture</a></li>
+<li><a href="CS28-memory-storage.html">Memory &amp; Storage</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../data-representation/CS22-data-compression.html" class="nav-prev">← Previous Topic: Data Compression</a>
+<a href="../computer-systems/CS24-boolean-logic.html" class="nav-next">Next Topic: Boolean Logic →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Systems+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Systems Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Systems revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Hardware+%26+Software+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Hardware & Software Books →</div>
+  <div class="affiliate-card-desc">Browse Hardware & Software books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

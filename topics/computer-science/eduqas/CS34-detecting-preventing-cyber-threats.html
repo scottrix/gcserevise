@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detecting & Preventing Cyber Threats - GCSE Computer Science</title>
+<meta name="description" content="Learn about biometrics, password systems, CAPTCHA, penetration testing, anti-malware and defence in depth. Free GCSE Computer Science revision.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, cyber security, threats, phishing, malware, SQL injection, prevention, encryption, Detecting, Preventing, Cyber, learn, about">
+<meta property="og:title" content="Detecting & Preventing Cyber Threats - GCSE Computer Science">
+<meta property="og:description" content="Learn about biometrics, password systems, CAPTCHA, penetration testing, anti-malware and defence in depth. Free GCSE Computer Science revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/cyber-security/CS34-detecting-preventing-cyber-threats.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/cyber-security/CS34-detecting-preventing-cyber-threats.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Detecting &amp; Preventing Cyber Threats">
+<meta name="twitter:description" content="Learn about biometrics, password systems, CAPTCHA, penetration testing, anti-malware and defence in depth. Free GCSE Computer Science revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Describe two biometric security measures and explain their advantages over passwords.", "acceptedAnswer": {"@type": "Answer", "text": "Fingerprint scanning: reads unique ridge patterns on fingertips. Facial recognition: maps facial features. Advantages over passwords: cannot be forgotten, lost, or easily shared; very difficult to forge; the user always has their biometric with them."}}, {"@type": "Question", "name": "What is the purpose of CAPTCHA? Give an example of how it works.", "acceptedAnswer": {"@type": "Answer", "text": "CAPTCHA determines whether the user is human or a computer program (bot). It prevents automated attacks like fake account creation, brute force attacks, and ticket scalping. Example: asking the user to select all images containing traffic lights - easy for humans, difficult for bots."}}, {"@type": "Question", "name": "Explain how anti-malware software detects threats, including its limitations.", "acceptedAnswer": {"@type": "Answer", "text": "Anti-malware detects threats using: signature-based detection (comparing files to known malware patterns), heuristic analysis (monitoring behaviour for suspicious activity), and real-time scanning of files as they are accessed. Limitations: cannot detect brand new malware not in the signature databa"}}, {"@type": "Question", "name": "What is penetration testing and why is it important?", "acceptedAnswer": {"@type": "Answer", "text": "Penetration testing is an authorised simulated cyber attack performed by ethical hackers to identify security vulnerabilities before real attackers can exploit them. It is important because it finds weaknesses that can then be fixed proactively, tests both technical and human defences, and provides "}}, {"@type": "Question", "name": "Explain the principle of defence in depth, giving examples of technical, physical, and procedural measures.", "acceptedAnswer": {"@type": "Answer", "text": "Defence in depth uses multiple layers of security so that if one layer fails, others still provide protection. Technical measures: firewalls, encryption, anti-malware, automatic updates. Physical measures: locked doors, CCTV, biometric building access. Procedural measures: security policies, staff t"}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Cyber Security</span> <span>›</span>
+<span>Detecting & Preventing Cyber Threats</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS34: Detecting & Preventing Cyber Threats</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span>
+<span class="badge">Cyber Security</span>
+</div>
+<p class="topic-desc">Methods to detect and prevent cyber security threats including biometrics, password policies, CAPTCHA, penetration testing, anti-malware, and defence in depth.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Overview of Detection and Prevention</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Effective cyber security requires both detection (identifying threats) and prevention (stopping threats). No single method is sufficient - multiple layers of defence are needed.
+</div>
+
+<p>The best approach to cyber security combines technical measures (software and hardware), physical measures (controlling access to equipment), and procedural measures (policies and training for users). This multi-layered approach is called defence in depth.</p>
+
+<ul>
+<li>Technical measures: firewalls, encryption, anti-malware, access controls</li>
+<li>Physical measures: locked doors, CCTV, security guards</li>
+<li>Procedural measures: security policies, staff training, incident response plans</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔐 Biometric Measures</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Biometric security uses unique biological characteristics to identify and authenticate users. Biometrics are very difficult to forge or steal.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Biometric Type</th>
+<th>How It Works</th>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+<tr>
+<td>Fingerprint</td>
+<td>Scans unique ridge patterns on fingertips</td>
+<td>Quick, reliable, widely available</td>
+<td>Dirt/wet fingers can affect reading</td>
+</tr>
+<tr>
+<td>Facial recognition</td>
+<td>Maps facial features and proportions</td>
+<td>Contactless, convenient</td>
+<td>Can be fooled by photos; lighting affects accuracy</td>
+</tr>
+<tr>
+<td>Iris/retina</td>
+<td>Scans unique patterns in the eye</td>
+<td>Extremely accurate, very hard to fake</td>
+<td>Expensive equipment, intrusive</td>
+</tr>
+<tr>
+<td>Voice recognition</td>
+<td>Analyses unique vocal characteristics</td>
+<td>Can be used over phone, convenient</td>
+<td>Background noise, illness affect accuracy</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>Why biometrics are strong:</strong> They are something you ARE, not something you KNOW (password) or HAVE (token). You cannot forget, lose, or easily share a biometric. However, if biometric data is stolen, it cannot be changed like a password can.
+</div>
+</section>
+
+<section class="section">
+<h2>🔑 Password Systems and Policies</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A password policy is a set of rules that govern how passwords are created, used, and managed within an organisation. Strong password policies significantly reduce the risk of unauthorised access.
+</div>
+
+<h3>Password Complexity Requirements</h3>
+<ul>
+<li>Minimum length (typically 8+ characters, preferably 12+)</li>
+<li>Mix of character types: uppercase, lowercase, numbers, symbols</li>
+<li>Cannot be a common password or dictionary word</li>
+<li>Cannot be the same as previous passwords</li>
+<li>Cannot contain the username or real name</li>
+</ul>
+
+<h3>Password Change Policies</h3>
+<ul>
+<li>Regular forced changes (e.g. every 90 days)</li>
+<li>Must change immediately if a breach is suspected</li>
+<li>Cannot reuse recent passwords</li>
+<li>Account lockout after multiple failed attempts</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Strong vs Weak Passwords</div>
+<p><strong>Weak:</strong> password123, 12345678, letmein, admin, Qwerty123</p>
+<p><strong>Strong:</strong> T7#kM9$pL2@wQ4, MyD0g-Lik3s!Bark1ng, C0rr3ct-Hors3-Batt3ry-Stapl</p>
+<p>Strong passwords use length, variety of characters, and avoid common words or patterns.</p>
+</div>
+
+<div class="key-point">
+<strong>Password Best Practices:</strong> Use different passwords for each account. Use a password manager to store complex passwords securely. Never share passwords. Never write passwords on sticky notes. Enable two-factor authentication wherever possible.
+</div>
+</section>
+
+<section class="section">
+<h2>🤖 CAPTCHA</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a challenge designed to determine whether the user is a human or a computer (bot). It prevents automated programs from abusing online services.
+</div>
+
+<ul>
+<li>Prevents bots from creating fake accounts</li>
+<li>Prevents automated brute force password attacks</li>
+<li>Prevents bots from spamming forms or buying tickets in bulk</li>
+<li>Common types: distorted text recognition, image selection, checkbox ("I'm not a robot")</li>
+<li>Modern reCAPTCHA analyses user behaviour (mouse movement, browsing patterns)</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>When creating a new email account, you may be asked to select all images containing traffic lights, or type the distorted text shown in an image. This is easy for a human but very difficult for a computer program, proving you are human.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📧 Email Confirmations and Verification</h2>
+
+<div class="key-point">
+<strong>Purpose:</strong> Email confirmation verifies that the person registering an account owns the email address they provided. It also enables account recovery if the password is forgotten.
+</div>
+
+<ul>
+<li>When registering, a confirmation link is sent to the provided email</li>
+<li>The user must click the link to verify they own the email address</li>
+<li>Prevents people from registering with someone else's email</li>
+<li>Used for password resets - a reset link is sent to the registered email</li>
+<li>Can detect suspicious login attempts by sending a verification email</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔄 Automatic Updates</h2>
+
+<div class="key-point">
+<strong>Purpose:</strong> Automatic updates ensure that software is always running the latest version with all security patches applied. This closes known vulnerabilities that attackers could exploit.
+</div>
+
+<ul>
+<li>Operating systems, browsers, and applications release security patches regularly</li>
+<li>Automatic updates apply these patches without requiring user action</li>
+<li>Many attacks exploit vulnerabilities that already have patches available</li>
+<li>Users who delay updates leave their systems vulnerable</li>
+<li>Automatic updates should be enabled for OS, browsers, and all security software</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Why This Matters</div>
+<p>The WannaCry ransomware attack in 2017 exploited a vulnerability in Windows that Microsoft had already patched two months earlier. Organisations that had applied the update were protected; those that hadn't were infected. Automatic updates would have prevented this.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔍 Penetration Testing</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Penetration testing (pen testing) is an authorised simulated cyber attack on a computer system, performed to identify security weaknesses. A professional "ethical hacker" tries to find and exploit vulnerabilities before real attackers do.
+</div>
+
+<ul>
+<li>Authorised and legal - conducted with the organisation's permission</li>
+<li>Simulates the methods that real attackers would use</li>
+<li>Identifies vulnerabilities in systems, networks, and applications</li>
+<li>Tests both technical and social engineering defences</li>
+<li>Results are reported so the organisation can fix the vulnerabilities</li>
+<li>Should be conducted regularly, especially after significant system changes</li>
+</ul>
+
+<div class="example">
+<div class="example-title">What Pen Testers Do</div>
+<p>A penetration tester might: attempt to break into the network from outside (like a real hacker), try social engineering attacks on employees (phishing, blagging), test whether firewalls and access controls can be bypassed, check for unpatched software, and attempt to escalate privileges once inside the system. They then report all vulnerabilities found so they can be fixed before real attackers discover them.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🛡️ Anti-Malware Software</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Anti-malware software (also called antivirus software) detects, prevents, and removes malicious software from a computer system. It protects against viruses, Trojans, spyware, ransomware, and other threats.
+</div>
+
+<h3>How Anti-Malware Works</h3>
+
+<ul>
+<li><strong>Signature-based detection:</strong> Compares files against a database of known malware signatures (unique patterns). Must be updated regularly with new signatures.</li>
+<li><strong>Heuristic analysis:</strong> Monitors program behaviour for suspicious activity, detecting new or unknown malware that doesn't match any signature.</li>
+<li><strong>Quarantine:</strong> Isolates suspicious files so they cannot cause harm, allowing the user to review and decide whether to delete them.</li>
+<li><strong>Real-time protection:</strong> Scans files as they are accessed, opened, or downloaded to catch malware before it executes.</li>
+</ul>
+
+<div class="example">
+<div class="example-title">How It Works</div>
+<p>When you download a file, anti-malware scans it: first checking its signature against the known malware database, then analysing its behaviour if no signature match is found. If malware is detected, the file is quarantined and the user is alerted. Regular scans also check all files on the system.</p>
+</div>
+
+<h3>Limitations of Anti-Malware</h3>
+<ul>
+<li>Cannot detect brand new malware not yet in the signature database (zero-day)</li>
+<li>Must be updated frequently with new malware definitions</li>
+<li>Can be bypassed by sophisticated malware</li>
+<li>Does not protect against social engineering attacks</li>
+<li>Can slow down system performance during scans</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🏗️ Defence in Depth</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Defence in depth is a security strategy that uses multiple layers of protection. If one layer fails, other layers still provide security. No single measure is completely effective on its own.
+</div>
+
+<p>Defence in depth combines technical, physical, and procedural measures:</p>
+
+<table class="comparison-table">
+<tr>
+<th>Layer</th>
+<th>Measures</th>
+<th>What It Protects Against</th>
+</tr>
+<tr>
+<td>Technical</td>
+<td>Firewalls, encryption, anti-malware, access controls, automatic updates</td>
+<td>Network attacks, malware, data interception</td>
+</tr>
+<tr>
+<td>Physical</td>
+<td>Locked doors, CCTV, security guards, biometric building access</td>
+<td>Physical theft, unauthorised access, shoulder surfing</td>
+</tr>
+<tr>
+<td>Procedural</td>
+<td>Security policies, staff training, password policies, pen testing</td>
+<td>Social engineering, weak passwords, insider threats</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Defence in Depth in Practice</div>
+<p>A school network might use: firewall (technical), encryption on Wi-Fi (technical), anti-malware on all computers (technical), staff training on phishing (procedural), strong password policy (procedural), locked server room (physical), regular pen testing (procedural), automatic updates enabled (technical). If an attacker gets through the firewall, anti-malware still catches malware. If anti-malware misses a threat, staff training helps users avoid clicking suspicious links.</p>
+</div>
+
+<div class="formula-box">
+<strong>Defence in Depth Principle:</strong><br>
+Multiple layers of different security types<br>
+If one layer is breached, others still protect<br>
+Combine: Technical + Physical + Procedural measures<br>
+Every layer must be maintained and regularly reviewed
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Saying "anti-malware stops all threats"</td>
+<td>It cannot detect zero-day or very new malware</td>
+<td>Anti-malware is one layer, not complete protection</td>
+</tr>
+<tr>
+<td>Confusing CAPTCHA with authentication</td>
+<td>CAPTCHA verifies human vs bot, not identity</td>
+<td>CAPTCHA = bot prevention; Authentication = identity verification</td>
+</tr>
+<tr>
+<td>Saying "penetration testing is hacking"</td>
+<td>Pen testing is authorised and legal; hacking is not</td>
+<td>Pen testing = authorised ethical testing with permission</td>
+</tr>
+<tr>
+<td>Listing only technical measures for defence in depth</td>
+<td>Defence in depth includes physical and procedural measures too</td>
+<td>Always mention all three: technical, physical, procedural</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Describe two biometric security measures and explain their advantages over passwords.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What is the purpose of CAPTCHA? Give an example of how it works.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Explain how anti-malware software detects threats, including its limitations.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> What is penetration testing and why is it important?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain the principle of defence in depth, giving examples of technical, physical, and procedural measures.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Fingerprint scanning: reads unique ridge patterns on fingertips. Facial recognition: maps facial features. Advantages over passwords: cannot be forgotten, lost, or easily shared; very difficult to forge; the user always has their biometric with them.</li>
+<li>CAPTCHA determines whether the user is human or a computer program (bot). It prevents automated attacks like fake account creation, brute force attacks, and ticket scalping. Example: asking the user to select all images containing traffic lights - easy for humans, difficult for bots.</li>
+<li>Anti-malware detects threats using: signature-based detection (comparing files to known malware patterns), heuristic analysis (monitoring behaviour for suspicious activity), and real-time scanning of files as they are accessed. Limitations: cannot detect brand new malware not in the signature database (zero-day), requires regular updates, can be bypassed by sophisticated threats, and does not protect against social engineering.</li>
+<li>Penetration testing is an authorised simulated cyber attack performed by ethical hackers to identify security vulnerabilities before real attackers can exploit them. It is important because it finds weaknesses that can then be fixed proactively, tests both technical and human defences, and provides a realistic assessment of security posture.</li>
+<li>Defence in depth uses multiple layers of security so that if one layer fails, others still provide protection. Technical measures: firewalls, encryption, anti-malware, automatic updates. Physical measures: locked doors, CCTV, biometric building access. Procedural measures: security policies, staff training, password policies, pen testing. No single measure is sufficient; the combination of all three types provides robust security.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know all detection and prevention methods with how they work</li>
+<li>Be able to explain biometrics as "something you ARE" vs passwords "something you KNOW"</li>
+<li>CAPTCHA = human vs bot test, NOT authentication</li>
+<li>Anti-malware: know both how it works AND its limitations</li>
+<li>Defence in depth: always mention technical, physical, AND procedural</li>
+<li>When asked "how to protect a network," combine multiple methods</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking penetration testing and antivirus scanning are the same</span> <span class="right">✓ Penetration testing simulates real attacks to find vulnerabilities in a system. Antivirus scanning detects known malware signatures. They test different aspects of security.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing updating software is optional if you have antivirus</span> <span class="right">✓ Software updates often patch security vulnerabilities that antivirus cannot protect against. Antivirus detects known malware but cannot prevent exploitation of unpatched vulnerabilities.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing penetration testing with a real cyber attack</span> <span class="right">✓ Penetration testing is authorised and controlled — it is carried out with permission to identify weaknesses. A real attack is unauthorised and malicious. Pen testing findings are reported to improve security.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking network monitoring only detects threats after damage is done</span> <span class="right">✓ Network monitoring can detect unusual patterns (anomaly detection) in real time, allowing early intervention before significant damage occurs. It identifies suspicious activity like unusual data transfers or login patterns.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Explain four methods used to detect and prevent cyber threats, describing how each method works and its limitations. [6 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>1. Penetration testing: Authorised security experts simulate cyber attacks to find vulnerabilities before real attackers do. Limitation: It is a snapshot in time — new vulnerabilities may appear after the test, and it cannot guarantee finding every weakness.
+
+2. Antivirus software: Scans files and programs against a database of known malware signatures and monitors for suspicious behaviour. Limitation: Cannot detect zero-day threats (new malware not yet in the database) and requires regular signature updates.
+
+3. Firewall: Filters network traffic based on predefined rules, blocking unauthorised access and suspicious connections. Limitation: Cannot prevent threats from within the network or attacks that use authorised connections (e.g. phishing).
+
+4. User education/training: Teaching users to recognise threats like phishing emails, weak passwords, and social engineering. Limitation: Users can still make mistakes or ignore training, and sophisticated attacks may still deceive well-trained users.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including detecting and preventing cyber threats: penetration testing for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including detecting and preventing cyber threats: penetration testing to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including detecting and preventing cyber threats: penetration testing, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Detection: penetration testing, network monitoring, intrusion detection systems, audit logs. Prevention: firewalls, antivirus, access control, encryption, user education, software updates, MFA. For each method, explain HOW it works and its LIMITATION. No single method is sufficient — always use defence in depth (multiple layers). Pen testing ≠ real attack. Updates patch vulnerabilities that antivirus cannot address.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/znk2wxs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Detecting+Preventing+Cyber+Threats+Penetration+Testing" target="_blank" rel="noopener">YouTube: GCSE Computer Science Detecting Preventing Cyber Threats Penetration Testing</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/cyber-security/CS34-detecting-preventing-cyber-threats.html&text=Detecting &amp; Preventing Cyber Threats" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/cyber-security/CS34-detecting-preventing-cyber-threats.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/cyber-security/CS34-detecting-preventing-cyber-threats.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Detecting &amp; Preventing Cyber Threats%20https://scottrix.github.io/gcserevise/topics/cyber-security/CS34-detecting-preventing-cyber-threats.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/cyber-security/CS34-detecting-preventing-cyber-threats.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS33-cyber-security-threats.html">Cyber Security Threats</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../cyber-security/CS33-cyber-security-threats.html" class="nav-prev">← Previous Topic: Cyber Security Threats</a>
+<a href="../databases-impacts/CS35-relational-databases.html" class="nav-next">Next Topic: Relational Databases →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Cyber+Security+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Cyber Security Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Cyber Security revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Detecting+%26+Preventing+Cyber+Threats+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Detecting & Preventing Cyber Threats Books →</div>
+  <div class="affiliate-card-desc">Browse Detecting & Preventing Cyber Threats books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

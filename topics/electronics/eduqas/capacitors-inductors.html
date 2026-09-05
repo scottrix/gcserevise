@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capacitors &amp; Inductors - GCSE Electronics</title>
+<meta name="description" content="Study capacitors and inductors including capacitance, charge storage, RC time constants, inductance and energy stored in magnetic fields.">
+<meta name="keywords" content="capacitance, capacitor, RC circuit, time constant, inductance, inductor, energy storage, farad, henry, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Capacitors &amp; Inductors - GCSE Electronics">
+<meta property="og:description" content="Study capacitors and inductors including capacitance, charge storage, RC time constants, inductance and energy stored in magnetic fields.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-fundamentals/capacitors-inductors.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-fundamentals/capacitors-inductors.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Capacitors &amp;amp; Inductors">
+<meta name="twitter:description" content="Study capacitors and inductors including capacitance, charge storage, RC time constants, inductance and energy stored in magnetic fields.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:A 100 μF capacitor is charged to 10 V. How much charge is stored?", "acceptedAnswer": {"@type": "Answer", "text": "Q = CV = 100 × 10⁻⁶ × 10 = 1 × 10⁻³ C = 1 mC."}}, {"@type": "Question", "name": "Q:What is the time constant of a circuit with R = 10 kΩ and C = 20 μF?", "acceptedAnswer": {"@type": "Answer", "text": "τ = RC = 10 × 10³ × 20 × 10⁻⁶ = 0.2 s."}}, {"@type": "Question", "name": "Q:How much energy is stored in a 47 μF capacitor charged to 12 V?", "acceptedAnswer": {"@type": "Answer", "text": "E = ½CV² = 0.5 × 47 × 10⁻⁶ × 144 = 3.384 × 10⁻³ J ≈ 3.4 mJ."}}, {"@type": "Question", "name": "Q:What is the energy stored in a 10 mH inductor carrying 2 A?", "acceptedAnswer": {"@type": "Answer", "text": "E = ½LI² = 0.5 × 10 × 10⁻³ × 4 = 20 × 10⁻³ J = 20 mJ."}}, {"@type": "Question", "name": "Q:After how many time constants is a discharging capacitor considered fully discharged?", "acceptedAnswer": {"@type": "Answer", "text": "After 5τ, the capacitor voltage has fallen to less than 1% of its initial value and is considered fully discharged."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Electronic Fundamentals</span> <span>›</span>
+<span>Capacitors &amp; Inductors</span>
+</nav>
+<article class="topic-header">
+<h1>E3: Capacitors &amp; Inductors</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Capacitance, charge storage, RC circuits, inductance and energy storage</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Capacitors &amp; Inductors</h2>
+<p>Capacitance, charge storage, RC circuits, inductance and energy storage</p>
+<div class="key-point">
+<strong>Key Fact:</strong> Capacitance C = Q/V, measured in farads (F); a capacitor stores charge on parallel plates separated by a dielectric.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The energy stored in a capacitor is E = ½CV² = ½QV.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> In an RC charging circuit, V_C rises exponentially: V_C = V_supply(1 − e^(−t/RC)).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The time constant τ = RC is the time for the capacitor to reach 63.2% of its final voltage when charging.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> During discharge, V_C = V_initial × e^(−t/RC); after 5τ the capacitor is effectively fully discharged.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Inductance L is measured in henrys (H); an inductor stores energy in its magnetic field.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The energy stored in an inductor is E = ½LI².
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> An inductor opposes changes in current: V = L × dI/dt (back EMF).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Capacitors block DC at steady state but pass AC; inductors pass DC at steady state but oppose AC.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Dielectric material between capacitor plates increases capacitance by reducing the electric field.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Increasing plate area or decreasing plate separation increases capacitance.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Inductors in series add: L_total = L1 + L2; in parallel: 1/L_total = 1/L1 + 1/L2.
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Capacitors &amp; Inductors, you must know:</p>
+<ul><li><strong>Capacitance:</strong> The ability of a component to store charge per unit voltage, measured in farads.</li>
+<li><strong>Time constant:</strong> τ = RC; the time for an RC circuit to reach 63.2% of its final value during charging.</li>
+<li><strong>Dielectric:</strong> An insulating material between capacitor plates that increases capacitance.</li>
+<li><strong>Inductance:</strong> The property of a coil that opposes changes in current, measured in henrys.</li>
+<li><strong>Back EMF:</strong> The voltage induced across an inductor that opposes the change in current producing it.</li>
+<li><strong>Exponential decay:</strong> A decrease in quantity where the rate of change is proportional to the current value.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> A 100 μF capacitor is charged to 10 V. How much charge is stored?</p></div>
+<div class="question"><p><strong>Q:</strong> What is the time constant of a circuit with R = 10 kΩ and C = 20 μF?</p></div>
+<div class="question"><p><strong>Q:</strong> How much energy is stored in a 47 μF capacitor charged to 12 V?</p></div>
+<div class="question"><p><strong>Q:</strong> What is the energy stored in a 10 mH inductor carrying 2 A?</p></div>
+<div class="question"><p><strong>Q:</strong> After how many time constants is a discharging capacitor considered fully discharged?</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>Q = CV = 100 × 10⁻⁶ × 10 = 1 × 10⁻³ C = 1 mC.</li>
+<li>τ = RC = 10 × 10³ × 20 × 10⁻⁶ = 0.2 s.</li>
+<li>E = ½CV² = 0.5 × 47 × 10⁻⁶ × 144 = 3.384 × 10⁻³ J ≈ 3.4 mJ.</li>
+<li>E = ½LI² = 0.5 × 10 × 10⁻³ × 4 = 20 × 10⁻³ J = 20 mJ.</li>
+<li>After 5τ, the capacitor voltage has fallen to less than 1% of its initial value and is considered fully discharged.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always convert units: μF to F (×10⁻⁶), mH to H (×10⁻³) before substituting into formulas.</li>
+<li>State the exponential formula before substituting values in RC circuit questions.</li>
+<li>Remember: at t = τ, charging reaches 63.2%; after 5τ it is ~99.3% charged.</li>
+<li>For energy calculations, use E = ½CV² for capacitors and E = ½LI² for inductors.</li>
+<li>Sketch the exponential charging/discharging curve to support your answer when asked to describe behaviour.</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+  <strong>GCSE Electronics Exam Tips — Capacitors & Inductors:</strong><br>
+  1. For Capacitors & Inductors questions, use correct electronic symbols and terminology<br>
+    2. Always show your working in calculations, including units at each step<br>
+    3. When analysing circuits, state which law or rule you are applying first<br>
+    4. For evaluation questions on Capacitors & Inductors, compare component choices and consider cost, reliability and tolerance<br>
+    5. Draw circuit diagrams neatly with conventional symbols
+</div><h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to convert μF or mF to farads before calculation.</span> <span class="right">✓ Always convert: 100 μF = 100 × 10⁻⁶ F.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Using E = CV² instead of E = ½CV² for capacitor energy.</span> <span class="right">✓ The correct formula is E = ½CV², which includes the factor of ½.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Saying a capacitor is fully charged after one time constant.</span> <span class="right">✓ After one time constant (τ), the capacitor has reached only 63.2% of its final voltage.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing capacitor and inductor behaviour with DC at steady state.</span> <span class="right">✓ A capacitor blocks DC at steady state; an inductor acts as a short circuit to DC at steady state.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe how a capacitor charges and discharges in an RC circuit, explaining the significance of the time constant.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>When a capacitor charges through a resistor from a supply voltage V_s, the voltage across the capacitor rises exponentially: V_C = V_s(1 − e^(−t/RC)). The current starts at its maximum value I = V_s/R and decays exponentially. The time constant τ = RC is the time taken for the capacitor voltage to reach 63.2% of V_s. After 5τ the capacitor is effectively fully charged (~99.3%). During discharge, V_C = V_0 × e^(−t/RC), where V_0 is the initial voltage. The voltage falls to 36.8% of V_0 after one time constant and is effectively zero after 5τ. A larger R or C gives a larger time constant, meaning slower charging and discharging. The exponential behaviour occurs because the charging rate depends on the remaining voltage difference, which decreases as the capacitor charges.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of capacitors &amp; inductors, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of capacitors &amp; inductors to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Capacitors+&amp;+Inductors" target="_blank" rel="noopener">YouTube: GCSE Electronics Capacitors &amp; Inductors</a></li></ul>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/elec-fundamentals/capacitors-inductors.html&text=Capacitors &amp;amp; Inductors" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/elec-fundamentals/capacitors-inductors.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/elec-fundamentals/capacitors-inductors.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Capacitors &amp;amp; Inductors%20https://scottrix.github.io/gcserevise/topics/elec-fundamentals/capacitors-inductors.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/elec-fundamentals/capacitors-inductors.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="diodes-transistors.html">Diodes &amp;amp; Transistors</a></li>
+<li><a href="ohms-law-resistors.html">Ohm&amp;#x27;s Law &amp;amp; Resistor Networks</a></li>
+<li><a href="power-energy-circuits.html">Power &amp;amp; Energy in Circuits</a></li>
+<li><a href="voltage-current-resistance.html">Voltage, Current &amp;amp; Resistance</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Electronics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Electronics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../elec-fundamentals/ohms-law-resistors.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-fundamentals/diodes-transistors.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Electronics Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Electronics revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+WJEC+Eduqas+C690QS+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE WJEC Eduqas C690QS Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE WJEC Eduqas C690QS revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Capacitors+%26+Inductors+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Capacitors &amp; Inductors Books →</div>
+  <div class="affiliate-card-desc">Browse Capacitors &amp; Inductors books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>

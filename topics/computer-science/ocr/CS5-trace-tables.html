@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trace Tables - GCSE Computer Science</title>
+<meta name="description" content="Learn how to use trace tables to step through algorithms for GCSE Computer Science. Free revision notes.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, algorithms, pseudo-code, flowcharts, searching, sorting, trace tables, computational thinking, Trace, Tables, learn, through, computer">
+<meta property="og:title" content="Trace Tables - GCSE Computer Science">
+<meta property="og:description" content="Learn how to use trace tables to step through algorithms for GCSE Computer Science. Free revision notes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/algorithms/CS5-trace-tables.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/algorithms/CS5-trace-tables.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Trace Tables">
+<meta name="twitter:description" content="Learn how to use trace tables to step through algorithms for GCSE Computer Science. Free revision notes.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Complete a trace table for this algorithm with input num = 7:", "acceptedAnswer": {"@type": "Answer", "text": "iresult-0112336410515621728OUTPUT: 28 (This calculates the sum 1+2+3+4+5+6+7 = 28)"}}, {"@type": "Question", "name": "What does the following algorithm compute? Use a trace table with x = 24, y = 6.", "acceptedAnswer": {"@type": "Answer", "text": "The algorithm counts how many times y fits into x - it performs integer division (24 DIV 6 = 4). The OUTPUT is 4."}}, {"@type": "Question", "name": "Complete a trace table for the following algorithm with the array [4, 1, 8, 3]:", "acceptedAnswer": {"@type": "Answer", "text": "Initial: min = 4. i=1: numbers[1]=1, 1<4, min=1. i=2: numbers[2]=8, 8>1, no change. i=3: numbers[3]=3, 3>1, no change. OUTPUT: 1 (the minimum value)."}}, {"@type": "Question", "name": "Explain why trace tables are useful for debugging.", "acceptedAnswer": {"@type": "Answer", "text": "Trace tables let you step through an algorithm line by line, recording variable values. This allows you to compare what you expected to happen with what actually happens, making it easy to spot where a logic error occurs."}}, {"@type": "Question", "name": "A trace table shows a variable that increases by 1 each iteration. What is the algorithm most likely doing?", "acceptedAnswer": {"@type": "Answer", "text": "It is most likely counting. A variable that increments by 1 each step is typically a counter."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Algorithms</span> <span>›</span>
+<span>Trace Tables</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS5: Trace Tables</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Using trace tables to step through algorithms, track variable values, and identify the purpose of unknown algorithms.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 What is a Trace Table?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A trace table is a table used to record the value of variables each time they change as an algorithm is executed step by step. It helps you understand how an algorithm works, find logic errors, and determine what an unknown algorithm does.
+</div>
+
+<p>Trace tables are essential for:</p>
+<ul>
+<li>Understanding how an algorithm processes data step by step</li>
+<li>Testing algorithms with different inputs (dry running)</li>
+<li>Finding logic errors by comparing expected vs actual values</li>
+<li>Identifying the purpose of unfamiliar algorithms</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>📝 Setting Up a Trace Table</h2>
+
+<div class="key-point">
+<strong>Setting up a trace table:</strong> Create a column for each variable in the algorithm, plus a column for any OUTPUT statements. Each row represents one execution step where a variable changes.
+</div>
+
+<div class="formula-box">
+<strong>Rules for Trace Tables:</strong><br>
+1. One column per variable + one for OUTPUT<br>
+2. Each row = one step where a variable changes<br>
+3. Only record a value when it changes<br>
+4. Leave cells blank if a variable doesn't change in that step<br>
+5. Record outputs in the OUTPUT column when they occur
+</div>
+
+<div class="example">
+<div class="example-title">Basic Trace Table Setup</div>
+<p>For an algorithm with variables <code>x</code>, <code>y</code>, and <code>total</code>:</p>
+<table class="comparison-table">
+<tr><th>Step</th><th>x</th><th>y</th><th>total</th><th>OUTPUT</th></tr>
+<tr><td>Initial</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+</table>
+</div>
+</section>
+
+<section class="section">
+<h2>🔢 Stepping Through Algorithms</h2>
+
+<h3>Example 1: Simple Counter</h3>
+<div class="example">
+<div class="example-title">Algorithm</div>
+<pre>count ← 0
+total ← 0
+FOR i ← 1 TO 4
+    count ← count + 1
+    total ← total + i * 2
+NEXT i
+OUTPUT total</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Trace Table</div>
+<table class="comparison-table">
+<tr><th>Iteration</th><th>i</th><th>count</th><th>total</th><th>OUTPUT</th></tr>
+<tr><td>Initial</td><td>-</td><td>0</td><td>0</td><td>-</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>2</td><td>-</td></tr>
+<tr><td>2</td><td>2</td><td>2</td><td>6</td><td>-</td></tr>
+<tr><td>3</td><td>3</td><td>3</td><td>12</td><td>-</td></tr>
+<tr><td>4</td><td>4</td><td>4</td><td>20</td><td>-</td></tr>
+<tr><td>End</td><td>-</td><td>-</td><td>-</td><td>20</td></tr>
+</table>
+<p><strong>Explanation:</strong> total accumulates 2 + 4 + 6 + 8 = 20</p>
+</div>
+
+<h3>Example 2: Finding the Maximum</h3>
+<div class="example">
+<div class="example-title">Algorithm</div>
+<pre>numbers ← [3, 7, 2, 9, 5]
+max ← numbers[0]
+FOR i ← 1 TO 4
+    IF numbers[i] > max THEN
+        max ← numbers[i]
+    ENDIF
+NEXT i
+OUTPUT max</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Trace Table</div>
+<table class="comparison-table">
+<tr><th>Iteration</th><th>i</th><th>numbers[i]</th><th>max</th><th>OUTPUT</th></tr>
+<tr><td>Initial</td><td>-</td><td>-</td><td>3</td><td>-</td></tr>
+<tr><td>1</td><td>1</td><td>7</td><td>7</td><td>-</td></tr>
+<tr><td>2</td><td>2</td><td>2</td><td>7</td><td>-</td></tr>
+<tr><td>3</td><td>3</td><td>9</td><td>9</td><td>-</td></tr>
+<tr><td>4</td><td>4</td><td>5</td><td>9</td><td>-</td></tr>
+<tr><td>End</td><td>-</td><td>-</td><td>-</td><td>9</td></tr>
+</table>
+<p><strong>Explanation:</strong> The algorithm finds the maximum value in the array. When numbers[i] > max, the new max is recorded.</p>
+</div>
+
+<h3>Example 3: WHILE Loop with Condition</h3>
+<div class="example">
+<div class="example-title">Algorithm</div>
+<pre>num ← 10
+WHILE num > 1
+    IF num MOD 2 = 0 THEN
+        num ← num DIV 2
+    ELSE
+        num ← num * 3 + 1
+    ENDIF
+ENDWHILE
+OUTPUT num</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Trace Table</div>
+<table class="comparison-table">
+<tr><th>Step</th><th>num (before)</th><th>Condition</th><th>Action</th><th>num (after)</th><th>OUTPUT</th></tr>
+<tr><td>1</td><td>10</td><td>10 > 1: TRUE, 10 MOD 2 = 0</td><td>num ← 10 DIV 2</td><td>5</td><td>-</td></tr>
+<tr><td>2</td><td>5</td><td>5 > 1: TRUE, 5 MOD 2 ≠ 0</td><td>num ← 5*3+1</td><td>16</td><td>-</td></tr>
+<tr><td>3</td><td>16</td><td>16 > 1: TRUE, 16 MOD 2 = 0</td><td>num ← 16 DIV 2</td><td>8</td><td>-</td></tr>
+<tr><td>4</td><td>8</td><td>8 > 1: TRUE, 8 MOD 2 = 0</td><td>num ← 8 DIV 2</td><td>4</td><td>-</td></tr>
+<tr><td>5</td><td>4</td><td>4 > 1: TRUE, 4 MOD 2 = 0</td><td>num ← 4 DIV 2</td><td>2</td><td>-</td></tr>
+<tr><td>6</td><td>2</td><td>2 > 1: TRUE, 2 MOD 2 = 0</td><td>num ← 2 DIV 2</td><td>1</td><td>-</td></tr>
+<tr><td>7</td><td>1</td><td>1 > 1: FALSE</td><td>Exit loop</td><td>-</td><td>1</td></tr>
+</table>
+<p><strong>This is the Collatz sequence!</strong> The algorithm halves even numbers and triples+1 odd numbers until reaching 1.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔎 Identifying the Purpose of Unknown Algorithms</h2>
+
+<div class="key-point">
+<strong>Exam technique:</strong> When given an unknown algorithm, create a trace table and look at the pattern of values. The OUTPUT and how variables change will reveal what the algorithm does.
+</div>
+
+<div class="example">
+<div class="example-title">What does this algorithm do?</div>
+<pre>x ← 17
+y ← 5
+WHILE x >= y
+    x ← x - y
+ENDWHILE
+OUTPUT x</pre>
+
+<table class="comparison-table">
+<tr><th>Step</th><th>x</th><th>y</th><th>x >= y?</th></tr>
+<tr><td>1</td><td>12</td><td>5</td><td>TRUE</td></tr>
+<tr><td>2</td><td>7</td><td>5</td><td>TRUE</td></tr>
+<tr><td>3</td><td>2</td><td>5</td><td>FALSE → exit</td></tr>
+</table>
+<p><strong>OUTPUT: 2</strong></p>
+<p><strong>Purpose:</strong> This calculates the <strong>remainder</strong> when x is divided by y (the MOD operation). 17 MOD 5 = 2. It repeatedly subtracts y from x until x < y.</p>
+</div>
+
+<div class="example">
+<div class="example-title">What does this algorithm do?</div>
+<pre>result ← 1
+FOR i ← 1 TO 5
+    result ← result * i
+NEXT i
+OUTPUT result</pre>
+
+<table class="comparison-table">
+<tr><th>i</th><th>result</th></tr>
+<tr><td>-</td><td>1</td></tr>
+<tr><td>1</td><td>1</td></tr>
+<tr><td>2</td><td>2</td></tr>
+<tr><td>3</td><td>6</td></tr>
+<tr><td>4</td><td>24</td></tr>
+<tr><td>5</td><td>120</td></tr>
+</table>
+<p><strong>OUTPUT: 120</strong></p>
+<p><strong>Purpose:</strong> This calculates <strong>5 factorial (5!)</strong> = 1 × 2 × 3 × 4 × 5 = 120.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>👁️ Visual Inspection of Trace Tables</h2>
+
+<div class="key-point">
+<strong>Tip:</strong> When looking at a completed trace table, examine the OUTPUT column and look for patterns in how variables change. Common patterns include: counting, accumulating (sum), finding maximum/minimum, searching, and computing remainders.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Pattern in Variables</th>
+<th>What the Algorithm is Doing</th>
+</tr>
+<tr>
+<td>One variable increases by 1 each step</td>
+<td>Counting</td>
+</tr>
+<tr>
+<td>One variable adds another variable each step</td>
+<td>Accumulating / calculating a total</td>
+</tr>
+<tr>
+<td>A variable is replaced only when a new value is larger</td>
+<td>Finding the maximum</td>
+</tr>
+<tr>
+<td>A variable is replaced only when a new value is smaller</td>
+<td>Finding the minimum</td>
+</tr>
+<tr>
+<td>A variable is multiplied by another each step</td>
+<td>Calculating a product / factorial / power</td>
+</tr>
+<tr>
+<td>A variable decreases by repeated subtraction</td>
+<td>Division or MOD operation</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🐛 Using Trace Tables for Debugging</h2>
+
+<div class="example">
+<div class="example-title">Finding the Error</div>
+<p>This algorithm is supposed to calculate the average of 3 numbers, but it gives the wrong answer:</p>
+<pre>total ← 0
+INPUT a
+INPUT b
+INPUT c
+total ← a + b + c
+average ← total / 2
+OUTPUT average</pre>
+<p>Input: a = 10, b = 20, c = 30</p>
+<table class="comparison-table">
+<tr><th>Variable</th><th>Expected</th><th>Actual</th></tr>
+<tr><td>total</td><td>60</td><td>60</td></tr>
+<tr><td>average</td><td>20</td><td>30</td></tr>
+</table>
+<p><strong>Error found:</strong> The algorithm divides by 2 instead of 3. The line should be <code>average ← total / 3</code>.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Not recording initial values</td>
+<td>You need the starting point to trace correctly</td>
+<td>Always fill in initial variable values before the loop</td>
+</tr>
+<tr>
+<td>Recording values that don't change</td>
+<td>It clutters the table and wastes time</td>
+<td>Only fill in a cell when the variable actually changes</td>
+</tr>
+<tr>
+<td>Missing an iteration</td>
+<td>Your trace will be incomplete and give wrong results</td>
+<td>Check FOR loop bounds carefully - count each iteration</td>
+</tr>
+<tr>
+<td>Wrong operator (DIV vs /)</td>
+<td>Integer division gives different results from real division</td>
+<td>Use DIV for integer division, / for real division</td>
+</tr>
+<tr>
+<td>Not evaluating conditions properly</td>
+<td>IF conditions may or may not execute their body</td>
+<td>Always evaluate the condition and record whether it was TRUE or FALSE</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Complete a trace table for this algorithm with input num = 7:</p>
+<pre>result ← 0
+FOR i ← 1 TO num
+    result ← result + i
+NEXT i
+OUTPUT result</pre>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> What does the following algorithm compute? Use a trace table with x = 24, y = 6.</p>
+<pre>count ← 0
+WHILE x >= y
+    x ← x - y
+    count ← count + 1
+ENDWHILE
+OUTPUT count</pre>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Complete a trace table for the following algorithm with the array [4, 1, 8, 3]:</p>
+<pre>min ← numbers[0]
+FOR i ← 1 TO 3
+    IF numbers[i] < min THEN
+        min ← numbers[i]
+    ENDIF
+NEXT i
+OUTPUT min</pre>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Explain why trace tables are useful for debugging.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A trace table shows a variable that increases by 1 each iteration. What is the algorithm most likely doing?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>
+<table class="comparison-table">
+<tr><th>i</th><th>result</th></tr>
+<tr><td>-</td><td>0</td></tr>
+<tr><td>1</td><td>1</td></tr>
+<tr><td>2</td><td>3</td></tr>
+<tr><td>3</td><td>6</td></tr>
+<tr><td>4</td><td>10</td></tr>
+<tr><td>5</td><td>15</td></tr>
+<tr><td>6</td><td>21</td></tr>
+<tr><td>7</td><td>28</td></tr>
+</table>
+OUTPUT: 28 (This calculates the sum 1+2+3+4+5+6+7 = 28)
+</li>
+<li>The algorithm counts how many times y fits into x - it performs integer division (24 DIV 6 = 4). The OUTPUT is 4.</li>
+<li>Initial: min = 4. i=1: numbers[1]=1, 1<4, min=1. i=2: numbers[2]=8, 8>1, no change. i=3: numbers[3]=3, 3>1, no change. OUTPUT: 1 (the minimum value).</li>
+<li>Trace tables let you step through an algorithm line by line, recording variable values. This allows you to compare what you expected to happen with what actually happens, making it easy to spot where a logic error occurs.</li>
+<li>It is most likely counting. A variable that increments by 1 each step is typically a counter.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always set up columns before you start tracing - include every variable and an OUTPUT column</li>
+<li>Record initial values before the loop begins</li>
+<li>Go through the algorithm line by line - don't skip steps</li>
+<li>For IF statements, evaluate the condition and only update variables if the condition is TRUE</li>
+<li>When asked "what does this algorithm do?", trace it first then describe the overall purpose</li>
+<li>Double-check your arithmetic - one wrong calculation will throw off the rest of the table</li>
+<li>If asked to find an error, trace the algorithm and compare with what should happen</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Leaving columns out of a trace table because the variable 'doesn't change'</span> <span class="right">✓ Every variable used in the algorithm must have its own column in the trace table, even if its value doesn't change — you still record the initial value.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Recording output values inside variable columns instead of noting them separately</span> <span class="right">✓ Outputs should be recorded as they occur, often in a separate 'OUTPUT' column or noted at the side; they are not stored in variables unless explicitly assigned.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Only recording variable values at the end rather than after each iteration</span> <span class="right">✓ A trace table must show how variable values change after each step or loop iteration, not just the final values — this is how you debug algorithms.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting to update the loop counter in a trace table</span> <span class="right">✓ The loop counter (e.g. 'counter' in a FOR loop) must be updated in the trace table each iteration, as it controls when the loop terminates.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>The following pseudo-code processes an array: FOR i ← 1 TO 4 IF numbers[i] > max THEN max ← numbers[i] ENDIF NEXT i. Given numbers = [3, 7, 2, 9] and max = 0 initially, complete a trace table showing the value of i, numbers[i], max and the condition result for each iteration. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Iteration | i | numbers[i] | Condition (numbers[i] > max) | max after
+1 | 1 | 3 | 3 > 0 = TRUE | 3
+2 | 2 | 7 | 7 > 3 = TRUE | 7
+3 | 3 | 2 | 2 > 7 = FALSE | 7
+4 | 4 | 9 | 9 > 7 = TRUE | 9
+
+The algorithm finds the maximum value in the array. After all iterations, max = 9.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including trace tables and dry-running algorithms for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including trace tables and dry-running algorithms to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including trace tables and dry-running algorithms, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Always create a column for EVERY variable in the algorithm, plus any output. Update values row by row as each line of code executes. For loops, record each iteration separately. For IF statements, show the condition evaluation (TRUE/FALSE). Don't skip rows even if a variable doesn't change — write the same value. If asked to find an error in code, completing a trace table will reveal where the logic goes wrong.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3tbkmn" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Trace+Tables+Dry+Running+Algorithms" target="_blank" rel="noopener">YouTube: GCSE Computer Science Trace Tables Dry Running Algorithms</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/algorithms/CS5-trace-tables.html&text=Trace Tables" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/algorithms/CS5-trace-tables.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/algorithms/CS5-trace-tables.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Trace Tables%20https://scottrix.github.io/gcserevise/topics/algorithms/CS5-trace-tables.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/algorithms/CS5-trace-tables.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS1-representing-algorithms.html">Representing Algorithms</a></li>
+<li><a href="CS2-efficiency-algorithms.html">Efficiency of Algorithms</a></li>
+<li><a href="CS3-searching-algorithms.html">Searching Algorithms</a></li>
+<li><a href="CS4-sorting-algorithms.html">Sorting Algorithms</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="CS4-sorting-algorithms.html" class="nav-prev">← Previous: Sorting Algorithms</a>
+<a href="../programming/CS6-data-types.html" class="nav-next">Next Topic: Data Types →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Trace+Tables+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Trace Tables Books →</div>
+  <div class="affiliate-card-desc">Browse Trace Tables books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

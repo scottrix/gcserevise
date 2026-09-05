@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Systems Approach to Designing - GCSE Design and Technology</title>
+<meta name="description" content="Systems approach to designing for GCSE D&T: input-process-output, feedback loops, open and closed systems. Free revision notes.">
+<meta name="keywords" content="GCSE D&T, systems approach, input process output, feedback, closed loop, open loop, subsystem, flowchart, AQA">
+<meta property="og:title" content="Systems Approach to Designing - GCSE Design and Technology">
+<meta property="og:description" content="Systems approach to designing for GCSE D&T: input-process-output, feedback loops, open and closed systems. Free revision notes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/dt-core-principles/DT4-systems-approach-to-designing.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/dt-core-principles/DT4-systems-approach-to-designing.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Systems Approach to Designing">
+<meta name="twitter:description" content="Systems approach to designing for GCSE D&amp;T: input-process-output, feedback loops, open and closed systems. Free revision notes.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain the difference between an open-loop and a closed-loop system, giving an example of each.", "acceptedAnswer": {"@type": "Answer", "text": "Open-loop: no feedback — the system does not monitor its own output. E.g. a fan heater with a simple on/off switch runs at fixed power. Closed-loop: feedback adjusts the output. E.g. a fan heater with a thermostat senses room temperature and adjusts power to maintain the desired temperature."}}, {"@type": "Question", "name": "A washing machine uses sensors to detect load weight and water temperature. Draw a systems diagram and explain how feedback is used.", "acceptedAnswer": {"@type": "Answer", "text": "Input: load sensor, temperature sensor, water level sensor. Process: microcontroller compares sensor data with programmed settings. Output: motor speed, water valve, heater control. Feedback: temperature sensor feeds back actual water temperature; microcontroller adjusts heater to reach target. Load"}}, {"@type": "Question", "name": "Why is a closed-loop system more suitable than an open-loop system for controlling a greenhouse irrigation system?", "acceptedAnswer": {"@type": "Answer", "text": "A greenhouse needs precise moisture levels: too little water kills plants, too much causes root rot. Closed-loop: soil moisture sensor provides feedback, microcontroller activates irrigation only when moisture drops below threshold. Open-loop: timer-based watering regardless of soil conditions — was"}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../design-and-technology.html">Design and Technology</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../design-and-technology.html">Design and Technology</a> <span>›</span>
+<span>Core Technical Principles</span> <span>›</span>
+<span>Systems Approach to Designing</span>
+</nav>
+<article class="topic-header">
+<h1>DT4: Systems Approach to Designing</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Input-process-output, open and closed loop systems, feedback, subsystems, flowcharts, systems diagrams; applied to product design contexts.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Systems Approach to Designing</h2>
+<p>Input-process-output, open and closed loop systems, feedback, subsystems, flowcharts, systems diagrams; applied to product design contexts.</p>
+<div class="key-point">
+<strong>Key Fact:</strong> Systems approach: breaking down a product into interrelated subsystems — input (sensor/switch), process (microcontroller/logic), output (actuator/display).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Open-loop system: no feedback — output does not affect input. E.g. a toaster with a timer: it runs for a set time regardless of how brown the bread is.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Closed-loop system: uses feedback to adjust output — e.g. central heating with a thermostat senses temperature and switches the boiler on/off to maintain the set point.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Feedback: information about the output fed back to the input to adjust the process — essential for precision and consistency.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Flowcharts and systems diagrams: visual tools to represent how subsystems connect — standard symbols (oval=start/end, rectangle=process, diamond=decision, parallelogram=input/output).
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Systems Approach to Designing, you must know:</p>
+<ul><li>System</li><li>Input</li><li>Process</li><li>Output</li><li>Feedback</li><li>Open-loop</li><li>Closed-loop</li><li>Set point</li><li>Sensor</li><li>Actuator</li><li>Microcontroller</li><li>Subsystem</li><li>Flowchart</li><li>Systems diagram</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q1:</strong> Explain the difference between an open-loop and a closed-loop system, giving an example of each.</p></div>
+<div class="question"><p><strong>Q2:</strong> A washing machine uses sensors to detect load weight and water temperature. Draw a systems diagram and explain how feedback is used.</p></div>
+<div class="question"><p><strong>Q3:</strong> Why is a closed-loop system more suitable than an open-loop system for controlling a greenhouse irrigation system?</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>Open-loop: no feedback — the system does not monitor its own output. E.g. a fan heater with a simple on/off switch runs at fixed power. Closed-loop: feedback adjusts the output. E.g. a fan heater with a thermostat senses room temperature and adjusts power to maintain the desired temperature.</li>
+<li>Input: load sensor, temperature sensor, water level sensor. Process: microcontroller compares sensor data with programmed settings. Output: motor speed, water valve, heater control. Feedback: temperature sensor feeds back actual water temperature; microcontroller adjusts heater to reach target. Load sensor determines cycle time — heavier loads need longer.</li>
+<li>A greenhouse needs precise moisture levels: too little water kills plants, too much causes root rot. Closed-loop: soil moisture sensor provides feedback, microcontroller activates irrigation only when moisture drops below threshold. Open-loop: timer-based watering regardless of soil conditions — wastes water in rain, underwater in drought. Closed-loop is essential where conditions vary.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Always draw a systems diagram if asked — it clarifies your thinking and earns marks</li>
+<li>Label input, process, output and feedback clearly</li>
+<li>Use the correct flowchart symbols in diagrams</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>D&T Exam Tips:</strong><br>
+For systems questions, always: 1) State whether open or closed loop, 2) Identify input-process-output, 3) If closed loop, describe the feedback mechanism, 4) Explain why the system type is appropriate for the context. This structure covers AO1–AO3.
+</div>
+</section>
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception">
+<h3>Watch Out!</h3>
+<p>Students often make mistakes here. <span class="wrong">Wrong: A closed-loop system is always better than an open-loop system because it has feedback.</span> <span class="right">Correct: Closed-loop systems are more precise but also more complex, expensive and potentially less reliable (more components can fail). Open-loop is appropriate where conditions are predictable and precision is not critical — e.g. a simple nightlight that turns on at dusk needs no feedback. Choose the simplest system that meets the requirements.</span></p>
+</div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Design a closed-loop system for an automatic greenhouse ventilation system. Explain the input, process, output and feedback, and justify why a closed-loop approach is necessary.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>A grade 9 response will: define input (temperature sensor and humidity sensor inside greenhouse), process (microcontroller compares readings with set points — e.g. 25°C and 60% RH), output (motor opens roof vents, fan activates), feedback (continuous sensor monitoring — when temperature drops below set point, vents close, fan stops); explain why closed-loop is needed (external temperature fluctuates, solar gain varies, open-loop timer cannot respond to actual conditions); discuss safety features (vent limit switches, alarm for sensor failure) and energy efficiency (vents use natural convection before activating fans).</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p>AQA D&T 8552: Written exam 50% + NEA 50%. AOs: AO1 Recall (20%), AO2 Apply (30%), AO3 Analyse & evaluate (50%). For grade 9, demonstrate systems thinking by analysing subsystem interactions and evaluating system choices with reference to specific contexts.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/guides/z7yj2nb/revision/4" target="_blank" rel="noopener">BBC Bitesize - Systems Approach</a></li>
+<li><a href="https://www.youtube.com/watch?v=OcL9P0EUdXE" target="_blank" rel="noopener">Open vs Closed Loop Systems (YouTube)</a></li></ul>
+</section>
+<section class="section"><h2>Detailed Notes</h2>
+<h3>Systems Thinking and Block Diagrams</h3>
+<p>The systems approach to designing models complex products as interconnected systems with inputs, processes and outputs. This method simplifies product analysis by breaking down functionality into manageable blocks, each performing a specific transformation. In GCSE D&T, the input-process-output model is fundamental: a sensor detects a condition (input), a microcontroller processes the signal (process), and an actuator responds (output). For example, in an automatic hand dryer, an infrared proximity sensor (input) detects hands, the timer circuit (process) activates for a set duration, and the heating element and motor (output) deliver warm air. UK manufacturer Dyson applies systems thinking rigorously in their product development process.</p>
+<p>Block diagrams represent systems visually, showing how subsystems connect and communicate. Each block represents a functional element with defined inputs and outputs, connected by signal flow arrows. Feedback loops, where the output signal feeds back to influence the input, are crucial for control systems. Negative feedback stabilises a system around a set point (like a thermostat maintaining room temperature), whilst positive feedback amplifies changes (like a microphone howling near a speaker). Understanding feedback is essential for GCSE electronics and control systems questions, and students should be able to identify and explain feedback in familiar products.</p>
+<div class="example"><div class="example-title">Example</div><p>A student analysing a UK central heating system draws a block diagram showing: temperature sensor (input) feeds current room temperature to a comparator (process), which compares it against the thermostat setting. If the room is too cold, the comparator signals the relay (process) to activate the boiler and pump (output). As the room warms, the sensor detects the change, and the comparator switches the boiler off, demonstrating negative feedback control.</p></div>
+<h3>Subsystems and Integration</h3>
+<p>Complex products consist of multiple subsystems that must work together reliably. A modern UK washing machine contains a water heating subsystem, a motor control subsystem, a timing subsystem, a display subsystem and a safety subsystem. Each can be designed and tested independently before integration, which is the core advantage of the systems approach. Interface design between subsystems is critical: voltage levels, signal types (analogue or digital) and communication protocols must be compatible. The I2C and SPI protocols are common standards for connecting microcontrollers to sensors and displays in GCSE project work.</p>
+<p>The BBC Micro:bit exemplifies subsystem integration in UK education. Its accelerometer subsystem provides tilt and motion data, the compass subsystem provides heading information, the radio subsystem enables wireless communication between Micro:bits, and the GPIO subsystem connects external components. Students programming the Micro:bit for GCSE projects learn to manage multiple subsystems simultaneously, using event-driven programming to respond to sensor inputs whilst controlling outputs. Understanding how subsystems share resources (processor time, memory, power) and communicate is a key systems concept that examiners test in extended response questions.</p>
+<div class="example"><div class="example-title">Example</div><p>A student designing a weather station using the BBC Micro:bit integrates four subsystems: a temperature sensor (analogue input via ADC), a wind speed sensor (digital pulse input), a 16x2 LCD display (output via I2C), and a radio link (communication subsystem) to send data to a base station. They design a main program loop that polls each sensor in sequence, processes the data, updates the display and transmits readings every 60 seconds.</p></div>
+<h3>Control Systems and Automation</h3>
+<p>Control systems regulate a process variable to maintain a desired output. Open-loop systems operate without feedback, executing a predetermined sequence regardless of the actual output state. A simple timer-based garden watering system is open-loop: it runs for a set time regardless of soil moisture. Closed-loop systems use feedback to compare the actual output with the desired output, adjusting the process accordingly. Most UK domestic heating systems use closed-loop control with a room thermostat providing feedback. GCSE students must be able to distinguish between open and closed-loop systems and justify the choice for specific applications.</p>
+<p>Programmable logic controllers (PLCs) are industrial computers used in UK manufacturing for automation and control. They are programmed using ladder logic, a graphical language that represents logic operations as switch contacts and coil outputs. The UK food and beverage industry uses PLCs extensively for automated bottling, packaging and quality control. For GCSE purposes, microcontrollers (PIC, Arduino, Micro:bit) serve a similar function on a smaller scale, processing sensor inputs and controlling actuators according to programmed logic. Understanding the principles of control, including set points, comparators and actuators, enables students to design effective automated systems for their NEA projects.</p>
+<div class="example"><div class="example-title">Example</div><p>A student designing an automated greenhouse ventilation system uses a closed-loop control approach: a temperature sensor measures the internal temperature (feedback), a Micro:bit compares this against the desired 22 degrees Celsius set point, and a servo motor opens or closes the roof vent to regulate temperature. They implement proportional control, where the vent opens wider the further the temperature exceeds the set point, providing smoother regulation than simple on/off switching.</p></div>
+</section>
+<section class="section"><h2>Comparison</h2>
+<h3>Control System Type Comparison</h3>
+<table class="comparison-table">
+<thead><tr><th>System Type</th><th>Feedback</th><th>Example</th><th>Advantage</th><th>Limitation</th></tr></thead>
+<tbody>
+<tr><td>Open-loop</td><td>None</td><td>Timer-based watering</td><td>Simple, cheap</td><td>No error correction</td></tr>
+<tr><td>Closed-loop</td><td>Negative</td><td>Central heating thermostat</td><td>Self-correcting, stable</td><td>More complex, costlier</td></tr>
+<tr><td>Bang-bang</td><td>On/off</td><td>Oven thermostat</td><td>Simple implementation</td><td>Oscillation around set point</td></tr>
+<tr><td>Proportional</td><td>Continuous</td><td>Industrial temperature control</td><td>Smooth, precise</td><td>Steady-state error</td></tr>
+<tr><td>Microcontroller</td><td>Programmable</td><td>BBC Micro:bit projects</td><td>Flexible, multifunction</td><td>Requires programming</td></tr>
+<tr><td>PLC</td><td>Industrial</td><td>UK food packaging lines</td><td>Robust, standardised</td><td>Expensive for small scale</td></tr>
+</tbody></table>
+</section>
+<section class="section"><h2>Extended Practice</h2>
+<div class="practice-questions">
+<div class="question"><p><strong>Q1:</strong> Draw a block diagram for an automatic hand dryer, identifying the input sensor, process controller and output actuators. Explain how the system uses feedback to prevent the dryer from running indefinitely, and evaluate whether an open-loop or closed-loop approach is more appropriate for this application.</p></div>
+<div class="question"><p><strong>Q2:</strong> A UK central heating system uses closed-loop control with a room thermostat. Explain how negative feedback maintains the desired temperature, and evaluate the advantages of adding a programmable timer and weather compensation sensor to improve the system's efficiency.</p></div>
+</div>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/dt-core-principles/DT4-systems-approach-to-designing.html&text=Systems Approach to Designing" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/dt-core-principles/DT4-systems-approach-to-designing.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/dt-core-principles/DT4-systems-approach-to-designing.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Systems Approach to Designing%20https://scottrix.github.io/gcserevise/topics/dt-core-principles/DT4-systems-approach-to-designing.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/dt-core-principles/DT4-systems-approach-to-designing.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="DT1-new-and-emerging-technologies.html">New and Emerging Technologies</a></li>
+<li><a href="DT2-energy-generation-and-storage.html">Energy Generation and Storage</a></li>
+<li><a href="DT3-developments-in-new-materials.html">Developments in New Materials</a></li>
+<li><a href="DT5-mechanical-devices.html">Mechanical Devices</a></li>
+<li><a href="DT6-materials-and-their-working-properties.html">Materials and Their Working Properties</a></li>
+<li><a href="DT7-environmental-ecological-and-social-issues.html">Environmental, Ecological and Social Issues</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Design &amp; Technology exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Design+%26+Technology+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Design &amp; Technology Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Design+%26+Technology+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../dt-core-principles/DT3-developments-in-new-materials.html" class="nav-prev">← Previous Topic</a>
+<a href="../dt-core-principles/DT5-mechanical-devices.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Design+and+Technology+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Design and Technology Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Design and Technology revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Systems+Approach+to+Designing+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Systems Approach to Designing Books →</div>
+  <div class="affiliate-card-desc">Browse Systems Approach to Designing books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>

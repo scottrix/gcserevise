@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comparator Circuits - GCSE Electronics</title>
+<meta name="description" content="Learn about comparator circuits including threshold detection, Schmitt triggers and hysteresis for WJEC Eduqas Electronics.">
+<meta name="keywords" content="comparator, threshold, Schmitt trigger, hysteresis, positive feedback, trigger level, upper threshold, lower threshold, noise immunity, switching circuit, GCSE Electronics, WJEC Eduqas C690QS">
+<meta property="og:title" content="Comparator Circuits - GCSE Electronics">
+<meta property="og:description" content="Learn about comparator circuits including threshold detection, Schmitt triggers and hysteresis for WJEC Eduqas Electronics.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/comparator-circuits.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/comparator-circuits.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Comparator Circuits">
+<meta name="twitter:description" content="Learn about comparator circuits including threshold detection, Schmitt triggers and hysteresis for WJEC Eduqas Electronics.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:Explain why a simple comparator can produce a chattering output when the input signal is noisy.", "acceptedAnswer": {"@type": "Answer", "text": "Noise causes the input to cross the single threshold repeatedly, making the output switch rapidly between states."}}, {"@type": "Question", "name": "Q:A Schmitt trigger has V_UT = 4 V and V_LT = 2 V. What is the hysteresis voltage?", "acceptedAnswer": {"@type": "Answer", "text": "V_H = V_UT − V_LT = 4 − 2 = 2 V."}}, {"@type": "Question", "name": "Q:State the role of positive feedback in a Schmitt trigger.", "acceptedAnswer": {"@type": "Answer", "text": "Positive feedback creates two distinct threshold voltages (hysteresis), accelerates switching transitions and eliminates output chatter."}}, {"@type": "Question", "name": "Q:A comparator has V+ = 3.2 V and V− = 3.0 V. What is the output state?", "acceptedAnswer": {"@type": "Answer", "text": "Since V+ > V−, the output is at positive saturation (high)."}}, {"@type": "Question", "name": "Q:Give two applications of comparator circuits.", "acceptedAnswer": {"@type": "Answer", "text": "Level detection (e.g. over-temperature alarm) and zero-crossing detection (e.g. in signal processing or timing circuits)."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../electronics.html">Electronics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../electronics.html">Electronics</a> <span>›</span>
+<span>Analogue Systems</span> <span>›</span>
+<span>Comparator Circuits</span>
+</nav>
+<article class="topic-header">
+<h1>E13: Comparator Circuits</h1>
+<div class="topic-meta">
+<span class="badge">WJEC Eduqas C690QS</span>
+</div>
+<p class="topic-desc">Comparators, threshold detection, Schmitt trigger and hysteresis</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Comparator Circuits</h2>
+<p>Comparators, threshold detection, Schmitt trigger and hysteresis</p>
+<div class="key-point">
+<strong>Key Fact:</strong> A comparator compares two input voltages and switches its output to indicate which is higher; no negative feedback is used.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> When V+ &gt; V−, the output goes to positive saturation; when V+ &lt; V−, the output goes to negative saturation.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A simple comparator has a single threshold voltage; the output switches when the input crosses this level.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Noise on the input signal can cause a simple comparator to chatter (switch rapidly) near the threshold.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A Schmitt trigger uses positive feedback to create two different threshold voltages: upper (V_UT) and lower (V_LT).
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Hysteresis is the difference between the upper and lower thresholds; it prevents output chatter caused by input noise.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The output only switches high when the input rises above V_UT, and only switches low when the input falls below V_LT.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For an inverting Schmitt trigger with reference voltage Vref and feedback resistors R1, R2: V_UT and V_LT depend on the resistor divider and supply rails.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> The hysteresis voltage (V_H) = V_UT − V_LT; a wider hysteresis gives greater noise immunity but less sensitivity.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Positive feedback in a Schmitt trigger accelerates the switching transition, producing a clean, fast output edge.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Comparators are used in level detectors, zero-crossing detectors, window comparators and oscillator circuits.
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> A Schmitt trigger can also be built with a transistor circuit or as a dedicated IC (e.g. 74HC14).
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Comparator Circuits, you must know:</p>
+<ul><li><strong>Comparator:</strong> A circuit that compares two voltages and switches its output to indicate which input is larger.</li>
+<li><strong>Schmitt trigger:</strong> A comparator with positive feedback that introduces hysteresis, having two threshold voltages.</li>
+<li><strong>Hysteresis:</strong> The difference between the upper and lower switching thresholds; prevents noise-induced output chatter.</li>
+<li><strong>Upper threshold (V_UT):</strong> The input voltage at which the output switches from low to high in a Schmitt trigger.</li>
+<li><strong>Lower threshold (V_LT):</strong> The input voltage at which the output switches from high to low in a Schmitt trigger.</li>
+<li><strong>Positive feedback:</strong> Feedback that reinforces the output state, accelerating switching and creating hysteresis.</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> Explain why a simple comparator can produce a chattering output when the input signal is noisy.</p></div>
+<div class="question"><p><strong>Q:</strong> A Schmitt trigger has V_UT = 4 V and V_LT = 2 V. What is the hysteresis voltage?</p></div>
+<div class="question"><p><strong>Q:</strong> State the role of positive feedback in a Schmitt trigger.</p></div>
+<div class="question"><p><strong>Q:</strong> A comparator has V+ = 3.2 V and V− = 3.0 V. What is the output state?</p></div>
+<div class="question"><p><strong>Q:</strong> Give two applications of comparator circuits.</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>Noise causes the input to cross the single threshold repeatedly, making the output switch rapidly between states.</li>
+<li>V_H = V_UT − V_LT = 4 − 2 = 2 V.</li>
+<li>Positive feedback creates two distinct threshold voltages (hysteresis), accelerates switching transitions and eliminates output chatter.</li>
+<li>Since V+ &gt; V−, the output is at positive saturation (high).</li>
+<li>Level detection (e.g. over-temperature alarm) and zero-crossing detection (e.g. in signal processing or timing circuits).</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>When drawing a Schmitt trigger, clearly show the positive feedback resistor from output to non-inverting input.</li>
+<li>Label both threshold voltages (V_UT and V_LT) on the transfer characteristic and state the hysteresis value.</li>
+<li>Explain hysteresis using the analogy: the output &#x27;remembers&#x27; its previous state until the opposite threshold is crossed.</li>
+<li>For calculations, always state the hysteresis formula: V_H = V_UT − V_LT.</li>
+<li>Distinguish between a simple comparator (one threshold) and a Schmitt trigger (two thresholds with hysteresis).</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+  <strong>GCSE Electronics Exam Tips — Comparator Circuits:</strong><br>
+  1. For Comparator Circuits questions, use correct electronic symbols and terminology<br>
+    2. Always show your working in calculations, including units at each step<br>
+    3. When analysing circuits, state which law or rule you are applying first<br>
+    4. For evaluation questions on Comparator Circuits, compare component choices and consider cost, reliability and tolerance<br>
+    5. Draw circuit diagrams neatly with conventional symbols
+</div><h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Confusing positive feedback in a Schmitt trigger with negative feedback.</span> <span class="right">✓ A Schmitt trigger uses positive feedback to create hysteresis; negative feedback would eliminate the switching behaviour.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Assuming a comparator has a single switching threshold like a Schmitt trigger.</span> <span class="right">✓ A simple comparator has one threshold; a Schmitt trigger has two thresholds (V_UT and V_LT) with hysteresis.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that comparator outputs saturate at the supply rail voltages.</span> <span class="right">✓ The output saturates near +Vsat or −Vsat (the supply rails), not at the input voltage level.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking hysteresis reduces sensitivity is always a disadvantage.</span> <span class="right">✓ Greater hysteresis improves noise immunity; the trade-off is reduced sensitivity to small signal changes near the threshold.</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Explain the operation of a Schmitt trigger comparator circuit and describe how hysteresis eliminates output chatter.</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>A Schmitt trigger is a comparator circuit that uses positive feedback to create two distinct threshold voltages: an upper threshold (V_UT) and a lower threshold (V_LT). When the input rises above V_UT, the output switches to its high state and remains high until the input falls below V_LT. Similarly, when the input falls below V_LT, the output switches low and remains low until the input rises above V_UT again. This dual-threshold behaviour creates hysteresis (V_H = V_UT − V_LT), which means the circuit has memory of its previous output state. Hysteresis eliminates output chatter because small noise fluctuations around a single threshold cannot cause repeated switching — the input must move fully through the hysteresis window to change the output state. Positive feedback also accelerates the switching transition, producing clean, fast output edges. The hysteresis width can be adjusted by choosing appropriate feedback resistor values: a wider hysteresis gives greater noise immunity at the cost of reduced sensitivity.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of comparator circuits, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of comparator circuits to analyse, design and construct electronic circuits and systems.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate electronic circuits and systems, making reasoned judgements about design choices, performance and practical considerations, constructing supported arguments.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/electronics" target="_blank" rel="noopener">BBC Bitesize: GCSE Electronics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Electronics+Comparator+Circuits" target="_blank" rel="noopener">YouTube: GCSE Electronics Comparator Circuits</a></li></ul>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/comparator-circuits.html&text=Comparator Circuits" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/comparator-circuits.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/comparator-circuits.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Comparator Circuits%20https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/comparator-circuits.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/elec-analogue-systems/comparator-circuits.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="amplifier-circuits.html">Amplifier Circuits</a></li>
+<li><a href="analogue-signals-filters.html">Analogue Signals &amp;amp; Filters</a></li>
+<li><a href="operational-amplifiers.html">Operational Amplifiers</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Electronics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Electronics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../elec-analogue-systems/amplifier-circuits.html" class="nav-prev">← Previous Topic</a>
+<a href="../elec-analogue-systems/analogue-signals-filters.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Electronics Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Electronics revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+WJEC+Eduqas+C690QS+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE WJEC Eduqas C690QS Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE WJEC Eduqas C690QS revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Comparator+Circuits+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Comparator Circuits Books →</div>
+  <div class="affiliate-card-desc">Browse Comparator Circuits books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sorting Algorithms - GCSE Computer Science</title>
+<meta name="description" content="Learn about bubble sort and merge sort algorithms for GCSE Computer Science. Free revision notes with step-by-step workings.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, algorithms, pseudo-code, flowcharts, searching, sorting, trace tables, computational thinking, learn, about, bubble, merge, computer">
+<meta property="og:title" content="Sorting Algorithms - GCSE Computer Science">
+<meta property="og:description" content="Learn about bubble sort and merge sort algorithms for GCSE Computer Science. Free revision notes with step-by-step workings.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/algorithms/CS4-sorting-algorithms.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/algorithms/CS4-sorting-algorithms.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sorting Algorithms">
+<meta name="twitter:description" content="Learn about bubble sort and merge sort algorithms for GCSE Computer Science. Free revision notes with step-by-step workings.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Show the state of the list [4, 2, 7, 1] after each pass of bubble sort.", "acceptedAnswer": {"@type": "Answer", "text": "Pass 1: Compare 4,2 → swap → [2,4,7,1]. Compare 4,7 → no swap. Compare 7,1 → swap → [2,4,1,7]. Pass 2: Compare 2,4 → no swap. Compare 4,1 → swap → [2,1,4,7]. Pass 3: Compare 2,1 → swap → [1,2,4,7]. Pass 4: No swaps → sorted."}}, {"@type": "Question", "name": "Describe the two phases of merge sort.", "acceptedAnswer": {"@type": "Answer", "text": "Phase 1 (Divide): Split the list recursively into smaller sublists until each sublist contains one element. Phase 2 (Merge): Repeatedly merge pairs of sorted sublists by comparing the first elements and building new sorted lists."}}, {"@type": "Question", "name": "Why is merge sort more efficient than bubble sort for large datasets?", "acceptedAnswer": {"@type": "Answer", "text": "Merge sort has O(n log n) time complexity while bubble sort has O(n²). As n grows large, n² grows much faster than n log n, so bubble sort becomes extremely slow while merge sort remains relatively efficient."}}, {"@type": "Question", "name": "Give one advantage of bubble sort over merge sort.", "acceptedAnswer": {"@type": "Answer", "text": "Bubble sort uses O(1) memory (sorts in place) while merge sort needs O(n) extra memory. Bubble sort is also simpler to implement and understand."}}, {"@type": "Question", "name": "How many comparisons would bubble sort make in the worst case for a list of 50 items?", "acceptedAnswer": {"@type": "Answer", "text": "Worst case: n(n-1)/2 = 50 × 49 / 2 = 1225 comparisons."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Algorithms</span> <span>›</span>
+<span>Sorting Algorithms</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS4: Sorting Algorithms</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">How bubble sort and merge sort work, with step-by-step examples, comparisons, and time complexity analysis.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 What is a Sorting Algorithm?</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A sorting algorithm arranges the elements of a list into a particular order (usually ascending or descending). Sorting makes data easier to search, read, and process.
+</div>
+
+<p>At GCSE, you need to know two sorting algorithms:</p>
+<ul>
+<li><strong>Bubble sort</strong> - repeatedly swaps adjacent elements that are in the wrong order</li>
+<li><strong>Merge sort</strong> - divides the list, sorts sublists, then merges them back together</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔵 Bubble Sort</h2>
+
+<div class="key-point">
+<strong>Bubble sort</strong> works by repeatedly stepping through the list, comparing each pair of adjacent items, and swapping them if they are in the wrong order. After each pass, the largest unsorted element "bubbles up" to its correct position at the end of the list.
+</div>
+
+<h3>Algorithm in Pseudo-code</h3>
+<div class="example">
+<div class="example-title">Bubble Sort Pseudo-code</div>
+<pre>PROCEDURE bubbleSort(list)
+    n ← LENGTH(list)
+    swapped ← TRUE
+    WHILE swapped
+        swapped ← FALSE
+        FOR i ← 0 TO n - 2
+            IF list[i] > list[i + 1] THEN
+                temp ← list[i]
+                list[i] ← list[i + 1]
+                list[i + 1] ← temp
+                swapped ← TRUE
+            ENDIF
+        NEXT i
+        n ← n - 1
+    ENDWHILE
+ENDPROCEDURE</pre>
+</div>
+
+<h3>Step-by-Step Worked Example</h3>
+<div class="example">
+<div class="example-title">Sorting [5, 3, 8, 1, 2] using bubble sort</div>
+
+<p><strong>Pass 1:</strong></p>
+<table class="comparison-table">
+<tr><th>Comparison</th><th>Pair</th><th>Action</th><th>List State</th></tr>
+<tr><td>1</td><td>5, 3</td><td>5 > 3 → Swap</td><td>[3, <strong>5</strong>, 8, 1, 2]</td></tr>
+<tr><td>2</td><td>5, 8</td><td>5 < 8 → No swap</td><td>[3, 5, 8, 1, 2]</td></tr>
+<tr><td>3</td><td>8, 1</td><td>8 > 1 → Swap</td><td>[3, 5, <strong>1</strong>, <strong>8</strong>, 2]</td></tr>
+<tr><td>4</td><td>8, 2</td><td>8 > 2 → Swap</td><td>[3, 5, 1, <strong>2</strong>, <strong>8</strong>]</td></tr>
+</table>
+<p>8 is now in its correct position. Swapped = TRUE.</p>
+
+<p><strong>Pass 2:</strong></p>
+<table class="comparison-table">
+<tr><th>Comparison</th><th>Pair</th><th>Action</th><th>List State</th></tr>
+<tr><td>1</td><td>3, 5</td><td>3 < 5 → No swap</td><td>[3, 5, 1, 2, 8]</td></tr>
+<tr><td>2</td><td>5, 1</td><td>5 > 1 → Swap</td><td>[3, <strong>1</strong>, <strong>5</strong>, 2, 8]</td></tr>
+<tr><td>3</td><td>5, 2</td><td>5 > 2 → Swap</td><td>[3, 1, <strong>2</strong>, <strong>5</strong>, 8]</td></tr>
+</table>
+<p>5 is now in its correct position. Swapped = TRUE.</p>
+
+<p><strong>Pass 3:</strong></p>
+<table class="comparison-table">
+<tr><th>Comparison</th><th>Pair</th><th>Action</th><th>List State</th></tr>
+<tr><td>1</td><td>3, 1</td><td>3 > 1 → Swap</td><td>[<strong>1</strong>, <strong>3</strong>, 2, 5, 8]</td></tr>
+<tr><td>2</td><td>3, 2</td><td>3 > 2 → Swap</td><td>[1, <strong>2</strong>, <strong>3</strong>, 5, 8]</td></tr>
+</table>
+<p>Swapped = TRUE.</p>
+
+<p><strong>Pass 4:</strong></p>
+<table class="comparison-table">
+<tr><th>Comparison</th><th>Pair</th><th>Action</th><th>List State</th></tr>
+<tr><td>1</td><td>1, 2</td><td>1 < 2 → No swap</td><td>[1, 2, 3, 5, 8]</td></tr>
+</table>
+<p>Swapped = FALSE → Sort complete!</p>
+
+<p><strong>Final result:</strong> [1, 2, 3, 5, 8]</p>
+</div>
+
+<div class="formula-box">
+<strong>Bubble Sort Performance:</strong><br>
+Worst case comparisons: n(n-1)/2 ≈ O(n²)<br>
+Best case (already sorted): O(n) - one pass with no swaps<br>
+Average case: O(n²)<br>
+Memory: O(1) - sorts in place, no extra memory needed
+</div>
+</section>
+
+<section class="section">
+<h2>🟢 Merge Sort</h2>
+
+<div class="key-point">
+<strong>Merge sort</strong> uses a "divide and conquer" approach. It splits the list into individual elements, then repeatedly merges pairs of sorted sublists until the whole list is recombined in order.
+</div>
+
+<h3>Algorithm in Pseudo-code</h3>
+<div class="example">
+<div class="example-title">Merge Sort Pseudo-code</div>
+<pre>PROCEDURE mergeSort(list)
+    IF LENGTH(list) <= 1 THEN
+        RETURN list
+    ENDIF
+    mid ← LENGTH(list) DIV 2
+    leftHalf ← mergeSort(list[0:mid])
+    rightHalf ← mergeSort(list[mid:LENGTH(list)])
+    RETURN merge(leftHalf, rightHalf)
+ENDPROCEDURE
+
+PROCEDURE merge(left, right)
+    result ← []
+    WHILE LENGTH(left) > 0 AND LENGTH(right) > 0
+        IF left[0] <= right[0] THEN
+            APPEND left[0] TO result
+            REMOVE left[0] FROM left
+        ELSE
+            APPEND right[0] TO result
+            REMOVE right[0] FROM right
+        ENDIF
+    ENDWHILE
+    APPEND remaining items FROM left TO result
+    APPEND remaining items FROM right TO result
+    RETURN result
+ENDPROCEDURE</pre>
+</div>
+
+<h3>Step-by-Step Worked Example</h3>
+<div class="example">
+<div class="example-title">Sorting [5, 3, 8, 1] using merge sort</div>
+
+<p><strong>Phase 1: Divide</strong></p>
+<pre>[5, 3, 8, 1]
+    /        \
+ [5, 3]     [8, 1]
+  /   \      /   \
+[5]  [3]   [8]  [1]</pre>
+
+<p><strong>Phase 2: Merge</strong></p>
+<pre>Merge [5] and [3] → 3 < 5 → [3, 5]
+Merge [8] and [1] → 1 < 8 → [1, 8]
+Merge [3, 5] and [1, 8]:
+  Compare 3 and 1 → 1 → [1]
+  Compare 3 and 8 → 3 → [1, 3]
+  Compare 5 and 8 → 5 → [1, 3, 5]
+  Remaining: [8]  → [1, 3, 5, 8]</pre>
+
+<p><strong>Final result:</strong> [1, 3, 5, 8]</p>
+</div>
+
+<div class="formula-box">
+<strong>Merge Sort Performance:</strong><br>
+All cases: O(n log n)<br>
+The divide step creates log n levels<br>
+Each level requires n comparisons during merging<br>
+Memory: O(n) - needs extra space for temporary arrays
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ Comparing Bubble Sort and Merge Sort</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Bubble Sort</th>
+<th>Merge Sort</th>
+</tr>
+<tr>
+<td>Approach</td>
+<td>Repeatedly swap adjacent items</td>
+<td>Divide and conquer, then merge</td>
+</tr>
+<tr>
+<td>Best case</td>
+<td>O(n)</td>
+<td>O(n log n)</td>
+</tr>
+<tr>
+<td>Average case</td>
+<td>O(n²)</td>
+<td>O(n log n)</td>
+</tr>
+<tr>
+<td>Worst case</td>
+<td>O(n²)</td>
+<td>O(n log n)</td>
+</tr>
+<tr>
+<td>Memory usage</td>
+<td>O(1) - in place</td>
+<td>O(n) - needs extra space</td>
+</tr>
+<tr>
+<td>Implementation</td>
+<td>Simple to understand and code</td>
+<td>More complex, uses recursion</td>
+</tr>
+<tr>
+<td>Stable sort</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Good for small lists</td>
+<td>Yes - simple and adequate</td>
+<td>Overkill - overhead of recursion</td>
+</tr>
+<tr>
+<td>Good for large lists</td>
+<td>No - very slow</td>
+<td>Yes - much more efficient</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📊 Efficiency Comparison with Numbers</h2>
+
+<div class="example">
+<div class="example-title">How many comparisons for different list sizes?</div>
+<table class="comparison-table">
+<tr><th>List Size (n)</th><th>Bubble Sort (n²)</th><th>Merge Sort (n log n)</th><th>Ratio</th></tr>
+<tr><td>10</td><td>100</td><td>33</td><td>3x</td></tr>
+<tr><td>100</td><td>10,000</td><td>664</td><td>15x</td></tr>
+<tr><td>1,000</td><td>1,000,000</td><td>9,966</td><td>100x</td></tr>
+<tr><td>10,000</td><td>100,000,000</td><td>132,877</td><td>753x</td></tr>
+</table>
+<p>As the list grows, merge sort becomes dramatically faster than bubble sort.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Stopping bubble sort after n-1 passes always</td>
+<td>You can stop early if no swaps occurred in a pass</td>
+<td>Use a 'swapped' flag to detect when sorted</td>
+</tr>
+<tr>
+<td>Forgetting to reduce n in bubble sort</td>
+<td>The last elements are already sorted after each pass</td>
+<td>After each pass, the next pass has one fewer comparison</td>
+</tr>
+<tr>
+<td>Not handling the "remaining items" in merge</td>
+<td>One sublist may still have items left</td>
+<td>Append all remaining items from both sublists</td>
+</tr>
+<tr>
+<td>Saying merge sort is always better</td>
+<td>Bubble sort uses less memory and is simpler for small lists</td>
+<td>Consider the context: list size, memory constraints</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Show the state of the list [4, 2, 7, 1] after each pass of bubble sort.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Describe the two phases of merge sort.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Why is merge sort more efficient than bubble sort for large datasets?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Give one advantage of bubble sort over merge sort.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> How many comparisons would bubble sort make in the worst case for a list of 50 items?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Pass 1: Compare 4,2 → swap → [2,4,7,1]. Compare 4,7 → no swap. Compare 7,1 → swap → [2,4,1,7]. Pass 2: Compare 2,4 → no swap. Compare 4,1 → swap → [2,1,4,7]. Pass 3: Compare 2,1 → swap → [1,2,4,7]. Pass 4: No swaps → sorted.</li>
+<li>Phase 1 (Divide): Split the list recursively into smaller sublists until each sublist contains one element. Phase 2 (Merge): Repeatedly merge pairs of sorted sublists by comparing the first elements and building new sorted lists.</li>
+<li>Merge sort has O(n log n) time complexity while bubble sort has O(n²). As n grows large, n² grows much faster than n log n, so bubble sort becomes extremely slow while merge sort remains relatively efficient.</li>
+<li>Bubble sort uses O(1) memory (sorts in place) while merge sort needs O(n) extra memory. Bubble sort is also simpler to implement and understand.</li>
+<li>Worst case: n(n-1)/2 = 50 × 49 / 2 = 1225 comparisons.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Practise showing bubble sort step-by-step with a table showing each comparison and swap</li>
+<li>For merge sort, draw the divide tree and show each merge step</li>
+<li>Remember: bubble sort can stop early if a pass has no swaps</li>
+<li>When comparing, always mention time complexity: O(n²) vs O(n log n)</li>
+<li>Don't forget memory: bubble sort is in-place, merge sort needs extra space</li>
+<li>In the exam, show ALL your working - you get marks for each step, not just the final answer</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking bubble sort is the most efficient sorting algorithm</span> <span class="right">✓ Bubble sort has O(n²) time complexity, making it inefficient for large datasets. Merge sort (O(n log n)) is more efficient for large amounts of data.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing the pass logic in bubble sort — thinking one pass fully sorts the list</span> <span class="right">✓ One pass of bubble sort moves the largest unsorted element to its correct position; it takes n-1 passes to fully sort a list of n elements.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing merge sort requires no extra memory</span> <span class="right">✓ Merge sort requires additional memory to merge sub-lists (O(n) space complexity), unlike bubble sort which sorts in-place.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking insertion sort is always O(n²)</span> <span class="right">✓ Insertion sort is O(n²) in the worst and average cases, but O(n) in the best case when the data is already nearly sorted.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>A school stores 2000 student records that need to be sorted by surname. Compare bubble sort and merge sort for this task, explaining which is more suitable and why. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Bubble sort has O(n²) time complexity. For 2000 records, this means up to approximately 4,000,000 comparisons in the worst case. It sorts in-place, so uses minimal extra memory.
+
+Merge sort has O(n log n) time complexity. For 2000 records, this means approximately 2000 × 11 = 22,000 comparisons, which is far fewer. However, it requires O(n) extra memory for merging.
+
+Merge sort is more suitable because 2000 records is a large dataset where the difference between O(n²) and O(n log n) is significant. The faster sorting time outweighs the extra memory cost on modern systems. Bubble sort would be impractically slow for this volume of data.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including sorting algorithms: bubble sort and merge sort for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including sorting algorithms: bubble sort and merge sort to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including sorting algorithms: bubble sort and merge sort, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+When comparing sorting algorithms, always give the time complexity of each and explain what it means for the given dataset size. Mention trade-offs: bubble sort is simple and in-place but slow; merge sort is fast but uses extra memory. For bubble sort questions, describe how each pass works and that n-1 passes are needed. Show the comparison count for a specific n to illustrate efficiency differences.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/zjsg87h" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Sorting+Algorithms+Bubble+Merge+Insertion" target="_blank" rel="noopener">YouTube: GCSE Computer Science Sorting Algorithms Bubble Merge Insertion</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/algorithms/CS4-sorting-algorithms.html&text=Sorting Algorithms" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/algorithms/CS4-sorting-algorithms.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/algorithms/CS4-sorting-algorithms.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Sorting Algorithms%20https://scottrix.github.io/gcserevise/topics/algorithms/CS4-sorting-algorithms.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/algorithms/CS4-sorting-algorithms.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS1-representing-algorithms.html">Representing Algorithms</a></li>
+<li><a href="CS2-efficiency-algorithms.html">Efficiency of Algorithms</a></li>
+<li><a href="CS3-searching-algorithms.html">Searching Algorithms</a></li>
+<li><a href="CS5-trace-tables.html">Trace Tables</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="CS3-searching-algorithms.html" class="nav-prev">← Previous: Searching Algorithms</a>
+<a href="CS5-trace-tables.html" class="nav-next">Next Topic: Trace Tables →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Sorting+Algorithms+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Sorting Algorithms Books →</div>
+  <div class="affiliate-card-desc">Browse Sorting Algorithms books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

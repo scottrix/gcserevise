@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fairness & Randomness - GCSE Maths Revision</title>
+<meta name="description" content="Understand probability sums to 1, randomness, fairness and equally likely events. Free GCSE Maths revision.">
+<meta name="keywords" content="GCSE Maths, GCSE revision, free revision notes, probability, combined events, tree diagrams, Venn diagrams, conditional probability, relative frequency, Fairness, Randomness, understand, equally, likely, events">
+<meta property="og:title" content="Fairness & Randomness - GCSE Maths">
+<meta property="og:description" content="Understand probability sums to 1, randomness, fairness and equally likely events. Free GCSE Maths revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/probability/P2-fairness-randomness.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/probability/P2-fairness-randomness.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Fairness &amp; Randomness">
+<meta name="twitter:description" content="Understand probability sums to 1, randomness, fairness and equally likely events. Free GCSE Maths revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "A fair 8-sided dice is rolled. What is P(5)?", "acceptedAnswer": {"@type": "Answer", "text": "1/8 (each of 8 outcomes equally likely)"}}, {"@type": "Question", "name": "A bag has red, blue and yellow balls. P(red) = 0.5 and P(blue) = 0.3. Find P(yellow).", "acceptedAnswer": {"@type": "Answer", "text": "1 - (0.5 + 0.3) = 1 - 0.8 = 0.2"}}, {"@type": "Question", "name": "A biased coin has P(Heads) = 0.7. What is P(Tails)?", "acceptedAnswer": {"@type": "Answer", "text": "1 - 0.7 = 0.3"}}, {"@type": "Question", "name": "A spinner has 4 sections: A, B, C, D. P(A) = 0.25, P(B) = 0.25, P(C) = 0.25. Is this a fair spinner?", "acceptedAnswer": {"@type": "Answer", "text": "Yes - P(D) = 1 - 0.75 = 0.25, all probabilities are equal"}}, {"@type": "Question", "name": "A biased dice has P(6) = 0.4. P(1) = P(2) = P(3) = P(4) = P(5). Find P(1).", "acceptedAnswer": {"@type": "Answer", "text": "5x + 0.4 = 1, so 5x = 0.6, x = 0.12"}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Probability</a> <span>›</span>
+<span>Fairness & Randomness</span>
+</nav>
+
+<article class="topic-header">
+<h1>P2: Fairness & Randomness</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Understand that the probabilities of all possible outcomes sum to 1; randomness, fairness, equally likely events</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<div class="key-point">
+<strong>Key Rule:</strong> The probabilities of all possible outcomes of an experiment always add up to 1. This is because one of the outcomes must happen.
+</div>
+
+<h3>Key Terms</h3>
+<table class="comparison-table">
+<tr><th>Term</th><th>Definition</th></tr>
+<tr><td>Random</td><td>An outcome that cannot be predicted with certainty before it happens</td></tr>
+<tr><td>Fair</td><td>All outcomes are equally likely; no bias</td></tr>
+<tr><td>Equally Likely</td><td>Each outcome has the same probability</td></tr>
+<tr><td>Bias</td><td>A systematic favouring of certain outcomes</td></tr>
+</table>
+
+<div class="formula-box">
+<strong>Probability Sum Rule:</strong><br>
+P(Outcome₁) + P(Outcome₂) + ... + P(Outcomeₙ) = 1
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Fair Experiments</h2>
+
+<div class="key-point">
+<strong>Fair dice/coin/spinner:</strong> Each outcome has equal probability. A fair dice has P(each number) = 1/6. A fair coin has P(Heads) = P(Tails) = 1/2.
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>A fair 6-sided dice is rolled. What is the probability of each outcome?</p>
+<p><strong>Solution:</strong></p>
+<p>There are 6 equally likely outcomes: 1, 2, 3, 4, 5, 6</p>
+<p>P(1) = P(2) = P(3) = P(4) = P(5) = P(6) = 1/6</p>
+<p><strong>Check:</strong> 1/6 + 1/6 + 1/6 + 1/6 + 1/6 + 1/6 = 6/6 = 1 ✓</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>A fair coin is flipped. Prove the probabilities sum to 1.</p>
+<p><strong>Solution:</strong></p>
+<p>P(Heads) = 1/2 and P(Tails) = 1/2</p>
+<p>P(Heads) + P(Tails) = 1/2 + 1/2 = 1 ✓</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Biased Experiments</h2>
+
+<div class="key-point">
+<strong>Bias:</strong> When outcomes are NOT equally likely. Some results are more likely than others. The probabilities still sum to 1.
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>A biased dice has P(6) = 0.3. All other outcomes are equally likely. Find the probability of rolling a 1.</p>
+<p><strong>Solution:</strong></p>
+<p>P(1) + P(2) + P(3) + P(4) + P(5) + P(6) = 1</p>
+<p>Let P(1) = P(2) = P(3) = P(4) = P(5) = x</p>
+<p>5x + 0.3 = 1</p>
+<p>5x = 0.7</p>
+<p>x = 0.14</p>
+<p><strong>P(1) = 0.14</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Using Probability Sum to 1</h2>
+
+<div class="key-point">
+<strong>Method:</strong> If you know some probabilities, subtract from 1 to find the remaining probability.
+</div>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>A bag contains red, blue and green counters. P(red) = 0.4 and P(blue) = 0.35. Find P(green).</p>
+<p><strong>Solution:</strong></p>
+<p>P(red) + P(blue) + P(green) = 1</p>
+<p>0.4 + 0.35 + P(green) = 1</p>
+<p>0.75 + P(green) = 1</p>
+<p><strong>P(green) = 1 - 0.75 = 0.25</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>A spinner has 5 sections. P(A) = 2/5, P(B) = 1/10, P(C) = 3/10. Find P(D).</p>
+<p><strong>Solution:</strong></p>
+<p>P(D) = 1 - (2/5 + 1/10 + 3/10)</p>
+<p>= 1 - (4/10 + 1/10 + 3/10)</p>
+<p>= 1 - 8/10</p>
+<p>= 2/10 = <strong>1/5</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Randomness</h2>
+
+<div class="key-point">
+<strong>Random:</strong> Each trial is unpredictable, but over many trials patterns emerge that match theoretical probability.
+</div>
+
+<div class="example">
+<div class="example-title">Example 6</div>
+<p>Is rolling a dice truly random? Explain your answer.</p>
+<p><strong>Answer:</strong> A fair dice roll is considered random because:</p>
+<ul>
+<li>We cannot predict the exact outcome before rolling</li>
+<li>Each number is equally likely (assuming a fair dice)</li>
+<li>Previous rolls don't affect future rolls (independent events)</li>
+</ul>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> A fair 8-sided dice is rolled. What is P(5)?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> A bag has red, blue and yellow balls. P(red) = 0.5 and P(blue) = 0.3. Find P(yellow).</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> A biased coin has P(Heads) = 0.7. What is P(Tails)?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> A spinner has 4 sections: A, B, C, D. P(A) = 0.25, P(B) = 0.25, P(C) = 0.25. Is this a fair spinner?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> A biased dice has P(6) = 0.4. P(1) = P(2) = P(3) = P(4) = P(5). Find P(1).</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>1/8 (each of 8 outcomes equally likely)</li>
+<li>1 - (0.5 + 0.3) = 1 - 0.8 = 0.2</li>
+<li>1 - 0.7 = 0.3</li>
+<li>Yes - P(D) = 1 - 0.75 = 0.25, all probabilities are equal</li>
+<li>5x + 0.4 = 1, so 5x = 0.6, x = 0.12</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always check probabilities sum to 1 after calculating</li>
+<li>"Equally likely" means all probabilities are the same</li>
+<li>Fair = equally likely; biased = not equally likely</li>
+<li>If asked if something is fair, compare all probabilities</li>
+<li>Use algebra (like x) for unknown equal probabilities</li>
+</ul>
+</section>
+
+<section class="section"><h2>🧠 Problem-Solving Strategies</h2><div class="maths-skill"><h3>Problem-Solving</h3><div class="key-point">When probabilities must sum to 1: (1) List all possible outcomes first, (2) Assign known probabilities, (3) Let x = unknown equal probabilities, (4) Set up equation: sum of all probabilities = 1, (5) Solve for x and check your answer is between 0 and 1.</div><div class="example"><div class="example-title">Multi-Step Problem</div><p>A biased 5-section spinner has P(A) = 0.35 and P(B) = 0.35. P(C), P(D) and P(E) are all equal. Find P(C) and state whether the spinner is fair.</p><p><strong>Solution:</strong> Let P(C) = P(D) = P(E) = x. Then 0.35 + 0.35 + 3x = 1, so 3x = 0.3, giving x = 0.1. Since P(C) = 0.1 ≠ P(A) = 0.35, the outcomes are not equally likely, so the spinner is <strong>not fair</strong>.</p></div></div></section>
+
+<section class="section"><h2>⚠️ Common Errors</h2><div class="misconception"><h3>Watch Out!</h3><p>1. <span class="wrong">Wrong: Saying P(A') = P(A) when P(A) is not 0.5</span> <span class="right">Correct: P(A') = 1 − P(A) — the complement is found by subtracting from 1</span></p><p>2. <span class="wrong">Wrong: Assuming a spinner is fair just because it has equal-sized sections</span> <span class="right">Correct: Fair means equally likely outcomes — you must verify probabilities, not just appearance</span></p><p>3. <span class="wrong">Wrong: Forgetting to check that all probabilities sum to 1 after calculating</span> <span class="right">Correct: Always verify P(all outcomes) = 1 as a check — if not, recalculate</span></p></div></section>
+
+<section class="section"><h2>✍️ 6-Mark Exam Question</h2><div class="extended-question"><h3>Extended Answer</h3><p><strong>6 marks:</strong> A biased 4-sided spinner labelled A, B, C, D is spun. P(A) = 2 × P(B). P(C) = P(D) = 0.15. P(A) is twice the probability of B. Find P(A) and P(B), and explain whether the spinner is biased.</p><button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button><div class="model-answer"><p>Let P(B) = x, then P(A) = 2x.</p><p>P(A) + P(B) + P(C) + P(D) = 1</p><p>2x + x + 0.15 + 0.15 = 1</p><p>3x + 0.3 = 1</p><p>3x = 0.7</p><p>x = 0.7/3 ≈ 0.233</p><p>So P(B) ≈ 0.233 and P(A) ≈ 0.467.</p><p>The spinner is biased because the probabilities are not equal (P(A) ≠ P(B) ≠ P(C) ≠ P(D)).</p><p><em>Mark scheme: M1 for letting P(B)=x and P(A)=2x, M1 for correct equation, M1 for solving 3x=0.7, A1 for P(B)≈0.233 and P(A)≈0.467, M1 for comparing probabilities, A1 for stating biased with reason</em></p></div></div></section>
+
+<section class="section"><h2>📊 AO3: Reason &amp; Interpret</h2><div class="ao3-section"><h3>Reasoning and Interpretation</h3><p>A game uses a spinner with three outcomes: Win, Lose, and Draw. P(Win) = 0.2 and P(Lose) = 0.5.</p><p><strong>(a)</strong> Find P(Draw).</p><p><strong>(b)</strong> The game costs £1 to play. You win £3 if you win, £0 if you lose, and get your £1 back if you draw. Is the game fair? Show your working.</p><p><strong>(c)</strong> The spinner is tested 500 times and "Draw" occurs 120 times. Does this support the claimed P(Draw)? Explain.</p><div class="key-point"><strong>Answers:</strong> (a) P(Draw) = 1 − 0.2 − 0.5 = 0.3 (b) Expected value = 0.2×(3−1) + 0.5×(−1) + 0.3×0 = 0.4 − 0.5 + 0 = −0.1. Not fair — you lose 10p per game on average. (c) Experimental P(Draw) = 120/500 = 0.24. This is close to 0.3 but 500 trials is a reasonable sample — the difference may suggest the spinner is not exactly as claimed, or it could be natural variation.</div></div></section>
+
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul>
+      <li><a href="https://www.bbc.co.uk/bitesize/topics/zpqtk7h" target="_blank" rel="noopener">BBC Bitesize</a></li>
+      <li><a href="https://www.youtube.com/c/corbettmaths/videos" target="_blank" rel="noopener">Corbettmaths</a></li>
+      <li><a href="https://www.youtube.com/@TheGCSEMathsTutor" target="_blank" rel="noopener">The GCSE Maths Tutor</a></li>
+    </ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/probability/P2-fairness-randomness.html&text=Fairness &amp; Randomness" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/probability/P2-fairness-randomness.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/probability/P2-fairness-randomness.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Fairness &amp; Randomness%20https://scottrix.github.io/gcserevise/topics/probability/P2-fairness-randomness.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/probability/P2-fairness-randomness.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="P1-recording-outcomes.html">Recording Outcomes</a></li>
+<li><a href="P3-probability-scale.html">Probability Scale</a></li>
+<li><a href="P4-mutually-exclusive.html">Mutually Exclusive Events</a></li>
+<li><a href="P5-experimental-theoretical.html">Experimental vs Theoretical</a></li>
+<li><a href="P6-systematic-listing.html">Systematic Listing</a></li>
+<li><a href="P7-possibility-spaces.html">Possibility Spaces</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Mathematics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Mathematics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="P1-recording-outcomes.html" class="nav-prev">← Previous: Recording Outcomes</a>
+<a href="P3-probability-scale.html" class="nav-next">Next Topic: Probability Scale →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Maths+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Maths Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Maths revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Fairness+%26+Randomness+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Fairness & Randomness Books →</div>
+  <div class="affiliate-card-desc">Browse Fairness & Randomness books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

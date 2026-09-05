@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programming Constructs - GCSE Computer Science</title>
+<meta name="description" content="Learn about variables, constants, sequence, selection and iteration for GCSE Computer Science. Free revision notes.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, programming, data types, constructs, boolean, subroutines, robust programming, input output, learn, about, variables, constants, sequence">
+<meta property="og:title" content="Programming Constructs - GCSE Computer Science">
+<meta property="og:description" content="Learn about variables, constants, sequence, selection and iteration for GCSE Computer Science. Free revision notes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/programming/CS7-programming-constructs.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/programming/CS7-programming-constructs.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Programming Constructs">
+<meta name="twitter:description" content="Learn about variables, constants, sequence, selection and iteration for GCSE Computer Science. Free revision notes.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain the difference between a variable and a constant.", "acceptedAnswer": {"@type": "Answer", "text": "A variable is a named memory location whose value can change during execution. A constant is a named value that cannot be changed once set. Constants prevent accidental changes and make code more readable."}}, {"@type": "Question", "name": "Write pseudo-code that asks for a number and outputs \"Positive\", \"Negative\", or \"Zero\" using selection.", "acceptedAnswer": {"@type": "Answer", "text": "INPUT number\nIF number > 0 THEN\n    OUTPUT \"Positive\"\nELSEIF number < 0 THEN\n    OUTPUT \"Negative\"\nELSE\n    OUTPUT \"Zero\"\nENDIF"}}, {"@type": "Question", "name": "When would you use a REPEAT...UNTIL loop instead of a WHILE loop?", "acceptedAnswer": {"@type": "Answer", "text": "Use REPEAT...UNTIL when the loop body must execute at least once (e.g. input validation). Use WHILE when the loop may need to execute zero times (e.g. searching a list that might be empty)."}}, {"@type": "Question", "name": "Write pseudo-code using a FOR loop to output all multiples of 3 from 3 to 30.", "acceptedAnswer": {"@type": "Answer", "text": "FOR i ← 3 TO 30 STEP 3\n    OUTPUT i\nNEXT i"}}, {"@type": "Question", "name": "Write pseudo-code that keeps asking for a password until the user enters \"open123\", then outputs \"Welcome\".", "acceptedAnswer": {"@type": "Answer", "text": "password ← \"\"\nWHILE password <> \"open123\"\n    INPUT \"Enter password: \", password\nENDWHILE\nOUTPUT \"Welcome\""}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Programming</span> <span>›</span>
+<span>Programming Constructs</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS7: Programming Constructs</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Understanding variables, constants, sequence, selection (IF/CASE), and iteration (FOR/WHILE/REPEAT) - the building blocks of all programs.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📦 Variables and Constants</h2>
+
+<div class="key-point">
+<strong>Variable:</strong> A named storage location in memory whose value can change during program execution. <strong>Constant:</strong> A named value that cannot be changed once it has been set.
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>Variable</th>
+<th>Constant</th>
+</tr>
+<tr>
+<td>Value can change?</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>When to use</td>
+<td>Values that need updating (score, counter)</td>
+<td>Fixed values (PI, tax rate, max attempts)</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>score &larr; 0, then score &larr; score + 1</td>
+<td>CONST PI &larr; 3.14159</td>
+</tr>
+<tr>
+<td>Advantage</td>
+<td>Flexible - can be updated</td>
+<td>Prevents accidental changes, makes code readable</td>
+</tr>
+</table>
+
+<div class="example">
+<div class="example-title">Variables vs Constants</div>
+<pre>CONST VAT_RATE &larr; 0.20        // Constant - won't change
+CONST MAX_SCORE &larr; 100        // Constant - won't change
+score &larr; 0                    // Variable - will change
+name &larr; ""                    // Variable - will change
+
+score &larr; score + 10          // OK - variable can change
+// VAT_RATE &larr; 0.25          // ERROR - constant cannot change</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Assignment</h2>
+
+<div class="key-point">
+<strong>Assignment</strong> means storing a value in a variable. The variable name goes on the left, the value or expression goes on the right. The previous value is overwritten.
+</div>
+
+<div class="example">
+<div class="example-title">Assignment Examples</div>
+<pre>age &larr; 16                    // Assign the value 16
+name &larr; "Bob"               // Assign the string "Bob"
+total &larr; price * quantity   // Assign the result of an expression
+counter &larr; counter + 1     // Increment: add 1 to current value</pre>
+</div>
+
+<div class="formula-box">
+<strong>Key Rule:</strong> Assignment is NOT the same as mathematical equality.<br>
+counter &larr; counter + 1 means "take the current value of counter, add 1, and store the result back in counter". In maths, x = x + 1 has no solution!
+</div>
+</section>
+
+<section class="section">
+<h2>➡️ Sequence</h2>
+
+<div class="key-point">
+<strong>Sequence</strong> means executing instructions one after another in order, from top to bottom. This is the simplest programming construct - every program uses sequence.
+</div>
+
+<div class="example">
+<div class="example-title">Sequence Example</div>
+<pre>INPUT "Enter length: ", length
+INPUT "Enter width: ", width
+area &larr; length * width
+OUTPUT "Area = ", area</pre>
+<p>Each line executes in order: input, input, calculate, output. No decisions, no repetition.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🔀 Selection</h2>
+
+<div class="key-point">
+<strong>Selection</strong> allows a program to choose between different paths based on a condition. The three forms are: IF...THEN, IF...THEN...ELSE, and CASE/SWITCH.
+</div>
+
+<h3>IF...THEN</h3>
+<div class="example">
+<div class="example-title">Simple IF</div>
+<pre>IF temperature > 30 THEN
+    OUTPUT "It is hot today"
+ENDIF</pre>
+<p>The body only executes if the condition is TRUE.</p>
+</div>
+
+<h3>IF...THEN...ELSE</h3>
+<div class="example">
+<div class="example-title">IF with ELSE</div>
+<pre>IF age >= 17 THEN
+    OUTPUT "You can learn to drive"
+ELSE
+    OUTPUT "You cannot learn to drive yet"
+ENDIF</pre>
+<p>One path if TRUE, another path if FALSE.</p>
+</div>
+
+<h3>ELSEIF for Multiple Conditions</h3>
+<div class="example">
+<div class="example-title">ELSEIF Chain</div>
+<pre>IF grade >= 90 THEN
+    OUTPUT "A*"
+ELSEIF grade >= 80 THEN
+    OUTPUT "A"
+ELSEIF grade >= 70 THEN
+    OUTPUT "B"
+ELSEIF grade >= 60 THEN
+    OUTPUT "C"
+ELSE
+    OUTPUT "Below C"
+ENDIF</pre>
+</div>
+
+<h3>CASE / SWITCH</h3>
+<div class="example">
+<div class="example-title">CASE Statement</div>
+<pre>CASE OF day
+    1 : OUTPUT "Monday"
+    2 : OUTPUT "Tuesday"
+    3 : OUTPUT "Wednesday"
+    4 : OUTPUT "Thursday"
+    5 : OUTPUT "Friday"
+    OTHERWISE : OUTPUT "Weekend"
+ENDCASE</pre>
+<p>Use CASE when checking a single variable against several specific values.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>IF...ELSE</th>
+<th>CASE</th>
+</tr>
+<tr>
+<td>Best for</td>
+<td>Range checks, complex conditions</td>
+<td>Checking specific values of one variable</td>
+</tr>
+<tr>
+<td>Conditions</td>
+<td>Can combine multiple variables</td>
+<td>One variable only</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>IF age >= 18 AND hasID THEN</td>
+<td>CASE OF menuChoice</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🔄 Iteration</h2>
+
+<div class="key-point">
+<strong>Iteration</strong> means repeating a block of code. There are three types: count-controlled (FOR), condition-controlled (WHILE), and post-condition (REPEAT...UNTIL).
+</div>
+
+<h3>FOR Loop (Count-Controlled)</h3>
+<div class="example">
+<div class="example-title">FOR Loop</div>
+<pre>FOR i &larr; 1 TO 10
+    OUTPUT i
+NEXT i
+// Outputs: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10</pre>
+<p>Use FOR when you know exactly how many times you need to repeat.</p>
+</div>
+
+<div class="example">
+<div class="example-title">FOR Loop with STEP</div>
+<pre>FOR i &larr; 10 TO 1 STEP -1
+    OUTPUT i
+NEXT i
+// Outputs: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1</pre>
+</div>
+
+<h3>WHILE Loop (Pre-condition)</h3>
+<div class="example">
+<div class="example-title">WHILE Loop</div>
+<pre>password &larr; ""
+WHILE password &lt;&gt; "secret"
+    INPUT "Enter password: ", password
+ENDWHILE
+OUTPUT "Access granted"</pre>
+<p>Use WHILE when you don't know how many times to repeat, and the loop may need to execute zero times.</p>
+</div>
+
+<h3>REPEAT...UNTIL (Post-condition)</h3>
+<div class="example">
+<div class="example-title">REPEAT UNTIL Loop</div>
+<pre>REPEAT
+    INPUT "Enter a number 1-10: ", num
+UNTIL num >= 1 AND num <= 10</pre>
+<p>Use REPEAT when the loop body must execute at least once.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>FOR</th>
+<th>WHILE</th>
+<th>REPEAT...UNTIL</th>
+</tr>
+<tr>
+<td>When to use</td>
+<td>Known number of repetitions</td>
+<td>Unknown, may run 0 times</td>
+<td>Unknown, must run at least once</td>
+</tr>
+<tr>
+<td>Condition checked</td>
+<td>Automatically (counter)</td>
+<td>Before each iteration</td>
+<td>After each iteration</td>
+</tr>
+<tr>
+<td>Can run zero times?</td>
+<td>No (if range is valid)</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Infinite loop risk</td>
+<td>Low (counter handles it)</td>
+<td>High (must update condition)</td>
+<td>High (must update condition)</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🪆 Nesting Constructs</h2>
+
+<div class="key-point">
+<strong>Nesting</strong> means placing one construct inside another. You can put IF statements inside loops, loops inside IF statements, or loops inside other loops. This allows complex logic.
+</div>
+
+<div class="example">
+<div class="example-title">IF inside a FOR loop</div>
+<pre>FOR i &larr; 1 TO 20
+    IF i MOD 2 = 0 THEN
+        OUTPUT i, " is even"
+    ELSE
+        OUTPUT i, " is odd"
+    ENDIF
+NEXT i</pre>
+</div>
+
+<div class="example">
+<div class="example-title">WHILE loop inside an IF statement</div>
+<pre>INPUT difficulty
+IF difficulty = "hard" THEN
+    attempts &larr; 0
+    WHILE attempts &lt; 3
+        INPUT "Guess the number: ", guess
+        IF guess = secretNumber THEN
+            OUTPUT "Correct!"
+        ELSE
+            OUTPUT "Wrong!"
+        ENDIF
+        attempts &larr; attempts + 1
+    ENDWHILE
+ENDIF</pre>
+</div>
+
+<div class="key-point">
+<strong>Exam Tip:</strong> When nesting, always match your opening and closing keywords. Every IF needs an ENDIF, every WHILE needs an ENDWHILE, and every FOR needs a NEXT. Indent your code to make the structure clear.
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Explain the difference between a variable and a constant.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Write pseudo-code that asks for a number and outputs "Positive", "Negative", or "Zero" using selection.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> When would you use a REPEAT...UNTIL loop instead of a WHILE loop?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write pseudo-code using a FOR loop to output all multiples of 3 from 3 to 30.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Write pseudo-code that keeps asking for a password until the user enters "open123", then outputs "Welcome".</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>A variable is a named memory location whose value can change during execution. A constant is a named value that cannot be changed once set. Constants prevent accidental changes and make code more readable.</li>
+<li>
+<pre>INPUT number
+IF number > 0 THEN
+    OUTPUT "Positive"
+ELSEIF number &lt; 0 THEN
+    OUTPUT "Negative"
+ELSE
+    OUTPUT "Zero"
+ENDIF</pre>
+</li>
+<li>Use REPEAT...UNTIL when the loop body must execute at least once (e.g. input validation). Use WHILE when the loop may need to execute zero times (e.g. searching a list that might be empty).</li>
+<li>
+<pre>FOR i &larr; 3 TO 30 STEP 3
+    OUTPUT i
+NEXT i</pre>
+</li>
+<li>
+<pre>password &larr; ""
+WHILE password &lt;&gt; "open123"
+    INPUT "Enter password: ", password
+ENDWHILE
+OUTPUT "Welcome"</pre>
+</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Always close your constructs: ENDIF, ENDWHILE, NEXT, ENDCASE</li>
+<li>Use constants (CONST) for values that should never change</li>
+<li>Choose the right loop: FOR for counted, WHILE for pre-condition, REPEAT for post-condition</li>
+<li>WHILE checks before running; REPEAT checks after - know the difference</li>
+<li>Indent nested constructs to show structure clearly</li>
+<li>Remember: sequence, selection, and iteration are the THREE basic constructs</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Using IF instead of WHILE for repeated actions</span> <span class="right">✓ IF executes once based on a condition; WHILE repeats as long as the condition is true. Use IF for decisions, WHILE for repetition.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking FOR and WHILE loops are interchangeable in all situations</span> <span class="right">✓ FOR loops are for counted iteration (known number of repeats); WHILE loops are for conditional iteration (unknown number of repeats until a condition is met).</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that WHILE checks the condition BEFORE the loop body, so it may never execute</span> <span class="right">✓ A WHILE loop is pre-tested: if the condition is FALSE initially, the loop body never executes. A REPEAT-UNTIL loop is post-tested and always executes at least once.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing ELSE and ELSEIF/ELIF</span> <span class="right">✓ ELSE is the default case when no IF or ELSEIF condition is true. ELSEIF/ELIF allows additional conditions to be checked in sequence after the initial IF.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Write pseudo-code for a program that asks a user to enter a password. The password must be at least 8 characters long and contain at least one digit. The program should keep asking until a valid password is entered, then output 'Password accepted'. [5 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>valid ← FALSE
+WHILE valid = FALSE
+  INPUT 'Enter password: ', password
+  IF LENGTH(password) >= 8 THEN
+    found_digit ← FALSE
+    FOR i ← 0 TO LENGTH(password) - 1
+      IF password[i] >= '0' AND password[i] <= '9' THEN
+        found_digit ← TRUE
+      ENDIF
+    NEXT i
+    IF found_digit = TRUE THEN
+      valid ← TRUE
+    ELSE
+      OUTPUT 'Password must contain at least one digit'
+    ENDIF
+  ELSE
+    OUTPUT 'Password must be at least 8 characters'
+  ENDIF
+ENDWHILE
+OUTPUT 'Password accepted'</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including programming constructs: sequence, selection and iteration for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including programming constructs: sequence, selection and iteration to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including programming constructs: sequence, selection and iteration, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Choose the correct construct: IF for decisions, FOR for counted repetition (known number), WHILE for conditional repetition (unknown count). Always indent nested constructs clearly. For validation, use a WHILE loop with a Boolean flag. Show initialisation of variables BEFORE the loop. Remember: WHILE = pre-tested (may not execute), REPEAT-UNTIL = post-tested (always executes at least once). Use ENDIF, ENDWHILE to close each construct.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z7zh8xs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Programming+Constructs+Selection+Iteration" target="_blank" rel="noopener">YouTube: GCSE Computer Science Programming Constructs Selection Iteration</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/programming/CS7-programming-constructs.html&text=Programming Constructs" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/programming/CS7-programming-constructs.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/programming/CS7-programming-constructs.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Programming Constructs%20https://scottrix.github.io/gcserevise/topics/programming/CS7-programming-constructs.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/programming/CS7-programming-constructs.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS10-data-structures.html">Data Structures</a></li>
+<li><a href="CS11-input-output-string-handling.html">Input, Output &amp;amp; String Handling</a></li>
+<li><a href="CS12-subroutines.html">Subroutines</a></li>
+<li><a href="CS13-robust-secure-programming.html">Robust &amp;amp; Secure Programming</a></li>
+<li><a href="CS14-random-number-generation.html">Random Number Generation</a></li>
+<li><a href="CS6-data-types.html">Data Types</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="CS6-data-types.html" class="nav-prev">← Previous: Data Types</a>
+<a href="CS8-arithmetic-relational-operations.html" class="nav-next">Next Topic: Arithmetic and Relational Operations →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Programming+Constructs+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Programming Constructs Books →</div>
+  <div class="affiliate-card-desc">Browse Programming Constructs books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

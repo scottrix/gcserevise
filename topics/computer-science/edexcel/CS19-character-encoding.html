@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Character Encoding - GCSE Computer Science</title>
+<meta name="description" content="Learn about ASCII, Unicode and character-code conversion for GCSE Computer Science. Free revision notes.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, binary, hexadecimal, number bases, character encoding, images, sound, compression, Character, Encoding, learn, about, ascii">
+<meta property="og:title" content="Character Encoding - GCSE Computer Science">
+<meta property="og:description" content="Learn about ASCII, Unicode and character-code conversion for GCSE Computer Science. Free revision notes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/data-representation/CS19-character-encoding.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/data-representation/CS19-character-encoding.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Character Encoding">
+<meta name="twitter:description" content="Learn about ASCII, Unicode and character-code conversion for GCSE Computer Science. Free revision notes.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the ASCII code for the letter 'M'?", "acceptedAnswer": {"@type": "Answer", "text": "'A' = 65, so 'M' is the 13th letter: 65 + 12 = 77."}}, {"@type": "Question", "name": "How many characters can 7-bit ASCII represent?", "acceptedAnswer": {"@type": "Answer", "text": "7-bit ASCII can represent 2^7 = 128 different characters."}}, {"@type": "Question", "name": "Give two advantages of Unicode over ASCII.", "acceptedAnswer": {"@type": "Answer", "text": "1) Unicode supports all world languages while ASCII only supports English. 2) Unicode includes emojis and special symbols that ASCII cannot represent. Also acceptable: backwards compatible with ASCII, one universal standard eliminating regional encodings."}}, {"@type": "Question", "name": "Write pseudo-code that converts a lowercase letter to uppercase.", "acceptedAnswer": {"@type": "Answer", "text": "INPUT letter\ncode ← ASC(letter)\nIF code >= 97 AND code <= 122 THEN\n    upper ← CHR(code - 32)\n    OUTPUT upper\nELSE\n    OUTPUT \"Already uppercase or not a letter\"\nENDIF"}}, {"@type": "Question", "name": "Explain why the character '3' and the integer 3 are stored differently in a computer.", "acceptedAnswer": {"@type": "Answer", "text": "The character '3' is stored as its ASCII code 51 (binary 00110011) and takes 1 byte. The integer 3 is stored as the binary number 00000011 (just the value 3). They look completely different in binary and are processed differently by the computer."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Data Representation</span> <span>›</span>
+<span>Character Encoding</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS19: Character Encoding</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span>
+</div>
+<p class="topic-desc">How computers represent text using ASCII and Unicode character encoding, key codes to remember, and converting between characters and codes.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 What is Character Encoding?</h2>
+
+<div class="key-point">
+<strong>Character encoding</strong> is a system that assigns a unique numeric code to each character. Computers can only process numbers, so every letter, digit, and symbol must be represented by a number. The two main encoding systems are ASCII and Unicode.
+</div>
+
+<p>Without character encoding, the binary pattern 01000001 could mean anything. Encoding standards ensure that 01000001 is always interpreted as the letter 'A'.</p>
+</section>
+
+<section class="section">
+<h2>🔠 ASCII</h2>
+
+<div class="key-point">
+<strong>ASCII</strong> (American Standard Code for Information Interchange) is a 7-bit character encoding system that represents 128 different characters. It was designed for English-language text and includes letters, digits, punctuation, and control characters.
+</div>
+
+<div class="formula-box">
+<strong>ASCII Key Facts:</strong><br>
+Uses 7 bits per character<br>
+Can represent 2^7 = 128 different characters<br>
+Characters 0-31: Control characters (non-printable)<br>
+Characters 32-126: Printable characters<br>
+Character 127: DEL (delete)<br><br>
+In practice, ASCII is stored in 1 byte (8 bits) with the leading bit set to 0.
+</div>
+
+<h3>Essential ASCII Codes to Remember</h3>
+
+<table class="comparison-table">
+<tr><th>Character</th><th>ASCII Code (Decimal)</th><th>Binary</th></tr>
+<tr><td>'A'</td><td>65</td><td>01000001</td></tr>
+<tr><td>'B'</td><td>66</td><td>01000010</td></tr>
+<tr><td>'Z'</td><td>90</td><td>01011010</td></tr>
+<tr><td>'a'</td><td>97</td><td>01100001</td></tr>
+<tr><td>'b'</td><td>98</td><td>01100010</td></tr>
+<tr><td>'z'</td><td>122</td><td>01111010</td></tr>
+<tr><td>'0'</td><td>48</td><td>00110000</td></tr>
+<tr><td>'1'</td><td>49</td><td>00110001</td></tr>
+<tr><td>'9'</td><td>57</td><td>00111001</td></tr>
+<tr><td>' ' (space)</td><td>32</td><td>00100000</td></tr>
+</table>
+
+<div class="key-point">
+<strong>Pattern to remember:</strong><br>
+Uppercase letters: 'A' = 65 to 'Z' = 90 (26 letters)<br>
+Lowercase letters: 'a' = 97 to 'z' = 122 (26 letters)<br>
+Digits: '0' = 48 to '9' = 57 (10 digits)<br>
+The difference between 'a' and 'A' is always 32 (add 32 to convert upper to lower)
+</div>
+
+<div class="example">
+<div class="example-title">Finding Character Codes</div>
+<p>What is the ASCII code for 'D'?</p>
+<p>'A' = 65, 'B' = 66, 'C' = 67, 'D' = <strong>68</strong></p>
+<p>What is the ASCII code for 'f'?</p>
+<p>'a' = 97, 'b' = 98, 'c' = 99, 'd' = 100, 'e' = 101, 'f' = <strong>102</strong></p>
+</div>
+
+<div class="example">
+<div class="example-title">Converting Characters to Codes in Pseudo-code</div>
+<pre>code &larr; ASC('A')       // code = 65
+char &larr; CHR(65)        // char = 'A'
+
+// Convert uppercase to lowercase
+upper &larr; 'G'
+lower &larr; CHR(ASC(upper) + 32)    // lower = 'g'</pre>
+</div>
+
+<h3>ASCII Character Groups</h3>
+<table class="comparison-table">
+<tr><th>Code Range</th><th>Characters</th><th>Count</th></tr>
+<tr><td>0-31</td><td>Control codes (non-printable: newline, tab, bell)</td><td>32</td></tr>
+<tr><td>32-47</td><td>Symbols and space</td><td>16</td></tr>
+<tr><td>48-57</td><td>Digits 0-9</td><td>10</td></tr>
+<tr><td>65-90</td><td>Uppercase letters A-Z</td><td>26</td></tr>
+<tr><td>97-122</td><td>Lowercase letters a-z</td><td>26</td></tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🌍 Unicode</h2>
+
+<div class="key-point">
+<strong>Unicode</strong> is a character encoding standard that supports characters from <strong>all languages</strong> in the world, plus symbols, emojis, and historical scripts. It can represent over 1 million different characters.
+</div>
+
+<div class="formula-box">
+<strong>Unicode Key Facts:</strong><br>
+Supports virtually every written language<br>
+Includes emojis, mathematical symbols, and technical symbols<br>
+Commonly stored using UTF-8 (variable length: 1-4 bytes)<br>
+Or UTF-16 (2 or 4 bytes per character)<br>
+The first 128 Unicode characters are the same as ASCII
+</div>
+
+<h3>Why Unicode Was Created</h3>
+<ul>
+<li>ASCII only supports 128 characters - enough for English but not for other languages</li>
+<li>Extended ASCII (8-bit) added 128 more characters but still couldn't cover all languages</li>
+<li>Different countries used different extended ASCII sets, causing compatibility problems</li>
+<li>Unicode was created as a universal standard to encode all the world's writing systems</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Unicode Examples Beyond ASCII</div>
+<table class="comparison-table">
+<tr><th>Character</th><th>Description</th><th>Unicode Code Point</th></tr>
+<tr><td>e-acute</td><td>Latin small letter e with acute</td><td>U+00E9</td></tr>
+<tr><td>n-tilde</td><td>Latin small letter n with tilde</td><td>U+00F1</td></tr>
+<tr><td>Chinese "middle"</td><td>Chinese character</td><td>U+4E2D</td></tr>
+<tr><td>Grinning face</td><td>Emoji</td><td>U+1F600</td></tr>
+<tr><td>Pound sign</td><td>Currency symbol</td><td>U+00A3</td></tr>
+<tr><td>Euro sign</td><td>Currency symbol</td><td>U+20AC</td></tr>
+</table>
+</div>
+</section>
+
+<section class="section">
+<h2>⚖️ ASCII vs Unicode Comparison</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Feature</th>
+<th>ASCII</th>
+<th>Unicode</th>
+</tr>
+<tr>
+<td>Number of characters</td>
+<td>128</td>
+<td>Over 1 million</td>
+</tr>
+<tr>
+<td>Bits per character</td>
+<td>7 bits (stored in 1 byte)</td>
+<td>Variable (8-32 bits depending on encoding)</td>
+</tr>
+<tr>
+<td>Languages supported</td>
+<td>English only</td>
+<td>All world languages</td>
+</tr>
+<tr>
+<td>Emojis supported</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>File size</td>
+<td>Smaller (1 byte per character)</td>
+<td>Larger (2+ bytes for non-ASCII chars)</td>
+</tr>
+<tr>
+<td>Compatibility</td>
+<td>Universal for English</td>
+<td>Backwards compatible with ASCII</td>
+</tr>
+<tr>
+<td>When to use</td>
+<td>English-only text, small file size needed</td>
+<td>Multi-language text, modern applications</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>✅ Advantages of Unicode Over ASCII</h2>
+
+<div class="key-point">
+<strong>Unicode is the modern standard</strong> because it solves ASCII's biggest limitation: only supporting English. With Unicode, any text in any language can be represented, stored, and transmitted correctly.
+</div>
+
+<ul>
+<li><strong>Universal support:</strong> Represents characters from every language, not just English</li>
+<li><strong>Consistency:</strong> One standard worldwide, eliminating incompatible regional encodings</li>
+<li><strong>Emojis and symbols:</strong> Supports modern communication needs</li>
+<li><strong>Backwards compatible:</strong> The first 128 codes are identical to ASCII</li>
+<li><strong>Future-proof:</strong> Can be extended to include new characters as needed</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Unicode Backwards Compatibility</div>
+<p>Unicode code points 0-127 are the same as ASCII:</p>
+<ul>
+<li>Unicode U+0041 = 'A' (same as ASCII 65)</li>
+<li>Unicode U+0061 = 'a' (same as ASCII 97)</li>
+<li>Unicode U+0030 = '0' (same as ASCII 48)</li>
+</ul>
+<p>This means any valid ASCII text is also valid Unicode text.</p>
+</div>
+
+<div class="key-point">
+<strong>Trade-off:</strong> Unicode uses more storage space than ASCII. A plain English text file in Unicode (UTF-16) uses roughly twice the space of the same file in ASCII. However, with modern storage being cheap, this trade-off is usually acceptable.
+</div>
+</section>
+
+<section class="section">
+<h2>🔄 Converting Characters to Codes and Back</h2>
+
+<div class="key-point">
+<strong>ASC() and CHR()</strong> are the functions used to convert between characters and their numeric codes. ASC converts a character to its code; CHR converts a code to its character.
+</div>
+
+<div class="example">
+<div class="example-title">Character-Code Conversion Examples</div>
+<pre>// Character to code
+OUTPUT ASC('A')       // 65
+OUTPUT ASC('a')       // 97
+OUTPUT ASC('0')       // 48
+OUTPUT ASC(' ')       // 32
+
+// Code to character
+OUTPUT CHR(65)        // A
+OUTPUT CHR(97)        // a
+OUTPUT CHR(48)        // 0</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Practical Application: Checking if Input is a Letter</div>
+<pre>INPUT "Enter a character: ", char
+code &larr; ASC(char)
+IF (code >= 65 AND code &lt;= 90) OR (code >= 97 AND code &lt;= 122) THEN
+    OUTPUT char, " is a letter"
+ELSE
+    OUTPUT char, " is not a letter"
+ENDIF</pre>
+</div>
+
+<div class="example">
+<div class="example-title">Converting a Digit Character to Its Numeric Value</div>
+<pre>// The character '7' has ASCII code 55, not value 7
+digitChar &larr; '7'
+digitValue &larr; ASC(digitChar) - ASC('0')    // 55 - 48 = 7
+OUTPUT digitValue    // 7 (the number, not the character)</pre>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Thinking ASCII can store any character</td>
+<td>ASCII only has 128 characters - no foreign languages or emojis</td>
+<td>Use Unicode for non-English characters</td>
+</tr>
+<tr>
+<td>Confusing '5' and 5</td>
+<td>The character '5' has code 53, not value 5</td>
+<td>Use ASC('5') - 48 to get the numeric value</td>
+</tr>
+<tr>
+<td>Forgetting the +32 offset</td>
+<td>'a' is not code 65 + 1, it is 65 + 32 = 97</td>
+<td>Remember: lowercase = uppercase code + 32</td>
+</tr>
+<tr>
+<td>Saying Unicode replaces ASCII</td>
+<td>Unicode includes ASCII (first 128 codes are the same)</td>
+<td>Unicode extends ASCII - it is backwards compatible</td>
+</tr>
+<tr>
+<td>Not considering storage size</td>
+<td>Unicode can use more bytes per character</td>
+<td>Be aware of file size implications</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> What is the ASCII code for the letter 'M'?</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> How many characters can 7-bit ASCII represent?</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> Give two advantages of Unicode over ASCII.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Write pseudo-code that converts a lowercase letter to uppercase.</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain why the character '3' and the integer 3 are stored differently in a computer.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>'A' = 65, so 'M' is the 13th letter: 65 + 12 = 77.</li>
+<li>7-bit ASCII can represent 2^7 = 128 different characters.</li>
+<li>1) Unicode supports all world languages while ASCII only supports English. 2) Unicode includes emojis and special symbols that ASCII cannot represent. Also acceptable: backwards compatible with ASCII, one universal standard eliminating regional encodings.</li>
+<li>
+<pre>INPUT letter
+code &larr; ASC(letter)
+IF code >= 97 AND code &lt;= 122 THEN
+    upper &larr; CHR(code - 32)
+    OUTPUT upper
+ELSE
+    OUTPUT "Already uppercase or not a letter"
+ENDIF</pre>
+</li>
+<li>The character '3' is stored as its ASCII code 51 (binary 00110011) and takes 1 byte. The integer 3 is stored as the binary number 00000011 (just the value 3). They look completely different in binary and are processed differently by the computer.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Remember the key ASCII codes: A=65, a=97, 0=48, space=32</li>
+<li>Lowercase = uppercase code + 32</li>
+<li>ASCII = 7 bits = 128 characters; Unicode = millions of characters</li>
+<li>Unicode is backwards compatible with ASCII (first 128 codes match)</li>
+<li>ASC() converts character to code; CHR() converts code to character</li>
+<li>Character '5' is NOT the same as integer 5 - they have different binary representations</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking ASCII and Unicode store the same number of characters</span> <span class="right">✓ ASCII uses 7 bits (128 characters) or 8 bits (Extended ASCII, 256 characters). Unicode uses up to 32 bits and can represent over 143,000 characters from all world languages.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing Unicode always uses 4 bytes per character</span> <span class="right">✓ Unicode uses variable-length encoding: UTF-8 uses 1-4 bytes per character. Common ASCII characters still use just 1 byte in UTF-8, making it backward-compatible.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Forgetting that ASCII cannot represent non-English characters</span> <span class="right">✓ ASCII only covers English letters, digits, and basic symbols. It cannot represent characters from other languages (Chinese, Arabic, etc.) — this is why Unicode was developed.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing character code with the character itself</span> <span class="right">✓ A character code (e.g. 65 in ASCII) is the numeric representation stored in memory. The character 'A' is how it is displayed. The computer stores 65, not 'A'.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Explain why Unicode was developed as an alternative to ASCII, and discuss one advantage and one disadvantage of using Unicode. [4 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Unicode was developed because ASCII could only represent 128 characters (or 256 in Extended ASCII), which is insufficient for the world's languages, symbols, and emoji. ASCII only covers English alphabet characters, digits, and basic punctuation.
+
+Advantage: Unicode supports over 143,000 characters from all writing systems worldwide, enabling global communication and multilingual documents in a single encoding standard.
+
+Disadvantage: Unicode requires more storage space per character than ASCII — up to 4 bytes compared to ASCII's 1 byte. This means text files are larger when using Unicode, though UTF-8 mitigates this by using 1 byte for ASCII characters.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including character encoding: ASCII and Unicode for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including character encoding: ASCII and Unicode to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including character encoding: ASCII and Unicode, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+ASCII: 7-bit (128 chars) or 8-bit Extended (256 chars). Unicode: variable length, 143,000+ chars. Know why Unicode replaced ASCII (international support). ASCII advantage: small file size. Unicode advantage: universal character support. UTF-8 is backward-compatible with ASCII. When comparing, always discuss storage size vs character support trade-off.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/z3w7nk7" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+ASCII+Unicode+Character+Encoding" target="_blank" rel="noopener">YouTube: GCSE Computer Science ASCII Unicode Character Encoding</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/data-representation/CS19-character-encoding.html&text=Character Encoding" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/data-representation/CS19-character-encoding.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/data-representation/CS19-character-encoding.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Character Encoding%20https://scottrix.github.io/gcserevise/topics/data-representation/CS19-character-encoding.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/data-representation/CS19-character-encoding.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS15-number-bases.html">Number Bases</a></li>
+<li><a href="CS16-converting-number-bases.html">Converting Number Bases</a></li>
+<li><a href="CS17-units-information.html">Units of Information</a></li>
+<li><a href="CS18-binary-arithmetic.html">Binary Arithmetic</a></li>
+<li><a href="CS20-representing-images.html">Representing Images</a></li>
+<li><a href="CS21-representing-sound.html">Representing Sound</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="CS18-binary-arithmetic.html" class="nav-prev">← Previous: Binary Arithmetic</a>
+<a href="#" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Character+Encoding+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Character Encoding Books →</div>
+  <div class="affiliate-card-desc">Browse Character Encoding books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

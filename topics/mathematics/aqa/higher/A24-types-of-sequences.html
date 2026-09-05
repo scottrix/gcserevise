@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Types of Sequences - GCSE Maths Revision</title>
+<meta name="description" content="Learn about arithmetic, geometric, Fibonacci and other sequence types. Free GCSE Maths revision.">
+<meta name="keywords" content="GCSE Maths, GCSE revision, free revision notes, algebra, expressions, equations, sequences, graphs, quadratic, simultaneous, inequalities, functions, iteration, Types, of">
+<meta property="og:title" content="Types of Sequences - GCSE Maths">
+<meta property="og:description" content="Learn about arithmetic, geometric, Fibonacci and other sequence types. Free GCSE Maths revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/algebra/A24-types-of-sequences.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/algebra/A24-types-of-sequences.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Types of Sequences">
+<meta name="twitter:description" content="Learn about arithmetic, geometric, Fibonacci and other sequence types. Free GCSE Maths revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Find the nth term of: 4, 9, 14, 19, 24, ...", "acceptedAnswer": {"@type": "Answer", "text": "5n - 1"}}, {"@type": "Question", "name": "Find the nth term of: 2, 6, 18, 54, ...", "acceptedAnswer": {"@type": "Answer", "text": "2 × 3n-1"}}, {"@type": "Question", "name": "What is the 8th triangular number?", "acceptedAnswer": {"@type": "Answer", "text": "36"}}, {"@type": "Question", "name": "Find the next 3 terms: 1, 1, 2, 3, 5, 8, ...", "acceptedAnswer": {"@type": "Answer", "text": "13, 21, 34"}}, {"@type": "Question", "name": "Find the nth term of: 2, 5, 10, 17, 26, ...", "acceptedAnswer": {"@type": "Answer", "text": "n² + 1"}}, {"@type": "Question", "name": "What type of sequence is: 100, 90, 81, 72.9, ...?", "acceptedAnswer": {"@type": "Answer", "text": "Geometric (ratio = 0.9)"}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../mathematics.html">Maths</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../mathematics.html">Mathematics</a> <span>›</span>
+<a href="#">Algebra</a> <span>›</span>
+<span>Types of Sequences</span>
+</nav>
+
+<article class="topic-header">
+<h1>A24: Types of Sequences</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span><span class="badge">CCEA</span>
+</div>
+<p class="topic-desc">Recognise and use sequences: triangular, square, cube, arithmetic, geometric, Fibonacci-type, quadratic (Higher)</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Key Concepts</h2>
+
+<table class="comparison-table">
+<tr><th>Type</th><th>Description</th><th>Example</th></tr>
+<tr><td>Arithmetic</td><td>Add/subtract same amount</td><td>3, 7, 11, 15, 19, ...</td></tr>
+<tr><td>Geometric</td><td>Multiply by same amount</td><td>2, 6, 18, 54, ...</td></tr>
+<tr><td>Square numbers</td><td>n²</td><td>1, 4, 9, 16, 25, ...</td></tr>
+<tr><td>Cube numbers</td><td>n³</td><td>1, 8, 27, 64, 125, ...</td></tr>
+<tr><td>Triangular numbers</td><td>Sum of first n integers</td><td>1, 3, 6, 10, 15, ...</td></tr>
+<tr><td>Fibonacci</td><td>Add previous two terms</td><td>1, 1, 2, 3, 5, 8, 13, ...</td></tr>
+</table>
+</section>
+
+<section class="section">
+<h2>📝 Arithmetic Sequences</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A sequence where the difference between consecutive terms is constant.
+</div>
+
+<div class="formula-box">
+<strong>nth term:</strong> aₙ = a + (n-1)d<br>
+where a = first term, d = common difference
+</div>
+
+<div class="example">
+<div class="example-title">Example 1</div>
+<p>Find the nth term of: 5, 8, 11, 14, 17, ...</p>
+<p><strong>Solution:</strong></p>
+<p>First term a = 5</p>
+<p>Common difference d = 8 - 5 = 3</p>
+<p>nth term: 5 + (n-1) × 3 = 5 + 3n - 3 = 3n + 2</p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 2</div>
+<p>Find the nth term of: 20, 17, 14, 11, ...</p>
+<p><strong>Solution:</strong></p>
+<p>a = 20, d = -3</p>
+<p>nth term: 20 + (n-1)(-3) = 20 - 3n + 3 = 23 - 3n</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Geometric Sequences</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> A sequence where each term is found by multiplying the previous term by a constant (the common ratio).
+</div>
+
+<div class="formula-box">
+<strong>nth term:</strong> aₙ = a × r<sup>n-1</sup><br>
+where a = first term, r = common ratio
+</div>
+
+<div class="example">
+<div class="example-title">Example 3</div>
+<p>Find the nth term of: 3, 6, 12, 24, 48, ...</p>
+<p><strong>Solution:</strong></p>
+<p>a = 3, r = 2 (each term doubles)</p>
+<p>nth term: 3 × 2<sup>n-1</sup></p>
+</div>
+
+<div class="example">
+<div class="example-title">Example 4</div>
+<p>Find the 6th term of: 100, 50, 25, ...</p>
+<p><strong>Solution:</strong></p>
+<p>a = 100, r = ½</p>
+<p>6th term: 100 × (½)<sup>5</sup> = 100 × <sup>1</sup>⁄<sub>32</sub> = 3.125</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Square and Cube Numbers</h2>
+
+<div class="key-point">
+<strong>Square numbers:</strong> 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, ...<br>
+Formula: n² where n = 1, 2, 3, ...
+</div>
+
+<div class="key-point">
+<strong>Cube numbers:</strong> 1, 8, 27, 64, 125, 216, ...<br>
+Formula: n³ where n = 1, 2, 3, ...
+</div>
+
+<div class="example">
+<div class="example-title">Example 5</div>
+<p>Find the 12th square number.</p>
+<p><strong>Solution:</strong></p>
+<p>12² = 144</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Triangular Numbers</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Numbers that can form a triangle of dots. Each triangular number is the sum of consecutive integers.
+</div>
+
+<div class="formula-box">
+<strong>nth triangular number:</strong> <sup>n(n+1)</sup>⁄<sub>2</sub>
+</div>
+
+<div class="example">
+<div class="example-title">Example 6</div>
+<p>Find the 10th triangular number.</p>
+<p><strong>Solution:</strong></p>
+<p><sup>10 × 11</sup>⁄<sub>2</sub> = <sup>110</sup>⁄<sub>2</sub> = 55</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Fibonacci-Type Sequences</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Each term is the sum of the two previous terms.
+</div>
+
+<div class="example">
+<div class="example-title">Example 7</div>
+<p>Find the next 3 terms: 2, 5, 7, 12, 19, ...</p>
+<p><strong>Solution:</strong></p>
+<p>Each term = sum of previous two</p>
+<p>19 + 12 = 31</p>
+<p>31 + 19 = 50</p>
+<p>50 + 31 = 81</p>
+<p><strong>Next terms: 31, 50, 81</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Quadratic Sequences (Higher)</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> The nth term contains n². The second difference (difference of differences) is constant.
+</div>
+
+<div class="example">
+<div class="example-title">Example 8</div>
+<p>Find the nth term of: 3, 6, 11, 18, 27, ...</p>
+<p><strong>Solution:</strong></p>
+<p>Sequence: 3, 6, 11, 18, 27</p>
+<p>1st diff: 3, 5, 7, 9</p>
+<p>2nd diff: 2, 2, 2 (constant, so quadratic)</p>
+<p>Half of 2nd diff = 1, so n² term</p>
+<p>Compare n²: 1, 4, 9, 16, 25</p>
+<p>Actual - n²: 2, 2, 2, 2, 2</p>
+<p><strong>nth term: n² + 2</strong></p>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Find the nth term of: 4, 9, 14, 19, 24, ...</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Find the nth term of: 2, 6, 18, 54, ...</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> What is the 8th triangular number?</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Find the next 3 terms: 1, 1, 2, 3, 5, 8, ...</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Find the nth term of: 2, 5, 10, 17, 26, ...</p>
+</div>
+<div class="question">
+<p><strong>Q6:</strong> What type of sequence is: 100, 90, 81, 72.9, ...?</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>5n - 1</li>
+<li>2 × 3<sup>n-1</sup></li>
+<li>36</li>
+<li>13, 21, 34</li>
+<li>n² + 1</li>
+<li>Geometric (ratio = 0.9)</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Arithmetic: constant difference → an + b form</li>
+<li>Geometric: constant ratio → a × r<sup>n-1</sup> form</li>
+<li>Fibonacci: each term = sum of previous two</li>
+<li>For quadratic: check 2nd difference is constant</li>
+<li>Triangular: n(n+1)/2</li>
+</ul>
+</section>
+
+<section class="section"><h2>🧠 Problem-Solving Strategies</h2><div class="maths-skill"><h3>Problem-Solving</h3><div class="key-point">Identify the sequence type: constant difference = arithmetic (nth term: dn + c), constant ratio = geometric (nth term: a × r^(n-1)), sum of previous two = Fibonacci. For quadratic: second difference is constant, half of it = coefficient of n².</div><div class="example"><div class="example-title">Multi-Step Problem</div><p>A bacteria population starts at 500 and triples every hour. (a) Write the population as a sequence. (b) Find the nth term. (c) After how many hours does it exceed 100,000?</p><p><strong>Solution:</strong></p><p>(a) 500, 1500, 4500, 13500, 40500, ...</p><p>(b) Geometric: a = 500, r = 3. nth term = 500 × 3^(n-1)</p><p>(c) 500 × 3^(n-1) > 100000 → 3^(n-1) > 200. n-1 > log₃(200) ≈ 4.82. So n > 5.82, meaning after 6 hours (7th term).</p></div></div></section>
+
+<section class="section"><h2>⚠️ Common Errors</h2><div class="misconception"><h3>Watch Out!</h3><p>1. <span class="wrong">Wrong: Treating a geometric sequence as arithmetic</span> <span class="right">Correct: Check whether you ADD or MULTIPLY to get the next term — arithmetic adds, geometric multiplies</span></p><p>2. <span class="wrong">Wrong: The nth term of a geometric sequence is a × r^n</span> <span class="right">Correct: It is a × r^(n-1) — the first term has n = 1, so r^(1-1) = r⁰ = 1, giving just a</span></p><p>3. <span class="wrong">Wrong: The 10th triangular number is 10 × 11 = 110</span> <span class="right">Correct: The 10th triangular number is (10 × 11)/2 = 55 (must divide by 2)</span></p></div></section>
+
+<section class="section"><h2>✍️ 6-Mark Exam Question</h2><div class="extended-question"><h3>Extended Answer</h3><p><strong>6 marks:</strong> A ball is dropped from 80 cm. Each bounce reaches 3/4 of the previous height. (a) Write the first 5 heights as a sequence. (b) What type of sequence is this? Find the nth term. (c) After which bounce is the height below 10 cm?</p><button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button><div class="model-answer"><p>(a) 80, 60, 45, 33.75, 25.3125</p><p>(b) Geometric sequence with a = 80, r = 3/4. nth term = 80 × (3/4)^(n-1)</p><p>(c) 80 × (3/4)^(n-1) < 10 → (3/4)^(n-1) < 1/8 → (n-1) > log(1/8)/log(3/4) ≈ 8.00. So n > 9. After the 9th bounce the height is below 10 cm.</p><p><em>Mark scheme: (a) 2 marks. (b) 2 marks for type and formula. (c) 2 marks for solving inequality.</em></p></div></div></section>
+
+<section class="section"><h2>📊 AO3: Reason &amp; Interpret</h2><div class="ao3-section"><h3>Reasoning and Interpretation</h3><p>A salary starts at £24,000 and increases by £1,500 each year.</p><p><strong>(a)</strong> Write the nth term for the salary in year n.</p><p><strong>(b)</strong> After how many years does the salary exceed £40,000?</p><p><strong>(c)</strong> A different job starts at £24,000 and increases by 5% each year. Which job pays more in year 10?</p><div class="key-point"><strong>Answers:</strong> (a) Arithmetic: S = 24000 + 1500(n-1) = 1500n + 22500. (b) 1500n + 22500 > 40000 → n > 11.67, so after 12 years. (c) Job 1 year 10: £37,500. Job 2 year 10: 24000 × 1.05^9 ≈ £37,218. Job 1 pays slightly more in year 10.</div></div></section>
+
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul>
+      <li><a href="https://www.bbc.co.uk/bitesize/topics/z3hv2p3" target="_blank" rel="noopener">BBC Bitesize</a></li>
+      <li><a href="https://www.youtube.com/c/corbettmaths/videos" target="_blank" rel="noopener">Corbettmaths</a></li>
+      <li><a href="https://www.youtube.com/@TheGCSEMathsTutor" target="_blank" rel="noopener">The GCSE Maths Tutor</a></li>
+    </ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/algebra/A24-types-of-sequences.html&text=Types of Sequences" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/algebra/A24-types-of-sequences.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/algebra/A24-types-of-sequences.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Types of Sequences%20https://scottrix.github.io/gcserevise/topics/algebra/A24-types-of-sequences.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/algebra/A24-types-of-sequences.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="A1-algebraic-notation.html">Algebraic Notation</a></li>
+<li><a href="A10-gradients-intercepts.html">Gradients &amp; Intercepts</a></li>
+<li><a href="A11-quadratic-graphs.html">Quadratic Graphs</a></li>
+<li><a href="A12-other-graphs.html">Other Graphs</a></li>
+<li><a href="A13-graph-transformations.html">Graph Transformations</a></li>
+<li><a href="A14-real-life-graphs.html">Real-Life Graphs</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Mathematics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Mathematics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Mathematics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="A23-generating-sequences.html" class="nav-prev">← Previous: Generating Sequences</a>
+<a href="A25-nth-term.html" class="nav-next">Next Topic: nth Term →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script src="../../app.js"></script>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+const icon = this;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+icon.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+icon.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Maths+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Maths Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Maths revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Types+of+Sequences+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Types of Sequences Books →</div>
+  <div class="affiliate-card-desc">Browse Types of Sequences books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

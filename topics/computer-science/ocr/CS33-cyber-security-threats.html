@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber Security Threats - GCSE Computer Science</title>
+<meta name="description" content="Learn about social engineering, malware, phishing, and other cyber security threats. Free GCSE Computer Science revision.">
+<meta name="keywords" content="GCSE Computer Science, GCSE revision, free revision notes, cyber security, threats, phishing, malware, SQL injection, prevention, encryption, Cyber, Security, learn, about, social">
+<meta property="og:title" content="Cyber Security Threats - GCSE Computer Science">
+<meta property="og:description" content="Learn about social engineering, malware, phishing, and other cyber security threats. Free GCSE Computer Science revision.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/cyber-security/CS33-cyber-security-threats.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/cyber-security/CS33-cyber-security-threats.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cyber Security Threats">
+<meta name="twitter:description" content="Learn about social engineering, malware, phishing, and other cyber security threats. Free GCSE Computer Science revision.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain the difference between phishing and pharming.", "acceptedAnswer": {"@type": "Answer", "text": "Phishing sends fraudulent emails that appear to be from a trusted source, tricking users into clicking links to fake websites or revealing information. Pharming manipulates DNS so that even when the user types the correct URL, they are redirected to a fake website. Phishing requires the victim to cl"}}, {"@type": "Question", "name": "Describe four types of malware and how each one works.", "acceptedAnswer": {"@type": "Answer", "text": "Virus: attaches to a host file, replicates when the file is opened, can corrupt or delete data. Trojan: disguised as legitimate software, does not replicate, creates backdoors for attackers. Spyware: secretly monitors user activity, records keystrokes and sends data to attacker. Ransomware: encrypts"}}, {"@type": "Question", "name": "What is social engineering? Describe blagging, phishing, and shouldering.", "acceptedAnswer": {"@type": "Answer", "text": "Social engineering manipulates people into revealing information or performing actions that compromise security. Blagging: inventing a false scenario to gain trust and extract information (e.g. pretending to be IT support). Phishing: sending fraudulent emails appearing to be from trusted sources. Sh"}}, {"@type": "Question", "name": "Why are weak and default passwords a security threat?", "acceptedAnswer": {"@type": "Answer", "text": "Weak passwords (like 123456) can be easily guessed or cracked using brute force or dictionary attacks. Default passwords on devices are publicly known and can be found online, so any attacker can access a device if the default password hasn't been changed."}}, {"@type": "Question", "name": "Explain how multiple cyber security threats could combine in a single attack.", "acceptedAnswer": {"@type": "Answer", "text": "A phishing email (social engineering) tricks a user into opening an attachment that installs a Trojan. The Trojan exploits unpatched software to gain elevated access. Because of misconfigured access rights, the malware spreads across the network. The attacker then installs ransomware to encrypt file"}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Cyber Security</span> <span>›</span>
+<span>Cyber Security Threats</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS33: Cyber Security Threats</h1>
+<div class="topic-meta">
+<span class="badge foundation">Foundation</span>
+<span class="badge higher">Higher</span>
+<span class="badge">AQA</span><span class="badge">Edexcel</span><span class="badge">OCR</span><span class="badge">Eduqas</span>
+<span class="badge">Cyber Security</span>
+</div>
+<p class="topic-desc">Social engineering techniques, types of malware, and other common cyber security threats and how they can combine.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+
+<section class="section">
+<h2>📋 Social Engineering</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Social engineering is manipulating people into revealing confidential information or performing actions that compromise security. It exploits human psychology rather than technical vulnerabilities.
+</div>
+
+<p>Social engineering attacks target the weakest link in any security system: people. No matter how strong the technical security, a person can be tricked into giving away their password or clicking a malicious link.</p>
+
+<h3>Blagging (Pretexting)</h3>
+<div class="key-point">
+<strong>Definition:</strong> Blagging is inventing a false scenario (pretext) to trick someone into revealing information. The attacker creates a convincing story to gain the victim's trust.
+</div>
+
+<ul>
+<li>Attacker creates a fake identity or scenario</li>
+<li>Common pretext: pretending to be from a bank, IT support, or authority</li>
+<li>Aims to extract personal data, passwords, or financial details</li>
+<li>Often done by phone but can be in person or by email</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>An attacker phones an employee claiming to be from the IT department: "We've detected unusual activity on your account. I need you to confirm your password so we can secure it." The employee, trusting the caller's authority, gives their password. The attacker now has access to the system.</p>
+</div>
+
+<h3>Phishing</h3>
+<div class="key-point">
+<strong>Definition:</strong> Phishing is sending fraudulent emails that appear to come from a trusted source, designed to trick recipients into revealing personal information, clicking malicious links, or downloading malware.
+</div>
+
+<ul>
+<li>Mass emails sent to many people (casting a wide "net")</li>
+<li>Emails look like they come from banks, companies, or authorities</li>
+<li>Often contain urgent or threatening language ("Your account will be closed!")</li>
+<li>Include links to fake websites that look like the real ones</li>
+<li>Spear phishing: targeted at a specific individual using personal details</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>An email appears to be from PayPal: "We noticed suspicious activity on your account. Click here to verify your identity." The link goes to a fake PayPal website that captures the victim's username and password when they try to log in.</p>
+</div>
+
+<h3>Shouldering (Shoulder Surfing)</h3>
+<div class="key-point">
+<strong>Definition:</strong> Shouldering is directly observing someone's screen or keyboard to obtain personal information, such as passwords or PIN numbers, by looking over their shoulder.
+</div>
+
+<ul>
+<li>Attacker physically watches the victim type</li>
+<li>Common in public places: cafes, trains, airports</li>
+<li>Can capture passwords, PINs, confidential data on screen</li>
+<li>Low-tech but effective method</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>Someone on a train looks over a business person's shoulder as they type their email password and read a confidential document on their laptop. The observer now has the password and has seen sensitive information.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>🦠 Malware</h2>
+
+<div class="key-point">
+<strong>Definition:</strong> Malware (malicious software) is any software deliberately designed to cause damage to a computer, server, client, or network. Different types of malware have different purposes and methods.
+</div>
+
+<h3>Viruses</h3>
+<ul>
+<li>Attaches itself to a legitimate program or file</li>
+<li>Requires a host file to spread - cannot spread on its own</li>
+<li>Activated when the host file is opened or run</li>
+<li>Can replicate by attaching to other files</li>
+<li>May delete files, corrupt data, or display messages</li>
+<li>Spread through email attachments, infected USB drives, or downloads</li>
+</ul>
+
+<h3>Trojans</h3>
+<ul>
+<li>Disguised as legitimate, useful software</li>
+<li>Does NOT replicate itself (unlike a virus)</li>
+<li>User intentionally downloads and installs it, thinking it's safe</li>
+<li>Once installed, it performs malicious actions in the background</li>
+<li>Can create backdoors for remote access, steal data, or install other malware</li>
+<li>Named after the Trojan Horse from Greek mythology</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>A user downloads what appears to be a free game. When they install it, the game works normally, but a trojan hidden within it silently records their keystrokes and sends their passwords to the attacker.</p>
+</div>
+
+<h3>Spyware</h3>
+<ul>
+<li>Secretly monitors and collects user activity and data</li>
+<li>Can record keystrokes (keylogger), capture screenshots, or track web browsing</li>
+<li>Sends the collected data back to the attacker</li>
+<li>Often installed without the user's knowledge (bundled with other software)</li>
+<li>Used to steal passwords, credit card details, and personal information</li>
+</ul>
+
+<h3>Ransomware</h3>
+<ul>
+<li>Encrypts the victim's files, making them inaccessible</li>
+<li>Displays a message demanding payment (ransom) for the decryption key</li>
+<li>Often demands payment in cryptocurrency (difficult to trace)</li>
+<li>Can spread across networks, affecting many computers</li>
+<li>Paying the ransom does NOT guarantee files will be decrypted</li>
+</ul>
+
+<div class="example">
+<div class="example-title">Example</div>
+<p>The WannaCry ransomware attack in 2017 encrypted files on over 200,000 computers across 150 countries. Victims saw a message demanding Bitcoin payment to unlock their files. Many organisations, including the NHS, were severely affected.</p>
+</div>
+
+<table class="comparison-table">
+<tr>
+<th>Malware Type</th>
+<th>How It Spreads</th>
+<th>Primary Purpose</th>
+<th>Replicates?</th>
+</tr>
+<tr>
+<td>Virus</td>
+<td>Attached to host files</td>
+<td>Damage, corruption</td>
+<td>Yes (needs host)</td>
+</tr>
+<tr>
+<td>Trojan</td>
+<td>Disguised as legitimate software</td>
+<td>Backdoor access, data theft</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Spyware</td>
+<td>Bundled with other software</td>
+<td>Monitoring, data collection</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ransomware</td>
+<td>Email attachments, exploits</td>
+<td>Extortion (encrypt files for ransom)</td>
+<td>Varies</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>🌐 Other Cyber Security Threats</h2>
+
+<h3>Pharming</h3>
+<div class="key-point">
+<strong>Definition:</strong> Pharming redirects users to a fake website even when they type the correct URL. It manipulates the DNS (Domain Name System) so that the legitimate web address points to the attacker's server.
+</div>
+
+<ul>
+<li>More sophisticated than phishing - no fake email needed</li>
+<li>Victim types the real URL but is taken to a fake site</li>
+<li>Achieved by modifying DNS entries or the host file on the victim's computer</li>
+<li>The fake website looks identical to the real one</li>
+<li>Used to capture login credentials and financial data</li>
+</ul>
+
+<h3>Weak and Default Passwords</h3>
+<ul>
+<li>Many users choose simple, easily guessable passwords (123456, password)</li>
+<li>Default passwords on devices (routers, IoT devices) are often not changed</li>
+<li>Attackers can find default passwords online for any device model</li>
+<li>Brute force attacks try every possible password combination</li>
+<li>Dictionary attacks try common words and password lists</li>
+</ul>
+
+<h3>Misconfigured Access Rights</h3>
+<ul>
+<li>Users given more access permissions than they need</li>
+<li>Former employees' accounts not deactivated when they leave</li>
+<li>Shared accounts where multiple people know the same credentials</li>
+<li>Admin access given to users who only need basic permissions</li>
+<li>Principle of least privilege: users should only have the minimum access needed</li>
+</ul>
+
+<h3>Removable Media</h3>
+<ul>
+<li>USB drives can carry malware that auto-runs when plugged in</li>
+<li>Lost or stolen USB drives can expose sensitive data</li>
+<li>Attackers may leave infected USB drives in public places (baiting)</li>
+<li>Unauthorised copying of data onto removable media (data theft)</li>
+</ul>
+
+<h3>Unpatched and Outdated Software</h3>
+<ul>
+<li>Software vulnerabilities are discovered regularly</li>
+<li>Patches and updates fix these security holes</li>
+<li>Unpatched software leaves known vulnerabilities open for attackers</li>
+<li>Attackers specifically target systems running outdated software</li>
+<li>Zero-day exploits attack vulnerabilities before a patch exists</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🔗 How Threats Combine</h2>
+
+<div class="key-point">
+<strong>Key Concept:</strong> Cyber security threats rarely work in isolation. Attackers often combine multiple techniques to increase their chances of success. A social engineering attack might deliver malware, which then exploits unpatched software.
+</div>
+
+<div class="example">
+<div class="example-title">Combined Attack Scenario</div>
+<p><strong>Step 1:</strong> A phishing email (social engineering) is sent to employees of a company, appearing to be from HR with an "urgent policy update" attachment.</p>
+<p><strong>Step 2:</strong> An employee clicks the attachment, which installs a Trojan on their computer.</p>
+<p><strong>Step 3:</strong> The Trojan exploits an unpatched vulnerability in the system to gain administrator access.</p>
+<p><strong>Step 4:</strong> Using the misconfigured access rights (the employee had more permissions than needed), the malware spreads across the network.</p>
+<p><strong>Step 5:</strong> The attacker installs ransomware that encrypts all company files and demands payment.</p>
+<p>This single attack combined: phishing + Trojan + unpatched software + misconfigured access + ransomware.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Mistakes to Avoid</h2>
+
+<table class="comparison-table">
+<tr>
+<th>Mistake</th>
+<th>Why It's Wrong</th>
+<th>How to Fix It</th>
+</tr>
+<tr>
+<td>Confusing virus and Trojan</td>
+<td>Viruses replicate; Trojans don't</td>
+<td>Virus = replicates via host file; Trojan = disguised software</td>
+</tr>
+<tr>
+<td>Confusing phishing and pharming</td>
+<td>Phishing tricks via email; pharming redirects URLs</td>
+<td>Phishing = fake email; Pharming = fake website redirect</td>
+</tr>
+<tr>
+<td>Saying "social engineering is a technical attack"</td>
+<td>It targets people, not technology</td>
+<td>Social engineering exploits human psychology</td>
+</tr>
+<tr>
+<td>Forgetting to mention how threats combine</td>
+<td>Real attacks often use multiple methods</td>
+<td>Explain how phishing can lead to malware, etc.</td>
+</tr>
+</table>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions">
+<div class="question">
+<p><strong>Q1:</strong> Explain the difference between phishing and pharming.</p>
+</div>
+<div class="question">
+<p><strong>Q2:</strong> Describe four types of malware and how each one works.</p>
+</div>
+<div class="question">
+<p><strong>Q3:</strong> What is social engineering? Describe blagging, phishing, and shouldering.</p>
+</div>
+<div class="question">
+<p><strong>Q4:</strong> Why are weak and default passwords a security threat?</p>
+</div>
+<div class="question">
+<p><strong>Q5:</strong> Explain how multiple cyber security threats could combine in a single attack.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>✅ Answers</h2>
+<ol>
+<li>Phishing sends fraudulent emails that appear to be from a trusted source, tricking users into clicking links to fake websites or revealing information. Pharming manipulates DNS so that even when the user types the correct URL, they are redirected to a fake website. Phishing requires the victim to click a link; pharming redirects automatically.</li>
+<li>Virus: attaches to a host file, replicates when the file is opened, can corrupt or delete data. Trojan: disguised as legitimate software, does not replicate, creates backdoors for attackers. Spyware: secretly monitors user activity, records keystrokes and sends data to attacker. Ransomware: encrypts files and demands payment for decryption.</li>
+<li>Social engineering manipulates people into revealing information or performing actions that compromise security. Blagging: inventing a false scenario to gain trust and extract information (e.g. pretending to be IT support). Phishing: sending fraudulent emails appearing to be from trusted sources. Shouldering: directly observing someone's screen or keyboard to capture passwords or data.</li>
+<li>Weak passwords (like 123456) can be easily guessed or cracked using brute force or dictionary attacks. Default passwords on devices are publicly known and can be found online, so any attacker can access a device if the default password hasn't been changed.</li>
+<li>A phishing email (social engineering) tricks a user into opening an attachment that installs a Trojan. The Trojan exploits unpatched software to gain elevated access. Because of misconfigured access rights, the malware spreads across the network. The attacker then installs ransomware to encrypt files and demand payment. This combines social engineering + malware + unpatched software + misconfigured access + ransomware.</li>
+</ol>
+</section>
+
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul>
+<li>Know each social engineering technique with specific examples</li>
+<li>Distinguish clearly between virus, Trojan, spyware, and ransomware</li>
+<li>Phishing = email; Pharming = URL redirect (know the difference)</li>
+<li>Always explain that social engineering targets PEOPLE, not technology</li>
+<li>Be prepared to explain how multiple threats combine in an attack</li>
+<li>Use specific, realistic examples rather than vague descriptions</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Thinking phishing only happens via email</span> <span class="right">✓ Phishing can occur via email, text messages (smishing), phone calls (vishing), or fake websites. Any method of tricking users into revealing personal information is phishing.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Confusing viruses and worms</span> <span class="right">✓ A virus attaches to a file and needs user action to spread. A worm is self-replicating and spreads automatically across networks without user intervention.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Believing social engineering is a technical attack</span> <span class="right">✓ Social engineering manipulates people, not systems. It exploits human psychology (trust, urgency, authority) to gain information or access — no software vulnerability is needed.</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Thinking strong passwords alone prevent all unauthorised access</span> <span class="right">✓ Strong passwords are essential but don't prevent keylogging, phishing, brute force (given enough time), or credential reuse attacks. Multi-factor authentication adds critical additional protection.</span></p></div>
+</section>
+
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>Describe three different types of cyber security threat, explaining how each works and one way to protect against it. [6 marks]</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>1. Phishing: An attacker sends a fraudulent message (email/text) pretending to be from a trusted source (e.g. a bank) to trick the victim into revealing personal information or clicking a malicious link. Protection: Never click links in unsolicited emails; verify the sender's address; look for HTTPS and check for suspicious URLs.
+
+2. Malware (virus/worm/trojan): Malicious software that infects a device to steal data, damage systems, or gain unauthorised access. Viruses attach to files; worms spread automatically; trojans disguise as legitimate software. Protection: Install and regularly update antivirus software; do not download files from untrusted sources.
+
+3. Brute force attack: An attacker systematically tries every possible password combination until the correct one is found, using automated software. Protection: Use strong, long passwords (12+ characters); implement account lockout after failed attempts; use multi-factor authentication.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Computational Thinking — 40%):</strong> Demonstrate knowledge and understanding of the principles and concepts of computer science, including cyber security threats: malware, phishing and social engineering for AQA 8525, OCR J277 &amp; Edexcel 1CP2.<br><br>
+<strong>AO2 (Application — 40%):</strong> Apply knowledge and understanding of computer science, including cyber security threats: malware, phishing and social engineering to analyse problems in computational terms and to design, write and evaluate solutions.<br><br>
+<strong>AO3 (Evaluation — 20%):</strong> Evaluate the effectiveness, correctness and efficiency of computational solutions, including cyber security threats: malware, phishing and social engineering, and make reasoned judgements about trade-offs.</p>
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+<strong>GCSE Computer Science Exam Tips:</strong><br>
+Threat types: malware (virus, worm, trojan, ransomware, spyware, keylogger), phishing, social engineering, brute force, DDoS, SQL injection. For each: describe HOW it works, its IMPACT, and a COUNTERMEASURE. Social engineering targets people, not technology. Viruses need user action, worms spread automatically. Ransomware encrypts files for payment. Always give specific examples.
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR Past Papers - Topic Questions</a> -- OCR</li><li><a href="https://www.eduqas.co.uk/qualifications/past-papers/" target="_blank" rel="noopener">Eduqas Past Papers - Topic Questions</a> -- Eduqas</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse-computer-science/znk2wxs" target="_blank" rel="noopener">BBC Bitesize: GCSE Computer Science</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Computer+Science+Cyber+Security+Threats+Malware+Phishing+Social+Engineering" target="_blank" rel="noopener">YouTube: GCSE Computer Science Cyber Security Threats Malware Phishing Social Engineering</a></li></ul>
+</section>
+
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/cyber-security/CS33-cyber-security-threats.html&text=Cyber Security Threats" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/cyber-security/CS33-cyber-security-threats.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/cyber-security/CS33-cyber-security-threats.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Cyber Security Threats%20https://scottrix.github.io/gcserevise/topics/cyber-security/CS33-cyber-security-threats.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/cyber-security/CS33-cyber-security-threats.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="CS34-detecting-preventing-cyber-threats.html">Detecting &amp; Preventing Cyber Threats</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../astronomy.html">Astronomy</a></li>
+<li><a href="../../biology.html">Biology</a></li>
+<li><a href="../../business.html">Business</a></li>
+<li><a href="../../chemistry.html">Chemistry</a></li>
+<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Computer Science exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Computer Science Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../networks/CS32-network-security.html" class="nav-prev">← Previous Topic: Network Security</a>
+<a href="../cyber-security/CS34-detecting-preventing-cyber-threats.html" class="nav-next">Next Topic: Detecting & Preventing Cyber Threats →</a>
+</nav>
+</main>
+
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode');
+this.textContent = '🌙';
+localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode');
+this.textContent = '☀️';
+localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode');
+document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Cyber+Security+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Cyber Security Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Cyber Security revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Cyber+Security+Threats+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Cyber Security Threats Books →</div>
+  <div class="affiliate-card-desc">Browse Cyber Security Threats books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body>
+</html>

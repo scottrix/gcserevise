@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Common Calculation Pitfalls - GCSE Statistics</title>
+<meta name="description" content="GCSE Statistics common calculation pitfalls: frequent errors, showing working, correct formula use, checking reasonableness for Edexcel 1ST0 and AQA 8382.">
+<meta name="keywords" content="calculation errors, showing working, formula use, reasonableness check, order of operations, rounding, significant figures, GCSE Statistics, Edexcel 1ST0 & AQA 8382">
+<meta property="og:title" content="Common Calculation Pitfalls - GCSE Statistics">
+<meta property="og:description" content="GCSE Statistics common calculation pitfalls: frequent errors, showing working, correct formula use, checking reasonableness for Edexcel 1ST0 and AQA 8382.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/stats-exam-technique/common-calculation-pitfalls.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/stats-exam-technique/common-calculation-pitfalls.html">
+<meta property="og:site_name" content="GCSE Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Common Calculation Pitfalls">
+<meta name="twitter:description" content="GCSE Statistics common calculation pitfalls: frequent errors, showing working, correct formula use, checking reasonableness for Edexcel 1ST0 and AQA 8382.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:A student calculates the mean of grouped data as 45.2 using class upper bounds instead of midpoints. The classes are 10–20, 20–30, 30–40. What should they have used?", "acceptedAnswer": {"@type": "Answer", "text": "Midpoints: 15, 25, 35. Using upper bounds (20, 30, 40) overestimates each value by 5, shifting the mean upward."}}, {"@type": "Question", "name": "Q:A student computes P(A or B) = 0.6 + 0.7 = 1.3. Why is this wrong?", "acceptedAnswer": {"@type": "Answer", "text": "A probability cannot exceed 1. The events are not mutually exclusive, so P(A∪B) = P(A) + P(B) − P(A∩B). The overlap must be subtracted."}}, {"@type": "Question", "name": "Q:Calculate the percentage change when a value rises from 80 to 100. A student writes (100÷80) × 100 = 125%. Is this correct?", "acceptedAnswer": {"@type": "Answer", "text": "The student found 125% of the original, not the percentage change. Percentage change = ((100−80)/80) × 100 = (20/80) × 100 = 25% increase."}}, {"@type": "Question", "name": "Q:A student finds the IQR as Q1 + Q3 = 24 + 36 = 60. What is the correct IQR?", "acceptedAnswer": {"@type": "Answer", "text": "IQR = Q3 − Q1 = 36 − 24 = 12. The student added instead of subtracting."}}, {"@type": "Question", "name": "Q:A student calculates Spearman’s rank with n = 8 and ∑d² = 22 and gets r_s = 2.1. How do you know this is wrong?", "acceptedAnswer": {"@type": "Answer", "text": "Spearman’s rank must lie between −1 and +1. Check: r_s = 1 − (6×22)/(8×63) = 1 − 132/504 = 1 − 0.262 = 0.738. The student likely made an arithmetic error in the formula."}}]}</script>
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="../../#subjects">Subjects</a>
+<a href="../../../../statistics.html">Statistics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../">Home</a> <span>›</span>
+<a href="../../../../statistics.html">Statistics</a> <span>›</span>
+<span>Exam Technique &amp; SEC</span> <span>›</span>
+<span>Common Calculation Pitfalls</span>
+</nav>
+<article class="topic-header">
+<h1>ST25: Common Calculation Pitfalls</h1>
+<div class="topic-meta">
+<span class="badge">Edexcel 1ST0 &amp; AQA 8382</span>
+</div>
+<p class="topic-desc">Identifies the most frequent calculation errors in GCSE Statistics, emphasises the importance of showing working, using formulas correctly, and checking answers for reasonableness in context.</p>
+</article>
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>Common Calculation Pitfalls</h2>
+<p>Identifies the most frequent calculation errors in GCSE Statistics, emphasises the importance of showing working, using formulas correctly, and checking answers for reasonableness in context.</p>
+<div class="key-point">
+<strong>Key Fact:</strong> Always show intermediate steps in calculations; method marks can be awarded even if the final answer is wrong
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Use BIDMAS/BODMAS correctly: brackets first, then indices, then division/multiplication, then addition/subtraction
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For the mean of grouped data: mean = ∑(midpoint × frequency) ÷ ∑frequency; do not use class boundaries or upper limits as the x-value
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Standard deviation formula: SD = √(∑fx²/∑f − (mean)²) for coded or from a calculator; ensure you use the correct version for the syllabus
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> When calculating IQR from grouped data: Q1 is at the 25th percentile position and Q3 at the 75th; use linear interpolation within the class
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> IQR = Q3 − Q1; a common error is calculating Q3 + Q1 or using the wrong positions for quartiles
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For Spearman’s rank: rank the data first (assign 1, 2, 3…), find d = rank_x − rank_y for each pair, then r_s = 1 − (6∑d²)/(n(n²−1))
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Check reasonableness: a mean height of 170 m is clearly wrong (should be cm); a probability above 1 or below 0 is impossible
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Round only at the final answer; rounding intermediate values introduces cumulative error
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> When using formulas from the formula sheet, substitute values before calculating; do not try to rearrange under time pressure
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> For percentage change: ((new − original) ÷ original) × 100; a common error is dividing by the new value instead of the original
+</div>
+<div class="key-point">
+<strong>Key Fact:</strong> Index number calculations: check you are dividing by the correct base value, not the current value
+</div>
+</section>
+<section class="section">
+<h2>📋 Key Vocabulary and Concepts</h2>
+<p>For Common Calculation Pitfalls, you must know:</p>
+<ul><li><strong>Method marks:</strong> Marks awarded for correct working even if the final answer is incorrect; showing steps is essential</li>
+<li><strong>Reasonableness check:</strong> Verifying that an answer makes sense in context, e.g. a mean age should not be 250 years</li>
+<li><strong>Cumulative rounding error:</strong> Error that builds up when intermediate values are rounded instead of keeping full precision</li>
+<li><strong>Linear interpolation:</strong> Finding a value within a class interval by assuming data is evenly distributed within that class</li>
+<li><strong>BIDMAS/BODMAS:</strong> The order of operations: Brackets, Indices, Division/Multiplication, Addition/Subtraction</li>
+<li><strong>Significant figures:</strong> The number of meaningful digits in a value; GCSE Statistics typically uses 3 or 4 significant figures for final answers</li></ul>
+</section>
+<section class="section">
+<h2>❓ Practice Questions</h2>
+<div class="practice-questions"><div class="question"><p><strong>Q:</strong> A student calculates the mean of grouped data as 45.2 using class upper bounds instead of midpoints. The classes are 10–20, 20–30, 30–40. What should they have used?</p></div>
+<div class="question"><p><strong>Q:</strong> A student computes P(A or B) = 0.6 + 0.7 = 1.3. Why is this wrong?</p></div>
+<div class="question"><p><strong>Q:</strong> Calculate the percentage change when a value rises from 80 to 100. A student writes (100÷80) × 100 = 125%. Is this correct?</p></div>
+<div class="question"><p><strong>Q:</strong> A student finds the IQR as Q1 + Q3 = 24 + 36 = 60. What is the correct IQR?</p></div>
+<div class="question"><p><strong>Q:</strong> A student calculates Spearman’s rank with n = 8 and ∑d² = 22 and gets r_s = 2.1. How do you know this is wrong?</p></div></div>
+</section>
+<section class="section">
+<h2>✅ Answers</h2>
+<ol><li>Midpoints: 15, 25, 35. Using upper bounds (20, 30, 40) overestimates each value by 5, shifting the mean upward.</li>
+<li>A probability cannot exceed 1. The events are not mutually exclusive, so P(A∪B) = P(A) + P(B) − P(A∩B). The overlap must be subtracted.</li>
+<li>The student found 125% of the original, not the percentage change. Percentage change = ((100−80)/80) × 100 = (20/80) × 100 = 25% increase.</li>
+<li>IQR = Q3 − Q1 = 36 − 24 = 12. The student added instead of subtracting.</li>
+<li>Spearman’s rank must lie between −1 and +1. Check: r_s = 1 − (6×22)/(8×63) = 1 − 132/504 = 1 − 0.262 = 0.738. The student likely made an arithmetic error in the formula.</li></ol>
+</section>
+<section class="section">
+<h2>🎯 Exam Tips</h2>
+<ul><li>Write out the formula first, then substitute numbers — this earns method marks even if the arithmetic goes wrong</li>
+<li>After every calculation, ask: ‘Does this number make sense?’ A mean of 2000 for heights in cm is wrong; in mm it would be 2000 mm = 200 cm = 2 m, which is reasonable</li>
+<li>Keep intermediate values unrounded in your calculator; round only the final answer to the required accuracy</li>
+<li>For grouped data questions, always use midpoints for calculations — write them out in a column first</li>
+<li>When a formula is on the formula sheet, write it out and label each variable before substituting values</li></ul>
+</section>
+<section class="section">
+<h2>📝 Exam Technique</h2>
+<div class="key-point">
+  <strong>GCSE Statistics Exam Tips — Common Calculation Pitfalls:</strong><br>
+  1. For Common Calculation Pitfalls questions, show every step of your working clearly — method marks count even if the final answer is wrong<br>
+    2. Check your answer makes sense in context (estimation, units, reasonableness)<br>
+    3. Use correct mathematical notation and state formulae before substituting values<br>
+    4. If a Common Calculation Pitfalls question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line<br>
+    5. For problem-solving, identify the topic first, then recall the relevant method
+</div><h2>⚠️ Common Errors</h2>
+<div class="misconception"><p><span class="wrong">✗ Using class upper bounds or lower bounds instead of midpoints in grouped data calculations</span> <span class="right">✓ Always calculate the midpoint = (lower + upper) ÷ 2 for each class</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Adding Q1 and Q3 instead of subtracting to find IQR</span> <span class="right">✓ IQR = Q3 − Q1, not Q3 + Q1</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Dividing by the new value instead of the original when calculating percentage change</span> <span class="right">✓ Percentage change = ((new − original) ÷ original) × 100; always divide by the original value</span></p></div>
+<div class="misconception"><p><span class="wrong">✗ Rounding too early in multi-step calculations, leading to a wrong final answer</span> <span class="right">✓ Keep full calculator precision for intermediate steps; round only the final answer</span></p></div>
+</section>
+<section class="section">
+<h2>✍️ Model Answer</h2>
+<div class="extended-question">
+<h3>Full-Mark Response</h3>
+<p><strong>The table shows grouped data for the masses of 40 parcels. Calculate the estimated mean.
+
+| Mass (kg) | Frequency |
+|-----------|----------|
+| 0–2      | 8        |
+| 2–4      | 14       |
+| 4–6      | 12       |
+| 6–8      | 6        |</strong></p>
+<button onclick="this.parentElement.classList.toggle('show-answer')">Show Model Answer</button>
+<div class="model-answer">
+<p>Step 1: Find the midpoint of each class.
+0–2: midpoint = 1, 2–4: midpoint = 3, 4–6: midpoint = 5, 6–8: midpoint = 7
+
+Step 2: Calculate midpoint × frequency for each class.
+1 × 8 = 8, 3 × 14 = 42, 5 × 12 = 60, 7 × 6 = 42
+
+Step 3: Sum the results.
+∑fx = 8 + 42 + 60 + 42 = 152
+
+Step 4: Divide by the total frequency.
+Estimated mean = 152 ÷ 40 = 3.8 kg
+
+Reasonableness check: 3.8 kg is between the lower and upper bounds of the data (0 and 8), and it falls in the 2–4 class, which has the highest frequency, so this is plausible.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<h2>📊 AO Deep Dive</h2>
+<div class="ao3-section">
+<h3>Assessment Objective Analysis</h3>
+<p><strong>AO1 (Knowledge &amp; Understanding):</strong> Demonstrate knowledge and understanding of common calculation pitfalls, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382.<br><br>
+<strong>AO2 (Application):</strong> Apply knowledge and understanding of common calculation pitfalls to interpret data, reason statistically and draw conclusions in context.<br><br>
+<strong>AO3 (Evaluation):</strong> Evaluate statistical methods and conclusions, assessing appropriateness, reliability, validity and bias through the statistical enquiry cycle.</p>
+</div>
+</section>
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<ul>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA Past Papers - Topic Questions</a> -- AQA</li><li><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel Past Papers - Topic Questions</a> -- Edexcel</li><li><a href="https://ccea.org.uk/past-papers/" target="_blank" rel="noopener">CCEA Past Papers - Topic Questions</a> -- CCEA</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.bbc.co.uk/bitesize/gcse/statistics" target="_blank" rel="noopener">BBC Bitesize: GCSE Statistics</a></li>
+<li><a href="https://www.youtube.com/results?search_query=GCSE+Statistics+Common+Calculation+Pitfalls" target="_blank" rel="noopener">YouTube: GCSE Statistics Common Calculation Pitfalls</a></li></ul>
+</section>
+
+
+<section class="section share-section">
+<h2>Share this page</h2>
+<div class="share-buttons">
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/stats-exam-technique/common-calculation-pitfalls.html&text=Common Calculation Pitfalls" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/stats-exam-technique/common-calculation-pitfalls.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/stats-exam-technique/common-calculation-pitfalls.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Common Calculation Pitfalls%20https://scottrix.github.io/gcserevise/topics/stats-exam-technique/common-calculation-pitfalls.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/stats-exam-technique/common-calculation-pitfalls.html" title="Copy link">Copy Link</a>
+</div>
+</section>
+<section class="section related-topics">
+<h2>Related</h2>
+<div class="related-group"><h4>Related Topics</h4><ul>
+<li><a href="interpreting-exam-questions.html">Interpreting Exam Questions</a></li>
+<li><a href="paper-technique-revision.html">Paper Technique &amp;amp; Revision</a></li>
+<li><a href="statistical-enquiry-cycle-practice.html">Statistical Enquiry Cycle in Practice</a></li>
+<li><a href="statistical-writing-communication.html">Statistical Writing &amp;amp; Communication</a></li>
+</ul></div>
+<div class="related-group"><h4>Related Subjects</h4><ul>
+<li><a href="../../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../../biology.html">Biology</a></li>
+<li><a href="../../../../business.html">Business</a></li>
+<li><a href="../../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../../classical-civilisation.html">Classical Civilisation</a></li>
+</ul></div>
+</section>
+<section class="section affiliate-cta-end">
+<h3>Ready to ace your GCSE Statistics exams?</h3>
+<p>Get the best revision books and guides to boost your grades.</p>
+<div class="cta-links">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+books&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📚 Shop Statistics Books</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">📖 Shop Revision Guides</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
+</div>
+</section>
+<nav class="topic-nav">
+<a href="../stats-exam-technique/statistical-writing-communication.html" class="nav-prev">← Previous Topic</a>
+<a href="../stats-exam-technique/paper-technique-revision.html" class="nav-next">Next Topic →</a>
+</nav>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<aside class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=GCSE+Statistics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Statistics Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Statistics revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+Edexcel+1ST0+%26+AQA+8382+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse GCSE Edexcel 1ST0 &amp; AQA 8382 Books →</div>
+  <div class="affiliate-card-desc">Browse GCSE Edexcel 1ST0 &amp; AQA 8382 revision books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=Common+Calculation+Pitfalls+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Browse Common Calculation Pitfalls Books →</div>
+  <div class="affiliate-card-desc">Browse Common Calculation Pitfalls books on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Find GCSE Revision Guides →</div>
+  <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
+  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+<div class="affiliate-card-urgency">Essential for 2026 exams</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Fastmail — Private Email</div>
+<div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div>
+<div class="affiliate-card-store">fastmail.com</div>
+</a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Dynadot — Domain Registration →</div>
+<div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div>
+<div class="affiliate-card-store">dynadot.com</div>
+</a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">Zen Internet — UK Broadband →</div>
+<div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div>
+<div class="affiliate-card-store">zen.co.uk</div>
+</a>
+</aside>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+</body></html>
