@@ -1,0 +1,218 @@
+{
+  "subject": "biology",
+  "board": "AQA",
+  "tier": "",
+  "topic": "B1-cell-structure",
+  "topicName": "Cell Structure",
+  "version": 1,
+  "questions": [
+    {
+      "id": "bio-cell-q1",
+      "type": "multiple-choice",
+      "question": "Which organelle is the site of aerobic respiration in eukaryotic cells?",
+      "marks": 1,
+      "commandWord": "state",
+      "ao": "AO1",
+      "difficulty": 1,
+      "options": ["Nucleus", "Mitochondria", "Ribosome", "Chloroplast"],
+      "correctAnswer": "1",
+      "markScheme": {
+        "points": [
+          { "text": "Mitochondria", "marks": 1, "guidance": "Accept 'mitochondrion'" }
+        ],
+        "exemplarAnswer": "Mitochondria",
+        "commonErrors": ["Confusing with chloroplast (photosynthesis)", "Confusing with nucleus (genetic material)"]
+      },
+      "year": 2022,
+      "paper": "Paper 1",
+      "questionNumber": "1"
+    },
+    {
+      "id": "bio-cell-q2",
+      "type": "multiple-choice",
+      "question": "A student observes a cell under a microscope. It has a cell wall, chloroplasts, and a large permanent vacuole. What type of cell is it?",
+      "marks": 1,
+      "commandWord": "state",
+      "ao": "AO1",
+      "difficulty": 1,
+      "options": ["Animal cell", "Plant cell", "Bacterial cell", "Fungal cell"],
+      "correctAnswer": "1",
+      "markScheme": {
+        "points": [
+          { "text": "Plant cell", "marks": 1, "guidance": "Cell wall + chloroplasts + large vacuole = plant cell" }
+        ],
+        "exemplarAnswer": "Plant cell",
+        "commonErrors": ["Animal cell (no cell wall/chloroplasts)", "Bacterial cell (no nucleus/chloroplasts)"]
+      },
+      "year": 2021,
+      "paper": "Paper 1",
+      "questionNumber": "2"
+    },
+    {
+      "id": "bio-cell-q3",
+      "type": "short-answer",
+      "question": "State the function of the cell membrane.",
+      "marks": 2,
+      "commandWord": "state",
+      "ao": "AO1",
+      "difficulty": 2,
+      "markScheme": {
+        "points": [
+          { "text": "Controls movement of substances in and out of the cell", "marks": 1, "guidance": "Accept: selectively permeable / partially permeable" },
+          { "text": "Separates cell contents from external environment", "marks": 1, "guidance": "Accept: protection / barrier" }
+        ],
+        "exemplarAnswer": "Controls movement of substances in and out of the cell. Partially permeable.",
+        "commonErrors": ["Saying 'controls what enters the cell' without mentioning exit", "Confusing with cell wall function"]
+      },
+      "year": 2023,
+      "paper": "Paper 1",
+      "questionNumber": "3a"
+    },
+    {
+      "id": "bio-cell-q4",
+      "type": "short-answer",
+      "question": "Describe the difference between rough and smooth endoplasmic reticulum.",
+      "marks": 3,
+      "commandWord": "describe",
+      "ao": "AO1",
+      "difficulty": 3,
+      "markScheme": {
+        "points": [
+          { "text": "Rough ER has ribosomes on its surface", "marks": 1, "guidance": "Accept: studded with ribosomes" },
+          { "text": "Smooth ER does not have ribosomes", "marks": 1, "guidance": "Accept: lacks ribosomes" },
+          { "text": "Rough ER involved in protein synthesis / transport; Smooth ER involved in lipid/steroid synthesis", "marks": 1, "guidance": "Need function difference for full marks" }
+        ],
+        "exemplarAnswer": "Rough ER has ribosomes on its surface and is involved in protein synthesis and transport. Smooth ER lacks ribosomes and is involved in lipid and steroid synthesis.",
+        "commonErrors": ["Only stating one difference", "Confusing functions", "Not mentioning ribosomes"]
+      },
+      "year": 2022,
+      "paper": "Paper 1",
+      "questionNumber": "4"
+    },
+    {
+      "id": "bio-cell-q5",
+      "type": "calculation",
+      "question": "A cell image is 45 mm wide. The actual cell is 30 μm wide. Calculate the magnification. Give your answer as a whole number.",
+      "marks": 2,
+      "commandWord": "calculate",
+      "ao": "AO2",
+      "difficulty": 3,
+      "markScheme": {
+        "points": [
+          { "text": "Converts units correctly: 45 mm = 45,000 μm OR 30 μm = 0.03 mm", "marks": 1, "guidance": "Must show unit conversion" },
+          { "text": "Magnification = 45,000 / 30 = 1500 (or 45 / 0.03 = 1500)", "marks": 1, "guidance": "Accept 1500x or ×1500" }
+        ],
+        "exemplarAnswer": "45 mm = 45,000 μm. Magnification = 45,000 / 30 = 1500",
+        "commonErrors": ["Forgetting to convert units", "Using wrong formula", "Calculation errors"]
+      },
+      "year": 2023,
+      "paper": "Paper 1",
+      "questionNumber": "5a"
+    },
+    {
+      "id": "bio-cell-q6",
+      "type": "extended",
+      "question": "Explain how the structure of a palisade mesophyll cell is adapted for its function in photosynthesis.",
+      "marks": 6,
+      "commandWord": "explain",
+      "ao": "AO2",
+      "difficulty": 4,
+      "markScheme": {
+        "points": [
+          { "text": "Many chloroplasts / contains chlorophyll to absorb light", "marks": 2, "guidance": "1 mark for chloroplasts, 1 for chlorophyll/light absorption" },
+          { "text": "Tall/columnar shape - packed together to maximise light absorption", "marks": 1, "guidance": "Accept: large surface area for light" },
+          { "text": "Thin cell walls - short diffusion distance for CO₂", "marks": 1, "guidance": "Accept: gas exchange" },
+          { "text": "Large vacuole - pushes chloroplasts to edge near light", "marks": 1, "guidance": "Accept: positions chloroplasts for light" },
+          { "text": "Located at top of leaf - first to receive light", "marks": 1, "guidance": "Accept: upper epidermis position" }
+        ],
+        "exemplarAnswer": "Palisade cells are adapted for photosynthesis: they contain many chloroplasts with chlorophyll to absorb light energy. Their tall, columnar shape allows them to be packed tightly, maximising light absorption. Thin cell walls provide a short diffusion path for carbon dioxide. A large central vacuole pushes chloroplasts to the edge of the cell, closer to the light source. They are located at the top of the leaf, so they receive light first.",
+        "commonErrors": ["Listing features without linking to function", "Confusing with spongy mesophyll", "Not mentioning chlorophyll/light absorption"]
+      },
+      "year": 2021,
+      "paper": "Paper 1",
+      "questionNumber": "6"
+    },
+    {
+      "id": "bio-cell-q7",
+      "type": "short-answer",
+      "question": "Name the organelle that modifies and packages proteins for secretion.",
+      "marks": 1,
+      "commandWord": "state",
+      "ao": "AO1",
+      "difficulty": 2,
+      "markScheme": {
+        "points": [
+          { "text": "Golgi apparatus / Golgi body", "marks": 1, "guidance": "Accept Golgi complex" }
+        ],
+        "exemplarAnswer": "Golgi apparatus",
+        "commonErrors": ["Rough ER (synthesises but doesn't package)", "Vesicles (transport but don't modify)"]
+      },
+      "year": 2020,
+      "paper": "Paper 2",
+      "questionNumber": "1"
+    },
+    {
+      "id": "bio-cell-q8",
+      "type": "practical",
+      "question": "A student wants to observe onion epidermal cells using a light microscope. Describe how they should prepare a slide and calculate the actual size of a cell if it appears 12 mm wide at ×400 magnification.",
+      "marks": 4,
+      "commandWord": "describe",
+      "ao": "AO3",
+      "difficulty": 4,
+      "markScheme": {
+        "points": [
+          { "text": "Peel thin layer of onion epidermis", "marks": 1, "guidance": "Accept: remove thin layer" },
+          { "text": "Place on slide, add drop of iodine solution (stain)", "marks": 1, "guidance": "Accept: methylene blue / stain nucleus" },
+          { "text": "Lower cover slip at angle to avoid air bubbles", "marks": 1, "guidance": "Accept: avoid bubbles" },
+          { "text": "Actual size = Image size / Magnification = 12 mm / 400 = 0.03 mm = 30 μm", "marks": 1, "guidance": "Must show working and correct units" }
+        ],
+        "exemplarAnswer": "Peel a thin layer of onion epidermis and place on a microscope slide. Add a drop of iodine solution to stain the nucleus. Lower a cover slip at an angle to avoid air bubbles. Actual size = 12 mm ÷ 400 = 0.03 mm = 30 μm.",
+        "commonErrors": ["Forgetting stain", "Not avoiding air bubbles", "Wrong unit conversion", "Using magnification instead of dividing"]
+      },
+      "year": 2022,
+      "paper": "Paper 2",
+      "questionNumber": "2"
+    },
+    {
+      "id": "bio-cell-q9",
+      "type": "multiple-choice",
+      "question": "Prokaryotic cells differ from eukaryotic cells because they:",
+      "marks": 1,
+      "commandWord": "state",
+      "ao": "AO1",
+      "difficulty": 2,
+      "options": ["Have a nucleus", "Have membrane-bound organelles", "Have DNA free in cytoplasm", "Are larger"],
+      "correctAnswer": "2",
+      "markScheme": {
+        "points": [
+          { "text": "Have DNA free in cytoplasm (no nucleus)", "marks": 1, "guidance": "Accept: no true nucleus / nucleoid region" }
+        ],
+        "exemplarAnswer": "Have DNA free in cytoplasm",
+        "commonErrors": ["Choosing 'have a nucleus' (opposite)", "Choosing 'have membrane-bound organelles' (opposite)"]
+      },
+      "year": 2019,
+      "paper": "Paper 1",
+      "questionNumber": "1"
+    },
+    {
+      "id": "bio-cell-q10",
+      "type": "short-answer",
+      "question": "Why do muscle cells contain many mitochondria?",
+      "marks": 2,
+      "commandWord": "explain",
+      "ao": "AO2",
+      "difficulty": 3,
+      "markScheme": {
+        "points": [
+          { "text": "Muscle contraction requires large amounts of ATP", "marks": 1, "guidance": "Accept: energy for contraction" },
+          { "text": "Mitochondria are the site of aerobic respiration which produces ATP", "marks": 1, "guidance": "Must link mitochondria to ATP production" }
+        ],
+        "exemplarAnswer": "Muscle cells need lots of ATP for contraction. Mitochondria carry out aerobic respiration to produce ATP, so more mitochondria means more ATP can be produced.",
+        "commonErrors": ["Saying 'energy' instead of ATP", "Not linking mitochondria to respiration", "Saying mitochondria 'make energy' (energy cannot be created)"]
+      },
+      "year": 2023,
+      "paper": "Paper 1",
+      "questionNumber": "4b"
+    }
+  ]
+}

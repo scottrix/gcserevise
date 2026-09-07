@@ -1,0 +1,170 @@
+{
+  "subject": "geography",
+  "board": "AQA",
+  "tier": "",
+  "topic": "tectonic-hazards",
+  "topicName": "Tectonic Hazards",
+  "version": 1,
+  "cards": [
+    {
+      "id": "geo-1",
+      "front": "What is the structure of the Earth?",
+      "back": "Inner core (solid iron/nickel), Outer core (liquid), Mantle (semi-molten rock), Crust (solid rock).",
+      "tags": ["earth-structure", "layers"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-2",
+      "front": "What are tectonic plates?",
+      "back": "Large slabs of crust and upper mantle (lithosphere) that move on the asthenosphere.",
+      "tags": ["tectonic-plates", "lithosphere", "asthenosphere"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-3",
+      "front": "What causes plate movement?",
+      "back": "Convection currents in the mantle. Heat from core causes magma to rise, cool, sink - circular motion drags plates.",
+      "tags": ["convection-currents", "mantle", "movement"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-4",
+      "front": "Name the 3 types of plate boundaries.",
+      "back": "Constructive (divergent), Destructive (convergent), Conservative (transform).",
+      "tags": ["plate-boundaries", "types"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-5",
+      "front": "What happens at a constructive plate boundary?",
+      "back": "Plates move apart. Magma rises, cools, forms new crust. Creates mid-ocean ridges, shield volcanoes, gentle earthquakes.",
+      "tags": ["constructive", "divergent", "mid-ocean-ridge"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-6",
+      "front": "What happens at a destructive plate boundary (oceanic-continental)?",
+      "back": "Denser oceanic plate subducts under continental. Deep ocean trench, fold mountains, composite volcanoes, violent earthquakes.",
+      "tags": ["destructive", "convergent", "subduction", "oceanic-continental"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-7",
+      "front": "What happens at a destructive plate boundary (continental-continental)?",
+      "back": "Neither subducts easily. Both buckle upwards forming high fold mountains (e.g., Himalayas). Shallow earthquakes, no volcanoes.",
+      "tags": ["destructive", "continental-continental", "fold-mountains"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-8",
+      "front": "What happens at a conservative plate boundary?",
+      "back": "Plates slide past each other. No crust created/destroyed. Shallow earthquakes, no volcanoes. E.g., San Andreas Fault.",
+      "tags": ["conservative", "transform", "san-andreas"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-9",
+      "front": "What are the two types of volcanoes at plate boundaries?",
+      "back": "Shield volcanoes (constructive, runny lava, gentle slopes) and Composite/Strato volcanoes (destructive, viscous lava, steep sides, explosive).",
+      "tags": ["volcanoes", "shield", "composite", "lava-types"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-10",
+      "front": "What is the Richter scale?",
+      "back": "Logarithmic scale measuring earthquake magnitude. Each whole number = 10x amplitude, ~31.6x energy release.",
+      "tags": ["richter-scale", "logarithmic", "magnitude"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-11",
+      "front": "What is the Mercalli scale?",
+      "back": "Measures earthquake intensity based on observed damage/effects (I-XII). Subjective, varies by location.",
+      "tags": ["mercalli-scale", "intensity", "damage"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-12",
+      "front": "Primary effects of earthquakes:",
+      "back": "Ground shaking, ground rupture, liquefaction, landslides, tsunamis (if underwater).",
+      "tags": ["earthquake-effects", "primary", "liquefaction", "tsunami"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-13",
+      "front": "Secondary effects of earthquakes:",
+      "back": "Fires (gas leaks), disease (water contamination), homelessness, economic disruption, aftershocks.",
+      "tags": ["earthquake-effects", "secondary", "fires", "disease"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-14",
+      "front": "Immediate responses to earthquakes:",
+      "back": "Search & rescue, emergency aid (food/water/shelter), medical treatment, restoring utilities, evacuation.",
+      "tags": ["responses", "immediate", "aid", "rescue"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-15",
+      "front": "Long-term responses to earthquakes:",
+      "back": "Rebuilding infrastructure, improving building codes, early warning systems, education/drills, economic recovery.",
+      "tags": ["responses", "long-term", "rebuilding", "preparedness"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-16",
+      "front": "Why do people live in tectonically active areas?",
+      "back": "Fertile volcanic soils, geothermal energy, tourism, mineral resources, cultural/historical ties, lack of alternatives.",
+      "tags": ["reasons", "living-near-volcanoes", "benefits"],
+      "difficulty": 2,
+      "ao": "AO2"
+    },
+    {
+      "id": "geo-17",
+      "front": "How can volcanic eruptions be monitored/predicted?",
+      "back": "Seismometers (earthquakes), tiltmeters/GPS (ground deformation), gas emissions (SO₂), thermal imaging, satellite monitoring.",
+      "tags": ["monitoring", "prediction", "seismometers", "gas", "gps"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "geo-18",
+      "front": "How can earthquake impacts be reduced?",
+      "back": "Building design (base isolation, cross-bracing), land-use zoning, early warning systems, emergency planning, education.",
+      "tags": ["mitigation", "building-design", "early-warning", "planning"],
+      "difficulty": 2,
+      "ao": "AO2"
+    },
+    {
+      "id": "geo-19",
+      "front": "Compare effects of earthquakes in HIC vs LIC (e.g., Japan 2011 vs Haiti 2010).",
+      "back": "HIC: Better buildings, warning systems, emergency services, insurance, faster recovery. LIC: Poor construction, no warning, limited aid, slow recovery, higher death toll.",
+      "tags": ["comparison", "hic", "lic", "japan", "haiti", "development"],
+      "difficulty": 3,
+      "ao": "AO3"
+    },
+    {
+      "id": "geo-20",
+      "front": "What is a supervolcano? Example?",
+      "back": "Erupts >1,000 km³ material. Global climate impact (volcanic winter). Yellowstone (USA), Toba (Indonesia). Rare but catastrophic.",
+      "tags": ["supervolcano", "yellowstone", "volcanic-winter", "catastrophic"],
+      "difficulty": 2,
+      "ao": "AO1"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "subject": "mathematics",
+  "board": "AQA",
+  "tier": "Higher",
+  "topic": "A1-algebraic-notation",
+  "topicName": "Algebraic Notation (Higher)",
+  "version": 1,
+  "cards": [
+    {
+      "id": "alg-h-1",
+      "front": "Simplify: (x³)²",
+      "back": "x⁶ (multiply powers: 3 × 2 = 6)",
+      "tags": ["indices", "powers", "rules"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-2",
+      "front": "Simplify: x⁵ ÷ x²",
+      "back": "x³ (subtract powers: 5 - 2 = 3)",
+      "tags": ["indices", "division", "rules"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-3",
+      "front": "Simplify: (2x³y²)³",
+      "back": "8x⁹y⁶ (2³ = 8, multiply each power by 3)",
+      "tags": ["indices", "brackets", "coefficients"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-4",
+      "front": "What does x⁰ equal? (x ≠ 0)",
+      "back": "1",
+      "tags": ["indices", "zero-power"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-5",
+      "front": "What does x⁻² equal?",
+      "back": "1/x²",
+      "tags": ["indices", "negative-powers", "reciprocal"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-6",
+      "front": "What does x^(1/2) equal?",
+      "back": "√x (square root)",
+      "tags": ["indices", "fractional-powers", "roots"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-7",
+      "front": "What does x^(3/2) equal?",
+      "back": "(√x)³ or √(x³)",
+      "tags": ["indices", "fractional-powers"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-8",
+      "front": "Simplify: √50",
+      "back": "5√2 (50 = 25 × 2, √25 = 5)",
+      "tags": ["surds", "simplifying"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-9",
+      "front": "Simplify: 3√2 + 5√2",
+      "back": "8√2",
+      "tags": ["surds", "adding"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-10",
+      "front": "Rationalise the denominator: 1/√3",
+      "back": "√3/3 (multiply top and bottom by √3)",
+      "tags": ["surds", "rationalising"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-11",
+      "front": "Rationalise: 5/(2+√3)",
+      "back": "5(2-√3) / (4-3) = 10 - 5√3 (multiply by conjugate)",
+      "tags": ["surds", "rationalising", "conjugate"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-12",
+      "front": "Expand: (x + 3)(x - 5)",
+      "back": "x² - 2x - 15",
+      "tags": ["expanding", "double-brackets", "quadratics"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-13",
+      "front": "Factorise: x² + 7x + 12",
+      "back": "(x + 3)(x + 4) (numbers that multiply to 12, add to 7)",
+      "tags": ["factorising", "quadratics", "trinomials"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-14",
+      "front": "Factorise: x² - 9",
+      "back": "(x + 3)(x - 3) (difference of two squares)",
+      "tags": ["factorising", "difference-of-two-squares"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-15",
+      "front": "Solve: x² - 5x + 6 = 0",
+      "back": "(x - 2)(x - 3) = 0, so x = 2 or x = 3",
+      "tags": ["solving", "quadratics", "factorising"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-16",
+      "front": "Quadratic formula:",
+      "back": "x = (-b ± √(b² - 4ac)) / 2a for ax² + bx + c = 0",
+      "tags": ["quadratic-formula", "formula"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-17",
+      "front": "Solve: 2x² - 5x - 3 = 0 using quadratic formula",
+      "back": "a=2, b=-5, c=-3. x = (5 ± √(25+24))/4 = (5 ± 7)/4. x = 3 or x = -0.5",
+      "tags": ["quadratic-formula", "calculation"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-18",
+      "front": "What does the discriminant (b² - 4ac) tell you?",
+      "back": "> 0: 2 real distinct roots. = 0: 1 real repeated root. < 0: no real roots.",
+      "tags": ["discriminant", "roots", "nature"],
+      "difficulty": 3,
+      "ao": "AO2"
+    },
+    {
+      "id": "alg-h-19",
+      "front": "Complete the square: x² + 6x + 2",
+      "back": "(x + 3)² - 7 (half of 6 is 3, 3²=9, 2-9=-7)",
+      "tags": ["completing-square", "vertex-form"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-h-20",
+      "front": "Solve the simultaneous equations: y = 2x + 1, y = x² - 2",
+      "back": "2x + 1 = x² - 2 → x² - 2x - 3 = 0 → (x-3)(x+1)=0 → x=3 or x=-1. When x=3, y=7. When x=-1, y=-1. Solutions: (3,7) and (-1,-1)",
+      "tags": ["simultaneous", "linear-quadratic", "substitution"],
+      "difficulty": 4,
+      "ao": "AO2"
+    }
+  ]
+}

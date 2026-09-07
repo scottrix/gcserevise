@@ -1,0 +1,213 @@
+{
+  "subject": "mathematics",
+  "board": "AQA",
+  "tier": "Foundation",
+  "topic": "A1-algebraic-notation",
+  "topicName": "Algebraic Notation",
+  "version": 1,
+  "questions": [
+    {
+      "id": "math-alg-q1",
+      "type": "multiple-choice",
+      "question": "Which of the following is the correct algebraic notation for '5 multiplied by x'?",
+      "marks": 1,
+      "commandWord": "state",
+      "ao": "AO1",
+      "difficulty": 1,
+      "options": ["5x", "x5", "5 + x", "5/x"],
+      "correctAnswer": "0",
+      "markScheme": {
+        "points": [
+          { "text": "5x", "marks": 1, "guidance": "Number before letter, no multiplication sign" }
+        ],
+        "exemplarAnswer": "5x",
+        "commonErrors": ["Writing x5 (letter first)", "Writing 5 × x (with multiplication sign)", "Writing 5 + x (addition instead of multiplication)"]
+      },
+      "year": 2022,
+      "paper": "Paper 1 (Non-calculator)",
+      "questionNumber": "1"
+    },
+    {
+      "id": "math-alg-q2",
+      "type": "multiple-choice",
+      "question": "Simplify: 3a + 2a",
+      "marks": 1,
+      "commandWord": "simplify",
+      "ao": "AO1",
+      "difficulty": 1,
+      "options": ["5a", "5a²", "6a", "6"],
+      "correctAnswer": "0",
+      "markScheme": {
+        "points": [
+          { "text": "5a", "marks": 1, "guidance": "Collect like terms: 3a + 2a = 5a" }
+        ],
+        "exemplarAnswer": "5a",
+        "commonErrors": ["5a² (adding powers)", "6a (multiplying coefficients)", "6 (ignoring variable)"]
+      },
+      "year": 2023,
+      "paper": "Paper 1 (Non-calculator)",
+      "questionNumber": "2"
+    },
+    {
+      "id": "math-alg-q3",
+      "type": "short-answer",
+      "question": "Expand: 4(x + 3)",
+      "marks": 1,
+      "commandWord": "expand",
+      "ao": "AO1",
+      "difficulty": 1,
+      "markScheme": {
+        "points": [
+          { "text": "4x + 12", "marks": 1, "guidance": "Multiply both terms by 4" }
+        ],
+        "exemplarAnswer": "4x + 12",
+        "commonErrors": ["4x + 3 (only multiplying first term)", "4x + 7 (adding instead of multiplying)"]
+      },
+      "year": 2022,
+      "paper": "Paper 2 (Calculator)",
+      "questionNumber": "3"
+    },
+    {
+      "id": "math-alg-q4",
+      "type": "short-answer",
+      "question": "Expand and simplify: 2(x + 5) + 3(x - 2)",
+      "marks": 2,
+      "commandWord": "expand and simplify",
+      "ao": "AO1",
+      "difficulty": 2,
+      "markScheme": {
+        "points": [
+          { "text": "2x + 10 + 3x - 6", "marks": 1, "guidance": "Correct expansion of both brackets" },
+          { "text": "5x + 4", "marks": 1, "guidance": "Correct collection of like terms" }
+        ],
+        "exemplarAnswer": "2x + 10 + 3x - 6 = 5x + 4",
+        "commonErrors": ["Sign errors: 2x + 10 + 3x - 6 = 5x + 16", "Only expanding one bracket", "5x - 4 (sign error on constant)"]
+      },
+      "year": 2023,
+      "paper": "Paper 1 (Non-calculator)",
+      "questionNumber": "4"
+    },
+    {
+      "id": "math-alg-q5",
+      "type": "short-answer",
+      "question": "Factorise fully: 6x + 9",
+      "marks": 1,
+      "commandWord": "factorise",
+      "ao": "AO1",
+      "difficulty": 2,
+      "markScheme": {
+        "points": [
+          { "text": "3(2x + 3)", "marks": 1, "guidance": "Must take out highest common factor (3)" }
+        ],
+        "exemplarAnswer": "3(2x + 3)",
+        "commonErrors": ["3(2x + 3) is correct but 6(x + 1.5) not fully factorised", "2(3x + 4.5)", "Not factorising at all"]
+      },
+      "year": 2021,
+      "paper": "Paper 1 (Non-calculator)",
+      "questionNumber": "5"
+    },
+    {
+      "id": "math-alg-q6",
+      "type": "calculation",
+      "question": "If x = 4 and y = -2, evaluate: 3x² - 2xy",
+      "marks": 2,
+      "commandWord": "calculate",
+      "ao": "AO1",
+      "difficulty": 3,
+      "markScheme": {
+        "points": [
+          { "text": "Substitutes correctly: 3(4)² - 2(4)(-2)", "marks": 1, "guidance": "Must show substitution" },
+          { "text": "Calculates correctly: 3(16) - 2(-8) = 48 + 16 = 64", "marks": 1, "guidance": "Correct arithmetic, handling negative × negative" }
+        ],
+        "exemplarAnswer": "3(4)² - 2(4)(-2) = 3(16) + 16 = 48 + 16 = 64",
+        "commonErrors": ["(-2)² = -4 (wrong)", "Forgetting brackets: 3×4² = 3×16 correct but -2×4×-2 = 16 not -16", "Order of operations errors"]
+      },
+      "year": 2022,
+      "paper": "Paper 2 (Calculator)",
+      "questionNumber": "6"
+    },
+    {
+      "id": "math-alg-q7",
+      "type": "short-answer",
+      "question": "Solve: 3x - 7 = 14",
+      "marks": 2,
+      "commandWord": "solve",
+      "ao": "AO1",
+      "difficulty": 2,
+      "markScheme": {
+        "points": [
+          { "text": "Add 7 to both sides: 3x = 21", "marks": 1, "guidance": "Correct inverse operation" },
+          { "text": "Divide by 3: x = 7", "marks": 1, "guidance": "Correct final answer" }
+        ],
+        "exemplarAnswer": "3x = 21, so x = 7",
+        "commonErrors": ["Subtracting 7: 3x = 7", "Dividing incorrectly: x = 21/3 = 6", "x = 7/3"]
+      },
+      "year": 2023,
+      "paper": "Paper 1 (Non-calculator)",
+      "questionNumber": "7"
+    },
+    {
+      "id": "math-alg-q8",
+      "type": "short-answer",
+      "question": "Solve: 4x + 3 = 2x + 11",
+      "marks": 2,
+      "commandWord": "solve",
+      "ao": "AO1",
+      "difficulty": 2,
+      "markScheme": {
+        "points": [
+          { "text": "Collect x terms: 4x - 2x = 11 - 3", "marks": 1, "guidance": "Correctly moves terms across equals" },
+          { "text": "2x = 8, so x = 4", "marks": 1, "guidance": "Correct final answer" }
+        ],
+        "exemplarAnswer": "4x - 2x = 11 - 3 → 2x = 8 → x = 4",
+        "commonErrors": ["4x - 2x = 11 + 3 (wrong sign)", "2x = 14, x = 7", "Not dividing by coefficient"]
+      },
+      "year": 2022,
+      "paper": "Paper 1 (Non-calculator)",
+      "questionNumber": "8"
+    },
+    {
+      "id": "math-alg-q9",
+      "type": "extended",
+      "question": "The perimeter of a rectangle is 36 cm. The length is 3 cm more than the width. Form an equation and solve it to find the dimensions of the rectangle.",
+      "marks": 4,
+      "commandWord": "form and solve",
+      "ao": "AO3",
+      "difficulty": 4,
+      "markScheme": {
+        "points": [
+          { "text": "Let width = x, length = x + 3", "marks": 1, "guidance": "Correctly defines variables" },
+          { "text": "Perimeter = 2(x + x + 3) = 36 OR 2x + 2(x + 3) = 36", "marks": 1, "guidance": "Correct equation for perimeter" },
+          { "text": "4x + 6 = 36 → 4x = 30", "marks": 1, "guidance": "Correct simplification" },
+          { "text": "x = 7.5, so width = 7.5 cm, length = 10.5 cm", "marks": 1, "guidance": "Correct solution with units" }
+        ],
+        "exemplarAnswer": "Let width = x cm, length = (x + 3) cm. Perimeter = 2[x + (x + 3)] = 36. 2(2x + 3) = 36. 4x + 6 = 36. 4x = 30. x = 7.5. Width = 7.5 cm, Length = 10.5 cm.",
+        "commonErrors": ["Wrong perimeter formula (e.g., x + x + 3 = 36)", "Not multiplying by 2", "x = 7.5 but forgetting to find length", "No units in answer"]
+      },
+      "year": 2021,
+      "paper": "Paper 3 (Calculator)",
+      "questionNumber": "12"
+    },
+    {
+      "id": "math-alg-q10",
+      "type": "multiple-choice",
+      "question": "Which expression represents '7 less than 3 times a number n'?",
+      "marks": 1,
+      "commandWord": "state",
+      "ao": "AO2",
+      "difficulty": 2,
+      "options": ["3n - 7", "7 - 3n", "3(n - 7)", "3n + 7"],
+      "correctAnswer": "0",
+      "markScheme": {
+        "points": [
+          { "text": "3n - 7", "marks": 1, "guidance": "'Less than' means subtract, '3 times n' is 3n" }
+        ],
+        "exemplarAnswer": "3n - 7",
+        "commonErrors": ["7 - 3n (reversing order)", "3(n - 7) = 3n - 21 (wrong interpretation)", "3n + 7 (using 'more than')"]
+      },
+      "year": 2020,
+      "paper": "Paper 1 (Non-calculator)",
+      "questionNumber": "2"
+    }
+  ]
+}

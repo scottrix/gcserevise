@@ -1,0 +1,184 @@
+{
+  "subject": "mathematics",
+  "board": "AQA",
+  "tier": "Foundation",
+  "topic": "A1-algebraic-notation",
+  "topicName": "Algebraic Notation",
+  "version": 1,
+  "tests": [
+    {
+      "id": "alg-foundation-basics",
+      "name": "Foundation Basics",
+      "description": "Core algebraic notation skills for Foundation tier",
+      "timeLimit": 10,
+      "passMark": 65,
+      "questions": [
+        {
+          "id": "f1",
+          "type": "multiple-choice",
+          "question": "Write '7 multiplied by x' in algebraic notation.",
+          "options": ["7x", "x7", "7 + x", "7/x"],
+          "correctAnswer": 0,
+          "explanation": "Number before letter, no multiplication sign.",
+          "marks": 1,
+          "difficulty": 1,
+          "ao": "AO1"
+        },
+        {
+          "id": "f2",
+          "type": "multiple-choice",
+          "question": "Simplify: 4a + 3a",
+          "options": ["7a", "7a²", "12a", "12"],
+          "correctAnswer": 0,
+          "explanation": "Collect like terms: 4a + 3a = 7a.",
+          "marks": 1,
+          "difficulty": 1,
+          "ao": "AO1"
+        },
+        {
+          "id": "f3",
+          "type": "multiple-choice",
+          "question": "What is the coefficient in the term 5x²?",
+          "options": ["5", "x", "2", "5x"],
+          "correctAnswer": 0,
+          "explanation": "The coefficient is the number in front of the variable.",
+          "marks": 1,
+          "difficulty": 1,
+          "ao": "AO1"
+        },
+        {
+          "id": "f4",
+          "type": "true-false",
+          "question": "3(x + 2) = 3x + 2",
+          "correctAnswer": false,
+          "explanation": "3(x + 2) = 3x + 6 (must multiply both terms by 3).",
+          "marks": 1,
+          "difficulty": 1,
+          "ao": "AO1"
+        },
+        {
+          "id": "f5",
+          "type": "calculation",
+          "question": "If x = 3, evaluate: 2x² + 5x - 4",
+          "correctAnswer": 29,
+          "explanation": "2(3)² + 5(3) - 4 = 2(9) + 15 - 4 = 18 + 15 - 4 = 29.",
+          "marks": 2,
+          "difficulty": 2,
+          "ao": "AO1"
+        }
+      ]
+    },
+    {
+      "id": "alg-foundation-developing",
+      "name": "Developing Skills",
+      "description": "Expanding, factorising, and solving equations",
+      "timeLimit": 15,
+      "passMark": 60,
+      "questions": [
+        {
+          "id": "f6",
+          "type": "multiple-choice",
+          "question": "Expand: 4(x - 3)",
+          "options": ["4x - 3", "4x - 12", "4x + 12", "x - 12"],
+          "correctAnswer": 1,
+          "explanation": "4(x - 3) = 4x - 12 (multiply both terms by 4).",
+          "marks": 1,
+          "difficulty": 2,
+          "ao": "AO1"
+        },
+        {
+          "id": "f7",
+          "type": "multiple-choice",
+          "question": "Factorise: 6x + 9",
+          "options": ["3(2x + 3)", "2(3x + 4.5)", "3(2x + 9)", "6(x + 1.5)"],
+          "correctAnswer": 0,
+          "explanation": "Highest common factor is 3: 6x + 9 = 3(2x + 3).",
+          "marks": 1,
+          "difficulty": 2,
+          "ao": "AO1"
+        },
+        {
+          "id": "f8",
+          "type": "short-answer",
+          "question": "Expand and simplify: 2(x + 4) + 3(x - 1)",
+          "correctAnswer": "5x + 5",
+          "explanation": "2x + 8 + 3x - 3 = 5x + 5.",
+          "marks": 2,
+          "difficulty": 2,
+          "ao": "AO1"
+        },
+        {
+          "id": "f9",
+          "type": "short-answer",
+          "question": "Solve: 3x - 5 = 16",
+          "correctAnswer": "7",
+          "explanation": "3x = 21, so x = 7.",
+          "marks": 2,
+          "difficulty": 2,
+          "ao": "AO1"
+        },
+        {
+          "id": "f10",
+          "type": "short-answer",
+          "question": "Solve: 4x + 3 = 2x + 11",
+          "correctAnswer": "4",
+          "explanation": "4x - 2x = 11 - 3 → 2x = 8 → x = 4.",
+          "marks": 2,
+          "difficulty": 2,
+          "ao": "AO1"
+        }
+      ]
+    },
+    {
+      "id": "alg-foundation-exam",
+      "name": "Exam Practice",
+      "description": "Mixed exam-style questions including word problems",
+      "timeLimit": 20,
+      "passMark": 55,
+      "questions": [
+        {
+          "id": "f11",
+          "type": "multiple-choice",
+          "question": "The perimeter of a rectangle is 24 cm. The length is x cm and the width is 3 cm. Which equation represents this?",
+          "options": ["2x + 3 = 24", "2(x + 3) = 24", "x + 3 = 24", "x + 6 = 24"],
+          "correctAnswer": 1,
+          "explanation": "Perimeter = 2(length + width) = 2(x + 3) = 24.",
+          "marks": 2,
+          "difficulty": 3,
+          "ao": "AO2"
+        },
+        {
+          "id": "f12",
+          "type": "multiple-choice",
+          "question": "Which expression means '5 less than 3 times a number n'?",
+          "options": ["3n - 5", "5 - 3n", "3(n - 5)", "3n + 5"],
+          "correctAnswer": 0,
+          "explanation": "'Less than' means subtract, '3 times n' is 3n, so 3n - 5.",
+          "marks": 1,
+          "difficulty": 2,
+          "ao": "AO2"
+        },
+        {
+          "id": "f13",
+          "type": "extended",
+          "question": "Sarah thinks of a number. She multiplies it by 4, then adds 7. The result is 35. Form an equation and solve it to find Sarah's number.",
+          "correctAnswer": "4x + 7 = 35 → 4x = 28 → x = 7",
+          "explanation": "Let the number be x. 4x + 7 = 35. Subtract 7: 4x = 28. Divide by 4: x = 7.",
+          "marks": 4,
+          "difficulty": 4,
+          "ao": "AO3"
+        },
+        {
+          "id": "f14",
+          "type": "extended",
+          "question": "The cost of hiring a bike is £5 per hour plus a fixed charge of £10. Write an expression for the cost C of hiring for h hours. If the total cost is £40, how many hours was the bike hired for?",
+          "correctAnswer": "C = 5h + 10. 5h + 10 = 40 → 5h = 30 → h = 6 hours",
+          "explanation": "Cost = 5h + 10. Set equal to 40: 5h + 10 = 40. 5h = 30. h = 6.",
+          "marks": 4,
+          "difficulty": 4,
+          "ao": "AO3"
+        }
+      ]
+    }
+  ]
+}

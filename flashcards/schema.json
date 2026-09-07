@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GCSE Revise Flashcard Schema",
+  "type": "object",
+  "required": ["subject", "board", "topic", "cards"],
+  "properties": {
+    "subject": { "type": "string", "description": "Subject ID (e.g., 'biology', 'mathematics')" },
+    "board": { "type": "string", "enum": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"] },
+    "tier": { "type": "string", "enum": ["Foundation", "Higher", ""] },
+    "topic": { "type": "string", "description": "Topic ID matching topic page filename" },
+    "topicName": { "type": "string", "description": "Human-readable topic name" },
+    "version": { "type": "integer", "default": 1, "description": "Data version for migrations" },
+    "cards": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "front", "back"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "front": { "type": "string", "minLength": 1, "description": "Question/prompt side" },
+          "back": { "type": "string", "minLength": 1, "description": "Answer/explanation side" },
+          "tags": { "type": "array", "items": { "type": "string" }, "default": [] },
+          "difficulty": { "type": "integer", "minimum": 1, "maximum": 5, "default": 3, "description": "Initial difficulty 1-5" },
+          "ao": { "type": "string", "enum": ["AO1", "AO2", "AO3"], "description": "Assessment objective" }
+        }
+      }
+    }
+  }
+}

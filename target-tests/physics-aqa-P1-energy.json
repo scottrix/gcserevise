@@ -1,0 +1,185 @@
+{
+  "subject": "physics",
+  "board": "AQA",
+  "tier": "",
+  "topic": "P1-energy",
+  "topicName": "Energy Stores and Transfers",
+  "version": 1,
+  "tests": [
+    {
+      "id": "energy-basics",
+      "name": "Energy Stores & Transfers",
+      "description": "Identify energy stores and calculate basic energy values",
+      "timeLimit": 10,
+      "passMark": 65,
+      "questions": [
+        {
+          "id": "e1",
+          "type": "multiple-choice",
+          "question": "Which of these is NOT an energy store?",
+          "options": ["Kinetic", "Thermal", "Electrical", "Light"],
+          "correctAnswer": 3,
+          "explanation": "Light is an energy transfer pathway, not a store. The 8 stores: kinetic, gravitational potential, elastic potential, chemical, thermal, nuclear, magnetic, electrostatic.",
+          "marks": 1,
+          "difficulty": 2,
+          "ao": "AO1"
+        },
+        {
+          "id": "e2",
+          "type": "multiple-choice",
+          "question": "A 2 kg ball is moving at 4 m/s. What is its kinetic energy?",
+          "options": ["8 J", "16 J", "32 J", "64 J"],
+          "correctAnswer": 1,
+          "explanation": "Ek = ½mv² = ½ × 2 × 4² = 1 × 16 = 16 J.",
+          "marks": 2,
+          "difficulty": 2,
+          "ao": "AO2"
+        },
+        {
+          "id": "e3",
+          "type": "multiple-choice",
+          "question": "What happens to the gravitational potential energy of a ball thrown upwards?",
+          "options": ["Increases then decreases", "Decreases then increases", "Stays constant", "Becomes kinetic only"],
+          "correctAnswer": 0,
+          "explanation": "As ball rises, kinetic → GPE (increases). At top, max GPE. As falls, GPE → kinetic (decreases).",
+          "marks": 1,
+          "difficulty": 2,
+          "ao": "AO1"
+        },
+        {
+          "id": "e4",
+          "type": "calculation",
+          "question": "A 50 kg student climbs a 6 m high staircase. Calculate the GPE gained. (g = 10 N/kg)",
+          "correctAnswer": 3000,
+          "explanation": "Ep = mgh = 50 × 10 × 6 = 3000 J.",
+          "marks": 2,
+          "difficulty": 2,
+          "ao": "AO2"
+        },
+        {
+          "id": "e5",
+          "type": "short-answer",
+          "question": "State the unit of energy.",
+          "correctAnswer": "joule",
+          "explanation": "The SI unit of energy is the joule (J).",
+          "marks": 1,
+          "difficulty": 1,
+          "ao": "AO1"
+        }
+      ]
+    },
+    {
+      "id": "energy-calculations",
+      "name": "Energy Calculations",
+      "description": "Work, power, efficiency, and specific heat capacity calculations",
+      "timeLimit": 15,
+      "passMark": 60,
+      "questions": [
+        {
+          "id": "e6",
+          "type": "multiple-choice",
+          "question": "A force of 20 N moves an object 5 m. Work done?",
+          "options": ["4 J", "25 J", "100 J", "400 J"],
+          "correctAnswer": 2,
+          "explanation": "W = F × s = 20 × 5 = 100 J.",
+          "marks": 2,
+          "difficulty": 2,
+          "ao": "AO2"
+        },
+        {
+          "id": "e7",
+          "type": "multiple-choice",
+          "question": "A motor does 500 J of work in 10 s. What is its power?",
+          "options": ["5 W", "50 W", "500 W", "5000 W"],
+          "correctAnswer": 1,
+          "explanation": "P = E/t = 500/10 = 50 W.",
+          "marks": 2,
+          "difficulty": 2,
+          "ao": "AO2"
+        },
+        {
+          "id": "e8",
+          "type": "multiple-choice",
+          "question": "A kettle uses 200,000 J of energy. 160,000 J heats the water. Efficiency?",
+          "options": ["40%", "60%", "80%", "125%"],
+          "correctAnswer": 2,
+          "explanation": "Efficiency = useful output / total input × 100% = 160,000/200,000 × 100% = 80%.",
+          "marks": 2,
+          "difficulty": 2,
+          "ao": "AO2"
+        },
+        {
+          "id": "e9",
+          "type": "calculation",
+          "question": "0.5 kg of water is heated from 20°C to 80°C. Specific heat capacity of water = 4200 J/kg°C. Calculate energy transferred.",
+          "correctAnswer": 126000,
+          "explanation": "ΔE = mcΔθ = 0.5 × 4200 × 60 = 126,000 J.",
+          "marks": 2,
+          "difficulty": 3,
+          "ao": "AO2"
+        },
+        {
+          "id": "e10",
+          "type": "short-answer",
+          "question": "How can you reduce unwanted energy transfer by friction?",
+          "correctAnswer": "lubrication",
+          "explanation": "Lubrication reduces friction between moving parts.",
+          "marks": 1,
+          "difficulty": 1,
+          "ao": "AO1"
+        }
+      ]
+    },
+    {
+      "id": "energy-exam",
+      "name": "Exam Practice",
+      "description": "Mixed exam questions including 6-marker on efficiency",
+      "timeLimit": 20,
+      "passMark": 55,
+      "questions": [
+        {
+          "id": "e11",
+          "type": "multiple-choice",
+          "question": "A spring with k = 200 N/m is stretched 0.1 m. Elastic potential energy?",
+          "options": ["1 J", "2 J", "10 J", "20 J"],
+          "correctAnswer": 0,
+          "explanation": "Ee = ½ke² = ½ × 200 × 0.1² = 100 × 0.01 = 1 J.",
+          "marks": 2,
+          "difficulty": 3,
+          "ao": "AO2"
+        },
+        {
+          "id": "e12",
+          "type": "multiple-choice",
+          "question": "Which energy resource is renewable?",
+          "options": ["Coal", "Natural gas", "Wind", "Nuclear"],
+          "correctAnswer": 2,
+          "explanation": "Wind is renewable. Coal, gas are fossil fuels (non-renewable). Nuclear uses uranium (finite).",
+          "marks": 1,
+          "difficulty": 1,
+          "ao": "AO1"
+        },
+        {
+          "id": "e13",
+          "type": "extended",
+          "question": "A student investigates the efficiency of a motor lifting a 2 kg mass through 1.5 m. The motor uses 50 J of electrical energy. Calculate the efficiency of the motor. (g = 10 N/kg)",
+          "correctAnswer": "Useful energy = mgh = 2 × 10 × 1.5 = 30 J. Efficiency = 30/50 × 100% = 60%.",
+          "explanation": "GPE gained = 2 × 10 × 1.5 = 30 J. Efficiency = 30/50 × 100% = 60%.",
+          "marks": 4,
+          "difficulty": 4,
+          "ao": "AO3"
+        },
+        {
+          "id": "e14",
+          "type": "extended",
+          "question": "Compare the advantages and disadvantages of using wind turbines vs coal power stations for generating electricity.",
+          "correctAnswer": "Wind: renewable, zero CO₂ in operation, low running costs. Disadvantages: intermittent, visual/noise impact, high setup cost. Coal: reliable, high energy density, existing infrastructure. Disadvantages: CO₂ emissions, air pollution, finite resource, mining damage.",
+          "explanation": "Wind: pros - renewable, clean, low running costs. Cons - intermittent, visual impact, high capital cost. Coal: pros - reliable, energy dense, existing grid. Cons - CO₂, pollution, finite, mining damage.",
+          "marks": 6,
+          "difficulty": 4,
+          "ao": "AO3"
+        }
+      ]
+    }
+  ]
+}

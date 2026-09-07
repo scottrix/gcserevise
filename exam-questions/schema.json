@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GCSE Revise Exam Questions Schema",
+  "type": "object",
+  "required": ["subject", "board", "topic", "questions"],
+  "properties": {
+    "subject": { "type": "string", "description": "Subject ID (e.g., 'biology', 'mathematics')" },
+    "board": { "type": "string", "enum": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"] },
+    "tier": { "type": "string", "enum": ["Foundation", "Higher", ""] },
+    "topic": { "type": "string", "description": "Topic ID matching topic page filename" },
+    "topicName": { "type": "string", "description": "Human-readable topic name" },
+    "version": { "type": "integer", "default": 1 },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "question", "marks", "markScheme"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "type": { "type": "string", "enum": ["multiple-choice", "short-answer", "calculation", "extended", "practical"] },
+          "question": { "type": "string", "minLength": 1 },
+          "marks": { "type": "integer", "minimum": 1, "maximum": 9 },
+          "commandWord": { "type": "string", "enum": ["state", "describe", "explain", "calculate", "compare", "evaluate", "suggest", "predict", "design", "analyse"] },
+          "ao": { "type": "string", "enum": ["AO1", "AO2", "AO3"] },
+          "difficulty": { "type": "integer", "minimum": 1, "maximum": 5, "default": 3 },
+          "options": { "type": "array", "items": { "type": "string" }, "description": "For multiple-choice only" },
+          "correctAnswer": { "type": "string", "description": "For multiple-choice: index of correct option. For others: model answer." },
+          "markScheme": {
+            "type": "object",
+            "required": ["points"],
+            "properties": {
+              "points": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["text", "marks"],
+                  "properties": {
+                    "text": { "type": "string" },
+                    "marks": { "type": "integer" },
+                    "guidance": { "type": "string" }
+                  }
+                }
+              },
+              "exemplarAnswer": { "type": "string" },
+              "commonErrors": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "year": { "type": "integer", "description": "Original paper year" },
+          "paper": { "type": "string", "description": "Paper reference (e.g., 'Paper 1', 'Higher Tier')" },
+          "questionNumber": { "type": "string", "description": "Question number in original paper" }
+        }
+      }
+    }
+  }
+}

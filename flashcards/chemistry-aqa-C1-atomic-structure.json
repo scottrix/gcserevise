@@ -1,0 +1,130 @@
+{
+  "subject": "chemistry",
+  "board": "AQA",
+  "tier": "",
+  "topic": "C1-atomic-structure",
+  "topicName": "Atomic Structure",
+  "version": 1,
+  "cards": [
+    {
+      "id": "chem-1",
+      "front": "What are the three subatomic particles and their charges?",
+      "back": "Proton: +1, Neutron: 0, Electron: -1",
+      "tags": ["subatomic", "particles", "charge"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-2",
+      "front": "Where are protons and neutrons located in an atom?",
+      "back": "In the nucleus (center of the atom).",
+      "tags": ["nucleus", "structure"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-3",
+      "front": "What is the atomic number (Z) of an element?",
+      "back": "Number of protons in the nucleus. Determines the element's identity.",
+      "tags": ["atomic-number", "protons"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-4",
+      "front": "What is the mass number (A) of an atom?",
+      "back": "Total number of protons + neutrons in the nucleus.",
+      "tags": ["mass-number", "protons", "neutrons"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-5",
+      "front": "Calculate neutrons: Carbon-14 (6 protons).",
+      "back": "Neutrons = Mass number - Atomic number = 14 - 6 = 8 neutrons",
+      "tags": ["calculation", "isotopes"],
+      "difficulty": 2,
+      "ao": "AO2"
+    },
+    {
+      "id": "chem-6",
+      "front": "What are isotopes?",
+      "back": "Atoms of the same element (same protons) with different numbers of neutrons (different mass numbers).",
+      "tags": ["isotopes", "definition"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-7",
+      "front": "Electron configuration of Sodium (Na, Z=11):",
+      "back": "2, 8, 1 (2 in 1st shell, 8 in 2nd, 1 in 3rd)",
+      "tags": ["electron-configuration", "shells"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-8",
+      "front": "What is the maximum number of electrons in the first shell?",
+      "back": "2",
+      "tags": ["electron-shells", "capacity"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-9",
+      "front": "What is the maximum number of electrons in the second shell?",
+      "back": "8",
+      "tags": ["electron-shells", "capacity"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-10",
+      "front": "Define relative atomic mass (Ar).",
+      "back": "Weighted average mass of all naturally occurring isotopes of an element, relative to 1/12th the mass of a carbon-12 atom.",
+      "tags": ["relative-atomic-mass", "definition"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-11",
+      "front": "Chlorine has two isotopes: Cl-35 (75%) and Cl-37 (25%). Calculate Ar.",
+      "back": "(35 × 0.75) + (37 × 0.25) = 26.25 + 9.25 = 35.5",
+      "tags": ["relative-atomic-mass", "calculation", "isotopes"],
+      "difficulty": 3,
+      "ao": "AO2"
+    },
+    {
+      "id": "chem-12",
+      "front": "What happens when an atom loses electrons?",
+      "back": "Forms a positive ion (cation). More protons than electrons.",
+      "tags": ["ions", "cations", "electrons"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-13",
+      "front": "What happens when an atom gains electrons?",
+      "back": "Forms a negative ion (anion). More electrons than protons.",
+      "tags": ["ions", "anions", "electrons"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "chem-14",
+      "front": "What is the charge of a Mg²⁺ ion? How many electrons does it have? (Mg Z=12)",
+      "back": "Charge: +2. Electrons: 12 - 2 = 10 electrons",
+      "tags": ["ions", "charge", "calculation"],
+      "difficulty": 3,
+      "ao": "AO2"
+    },
+    {
+      "id": "chem-15",
+      "front": "How are elements arranged in the periodic table?",
+      "back": "In order of increasing atomic number (proton number). Elements in same group have similar properties.",
+      "tags": ["periodic-table", "arrangement"],
+      "difficulty": 1,
+      "ao": "AO1"
+    }
+  ]
+}

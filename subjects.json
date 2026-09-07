@@ -15,7 +15,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["english-language-aqa"],
+        "Edexcel": ["english-language-edexcel"],
+        "OCR": ["english-language-ocr"],
+        "Eduqas": ["english-language-eduqas"],
+        "CCEA": ["english-language-ccea"]
+      }
     },
     {
       "id": "english-literature",
@@ -24,7 +30,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["english-literature-aqa"],
+        "Edexcel": ["english-literature-edexcel"],
+        "OCR": ["english-literature-ocr"],
+        "Eduqas": ["english-literature-eduqas"],
+        "CCEA": ["english-literature-ccea"]
+      }
     },
     {
       "id": "mathematics",
@@ -33,7 +45,15 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 3,
-      "topics": []
+      "hasTiers": true,
+      "tiers": ["Foundation", "Higher"],
+      "topicDirs": {
+        "AQA": ["maths-aqa-foundation", "maths-aqa-higher"],
+        "Edexcel": ["maths-edexcel-foundation", "maths-edexcel-higher"],
+        "OCR": ["maths-ocr-foundation", "maths-ocr-higher"],
+        "Eduqas": ["maths-eduqas"],
+        "CCEA": ["maths-ccea"]
+      }
     },
     {
       "id": "biology",
@@ -42,7 +62,12 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["biology-aqa"],
+        "Edexcel": ["biology-edexcel"],
+        "OCR": ["biology-ocr"],
+        "CCEA": ["biology-ccea"]
+      }
     },
     {
       "id": "chemistry",
@@ -51,7 +76,12 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["chemistry-aqa"],
+        "Edexcel": ["chemistry-edexcel"],
+        "OCR": ["chemistry-ocr"],
+        "CCEA": ["chemistry-ccea"]
+      }
     },
     {
       "id": "physics",
@@ -60,7 +90,12 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["physics-aqa"],
+        "Edexcel": ["physics-edexcel"],
+        "OCR": ["physics-ocr"],
+        "CCEA": ["physics-ccea"]
+      }
     },
     {
       "id": "combined-science",
@@ -69,7 +104,12 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "CCEA"],
       "papers": 6,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["combined-science-aqa"],
+        "Edexcel": ["combined-science-edexcel"],
+        "OCR": ["combined-science-ocr"],
+        "CCEA": ["combined-science-ccea"]
+      }
     },
     {
       "id": "computer-science",
@@ -78,7 +118,12 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["computer-science-aqa"],
+        "Edexcel": ["computer-science-edexcel"],
+        "OCR": ["computer-science-ocr"],
+        "Eduqas": ["computer-science-eduqas"]
+      }
     },
     {
       "id": "history",
@@ -87,7 +132,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["history-aqa"],
+        "Edexcel": ["history-edexcel"],
+        "OCR": ["history-ocr"],
+        "Eduqas": ["history-eduqas"],
+        "CCEA": ["history-ccea"]
+      }
     },
     {
       "id": "geography",
@@ -96,7 +147,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 3,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["geography-aqa"],
+        "Edexcel": ["geography-edexcel"],
+        "OCR": ["geography-ocr"],
+        "Eduqas": ["geography-eduqas"],
+        "CCEA": ["geography-ccea"]
+      }
     },
     {
       "id": "religious-studies",
@@ -105,7 +162,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["religious-studies-aqa"],
+        "Edexcel": ["religious-studies-edexcel"],
+        "OCR": ["religious-studies-ocr"],
+        "Eduqas": ["religious-studies-eduqas"],
+        "CCEA": ["religious-studies-ccea"]
+      }
     },
     {
       "id": "french",
@@ -114,7 +177,12 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "Eduqas", "CCEA"],
       "papers": 4,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["french-aqa"],
+        "Edexcel": ["french-edexcel"],
+        "Eduqas": ["french-eduqas"],
+        "CCEA": ["french-ccea"]
+      }
     },
     {
       "id": "spanish",
@@ -123,7 +191,12 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "Eduqas", "CCEA"],
       "papers": 4,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["spanish-aqa"],
+        "Edexcel": ["spanish-edexcel"],
+        "Eduqas": ["spanish-eduqas"],
+        "CCEA": ["spanish-ccea"]
+      }
     },
     {
       "id": "german",
@@ -132,7 +205,12 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "Eduqas", "CCEA"],
       "papers": 4,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["german-aqa"],
+        "Edexcel": ["german-edexcel"],
+        "Eduqas": ["german-eduqas"],
+        "CCEA": ["german-ccea"]
+      }
     },
     {
       "id": "art-and-design",
@@ -141,7 +219,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["art-and-design-aqa"],
+        "Edexcel": ["art-and-design-edexcel"],
+        "OCR": ["art-and-design-ocr"],
+        "Eduqas": ["art-and-design-eduqas"],
+        "CCEA": ["art-and-design-ccea"]
+      }
     },
     {
       "id": "music",
@@ -150,7 +234,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["music-aqa"],
+        "Edexcel": ["music-edexcel"],
+        "OCR": ["music-ocr"],
+        "Eduqas": ["music-eduqas"],
+        "CCEA": ["music-ccea"]
+      }
     },
     {
       "id": "drama",
@@ -159,7 +249,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["drama-aqa"],
+        "Edexcel": ["drama-edexcel"],
+        "OCR": ["drama-ocr"],
+        "Eduqas": ["drama-eduqas"],
+        "CCEA": ["drama-ccea"]
+      }
     },
     {
       "id": "design-and-technology",
@@ -168,7 +264,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["design-and-technology-aqa"],
+        "Edexcel": ["design-and-technology-edexcel"],
+        "OCR": ["design-and-technology-ocr"],
+        "Eduqas": ["design-and-technology-eduqas"],
+        "CCEA": ["design-and-technology-ccea"]
+      }
     },
     {
       "id": "pe",
@@ -177,7 +279,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["pe-aqa"],
+        "Edexcel": ["pe-edexcel"],
+        "OCR": ["pe-ocr"],
+        "Eduqas": ["pe-eduqas"],
+        "CCEA": ["pe-ccea"]
+      }
     },
     {
       "id": "business",
@@ -186,7 +294,13 @@
       "universal": true,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["business-aqa"],
+        "Edexcel": ["business-edexcel"],
+        "OCR": ["business-ocr"],
+        "Eduqas": ["business-eduqas"],
+        "CCEA": ["business-ccea"]
+      }
     },
     {
       "id": "economics",
@@ -195,7 +309,12 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "OCR", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["economics-aqa"],
+        "Edexcel": ["economics-edexcel"],
+        "OCR": ["economics-ocr"],
+        "CCEA": ["economics-ccea"]
+      }
     },
     {
       "id": "psychology",
@@ -204,7 +323,11 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "OCR"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["psychology-aqa"],
+        "Edexcel": ["psychology-edexcel"],
+        "OCR": ["psychology-ocr"]
+      }
     },
     {
       "id": "sociology",
@@ -213,7 +336,11 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "Eduqas"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["sociology-aqa"],
+        "Edexcel": ["sociology-edexcel"],
+        "Eduqas": ["sociology-eduqas"]
+      }
     },
     {
       "id": "citizenship-studies",
@@ -222,7 +349,11 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "OCR"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["citizenship-studies-aqa"],
+        "Edexcel": ["citizenship-studies-edexcel"],
+        "OCR": ["citizenship-studies-ocr"]
+      }
     },
     {
       "id": "media-studies",
@@ -231,7 +362,12 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["media-studies-aqa"],
+        "Edexcel": ["media-studies-edexcel"],
+        "OCR": ["media-studies-ocr"],
+        "Eduqas": ["media-studies-eduqas"]
+      }
     },
     {
       "id": "food-preparation-nutrition",
@@ -240,7 +376,12 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "OCR", "Eduqas"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["food-preparation-nutrition-aqa"],
+        "Edexcel": ["food-preparation-nutrition-edexcel"],
+        "OCR": ["food-preparation-nutrition-ocr"],
+        "Eduqas": ["food-preparation-nutrition-eduqas"]
+      }
     },
     {
       "id": "latin",
@@ -249,7 +390,11 @@
       "universal": false,
       "boards": ["Edexcel", "OCR", "Eduqas"],
       "papers": 3,
-      "topics": []
+      "topicDirs": {
+        "Edexcel": ["latin-edexcel"],
+        "OCR": ["latin-ocr"],
+        "Eduqas": ["latin-eduqas"]
+      }
     },
     {
       "id": "astronomy",
@@ -258,7 +403,9 @@
       "universal": false,
       "boards": ["Edexcel"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "Edexcel": ["astronomy-edexcel"]
+      }
     },
     {
       "id": "geology",
@@ -267,7 +414,9 @@
       "universal": false,
       "boards": ["Eduqas"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "Eduqas": ["geology-eduqas"]
+      }
     },
     {
       "id": "ancient-history",
@@ -276,7 +425,9 @@
       "universal": false,
       "boards": ["OCR"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "OCR": ["ancient-history-ocr"]
+      }
     },
     {
       "id": "classical-civilisation",
@@ -285,7 +436,9 @@
       "universal": false,
       "boards": ["OCR"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "OCR": ["classical-civilisation-ocr"]
+      }
     },
     {
       "id": "law",
@@ -294,7 +447,9 @@
       "universal": false,
       "boards": ["AQA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["law-aqa"]
+      }
     },
     {
       "id": "dance",
@@ -303,7 +458,9 @@
       "universal": false,
       "boards": ["AQA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["dance-aqa"]
+      }
     },
     {
       "id": "film-studies",
@@ -312,7 +469,9 @@
       "universal": false,
       "boards": ["Eduqas"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "Eduqas": ["film-studies-eduqas"]
+      }
     },
     {
       "id": "electronics",
@@ -321,7 +480,9 @@
       "universal": false,
       "boards": ["Eduqas"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "Eduqas": ["electronics-eduqas"]
+      }
     },
     {
       "id": "engineering",
@@ -330,16 +491,24 @@
       "universal": false,
       "boards": ["AQA", "Edexcel", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["engineering-aqa"],
+        "Edexcel": ["engineering-edexcel"],
+        "CCEA": ["engineering-ccea"]
+      }
     },
     {
       "id": "statistics",
       "name": "Statistics",
-      "category": "Mathematics",
+      "category": "Core",
       "universal": false,
       "boards": ["AQA", "Edexcel", "CCEA"],
       "papers": 2,
-      "topics": []
+      "topicDirs": {
+        "AQA": ["statistics-aqa"],
+        "Edexcel": ["statistics-edexcel"],
+        "CCEA": ["statistics-ccea"]
+      }
     }
   ]
 }

@@ -1,0 +1,170 @@
+{
+  "subject": "physics",
+  "board": "AQA",
+  "tier": "",
+  "topic": "P1-energy",
+  "topicName": "Energy Stores and Transfers",
+  "version": 1,
+  "cards": [
+    {
+      "id": "phys-1",
+      "front": "Name the 8 energy stores.",
+      "back": "Kinetic, Gravitational Potential, Elastic Potential, Chemical, Thermal, Nuclear, Magnetic, Electrostatic.",
+      "tags": ["energy-stores", "list"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-2",
+      "front": "What is the unit of energy?",
+      "back": "Joule (J)",
+      "tags": ["units", "joule"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-3",
+      "front": "Formula for kinetic energy:",
+      "back": "Ek = ½ mv² (mass in kg, velocity in m/s, energy in J)",
+      "tags": ["kinetic-energy", "formula"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-4",
+      "front": "Formula for gravitational potential energy:",
+      "back": "Ep = mgh (mass in kg, g = 9.8 N/kg, height in m, energy in J)",
+      "tags": ["gpe", "formula"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-5",
+      "front": "Formula for elastic potential energy:",
+      "back": "Ee = ½ ke² (spring constant k in N/m, extension e in m, energy in J)",
+      "tags": ["elastic-potential", "formula"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-6",
+      "front": "A 2kg ball is thrown at 5 m/s. Calculate its kinetic energy.",
+      "back": "Ek = ½ × 2 × 5² = ½ × 2 × 25 = 25 J",
+      "tags": ["kinetic-energy", "calculation"],
+      "difficulty": 2,
+      "ao": "AO2"
+    },
+    {
+      "id": "phys-7",
+      "front": "A 60kg student climbs 10m. Calculate GPE gained. (g = 10 N/kg)",
+      "back": "Ep = mgh = 60 × 10 × 10 = 6000 J",
+      "tags": ["gpe", "calculation"],
+      "difficulty": 2,
+      "ao": "AO2"
+    },
+    {
+      "id": "phys-8",
+      "front": "What is the law of conservation of energy?",
+      "back": "Energy cannot be created or destroyed, only transferred between stores. Total energy in a closed system remains constant.",
+      "tags": ["conservation", "law"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-9",
+      "front": "What happens to energy when work is done against friction?",
+      "back": "Transferred to thermal energy store (heat).",
+      "tags": ["friction", "thermal", "dissipation"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-10",
+      "front": "Formula for work done:",
+      "back": "W = F × s (Force in N, distance in m in direction of force, Work in J)",
+      "tags": ["work-done", "formula"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-11",
+      "front": "A force of 50N moves an object 4m. Work done?",
+      "back": "W = 50 × 4 = 200 J",
+      "tags": ["work-done", "calculation"],
+      "difficulty": 2,
+      "ao": "AO2"
+    },
+    {
+      "id": "phys-12",
+      "front": "What is power? Unit?",
+      "back": "Rate of energy transfer. Unit: Watt (W) = 1 J/s",
+      "tags": ["power", "definition", "units"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-13",
+      "front": "Formula for power:",
+      "back": "P = E ÷ t (Energy in J, time in s, Power in W)",
+      "tags": ["power", "formula"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-14",
+      "front": "A motor does 5000J of work in 10s. Power?",
+      "back": "P = 5000 ÷ 10 = 500 W",
+      "tags": ["power", "calculation"],
+      "difficulty": 2,
+      "ao": "AO2"
+    },
+    {
+      "id": "phys-15",
+      "front": "What is specific heat capacity? Unit?",
+      "back": "Energy needed to raise 1kg of a substance by 1°C. Unit: J/kg°C",
+      "tags": ["shc", "definition", "units"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-16",
+      "front": "Formula for energy change with temperature:",
+      "back": "ΔE = mcΔθ (mass in kg, specific heat capacity c in J/kg°C, temp change Δθ in °C)",
+      "tags": ["shc", "formula"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-17",
+      "front": "How can you reduce unwanted energy transfers?",
+      "back": "Lubrication (reduce friction), insulation (reduce thermal transfer), streamlining (reduce air resistance).",
+      "tags": ["efficiency", "reducing-losses"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-18",
+      "front": "Formula for efficiency:",
+      "back": "Efficiency = Useful output energy ÷ Total input energy × 100%",
+      "tags": ["efficiency", "formula"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "phys-19",
+      "front": "A kettle uses 200,000J to heat water. 180,000J heats the water. Efficiency?",
+      "back": "Efficiency = 180,000 ÷ 200,000 × 100% = 90%",
+      "tags": ["efficiency", "calculation"],
+      "difficulty": 2,
+      "ao": "AO2"
+    },
+    {
+      "id": "phys-20",
+      "front": "What are the main energy resources? Classify as renewable/non-renewable.",
+      "back": "Renewable: Solar, Wind, Hydro, Tidal, Geothermal, Biomass. Non-renewable: Coal, Oil, Gas, Nuclear.",
+      "tags": ["resources", "renewable", "non-renewable"],
+      "difficulty": 2,
+      "ao": "AO1"
+    }
+  ]
+}

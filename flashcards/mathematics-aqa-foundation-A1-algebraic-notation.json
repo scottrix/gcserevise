@@ -1,0 +1,170 @@
+{
+  "subject": "mathematics",
+  "board": "AQA",
+  "tier": "Foundation",
+  "topic": "A1-algebraic-notation",
+  "topicName": "Algebraic Notation",
+  "version": 1,
+  "cards": [
+    {
+      "id": "alg-1",
+      "front": "Write '3 multiplied by x' in algebraic notation.",
+      "back": "3x",
+      "tags": ["notation", "multiplication"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-2",
+      "front": "Write 'x divided by 5' in algebraic notation.",
+      "back": "x/5 or ⅕x",
+      "tags": ["notation", "division"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-3",
+      "front": "What does '2(x + 3)' mean?",
+      "back": "2 multiplied by (x + 3). Expand: 2x + 6",
+      "tags": ["brackets", "expanding"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-4",
+      "front": "Simplify: 3x + 2x",
+      "back": "5x",
+      "tags": ["collecting-like-terms"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-5",
+      "front": "Simplify: 4x + 3y - 2x + y",
+      "back": "2x + 4y",
+      "tags": ["collecting-like-terms"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-6",
+      "front": "What is the coefficient in the term '7x²'?",
+      "back": "7",
+      "tags": ["coefficient", "terms"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-7",
+      "front": "Expand: 3(x + 4)",
+      "back": "3x + 12",
+      "tags": ["expanding", "single-brackets"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-8",
+      "front": "Expand: 2(x - 5)",
+      "back": "2x - 10",
+      "tags": ["expanding", "single-brackets", "negatives"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-9",
+      "front": "Expand and simplify: 2(x + 3) + 4(x - 1)",
+      "back": "2x + 6 + 4x - 4 = 6x + 2",
+      "tags": ["expanding", "simplifying", "multiple-brackets"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-10",
+      "front": "Factorise: 6x + 9",
+      "back": "3(2x + 3)",
+      "tags": ["factorising", "single-brackets"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-11",
+      "front": "Factorise: x² + 5x",
+      "back": "x(x + 5)",
+      "tags": ["factorising", "quadratics"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-12",
+      "front": "If a = 3 and b = 5, evaluate: 2a + 3b",
+      "back": "2(3) + 3(5) = 6 + 15 = 21",
+      "tags": ["substitution", "evaluation"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-13",
+      "front": "If x = 4, evaluate: 3x² - 2x + 1",
+      "back": "3(16) - 2(4) + 1 = 48 - 8 + 1 = 41",
+      "tags": ["substitution", "powers", "evaluation"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-14",
+      "front": "Solve: x + 7 = 15",
+      "back": "x = 8",
+      "tags": ["solving", "linear-equations", "one-step"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-15",
+      "front": "Solve: 3x = 24",
+      "back": "x = 8",
+      "tags": ["solving", "linear-equations", "one-step"],
+      "difficulty": 1,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-16",
+      "front": "Solve: 2x + 5 = 17",
+      "back": "2x = 12, so x = 6",
+      "tags": ["solving", "linear-equations", "two-step"],
+      "difficulty": 2,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-17",
+      "front": "Solve: 4x - 3 = 2x + 9",
+      "back": "4x - 2x = 9 + 3 → 2x = 12 → x = 6",
+      "tags": ["solving", "linear-equations", "unknowns-both-sides"],
+      "difficulty": 3,
+      "ao": "AO1"
+    },
+    {
+      "id": "alg-18",
+      "front": "What is an expression vs an equation?",
+      "back": "Expression: no equals sign (e.g., 3x + 2). Equation: has equals sign, can be solved (e.g., 3x + 2 = 11).",
+      "tags": ["expression", "equation", "vocabulary"],
+      "difficulty": 2,
+      "ao": "AO2"
+    },
+    {
+      "id": "alg-19",
+      "front": "Write an expression for: '5 more than twice a number n'",
+      "back": "2n + 5",
+      "tags": ["forming-expressions", "word-problems"],
+      "difficulty": 2,
+      "ao": "AO2"
+    },
+    {
+      "id": "alg-20",
+      "front": "The perimeter of a rectangle is 20cm. Length = x, width = 3. Form and solve an equation for x.",
+      "back": "2(x + 3) = 20 → 2x + 6 = 20 → 2x = 14 → x = 7cm",
+      "tags": ["forming-equations", "perimeter", "word-problems"],
+      "difficulty": 3,
+      "ao": "AO3"
+    }
+  ]
+}

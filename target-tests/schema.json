@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GCSE Revise Target Tests Schema",
+  "type": "object",
+  "required": ["subject", "board", "topic", "tests"],
+  "properties": {
+    "subject": { "type": "string" },
+    "board": { "type": "string", "enum": ["AQA", "Edexcel", "OCR", "Eduqas", "CCEA"] },
+    "tier": { "type": "string", "enum": ["Foundation", "Higher", ""] },
+    "topic": { "type": "string" },
+    "topicName": { "type": "string" },
+    "version": { "type": "integer", "default": 1 },
+    "tests": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "questions", "timeLimit", "passMark"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "timeLimit": { "type": "integer", "description": "Minutes, 0 = untimed" },
+          "passMark": { "type": "integer", "minimum": 0, "maximum": 100, "description": "Percentage to pass" },
+          "questions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id", "type", "question", "correctAnswer"],
+              "properties": {
+                "id": { "type": "string" },
+                "type": { "type": "string", "enum": ["multiple-choice", "short-answer", "calculation", "true-false", "ordering", "matching"] },
+                "question": { "type": "string" },
+                "options": { "type": "array", "items": { "type": "string" } },
+                "correctAnswer": { "type": ["string", "number", "boolean"] },
+                "explanation": { "type": "string" },
+                "marks": { "type": "integer", "default": 1 },
+                "difficulty": { "type": "integer", "minimum": 1, "maximum": 5, "default": 3 },
+                "ao": { "type": "string", "enum": ["AO1", "AO2", "AO3"] }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
