@@ -403,11 +403,48 @@ body {
     padding: 1.5rem;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .subject-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px var(--shadow);
+}
+
+.subject-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.subject-link:hover .subject-name {
+    color: var(--accent);
+}
+
+.subject-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    transition: color 0.2s;
+}
+
+.subject-papers {
+    margin-top: auto;
+}
+
+.past-papers-link {
+    font-size: 0.85rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.past-papers-link:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
 }
 
 .subject-card h3 {
