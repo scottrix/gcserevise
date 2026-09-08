@@ -391,9 +391,9 @@ body {
 }
 
 .subjects-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
 }
 
 .subject-category {
@@ -412,10 +412,7 @@ body {
 }
 
 .category-subjects {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1rem;
-    grid-column: 1 / -1;
+    display: contents;
 }
 
 .subject-card {
