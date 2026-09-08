@@ -692,9 +692,18 @@ cursor: pointer;
 box-shadow: 0 2px 8px var(--shadow);
 }
 
-.page-body {
+.topic-content {
 max-width: 900px;
 margin: 0 auto;
+padding-left: 240px;
+padding-right: 320px;
+}
+
+@media (max-width: 900px) {
+.topic-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 }
 
 @media (max-width: 1280px) {
