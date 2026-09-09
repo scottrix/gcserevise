@@ -189,6 +189,8 @@ document.addEventListener('DOMContentLoaded', updateSubjectUrl);
     page_parts.append('</div>')
     page_parts.append('<div class="overlay" id="overlay"></div>')
     page_parts.append('')
+    page_parts.append('<div class="main-layout">')
+    page_parts.append('<aside class="sidebar" id="sidebar-nav"></aside>')
     page_parts.append('<main class="topic-content">')
     page_parts.append('<div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>')
     page_parts.append('')
@@ -213,6 +215,8 @@ document.addEventListener('DOMContentLoaded', updateSubjectUrl);
     page_parts.append(sections_html)
     page_parts.append('')
     page_parts.append('</main>')
+    page_parts.append('<aside class="ad-right" id="ad-rail-right"></aside>')
+    page_parts.append('</div>')  # close main-layout
     page_parts.append('<footer class="site-footer">')
     page_parts.append('<p>GCSE Revise - Free revision notes for all subjects and exam boards</p>')
     page_parts.append('<p>Content for educational purposes only. Always cross-reference with official specifications.</p>')
