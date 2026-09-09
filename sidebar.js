@@ -112,7 +112,7 @@ if (!document.querySelector('aside.ad-right')) {
 var adRail = document.createElement('aside');
 adRail.className = 'ad-right';
 adRail.id = 'ad-rail-right';
-adRail.innerHTML = '<div class="ad-unit" id="ad-right-top"></div><div class="ad-unit" id="ad-right-mid"></div>';
+adRail.innerHTML = '<div class="ad-unit" id="ad-right-top"><p class="ad-placeholder">Advertisement</p></div><div class="ad-unit" id="ad-right-mid"><p class="ad-placeholder">Advertisement</p></div>';
 document.body.appendChild(adRail);
 }
 
