@@ -699,10 +699,17 @@ box-shadow: 0 2px 8px var(--shadow);
 display: grid;
 grid-template-columns: 220px 1fr 300px;
 min-height: 100vh;
+grid-template-rows: auto 1fr auto;
+}
+
+.header-spacer {
+grid-column: 1 / -1;
+height: 60px;
 }
 
 .sidebar {
 grid-column: 1;
+grid-row: 2;
 width: 220px;
 height: calc(100vh - 60px);
 overflow-y: auto;
@@ -712,18 +719,22 @@ padding: 0.75rem 0;
 z-index: 50;
 position: sticky;
 top: 60px;
+align-self: start;
 }
 
 .topic-content {
 grid-column: 2;
+grid-row: 2;
 max-width: 100%;
 padding: 1.5rem 2rem 3rem;
 margin: 0 auto;
 min-width: 0;
+align-self: start;
 }
 
 .ad-right {
 grid-column: 3;
+grid-row: 2;
 width: 300px;
 height: calc(100vh - 60px);
 overflow-y: auto;
@@ -732,11 +743,17 @@ z-index: 10;
 padding: 0.75rem;
 position: sticky;
 top: 60px;
+align-self: start;
+}
+
+.footer-spacer {
+grid-column: 1 / -1;
 }
 
 @media (max-width: 1280px) {
 .main-layout {
     grid-template-columns: 220px 1fr;
+    grid-template-rows: auto 1fr auto;
 }
 .ad-right {
     display: none;
@@ -746,6 +763,7 @@ top: 60px;
 @media (max-width: 900px) {
 .main-layout {
     grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
 }
 .sidebar {
     display: none;
