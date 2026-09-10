@@ -700,7 +700,7 @@ display: grid;
 grid-template-columns: 220px 1fr 300px;
 min-height: 100vh;
 grid-template-rows: auto 1fr auto;
-align-items: start;
+overflow: hidden;
 }
 
 .header-spacer {
