@@ -722,6 +722,7 @@ z-index: 50;
 position: sticky;
 top: 60px;
 align-self: start;
+min-height: 0;
 }
 
 .topic-content {
@@ -747,9 +748,11 @@ padding: 0.75rem;
 position: sticky;
 top: 60px;
 align-self: start;
+min-height: 0;
 }
 
 .footer-spacer {
+  min-height: 0;
 grid-column: 1 / -1;
 }
 
