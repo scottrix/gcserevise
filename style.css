@@ -627,7 +627,7 @@ text-align: center;
 padding: 1rem;
 }
 
-.sidebar {
+.sidebar {  min-height: 0;
 width: 220px;
 
 top: 60px;
@@ -709,7 +709,7 @@ grid-column: 1 / -1;
 height: 60px;
 }
 
-.sidebar {
+.sidebar {  min-height: 0;
 grid-column: 1;
 grid-row: 2;
 width: 220px;
@@ -774,9 +774,8 @@ grid-column: 1 / -1;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
 }
-.sidebar {
+.sidebar {  min-height: 0;
     display: none;
-    position: fixed;
     top: 60px;
     left: 0;
     width: 280px;
