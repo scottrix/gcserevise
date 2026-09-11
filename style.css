@@ -688,10 +688,10 @@ box-shadow: 0 2px 8px var(--shadow);
 }
 
 .topic-content {
-max-width: 900px;
-margin: 0 auto;
+padding: 1.5rem 1rem 3rem;
 padding-left: 240px;
 padding-right: 320px;
+min-height: 100vh;
 }
 
 @media (max-width: 900px) {

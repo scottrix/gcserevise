@@ -107,13 +107,16 @@ return '<li><a href="' + s.id + '.html">' + s.name + '</a></li>';
 // Append sidebar to body (it's position:fixed, so it doesn't need to be inside main)
 document.body.appendChild(nav);
 
-// Right-side ad rail (only if not already in HTML)
-if (!document.querySelector('aside.ad-right')) {
-var adRail = document.createElement('aside');
+// Right-side ad rail: create if missing, fill if empty (generator emits empty asides on subject pages)
+var adRail = document.querySelector('aside.ad-right');
+if (!adRail) {
+adRail = document.createElement('aside');
 adRail.className = 'ad-right';
 adRail.id = 'ad-rail-right';
-adRail.innerHTML = '<div class="ad-unit" id="ad-right-top"><p class="ad-placeholder">Advertisement</p></div><div class="ad-unit" id="ad-right-mid"><p class="ad-placeholder">Advertisement</p></div>';
 document.body.appendChild(adRail);
+}
+if (!adRail.innerHTML.trim()) {
+adRail.innerHTML = '<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail — Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a><a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot — Domain Registration →</div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a><a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet — UK Broadband →</div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>';
 }
 
 // Mobile toggle
