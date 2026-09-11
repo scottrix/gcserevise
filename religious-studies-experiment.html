@@ -105,8 +105,8 @@ function updateSubjectUrl() {
     });
     
     const path = window.location.pathname;
-    const boardMatch = path.match(/religious-studies\/([^/]+)\/);
-    const tierMatch = path.match(/religious-studies\/[^/]+\/([^/]+)/);
+    const boardMatch = path.match(new RegExp("/religious-studies/([^/]+)"));
+    const tierMatch = path.match(new RegExp("/religious-studies/[^/]+/([^/]+)"));
     if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
     if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
