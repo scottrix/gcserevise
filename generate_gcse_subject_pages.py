@@ -18,13 +18,19 @@ subjects = data['subjects']
 CATEGORIES = {s['id']: s['category'] for s in subjects}
 
 
+def short_ref(stem: str) -> str:
+    """Short badge code from a topic filename stem: RS1, B10, 3D1, or first word."""
+    m = re.match(r'^([A-Za-z]+\d+[A-Za-z0-9]*)[-_]', stem)
+    if m:
+        return m.group(1).upper()
+    seg = re.split(r'[-_]', stem, maxsplit=1)[0]
+    return seg.upper() if any(c.isdigit() for c in seg) else seg.capitalize()
+
+
 def get_topic_title(topic_file: str, topic_dir: str) -> str:
     """Extract readable title from topic filename"""
     name = topic_file.replace('.html', '')
-    if '-' in name and name[0].isalpha() and name[1:3].isdigit():
-        name = name[name.index('-')+1:]
-    elif '_' in name and name[0].isalpha() and name[1:3].isdigit():
-        name = name[name.index('_')+1:]
+    name = re.sub(r'^[A-Za-z]+\d+[A-Za-z0-9]*[-_]', '', name)
     return name.replace('-', ' ').replace('_', ' ').title()
 
 
@@ -79,7 +85,7 @@ def generate_subject_page(subject_id: str, subject_name: str, category: str, boa
         
         cards = []
         for topic_file in topic_files:
-            topic_id = topic_file.stem
+            topic_id = short_ref(topic_file.stem)
             title = get_topic_title(topic_file.name, topic_dir_name)
             
             # Build board-specific link - link to first board's version
