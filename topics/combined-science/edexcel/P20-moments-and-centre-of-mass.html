@@ -10,8 +10,8 @@
 <meta property="og:title" content="Moments And Centre Of Mass - Combined Science (Trilogy) (Pearson Edexcel)">
 <meta property="og:description" content="Free GCSE Combined Science (Trilogy) revision notes for Moments And Centre Of Mass - Pearson Edexcel specification.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.htmlP20-moments-and-centre-of-mass.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.htmlP20-moments-and-centre-of-mass.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -55,7 +55,7 @@
 <div class="topic-toolbar">
 <div class="board-selector">
 <label for="board-select">Exam Board: </label>
-<select id="board-select" onchange="updateBoardUrl()">
+<select id="board-select" onchange="updateTopicBoard()">
 <option value="aqa" >AQA</option><option value="edexcel" selected>Pearson Edexcel</option><option value="ocr" >OCR</option><option value="ccea" >CCEA</option>
 </select>
 </div>
@@ -305,10 +305,10 @@
 <h2>Share this page</h2>
 <div class="share-buttons">
 <a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.htmlP20-moments-and-centre-of-mass.html&text=Moments and Centre of Mass" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.htmlP20-moments-and-centre-of-mass.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.htmlP20-moments-and-centre-of-mass.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Moments and Centre of Mass%20https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.htmlP20-moments-and-centre-of-mass.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.htmlP20-moments-and-centre-of-mass.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Moments and Centre of Mass%20https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/combined-science/edexcel/P20-moments-and-centre-of-mass.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -407,29 +407,34 @@
 <script src="../../../exam-questions/exam-questions.js"></script>
 <script src="../../../target-tests/target-tests.js"></script>
 <script>
-function updateBoardUrl() {
-    const select = document.getElementById('board-select');
-    const board = select.value;
-    const path = window.location.pathname;
-    const newPath = path.replace(/topics\/([^\/]+)\/([^\/]+)/, `topics/${board}`);
-    window.location.href = newPath;
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
 }
-
-function updateTierUrl() {
-    const select = document.getElementById('tier-select');
-    const tier = select.value;
-    const path = window.location.pathname;
-    const newPath = path.replace(/topics\/([^\/]+)\/([^\/]+)\/([^\/]+)/, `topics/${board}/${tier}`);
-    window.location.href = newPath;
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    const path = window.location.pathname;
-    const boardMatch = path.match(/combined-science\/([^\/]+)/);
-    const tierMatch = path.match(/combined-science\/[^\/]+\/([^\/]+)/);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
-});
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  if (!bs) return;
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
 </script>
 </body>
 </html>
