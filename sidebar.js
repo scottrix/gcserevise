@@ -66,7 +66,10 @@ if (subjectSlug) break;
 }
 }
 var pathSegs = path.split('/').filter(function(s) { return s.length; });
-var ups = Math.max(0, pathSegs.length - 1);
+// prefix climbs from the topic file back to the site root (subject landing
+// pages live there). pathSegs includes the site-root segment itself
+// (e.g. 'gcserevise') plus the filename, hence length - 2.
+var ups = Math.max(0, pathSegs.length - 2);
 var prefix = '';
 for (var u = 0; u < ups; u++) prefix += '../';
 var knownBoards = ['aqa','edexcel','ocr','eduqas','ccea'];
@@ -108,8 +111,12 @@ var fullHref = prefix + href;
 if (curBoard) {
 fullHref = fullHref.replace(/\/(aqa|edexcel|ocr|eduqas|ccea)\//i, '/' + curBoard + '/');
 }
-if (curTier && fullHref.indexOf('/foundation/') === -1 && fullHref.indexOf('/higher/') === -1) {
+if (curTier) {
+if (fullHref.search(/\/(foundation|higher)\//i) !== -1) {
+fullHref = fullHref.replace(/\/(foundation|higher)\//i, '/' + curTier + '/');
+} else {
 fullHref = fullHref.replace(/(\/(?:aqa|edexcel|ocr|eduqas|ccea)\/)/i, '$1' + curTier + '/');
+}
 }
 var isActive = href.indexOf(currentTopicFile) !== -1;
 var cls = isActive ? ' class="active"' : '';
@@ -125,8 +132,16 @@ return '<li><a href="' + s.id + '.html">' + s.name + '</a></li>';
 }).join('') + '</ul>';
 }
 
-// Append sidebar to body (it's position:fixed, so it doesn't need to be inside main)
+// Append sidebar to body (it's position:fixed, so it doesn't need to be inside main).
+// Topic pages with a static server-rendered sidebar reuse it instead of
+// injecting a duplicate nav.
+var staticBar = document.querySelector('div.sidebar');
+if (staticBar) {
+nav = staticBar;
+if (!nav.id) nav.id = 'sidebar-nav';
+} else {
 document.body.appendChild(nav);
+}
 
 // Right-side ad rail: create if missing, fill if empty (generator emits empty asides on subject pages)
 var adRail = document.querySelector('aside.ad-right');
