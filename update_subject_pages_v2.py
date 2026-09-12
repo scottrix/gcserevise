@@ -96,9 +96,9 @@ function updateSubjectUrl() {{
     document.querySelectorAll('.topic-card').forEach(card => {{
         const href = card.getAttribute('href');
         if (href && href.startsWith('topics/')) {{
-            const match = href.match(/topics\\/([^\\/]+)\\/([^\\/]+)\\.html/);
+            const match = href.match(/topics\\/[^\\/]+\\/(?:[^\\/]+\\/)*([^\\/]+\\.html)/);
             if (match) {{
-                const fileName = match[2];
+                const fileName = match[1];
                 const newHref = `topics/{subject_id}/${{board}}/${{tier}}/${{fileName}}`;
                 card.setAttribute('href', newHref);
             }}

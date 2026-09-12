@@ -89,9 +89,11 @@ def generate_subject_page(subject_id: str, subject_name: str, category: str, boa
             title = get_topic_title(topic_file.name, topic_dir_name)
             
             # Build board-specific link - link to first board's version
+            # (with default tier for tiered subjects so links work without JS).
             # JavaScript will update based on selector
+            default_tier = ('/' + tiers[0].lower()) if has_tiers and tiers else ''
             cards.append(f'''
-      <a href="topics/{subject_id}/{first_board.lower()}/{topic_file.name}" class="topic-card">
+      <a href="topics/{subject_id}/{first_board.lower()}{default_tier}/{topic_file.name}" class="topic-card">
         <span class="topic-id">{topic_id}</span>
         <span class="topic-name">{title}</span>
       </a>''')
@@ -124,11 +126,11 @@ function updateSubjectUrl() {{
     document.querySelectorAll('.topic-card').forEach(card => {{
         const href = card.getAttribute('href');
         if (href && href.startsWith('topics/')) {{
-            const match = href.match(/topics\\/([^/]+)\\/([^/]+)\\.html/);
+            const match = href.match(/topics\\/[^/]+\\/(?:[^/]+\\/)*([^/]+\\.html)/);
             if (match) {{
-                const fileName = match[2];
+                const fileName = match[1];
                 let newHref;
-                if ('{has_tiers}') {{
+                if ({str(has_tiers).lower() if isinstance(has_tiers, bool) else has_tiers}) {{
                     newHref = `topics/{subject_id}/` + board + `/` + tier + `/` + fileName;
                 }} else {{
                     newHref = `topics/{subject_id}/` + board + `/` + fileName;
