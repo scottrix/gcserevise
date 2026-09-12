@@ -65,7 +65,21 @@ subjectSlug = subjectFromHref(navLinks[j].getAttribute('href') || '');
 if (subjectSlug) break;
 }
 }
-var prefix = '../../';
+var pathSegs = path.split('/').filter(function(s) { return s.length; });
+var ups = Math.max(0, pathSegs.length - 1);
+var prefix = '';
+for (var u = 0; u < ups; u++) prefix += '../';
+var knownBoards = ['aqa','edexcel','ocr','eduqas','ccea'];
+var curBoard = null, curTier = null;
+pathSegs.forEach(function(s) {
+var l = s.toLowerCase();
+if (knownBoards.indexOf(l) !== -1) curBoard = l;
+if (l === 'foundation' || l === 'higher') curTier = l;
+});
+if (!curBoard) {
+var bfm = path.match(/-(aqa|edexcel|ocr|eduqas|ccea)(?:\/|$)/i);
+if (bfm) curBoard = bfm[1].toLowerCase();
+}
 var landingHref = prefix + subjectSlug + '.html';
 var currentTopicFile = segs[segs.length - 1];
 
@@ -90,6 +104,13 @@ var name = card.querySelector('.topic-name');
 var id = card.querySelector('.topic-id');
 var label = (id ? id.textContent.trim() + ': ' : '') + (name ? name.textContent.trim() : '');
 var fullHref = prefix + href;
+// align sidebar links to the board/tier of the page being viewed
+if (curBoard) {
+fullHref = fullHref.replace(/\/(aqa|edexcel|ocr|eduqas|ccea)\//i, '/' + curBoard + '/');
+}
+if (curTier && fullHref.indexOf('/foundation/') === -1 && fullHref.indexOf('/higher/') === -1) {
+fullHref = fullHref.replace(/(\/(?:aqa|edexcel|ocr|eduqas|ccea)\/)/i, '$1' + curTier + '/');
+}
 var isActive = href.indexOf(currentTopicFile) !== -1;
 var cls = isActive ? ' class="active"' : '';
 items += '<li><a href="' + fullHref + '"' + cls + '>' + label + '</a></li>';

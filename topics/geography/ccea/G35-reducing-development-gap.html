@@ -10,23 +10,23 @@
 <meta property="og:title" content="Reducing the Development Gap - GCSE Geography">
 <meta property="og:description" content="Learn about investment, industrial development, tourism, aid, intermediate technology, fairtrade, debt relief and microfinance. Case study: Jamaica tourism. Free GCSE Geography revision.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/changing-economic-world/G35-reducing-development-gap.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/changing-economic-world/G35-reducing-development-gap.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/geography/ccea/G35-reducing-development-gap.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/geography/ccea/G35-reducing-development-gap.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="G35: Reducing the Development Gap">
 <meta name="twitter:description" content="Learn about investment, industrial development, tourism, aid, intermediate technology, fairtrade, debt relief and microfinance. Case study: Jamaica tourism. Free GCSE Geography revision.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain how tourism can help reduce the development gap. Use a named example.", "acceptedAnswer": {"@type": "Answer", "text": "Tourism brings foreign exchange earnings and creates employment. In Jamaica, tourism contributes 30% of GDP and employs 25% of the workforce (350,000+ jobs). It also stimulates infrastructure development such as airports and roads. However, economic leakage means much of the revenue goes to foreign "}}, {"@type": "Question", "name": "What is intermediate technology? Give two examples and explain how they help development.", "acceptedAnswer": {"@type": "Answer", "text": "Intermediate technology is simple, affordable technology suited to the skills and resources of local communities. Example 1: Treadle pumps in Bangladesh allow farmers to irrigate crops without expensive diesel pumps, increasing food production and income. Example 2: Solar cookers in Africa reduce th"}}, {"@type": "Question", "name": "Discuss the advantages and disadvantages of using aid to reduce the development gap.", "acceptedAnswer": {"@type": "Answer", "text": "Advantages: Aid provides essential resources that LICs cannot afford, funding healthcare, education, and infrastructure; emergency aid saves lives after disasters; development aid can build long-term capacity. Disadvantages: Aid can create dependency where countries rely on external support rather t"}}, {"@type": "Question", "name": "Explain how microfinance can help reduce the development gap.", "acceptedAnswer": {"@type": "Answer", "text": "Microfinance provides small loans to people who cannot access traditional banking, especially women. The Grameen Bank in Bangladesh has lent to 9 million borrowers, enabling them to start small businesses (e.g. buying livestock or sewing machines). This creates sustainable income, empowers women, an"}}, {"@type": "Question", "name": "Using the case study of Jamaica, evaluate the effectiveness of tourism as a strategy to reduce the development gap.", "acceptedAnswer": {"@type": "Answer", "text": "Jamaica's tourism industry has been effective in some ways: it generates $3.7 billion in foreign exchange, employs 350,000 people, and has improved infrastructure. However, effectiveness is limited by high economic leakage (profits going to foreign hotel chains), low wages, seasonal employment, and "}}, {"@type": "Question", "name": "\"Fairtrade is the most effective way to reduce the development gap.\" How far do you agree?", "acceptedAnswer": {"@type": "Answer", "text": "Fairtrade is effective because it guarantees a minimum price, provides a community premium for development projects, and improves working conditions. Ghana's Kuapa Kokoo cooperative has used Fairtrade premiums for schools and clinics. However, Fairtrade represents only a small share of global trade,"}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../geography.html">Geography</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../geography.html">Geography</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../geography.html">Geography</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../geography.html">Geography</a> <span>›</span>
 <span>The Changing Economic World</span> <span>›</span>
 <span>Reducing the Development Gap</span>
 </nav>
@@ -51,8 +51,46 @@
 </div>
 <p class="topic-desc">Strategies to reduce the development gap including investment, tourism, aid, intermediate technology, fairtrade, debt relief, and microfinance.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -426,11 +464,11 @@
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/changing-economic-world/G35-reducing-development-gap.html&text=G35: Reducing the Development Gap" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/changing-economic-world/G35-reducing-development-gap.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/changing-economic-world/G35-reducing-development-gap.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=G35: Reducing the Development Gap%20https://scottrix.github.io/gcserevise/topics/changing-economic-world/G35-reducing-development-gap.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/changing-economic-world/G35-reducing-development-gap.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/geography/ccea/G35-reducing-development-gap.html&text=G35: Reducing the Development Gap" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/geography/ccea/G35-reducing-development-gap.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/geography/ccea/G35-reducing-development-gap.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=G35: Reducing the Development Gap%20https://scottrix.github.io/gcserevise/topics/geography/ccea/G35-reducing-development-gap.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/geography/ccea/G35-reducing-development-gap.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -442,14 +480,14 @@
 <li><a href="G37-economic-change-uk.html">G37: Economic Change in the UK</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -462,8 +500,8 @@
 </div>
 </section>
 <nav class="topic-nav">
-<a href="G34-uneven-development.html" class="nav-prev">← Previous Topic: Uneven Development</a>
-<a href="G36-economic-development-lics-nees.html" class="nav-next">Next Topic: Economic Development in LICs and NEEs →</a>
+<a href="G34-uneven-development.html" class="nav-prev">&larr; Previous: Uneven Development</a>
+<a href="G36-economic-development-lics-nees.html" class="nav-next">Next: Economic Development Lics Nees &rarr;</a>
 </nav>
 </main>
 
@@ -471,7 +509,7 @@
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -497,25 +535,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+Geography+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Geography Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Geography revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
   <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Reducing+the+Development+Gap+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Reducing the Development Gap Books →</div>
   <div class="affiliate-card-desc">Browse Reducing the Development Gap books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -534,7 +572,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>

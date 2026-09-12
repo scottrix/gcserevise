@@ -10,8 +10,8 @@
 <meta property="og:title" content="Rights & Responsibilities of Citizens - GCSE Citizenship Studies">
 <meta property="og:description" content="Rights and responsibilities for GCSE Citizenship: legal rights, civic responsibilities, active citizenship, volunteering, jury service. Free revision notes.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI6-rights-and-responsibilities.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI6-rights-and-responsibilities.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/ci-british-values/CI6-rights-and-responsibilities.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/ci-british-values/CI6-rights-and-responsibilities.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -49,6 +49,44 @@
 </div>
 <p class="topic-desc">Citizens' rights and responsibilities: legal rights, civic responsibilities, the balance between individual freedom and social obligation, and the role of active citizenship.</p>
 </article>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
 <a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
@@ -195,11 +233,11 @@
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI6-rights-and-responsibilities.html&text=Rights &amp; Responsibilities of Citizens" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI6-rights-and-responsibilities.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI6-rights-and-responsibilities.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Rights &amp; Responsibilities of Citizens%20https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI6-rights-and-responsibilities.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI6-rights-and-responsibilities.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/ci-british-values/CI6-rights-and-responsibilities.html&text=Rights &amp; Responsibilities of Citizens" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/ci-british-values/CI6-rights-and-responsibilities.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/ci-british-values/CI6-rights-and-responsibilities.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Rights &amp; Responsibilities of Citizens%20https://scottrix.github.io/gcserevise/topics/ci-british-values/CI6-rights-and-responsibilities.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/ci-british-values/CI6-rights-and-responsibilities.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -232,8 +270,8 @@
 </div>
 </section>
 <nav class="topic-nav">
-<a href="../ci-rights-responsibilities/CI5-human-rights.html" class="nav-prev">← Previous Topic</a>
-<a href="../ci-politics-participation/CI7-the-electoral-system.html" class="nav-next">Next Topic →</a>
+<a href="CI5-human-rights.html" class="nav-prev">&larr; Previous: Human Rights</a>
+<a href="#" class="nav-next">Next Topic →</a>
 </nav>
 </main>
 <footer class="site-footer">

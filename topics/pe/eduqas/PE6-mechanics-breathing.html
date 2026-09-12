@@ -10,23 +10,23 @@
 <meta property="og:title" content="Mechanics of Breathing - GCSE PE">
 <meta property="og:description" content="Learn about inspiration, expiration, the role of the diaphragm and intercostal muscles, and breathing during exercise for GCSE PE.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/applied-anatomy-physiology/PE6-mechanics-breathing.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/applied-anatomy-physiology/PE6-mechanics-breathing.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/pe/eduqas/PE6-mechanics-breathing.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/pe/eduqas/PE6-mechanics-breathing.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mechanics of Breathing">
 <meta name="twitter:description" content="Learn about inspiration, expiration, the role of the diaphragm and intercostal muscles, and breathing during exercise for GCSE PE.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Describe the role of the diaphragm during inspiration.", "acceptedAnswer": {"@type": "Answer", "text": "During inspiration, the diaphragm contracts and moves downwards (flattens from its dome shape). This increases the volume of the thorax top-to-bottom, which decreases the pressure inside the lungs, causing air to rush in."}}, {"@type": "Question", "name": "Explain why quiet expiration at rest is described as a passive process.", "acceptedAnswer": {"@type": "Answer", "text": "Quiet expiration at rest is passive because it does not require muscle contraction. The diaphragm and external intercostal muscles simply relax, and the elastic recoil of the lungs and the weight of the ribs moving downwards and inwards decreases the thorax volume, increasing pressure and forcing ai"}}, {"@type": "Question", "name": "How does forced expiration during exercise differ from quiet expiration at rest?", "acceptedAnswer": {"@type": "Answer", "text": "Forced expiration during exercise is an active process involving the contraction of the internal intercostal muscles (pulling ribs down and in) and the abdominal muscles (pushing the diaphragm up). This expels air more quickly and forcefully than passive expiration at rest."}}, {"@type": "Question", "name": "Explain how an increase in thorax volume causes air to enter the lungs.", "acceptedAnswer": {"@type": "Answer", "text": "When the thorax volume increases (due to diaphragm contracting down and ribs moving up and out), the pressure inside the lungs decreases below atmospheric pressure. Air moves from the higher atmospheric pressure outside into the lower pressure inside the lungs, down the pressure gradient."}}, {"@type": "Question", "name": "How is breathing rate regulated during exercise?", "acceptedAnswer": {"@type": "Answer", "text": "Chemoreceptors in the aorta and carotid arteries detect rising CO₂ levels in the blood during exercise. They send signals to the medulla oblongata (respiratory centre), which sends nerve impulses to the diaphragm and intercostal muscles, increasing the rate and depth of breathing."}}, {"@type": "Question", "name": "Calculate minute ventilation if tidal volume is 500 ml and breathing rate is 14 breaths/min.", "acceptedAnswer": {"@type": "Answer", "text": "Minute ventilation = tidal volume × breathing rate = 500 ml × 14 = 7,000 ml/min = 7.0 l/min."}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../pe.html">PE</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../pe.html">PE</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../pe.html">PE</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../pe.html">PE</a> <span>›</span>
 <span>Applied Anatomy & Physiology</span> <span>›</span>
 <span>Mechanics of Breathing</span>
 </nav>
@@ -51,8 +51,46 @@
 </div>
 <p class="topic-desc">How the diaphragm and intercostal muscles create ventilation, and how breathing changes during exercise.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -345,11 +383,11 @@ When volume decreases, pressure increases → air rushes OUT (expiration)
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/applied-anatomy-physiology/PE6-mechanics-breathing.html&text=Mechanics of Breathing" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/applied-anatomy-physiology/PE6-mechanics-breathing.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/applied-anatomy-physiology/PE6-mechanics-breathing.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Mechanics of Breathing%20https://scottrix.github.io/gcserevise/topics/applied-anatomy-physiology/PE6-mechanics-breathing.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/applied-anatomy-physiology/PE6-mechanics-breathing.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/pe/eduqas/PE6-mechanics-breathing.html&text=Mechanics of Breathing" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/pe/eduqas/PE6-mechanics-breathing.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/pe/eduqas/PE6-mechanics-breathing.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Mechanics of Breathing%20https://scottrix.github.io/gcserevise/topics/pe/eduqas/PE6-mechanics-breathing.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/pe/eduqas/PE6-mechanics-breathing.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -363,14 +401,14 @@ When volume decreases, pressure increases → air rushes OUT (expiration)
 <li><a href="PE7-spirometer-trace.html">Spirometer Trace Interpretation</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -383,8 +421,8 @@ When volume decreases, pressure increases → air rushes OUT (expiration)
 </div>
 </section>
 <nav class="topic-nav">
-<a href="PE5-cardiac-output-stroke-volume.html" class="nav-prev">← Previous: Cardiac Output & Stroke Volume</a>
-<a href="PE7-spirometer-trace.html" class="nav-next">Next Topic: Spirometer Trace →</a>
+<a href="PE5-cardiac-output-stroke-volume.html" class="nav-prev">&larr; Previous: Cardiac Output Stroke Volume</a>
+<a href="PE7-spirometer-trace.html" class="nav-next">Next: Spirometer Trace &rarr;</a>
 </nav>
 </main>
 
@@ -392,7 +430,7 @@ When volume decreases, pressure increases → air rushes OUT (expiration)
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -418,25 +456,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+Physical+Education+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Physical Education Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Physical Education revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
   <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Mechanics+of+Breathing+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Mechanics of Breathing Books →</div>
   <div class="affiliate-card-desc">Browse Mechanics of Breathing books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -455,7 +493,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>

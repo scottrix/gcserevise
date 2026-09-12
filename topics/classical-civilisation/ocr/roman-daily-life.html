@@ -10,23 +10,23 @@
 <meta property="og:title" content="Daily Life in Rome - GCSE Classical Civilisation">
 <meta property="og:description" content="OCR J280 Classical Civilisation daily life in Rome: insulae, domus, food, clothing, family life, work, baths">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/cc-city-rome/roman-daily-life.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/cc-city-rome/roman-daily-life.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/classical-civilisation/ocr/roman-daily-life.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/classical-civilisation/ocr/roman-daily-life.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Daily Life in Rome">
 <meta name="twitter:description" content="OCR J280 Classical Civilisation daily life in Rome: insulae, domus, food, clothing, family life, work, baths">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:How did housing differ between rich and poor Romans?", "acceptedAnswer": {"@type": "Answer", "text": "The wealthy lived in domus — spacious single-family houses with gardens and private facilities. The poor lived in insulae — cramped, multi-storey blocks with shared facilities, no running water and high fire risk."}}, {"@type": "Question", "name": "Q:Why were the Roman baths so important socially?", "acceptedAnswer": {"@type": "Answer", "text": "They were not just for washing — they were community centres for exercise, socialising, conducting business, relaxing and even studying. Going to the baths was a daily ritual for most Romans."}}, {"@type": "Question", "name": "Q:What did ordinary Romans eat?", "acceptedAnswer": {"@type": "Answer", "text": "Breakfast (ientaculum) was bread and cheese; lunch (prandium) was light — leftovers or street food; dinner (cena) was the main meal — porridge, vegetables, bread and occasionally meat or fish for those who could afford it."}}, {"@type": "Question", "name": "Q:What was the role of the paterfamilias in family life?", "acceptedAnswer": {"@type": "Answer", "text": "He had legal authority over the entire household, arranged marriages, controlled finances and made major decisions. His power was theoretically absolute but in practice moderated by social expectations."}}, {"@type": "Question", "name": "Q:How reliable was Rome's water supply?", "acceptedAnswer": {"@type": "Answer", "text": "Very reliable by ancient standards — aqueducts brought fresh water from miles away, feeding public fountains, baths and some private homes. The Cloaca Maxima drained waste water, making Rome remarkably hygienic."}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../classical-civilisation.html">Classical Civilisation</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../classical-civilisation.html">Classical Civilisation</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -35,8 +35,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../classical-civilisation.html">Classical Civilisation</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../classical-civilisation.html">Classical Civilisation</a> <span>›</span>
 <span>The City of Rome</span> <span>›</span>
 <span>Daily Life in Rome</span>
 </nav>
@@ -47,8 +47,46 @@
 </div>
 <p class="topic-desc">Food, housing, clothing, work and family life in the city of Rome</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="ocr">OCR</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 <section class="section">
@@ -177,11 +215,11 @@
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/cc-city-rome/roman-daily-life.html&text=Daily Life in Rome" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/cc-city-rome/roman-daily-life.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/cc-city-rome/roman-daily-life.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Daily Life in Rome%20https://scottrix.github.io/gcserevise/topics/cc-city-rome/roman-daily-life.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/cc-city-rome/roman-daily-life.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/classical-civilisation/ocr/roman-daily-life.html&text=Daily Life in Rome" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/classical-civilisation/ocr/roman-daily-life.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/classical-civilisation/ocr/roman-daily-life.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Daily Life in Rome%20https://scottrix.github.io/gcserevise/topics/classical-civilisation/ocr/roman-daily-life.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/classical-civilisation/ocr/roman-daily-life.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -192,14 +230,14 @@
 <li><a href="roman-social-structure.html">Roman Social Structure</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -212,15 +250,15 @@
 </div>
 </section>
 <nav class="topic-nav">
-<a href="../cc-city-rome/roman-social-structure.html" class="nav-prev">← Previous Topic</a>
-<a href="../cc-city-rome/roman-entertainment.html" class="nav-next">Next Topic →</a>
+<a href="roman-conquest-britain.html" class="nav-prev">&larr; Previous: Roman Conquest Britain</a>
+<a href="roman-entertainment.html" class="nav-next">Next: Roman Entertainment &rarr;</a>
 </nav>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -239,25 +277,25 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <a href="https://www.amazon.co.uk/s?k=GCSE+Classical+Civilisation+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Classical Civilisation Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Classical Civilisation revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+OCR+J280+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE OCR J280 Books →</div>
   <div class="affiliate-card-desc">Browse GCSE OCR J280 revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Daily+Life+in+Rome+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Daily Life in Rome Books →</div>
   <div class="affiliate-card-desc">Browse Daily Life in Rome books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -276,6 +314,6 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body></html>

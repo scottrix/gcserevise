@@ -10,23 +10,23 @@
 <meta property="og:title" content="Information Processing - GCSE PE">
 <meta property="og:description" content="Learn about the information processing model including input, decision making, output and feedback for GCSE PE. Free revision notes.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/sports-psychology/PE24-information-processing.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/sports-psychology/PE24-information-processing.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE24-information-processing.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE24-information-processing.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Information Processing">
 <meta name="twitter:description" content="Learn about the information processing model including input, decision making, output and feedback for GCSE PE. Free revision notes.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Describe the four stages of the information processing model in the correct order.", "acceptedAnswer": {"@type": "Answer", "text": "The four stages are: Input (receiving information from the environment through the senses), Decision Making (processing the input using short-term and long-term memory to select a response), Output (executing the motor response via the muscular system), and Feedback (receiving information about the "}}, {"@type": "Question", "name": "What is selective attention and why is it important for a games player?", "acceptedAnswer": {"@type": "Answer", "text": "Selective attention is the ability to filter out irrelevant information and focus only on the most important cues. It is vital for a games player because there is a large amount of sensory input during a match (crowd, multiple players, ball, coach). Without selective attention, the player would be o"}}, {"@type": "Question", "name": "Explain the role of long-term memory in the decision-making process.", "acceptedAnswer": {"@type": "Answer", "text": "Long-term memory stores past experiences, learned motor programmes, and tactical knowledge. During decision making, the performer compares current input (held in short-term memory) with information in long-term memory to select the most appropriate response. A performer with more relevant experience"}}, {"@type": "Question", "name": "Using a named sporting example, explain how a performer moves through all four stages of the information processing model.", "acceptedAnswer": {"@type": "Answer", "text": "A tennis player returning serve: Input - sees the server's ball toss, racket position and body angle. Decision Making - short-term memory processes the current serve trajectory; long-term memory recalls similar serves faced in practice and the appropriate return shot. Output - motor programme for th"}}, {"@type": "Question", "name": "Explain the difference between intrinsic and extrinsic feedback, giving a sporting example of each.", "acceptedAnswer": {"@type": "Answer", "text": "Intrinsic feedback comes from within the performer through their own senses, e.g. a golfer feeling that their swing was smooth and well-timed through kinaesthesia. Extrinsic feedback comes from outside the performer, e.g. a coach telling a swimmer that their hand entry was too wide, or video analysi"}}, {"@type": "Question", "name": "Why does an experienced performer make decisions faster than a beginner? Refer to the information processing model in your answer.", "acceptedAnswer": {"@type": "Answer", "text": "An experienced performer has more information stored in long-term memory from years of practice and competition. This means they can recognise patterns and situations more quickly, matching current input to stored experiences faster. Their motor programmes are more established, so output is more aut"}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../pe.html">PE</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../pe.html">PE</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../pe.html">PE</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../pe.html">PE</a> <span>›</span>
 <span>Sports Psychology</span> <span>›</span>
 <span>Information Processing</span>
 </nav>
@@ -52,8 +52,46 @@
 </div>
 <p class="topic-desc">Understanding the information processing model: input, decision making, output and feedback, and how this model applies to sporting situations.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -389,11 +427,11 @@ Perform skill → Receive feedback (intrinsic + extrinsic) → Compare outcome w
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/sports-psychology/PE24-information-processing.html&text=Information Processing" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/sports-psychology/PE24-information-processing.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/sports-psychology/PE24-information-processing.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Information Processing%20https://scottrix.github.io/gcserevise/topics/sports-psychology/PE24-information-processing.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/sports-psychology/PE24-information-processing.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE24-information-processing.html&text=Information Processing" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE24-information-processing.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE24-information-processing.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Information Processing%20https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE24-information-processing.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE24-information-processing.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -407,14 +445,14 @@ Perform skill → Receive feedback (intrinsic + extrinsic) → Compare outcome w
 <li><a href="PE28-aggression-personality-motivation.html">Aggression, Personality and Motivation</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -427,8 +465,8 @@ Perform skill → Receive feedback (intrinsic + extrinsic) → Compare outcome w
 </div>
 </section>
 <nav class="topic-nav">
-<a href="PE23-goal-setting-smart.html" class="nav-prev">← PE23: Goal Setting and SMART</a>
-<a href="PE25-guidance-sport.html" class="nav-next">Next Topic: Guidance in Sport →</a>
+<a href="PE23-goal-setting-smart.html" class="nav-prev">&larr; Previous: Goal Setting Smart</a>
+<a href="PE25-guidance-sport.html" class="nav-next">Next: Guidance Sport &rarr;</a>
 </nav>
 </main>
 
@@ -436,7 +474,7 @@ Perform skill → Receive feedback (intrinsic + extrinsic) → Compare outcome w
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -462,25 +500,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+Physical+Education+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Physical Education Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Physical Education revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+Paper+2+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Paper 2 Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Paper 2 revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Information+Processing+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Information Processing Books →</div>
   <div class="affiliate-card-desc">Browse Information Processing books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -499,7 +537,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>

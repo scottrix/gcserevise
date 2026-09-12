@@ -10,23 +10,23 @@
 <meta property="og:title" content="Power Supplies &amp; Regulation - GCSE Electronics">
 <meta property="og:description" content="Learn about power supplies and voltage regulation including rectification, smoothing circuits, voltage regulators and Zener diode applications for WJEC Eduqas Electronics.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/elec-applications/power-supplies.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/elec-applications/power-supplies.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/electronics/eduqas/power-supplies.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/electronics/eduqas/power-supplies.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Power Supplies &amp;amp; Regulation">
 <meta name="twitter:description" content="Learn about power supplies and voltage regulation including rectification, smoothing circuits, voltage regulators and Zener diode applications for WJEC Eduqas Electronics.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:What is the ripple frequency of a full-wave rectifier supplied from 50 Hz mains?", "acceptedAnswer": {"@type": "Answer", "text": "100 Hz, because both halves of the AC cycle are rectified, doubling the frequency."}}, {"@type": "Question", "name": "Q:A Zener regulator has V_in = 12 V, V_Z = 5.1 V, I_Z = 20 mA and I_load = 50 mA. Calculate R_s.", "acceptedAnswer": {"@type": "Answer", "text": "R_s = (V_in − V_Z)/(I_Z + I_load) = (12 − 5.1)/(0.02 + 0.05) = 6.9/0.07 = 98.6 Ω ≈ 100 Ω."}}, {"@type": "Question", "name": "Q:Explain why a smoothing capacitor reduces ripple voltage.", "acceptedAnswer": {"@type": "Answer", "text": "The capacitor charges during the rectifier peak and discharges into the load during the trough, filling in the gaps between rectified pulses."}}, {"@type": "Question", "name": "Q:State two advantages of a bridge rectifier over a half-wave rectifier.", "acceptedAnswer": {"@type": "Answer", "text": "A bridge rectifier uses both halves of the AC cycle (higher output) and has lower ripple because the ripple frequency is doubled."}}, {"@type": "Question", "name": "Q:Why does a 7805 regulator need a heat sink when the input voltage is significantly above 5 V?", "acceptedAnswer": {"@type": "Answer", "text": "The regulator dissipates power P = (V_in − V_out) × I_load as heat; with a large voltage difference, this power can exceed the device's dissipation limit."}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../electronics.html">Electronics</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../electronics.html">Electronics</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -35,8 +35,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../electronics.html">Electronics</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../electronics.html">Electronics</a> <span>›</span>
 <span>Electronics Applications</span> <span>›</span>
 <span>Power Supplies &amp; Regulation</span>
 </nav>
@@ -47,8 +47,46 @@
 </div>
 <p class="topic-desc">Rectification, smoothing, voltage regulation and Zener diodes</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="eduqas">Eduqas</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 <section class="section">
@@ -177,11 +215,11 @@
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/elec-applications/power-supplies.html&text=Power Supplies &amp;amp; Regulation" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/elec-applications/power-supplies.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/elec-applications/power-supplies.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Power Supplies &amp;amp; Regulation%20https://scottrix.github.io/gcserevise/topics/elec-applications/power-supplies.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/elec-applications/power-supplies.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/electronics/eduqas/power-supplies.html&text=Power Supplies &amp;amp; Regulation" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/electronics/eduqas/power-supplies.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/electronics/eduqas/power-supplies.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Power Supplies &amp;amp; Regulation%20https://scottrix.github.io/gcserevise/topics/electronics/eduqas/power-supplies.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/electronics/eduqas/power-supplies.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -191,14 +229,14 @@
 <li><a href="sensors-transducers.html">Sensors &amp;amp; Transducers</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -211,15 +249,15 @@
 </div>
 </section>
 <nav class="topic-nav">
-<a href="../elec-practical-circuits/safety-electronics.html" class="nav-prev">← Previous Topic</a>
-<a href="../elec-applications/sensors-transducers.html" class="nav-next">Next Topic →</a>
+<a href="power-energy-circuits.html" class="nav-prev">&larr; Previous: Power Energy Circuits</a>
+<a href="practical-assessment-technique.html" class="nav-next">Next: Practical Assessment Technique &rarr;</a>
 </nav>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -238,25 +276,25 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <a href="https://www.amazon.co.uk/s?k=GCSE+Electronics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Electronics Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Electronics revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+WJEC+Eduqas+C690QS+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE WJEC Eduqas C690QS Books →</div>
   <div class="affiliate-card-desc">Browse GCSE WJEC Eduqas C690QS revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Power+Supplies+%26+Regulation+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Power Supplies &amp; Regulation Books →</div>
   <div class="affiliate-card-desc">Browse Power Supplies &amp; Regulation books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -275,6 +313,6 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body></html>

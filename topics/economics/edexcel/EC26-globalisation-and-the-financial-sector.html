@@ -10,23 +10,23 @@
 <meta property="og:title" content="Globalisation and the Financial Sector - GCSE Economics">
 <meta property="og:description" content="Globalisation and financial sector for GCSE Economics: features, benefits, drawbacks, functions of money, Bank of England. Free revision notes.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/ec-global/EC26-globalisation-and-the-financial-sector.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/ec-global/EC26-globalisation-and-the-financial-sector.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/economics/edexcel/EC26-globalisation-and-the-financial-sector.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/economics/edexcel/EC26-globalisation-and-the-financial-sector.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Globalisation and the Financial Sector">
 <meta name="twitter:description" content="Globalisation and financial sector for GCSE Economics: features, benefits, drawbacks, functions of money, Bank of England. Free revision notes.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain two benefits and two drawbacks of globalisation for UK workers.", "acceptedAnswer": {"@type": "Answer", "text": "Benefits: (1) Cheaper imports — workers pay less for goods. (2) New jobs in export sectors (finance, education). Drawbacks: (1) Manufacturing job losses — factories move abroad. (2) Wage pressure from cheaper foreign labour."}}, {"@type": "Question", "name": "Describe the four functions of money and explain why each is important.", "acceptedAnswer": {"@type": "Answer", "text": "Medium of exchange: enables trade without barter. Store of value: holds value over time (though inflation erodes this). Unit of account: measures and compares value. Standard of deferred payment: enables borrowing/lending. Without these, modern economies could not operate."}}, {"@type": "Question", "name": "Evaluate whether globalisation has been beneficial overall for the UK economy.", "acceptedAnswer": {"@type": "Answer", "text": "Benefits: cheaper goods, global markets, foreign investment, technology, higher GDP. Drawbacks: trade deficit, job losses, inequality, environmental damage. Conclusion: globalisation has raised UK living standards overall, but benefits are unevenly distributed. Government should manage downsides thr"}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../economics.html">Economics</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../economics.html">Economics</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -35,8 +35,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../economics.html">Economics</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../economics.html">Economics</a> <span>›</span>
 <span>International Trade & Finance</span> <span>›</span>
 <span>Globalisation and the Financial Sector</span>
 </nav>
@@ -49,8 +49,46 @@
 </div>
 <p class="topic-desc">Globalisation and the role of money and financial markets: features of globalisation, benefits and drawbacks, functions of money, and the role of the Bank of England and financial institutions.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 <section class="section">
@@ -220,11 +258,11 @@ When evaluating globalisation, use the WIN framework: Who benefits?, Who loses?,
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/ec-global/EC26-globalisation-and-the-financial-sector.html&text=Globalisation and the Financial Sector" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/ec-global/EC26-globalisation-and-the-financial-sector.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/ec-global/EC26-globalisation-and-the-financial-sector.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Globalisation and the Financial Sector%20https://scottrix.github.io/gcserevise/topics/ec-global/EC26-globalisation-and-the-financial-sector.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/ec-global/EC26-globalisation-and-the-financial-sector.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/economics/edexcel/EC26-globalisation-and-the-financial-sector.html&text=Globalisation and the Financial Sector" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/economics/edexcel/EC26-globalisation-and-the-financial-sector.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/economics/edexcel/EC26-globalisation-and-the-financial-sector.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Globalisation and the Financial Sector%20https://scottrix.github.io/gcserevise/topics/economics/edexcel/EC26-globalisation-and-the-financial-sector.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/economics/edexcel/EC26-globalisation-and-the-financial-sector.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -234,14 +272,14 @@ When evaluating globalisation, use the WIN framework: Who benefits?, Who loses?,
 <li><a href="EC25-exchange-rates.html">Exchange Rates</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -254,7 +292,7 @@ When evaluating globalisation, use the WIN framework: Who benefits?, Who loses?,
 </div>
 </section>
 <nav class="topic-nav">
-<a href="../ec-global/EC25-exchange-rates.html" class="nav-prev">← Previous Topic</a>
+<a href="EC25-exchange-rates.html" class="nav-prev">&larr; Previous: Exchange Rates</a>
 <a href="#" class="nav-next">Next Topic →</a>
 </nav>
 </main>
@@ -262,7 +300,7 @@ When evaluating globalisation, use the WIN framework: Who benefits?, Who loses?,
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -280,25 +318,25 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <a href="https://www.amazon.co.uk/s?k=GCSE+Economics+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Economics Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Economics revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+AQA+8136,+OCR+J205+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE AQA 8136, OCR J205 Books →</div>
   <div class="affiliate-card-desc">Browse GCSE AQA 8136, OCR J205 revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Globalisation+and+the+Financial+Sector+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Globalisation and the Financial Sector Books →</div>
   <div class="affiliate-card-desc">Browse Globalisation and the Financial Sector books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -317,6 +355,6 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body></html>

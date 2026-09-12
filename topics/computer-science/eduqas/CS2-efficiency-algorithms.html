@@ -10,23 +10,23 @@
 <meta property="og:title" content="Efficiency of Algorithms - GCSE Computer Science">
 <meta property="og:description" content="Learn about time complexity and comparing algorithm efficiency for GCSE Computer Science. Free revision notes.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/computer-science/eduqas/CS2-efficiency-algorithms.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/computer-science/eduqas/CS2-efficiency-algorithms.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Efficiency of Algorithms">
 <meta name="twitter:description" content="Learn about time complexity and comparing algorithm efficiency for GCSE Computer Science. Free revision notes.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does time complexity measure?", "acceptedAnswer": {"@type": "Answer", "text": "Time complexity measures how the running time of an algorithm grows as the input size increases. It describes the relationship between input size and number of operations."}}, {"@type": "Question", "name": "An algorithm has O(n) time complexity. If it takes 5 seconds to process 1000 items, approximately how long would it take to process 5000 items?", "acceptedAnswer": {"@type": "Answer", "text": "Approximately 25 seconds. O(n) means time is proportional to input size. 5000 is 5 times 1000, so 5 × 5 = 25 seconds."}}, {"@type": "Question", "name": "Explain why binary search is more efficient than linear search for large datasets.", "acceptedAnswer": {"@type": "Answer", "text": "Binary search halves the search space each step, so it needs at most log₂(n) comparisons. Linear search checks every item, needing up to n comparisons. For large n, log₂(n) is vastly smaller than n."}}, {"@type": "Question", "name": "Give an example of a situation where using a less efficient algorithm might be acceptable.", "acceptedAnswer": {"@type": "Answer", "text": "When the dataset is very small (e.g. sorting 10 items), the difference between efficient and inefficient algorithms is negligible. Also, when the algorithm only runs once and speed is not critical."}}, {"@type": "Question", "name": "A bubble sort on 100 items takes up to 10,000 comparisons. How many comparisons would it take for 1000 items?", "acceptedAnswer": {"@type": "Answer", "text": "Up to 1,000,000 comparisons. Bubble sort is O(n²), so for 1000 items: 1000 × 1000 = 1,000,000."}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../computer-science.html">Computer Science</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../computer-science.html">Computer Science</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../computer-science.html">Computer Science</a> <span>›</span>
 <span>Algorithms</span> <span>›</span>
 <span>Efficiency of Algorithms</span>
 </nav>
@@ -51,8 +51,46 @@
 </div>
 <p class="topic-desc">Understanding how efficient algorithms are and why some algorithms are better than others for solving the same problem.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -370,11 +408,11 @@ When comparing algorithm efficiency, always refer to Big O notation and explain 
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html&text=Efficiency of Algorithms" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Efficiency of Algorithms%20https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/algorithms/CS2-efficiency-algorithms.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/computer-science/eduqas/CS2-efficiency-algorithms.html&text=Efficiency of Algorithms" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/computer-science/eduqas/CS2-efficiency-algorithms.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/computer-science/eduqas/CS2-efficiency-algorithms.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Efficiency of Algorithms%20https://scottrix.github.io/gcserevise/topics/computer-science/eduqas/CS2-efficiency-algorithms.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/computer-science/eduqas/CS2-efficiency-algorithms.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -386,14 +424,14 @@ When comparing algorithm efficiency, always refer to Big O notation and explain 
 <li><a href="CS5-trace-tables.html">Trace Tables</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -406,8 +444,8 @@ When comparing algorithm efficiency, always refer to Big O notation and explain 
 </div>
 </section>
 <nav class="topic-nav">
-<a href="CS1-representing-algorithms.html" class="nav-prev">← Previous: Representing Algorithms</a>
-<a href="CS3-searching-algorithms.html" class="nav-next">Next Topic: Searching Algorithms →</a>
+<a href="CS1-representing-algorithms.html" class="nav-prev">&larr; Previous: Representing Algorithms</a>
+<a href="CS3-searching-algorithms.html" class="nav-next">Next: Searching Algorithms &rarr;</a>
 </nav>
 </main>
 
@@ -415,7 +453,7 @@ When comparing algorithm efficiency, always refer to Big O notation and explain 
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -441,25 +479,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+Computer+Science+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Computer Science Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Computer Science revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
   <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Efficiency+of+Algorithms+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Efficiency of Algorithms Books →</div>
   <div class="affiliate-card-desc">Browse Efficiency of Algorithms books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -478,7 +516,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>

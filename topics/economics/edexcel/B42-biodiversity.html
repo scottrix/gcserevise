@@ -10,21 +10,21 @@
 <meta property="og:title" content="Biodiversity - GCSE Biology">
 <meta property="og:description" content="Biodiversity, human impacts and conservation. Free GCSE Triple Biology revision notes with definitions, examples and practice questions.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/ecology/B42-biodiversity.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/ecology/B42-biodiversity.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/economics/edexcel/B42-biodiversity.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/economics/edexcel/B42-biodiversity.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="B42: Biodiversity">
 <meta name="twitter:description" content="Biodiversity, human impacts and conservation. Free GCSE Triple Biology revision notes with definitions, examples and practice questions.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "FoundationDefine biodiversity and explain why it is important to maintain it.", "acceptedAnswer": {"@type": "Answer", "text": "Biodiversityis the variety of different species living in an ecosystem, including genetic diversity within species and the variety of ecosystems. It is important to maintain because: (1) each species plays a role in the ecosystem (e.g. pollinators are essential for crop production); (2) high biodive"}}, {"@type": "Question", "name": "FoundationDescribe three consequences of deforestation and explain how each reduces biodiversity or contributes to global warming.", "acceptedAnswer": {"@type": "Answer", "text": "Three consequences of deforestation: (1)Less CO₂ absorbed– fewer trees means less photosynthesis, so less CO₂ is removed from the atmosphere, contributing to global warming. Burning felled trees also releases CO₂. (2)Habitat loss– destroying forests removes the homes of millions of species; many can"}}, {"@type": "Question", "name": "HigherExplain why destroying peat bogs contributes more to global warming than might be expected from their relatively small land area.", "acceptedAnswer": {"@type": "Answer", "text": "Peat bogs cover only about 3% of the Earth's land surface but store approximately twice as much carbon as all the world's forests combined. This is because peat is formed from partially decomposed plant material that has accumulated over thousands of years in acidic, low-oxygen (anaerobic) condition"}}, {"@type": "Question", "name": "FoundationDescribe the greenhouse effect and name two greenhouse gases, stating where each comes from.", "acceptedAnswer": {"@type": "Answer", "text": "Thegreenhouse effectoccurs when greenhouse gases in the atmosphere trap heat that would otherwise escape into space. Sunlight passes through the atmosphere and warms the Earth's surface. The Earth radiates heat back as infrared radiation. Greenhouse gases (CO₂, methane, water vapour) absorb this inf"}}, {"@type": "Question", "name": "HigherExplain how eutrophication occurs and how it reduces biodiversity in a lake.", "acceptedAnswer": {"@type": "Answer", "text": "Eutrophication occurs when excess nutrients (especially nitrates and phosphates from agricultural fertilisers) are washed into a lake by rain. The nutrients causealgae to grow rapidly, forming a thick green bloom on the water surface. The algal bloomblocks sunlight, so submerged plants cannot photos"}}, {"@type": "Question", "name": "FoundationDescribe three conservation strategies and explain why conservation may sometimes conflict with human interests.", "acceptedAnswer": {"@type": "Answer", "text": "Three conservation strategies: (1)Captive breeding programmes– breeding endangered species in controlled environments (zoos) to maintain population numbers and genetic diversity, with the aim of eventual reintroduction to the wild. (2)National parks and nature reserves– large protected areas where d"}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
-<nav class="nav"><a href="../../#subjects">Subjects</a> <a href="../../biology.html">Biology</a></nav>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
+<nav class="nav"><a href="../../../#subjects">Subjects</a> <a href="../../../biology.html">Biology</a></nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
 </header>
@@ -32,11 +32,49 @@
 <main class="topic-content">
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
-<nav class="breadcrumb"><a href="../../">Home</a> <span>›</span> <a href="../../biology.html">Biology</a> <span>›</span> <a href="../../biology.html#ecology">Ecology</a> <span>›</span> <span>Biodiversity</span></nav>
+<nav class="breadcrumb"><a href="../../../">Home</a> <span>›</span> <a href="../../../biology.html">Biology</a> <span>›</span> <a href="../../../biology.html#ecology">Ecology</a> <span>›</span> <span>Biodiversity</span></nav>
 
 <article class="topic-header"><h1>B42: Biodiversity</h1><div class="topic-meta"><span class="badge foundation">Foundation</span><span class="badge higher">Higher</span></div><p class="topic-desc">Biodiversity, human impacts and conservation</p></article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -361,11 +399,11 @@
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/ecology/B42-biodiversity.html&text=B42: Biodiversity" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/ecology/B42-biodiversity.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/ecology/B42-biodiversity.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=B42: Biodiversity%20https://scottrix.github.io/gcserevise/topics/ecology/B42-biodiversity.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/ecology/B42-biodiversity.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/economics/edexcel/B42-biodiversity.html&text=B42: Biodiversity" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/economics/edexcel/B42-biodiversity.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/economics/edexcel/B42-biodiversity.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=B42: Biodiversity%20https://scottrix.github.io/gcserevise/topics/economics/edexcel/B42-biodiversity.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/economics/edexcel/B42-biodiversity.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -378,14 +416,14 @@
 <li><a href="B45-investigating-populations.html">B45: Investigating Populations</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -397,14 +435,14 @@
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="cta-link" target="_blank" rel="nofollow noopener">✅ All GCSE Guides</a>
 </div>
 </section>
-<div class="topic-nav"><a href="B41-nutrient-cycles.html" class="nav-prev">← B41: Nutrient Cycles</a> <a href="B43-trophic-levels-and-biomass-transfer.html" class="nav-next">B43: Trophic Levels and Biomass Transfer →</a></div>
+<div class="topic-nav"><a href="B41-nutrient-cycles.html" class="nav-prev">&larr; Previous: Nutrient Cycles</a> <a href="B43-trophic-levels-and-biomass-transfer.html" class="nav-next">Next: Trophic Levels And Biomass Transfer &rarr;</a></div>
 </main>
 
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -414,25 +452,25 @@ document.getElementById("theme-toggle").addEventListener("click",function(){cons
 <a href="https://www.amazon.co.uk/s?k=GCSE+Biology+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Biology Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Biology revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+Biology+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Biology Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE Biology guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Biodiversity+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Biodiversity Books →</div>
   <div class="affiliate-card-desc">Browse Biodiversity books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -451,6 +489,6 @@ document.getElementById("theme-toggle").addEventListener("click",function(){cons
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body></html>

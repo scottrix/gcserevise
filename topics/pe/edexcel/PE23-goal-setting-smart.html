@@ -10,23 +10,23 @@
 <meta property="og:title" content="Goal Setting and SMART Targets - GCSE PE">
 <meta property="og:description" content="Learn about SMART goal setting, performance vs outcome goals, and how to use goals to optimise performance for GCSE PE. Free revision notes.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/sports-psychology/PE23-goal-setting-smart.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/sports-psychology/PE23-goal-setting-smart.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE23-goal-setting-smart.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE23-goal-setting-smart.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Goal Setting and SMART Targets">
 <meta name="twitter:description" content="Learn about SMART goal setting, performance vs outcome goals, and how to use goals to optimise performance for GCSE PE. Free revision notes.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain the difference between a performance goal and an outcome goal, using a sporting example.", "acceptedAnswer": {"@type": "Answer", "text": "A performance goal focuses on improving a specific aspect of the performer's own performance, while an outcome goal focuses on the result, often compared to others. Example: A performance goal for a swimmer is \"reduce my 100m backstroke time by 3 seconds\" because it focuses on personal improvement a"}}, {"@type": "Question", "name": "What does each letter in SMART stand for? Explain why each element is important.", "acceptedAnswer": {"@type": "Answer", "text": "S = Specific (clearly states what needs to be achieved, giving direction); M = Measurable (allows progress to be tracked objectively); A = Accepted (performer agrees and commits, increasing motivation); R = Realistic (achievable given current ability, preventing demotivation); T = Time-bound (create"}}, {"@type": "Question", "name": "Rewrite this non-SMART goal as a SMART goal: \"I want to be a better runner.\"", "acceptedAnswer": {"@type": "Answer", "text": "\"I will reduce my 1500m time from 6:30 to 6:15 within 10 weeks by completing three training sessions per week including one interval session.\" (Specific: 1500m time; Measurable: from 6:30 to 6:15; Accepted: agreed with coach; Realistic: 15 seconds over 10 weeks; Time-bound: within 10 weeks.)"}}, {"@type": "Question", "name": "Why are performance goals generally considered more effective than outcome goals?", "acceptedAnswer": {"@type": "Answer", "text": "Performance goals are more effective because they are within the performer's control. Even if a performer loses a match, they can still achieve performance goals (e.g. improved passing accuracy), which maintains motivation. Outcome goals depend partly on the quality of opponents, so failing to achie"}}, {"@type": "Question", "name": "How can a performer evaluate the effectiveness of their goal-setting programme?", "acceptedAnswer": {"@type": "Answer", "text": "A performer can evaluate effectiveness by: reviewing progress against measurable targets at regular intervals, keeping a training diary to track improvements, discussing progress with their coach, using video analysis to assess technique, and checking whether goals have been achieved within the set "}}, {"@type": "Question", "name": "Explain why a goal that is too easy can be just as problematic as a goal that is too difficult.", "acceptedAnswer": {"@type": "Answer", "text": "A goal that is too easy provides no challenge, so the performer may not put in maximum effort and motivation will be low. They may become complacent and not push themselves to improve. A goal that is too difficult can demoralise the performer when they fail to achieve it, leading to frustration, red"}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../pe.html">PE</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../pe.html">PE</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../pe.html">PE</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../pe.html">PE</a> <span>›</span>
 <span>Sports Psychology</span> <span>›</span>
 <span>Goal Setting and SMART</span>
 </nav>
@@ -52,8 +52,46 @@
 </div>
 <p class="topic-desc">Understanding performance and outcome goals, SMART targets, and how effective goal setting can optimise sporting performance.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -377,11 +415,11 @@ Breaking large goals into smaller steps makes them more manageable and maintains
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/sports-psychology/PE23-goal-setting-smart.html&text=Goal Setting and SMART Targets" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/sports-psychology/PE23-goal-setting-smart.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/sports-psychology/PE23-goal-setting-smart.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Goal Setting and SMART Targets%20https://scottrix.github.io/gcserevise/topics/sports-psychology/PE23-goal-setting-smart.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/sports-psychology/PE23-goal-setting-smart.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE23-goal-setting-smart.html&text=Goal Setting and SMART Targets" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE23-goal-setting-smart.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE23-goal-setting-smart.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Goal Setting and SMART Targets%20https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE23-goal-setting-smart.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE23-goal-setting-smart.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -395,14 +433,14 @@ Breaking large goals into smaller steps makes them more manageable and maintains
 <li><a href="PE28-aggression-personality-motivation.html">Aggression, Personality and Motivation</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -415,8 +453,8 @@ Breaking large goals into smaller steps makes them more manageable and maintains
 </div>
 </section>
 <nav class="topic-nav">
-<a href="PE22-skill-classification.html" class="nav-prev">← PE22: Skill Classification</a>
-<a href="PE24-information-processing.html" class="nav-next">Next Topic: Information Processing →</a>
+<a href="PE22-skill-classification.html" class="nav-prev">&larr; Previous: Skill Classification</a>
+<a href="PE24-information-processing.html" class="nav-next">Next: Information Processing &rarr;</a>
 </nav>
 </main>
 
@@ -424,7 +462,7 @@ Breaking large goals into smaller steps makes them more manageable and maintains
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -450,25 +488,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+Physical+Education+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Physical Education Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Physical Education revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+Paper+2+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Paper 2 Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Paper 2 revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Goal+Setting+and+SMART+Targets+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Goal Setting and SMART Targets Books →</div>
   <div class="affiliate-card-desc">Browse Goal Setting and SMART Targets books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -487,7 +525,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>

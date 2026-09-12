@@ -10,23 +10,23 @@
 <meta property="og:title" content="Precambrian &amp; Early Earth - GCSE Geology">
 <meta property="og:description" content="GCSE Geology: Precambrian, early Earth, atmosphere formation, early life, stromatolites. OCR J357 revision notes.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/geo-geological-time/g19-precambrian-early-earth.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/geo-geological-time/g19-precambrian-early-earth.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/geography/aqa/g19-precambrian-early-earth.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/geography/aqa/g19-precambrian-early-earth.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Precambrian &amp;amp; Early Earth">
 <meta name="twitter:description" content="GCSE Geology: Precambrian, early Earth, atmosphere formation, early life, stromatolites. OCR J357 revision notes.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:What was the composition of Earth's early atmosphere?", "acceptedAnswer": {"@type": "Answer", "text": "Rich in CO2, water vapour, nitrogen, methane and sulfur compounds. There was essentially no free oxygen. This is similar to the atmospheres of Venus and Mars today."}}, {"@type": "Question", "name": "Q:How did Earth's atmosphere become oxygenated?", "acceptedAnswer": {"@type": "Answer", "text": "Cyanobacteria evolved photosynthesis from ~3.5 billion years ago, releasing oxygen as a waste product. Over hundreds of millions of years, this oxygen first reacted with dissolved iron in the oceans (forming BIFs) and then accumulated in the atmosphere during the Great Oxidation Event (~2.4 Ga)."}}, {"@type": "Question", "name": "Q:What are banded iron formations and how did they form?", "acceptedAnswer": {"@type": "Answer", "text": "BIFs are sedimentary rocks with alternating layers of iron oxide (hematite/magnetite) and chert. They formed when oxygen produced by cyanobacteria reacted with dissolved ferrous iron in Precambrian oceans, causing iron to precipitate as insoluble iron oxide on the ocean floor."}}, {"@type": "Question", "name": "Q:Why is the Precambrian fossil record so sparse?", "acceptedAnswer": {"@type": "Answer", "text": "Most Precambrian organisms were soft-bodied and single-celled (bacteria, archaea), which rarely fossilise. The rocks are very old and have often been metamorphosed or eroded, destroying any fossils that may have existed. Also, organisms had not yet evolved hard parts (shells, skeletons) that preserv"}}, {"@type": "Question", "name": "Q:What are stromatolites and why are they important?", "acceptedAnswer": {"@type": "Answer", "text": "Stromatolites are layered structures formed by colonies of photosynthetic cyanobacteria trapping and binding sediment. They are among the oldest evidence of life on Earth (~3.5 Ga) and were responsible for producing the oxygen that eventually oxygenated the atmosphere."}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../geology.html">Geology</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../geology.html">Geology</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -35,8 +35,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../geology.html">Geology</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../geology.html">Geology</a> <span>›</span>
 <span>Geological Time &amp; Earth History</span> <span>›</span>
 <span>Precambrian &amp; Early Earth</span>
 </nav>
@@ -49,8 +49,46 @@
 </div>
 <p class="topic-desc">The Precambrian eon covering the formation of Earth, the development of the atmosphere and oceans, and early life.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 <section class="section">
@@ -158,11 +196,11 @@
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/geo-geological-time/g19-precambrian-early-earth.html&text=Precambrian &amp;amp; Early Earth" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/geo-geological-time/g19-precambrian-early-earth.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/geo-geological-time/g19-precambrian-early-earth.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Precambrian &amp;amp; Early Earth%20https://scottrix.github.io/gcserevise/topics/geo-geological-time/g19-precambrian-early-earth.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/geo-geological-time/g19-precambrian-early-earth.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/geography/aqa/g19-precambrian-early-earth.html&text=Precambrian &amp;amp; Early Earth" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/geography/aqa/g19-precambrian-early-earth.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/geography/aqa/g19-precambrian-early-earth.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Precambrian &amp;amp; Early Earth%20https://scottrix.github.io/gcserevise/topics/geography/aqa/g19-precambrian-early-earth.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/geography/aqa/g19-precambrian-early-earth.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -173,14 +211,14 @@
 <li><a href="g22-geology-of-britain.html">Geology of Britain</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -193,15 +231,15 @@
 </div>
 </section>
 <nav class="topic-nav">
-<a href="../geo-surface-processes/g18-geological-hazard-processes.html" class="nav-prev">← Previous Topic</a>
-<a href="../geo-geological-time/g20-palaeozoic-mesozoic.html" class="nav-next">Next Topic →</a>
+<a href="g18-geological-hazard-processes.html" class="nav-prev">&larr; Previous: Geological Hazard Processes</a>
+<a href="G19-similar-shapes.html" class="nav-next">Next: Similar Shapes &rarr;</a>
 </nav>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -220,25 +258,25 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <a href="https://www.amazon.co.uk/s?k=GCSE+Geology+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Geology Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Geology revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+OCR+J357+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE OCR J357 Books →</div>
   <div class="affiliate-card-desc">Browse GCSE OCR J357 revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Precambrian+%26+Early+Earth+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Precambrian &amp; Early Earth Books →</div>
   <div class="affiliate-card-desc">Browse Precambrian &amp; Early Earth books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -257,6 +295,6 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body></html>

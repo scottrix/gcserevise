@@ -10,23 +10,23 @@
 <meta property="og:title" content="Packaging and Print Design - GCSE Art and Design">
 <meta property="og:description" content="Learn about Net design and die-cutting; materials and sustainability; point-of-sale display; magazine and book layout; poster design. Free GCSE Art and Design revision notes.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC5-packaging-and-print-design.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC5-packaging-and-print-design.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/art-and-design/ccea/GC5-packaging-and-print-design.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/art-and-design/ccea/GC5-packaging-and-print-design.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Packaging and Print Design">
 <meta name="twitter:description" content="Learn about Net design and die-cutting; materials and sustainability; point-of-sale display; magazine and book layout; poster design. Free GCSE Art and Design revision notes.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Create a series of experimental studies exploring packaging and print design. Annotate your process.", "acceptedAnswer": {"@type": "Answer", "text": "A range of experimental studies showing different approaches to packaging and print design, each annotated with media, technique and purpose. Show development from initial experiments to refined outcomes."}}, {"@type": "Question", "name": "Research an artist or designer who works with packaging and print design. Write a critical analysis of their approach and explain how it has informed your own work.", "acceptedAnswer": {"@type": "Answer", "text": "A critical analysis naming a specific artist/designer, using specialist vocabulary, explaining their context and approach, and making clear connections to personal work."}}, {"@type": "Question", "name": "Evaluate the effectiveness of your experiments with packaging and print design. Which approaches were most successful and why?", "acceptedAnswer": {"@type": "Answer", "text": "A reflective evaluation identifying successful and less successful experiments, explaining WHY using technical and conceptual language, and showing how evaluation led to further refinement."}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../art-and-design.html">Art and Design</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../art-and-design.html">Art and Design</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../art-and-design.html">Art and Design</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../art-and-design.html">Art and Design</a> <span>›</span>
 <span>Print and Promotional Media</span> <span>›</span>
 <span>Packaging and Print Design</span>
 </nav>
@@ -51,8 +51,46 @@
 </div>
 <p class="topic-desc">Net design and die-cutting; materials and sustainability; point-of-sale display; magazine and book layout; poster design; information graphics; print processes (offset, digital, screen).</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -177,19 +215,19 @@ Show the FLAT NET and the ASSEMBLED package. Test that your net actually folds �
 </section>
 
 <section class="section"><h2>Detailed Notes</h2><h3>Functions of Packaging</h3><p>Packaging serves four key functions: Protection (keeping the product safe during transport and storage), Containment (holding the product securely), Information (displaying legal requirements, ingredients, barcodes, and instructions), and Promotion (attracting customers at point of sale). Good packaging balances all four — a beautiful box that fails to protect the product is useless, and strong protection that hides the brand wastes a marketing opportunity.</p><div class="example"><div class="example-title">Example</div><p>Toblerone's triangular packaging is iconic and functional: the shape protects the chocolate segments, the distinctive form stands out on shelves (promotion), the box contains the product neatly, and the packaging displays brand information and ingredients. The shape is so distinctive it has been trademarked.</p></div><h3>Print Processes and Finishes</h3><p>Lithography (litho) prints high-quality, consistent colour in large quantities — ideal for magazines and packaging. Digital printing is cost-effective for short runs and personalisation. Screen printing suits thick inks on textiles and posters. Foil blocking applies metallic foil using heat and pressure for premium finishes. Embossing/debossing creates raised or recessed designs. Spot UV varnish highlights specific areas with gloss against a matt background. Each finish adds cost but increases perceived value.</p><div class="example"><div class="example-title">Example</div><p>A luxury chocolate box might use litho printing for the main design, foil blocking for the brand name in gold, embossing for a raised logo, and spot UV on the product image to make it shine against the matt background. These finishes together create a premium feel that justifies a higher price point.</p></div><h3>Sustainable Packaging Design</h3><p>Sustainable packaging minimises environmental impact through: using recycled or recyclable materials (card, paper, glass, aluminium), reducing material quantity (lightweighting), eliminating unnecessary layers (minimal packaging), using vegetable-based inks instead of petroleum-based, and designing for disassembly (easy separation of material types for recycling). The UK Packaging Regulations require businesses to meet recycling targets.</p><div class="example"><div class="example-title">Example</div><p>Lush Cosmetics uses "naked" packaging (solid shampoo bars with no packaging at all), recycled black pots for creams, and paper bags made from recycled paper. When packaging is necessary, they use biodegradable materials like popcorn instead of polystyrene packing peanuts for shipping.</p></div></section><section class="section"><h2>Print Processes Comparison</h2><table class="comparison-table"><tr><th>Process</th><th>Best For</th><th>Setup Cost</th><th>Unit Cost</th><th>Quality</th><th>Min. Quantity</th></tr><tr><td>Lithography</td><td>High-volume packaging, magazines</td><td>High (plates)</td><td>Low</td><td>Excellent</td><td>500+</td></tr><tr><td>Digital</td><td>Short runs, personalisation</td><td>Low</td><td>Higher</td><td>Good</td><td>1+</td></tr><tr><td>Screen</td><td>Textiles, posters, thick inks</td><td>Medium</td><td>Medium</td><td>Good</td><td>20+</td></tr><tr><td>Flexography</td><td>Flexible packaging, labels</td><td>Medium</td><td>Low</td><td>Good</td><td>1000+</td></tr><tr><td>Foil blocking</td><td>Premium finishes on packaging</td><td>Medium (die)</td><td>Medium</td><td>Excellent</td><td>50+</td></tr></table></section><section class="section"><h2>Extended Practice</h2><div class="practice-questions"><div class="question"><p><strong>Q:</strong> Explain why a designer must consider all four functions of packaging when developing a new product container.</p></div><div class="question"><p><strong>Q:</strong> Evaluate the environmental trade-offs between using glass and plastic for a drinks bottle packaging.</p></div></div></section><section class="section"><h2>Extended Answers</h2><ol><li>All four functions — protection, containment, information, promotion — must work together. If a designer focuses only on promotion (attractive graphics) but ignores protection, the product may arrive damaged, leading to returns and lost trust. If protection is prioritised without promotion, the product may not attract buyers on the shelf. Information must meet legal requirements (ingredients, weight, barcode, recycling symbols) — missing these can result in the product being refused by retailers. Containment ensures the product does not leak, spill or fall out. For example, a perfume bottle needs an attractive box (promotion), secure internal moulding (protection and containment), and regulatory text including volume, ingredients, and recycling symbols (information). Neglecting any function results in a failed product launch.</li><li>Glass is infinitely recyclable without quality loss, inert (no chemical leaching), and perceived as premium — supporting higher pricing. However, glass is heavy (increasing transport emissions and costs), fragile (breakage risk), and energy-intensive to manufacture and recycle (requiring very high temperatures). Plastic (PET) is lightweight (lower transport emissions), shatterproof, and cheaper to produce. However, plastic degrades with each recycling cycle, can leach chemicals, and much of it ends up in landfill or ocean pollution. Even "recyclable" PET is only recycled around 20-30% of the time in the UK. A balanced solution might use recycled glass for premium products (where weight is less critical and price premium covers costs) and recycled PET with clear recycling instructions for mass-market drinks, while investing in closed-loop systems that ensure bottles are actually collected and reprocessed.</li></ol></section><nav class="topic-nav">
-<a href="#" class="nav-prev">← Previous Topic</a>
-<a href="#" class="nav-next">Next Topic →</a>
+<a href="GC4-branding-and-corporate-identity.html" class="nav-prev">&larr; Previous: Branding And Corporate Identity</a>
+<a href="GC6-graphic-designers-and-movements.html" class="nav-next">Next: Graphic Designers And Movements &rarr;</a>
 </nav>
 
 
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC5-packaging-and-print-design.html&text=Packaging and Print Design" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC5-packaging-and-print-design.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC5-packaging-and-print-design.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Packaging and Print Design%20https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC5-packaging-and-print-design.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC5-packaging-and-print-design.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/art-and-design/ccea/GC5-packaging-and-print-design.html&text=Packaging and Print Design" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/art-and-design/ccea/GC5-packaging-and-print-design.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/art-and-design/ccea/GC5-packaging-and-print-design.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Packaging and Print Design%20https://scottrix.github.io/gcserevise/topics/art-and-design/ccea/GC5-packaging-and-print-design.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/art-and-design/ccea/GC5-packaging-and-print-design.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -202,14 +240,14 @@ Show the FLAT NET and the ASSEMBLED package. Test that your net actually folds �
 <li><a href="GC6-graphic-designers-and-movements.html">Graphic Designers and Movements</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -228,7 +266,7 @@ Show the FLAT NET and the ASSEMBLED package. Test that your net actually folds �
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -254,25 +292,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+Art+and+Design+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Art and Design Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Art and Design revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
   <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Packaging+and+Print+Design+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Packaging and Print Design Books →</div>
   <div class="affiliate-card-desc">Browse Packaging and Print Design books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -291,7 +329,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>

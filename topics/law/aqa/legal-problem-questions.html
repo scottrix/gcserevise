@@ -10,23 +10,23 @@
 <meta property="og:title" content="Legal Problem Questions - GCSE Law">
 <meta property="og:description" content="OCR J271 GCSE Law legal problem questions: ILAC method, issue identification, applying law to facts, criminal liability scenarios, civil liability scenarios, conclusion">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/law-exam-technique/legal-problem-questions.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/law-exam-technique/legal-problem-questions.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/law/aqa/legal-problem-questions.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/law/aqa/legal-problem-questions.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Legal Problem Questions">
 <meta name="twitter:description" content="OCR J271 GCSE Law legal problem questions: ILAC method, issue identification, applying law to facts, criminal liability scenarios, civil liability scenarios, conclusion">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:What is the ILAC method and why is it useful?", "acceptedAnswer": {"@type": "Answer", "text": "ILAC stands for Issue, Law, Application, Conclusion. It provides a structured approach to problem questions: first identify the legal issue, then state the relevant legal rules, then apply those rules to the specific facts of the scenario, and finally reach a conclusion about the likely outcome. It "}}, {"@type": "Question", "name": "Q:How should you approach a criminal law problem question?", "acceptedAnswer": {"@type": "Answer", "text": "First identify the offence and legal issues. Then work through: (1) actus reus — does the scenario show a guilty act, omission or state of affairs? (2) mens rea — does the defendant have the required mental element (intention or recklessness)? (3) any defences — could the defendant rely on a defence"}}, {"@type": "Question", "name": "Q:Why is it important to use the specific facts from the scenario?", "acceptedAnswer": {"@type": "Answer", "text": "The examiner includes specific facts for a reason — they are meant to trigger particular legal principles or tests. Using the specific facts demonstrates that you can apply the law rather than just state it. Ignoring facts or failing to connect them to legal rules loses marks because it shows you ha"}}, {"@type": "Question", "name": "Q:What language should you use when the legal outcome is uncertain?", "acceptedAnswer": {"@type": "Answer", "text": "Use tentative language such as 'it is likely that', 'the court would probably find', 'this suggests', 'on balance' or 'it could be argued that'. This shows you recognise the law can be uncertain and that different interpretations are possible. Avoid stating outcomes as certain when reasonable argume"}}, {"@type": "Question", "name": "Q:How do you handle a scenario with multiple legal issues?", "acceptedAnswer": {"@type": "Answer", "text": "Address each issue separately and in a logical order. In criminal law, deal with each offence or element in turn (actus reus, mens rea, defences). In civil law, address each cause of action or element. Use clear paragraphing or headings to show the examiner you have identified each issue. Deal with "}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../law.html">Law</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../law.html">Law</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -35,8 +35,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../law.html">Law</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../law.html">Law</a> <span>›</span>
 <span>Exam Technique</span> <span>›</span>
 <span>Legal Problem Questions</span>
 </nav>
@@ -47,8 +47,46 @@
 </div>
 <p class="topic-desc">How to apply legal rules to factual scenarios in problem questions</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 <section class="section">
@@ -177,11 +215,11 @@
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/law-exam-technique/legal-problem-questions.html&text=Legal Problem Questions" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/law-exam-technique/legal-problem-questions.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/law-exam-technique/legal-problem-questions.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Legal Problem Questions%20https://scottrix.github.io/gcserevise/topics/law-exam-technique/legal-problem-questions.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/law-exam-technique/legal-problem-questions.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/law/aqa/legal-problem-questions.html&text=Legal Problem Questions" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/law/aqa/legal-problem-questions.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/law/aqa/legal-problem-questions.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Legal Problem Questions%20https://scottrix.github.io/gcserevise/topics/law/aqa/legal-problem-questions.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/law/aqa/legal-problem-questions.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -193,14 +231,14 @@
 <li><a href="paper-2-technique-law.html">Paper 2: Law in Action Technique</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -213,15 +251,15 @@
 </div>
 </section>
 <nav class="topic-nav">
-<a href="../law-exam-technique/exam-command-words-law.html" class="nav-prev">← Previous Topic</a>
-<a href="../law-exam-technique/legal-evaluation-skills.html" class="nav-next">Next Topic →</a>
+<a href="legal-personnel.html" class="nav-prev">&larr; Previous: Legal Personnel</a>
+<a href="legal-system-overview.html" class="nav-next">Next: Legal System Overview &rarr;</a>
 </nav>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -240,25 +278,25 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <a href="https://www.amazon.co.uk/s?k=GCSE+Law+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Law Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Law revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+OCR+J271+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE OCR J271 Books →</div>
   <div class="affiliate-card-desc">Browse GCSE OCR J271 revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Legal+Problem+Questions+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Legal Problem Questions Books →</div>
   <div class="affiliate-card-desc">Browse Legal Problem Questions books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -277,6 +315,6 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body></html>

@@ -10,23 +10,23 @@
 <meta property="og:title" content="Diet and Nutrition - GCSE PE">
 <meta property="og:description" content="Learn about energy balance, macronutrients, micronutrients, fibre and pre/during/post-event nutrition for GCSE PE. Free revision notes.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/health-fitness-wellbeing/PE38-diet-nutrition.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/health-fitness-wellbeing/PE38-diet-nutrition.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE38-diet-nutrition.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE38-diet-nutrition.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Diet and Nutrition">
 <meta name="twitter:description" content="Learn about energy balance, macronutrients, micronutrients, fibre and pre/during/post-event nutrition for GCSE PE. Free revision notes.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain what is meant by energy balance and how it affects body weight.", "acceptedAnswer": {"@type": "Answer", "text": "Energy balance is the relationship between calories consumed (energy in from food and drink) and calories expended (energy out from BMR, physical activity and digestion). When energy in equals energy out, body weight is maintained. When energy in exceeds energy out, the excess is stored as fat and w"}}, {"@type": "Question", "name": "Describe the role of carbohydrates in sport. Why are complex carbohydrates preferred over simple carbohydrates in pre-event meals?", "acceptedAnswer": {"@type": "Answer", "text": "Carbohydrates are the body's primary and most efficient energy source, particularly for high-intensity exercise. They are broken down into glucose and stored as glycogen in muscles and the liver. During exercise, glycogen is converted back to glucose and used for energy through glycolysis. Complex c"}}, {"@type": "Question", "name": "Explain why iron and calcium are particularly important minerals for athletes.", "acceptedAnswer": {"@type": "Answer", "text": "Iron is essential for athletes because it is the core component of haemoglobin, the protein in red blood cells that transports oxygen from the lungs to working muscles. Without sufficient iron, oxygen transport is impaired, reducing aerobic capacity and causing fatigue (anaemia). This is especially "}}, {"@type": "Question", "name": "Describe what an endurance athlete should eat before, during and after a marathon. Justify your recommendations.", "acceptedAnswer": {"@type": "Answer", "text": "Pre-event (2-4 hours before): A meal high in complex carbohydrates (e.g. pasta with tomato sauce) for sustained energy, with moderate protein and low fat/fibre for easy digestion. Pre-event (30 min before): Simple carbohydrate snack (e.g. banana) for quick energy. During the marathon: Sports drinks "}}, {"@type": "Question", "name": "Why should athletes avoid high-fibre foods in the 24 hours before competition?", "acceptedAnswer": {"@type": "Answer", "text": "Athletes should avoid high-fibre foods before competition because fibre is indigestible and can cause bloating, gas, stomach cramps and diarrhoea during exercise. These gastrointestinal issues are uncomfortable and distracting, and can significantly impair performance. Fibre also slows gastric empty"}}, {"@type": "Question", "name": "Explain the role of protein in post-exercise recovery and suggest an appropriate post-event meal for a strength athlete.", "acceptedAnswer": {"@type": "Answer", "text": "Protein is essential for post-exercise recovery because intense training causes micro-tears in muscle fibres, and protein provides the amino acids needed to repair this damage and rebuild stronger muscle tissue (hypertrophy). The 30-60 minute window after exercise is when muscles are most receptive "}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../pe.html">PE</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../pe.html">PE</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../pe.html">PE</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../pe.html">PE</a> <span>›</span>
 <span>Health, Fitness and Wellbeing</span> <span>›</span>
 <span>Diet and Nutrition</span>
 </nav>
@@ -52,8 +52,46 @@
 </div>
 <p class="topic-desc">Understanding energy balance, the role of macronutrients and micronutrients in sport, dietary fibre, and nutrition strategies for before, during and after exercise.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -469,11 +507,11 @@ To lose 0.5kg per week: daily deficit of ~550 kcal needed
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/health-fitness-wellbeing/PE38-diet-nutrition.html&text=Diet and Nutrition" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/health-fitness-wellbeing/PE38-diet-nutrition.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/health-fitness-wellbeing/PE38-diet-nutrition.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Diet and Nutrition%20https://scottrix.github.io/gcserevise/topics/health-fitness-wellbeing/PE38-diet-nutrition.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/health-fitness-wellbeing/PE38-diet-nutrition.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE38-diet-nutrition.html&text=Diet and Nutrition" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE38-diet-nutrition.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE38-diet-nutrition.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Diet and Nutrition%20https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE38-diet-nutrition.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/pe/edexcel/PE38-diet-nutrition.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -485,14 +523,14 @@ To lose 0.5kg per week: daily deficit of ~550 kcal needed
 <li><a href="PE39-hydration-dehydration.html">Hydration and Dehydration</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -505,8 +543,8 @@ To lose 0.5kg per week: daily deficit of ~550 kcal needed
 </div>
 </section>
 <nav class="topic-nav">
-<a href="PE37-somatotypes.html" class="nav-prev">← PE37: Somatotypes</a>
-<a href="PE39-hydration-dehydration.html" class="nav-next">Next Topic: Hydration and Dehydration →</a>
+<a href="PE37-somatotypes.html" class="nav-prev">&larr; Previous: Somatotypes</a>
+<a href="PE39-hydration-dehydration.html" class="nav-next">Next: Hydration Dehydration &rarr;</a>
 </nav>
 </main>
 
@@ -514,7 +552,7 @@ To lose 0.5kg per week: daily deficit of ~550 kcal needed
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -540,25 +578,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+Physical+Education+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Physical Education Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Physical Education revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+Paper+2+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Paper 2 Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Paper 2 revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Diet+and+Nutrition+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Diet and Nutrition Books →</div>
   <div class="affiliate-card-desc">Browse Diet and Nutrition books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -577,7 +615,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>

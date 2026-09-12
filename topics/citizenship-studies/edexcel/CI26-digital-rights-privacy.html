@@ -10,23 +10,23 @@
 <meta property="og:title" content="Digital Rights & Privacy - GCSE Citizenship Studies">
 <meta property="og:description" content="Digital rights and privacy for GCSE Citizenship: GDPR, data protection, Online Safety Act, freedom of expression, surveillance, online safety. Free revision notes.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI26-digital-rights-privacy.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI26-digital-rights-privacy.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/citizenship-studies/edexcel/CI26-digital-rights-privacy.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/citizenship-studies/edexcel/CI26-digital-rights-privacy.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Digital Rights &amp; Privacy">
 <meta name="twitter:description" content="Digital rights and privacy for GCSE Citizenship: GDPR, data protection, Online Safety Act, freedom of expression, surveillance, online safety. Free revision notes.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Q:What rights do individuals have under the UK GDPR?", "acceptedAnswer": {"@type": "Answer", "text": "Under UK GDPR, individuals have: the right of access to their data, right to rectification of inaccurate data, right to erasure (right to be forgotten), right to restrict processing, right to data portability, and right to object to processing. Organisations must have a lawful basis to process perso"}}, {"@type": "Question", "name": "Q:Why is the balance between online freedom and online safety difficult to achieve?", "acceptedAnswer": {"@type": "Answer", "text": "Online freedom allows free expression, essential for democracy. However, this freedom enables harmful content like hate speech, misinformation, and cyberbullying. Restricting freedom to improve safety risks censorship and government overreach, while allowing unrestricted freedom puts vulnerable peop"}}, {"@type": "Question", "name": "Q:Evaluate the effectiveness of the Online Safety Act 2023.", "acceptedAnswer": {"@type": "Answer", "text": "The Act requires platforms to remove harmful content and protect children, with Ofcom enforcement including fines up to 10% of global revenue. This could significantly improve online safety. However, critics argue it could lead to over-censorship, that defining 'harmful' is subjective, and that encr"}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../citizenship-studies.html">Citizenship Studies</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../citizenship-studies.html">Citizenship Studies</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -35,8 +35,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../citizenship-studies.html">Citizenship Studies</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../citizenship-studies.html">Citizenship Studies</a> <span>›</span>
 <span>Rights & Responsibilities</span> <span>›</span>
 <span>Digital Rights & Privacy</span>
 </nav>
@@ -49,8 +49,46 @@
 </div>
 <p class="topic-desc">Digital rights and privacy: UK GDPR, data protection, the Online Safety Act, freedom of expression online, surveillance, and the balance between safety and freedom.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 <section class="section">
 <h2>Digital Rights & Privacy</h2>
@@ -225,11 +263,11 @@ In conclusion, online safety legislation does not inevitably threaten free expre
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI26-digital-rights-privacy.html&text=Digital Rights &amp; Privacy" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI26-digital-rights-privacy.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI26-digital-rights-privacy.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Digital Rights &amp; Privacy%20https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI26-digital-rights-privacy.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/ci-rights-responsibilities/CI26-digital-rights-privacy.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/citizenship-studies/edexcel/CI26-digital-rights-privacy.html&text=Digital Rights &amp; Privacy" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/citizenship-studies/edexcel/CI26-digital-rights-privacy.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/citizenship-studies/edexcel/CI26-digital-rights-privacy.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Digital Rights &amp; Privacy%20https://scottrix.github.io/gcserevise/topics/citizenship-studies/edexcel/CI26-digital-rights-privacy.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/citizenship-studies/edexcel/CI26-digital-rights-privacy.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -240,14 +278,14 @@ In conclusion, online safety legislation does not inevitably threaten free expre
 <li><a href="CI25-employment-rights.html">Employment Rights</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -260,7 +298,7 @@ In conclusion, online safety legislation does not inevitably threaten free expre
 </div>
 </section>
 <nav class="topic-nav">
-<a href="../ci-rights-responsibilities/CI25-employment-rights.html" class="nav-prev">← Previous Topic</a>
+<a href="CI25-employment-rights.html" class="nav-prev">&larr; Previous: Employment Rights</a>
 <a href="#" class="nav-next">Next Topic →</a>
 </nav>
 </main>
@@ -268,7 +306,7 @@ In conclusion, online safety legislation does not inevitably threaten free expre
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -287,25 +325,25 @@ if (localStorage.getItem('gcserevise-theme') === 'light') {
 <a href="https://www.amazon.co.uk/s?k=GCSE+Citizenship+Studies+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Citizenship Studies Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Citizenship Studies revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+AQA+8100,+OCR+J270,+Edexcel+1CS0+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE AQA 8100, OCR J270, Edexcel 1CS0 Books →</div>
   <div class="affiliate-card-desc">Browse GCSE AQA 8100, OCR J270, Edexcel 1CS0 revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Digital+Rights+%26+Privacy+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Digital Rights & Privacy Books →</div>
   <div class="affiliate-card-desc">Browse Digital Rights & Privacy books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -324,6 +362,6 @@ if (localStorage.getItem('gcserevise-theme') === 'light') {
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body></html>

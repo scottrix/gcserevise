@@ -10,23 +10,23 @@
 <meta property="og:title" content="Uneven Development and its Consequences - GCSE Geography">
 <meta property="og:description" content="Learn about physical, economic and historical causes of uneven development, disparities in wealth and health, and international migration. Free GCSE Geography revision.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/changing-economic-world/G34-uneven-development.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/changing-economic-world/G34-uneven-development.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/geography/aqa/G34-uneven-development.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/geography/aqa/G34-uneven-development.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="G34: Uneven Development and its Consequences">
 <meta name="twitter:description" content="Learn about physical, economic and historical causes of uneven development, disparities in wealth and health, and international migration. Free GCSE Geography revision.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain how one physical factor can limit the development of a country.", "acceptedAnswer": {"@type": "Answer", "text": "Being landlocked limits development because the country has no direct access to sea trade routes. This makes imports and exports more expensive, as goods must travel through neighbouring countries, paying transit fees and facing delays. For example, Rwanda's landlocked position means transport costs"}}, {"@type": "Question", "name": "Describe how colonialism has contributed to uneven development.", "acceptedAnswer": {"@type": "Answer", "text": "Colonial powers extracted raw materials from colonies and built infrastructure only to serve export needs, not to develop local economies. They imposed artificial borders that divided ethnic groups and forced rivals together, causing conflicts that continue today. When colonies gained independence, "}}, {"@type": "Question", "name": "Outline the economic causes of uneven development.", "acceptedAnswer": {"@type": "Answer", "text": "Economic causes include: poor trade terms (LICs export cheap primary goods and import expensive manufactured goods); debt (many LICs spend more on debt repayments than on health and education); lack of investment (poor infrastructure deters foreign investment); and exploitation by TNCs that take pro"}}, {"@type": "Question", "name": "Explain why international migration is a consequence of uneven development.", "acceptedAnswer": {"@type": "Answer", "text": "Uneven development creates huge disparities in wealth, health, and opportunities between countries. People in LICs experience push factors (poverty, conflict, poor services) while HICs offer pull factors (jobs, safety, better services). This inequality motivates people to migrate internationally to "}}, {"@type": "Question", "name": "Discuss the positive and negative impacts of migration on the source country.", "acceptedAnswer": {"@type": "Answer", "text": "Positive: Remittances provide a significant source of income (e.g. remittances make up over 30% of GDP in Tajikistan); reduced pressure on limited jobs and services; returning migrants may bring new skills and ideas. Negative: Brain drain removes skilled workers (e.g. many African doctors work in Eu"}}, {"@type": "Question", "name": "\"Physical factors are the most important cause of uneven development.\" To what extent do you agree?", "acceptedAnswer": {"@type": "Answer", "text": "A balanced answer would acknowledge that physical factors (climate, landlocked position, natural hazards, lack of resources) can significantly limit development, especially in sub-Saharan Africa. However, economic factors (trade, debt, investment) and historical factors (colonialism, conflict) are o"}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../geography.html">Geography</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../geography.html">Geography</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../geography.html">Geography</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../geography.html">Geography</a> <span>›</span>
 <span>The Changing Economic World</span> <span>›</span>
 <span>Uneven Development</span>
 </nav>
@@ -51,8 +51,46 @@
 </div>
 <p class="topic-desc">Understanding the physical, economic and historical causes of uneven development, disparities in wealth and health, and consequences including international migration.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -400,11 +438,11 @@
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/changing-economic-world/G34-uneven-development.html&text=G34: Uneven Development and its Consequences" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/changing-economic-world/G34-uneven-development.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/changing-economic-world/G34-uneven-development.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=G34: Uneven Development and its Consequences%20https://scottrix.github.io/gcserevise/topics/changing-economic-world/G34-uneven-development.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/changing-economic-world/G34-uneven-development.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/geography/aqa/G34-uneven-development.html&text=G34: Uneven Development and its Consequences" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/geography/aqa/G34-uneven-development.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/geography/aqa/G34-uneven-development.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=G34: Uneven Development and its Consequences%20https://scottrix.github.io/gcserevise/topics/geography/aqa/G34-uneven-development.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/geography/aqa/G34-uneven-development.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -416,14 +454,14 @@
 <li><a href="G37-economic-change-uk.html">G37: Economic Change in the UK</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -436,8 +474,8 @@
 </div>
 </section>
 <nav class="topic-nav">
-<a href="G33-measuring-development.html" class="nav-prev">← Previous Topic: Measuring Development</a>
-<a href="G35-reducing-development-gap.html" class="nav-next">Next Topic: Reducing the Development Gap →</a>
+<a href="G33-measuring-development.html" class="nav-prev">&larr; Previous: Measuring Development</a>
+<a href="G35-reducing-development-gap.html" class="nav-next">Next: Reducing Development Gap &rarr;</a>
 </nav>
 </main>
 
@@ -445,7 +483,7 @@
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -471,25 +509,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+Geography+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Geography Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Geography revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
   <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Uneven+Development+and+its+Consequences+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Uneven Development and its Consequences Books →</div>
   <div class="affiliate-card-desc">Browse Uneven Development and its Consequences books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -508,7 +546,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>

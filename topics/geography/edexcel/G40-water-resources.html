@@ -10,23 +10,23 @@
 <meta property="og:title" content="Water Resources - GCSE Geography">
 <meta property="og:description" content="Learn about water surplus and deficit patterns, consumption factors, availability factors, strategies including dams, transfers and desalination, and sustainable water futures. Case study: Lesotho. Free GCSE Geography revision.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/resource-management/G40-water-resources.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/resource-management/G40-water-resources.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/geography/edexcel/G40-water-resources.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/geography/edexcel/G40-water-resources.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="G40: Water Resources">
 <meta name="twitter:description" content="Learn about water surplus and deficit patterns, consumption factors, availability factors, strategies including dams, transfers and desalination, and sustainable water futures. Case study: Lesotho. Free GCSE Geography revision.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain why some areas of the world have water surplus while others have water deficit.", "acceptedAnswer": {"@type": "Answer", "text": "Water surplus occurs where rainfall exceeds demand (e.g. Canada, Scandinavia - high rainfall, low population density). Water deficit occurs where demand exceeds supply (e.g. Middle East - low rainfall, high population and agricultural demand). The balance depends on physical factors (precipitation, "}}, {"@type": "Question", "name": "Describe three factors that affect water consumption in different countries.", "acceptedAnswer": {"@type": "Answer", "text": "Factor 1: Wealth - richer populations consume more water for swimming pools, gardens, and appliances. The USA uses 5,700 litres/person/day compared to Mali's 1,200 litres. Factor 2: Agriculture - farming accounts for 70% of global water withdrawals; irrigation-intensive countries use much more water"}}, {"@type": "Question", "name": "Using the Lesotho Highlands Water Project, evaluate the advantages and disadvantages of water transfer schemes.", "acceptedAnswer": {"@type": "Answer", "text": "Advantages: Lesotho gains $50 million/year in revenue and hydroelectric power; South Africa receives reliable water for 6 million+ people in Gauteng; infrastructure improvements. Disadvantages: 30,000 people displaced; lost farmland; inadequate compensation; health problems from construction; reduce"}}, {"@type": "Question", "name": "Explain why desalination is not a sustainable solution to water scarcity for most countries.", "acceptedAnswer": {"@type": "Answer", "text": "Desalination is energy-intensive (3-4 kWh per cubic metre), making it expensive and carbon-intensive unless powered by renewables. The brine waste produced is highly concentrated salt that damages marine ecosystems. It is only viable for wealthy coastal countries - Saudi Arabia can afford it, but ma"}}, {"@type": "Question", "name": "\"Water conservation is more effective than increasing supply.\" How far do you agree?", "acceptedAnswer": {"@type": "Answer", "text": "Water conservation is more sustainable long-term because it reduces demand rather than creating new supply. Strategies like drip irrigation (saves 70%), greywater recycling (saves 30-50%), and metering (saves 15-20%) are cheaper and have fewer environmental impacts than dams or desalination. However"}}, {"@type": "Question", "name": "Describe three sustainable strategies for managing water resources.", "acceptedAnswer": {"@type": "Answer", "text": "Strategy 1: Drip irrigation delivers water directly to plant roots, reducing evaporation by up to 70% compared to flood irrigation. Strategy 2: Greywater recycling reuses water from sinks and showers for irrigation and toilet flushing, reducing household consumption by 30-50%. Strategy 3: Rainwater "}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../geography.html">Geography</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../geography.html">Geography</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../geography.html">Geography</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../geography.html">Geography</a> <span>›</span>
 <span>Resource Management</span> <span>›</span>
 <span>Water Resources</span>
 </nav>
@@ -51,8 +51,46 @@
 </div>
 <p class="topic-desc">Global patterns of water surplus and deficit, factors affecting consumption and availability, strategies to increase supply, and sustainable water futures with a case study of Lesotho.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -429,11 +467,11 @@ The UN predicts that by 2025, 1.8 billion people will live in countries with abs
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/resource-management/G40-water-resources.html&text=G40: Water Resources" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/resource-management/G40-water-resources.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/resource-management/G40-water-resources.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=G40: Water Resources%20https://scottrix.github.io/gcserevise/topics/resource-management/G40-water-resources.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/resource-management/G40-water-resources.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/geography/edexcel/G40-water-resources.html&text=G40: Water Resources" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/geography/edexcel/G40-water-resources.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/geography/edexcel/G40-water-resources.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=G40: Water Resources%20https://scottrix.github.io/gcserevise/topics/geography/edexcel/G40-water-resources.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/geography/edexcel/G40-water-resources.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -444,14 +482,14 @@ The UN predicts that by 2025, 1.8 billion people will live in countries with abs
 <li><a href="G41-energy-resources.html">G41: Energy Resources</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -464,8 +502,8 @@ The UN predicts that by 2025, 1.8 billion people will live in countries with abs
 </div>
 </section>
 <nav class="topic-nav">
-<a href="G39-food-resources.html" class="nav-prev">← Previous Topic: Food Resources</a>
-<a href="G41-energy-resources.html" class="nav-next">Next Topic: Energy Resources →</a>
+<a href="G39-food-resources.html" class="nav-prev">&larr; Previous: Food Resources</a>
+<a href="G41-energy-resources.html" class="nav-next">Next: Energy Resources &rarr;</a>
 </nav>
 </main>
 
@@ -473,7 +511,7 @@ The UN predicts that by 2025, 1.8 billion people will live in countries with abs
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -499,25 +537,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+Geography+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Geography Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Geography revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
   <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Water+Resources+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Water Resources Books →</div>
   <div class="affiliate-card-desc">Browse Water Resources books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -536,7 +574,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>

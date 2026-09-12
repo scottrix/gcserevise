@@ -619,6 +619,30 @@ color: var(--text-secondary);
 box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
+/* Board/tier selector */
+.selector-bar {
+display: flex;
+gap: 1rem;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 1.5rem;
+}
+
+.selector-group label {
+font-size: 0.85rem;
+color: var(--text-secondary);
+margin-right: 0.4rem;
+}
+
+.selector-group select {
+background: var(--bg-card);
+color: var(--text-primary);
+border: 1px solid var(--border);
+border-radius: 6px;
+padding: 0.4rem 0.6rem;
+font-size: 0.85rem;
+}
+
 .sidebar {
 width: 220px;
 position: fixed;

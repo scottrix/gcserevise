@@ -10,23 +10,23 @@
 <meta property="og:title" content="Branding and Corporate Identity - GCSE Art and Design">
 <meta property="og:description" content="Learn about Logo design principles; brand guidelines; colour palettes and type systems; applying identity across media; stationery, . Free GCSE Art and Design revision notes.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC4-branding-and-corporate-identity.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC4-branding-and-corporate-identity.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/art-and-design/ocr/GC4-branding-and-corporate-identity.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/art-and-design/ocr/GC4-branding-and-corporate-identity.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Branding and Corporate Identity">
 <meta name="twitter:description" content="Learn about Logo design principles; brand guidelines; colour palettes and type systems; applying identity across media; stationery, . Free GCSE Art and Design revision notes.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Create a series of experimental studies exploring branding and corporate identity. Annotate your process.", "acceptedAnswer": {"@type": "Answer", "text": "A range of experimental studies showing different approaches to branding and corporate identity, each annotated with media, technique and purpose. Show development from initial experiments to refined outcomes."}}, {"@type": "Question", "name": "Research an artist or designer who works with branding and corporate identity. Write a critical analysis of their approach and explain how it has informed your own work.", "acceptedAnswer": {"@type": "Answer", "text": "A critical analysis naming a specific artist/designer, using specialist vocabulary, explaining their context and approach, and making clear connections to personal work."}}, {"@type": "Question", "name": "Evaluate the effectiveness of your experiments with branding and corporate identity. Which approaches were most successful and why?", "acceptedAnswer": {"@type": "Answer", "text": "A reflective evaluation identifying successful and less successful experiments, explaining WHY using technical and conceptual language, and showing how evaluation led to further refinement."}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../art-and-design.html">Art and Design</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../art-and-design.html">Art and Design</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../art-and-design.html">Art and Design</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../art-and-design.html">Art and Design</a> <span>›</span>
 <span>Digital and Interactive Graphics</span> <span>›</span>
 <span>Branding and Corporate Identity</span>
 </nav>
@@ -51,8 +51,46 @@
 </div>
 <p class="topic-desc">Logo design principles; brand guidelines; colour palettes and type systems; applying identity across media; stationery, packaging, signage; consistency and recognition; rebranding.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -177,19 +215,19 @@ Test your logo at postage-stamp size. Show it in COLOUR and BLACK-AND-WHITE. App
 </section>
 
 <section class="section"><h2>Detailed Notes</h2><h3>What is Corporate Identity?</h3><p>Corporate identity is the visual representation of a brand — the consistent use of logo, colours, typography, imagery and tone of voice across all communications. It distinguishes a company from competitors and builds recognition. A brand style guide (or brand manual) documents these elements to ensure consistency across all media. Strong corporate identity builds trust and makes a brand instantly recognisable.</p><div class="example"><div class="example-title">Example</div><p>Coca-Cola's corporate identity is so strong that the red-and-white colour scheme and Spencerian script typeface are recognised globally, even without the product name. Their brand guidelines specify exact Pantone colours, minimum logo sizes, and clear-space rules to maintain this consistency worldwide.</p></div><h3>Logo Design Principles</h3><p>Effective logos follow five principles: Simple (easy to recognise and reproduce), Memorable (distinctive and easy to recall), Timeless (avoids trends that date quickly), Versatile (works at any size and in any medium), and Appropriate (reflects the brand's values and audience). A good logo works in full colour, single colour, reversed (white on dark), and at very small sizes.</p><div class="example"><div class="example-title">Example</div><p>The Nike swoosh is a perfect example: simple (one curved line), memorable (instantly recognisable), timeless (designed in 1971 and still current), versatile (works on shoes, posters, and tiny app icons), and appropriate (suggests speed and movement for a sports brand).</p></div><h3>Brand Consistency Across Media</h3><p>A brand must appear consistent across all touchpoints: packaging, website, social media, advertising, stationery, signage, and uniforms. Inconsistency damages brand trust — if a company's website looks professional but their packaging looks cheap, consumers question quality. Brand guidelines specify logo usage, colour codes (Pantone for print, HEX/RGB for screen), typography, photography style, and tone of voice.</p><div class="example"><div class="example-title">Example</div><p>Tesco maintains brand consistency through strict guidelines: the Tesco blue (Pantone 2985), the specific typeface (Tesco Modern), and the "Every Little Helps" slogan appear consistently across store signage, website, delivery vans, receipts, and advertising. This consistency reinforces the brand at every customer touchpoint.</p></div></section><section class="section"><h2>Logo Design: The 5 Principles</h2><table class="comparison-table"><tr><th>Principle</th><th>Definition</th><th>Why It Matters</th><th>Good Example</th><th>Bad Example</th></tr><tr><td>Simple</td><td>Minimal detail, clean form</td><td>Easy to reproduce and recognise quickly</td><td>Apple logo</td><td>Overly detailed crests</td></tr><tr><td>Memorable</td><td>Distinctive and easy to recall</td><td>Brand recognition without context</td><td>McDonald's golden arches</td><td>Generic swoosh designs</td></tr><tr><td>Timeless</td><td>Avoids short-lived trends</td><td>Longevity saves redesign costs</td><td>BBC logo (since 1997)</td><td>Gradient-heavy 2000s web logos</td></tr><tr><td>Versatile</td><td>Works at any size and medium</td><td>Consistency across print, digital, merch</td><td>Twitter/X bird logo</td><td>Intricate logos that lose detail when small</td></tr><tr><td>Appropriate</td><td>Reflects brand values and audience</td><td>Correct message to correct people</td><td>LEGO playful bubbly type</td><td>Comic Sans on a law firm logo</td></tr></table></section><section class="section"><h2>Extended Practice</h2><div class="practice-questions"><div class="question"><p><strong>Q:</strong> Explain why brand consistency is important for a business, using a specific example.</p></div><div class="question"><p><strong>Q:</strong> A new ethical coffee company wants a corporate identity. Justify design choices for their logo, colours and typography.</p></div></div></section><section class="section"><h2>Extended Answers</h2><ol><li>Brand consistency builds trust and recognition. When customers encounter the same visual identity (colours, logo, typeface, tone) across every touchpoint, they develop a reliable mental image of the brand. For example, Coca-Cola uses the same red (Pantone 484), script typeface, and visual language on cans, TV adverts, social media, and delivery trucks. This consistency means consumers instantly recognise Coca-Cola in any context, which reinforces brand loyalty. Inconsistency creates confusion — if a premium brand's website looks sleek but their packaging looks cheap, consumers may question the product quality. Brand guidelines ensure every team member, agency, and supplier produces consistent materials.</li><li>An ethical coffee company should communicate sustainability, warmth, and authenticity. Logo: a simple, hand-drawn style mark (perhaps a coffee bean with a leaf element) suggests natural, artisanal quality — avoiding corporate, clinical aesthetics. Colours: earthy greens and warm browns communicate environmental responsibility and organic origins. A secondary cream/off-white provides softness. Typography: a humanist sans-serif (e.g. Lato or Source Sans) for headings suggests friendliness and approachability, paired with a serif for body text to convey quality and tradition. The overall identity should feel handcrafted rather than mass-produced, aligning with ethical and fairtrade values. Brand guidelines should specify recycled/unalbleached stock for printed materials to reinforce the environmental message.</li></ol></section><nav class="topic-nav">
-<a href="#" class="nav-prev">← Previous Topic</a>
-<a href="#" class="nav-next">Next Topic →</a>
+<a href="GC3-digital-design-tools-and-techniques.html" class="nav-prev">&larr; Previous: Digital Design Tools And Techniques</a>
+<a href="GC5-packaging-and-print-design.html" class="nav-next">Next: Packaging And Print Design &rarr;</a>
 </nav>
 
 
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC4-branding-and-corporate-identity.html&text=Branding and Corporate Identity" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC4-branding-and-corporate-identity.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC4-branding-and-corporate-identity.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=Branding and Corporate Identity%20https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC4-branding-and-corporate-identity.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/ad-graphic-communication/GC4-branding-and-corporate-identity.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/art-and-design/ocr/GC4-branding-and-corporate-identity.html&text=Branding and Corporate Identity" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/art-and-design/ocr/GC4-branding-and-corporate-identity.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/art-and-design/ocr/GC4-branding-and-corporate-identity.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=Branding and Corporate Identity%20https://scottrix.github.io/gcserevise/topics/art-and-design/ocr/GC4-branding-and-corporate-identity.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/art-and-design/ocr/GC4-branding-and-corporate-identity.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -202,14 +240,14 @@ Test your logo at postage-stamp size. Show it in COLOUR and BLACK-AND-WHITE. App
 <li><a href="GC6-graphic-designers-and-movements.html">Graphic Designers and Movements</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -228,7 +266,7 @@ Test your logo at postage-stamp size. Show it in COLOUR and BLACK-AND-WHITE. App
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -254,25 +292,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+Art+and+Design+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE Art and Design Books →</div>
   <div class="affiliate-card-desc">Browse GCSE Art and Design revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
   <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Branding+and+Corporate+Identity+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Branding and Corporate Identity Books →</div>
   <div class="affiliate-card-desc">Browse Branding and Corporate Identity books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -291,7 +329,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>

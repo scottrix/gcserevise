@@ -10,23 +10,23 @@
 <meta property="og:title" content="H8: Nazi Racial Policy and the Holocaust - GCSE History">
 <meta property="og:description" content="Aryan ideology, Nuremberg Laws, Kristallnacht, ghettos, Wannsee Conference, the Final Solution, and resistance. Free GCSE History revision.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/germany-1890-1945/H8-nazi-racial-policy-holocaust.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/germany-1890-1945/H8-nazi-racial-policy-holocaust.html">
+<meta property="og:url" content="https://scottrix.github.io/gcserevise/topics/german/edexcel/H8-nazi-racial-policy-holocaust.html">
+<link rel="canonical" href="https://scottrix.github.io/gcserevise/topics/german/edexcel/H8-nazi-racial-policy-holocaust.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="H8: Nazi Racial Policy and the Holocaust">
 <meta name="twitter:description" content="Aryan ideology, Nuremberg Laws, Kristallnacht, ghettos, Wannsee Conference, the Final Solution, and resistance. Free GCSE History revision.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain how the Nuremberg Laws affected the lives of German Jews. (4 marks)", "acceptedAnswer": {"@type": "Answer", "text": "The Nuremberg Laws (September 1935) stripped Jews of German citizenship, reducing them to \"state subjects\" with no political rights. They banned marriages and sexual relationships between Jews and Germans, and forbade Jewish households from employing German women under 45. The laws made anti-Semitis"}}, {"@type": "Question", "name": "Why was Kristallnacht a significant turning point? (8 marks)", "acceptedAnswer": {"@type": "Answer", "text": "Kristallnacht (9-10 November 1938) was a turning point because it marked the shift from legal discrimination to open, organised violence. 191 synagogues were burned, over 7,000 Jewish businesses destroyed, 91 Jews killed, and 20,000-30,000 men sent to concentration camps. The Jewish community was fi"}}, {"@type": "Question", "name": "\"The persecution of the Jews escalated gradually between 1933 and 1945.\" How far do you agree? (12 marks)", "acceptedAnswer": {"@type": "Answer", "text": "The persecution did escalate gradually, following a clear pattern: boycotts (1933) → legal discrimination (Nuremberg Laws 1935) → violent pogroms (Kristallnacht 1938) → ghettos (1939-1941) → mass shootings (Einsatzgruppen 1941) → extermination camps (1942-1945). Each stage was a radicalisation of th"}}, {"@type": "Question", "name": "Explain the purpose and decisions of the Wannsee Conference. (8 marks)", "acceptedAnswer": {"@type": "Answer", "text": "The Wannsee Conference (20 January 1942) was called by Reinhard Heydrich to coordinate the \"Final Solution to the Jewish Question.\" The 15 officials present agreed that all 11 million European Jews would be transported to extermination camps in Poland. Eichmann would organise transport logistics. So"}}, {"@type": "Question", "name": "\"Resistance to Nazi racial policy was impossible.\" How far do you agree? (16 marks)", "acceptedAnswer": {"@type": "Answer", "text": "Resistance was extremely difficult but not impossible. The White Rose group distributed anti-Nazi leaflets; the July 1944 bomb plot nearly killed Hitler; Jews in the Warsaw Ghetto fought the SS for 27 days; prisoners at Sobibor and Auschwitz led uprisings; individuals like Oskar Schindler and Raoul "}}]}</script>
-<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
 <header class="site-header">
 <div class="header-content">
-<a href="../../" class="logo">📚 GCSE Revise</a>
+<a href="../../../" class="logo">📚 GCSE Revise</a>
 <nav class="nav">
-<a href="../../#subjects">Subjects</a>
-<a href="../../history.html">History</a>
+<a href="../../../#subjects">Subjects</a>
+<a href="../../../history.html">History</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
@@ -36,8 +36,8 @@
 <div class="disclaimer-banner"><strong>GCSE Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:gcserevise@scott.scottrix.co.uk">gcserevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
-<a href="../../">Home</a> <span>›</span>
-<a href="../../history.html">History</a> <span>›</span>
+<a href="../../../">Home</a> <span>›</span>
+<a href="../../../history.html">History</a> <span>›</span>
 <span>Germany 1890-1945</span> <span>›</span>
 <span>Nazi Racial Policy and the Holocaust</span>
 </nav>
@@ -51,8 +51,46 @@
 </div>
 <p class="topic-desc">Nazi racial ideology, the persecution of the Jews from boycott to genocide, the Wannsee Conference, the Final Solution, death toll, and resistance.</p>
 </article>
-<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<div class="selector-bar">
+  <div class="selector-group">
+    <label for="board-select">Exam Board: </label>
+    <select id="board-select" onchange="updateTopicBoard()">
+      <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
+    </select>
+  </div>
+</div>
+<script>
+function updateTopicBoard() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var board = document.getElementById("board-select").value;
+  var done = false;
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  for (var k = segs.length - 2; k >= 0; k--) {
+    if (known.indexOf(segs[k].toLowerCase()) !== -1) { segs[k] = board; done = true; break; }
+  }
+  if (!done) {
+    for (var k2 = segs.length - 2; k2 >= 0; k2--) {
+      var fm = segs[k2].toLowerCase().match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+      if (fm) { segs[k2] = segs[k2].replace(/-(aqa|edexcel|ocr|eduqas|ccea)$/, "-" + board); done = true; break; }
+    }
+  }
+  window.location.href = "/" + segs.join("/");
+}
+(function() {
+  var segs = window.location.pathname.split("/").filter(Boolean);
+  var known = ["aqa","edexcel","ocr","eduqas","ccea"];
+  var bs = document.getElementById("board-select");
+  for (var k3 = segs.length - 2; k3 >= 0; k3--) {
+    var low = segs[k3].toLowerCase();
+    if (known.indexOf(low) !== -1) { bs.value = low; break; }
+    var fm3 = low.match(/-(aqa|edexcel|ocr|eduqas|ccea)$/);
+    if (fm3) { bs.value = fm3[1]; break; }
+  }
+})();
+</script>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 
@@ -475,11 +513,11 @@ Each step was a radicalisation of the previous one. The shift from persecution t
 <section class="section share-section">
 <h2>Share this page</h2>
 <div class="share-buttons">
-<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/germany-1890-1945/H8-nazi-racial-policy-holocaust.html&text=H8: Nazi Racial Policy and the Holocaust" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
-<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/germany-1890-1945/H8-nazi-racial-policy-holocaust.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
-<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/germany-1890-1945/H8-nazi-racial-policy-holocaust.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
-<a class="share-btn share-whatsapp" href="https://wa.me/?text=H8: Nazi Racial Policy and the Holocaust%20https://scottrix.github.io/gcserevise/topics/germany-1890-1945/H8-nazi-racial-policy-holocaust.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
-<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/germany-1890-1945/H8-nazi-racial-policy-holocaust.html" title="Copy link">Copy Link</a>
+<a class="share-btn share-twitter" href="https://twitter.com/intent/tweet?url=https://scottrix.github.io/gcserevise/topics/german/edexcel/H8-nazi-racial-policy-holocaust.html&text=H8: Nazi Racial Policy and the Holocaust" target="_blank" rel="noopener" title="Share on Twitter">Twitter</a>
+<a class="share-btn share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://scottrix.github.io/gcserevise/topics/german/edexcel/H8-nazi-racial-policy-holocaust.html" target="_blank" rel="noopener" title="Share on Facebook">Facebook</a>
+<a class="share-btn share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://scottrix.github.io/gcserevise/topics/german/edexcel/H8-nazi-racial-policy-holocaust.html" target="_blank" rel="noopener" title="Share on LinkedIn">LinkedIn</a>
+<a class="share-btn share-whatsapp" href="https://wa.me/?text=H8: Nazi Racial Policy and the Holocaust%20https://scottrix.github.io/gcserevise/topics/german/edexcel/H8-nazi-racial-policy-holocaust.html" target="_blank" rel="noopener" title="Share on WhatsApp">WhatsApp</a>
+<a class="share-btn share-copy" href="#" data-url="https://scottrix.github.io/gcserevise/topics/german/edexcel/H8-nazi-racial-policy-holocaust.html" title="Copy link">Copy Link</a>
 </div>
 </section>
 <section class="section related-topics">
@@ -493,14 +531,14 @@ Each step was a radicalisation of the previous one. The shift from persecution t
 <li><a href="H5-rise-of-the-nazis.html">H5: The Rise of the Nazis</a></li>
 </ul></div>
 <div class="related-group"><h4>Related Subjects</h4><ul>
-<li><a href="../../ancient-history.html">Ancient History</a></li>
-<li><a href="../../art-and-design.html">Art And Design</a></li>
-<li><a href="../../astronomy.html">Astronomy</a></li>
-<li><a href="../../biology.html">Biology</a></li>
-<li><a href="../../business.html">Business</a></li>
-<li><a href="../../chemistry.html">Chemistry</a></li>
-<li><a href="../../citizenship-studies.html">Citizenship Studies</a></li>
-<li><a href="../../classical-civilisation.html">Classical Civilisation</a></li>
+<li><a href="../../../ancient-history.html">Ancient History</a></li>
+<li><a href="../../../art-and-design.html">Art And Design</a></li>
+<li><a href="../../../astronomy.html">Astronomy</a></li>
+<li><a href="../../../biology.html">Biology</a></li>
+<li><a href="../../../business.html">Business</a></li>
+<li><a href="../../../chemistry.html">Chemistry</a></li>
+<li><a href="../../../citizenship-studies.html">Citizenship Studies</a></li>
+<li><a href="../../../classical-civilisation.html">Classical Civilisation</a></li>
 </ul></div>
 </section>
 <section class="section affiliate-cta-end">
@@ -513,8 +551,8 @@ Each step was a radicalisation of the previous one. The shift from persecution t
 </div>
 </section>
 <nav class="topic-nav">
-<a href="H7-nazi-economic-policies.html" class="nav-prev">← H7: Nazi Economic Policies</a>
-<a href="H9-youth-education-nazi-germany.html" class="nav-next">Next Topic: Youth and Education in Nazi Germany →</a>
+<a href="H7-nazi-economic-policies.html" class="nav-prev">&larr; Previous: Nazi Economic Policies</a>
+<a href="H9-youth-education-nazi-germany.html" class="nav-next">Next: Youth Education Nazi Germany &rarr;</a>
 </nav>
 </main>
 
@@ -522,7 +560,7 @@ Each step was a radicalisation of the previous one. The shift from persecution t
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+<p>© 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="../../../privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 
 <script>
@@ -548,25 +586,25 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <a href="https://www.amazon.co.uk/s?k=GCSE+History+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE History Books →</div>
   <div class="affiliate-card-desc">Browse GCSE History revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+All+Boards+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse GCSE All Boards Books →</div>
   <div class="affiliate-card-desc">Browse GCSE All Boards revision books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=Nazi+Racial+Policy+and+the+Holocaust+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Browse Nazi Racial Policy and the Holocaust Books →</div>
   <div class="affiliate-card-desc">Browse Nazi Racial Policy and the Holocaust books on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://www.amazon.co.uk/s?k=GCSE+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
 <div class="affiliate-card-title">Find GCSE Revision Guides →</div>
   <div class="affiliate-card-desc">Browse GCSE revision guides on Amazon</div>
-  <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+  <div class="affiliate-card-store"><img src="../../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 <div class="affiliate-card-urgency">Essential for 2026 exams</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -585,7 +623,7 @@ document.getElementById('theme-toggle').textContent = '☀️';
 <div class="affiliate-card-store">zen.co.uk</div>
 </a>
 </aside>
-<script src="../../sidebar.js"></script>
-<script src="../../affiliate-images.js"></script>
+<script src="../../../sidebar.js"></script>
+<script src="../../../affiliate-images.js"></script>
 </body>
 </html>
