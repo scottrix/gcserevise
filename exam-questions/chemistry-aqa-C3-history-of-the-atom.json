@@ -1,0 +1,129 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C3-history-of-the-atom",
+ "topicName": "C3 History Of The Atom",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c3-history-of-the-atom-q1",
+   "type": "short-answer",
+   "question": "Foundation Describe the plum pudding model and explain how the alpha scattering experiment disproved it.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The plum pudding model proposed that an atom is a positive sphere with negative electrons embedded in it (like plums in a pudding). The alpha scattering experiment disproved it because: (1) most alpha particles passed straight through - showing atoms are mostly empty space, not a solid positive sphere; (2) some were deflected at large angles - showing a concentrated positive charge (nucleus) rathe",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3-history-of-the-atom-q2",
+   "type": "short-answer",
+   "question": "Foundation A boron atom has atomic number 5 and mass number 11. Calculate the number of protons, neutrons and electrons.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Protons = atomic number = 5. Electrons = protons (neutral atom) = 5. Neutrons = mass number − atomic number = 11 − 5 = 6.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3-history-of-the-atom-q3",
+   "type": "short-answer",
+   "question": "Foundation Write the electron configuration for: (a) nitrogen (atomic number 7), (b) magnesium (atomic number 12), (c) potassium (atomic number 19).",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Nitrogen (7): 2,5. (b) Magnesium (12): 2,8,2. (c) Potassium (19): 2,8,8,1.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3-history-of-the-atom-q4",
+   "type": "short-answer",
+   "question": "Higher Define the term isotope. Explain why isotopes of the same element have identical chemical properties but different physical properties.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Isotopes are atoms of the same element with the same number of protons but a different number of neutrons. They have identical chemical properties because they have the same electron configuration (same number and arrangement of electrons). They have different physical properties because they have different masses (different numbers of neutrons).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3-history-of-the-atom-q5",
+   "type": "short-answer",
+   "question": "Higher Magnesium has three isotopes: 79% Mg-24, 10% Mg-25 and 11% Mg-26. Calculate the relative atomic mass of magnesium. Give your answer to one decimal place.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Ar = (24 × 79 + 25 × 10 + 26 × 11) ÷ 100 = (1896 + 250 + 286) ÷ 100 = 2432 ÷ 100 = 24.3.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3-history-of-the-atom-q6",
+   "type": "short-answer",
+   "question": "Foundation Describe how the model of the atom has changed from Dalton's model to Bohr's model. Name the key scientist for each stage.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Dalton (~1803) proposed atoms as tiny, indivisible solid spheres. Thomson (1897) discovered electrons and proposed the plum pudding model - a positive sphere with negative electrons embedded in it. Rutherford (1911) discovered the nucleus through the alpha scattering experiment and proposed the nuclear model - a tiny, dense, positive nucleus with electrons orbiting in mostly empty space. Bohr (191",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c3-history-of-the-atom-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Describe how the atomic model has changed over time. Name the key scientist at each stage. <div class=\"",
+   "marks": 6,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Dalton (early 1800s) proposed atoms as tiny, indivisible solid spheres. Thomson (1897) discovered electrons and proposed the plum pudding model — a positive sphere with negative electrons embedded in it. Rutherford (1911) discovered the nucleus through the alpha scattering experiment; his nuclear model had a tiny, dense, positive nucleus with electrons orbiting in mostly empty space. Bohr (1913) refined this by proposing that electrons orbit in fixed energy levels (shells) at specific distances. Chadwick (1932) discovered neutrons in the nucleus. Each change was driven by new experimental evid",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Dalton (early 1800s) proposed atoms as tiny, indivisible solid spheres. Thomson (1897) discovered electrons and proposed the plum pudding model — a positive sphere with negative electrons embedded in it. Rutherford (1911) discovered the nucleus through the alpha scattering experiment; his nuclear model had a tiny, dense, positive nucleus with electrons orbiting in mostly empty space. Bohr (1913) refined this by proposing that electrons orbit in fixed energy levels (shells) at specific distances. Chadwick (1932) discovered neutrons in the nucleus. Each change was driven by new experimental evidence that the previous model could not explain. Mark scheme: 1 mark per scientist with correct model (up to 5); 1 mark for stating that new evidence led to changes."
+   }
+  }
+ ]
+}

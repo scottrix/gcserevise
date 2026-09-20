@@ -1,0 +1,112 @@
+{
+ "subject": "law",
+ "board": "AQA",
+ "topic": "legal-problem-questions",
+ "topicName": "Legal Problem Questions",
+ "version": 1,
+ "questions": [
+  {
+   "id": "legal-problem-questions-q1",
+   "type": "short-answer",
+   "question": "Q: What is the ILAC method and why is it useful?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "ILAC stands for Issue, Law, Application, Conclusion. It provides a structured approach to problem questions: first identify the legal issue, then state the relevant legal rules, then apply those rules to the specific facts of the scenario, and finally reach a conclusion about the likely outcome. It ensures you cover all necessary elements and demonstrates legal reasoning to the examiner.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "legal-problem-questions-q2",
+   "type": "short-answer",
+   "question": "Q: How should you approach a criminal law problem question?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "First identify the offence and legal issues. Then work through: (1) actus reus — does the scenario show a guilty act, omission or state of affairs? (2) mens rea — does the defendant have the required mental element (intention or recklessness)? (3) any defences — could the defendant rely on a defence such as self-defence, duress or insanity? (4) conclusion — is the defendant likely to be guilty or ",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "legal-problem-questions-q3",
+   "type": "short-answer",
+   "question": "Q: Why is it important to use the specific facts from the scenario?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The examiner includes specific facts for a reason — they are meant to trigger particular legal principles or tests. Using the specific facts demonstrates that you can apply the law rather than just state it. Ignoring facts or failing to connect them to legal rules loses marks because it shows you have not truly applied the law to the scenario.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "legal-problem-questions-q4",
+   "type": "short-answer",
+   "question": "Q: What language should you use when the legal outcome is uncertain?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Use tentative language such as 'it is likely that', 'the court would probably find', 'this suggests', 'on balance' or 'it could be argued that'. This shows you recognise the law can be uncertain and that different interpretations are possible. Avoid stating outcomes as certain when reasonable arguments exist on both sides.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "legal-problem-questions-q5",
+   "type": "short-answer",
+   "question": "Q: How do you handle a scenario with multiple legal issues?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Address each issue separately and in a logical order. In criminal law, deal with each offence or element in turn (actus reus, mens rea, defences). In civil law, address each cause of action or element. Use clear paragraphing or headings to show the examiner you have identified each issue. Deal with the most significant issues first and allocate your time proportionally.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "legal-problem-questions-ext",
+   "type": "extended",
+   "question": "Full-Mark Response How should you apply the ILAC method to a criminal law scenario involving assault? (15 marks) <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When applying ILAC to a criminal law assault scenario, begin by identifying the Issue: the question is whether the defendant is liable for assault (or battery, ABH, GBH depending on the scenario). Next, state the Law: define the offence precisely. For assault under the Criminal Justice Act 1988, the actus reus is an act which causes the victim to apprehend immediate unlawful violence, and the mens rea is intention or recklessness as to causing that apprehension. For battery, the actus reus is the application of unlawful force and the mens rea is intention or recklessness. Cite the relevant cas",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "When applying ILAC to a criminal law assault scenario, begin by identifying the Issue: the question is whether the defendant is liable for assault (or battery, ABH, GBH depending on the scenario). Next, state the Law: define the offence precisely. For assault under the Criminal Justice Act 1988, the actus reus is an act which causes the victim to apprehend immediate unlawful violence, and the mens rea is intention or recklessness as to causing that apprehension. For battery, the actus reus is the application of unlawful force and the mens rea is intention or recklessness. Cite the relevant case law — for example, Fagan v MPC confirms that battery requires unlawful force, and R v Ireland establishes that psychiatric harm can amount to bodily harm. Then apply the law to the facts: use the specific details from the scenario. If the defendant raised their fist and moved towards the victim, explain that this constitutes the actus reus of assault because the victim would apprehend immediate unlawful violence. If the defendant claims they were joking, discuss whether the defendant had the mens rea — was it intentional or reckless? Apply R v Venna to explain that recklessness means the defendant was aware of the risk that their actions would cause apprehension. Then consider any defences: could self-defence apply? Use the scenario facts to assess whether the defendant genuinely believed they needed to defend themselves and whether the force used was reasonable (Palmer v R). Finally, "
+   }
+  }
+ ]
+}

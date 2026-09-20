@@ -1,0 +1,38 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C12-reactivity-of-metals",
+ "topicName": "Reactivity Of Metals",
+ "version": 1,
+ "tests": [
+  {
+   "id": "c12-reactivity-of-metals-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Reactivity Of Metals",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "c12-reactivity-of-metals-t1",
+     "type": "short-answer",
+     "question": "Foundation List the following metals in order of reactivity (most reactive first): copper, potassium, iron, zinc, sodium.",
+     "correctAnswer": "Potassium, sodium, zinc, iron, copper (from most to least reactive)",
+     "explanation": "Answer: Potassium, sodium, zinc, iron, copper (from most to least reactive)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c12-reactivity-of-metals-t2",
+     "type": "short-answer",
+     "question": "Foundation Write the word equation for calcium reacting with cold water.",
+     "correctAnswer": "Calcium + water → calcium hydroxide + hydrogen",
+     "explanation": "Answer: Calcium + water → calcium hydroxide + hydrogen",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

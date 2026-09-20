@@ -1,0 +1,111 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G46-cartographic-skills",
+ "topicName": "Cartographic Skills",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g46-cartographic-skills-q1",
+   "type": "short-answer",
+   "question": "Explain how to give a 6-figure grid reference.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "To give a 6-figure grid reference: (1) Identify the 1 km square the feature is in; (2) Read the easting (bottom-left number along the bottom); (3) Estimate how many tenths across the feature is from the left edge of the square (0-9) and insert as the 3rd digit; (4) Read the northing (bottom-left number up the side); (5) Estimate how many tenths up the feature is from the bottom edge (0-9) and inse",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g46-cartographic-skills-q2",
+   "type": "short-answer",
+   "question": "On a 1:25,000 OS map, two points are 7.2 cm apart. What is the actual distance between them in kilometres?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Actual distance = map distance × scale = 7.2 cm × 25,000 = 180,000 cm = 1,800 m = 1.8 km.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g46-cartographic-skills-q3",
+   "type": "short-answer",
+   "question": "Describe the contour pattern you would expect to see for (a) a steep slope, (b) a valley, (c) a summit.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Steep slope: contour lines very close together, indicating height increases rapidly over a short distance. (b) Valley: V-shaped contour lines pointing uphill (towards higher ground), with the river flowing along the valley floor away from the point of the V. (c) Summit: concentric rings of contour lines getting smaller towards the centre, with the highest point in the middle, often marked with",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g46-cartographic-skills-q4",
+   "type": "short-answer",
+   "question": "A river drops 150 metres over a horizontal distance of 3 km. Calculate the gradient as a ratio.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Gradient = VI ÷ HE = 150 m ÷ 3,000 m = 150/3000 = 1/20 or 1:20. This means for every 20 metres horizontally, the land rises 1 metre vertically.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g46-cartographic-skills-q5",
+   "type": "short-answer",
+   "question": "Explain what vertical exaggeration is and why it is used in cross-sections.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Vertical exaggeration is when the vertical scale of a cross-section is larger (shows more detail) than the horizontal scale, making slopes appear steeper than they really are. It is used because real landscapes often have gentle slopes that would appear almost flat if drawn at true scale. For example, if horizontal scale is 1:25,000 and vertical scale is 1:5,000, the vertical exaggeration is 5x. A",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g46-cartographic-skills-q6",
+   "type": "short-answer",
+   "question": "What is a bearing and how is it different from a compass direction?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A bearing is a precise angle measured clockwise from north (0-360°), expressed as a 3-digit number (e.g. 045°, 270°). A compass direction is an approximate direction using cardinal and intercardinal points (N, NE, E, etc.). A bearing is more precise - \"NE\" could mean anything from 022° to 068°, while a bearing of 045° is exact.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

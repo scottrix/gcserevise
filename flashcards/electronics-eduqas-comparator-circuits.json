@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "comparator-circuits",
+ "topicName": "Comparator Circuits",
+ "version": 1,
+ "cards": [
+  {
+   "id": "comparator-circuits-fc1",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "A comparator compares two input voltages and switches its output to indicate which is higher; no negative feedback is used.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc2",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "When V+ > V−, the output goes to positive saturation; when V+ < V−, the output goes to negative saturation.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc3",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "A simple comparator has a single threshold voltage; the output switches when the input crosses this level.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc4",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "Noise on the input signal can cause a simple comparator to chatter (switch rapidly) near the threshold.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc5",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "A Schmitt trigger uses positive feedback to create two different threshold voltages: upper (V_UT) and lower (V_LT).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc6",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "Hysteresis is the difference between the upper and lower thresholds; it prevents output chatter caused by input noise.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc7",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "The output only switches high when the input rises above V_UT, and only switches low when the input falls below V_LT.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc8",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "For an inverting Schmitt trigger with reference voltage Vref and feedback resistors R1, R2: V_UT and V_LT depend on the resistor divider and supply rails.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc9",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "The hysteresis voltage (V_H) = V_UT − V_LT; a wider hysteresis gives greater noise immunity but less sensitivity.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc10",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "Positive feedback in a Schmitt trigger accelerates the switching transition, producing a clean, fast output edge.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc11",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "Comparators are used in level detectors, zero-crossing detectors, window comparators and oscillator circuits.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc12",
+   "front": "Recall a key point about Comparator Circuits",
+   "back": "A Schmitt trigger can also be built with a transistor circuit or as a dedicated IC (e.g. 74HC14).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc13",
+   "front": "What should you know about gcse electronics exam tips — comparator circuits?",
+   "back": "1. For Comparator Circuits questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Comparator Circuits, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-com"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc14",
+   "front": "Full-Mark Response",
+   "back": "Explain the operation of a Schmitt trigger comparator circuit and describe how hysteresis eliminates output chatter.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "comparator-circuits-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of comparator circuits, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of comparator circuits to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits and systems, ",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

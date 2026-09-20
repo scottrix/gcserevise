@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "time-series-moving-averages",
+ "topicName": "Time Series Moving Averages",
+ "version": 1,
+ "questions": [
+  {
+   "id": "time-series-moving-averages-q1",
+   "type": "short-answer",
+   "question": "Q: What is the purpose of calculating a moving average for a time series?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A moving average smooths out short-term fluctuations and seasonal variation, revealing the underlying long-term trend.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "time-series-moving-averages-q2",
+   "type": "short-answer",
+   "question": "Q: Why does a 4-point moving average need to be centred?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A 4-point average falls between two time periods (between Q2 and Q3 for quarterly data). Centring aligns the average with an actual time period.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "time-series-moving-averages-q3",
+   "type": "short-answer",
+   "question": "Q: The actual value for Q3 is 240 and the trend value is 200. What is the seasonal variation for Q3?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Seasonal variation = 240 – 200 = +40. This means Q3 values are typically 40 above the trend.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "time-series-moving-averages-q4",
+   "type": "short-answer",
+   "question": "Q: The mean seasonal variations are: Q1 = –20, Q2 = +10, Q3 = +40, Q4 = –30. The predicted trend value for Q1 next year is 210. Predict the actual value.",
+   "marks": 1,
+   "commandWord": "predict",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Predicted value = trend + mean seasonal variation = 210 + (–20) = 190.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "time-series-moving-averages-q5",
+   "type": "short-answer",
+   "question": "Q: Why might a prediction made using a time series model be unreliable?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Predictions assume past patterns will continue, but trends may change and seasonal patterns may shift due to external factors, making long-term predictions less reliable.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "time-series-moving-averages-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A shop records its quarterly sales (£thousands) over two years. Calculate the 4-point centred moving averages and the mean seasonal variations. Q1: 12, Q2: 18, Q3: 25, Q4: 15, Q1: 14, Q2: 20, Q3: 27, Q4: 17 <div class=\"",
+   "marks": 4,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Step 1: Calculate 4-point moving totals and averages: Q1–Q4: 12+18+25+15 = 70, average = 17.5 (centred between Q2 and Q3) Q2–Q5: 18+25+15+14 = 72, average = 18.0 Q3–Q6: 25+15+14+20 = 74, average = 18.5 Q4–Q7: 15+14+20+27 = 76, average = 19.0 Q5–Q8: 14+20+27+17 = 78, average = 19.5 Step 2: Centre the averages: Q3 Y1: (17.5+18.0)÷2 = 17.75 Q4 Y1: (18.0+18.5)÷2 = 18.25 Q1 Y2: (18.5+19.0)÷2 = 18.75 Q2 Y2: (19.0+19.5)÷2 = 19.25 Step 3: Calculate seasonal variations (actual – trend): Q3 Y1: 25 – 17.75 = +7.25 Q4 Y1: 15 – 18.25 = –3.25 Q1 Y2: 14 – 18.75 = –4.75 Q2 Y2: 20 – 19.25 = +0.75 Step 4: Mean ",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Step 1: Calculate 4-point moving totals and averages: Q1–Q4: 12+18+25+15 = 70, average = 17.5 (centred between Q2 and Q3) Q2–Q5: 18+25+15+14 = 72, average = 18.0 Q3–Q6: 25+15+14+20 = 74, average = 18.5 Q4–Q7: 15+14+20+27 = 76, average = 19.0 Q5–Q8: 14+20+27+17 = 78, average = 19.5 Step 2: Centre the averages: Q3 Y1: (17.5+18.0)÷2 = 17.75 Q4 Y1: (18.0+18.5)÷2 = 18.25 Q1 Y2: (18.5+19.0)÷2 = 18.75 Q2 Y2: (19.0+19.5)÷2 = 19.25 Step 3: Calculate seasonal variations (actual – trend): Q3 Y1: 25 – 17.75 = +7.25 Q4 Y1: 15 – 18.25 = –3.25 Q1 Y2: 14 – 18.75 = –4.75 Q2 Y2: 20 – 19.25 = +0.75 Step 4: Mean seasonal variations (average same quarters — only one year of centred data here, so use available values): Q1: –4.75, Q2: +0.75, Q3: +7.25, Q4: –3.25 These show Q3 is the peak season (sales £7,250 above trend) and Q1 is the low season (£4,750 below trend)."
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS11-procurement-and-stock-management",
+ "topicName": "Procurement and Stock Management",
+ "version": 1,
+ "questions": [
+  {
+   "id": "bs11-procurement-and-stock-management-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between buffer stock and just-in-time stock management.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Buffer stock means holding extra inventory as a safety net to prevent stockouts, which requires storage space and ties up cash. JIT means ordering stock to arrive only when needed, eliminating storage costs but risking stockouts if suppliers are delayed or demand spikes. Buffer stock = cautious approach, JIT = lean approach.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs11-procurement-and-stock-management-q2",
+   "type": "short-answer",
+   "question": "Describe the key features of a bar gate stock control chart and explain why it is useful.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The chart shows: maximum stock level (storage capacity/what's affordable), buffer stock (minimum safety level), re-order level (trigger point to order more, based on lead time and average usage), lead time (gap between order and delivery). It's useful because it prevents overstocking (wasting money on storage) and understocking (losing sales), and it automates the re-ordering decision.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs11-procurement-and-stock-management-q3",
+   "type": "short-answer",
+   "question": "Evaluate whether a restaurant should use JIT stock control.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Arguments for JIT: perishable ingredients mean waste is a major cost - JIT ensures fresh produce, reduces food waste, frees up kitchen space, reduces cash tied up in stock. Arguments against: demand is unpredictable (walk-ins, weather changes), supplier reliability is critical - a late delivery means no menu items, no buffer means lost revenue and disappointed customers. Conclusion: a partial JIT ",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs11-procurement-and-stock-management-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate whether a small electronics manufacturer should switch from holding buffer stock to a JIT system. <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: analyse buffer stock (ties up cash, needs warehouse space, risks obsolescence as technology changes, but prevents production stoppages); JIT benefits (frees cash for R&D, reduces waste from outdated components, leaner operations); JIT risks (component shortages halt production, suppliers may not offer small frequent deliveries at same price, quality issues not caught until components reach production line); conclude: JIT is appropriate if the manufacturer has strong supplier relationships and can tolerate occasional shortfalls, but a phased transition keeping buffer st",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: analyse buffer stock (ties up cash, needs warehouse space, risks obsolescence as technology changes, but prevents production stoppages); JIT benefits (frees cash for R&D, reduces waste from outdated components, leaner operations); JIT risks (component shortages halt production, suppliers may not offer small frequent deliveries at same price, quality issues not caught until components reach production line); conclude: JIT is appropriate if the manufacturer has strong supplier relationships and can tolerate occasional shortfalls, but a phased transition keeping buffer stock for critical/difficult-to-source components is prudent."
+   }
+  }
+ ]
+}

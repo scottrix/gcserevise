@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS16-converting-number-bases",
+ "topicName": "Converting Number Bases",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs16-converting-number-bases-q1",
+   "type": "short-answer",
+   "question": "Convert binary 11001010 to decimal.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "128 + 64 + 0 + 0 + 8 + 0 + 2 + 0 = 202",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs16-converting-number-bases-q2",
+   "type": "short-answer",
+   "question": "Convert decimal 200 to binary (8 bits).",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "200 - 128 = 72, 72 - 64 = 8, 8 - 8 = 0. Binary: 11001000",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs16-converting-number-bases-q3",
+   "type": "short-answer",
+   "question": "Convert hex A5 to decimal.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A x 16 + 5 x 1 = 10 x 16 + 5 = 160 + 5 = 165",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs16-converting-number-bases-q4",
+   "type": "short-answer",
+   "question": "Convert binary 111100001010 to hex.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Group: 1111 0000 1010 = F0A",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs16-converting-number-bases-q5",
+   "type": "short-answer",
+   "question": "Convert hex 2F to binary.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "2 = 0010, F = 1111. Binary: 00101111",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs16-converting-number-bases-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Convert the hexadecimal number 3F to binary and then to decimal. Show all working. [3 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hex to Binary: 3 = 0011 F = 1111 3F = 00111111 Binary to Decimal: 00111111 0×128 + 0×64 + 1×32 + 1×16 + 1×8 + 1×4 + 1×2 + 1×1 = 0 + 0 + 32 + 16 + 8 + 4 + 2 + 1 = 63 So 3F₁₆ = 00111111₂ = 63₁₀",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Hex to Binary: 3 = 0011 F = 1111 3F = 00111111 Binary to Decimal: 00111111 0×128 + 0×64 + 1×32 + 1×16 + 1×8 + 1×4 + 1×2 + 1×1 = 0 + 0 + 32 + 16 + 8 + 4 + 2 + 1 = 63 So 3F₁₆ = 00111111₂ = 63₁₀"
+   }
+  }
+ ]
+}

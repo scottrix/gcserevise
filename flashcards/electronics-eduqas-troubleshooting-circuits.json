@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "troubleshooting-circuits",
+ "topicName": "Troubleshooting & Fault Finding",
+ "version": 1,
+ "cards": [
+  {
+   "id": "troubleshooting-circuits-fc1",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "Systematic fault finding follows a logical sequence: observe symptoms, identify the section at fault, locate the faulty component, then repair and test.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc2",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "The half-split method tests at the midpoint of a signal path, halving the suspect area with each measurement.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc3",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "An open circuit breaks the current path; symptoms include zero current flow and full supply voltage across the break.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc4",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "A short circuit provides a zero-resistance path; symptoms include excessive current, blown fuses and overheating.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc5",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "Common construction faults: dry joints, solder bridges, wrong component values, reversed polarity and missed track cuts.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc6",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "Continuity testing (with power off) uses a multimeter on resistance range or buzzer mode to verify connections.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc7",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "Voltage testing (with power on) checks node voltages against expected values to identify where the signal path fails.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc8",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "Component failure modes: resistors can go open-circuit, capacitors can short or lose capacitance, transistors can fail open or short.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc9",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "IC faults include incorrect supply voltage, missing decoupling, input floating and output overload.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc10",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "Always check the power supply first: correct voltage, adequate current, and proper connections before testing signal paths.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc11",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "A systematic approach avoids the 'random replacement' method, which is slow, unreliable and can introduce new faults.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc12",
+   "front": "Recall a key point about Troubleshooting & Fault Finding",
+   "back": "Documenting the fault and the fix creates a knowledge base that speeds up future debugging.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc13",
+   "front": "What should you know about gcse electronics exam tips — troubleshooting & fault finding?",
+   "back": "1. For Troubleshooting & Fault Finding questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Troubleshooting & Fault Finding, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-tro"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc14",
+   "front": "Full-Mark Response",
+   "back": "Describe a systematic approach to fault finding in an electronic circuit, explaining the half-split method and how open circuits and short circuits are identified.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "troubleshooting-circuits-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of troubleshooting & fault finding, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of troubleshooting & fault finding to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electroni",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

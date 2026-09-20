@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P10-particle-motion-and-pressure",
+ "topicName": "Particle Motion And Pressure",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p10-particle-motion-and-pressure-q1",
+   "type": "short-answer",
+   "question": "Foundation Describe what causes gas pressure in a sealed container.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Gas particles are in constant random motion. They collide with the walls of the container, exerting a force on them. The total force per unit area of the wall is the gas pressure.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain how Brownian motion provides evidence for the particle model.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Brownian motion shows larger particles (e.g. smoke) moving in random zigzag paths. This is caused by collisions with smaller, invisible air or water particles. This random, uneven bombardment can only be explained if matter is made of tiny particles in constant motion — supporting the particle model.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-q3",
+   "type": "short-answer",
+   "question": "Higher A gas at 150 kPa has a volume of 4.0 m³. The volume is reduced to 1.5 m³ at constant temperature. Calculate the new pressure.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "p₁V₁ = p₂V₂ → 150 × 4.0 = p₂ × 1.5 → 600 = 1.5 p₂ → p₂ = 400 kPa",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-q4",
+   "type": "short-answer",
+   "question": "Higher Convert: (a) 37°C to K, (b) 300 K to °C.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) 37 + 273 = 310 K (b) 300 − 273 = 27°C",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-q5",
+   "type": "short-answer",
+   "question": "Higher Explain, in terms of particles, why decreasing the volume of a gas increases its pressure at constant temperature.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When the volume decreases, the particles are in a smaller space. They travel shorter distances between collisions with the walls, so they collide more frequently. More frequent collisions per second means a greater force per unit area, so pressure increases. The temperature is constant so the average speed of particles is unchanged.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: A sealed balloon contains a fixed mass of gas at constant temperature. Describe and explain, in terms of particles, what happens to the pressure when the balloon is compressed to half its original volume. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When the balloon is compressed to half its volume, the same number of gas particles are now in a space half the size. The particles travel shorter distances between collisions with the walls, so they collide with the walls more frequently. Each collision still exerts the same force on average because the temperature is constant (so the average speed of particles is unchanged). The increased frequency of collisions means a greater force per unit area on the walls. Since pressure = force / area, and the area of the walls has also decreased, the pressure increases. Boyle's Law tells us that p₁V₁ ",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "When the balloon is compressed to half its volume, the same number of gas particles are now in a space half the size. The particles travel shorter distances between collisions with the walls, so they collide with the walls more frequently. Each collision still exerts the same force on average because the temperature is constant (so the average speed of particles is unchanged). The increased frequency of collisions means a greater force per unit area on the walls. Since pressure = force / area, and the area of the walls has also decreased, the pressure increases. Boyle's Law tells us that p₁V₁ = p₂V₂, so halving the volume doubles the pressure. Mark scheme: 1 mark for same number of particles in smaller space; 1 mark for shorter distance between collisions; 1 mark for more frequent collisions with walls; 1 mark for same force per collision (constant temperature); 1 mark for greater force per unit area; 1 mark for pressure doubles (p₁V₁ = p₂V₂). (6 marks total)"
+   }
+  }
+ ]
+}

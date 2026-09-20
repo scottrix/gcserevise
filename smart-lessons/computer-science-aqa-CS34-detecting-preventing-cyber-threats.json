@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS34-detecting-preventing-cyber-threats",
+ "topicName": "Detecting & Preventing Cyber Threats",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-s1",
+   "kind": "learn",
+   "title": "Key Concept",
+   "body": "Effective cyber security requires both detection (identifying threats) and prevention (stopping threats). No single method is sufficient - multiple layers of defence are needed."
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Biometric security uses unique biological characteristics to identify and authenticate users. Biometrics are very difficult to forge or steal."
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-s3",
+   "kind": "learn",
+   "title": "Why biometrics are strong",
+   "body": "They are something you ARE, not something you KNOW (password) or HAVE (token). You cannot forget, lose, or easily share a biometric. However, if biometric data is stolen, it cannot be changed like a password can."
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A password policy is a set of rules that govern how passwords are created, used, and managed within an organisation. Strong password policies significantly reduce the risk of unauthorised access."
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Describe two biometric security measures and explain their advantages over passwords. | What is the purpose of CAPTCHA? Give an example of how it works. | Explain how anti-malware software detects threats, including its limitations."
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Fingerprint scanning: reads unique ridge patterns on fingertips. Facial recognition: maps facial features. Advantages over passwords: cannot be forgotten, lost, or easily shared; very difficult to for | CAPTCHA determines whether the user is human or a computer program (bot). It prevents automated attacks like fake account creation, brute force attacks, and ticket scalping. Example: asking the user t | Anti-malware detects threats using: signature-based detection (comparing files to known malware patterns), heuristic analysis (monitoring behaviour for suspicious activity), and real-time scanning of "
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know all detection and prevention methods with how they work Be able to explain biometrics as \"something you ARE\" vs passwords \"something you KNOW\" CAPTCHA = human vs bot test, NOT authentication Anti-malware: know both how it works AND its limitations Defence in depth: always mention technical, physical, AND procedural When asked \"how to protect a network,\" combine multiple methods"
+  }
+ ]
+}

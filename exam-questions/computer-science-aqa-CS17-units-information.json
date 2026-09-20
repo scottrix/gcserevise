@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS17-units-information",
+ "topicName": "Units of Information",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs17-units-information-q1",
+   "type": "short-answer",
+   "question": "How many bytes are in 3.5 KB?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "3.5 KB = 3.5 x 1,000 = 3,500 bytes.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs17-units-information-q2",
+   "type": "short-answer",
+   "question": "A text file contains 2,000 characters stored in ASCII (1 byte per character). What is the file size in KB?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "2,000 characters x 1 byte = 2,000 bytes = 2,000 / 1,000 = 2 KB.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs17-units-information-q3",
+   "type": "short-answer",
+   "question": "Calculate the size of a 640x480 pixel image with 8-bit colour depth in KB.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "640 x 480 x 8 = 2,457,600 bits = 307,200 bytes = 307.2 KB.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs17-units-information-q4",
+   "type": "short-answer",
+   "question": "Which is larger: 0.5 GB or 600 MB? Show your working.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "0.5 GB = 0.5 x 1,000 = 500 MB. 600 MB > 500 MB, so 600 MB is larger.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs17-units-information-q5",
+   "type": "short-answer",
+   "question": "A sound file is recorded at 22,050 Hz with 8-bit samples for 60 seconds. Calculate the file size in MB.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "22,050 x 8 x 60 = 10,584,000 bits = 1,323,000 bytes = 1,323 KB = 1.323 MB.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs17-units-information-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A photo is 4.2 MB. Calculate how many photos of this size can be stored on a 16 GB memory card. Show your working and state any assumptions. [3 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "16 GB = 16 × 1024 MB = 16384 MB Number of photos = 16384 ÷ 4.2 = 3900.95... Assumption: 1 GB = 1024 MB (binary prefix) and the storage has no overhead for file system metadata. Approximately 3900 photos can be stored.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "16 GB = 16 × 1024 MB = 16384 MB Number of photos = 16384 ÷ 4.2 = 3900.95... Assumption: 1 GB = 1024 MB (binary prefix) and the storage has no overhead for file system metadata. Approximately 3900 photos can be stored."
+   }
+  }
+ ]
+}

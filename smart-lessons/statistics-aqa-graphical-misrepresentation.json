@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "graphical-misrepresentation",
+ "topicName": "Graphical Misrepresentation",
+ "version": 1,
+ "steps": [
+  {
+   "id": "graphical-misrepresentation-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A truncated (broken) y-axis starts at a value other than zero, exaggerating small differences between categories and making them appear more significant than they are."
+  },
+  {
+   "id": "graphical-misrepresentation-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Inconsistent scales on axes (e.g. changing the interval size partway along) can mislead the reader by distorting the apparent rate of change or relative size."
+  },
+  {
+   "id": "graphical-misrepresentation-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "3D effects on bar charts or pie charts can distort perception because the front bars or sectors appear larger than those at the back, even when values are equal."
+  },
+  {
+   "id": "graphical-misrepresentation-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Area distortion occurs when pictograms or charts use images that increase in both height and width to represent a larger value, making the area increase as the square of the value."
+  },
+  {
+   "id": "graphical-misrepresentation-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: A bar chart shows profits of £101k and £103k, but the y-axis starts at £100k. Why is this misleading? | Q: A pictogram shows 1 car for 1000 sales and 2 cars stacked for 2000 sales. The second image is double height AND double width. Why is this misleading? | Q: A line graph shows data for 2000, 2005, 2010, and 2020 with equal spacing on the x-axis. What is the problem?"
+  },
+  {
+   "id": "graphical-misrepresentation-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "The difference of £2k appears very large visually because the axis is truncated, exaggerating the relative change from 101 to 103. | Doubling both dimensions quadruples the area, making 2000 appear four times larger than 1000 rather than twice as large. | The years are not equally spaced (the last gap is 10 years, not 5), so equal spacing on the x-axis gives a misleading impression of the rate of change."
+  },
+  {
+   "id": "graphical-misrepresentation-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "In exam questions about misleading graphs, always state what the graph shows, what is misleading, and how it should be corrected. When asked to identify problems with a graph, check: axis start point, scale consistency, labelling, 3D effects, and proportional representation. If a question shows a misleading pictogram, explain that symbols should only increase in one dimension (height), or that a key should make the actual values clear. Be specific when describing misrepresentation — say 'the y-axis is truncated at 50, which exaggerates the difference between the two bars' rather than just 'the axis is misleading'. Remember that the purpose of identifying misrepresentation is to ensure data is presented fairly and objectively; always suggest how the graph could be redrawn correctly."
+  }
+ ]
+}

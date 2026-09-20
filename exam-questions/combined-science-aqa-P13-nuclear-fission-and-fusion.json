@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P13-nuclear-fission-and-fusion",
+ "topicName": "Nuclear Fission And Fusion",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p13-nuclear-fission-and-fusion-q1",
+   "type": "short-answer",
+   "question": "Foundation Describe the process of nuclear fission of uranium-235.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A uranium-235 nucleus absorbs a slow-moving neutron, becoming unstable. It splits into two smaller nuclei (fission fragments), releasing 2-3 neutrons and a large amount of energy. The released neutrons can cause further fissions, creating a chain reaction.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p13-nuclear-fission-and-fusion-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain the function of control rods and the moderator in a nuclear reactor.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Control rods absorb neutrons to control the rate of fission. They are raised to speed up the reaction and lowered to slow it down. The moderator (water or graphite) slows down fast neutrons so they can be more easily absorbed by uranium-235 nuclei to cause fission.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p13-nuclear-fission-and-fusion-q3",
+   "type": "short-answer",
+   "question": "Higher Explain why extremely high temperatures and pressures are needed for nuclear fusion.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Both nuclei are positively charged, so they repel each other. Very high temperatures give nuclei enough kinetic energy to overcome this repulsion. Very high pressures force nuclei close enough together for the strong nuclear force to bind them. These conditions are extremely difficult to create and maintain on Earth.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p13-nuclear-fission-and-fusion-q4",
+   "type": "short-answer",
+   "question": "Higher Compare nuclear fission and nuclear fusion. Include two similarities and three differences.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Similarities: both release large amounts of energy; both involve changes to the nucleus. Differences: fission splits heavy nuclei, fusion joins light nuclei; fission produces radioactive waste, fusion produces helium (harmless); fission is used in current power stations, fusion is not yet practical; fission can have a runaway reaction, fusion stops if conditions change.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p13-nuclear-fission-and-fusion-q5",
+   "type": "short-answer",
+   "question": "Foundation Why is nuclear fusion not yet used as a practical energy source on Earth?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The temperatures (about 100 million degrees) and pressures needed are so extreme that no material can contain the fusion plasma. Current experimental reactors use magnetic fields or lasers to confine the plasma, but they do not yet produce more energy than they consume.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p13-nuclear-fission-and-fusion-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Compare nuclear fission and nuclear fusion. Discuss the process, energy released, waste produced and the conditions needed for each. <div class=\"",
+   "marks": 6,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Nuclear fission is the splitting of a heavy, unstable nucleus (like uranium-235) into two lighter nuclei when it absorbs a neutron, releasing energy and 2–3 more neutrons that can cause a chain reaction. Nuclear fusion is the joining of two light nuclei (like hydrogen isotopes) to form a heavier nucleus (helium), releasing even more energy per unit mass than fission. Fission requires slow-moving neutrons and a controlled chain reaction using fuel rods, a moderator and control rods. Fusion requires extremely high temperatures (about 100 million °C) and high pressures to overcome electrostatic r",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Nuclear fission is the splitting of a heavy, unstable nucleus (like uranium-235) into two lighter nuclei when it absorbs a neutron, releasing energy and 2–3 more neutrons that can cause a chain reaction. Nuclear fusion is the joining of two light nuclei (like hydrogen isotopes) to form a heavier nucleus (helium), releasing even more energy per unit mass than fission. Fission requires slow-moving neutrons and a controlled chain reaction using fuel rods, a moderator and control rods. Fusion requires extremely high temperatures (about 100 million °C) and high pressures to overcome electrostatic repulsion between positive nuclei. Fission produces radioactive waste (fission fragments) that must be stored safely for thousands of years. Fusion produces helium, which is harmless and not radioactive, so it produces very little waste. Both release large amounts of energy, but only fission is currently used in power stations. Mark scheme: 1 mark for fission = splitting heavy nucleus; 1 mark for fusion = joining light nuclei; 1 mark for fission conditions (slow neutrons, chain reaction, control rods); 1 mark for fusion conditions (very high temperature and pressure); 1 mark for fission waste (radioactive, long storage); 1 mark for fusion waste (helium, minimal). (6 marks total)"
+   }
+  }
+ ]
+}

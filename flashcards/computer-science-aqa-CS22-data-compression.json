@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS22-data-compression",
+ "topicName": "Data Compression",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs22-data-compression-fc1",
+   "front": "Recall a key point about Data Compression",
+   "back": "Data compression reduces the number of bits needed to represent data. This saves storage space and reduces the time needed to transmit data over a network.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc2",
+   "front": "What should you know about key difference?",
+   "back": "Lossy compression discards some data permanently - you cannot get the original back. Lossless compression finds more efficient ways to represent the same data - the original can be perfectly reconstructed.",
+   "tags": [
+    "key-difference"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc3",
+   "front": "Recall a key point about Data Compression",
+   "back": "Huffman coding is a lossless compression algorithm that assigns shorter binary codes to more frequently occurring characters and longer codes to less frequent characters.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc4",
+   "front": "Recall a key point about Data Compression",
+   "back": "Run length encoding (RLE) is a lossless compression method that replaces sequences of the same data value (runs) with a count and the value, stored as frequency/data pairs.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc5",
+   "front": "Recall a key point about Data Compression",
+   "back": "RLE only works well when data has many consecutive repeated values. It is very effective for simple graphics with large areas of the same colour (like icons or diagrams) but poor for complex data with little repetition (like photographs or random data).",
+   "tags": [
+    "important"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc6",
+   "front": "What should you know about rule of thumb?",
+   "back": "Use lossy when small file size matters more than perfect accuracy (media streaming, web images). Use lossless when data integrity is essential (documents, code, medical images). Use RLE when data has long runs of identical values. Use Huffman when characters have varying frequencies.",
+   "tags": [
+    "rule-of-thumb"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc7",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Lossy: permanently removes data, smaller files, cannot reconstruct original. Use for streaming, photos, music. Lossless: no data loss, larger files, exact reconstruction. Use for text, code, medical images. RLE: stores (value, count) pairs for repeated data. Effectiveness depends on repetition length. When asked which to use, consider: is exact reproduction needed? Is the data text/audio/video?",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc8",
+   "front": "What does How it works mean?",
+   "back": "Permanently removes data that is less important or noticeable (e.g. Reduces file size without losing any data)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc9",
+   "front": "What does Data recovery mean?",
+   "back": "Original data CANNOT be fully restored (e.g. Original data CAN be fully restored)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc10",
+   "front": "What does Compression ratio mean?",
+   "back": "Higher (much smaller files) (e.g. Lower (moderately smaller files))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc11",
+   "front": "What does Quality mean?",
+   "back": "Some quality is lost (e.g. No quality loss - exact original)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc12",
+   "front": "What does File examples mean?",
+   "back": "JPEG, MP3, MP4 (e.g. PNG, FLAC, ZIP)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc13",
+   "front": "What does Typical use mean?",
+   "back": "Streaming, web images, music (e.g. Text files, code, medical images, archives)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc14",
+   "front": "What does Streaming music online mean?",
+   "back": "Lossy (MP3) (e.g. Small file size needed; slight quality loss acceptable)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs22-data-compression-fc15",
+   "front": "What does Archiving important documents mean?",
+   "back": "Lossless (ZIP) (e.g. Must preserve exact data; no data loss acceptable)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "boolean-algebra",
+ "topicName": "Boolean Algebra",
+ "version": 1,
+ "tests": [
+  {
+   "id": "boolean-algebra-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Boolean Algebra",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "boolean-algebra-t1",
+     "type": "short-answer",
+     "question": "Q: Simplify: A + A·B",
+     "correctAnswer": "A + A·B = A (absorption law).",
+     "explanation": "Answer: A + A·B = A (absorption law).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "boolean-algebra-t2",
+     "type": "short-answer",
+     "question": "Q: Apply De Morgan's law to (A·B)'.",
+     "correctAnswer": "(A·B)' = A' + B' (De Morgan's first law).",
+     "explanation": "Answer: (A·B)' = A' + B' (De Morgan's first law).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "boolean-algebra-t3",
+     "type": "short-answer",
+     "question": "Q: Simplify: A·Ā",
+     "correctAnswer": "A·Ā = 0 (complement law: a variable ANDed with its complement is always 0).",
+     "explanation": "Answer: A·Ā = 0 (complement law: a variable ANDed with its complement is always 0).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "boolean-algebra-t4",
+     "type": "short-answer",
+     "question": "Q: How many cells does a 3-variable Karnaugh map have?",
+     "correctAnswer": "2³ = 8 cells.",
+     "explanation": "Answer: 2³ = 8 cells.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

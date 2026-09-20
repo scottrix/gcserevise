@@ -1,0 +1,51 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE7-spirometer-trace",
+ "topicName": "Spirometer Trace Interpretation",
+ "version": 1,
+ "steps": [
+  {
+   "id": "pe7-spirometer-trace-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A spirometer is a device that measures the volume of air inspired and expired by the lungs. It produces a graph (spirometer trace) showing the volume of air breathed over time."
+  },
+  {
+   "id": "pe7-spirometer-trace-s2",
+   "kind": "learn",
+   "title": "Tidal Volume (TV)",
+   "body": "The volume of air breathed in or out per breath at rest. Approximately 500 ml for an average adult."
+  },
+  {
+   "id": "pe7-spirometer-trace-s3",
+   "kind": "learn",
+   "title": "Inspiratory Reserve Volume (IRV)",
+   "body": "The additional volume of air that can be forcibly inhaled after a normal tidal inspiration. Approximately 2,500-3,000 ml ."
+  },
+  {
+   "id": "pe7-spirometer-trace-s4",
+   "kind": "learn",
+   "title": "Expiratory Reserve Volume (ERV)",
+   "body": "The additional volume of air that can be forcibly exhaled after a normal tidal expiration. Approximately 1,000-1,500 ml ."
+  },
+  {
+   "id": "pe7-spirometer-trace-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Define tidal volume and state its approximate value at rest. | What is the difference between inspiratory reserve volume and expiratory reserve volume? | Calculate vital capacity given: TV = 500 ml, IRV = 3,000 ml, ERV = 1,200 ml."
+  },
+  {
+   "id": "pe7-spirometer-trace-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Tidal volume is the volume of air breathed in or out per breath during normal resting breathing. Its approximate value is 500 ml. | Inspiratory reserve volume (IRV) is the extra air that can be forcibly inhaled after a normal tidal inspiration (~3,000 ml). Expiratory reserve volume (ERV) is the extra air that can be forcibly exhal | VC = TV + IRV + ERV = 500 + 3,000 + 1,200 = 4,700 ml."
+  },
+  {
+   "id": "pe7-spirometer-trace-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know the definitions and approximate values for all lung volumes The vital capacity formula (VC = TV + IRV + ERV) is frequently tested Residual volume is NEVER included in vital capacity calculations When describing spirometer traces, mention both height/amplitude AND frequency Practise minute ventilation calculations (TV × breathing rate) Remember: residual volume does NOT change during exercise or with training"
+  }
+ ]
+}

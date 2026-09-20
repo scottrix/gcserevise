@@ -1,0 +1,38 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "measures-spread",
+ "topicName": "Measures Spread",
+ "version": 1,
+ "tests": [
+  {
+   "id": "measures-spread-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Measures Spread",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "measures-spread-t1",
+     "type": "short-answer",
+     "question": "Q: Data: 5, 8, 12, 15, 20. Find the range.",
+     "correctAnswer": "Range = 20 – 5 = 15.",
+     "explanation": "Answer: Range = 20 – 5 = 15.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "measures-spread-t3",
+     "type": "short-answer",
+     "question": "Q: From a cumulative frequency curve with total frequency 200, at what cumulative frequency do you read P10 and P90?",
+     "correctAnswer": "P10: 0.10 × 200 = 20. P90: 0.90 × 200 = 180.",
+     "explanation": "Answer: P10: 0.10 × 200 = 20. P90: 0.90 × 200 = 180.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

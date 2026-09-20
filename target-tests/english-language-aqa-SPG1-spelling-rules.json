@@ -1,0 +1,68 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "SPG1-spelling-rules",
+ "topicName": "Spelling Rules and Patterns",
+ "version": 1,
+ "tests": [
+  {
+   "id": "spg1-spelling-rules-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Spelling Rules and Patterns",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "spg1-spelling-rules-t1",
+     "type": "short-answer",
+     "question": "Which is correct: \"their book\" or \"there book\"?",
+     "correctAnswer": "\"their book\" - their shows possession (belonging to them)",
+     "explanation": "Answer: \"their book\" - their shows possession (belonging to them)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg1-spelling-rules-t2",
+     "type": "short-answer",
+     "question": "Spell the word meaning \"to influence\": affect or effect?",
+     "correctAnswer": "\"affect\" - affect is the verb meaning to influence",
+     "explanation": "Answer: \"affect\" - affect is the verb meaning to influence",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg1-spelling-rules-t3",
+     "type": "short-answer",
+     "question": "What is the correct spelling: neccessary or necessary?",
+     "correctAnswer": "necessary - one c, two s",
+     "explanation": "Answer: necessary - one c, two s",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg1-spelling-rules-t4",
+     "type": "short-answer",
+     "question": "Add the suffix -ing to the word \"hop\" - what do you get?",
+     "correctAnswer": "hopping - double the consonant after a short vowel",
+     "explanation": "Answer: hopping - double the consonant after a short vowel",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg1-spelling-rules-t5",
+     "type": "short-answer",
+     "question": "Complete this sentence: \"You're going to lose / loose your keys.\"",
+     "correctAnswer": "lose - lose means to misplace; loose means not tight",
+     "explanation": "Answer: lose - lose means to misplace; loose means not tight",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

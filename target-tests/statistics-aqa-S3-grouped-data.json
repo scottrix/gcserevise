@@ -1,0 +1,68 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S3-grouped-data",
+ "topicName": "S3 Grouped Data",
+ "version": 1,
+ "tests": [
+  {
+   "id": "s3-grouped-data-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on S3 Grouped Data",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "s3-grouped-data-t1",
+     "type": "short-answer",
+     "question": "A histogram bar has width 25 and frequency density 3.2. Find the frequency.",
+     "correctAnswer": "Frequency = 3.2 × 25 = 80",
+     "explanation": "Answer: Frequency = 3.2 × 25 = 80",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s3-grouped-data-t2",
+     "type": "short-answer",
+     "question": "Calculate the frequency density for a class with width 15 and frequency 45.",
+     "correctAnswer": "Frequency density = 45 ÷ 15 = 3",
+     "explanation": "Answer: Frequency density = 45 ÷ 15 = 3",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s3-grouped-data-t3",
+     "type": "short-answer",
+     "question": "A cumulative frequency graph has total 200. What cumulative frequency gives the median?",
+     "correctAnswer": "Median position = 200 ÷ 2 = 100",
+     "explanation": "Answer: Median position = 200 ÷ 2 = 100",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s3-grouped-data-t4",
+     "type": "short-answer",
+     "question": "In a histogram, one bar from 0-20 has frequency 50. What is the frequency density?",
+     "correctAnswer": "Frequency density = 50 ÷ 20 = 2.5",
+     "explanation": "Answer: Frequency density = 50 ÷ 20 = 2.5",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s3-grouped-data-t5",
+     "type": "short-answer",
+     "question": "The cumulative frequencies are: at 40 = 25, at 60 = 70, at 80 = 120. How many values are between 60 and 80?",
+     "correctAnswer": "120 - 70 = 50 values between 60 and 80",
+     "explanation": "Answer: 120 - 70 = 50 values between 60 and 80",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

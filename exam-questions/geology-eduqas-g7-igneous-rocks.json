@@ -1,0 +1,94 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g7-igneous-rocks",
+ "topicName": "Igneous Rocks",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g7-igneous-rocks-q1",
+   "type": "short-answer",
+   "question": "Q: How does cooling rate affect the texture of igneous rocks?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Slow cooling (underground) allows time for large crystals to grow, producing coarse-grained texture (e.g. granite). Rapid cooling (at the surface) produces small crystals, giving fine-grained texture (e.g. basalt). Very rapid cooling produces glass (e.g. obsidian).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g7-igneous-rocks-q2",
+   "type": "short-answer",
+   "question": "Q: What is the mineral composition of granite?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Quartz, orthoclase feldspar, plagioclase feldspar, and mica (biotite and/or muscovite). It is a felsic, intrusive rock.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g7-igneous-rocks-q3",
+   "type": "short-answer",
+   "question": "Q: Describe Bowen's reaction series.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "As magma cools, minerals crystallise in a predictable order. The discontinuous branch: olivine, then pyroxene, then amphibole, then biotite. The continuous branch: calcium-rich plagioclase becoming sodium-rich plagioclase. Finally, potassium feldspar, muscovite and quartz crystallise at the lowest temperatures.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g7-igneous-rocks-q4",
+   "type": "short-answer",
+   "question": "Q: What is a porphyritic texture and how does it form?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Large crystals (phenocrysts) set in a finer-grained groundmass. It forms in two stages: initial slow cooling underground produces large crystals, then rapid cooling at the surface freezes the remaining magma as fine-grained groundmass.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g7-igneous-rocks-q5",
+   "type": "short-answer",
+   "question": "Q: Compare granite and basalt in terms of composition, texture and origin.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Granite: felsic (quartz + feldspar + mica), coarse-grained, intrusive (slow cooling underground). Basalt: mafic (pyroxene + plagioclase + olivine), fine-grained, extrusive (rapid cooling at surface). Granite is light-coloured; basalt is dark.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "measures-central-tendency",
+ "topicName": "Measures Central Tendency",
+ "version": 1,
+ "steps": [
+  {
+   "id": "measures-central-tendency-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The mode is the value that occurs most frequently in a dataset; a dataset can have no mode, one mode (unimodal), or multiple modes (bimodal or multimodal)."
+  },
+  {
+   "id": "measures-central-tendency-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The mode is the only average that can be used for qualitative (categorical) data, since it does not require numerical values."
+  },
+  {
+   "id": "measures-central-tendency-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The median is the middle value when all data are arranged in order; for n values, the median position is at (n + 1) ÷ 2."
+  },
+  {
+   "id": "measures-central-tendency-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "For an even number of data values, the median is the mean of the two middle values."
+  },
+  {
+   "id": "measures-central-tendency-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Find the mode, median, and mean of: 3, 5, 5, 7, 10 | Q: A student scores 65, 70, and 75 in tests weighted 2, 3, and 5 respectively. Calculate the weighted mean. | Q: An investment grows by 10% in year 1 and 20% in year 2. Why is the geometric mean more appropriate than the arithmetic mean for the average growth rate?"
+  },
+  {
+   "id": "measures-central-tendency-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Mode = 5 (appears twice). Median = 5 (middle value of 5 numbers). Mean = (3 + 5 + 5 + 7 + 10) ÷ 5 = 30 ÷ 5 = 6. | Weighted mean = (2 × 65 + 3 × 70 + 5 × 75) ÷ (2 + 3 + 5) = (130 + 210 + 375) ÷ 10 = 715 ÷ 10 = 71.5. | Growth is multiplicative, so the geometric mean = √(1.10 × 1.20) = √1.32 ≈ 1.149, giving an average growth rate of about 14.9%. The arithmetic mean (15%) would overestimate the overall growth."
+  },
+  {
+   "id": "measures-central-tendency-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always show your working when calculating the mean — write out the sum and the division separately so you can gain method marks even if you make an arithmetic error. When asked which average to use, consider: Is the data skewed? Are there outliers? Is the data categorical? Then justify your answer. For weighted mean questions, clearly show the weights and the calculation Σ(wx) ÷ Σw — do not just write the answer. Remember that the mode can be found from a bar chart (tallest bar) and the median from a cumulative frequency curve (at 50% of total frequency). When a question asks for the mean from grouped data, always state that it is an estimated mean because you are using midpoints, not the actual values."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "additive-manufacturing",
+ "topicName": "Additive Manufacturing",
+ "version": 1,
+ "steps": [
+  {
+   "id": "additive-manufacturing-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Additive manufacturing builds components layer by layer from a digital model, adding material rather than removing it."
+  },
+  {
+   "id": "additive-manufacturing-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Fused Deposition Modelling (FDM) extrudes thermoplastic filament through a heated nozzle; the most common and affordable 3D printing method."
+  },
+  {
+   "id": "additive-manufacturing-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Selective Laser Sintering (SLS) uses a laser to fuse powdered material (nylon, metal) layer by layer; produces strong, functional parts."
+  },
+  {
+   "id": "additive-manufacturing-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Stereolithography (SLA) uses a UV laser to cure liquid resin; produces very high-resolution parts with smooth surface finish."
+  },
+  {
+   "id": "additive-manufacturing-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain how FDM 3D printing works, from digital model to finished part. | Q: Why is additive manufacturing described as producing minimal waste compared to CNC machining? | Q: Compare FDM and SLS for producing a functional nylon prototype gear."
+  },
+  {
+   "id": "additive-manufacturing-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A CAD model is exported as an STL file, sliced into thin layers by the printer software. The printer heats thermoplastic filament and extrudes it through a nozzle that traces each layer onto the build | Additive processes only deposit material where the component exists, so nearly all material becomes the finished part. CNC machining starts with a solid block and removes material (as chips/swarf) to  | SLS is better for a functional gear because it fuses nylon powder with a laser, producing parts with good mechanical strength and no support structures needed (unsintered powder supports overhangs). F"
+  },
+  {
+   "id": "additive-manufacturing-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always name the specific additive process (FDM, SLS, SLA) rather than just writing '3D printing'. The key exam distinction: additive ADDS material, subtractive REMOVES material, forming SHAPES material. When evaluating additive vs traditional manufacturing, consider volume, complexity, material properties and cost. Anisotropy (layer weakness) is a common exam point: parts are weaker between layers than within them. Remember: no tooling costs is the main advantage for low-volume and prototype production."
+  }
+ ]
+}

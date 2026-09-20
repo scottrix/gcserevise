@@ -1,0 +1,108 @@
+{
+ "subject": "french",
+ "board": "AQA",
+ "topic": "mock-exam",
+ "topicName": "French Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "french-mock",
+   "name": "French Mock Exam",
+   "description": "Timed mock covering 3 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Hobbies and Interests] Write 4 sentences in French about hobbies and interests.",
+     "correctAnswer": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "explanation": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Hobbies and Interests] Write a paragraph (40-60 words) giving your opinion on hobbies and interests.",
+     "correctAnswer": "A structured paragraph with: introduction (à mon avis...), opinion with reason (je pense que... parce que...), a different viewpoint (cependant...), and a conclusion (en conclusion...). Use connecting words and varied vocabulary.",
+     "explanation": "A structured paragraph with: introduction (à mon avis...), opinion with reason (je pense que... parce que...), a different viewpoint (cependant...), and a conclusion (en conclusion...). Use connecting words and varied vocabulary.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Hobbies and Interests] Translate into French: \"I think hobbies and interests is important because...\"",
+     "correctAnswer": "\"Je pense que [topic] est important(e) parce que...\" — ensure adjective agreement (important vs importante depending on noun gender), correct verb form, and give a specific reason.",
+     "explanation": "\"Je pense que [topic] est important(e) parce que...\" — ensure adjective agreement (important vs importante depending on noun gender), correct verb form, and give a specific reason.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Technology in Everyday Life] Write 4 sentences in French about technology in everyday life.",
+     "correctAnswer": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "explanation": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Technology in Everyday Life] Write a paragraph (40-60 words) giving your opinion on technology in everyday life.",
+     "correctAnswer": "A structured paragraph with: introduction (à mon avis...), opinion with reason (je pense que... parce que...), a different viewpoint (cependant...), and a conclusion (en conclusion...). Use connecting words and varied vocabulary.",
+     "explanation": "A structured paragraph with: introduction (à mon avis...), opinion with reason (je pense que... parce que...), a different viewpoint (cependant...), and a conclusion (en conclusion...). Use connecting words and varied vocabulary.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Technology in Everyday Life] Translate into French: \"I think technology in everyday life is important because...\"",
+     "correctAnswer": "\"Je pense que [topic] est important(e) parce que...\" — ensure adjective agreement (important vs importante depending on noun gender), correct verb form, and give a specific reason.",
+     "explanation": "\"Je pense que [topic] est important(e) parce que...\" — ensure adjective agreement (important vs importante depending on noun gender), correct verb form, and give a specific reason.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Going Out and Entertainment] Write 4 sentences in French about going out and entertainment.",
+     "correctAnswer": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "explanation": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Going Out and Entertainment] Write a paragraph (40-60 words) giving your opinion on going out and entertainment.",
+     "correctAnswer": "A structured paragraph with: introduction (à mon avis...), opinion with reason (je pense que... parce que...), a different viewpoint (cependant...), and a conclusion (en conclusion...). Use connecting words and varied vocabulary.",
+     "explanation": "A structured paragraph with: introduction (à mon avis...), opinion with reason (je pense que... parce que...), a different viewpoint (cependant...), and a conclusion (en conclusion...). Use connecting words and varied vocabulary.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Going Out and Entertainment] Translate into French: \"I think going out and entertainment is important because...\"",
+     "correctAnswer": "\"Je pense que [topic] est important(e) parce que...\" — ensure adjective agreement (important vs importante depending on noun gender), correct verb form, and give a specific reason.",
+     "explanation": "\"Je pense que [topic] est important(e) parce que...\" — ensure adjective agreement (important vs importante depending on noun gender), correct verb form, and give a specific reason.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

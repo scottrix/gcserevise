@@ -1,0 +1,57 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C14-electrolysis",
+ "topicName": "Electrolysis",
+ "version": 1,
+ "steps": [
+  {
+   "id": "c14-electrolysis-s1",
+   "kind": "learn",
+   "title": "Electrolysis",
+   "body": "The process of using electricity to break down an ionic compound into its elements. The compound must be molten or dissolved in water (aqueous) so that ions can move."
+  },
+  {
+   "id": "c14-electrolysis-s2",
+   "kind": "learn",
+   "title": "Electrolyte",
+   "body": "The ionic compound that is broken down by electrolysis. It must be molten or in solution so the ions are free to move."
+  },
+  {
+   "id": "c14-electrolysis-s3",
+   "kind": "learn",
+   "title": "Anode",
+   "body": "The positive electrode. Negative ions (anions) are attracted here and lose electrons (oxidation)."
+  },
+  {
+   "id": "c14-electrolysis-s4",
+   "kind": "learn",
+   "title": "Cathode",
+   "body": "The negative electrode. Positive ions (cations) are attracted here and gain electrons (reduction)."
+  },
+  {
+   "id": "c14-electrolysis-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "In aqueous solutions, water is also present. The ions from water (H⁺ and OH⁻) compete with the ions from the dissolved compound. This means different products can form depending on which ions are discharged. Rules for aqueous solutions: At the cathode: If the metal is more reactive than hydrogen, hydrogen gas (H₂) is produced instead. If the metal is less reactive than hydrogen, the metal is produced. At the anode: If halide ions (Cl⁻, Br⁻, I⁻) are present, the halogen is produced. If no halide ions are present, oxygen (O₂) is produced from hydroxide ions. Solution Cathode product Anode product Reason CuSO₄(aq) Copper (Cu) Oxygen (O₂) Cu is less reactive than H; no halide present NaCl(aq) Hydrogen (H₂) Chlorine (Cl₂) Na is more reactive than H; Cl⁻ is a halide KBr(aq) Hydrogen (H₂) Bromine (Br₂) K is more reactive than H; Br⁻ is a halide H₂SO₄(aq) Hydrogen (H₂) Oxygen (O₂) H⁺ is the only cation; no halide present Worked Example 3: Electrolysis of sodium chloride solution Predict the pr"
+  },
+  {
+   "id": "c14-electrolysis-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation Define electrolysis. What type of current is used? | Foundation Predict the products at each electrode when molten potassium iodide is electrolysed. | Higher Predict the products at each electrode when copper(II) chloride solution is electrolysed. Write the half-equations."
+  },
+  {
+   "id": "c14-electrolysis-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Electrolysis is the process of using electricity to break down an ionic compound into its elements. A direct current (DC) is used. | Cathode: potassium (K). Anode: iodine (I₂). The K⁺ ions are attracted to the cathode and gain electrons. The I⁻ ions are attracted to the anode and lose electrons. | Cathode: copper — Cu²⁺ + 2e⁻ → Cu (Cu is less reactive than H). Anode: chlorine — 2Cl⁻ → Cl₂ + 2e⁻ (Cl⁻ is a halide ion)."
+  },
+  {
+   "id": "c14-electrolysis-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Remember: cathode is negative (attracts cations), anode is positive (attracts anions) For aqueous electrolysis, always check if the metal is above or below hydrogen in the reactivity series Learn the rule: reactive metals → hydrogen at cathode; unreactive metals → metal at cathode For the anode: halides come first. If no halide is present, oxygen is produced Half-equations must balance — make sure the number of electrons lost at the anode equals the number gained at the cathode In aluminium extraction, remember the anodes burn away (C + O₂ → CO₂) and need replacing In electroplating questions, the object being plated is always the cathode"
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C16-chemical-cells-and-fuel-cells",
+ "topicName": "Chemical Cells And Fuel Cells",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c16-chemical-cells-and-fuel-cells-q1",
+   "type": "short-answer",
+   "question": "Foundation Explain why a chemical cell needs two different metals and an electrolyte.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Two different metals are needed so one is more reactive than the other, creating a voltage (electrons flow from the more reactive metal). The electrolyte allows ions to move between the electrodes, completing the circuit.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c16-chemical-cells-and-fuel-cells-q2",
+   "type": "short-answer",
+   "question": "Foundation Which would produce the larger voltage — a cell using iron and copper, or a cell using magnesium and copper? Explain your answer.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Magnesium and copper produces the larger voltage. Magnesium is further from copper in the reactivity series than iron is. The greater the difference in reactivity, the greater the voltage.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c16-chemical-cells-and-fuel-cells-q3",
+   "type": "short-answer",
+   "question": "Higher Write the half-equations and overall equation for a hydrogen fuel cell.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Anode: 2H₂ → 4H⁺ + 4e⁻. Cathode: O₂ + 4H⁺ + 4e⁻ → 2H₂O. Overall: 2H₂ + O₂ → 2H₂O",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c16-chemical-cells-and-fuel-cells-q4",
+   "type": "short-answer",
+   "question": "Foundation Give two advantages and two disadvantages of hydrogen fuel cells compared to petrol engines.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Advantages: only water produced (no pollution); no CO₂ emissions. Disadvantages: hydrogen is flammable; hydrogen is difficult to store and transport; hydrogen may be produced from non-renewable sources.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c16-chemical-cells-and-fuel-cells-q5",
+   "type": "short-answer",
+   "question": "Higher Explain why a hydrogen fuel cell does not need recharging but a rechargeable battery does.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A fuel cell does not need recharging because hydrogen and oxygen are continuously supplied from external sources — the cell produces electricity as long as fuel is provided. A rechargeable battery has a fixed amount of chemicals inside; when these are used up, the battery must be recharged to reverse the chemical reactions.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c16-chemical-cells-and-fuel-cells-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Evaluate hydrogen fuel cells versus rechargeable batteries for use in vehicles. <div class=\"",
+   "marks": 6,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hydrogen fuel cells produce only water as a product, so they produce no CO₂ or polluting emissions at the point of use. They do not run down as long as hydrogen fuel is supplied, so refuelling is quick. However, hydrogen is difficult to store and transport (it is a low-density gas), there is limited refuelling infrastructure, and producing hydrogen often requires fossil fuels or electricity (which may come from non-renewable sources). Rechargeable batteries are widely available with extensive charging infrastructure. They are cheaper to produce and can be recharged from the mains. However, the",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Hydrogen fuel cells produce only water as a product, so they produce no CO₂ or polluting emissions at the point of use. They do not run down as long as hydrogen fuel is supplied, so refuelling is quick. However, hydrogen is difficult to store and transport (it is a low-density gas), there is limited refuelling infrastructure, and producing hydrogen often requires fossil fuels or electricity (which may come from non-renewable sources). Rechargeable batteries are widely available with extensive charging infrastructure. They are cheaper to produce and can be recharged from the mains. However, they have a limited range per charge, take a long time to recharge, and the batteries degrade over time. Battery production also involves mining lithium and other metals, which has environmental impacts. Overall, both have advantages and disadvantages; the best choice depends on the application, available infrastructure and energy sources. Mark scheme: 1 mark for fuel cell advantage; 1 mark for fuel cell disadvantage; 1 mark for battery advantage; 1 mark for battery disadvantage; 1 mark for second advantage/disadvantage for either; 1 mark for balanced evaluation/conclusion."
+   }
+  }
+ ]
+}

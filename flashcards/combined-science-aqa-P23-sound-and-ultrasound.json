@@ -1,0 +1,157 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P23-sound-and-ultrasound",
+ "topicName": "Sound And Ultrasound",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p23-sound-and-ultrasound-fc1",
+   "front": "What should you know about sound waves?",
+   "back": "Longitudinal waves produced by vibrating objects. They require a medium (solid, liquid or gas) to travel — they cannot travel through a vacuum.",
+   "tags": [
+    "sound-waves"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc2",
+   "front": "What should you know about ultrasound?",
+   "back": "Sound waves with a frequency above 20,000 Hz (20 kHz). Humans cannot hear ultrasound.",
+   "tags": [
+    "ultrasound"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc3",
+   "front": "What should you know about infrasound?",
+   "back": "Sound waves with a frequency below 20 Hz. Humans cannot hear infrasound.",
+   "tags": [
+    "infrasound"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc4",
+   "front": "What should you know about echo?",
+   "back": "A reflected sound wave. The time delay between a sound and its echo can be used to calculate distance.",
+   "tags": [
+    "echo"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc5",
+   "front": "What should you know about how we hear?",
+   "back": "Sound waves enter the ear canal → eardrum vibrates → vibrations pass through small bones (ossicles) to the cochlea → cochlea converts vibrations to electrical signals → auditory nerve carries signals to the brain.",
+   "tags": [
+    "how-we-hear"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc6",
+   "front": "What should you know about principle?",
+   "back": "Ultrasound waves are directed into the body. When they reach a boundary between different tissues (e.g. fluid and bone), some of the wave is reflected back and some passes through. The time taken for the reflections (echoes) to return is used to build up an image. Ultrasound is non-ionising — safer than X-rays for imaging soft tissue and during pregnancy.",
+   "tags": [
+    "principle"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc7",
+   "front": "What should you know about principle?",
+   "back": "Ships use sonar to find the depth of the sea. An ultrasound pulse is sent from the ship into the water. It reflects off the sea floor and returns to the ship as an echo. The depth is calculated from the time taken.",
+   "tags": [
+    "principle"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc8",
+   "front": "What should you know about why divide by 2??",
+   "back": "The time measured is for the sound to travel to the object and back again. The actual distance to the object is only half of the total distance the sound has travelled.",
+   "tags": [
+    "why-divide-by-2"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc9",
+   "front": "Recall a key point about Sound And Ultrasound",
+   "back": "Echo calculations use distance = speed × time ÷ 2. The division by 2 is critical because sound travels to the object AND back. Always check that the time given is the total echo time, not a one-way time. Convert all units consistently (ms → s, km → m).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc10",
+   "front": "What should you know about answers?",
+   "back": "(a) Mean time = (2.0 + 2.2 + 1.8)/3 = 2.0 s. Mean depth = (1500 × 2.0) ÷ 2 = 1500 m. (b) Max depth: time = 2.0 + 0.05 = 2.05 s, depth = (1500 × 2.05) ÷ 2 = 1537.5 m. Min depth: time = 2.0 − 0.05 = 1.95 s, depth = (1500 × 1.95) ÷ 2 = 1462.5 m. (c) Shorter echo time means the sound has less distance to travel there and back, so the sea floor is closer (shallower). In shallow water, the echo returns so quickly that the timing uncertainty (±0.05 s) becomes a larger percentage of the total time, making depth measurements less reliable.",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc11",
+   "front": "What does Infrasound mean?",
+   "back": "Below 20 Hz (e.g. No)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc12",
+   "front": "What does Audible sound mean?",
+   "back": "20 Hz – 20,000 Hz (e.g. Yes)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc13",
+   "front": "What does Ultrasound mean?",
+   "back": "Above 20,000 Hz (e.g. No)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc14",
+   "front": "Range of Human Hearing",
+   "back": "The human ear can detect sound frequencies between 20 Hz and 20,000 Hz .",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-fc15",
+   "front": "Watch Out!",
+   "back": "1. Wrong: Sound can travel through a vacuum because light can Correct: Sound is a mechanical, longitudinal wave that requires particles to vibrate — it cannot travel through a vacuum",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

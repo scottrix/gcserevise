@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S3-grouped-data",
+ "topicName": "S3 Grouped Data",
+ "version": 1,
+ "questions": [
+  {
+   "id": "s3-grouped-data-q1",
+   "type": "short-answer",
+   "question": "A histogram bar has width 25 and frequency density 3.2. Find the frequency.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Frequency = 3.2 × 25 = 80",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3-grouped-data-q2",
+   "type": "short-answer",
+   "question": "Calculate the frequency density for a class with width 15 and frequency 45.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Frequency density = 45 ÷ 15 = 3",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3-grouped-data-q3",
+   "type": "short-answer",
+   "question": "A cumulative frequency graph has total 200. What cumulative frequency gives the median?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Median position = 200 ÷ 2 = 100",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3-grouped-data-q4",
+   "type": "short-answer",
+   "question": "In a histogram, one bar from 0-20 has frequency 50. What is the frequency density?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Frequency density = 50 ÷ 20 = 2.5",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3-grouped-data-q5",
+   "type": "short-answer",
+   "question": "The cumulative frequencies are: at 40 = 25, at 60 = 70, at 80 = 120. How many values are between 60 and 80?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "120 - 70 = 50 values between 60 and 80",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s3-grouped-data-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: A histogram shows the times taken for 200 runners to complete a race. One bar covers 20–30 minutes with frequency density 4. Another bar covers 30–50 minutes with frequency density 3. (a) Find the frequency for each class. (b) A third class 50–60 minutes has frequency 20. Find its frequency density. (c) Explain why using frequency (not frequency density) on the y-axis would give a misleading histogram. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) 20–30: Frequency = 4 × 10 = 40. 30–50: Frequency = 3 × 20 = 60. (b) 50–60: Width = 10. Frequency density = 20/10 = 2. (c) If frequency were used on the y-axis, the 30–50 class (frequency 60) would have a bar of height 60, and the 20–30 class (frequency 40) would have height 40. But the 30–50 bar would be twice as wide, making its area 1200 vs 400 for 20–30. This visually over-represents the 30–50 group because area is what the eye perceives. Frequency density ensures area = frequency, making visual comparison fair. Mark scheme: M1 for frequency = density × width, A1 for 40 and 60, M1 for d",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "(a) 20–30: Frequency = 4 × 10 = 40. 30–50: Frequency = 3 × 20 = 60. (b) 50–60: Width = 10. Frequency density = 20/10 = 2. (c) If frequency were used on the y-axis, the 30–50 class (frequency 60) would have a bar of height 60, and the 20–30 class (frequency 40) would have height 40. But the 30–50 bar would be twice as wide, making its area 1200 vs 400 for 20–30. This visually over-represents the 30–50 group because area is what the eye perceives. Frequency density ensures area = frequency, making visual comparison fair. Mark scheme: M1 for frequency = density × width, A1 for 40 and 60, M1 for density = frequency/width, A1 for 2, M1 for explaining area interpretation, A1 for clear explanation of why frequency alone misleads"
+   }
+  }
+ ]
+}

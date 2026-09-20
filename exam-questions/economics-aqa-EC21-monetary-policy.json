@@ -1,0 +1,78 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC21-monetary-policy",
+ "topicName": "Monetary Policy",
+ "version": 1,
+ "questions": [
+  {
+   "id": "ec21-monetary-policy-q1",
+   "type": "short-answer",
+   "question": "Explain how the Bank of England could use monetary policy to reduce inflation.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "To reduce inflation, the Bank raises the base rate. This increases borrowing costs, reducing consumer spending. Higher saving rates encourage depositing rather than spending. Reduced demand means firms cannot raise prices as easily, slowing inflation.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ec21-monetary-policy-q2",
+   "type": "short-answer",
+   "question": "Describe how lower interest rates might help reduce unemployment.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Lower interest rates reduce mortgage payments and loan costs, increasing disposable income. Consumers spend more, raising demand. Firms increase production and hire more workers, reducing unemployment.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ec21-monetary-policy-q3",
+   "type": "short-answer",
+   "question": "Evaluate whether monetary policy or fiscal policy is more effective at managing the economy.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Monetary policy: implemented quickly (MPC meets monthly), independent, directly affects borrowing costs. Disadvantages: time lags, can't target sectors, zero lower bound. Fiscal policy: can target specific sectors, direct impact. Disadvantages: slow, political bias. Conclusion: both are needed — monetary for day-to-day demand management, fiscal for structural issues.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ec21-monetary-policy-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate whether the Bank of England should raise interest rates to combat inflation even if it increases unemployment. <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: analyse the inflation problem (erodes purchasing power, damages savers, creates uncertainty); analyse the unemployment cost (lost incomes, social problems); consider the alternative (allowing inflation to persist embeds expectations); conclude: if inflation is significantly above target, a moderate rate rise is justified even with short-term unemployment costs, because unchecked inflation causes greater long-term damage.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: analyse the inflation problem (erodes purchasing power, damages savers, creates uncertainty); analyse the unemployment cost (lost incomes, social problems); consider the alternative (allowing inflation to persist embeds expectations); conclude: if inflation is significantly above target, a moderate rate rise is justified even with short-term unemployment costs, because unchecked inflation causes greater long-term damage."
+   }
+  }
+ ]
+}

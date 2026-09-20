@@ -1,0 +1,138 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "mock-exam",
+ "topicName": "Geology Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "geology-mock",
+   "name": "Geology Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Earth's Structure & Composition] Q: Name the four main layers of the Earth from the surface inward.",
+     "correctAnswer": "Crust, mantle, outer core, inner core.",
+     "explanation": "Crust, mantle, outer core, inner core.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Earth's Structure & Composition] Q: How do seismic waves provide evidence for Earth's internal structure?",
+     "correctAnswer": "P-waves travel through all layers (solids and liquids) but refract at boundaries. S-waves cannot pass through the liquid outer core, creating a shadow zone. The patterns of wave refraction and shadow zones reveal the depth and state of each layer.",
+     "explanation": "P-waves travel through all layers (solids and liquids) but refract at boundaries. S-waves cannot pass through the liquid outer core, creating a shadow zone. The patterns of wave refraction and shadow zones reveal the depth and state of each layer.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Earth's Structure & Composition] Q: Why is the inner core solid despite temperatures of ~5,500 degrees C?",
+     "correctAnswer": "The immense pressure at that depth raises the melting point of iron and nickel above the actual temperature, keeping it solid.",
+     "explanation": "The immense pressure at that depth raises the melting point of iron and nickel above the actual temperature, keeping it solid.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[The Rock Cycle] Q: Describe a complete path through the rock cycle starting from an igneous rock.",
+     "correctAnswer": "Granite (igneous) to weathering/erosion to sediment transport to deposition to compaction and cementation to sandstone (sedimentary) to heat and pressure to quartzite (metamorphic) to further heating/melting to magma to cooling/crystallisation to granite (igneous again).",
+     "explanation": "Granite (igneous) to weathering/erosion to sediment transport to deposition to compaction and cementation to sandstone (sedimentary) to heat and pressure to quartzite (metamorphic) to further heating/melting to magma to cooling/crystallisation to granite (igneous again).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[The Rock Cycle] Q: What are the two main energy sources driving the rock cycle?",
+     "correctAnswer": "Internal heat from Earth's core (drives melting, metamorphism, plate tectonics, volcanism) and external solar energy (drives weathering, erosion, transport, and deposition by water, wind and ice).",
+     "explanation": "Internal heat from Earth's core (drives melting, metamorphism, plate tectonics, volcanism) and external solar energy (drives weathering, erosion, transport, and deposition by water, wind and ice).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[The Rock Cycle] Q: Can a metamorphic rock become a sedimentary rock directly?",
+     "correctAnswer": "Yes, metamorphic rocks exposed at the surface can be weathered and eroded into sediment, which is then transported, deposited and lithified into sedimentary rock.",
+     "explanation": "Yes, metamorphic rocks exposed at the surface can be weathered and eroded into sediment, which is then transported, deposited and lithified into sedimentary rock.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Geological Maps & Mapwork] Q: What is the difference between strike and dip?",
+     "correctAnswer": "Strike is the compass direction of a horizontal line on a dipping surface. Dip is the angle of maximum slope of the surface, always measured perpendicular to strike, with its own compass direction indicating which way the surface tilts.",
+     "explanation": "Strike is the compass direction of a horizontal line on a dipping surface. Dip is the angle of maximum slope of the surface, always measured perpendicular to strike, with its own compass direction indicating which way the surface tilts.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Geological Maps & Mapwork] Q: How does the V-rule help determine dip direction from a map?",
+     "correctAnswer": "In a valley, a V-shaped outcrop pattern points in the direction of dip if the dip is moderate (V in valley rule). For horizontal beds the outcrop follows contours. For vertical beds the outcrop is straight regardless of topography.",
+     "explanation": "In a valley, a V-shaped outcrop pattern points in the direction of dip if the dip is moderate (V in valley rule). For horizontal beds the outcrop follows contours. For vertical beds the outcrop is straight regardless of topography.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Geological Maps & Mapwork] Q: What is an unconformity and how does it appear on a geological map?",
+     "correctAnswer": "An unconformity is a surface where younger rocks rest on eroded older rocks, representing a time gap in deposition. On a map it appears as a geological boundary where the younger formation cuts across the boundaries of the older formations beneath.",
+     "explanation": "An unconformity is a surface where younger rocks rest on eroded older rocks, representing a time gap in deposition. On a map it appears as a geological boundary where the younger formation cuts across the boundaries of the older formations beneath.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Folding, Faulting & Geological Structures] Q: What are the three main types of unconformity?",
+     "correctAnswer": "1) Angular unconformity: tilted older rocks overlain by horizontal younger beds. 2) Disconformity: parallel beds above and below but with an erosion gap. 3) Nonconformity: sedimentary rocks resting on igneous or metamorphic basement.",
+     "explanation": "1) Angular unconformity: tilted older rocks overlain by horizontal younger beds. 2) Disconformity: parallel beds above and below but with an erosion gap. 3) Nonconformity: sedimentary rocks resting on igneous or metamorphic basement.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Folding, Faulting & Geological Structures] Q: Why was Hutton's unconformity at Siccar Point significant?",
+     "correctAnswer": "It showed that the Silurian rocks beneath had been folded, eroded and then overlain by Devonian sandstone, a process requiring vast amounts of time. This provided crucial evidence for deep geological time and the principle of uniformitarianism.",
+     "explanation": "It showed that the Silurian rocks beneath had been folded, eroded and then overlain by Devonian sandstone, a process requiring vast amounts of time. This provided crucial evidence for deep geological time and the principle of uniformitarianism.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Folding, Faulting & Geological Structures] Q: How do you distinguish a normal fault from a reverse fault in the field?",
+     "correctAnswer": "Identify the hanging wall and footwall. In a normal fault, the hanging wall has moved down relative to the footwall (extension). In a reverse fault, the hanging wall has moved up (compression). Look for displacement of marker beds across the fault plane.",
+     "explanation": "Identify the hanging wall and footwall. In a normal fault, the hanging wall has moved down relative to the footwall (extension). In a reverse fault, the hanging wall has moved up (compression). Look for displacement of marker beds across the fault plane.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

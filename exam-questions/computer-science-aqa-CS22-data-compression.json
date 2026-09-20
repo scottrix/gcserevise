@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS22-data-compression",
+ "topicName": "Data Compression",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs22-data-compression-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between lossy and lossless compression.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Lossy compression permanently removes some data to achieve a smaller file size; the original cannot be restored. Lossless compression reduces file size without losing any data; the original can be perfectly reconstructed.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs22-data-compression-q2",
+   "type": "short-answer",
+   "question": "The string \"MISSISSIPPI\" has these character frequencies: M=1, I=4, S=4, P=2. Construct a Huffman tree and assign codes to each character.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Combine M(1) and P(2) → MP(3). Combine MP(3) and I(4) or S(4): e.g. MP(3) and one of the 4s → e.g. MP(3) + I(4) = MPI(7). Then MPI(7) + S(4) = root(11). Codes will vary depending on tree construction, but shorter codes for I and S, longer for M and P.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs22-data-compression-q3",
+   "type": "short-answer",
+   "question": "Using the Huffman codes from Q2, calculate the total bit length of \"MISSISSIPPI\" and compare it to a fixed-length encoding.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "With 4 characters, fixed-length needs 2 bits each. Fixed = 11 x 2 = 22 bits. Huffman depends on your tree from Q2, but should be fewer than 22 bits (likely around 18-19 bits). The saving comes from I and S having short codes.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs22-data-compression-q4",
+   "type": "short-answer",
+   "question": "Apply run length encoding to this bitmap row: 111110000011111",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "RLE: 5,1 5,0 5,1 (or 51150051 depending on notation). Original = 15 values; Compressed = 6 values.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs22-data-compression-q5",
+   "type": "short-answer",
+   "question": "Explain why RLE would not be a good compression method for a photograph.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A photograph contains thousands of subtly different colours in adjacent pixels, with very few long runs of identical values. RLE would produce frequency/data pairs for nearly every pixel, making the compressed file similar in size to or larger than the original. Lossy compression (JPEG) is better for photographs.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs22-data-compression-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A bitmap image contains the following pixel data: RRRRGGGGBBBBYYYY. Explain how run-length encoding would compress this data, and calculate the compression ratio. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Original data: RRRRGGGGBBBBYYYY (16 characters) RLE compression stores each colour and its count: R4G4B4Y4 (8 characters) Each run is encoded as: colour character + count digit. Compression ratio = original size ÷ compressed size = 16 ÷ 8 = 2:1 The data has been compressed to half its original size. RLE is effective here because the data contains long runs of identical values. If the data were RGBYRGBY (no repeats), RLE would not compress it effectively.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Original data: RRRRGGGGBBBBYYYY (16 characters) RLE compression stores each colour and its count: R4G4B4Y4 (8 characters) Each run is encoded as: colour character + count digit. Compression ratio = original size ÷ compressed size = 16 ÷ 8 = 2:1 The data has been compressed to half its original size. RLE is effective here because the data contains long runs of identical values. If the data were RGBYRGBY (no repeats), RLE would not compress it effectively."
+   }
+  }
+ ]
+}

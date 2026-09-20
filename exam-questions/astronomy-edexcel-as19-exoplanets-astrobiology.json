@@ -1,0 +1,94 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as19-exoplanets-astrobiology",
+ "topicName": "Exoplanets & Astrobiology",
+ "version": 1,
+ "questions": [
+  {
+   "id": "as19-exoplanets-astrobiology-q1",
+   "type": "short-answer",
+   "question": "Q: How does the transit method detect exoplanets?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "By monitoring a star's brightness over time — a periodic dip indicates a planet passing in front (transiting), blocking a fraction of the star's light.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as19-exoplanets-astrobiology-q2",
+   "type": "short-answer",
+   "question": "Q: What is the habitable zone?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The region around a star where temperatures allow liquid water on a planet's surface — not too hot and not too cold ('Goldilocks zone').",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as19-exoplanets-astrobiology-q3",
+   "type": "short-answer",
+   "question": "Q: Name two methods of detecting exoplanets.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Transit method (dip in brightness) and radial velocity/Doppler method (wobble in star's spectrum).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as19-exoplanets-astrobiology-q4",
+   "type": "short-answer",
+   "question": "Q: What is the Drake equation?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An equation that estimates the number of detectable civilisations in the Milky Way, based on factors like star formation rate, fraction of stars with planets, and likelihood of life and intelligence.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as19-exoplanets-astrobiology-q5",
+   "type": "short-answer",
+   "question": "Q: Why is discovering methane and oxygen together in an exoplanet's atmosphere significant?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Oxygen and methane react together quickly, so finding both in equilibrium suggests a continuous source — possibly life (a biosignature).",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

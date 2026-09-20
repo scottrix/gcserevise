@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS2-efficiency-algorithms",
+ "topicName": "Efficiency of Algorithms",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs2-efficiency-algorithms-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Algorithm efficiency measures how much time and/or memory an algorithm uses to solve a problem. A more efficient algorithm uses fewer resources (time and space) to produce the same result."
+  },
+  {
+   "id": "cs2-efficiency-algorithms-s2",
+   "kind": "learn",
+   "title": "Key Principle",
+   "body": "When two algorithms solve the same problem, the more efficient one will complete in fewer steps, especially as the input size increases."
+  },
+  {
+   "id": "cs2-efficiency-algorithms-s3",
+   "kind": "learn",
+   "title": "Crucial Point",
+   "body": "Some algorithms that seem fast for small inputs become extremely slow for large inputs. The rate at which time increases matters more than the time for a single small input."
+  },
+  {
+   "id": "cs2-efficiency-algorithms-s4",
+   "kind": "learn",
+   "title": "Exam Focus",
+   "body": "At GCSE level, you need to understand that some algorithms are more efficient than others and explain WHY. You should be able to compare linear search vs binary search, and bubble sort vs merge sort, in terms of efficiency."
+  },
+  {
+   "id": "cs2-efficiency-algorithms-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "What does time complexity measure? | An algorithm has O(n) time complexity. If it takes 5 seconds to process 1000 items, approximately how long would it take to process 5000 items? | Explain why binary search is more efficient than linear search for large datasets."
+  },
+  {
+   "id": "cs2-efficiency-algorithms-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Time complexity measures how the running time of an algorithm grows as the input size increases. It describes the relationship between input size and number of operations. | Approximately 25 seconds. O(n) means time is proportional to input size. 5000 is 5 times 1000, so 5 × 5 = 25 seconds. | Binary search halves the search space each step, so it needs at most log₂(n) comparisons. Linear search checks every item, needing up to n comparisons. For large n, log₂(n) is vastly smaller than n."
+  },
+  {
+   "id": "cs2-efficiency-algorithms-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "You don't need to calculate exact Big O values - just understand the concept Be able to explain that binary search is more efficient than linear search because it halves the search space Be able to explain that merge sort is more efficient than bubble sort for large datasets Use the terms \"time complexity\" and \"proportional to\" in your answers If asked to compare algorithms, always mention how performance changes as input size grows Remember: O(n²) algorithms become impractical for large datasets"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g5-rock-deformation-stress",
+ "topicName": "Rock Deformation & Stress",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g5-rock-deformation-stress-q1",
+   "type": "short-answer",
+   "question": "Q: What determines whether a rock deforms in a brittle or ductile manner?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Temperature, pressure (depth), strain rate and rock type. High temperature and pressure (great depth) favour ductile deformation (folding). Low temperature and pressure (shallow depth) and rapid stress favour brittle deformation (faulting).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g5-rock-deformation-stress-q2",
+   "type": "short-answer",
+   "question": "Q: How does a normal fault differ from a reverse fault?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A normal fault forms under tension, the hanging wall moves down relative to the footwall. A reverse fault forms under compression, the hanging wall moves up relative to the footwall.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g5-rock-deformation-stress-q3",
+   "type": "short-answer",
+   "question": "Q: What is the difference between a joint and a fault?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A joint is a fracture with no movement along it. A fault is a fracture where the rock blocks have moved relative to each other.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g5-rock-deformation-stress-q4",
+   "type": "short-answer",
+   "question": "Q: What type of stress produces a strike-slip fault?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Shear stress, forces acting parallel to the fault plane cause the blocks to slide horizontally past each other (e.g. San Andreas Fault).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g5-rock-deformation-stress-q5",
+   "type": "short-answer",
+   "question": "Q: Why do rocks fold rather than fracture deep in the crust?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "At great depth, high temperatures and pressures make rocks more ductile (plastic). They can bend and flow slowly under stress rather than breaking, producing folds instead of faults.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "tables-tabulation",
+ "topicName": "Tables Tabulation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "tables-tabulation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Tables Tabulation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "tables-tabulation-t3",
+     "type": "short-answer",
+     "question": "Q: In a two-way table, 40 students study Biology, 30 study Chemistry, and 15 study both. How many study at least one subject?",
+     "correctAnswer": "Using the addition rule: 40 + 30 – 15 = 55 students study at least one subject.",
+     "explanation": "Answer: Using the addition rule: 40 + 30 – 15 = 55 students study at least one subject.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "tables-tabulation-t4",
+     "type": "short-answer",
+     "question": "Q: A grouped frequency table has class intervals 5 ≤ x < 15 and 15 ≤ x < 25. What is the midpoint of the second class?",
+     "correctAnswer": "The midpoint is (15 + 25) ÷ 2 = 20.",
+     "explanation": "Answer: The midpoint is (15 + 25) ÷ 2 = 20.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "tables-tabulation-t5",
+     "type": "short-answer",
+     "question": "Q: The total frequency is 200 and the frequency of the class 10 ≤ x < 20 is 50. What is the relative frequency of this class?",
+     "correctAnswer": "Relative frequency = 50 ÷ 200 = 0.25 or 25%.",
+     "explanation": "Answer: Relative frequency = 50 ÷ 200 = 0.25 or 25%.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

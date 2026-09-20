@@ -1,0 +1,138 @@
+{
+ "subject": "german",
+ "board": "AQA",
+ "topic": "mock-exam",
+ "topicName": "German Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "german-mock",
+   "name": "German Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Tenses: Present, Perfect and Imperfect] Q: Conjugate \"spielen\" in the present and perfect tenses for \"ich\" and \"er/sie\".",
+     "correctAnswer": "Present: ich spiele, er/sie spielt. Perfect: ich habe gespielt, er/sie hat gespielt.",
+     "explanation": "Present: ich spiele, er/sie spielt. Perfect: ich habe gespielt, er/sie hat gespielt.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Tenses: Present, Perfect and Imperfect] Q: When do you use sein vs haben as the auxiliary in the perfect tense?",
+     "correctAnswer": "Use sein for: (1) verbs of movement (gehen, fahren, laufen, fliegen, kommen), (2) verbs of change of state (aufwachen, sterben, werden), (3) sein and bleiben. Use haben for all other verbs (most verbs). Key test: does the verb involve moving from A to B or a change of state? If yes → sein.",
+     "explanation": "Use sein for: (1) verbs of movement (gehen, fahren, laufen, fliegen, kommen), (2) verbs of change of state (aufwachen, sterben, werden), (3) sein and bleiben. Use haben for all other verbs (most verbs). Key test: does the verb involve moving from A to B or a change of state? If yes → sein.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Tenses: Present, Perfect and Imperfect] Full-Mark Response Writing task: Write about forming and using the present, perfect (perfekt) and imperfect (präteritum) tenses; when to use each. <div class=\"",
+     "correctAnswer": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, modal verbs, separable verbs); show precise grammar (cases, word order, adjective endings); express and justify opinions; include cultural knowledge about DACH countries; use a wide range of",
+     "explanation": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, modal verbs, separable verbs); show precise grammar (cases, word order, adjective endings); express and justify opinions; include cultural knowledge about DACH countries; use a wide range of",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Tenses: Future and Conditional] Write 4 sentences in German about tenses: future and conditional.",
+     "correctAnswer": "Four sentences using topic vocabulary with correct case endings, verb position and adjective endings. Include at least two different tenses for Higher tier.",
+     "explanation": "Four sentences using topic vocabulary with correct case endings, verb position and adjective endings. Include at least two different tenses for Higher tier.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Tenses: Future and Conditional] Write a paragraph (40-60 words) giving your opinion on tenses: future and conditional.",
+     "correctAnswer": "A structured paragraph: Meiner Meinung nach... (in my opinion), ich finde... weil... (I think... because...), aber/allerdings... (however), zusammenfassend... (in summary). Use connecting words and varied vocabulary.",
+     "explanation": "A structured paragraph: Meiner Meinung nach... (in my opinion), ich finde... weil... (I think... because...), aber/allerdings... (however), zusammenfassend... (in summary). Use connecting words and varied vocabulary.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Tenses: Future and Conditional] Translate into German: \"I think tenses: future and conditional is important because...\"",
+     "correctAnswer": "\"Ich finde, dass tenses: future and conditional wichtig ist, weil...\" — ensure correct word order (verb at end after dass), correct case endings, and give a specific reason.",
+     "explanation": "\"Ich finde, dass tenses: future and conditional wichtig ist, weil...\" — ensure correct word order (verb at end after dass), correct case endings, and give a specific reason.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Cases: Nominative, Accusative, Dative and Genitive] Q: Fill in the correct article: Ich gebe ___ Mann ___ Buch. Ich fahre ___ Berlin.",
+     "correctAnswer": "Ich gebe dem Mann das Buch (dem = dative masculine after geben to someone; das = accusative neuter direct object). Ich fahre nach Berlin (nach takes dative, but with place names nach + no article for cities/countries).",
+     "explanation": "Ich gebe dem Mann das Buch (dem = dative masculine after geben to someone; das = accusative neuter direct object). Ich fahre nach Berlin (nach takes dative, but with place names nach + no article for cities/countries).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Cases: Nominative, Accusative, Dative and Genitive] Q: Which case after these prepositions: mit, für, in (location), in (movement)?",
+     "correctAnswer": "mit → dative. für → accusative. in (location/Wo?) → dative. in (movement/Wohin?) → accusative.",
+     "explanation": "mit → dative. für → accusative. in (location/Wo?) → dative. in (movement/Wohin?) → accusative.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Cases: Nominative, Accusative, Dative and Genitive] Full-Mark Response Writing task: Write about the four german cases; when to use each; definite and indefinite articles in all cases; prepositions taking specific cases. <div class=\"",
+     "correctAnswer": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, modal verbs, separable verbs); show precise grammar (cases, word order, adjective endings); express and justify opinions; include cultural knowledge about DACH countries; use a wide range of",
+     "explanation": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, modal verbs, separable verbs); show precise grammar (cases, word order, adjective endings); express and justify opinions; include cultural knowledge about DACH countries; use a wide range of",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Word Order and Conjunctions] Q: Rewrite with correct word order: Ich denke (dass / Deutsch / wichtig / sein). Ich bleibe zu Hause (weil / ich / krank / sein).",
+     "correctAnswer": "Ich denke, dass Deutsch wichtig ist. Ich bleibe zu Hause, weil ich krank bin. (Verb goes to the END after dass and weil.)",
+     "explanation": "Ich denke, dass Deutsch wichtig ist. Ich bleibe zu Hause, weil ich krank bin. (Verb goes to the END after dass and weil.)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Word Order and Conjunctions] Q: Rewrite starting with the subordinate clause: Ich gehe nicht aus, weil das Wetter schlecht ist. → Weil...",
+     "correctAnswer": "Weil das Wetter schlecht ist, gehe ich nicht aus. (Subordinate clause first = position 1; main clause verb must be in position 2 = gehe ich, NOT ich gehe.)",
+     "explanation": "Weil das Wetter schlecht ist, gehe ich nicht aus. (Subordinate clause first = position 1; main clause verb must be in position 2 = gehe ich, NOT ich gehe.)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Word Order and Conjunctions] Full-Mark Response Writing task: Write about main clause word order; subordinate clauses (verb to end); coordinating vs subordinating conjunctions; dass, weil, wenn, obwohl. <div class=\"",
+     "correctAnswer": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, modal verbs, separable verbs); show precise grammar (cases, word order, adjective endings); express and justify opinions; include cultural knowledge about DACH countries; use a wide range of",
+     "explanation": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, modal verbs, separable verbs); show precise grammar (cases, word order, adjective endings); express and justify opinions; include cultural knowledge about DACH countries; use a wide range of",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

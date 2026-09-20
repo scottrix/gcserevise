@@ -1,0 +1,94 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS37-ethical-legal-environmental-impacts",
+ "topicName": "Ethical, Legal & Environmental Impacts",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs37-ethical-legal-environmental-impacts-q1",
+   "type": "short-answer",
+   "question": "Explain the ethical concerns around AI bias. Give an example.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "AI systems can reflect and amplify biases present in their training data. If historical data contains biases (e.g. favouring certain demographics in hiring), the AI will produce biased results. Example: a facial recognition system trained mostly on lighter-skinned faces was found to be significantly less accurate at identifying darker-skinned faces, leading to potential misidentification.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs37-ethical-legal-environmental-impacts-q2",
+   "type": "short-answer",
+   "question": "What is the purpose of the Data Protection Act 2018? State three rights it gives to individuals.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The DPA 2018 protects individuals' personal data by setting rules for how organisations collect, store, and process it. Three rights: right to access their personal data, right to have inaccurate data corrected, right to have data deleted (right to be forgotten).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs37-ethical-legal-environmental-impacts-q3",
+   "type": "short-answer",
+   "question": "Describe the three main offences under the Computer Misuse Act 1990.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Section 1: Unauthorised access to a computer system (hacking). Section 2: Unauthorised access with intent to commit a further crime (e.g. hacking to steal money). Section 3: Unauthorised modification of computer material (e.g. deploying malware that changes or deletes data).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs37-ethical-legal-environmental-impacts-q4",
+   "type": "short-answer",
+   "question": "What is e-waste and why is it an environmental concern?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "E-waste is discarded electronic equipment (computers, phones, TVs). It is an environmental concern because it contains toxic materials (lead, mercury, cadmium) that can leach into soil and water if not properly recycled. Much e-waste is shipped to developing countries where informal recycling causes health problems and environmental contamination.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs37-ethical-legal-environmental-impacts-q5",
+   "type": "short-answer",
+   "question": "What is the digital divide? Explain how it can affect people's opportunities.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The digital divide is the gap between people who have access to technology and the internet and those who do not. It affects opportunities because those without access cannot use online education, banking, job searching, or government services. During COVID-19 lockdowns, students without home internet fell behind. The divide exists between countries, between urban and rural areas, and between soci",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS18-binary-arithmetic",
+ "topicName": "Binary Arithmetic",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs18-binary-arithmetic-fc1",
+   "front": "What should you know about binary addition?",
+   "back": "follows the same principles as decimal addition but with only two digits (0 and 1). There are only four rules to remember.",
+   "tags": [
+    "binary-addition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc2",
+   "front": "What should you know about overflow?",
+   "back": "occurs when the result of a binary addition requires more bits than are available. If adding two 8-bit numbers produces a 9th bit (a carry out from the leftmost column), the result cannot be stored correctly in 8 bits. This is an overflow error.",
+   "tags": [
+    "overflow"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc3",
+   "front": "What should you know about detecting overflow?",
+   "back": "If there is a carry out from the most significant bit (leftmost column), overflow has occurred. The stored result will be incorrect. In programming, you need to check for this condition.",
+   "tags": [
+    "detecting-overflow"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc4",
+   "front": "What should you know about to add more than two binary numbers,?",
+   "back": "add them two at a time. Add the first two, then add the third to that result, and so on. Check for overflow at each step.",
+   "tags": [
+    "to-add-more-than-two-binary-nu"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc5",
+   "front": "What should you know about a binary shift left?",
+   "back": "moves all bits one position to the left. A 0 fills the empty position on the right. The leftmost bit is discarded. Shifting left by 1 position multiplies the number by 2 . Shifting left by n positions multiplies by 2^n.",
+   "tags": [
+    "a-binary-shift-left"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc6",
+   "front": "What should you know about warning?",
+   "back": "If a 1 bit is shifted out from the leftmost position, data is lost. This is similar to overflow. For example, shifting 10110000 left by 1 would lose the leading 1.",
+   "tags": [
+    "warning"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc7",
+   "front": "What should you know about a binary shift right?",
+   "back": "moves all bits one position to the right. A 0 fills the empty position on the left. The rightmost bit is discarded. Shifting right by 1 position divides the number by 2 (integer division, discarding any remainder). Shifting right by n positions divides by 2^n.",
+   "tags": [
+    "a-binary-shift-right"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc8",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Binary addition: add column by column from right, carry when sum ≥ 2. Check for overflow by seeing if result needs more bits than available. Binary shift: left = ×2, right = ÷2. Show the direction clearly. Right shift loses the LSB — state this. For two's complement, left shift can overflow into the sign bit. Always show carries in your working.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc9",
+   "front": "What does 0 mean?",
+   "back": "0 (e.g. 0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc10",
+   "front": "What does 0 mean?",
+   "back": "1 (e.g. 0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc11",
+   "front": "What does 1 mean?",
+   "back": "0 (e.g. 0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc12",
+   "front": "What does 1 mean?",
+   "back": "1 (e.g. 0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc13",
+   "front": "What does 0 mean?",
+   "back": "0 (e.g. 1)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc14",
+   "front": "What does 0 mean?",
+   "back": "1 (e.g. 1)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs18-binary-arithmetic-fc15",
+   "front": "What does 1 mean?",
+   "back": "0 (e.g. 1)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

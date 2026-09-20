@@ -1,0 +1,38 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS10-data-structures",
+ "topicName": "Data Structures",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs10-data-structures-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Data Structures",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs10-data-structures-t3",
+     "type": "short-answer",
+     "question": "A 2D array represents a 3x3 tic-tac-toe board. How would you access the centre square?",
+     "correctAnswer": "The centre square is at row 1, column 1: board[1][1]",
+     "explanation": "Answer: The centre square is at row 1, column 1: board[1][1]",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs10-data-structures-t4",
+     "type": "short-answer",
+     "question": "Define a record called Car with fields for make (string), model (string), year (integer), and price (real).",
+     "correctAnswer": "TYPE Car make AS STRING model AS STRING year AS INTEGER price AS REAL ENDTYPE",
+     "explanation": "Answer: TYPE Car make AS STRING model AS STRING year AS INTEGER price AS REAL ENDTYPE",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

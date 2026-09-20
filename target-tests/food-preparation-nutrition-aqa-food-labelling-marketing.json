@@ -1,0 +1,38 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "food-labelling-marketing",
+ "topicName": "Food Labelling & Marketing",
+ "version": 1,
+ "tests": [
+  {
+   "id": "food-labelling-marketing-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Food Labelling & Marketing",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "food-labelling-marketing-t4",
+     "type": "short-answer",
+     "question": "Q: What must a product contain to be labelled 'low fat'?",
+     "correctAnswer": "No more than 3g of fat per 100g of the product.",
+     "explanation": "Answer: No more than 3g of fat per 100g of the product.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-labelling-marketing-t6",
+     "type": "short-answer",
+     "question": "Q: What seven nutrients must be shown on nutritional information labels?",
+     "correctAnswer": "Energy (kJ/kcal), fat, saturated fat, carbohydrate, sugars, protein, and salt.",
+     "explanation": "Answer: Energy (kJ/kcal), fat, saturated fat, carbohydrate, sugars, protein, and salt.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

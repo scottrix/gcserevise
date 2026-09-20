@@ -1,0 +1,38 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS1-representing-algorithms",
+ "topicName": "Representing Algorithms",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs1-representing-algorithms-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Representing Algorithms",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs1-representing-algorithms-t1",
+     "type": "short-answer",
+     "question": "What shape is used in a flowchart to represent a decision?",
+     "correctAnswer": "A diamond shape is used to represent a decision in a flowchart.",
+     "explanation": "Answer: A diamond shape is used to represent a decision in a flowchart.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs1-representing-algorithms-t2",
+     "type": "short-answer",
+     "question": "Write pseudo-code that asks the user for a number and outputs \"Even\" if it is divisible by 2, or \"Odd\" if it is not.",
+     "correctAnswer": "INPUT number IF number MOD 2 = 0 THEN OUTPUT \"Even\" ELSE OUTPUT \"Odd\" ENDIF",
+     "explanation": "Answer: INPUT number IF number MOD 2 = 0 THEN OUTPUT \"Even\" ELSE OUTPUT \"Odd\" ENDIF",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

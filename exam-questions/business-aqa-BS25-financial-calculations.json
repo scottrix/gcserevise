@@ -1,0 +1,78 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS25-financial-calculations",
+ "topicName": "Financial Calculations",
+ "version": 1,
+ "questions": [
+  {
+   "id": "bs25-financial-calculations-q1",
+   "type": "short-answer",
+   "question": "A business sells products at £20 each. Fixed costs are £10,000 per month and variable costs are £8 per unit. Calculate the break-even quantity.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Contribution per unit = £20 - £8 = £12. Break-even quantity = £10,000 / £12 = 833.3 units (round up to 834 units). The business must sell at least 834 units per month to cover all costs. At 834 units: revenue = 834 x £20 = £16,680, total costs = £10,000 + (834 x £8) = £16,672 (small rounding difference).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs25-financial-calculations-q2",
+   "type": "short-answer",
+   "question": "Explain what the margin of safety tells a business and why it is important.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The margin of safety shows how far above break-even the business is currently operating. E.g. if break-even is 834 units and the business sells 1,200, the margin of safety is 366 units (or 30.5%). This means sales could fall by 366 units (30.5%) before the business makes a loss. It's important because it indicates risk: a large margin means the business can absorb a significant drop in sales; a sm",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs25-financial-calculations-q3",
+   "type": "short-answer",
+   "question": "Evaluate the usefulness of break-even analysis for a business deciding whether to launch a new product.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Break-even analysis is useful: identifies the minimum sales needed, helps set sales targets, shows the impact of price/cost changes (what-if analysis), supports loan applications (shows viability). Limitations: assumes all output is sold (no unsold stock), assumes costs are constant (but fixed costs can increase in steps), assumes a single product, and relies on estimated data that may be inaccura",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs25-financial-calculations-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate whether a business should launch a new product with the following data: selling price £15, variable cost £9, fixed costs £48,000, expected sales 10,000 units, initial investment £60,000, expected product life 4 years. <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: calculate contribution (£15 - £9 = £6), break-even (£48,000 / £6 = 8,000 units), margin of safety (10,000 - 8,000 = 2,000 units, 25%), annual revenue (10,000 x £15 = £150,000), annual profit (£150,000 - £48,000 - £90,000 = £12,000), ARR (£12,000 / £60,000 x 100 = 20%). Analysis: margin of safety is reasonable but not large (25%), ARR of 20% is decent but depends on alternative investments available, the product only just exceeds break-even by 25% so any cost increase or sales shortfall could eliminate profit. Conclusion: the product is viable but not by a wide margin -",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: calculate contribution (£15 - £9 = £6), break-even (£48,000 / £6 = 8,000 units), margin of safety (10,000 - 8,000 = 2,000 units, 25%), annual revenue (10,000 x £15 = £150,000), annual profit (£150,000 - £48,000 - £90,000 = £12,000), ARR (£12,000 / £60,000 x 100 = 20%). Analysis: margin of safety is reasonable but not large (25%), ARR of 20% is decent but depends on alternative investments available, the product only just exceeds break-even by 25% so any cost increase or sales shortfall could eliminate profit. Conclusion: the product is viable but not by a wide margin - the business should conduct sensitivity analysis (what if sales are 15% lower? what if variable costs rise by £1?) and have contingency plans before committing £60,000."
+   }
+  }
+ ]
+}

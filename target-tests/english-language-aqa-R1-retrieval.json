@@ -1,0 +1,58 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "R1-retrieval",
+ "topicName": "Retrieval & Literal Comprehension",
+ "version": 1,
+ "tests": [
+  {
+   "id": "r1-retrieval-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Retrieval & Literal Comprehension",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "r1-retrieval-t1",
+     "type": "short-answer",
+     "question": "When answering a \"List four things\" question, should you use your own words or copy the text exactly?",
+     "correctAnswer": "Write in your own words where possible (but keep close to the text)",
+     "explanation": "Answer: Write in your own words where possible (but keep close to the text)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "r1-retrieval-t2",
+     "type": "short-answer",
+     "question": "What's the difference between retrieval and inference?",
+     "correctAnswer": "You can use bullet points or numbered lists",
+     "explanation": "Answer: You can use bullet points or numbered lists",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "r1-retrieval-t3",
+     "type": "short-answer",
+     "question": "How long should you spend on AQA Paper 1 Q1?",
+     "correctAnswer": "Each point should be a complete idea",
+     "explanation": "Answer: Each point should be a complete idea",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "r1-retrieval-t4",
+     "type": "short-answer",
+     "question": "What two strategies can you use to quickly find information in a text?",
+     "correctAnswer": "Don't repeat the same point in different words",
+     "explanation": "Answer: Don't repeat the same point in different words",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

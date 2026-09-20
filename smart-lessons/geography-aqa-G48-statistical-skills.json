@@ -1,0 +1,51 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G48-statistical-skills",
+ "topicName": "Statistical Skills and Data Analysis",
+ "version": 1,
+ "steps": [
+  {
+   "id": "g48-statistical-skills-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Measures of central tendency identify the \"typical\" or \"middle\" value in a dataset. The three main measures are the mean, median, and mode."
+  },
+  {
+   "id": "g48-statistical-skills-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "The IQR measures the spread of the middle 50% of data, removing the influence of the lowest 25% and highest 25% of values. It is more robust than the range because it ignores extreme values."
+  },
+  {
+   "id": "g48-statistical-skills-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A box and whisker plot visually displays the median, quartiles, and range of a dataset. The \"box\" shows the IQR (Q1 to Q3), the line inside the box is the median, and the \"whiskers\" extend to the minimum and maximum values (or to 1.5 × IQR from the box, with outliers shown as individual points)."
+  },
+  {
+   "id": "g48-statistical-skills-s4",
+   "kind": "learn",
+   "title": "Common Error",
+   "body": "Using the new value as the denominator instead of the original. The percentage change must always be calculated relative to the ORIGINAL (starting) value, not the final value. Also, be careful to distinguish between percentage change and percentage point change (e.g. unemployment rising from 5% to 7% is a 2 percentage point increase, but a 40% increase relative to the original 5%)."
+  },
+  {
+   "id": "g48-statistical-skills-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Calculate the mean, median, mode, and range for the following data: 12, 15, 18, 18, 22, 25, 30, 35 | A country's exports were $4.2 billion in 2015 and $6.3 billion in 2025. Calculate the percentage change. | Explain the difference between the range and the interquartile range. Why is the IQR often preferred?"
+  },
+  {
+   "id": "g48-statistical-skills-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Mean = (12+15+18+18+22+25+30+35) ÷ 8 = 175 ÷ 8 = 21.875 ≈ 21.9. Median = (18+22) ÷ 2 = 20 (middle two of 8 values). Mode = 18 (appears twice, all others appear once). Range = 35 − 12 = 23. | Percentage change = ((6.3 − 4.2) ÷ 4.2) × 100 = (2.1 ÷ 4.2) × 100 = 0.5 × 100 = 50% increase. | The range is the difference between the highest and lowest values, using only two data points. The IQR is the difference between Q3 and Q1, measuring the spread of the middle 50% of data. The IQR is p"
+  },
+  {
+   "id": "g48-statistical-skills-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always show your working in statistical calculations - marks are given for method as well as answer When calculating the median, always arrange data in order first For percentage change, always divide by the ORIGINAL value (the starting value) When comparing datasets, discuss central tendency AND spread Remember: correlation ≠ causation - always consider alternative explanations For interpolation/extrapolation questions, state which one you are doing and comment on reliability Practise calculating IQR - it appears on both fieldwork and skills questions Use precise statistical language: \"positively correlated\", \"significant outlier\", \"central tendency\" Know the difference between percentage change and percentage point change"
+  }
+ ]
+}

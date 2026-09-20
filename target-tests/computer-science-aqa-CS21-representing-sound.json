@@ -1,0 +1,38 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS21-representing-sound",
+ "topicName": "Representing Sound",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs21-representing-sound-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Representing Sound",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs21-representing-sound-t3",
+     "type": "short-answer",
+     "question": "What is the minimum sampling rate needed to accurately record a sound with a maximum frequency of 15,000 Hz?",
+     "correctAnswer": "At least 30,000 Hz (2 x 15,000), according to Nyquist's Theorem.",
+     "explanation": "Answer: At least 30,000 Hz (2 x 15,000), according to Nyquist's Theorem.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs21-representing-sound-t4",
+     "type": "short-answer",
+     "question": "A 60-second mono recording at 22,050 Hz with 16-bit resolution produces a file of how many kilobytes?",
+     "correctAnswer": "File size = 22,050 x 16 x 60 x 1 = 21,168,000 bits = 2,646,000 bytes = 2,584 KB",
+     "explanation": "Answer: File size = 22,050 x 16 x 60 x 1 = 21,168,000 bits = 2,646,000 bytes = 2,584 KB",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

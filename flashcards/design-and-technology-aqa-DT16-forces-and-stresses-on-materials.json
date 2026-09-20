@@ -1,0 +1,159 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT16-forces-and-stresses-on-materials",
+ "topicName": "Forces and Stresses on Materials",
+ "version": 1,
+ "cards": [
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc1",
+   "front": "Recall a key point about Forces and Stresses on Materials",
+   "back": "Tension: pulling force that stretches - ropes, cables, bridge wires. Compression: pushing force that squashes - columns, arches, foam packaging.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc2",
+   "front": "Recall a key point about Forces and Stresses on Materials",
+   "back": "Bending: combines tension (outer surface stretches) and compression (inner surface squashes) - I-beams concentrate material at flanges where forces are greatest.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc3",
+   "front": "Recall a key point about Forces and Stresses on Materials",
+   "back": "Shear: forces in opposite directions parallel to a surface - scissors, bolted joints. Torsion: twisting force - drive shafts, screwdrivers.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc4",
+   "front": "Recall a key point about Forces and Stresses on Materials",
+   "back": "Stress = Force / Area (N/m2). Strain = Change in length / Original length. Young's Modulus = Stress / Strain (measures stiffness).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc5",
+   "front": "Recall a key point about Forces and Stresses on Materials",
+   "back": "Factor of Safety (FoS) = Ultimate strength / Working stress. Typical: 2-4 non-critical, 5-10 safety-critical. Higher FoS = safer but heavier and more expensive.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc6",
+   "front": "What should you know about d&t exam tips?",
+   "back": "For forces/stress questions: 1) Identify force type, 2) Explain where it occurs, 3) State relevant formula, 4) Calculate if required, 5) Relate to design decisions.",
+   "tags": [
+    "d-t-exam-tips"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc7",
+   "front": "What does Tension mean?",
+   "back": "Pulling, stretching (e.g. Elongation, necking, fracture)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc8",
+   "front": "What does Compression mean?",
+   "back": "Pushing, squashing (e.g. Buckling, crushing)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc9",
+   "front": "What does Bending mean?",
+   "back": "Tension + compression (e.g. Failure on tension face)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc10",
+   "front": "What does Shear mean?",
+   "back": "Sliding in parallel planes (e.g. Clean angled break)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc11",
+   "front": "What does Torsion mean?",
+   "back": "Twisting (e.g. Spiral fracture)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc12",
+   "front": "Watch Out!",
+   "back": "Students often make mistakes here. Wrong: If a material is strong, it will not break under any type of force. Correct: 'Strong' depends on force type. Concrete has excellent compressive strength (20-40 MPa) but very poor tensile strength (2-5 MPa). That is why reinforced concrete adds steel rebar in the tension zone. Always specify: strong in WHAT? Tension? Compression? Shear?",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc13",
+   "front": "Full-Mark Response",
+   "back": "A designer is creating a lightweight folding chair. Explain how tension, compression and bending act on the chair, and justify the material choices for the frame and seat.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc14",
+   "front": "Assessment Objective Analysis",
+   "back": "AQA D&T 8552: Written exam 50% + NEA 50%. AOs: AO1 Recall (20%), AO2 Apply (30%), AO3 Analyse & evaluate (50%). For grade 9, demonstrate precise understanding of force types and perceptive analysis of force distribution.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-fc15",
+   "front": "Types of Forces and Their Effects",
+   "back": "Five primary types of force act on materials in products: tension (pulling, stretching), compression (pushing, squashing), bending (combination of tension and compression across a cross-section), shear (sliding forces acting in parallel planes), and torsion (twisting). Each force type produces characteristic failure modes: tensile failure involves elongation and necking before fracture; compressiv",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

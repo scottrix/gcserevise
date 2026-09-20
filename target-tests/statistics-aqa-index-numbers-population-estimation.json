@@ -1,0 +1,48 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "index-numbers-population-estimation",
+ "topicName": "Index Numbers Population Estimation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "index-numbers-population-estimation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Index Numbers Population Estimation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "index-numbers-population-estimation-t1",
+     "type": "short-answer",
+     "question": "Q: In the base year 2020, a basket of goods cost £200. In 2024 the same basket costs £260. Calculate the index number for 2024 with 2020 as the base.",
+     "correctAnswer": "Index = (260 ÷ 200) × 100 = 130. Prices have risen by 30% since the base year.",
+     "explanation": "Answer: Index = (260 ÷ 200) × 100 = 130. Prices have risen by 30% since the base year.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "index-numbers-population-estimation-t3",
+     "type": "short-answer",
+     "question": "Q: In a capture-recapture study, 48 rabbits are caught, tagged and released. Later, 60 rabbits are caught and 12 have tags. Estimate the total rabbit population.",
+     "correctAnswer": "N = (48 × 60) ÷ 12 = 2880 ÷ 12 = 240. The estimated population is 240 rabbits.",
+     "explanation": "Answer: N = (48 × 60) ÷ 12 = 2880 ÷ 12 = 240. The estimated population is 240 rabbits.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "index-numbers-population-estimation-t5",
+     "type": "short-answer",
+     "question": "Q: The CPI in January was 112.4 and in February was 113.6. Calculate the monthly rate of inflation.",
+     "correctAnswer": "Inflation rate = ((113.6 − 112.4) ÷ 112.4) × 100 = (1.2 ÷ 112.4) × 100 ≈ 1.07%",
+     "explanation": "Answer: Inflation rate = ((113.6 − 112.4) ÷ 112.4) × 100 = (1.2 ÷ 112.4) × 100 ≈ 1.07%",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "hypothesis-formulation",
+ "topicName": "Hypothesis Formulation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "hypothesis-formulation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Hypothesis Formulation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "hypothesis-formulation-t1",
+     "type": "short-answer",
+     "question": "Q: What is a hypothesis?",
+     "correctAnswer": "A testable statement predicting the outcome of a statistical investigation.",
+     "explanation": "Answer: A testable statement predicting the outcome of a statistical investigation.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "hypothesis-formulation-t3",
+     "type": "short-answer",
+     "question": "Q: Write a suitable hypothesis for investigating whether Year 11 students spend more time on homework than Year 10 students.",
+     "correctAnswer": "Year 11 students spend more time on homework per week than Year 10 students.",
+     "explanation": "Answer: Year 11 students spend more time on homework per week than Year 10 students.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

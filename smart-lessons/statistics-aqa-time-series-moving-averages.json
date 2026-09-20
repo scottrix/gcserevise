@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "time-series-moving-averages",
+ "topicName": "Time Series Moving Averages",
+ "version": 1,
+ "steps": [
+  {
+   "id": "time-series-moving-averages-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A time series is a sequence of data values collected at regular time intervals (e.g. monthly sales, quarterly temperatures)."
+  },
+  {
+   "id": "time-series-moving-averages-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The trend is the long-term general direction of the data, ignoring short-term fluctuations; it can be increasing, decreasing, or stationary."
+  },
+  {
+   "id": "time-series-moving-averages-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Seasonal variation is a regular, repeating pattern that occurs at fixed periods within a year (e.g. higher ice cream sales in summer)."
+  },
+  {
+   "id": "time-series-moving-averages-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Cyclical variation is a longer-term pattern that repeats over more than one year (e.g. economic boom and bust cycles); it is harder to predict than seasonal variation."
+  },
+  {
+   "id": "time-series-moving-averages-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What is the purpose of calculating a moving average for a time series? | Q: Why does a 4-point moving average need to be centred? | Q: The actual value for Q3 is 240 and the trend value is 200. What is the seasonal variation for Q3?"
+  },
+  {
+   "id": "time-series-moving-averages-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A moving average smooths out short-term fluctuations and seasonal variation, revealing the underlying long-term trend. | A 4-point average falls between two time periods (between Q2 and Q3 for quarterly data). Centring aligns the average with an actual time period. | Seasonal variation = 240 – 200 = +40. This means Q3 values are typically 40 above the trend."
+  },
+  {
+   "id": "time-series-moving-averages-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When calculating a 4-point moving average, always show the 4-point totals and the centring step separately to gain full method marks. In exam questions, always calculate the mean seasonal variation for each quarter to 1 decimal place unless told otherwise. When predicting future values, state the trend estimate first, then add the mean seasonal variation, and show the calculation clearly. Always comment on the reliability of predictions — short-term predictions are more reliable than long-term ones, and they assume patterns continue. When describing a time series, use the terms 'increasing trend', 'seasonal variation', and quote specific values from your calculations."
+  }
+ ]
+}

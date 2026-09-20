@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS21-representing-sound",
+ "topicName": "Representing Sound",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs21-representing-sound-fc1",
+   "front": "What should you know about key concept?",
+   "back": "Sound is an analogue signal - a continuous wave. Computers can only store digital data (binary 0s and 1s), so analogue sound must be converted to digital form using a process called sampling.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc2",
+   "front": "Recall a key point about Representing Sound",
+   "back": "Sampling rate is the number of samples taken per second, measured in Hertz (Hz). A higher sampling rate means more measurements of the sound wave are taken each second.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc3",
+   "front": "What should you know about nyquist's theorem?",
+   "back": "To accurately reproduce a sound, the sampling rate must be at least twice the highest frequency in the sound. Human hearing ranges up to about 20,000 Hz, so CD quality uses 44,100 Hz (just over 2 x 20,000).",
+   "tags": [
+    "nyquist-s-theorem"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc4",
+   "front": "Recall a key point about Representing Sound",
+   "back": "Sample resolution (also called bit depth) is the number of bits used to represent each sample. More bits per sample means more possible amplitude values can be recorded.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc5",
+   "front": "Recall a key point about Representing Sound",
+   "back": "There is always a trade-off between sound quality and file size. Higher sampling rates and greater sample resolution produce better quality audio but require significantly more storage space. Compression can reduce file size, but may also affect quality.",
+   "tags": [
+    "important"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc6",
+   "front": "Recall a key point about Representing Sound",
+   "back": "The digital recording is never a perfect copy of the original. Accuracy depends on the sampling rate and sample resolution. Higher values mean the digital version is closer to the original analogue wave.",
+   "tags": [
+    "note"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc7",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Sound file size = sample rate × duration × bit depth × channels. Always check mono (1) vs stereo (2). Convert to requested unit at the end. Higher sample rate = better quality, larger file. Higher bit depth = more dynamic range, larger file. Know CD quality: 44,100 Hz, 16-bit. Nyquist: sample rate ≥ 2× highest frequency.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc8",
+   "front": "What does 8-bit mean?",
+   "back": "8 (e.g. 256)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc9",
+   "front": "What does 16-bit mean?",
+   "back": "16 (e.g. 65,536)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc10",
+   "front": "What does 24-bit mean?",
+   "back": "24 (e.g. 16,777,216)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc11",
+   "front": "What does 32-bit mean?",
+   "back": "32 (e.g. 4,294,967,296)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc12",
+   "front": "What does Increase sampling rate mean?",
+   "back": "Improves (captures more detail, higher frequencies) (e.g. Increases (more samples per second))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc13",
+   "front": "What does Decrease sampling rate mean?",
+   "back": "Degrades (loss of high frequencies, aliasing) (e.g. Decreases)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc14",
+   "front": "What does Increase sample resolution mean?",
+   "back": "Improves (more amplitude levels, less quantisation noise) (e.g. Increases (more bits per sample))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs21-representing-sound-fc15",
+   "front": "What does Decrease sample resolution mean?",
+   "back": "Degrades (more quantisation noise, reduced dynamic range) (e.g. Decreases)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

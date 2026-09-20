@@ -1,0 +1,51 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as13-hertzsprung-russell-diagram",
+ "topicName": "The Hertzsprung-Russell Diagram",
+ "version": 1,
+ "steps": [
+  {
+   "id": "as13-hertzsprung-russell-diagram-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The HR diagram plots luminosity (vertical axis, increasing upward) against temperature/spectral class (horizontal axis, decreasing left to right)"
+  },
+  {
+   "id": "as13-hertzsprung-russell-diagram-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The main sequence runs diagonally from top-left (hot, luminous) to bottom-right (cool, dim)"
+  },
+  {
+   "id": "as13-hertzsprung-russell-diagram-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Red giants appear in the upper-right: cool but very luminous due to large size"
+  },
+  {
+   "id": "as13-hertzsprung-russell-diagram-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "White dwarfs appear in the lower-left: hot but dim due to small size"
+  },
+  {
+   "id": "as13-hertzsprung-russell-diagram-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What are the axes of the HR diagram? | Q: Where are white dwarfs found on the HR diagram and why? | Q: Why are red giants luminous despite being cool?"
+  },
+  {
+   "id": "as13-hertzsprung-russell-diagram-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Vertical axis: luminosity or absolute magnitude (increasing upward). Horizontal axis: temperature or spectral class (decreasing left to right — hot stars on the left). | Lower-left: they are hot (high temperature) but dim (low luminosity) because they are very small. | Because they have enormous surface area — luminosity depends on both temperature and radius (L ∝ R²T⁴), so a very large radius compensates for low temperature."
+  },
+  {
+   "id": "as13-hertzsprung-russell-diagram-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Temperature axis goes BACKWARDS (right to left) — hot on left, cool on right — this catches many students out Know the three main regions: main sequence, giant branch, white dwarf region The Sun is on the main sequence — be able to mark its position Both boards test HR diagram interpretation: be prepared to identify regions and describe what they represent"
+  }
+ ]
+}

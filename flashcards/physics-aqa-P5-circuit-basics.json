@@ -1,0 +1,157 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P5-circuit-basics",
+ "topicName": "P5 Circuit Basics",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p5-circuit-basics-fc1",
+   "front": "What should you know about electric current?",
+   "back": "The rate of flow of charge. Measured in amperes (A) using an ammeter connected in series. Current is the same in all parts of a series circuit.",
+   "tags": [
+    "electric-current"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc2",
+   "front": "What should you know about potential difference (voltage)?",
+   "back": "The energy transferred per unit charge passing between two points. Measured in volts (V) using a voltmeter connected in parallel across the component.",
+   "tags": [
+    "potential-difference-voltage"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc3",
+   "front": "What should you know about resistance?",
+   "back": "The opposition to the flow of current. Measured in ohms (Ω). Higher resistance means less current for a given voltage.",
+   "tags": [
+    "resistance"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc4",
+   "front": "What should you know about ohm's law?",
+   "back": "The current through a resistor at constant temperature is directly proportional to the potential difference across it. This means V = I x R.",
+   "tags": [
+    "ohm-s-law"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc5",
+   "front": "What should you know about required practical?",
+   "back": "Investigate the I-V characteristics of a resistor, a filament lamp and a diode to see how current varies with potential difference.",
+   "tags": [
+    "required-practical"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc6",
+   "front": "What should you know about applications?",
+   "back": "Thermistors are used in temperature sensors (e.g. thermostats, car engine temperature sensors). LDRs are used in light sensors (e.g. automatic street lights, burglar alarms, camera light meters).",
+   "tags": [
+    "applications"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc7",
+   "front": "Recall a key point about P5 Circuit Basics",
+   "back": "You must be able to rearrange V = IR to find any unknown quantity. Remember: V = I × R, I = V ÷ R, R = V ÷ I. Always check units — current in amps, voltage in volts, resistance in ohms. Convert mA to A by dividing by 1000.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc8",
+   "front": "What should you know about answers?",
+   "back": "(a) The graph curves and flattens — the component is non-Ohmic because current is not proportional to voltage. (b) At 1 V: R = 1/0.10 = 10 Ω. At 6 V: R = 6/0.31 = 19.4 Ω. Resistance increases because the component heats up (it is a filament lamp). (c) Not allowing cooling means temperature is an uncontrolled variable, reducing validity. Improvement: switch off the supply between readings and allow the component to return to room temperature, or use smaller voltage increments to minimise heating.",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc9",
+   "front": "What does Cell mean?",
+   "back": "Long line (+) and short thick line (-) (e.g. Provides energy to the circuit)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc10",
+   "front": "What does Battery mean?",
+   "back": "Two or more cells joined together (e.g. Long line = positive terminal)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc11",
+   "front": "What does Switch (open) mean?",
+   "back": "Gap in the circuit line (e.g. Circuit is incomplete — no current)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc12",
+   "front": "What does Switch (closed) mean?",
+   "back": "Line completes the circuit (e.g. Circuit is complete — current flows)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc13",
+   "front": "What does Lamp mean?",
+   "back": "Circle with a cross inside (e.g. Converts electrical energy to light)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc14",
+   "front": "What does Resistor mean?",
+   "back": "Rectangle (e.g. Opposes current flow at constant rate)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p5-circuit-basics-fc15",
+   "front": "What does Variable resistor mean?",
+   "back": "Rectangle with diagonal arrow (e.g. Resistance can be changed)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

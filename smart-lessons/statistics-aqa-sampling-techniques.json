@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "sampling-techniques",
+ "topicName": "Sampling Techniques",
+ "version": 1,
+ "steps": [
+  {
+   "id": "sampling-techniques-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A population is the entire group being studied; a sample is a subset of the population."
+  },
+  {
+   "id": "sampling-techniques-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Sampling is used when studying the whole population is impractical due to time, cost or access."
+  },
+  {
+   "id": "sampling-techniques-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A random sample gives every member of the population an equal chance of being selected."
+  },
+  {
+   "id": "sampling-techniques-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Random sampling can be done using random number tables, calculators or computers."
+  },
+  {
+   "id": "sampling-techniques-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What is the advantage of a random sample over an opportunity sample? | Q: How do you calculate the sample size for a stratum in stratified sampling? | Q: A school has 200 Year 10 and 300 Year 11 students. A stratified sample of 50 is needed. How many from each year?"
+  },
+  {
+   "id": "sampling-techniques-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A random sample gives every member an equal chance of selection, reducing bias and making the sample more representative of the population. | Stratum sample size = (stratum size ÷ population size) × total sample size. | Year 10: (200/500) × 50 = 20; Year 11: (300/500) × 50 = 30."
+  },
+  {
+   "id": "sampling-techniques-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Show your working for stratified sample calculations — the formula is frequently examined. Round stratified sample sizes to whole numbers and check they sum to the total sample size. When evaluating a sampling method, always comment on whether it is likely to be biased. Systematic sampling requires an ordered list (sampling frame) — mention this. Cluster sampling studies all members of selected clusters — it is different from stratified sampling."
+  }
+ ]
+}

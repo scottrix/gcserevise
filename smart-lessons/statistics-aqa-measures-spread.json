@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "measures-spread",
+ "topicName": "Measures Spread",
+ "version": 1,
+ "steps": [
+  {
+   "id": "measures-spread-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The range is the difference between the largest and smallest values: range = maximum – minimum; it is affected by outliers."
+  },
+  {
+   "id": "measures-spread-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The interquartile range (IQR) = Q3 – Q1; it measures the spread of the middle 50% of the data and is not affected by outliers."
+  },
+  {
+   "id": "measures-spread-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The IQR is preferred over the range when the data contains outliers or is skewed, because it ignores extreme values."
+  },
+  {
+   "id": "measures-spread-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The pth percentile is the value below which p% of the data falls; it can be read from a cumulative frequency curve."
+  },
+  {
+   "id": "measures-spread-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Data: 5, 8, 12, 15, 20. Find the range. | Q: For a dataset of 40 values, at what positions are Q1 and Q3? | Q: From a cumulative frequency curve with total frequency 200, at what cumulative frequency do you read P10 and P90?"
+  },
+  {
+   "id": "measures-spread-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Range = 20 – 5 = 15. | Q1 is at position 0.25 × 40 = 10 (the 10th value). Q3 is at position 0.75 × 40 = 30 (the 30th value). | P10: 0.10 × 200 = 20. P90: 0.90 × 200 = 180."
+  },
+  {
+   "id": "measures-spread-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When calculating standard deviation, show each step: find the mean, calculate deviations, square them, sum, divide, and square root. Use (n – 1) as the divisor for sample standard deviation; use n for population standard deviation — check which the question specifies. When reading percentiles from a cumulative frequency curve, use a ruler for accuracy and show dotted lines from the y-axis to the curve and down to the x-axis. Always state which measure of spread you are using and why — e.g. 'I prefer the IQR because the data contains outliers'. In comparison questions, write full sentences: 'The IQR for group A (12) is smaller than the IQR for group B (18), so group A's data is less spread out in the middle 50%.'"
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "subject": "latin",
+ "board": "OCR",
+ "topic": "nouns-declensions",
+ "topicName": "Nouns & Declensions",
+ "version": 1,
+ "questions": [
+  {
+   "id": "nouns-declensions-q1",
+   "type": "short-answer",
+   "question": "Q: How many declensions are there in Latin?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Five: first (a-stem), second (o-stem), third (consonant/i-stem), fourth (u-stem), and fifth (e-stem).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "nouns-declensions-q2",
+   "type": "short-answer",
+   "question": "Q: What gender are most first declension nouns? Name two masculine exceptions.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Mostly feminine. Masculine exceptions include nauta (sailor) and agricola (farmer).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "nouns-declensions-q3",
+   "type": "short-answer",
+   "question": "Q: How do you find the stem of a third declension noun?",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Remove the genitive singular ending (-is) from the genitive form. For example: rex, regis → stem is reg-.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "nouns-declensions-q4",
+   "type": "short-answer",
+   "question": "Q: What is the special rule for neuter nouns?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The nominative and accusative are always identical in both singular and plural. The plural nominative/accusative ending is -a.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "nouns-declensions-q5",
+   "type": "short-answer",
+   "question": "Q: Give an example of a fourth declension noun and a fifth declension noun.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Fourth declension: adventus (arrival, masculine). Fifth declension: res (thing, feminine) or dies (day, feminine/masculine).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "nouns-declensions-q6",
+   "type": "short-answer",
+   "question": "Q: Why must you learn the gender of a Latin noun?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Gender determines which adjective endings and pronouns agree with the noun. It cannot always be predicted from the declension and must be memorised.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "nouns-declensions-q7",
+   "type": "short-answer",
+   "question": "Q: What is the difference between consonant stems and i-stems in the third declension?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "I-stems have -ium in the genitive plural and -ia in the neuter nominative/accusative plural. Consonant stems have -um in the genitive plural and -a in the neuter plural. I-stems also show -im in the accusative singular for some nouns.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "nouns-declensions-q8",
+   "type": "short-answer",
+   "question": "Q: Name the typical endings for second declension masculine and neuter in the nominative singular.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Masculine: -us (e.g. servus). Neuter: -um (e.g. bellum).",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

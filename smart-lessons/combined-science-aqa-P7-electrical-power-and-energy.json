@@ -1,0 +1,57 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P7-electrical-power-and-energy",
+ "topicName": "P7 Electrical Power And Energy",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p7-electrical-power-and-energy-s1",
+   "kind": "learn",
+   "title": "Power",
+   "body": "The rate at which energy is transferred. Measured in watts (W). 1 watt = 1 joule per second."
+  },
+  {
+   "id": "p7-electrical-power-and-energy-s2",
+   "kind": "learn",
+   "title": "The National Grid",
+   "body": "A network of cables and transformers that connects power stations to consumers (homes and industry) across the UK."
+  },
+  {
+   "id": "p7-electrical-power-and-energy-s3",
+   "kind": "learn",
+   "title": "Transformer",
+   "body": "A device that changes the voltage of an alternating current (AC). Step-up transformers increase voltage; step-down transformers decrease voltage."
+  },
+  {
+   "id": "p7-electrical-power-and-energy-s4",
+   "kind": "learn",
+   "title": "The National Grid",
+   "body": "distributes electricity from power stations to consumers. To reduce energy loss in the cables, electricity is transmitted at very high voltage and low current."
+  },
+  {
+   "id": "p7-electrical-power-and-energy-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Worked Example 1 — Calculating Power from V and I Question: A kettle is connected to a 230 V supply and draws a current of 10 A. Calculate the power of the kettle. Solution: P = V x I = 230 x 10 = 2300 W = 2.3 kW Worked Example 2 — Calculating Energy Transferred Question: A 2 kW heater is left on for 3 hours. Calculate the energy transferred in joules and in kWh. Solution: Time = 3 x 3600 = 10 800 s E = P x t = 2000 x 10 800 = 21 600 000 J = 21.6 MJ In kWh: E = P (kW) x t (h) = 2 x 3 = 6 kWh Worked Example 3 — Calculating Power from I and R Question: A current of 5 A flows through a resistor of 8 Ω. Calculate the power dissipated. Solution: P = I x I x R = 5 x 5 x 8 = 200 W Worked Example 4 — Energy from Charge and Voltage Question: A charge of 150 C flows through a component with a potential difference of 12 V across it. Calculate the energy transferred. Solution: E = Q x V = 150 x 12 = 1800 J Worked Example 5 — National Grid and Transformers Question: A power station generates electr"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation A hair dryer has a power of 1200 W and is connected to a 230 V supply. Calculate the current it draws. | Foundation Explain why the National Grid uses step-up transformers at power stations. | Foundation State the colour and function of each wire in a three-core mains cable."
+  },
+  {
+   "id": "p7-electrical-power-and-energy-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "I = P / V = 1200 / 230 = 5.22 A. | Step-up transformers increase the voltage and decrease the current. Lower current means less energy is wasted as heat in the transmission cables (since power loss = I squared x R). This makes the Nati | Live wire = brown, carries the 230 V current from the supply. Neutral wire = blue, completes the circuit at 0 V. Earth wire = green/yellow, safety wire that connects the metal case to the ground to pr"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know all four power equations — P = E/t, P = VI, P = IIR, P = VV/R — and when to use each one. For energy calculations, always convert time to seconds if using joules, or use hours for kWh. When asked about the National Grid, always mention: high voltage reduces current, which reduces energy loss as heat (P = IIR) . Know the wire colours : brown = live, blue = neutral, green/yellow = earth. Fuse choice: the fuse rating should be slightly above the normal operating current. When explaining earthing: live wire touches metal case → large current flows to earth → fuse blows → circuit is disconnected → user is safe. AC (alternating current) is used in mains; batteries supply DC (direct current). Know the difference."
+  }
+ ]
+}

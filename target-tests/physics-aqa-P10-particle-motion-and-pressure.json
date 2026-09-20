@@ -1,0 +1,38 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P10-particle-motion-and-pressure",
+ "topicName": "Particle Motion And Pressure",
+ "version": 1,
+ "tests": [
+  {
+   "id": "p10-particle-motion-and-pressure-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Particle Motion And Pressure",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "p10-particle-motion-and-pressure-t3",
+     "type": "short-answer",
+     "question": "Higher A gas at 150 kPa has a volume of 4.0 m³. The volume is reduced to 1.5 m³ at constant temperature. Calculate the new pressure.",
+     "correctAnswer": "p₁V₁ = p₂V₂ → 150 × 4.0 = p₂ × 1.5 → 600 = 1.5 p₂ → p₂ = 400 kPa",
+     "explanation": "Answer: p₁V₁ = p₂V₂ → 150 × 4.0 = p₂ × 1.5 → 600 = 1.5 p₂ → p₂ = 400 kPa",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p10-particle-motion-and-pressure-t4",
+     "type": "short-answer",
+     "question": "Higher Convert: (a) 37°C to K, (b) 300 K to °C.",
+     "correctAnswer": "(a) 37 + 273 = 310 K (b) 300 − 273 = 27°C",
+     "explanation": "Answer: (a) 37 + 273 = 310 K (b) 300 − 273 = 27°C",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

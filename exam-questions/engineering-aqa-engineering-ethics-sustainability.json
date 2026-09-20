@@ -1,0 +1,112 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "engineering-ethics-sustainability",
+ "topicName": "Engineering Ethics & Sustainability",
+ "version": 1,
+ "questions": [
+  {
+   "id": "engineering-ethics-sustainability-q1",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between cradle-to-grave and cradle-to-cradle thinking.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cradle-to-grave accepts that products will be disposed of and aims to minimise impact. Cradle-to-cradle designs products so all materials can be recovered as biological or technical nutrients, eliminating the concept of waste.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-ethics-sustainability-q2",
+   "type": "short-answer",
+   "question": "Q: How can an engineer apply the 6 Rs to reduce environmental impact?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Rethink: question whether the product is needed. Refuse: eliminate unnecessary features. Reduce: minimise material and energy. Reuse: design for multiple life cycles. Recycle: select recyclable materials. Repair: make components replaceable.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-ethics-sustainability-q3",
+   "type": "short-answer",
+   "question": "Q: Explain the conflict between planned obsolescence and sustainable engineering.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Planned obsolescence designs products to have limited life, increasing waste. Sustainable engineering aims for durability, repairability and end-of-life recovery. These goals directly conflict.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-ethics-sustainability-q4",
+   "type": "short-answer",
+   "question": "Q: Describe two features of design for disassembly that help recycling.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Use snap-fits or standard fasteners instead of adhesives so components separate without damage. 2) Mark materials with identification codes and avoid mixing incompatible materials for efficient sorting.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-ethics-sustainability-q5",
+   "type": "short-answer",
+   "question": "Q: Why is whistleblowing sometimes necessary, and what protection exists?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Whistleblowing is necessary when an engineer identifies serious safety risks that the employer will not address. The Public Interest Disclosure Act 1998 protects whistleblowers from unfair dismissal when reporting in good faith.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-ethics-sustainability-ext",
+   "type": "extended",
+   "question": "Full-Mark Response An engineer discovers a company is using non-certified material in safety-critical components. The manager says it is good enough and instructs the engineer to sign off the parts. Discuss the ethical issues and recommend action. [8 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "This presents a serious conflict between commercial pressure and professional duty. Using non-certified material in safety-critical components is potentially dangerous: the material may not meet required properties, risking failure and injury. The engineer must not sign off non-compliant parts - this would be fraud with potential criminal liability. The engineer should first raise the concern formally with the manager in writing, explaining safety and legal risks. If the manager persists, escalate to a more senior manager or compliance director. If internal channels fail, the engineer may whis",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "This presents a serious conflict between commercial pressure and professional duty. Using non-certified material in safety-critical components is potentially dangerous: the material may not meet required properties, risking failure and injury. The engineer must not sign off non-compliant parts - this would be fraud with potential criminal liability. The engineer should first raise the concern formally with the manager in writing, explaining safety and legal risks. If the manager persists, escalate to a more senior manager or compliance director. If internal channels fail, the engineer may whistleblow to the regulatory authority, protected by PIDA 1998. All communications should be documented. While refusing may cause workplace tension, the consequences of certifying non-compliant safety parts - potential fatalities and prosecution - are far more serious. The engineer's primary duty is to public safety."
+   }
+  }
+ ]
+}

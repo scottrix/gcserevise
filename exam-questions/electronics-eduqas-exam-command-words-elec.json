@@ -1,0 +1,94 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "exam-command-words-elec",
+ "topicName": "Command Words & Question Types",
+ "version": 1,
+ "questions": [
+  {
+   "id": "exam-command-words-elec-q1",
+   "type": "short-answer",
+   "question": "Q: What is the difference between 'state' and 'explain' in an exam question?",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "'State' needs only a brief factual answer with no reasoning; 'explain' requires you to give reasons, linking cause and effect.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "exam-command-words-elec-q2",
+   "type": "short-answer",
+   "question": "Q: A question asks you to 'compare half-wave and full-wave rectification'. What should your answer include?",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Both similarities (both convert AC to DC using diodes) and differences (full-wave uses both half-cycles, half-wave only one; full-wave has higher output and less ripple).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "exam-command-words-elec-q3",
+   "type": "short-answer",
+   "question": "Q: How should you approach a 'calculate' question worth 3 marks?",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Write the formula (1 mark), substitute the correct values (1 mark), and give the final numerical answer with correct units (1 mark).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "exam-command-words-elec-q4",
+   "type": "short-answer",
+   "question": "Q: What does 'evaluate' require that 'describe' does not?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "'Evaluate' requires a judgement supported by evidence, weighing up strengths and weaknesses; 'describe' only needs a factual account of what happens.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "exam-command-words-elec-q5",
+   "type": "short-answer",
+   "question": "Q: Why is it important to check the number of marks for a question?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The number of marks indicates how many separate points or steps are expected; a 4-mark question needs roughly four distinct points or development stages.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

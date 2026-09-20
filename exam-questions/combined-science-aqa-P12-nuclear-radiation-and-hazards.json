@@ -1,0 +1,129 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P12-nuclear-radiation-and-hazards",
+ "topicName": "Nuclear Radiation And Hazards",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p12-nuclear-radiation-and-hazards-q1",
+   "type": "short-answer",
+   "question": "Foundation State the penetrating power and ionising power of alpha, beta and gamma radiation.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Alpha: high ionising, low penetrating (stopped by paper). Beta: moderate ionising, moderate penetrating (stopped by aluminium foil). Gamma: low ionising, high penetrating (reduced by thick lead/concrete).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain the difference between contamination and irradiation.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Contamination is when a radioactive substance gets on or inside the body, exposing you continuously. Irradiation is when you are exposed to radiation from an external source — exposure stops when you move away. Contamination is generally more dangerous.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-q3",
+   "type": "short-answer",
+   "question": "Higher Radium-226 (atomic number 88) undergoes alpha decay. Write the nuclear equation and identify the daughter element.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "226 88 Ra → 222 86 Rn + 4 2 He. The daughter element is radon-222 (atomic number 86).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-q4",
+   "type": "short-answer",
+   "question": "Higher A sample of iodine-131 has an activity of 640 Bq. Its half-life is 8 days. What is its activity after 32 days?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Number of half-lives = 32 / 8 = 4. Activity: 640 → 320 → 160 → 80 → 40 Bq. After 32 days the activity is 40 Bq.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-q5",
+   "type": "short-answer",
+   "question": "Foundation Explain why alpha radiation is used in smoke detectors but would not be suitable for medical tracers.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Alpha is used in smoke detectors because it easily ionises air between electrodes and is stopped by smoke (changing the current). It is not suitable for medical tracers because it cannot penetrate out of the body to be detected externally, and its high ionising power would damage tissues.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-q6",
+   "type": "short-answer",
+   "question": "Higher A radioactive source has a half-life of 10 years. After how many years will only 1/8 of the original sample remain?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1/8 = (1/2)³, so 3 half-lives are needed. 3 × 10 = 30 years.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Compare the properties of alpha, beta and gamma radiation. Include ionising power, penetrating power and an appropriate use for each type. <div class=\"",
+   "marks": 6,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Alpha radiation has the highest ionising power because it is large and heavy, easily knocking electrons off atoms. It has the lowest penetrating power — it is stopped by a few cm of air or a sheet of paper. Alpha is used in smoke detectors because it ionises air and is easily stopped by smoke. Beta radiation has moderate ionising power and moderate penetrating power — it is stopped by about 5 mm of aluminium. Beta is used in thickness monitoring of thin materials like paper or aluminium foil because it partially penetrates, and changes in thickness change the detected count rate. Gamma radiati",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Alpha radiation has the highest ionising power because it is large and heavy, easily knocking electrons off atoms. It has the lowest penetrating power — it is stopped by a few cm of air or a sheet of paper. Alpha is used in smoke detectors because it ionises air and is easily stopped by smoke. Beta radiation has moderate ionising power and moderate penetrating power — it is stopped by about 5 mm of aluminium. Beta is used in thickness monitoring of thin materials like paper or aluminium foil because it partially penetrates, and changes in thickness change the detected count rate. Gamma radiation has the lowest ionising power but the highest penetrating power — it requires thick lead or concrete to reduce it. Gamma is used in medical tracers and radiotherapy because it can pass through body tissue to reach or be detected from deep inside the body. Mark scheme: 1 mark for alpha — high ionising, low penetrating, stopped by paper; 1 mark for beta — moderate ionising and penetrating, stopped by aluminium; 1 mark for gamma — low ionising, high penetrating, reduced by lead/concrete; 1 mark for correct use of alpha (smoke detector); 1 mark for correct use of beta (thickness monitoring); 1 mark for correct use of gamma (tracers/radiotherapy). (6 marks total)"
+   }
+  }
+ ]
+}

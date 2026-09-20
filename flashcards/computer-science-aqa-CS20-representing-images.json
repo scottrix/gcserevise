@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS20-representing-images",
+ "topicName": "Representing Images",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs20-representing-images-fc1",
+   "front": "Recall a key point about Representing Images",
+   "back": "A bitmap image is made up of a grid of small squares called pixels (picture elements). Each pixel is assigned a binary value that represents its colour.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc2",
+   "front": "Recall a key point about Representing Images",
+   "back": "Resolution is the number of pixels in an image, expressed as width x height. For example, 1920 x 1080 means 1920 pixels across and 1080 pixels down.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc3",
+   "front": "Recall a key point about Representing Images",
+   "back": "Colour depth (also called bit depth) is the number of bits used to represent the colour of each pixel. More bits per pixel means more possible colours.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc4",
+   "front": "Recall a key point about Representing Images",
+   "back": "There is always a trade-off between file size and image quality. Higher resolution and greater colour depth produce better images but require more storage space and bandwidth.",
+   "tags": [
+    "important"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc5",
+   "front": "What should you know about exam focus?",
+   "back": "The GCSE specification primarily focuses on bitmap images. However, you should understand the key differences between bitmap and vector representations.",
+   "tags": [
+    "exam-focus"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc6",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "File size formula: width × height × colour depth (in bits), then convert to bytes/KB/MB. 1 byte = 8 bits, 1 KB = 1024 B, 1 MB = 1024 KB. For resolution changes: doubling both dimensions quadruples pixels. Bitmap = pixels, Vector = mathematical shapes. Vector advantages: scalable without quality loss, smaller for simple graphics. Bitmap advantages: better for photographs.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc7",
+   "front": "What does 1-bit mean?",
+   "back": "1 (e.g. 2 (black and white))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc8",
+   "front": "What does 8-bit mean?",
+   "back": "8 (e.g. 256)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc9",
+   "front": "What does 16-bit mean?",
+   "back": "16 (e.g. 65,536)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc10",
+   "front": "What does 24-bit mean?",
+   "back": "24 (e.g. 16,777,216)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc11",
+   "front": "What does 32-bit mean?",
+   "back": "32 (e.g. 4,294,967,296)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc12",
+   "front": "What does Increase resolution (more pixels) mean?",
+   "back": "Increases (e.g. Improves (more detail))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc13",
+   "front": "What does Decrease resolution (fewer pixels) mean?",
+   "back": "Decreases (e.g. Degrades (pixelation))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc14",
+   "front": "What does Increase colour depth mean?",
+   "back": "Increases (e.g. Improves (more colours, smoother gradients))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs20-representing-images-fc15",
+   "front": "What does Decrease colour depth mean?",
+   "back": "Decreases (e.g. Degrades (banding, colour steps))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

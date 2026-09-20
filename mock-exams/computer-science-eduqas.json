@@ -1,0 +1,138 @@
+{
+ "subject": "computer-science",
+ "board": "Eduqas",
+ "topic": "mock-exam",
+ "topicName": "Computer-Science Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "computer-science-mock",
+   "name": "Computer-Science Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Representing Algorithms] What shape is used in a flowchart to represent a decision?",
+     "correctAnswer": "A diamond shape is used to represent a decision in a flowchart.",
+     "explanation": "A diamond shape is used to represent a decision in a flowchart.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Representing Algorithms] Write pseudo-code that asks the user for a number and outputs \"Even\" if it is divisible by 2, or \"Odd\" if it is not.",
+     "correctAnswer": "INPUT number IF number MOD 2 = 0 THEN OUTPUT \"Even\" ELSE OUTPUT \"Odd\" ENDIF",
+     "explanation": "INPUT number IF number MOD 2 = 0 THEN OUTPUT \"Even\" ELSE OUTPUT \"Odd\" ENDIF",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Representing Algorithms] Explain the difference between decomposition and abstraction.",
+     "correctAnswer": "Decomposition breaks a complex problem into smaller sub-problems that can be solved independently. Abstraction removes unnecessary detail so you can focus on what is essential to solve the problem.",
+     "explanation": "Decomposition breaks a complex problem into smaller sub-problems that can be solved independently. Abstraction removes unnecessary detail so you can focus on what is essential to solve the problem.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Data Structures] Write pseudo-code to declare an array of 5 temperatures and output the third temperature.",
+     "correctAnswer": "temps ← [18.5, 20.3, 22.1, 19.8, 21.0] OUTPUT temps[2] // Outputs 22.1 (third element, index 2)",
+     "explanation": "temps ← [18.5, 20.3, 22.1, 19.8, 21.0] OUTPUT temps[2] // Outputs 22.1 (third element, index 2)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Data Structures] Write pseudo-code that finds the sum of all elements in the array [10, 20, 30, 40, 50].",
+     "correctAnswer": "numbers ← [10, 20, 30, 40, 50] total ← 0 FOR i ← 0 TO 4 total ← total + numbers[i] NEXT i OUTPUT total // 150",
+     "explanation": "numbers ← [10, 20, 30, 40, 50] total ← 0 FOR i ← 0 TO 4 total ← total + numbers[i] NEXT i OUTPUT total // 150",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Data Structures] A 2D array represents a 3x3 tic-tac-toe board. How would you access the centre square?",
+     "correctAnswer": "The centre square is at row 1, column 1: board[1][1]",
+     "explanation": "The centre square is at row 1, column 1: board[1][1]",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Input, Output & String Handling] What does LENGTH(\"GCSE Computer Science\") return?",
+     "correctAnswer": "20 characters (including the space).",
+     "explanation": "20 characters (including the space).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Input, Output & String Handling] Write pseudo-code that asks for a word and outputs the first three characters.",
+     "correctAnswer": "INPUT word OUTPUT SUBSTRING(word, 0, 3)",
+     "explanation": "INPUT word OUTPUT SUBSTRING(word, 0, 3)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Input, Output & String Handling] What is the ASCII code for 'A'? What is CHR(97)?",
+     "correctAnswer": "The ASCII code for 'A' is 65. CHR(97) = 'a'.",
+     "explanation": "The ASCII code for 'A' is 65. CHR(97) = 'a'.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Subroutines] What is the difference between a procedure and a function?",
+     "correctAnswer": "A procedure performs a task but does not return a value. A function performs a calculation and returns a value using the RETURN statement. Functions are used in expressions; procedures are called as standalone statements.",
+     "explanation": "A procedure performs a task but does not return a value. A function performs a calculation and returns a value using the RETURN statement. Functions are used in expressions; procedures are called as standalone statements.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Subroutines] Write a function called calculatePerimeter that takes the length and width of a rectangle and returns the perimeter.",
+     "correctAnswer": "FUNCTION calculatePerimeter(length, width) perimeter ← 2 * (length + width) RETURN perimeter ENDFUNCTION",
+     "explanation": "FUNCTION calculatePerimeter(length, width) perimeter ← 2 * (length + width) RETURN perimeter ENDFUNCTION",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Subroutines] Explain the difference between a parameter and an argument.",
+     "correctAnswer": "Parameters are the variable names listed in the subroutine definition (placeholders). Arguments are the actual values passed to the subroutine when it is called. For example, in FUNCTION add(a, b), a and b are parameters; when calling add(3, 5), the values 3 and 5 are arguments.",
+     "explanation": "Parameters are the variable names listed in the subroutine definition (placeholders). Arguments are the actual values passed to the subroutine when it is called. For example, in FUNCTION add(a, b), a and b are parameters; when calling add(3, 5), the values 3 and 5 are arguments.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

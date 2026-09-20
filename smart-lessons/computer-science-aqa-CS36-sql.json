@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS36-sql",
+ "topicName": "SQL",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs36-sql-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "SQL (Structured Query Language) is the standard language used to create, read, update, and delete data in relational databases. It allows users to communicate with a database to retrieve and modify data."
+  },
+  {
+   "id": "cs36-sql-s2",
+   "kind": "learn",
+   "title": "WHERE clause",
+   "body": "The WHERE clause filters records - only records that match the condition are returned. It is used with SELECT, UPDATE, and DELETE."
+  },
+  {
+   "id": "cs36-sql-s3",
+   "kind": "learn",
+   "title": "ORDER BY clause",
+   "body": "The ORDER BY clause sorts the results. ASC sorts in ascending order (A-Z, 1-9). DESC sorts in descending order (Z-A, 9-1). Default is ASC if not specified."
+  },
+  {
+   "id": "cs36-sql-s4",
+   "kind": "learn",
+   "title": "Important",
+   "body": "String values must be in single quotes ('Frank'). Numeric values do not need quotes (1006, 10). The order of values must match the order of fields listed. If inserting into all fields, you can omit the field list: INSERT INTO Students VALUES (1006, 'Frank', 'Chen', '10B', 10)"
+  },
+  {
+   "id": "cs36-sql-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Write an SQL query to show the first name and last name of all students in form 10B. | Write an SQL query to show all details of students whose last name starts with 'S', sorted by first name alphabetically. | Write an SQL statement to insert a new student: StudentID 1007, Grace Lee, form 10A, year 10."
+  },
+  {
+   "id": "cs36-sql-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "SELECT FirstName, LastName FROM Students WHERE Form = '10B' | SELECT * FROM Students WHERE LastName LIKE 'S%' ORDER BY FirstName ASC | INSERT INTO Students (StudentID, FirstName, LastName, Form, YearGroup) VALUES (1007, 'Grace', 'Lee', '10A', 10)"
+  },
+  {
+   "id": "cs36-sql-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always use single quotes for string values: 'Alice', '10A' Never forget the WHERE clause with UPDATE and DELETE Write SQL keywords in UPPERCASE for clarity For SELECT, think: what fields? FROM what table? WHERE what condition? ORDER BY what? LIKE with % for pattern matching: 'S%' = starts with S, '%son%' = contains 'son' ORDER BY defaults to ASC - specify DESC if you want descending"
+  }
+ ]
+}

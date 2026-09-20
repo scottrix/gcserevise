@@ -1,0 +1,78 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC8-price-determination",
+ "topicName": "Price Determination",
+ "version": 1,
+ "questions": [
+  {
+   "id": "ec8-price-determination-q1",
+   "type": "short-answer",
+   "question": "Explain how equilibrium price is determined using a supply and demand diagram.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Equilibrium is where supply and demand curves intersect. Quantity demanded = quantity supplied. Above equilibrium: excess supply (prices fall). Below: excess demand (prices rise). The market adjusts to equilibrium through the price mechanism.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ec8-price-determination-q2",
+   "type": "short-answer",
+   "question": "Using a diagram, show what happens to equilibrium when demand increases but supply is unchanged.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When demand increases (shifts right D→D1), at the original price there is excess demand. Consumers bid up price, producers supply more. New equilibrium: higher price (P1) and higher quantity (Q1).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ec8-price-determination-q3",
+   "type": "short-answer",
+   "question": "Analyse how a poor wheat harvest would affect bread price, quantity, and producer revenue.",
+   "marks": 1,
+   "commandWord": "analyse",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Poor harvest reduces wheat supply (shifts left). Excess demand at original price pushes bread prices up. Equilibrium price rises, quantity falls. Effect on revenue depends on PED: if bread demand is inelastic (likely — staple), price rise exceeds quantity fall, so total revenue INCREASES.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ec8-price-determination-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate what would happen to the home-delivered food market if both demand and supply increase. <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: analyse demand increase (online ordering trend); analyse supply increase (more platforms); combined effect: quantity definitely rises, price indeterminate; if supply shifts more, price falls; conclude: most likely higher quantity with stable or lower prices as competition keeps prices down.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: analyse demand increase (online ordering trend); analyse supply increase (more platforms); combined effect: quantity definitely rises, price indeterminate; if supply shifts more, price falls; conclude: most likely higher quantity with stable or lower prices as competition keeps prices down."
+   }
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE15-fitness-testing",
+ "topicName": "Fitness Testing",
+ "version": 1,
+ "questions": [
+  {
+   "id": "pe15-fitness-testing-q1",
+   "type": "short-answer",
+   "question": "Which fitness test measures agility and briefly describe its protocol.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The Illinois Agility Run measures agility. The participant runs through a course of cones in a 10m × 5m grid, including changes of direction, slalom sections and acceleration. The time taken to complete the course is measured.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe15-fitness-testing-q2",
+   "type": "short-answer",
+   "question": "Name the test used to measure cardiovascular endurance and describe how it works.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The Multi-Stage Fitness Test (Beep Test) measures cardiovascular endurance. Participants run 20m shuttles in time with audio beeps that get progressively faster. They continue until they cannot reach the line on two consecutive beeps. The level and shuttle reached is the score.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe15-fitness-testing-q3",
+   "type": "short-answer",
+   "question": "Explain three reasons why fitness testing is carried out.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(1) Identify strengths and weaknesses in different components of fitness. (2) Monitor progress over time to see if a training programme is effective. (3) Set baseline scores at the start of a programme to establish starting points for goal setting. (Other valid: compare against normative data, provide motivation, assess suitability for sport.)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe15-fitness-testing-q4",
+   "type": "short-answer",
+   "question": "Describe three limitations of fitness testing.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(1) Lack of specificity - most tests don't replicate the exact demands of a particular sport. (2) Practice effect - participants may improve just by becoming familiar with the test, not from genuine fitness gains. (3) Motivation - results depend on effort; low motivation produces artificially low scores. (Other valid: environmental factors, measurement error, not sport-specific, one-off testing.)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe15-fitness-testing-q5",
+   "type": "short-answer",
+   "question": "Which test would you use to measure each of the following: power, reaction time, flexibility?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Power = Vertical Jump Test (Sargent Jump); Reaction time = Ruler Drop Test; Flexibility = Sit and Reach Test.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe15-fitness-testing-q6",
+   "type": "short-answer",
+   "question": "Explain what normative data is and why it is important when interpreting fitness test results.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Normative data is a set of reference values (averages) for different age groups and genders. It is important because it provides context for test results - without it, a score is just a number. Normative data allows you to determine whether a score is above average, average or below average for a particular population.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

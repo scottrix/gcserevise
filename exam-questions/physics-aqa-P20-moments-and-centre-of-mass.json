@@ -1,0 +1,112 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P20-moments-and-centre-of-mass",
+ "topicName": "Moments And Centre Of Mass",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p20-moments-and-centre-of-mass-q1",
+   "type": "short-answer",
+   "question": "Foundation A force of 30 N acts at 0.4 m from a pivot. Calculate the moment.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "M = Fd = 30 × 0.4 = 12 Nm",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-q2",
+   "type": "short-answer",
+   "question": "Foundation State the principle of moments.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "For an object in equilibrium (balanced), the total clockwise moment about any pivot equals the total anticlockwise moment.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-q3",
+   "type": "short-answer",
+   "question": "Higher A beam is balanced on a pivot. A 200 N force acts 0.5 m to the left. What force must act 0.8 m to the right to balance it?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Anticlockwise moment = 200 × 0.5 = 100 Nm. Clockwise moment must = 100 Nm. F × 0.8 = 100, so F = 100 / 0.8 = 125 N",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-q4",
+   "type": "short-answer",
+   "question": "Higher Explain why a racing car has a low, wide shape in terms of centre of mass and stability.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A low centre of mass means the line of action of the weight stays well within the wide base area even during sharp turns. A wide base gives a large area for the line of action to fall within. This makes the car very stable and less likely to topple when cornering at high speed.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-q5",
+   "type": "short-answer",
+   "question": "Foundation Explain how a lever acts as a force multiplier, using a spanner as an example.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A spanner has a long handle. You apply a small force at the end of the handle (large distance from the pivot/bolt). This creates a large moment (M = Fd, and d is large). The bolt experiences a large turning force, even though your input force is relatively small. The lever multiplies your force.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: A uniform seesaw is 4 m long with the pivot at the centre. A child of weight 400 N sits 1.2 m from the pivot on the left. An adult of weight 800 N sits on the right side. Calculate where the adult must sit to balance the seesaw. Explain the principle you have used. <div class=\"",
+   "marks": 6,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The principle of moments states that for an object in equilibrium, the total clockwise moment equals the total anticlockwise moment. The child's anticlockwise moment = 400 × 1.2 = 480 Nm. For balance, the adult's clockwise moment must also be 480 Nm. Clockwise moment = 800 × d = 480 Nm. Therefore d = 480 / 800 = 0.6 m from the pivot on the right side. This makes sense because the adult weighs twice as much as the child, so they must sit half as far from the pivot. The seesaw is balanced because the total clockwise moment (480 Nm) equals the total anticlockwise moment (480 Nm). Mark scheme: 1 m",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "The principle of moments states that for an object in equilibrium, the total clockwise moment equals the total anticlockwise moment. The child's anticlockwise moment = 400 × 1.2 = 480 Nm. For balance, the adult's clockwise moment must also be 480 Nm. Clockwise moment = 800 × d = 480 Nm. Therefore d = 480 / 800 = 0.6 m from the pivot on the right side. This makes sense because the adult weighs twice as much as the child, so they must sit half as far from the pivot. The seesaw is balanced because the total clockwise moment (480 Nm) equals the total anticlockwise moment (480 Nm). Mark scheme: 1 mark for stating the principle of moments; 1 mark for calculating anticlockwise moment (400 × 1.2 = 480 Nm); 1 mark for setting clockwise moment = anticlockwise moment; 1 mark for correct calculation (d = 0.6 m); 1 mark for interpreting the answer (adult closer to pivot because heavier); 1 mark for showing both moments are equal. (6 marks total)"
+   }
+  }
+ ]
+}

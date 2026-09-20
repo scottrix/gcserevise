@@ -1,0 +1,112 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C12-reactivity-of-metals",
+ "topicName": "Reactivity Of Metals",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c12-reactivity-of-metals-q1",
+   "type": "short-answer",
+   "question": "Foundation List the following metals in order of reactivity (most reactive first): copper, potassium, iron, zinc, sodium.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Potassium, sodium, zinc, iron, copper (from most to least reactive)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c12-reactivity-of-metals-q2",
+   "type": "short-answer",
+   "question": "Foundation Write the word equation for calcium reacting with cold water.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Calcium + water → calcium hydroxide + hydrogen",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c12-reactivity-of-metals-q3",
+   "type": "short-answer",
+   "question": "Higher Will magnesium displace copper from copper(II) sulfate solution? Write the balanced symbol equation if a reaction occurs.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Yes — magnesium is more reactive than copper, so displacement occurs. Mg(s) + CuSO₄(aq) → MgSO₄(aq) + Cu(s)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c12-reactivity-of-metals-q4",
+   "type": "short-answer",
+   "question": "Foundation Explain why aluminium is extracted by electrolysis but iron is extracted by reduction with carbon.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Aluminium is above carbon in the reactivity series, so carbon cannot reduce it — electrolysis is needed. Iron is below carbon, so carbon can reduce iron oxide to iron, which is cheaper.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c12-reactivity-of-metals-q5",
+   "type": "short-answer",
+   "question": "Higher In the reaction Fe₂O₃ + 3CO → 2Fe + 3CO₂, identify which substance is oxidised and which is reduced, in terms of oxygen.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Fe₂O₃ loses oxygen to become Fe, so iron is reduced. CO gains oxygen to become CO₂, so carbon monoxide is oxidised.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c12-reactivity-of-metals-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain the reactivity series using displacement reactions. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The reactivity series lists metals in order of their tendency to lose electrons and form positive ions. A more reactive metal will displace a less reactive metal from its compound in a displacement reaction. For example, when iron is added to copper(II) sulfate solution, iron displaces copper because iron is more reactive: Fe + CuSO₄ → FeSO₄ + Cu. The blue solution fades to colourless and brown copper metal forms. However, if copper is added to iron(II) sulfate solution, no reaction occurs because copper is less reactive than iron and cannot displace it. These displacement experiments allow us",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "The reactivity series lists metals in order of their tendency to lose electrons and form positive ions. A more reactive metal will displace a less reactive metal from its compound in a displacement reaction. For example, when iron is added to copper(II) sulfate solution, iron displaces copper because iron is more reactive: Fe + CuSO₄ → FeSO₄ + Cu. The blue solution fades to colourless and brown copper metal forms. However, if copper is added to iron(II) sulfate solution, no reaction occurs because copper is less reactive than iron and cannot displace it. These displacement experiments allow us to deduce the order of reactivity: if metal A displaces metal B from its salt, then A is more reactive than B. Mark scheme: 1 mark for reactivity = tendency to lose electrons; 1 mark for more reactive displaces less reactive; 1 mark for correct example with equation; 1 mark for observation; 1 mark for no reaction example; 1 mark for concluding how order is deduced."
+   }
+  }
+ ]
+}

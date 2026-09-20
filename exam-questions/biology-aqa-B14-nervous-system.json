@@ -1,0 +1,112 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "B14-nervous-system",
+ "topicName": "Nervous System",
+ "version": 1,
+ "questions": [
+  {
+   "id": "b14-nervous-system-q1",
+   "type": "short-answer",
+   "question": "Name the three types of neurone and describe the function of each.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Sensory neurone — carries impulses from receptors to the CNS. Relay neurone — connects sensory and motor neurones within the CNS. Motor neurone — carries impulses from the CNS to effectors (muscles or glands).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b14-nervous-system-q2",
+   "type": "short-answer",
+   "question": "Describe the pathway of a reflex arc, naming each part.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Stimulus → Receptor (detects stimulus) → Sensory neurone (carries impulse to CNS) → Relay neurone (in spinal cord, connects sensory to motor) → Motor neurone (carries impulse from CNS) → Effector (muscle/gland) → Response.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b14-nervous-system-q3",
+   "type": "short-answer",
+   "question": "Explain how an impulse crosses a synapse.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An electrical impulse reaches the end of the first neurone. Neurotransmitter chemicals are released into the synaptic cleft. The neurotransmitters diffuse across the gap and bind to receptors on the second neurone. This triggers a new electrical impulse in the second neurone.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b14-nervous-system-q4",
+   "type": "short-answer",
+   "question": "Explain why reflex actions are faster than conscious actions.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Reflex actions are faster because the impulse travels through the spinal cord only, via a relay neurone, by-passing the brain. Conscious actions require the impulse to travel to the brain, be processed, and a decision made, which takes additional time.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b14-nervous-system-q5",
+   "type": "short-answer",
+   "question": "Higher In a ruler drop test, the mean drop distance is 12 cm. Calculate the reaction time. (g = 9.8 m/s²)",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "d = 12 cm = 0.12 m. t = √(2 × 0.12 / 9.8) = √(0.24/9.8) = √0.0245 = 0.157 s (approximately 0.16 s).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b14-nervous-system-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain how a reflex arc works. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A reflex arc is the pathway taken by nerve impulses in an automatic, involuntary response. When a stimulus is detected by receptors (e.g. temperature receptors in the skin detect heat), an electrical impulse is generated. This impulse travels along the sensory neurone to the central nervous system (spinal cord). In the spinal cord, the impulse passes to a relay neurone, which connects the sensory neurone to a motor neurone. The impulse then travels along the motor neurone to an effector (a muscle or gland). The effector produces the response automatically (e.g. the muscle contracts to pull the",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "A reflex arc is the pathway taken by nerve impulses in an automatic, involuntary response. When a stimulus is detected by receptors (e.g. temperature receptors in the skin detect heat), an electrical impulse is generated. This impulse travels along the sensory neurone to the central nervous system (spinal cord). In the spinal cord, the impulse passes to a relay neurone, which connects the sensory neurone to a motor neurone. The impulse then travels along the motor neurone to an effector (a muscle or gland). The effector produces the response automatically (e.g. the muscle contracts to pull the hand away). Because the impulse bypasses the brain and goes only through the spinal cord, no conscious decision is needed, making the response very rapid and protective. Mark scheme: 1 mark — stimulus detected by receptors; 1 mark — sensory neurone carries impulse to CNS; 1 mark — relay neurone in spinal cord; 1 mark — motor neurone carries impulse to effector; 1 mark — effector produces response; 1 mark — explanation of why it is fast (bypasses brain, involuntary)."
+   }
+  }
+ ]
+}

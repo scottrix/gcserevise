@@ -1,0 +1,94 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as11-star-properties-classification",
+ "topicName": "Star Properties & Classification",
+ "version": 1,
+ "questions": [
+  {
+   "id": "as11-star-properties-classification-q1",
+   "type": "short-answer",
+   "question": "Q: What is the difference between apparent and absolute magnitude?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Apparent magnitude is how bright a star looks from Earth. Absolute magnitude is the brightness it would have if placed at a standard distance of 10 parsecs.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as11-star-properties-classification-q2",
+   "type": "short-answer",
+   "question": "Q: State the spectral classes from hottest to coolest.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "O, B, A, F, G, K, M (mnemonic: Oh Be A Fine Girl/Guy, Kiss Me).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as11-star-properties-classification-q3",
+   "type": "short-answer",
+   "question": "Q: How is stellar parallax used to measure distance?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A star's apparent shift against background stars is measured over 6 months. Distance in parsecs = 1/parallax angle in arcseconds.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as11-star-properties-classification-q4",
+   "type": "short-answer",
+   "question": "Q: Why do blue stars appear brighter than red stars of the same size?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Blue stars are hotter, and luminosity depends on temperature (L ∝ T⁴), so hotter stars emit far more energy per unit area.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as11-star-properties-classification-q5",
+   "type": "short-answer",
+   "question": "Q: What is the inverse square law of light?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Apparent brightness decreases proportionally to 1/d², where d is the distance from the star.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

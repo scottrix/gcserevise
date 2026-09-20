@@ -1,0 +1,38 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P16-newton-s-laws-and-momentum",
+ "topicName": "Newton S Laws And Momentum",
+ "version": 1,
+ "tests": [
+  {
+   "id": "p16-newton-s-laws-and-momentum-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Newton S Laws And Momentum",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "p16-newton-s-laws-and-momentum-t2",
+     "type": "short-answer",
+     "question": "Foundation A resultant force of 1500 N acts on a car of mass 750 kg. Calculate the acceleration.",
+     "correctAnswer": "a = F / m = 1500 / 750 = 2 m/s²",
+     "explanation": "Answer: a = F / m = 1500 / 750 = 2 m/s²",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p16-newton-s-laws-and-momentum-t5",
+     "type": "short-answer",
+     "question": "Foundation Calculate the weight of a person with mass 70 kg on Earth (g = 9.8 N/kg).",
+     "correctAnswer": "W = mg = 70 × 9.8 = 686 N",
+     "explanation": "Answer: W = mg = 70 × 9.8 = 686 N",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

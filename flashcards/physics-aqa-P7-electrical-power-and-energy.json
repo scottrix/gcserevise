@@ -1,0 +1,157 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P7-electrical-power-and-energy",
+ "topicName": "P7 Electrical Power And Energy",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p7-electrical-power-and-energy-fc1",
+   "front": "What should you know about power?",
+   "back": "The rate at which energy is transferred. Measured in watts (W). 1 watt = 1 joule per second.",
+   "tags": [
+    "power"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc2",
+   "front": "What should you know about the national grid?",
+   "back": "A network of cables and transformers that connects power stations to consumers (homes and industry) across the UK.",
+   "tags": [
+    "the-national-grid"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc3",
+   "front": "What should you know about transformer?",
+   "back": "A device that changes the voltage of an alternating current (AC). Step-up transformers increase voltage; step-down transformers decrease voltage.",
+   "tags": [
+    "transformer"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc4",
+   "front": "What should you know about the national grid?",
+   "back": "distributes electricity from power stations to consumers. To reduce energy loss in the cables, electricity is transmitted at very high voltage and low current.",
+   "tags": [
+    "the-national-grid"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc5",
+   "front": "What should you know about uk mains supply?",
+   "back": "230 V AC (alternating current) at 50 Hz. AC means the current changes direction 50 times per second.",
+   "tags": [
+    "uk-mains-supply"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc6",
+   "front": "What should you know about fuses?",
+   "back": "A thin wire that melts and breaks the circuit if the current gets too high. The fuse rating should be slightly above the normal operating current. Fuses are always placed in the live wire .",
+   "tags": [
+    "fuses"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc7",
+   "front": "What should you know about circuit breakers?",
+   "back": "Electromagnetic switches that trip (open) when the current exceeds a safe value. They can be reset, unlike fuses which must be replaced.",
+   "tags": [
+    "circuit-breakers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc8",
+   "front": "What should you know about earthing?",
+   "back": "If a fault causes the live wire to touch the metal case of an appliance, the earth wire provides a low-resistance path to ground. A large current flows to earth, which blows the fuse and disconnects the appliance, protecting the user from a shock.",
+   "tags": [
+    "earthing"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc9",
+   "front": "Recall a key point about P7 Electrical Power And Energy",
+   "back": "You need to use four power equations fluently: P = E/t, P = VI, P = I²R, P = V²/R. For energy: E = Pt (joules when P in watts, t in seconds) and E = Pt (kWh when P in kW, t in hours). For fuse ratings: calculate the normal operating current using I = P/V, then choose the next standard fuse rating above it (3 A, 5 A or 13 A). Always convert units — kW to W (×1000), hours to seconds (×3600), mA to A (÷1000).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc10",
+   "front": "What should you know about answers?",
+   "back": "(a) Kettle: 2.2 × (12/60) = 0.44 kWh. Fridge: 0.150 × 24 = 3.6 kWh. Tumble dryer: 2.5 × (45/60) = 1.875 kWh. The fridge uses the most energy per day. (b) Daily cost = 3.6 × 28 = 100.8p ≈ £1.01. Weekly = £1.01 × 7 = £7.07. The fridge has a thermostat so it does not run continuously — it switches on and off to maintain temperature, so actual consumption is lower. (c) The claim is wrong. Despite having the highest power, the tumble dryer uses only 1.875 kWh/day because it runs for a short time. The fridge, with much lower power, uses 3.6 kWh/day because it runs for much longer. Energy depends on ",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc11",
+   "front": "What does Step-up mean?",
+   "back": "Increases (e.g. Decreases)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc12",
+   "front": "What does Step-down mean?",
+   "back": "Decreases (e.g. Increases)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc13",
+   "front": "What does Live mean?",
+   "back": "Brown (e.g. Carries alternating current from the supply (230 V))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc14",
+   "front": "What does Neutral mean?",
+   "back": "Blue (e.g. Completes the circuit (0 V))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p7-electrical-power-and-energy-fc15",
+   "front": "What does Earth mean?",
+   "back": "Green/yellow (e.g. Safety wire — connects metal casing to ground)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

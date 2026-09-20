@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P14-scalar-and-vector-quantities",
+ "topicName": "Scalar And Vector Quantities",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p14-scalar-and-vector-quantities-s1",
+   "kind": "learn",
+   "title": "Scalar quantity",
+   "body": "A physical quantity that has magnitude (size) only. Examples: speed, distance, mass, temperature, energy, time."
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-s2",
+   "kind": "learn",
+   "title": "Vector quantity",
+   "body": "A physical quantity that has both magnitude and direction. Examples: velocity, displacement, force, weight, acceleration, momentum."
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-s3",
+   "kind": "learn",
+   "title": "Resultant force",
+   "body": "A single force that has the same effect as all the individual forces acting on an object combined."
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-s4",
+   "kind": "learn",
+   "title": "Contact force",
+   "body": "A force that acts between two objects that are physically touching. Examples: friction, air resistance, tension, normal contact force."
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Force type Example Description Contact Friction Opposes motion between two surfaces in contact Contact Air resistance Friction between an object and the air it moves through Contact Tension Pulling force in a rope, string or cable Contact Normal contact force Support force exerted by a surface on an object resting on it (acts at 90° to surface) Non-contact Gravity (weight) Attractive force between masses Non-contact Magnetic force Force between magnets or magnetic materials Non-contact Electrostatic force Force between charged objects Important: Weight is a non-contact force (gravity acts at a distance). Mass is not a force — it is a scalar measure of the amount of matter in an object. Weight = mass × gravitational field strength (W = mg)."
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation State the difference between a scalar quantity and a vector quantity, giving one example of each. | Foundation Classify each as scalar or vector: speed, velocity, mass, weight, distance, displacement, energy, force. | Foundation Give two examples of contact forces and two examples of non-contact forces."
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A scalar has magnitude only (e.g. speed = 10 m/s). A vector has magnitude and direction (e.g. velocity = 10 m/s north). | Scalar: speed, mass, distance, energy. Vector: velocity, weight, displacement, force. | Contact: friction, air resistance, tension, normal contact force. Non-contact: gravity, magnetic force, electrostatic force."
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "The easiest way to remember: vector = direction matters . If you need to state which way it points, it's a vector Speed/distance are scalars; velocity/displacement are their vector equivalents — don't mix them up When calculating resultant force, always state the direction (e.g. “4 N to the right”, not just “4 N”) In free body diagrams, only draw forces acting on the object, not forces exerted by the object Weight is a force (vector); mass is not a force (scalar) — this is a very common exam trap For resolving forces, you only need to use trigonometry at Higher tier"
+  }
+ ]
+}

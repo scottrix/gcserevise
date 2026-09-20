@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P5-circuit-basics",
+ "topicName": "P5 Circuit Basics",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p5-circuit-basics-s1",
+   "kind": "learn",
+   "title": "Electric current",
+   "body": "The rate of flow of charge. Measured in amperes (A) using an ammeter connected in series. Current is the same in all parts of a series circuit."
+  },
+  {
+   "id": "p5-circuit-basics-s2",
+   "kind": "learn",
+   "title": "Potential difference (voltage)",
+   "body": "The energy transferred per unit charge passing between two points. Measured in volts (V) using a voltmeter connected in parallel across the component."
+  },
+  {
+   "id": "p5-circuit-basics-s3",
+   "kind": "learn",
+   "title": "Resistance",
+   "body": "The opposition to the flow of current. Measured in ohms (Ω). Higher resistance means less current for a given voltage."
+  },
+  {
+   "id": "p5-circuit-basics-s4",
+   "kind": "learn",
+   "title": "Ohm's Law",
+   "body": "The current through a resistor at constant temperature is directly proportional to the potential difference across it. This means V = I x R."
+  },
+  {
+   "id": "p5-circuit-basics-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Worked Example 1 — Using Ohm's Law to find Voltage Question: A resistor has a resistance of 10 Ω and a current of 3 A flows through it. Calculate the potential difference across the resistor. Solution: V = I x R = 3 x 10 = 30 V Worked Example 2 — Using Ohm's Law to find Resistance Question: A lamp has a potential difference of 12 V across it and a current of 0.5 A flows through it. Calculate the resistance of the lamp. Solution: R = V / I = 12 / 0.5 = 24 Ω Worked Example 3 — Using Ohm's Law to find Current Question: A 220 Ω resistor is connected to a 6 V battery. Calculate the current flowing through it. Solution: I = V / R = 6 / 220 = 0.027 A = 27 mA Worked Example 4 — Thermistor Calculation Question: A thermistor has a resistance of 5000 Ω at 20 °C. When heated to 80 °C its resistance drops to 200 Ω. It is connected to a 9 V battery. Calculate the current at each temperature. Solution: At 20 °C: I = V / R = 9 / 5000 = 0.0018 A = 1.8 mA At 80 °C: I = V / R = 9 / 200 = 0.045 A = 45 mA "
+  },
+  {
+   "id": "p5-circuit-basics-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation Name the component that measures current and state how it is connected in a circuit. | Foundation A resistor has 8 V across it and a current of 2 A flows through it. Calculate its resistance. | Foundation Describe the difference between the I-V graph of a resistor and a filament lamp."
+  },
+  {
+   "id": "p5-circuit-basics-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "An ammeter measures current. It is connected in series with the component — the current flows through it. | R = V / I = 8 / 2 = 4 Ω. | A resistor (at constant temperature) gives a straight line through the origin — current is directly proportional to voltage (Ohmic). A filament lamp gives a curved graph that flattens at higher voltag"
+  },
+  {
+   "id": "p5-circuit-basics-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Remember: ammeter in series, voltmeter in parallel — this comes up frequently. When drawing circuit symbols, make sure you know the difference between a cell (one pair of lines) and a battery (multiple cells). Ohm's Law only applies to Ohmic conductors at constant temperature — filament lamps and diodes do not obey Ohm's Law. For thermistor questions: hot = low resistance = high current. Cold = high resistance = low current. For LDR questions: bright light = low resistance = high current. Dark = high resistance = low current. When explaining a filament lamp graph, always mention increasing resistance due to increasing temperature . Current is the same in all parts of a series circuit — this is a key rule for P6."
+  }
+ ]
+}

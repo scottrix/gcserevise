@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "ohms-law-resistors",
+ "topicName": "Ohm's Law & Resistor Networks",
+ "version": 1,
+ "steps": [
+  {
+   "id": "ohms-law-resistors-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "In series, total resistance R_total = R1 + R2 + R3; the same current flows through each resistor."
+  },
+  {
+   "id": "ohms-law-resistors-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "In parallel, 1/R_total = 1/R1 + 1/R2 + 1/R3; the same voltage is across each resistor."
+  },
+  {
+   "id": "ohms-law-resistors-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "For two resistors in parallel: R_total = (R1 × R2)/(R1 + R2)."
+  },
+  {
+   "id": "ohms-law-resistors-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A potential divider uses two series resistors to produce a fraction of the supply voltage: V_out = V_in × R2/(R1 + R2)."
+  },
+  {
+   "id": "ohms-law-resistors-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Three resistors of 2 Ω, 3 Ω and 5 Ω are connected in series. What is the total resistance? | Q: Two resistors of 6 Ω and 3 Ω are connected in parallel. What is the total resistance? | Q: A 12 V supply feeds a potential divider with R1 = 4 kΩ and R2 = 8 kΩ. What is V_out?"
+  },
+  {
+   "id": "ohms-law-resistors-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "R_total = 2 + 3 + 5 = 10 Ω. | R_total = (6 × 3)/(6 + 3) = 18/9 = 2 Ω. | V_out = 12 × 8/(4 + 8) = 12 × 8/12 = 8 V."
+  },
+  {
+   "id": "ohms-law-resistors-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always draw the circuit and label it before attempting calculations. For mixed networks, simplify parallel sections first, then add series resistances. State the formula for a potential divider before substituting values. Show that the sum of voltages across series resistors equals the supply voltage as a check. Remember that a loaded potential divider will have a lower output than the unloaded calculation predicts."
+  }
+ ]
+}

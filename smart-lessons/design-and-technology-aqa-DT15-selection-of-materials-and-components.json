@@ -1,0 +1,51 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT15-selection-of-materials-and-components",
+ "topicName": "Selection of Materials and Components",
+ "version": 1,
+ "steps": [
+  {
+   "id": "dt15-selection-of-materials-and-components-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Selection criteria: function, aesthetics, cost (material + processing + assembly), availability, sustainability (recyclability, material miles), manufacturability."
+  },
+  {
+   "id": "dt15-selection-of-materials-and-components-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Decision matrix: weighted scoring system - list criteria, assign weights, score each option, multiply weight x score, total reveals best choice. Removes bias."
+  },
+  {
+   "id": "dt15-selection-of-materials-and-components-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Working properties must match function: frying pan handle needs thermal insulation (thermoset/silicone), not conductivity (metal). Bicycle frame needs strength-to-weight (aluminium/CFRP)."
+  },
+  {
+   "id": "dt15-selection-of-materials-and-components-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Batch vs mass production affects material choice: mass production justifies injection moulding tooling; batch uses CNC or hand-laid composites."
+  },
+  {
+   "id": "dt15-selection-of-materials-and-components-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Create a simple decision matrix to compare acrylic, polycarbonate and glass for a display cabinet door. | A designer must choose between aluminium and polypropylene for a kitchen utensil handle. Justify using at least four criteria. | Explain how production volume (batch vs mass) influences material selection for a plastic product."
+  },
+  {
+   "id": "dt15-selection-of-materials-and-components-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Criteria with weights: Safety (impact resistance) 5, Transparency 4, Cost 3, Weight 3, Scratch resistance 2. Acrylic: 58. Polycarbonate: 62. Glass: 50. Winner: polycarbonate (best safety and transpare | Function: handle must insulate - PP wins over aluminium. Weight: PP lightweight, aluminium heavier. Cost: PP cheap and easy to mould; aluminium requires die-casting. Durability: aluminium resists stai | Mass production (100,000+ units): justifies expensive injection mould tooling - thermoplastics very cheap per unit. Batch (50-500 units): tooling cost per unit too high - use CNC, vacuum forming, or 3"
+  },
+  {
+   "id": "dt15-selection-of-materials-and-components-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Justify with SPECIFIC criteria - 'tensile strength of 500 MPa exceeds the requirement of 200 MPa' Use a decision matrix when asked to compare or evaluate Consider at least 4 criteria: function, cost, sustainability and one other"
+  }
+ ]
+}

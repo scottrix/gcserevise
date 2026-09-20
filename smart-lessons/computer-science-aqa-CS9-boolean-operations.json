@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS9-boolean-operations",
+ "topicName": "Boolean Operations",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs9-boolean-operations-s1",
+   "kind": "learn",
+   "title": "Boolean operations",
+   "body": "work on Boolean values (TRUE and FALSE) to produce a Boolean result. They are used to combine or invert conditions in IF statements and WHILE loops."
+  },
+  {
+   "id": "cs9-boolean-operations-s2",
+   "kind": "learn",
+   "title": "NOT",
+   "body": "reverses a Boolean value. NOT TRUE = FALSE, NOT FALSE = TRUE. It is used to invert a condition."
+  },
+  {
+   "id": "cs9-boolean-operations-s3",
+   "kind": "learn",
+   "title": "AND",
+   "body": "returns TRUE only when BOTH conditions are TRUE. If either one is FALSE, the result is FALSE."
+  },
+  {
+   "id": "cs9-boolean-operations-s4",
+   "kind": "learn",
+   "title": "OR",
+   "body": "returns TRUE when at least ONE condition is TRUE. Only returns FALSE when BOTH conditions are FALSE."
+  },
+  {
+   "id": "cs9-boolean-operations-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Complete the truth table for A AND B where A = TRUE, B = FALSE. | Evaluate: NOT (TRUE OR FALSE) | Use De Morgan's Laws to simplify: NOT (x >= 0 AND x <= 100)"
+  },
+  {
+   "id": "cs9-boolean-operations-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "TRUE AND FALSE = FALSE. Both must be TRUE for AND to return TRUE. | TRUE OR FALSE = TRUE. Then NOT TRUE = FALSE. | Using De Morgan's: NOT(x >= 0) OR NOT(x <= 100) = x < 0 OR x > 100."
+  },
+  {
+   "id": "cs9-boolean-operations-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Memorise the truth tables for NOT, AND, and OR AND needs BOTH to be TRUE; OR needs at least ONE Use brackets whenever combining AND and OR in the same condition De Morgan's: NOT(AND) becomes OR of NOTs, NOT(OR) becomes AND of NOTs Precedence: NOT first, then AND, then OR When simplifying conditions, apply De Morgan's Laws to make code clearer"
+  }
+ ]
+}

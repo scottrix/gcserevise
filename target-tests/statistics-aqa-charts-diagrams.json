@@ -1,0 +1,58 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "charts-diagrams",
+ "topicName": "Charts Diagrams",
+ "version": 1,
+ "tests": [
+  {
+   "id": "charts-diagrams-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Charts Diagrams",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "charts-diagrams-t1",
+     "type": "short-answer",
+     "question": "Q: In a pie chart, a category has frequency 15 out of a total of 60. What angle should its sector have?",
+     "correctAnswer": "Angle = (15 ÷ 60) × 360° = 0.25 × 360° = 90°.",
+     "explanation": "Answer: Angle = (15 ÷ 60) × 360° = 0.25 × 360° = 90°.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "charts-diagrams-t2",
+     "type": "short-answer",
+     "question": "Q: A stem-and-leaf diagram has stem 4 and leaves 2, 5, 7, 8. What are the actual data values if the key is 4 | 2 means 42?",
+     "correctAnswer": "The data values are 42, 45, 47, and 48.",
+     "explanation": "Answer: The data values are 42, 45, 47, and 48.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "charts-diagrams-t3",
+     "type": "short-answer",
+     "question": "Q: In a Venn diagram, set A has 20 elements, set B has 15 elements, and A ∩ B has 8 elements. How many elements are in A ∪ B?",
+     "correctAnswer": "A ∪ B = 20 + 15 – 8 = 27 elements.",
+     "explanation": "Answer: A ∪ B = 20 + 15 – 8 = 27 elements.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "charts-diagrams-t4",
+     "type": "short-answer",
+     "question": "Q: A pictogram uses one circle to represent 10 cars. How many circles represent 35 cars?",
+     "correctAnswer": "3 whole circles and one half circle, since 35 ÷ 10 = 3.5.",
+     "explanation": "Answer: 3 whole circles and one half circle, since 35 ÷ 10 = 3.5.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "skewness-outliers",
+ "topicName": "Skewness Outliers",
+ "version": 1,
+ "steps": [
+  {
+   "id": "skewness-outliers-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A symmetric distribution has its mean, median, and mode approximately equal; the left and right sides are mirror images."
+  },
+  {
+   "id": "skewness-outliers-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Positive (right) skew has a long tail to the right; the mean is greater than the median, which is greater than the mode."
+  },
+  {
+   "id": "skewness-outliers-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Negative (left) skew has a long tail to the left; the mean is less than the median, which is less than the mode."
+  },
+  {
+   "id": "skewness-outliers-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Pearson's skewness coefficient = 3 × (mean – median) ÷ standard deviation; a positive value indicates positive skew, a negative value indicates negative skew."
+  },
+  {
+   "id": "skewness-outliers-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: For a distribution with mean = 45, median = 40, and SD = 10, calculate Pearson's skewness coefficient and interpret it. | Q: A dataset has Q1 = 20, Q3 = 44. A value of 82 is recorded. Is it an outlier using the 1.5 × IQR rule? | Q: The data 5, 6, 7, 8, 100 has mean 25.2 and median 7. Why is the median more appropriate?"
+  },
+  {
+   "id": "skewness-outliers-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Skewness = 3 × (45 – 40) ÷ 10 = 1.5. This is a positive value indicating positive (right) skew. | IQR = 44 – 20 = 24. Upper boundary = 44 + 1.5 × 24 = 80. Since 82 > 80, yes it is an outlier. | The outlier 100 inflates the mean to 25.2, far from most values. The median of 7 is resistant to the outlier and better represents the centre."
+  },
+  {
+   "id": "skewness-outliers-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When describing skewness, always state the direction (positive/negative) and support it with evidence from mean vs median or from the box plot shape. Show full working when using the 1.5 × IQR rule: calculate IQR, find the boundaries, then compare each suspected outlier to the boundaries. When an outlier is found, always comment on whether it should be included or excluded and give a reason (e.g. 'it may be a recording error' or 'it is a genuine extreme value'). Pearson's skewness coefficient requires the standard deviation; if not given, you can still describe skewness qualitatively by comparing mean and median. Remember that the 2 SD rule assumes the data is approximately normally distributed; the 1.5 × IQR rule does not require this assumption."
+  }
+ ]
+}

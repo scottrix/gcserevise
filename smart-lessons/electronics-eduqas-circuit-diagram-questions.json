@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "circuit-diagram-questions",
+ "topicName": "Circuit Diagram Questions",
+ "version": 1,
+ "steps": [
+  {
+   "id": "circuit-diagram-questions-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Every component has a standard symbol: resistor (zigzag or rectangle), capacitor (parallel lines), diode (triangle with bar), transistor (arrow on emitter)."
+  },
+  {
+   "id": "circuit-diagram-questions-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Wires without a junction dot do not connect; wires that cross with a dot at the intersection are connected."
+  },
+  {
+   "id": "circuit-diagram-questions-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Draw circuit diagrams with the signal flowing from left to right and power rails at the top (positive) and bottom (0 V / ground)."
+  },
+  {
+   "id": "circuit-diagram-questions-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Label all components with their values (e.g. R1 = 10 kΩ, C1 = 100 μF) and reference designators."
+  },
+  {
+   "id": "circuit-diagram-questions-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: How do you tell whether two crossing wires in a circuit diagram are connected? | Q: Why should circuit diagrams be drawn with signal flowing from left to right? | Q: What information should be labelled on each component in a circuit diagram?"
+  },
+  {
+   "id": "circuit-diagram-questions-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "If there is a filled dot at the crossing point, the wires are connected; if there is no dot, they are not connected. | It follows standard convention, making the diagram easier to read and understand; input is on the left and output is on the right. | Each component should have a reference designator (e.g. R1, C1) and its value (e.g. 10 kΩ, 47 μF)."
+  },
+  {
+   "id": "circuit-diagram-questions-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When drawing circuits, use a ruler and leave enough space between components for clear labels. Always include junction dots where wires connect; missing dots can make your diagram ambiguous. Label input and output terminals clearly, and show the power supply connections to ICs. When interpreting a circuit, break it into functional blocks (input, processing, output) to understand its overall purpose. Use the standard WJEC symbol set; do not invent your own symbols for components."
+  }
+ ]
+}

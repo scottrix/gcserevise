@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "boolean-algebra",
+ "topicName": "Boolean Algebra",
+ "version": 1,
+ "questions": [
+  {
+   "id": "boolean-algebra-q1",
+   "type": "short-answer",
+   "question": "Q: Simplify: A + A·B",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A + A·B = A (absorption law).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "boolean-algebra-q2",
+   "type": "short-answer",
+   "question": "Q: Apply De Morgan's law to (A·B)'.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(A·B)' = A' + B' (De Morgan's first law).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "boolean-algebra-q3",
+   "type": "short-answer",
+   "question": "Q: Simplify: A·Ā",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A·Ā = 0 (complement law: a variable ANDed with its complement is always 0).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "boolean-algebra-q4",
+   "type": "short-answer",
+   "question": "Q: How many cells does a 3-variable Karnaugh map have?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "2³ = 8 cells.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "boolean-algebra-q5",
+   "type": "short-answer",
+   "question": "Q: On a K-map, what is the rule for grouping cells?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Groups must contain 1, 2, 4 or 8 adjacent cells in powers of two, and adjacent cells must differ by only one variable (Gray code ordering).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "boolean-algebra-ext",
+   "type": "extended",
+   "question": "Full-Mark Response State De Morgan's laws and show how they can be used to convert an AND-OR logic circuit into an equivalent circuit using only NAND gates. <div class=\"",
+   "marks": 4,
+   "commandWord": "state",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "De Morgan's laws state: (1) (A·B)' = A' + B' — the complement of an AND is the OR of the complements; (2) (A + B)' = A'·B' — the complement of an OR is the AND of the complements. To convert an AND-OR circuit (implementing a Sum of Products expression F = A·B + C·D) to NAND-only, note that a NAND gate with both inputs tied together acts as a NOT gate. The expression F = A·B + C·D can be double-complemented: F = ((A·B + C·D)')'. By De Morgan's first law, the inner complement becomes (A·B)' · (C·D)'. So F = ((A·B)' · (C·D)')'. This requires only NAND gates: two NAND gates compute (A·B)' and (C·D",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "De Morgan's laws state: (1) (A·B)' = A' + B' — the complement of an AND is the OR of the complements; (2) (A + B)' = A'·B' — the complement of an OR is the AND of the complements. To convert an AND-OR circuit (implementing a Sum of Products expression F = A·B + C·D) to NAND-only, note that a NAND gate with both inputs tied together acts as a NOT gate. The expression F = A·B + C·D can be double-complemented: F = ((A·B + C·D)')'. By De Morgan's first law, the inner complement becomes (A·B)' · (C·D)'. So F = ((A·B)' · (C·D)')'. This requires only NAND gates: two NAND gates compute (A·B)' and (C·D)', and a third NAND gate combines them as ((A·B)' · (C·D)')'. Thus any SoP expression can be implemented entirely with NAND gates by double-complementing and applying De Morgan's laws."
+   }
+  }
+ ]
+}

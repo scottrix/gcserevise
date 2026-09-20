@@ -1,0 +1,68 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "power-energy-circuits",
+ "topicName": "Power & Energy in Circuits",
+ "version": 1,
+ "tests": [
+  {
+   "id": "power-energy-circuits-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Power & Energy in Circuits",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "power-energy-circuits-t1",
+     "type": "short-answer",
+     "question": "Q: A 12 V supply delivers 5 A. What is the power?",
+     "correctAnswer": "P = VI = 12 × 5 = 60 W.",
+     "explanation": "Answer: P = VI = 12 × 5 = 60 W.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "power-energy-circuits-t2",
+     "type": "short-answer",
+     "question": "Q: A 10 Ω resistor carries 2 A. What power does it dissipate?",
+     "correctAnswer": "P = I²R = 2² × 10 = 40 W.",
+     "explanation": "Answer: P = I²R = 2² × 10 = 40 W.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "power-energy-circuits-t3",
+     "type": "short-answer",
+     "question": "Q: A 60 W lamp runs for 3 hours. How much energy does it consume?",
+     "correctAnswer": "E = Pt = 60 × 3 = 180 Wh = 0.18 kWh.",
+     "explanation": "Answer: E = Pt = 60 × 3 = 180 Wh = 0.18 kWh.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "power-energy-circuits-t4",
+     "type": "short-answer",
+     "question": "Q: A 3000 mAh battery powers a device drawing 150 mA. How long will it last?",
+     "correctAnswer": "Time = capacity/current = 3000/150 = 20 hours.",
+     "explanation": "Answer: Time = capacity/current = 3000/150 = 20 hours.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "power-energy-circuits-t5",
+     "type": "short-answer",
+     "question": "Q: A circuit has 100 W input power and 75 W useful output. What is the efficiency?",
+     "correctAnswer": "Efficiency = 75/100 × 100% = 75%.",
+     "explanation": "Answer: Efficiency = 75/100 × 100% = 75%.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

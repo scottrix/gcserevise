@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P18-forces-and-elasticity",
+ "topicName": "Forces And Elasticity",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p18-forces-and-elasticity-s1",
+   "kind": "learn",
+   "title": "Elastic deformation",
+   "body": "When a force is applied to an object and it changes shape, but returns to its original shape when the force is removed. Example: a spring stretching and then returning to its original length."
+  },
+  {
+   "id": "p18-forces-and-elasticity-s2",
+   "kind": "learn",
+   "title": "Plastic deformation",
+   "body": "When a force is applied to an object and it changes shape permanently — it does NOT return to its original shape when the force is removed. Example: overstretching a spring so it stays stretched."
+  },
+  {
+   "id": "p18-forces-and-elasticity-s3",
+   "kind": "learn",
+   "title": "Hooke's Law",
+   "body": "The extension of a spring is directly proportional to the force applied, provided the limit of proportionality is not exceeded."
+  },
+  {
+   "id": "p18-forces-and-elasticity-s4",
+   "kind": "learn",
+   "title": "Limit of proportionality",
+   "body": "The maximum force at which extension is still proportional to force. Beyond this point, Hooke's Law no longer applies."
+  },
+  {
+   "id": "p18-forces-and-elasticity-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "When you plot force (y-axis) against extension (x-axis) for a spring: The graph is a straight line through the origin — this shows Hooke's Law (F is proportional to e) The gradient of the straight line = spring constant k The graph curves at the limit of proportionality — beyond this, extension is no longer proportional to force If the force is removed before the limit of proportionality, the spring returns to its original length (elastic deformation) If the force exceeds the elastic limit, the spring is permanently deformed (plastic deformation) Point on graph Meaning Limit of proportionality Maximum force where F ∝ e. Beyond this, the graph curves. Elastic limit Maximum force for elastic deformation. Beyond this, plastic deformation occurs. The spring will not return to its original length."
+  },
+  {
+   "id": "p18-forces-and-elasticity-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation State Hooke's Law and explain what the limit of proportionality is. | Foundation A spring has a spring constant of 250 N/m. Calculate the force needed to extend it by 0.08 m. | Higher A force of 12 N extends a spring by 0.06 m. Calculate the spring constant and the elastic potential energy stored."
+  },
+  {
+   "id": "p18-forces-and-elasticity-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Hooke's Law states that extension is directly proportional to the force applied, provided the limit of proportionality is not exceeded. The limit of proportionality is the maximum force at which this  | F = ke = 250 × 0.08 = 20 N | k = F / e = 12 / 0.06 = 200 N/m. E e = ½ke² = ½ × 200 × 0.06² = ½ × 200 × 0.0036 = 0.36 J"
+  },
+  {
+   "id": "p18-forces-and-elasticity-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Remember: extension is not the same as length . Extension = new length − original length The gradient of the force-extension graph = spring constant k (not the other way round) Hooke's Law only applies up to the limit of proportionality — always mention this condition For elastic potential energy, use E = ½ke² or E = ½Fe — note the ½ in both In the practical, describe measuring extension (not length), plotting the graph, and finding k from the gradient The elastic limit is different from the limit of proportionality — the elastic limit is where permanent deformation begins"
+  }
+ ]
+}

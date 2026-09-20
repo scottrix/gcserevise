@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "combinational-logic",
+ "topicName": "Combinational Logic Systems",
+ "version": 1,
+ "questions": [
+  {
+   "id": "combinational-logic-q1",
+   "type": "short-answer",
+   "question": "Q: What logic gates does a half adder use?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An XOR gate for the Sum (A ⊕ B) and an AND gate for the Carry (A · B).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "combinational-logic-q2",
+   "type": "short-answer",
+   "question": "Q: How does a full adder differ from a half adder?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A full adder includes a carry-in input, allowing it to add three bits (A, B and C_in); a half adder only adds two bits.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "combinational-logic-q3",
+   "type": "short-answer",
+   "question": "Q: How many select lines does an 8-to-1 multiplexer need?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "3 select lines, since 2³ = 8.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "combinational-logic-q4",
+   "type": "short-answer",
+   "question": "Q: What does a 3-to-8 decoder do?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "It takes a 3-bit binary input and activates exactly one of its 8 output lines corresponding to that binary value.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "combinational-logic-q5",
+   "type": "short-answer",
+   "question": "Q: Write the Boolean expressions for a full adder.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Sum = A ⊕ B ⊕ C_in; Carry-out = A·B + C_in·(A ⊕ B).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "combinational-logic-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Describe the structure and operation of a full adder, and explain how multiple full adders are combined to create a multi-bit adder. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A full adder adds three single-bit inputs: A, B and a carry-in (C_in), producing a Sum and Carry-out. The Sum is computed as A ⊕ B ⊕ C_in using two XOR gates. The Carry-out is A·B + C_in·(A ⊕ B), requiring two AND gates and one OR gate. A full adder can be built from two half adders and an OR gate: the first half adder adds A and B to give a partial sum and carry, the second half adder adds the partial sum to C_in, and the OR gate combines the two carry signals. To build a multi-bit (e.g. 4-bit) ripple-carry adder, four full adders are cascaded: the carry-out of each stage connects to the carr",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A full adder adds three single-bit inputs: A, B and a carry-in (C_in), producing a Sum and Carry-out. The Sum is computed as A ⊕ B ⊕ C_in using two XOR gates. The Carry-out is A·B + C_in·(A ⊕ B), requiring two AND gates and one OR gate. A full adder can be built from two half adders and an OR gate: the first half adder adds A and B to give a partial sum and carry, the second half adder adds the partial sum to C_in, and the OR gate combines the two carry signals. To build a multi-bit (e.g. 4-bit) ripple-carry adder, four full adders are cascaded: the carry-out of each stage connects to the carry-in of the next. The least significant full adder has its C_in set to 0. The result is computed bit by bit, with carries rippling from right to left. This ripple propagation introduces delay — the worst case is when a carry must propagate through all stages — which limits the speed of large adders."
+   }
+  }
+ ]
+}

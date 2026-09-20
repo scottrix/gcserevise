@@ -1,0 +1,138 @@
+{
+ "subject": "sociology",
+ "board": "AQA",
+ "topic": "mock-exam",
+ "topicName": "Sociology Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "sociology-mock",
+   "name": "Sociology Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[What Is Sociology?] Explain the difference between sociology and common sense, using examples.",
+     "correctAnswer": "Sociology uses systematic research and evidence; common sense relies on untested assumptions. Example: common sense says 'criminals are born'; sociology shows crime is influenced by poverty, socialisation and labelling. Sociology challenges taken-for-granted assumptions.",
+     "explanation": "Sociology uses systematic research and evidence; common sense relies on untested assumptions. Example: common sense says 'criminals are born'; sociology shows crime is influenced by poverty, socialisation and labelling. Sociology challenges taken-for-granted assumptions.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[What Is Sociology?] Describe what C. Wright Mills meant by the sociological imagination.",
+     "correctAnswer": "The sociological imagination sees the connection between personal experiences and wider social forces. Example: divorce may feel like a personal failure, but rising divorce rates reflect social changes (changing gender roles, easier divorce laws, declining stigma). Mills argued we need this imaginat",
+     "explanation": "The sociological imagination sees the connection between personal experiences and wider social forces. Example: divorce may feel like a personal failure, but rising divorce rates reflect social changes (changing gender roles, easier divorce laws, declining stigma). Mills argued we need this imaginat",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[What Is Sociology?] Evaluate whether individual behaviour is shaped more by social structures or personal agency.",
+     "correctAnswer": "Structure: social institutions (family, education, economy) shape our choices - working-class children are less likely to attend university. Agency: individuals make choices within constraints - some working-class children do succeed. Evaluation: structuration theory (Giddens) argues structure and a",
+     "explanation": "Structure: social institutions (family, education, economy) shape our choices - working-class children are less likely to attend university. Agency: individuals make choices within constraints - some working-class children do succeed. Evaluation: structuration theory (Giddens) argues structure and a",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Educational Achievement & Inequality] Explain how social class affects educational achievement, using external and internal factors.",
+     "correctAnswer": "External factors: material deprivation (poverty, poor housing, less resources), cultural deprivation (less parental support, restricted language code - Bernstein), cultural capital (Bourdieu: middle-class advantage). Internal factors: labelling (Becker's ideal pupil is middle-class), streaming (work",
+     "explanation": "External factors: material deprivation (poverty, poor housing, less resources), cultural deprivation (less parental support, restricted language code - Bernstein), cultural capital (Bourdieu: middle-class advantage). Internal factors: labelling (Becker's ideal pupil is middle-class), streaming (work",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Educational Achievement & Inequality] Evaluate why girls now outperform boys in education.",
+     "correctAnswer": "Girls outperform boys because: feminism raised aspirations; GCSE coursework suited girls' learning style; more female role models; changing family patterns give girls higher expectations. Boys underachieve because: laddish subcultures reject academic work; fewer male role models; literacy is seen as",
+     "explanation": "Girls outperform boys because: feminism raised aspirations; GCSE coursework suited girls' learning style; more female role models; changing family patterns give girls higher expectations. Boys underachieve because: laddish subcultures reject academic work; fewer male role models; literacy is seen as",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Educational Achievement & Inequality] Assess the relative importance of external and internal factors in creating ethnic differences in educational achievement.",
+     "correctAnswer": "External: poverty (Bangladeshi and Pakistani groups have highest poverty rates), language barriers, family structure. Internal: teacher labelling (Gillborn: teachers have lower expectations of Black students), institutional racism (policies and practices that disadvantage ethnic minorities), ethnoce",
+     "explanation": "External: poverty (Bangladeshi and Pakistani groups have highest poverty rates), language barriers, family structure. Internal: teacher labelling (Gillborn: teachers have lower expectations of Black students), institutional racism (policies and practices that disadvantage ethnic minorities), ethnoce",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Education Policy] Describe how education policy has changed since 1944 and evaluate the impact of these changes.",
+     "correctAnswer": "1944: tripartite system (grammar, secondary modern, technical) - reproduced class inequality. 1965: comprehensives - reduced stigma but streaming reproduced inequality. 1988: marketisation (league tables, Ofsted, choice) - benefits middle-class parents. 2010+: academies and free schools - mixed evid",
+     "explanation": "1944: tripartite system (grammar, secondary modern, technical) - reproduced class inequality. 1965: comprehensives - reduced stigma but streaming reproduced inequality. 1988: marketisation (league tables, Ofsted, choice) - benefits middle-class parents. 2010+: academies and free schools - mixed evid",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Education Policy] Evaluate the impact of marketisation on educational inequality.",
+     "correctAnswer": "Marketisation: schools compete like businesses (league tables, Ofsted, open enrollment). Positive: drives up standards, gives parents choice. Negative: Smith and Noble - middle-class parents can 'work the system' (move near good schools, appeal decisions); Gewirtz - three types of chooser (privilege",
+     "explanation": "Marketisation: schools compete like businesses (league tables, Ofsted, open enrollment). Positive: drives up standards, gives parents choice. Negative: Smith and Noble - middle-class parents can 'work the system' (move near good schools, appeal decisions); Gewirtz - three types of chooser (privilege",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Education Policy] Assess whether comprehensive education has reduced inequality.",
+     "correctAnswer": "Comprehensives reduced the 11+ stigma and created more social mixing. However: streaming within comprehensives reproduced the tripartite divide (Ball: working-class in lower streams); middle-class parents still find ways to gain advantage (house buying, tutoring); the residual grammar schools in som",
+     "explanation": "Comprehensives reduced the 11+ stigma and created more social mixing. However: streaming within comprehensives reproduced the tripartite divide (Ball: working-class in lower streams); middle-class parents still find ways to gain advantage (house buying, tutoring); the residual grammar schools in som",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[School Processes & the Hidden Curriculum] Explain how labelling and streaming can affect students' educational achievement.",
+     "correctAnswer": "Labelling: teachers label students based on class/gender/ethnicity (Becker: ideal pupil is middle-class). Labels become self-fulfilling prophecies (Rosenthal & Jacobson). Streaming: working-class and ethnic minority students are placed in lower streams (Ball). Lower streams = less qualified teachers",
+     "explanation": "Labelling: teachers label students based on class/gender/ethnicity (Becker: ideal pupil is middle-class). Labels become self-fulfilling prophecies (Rosenthal & Jacobson). Streaming: working-class and ethnic minority students are placed in lower streams (Ball). Lower streams = less qualified teachers",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[School Processes & the Hidden Curriculum] Describe how pupil subcultures develop in response to streaming, using Hargreaves' and Lacey's research.",
+     "correctAnswer": "Hargreaves: students in lower streams suffer status frustration (loss of self-esteem from being labelled failures) and form anti-school subcultures to gain status through non-academic means (troublemaking, rejecting school values). Lacey: differentiation (labelling by ability) leads to polarisation ",
+     "explanation": "Hargreaves: students in lower streams suffer status frustration (loss of self-esteem from being labelled failures) and form anti-school subcultures to gain status through non-academic means (troublemaking, rejecting school values). Lacey: differentiation (labelling by ability) leads to polarisation ",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[School Processes & the Hidden Curriculum] Evaluate whether school processes are more important than external factors in explaining educational inequality.",
+     "correctAnswer": "School processes (labelling, streaming, subcultures) are important because they actively create inequality during schooling. External factors (poverty, cultural capital) set the starting point but internal factors determine the trajectory. However: external factors create the conditions for labellin",
+     "explanation": "School processes (labelling, streaming, subcultures) are important because they actively create inequality during schooling. External factors (poverty, cultural capital) set the starting point but internal factors determine the trajectory. However: external factors create the conditions for labellin",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

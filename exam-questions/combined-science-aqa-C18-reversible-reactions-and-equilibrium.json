@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C18-reversible-reactions-and-equilibrium",
+ "topicName": "Reversible Reactions And Equilibrium",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c18-reversible-reactions-and-equilibrium-q1",
+   "type": "short-answer",
+   "question": "Foundation What is a reversible reaction? Use the ⇌ symbol in your answer.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A reversible reaction is one where the products can react to re-form the original reactants. It is shown using the ⇌ symbol. For example: NH₄Cl(s) ⇌ NH₃(g) + HCl(g).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c18-reversible-reactions-and-equilibrium-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain what is meant by dynamic equilibrium. Why must it occur in a closed system?",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Dynamic equilibrium is reached when the forward and backward reactions occur at the same rate in a closed system. The concentrations of reactants and products remain constant but are not necessarily equal. It must occur in a closed system because otherwise products or reactants could escape, preventing equilibrium from being established.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c18-reversible-reactions-and-equilibrium-q3",
+   "type": "short-answer",
+   "question": "Higher The reaction 2NO₂(g) ⇌ N₂O₄(g) is exothermic in the forward direction. Predict the effect of increasing the temperature on the position of equilibrium and the yield of N₂O₄.",
+   "marks": 1,
+   "commandWord": "predict",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Increasing the temperature causes the equilibrium to shift in the endothermic direction (to absorb extra heat). The forward reaction is exothermic, so the backward reaction is endothermic. The equilibrium shifts to the left, producing more NO₂ and less N₂O₄. The yield of N₂O₄ decreases.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c18-reversible-reactions-and-equilibrium-q4",
+   "type": "short-answer",
+   "question": "Higher Explain why the Haber process uses a temperature of 450°C rather than a lower temperature that would give a higher yield of ammonia.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Lower temperature would give a higher yield of ammonia (forward reaction is exothermic). However, at low temperatures the rate of reaction is very slow, so it would take too long to produce ammonia. 450°C is a compromise between yield and rate — it gives a reasonable yield at an acceptable rate.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c18-reversible-reactions-and-equilibrium-q5",
+   "type": "short-answer",
+   "question": "Higher In the equilibrium H₂(g) + I₂(g) ⇌ 2HI(g), what effect does increasing the pressure have on the position of equilibrium? Explain your answer.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Increasing pressure has no effect on the position of equilibrium. There are 2 moles of gas on both sides (1 H₂ + 1 I₂ = 2 on the left, 2 HI on the right). Le Chatelier's principle only causes a shift when there is a difference in the number of gas moles between the two sides.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c18-reversible-reactions-and-equilibrium-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: The Haber process uses the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g). The forward reaction is exothermic. Explain why the industrial conditions of 450°C and 200 atm are a compromise, and explain the role of the iron catalyst. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The forward reaction is exothermic, so Le Chatelier's principle predicts that a lower temperature would shift equilibrium to the right, increasing the yield of ammonia. However, at low temperatures the rate of reaction is very slow, so it would take too long to produce ammonia. 450°C is a compromise — it gives a reasonable yield at an acceptable rate. Higher pressure favours the forward reaction because there are 4 moles of gas on the left and only 2 on the right, so increasing pressure shifts equilibrium to the side with fewer moles. Very high pressure would give a higher yield but is expensi",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "The forward reaction is exothermic, so Le Chatelier's principle predicts that a lower temperature would shift equilibrium to the right, increasing the yield of ammonia. However, at low temperatures the rate of reaction is very slow, so it would take too long to produce ammonia. 450°C is a compromise — it gives a reasonable yield at an acceptable rate. Higher pressure favours the forward reaction because there are 4 moles of gas on the left and only 2 on the right, so increasing pressure shifts equilibrium to the side with fewer moles. Very high pressure would give a higher yield but is expensive (requires stronger, thicker vessels) and dangerous (risk of explosions). 200 atm is a compromise between yield, cost and safety. The iron catalyst does not change the position of equilibrium or the yield — it speeds up both the forward and backward reactions equally, so equilibrium is reached faster. This makes the process more economically viable because ammonia is produced more quickly. Unreacted N₂ and H₂ are recycled to improve the overall yield. Mark scheme: 1 mark for explaining low temperature gives high yield; 1 mark for explaining why 450°C is a compromise (rate vs yield); 1 mark for explaining high pressure gives high yield; 1 mark for explaining why 200 atm is a compromise (cost/safety vs yield); 1 mark for correct explanation of catalyst (does not change position, speeds up reaching equilibrium); 1 mark for mentioning recycling of unreacted gases"
+   }
+  }
+ ]
+}

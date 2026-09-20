@@ -1,0 +1,51 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT5-mechanical-devices",
+ "topicName": "Mechanical Devices",
+ "version": 1,
+ "steps": [
+  {
+   "id": "dt5-mechanical-devices-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "First-class lever: fulcrum between effort and load — e.g. seesaw, scissors. Can provide mechanical advantage or change direction of force."
+  },
+  {
+   "id": "dt5-mechanical-devices-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Second-class lever: load between fulcrum and effort — e.g. wheelbarrow, nutcracker. Always provides mechanical advantage (force multiplier)."
+  },
+  {
+   "id": "dt5-mechanical-devices-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Third-class lever: effort between fulcrum and load — e.g. tweezers, human forearm. Provides range of motion, NOT mechanical advantage (speed multiplier)."
+  },
+  {
+   "id": "dt5-mechanical-devices-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Gears: toothed wheels transmitting rotary motion — gear ratio = driven/driver. A small driver turning a large driven gear reduces speed but increases torque."
+  },
+  {
+   "id": "dt5-mechanical-devices-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Calculate the mechanical advantage of a wheelbarrow where the load is 500 N, the effort is 100 N, and the load is 0.4 m from the fulcrum with effort at 2.0 m. | A driver gear has 10 teeth and drives a gear with 40 teeth. Calculate the gear ratio and explain what happens to speed and torque. | Explain why third-class levers do not provide mechanical advantage, using the human arm as an example."
+  },
+  {
+   "id": "dt5-mechanical-devices-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "MA = Load / Effort = 500 / 100 = 5. Or: MA = effort distance / load distance = 2.0 / 0.4 = 5. The wheelbarrow multiplies the effort force by 5 times. | Gear ratio = driven teeth / driver teeth = 40 / 10 = 4:1. The driven gear turns at 1/4 the speed of the driver but with 4x the torque. Used where high force is needed — e.g. a winch or heavy machinery | In a third-class lever, effort is between fulcrum and load — the effort arm is shorter than the load arm, so MA is always less than 1. The human bicep inserts close to the elbow (fulcrum) — large musc"
+  },
+  {
+   "id": "dt5-mechanical-devices-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Show your working in calculations — marks for method even if the final answer is wrong Draw lever diagrams and label fulcrum, effort and load Know the difference between mechanical advantage (force multiplier) and velocity ratio (speed multiplier)"
+  }
+ ]
+}

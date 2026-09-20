@@ -1,0 +1,159 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT14-electronic-and-electrical-components",
+ "topicName": "Electronic and Electrical Components",
+ "version": 1,
+ "cards": [
+  {
+   "id": "dt14-electronic-and-electrical-components-fc1",
+   "front": "Recall a key point about Electronic and Electrical Components",
+   "back": "Resistors: limit current flow - fixed (colour-coded), variable (potentiometers), thermistors (resistance changes with temperature - used in thermostats).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc2",
+   "front": "Recall a key point about Electronic and Electrical Components",
+   "back": "Capacitors: store and release electrical charge - timing circuits, smoothing power supplies. Electrolytic (high capacity, polarised) and ceramic (low capacity, non-polarised).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc3",
+   "front": "Recall a key point about Electronic and Electrical Components",
+   "back": "Transistors: electronic switches or amplifiers - small base current controls larger collector-emitter current. NPN and PNP types. Essential for logic circuits.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc4",
+   "front": "Recall a key point about Electronic and Electrical Components",
+   "back": "LEDs: light-emitting diodes - convert electrical energy to light, very efficient, polarised. Need a current-limiting resistor. RGB LEDs combine three colours.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc5",
+   "front": "Recall a key point about Electronic and Electrical Components",
+   "back": "Microcontrollers: programmable ICs (PIC, Arduino) - process sensor inputs, execute stored program, control outputs. Enable smart product behaviour without complex analogue circuits.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc6",
+   "front": "What should you know about d&t exam tips?",
+   "back": "For electronics questions: 1) Name the component, 2) State its function, 3) Explain how it works in context, 4) Use calculations where appropriate, 5) Evaluate the component choice.",
+   "tags": [
+    "d-t-exam-tips"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc7",
+   "front": "What does Resistor mean?",
+   "back": "Limits current (e.g. Resistance (Ohms), power (W))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc8",
+   "front": "What does Capacitor mean?",
+   "back": "Stores charge (e.g. Capacitance (Farads), voltage)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc9",
+   "front": "What does LED mean?",
+   "back": "Emits light (e.g. Forward voltage, current)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc10",
+   "front": "What does LDR mean?",
+   "back": "Light sensor (e.g. Resistance decreases with light)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc11",
+   "front": "What does Thermistor (NTC) mean?",
+   "back": "Temp sensor (e.g. Resistance decreases with heat)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc12",
+   "front": "What does 555 Timer IC mean?",
+   "back": "Timer/oscillator (e.g. Supply voltage, output current)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc13",
+   "front": "Watch Out!",
+   "back": "Students often make mistakes here. Wrong: A transistor is just a small switch, similar to a mechanical switch. Correct: A transistor is an electronic switch with NO moving parts - switched by electrical signal (base current). Switching speed is millions of times per second, no contact bounce, no physical wear, can amplify signals, controlled by sensors/microcontrollers. Transistors enable all mode",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc14",
+   "front": "Full-Mark Response",
+   "back": "Design an electronic circuit for an automatic nightlight that turns on an LED when ambient light drops below a threshold. Name and explain each component.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AQA D&T 8552: Written exam 50% + NEA 50%. AOs: AO1 Recall (20%), AO2 Apply (30%), AO3 Analyse & evaluate (50%). For grade 9, demonstrate detailed understanding of component functions and circuit design principles.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

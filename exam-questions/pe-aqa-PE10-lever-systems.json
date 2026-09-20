@@ -1,0 +1,111 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE10-lever-systems",
+ "topicName": "Lever Systems",
+ "version": 1,
+ "questions": [
+  {
+   "id": "pe10-lever-systems-q1",
+   "type": "short-answer",
+   "question": "Name the three components of a lever system and explain what each represents in the human body.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Fulcrum (F) = the pivot point (a joint in the body); Effort (E) = the force applied (a muscle contracting); Load (L) = the resistance being moved (body weight or external object). The lever itself is the bone.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe10-lever-systems-q2",
+   "type": "short-answer",
+   "question": "Describe the arrangement of components in a second class lever and give an example from the body.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "In a second class lever, the load is in the middle (F - L - E). The fulcrum is at one end, the load is between the fulcrum and the effort, and the effort is at the other end. Body example: plantar flexion - fulcrum at the ball of the foot, load at the ankle (body weight), effort from the gastrocnemius pulling on the heel.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe10-lever-systems-q3",
+   "type": "short-answer",
+   "question": "Explain why third class levers have a mechanical disadvantage but are still beneficial for movement.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Third class levers have a mechanical disadvantage because the effort arm is shorter than the resistance arm (MA < 1), meaning more effort is needed to move the load. However, the benefit is that the load moves through a greater range of movement and at a faster speed than the point where effort is applied, which is essential for the large, rapid movements required in most sports.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe10-lever-systems-q4",
+   "type": "short-answer",
+   "question": "Calculate the mechanical advantage if the effort arm is 15 cm and the resistance arm is 5 cm.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "MA = effort arm ÷ resistance arm = 15 ÷ 5 = 3. The lever has a mechanical advantage of 3.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe10-lever-systems-q5",
+   "type": "short-answer",
+   "question": "Identify the lever class when performing a bicep curl, explaining the position of each component.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A bicep curl is a third class lever. Fulcrum = elbow joint; Effort = biceps muscle contracting (inserts on the radius, between the elbow and hand); Load = weight in the hand. The effort is in the middle, making it a third class lever.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe10-lever-systems-q6",
+   "type": "short-answer",
+   "question": "Why is the second class lever at the ankle important for sprinting?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "During sprinting, the foot acts as a second class lever during the push-off phase. The fulcrum at the ball of the foot, the load of body weight at the ankle, and the effort from the gastrocnemius at the heel create a mechanically advantageous system. This means the relatively small force from the calf muscles can lift the entire body weight, generating the powerful propulsive force needed for spri",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

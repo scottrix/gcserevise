@@ -1,0 +1,57 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P16-newton-s-laws-and-momentum",
+ "topicName": "Newton S Laws And Momentum",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p16-newton-s-laws-and-momentum-s1",
+   "kind": "learn",
+   "title": "Newton's 1st Law",
+   "body": "If the resultant force on an object is zero, the object will remain stationary or continue moving at a constant velocity."
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-s2",
+   "kind": "learn",
+   "title": "Newton's 2nd Law",
+   "body": "The acceleration of an object is proportional to the resultant force acting on it and inversely proportional to its mass. F = ma."
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-s3",
+   "kind": "learn",
+   "title": "Newton's 3rd Law",
+   "body": "When two objects interact, they exert equal and opposite forces on each other."
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-s4",
+   "kind": "learn",
+   "title": "Inertia",
+   "body": "The tendency of an object to resist a change in its state of motion. Mass is a measure of inertia — the greater the mass, the greater the inertia."
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "When object A exerts a force on object B, object B exerts an equal and opposite force on object A. The forces are always equal in magnitude and opposite in direction . Newton's 3rd Law force pairs: The two forces must act on different objects . They must be the same type of force (e.g. both gravitational, both contact). They do NOT cancel each other because they act on different objects. Examples: You push on the ground → the ground pushes back on you (normal contact force) Rocket pushes gas downwards → gas pushes rocket upwards Earth pulls you down (gravity) → you pull Earth up (gravity on Earth)"
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation State Newton's three laws of motion. | Foundation A resultant force of 1500 N acts on a car of mass 750 kg. Calculate the acceleration. | Higher A trolley of mass 4 kg moving at 6 m/s collides with a stationary trolley of mass 2 kg. They join together. Calculate the velocity after the collision."
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "1st: If the resultant force is zero, an object stays stationary or moves at constant velocity. 2nd: F = ma, acceleration is proportional to force and inversely proportional to mass. 3rd: When two obje | a = F / m = 1500 / 750 = 2 m/s² | Momentum before = (4 × 6) + (2 × 0) = 24 kg m/s. After: (4 + 2) × v = 6v. So 6v = 24, v = 4 m/s"
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Newton's 3rd Law forces act on different objects — they don't cancel out For F = ma, make sure you use the resultant force (not just one force) In conservation of momentum questions, remember that momentum is a vector — objects moving in opposite directions have opposite signs When asked about safety features, always link back to F = Δp/Δt — increase time to decrease force Weight changes with location (different g), mass does not — this is commonly tested Inertia = resistance to change in motion. A larger mass = greater inertia = harder to accelerate"
+  }
+ ]
+}

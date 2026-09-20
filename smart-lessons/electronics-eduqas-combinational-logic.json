@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "combinational-logic",
+ "topicName": "Combinational Logic Systems",
+ "version": 1,
+ "steps": [
+  {
+   "id": "combinational-logic-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Combinational logic produces outputs determined solely by current inputs, with no memory or feedback."
+  },
+  {
+   "id": "combinational-logic-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A half adder adds two single-bit binary numbers, producing Sum (XOR) and Carry (AND)."
+  },
+  {
+   "id": "combinational-logic-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A full adder adds three bits (two inputs plus carry-in), producing Sum and Carry-out using two half adders and an OR gate."
+  },
+  {
+   "id": "combinational-logic-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Sum = A ⊕ B ⊕ C_in; Carry-out = A·B + C_in·(A ⊕ B)."
+  },
+  {
+   "id": "combinational-logic-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What logic gates does a half adder use? | Q: How does a full adder differ from a half adder? | Q: How many select lines does an 8-to-1 multiplexer need?"
+  },
+  {
+   "id": "combinational-logic-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "An XOR gate for the Sum (A ⊕ B) and an AND gate for the Carry (A · B). | A full adder includes a carry-in input, allowing it to add three bits (A, B and C_in); a half adder only adds two bits. | 3 select lines, since 2³ = 8."
+  },
+  {
+   "id": "combinational-logic-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When analysing a combinational circuit, work from inputs to outputs, writing expressions at each gate. For adder questions, clearly state Sum and Carry expressions separately. Remember: a half adder cannot handle carry-in; always use a full adder when carry propagation is needed. For MUX questions, identify the number of select lines: n = log₂(number of data inputs). Build truth tables for combinational circuits by evaluating each gate step by step."
+  }
+ ]
+}

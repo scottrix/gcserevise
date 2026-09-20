@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "analogue-signals-filters",
+ "topicName": "Analogue Signals & Filters",
+ "version": 1,
+ "steps": [
+  {
+   "id": "analogue-signals-filters-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An analogue signal varies continuously in amplitude and time; a digital signal has discrete voltage levels."
+  },
+  {
+   "id": "analogue-signals-filters-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Frequency response describes how a circuit's gain varies with frequency; it is typically plotted as a Bode diagram."
+  },
+  {
+   "id": "analogue-signals-filters-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An RC low-pass filter allows frequencies below the cut-off to pass while attenuating higher frequencies."
+  },
+  {
+   "id": "analogue-signals-filters-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An RC high-pass filter allows frequencies above the cut-off to pass while attenuating lower frequencies."
+  },
+  {
+   "id": "analogue-signals-filters-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Calculate the cut-off frequency of an RC low-pass filter with R = 1 kΩ and C = 100 nF. | Q: What is the roll-off rate of a first-order RC low-pass filter above the cut-off frequency? | Q: Explain the purpose of a voltage follower buffer in a filter circuit."
+  },
+  {
+   "id": "analogue-signals-filters-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "f_c = 1/(2πRC) = 1/(2π × 1000 × 100 × 10⁻⁹) = 1/(6.283 × 10⁻⁴) = 1592 Hz ≈ 1.6 kHz. | −20 dB/decade, which is equivalent to −6 dB/octave. | A voltage follower provides high input impedance and low output impedance, preventing the filter from being loaded by the next stage."
+  },
+  {
+   "id": "analogue-signals-filters-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always write the cut-off frequency formula f_c = 1/(2πRC) before substituting values. Convert all units to base SI (Ω, F, Hz) before calculating to avoid powers-of-ten errors. Remember: at the cut-off frequency, the output voltage is 0.707 × Vin (i.e. −3 dB), not zero. Distinguish between roll-off rates: first order = −20 dB/decade, second order = −40 dB/decade. When sketching Bode plots, mark the cut-off frequency clearly and show the −20 dB/decade slope."
+  }
+ ]
+}

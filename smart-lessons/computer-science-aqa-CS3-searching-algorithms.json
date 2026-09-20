@@ -1,0 +1,57 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS3-searching-algorithms",
+ "topicName": "Searching Algorithms",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs3-searching-algorithms-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A searching algorithm finds the position of a specific item (the target) within a data structure such as a list or array. If the item is found, the algorithm returns its position; if not, it indicates the item is not present."
+  },
+  {
+   "id": "cs3-searching-algorithms-s2",
+   "kind": "learn",
+   "title": "Linear search",
+   "body": "checks each item in the list sequentially, starting from the first element, until the target is found or the end of the list is reached. It works on both sorted and unsorted data."
+  },
+  {
+   "id": "cs3-searching-algorithms-s3",
+   "kind": "learn",
+   "title": "Binary search",
+   "body": "works on a sorted list . It compares the target with the middle element. If the target is smaller, the search continues in the left half. If larger, it continues in the right half. This process repeats until the item is found or the search space is empty."
+  },
+  {
+   "id": "cs3-searching-algorithms-s4",
+   "kind": "learn",
+   "title": "Use linear search when",
+   "body": "the list is small, the list is unsorted, or you only need to search once."
+  },
+  {
+   "id": "cs3-searching-algorithms-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Binary search works on a sorted list . It compares the target with the middle element. If the target is smaller, the search continues in the left half. If larger, it continues in the right half. This process repeats until the item is found or the search space is empty. Algorithm in Pseudo-code Binary Search Pseudo-code FUNCTION binarySearch(list, target) low ← 0 high ← LENGTH(list) - 1 WHILE low Step-by-Step Worked Example Finding 23 in the sorted list [2, 5, 8, 12, 16, 23, 38, 56, 72, 91] Target: 23 Low: 0 High: 9 Step Low High Mid list[Mid] Action 1 0 9 4 16 16 2 5 9 7 56 56 > 23 → search left half → high = 6 3 5 6 5 23 23 = 23 → Found! Return 5 Result: 23 found at index 5 after only 3 comparisons! Finding 50 in the same list (not present) Step Low High Mid list[Mid] Action 1 0 9 4 16 16 2 5 9 7 56 56 > 50 → high = 6 3 5 6 5 23 23 4 6 6 6 38 38 5 7 6 - - low > high → not found. Return -1 Result: 50 is not in the list. Only 4 comparisons needed to confirm this. Binary Search Performan"
+  },
+  {
+   "id": "cs3-searching-algorithms-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Describe how a linear search works. | Why must data be sorted before binary search can be used? | Perform a binary search for the value 72 in the list [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. Show each step."
+  },
+  {
+   "id": "cs3-searching-algorithms-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A linear search checks each item in a list one by one, starting from the first element, until the target is found or the end of the list is reached. It works on both sorted and unsorted data. | Binary search compares the target with the middle element and eliminates half the list based on whether the target is smaller or larger. This only works if the list is sorted, because the algorithm re | Step 1: low=0, high=9, mid=4, list[4]=16. 16<72, so low=5. Step 2: low=5, high=9, mid=7, list[7]=56. 56<72, so low=8. Step 3: low=8, high=9, mid=8, list[8]=72. 72=72, found at index 8."
+  },
+  {
+   "id": "cs3-searching-algorithms-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always state that binary search requires sorted data In binary search, use mid ← (low + high) DIV 2 (integer division) Show your working in step-by-step questions - draw a table with low, high, mid columns When comparing, mention time complexity: O(n) vs O(log n) Don't forget: linear search can work on unsorted data, binary search cannot Practise working through binary search step-by-step on paper - this is a common exam question"
+  }
+ ]
+}

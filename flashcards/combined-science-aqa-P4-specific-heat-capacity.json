@@ -1,0 +1,157 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P4-specific-heat-capacity",
+ "topicName": "P4 Specific Heat Capacity",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p4-specific-heat-capacity-fc1",
+   "front": "What should you know about specific heat capacity (c)?",
+   "back": "The amount of energy needed to change the temperature of 1 kg of a substance by 1 °C. Measured in joules per kilogram per degree Celsius (J/kg°C).",
+   "tags": [
+    "specific-heat-capacity-c"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc2",
+   "front": "Recall a key point about P4 Specific Heat Capacity",
+   "back": "Different substances need different amounts of energy to change their temperature by the same amount. A substance with a high SHC takes a lot of energy to heat up, but also stores a lot of energy.",
+   "tags": [
+    "key-idea"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc3",
+   "front": "What should you know about rearranging the equation?",
+   "back": "c = ΔE / (m x ΔT). m = ΔE / (c x ΔT). ΔT = ΔE / (m x c).",
+   "tags": [
+    "rearranging-the-equation"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc4",
+   "front": "What should you know about water has a very high shc?",
+   "back": "— it takes 4200 J to heat 1 kg of water by 1 °C. This means water stores a lot of thermal energy, which is why it is used in central heating systems and as a coolant.",
+   "tags": [
+    "water-has-a-very-high-shc"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc5",
+   "front": "What should you know about aim?",
+   "back": "To measure the specific heat capacity of a material (typically a metal block).",
+   "tags": [
+    "aim"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc6",
+   "front": "What should you know about water is ideal for central heating systems?",
+   "back": "because its high specific heat capacity means it can store a large amount of thermal energy and release it slowly as it flows through radiators. This makes it an effective heat transfer fluid.",
+   "tags": [
+    "water-is-ideal-for-central-hea"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc7",
+   "front": "Recall a key point about P4 Specific Heat Capacity",
+   "back": "You need to use the equation ΔE = mcΔT and rearrange it to find any unknown. You must convert units correctly (grams to kilograms, minutes to seconds) and use standard form for large energy values. Calculating energy from electrical measurements using E = VIt also requires unit conversion.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc8",
+   "front": "What should you know about answers?",
+   "back": "(a) Block A: ΔT = 18 000 ÷ (1.0 × 900) = 20 °C, final temperature = 20 + 20 = 40 °C. Block B: ΔT = 18 000 ÷ (1.0 × 450) = 40 °C, final temperature = 20 + 40 = 60 °C. (b) The actual temperature rise is less because some energy is lost to the surroundings (thermal store of the air and insulation) — not all 18 000 J goes into heating the block. Also, heat may not be distributed evenly, so the thermometer may not read the true average temperature. (c) The claim is incorrect. The thermal energy stored in each block is the same (18 000 J was supplied to each). Iron reaches a higher temperature preci",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc9",
+   "front": "What does Water mean?",
+   "back": "4200 (e.g. Needs a lot of energy to heat up — stores lots of energy)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc10",
+   "front": "What does Aluminium mean?",
+   "back": "900 (e.g. Heats up quickly with less energy)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc11",
+   "front": "What does Iron mean?",
+   "back": "450 (e.g. Heats up even more quickly)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc12",
+   "front": "What does Copper mean?",
+   "back": "385 (e.g. Heats up quickly — good for saucepans)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc13",
+   "front": "What does Lead mean?",
+   "back": "130 (e.g. Very easy to change temperature)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc14",
+   "front": "What does Oil mean?",
+   "back": "~2000 (e.g. Less than water, heats up faster than water)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p4-specific-heat-capacity-fc15",
+   "front": "Required Practical: Measuring the Specific Heat Capacity of a Material",
+   "back": "Aim: To determine the specific heat capacity of a metal block by measuring the energy supplied and the temperature change.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS13-robust-secure-programming",
+ "topicName": "Robust & Secure Programming",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs13-robust-secure-programming-s1",
+   "kind": "learn",
+   "title": "Validation",
+   "body": "is the process of checking that input data is reasonable, sensible, and within acceptable limits before it is processed. Validation does NOT check if data is accurate - only that it is acceptable."
+  },
+  {
+   "id": "cs13-robust-secure-programming-s2",
+   "kind": "learn",
+   "title": "Validation vs Verification",
+   "body": "Validation checks if data is reasonable. Verification checks if data is correct (e.g. double-entry where you type the data twice to confirm it). They are different processes!"
+  },
+  {
+   "id": "cs13-robust-secure-programming-s3",
+   "kind": "learn",
+   "title": "Authentication",
+   "body": "is the process of verifying a user's identity. The most common method is a username and password system. Authentication ensures that only authorised users can access a system."
+  },
+  {
+   "id": "cs13-robust-secure-programming-s4",
+   "kind": "learn",
+   "title": "Testing",
+   "body": "is the process of running a program with various inputs to check it works correctly. Good testing uses a range of test data to find errors."
+  },
+  {
+   "id": "cs13-robust-secure-programming-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Name three types of validation check and give an example of each. | A program asks for a test score between 0 and 100. Give examples of normal, boundary, and erroneous test data. | Explain the difference between a syntax error and a logic error."
+  },
+  {
+   "id": "cs13-robust-secure-programming-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Range check: age must be 0-120. Length check: password must be at least 8 characters. Type check: quantity must be an integer. Presence check: name cannot be empty. Format check: email must contain @. | Normal: 75 (typical valid score). Boundary: 0, 100 (just within range), -1, 101 (just outside range). Erroneous: -50, 150, \"hello\" (clearly invalid). | A syntax error is a mistake in the grammar of the programming language that prevents the program from running (e.g. missing ENDIF). A logic error is a mistake in the program's logic where it runs but "
+  },
+  {
+   "id": "cs13-robust-secure-programming-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know all six validation types: range, length, type, presence, format, lookup Remember: validation checks if data is reasonable, verification checks if it is correct For test data, always provide normal, boundary, AND erroneous examples Boundary data includes values just inside AND just outside the valid range Syntax errors prevent running; logic errors allow running but produce wrong output When debugging, use trace tables and output statements to track variable values"
+  }
+ ]
+}

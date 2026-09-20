@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "index-numbers-population-estimation",
+ "topicName": "Index Numbers Population Estimation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "index-numbers-population-estimation-q1",
+   "type": "short-answer",
+   "question": "Q: In the base year 2020, a basket of goods cost £200. In 2024 the same basket costs £260. Calculate the index number for 2024 with 2020 as the base.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Index = (260 ÷ 200) × 100 = 130. Prices have risen by 30% since the base year.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "index-numbers-population-estimation-q2",
+   "type": "short-answer",
+   "question": "Q: A weighted price index is calculated from three items. Item A: price relative 120, weight 4. Item B: price relative 105, weight 3. Item C: price relative 135, weight 1. Find the overall weighted index.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Weighted index = (4×120 + 3×105 + 1×135) ÷ (4+3+1) = (480 + 315 + 135) ÷ 8 = 930 ÷ 8 = 116.25",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "index-numbers-population-estimation-q3",
+   "type": "short-answer",
+   "question": "Q: In a capture-recapture study, 48 rabbits are caught, tagged and released. Later, 60 rabbits are caught and 12 have tags. Estimate the total rabbit population.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "N = (48 × 60) ÷ 12 = 2880 ÷ 12 = 240. The estimated population is 240 rabbits.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "index-numbers-population-estimation-q4",
+   "type": "short-answer",
+   "question": "Q: Town A has a crude death rate of 12 per 1000. Town B has a crude death rate of 8 per 1000. Why might it be misleading to conclude Town A is less healthy?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Town A may have an older population structure, which naturally leads to more deaths. Crude rates do not account for age differences. Standardised rates would allow a fairer comparison.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "index-numbers-population-estimation-q5",
+   "type": "short-answer",
+   "question": "Q: The CPI in January was 112.4 and in February was 113.6. Calculate the monthly rate of inflation.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Inflation rate = ((113.6 − 112.4) ÷ 112.4) × 100 = (1.2 ÷ 112.4) × 100 ≈ 1.07%",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "index-numbers-population-estimation-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A health researcher compares two towns. Town X has a crude death rate of 14 per 1000. Town Y has a crude death rate of 9 per 1000. After standardising for age, Town X has a standardised rate of 10 per 1000 and Town Y has a standardised rate of 11 per 1000. Explain these results. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The crude rates suggest Town X has a higher death rate (14 vs 9 per 1000), which might lead to the conclusion that Town X is less healthy. However, after standardising for age, Town Y actually has the higher standardised death rate (11 vs 10 per 1000). This reversal happens because Town X likely has a larger proportion of older residents. Older people are more likely to die, so Town X’s crude rate is inflated by its age structure. Once we adjust for this by applying the same standard age distribution to both towns, the true picture emerges: Town Y has slightly worse health outcomes when age is",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "The crude rates suggest Town X has a higher death rate (14 vs 9 per 1000), which might lead to the conclusion that Town X is less healthy. However, after standardising for age, Town Y actually has the higher standardised death rate (11 vs 10 per 1000). This reversal happens because Town X likely has a larger proportion of older residents. Older people are more likely to die, so Town X’s crude rate is inflated by its age structure. Once we adjust for this by applying the same standard age distribution to both towns, the true picture emerges: Town Y has slightly worse health outcomes when age is accounted for. This demonstrates why standardised rates are essential for fair comparisons between populations with different age structures."
+   }
+  }
+ ]
+}

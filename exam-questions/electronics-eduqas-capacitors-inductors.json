@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "capacitors-inductors",
+ "topicName": "Capacitors & Inductors",
+ "version": 1,
+ "questions": [
+  {
+   "id": "capacitors-inductors-q1",
+   "type": "short-answer",
+   "question": "Q: A 100 μF capacitor is charged to 10 V. How much charge is stored?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q = CV = 100 × 10⁻⁶ × 10 = 1 × 10⁻³ C = 1 mC.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "capacitors-inductors-q2",
+   "type": "short-answer",
+   "question": "Q: What is the time constant of a circuit with R = 10 kΩ and C = 20 μF?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "τ = RC = 10 × 10³ × 20 × 10⁻⁶ = 0.2 s.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "capacitors-inductors-q3",
+   "type": "short-answer",
+   "question": "Q: How much energy is stored in a 47 μF capacitor charged to 12 V?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "E = ½CV² = 0.5 × 47 × 10⁻⁶ × 144 = 3.384 × 10⁻³ J ≈ 3.4 mJ.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "capacitors-inductors-q4",
+   "type": "short-answer",
+   "question": "Q: What is the energy stored in a 10 mH inductor carrying 2 A?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "E = ½LI² = 0.5 × 10 × 10⁻³ × 4 = 20 × 10⁻³ J = 20 mJ.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "capacitors-inductors-q5",
+   "type": "short-answer",
+   "question": "Q: After how many time constants is a discharging capacitor considered fully discharged?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "After 5τ, the capacitor voltage has fallen to less than 1% of its initial value and is considered fully discharged.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "capacitors-inductors-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Describe how a capacitor charges and discharges in an RC circuit, explaining the significance of the time constant. <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When a capacitor charges through a resistor from a supply voltage V_s, the voltage across the capacitor rises exponentially: V_C = V_s(1 − e^(−t/RC)). The current starts at its maximum value I = V_s/R and decays exponentially. The time constant τ = RC is the time taken for the capacitor voltage to reach 63.2% of V_s. After 5τ the capacitor is effectively fully charged (~99.3%). During discharge, V_C = V_0 × e^(−t/RC), where V_0 is the initial voltage. The voltage falls to 36.8% of V_0 after one time constant and is effectively zero after 5τ. A larger R or C gives a larger time constant, meanin",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "When a capacitor charges through a resistor from a supply voltage V_s, the voltage across the capacitor rises exponentially: V_C = V_s(1 − e^(−t/RC)). The current starts at its maximum value I = V_s/R and decays exponentially. The time constant τ = RC is the time taken for the capacitor voltage to reach 63.2% of V_s. After 5τ the capacitor is effectively fully charged (~99.3%). During discharge, V_C = V_0 × e^(−t/RC), where V_0 is the initial voltage. The voltage falls to 36.8% of V_0 after one time constant and is effectively zero after 5τ. A larger R or C gives a larger time constant, meaning slower charging and discharging. The exponential behaviour occurs because the charging rate depends on the remaining voltage difference, which decreases as the capacitor charges."
+   }
+  }
+ ]
+}

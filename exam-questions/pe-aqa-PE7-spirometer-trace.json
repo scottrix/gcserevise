@@ -1,0 +1,111 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE7-spirometer-trace",
+ "topicName": "Spirometer Trace Interpretation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "pe7-spirometer-trace-q1",
+   "type": "short-answer",
+   "question": "Define tidal volume and state its approximate value at rest.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Tidal volume is the volume of air breathed in or out per breath during normal resting breathing. Its approximate value is 500 ml.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe7-spirometer-trace-q2",
+   "type": "short-answer",
+   "question": "What is the difference between inspiratory reserve volume and expiratory reserve volume?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Inspiratory reserve volume (IRV) is the extra air that can be forcibly inhaled after a normal tidal inspiration (~3,000 ml). Expiratory reserve volume (ERV) is the extra air that can be forcibly exhaled after a normal tidal expiration (~1,200 ml).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe7-spirometer-trace-q3",
+   "type": "short-answer",
+   "question": "Calculate vital capacity given: TV = 500 ml, IRV = 3,000 ml, ERV = 1,200 ml.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "VC = TV + IRV + ERV = 500 + 3,000 + 1,200 = 4,700 ml.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe7-spirometer-trace-q4",
+   "type": "short-answer",
+   "question": "Why does residual volume not change during exercise?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Residual volume does not change during exercise because it is the air that always remains in the lungs after maximum forced expiration. It cannot be expelled - its purpose is to keep the lungs partially inflated to prevent them from collapsing.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe7-spirometer-trace-q5",
+   "type": "short-answer",
+   "question": "Describe two changes you would see on a spirometer trace when someone transitions from rest to exercise.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The height (amplitude) of each wave increases because tidal volume has increased. The frequency of the waves increases (waves are closer together) because the breathing rate has increased.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe7-spirometer-trace-q6",
+   "type": "short-answer",
+   "question": "Calculate minute ventilation during exercise if tidal volume is 2,200 ml and breathing rate is 42 breaths/min.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Minute ventilation = 2,200 × 42 = 92,400 ml/min = 92.4 l/min.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

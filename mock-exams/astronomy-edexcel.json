@@ -1,0 +1,138 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "mock-exam",
+ "topicName": "Astronomy Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "astronomy-mock",
+   "name": "Astronomy Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Planetary Motion & Gravity] Q: State Kepler's three laws of planetary motion.",
+     "correctAnswer": "1st: Planets orbit in ellipses with the Sun at one focus. 2nd: A line from planet to Sun sweeps equal areas in equal times. 3rd: T² is proportional to a³.",
+     "explanation": "1st: Planets orbit in ellipses with the Sun at one focus. 2nd: A line from planet to Sun sweeps equal areas in equal times. 3rd: T² is proportional to a³.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Planetary Motion & Gravity] Q: Why do planets move faster at perihelion?",
+     "correctAnswer": "Because of Kepler's second law — equal areas are swept in equal times, so the planet must move faster when closer to the Sun to cover the same area.",
+     "explanation": "Because of Kepler's second law — equal areas are swept in equal times, so the planet must move faster when closer to the Sun to cover the same area.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Planetary Motion & Gravity] Q: State Newton's law of gravitation and explain each term.",
+     "correctAnswer": "F = GMm/r². F is the gravitational force, G is the gravitational constant, M and m are the two masses, and r is the distance between their centres.",
+     "explanation": "F = GMm/r². F is the gravitational force, G is the gravitational constant, M and m are the two masses, and r is the distance between their centres.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Star Properties & Classification] Q: What is the difference between apparent and absolute magnitude?",
+     "correctAnswer": "Apparent magnitude is how bright a star looks from Earth. Absolute magnitude is the brightness it would have if placed at a standard distance of 10 parsecs.",
+     "explanation": "Apparent magnitude is how bright a star looks from Earth. Absolute magnitude is the brightness it would have if placed at a standard distance of 10 parsecs.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Star Properties & Classification] Q: State the spectral classes from hottest to coolest.",
+     "correctAnswer": "O, B, A, F, G, K, M (mnemonic: Oh Be A Fine Girl/Guy, Kiss Me).",
+     "explanation": "O, B, A, F, G, K, M (mnemonic: Oh Be A Fine Girl/Guy, Kiss Me).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Star Properties & Classification] Q: How is stellar parallax used to measure distance?",
+     "correctAnswer": "A star's apparent shift against background stars is measured over 6 months. Distance in parsecs = 1/parallax angle in arcseconds.",
+     "explanation": "A star's apparent shift against background stars is measured over 6 months. Distance in parsecs = 1/parallax angle in arcseconds.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Stellar Lifecycle] Q: Describe the lifecycle of a star like the Sun.",
+     "correctAnswer": "Nebula → protostar → main sequence (hydrogen fusion) → red giant (helium fusion) → planetary nebula → white dwarf.",
+     "explanation": "Nebula → protostar → main sequence (hydrogen fusion) → red giant (helium fusion) → planetary nebula → white dwarf.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Stellar Lifecycle] Q: What happens to a star more than 8 times the mass of the Sun?",
+     "correctAnswer": "It becomes a red supergiant, undergoes further fusion stages up to iron, then explodes as a supernova. The core becomes a neutron star (if <3 M☉) or a black hole (if >3 M☉).",
+     "explanation": "It becomes a red supergiant, undergoes further fusion stages up to iron, then explodes as a supernova. The core becomes a neutron star (if <3 M☉) or a black hole (if >3 M☉).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Stellar Lifecycle] Q: What is the Chandrasekhar limit?",
+     "correctAnswer": "~1.4 solar masses — the maximum mass a white dwarf can have. Above this, electron degeneracy pressure cannot support it and it collapses further.",
+     "explanation": "~1.4 solar masses — the maximum mass a white dwarf can have. Above this, electron degeneracy pressure cannot support it and it collapses further.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[The Hertzsprung-Russell Diagram] Q: What are the axes of the HR diagram?",
+     "correctAnswer": "Vertical axis: luminosity or absolute magnitude (increasing upward). Horizontal axis: temperature or spectral class (decreasing left to right — hot stars on the left).",
+     "explanation": "Vertical axis: luminosity or absolute magnitude (increasing upward). Horizontal axis: temperature or spectral class (decreasing left to right — hot stars on the left).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[The Hertzsprung-Russell Diagram] Q: Where are white dwarfs found on the HR diagram and why?",
+     "correctAnswer": "Lower-left: they are hot (high temperature) but dim (low luminosity) because they are very small.",
+     "explanation": "Lower-left: they are hot (high temperature) but dim (low luminosity) because they are very small.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[The Hertzsprung-Russell Diagram] Q: Why are red giants luminous despite being cool?",
+     "correctAnswer": "Because they have enormous surface area — luminosity depends on both temperature and radius (L ∝ R²T⁴), so a very large radius compensates for low temperature.",
+     "explanation": "Because they have enormous surface area — luminosity depends on both temperature and radius (L ∝ R²T⁴), so a very large radius compensates for low temperature.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

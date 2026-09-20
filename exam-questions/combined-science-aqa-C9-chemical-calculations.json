@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C9-chemical-calculations",
+ "topicName": "C9 Chemical Calculations",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c9-chemical-calculations-q1",
+   "type": "short-answer",
+   "question": "Foundation Calculate the relative formula mass of MgCl₂. (A r : Mg = 24, Cl = 35.5)",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "M r (MgCl₂) = 24 + (2 × 35.5) = 24 + 71 = 95",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c9-chemical-calculations-q2",
+   "type": "short-answer",
+   "question": "Foundation How many moles are there in 20 g of NaOH? (A r : Na = 23, O = 16, H = 1)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "M r (NaOH) = 23 + 16 + 1 = 40. Moles = 20 ÷ 40 = 0.5 mol",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c9-chemical-calculations-q3",
+   "type": "short-answer",
+   "question": "Higher In the reaction Fe₂O₃ + 3CO → 2Fe + 3CO₂, calculate the mass of iron produced from 160 g of Fe₂O₃. (A r : Fe = 56, O = 16, C = 12)",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "M r (Fe₂O₃) = (2 × 56) + (3 × 16) = 112 + 48 = 160. Moles of Fe₂O₃ = 160 ÷ 160 = 1 mol. From the equation, 1 mol Fe₂O₃ → 2 mol Fe. Moles of Fe = 2 mol. Mass of Fe = 2 × 56 = 112 g",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c9-chemical-calculations-q4",
+   "type": "short-answer",
+   "question": "Foundation Balance the equation: Al + O₂ → Al₂O₃",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "4Al + 3O₂ → 2Al₂O₃ . Check: Left: Al=4, O=6. Right: Al=4, O=6. ✓",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c9-chemical-calculations-q5",
+   "type": "short-answer",
+   "question": "Higher 13 g of zinc reacts with excess hydrochloric acid. The equation is Zn + 2HCl → ZnCl₂ + H₂. Calculate the mass of zinc chloride produced. (A r : Zn = 65, Cl = 35.5)",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Moles of Zn = 13 ÷ 65 = 0.2 mol. From the equation, 1 mol Zn → 1 mol ZnCl₂, so moles of ZnCl₂ = 0.2 mol. M r (ZnCl₂) = 65 + (2 × 35.5) = 136. Mass of ZnCl₂ = 0.2 × 136 = 27.2 g",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c9-chemical-calculations-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain how to calculate the mass of product from a balanced symbol equation. <div class=\"",
+   "marks": 6,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "First, write the balanced symbol equation and identify the mole ratio between the known reactant and the desired product. Then calculate the M r of the known substance and use it to find the number of moles: moles = mass ÷ M r . Next, use the mole ratio from the balanced equation to calculate the moles of the product. Finally, multiply the moles of product by its M r to find the mass: mass = moles × M r . Always show working and include units. Mark scheme: 1 mark for balanced equation with mole ratio; 1 mark for calculating M r ; 1 mark for moles = mass/M r ; 1 mark for using mole ratio; 1 mar",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "First, write the balanced symbol equation and identify the mole ratio between the known reactant and the desired product. Then calculate the M r of the known substance and use it to find the number of moles: moles = mass ÷ M r . Next, use the mole ratio from the balanced equation to calculate the moles of the product. Finally, multiply the moles of product by its M r to find the mass: mass = moles × M r . Always show working and include units. Mark scheme: 1 mark for balanced equation with mole ratio; 1 mark for calculating M r ; 1 mark for moles = mass/M r ; 1 mark for using mole ratio; 1 mark for mass = moles × M r ; 1 mark for clear explanation of the sequence."
+   }
+  }
+ ]
+}

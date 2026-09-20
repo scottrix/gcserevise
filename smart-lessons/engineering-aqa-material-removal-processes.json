@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "material-removal-processes",
+ "topicName": "Material Removal Processes",
+ "version": 1,
+ "steps": [
+  {
+   "id": "material-removal-processes-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Material removal (subtractive) processes cut material away from a workpiece to create the desired shape."
+  },
+  {
+   "id": "material-removal-processes-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Sawing and shearing are basic cutting methods: sawing uses a toothed blade; shearing cuts sheet metal between two blades."
+  },
+  {
+   "id": "material-removal-processes-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Laser cutting uses a focused CO2 or fibre laser to melt, burn or vaporise material; highly accurate and capable of complex profiles."
+  },
+  {
+   "id": "material-removal-processes-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Turning produces cylindrical shapes on a lathe: the workpiece rotates and a single-point cutting tool moves along it."
+  },
+  {
+   "id": "material-removal-processes-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Calculate the spindle speed for turning a 50 mm diameter steel bar at a cutting speed of 30 m/min. | Q: Explain the difference between turning and milling. | Q: Why is laser cutting widely used for sheet metal profiles in engineering?"
+  },
+  {
+   "id": "material-removal-processes-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "N = (CS x 1000) / (pi x D) = (30 x 1000) / (3.14 x 50) = 30000 / 157 = 191 RPM. | In turning, the workpiece rotates and a stationary single-point tool moves along it (producing cylindrical shapes). In milling, the workpiece is stationary (or moves linearly) and a rotating multi-too | Laser cutting is highly accurate, produces clean edges with minimal kerf, requires no tooling (just a CAD file), cuts complex shapes easily and has a very small heat-affected zone, minimising material"
+  },
+  {
+   "id": "material-removal-processes-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Spindle speed calculations are very common: learn the formula N = (CS x 1000) / (pi x D) and always show working. Include units in every calculation step: m/min for cutting speed, mm for diameter, RPM for spindle speed. Distinguish between the cutting tool motion in turning (tool moves linearly) vs milling (cutter rotates and moves). For laser cutting questions, mention no tooling cost and CAD-driven flexibility as key advantages. When discussing CNC, highlight repeatability, accuracy and automation as the main benefits over manual machining."
+  }
+ ]
+}

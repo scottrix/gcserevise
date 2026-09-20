@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS31-tcp-ip-model",
+ "topicName": "TCP/IP Model",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs31-tcp-ip-model-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "The TCP/IP model is a conceptual framework that describes how data is transmitted over a network. It divides network communication into four layers, each with a specific role. Data passes down through the layers when being sent, and up through the layers when being received."
+  },
+  {
+   "id": "cs31-tcp-ip-model-s2",
+   "kind": "learn",
+   "title": "Function",
+   "body": "The application layer provides network services directly to user applications. It is the layer that users interact with most directly. It determines what data is sent and how it is formatted for the application."
+  },
+  {
+   "id": "cs31-tcp-ip-model-s3",
+   "kind": "learn",
+   "title": "Function",
+   "body": "The transport layer manages end-to-end communication between two devices. It ensures data is delivered reliably (TCP) or quickly (UDP), breaks data into segments, and handles flow control."
+  },
+  {
+   "id": "cs31-tcp-ip-model-s4",
+   "kind": "learn",
+   "title": "Function",
+   "body": "The internet layer handles addressing and routing of data packets across networks. It adds IP addresses to identify the source and destination, and determines the best route for packets to take across interconnected networks."
+  },
+  {
+   "id": "cs31-tcp-ip-model-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Name the four layers of the TCP/IP model from top to bottom and state the main function of each. | Explain the difference between TCP and UDP at the transport layer. Give an example of when each would be used. | Describe the process of encapsulation as data is sent down the layers."
+  },
+  {
+   "id": "cs31-tcp-ip-model-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Application (top): provides network services to applications (HTTP, SMTP). Transport: manages end-to-end delivery, reliability, and segmentation (TCP, UDP). Internet: handles addressing and routing ac | TCP is connection-oriented, reliable (uses acknowledgements and resends lost data), and ordered. UDP is connectionless, unreliable (no guarantees), and faster. TCP is used for web browsing and email w | Encapsulation: the application layer creates data and passes it down. The transport layer adds a header with port numbers (creating a segment). The internet layer adds an IP header with source and des"
+  },
+  {
+   "id": "cs31-tcp-ip-model-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know all four layers in order: Application, Transport, Internet, Link Be able to name the key protocol(s) at each layer Understand encapsulation: each layer adds a header going down, removes it going up Know when TCP vs UDP is appropriate (reliability vs speed) Remember: IP = Internet layer, HTTP/SMTP = Application layer, Ethernet/Wi-Fi = Link layer The link layer is the ONLY layer that adds a trailer (for error checking)"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS27-systems-architecture",
+ "topicName": "Systems Architecture",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs27-systems-architecture-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "The CPU (Central Processing Unit) is the brain of the computer. It processes data by executing instructions. The CPU contains the ALU, control unit, clock, and registers, connected by internal buses."
+  },
+  {
+   "id": "cs27-systems-architecture-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Registers are small, very fast memory locations inside the CPU. They hold data and instructions currently being processed. Registers are the fastest type of memory in a computer system."
+  },
+  {
+   "id": "cs27-systems-architecture-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Buses are parallel wires that connect components of the computer system, allowing data, addresses, and control signals to move between them."
+  },
+  {
+   "id": "cs27-systems-architecture-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "The fetch-decode-execute cycle (also called the instruction cycle) is the process the CPU follows for every instruction. It fetches the next instruction from memory, decodes it to understand what to do, then executes it."
+  },
+  {
+   "id": "cs27-systems-architecture-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Describe the role of each of the following CPU components: ALU, Control Unit, PC, MAR, MDR, ACC. | Explain the three stages of the fetch-decode-execute cycle. | How does increasing the number of cores affect CPU performance? Why doesn't doubling the cores double the speed?"
+  },
+  {
+   "id": "cs27-systems-architecture-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "ALU: performs arithmetic and logic operations. Control Unit: coordinates all CPU activities, decodes instructions. PC: holds the memory address of the next instruction to fetch. MAR: holds the memory  | Fetch: the address in the PC is copied to the MAR, the instruction at that address is copied to the MDR, then to the CIR, and the PC is incremented. Decode: the control unit decodes the instruction in | More cores allow the CPU to process multiple instructions simultaneously (parallel processing). However, doubling cores does not double speed because: not all tasks can be divided into parallel parts,"
+  },
+  {
+   "id": "cs27-systems-architecture-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know all CPU components and registers with their full names and functions Be able to describe the fetch-decode-execute cycle step by step Remember: PC = next instruction address, CIR = current instruction, ACC = calculation result For performance questions, discuss clock speed, cores, AND cache Never say \"more cores = double the speed\" - explain parallel processing carefully Know the direction of each bus: address = one way, data and control = both ways"
+  }
+ ]
+}

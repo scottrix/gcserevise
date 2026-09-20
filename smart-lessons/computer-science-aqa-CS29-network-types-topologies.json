@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS29-network-types-topologies",
+ "topicName": "Network Types & Topologies",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs29-network-types-topologies-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A computer network is two or more computers and other devices connected together to share data, information, and resources."
+  },
+  {
+   "id": "cs29-network-types-topologies-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A PAN is a network that connects devices within a very small range, typically within a few metres of an individual person."
+  },
+  {
+   "id": "cs29-network-types-topologies-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A LAN is a network that covers a small geographical area, such as a single building, office, school, or home. LANs are typically owned and managed by the organisation that uses them."
+  },
+  {
+   "id": "cs29-network-types-topologies-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A WAN is a network that covers a large geographical area, such as a city, country, or the whole world. WANs typically connect multiple LANs together over long distances."
+  },
+  {
+   "id": "cs29-network-types-topologies-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Define PAN, LAN, and WAN, giving an example of each. | Compare Ethernet and Wi-Fi, giving two advantages and two disadvantages of each. | Give three advantages and three disadvantages of using a computer network."
+  },
+  {
+   "id": "cs29-network-types-topologies-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "PAN: Personal Area Network, very small range (under 10m), connects personal devices like phone to headphones. LAN: Local Area Network, covers a single building/site, e.g. a school network. WAN: Wide A | Ethernet advantages: faster and more reliable, more secure (physical cable needed). Ethernet disadvantages: limited mobility, requires cabling to each device. Wi-Fi advantages: no cables needed, devic | Advantages: resource sharing (printers), file sharing between users, centralised backups. Disadvantages: security risks (malware spreads), cost of setup and maintenance, if server fails many users aff"
+  },
+  {
+   "id": "cs29-network-types-topologies-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know the three network types and their ranges For wired vs wireless, always compare security, speed, cost, and mobility Give balanced advantages AND disadvantages of networking Star topology: central hub is the single point of failure Mesh topology: no single point of failure is the key advantage The internet is a WAN, not a LAN"
+  }
+ ]
+}

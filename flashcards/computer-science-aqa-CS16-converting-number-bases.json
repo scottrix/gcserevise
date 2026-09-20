@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS16-converting-number-bases",
+ "topicName": "Converting Number Bases",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs16-converting-number-bases-fc1",
+   "front": "What should you know about you need to be able to convert between all three number bases?",
+   "back": "decimal (base 10), binary (base 2), and hexadecimal (base 16). There are six possible conversions to master.",
+   "tags": [
+    "you-need-to-be-able-to-convert"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc2",
+   "front": "What should you know about method?",
+   "back": "Write out the binary place values above each bit. Add up all the place values where there is a 1. Ignore positions with a 0.",
+   "tags": [
+    "method"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc3",
+   "front": "What should you know about method?",
+   "back": "Repeatedly divide the decimal number by 2. Record the remainder each time (it will always be 0 or 1). Read the remainders from bottom to top to get the binary number.",
+   "tags": [
+    "method"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc4",
+   "front": "What should you know about method?",
+   "back": "Find the largest power of 2 that fits into the number. Subtract it and put a 1 in that position. Repeat with the remainder. Put 0s in positions where the power doesn't fit.",
+   "tags": [
+    "method"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc5",
+   "front": "What should you know about method?",
+   "back": "Multiply each hex digit by its place value (powers of 16) and add the results together. Remember: A=10, B=11, C=12, D=13, E=14, F=15.",
+   "tags": [
+    "method"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc6",
+   "front": "What should you know about method?",
+   "back": "Repeatedly divide the decimal number by 16. Record the remainder each time. Convert remainders 10-15 to A-F. Read the remainders from bottom to top.",
+   "tags": [
+    "method"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc7",
+   "front": "What should you know about method?",
+   "back": "Group the binary digits into groups of 4, starting from the right. Convert each group of 4 bits to its hex equivalent. This works because 1 hex digit = exactly 4 binary bits.",
+   "tags": [
+    "method"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc8",
+   "front": "What should you know about tip?",
+   "back": "If the binary number doesn't divide evenly into groups of 4, add leading zeros to the left. For example, 11010 becomes 0001 1010 = 1A.",
+   "tags": [
+    "tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc9",
+   "front": "What should you know about method?",
+   "back": "Convert each hex digit to its 4-bit binary equivalent. Write the groups of 4 bits next to each other. This is the reverse of binary-to-hex.",
+   "tags": [
+    "method"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc10",
+   "front": "What should you know about tip?",
+   "back": "Always write each hex digit as exactly 4 bits, including leading zeros. So hex 3 = 0011, not just 11.",
+   "tags": [
+    "tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc11",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Binary↔Hex: group bits in fours. Pad with leading zeros on the left if needed. Memorise hex values 0-F (0-15). For addition, show carries clearly. For conversions, always show working — marks are given for method. Double-check by converting back. Label every answer with the correct base subscript.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc12",
+   "front": "What does Binary mean?",
+   "back": "Decimal (e.g. Add up positional values where bit is 1)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc13",
+   "front": "What does Decimal mean?",
+   "back": "Binary (e.g. Repeated division by 2 (or subtract largest power of 2))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc14",
+   "front": "What does Hex mean?",
+   "back": "Decimal (e.g. Multiply each digit by its place value and add)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs16-converting-number-bases-fc15",
+   "front": "What does Decimal mean?",
+   "back": "Hex (e.g. Repeated division by 16)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

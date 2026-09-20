@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "power-supplies",
+ "topicName": "Power Supplies & Regulation",
+ "version": 1,
+ "steps": [
+  {
+   "id": "power-supplies-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A power supply converts AC mains to a stable DC voltage through transformer, rectifier, smoothing and regulation stages."
+  },
+  {
+   "id": "power-supplies-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A step-down transformer reduces the AC mains voltage to a lower AC voltage suitable for the circuit."
+  },
+  {
+   "id": "power-supplies-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Half-wave rectification uses a single diode and only rectifies one half of the AC cycle, giving 50% efficiency."
+  },
+  {
+   "id": "power-supplies-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Full-wave rectification using a bridge rectifier uses four diodes and rectifies both halves of the AC cycle."
+  },
+  {
+   "id": "power-supplies-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What is the ripple frequency of a full-wave rectifier supplied from 50 Hz mains? | Q: A Zener regulator has V_in = 12 V, V_Z = 5.1 V, I_Z = 20 mA and I_load = 50 mA. Calculate R_s. | Q: Explain why a smoothing capacitor reduces ripple voltage."
+  },
+  {
+   "id": "power-supplies-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "100 Hz, because both halves of the AC cycle are rectified, doubling the frequency. | R_s = (V_in − V_Z)/(I_Z + I_load) = (12 − 5.1)/(0.02 + 0.05) = 6.9/0.07 = 98.6 Ω ≈ 100 Ω. | The capacitor charges during the rectifier peak and discharges into the load during the trough, filling in the gaps between rectified pulses."
+  },
+  {
+   "id": "power-supplies-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Draw the full power supply block diagram: transformer → rectifier → smoothing → regulator, and label each stage. For ripple calculations, always identify whether it is half-wave (f = 50 Hz) or full-wave (f = 100 Hz) before using V_ripple ≈ I/(fC). When calculating Zener series resistance, include both the Zener current and the load current in the denominator. State the purpose of each stage before attempting calculations: transformer (voltage reduction), rectifier (AC to DC), smoothing (reduce ripple), regulator (constant voltage). Remember that a Zener diode regulator requires a minimum Zener current to maintain regulation; check this condition in your answer."
+  }
+ ]
+}

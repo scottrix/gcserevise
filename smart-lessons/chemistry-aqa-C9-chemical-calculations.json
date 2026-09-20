@@ -1,0 +1,57 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C9-chemical-calculations",
+ "topicName": "C9 Chemical Calculations",
+ "version": 1,
+ "steps": [
+  {
+   "id": "c9-chemical-calculations-s1",
+   "kind": "learn",
+   "title": "Relative atomic mass (A r )",
+   "body": "The average mass of an atom of an element relative to 1/12th the mass of a carbon-12 atom. It is the number on the periodic table."
+  },
+  {
+   "id": "c9-chemical-calculations-s2",
+   "kind": "learn",
+   "title": "Relative formula mass (M r )",
+   "body": "The sum of all the relative atomic masses of the atoms in a formula. Sometimes called relative molecular mass for molecules."
+  },
+  {
+   "id": "c9-chemical-calculations-s3",
+   "kind": "learn",
+   "title": "Mole",
+   "body": "The amount of substance containing 6.02 × 10²³ particles (Avogadro's constant). One mole of any substance has a mass in grams equal to its relative formula mass."
+  },
+  {
+   "id": "c9-chemical-calculations-s4",
+   "kind": "learn",
+   "title": "Law of conservation of mass",
+   "body": "In a chemical reaction, the total mass of the reactants equals the total mass of the products. No atoms are created or destroyed."
+  },
+  {
+   "id": "c9-chemical-calculations-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Chemists measure substances in moles . One mole of any substance contains the same number of particles: 6.02 × 10²³ (Avogadro's constant). The mass of one mole of a substance (in grams) is equal to its relative formula mass. For example, one mole of carbon-12 has a mass of exactly 12 g. Substance Formula M r Mass of 1 mole Carbon C 12 12 g Water H₂O 18 18 g Sodium chloride NaCl 58.5 58.5 g Carbon dioxide CO₂ 44 44 g Calcium carbonate CaCO₃ 100 100 g Worked Example 4: Calculating moles from mass How many moles are in 88 g of carbon dioxide, CO₂? M r (CO₂) = 12 + (2 × 16) = 44 Moles = mass ÷ M r = 88 ÷ 44 = 2 mol Worked Example 5: Calculating mass from moles What is the mass of 0.5 moles of NaOH? M r (NaOH) = 23 + 16 + 1 = 40 Mass = moles × M r = 0.5 × 40 = 20 g"
+  },
+  {
+   "id": "c9-chemical-calculations-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation Calculate the relative formula mass of MgCl₂. (A r : Mg = 24, Cl = 35.5) | Foundation How many moles are there in 20 g of NaOH? (A r : Na = 23, O = 16, H = 1) | Higher In the reaction Fe₂O₃ + 3CO → 2Fe + 3CO₂, calculate the mass of iron produced from 160 g of Fe₂O₃. (A r : Fe = 56, O = 16, C = 12)"
+  },
+  {
+   "id": "c9-chemical-calculations-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "M r (MgCl₂) = 24 + (2 × 35.5) = 24 + 71 = 95 | M r (NaOH) = 23 + 16 + 1 = 40. Moles = 20 ÷ 40 = 0.5 mol | M r (Fe₂O₃) = (2 × 56) + (3 × 16) = 112 + 48 = 160. Moles of Fe₂O₃ = 160 ÷ 160 = 1 mol. From the equation, 1 mol Fe₂O₃ → 2 mol Fe. Moles of Fe = 2 mol. Mass of Fe = 2 × 56 = 112 g"
+  },
+  {
+   "id": "c9-chemical-calculations-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always show your working in calculation questions — you may get marks for method even if the final answer is wrong When calculating M r , watch out for brackets — the subscript outside a bracket multiplies everything inside it Use the correct units: g for mass, mol for moles In reacting mass calculations, always find the moles first, then use the mole ratio from the balanced equation Check your balanced equations by counting atoms on each side before doing any calculations If a gas is produced in a reaction in an open container, the mass appears to decrease — this does not break the law of conservation of mass"
+  }
+ ]
+}

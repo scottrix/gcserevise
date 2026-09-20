@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "safety-electronics",
+ "topicName": "Safety in Electronics",
+ "version": 1,
+ "steps": [
+  {
+   "id": "safety-electronics-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Voltages above 50 V AC or 120 V DC are considered hazardous; always work on low-voltage circuits when possible."
+  },
+  {
+   "id": "safety-electronics-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Isolation means disconnecting equipment from all energy sources before working on it; use lock-out/tag-out procedures."
+  },
+  {
+   "id": "safety-electronics-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An earth bond provides a low-resistance path for fault currents, causing protective devices (fuses, MCBs) to operate quickly."
+  },
+  {
+   "id": "safety-electronics-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Double-insulated equipment (Class II) has reinforced insulation and no earth connection; identified by the square-within-square symbol."
+  },
+  {
+   "id": "safety-electronics-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Why must a 1 MΩ resistor be present in an antistatic wrist strap lead? | Q: What is the purpose of fume extraction when soldering? | Q: State three hazards associated with soldering and a control measure for each."
+  },
+  {
+   "id": "safety-electronics-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "The 1 MΩ resistor limits current to a safe level if the wearer accidentally touches a live conductor, preventing electric shock while still discharging static. | Fume extraction removes rosin-based flux fumes from the breathing zone, preventing respiratory irritation and potential long-term health effects. | Burns from the iron (use stand, keep iron away from skin), fume inhalation (use fume extraction), and lead exposure (wash hands, use lead-free solder)."
+  },
+  {
+   "id": "safety-electronics-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When discussing ESD, always mention the antistatic wrist strap, mat and storage bags together. For soldering safety, cover all three hazards: burns, fumes and lead exposure. Risk assessment questions require a structured answer: identify hazards, evaluate risk, implement controls. Know the difference between Class I (earthed) and Class II (double-insulated) equipment. Mention CO2 fire extinguishers specifically for electrical fires — never water on electrical fires."
+  }
+ ]
+}

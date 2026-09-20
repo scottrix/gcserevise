@@ -1,0 +1,38 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "amplifier-circuits",
+ "topicName": "Amplifier Circuits",
+ "version": 1,
+ "tests": [
+  {
+   "id": "amplifier-circuits-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Amplifier Circuits",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "amplifier-circuits-t1",
+     "type": "short-answer",
+     "question": "Q: An amplifier has an input of 50 mV and an output of 2 V. Calculate the voltage gain and express it in dB.",
+     "correctAnswer": "Av = 2/0.05 = 40. G(dB) = 20 log₁₀(40) = 20 × 1.602 = 32.0 dB.",
+     "explanation": "Answer: Av = 2/0.05 = 40. G(dB) = 20 log₁₀(40) = 20 × 1.602 = 32.0 dB.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "amplifier-circuits-t3",
+     "type": "short-answer",
+     "question": "Q: An op-amp has a GBW of 1 MHz. If the closed-loop gain is 100, what is the bandwidth?",
+     "correctAnswer": "Bandwidth = GBW/Av = 1 × 10⁶/100 = 10 kHz.",
+     "explanation": "Answer: Bandwidth = GBW/Av = 1 × 10⁶/100 = 10 kHz.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

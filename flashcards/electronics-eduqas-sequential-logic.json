@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "sequential-logic",
+ "topicName": "Sequential Logic & Flip-Flops",
+ "version": 1,
+ "cards": [
+  {
+   "id": "sequential-logic-fc1",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "Sequential logic circuits have memory; their output depends on both current inputs and previous states.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc2",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "An SR latch (Set-Reset) is the simplest memory element, built from two cross-coupled NAND or NOR gates.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc3",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "The SR latch using NOR gates: S=1,R=0 sets Q=1; S=0,R=1 resets Q=0; S=0,R=0 holds state; S=1,R=1 is invalid.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc4",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "A D flip-flop (data) captures the D input value on the clock edge; Q follows D when clocked.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc5",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "A JK flip-flop generalises the SR latch: J=1,K=0 sets; J=0,K=1 resets; J=0,K=0 holds; J=1,K=1 toggles.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc6",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "The toggle feature of JK flip-flops (J=1,K=1) makes them ideal for building binary counters.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc7",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "Counters can be asynchronous (ripple) or synchronous; synchronous counters use a common clock for all flip-flops.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc8",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "An n-bit binary counter counts from 0 to 2ⁿ − 1 and then rolls over; a modulo-N counter resets after N.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc9",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "A shift register stores and shifts data left or right on each clock pulse; used for serial-parallel conversion.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc10",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "Flip-flops can be edge-triggered (responding to clock transitions) or level-triggered (responding while clock is high).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc11",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "A register file is a collection of flip-flops used to store multiple bits of data simultaneously.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc12",
+   "front": "Recall a key point about Sequential Logic & Flip-Flops",
+   "back": "Timing diagrams show the relationship between clock, input and output signals over time.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc13",
+   "front": "What should you know about gcse electronics exam tips — sequential logic & flip-flops?",
+   "back": "1. For Sequential Logic & Flip-Flops questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Sequential Logic & Flip-Flops, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-seq"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc14",
+   "front": "Full-Mark Response",
+   "back": "Explain the operation of SR, D and JK flip-flops, and describe how JK flip-flops are used to construct a binary counter.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "sequential-logic-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of sequential logic & flip-flops, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of sequential logic & flip-flops to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic ci",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

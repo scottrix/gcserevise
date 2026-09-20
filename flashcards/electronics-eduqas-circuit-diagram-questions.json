@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "circuit-diagram-questions",
+ "topicName": "Circuit Diagram Questions",
+ "version": 1,
+ "cards": [
+  {
+   "id": "circuit-diagram-questions-fc1",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "Every component has a standard symbol: resistor (zigzag or rectangle), capacitor (parallel lines), diode (triangle with bar), transistor (arrow on emitter).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc2",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "Wires without a junction dot do not connect; wires that cross with a dot at the intersection are connected.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc3",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "Draw circuit diagrams with the signal flowing from left to right and power rails at the top (positive) and bottom (0 V / ground).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc4",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "Label all components with their values (e.g. R1 = 10 kΩ, C1 = 100 μF) and reference designators.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc5",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "When reading a diagram, first identify the power supply, then trace the signal path from input to output.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc6",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "Op-amp symbols show the inverting (−) and non-inverting (+) inputs and the output; power supply connections are often omitted but should be included.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc7",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "A node is any point where two or more components connect; all points on a node are at the same voltage.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc8",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "Earth/ground symbols indicate the 0 V reference point; all ground symbols in a circuit are connected together.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc9",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "When drawing for an exam, use a ruler for straight lines, make junction dots clearly visible and leave space between components.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc10",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "Identify sub-circuits within a larger diagram: input stage, amplifier stage, output stage, power supply.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc11",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "Current direction is indicated by arrows on the diagram; conventional current flows from positive to negative.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc12",
+   "front": "Recall a key point about Circuit Diagram Questions",
+   "back": "Datasheet pin diagrams show the physical pin layout; circuit diagrams show the logical function regardless of physical layout.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc13",
+   "front": "What should you know about gcse electronics exam tips — circuit diagram questions?",
+   "back": "1. For Circuit Diagram Questions questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Circuit Diagram Questions, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-cir"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc14",
+   "front": "Full-Mark Response",
+   "back": "Explain the conventions used when drawing and reading circuit diagrams, and describe how to systematically interpret an unfamiliar circuit.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-diagram-questions-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of circuit diagram questions, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of circuit diagram questions to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits a",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "B5-digestive-system",
+ "topicName": "B5 Digestive System",
+ "version": 1,
+ "questions": [
+  {
+   "id": "b5-digestive-system-q1",
+   "type": "short-answer",
+   "question": "Name the enzyme that breaks down starch and state where it is produced. (2 marks)",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Amylase. It is produced in the salivary glands and the pancreas (and acts in the mouth and small intestine).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b5-digestive-system-q2",
+   "type": "short-answer",
+   "question": "Describe how bile helps the digestion of fats. (3 marks)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Bile emulsifies fats by breaking large fat drops into smaller droplets, increasing the surface area for lipase to act on. Bile also neutralises stomach acid, creating the slightly alkaline conditions that pancreatic enzymes (including lipase) need to work at their optimum rate.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b5-digestive-system-q3",
+   "type": "short-answer",
+   "question": "Explain why an enzyme denatures at high temperature. (3 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "At high temperature, the bonds holding the enzyme's structure together break. This causes the active site to change shape so the substrate can no longer fit. The enzyme is denatured and can no longer catalyse the reaction. Denaturation is permanent.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b5-digestive-system-q4",
+   "type": "short-answer",
+   "question": "Describe how villi are adapted for efficient absorption in the small intestine. (4 marks)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Villi are finger-like projections that increase the surface area for absorption. Each villus has microvilli on the surface of its cells which further increase surface area. The wall of each villus is only one cell thick, creating a short diffusion path for molecules to enter the blood. Each villus has a good blood supply (capillary network) which maintains a steep concentration gradient by carryin",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b5-digestive-system-q5",
+   "type": "short-answer",
+   "question": "A student tests a food sample with Benedict's reagent and heats it. The solution turns brick red. What does this result show? Name one other food test and describe how to carry it out. (4 marks)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The brick red result with Benedict's test shows that reducing sugars are present in a high concentration. Another food test is the iodine test for starch: add iodine solution to the food sample; a blue-black colour indicates starch is present.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b5-digestive-system-q6",
+   "type": "short-answer",
+   "question": "Explain why stomach protease has a different optimum pH to pancreatic protease. (3 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Stomach protease works in the stomach, which contains hydrochloric acid creating very acidic conditions (pH ~2). Its active site is adapted to work at this low pH. Pancreatic protease works in the small intestine, where bile neutralises acid and creates slightly alkaline conditions (pH ~7-8). Its active site is adapted to work at this higher pH. Each enzyme has evolved to work at the pH of the reg",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b5-digestive-system-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain how enzyme structure relates to function and how pH affects enzyme activity. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Enzymes have a specific active site shape that is complementary to their substrate (the lock and key model). This means each enzyme only catalyses one reaction — amylase only breaks down starch, protease only breaks down protein. The active site must match the substrate exactly for the enzyme-substrate complex to form. pH affects the shape of the active site. Each enzyme has an optimum pH at which it works best — for example, stomach protease works at pH 2 and pancreatic enzymes at pH 7–8. If the pH is too far from the optimum, the bonds holding the enzyme's shape break, the active site change",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Enzymes have a specific active site shape that is complementary to their substrate (the lock and key model). This means each enzyme only catalyses one reaction — amylase only breaks down starch, protease only breaks down protein. The active site must match the substrate exactly for the enzyme-substrate complex to form. pH affects the shape of the active site. Each enzyme has an optimum pH at which it works best — for example, stomach protease works at pH 2 and pancreatic enzymes at pH 7–8. If the pH is too far from the optimum, the bonds holding the enzyme's shape break, the active site changes shape (denaturation), and the substrate can no longer fit. This is why bile neutralises stomach acid — to create the correct pH for pancreatic enzymes in the small intestine. Mark scheme: 1 mark for active site shape; 1 mark for lock and key / complementarity; 1 mark for specificity; 1 mark for optimum pH; 1 mark for denaturation explanation; 1 mark for linking bile/pH to enzyme function"
+   }
+  }
+ ]
+}

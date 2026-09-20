@@ -1,0 +1,129 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P3-national-and-global-energy",
+ "topicName": "P3 National And Global Energy",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p3-national-and-global-energy-q1",
+   "type": "short-answer",
+   "question": "Foundation Define the terms \"renewable energy resource\" and \"non-renewable energy resource\". Give two examples of each.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A renewable energy resource is one that will never run out (or can be replaced within a human lifetime). Examples: solar, wind. A non-renewable resource is one that will run out because it is being used faster than it can be replaced. Examples: coal, natural gas.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3-national-and-global-energy-q2",
+   "type": "short-answer",
+   "question": "Foundation Give two reasons why the UK still uses fossil fuels for electricity generation.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Fossil fuels are reliable — they can produce electricity on demand, unlike some renewables. 2) The infrastructure already exists (power stations, gas pipelines) so it is cheaper to continue using them than to build new renewable infrastructure.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3-national-and-global-energy-q3",
+   "type": "short-answer",
+   "question": "Foundation Explain why tidal energy is more reliable than wind energy.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Tidal energy is more reliable because tides are predictable and happen twice daily regardless of weather. Wind energy depends on weather conditions — if there is no wind, no electricity is generated.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3-national-and-global-energy-q4",
+   "type": "short-answer",
+   "question": "Higher A country currently generates 60% of its electricity from coal. It aims to reduce this to 10% in 20 years. Suggest which renewable sources it could use instead and discuss the challenges it would face.",
+   "marks": 1,
+   "commandWord": "suggest",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The country could use wind and solar (both quick to build, no CO₂), hydroelectric (reliable backup), and possibly nuclear (reliable, no CO₂, but expensive and slow to build). Challenges: (1) renewables are intermittent, so need energy storage or backup; (2) building new infrastructure is expensive; (3) some renewables need specific geography (hydro needs rivers/hills); (4) nuclear takes many years",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3-national-and-global-energy-q5",
+   "type": "short-answer",
+   "question": "Higher Explain why nuclear power is classified as non-renewable even though it does not produce CO₂ during operation.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Nuclear power is non-renewable because it uses uranium fuel, which is a finite resource that will eventually run out. It cannot be replaced within a human lifetime. Even though it does not produce CO₂, the fuel supply is limited, which is the definition of non-renewable.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3-national-and-global-energy-q6",
+   "type": "short-answer",
+   "question": "Higher Compare the environmental impact of hydroelectric power and wind power. Include both positive and negative effects.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hydroelectric positive: no CO₂ emissions, reliable. Negative: building dams floods valleys, destroys habitats, displaces communities. Wind power positive: no CO₂, minimal land impact (land can still be farmed). Negative: visual pollution, noise, can kill birds and bats, unreliable without wind. Both are renewable and do not produce CO₂ during operation.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3-national-and-global-energy-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Evaluate whether the UK should switch entirely to renewable energy sources for electricity generation. Include arguments for and against, and give a justified conclusion. <div class=\"",
+   "marks": 6,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Arguments for switching entirely to renewables: (1) Fossil fuels are finite and will eventually run out, so we must transition to sustainable sources. (2) Burning fossil fuels releases CO₂, which is the main cause of climate change — renewables produce no CO₂ during operation. (3) Using renewables improves energy security by reducing dependence on imported fossil fuels, making the UK less vulnerable to supply disruptions and price changes. (4) Renewable technology is improving and costs are falling. Arguments against switching entirely: (1) Wind and solar are intermittent — they cannot generat",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Arguments for switching entirely to renewables: (1) Fossil fuels are finite and will eventually run out, so we must transition to sustainable sources. (2) Burning fossil fuels releases CO₂, which is the main cause of climate change — renewables produce no CO₂ during operation. (3) Using renewables improves energy security by reducing dependence on imported fossil fuels, making the UK less vulnerable to supply disruptions and price changes. (4) Renewable technology is improving and costs are falling. Arguments against switching entirely: (1) Wind and solar are intermittent — they cannot generate electricity when there is no wind or sunlight, so backup power or large-scale energy storage is needed. (2) Building new renewable infrastructure is very expensive and takes time. (3) Some renewables cause environmental damage — hydroelectric dams flood valleys and destroy habitats. (4) Nuclear power provides reliable, low-carbon base-load electricity and may still be needed. Conclusion: The UK should aim to generate most electricity from renewables but a complete switch is currently impractical due to reliability concerns. A mix of renewables with some nuclear or gas backup, plus improved energy storage technology, would be a more realistic and balanced approach. Mark scheme: 1 mark — at least one argument for renewables (finite resources); 1 mark — at least one argument for renewables (climate change); 1 mark — at least one argument against (intermittency); 1 mark — at least one argu"
+   }
+  }
+ ]
+}

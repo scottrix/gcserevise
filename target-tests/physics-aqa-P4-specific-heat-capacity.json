@@ -1,0 +1,38 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P4-specific-heat-capacity",
+ "topicName": "P4 Specific Heat Capacity",
+ "version": 1,
+ "tests": [
+  {
+   "id": "p4-specific-heat-capacity-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on P4 Specific Heat Capacity",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "p4-specific-heat-capacity-t2",
+     "type": "short-answer",
+     "question": "Foundation Calculate the energy needed to heat 3 kg of water from 15 °C to 85 °C. c = 4200 J/kg°C.",
+     "correctAnswer": "ΔE = m x c x ΔT = 3 x 4200 x (85 - 15) = 3 x 4200 x 70 = 882 000 J = 882 kJ.",
+     "explanation": "Answer: ΔE = m x c x ΔT = 3 x 4200 x (85 - 15) = 3 x 4200 x 70 = 882 000 J = 882 kJ.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p4-specific-heat-capacity-t4",
+     "type": "short-answer",
+     "question": "Higher A 1.5 kg block of iron (c = 450 J/kg°C) is heated from 20 °C to 120 °C. Calculate the energy supplied.",
+     "correctAnswer": "ΔE = m x c x ΔT = 1.5 x 450 x (120 - 20) = 1.5 x 450 x 100 = 67 500 J = 67.5 kJ.",
+     "explanation": "Answer: ΔE = m x c x ΔT = 1.5 x 450 x (120 - 20) = 1.5 x 450 x 100 = 67 500 J = 67.5 kJ.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

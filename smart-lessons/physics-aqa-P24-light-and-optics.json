@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P24-light-and-optics",
+ "topicName": "Light And Optics",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p24-light-and-optics-s1",
+   "kind": "learn",
+   "title": "Reflection",
+   "body": "When a wave bounces off a surface. The angle of incidence equals the angle of reflection. Both angles are measured from the normal."
+  },
+  {
+   "id": "p24-light-and-optics-s2",
+   "kind": "learn",
+   "title": "Refraction",
+   "body": "The change in direction of a wave when it changes speed as it passes from one medium to another at an angle. The wave bends towards the normal when slowing down and away from the normal when speeding up."
+  },
+  {
+   "id": "p24-light-and-optics-s3",
+   "kind": "learn",
+   "title": "Normal",
+   "body": "An imaginary line perpendicular to the surface at the point of incidence. All angles are measured from the normal, NOT from the surface."
+  },
+  {
+   "id": "p24-light-and-optics-s4",
+   "kind": "learn",
+   "title": "Refractive index (n)",
+   "body": "A measure of how much a material slows down light. n = speed of light in vacuum ÷ speed of light in material. Higher n = more bending."
+  },
+  {
+   "id": "p24-light-and-optics-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Example 1: Calculating refractive index Light enters glass from air at an angle of incidence of 40 degrees. The angle of refraction is 25 degrees. Calculate the refractive index of the glass. Solution: n = sin i / sin r = sin(40) / sin(25) = 0.643 / 0.423 = 1.52 Example 2: Calculating critical angle A material has a refractive index of 1.5. Calculate its critical angle. Solution: sin C = 1 / n = 1 / 1.5 = 0.667 C = sin⁻¹(0.667) = 41.8 degrees Example 3: Using Snell's law Light travels from glass (n = 1.5) into air (n = 1.0) at an angle of incidence of 30 degrees. Calculate the angle of refraction. Solution: n1 sin theta1 = n2 sin theta2 1.5 × sin(30) = 1.0 × sin(theta2) 1.5 × 0.5 = sin(theta2) sin(theta2) = 0.75 theta2 = sin⁻¹(0.75) = 48.6 degrees Example 4: Magnification calculation An object is 2 cm tall. A convex lens produces an image that is 6 cm tall. Calculate the magnification. Solution: Magnification = image height / object height = 6 / 2 = 3 (image is 3 times larger) Example "
+  },
+  {
+   "id": "p24-light-and-optics-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation State the law of reflection. | Foundation Explain the difference between specular and diffuse reflection. | Higher Light enters water from air at an angle of incidence of 35 degrees. The angle of refraction is 26 degrees. Calculate the refractive index of water."
+  },
+  {
+   "id": "p24-light-and-optics-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Q1: The angle of incidence equals the angle of reflection, where both angles are measured from the normal. | Q2: Specular reflection occurs on smooth surfaces — all rays reflect in the same direction, producing a clear image (e.g. a mirror). Diffuse reflection occurs on rough surfaces — the uneven surface me | Q3: n = sin i / sin r = sin(35) / sin(26) = 0.574 / 0.438 = 1.31"
+  },
+  {
+   "id": "p24-light-and-optics-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always measure angles from the normal , NOT from the surface. This is the most common error in ray diagrams. When drawing refraction diagrams, draw the normal first as a dashed line. Remember: TIR requires BOTH conditions — dense-to-less-dense AND angle greater than critical angle. Check both in your answer. For magnification, remember: no units, and a value between 0 and 1 means the image is diminished (smaller). Convex lenses produce real images when the object is beyond the focal point — the image is inverted and can be projected onto a screen. Concave lenses ALWAYS produce virtual, upright, diminished images — the rays diverge but appear to come from a point on the same side as the object. When calculating refractive index, the larger the value of n, the more the light bends and the sl"
+  }
+ ]
+}

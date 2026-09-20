@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS21-representing-sound",
+ "topicName": "Representing Sound",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs21-representing-sound-q1",
+   "type": "short-answer",
+   "question": "Calculate the file size in MB of a 5-minute stereo recording sampled at 44,100 Hz with 16-bit resolution.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "File size = 44,100 x 16 x 300 x 2 = 423,360,000 bits = 52,920,000 bytes = 50.47 MB",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs21-representing-sound-q2",
+   "type": "short-answer",
+   "question": "Explain why a higher sampling rate produces better quality sound.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A higher sampling rate takes more samples per second, which means the digital recording captures more detail of the original sound wave. This means the recreated sound is closer to the original, especially for higher frequency sounds.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs21-representing-sound-q3",
+   "type": "short-answer",
+   "question": "What is the minimum sampling rate needed to accurately record a sound with a maximum frequency of 15,000 Hz?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "At least 30,000 Hz (2 x 15,000), according to Nyquist's Theorem.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs21-representing-sound-q4",
+   "type": "short-answer",
+   "question": "A 60-second mono recording at 22,050 Hz with 16-bit resolution produces a file of how many kilobytes?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "File size = 22,050 x 16 x 60 x 1 = 21,168,000 bits = 2,646,000 bytes = 2,584 KB",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs21-representing-sound-q5",
+   "type": "short-answer",
+   "question": "What is the difference between sampling rate and sample resolution?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Sampling rate is how many samples are taken per second (measured in Hz). Sample resolution is how many bits are used to represent each sample (measured in bits). Rate affects time-based accuracy; resolution affects amplitude accuracy.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs21-representing-sound-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A 3-minute stereo audio recording uses a sample rate of 44,100 Hz and a bit depth of 16 bits. Calculate the file size in megabytes. [3 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Duration = 3 × 60 = 180 seconds Samples per channel = 44,100 × 180 = 7,938,000 Bits per sample = 16 Number of channels = 2 (stereo) File size in bits = 44,100 × 180 × 16 × 2 = 254,016,000 bits File size in bytes = 254,016,000 ÷ 8 = 31,752,000 bytes File size in MB = 31,752,000 ÷ 1,048,576 = 30.28 MB The file size is approximately 30.28 MB.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Duration = 3 × 60 = 180 seconds Samples per channel = 44,100 × 180 = 7,938,000 Bits per sample = 16 Number of channels = 2 (stereo) File size in bits = 44,100 × 180 × 16 × 2 = 254,016,000 bits File size in bytes = 254,016,000 ÷ 8 = 31,752,000 bytes File size in MB = 31,752,000 ÷ 1,048,576 = 30.28 MB The file size is approximately 30.28 MB."
+   }
+  }
+ ]
+}

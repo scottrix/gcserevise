@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Dashboard - GCSE Revise</title>
+<meta name="description" content="Track your revision progress: flashcards due, mock exam scores and completed lessons. Saved in your browser - no account, no tracking.">
+<link rel="stylesheet" href="style.css">
+<style>
+.db-tiles { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.5rem 0; }
+.db-tile { flex: 1 1 140px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; text-align: center; }
+.db-tile .db-num { font-size: 1.8rem; font-weight: 700; color: var(--accent); }
+.db-tile .db-label { font-size: 0.8rem; color: var(--text-secondary); }
+.db-row { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.6rem 0; border-bottom: 1px solid var(--border); }
+.db-row:last-child { border-bottom: none; }
+.db-sub { display: block; font-size: 0.8rem; color: var(--text-secondary); }
+.db-right { display: flex; align-items: center; gap: 0.75rem; white-space: nowrap; }
+.db-due { color: var(--accent); font-weight: 600; }
+.db-btn { display: inline-block; padding: 0.3rem 0.8rem; border-radius: 6px; background: var(--accent); color: #fff; text-decoration: none; font-size: 0.85rem; }
+.db-done { color: var(--success, #2ecc71); font-weight: 600; }
+.db-pass { color: var(--success, #2ecc71); font-weight: 700; }
+.db-fail { color: var(--error, #e74c3c); font-weight: 700; }
+.db-empty { color: var(--text-secondary); }
+</style>
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="/" class="logo">📚 GCSE Revise</a>
+<nav class="nav">
+<a href="index.html#subjects">Subjects</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="https://scottrix.github.io/">Scottrix</a>
+</nav>
+<div class="header-actions">
+<button id="theme-toggle" class="theme-btn" title="Toggle theme">🌙</button>
+</div>
+</div>
+</header>
+<main class="topic-content">
+<nav class="breadcrumb"><a href="index.html">Home</a> <span>&rsaquo;</span> <span>Dashboard</span></nav>
+<article class="topic-header">
+<h1>📊 Your Dashboard</h1>
+<p class="topic-desc">Progress is saved in your browser - no account, no tracking, nothing uploaded.</p>
+</article>
+
+<div class="db-tiles">
+<div class="db-tile"><div class="db-num" id="tile-due">-</div><div class="db-label">Flashcards due today</div></div>
+<div class="db-tile"><div class="db-num" id="tile-learned">-</div><div class="db-label">Cards learned</div></div>
+<div class="db-tile"><div class="db-num" id="tile-mastered">-</div><div class="db-label">Mastered (21+ days)</div></div>
+<div class="db-tile"><div class="db-num" id="tile-lessons">-</div><div class="db-label">Lessons completed</div></div>
+<div class="db-tile"><div class="db-num" id="tile-mocks">-</div><div class="db-label">Mocks attempted</div></div>
+</div>
+<p class="db-sub" id="other-note"></p>
+
+<section class="section">
+<h2>🔄 Review today</h2>
+<div id="review-queue"><p class="db-empty">Loading&hellip;</p></div>
+</section>
+
+<section class="section">
+<h2>⏱ Mock exam scores</h2>
+<div id="mock-table"><p class="db-empty">Loading&hellip;</p></div>
+</section>
+
+<section class="section">
+<h2>🎓 Lessons completed</h2>
+<div id="lesson-list"><p class="db-empty">Loading&hellip;</p></div>
+</section>
+</main>
+<footer class="site-footer">
+<p>GCSE Revise - Free revision for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>&copy; 2025 | <a href="https://github.com/scottrix/gcserevise">GitHub</a> | <a href="privacy.html">Privacy Policy</a> | <a href="mailto:gcserevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '\u{1F319}'; localStorage.setItem('gcserevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '\u2600\uFE0F'; localStorage.setItem('gcserevise-theme', 'light');
+}
+});
+if (localStorage.getItem('gcserevise-theme') === 'light') {{
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '\u2600\uFE0F';
+}}</script>
+<script>(function(){
+'use strict';
+var KEY_FC = 'gcserevise_flashcard_progress';
+var KEY_MOCK = 'gcserevise_mock_best';
+var KEY_LESSON = 'gcserevise_lesson_done';
+function read(k){ try { return JSON.parse(localStorage.getItem(k) || '{}'); } catch(e){ return {}; } }
+function el(id){ return document.getElementById(id); }
+function esc(s){ return String(s==null?'':s).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>'); }
+fetch('dashboard-data.json').then(function(r){ return r.ok ? r.json() : {topics:{}}; }).catch(function(){ return {topics:{}}; }).then(function(data){
+  var topics = (data && data.topics) || {};
+  var fc = read(KEY_FC);
+  var now = Date.now();
+  var due = 0, learned = 0, mastered = 0, other = 0;
+  var byTopic = {};
+  Object.keys(fc).forEach(function(id){
+    var p = fc[id]; if (!p) return;
+    var isDue = p.nextReview && p.nextReview <= now;
+    if (isDue) due++;
+    if ((p.repetitions || 0) >= 1) learned++;
+    if ((p.interval || 0) >= 21) mastered++;
+    var slug = id.replace(/-(fc|q|t|exam\d+)-?\d*$/, '').replace(/-(fc|q|t)$/, '');
+    var info = topics[slug];
+    if (info) {
+      var g = byTopic[slug] = byTopic[slug] || { info: info, due: 0, total: 0 };
+      g.total++;
+      if (isDue) g.due++;
+    } else { other++; }
+  });
+  el('tile-due').textContent = due;
+  el('tile-learned').textContent = learned;
+  el('tile-mastered').textContent = mastered;
+  var lessons = read(KEY_LESSON);
+  var lessonKeys = Object.keys(lessons);
+  el('tile-lessons').textContent = lessonKeys.length;
+  var mocks = read(KEY_MOCK);
+  var mockKeys = Object.keys(mocks);
+  el('tile-mocks').textContent = mockKeys.length;
+
+  // Daily review queue
+  var queue = Object.keys(byTopic).map(function(s){ return byTopic[s]; })
+    .filter(function(g){ return g.due > 0; })
+    .sort(function(a, b){ return b.due - a.due; });
+  var q = el('review-queue');
+  if (!queue.length) {
+    q.innerHTML = '<p class="db-empty">Nothing due right now - come back tomorrow, or start a new topic from the Subjects list.</p>';
+  } else {
+    var html = '';
+    queue.slice(0, 15).forEach(function(g){
+      html += '<div class="db-row"><div><strong>' + esc(g.info.t) + '</strong>' +
+        '<span class="db-sub">' + esc(g.info.s) + '</span></div>' +
+        '<div class="db-right"><span class="db-due">' + g.due + ' due</span>' +
+        '<a class="db-btn" href="' + esc(g.info.u) + '">Review &rarr;</a></div></div>';
+    });
+    q.innerHTML = html;
+  }
+  if (other) el('other-note').textContent =
+    other + ' card' + (other === 1 ? '' : 's') + ' from other sites on this domain are also tracked.';
+
+  // Mocks
+  var mt = el('mock-table');
+  if (!mockKeys.length) {
+    mt.innerHTML = '<p class="db-empty">No mock attempts yet - open a subject page and try a timed paper.</p>';
+  } else {
+    var rows = mockKeys.map(function(k){ return { k: k, pct: mocks[k] }; })
+      .sort(function(a, b){ return b.pct - a.pct; })
+      .map(function(e){
+        var parts = e.k.split('|');
+        var label = parts.map(function(p){ return p.replace(/-/g, ' '); }).filter(Boolean).join(' - ');
+        var pass = e.pct >= 60;
+        return '<tr><td>' + esc(label) + '</td><td class="' + (pass ? 'db-pass' : 'db-fail') + '">' +
+          e.pct + '%</td></tr>';
+      }).join('');
+    mt.innerHTML = '<table class="comparison-table"><tr><th>Paper</th><th>Best score</th></tr>' + rows + '</table>';
+  }
+
+  // Lessons
+  var lt = el('lesson-list');
+  if (!lessonKeys.length) {
+    lt.innerHTML = '<p class="db-empty">No guided lessons completed yet - every topic page has one.</p>';
+  } else {
+    var items = lessonKeys.sort(function(a, b){ return lessons[b] - lessons[a]; }).slice(0, 8)
+      .map(function(k){
+        var label = k.split('|').map(function(p){ return p.replace(/-/g, ' '); }).filter(Boolean).join(' - ');
+        return '<div class="db-row"><div>' + esc(label) + '</div><div class="db-right"><span class="db-done">&check; done</span></div></div>';
+      }).join('');
+    lt.innerHTML = items + (lessonKeys.length > 8 ? '<p class="db-sub">+' + (lessonKeys.length - 8) + ' more</p>' : '');
+  }
+});
+})();
+</script>
+<script src="sidebar.js"></script>
+</body>
+</html>

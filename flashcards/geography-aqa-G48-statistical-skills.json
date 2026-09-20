@@ -1,0 +1,159 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G48-statistical-skills",
+ "topicName": "Statistical Skills and Data Analysis",
+ "version": 1,
+ "cards": [
+  {
+   "id": "g48-statistical-skills-fc1",
+   "front": "Recall a key point about Statistical Skills and Data Analysis",
+   "back": "Measures of central tendency identify the \"typical\" or \"middle\" value in a dataset. The three main measures are the mean, median, and mode.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc2",
+   "front": "Recall a key point about Statistical Skills and Data Analysis",
+   "back": "The IQR measures the spread of the middle 50% of data, removing the influence of the lowest 25% and highest 25% of values. It is more robust than the range because it ignores extreme values.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc3",
+   "front": "Recall a key point about Statistical Skills and Data Analysis",
+   "back": "A box and whisker plot visually displays the median, quartiles, and range of a dataset. The \"box\" shows the IQR (Q1 to Q3), the line inside the box is the median, and the \"whiskers\" extend to the minimum and maximum values (or to 1.5 × IQR from the box, with outliers shown as individual points).",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc4",
+   "front": "What should you know about common error?",
+   "back": "Using the new value as the denominator instead of the original. The percentage change must always be calculated relative to the ORIGINAL (starting) value, not the final value. Also, be careful to distinguish between percentage change and percentage point change (e.g. unemployment rising from 5% to 7% is a 2 percentage point increase, but a 40% increase relative to the original 5%).",
+   "tags": [
+    "common-error"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc5",
+   "front": "Recall a key point about Statistical Skills and Data Analysis",
+   "back": "A percentile is the value below which a given percentage of data falls. The 25th percentile (P25) is the value below which 25% of data lies - this is the same as Q1. The 50th percentile (P50) is the median. The 75th percentile (P75) = Q3.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc6",
+   "front": "Recall a key point about Statistical Skills and Data Analysis",
+   "back": "Bivariate data involves two variables that are measured for each observation. The purpose is to investigate whether a relationship (correlation) exists between the two variables. In geography, bivariate data is commonly displayed on scatter graphs.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc7",
+   "front": "What should you know about key rule?",
+   "back": "Correlation does NOT prove causation. Two variables may be strongly correlated because of a third underlying factor. Always consider whether the relationship makes geographical sense before claiming one variable causes the other.",
+   "tags": [
+    "key-rule"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc8",
+   "front": "Recall a key point about Statistical Skills and Data Analysis",
+   "back": "Interpolation is estimating a value WITHIN the range of existing data by reading off the line of best fit. It is generally reliable because the trend has been established by observed data.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc9",
+   "front": "Recall a key point about Statistical Skills and Data Analysis",
+   "back": "Extrapolation is estimating a value OUTSIDE (beyond) the range of existing data by extending the line of best fit. It is less reliable because it assumes the trend continues in the same way, which may not be true.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc10",
+   "front": "What should you know about exam technique?",
+   "back": "When comparing two datasets in geography, always compare BOTH the central tendency (mean/median) AND the spread (range/IQR). For example: \"Area A has a higher mean environmental quality score (32 vs 21) but also greater variation (IQR 18 vs 10), suggesting quality is generally better but less consistent than Area B.\"",
+   "tags": [
+    "exam-technique"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc11",
+   "front": "What should you know about geography exam tips — statistical skills and data analysis?",
+   "back": "1. For Statistical Skills and Data Analysis questions, always name specific case studies with factual detail 2. Use geographical terminology precisely (e.g. specific processes, not vague descriptions) 3. Consider social, economic and environmental perspectives in your evaluations 4. Support your points about Statistical Skills and Data Analysis with data, statistics or named examples 5. For 'assess' or 'evaluate' questions, reach a clear judgement supported by evidence",
+   "tags": [
+    "geography-exam-tips-statistica"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc12",
+   "front": "What does Mean mean?",
+   "back": "When data has no extreme outliers; for further calculations (e.g. Average rainfall across a year; mean GNI per head for a region)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc13",
+   "front": "What does Median mean?",
+   "back": "When data has outliers that would distort the mean (e.g. Typical house price in an area (a few mansions would distort the mean))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc14",
+   "front": "What does Mode mean?",
+   "back": "For categorical data; finding the most common value (e.g. Most common rock type; most frequent wind direction)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "g48-statistical-skills-fc15",
+   "front": "What does Where mean?",
+   "back": "Within the data range (e.g. Outside the data range)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

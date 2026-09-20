@@ -1,0 +1,138 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "mock-exam",
+ "topicName": "Economics Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "economics-mock",
+   "name": "Economics Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Economic Activity] Explain the difference between a need and a want, giving two examples of each.",
+     "correctAnswer": "A need is essential for survival (food, water, shelter); a want is desirable but not essential (smartphone, holiday). Needs are limited but wants are unlimited, creating the basic economic problem of scarcity. Examples of needs: clean water, basic food. Examples of wants: designer trainers, streamin",
+     "explanation": "A need is essential for survival (food, water, shelter); a want is desirable but not essential (smartphone, holiday). Needs are limited but wants are unlimited, creating the basic economic problem of scarcity. Examples of needs: clean water, basic food. Examples of wants: designer trainers, streamin",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Economic Activity] Describe the three key economic decisions that all societies must make.",
+     "correctAnswer": "What to produce: society must decide which goods and services to make with limited resources. How to produce: choosing methods (labour-intensive vs capital-intensive). For whom to produce: how output is distributed — who benefits from the goods and services.",
+     "explanation": "What to produce: society must decide which goods and services to make with limited resources. How to produce: choosing methods (labour-intensive vs capital-intensive). For whom to produce: how output is distributed — who benefits from the goods and services.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Economic Activity] Analyse how the three main economic groups interact in a market economy.",
+     "correctAnswer": "Consumers create demand by spending income on goods/services, signalling to producers what to make. Producers respond by supplying goods/services, employing workers, and investing in capital. Government sets rules (regulations, taxes), provides public services, and redistributes income. In a market ",
+     "explanation": "Consumers create demand by spending income on goods/services, signalling to producers what to make. Producers respond by supplying goods/services, employing workers, and investing in capital. Government sets rules (regulations, taxes), provides public services, and redistributes income. In a market ",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Intermarket Relationships] Explain the difference between complementary and substitute goods, giving two examples of each.",
+     "correctAnswer": "Complements: used together, price rise for one reduces demand for other (cars + petrol, smartphones + cases). Substitutes: alternatives, price rise for one increases demand for other (butter + margarine, train + bus).",
+     "explanation": "Complements: used together, price rise for one reduces demand for other (cars + petrol, smartphones + cases). Substitutes: alternatives, price rise for one increases demand for other (butter + margarine, train + bus).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Intermarket Relationships] Describe what is meant by derived demand and explain how it links product and factor markets.",
+     "correctAnswer": "Derived demand means demand for a factor comes from demand for the product. E.g. demand for software developers comes from demand for apps. If housing demand falls, demand for construction workers falls. This links product markets to factor markets.",
+     "explanation": "Derived demand means demand for a factor comes from demand for the product. E.g. demand for software developers comes from demand for apps. If housing demand falls, demand for construction workers falls. This links product markets to factor markets.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Intermarket Relationships] Analyse how a significant rise in oil prices might affect other UK markets.",
+     "correctAnswer": "Oil is an input for many industries: transport costs rise, manufacturing costs increase, consumers spend more on petrol (reducing disposable income for other goods), demand for electric vehicles rises. A single market change propagates through interconnected markets.",
+     "explanation": "Oil is an input for many industries: transport costs rise, manufacturing costs increase, consumers spend more on petrol (reducing disposable income for other goods), demand for electric vehicles rises. A single market change propagates through interconnected markets.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Market Failure] Explain what is meant by market failure and give two examples.",
+     "correctAnswer": "Market failure is when the free market produces an inefficient allocation of resources. Examples: (1) Over-production of pollution (negative externality — factories produce too much because they don't pay for the environmental damage). (2) Under-provision of education (positive externality — the mar",
+     "explanation": "Market failure is when the free market produces an inefficient allocation of resources. Examples: (1) Over-production of pollution (negative externality — factories produce too much because they don't pay for the environmental damage). (2) Under-provision of education (positive externality — the mar",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Market Failure] Describe the difference between a positive externality and a negative externality, giving one example of each.",
+     "correctAnswer": "Negative externality: a cost imposed on third parties (e.g. second-hand smoke harms non-smokers; noise from an airport affects local residents). Positive externality: a benefit to third parties (e.g. vaccination protects the community through herd immunity; a well-educated workforce benefits all emp",
+     "explanation": "Negative externality: a cost imposed on third parties (e.g. second-hand smoke harms non-smokers; noise from an airport affects local residents). Positive externality: a benefit to third parties (e.g. vaccination protects the community through herd immunity; a well-educated workforce benefits all emp",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Market Failure] Evaluate whether taxation is the most effective way for government to reduce negative externalities from pollution.",
+     "correctAnswer": "Taxation (e.g. carbon tax) raises production costs, shifting supply left and reducing output towards the socially optimal level. It internalises the externality. Advantages: market-based, generates revenue, lets firms choose how to reduce pollution. Disadvantages: difficult to set the correct tax ra",
+     "explanation": "Taxation (e.g. carbon tax) raises production costs, shifting supply left and reducing output towards the socially optimal level. It internalises the externality. Advantages: market-based, generates revenue, lets firms choose how to reduce pollution. Disadvantages: difficult to set the correct tax ra",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Interest Rates, Saving and Borrowing] Explain how a rise in interest rates affects consumers' decisions to save, borrow, and spend.",
+     "correctAnswer": "Saving: more attractive (higher returns on savings accounts). Borrowing: more expensive (higher loan and mortgage repayments, reducing disposable income). Spending: falls (higher mortgage payments leave less for discretionary spending; saving becomes relatively more attractive than spending). Overal",
+     "explanation": "Saving: more attractive (higher returns on savings accounts). Borrowing: more expensive (higher loan and mortgage repayments, reducing disposable income). Spending: falls (higher mortgage payments leave less for discretionary spending; saving becomes relatively more attractive than spending). Overal",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Interest Rates, Saving and Borrowing] Explain how a fall in interest rates might affect a firm's decision to invest in new equipment.",
+     "correctAnswer": "Lower interest rates make borrowing cheaper, so a firm is more likely to take out a loan for new equipment because: loan repayments are lower, the return on investment is more likely to exceed borrowing costs, and the opportunity cost of investing (forgone interest on savings) is lower. This stimula",
+     "explanation": "Lower interest rates make borrowing cheaper, so a firm is more likely to take out a loan for new equipment because: loan repayments are lower, the return on investment is more likely to exceed borrowing costs, and the opportunity cost of investing (forgone interest on savings) is lower. This stimula",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Interest Rates, Saving and Borrowing] Evaluate whether the Bank of England should raise interest rates when inflation is rising.",
+     "correctAnswer": "Arguments for raising rates: reduces spending and borrowing, cooling demand-pull inflation; makes saving attractive, reducing money supply growth; signals the Bank is serious about controlling inflation. Arguments against: higher mortgage costs hurt households; business investment falls, reducing fu",
+     "explanation": "Arguments for raising rates: reduces spending and borrowing, cooling demand-pull inflation; makes saving attractive, reducing money supply growth; signals the Bank is serious about controlling inflation. Arguments against: higher mortgage costs hurt households; business investment falls, reducing fu",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P8-static-electricity",
+ "topicName": "P8 Static Electricity",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p8-static-electricity-q1",
+   "type": "short-answer",
+   "question": "Foundation Explain how static electricity builds up when two insulators are rubbed together. State which particles move.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When two insulators are rubbed together, friction transfers electrons from one material to the other. The material that gains electrons becomes negatively charged; the material that loses electrons becomes positively charged. Only electrons move — protons do not move because they are in the nucleus.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p8-static-electricity-q2",
+   "type": "short-answer",
+   "question": "Foundation State the rule for attraction and repulsion of charges. Give one example of each.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Like charges repel, unlike charges attract. Repulsion example: two negatively charged balloons pushed close together will repel each other. Attraction example: a negatively charged balloon and a positively charged duster will attract each other.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p8-static-electricity-q3",
+   "type": "short-answer",
+   "question": "Foundation Explain what earthing means and why it is used when refuelling aircraft.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Earthing means connecting the object to the ground with a conducting wire. When an aircraft is earthed before refuelling, any static charge that builds up flows safely to the ground through the earth wire. This prevents charge building up to a dangerous level where a spark could jump and ignite fuel vapour.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p8-static-electricity-q4",
+   "type": "short-answer",
+   "question": "Higher Describe the electric field around a single positive charge. State how the field lines show the direction of force and the strength of the field.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The electric field around a positive point charge is a radial field. The field lines point outwards from the charge in all directions (away from positive). The direction of the field lines shows the direction of the force on a positive charge placed in the field. The closer the field lines are to each other (near the charge), the stronger the field. Further away, the field lines spread out and the",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p8-static-electricity-q5",
+   "type": "short-answer",
+   "question": "Higher Explain how an electrostatic paint sprayer gives a more even coat than a conventional sprayer. Refer to charge, repulsion and attraction in your answer.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "In an electrostatic sprayer, the paint droplets are given a static charge as they leave the nozzle. Because like charges repel, the charged droplets repel each other and spread out into a fine, even mist. The target (e.g. a car body) is earthed, so the oppositely charged droplets are attracted to it. This means paint wraps around the target, reaching the back and edges, giving a more even coat wit",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p8-static-electricity-q6",
+   "type": "short-answer",
+   "question": "Higher A factory produces flammable solvents. Suggest two ways to reduce the risk of a static spark causing a fire, and explain how each works.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Earth all machinery and containers — this provides a conducting path to the ground so static charge cannot build up; any charge flows safely away. 2) Humidify the air — water vapour in the air helps charge to leak away from charged surfaces, preventing large build-ups of static charge. Both methods reduce the risk of a spark that could ignite the flammable solvent vapour.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p8-static-electricity-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain the dangers of static electricity during the refuelling of an aircraft and how earthing prevents these dangers. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "During refuelling, fuel flows through the pipe at high speed. Friction between the fuel and the pipe causes electrons to transfer, building up static charge on the fuel and the aircraft body. If the aircraft is not earthed, this charge cannot flow away and the potential difference between the aircraft and the ground increases. If the potential difference becomes large enough, electrons can jump across the gap between the aircraft and the fuel nozzle or the ground. This creates a spark, which ionises the air and allows a sudden flow of charge. Fuel vapour is highly flammable, so the spark could",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "During refuelling, fuel flows through the pipe at high speed. Friction between the fuel and the pipe causes electrons to transfer, building up static charge on the fuel and the aircraft body. If the aircraft is not earthed, this charge cannot flow away and the potential difference between the aircraft and the ground increases. If the potential difference becomes large enough, electrons can jump across the gap between the aircraft and the fuel nozzle or the ground. This creates a spark, which ionises the air and allows a sudden flow of charge. Fuel vapour is highly flammable, so the spark could ignite it, causing a fire or explosion. Earthing prevents this by connecting the aircraft to the ground with a conducting wire before refuelling begins. This provides a path for any static charge to flow safely to the ground, preventing charge from building up to a dangerous level. The fuel nozzle is also bonded to the aircraft so there is no potential difference between them, eliminating the risk of a spark. Mark scheme: 1 mark — friction causes charge build-up during refuelling, 1 mark — charge builds up if not earthed / PD increases, 1 mark — large PD causes a spark, 1 mark — spark ignites flammable fuel vapour, 1 mark — earthing provides conducting path to ground, 1 mark — charge flows away safely so no dangerous build-up"
+   }
+  }
+ ]
+}

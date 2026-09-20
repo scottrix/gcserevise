@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "safety-electronics",
+ "topicName": "Safety in Electronics",
+ "version": 1,
+ "questions": [
+  {
+   "id": "safety-electronics-q1",
+   "type": "short-answer",
+   "question": "Q: Why must a 1 MΩ resistor be present in an antistatic wrist strap lead?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The 1 MΩ resistor limits current to a safe level if the wearer accidentally touches a live conductor, preventing electric shock while still discharging static.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "safety-electronics-q2",
+   "type": "short-answer",
+   "question": "Q: What is the purpose of fume extraction when soldering?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Fume extraction removes rosin-based flux fumes from the breathing zone, preventing respiratory irritation and potential long-term health effects.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "safety-electronics-q3",
+   "type": "short-answer",
+   "question": "Q: State three hazards associated with soldering and a control measure for each.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Burns from the iron (use stand, keep iron away from skin), fume inhalation (use fume extraction), and lead exposure (wash hands, use lead-free solder).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "safety-electronics-q4",
+   "type": "short-answer",
+   "question": "Q: What is double-insulated (Class II) equipment and how is it identified?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Double-insulated equipment has reinforced insulation without needing an earth bond; it is identified by a square-within-a-square symbol on the casing.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "safety-electronics-q5",
+   "type": "short-answer",
+   "question": "Q: Describe the key steps in a risk assessment for an electronics workshop.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Identify hazards (soldering, ESD, mains electricity), evaluate who could be harmed and how, implement control measures (fume extraction, antistatic precautions, isolation procedures), and review regularly.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "safety-electronics-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain the safety precautions necessary in an electronics workshop, covering electrical safety, ESD protection, soldering safety and risk assessment. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Electrical safety requires isolation of equipment from mains before any repair work, using lock-out/tag-out procedures to prevent accidental re-energisation. Class I equipment must have a verified earth bond, while Class II (double-insulated) equipment relies on reinforced insulation. PAT testing ensures portable equipment remains safe. ESD protection prevents static discharge from damaging MOSFETs and CMOS ICs: wear an antistatic wrist strap (with 1 MΩ resistor to earth), work on an antistatic mat and store sensitive components in antistatic bags. Soldering safety involves three main hazards:",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Electrical safety requires isolation of equipment from mains before any repair work, using lock-out/tag-out procedures to prevent accidental re-energisation. Class I equipment must have a verified earth bond, while Class II (double-insulated) equipment relies on reinforced insulation. PAT testing ensures portable equipment remains safe. ESD protection prevents static discharge from damaging MOSFETs and CMOS ICs: wear an antistatic wrist strap (with 1 MΩ resistor to earth), work on an antistatic mat and store sensitive components in antistatic bags. Soldering safety involves three main hazards: burns from the 300–400 °C iron (always return it to its stand), fume inhalation (use local fume extraction and avoid breathing rosin fumes) and lead exposure from 60/40 solder (wash hands after use, consider lead-free alternatives). A risk assessment systematically identifies these hazards, evaluates the severity and likelihood of harm, specifies who is at risk, implements control measures (extraction, PPE, training, safe procedures) and records findings for review. Regular reviews ensure controls remain effective and new hazards are addressed promptly."
+   }
+  }
+ ]
+}

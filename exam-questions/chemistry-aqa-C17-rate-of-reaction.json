@@ -1,0 +1,112 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C17-rate-of-reaction",
+ "topicName": "Rate Of Reaction",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c17-rate-of-reaction-q1",
+   "type": "short-answer",
+   "question": "Foundation State four factors that affect the rate of a chemical reaction.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Temperature, concentration, surface area, and the presence of a catalyst.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c17-rate-of-reaction-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain, using collision theory, why increasing the concentration of a reactant increases the rate of reaction.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Increasing concentration means more particles per unit volume. This means the particles collide more frequently. More frequent collisions means more successful collisions per second, so the rate of reaction increases.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c17-rate-of-reaction-q3",
+   "type": "short-answer",
+   "question": "Higher A reaction produces 45 cm³ of gas in 90 seconds. Calculate the mean rate. Give the unit.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Rate = 45 ÷ 90 = 0.5 cm³/s",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c17-rate-of-reaction-q4",
+   "type": "short-answer",
+   "question": "Higher Explain why a catalyst increases the rate of a reaction but is not used up.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A catalyst provides an alternative reaction pathway with a lower activation energy. This means a greater proportion of collisions have enough energy to be successful, so there are more successful collisions per second. The catalyst is not used up because it is regenerated at the end of the reaction.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c17-rate-of-reaction-q5",
+   "type": "short-answer",
+   "question": "Foundation In the sodium thiosulfate practical, why is it important to use the same volume of solution and the same size cross each time?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "These must be kept the same to ensure a fair test — only the concentration should be changed. Different volumes or cross sizes would introduce other variables that could affect the results.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c17-rate-of-reaction-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain, using collision theory, why increasing the temperature increases the rate of a chemical reaction. Include ideas about both collision frequency and collision energy. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When the temperature is increased, the reactant particles gain more kinetic energy. This means the particles move faster, so they collide more frequently with each other — there are more collisions per second. However, the key effect is that a greater proportion of the particles now have energy equal to or greater than the activation energy. This means that a higher percentage of the collisions are successful — they have enough energy to react on impact. The combination of more frequent collisions AND a greater proportion of successful collisions means that the number of successful collisions ",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "When the temperature is increased, the reactant particles gain more kinetic energy. This means the particles move faster, so they collide more frequently with each other — there are more collisions per second. However, the key effect is that a greater proportion of the particles now have energy equal to or greater than the activation energy. This means that a higher percentage of the collisions are successful — they have enough energy to react on impact. The combination of more frequent collisions AND a greater proportion of successful collisions means that the number of successful collisions per second increases significantly, so the rate of reaction increases. This is why temperature has a greater effect on rate than concentration or surface area — those factors only increase collision frequency, not collision energy. Mark scheme: 1 mark for particles gain kinetic energy; 1 mark for increased collision frequency; 1 mark for greater proportion exceed activation energy; 1 mark for more successful collisions per second; 1 mark for linking to increased rate; 1 mark for comparison with concentration/surface area (only affect frequency)"
+   }
+  }
+ ]
+}

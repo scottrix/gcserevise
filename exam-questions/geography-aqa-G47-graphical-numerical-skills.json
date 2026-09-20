@@ -1,0 +1,111 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G47-graphical-numerical-skills",
+ "topicName": "Graphical and Numerical Skills",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g47-graphical-numerical-skills-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between a simple bar chart and a compound bar chart, giving a geographical example of when each would be used.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A simple bar chart has one bar per category showing a single value (e.g. GNI per head for different countries). A compound bar chart divides each bar into sections showing subcategories (e.g. energy mix for each country, with coal, gas, nuclear, and renewable as sections within each bar). Simple bars are best for comparing one variable; compound bars are best when you want to compare both totals a",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g47-graphical-numerical-skills-q2",
+   "type": "short-answer",
+   "question": "A country's population is 32 million and its area is 256,000 km². Calculate its population density.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Population density = Total population ÷ Total area = 32,000,000 ÷ 256,000 = 125 people per km².",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g47-graphical-numerical-skills-q3",
+   "type": "short-answer",
+   "question": "Describe the characteristics of a population pyramid for a country in Stage 4 of the DTM.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A Stage 4 population pyramid has a narrow base (low birth rate), relatively straight sides (low death rate across all ages), a wide middle section (large working-age population), and a widening top (increasing elderly population and high life expectancy). The shape is more rectangular/concave than a Stage 2 or 3 pyramid. An ageing population creates pressure on pensions and healthcare. Examples: U",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g47-graphical-numerical-skills-q4",
+   "type": "short-answer",
+   "question": "Explain the difference between a choropleth map and a dot map. When might each be more appropriate?",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A choropleth map shades areas by value (darker = higher), good for showing density or averages across defined areas (e.g. population density by region). A dot map uses dots to represent individual occurrences or quantities at specific locations, good for showing actual distribution (e.g. where people live). Choropleth is better for continuous data averaged over areas; dot maps are better for showi",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g47-graphical-numerical-skills-q5",
+   "type": "short-answer",
+   "question": "A country's GDP per capita increased from $2,400 to $3,600 over ten years. Calculate the percentage increase.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Percentage increase = ((3,600 − 2,400) ÷ 2,400) × 100 = (1,200 ÷ 2,400) × 100 = 0.5 × 100 = 50% increase.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g47-graphical-numerical-skills-q6",
+   "type": "short-answer",
+   "question": "Explain the difference between interpolation and extrapolation on a scatter graph, and which is more reliable.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Interpolation estimates a value within the range of existing data points on a scatter graph - reading off the line of best fit between two known values. Extrapolation extends the line of best fit beyond the data range to estimate values for which no data exists. Interpolation is more reliable because it is based on the established trend within the known data range, whereas extrapolation assumes th",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P21-wave-properties",
+ "topicName": "Wave Properties",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p21-wave-properties-q1",
+   "type": "short-answer",
+   "question": "Foundation A wave has a frequency of 20 Hz and a wavelength of 0.5 m. Calculate its wave speed.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q1: v = f × λ = 20 × 0.5 = 10 m/s",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p21-wave-properties-q2",
+   "type": "short-answer",
+   "question": "Foundation A sound wave travels at 340 m/s and has a frequency of 680 Hz. Calculate its wavelength.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q2: λ = v ÷ f = 340 ÷ 680 = 0.5 m",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p21-wave-properties-q3",
+   "type": "short-answer",
+   "question": "Higher A wave has a period of 0.025 s. Calculate its frequency.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q3: f = 1 ÷ T = 1 ÷ 0.025 = 40 Hz",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p21-wave-properties-q4",
+   "type": "short-answer",
+   "question": "Higher Describe the difference between a transverse wave and a longitudinal wave. Give one example of each.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q4: In a transverse wave, vibrations are perpendicular to the direction of energy transfer (e.g. light waves). In a longitudinal wave, vibrations are parallel to the direction of energy transfer (e.g. sound waves). Transverse waves have crests and troughs; longitudinal waves have compressions and rarefactions.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p21-wave-properties-q5",
+   "type": "short-answer",
+   "question": "Foundation A student measures 8 complete wavelengths in a ripple tank over a distance of 48 cm. The frequency is 5 Hz. Calculate the wave speed.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q5: λ = 48 cm ÷ 8 = 6 cm = 0.06 m. v = f × λ = 5 × 0.06 = 0.3 m/s",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p21-wave-properties-q6",
+   "type": "short-answer",
+   "question": "Higher Explain how you would measure the speed of water waves using a ripple tank.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q6: Set up the ripple tank with a vibrating bar to produce straight waves. Use a strobe light or mark a point on the screen below. Measure the wavelength by measuring across several wave shadows and dividing by the number of wavelengths. Measure the frequency by counting the number of waves passing a point in a set time (or read from the signal generator). Then calculate wave speed using v = f × λ",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p21-wave-properties-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Describe how you would measure the speed of water waves in a ripple tank. Explain how your method reduces uncertainty in the result. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Set up a ripple tank with a vibrating bar to produce straight waves and a strobe light below. Measure the wavelength by placing a ruler on the screen below the tank and measuring across several wave crests (e.g. 5 wavelengths), then dividing the total distance by the number of wavelengths. This reduces uncertainty compared to measuring a single wavelength. Measure the frequency by counting the number of waves passing a fixed point in 10 seconds and dividing by 10. Counting over a longer time reduces timing uncertainty. Alternatively, read the frequency directly from the signal generator connec",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Set up a ripple tank with a vibrating bar to produce straight waves and a strobe light below. Measure the wavelength by placing a ruler on the screen below the tank and measuring across several wave crests (e.g. 5 wavelengths), then dividing the total distance by the number of wavelengths. This reduces uncertainty compared to measuring a single wavelength. Measure the frequency by counting the number of waves passing a fixed point in 10 seconds and dividing by 10. Counting over a longer time reduces timing uncertainty. Alternatively, read the frequency directly from the signal generator connected to the vibrator. Finally, calculate the wave speed using v = f × λ. Repeat the measurements and calculate a mean to improve reliability. Mark scheme: 1 mark — use ripple tank with vibrating bar, 1 mark — measure multiple wavelengths and divide to find λ (reduces uncertainty), 1 mark — measure frequency by counting waves over a set time or reading from signal generator, 1 mark — calculate v = f × λ, 1 mark — explain why measuring multiple wavelengths reduces uncertainty, 1 mark — repeat measurements and calculate mean"
+   }
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "amplifier-circuits",
+ "topicName": "Amplifier Circuits",
+ "version": 1,
+ "questions": [
+  {
+   "id": "amplifier-circuits-q1",
+   "type": "short-answer",
+   "question": "Q: An amplifier has an input of 50 mV and an output of 2 V. Calculate the voltage gain and express it in dB.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Av = 2/0.05 = 40. G(dB) = 20 log₁₀(40) = 20 × 1.602 = 32.0 dB.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "amplifier-circuits-q2",
+   "type": "short-answer",
+   "question": "Q: A summing amplifier has Rf = 100 kΩ and three inputs each with R = 20 kΩ. If V1 = 1 V, V2 = 2 V, V3 = 0.5 V, find Vout.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Vout = −Rf(V1/R1 + V2/R2 + V3/R3) = −100(1/20 + 2/20 + 0.5/20) = −100 × 0.175 = −17.5 V.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "amplifier-circuits-q3",
+   "type": "short-answer",
+   "question": "Q: An op-amp has a GBW of 1 MHz. If the closed-loop gain is 100, what is the bandwidth?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Bandwidth = GBW/Av = 1 × 10⁶/100 = 10 kHz.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "amplifier-circuits-q4",
+   "type": "short-answer",
+   "question": "Q: State two advantages of using negative feedback in an amplifier.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Negative feedback stabilises gain against component variation and increases bandwidth (also reduces distortion and noise).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "amplifier-circuits-q5",
+   "type": "short-answer",
+   "question": "Q: What is the input impedance of an inverting amplifier with Rin = 22 kΩ?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The input impedance equals Rin = 22 kΩ, because the inverting input is a virtual earth.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "amplifier-circuits-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain the concept of gain-bandwidth product and describe how a summing amplifier combines multiple input signals. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The gain-bandwidth product (GBW) is a constant for a given op-amp, representing the frequency at which the open-loop gain falls to unity (0 dB). For any closed-loop configuration, the product of gain and bandwidth equals the GBW: as closed-loop gain increases, bandwidth decreases proportionally. For example, a 741 op-amp with GBW = 1 MHz has a bandwidth of 1 MHz at unity gain, 100 kHz at Av = 10, and 10 kHz at Av = 100. A summing amplifier is an inverting op-amp circuit with multiple input resistors connected to the inverting input. Each input voltage is weighted by the ratio Rf/Ri, and the ou",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "The gain-bandwidth product (GBW) is a constant for a given op-amp, representing the frequency at which the open-loop gain falls to unity (0 dB). For any closed-loop configuration, the product of gain and bandwidth equals the GBW: as closed-loop gain increases, bandwidth decreases proportionally. For example, a 741 op-amp with GBW = 1 MHz has a bandwidth of 1 MHz at unity gain, 100 kHz at Av = 10, and 10 kHz at Av = 100. A summing amplifier is an inverting op-amp circuit with multiple input resistors connected to the inverting input. Each input voltage is weighted by the ratio Rf/Ri, and the output is the inverted sum: Vout = −Rf(V1/R1 + V2/R2 + … + Vn/Rn). When all input resistors are equal (Ri = R), the output is simply −(Rf/R)(V1 + V2 + … + Vn), making it a true analogue adder. This circuit is used in audio mixing, DACs and analogue computation."
+   }
+  }
+ ]
+}

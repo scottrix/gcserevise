@@ -1,0 +1,94 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS12-subroutines",
+ "topicName": "Subroutines",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs12-subroutines-q1",
+   "type": "short-answer",
+   "question": "What is the difference between a procedure and a function?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A procedure performs a task but does not return a value. A function performs a calculation and returns a value using the RETURN statement. Functions are used in expressions; procedures are called as standalone statements.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs12-subroutines-q2",
+   "type": "short-answer",
+   "question": "Write a function called calculatePerimeter that takes the length and width of a rectangle and returns the perimeter.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "FUNCTION calculatePerimeter(length, width) perimeter ← 2 * (length + width) RETURN perimeter ENDFUNCTION",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs12-subroutines-q3",
+   "type": "short-answer",
+   "question": "Explain the difference between a parameter and an argument.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Parameters are the variable names listed in the subroutine definition (placeholders). Arguments are the actual values passed to the subroutine when it is called. For example, in FUNCTION add(a, b), a and b are parameters; when calling add(3, 5), the values 3 and 5 are arguments.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs12-subroutines-q4",
+   "type": "short-answer",
+   "question": "What is the advantage of using local variables instead of global variables?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Local variables can only be accessed within the subroutine where they are declared, which prevents accidental modification from other parts of the program. This reduces bugs and makes the code more predictable and maintainable.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs12-subroutines-q5",
+   "type": "short-answer",
+   "question": "Write a procedure called displayGrade that takes a score and outputs \"Pass\" if the score is 50 or above, or \"Fail\" otherwise.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "PROCEDURE displayGrade(score) IF score >= 50 THEN OUTPUT \"Pass\" ELSE OUTPUT \"Fail\" ENDIF ENDPROCEDURE",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "new-emerging-technologies",
+ "topicName": "New & Emerging Technologies",
+ "version": 1,
+ "steps": [
+  {
+   "id": "new-emerging-technologies-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Automation uses control systems to operate equipment with minimal human intervention, improving consistency and reducing cost."
+  },
+  {
+   "id": "new-emerging-technologies-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Industrial robots perform repetitive, precise or hazardous tasks: welding, painting, assembly and material handling."
+  },
+  {
+   "id": "new-emerging-technologies-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "CAD/CAM integration links design directly to manufacture: a CAD model generates CNC code automatically, reducing errors and lead time."
+  },
+  {
+   "id": "new-emerging-technologies-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Industry 4.0 connects machines, sensors and systems through IoT for data-driven manufacturing."
+  },
+  {
+   "id": "new-emerging-technologies-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain how CAD/CAM integration reduces manufacturing lead time. | Q: Describe two benefits and two concerns of increasing automation in manufacturing. | Q: Explain how Industry 4.0 and IoT improve manufacturing efficiency."
+  },
+  {
+   "id": "new-emerging-technologies-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "CAD models are used directly to generate CNC toolpaths (CAM), eliminating manual programming steps. Design changes update the manufacturing instructions automatically. This reduces errors and speeds u | Benefits: 1) Improved consistency and quality. 2) Increased productivity (24/7 operation). Concerns: 1) Job displacement for routine manual workers. 2) High initial investment and dependency on skille | Connected sensors collect real-time data on temperature, vibration and output. This data is analysed to predict maintenance needs, optimise process parameters and track production flow, identifying bo"
+  },
+  {
+   "id": "new-emerging-technologies-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "In technology questions, always consider both benefits AND drawbacks for balanced evaluation. Name specific technologies (Industry 4.0, IoT, cobots) rather than general statements. Link new technology to a specific engineering outcome: faster, cheaper, more precise or more flexible. The social impact of automation (job displacement vs new skilled roles) is a common extended-response topic. CAD/CAM integration is a reliable answer for how technology has changed manufacturing."
+  }
+ ]
+}

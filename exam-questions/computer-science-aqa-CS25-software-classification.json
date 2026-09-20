@@ -1,0 +1,94 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS25-software-classification",
+ "topicName": "Software Classification",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs25-software-classification-q1",
+   "type": "short-answer",
+   "question": "List and briefly describe the five main functions of an operating system.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Processor management (schedules CPU time); Memory management (allocates RAM); I/O management (controls devices); Security (user accounts, permissions); File management (organises files on disk).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs25-software-classification-q2",
+   "type": "short-answer",
+   "question": "Explain the difference between a full backup and an incremental backup.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Full backup copies all files every time (slow, uses most storage). Incremental backup only copies files that have changed since the last backup (fast, uses least storage).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs25-software-classification-q3",
+   "type": "short-answer",
+   "question": "Why is defragmentation not needed for SSDs?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "SSDs use flash memory with no moving parts. Data can be accessed equally quickly from any location on the drive, so having file fragments in non-contiguous locations does not slow down access. Defragmentation only benefits HDDs where the physical read head must move to different locations.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs25-software-classification-q4",
+   "type": "short-answer",
+   "question": "What is the difference between general-purpose and special-purpose application software? Give an example of each.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "General-purpose software can be used for many different tasks (e.g. a word processor can write letters, essays, reports). Special-purpose software is designed for one specific task (e.g. a payroll system that only calculates employee wages).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs25-software-classification-q5",
+   "type": "short-answer",
+   "question": "Explain why backups should be stored in a different location from the original data.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "If backups are stored in the same location as the original data, a disaster such as fire, flood, or theft could destroy both the original and the backup. Storing backups offsite ensures a copy survives even if the original location is destroyed.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

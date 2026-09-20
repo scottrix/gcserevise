@@ -1,0 +1,138 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "mock-exam",
+ "topicName": "Dance Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "dance-mock",
+   "name": "Dance Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Analysing Dance Performance] Q: What is the advantage of watching a live performance over a recorded one?",
+     "correctAnswer": "Live performance provides the full sensory experience — you feel the energy, scale and atmosphere in real time, and the audience-performer relationship is immediate and tangible.",
+     "explanation": "Live performance provides the full sensory experience — you feel the energy, scale and atmosphere in real time, and the audience-performer relationship is immediate and tangible.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Analysing Dance Performance] Q: Why is repeated viewing useful when analysing a recorded dance?",
+     "correctAnswer": "Repeated viewing lets you focus on different elements each time — first the overall structure, then specific movement details, design features or dancer relationships.",
+     "explanation": "Repeated viewing lets you focus on different elements each time — first the overall structure, then specific movement details, design features or dancer relationships.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Analysing Dance Performance] Q: How do the four content categories help structure an analysis?",
+     "correctAnswer": "They provide a systematic framework so you cover all aspects: action (what), dynamics (how), space (where) and relationships (who), ensuring nothing is missed.",
+     "explanation": "They provide a systematic framework so you cover all aspects: action (what), dynamics (how), space (where) and relationships (who), ensuring nothing is missed.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Artificial Things — Lucy Bennett] Q: What is the choreographic intention of 'Artificial Things'?",
+     "correctAnswer": "To explore human connection and the idea of finding joy and possibility despite limitations, celebrating how collaboration creates something greater than individual constraints.",
+     "explanation": "To explore human connection and the idea of finding joy and possibility despite limitations, celebrating how collaboration creates something greater than individual constraints.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Artificial Things — Lucy Bennett] Q: Why is Stopgap Dance Company significant in the context of this work?",
+     "correctAnswer": "Stopgap is an integrated company of disabled and non-disabled dancers — the work's meaning depends on this inclusive casting, as the dancers' different bodies directly embody the theme of overcoming limitations.",
+     "explanation": "Stopgap is an integrated company of disabled and non-disabled dancers — the work's meaning depends on this inclusive casting, as the dancers' different bodies directly embody the theme of overcoming limitations.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Artificial Things — Lucy Bennett] Q: How does David Toole contribute to the work?",
+     "correctAnswer": "David Toole is a disabled dancer whose powerful upper-body movement, floor work and expressive quality are central to the work — his performance embodies the theme of transcending physical limitations.",
+     "explanation": "David Toole is a disabled dancer whose powerful upper-body movement, floor work and expressive quality are central to the work — his performance embodies the theme of transcending physical limitations.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Choreographic Devices] Q: What is the difference between unison and canon?",
+     "correctAnswer": "In unison, all dancers move at the same time; in canon, dancers start the same phrase at different times in sequence.",
+     "explanation": "In unison, all dancers move at the same time; in canon, dancers start the same phrase at different times in sequence.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Choreographic Devices] Q: Describe how accumulation works as a choreographic device.",
+     "correctAnswer": "Accumulation starts with one movement, then adds a second so both are performed, then a third, and so on — the phrase gradually grows longer with each repetition.",
+     "explanation": "Accumulation starts with one movement, then adds a second so both are performed, then a third, and so on — the phrase gradually grows longer with each repetition.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Choreographic Devices] Q: Why might a choreographer use retrograde in a dance?",
+     "correctAnswer": "Retrograde creates a striking visual effect, like rewinding time. It can symbolise memory, returning to the past, or give a phrase a surprising twist that maintains audience interest.",
+     "explanation": "Retrograde creates a striking visual effect, like rewinding time. It can symbolise memory, returning to the past, or give a phrase a surprising twist that maintains audience interest.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Choreographic Intention & Communication] Q: What is choreographic intention?",
+     "correctAnswer": "Choreographic intention is the purpose or message the choreographer wants to communicate through the dance — it guides every creative decision.",
+     "explanation": "Choreographic intention is the purpose or message the choreographer wants to communicate through the dance — it guides every creative decision.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Choreographic Intention & Communication] Q: How do motifs help communicate choreographic intention?",
+     "correctAnswer": "Motifs are key movement phrases that embody the core idea. By developing and varying motifs throughout the dance, the choreographer reinforces the intention so the audience recognises and understands it.",
+     "explanation": "Motifs are key movement phrases that embody the core idea. By developing and varying motifs throughout the dance, the choreographer reinforces the intention so the audience recognises and understands it.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Choreographic Intention & Communication] Q: Why might an audience interpret a dance differently from the choreographer's intention?",
+     "correctAnswer": "Each audience member brings their own experiences and perspectives, so they may understand the movement in a different way. Multiple interpretations are valid and enrich the dance.",
+     "explanation": "Each audience member brings their own experiences and perspectives, so they may understand the movement in a different way. Multiple interpretations are valid and enrich the dance.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

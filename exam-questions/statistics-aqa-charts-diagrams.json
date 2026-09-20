@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "charts-diagrams",
+ "topicName": "Charts Diagrams",
+ "version": 1,
+ "questions": [
+  {
+   "id": "charts-diagrams-q1",
+   "type": "short-answer",
+   "question": "Q: In a pie chart, a category has frequency 15 out of a total of 60. What angle should its sector have?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Angle = (15 ÷ 60) × 360° = 0.25 × 360° = 90°.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "charts-diagrams-q2",
+   "type": "short-answer",
+   "question": "Q: A stem-and-leaf diagram has stem 4 and leaves 2, 5, 7, 8. What are the actual data values if the key is 4 | 2 means 42?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The data values are 42, 45, 47, and 48.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "charts-diagrams-q3",
+   "type": "short-answer",
+   "question": "Q: In a Venn diagram, set A has 20 elements, set B has 15 elements, and A ∩ B has 8 elements. How many elements are in A ∪ B?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A ∪ B = 20 + 15 – 8 = 27 elements.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "charts-diagrams-q4",
+   "type": "short-answer",
+   "question": "Q: A pictogram uses one circle to represent 10 cars. How many circles represent 35 cars?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "3 whole circles and one half circle, since 35 ÷ 10 = 3.5.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "charts-diagrams-q5",
+   "type": "short-answer",
+   "question": "Q: What does a wide base on a population pyramid indicate?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A wide base indicates a high birth rate, meaning a large proportion of the population is in the youngest age groups.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "charts-diagrams-ext",
+   "type": "extended",
+   "question": "Full-Mark Response The table shows the number of students in each year group at a school. Draw a pie chart to represent the data. Year 7: 130, Year 8: 120, Year 9: 110, Year 10: 100, Year 11: 90 <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Total = 130 + 120 + 110 + 100 + 90 = 550 Year 7: (130 ÷ 550) × 360° = 85.1° Year 8: (120 ÷ 550) × 360° = 78.5° Year 9: (110 ÷ 550) × 360° = 72.0° Year 10: (100 ÷ 550) × 360° = 65.5° Year 11: (90 ÷ 550) × 360° = 58.9° Check: 85.1 + 78.5 + 72.0 + 65.5 + 58.9 = 360.0° Draw a circle, draw a radius, then measure each angle in order using a protractor. Label each sector with the year group and angle.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Total = 130 + 120 + 110 + 100 + 90 = 550 Year 7: (130 ÷ 550) × 360° = 85.1° Year 8: (120 ÷ 550) × 360° = 78.5° Year 9: (110 ÷ 550) × 360° = 72.0° Year 10: (100 ÷ 550) × 360° = 65.5° Year 11: (90 ÷ 550) × 360° = 58.9° Check: 85.1 + 78.5 + 72.0 + 65.5 + 58.9 = 360.0° Draw a circle, draw a radius, then measure each angle in order using a protractor. Label each sector with the year group and angle."
+   }
+  }
+ ]
+}

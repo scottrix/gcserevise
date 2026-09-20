@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S5-describing-populations",
+ "topicName": "S5 Describing Populations",
+ "version": 1,
+ "steps": [
+  {
+   "id": "s5-describing-populations-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Describing a population involves using statistical measures to summarise and communicate the key characteristics of a group."
+  },
+  {
+   "id": "s5-describing-populations-s2",
+   "kind": "learn",
+   "title": "A good statistical summary should",
+   "body": "State the average (mean or median) Describe the spread (range or IQR) Comment on the shape of the distribution Make comparisons where relevant Draw conclusions about the population"
+  },
+  {
+   "id": "s5-describing-populations-s3",
+   "kind": "learn",
+   "title": "Key terms for distribution shape",
+   "body": "Symmetrical: Mean ≈ Median, data balanced around centre Skewed right (positive): Mean > Median, tail extends to higher values Skewed left (negative): Mean Bimodal: Two peaks, two distinct groups in data"
+  },
+  {
+   "id": "s5-describing-populations-s4",
+   "kind": "learn",
+   "title": "Inference",
+   "body": "Using sample statistics to draw conclusions about the population. Always acknowledge limitations: Sample may not be fully representative Results are estimates, not certainties Consider the sample size and method"
+  },
+  {
+   "id": "s5-describing-populations-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Data has mean = 45, median = 38. Describe the skew of the distribution. | A survey finds mode = 2 for \"number of pets\". What does this tell us? | Why might the median be better than the mean for describing house prices?"
+  },
+  {
+   "id": "s5-describing-populations-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Right skew (positive skew) - mean > median suggests a few high values pulling the mean up. | Most households have 2 pets - this is the most common value. | House prices often have expensive outliers that pull the mean up. The median better represents a \"typical\" price."
+  },
+  {
+   "id": "s5-describing-populations-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Use comparative language: \"higher than\", \"more varied than\" Always mention both average AND spread when comparing Comment on skew when mean and median differ significantly Use \"suggests\" or \"indicates\" rather than definitive statements Choose median for data with outliers (like salaries, house prices) Acknowledge limitations of sample data in your conclusions"
+  }
+ ]
+}

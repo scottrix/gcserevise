@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "charts-diagrams",
+ "topicName": "Charts Diagrams",
+ "version": 1,
+ "steps": [
+  {
+   "id": "charts-diagrams-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A pictogram uses symbols or pictures to represent data; each symbol represents a fixed quantity stated in the key."
+  },
+  {
+   "id": "charts-diagrams-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "In a pie chart, the angle of each sector is proportional to the frequency it represents: angle = (frequency ÷ total) × 360°."
+  },
+  {
+   "id": "charts-diagrams-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "To construct a pie chart, calculate each sector angle, draw a circle, and use a protractor to measure each angle from the previous sector."
+  },
+  {
+   "id": "charts-diagrams-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A stem-and-leaf diagram displays data in order while retaining the original values; the stem shows the leading digits and the leaf shows the final digit."
+  },
+  {
+   "id": "charts-diagrams-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: In a pie chart, a category has frequency 15 out of a total of 60. What angle should its sector have? | Q: A stem-and-leaf diagram has stem 4 and leaves 2, 5, 7, 8. What are the actual data values if the key is 4 | 2 means 42? | Q: In a Venn diagram, set A has 20 elements, set B has 15 elements, and A ∩ B has 8 elements. How many elements are in A ∪ B?"
+  },
+  {
+   "id": "charts-diagrams-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Angle = (15 ÷ 60) × 360° = 0.25 × 360° = 90°. | The data values are 42, 45, 47, and 48. | A ∪ B = 20 + 15 – 8 = 27 elements."
+  },
+  {
+   "id": "charts-diagrams-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always include a key on stem-and-leaf diagrams and pictograms — you will lose marks without one. When drawing pie charts, always label each sector with the category name and preferably the percentage or frequency. In a Venn diagram, the region outside both circles represents elements that are in neither set — do not forget this in probability questions. When comparing two datasets using a back-to-back stem-and-leaf, comment on the shape, median, and spread. Population pyramids can show ageing populations (narrow base, wide top) or young populations (wide base, narrow top) — use these terms in your comparisons."
+  }
+ ]
+}

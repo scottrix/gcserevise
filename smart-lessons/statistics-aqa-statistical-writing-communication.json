@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "statistical-writing-communication",
+ "topicName": "Statistical Writing Communication",
+ "version": 1,
+ "steps": [
+  {
+   "id": "statistical-writing-communication-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Always write answers in the context of the question: if the data is about rainfall, say ‘rainfall’ not ‘the data’ or ‘the values’"
+  },
+  {
+   "id": "statistical-writing-communication-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Support every statement with a specific data value: ‘The median rainfall in July (68 mm) was higher than in April (42 mm)’"
+  },
+  {
+   "id": "statistical-writing-communication-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Avoid vague language: replace ‘quite high’, ‘bigger’, ‘a lot’ with precise values and comparisons"
+  },
+  {
+   "id": "statistical-writing-communication-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "When comparing distributions, always compare both location (median/mean) AND spread (IQR/range/SD)"
+  },
+  {
+   "id": "statistical-writing-communication-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Rewrite this vague answer: ‘The boys did better than the girls.’ | Q: A student writes: ‘The data is quite spread out.’ How could this be improved? | Q: Compare these two distributions: Town A (median £28 000, IQR £12 000) and Town B (median £32 000, IQR £6 000)."
+  },
+  {
+   "id": "statistical-writing-communication-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "‘The boys had a higher median score (68) than the girls (55), a difference of 13 marks, suggesting the boys performed better on average.’ | Quote a measure of spread with units: ‘The IQR is 24 marks, meaning the middle 50% of students scored within a 24-mark range, which shows moderate spread.’ | Town B has a higher median income (£32 000 vs £28 000), so residents earn more on average. However, Town A’s incomes are more spread (IQR £12 000 vs £6 000), indicating greater variation in earnings. "
+  },
+  {
+   "id": "statistical-writing-communication-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Every sentence in a statistical answer should contain at least one specific number from the data When comparing, write about both groups in the same sentence using ‘than’ or ‘compared to’ Never use ‘the data shows’ — name the variable: ‘the rainfall data shows’ or ‘the temperatures show’ Structure longer answers: (1) state the finding, (2) give the evidence, (3) link to context or hypothesis If a question asks ‘What does this tell you about…’, give both a statistical observation and a real-world interpretation"
+  }
+ ]
+}

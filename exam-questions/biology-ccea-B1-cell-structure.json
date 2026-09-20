@@ -1,0 +1,146 @@
+{
+ "subject": "biology",
+ "board": "CCEA",
+ "topic": "B1-cell-structure",
+ "topicName": "B1 Cell Structure",
+ "version": 1,
+ "questions": [
+  {
+   "id": "b1-cell-structure-q1",
+   "type": "short-answer",
+   "question": "Name three structures found in both animal and plant cells.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Nucleus, cell membrane, cytoplasm, mitochondria, ribosomes (any three)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1-cell-structure-q2",
+   "type": "short-answer",
+   "question": "Name three structures found in plant cells but NOT in animal cells.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cell wall (cellulose), chloroplasts, permanent vacuole (cell sap)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1-cell-structure-q3",
+   "type": "short-answer",
+   "question": "Describe two differences between a prokaryotic cell and a eukaryotic cell.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Prokaryotic cells have no nucleus (DNA is free in cytoplasm); prokaryotic cells are smaller (0.2-2.0 μm vs 5-100 μm); prokaryotic cells have circular DNA and may have plasmids (any two)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1-cell-structure-q4",
+   "type": "short-answer",
+   "question": "A cell is measured as 0.02 mm in real life. It appears as 40 mm in a micrograph. Calculate the magnification.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Magnification = 40 ÷ 0.02 = ×2000",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1-cell-structure-q5",
+   "type": "short-answer",
+   "question": "Explain why electron microscopes can show more detail than light microscopes.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Electron microscopes have higher resolution (ability to distinguish between two points) because electrons have a shorter wavelength than visible light. This means they can show smaller structures like internal organelle detail.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1-cell-structure-q6",
+   "type": "short-answer",
+   "question": "What is the function of ribosomes in a cell?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Ribosomes are where protein synthesis takes place - they make proteins from amino acids.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1-cell-structure-q7",
+   "type": "short-answer",
+   "question": "A bacterial cell has a plasmid. What is a plasmid and why might it be important in medicine?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A plasmid is a small, circular loop of DNA separate from the main chromosome. It is important in medicine because plasmids can carry genes for antibiotic resistance, which can be passed between bacteria.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1-cell-structure-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Compare prokaryotic and eukaryotic cells. <div class=\"",
+   "marks": 6,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Eukaryotic cells have a nucleus containing linear DNA in chromosomes, whereas prokaryotic cells have a single circular chromosome free in the cytoplasm and may carry plasmids. Eukaryotic cells contain membrane-bound organelles such as mitochondria and (in plants) chloroplasts, which prokaryotic cells lack. Eukaryotic cells are typically larger (5–100 μm) while prokaryotic cells are smaller (0.2–2.0 μm). Both types have ribosomes, a cell membrane and cytoplasm, but eukaryotic ribosomes (80S) are larger than prokaryotic ones (70S). Plant eukaryotic cells have a cellulose cell wall; prokaryotic c",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Eukaryotic cells have a nucleus containing linear DNA in chromosomes, whereas prokaryotic cells have a single circular chromosome free in the cytoplasm and may carry plasmids. Eukaryotic cells contain membrane-bound organelles such as mitochondria and (in plants) chloroplasts, which prokaryotic cells lack. Eukaryotic cells are typically larger (5–100 μm) while prokaryotic cells are smaller (0.2–2.0 μm). Both types have ribosomes, a cell membrane and cytoplasm, but eukaryotic ribosomes (80S) are larger than prokaryotic ones (70S). Plant eukaryotic cells have a cellulose cell wall; prokaryotic cell walls are made of peptidoglycan. Mark scheme: 1 mark for nucleus/DNA difference; 1 mark for organelles; 1 mark for size; 1 mark for ribosomes; 1 mark for cell wall material; 1 mark for comparative structure throughout"
+   }
+  }
+ ]
+}

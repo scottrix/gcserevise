@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S1-sampling",
+ "topicName": "S1 Sampling",
+ "version": 1,
+ "steps": [
+  {
+   "id": "s1-sampling-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A sample is a smaller group selected from a larger population. We use samples to make inferences (educated guesses) about the whole population."
+  },
+  {
+   "id": "s1-sampling-s2",
+   "kind": "learn",
+   "title": "Important",
+   "body": "A larger sample size generally gives more accurate results, but the method of sampling is equally important."
+  },
+  {
+   "id": "s1-sampling-s3",
+   "kind": "learn",
+   "title": "Reasons for sampling",
+   "body": "Too expensive to survey everyone Too time-consuming to collect all data Some tests are destructive (e.g. testing light bulbs until they fail) Practical limitations"
+  },
+  {
+   "id": "s1-sampling-s4",
+   "kind": "learn",
+   "title": "Random Sampling",
+   "body": "Every member of the population has an equal chance of being selected. This reduces bias."
+  },
+  {
+   "id": "s1-sampling-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Define what is meant by a \"population\" in statistics. | A school has 120 boys and 180 girls. A stratified sample of 50 students is needed. How many boys and girls should be selected? | A researcher wants to survey 25 people from a list of 200 using systematic sampling. What value of k should be used?"
+  },
+  {
+   "id": "s1-sampling-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "The population is the entire group being studied or about which conclusions are to be drawn. | Boys: (120/300) × 50 = 20; Girls: (180/300) × 50 = 30 | k = 200 ÷ 25 = 8 (select every 8th person)"
+  },
+  {
+   "id": "s1-sampling-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always consider whether a sample is representative and free from bias Know how to calculate numbers for stratified sampling Understand the difference between the population and the sample Be able to identify sources of bias in sampling methods Remember: larger samples generally give more reliable results"
+  }
+ ]
+}

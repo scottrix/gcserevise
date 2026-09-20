@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "histograms-box-plots",
+ "topicName": "Histograms Box Plots",
+ "version": 1,
+ "questions": [
+  {
+   "id": "histograms-box-plots-q1",
+   "type": "short-answer",
+   "question": "Q: A histogram has a class interval of width 5 with frequency 30. What is the frequency density?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Frequency density = 30 ÷ 5 = 6.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "histograms-box-plots-q2",
+   "type": "short-answer",
+   "question": "Q: On a box plot, Q1 = 12, Q2 = 18, Q3 = 24. What is the IQR and what does the median's position tell you about skewness?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "IQR = 24 – 12 = 12. The median (18) is exactly midway between Q1 and Q3, so the distribution is approximately symmetric.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "histograms-box-plots-q3",
+   "type": "short-answer",
+   "question": "Q: A dataset has Q1 = 10, Q3 = 22. What are the outlier boundaries?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "IQR = 12. Lower boundary = 10 – 1.5 × 12 = –8. Upper boundary = 22 + 1.5 × 12 = 40. Values below –8 or above 40 are outliers.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "histograms-box-plots-q4",
+   "type": "short-answer",
+   "question": "Q: In a histogram, the total area of bars is 200 and one bar has an area of 40. What is the frequency for that bar?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Since area is proportional to frequency, the frequency is 40 (assuming the scale factor is 1, i.e. area = frequency).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "histograms-box-plots-q5",
+   "type": "short-answer",
+   "question": "Q: Two box plots show the same median but different IQRs. What does this tell you?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The distributions have the same central value, but the one with the larger IQR has greater spread in the middle 50% of the data.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "histograms-box-plots-ext",
+   "type": "extended",
+   "question": "Full-Mark Response The frequency table shows the times taken for 120 runners to complete a race. Draw a histogram. 0–10 min: frequency 15, 10–20 min: frequency 40, 20–40 min: frequency 45, 40–60 min: frequency 20 <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Calculate frequency density for each class: 0–10: width = 10, FD = 15 ÷ 10 = 1.5 10–20: width = 10, FD = 40 ÷ 10 = 4.0 20–40: width = 20, FD = 45 ÷ 20 = 2.25 40–60: width = 20, FD = 20 ÷ 20 = 1.0 Draw the histogram with class boundaries on the x-axis (0, 10, 20, 40, 60) and frequency density on the y-axis. Each bar has no gap and its height equals the frequency density. Check: total area = (1.5 × 10) + (4.0 × 10) + (2.25 × 20) + (1.0 × 20) = 15 + 40 + 45 + 20 = 120",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Calculate frequency density for each class: 0–10: width = 10, FD = 15 ÷ 10 = 1.5 10–20: width = 10, FD = 40 ÷ 10 = 4.0 20–40: width = 20, FD = 45 ÷ 20 = 2.25 40–60: width = 20, FD = 20 ÷ 20 = 1.0 Draw the histogram with class boundaries on the x-axis (0, 10, 20, 40, 60) and frequency density on the y-axis. Each bar has no gap and its height equals the frequency density. Check: total area = (1.5 × 10) + (4.0 × 10) + (2.25 × 20) + (1.0 × 20) = 15 + 40 + 45 + 20 = 120"
+   }
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P22-electromagnetic-spectrum",
+ "topicName": "Electromagnetic Spectrum",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p22-electromagnetic-spectrum-s1",
+   "kind": "learn",
+   "title": "Electromagnetic waves",
+   "body": "Transverse waves that transfer energy from the source to the absorber. They can all travel through a vacuum at the same speed (3 × 10⁸ m/s). They are produced by changes in atoms and nuclei."
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-s2",
+   "kind": "learn",
+   "title": "Ionising radiation",
+   "body": "Radiation that can damage or destroy cells by removing electrons from atoms. Higher frequency EM waves (UV, X-rays, gamma rays) are ionising."
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-s3",
+   "kind": "learn",
+   "title": "Key relationships",
+   "body": "As you go from radio to gamma: wavelength decreases, frequency increases, energy increases, danger increases. Since v = fλ and v is constant (3 × 10⁸ m/s in vacuum), if frequency increases then wavelength must decrease."
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-s4",
+   "kind": "learn",
+   "title": "Danger principle",
+   "body": "The higher the frequency of the EM radiation, the more dangerous it is. UV, X-rays and gamma rays are ionising — they can damage cells and DNA, potentially causing cancer. The risk increases with the dose of radiation received."
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Example 1: Calculating wavelength from frequency A radio station broadcasts at a frequency of 100 MHz. Calculate the wavelength of the radio wave. Solution: f = 100 MHz = 100 × 10⁶ Hz = 1 × 10⁸ Hz v = f × λ, so λ = v ÷ f = 3 × 10⁸ ÷ 1 × 10⁸ = 3 m Example 2: Calculating frequency from wavelength Microwaves used in cooking have a wavelength of 12 cm. Calculate their frequency. Solution: λ = 12 cm = 0.12 m f = v ÷ λ = 3 × 10⁸ ÷ 0.12 = 2.5 × 10⁹ Hz (or 2.5 GHz) Example 3: Comparing EM waves Explain why gamma rays are more dangerous than radio waves. Solution: Gamma rays have a much higher frequency than radio waves. Higher frequency EM radiation carries more energy and is ionising — it can remove electrons from atoms and damage DNA in cells, which can cause cancer. Radio waves are non-ionising so they cannot damage cells in this way. Example 4: Time for EM wave to travel Light from the Sun takes 8.3 minutes to reach Earth. Calculate the distance from the Sun to the Earth. Solution: t = 8.3"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation Name the seven types of EM radiation in order of increasing frequency. | Foundation State two uses of infrared radiation and one danger. | Higher A microwave has a wavelength of 6 cm. Calculate its frequency."
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Q1: Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, gamma rays. | Q2: Uses: heaters, remote controls, night vision cameras (any two). Danger: skin burns from intense infrared radiation. | Q3: λ = 6 cm = 0.06 m. f = v ÷ λ = 3 × 10⁸ ÷ 0.06 = 5 × 10⁹ Hz (5 GHz)"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Learn the EM spectrum order using a mnemonic: R ead M any I nstructions V ery U sefully X cept G ambling (Radio, Microwave, Infrared, Visible, UV, X-ray, Gamma). Remember: all EM waves are transverse and can travel through a vacuum — this is a very common exam point. When asked about dangers, always link higher frequency to ionisation and cell/DNA damage. UV is the first ionising radiation in the spectrum — this is a common trick question. For calculation questions, remember v = fλ always uses the speed of light (3 × 10⁸ m/s) for EM waves in a vacuum. Be precise with uses: \"cooking\" for microwaves, \"medical imaging\" for X-rays, \"sterilisation\" for gamma rays."
+  }
+ ]
+}

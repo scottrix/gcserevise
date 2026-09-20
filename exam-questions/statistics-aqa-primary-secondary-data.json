@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "primary-secondary-data",
+ "topicName": "Primary Secondary Data",
+ "version": 1,
+ "questions": [
+  {
+   "id": "primary-secondary-data-q1",
+   "type": "short-answer",
+   "question": "Q: What is the difference between primary and secondary data?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Primary data is collected firsthand by the investigator for a specific purpose; secondary data already exists and was collected by someone else, usually for a different purpose.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-secondary-data-q2",
+   "type": "short-answer",
+   "question": "Q: Name three sources of secondary data.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Government databases (e.g. ONS), the internet, books, newspapers, previous studies, company records.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-secondary-data-q3",
+   "type": "short-answer",
+   "question": "Q: What is a census?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A survey that collects data from every member of the population rather than a sample.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-secondary-data-q4",
+   "type": "short-answer",
+   "question": "Q: Give one advantage and one disadvantage of primary data.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Advantage: it is specific to your investigation and you know exactly how it was collected. Disadvantage: it can be time-consuming and expensive.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-secondary-data-q5",
+   "type": "short-answer",
+   "question": "Q: Why might secondary data be unreliable?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "It may be outdated, collected using different methods, biased, or not relevant to your specific hypothesis.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-secondary-data-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A student wants to compare the average rainfall in London and Manchester over the last 10 years. Should they use primary or secondary data? Justify your answer. <div class=\"",
+   "marks": 4,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The student should use secondary data. Rainfall data for the last 10 years already exists and is freely available from the Met Office or other meteorological sources. Advantages: It is quick and free to access; the data has been collected professionally using standardised instruments over a long period, making it reliable. Collecting primary data would be impractical because the student would need rain gauges in both cities running for 10 years, which is far beyond the time and cost available for a school investigation. The student should check that the secondary data comes from a reputable so",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "The student should use secondary data. Rainfall data for the last 10 years already exists and is freely available from the Met Office or other meteorological sources. Advantages: It is quick and free to access; the data has been collected professionally using standardised instruments over a long period, making it reliable. Collecting primary data would be impractical because the student would need rain gauges in both cities running for 10 years, which is far beyond the time and cost available for a school investigation. The student should check that the secondary data comes from a reputable source and that the recording methods are consistent between the two cities."
+   }
+  }
+ ]
+}

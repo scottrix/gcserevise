@@ -1,0 +1,38 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C17-rate-of-reaction",
+ "topicName": "Rate Of Reaction",
+ "version": 1,
+ "tests": [
+  {
+   "id": "c17-rate-of-reaction-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Rate Of Reaction",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "c17-rate-of-reaction-t1",
+     "type": "short-answer",
+     "question": "Foundation State four factors that affect the rate of a chemical reaction.",
+     "correctAnswer": "Temperature, concentration, surface area, and the presence of a catalyst.",
+     "explanation": "Answer: Temperature, concentration, surface area, and the presence of a catalyst.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c17-rate-of-reaction-t3",
+     "type": "short-answer",
+     "question": "Higher A reaction produces 45 cm³ of gas in 90 seconds. Calculate the mean rate. Give the unit.",
+     "correctAnswer": "Rate = 45 ÷ 90 = 0.5 cm³/s",
+     "explanation": "Answer: Rate = 45 ÷ 90 = 0.5 cm³/s",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

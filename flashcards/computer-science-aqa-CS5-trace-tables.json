@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS5-trace-tables",
+ "topicName": "Trace Tables",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs5-trace-tables-fc1",
+   "front": "Recall a key point about Trace Tables",
+   "back": "A trace table is a table used to record the value of variables each time they change as an algorithm is executed step by step. It helps you understand how an algorithm works, find logic errors, and determine what an unknown algorithm does.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc2",
+   "front": "What should you know about setting up a trace table?",
+   "back": "Create a column for each variable in the algorithm, plus a column for any OUTPUT statements. Each row represents one execution step where a variable changes.",
+   "tags": [
+    "setting-up-a-trace-table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc3",
+   "front": "What should you know about exam technique?",
+   "back": "When given an unknown algorithm, create a trace table and look at the pattern of values. The OUTPUT and how variables change will reveal what the algorithm does.",
+   "tags": [
+    "exam-technique"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc4",
+   "front": "What should you know about tip?",
+   "back": "When looking at a completed trace table, examine the OUTPUT column and look for patterns in how variables change. Common patterns include: counting, accumulating (sum), finding maximum/minimum, searching, and computing remainders.",
+   "tags": [
+    "tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc5",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Always create a column for EVERY variable in the algorithm, plus any output. Update values row by row as each line of code executes. For loops, record each iteration separately. For IF statements, show the condition evaluation (TRUE/FALSE). Don't skip rows even if a variable doesn't change — write the same value. If asked to find an error in code, completing a trace table will reveal where the logic goes wrong.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc6",
+   "front": "What does Initial mean?",
+   "back": "- (e.g. -)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc7",
+   "front": "What does Initial mean?",
+   "back": "- (e.g. 0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc8",
+   "front": "What does 1 mean?",
+   "back": "1 (e.g. 1)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc9",
+   "front": "What does 2 mean?",
+   "back": "2 (e.g. 2)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc10",
+   "front": "What does 3 mean?",
+   "back": "3 (e.g. 3)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc11",
+   "front": "What does 4 mean?",
+   "back": "4 (e.g. 4)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc12",
+   "front": "What does End mean?",
+   "back": "- (e.g. -)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc13",
+   "front": "What does Initial mean?",
+   "back": "- (e.g. -)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc14",
+   "front": "What does 1 mean?",
+   "back": "1 (e.g. 7)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs5-trace-tables-fc15",
+   "front": "What does 2 mean?",
+   "back": "2 (e.g. 2)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

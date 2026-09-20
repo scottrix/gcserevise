@@ -1,0 +1,112 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P16-newton-s-laws-and-momentum",
+ "topicName": "Newton S Laws And Momentum",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p16-newton-s-laws-and-momentum-q1",
+   "type": "short-answer",
+   "question": "Foundation State Newton's three laws of motion.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1st: If the resultant force is zero, an object stays stationary or moves at constant velocity. 2nd: F = ma, acceleration is proportional to force and inversely proportional to mass. 3rd: When two objects interact, they exert equal and opposite forces on each other.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-q2",
+   "type": "short-answer",
+   "question": "Foundation A resultant force of 1500 N acts on a car of mass 750 kg. Calculate the acceleration.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "a = F / m = 1500 / 750 = 2 m/s²",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-q3",
+   "type": "short-answer",
+   "question": "Higher A trolley of mass 4 kg moving at 6 m/s collides with a stationary trolley of mass 2 kg. They join together. Calculate the velocity after the collision.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Momentum before = (4 × 6) + (2 × 0) = 24 kg m/s. After: (4 + 2) × v = 6v. So 6v = 24, v = 4 m/s",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-q4",
+   "type": "short-answer",
+   "question": "Higher Explain, using F = Δp/Δt, how a seatbelt reduces the force on a passenger during a crash.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "During a crash, the passenger's momentum changes from a high value to zero. The seatbelt stretches, increasing the time over which this momentum change happens. Since F = Δp/Δt, a longer time means a smaller force acts on the passenger, reducing injuries.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-q5",
+   "type": "short-answer",
+   "question": "Foundation Calculate the weight of a person with mass 70 kg on Earth (g = 9.8 N/kg).",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "W = mg = 70 × 9.8 = 686 N",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p16-newton-s-laws-and-momentum-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: A car of mass 1200 kg travelling at 25 m/s crashes into a barrier. Explain, using the equation F = Δp/Δt, how crumple zones and seatbelts reduce the force on the driver. Compare this to a rigid car with no seatbelt. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The driver has a momentum of p = mv = 1200 × 25 = 30 000 kg m/s before the crash. During the crash, this momentum must be reduced to zero. The force on the driver depends on the time over which the momentum changes: F = Δp/Δt. In a rigid car with no seatbelt, the driver would hit the dashboard or windscreen and stop in a very short time (perhaps 0.01 s), giving a very large force: F = 30 000 / 0.01 = 3 000 000 N. Crumple zones at the front of the car deform plastically, increasing the time over which the car decelerates. Seatbelts stretch slightly, increasing the time over which the driver dec",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "The driver has a momentum of p = mv = 1200 × 25 = 30 000 kg m/s before the crash. During the crash, this momentum must be reduced to zero. The force on the driver depends on the time over which the momentum changes: F = Δp/Δt. In a rigid car with no seatbelt, the driver would hit the dashboard or windscreen and stop in a very short time (perhaps 0.01 s), giving a very large force: F = 30 000 / 0.01 = 3 000 000 N. Crumple zones at the front of the car deform plastically, increasing the time over which the car decelerates. Seatbelts stretch slightly, increasing the time over which the driver decelerates relative to the car. Airbags also spread the force over a larger area and increase the stopping time. With these safety features, the stopping time might be 0.5 s, giving F = 30 000 / 0.5 = 60 000 N — a much smaller force that is less likely to cause serious injury. Mark scheme: 1 mark for calculating initial momentum; 1 mark for stating F = Δp/Δt; 1 mark for rigid car gives very short stopping time → very large force; 1 mark for crumple zones increase stopping time; 1 mark for seatbelts increase stopping time (and spread force); 1 mark for quantitative comparison showing reduced force. (6 marks total)"
+   }
+  }
+ ]
+}

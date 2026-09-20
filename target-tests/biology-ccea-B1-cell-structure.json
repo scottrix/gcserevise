@@ -1,0 +1,48 @@
+{
+ "subject": "biology",
+ "board": "CCEA",
+ "topic": "B1-cell-structure",
+ "topicName": "B1 Cell Structure",
+ "version": 1,
+ "tests": [
+  {
+   "id": "b1-cell-structure-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on B1 Cell Structure",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "b1-cell-structure-t1",
+     "type": "short-answer",
+     "question": "Name three structures found in both animal and plant cells.",
+     "correctAnswer": "Nucleus, cell membrane, cytoplasm, mitochondria, ribosomes (any three)",
+     "explanation": "Answer: Nucleus, cell membrane, cytoplasm, mitochondria, ribosomes (any three)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "b1-cell-structure-t2",
+     "type": "short-answer",
+     "question": "Name three structures found in plant cells but NOT in animal cells.",
+     "correctAnswer": "Cell wall (cellulose), chloroplasts, permanent vacuole (cell sap)",
+     "explanation": "Answer: Cell wall (cellulose), chloroplasts, permanent vacuole (cell sap)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "b1-cell-structure-t4",
+     "type": "short-answer",
+     "question": "A cell is measured as 0.02 mm in real life. It appears as 40 mm in a micrograph. Calculate the magnification.",
+     "correctAnswer": "Magnification = 40 ÷ 0.02 = ×2000",
+     "explanation": "Answer: Magnification = 40 ÷ 0.02 = ×2000",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

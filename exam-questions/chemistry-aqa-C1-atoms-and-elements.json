@@ -1,0 +1,129 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C1-atoms-and-elements",
+ "topicName": "C1 Atoms And Elements",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c1-atoms-and-elements-q1",
+   "type": "short-answer",
+   "question": "Foundation Define the term compound and give one example.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A compound is a substance made from two or more elements that are chemically combined in fixed proportions. Example: water (H₂O) is a compound of hydrogen and oxygen.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1-atoms-and-elements-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain the difference between a mixture and a compound.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A compound has elements chemically combined in fixed proportions and can only be separated by chemical reactions. A mixture has substances not chemically combined, with variable proportions, and can be separated by physical methods (filtration, distillation, etc.).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1-atoms-and-elements-q3",
+   "type": "short-answer",
+   "question": "Foundation Balance the following equation: H₂ + O₂ → H₂O",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "2H₂ + O₂ → 2H₂O. Count: Left = H: 4, O: 2; Right = H: 4, O: 2. Balanced.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1-atoms-and-elements-q4",
+   "type": "short-answer",
+   "question": "Higher Write a balanced symbol equation with state symbols for the reaction of calcium with oxygen to form calcium oxide, CaO.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "2Ca(s) + O₂(g) → 2CaO(s). Calcium is a solid metal, oxygen is a gas, and calcium oxide is a solid.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1-atoms-and-elements-q5",
+   "type": "short-answer",
+   "question": "Higher Balance the following equation: Al + O₂ → Al₂O₃",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "4Al + 3O₂ → 2Al₂O₃. Check: Left = Al: 4, O: 6; Right = Al: 4, O: 6. Balanced.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1-atoms-and-elements-q6",
+   "type": "short-answer",
+   "question": "Foundation Give the chemical symbols for: sodium, potassium, iron, chlorine, calcium.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Sodium = Na, Potassium = K, Iron = Fe, Chlorine = Cl, Calcium = Ca. (Na and K come from their Latin names: natrium and kalium.)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1-atoms-and-elements-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain the differences between elements, compounds and mixtures. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An element is a substance made of only one type of atom and cannot be broken down chemically (e.g. Fe, O₂). A compound is a substance made from two or more elements chemically combined in fixed proportions; it can only be separated into elements by chemical reactions (e.g. H₂O always has 2 H : 1 O). A mixture contains two or more substances not chemically combined, so the substances retain their individual properties and proportions can vary; mixtures can be separated by physical methods such as filtration, distillation or chromatography. Mark scheme: 1 mark for each correct definition (elemen",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "An element is a substance made of only one type of atom and cannot be broken down chemically (e.g. Fe, O₂). A compound is a substance made from two or more elements chemically combined in fixed proportions; it can only be separated into elements by chemical reactions (e.g. H₂O always has 2 H : 1 O). A mixture contains two or more substances not chemically combined, so the substances retain their individual properties and proportions can vary; mixtures can be separated by physical methods such as filtration, distillation or chromatography. Mark scheme: 1 mark for each correct definition (element, compound, mixture — up to 3); 1 mark for stating compounds have fixed proportions; 1 mark for stating mixtures have variable proportions; 1 mark for correct separation methods for each; 1 mark for using examples."
+   }
+  }
+ ]
+}

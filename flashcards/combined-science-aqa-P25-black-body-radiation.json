@@ -1,0 +1,157 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P25-black-body-radiation",
+ "topicName": "Black Body Radiation",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p25-black-body-radiation-fc1",
+   "front": "What should you know about black body?",
+   "back": "An object that absorbs all the electromagnetic radiation incident on it. No radiation is reflected or transmitted. A black body is also the best possible emitter of radiation — it emits radiation at the maximum possible rate for any object at that temperature.",
+   "tags": [
+    "black-body"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc2",
+   "front": "What should you know about perfect black body?",
+   "back": "An idealised object that absorbs and emits all possible radiation. No real object is a perfect black body, but a small hole in a cavity is a very close approximation.",
+   "tags": [
+    "perfect-black-body"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc3",
+   "front": "What should you know about black body radiation?",
+   "back": "The electromagnetic radiation emitted by a black body. The distribution of wavelengths depends only on the object's temperature.",
+   "tags": [
+    "black-body-radiation"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc4",
+   "front": "What should you know about key principles?",
+   "back": "1. As temperature increases, a black body emits radiation at a greater rate (more radiation per second). 2. As temperature increases, the peak wavelength of the emitted radiation becomes shorter (shifts towards the blue/violet end of the spectrum).",
+   "tags": [
+    "key-principles"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc5",
+   "front": "What should you know about why hotter objects appear different colours?",
+   "back": "A cooler star (like Betelgeuse, ~3500 K) emits most intensely in the infrared and lower visible range, so it appears red. A hotter star (like Rigel, ~12000 K) peaks in the blue/UV range, so it appears blue-white. Our Sun (~5800 K) peaks in the green-yellow part of the visible spectrum.",
+   "tags": [
+    "why-hotter-objects-appear-diff"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc6",
+   "front": "What should you know about energy balance?",
+   "back": "The temperature of the Earth depends on the balance between the radiation it receives from the Sun and the radiation it emits back into space. If the Earth absorbs more radiation than it emits, it warms up. If it emits more than it absorbs, it cools down.",
+   "tags": [
+    "energy-balance"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc7",
+   "front": "What should you know about increased greenhouse effect?",
+   "back": "If the concentration of greenhouse gases increases, more infrared radiation is absorbed and re-emitted back towards Earth. Less radiation escapes into space. This means the Earth absorbs more radiation than it emits, so its temperature rises until a new, higher equilibrium is reached.",
+   "tags": [
+    "increased-greenhouse-effect"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc8",
+   "front": "Recall a key point about Black Body Radiation",
+   "back": "Interpreting black body radiation curves: the x-axis shows wavelength, the y-axis shows intensity. Higher temperature curves are taller (more total radiation) and peak at shorter wavelengths. The total power radiated is proportional to T⁴ (Stefan-Boltzmann law), so doubling the temperature increases power by 2⁴ = 16 times. Reading values from graphs and comparing areas under curves.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc9",
+   "front": "What should you know about answers?",
+   "back": "(a) As temperature increases, peak wavelength decreases. The product of temperature and peak wavelength is roughly constant: 3500 × 830 ≈ 2,905,000 and 10,000 × 290 = 2,900,000. For Star C: T ≈ 2,900,000 ÷ 500 ≈ 5800 K (similar to the Sun). (b) Total power per unit area is proportional to T⁴. Star B at 10,000 K radiates (10,000/3,500)⁴ ≈ 66.6 times more power per unit area than Star A. Star B's higher temperature far outweighs Star A's larger surface area for power per unit area. (c) The claim is misleading. Star A has a lower surface temperature so it emits less radiation per unit area and it",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc10",
+   "front": "What does Low (e.g. 3000 K) mean?",
+   "back": "Less (e.g. Longer (infrared))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc11",
+   "front": "What does Medium (e.g. 5500 K) mean?",
+   "back": "More (e.g. Medium (visible light))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc12",
+   "front": "What does High (e.g. 10000 K) mean?",
+   "back": "Much more (e.g. Shorter (blue/UV))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc13",
+   "front": "What does Increased greenhouse gases mean?",
+   "back": "Temperature rises (e.g. More IR absorbed and re-emitted towards Earth; less radiation escapes to space)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc14",
+   "front": "What does Increased solar radiation mean?",
+   "back": "Temperature rises (e.g. More radiation absorbed by Earth)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p25-black-body-radiation-fc15",
+   "front": "What does Increased albedo (reflection) mean?",
+   "back": "Temperature falls (e.g. More radiation reflected away before being absorbed)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

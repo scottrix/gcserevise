@@ -1,0 +1,112 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P14-scalar-and-vector-quantities",
+ "topicName": "Scalar And Vector Quantities",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p14-scalar-and-vector-quantities-q1",
+   "type": "short-answer",
+   "question": "Foundation State the difference between a scalar quantity and a vector quantity, giving one example of each.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A scalar has magnitude only (e.g. speed = 10 m/s). A vector has magnitude and direction (e.g. velocity = 10 m/s north).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-q2",
+   "type": "short-answer",
+   "question": "Foundation Classify each as scalar or vector: speed, velocity, mass, weight, distance, displacement, energy, force.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Scalar: speed, mass, distance, energy. Vector: velocity, weight, displacement, force.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-q3",
+   "type": "short-answer",
+   "question": "Foundation Give two examples of contact forces and two examples of non-contact forces.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Contact: friction, air resistance, tension, normal contact force. Non-contact: gravity, magnetic force, electrostatic force.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-q4",
+   "type": "short-answer",
+   "question": "Higher A boat has a driving force of 600 N forwards and water resistance of 200 N backwards. Calculate the resultant force and state its direction.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Resultant force = 600 − 200 = 400 N forwards.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-q5",
+   "type": "short-answer",
+   "question": "Higher A force of 100 N acts at 40° to the horizontal. Calculate the horizontal and vertical components.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Horizontal = 100 × cos 40° = 100 × 0.766 = 76.6 N. Vertical = 100 × sin 40° = 100 × 0.643 = 64.3 N.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p14-scalar-and-vector-quantities-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain the difference between scalar and vector quantities. Use examples to illustrate your answer and describe how to calculate the resultant force when multiple forces act on an object. <div class=\"",
+   "marks": 6,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A scalar quantity has magnitude (size) only, for example speed (30 m/s), distance (50 m) and mass (10 kg). A vector quantity has both magnitude and direction, for example velocity (30 m/s north), displacement (50 m east) and force (10 N downwards). The key difference is that direction matters for vectors but not for scalars. When multiple forces act on an object, they can be combined into a single resultant force. If forces act along the same line in the same direction, they are added together. If they act in opposite directions, the smaller force is subtracted from the larger one and the resu",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "A scalar quantity has magnitude (size) only, for example speed (30 m/s), distance (50 m) and mass (10 kg). A vector quantity has both magnitude and direction, for example velocity (30 m/s north), displacement (50 m east) and force (10 N downwards). The key difference is that direction matters for vectors but not for scalars. When multiple forces act on an object, they can be combined into a single resultant force. If forces act along the same line in the same direction, they are added together. If they act in opposite directions, the smaller force is subtracted from the larger one and the resultant is in the direction of the larger force. For forces at an angle, the forces can be resolved into perpendicular components using trigonometry, and the horizontal and vertical components can then be combined separately. The resultant force determines the acceleration of the object according to F = ma. Mark scheme: 1 mark for scalar = magnitude only with example; 1 mark for vector = magnitude + direction with example; 1 mark for key difference (direction); 1 mark for adding forces in same direction; 1 mark for subtracting opposite forces and stating direction; 1 mark for resolving at angles or linking to F = ma. (6 marks total)"
+   }
+  }
+ ]
+}

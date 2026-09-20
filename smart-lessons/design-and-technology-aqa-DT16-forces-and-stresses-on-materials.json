@@ -1,0 +1,51 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT16-forces-and-stresses-on-materials",
+ "topicName": "Forces and Stresses on Materials",
+ "version": 1,
+ "steps": [
+  {
+   "id": "dt16-forces-and-stresses-on-materials-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Tension: pulling force that stretches - ropes, cables, bridge wires. Compression: pushing force that squashes - columns, arches, foam packaging."
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Bending: combines tension (outer surface stretches) and compression (inner surface squashes) - I-beams concentrate material at flanges where forces are greatest."
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Shear: forces in opposite directions parallel to a surface - scissors, bolted joints. Torsion: twisting force - drive shafts, screwdrivers."
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Stress = Force / Area (N/m2). Strain = Change in length / Original length. Young's Modulus = Stress / Strain (measures stiffness)."
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "A shelf supports books. Explain where tension and compression occur in the shelf when loaded. | Explain why an I-beam is more efficient than a solid rectangular beam of the same weight. | A crane cable has UTS of 800 MPa and working stress of 200 MPa. Calculate the factor of safety and explain whether this is appropriate."
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Top surface is in compression (squashed as the shelf bends downward), bottom surface is in tension (stretched as it curves). The centre (neutral axis) has zero stress. Shelf supports are often L-shape | In bending, stress is highest at top and bottom surfaces, zero at the neutral axis. An I-beam concentrates material in the flanges (top/bottom) where stress is highest, and minimises material in the w | FoS = 800 / 200 = 4. For a crane cable (safety-critical, lives at risk), FoS of 4 is at the lower end of acceptable - many standards require 5-10 for lifting equipment. Dynamic loads can temporarily m"
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always annotate diagrams showing tension, compression and neutral axis State the formula before calculating: FoS = UTS / Working stress Relate forces back to product design decisions"
+  }
+ ]
+}

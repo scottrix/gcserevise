@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS26-programming-languages-translators",
+ "topicName": "Programming Languages & Translators",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs26-programming-languages-translators-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between machine code and assembly language.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Machine code is binary (0s and 1s) that the CPU executes directly. Assembly language uses mnemonics (short text codes like MOV, ADD) that are easier for humans to read. Each mnemonic corresponds to one machine code instruction. Assembly must be translated by an assembler.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs26-programming-languages-translators-q2",
+   "type": "short-answer",
+   "question": "Compare a compiler and an interpreter in terms of how they translate code and when they find errors.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A compiler translates all source code into machine code at once, creating an executable. It finds syntax errors during compilation (before running). An interpreter translates and executes one line at a time. It finds errors at runtime (while the program is running).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs26-programming-languages-translators-q3",
+   "type": "short-answer",
+   "question": "Why might a programmer choose to write in assembly language instead of a high-level language?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "To have direct control over hardware (registers, memory addresses), to write very fast-executing code, or to write code for embedded systems with limited resources where high-level languages may be too resource-heavy.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs26-programming-languages-translators-q4",
+   "type": "short-answer",
+   "question": "What is the role of an assembler?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An assembler is a translator program that converts assembly language code (mnemonics) into machine code (binary). It performs a one-to-one translation where each mnemonic becomes one machine code instruction.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs26-programming-languages-translators-q5",
+   "type": "short-answer",
+   "question": "Give two advantages and two disadvantages of using a high-level language compared to assembly language.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Advantages: easier to read/write/debug, portable across different platforms, one statement does more work (fewer lines needed). Disadvantages: slower execution (needs translation), less direct hardware control, the programmer doesn't control exactly what the CPU does.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs26-programming-languages-translators-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Compare high-level and low-level programming languages, giving two advantages of each. Explain why a device driver might be written in a low-level language. [5 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "High-level languages (e.g. Python, Java): Advantage 1: Easier to read, write and debug because they use English-like commands Advantage 2: Portable — code can run on different hardware architectures with minimal changes Low-level languages (e.g. assembly): Advantage 1: Direct hardware control — can access specific memory addresses and CPU registers Advantage 2: More efficient — produces faster, more compact code with no unnecessary instructions A device driver would be written in a low-level language because it needs direct access to hardware components (ports, registers, memory-mapped I/O). H",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "High-level languages (e.g. Python, Java): Advantage 1: Easier to read, write and debug because they use English-like commands Advantage 2: Portable — code can run on different hardware architectures with minimal changes Low-level languages (e.g. assembly): Advantage 1: Direct hardware control — can access specific memory addresses and CPU registers Advantage 2: More efficient — produces faster, more compact code with no unnecessary instructions A device driver would be written in a low-level language because it needs direct access to hardware components (ports, registers, memory-mapped I/O). High-level languages abstract away these hardware details, making them unsuitable for the precise, hardware-specific operations a driver must perform. Low-level code ensures the driver can communicate with the device at the register level."
+   }
+  }
+ ]
+}

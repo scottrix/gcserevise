@@ -1,0 +1,159 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "index-numbers-population-estimation",
+ "topicName": "Index Numbers Population Estimation",
+ "version": 1,
+ "cards": [
+  {
+   "id": "index-numbers-population-estimation-fc1",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "An index number measures how a quantity changes relative to a base period; the base value is always 100",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc2",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "Index number = (current value ÷ base value) × 100; an index of 120 means a 20% increase from the base period",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc3",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "RPI (Retail Prices Index) measures the change in cost of a basket of goods and services including mortgage interest payments",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc4",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "CPI (Consumer Prices Index) is similar to RPI but excludes mortgage interest and housing costs; CPI is used for the government’s inflation target",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc5",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "GDP (Gross Domestic Product) measures the total value of goods and services produced in a country; GDP per capita = GDP ÷ population",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc6",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "A price relative = (current price ÷ base price) × 100; it shows the change in price for a single item",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc7",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "Weighted index numbers use weights reflecting the importance of each item; overall index = ∑(weight × price relative) ÷ ∑weights",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc8",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "Crude rate = (number of events ÷ total population) × a scaling factor (e.g. per 1000); it does not account for population structure",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc9",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "Standardised rates adjust for differences in age structure between populations, allowing fair comparisons; direct standardisation applies a standard population’s age distribution",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc10",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "Capture-recapture: population estimate = (first sample × second sample) ÷ number of marked recaptures; N = (n₁ × n₂) ÷ m",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc11",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "Capture-recapture assumptions: the population is closed (no births, deaths, migration), marks are not lost, and every individual has an equal chance of being captured",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc12",
+   "front": "Recall a key point about Index Numbers Population Estimation",
+   "back": "Chain base index: each period’s index is calculated using the previous period as the base, making it easier to see period-to-period changes",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc13",
+   "front": "What should you know about gcse statistics exam tips — index numbers & population estimation?",
+   "back": "1. For Index Numbers & Population Estimation questions, show every step of your working clearly — method marks count even if the final answer is wrong 2. Check your answer makes sense in context (estimation, units, reasonableness) 3. Use correct mathematical notation and state formulae before substituting values 4. If a Index Numbers & Population Estimation question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line 5. For problem-solving, identify the topic first, then recall the relevant method",
+   "tags": [
+    "gcse-statistics-exam-tips-inde"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc14",
+   "front": "Full-Mark Response",
+   "back": "A health researcher compares two towns. Town X has a crude death rate of 14 per 1000. Town Y has a crude death rate of 9 per 1000. After standardising for age, Town X has a standardised rate of 10 per 1000 and Town Y has a standardised rate of 11 per 1000. Explain these results.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "index-numbers-population-estimation-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of index numbers & population estimation, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382. AO2 (Application): Apply knowledge and understanding of index numbers & population estimation to interpret data, reason statistically and draw conclusions in context. AO3 (Evaluatio",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS33-cyber-security-threats",
+ "topicName": "Cyber Security Threats",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs33-cyber-security-threats-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Social engineering is manipulating people into revealing confidential information or performing actions that compromise security. It exploits human psychology rather than technical vulnerabilities."
+  },
+  {
+   "id": "cs33-cyber-security-threats-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Blagging is inventing a false scenario (pretext) to trick someone into revealing information. The attacker creates a convincing story to gain the victim's trust."
+  },
+  {
+   "id": "cs33-cyber-security-threats-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Phishing is sending fraudulent emails that appear to come from a trusted source, designed to trick recipients into revealing personal information, clicking malicious links, or downloading malware."
+  },
+  {
+   "id": "cs33-cyber-security-threats-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Shouldering is directly observing someone's screen or keyboard to obtain personal information, such as passwords or PIN numbers, by looking over their shoulder."
+  },
+  {
+   "id": "cs33-cyber-security-threats-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Explain the difference between phishing and pharming. | Describe four types of malware and how each one works. | What is social engineering? Describe blagging, phishing, and shouldering."
+  },
+  {
+   "id": "cs33-cyber-security-threats-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Phishing sends fraudulent emails that appear to be from a trusted source, tricking users into clicking links to fake websites or revealing information. Pharming manipulates DNS so that even when the u | Virus: attaches to a host file, replicates when the file is opened, can corrupt or delete data. Trojan: disguised as legitimate software, does not replicate, creates backdoors for attackers. Spyware:  | Social engineering manipulates people into revealing information or performing actions that compromise security. Blagging: inventing a false scenario to gain trust and extract information (e.g. preten"
+  },
+  {
+   "id": "cs33-cyber-security-threats-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know each social engineering technique with specific examples Distinguish clearly between virus, Trojan, spyware, and ransomware Phishing = email; Pharming = URL redirect (know the difference) Always explain that social engineering targets PEOPLE, not technology Be prepared to explain how multiple threats combine in an attack Use specific, realistic examples rather than vague descriptions"
+  }
+ ]
+}

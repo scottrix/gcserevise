@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "diodes-transistors",
+ "topicName": "Diodes & Transistors",
+ "version": 1,
+ "cards": [
+  {
+   "id": "diodes-transistors-fc1",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "A semiconductor diode allows current to flow in one direction only; it has a forward voltage drop of about 0.7 V for silicon.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc2",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "An LED (light-emitting diode) emits light when forward biased; it requires a series resistor to limit current.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc3",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "A bipolar junction transistor (BJT) has three terminals: base, collector and emitter.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc4",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "An NPN transistor switches on when the base-emitter voltage exceeds ~0.7 V, allowing collector current to flow.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc5",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "In switching mode, a transistor is driven between cut-off (off) and saturation (fully on).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc6",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "Current gain h_FE = I_C/I_B; a small base current controls a much larger collector current.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc7",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "As an amplifier, a transistor operates in its active region, producing a magnified copy of the input signal.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc8",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "A common-emitter amplifier inverts the signal and provides voltage, current and power gain.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc9",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "A base resistor limits base current to protect the transistor; R_B = (V_in − 0.7)/I_B.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc10",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "A PNP transistor operates with opposite polarity: current flows when the base is pulled low.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc11",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "Transistor saturation occurs when I_C reaches its maximum, limited by the supply and load resistance.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc12",
+   "front": "Recall a key point about Diodes & Transistors",
+   "back": "Protection diodes are placed across inductive loads (relays, motors) to prevent back-EMF damage.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc13",
+   "front": "What should you know about gcse electronics exam tips — diodes & transistors?",
+   "back": "1. For Diodes & Transistors questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Diodes & Transistors, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-dio"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc14",
+   "front": "Full-Mark Response",
+   "back": "Explain how a bipolar junction transistor can be used both as an electronic switch and as an amplifier.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "diodes-transistors-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of diodes & transistors, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of diodes & transistors to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits and systems",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

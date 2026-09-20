@@ -1,0 +1,57 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C15-exothermic-and-endothermic-reactions",
+ "topicName": "Exothermic And Endothermic Reactions",
+ "version": 1,
+ "steps": [
+  {
+   "id": "c15-exothermic-and-endothermic-reactions-s1",
+   "kind": "learn",
+   "title": "Exothermic reaction",
+   "body": "A reaction that releases energy to the surroundings, causing the temperature of the surroundings to increase. Energy is transferred from the reactants to the surroundings."
+  },
+  {
+   "id": "c15-exothermic-and-endothermic-reactions-s2",
+   "kind": "learn",
+   "title": "Endothermic reaction",
+   "body": "A reaction that absorbs energy from the surroundings, causing the temperature of the surroundings to decrease. Energy is transferred from the surroundings to the reactants."
+  },
+  {
+   "id": "c15-exothermic-and-endothermic-reactions-s3",
+   "kind": "learn",
+   "title": "Activation energy",
+   "body": "The minimum amount of energy that particles must have to react when they collide. Shown on reaction profiles as the energy \"hill\" from reactants to the peak."
+  },
+  {
+   "id": "c15-exothermic-and-endothermic-reactions-s4",
+   "kind": "learn",
+   "title": "Bond energy",
+   "body": "The amount of energy needed to break a particular chemical bond, or the amount released when the bond forms. Breaking bonds is endothermic; making bonds is exothermic."
+  },
+  {
+   "id": "c15-exothermic-and-endothermic-reactions-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Every chemical bond has a bond energy — the energy required to break it. When new bonds form, energy is released. The overall energy change depends on the balance between energy needed to break bonds and energy released when new bonds form. Steps for bond energy calculations: 1. Calculate total energy required to break all bonds in the reactants 2. Calculate total energy released when all new bonds form in the products 3. Energy change = energy in (breaking) − energy out (making) Worked Example 2: Bond energy calculation for H₂ + Cl₂ → 2HCl Bond energies: H−H = 436 kJ/mol, Cl−Cl = 242 kJ/mol, H−Cl = 431 kJ/mol Step 1: Energy to break bonds = H−H + Cl−Cl = 436 + 242 = 678 kJ/mol Step 2: Energy released making bonds = 2 × H−Cl = 2 × 431 = 862 kJ/mol Step 3: Energy change = 678 − 862 = −184 kJ/mol Negative value → exothermic . More energy released than absorbed. Worked Example 3: Bond energy calculation for CH₄ + 2O₂ → CO₂ + 2H₂O Bond energies: C−H = 413, O=O = 498, C=O = 805, O−H = 464 ("
+  },
+  {
+   "id": "c15-exothermic-and-endothermic-reactions-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation Define exothermic and endothermic reactions. | Foundation Classify each of the following as exothermic or endothermic: combustion, thermal decomposition, neutralisation, photosynthesis. | Higher For the reaction N₂ + 3H₂ → 2NH₃, calculate the energy change. Bond energies: N≡N = 945, H−H = 436, N−H = 391 (all kJ/mol)."
+  },
+  {
+   "id": "c15-exothermic-and-endothermic-reactions-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Exothermic: releases energy to surroundings, temperature increases. Endothermic: absorbs energy from surroundings, temperature decreases. | Combustion = exothermic. Thermal decomposition = endothermic. Neutralisation = exothermic. Photosynthesis = endothermic. | Energy in (breaking): N≡N + 3(H−H) = 945 + (3 × 436) = 945 + 1308 = 2253 kJ/mol. Energy out (making): 6 × N−H (because 2NH₃ has 6 N−H bonds) = 6 × 391 = 2346 kJ/mol. Energy change = 2253 − 2346 = −93 "
+  },
+  {
+   "id": "c15-exothermic-and-endothermic-reactions-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "In bond energy calculations, always count the number of each type of bond carefully — check the formulae A negative energy change means exothermic; a positive value means endothermic Breaking bonds is always endothermic (energy in); making bonds is always exothermic (energy out) On reaction profiles, the activation energy arrow always goes upwards from the reactants line Remember that both exothermic AND endothermic reactions need activation energy to get started When asked to sketch a reaction profile, label the axes (energy on y-axis, reaction progress on x-axis), the activation energy, and the overall energy change"
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "Edexcel",
+ "topic": "mock-exam",
+ "topicName": "Food-Preparation-Nutrition Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "food-preparation-nutrition-mock",
+   "name": "Food-Preparation-Nutrition Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Macronutrients] Q: What is the difference between HBV and LBV proteins?",
+     "correctAnswer": "HBV (high biological value) proteins contain all 9 essential amino acids and come mainly from animal sources (meat, fish, eggs, dairy) and soya. LBV (low biological value) proteins lack one or more essential amino acids and come from plant sources (cereals, pulses, nuts). LBV proteins can be combine",
+     "explanation": "HBV (high biological value) proteins contain all 9 essential amino acids and come mainly from animal sources (meat, fish, eggs, dairy) and soya. LBV (low biological value) proteins lack one or more essential amino acids and come from plant sources (cereals, pulses, nuts). LBV proteins can be combine",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Macronutrients] Q: Explain why saturated and unsaturated fats have different health effects.",
+     "correctAnswer": "Saturated fats (animal sources, solid at room temperature) raise LDL ('bad') cholesterol, increasing heart disease risk. Unsaturated fats (plant and fish sources, liquid at room temperature) can help lower LDL cholesterol and raise HDL ('good') cholesterol, reducing heart disease risk. Public health",
+     "explanation": "Saturated fats (animal sources, solid at room temperature) raise LDL ('bad') cholesterol, increasing heart disease risk. Unsaturated fats (plant and fish sources, liquid at room temperature) can help lower LDL cholesterol and raise HDL ('good') cholesterol, reducing heart disease risk. Public health",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Macronutrients] Q: Evaluate the importance of dietary fibre in the diet.",
+     "correctAnswer": "Fibre is essential for digestive health — it adds bulk to stools, prevents constipation, and feeds beneficial gut bacteria. It reduces risk of bowel cancer, heart disease, and type 2 diabetes. However, excessive fibre can interfere with mineral absorption. The UK average intake (14g/day) is well bel",
+     "explanation": "Fibre is essential for digestive health — it adds bulk to stools, prevents constipation, and feeds beneficial gut bacteria. It reduces risk of bowel cancer, heart disease, and type 2 diabetes. However, excessive fibre can interfere with mineral absorption. The UK average intake (14g/day) is well bel",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Sensory Properties of Food] Q: Explain the difference between taste and flavour.",
+     "correctAnswer": "Taste is detected by taste buds on the tongue — there are only five basic tastes (sweet, salty, sour, bitter, umami). Flavour is a combination of taste AND aroma (detected by the olfactory receptors in the nose). Up to 80% of flavour perception comes from aroma released during chewing (retronasal). ",
+     "explanation": "Taste is detected by taste buds on the tongue — there are only five basic tastes (sweet, salty, sour, bitter, umami). Flavour is a combination of taste AND aroma (detected by the olfactory receptors in the nose). Up to 80% of flavour perception comes from aroma released during chewing (retronasal). ",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Sensory Properties of Food] Q: Describe how a star diagram is used in sensory evaluation.",
+     "correctAnswer": "A star diagram (or radar chart) plots sensory attributes on spokes radiating from a centre point. Each spoke represents one attribute (sweetness, crunchiness, saltiness, etc.), rated on a scale (typically 1-5). Points are connected to form a shape that represents the product's sensory profile. Compa",
+     "explanation": "A star diagram (or radar chart) plots sensory attributes on spokes radiating from a centre point. Each spoke represents one attribute (sweetness, crunchiness, saltiness, etc.), rated on a scale (typically 1-5). Points are connected to form a shape that represents the product's sensory profile. Compa",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Sensory Properties of Food] Q: Evaluate the importance of sensory evaluation in food product development.",
+     "correctAnswer": "Sensory evaluation is essential because it provides objective data on how consumers perceive products, guiding development decisions. Without it, products might fail in the market despite being nutritionally sound. However, sensory testing has limitations: small sample sizes may not represent all co",
+     "explanation": "Sensory evaluation is essential because it provides objective data on how consumers perceive products, guiding development decisions. Without it, products might fail in the market despite being nutritionally sound. However, sensory testing has limitations: small sample sizes may not represent all co",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Micronutrients: Vitamins & Minerals] Q: Why are water-soluble vitamins more easily lost during cooking than fat-soluble vitamins?",
+     "correctAnswer": "Water-soluble vitamins (B and C) dissolve in cooking water and are destroyed by heat. Boiling leaches them into the water. Fat-soluble vitamins (A, D, E, K) are more stable to heat and don't dissolve in water — they are retained in the food. To preserve water-soluble vitamins: steam, stir-fry, use m",
+     "explanation": "Water-soluble vitamins (B and C) dissolve in cooking water and are destroyed by heat. Boiling leaches them into the water. Fat-soluble vitamins (A, D, E, K) are more stable to heat and don't dissolve in water — they are retained in the food. To preserve water-soluble vitamins: steam, stir-fry, use m",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Micronutrients: Vitamins & Minerals] Q: Explain the relationship between vitamin D and calcium.",
+     "correctAnswer": "Vitamin D is essential for calcium absorption in the gut. Without adequate vitamin D, calcium cannot be effectively absorbed, regardless of intake. This is why vitamin D deficiency leads to rickets and osteomalacia — conditions of bone softening — even when calcium intake is sufficient. Sunlight exp",
+     "explanation": "Vitamin D is essential for calcium absorption in the gut. Without adequate vitamin D, calcium cannot be effectively absorbed, regardless of intake. This is why vitamin D deficiency leads to rickets and osteomalacia — conditions of bone softening — even when calcium intake is sufficient. Sunlight exp",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Micronutrients: Vitamins & Minerals] Q: Evaluate the importance of iron in the diet, considering different sources.",
+     "correctAnswer": "Iron is essential for haemoglobin, which transports oxygen in the blood. Deficiency causes anaemia (fatigue, pallor). Haem iron from meat is well absorbed (15-35%), while non-haem iron from plants is poorly absorbed (2-20%). Vitamin C enhances non-haem iron absorption. Vegetarians must combine iron-",
+     "explanation": "Iron is essential for haemoglobin, which transports oxygen in the blood. Deficiency causes anaemia (fatigue, pallor). Haem iron from meat is well absorbed (15-35%), while non-haem iron from plants is poorly absorbed (2-20%). Vitamin C enhances non-haem iron absorption. Vegetarians must combine iron-",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[The Balanced Diet & Eatwell Guide] Q: Explain the five food groups in the Eatwell Guide.",
+     "correctAnswer": "1) Fruit and vegetables — at least 5 portions a day for vitamins, minerals, and fibre. 2) Starchy carbohydrates — base every meal on these (bread, rice, potatoes, pasta) for energy and fibre. 3) Dairy and alternatives — for calcium and protein; choose lower-fat options. 4) Beans, pulses, fish, eggs,",
+     "explanation": "1) Fruit and vegetables — at least 5 portions a day for vitamins, minerals, and fibre. 2) Starchy carbohydrates — base every meal on these (bread, rice, potatoes, pasta) for energy and fibre. 3) Dairy and alternatives — for calcium and protein; choose lower-fat options. 4) Beans, pulses, fish, eggs,",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[The Balanced Diet & Eatwell Guide] Q: What are DRVs and why are they important?",
+     "correctAnswer": "Dietary Reference Values are estimates of nutrient requirements for different population groups. RNI (Reference Nutrient Intake) is the amount sufficient for almost all individuals. EAR (Estimated Average Requirement) meets the needs of 50% of the population. LRNI is the intake below which deficienc",
+     "explanation": "Dietary Reference Values are estimates of nutrient requirements for different population groups. RNI (Reference Nutrient Intake) is the amount sufficient for almost all individuals. EAR (Estimated Average Requirement) meets the needs of 50% of the population. LRNI is the intake below which deficienc",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[The Balanced Diet & Eatwell Guide] Q: Evaluate how well the UK population follows the Eatwell Guide.",
+     "correctAnswer": "Most UK diets deviate significantly from the Eatwell Guide: too much saturated fat, sugar, and salt; too little fibre, fruit, vegetables, and oily fish. Only about 30% of adults eat 5-a-day. Processed foods high in fat, sugar, and salt make up a large proportion of energy intake. This contributes to",
+     "explanation": "Most UK diets deviate significantly from the Eatwell Guide: too much saturated fat, sugar, and salt; too little fibre, fruit, vegetables, and oily fish. Only about 30% of adults eat 5-a-day. Processed foods high in fat, sugar, and salt make up a large proportion of energy intake. This contributes to",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

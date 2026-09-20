@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS10-data-structures",
+ "topicName": "Data Structures",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs10-data-structures-s1",
+   "kind": "learn",
+   "title": "Data structures",
+   "body": "are ways of organising and storing data so it can be accessed and modified efficiently. At GCSE, you need to know about arrays (1D and 2D) and records."
+  },
+  {
+   "id": "cs10-data-structures-s2",
+   "kind": "learn",
+   "title": "A 1D array",
+   "body": "is an indexed collection of items of the same data type stored under one name. Each item is called an element and is accessed using its index (position number). Arrays are zero-indexed in most languages - the first element is at index 0."
+  },
+  {
+   "id": "cs10-data-structures-s3",
+   "kind": "learn",
+   "title": "A 2D array",
+   "body": "is an array of arrays - a grid with rows and columns. Each element is accessed using two indices: the row index and the column index. Think of it like a table or spreadsheet."
+  },
+  {
+   "id": "cs10-data-structures-s4",
+   "kind": "learn",
+   "title": "A record",
+   "body": "is a data structure that groups related fields of different data types under one name. Each field has a name and can hold a different type of data. Records are ideal for representing real-world entities."
+  },
+  {
+   "id": "cs10-data-structures-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Write pseudo-code to declare an array of 5 temperatures and output the third temperature. | Write pseudo-code that finds the sum of all elements in the array [10, 20, 30, 40, 50]. | A 2D array represents a 3x3 tic-tac-toe board. How would you access the centre square?"
+  },
+  {
+   "id": "cs10-data-structures-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "temps ← [18.5, 20.3, 22.1, 19.8, 21.0] OUTPUT temps[2] // Outputs 22.1 (third element, index 2) | numbers ← [10, 20, 30, 40, 50] total ← 0 FOR i ← 0 TO 4 total ← total + numbers[i] NEXT i OUTPUT total // 150 | The centre square is at row 1, column 1: board[1][1]"
+  },
+  {
+   "id": "cs10-data-structures-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Arrays are zero-indexed - the first element is at index 0 For 2D arrays, always use grid[row][column] order Use FOR loops to iterate through arrays - loop from 0 to LENGTH-1 Records use dot notation: recordName.fieldName You can have arrays of records for storing multiple entities Remember: arrays hold one data type, records can hold multiple types"
+  }
+ ]
+}

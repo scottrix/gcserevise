@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS7-programming-constructs",
+ "topicName": "Programming Constructs",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs7-programming-constructs-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between a variable and a constant.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A variable is a named memory location whose value can change during execution. A constant is a named value that cannot be changed once set. Constants prevent accidental changes and make code more readable.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs7-programming-constructs-q2",
+   "type": "short-answer",
+   "question": "Write pseudo-code that asks for a number and outputs \"Positive\", \"Negative\", or \"Zero\" using selection.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT number IF number > 0 THEN OUTPUT \"Positive\" ELSEIF number < 0 THEN OUTPUT \"Negative\" ELSE OUTPUT \"Zero\" ENDIF",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs7-programming-constructs-q3",
+   "type": "short-answer",
+   "question": "When would you use a REPEAT...UNTIL loop instead of a WHILE loop?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Use REPEAT...UNTIL when the loop body must execute at least once (e.g. input validation). Use WHILE when the loop may need to execute zero times (e.g. searching a list that might be empty).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs7-programming-constructs-q4",
+   "type": "short-answer",
+   "question": "Write pseudo-code using a FOR loop to output all multiples of 3 from 3 to 30.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "FOR i ← 3 TO 30 STEP 3 OUTPUT i NEXT i",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs7-programming-constructs-q5",
+   "type": "short-answer",
+   "question": "Write pseudo-code that keeps asking for a password until the user enters \"open123\", then outputs \"Welcome\".",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "password ← \"\" WHILE password <> \"open123\" INPUT \"Enter password: \", password ENDWHILE OUTPUT \"Welcome\"",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs7-programming-constructs-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Write pseudo-code for a program that asks a user to enter a password. The password must be at least 8 characters long and contain at least one digit. The program should keep asking until a valid password is entered, then output 'Password accepted'. [5 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "valid ← FALSE WHILE valid = FALSE INPUT 'Enter password: ', password IF LENGTH(password) >= 8 THEN found_digit ← FALSE FOR i ← 0 TO LENGTH(password) - 1 IF password[i] >= '0' AND password[i]",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "valid ← FALSE WHILE valid = FALSE INPUT 'Enter password: ', password IF LENGTH(password) >= 8 THEN found_digit ← FALSE FOR i ← 0 TO LENGTH(password) - 1 IF password[i] >= '0' AND password[i]"
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "subject": "citizenship-studies",
+ "board": "AQA",
+ "topic": "CI26-digital-rights-privacy",
+ "topicName": "Digital Rights & Privacy",
+ "version": 1,
+ "questions": [
+  {
+   "id": "ci26-digital-rights-privacy-q1",
+   "type": "short-answer",
+   "question": "Q: What rights do individuals have under the UK GDPR?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Under UK GDPR, individuals have: the right of access to their data, right to rectification of inaccurate data, right to erasure (right to be forgotten), right to restrict processing, right to data portability, and right to object to processing. Organisations must have a lawful basis to process personal data.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ci26-digital-rights-privacy-q2",
+   "type": "short-answer",
+   "question": "Q: Why is the balance between online freedom and online safety difficult to achieve?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Online freedom allows free expression, essential for democracy. However, this freedom enables harmful content like hate speech, misinformation, and cyberbullying. Restricting freedom to improve safety risks censorship and government overreach, while allowing unrestricted freedom puts vulnerable people at risk.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ci26-digital-rights-privacy-q3",
+   "type": "short-answer",
+   "question": "Q: Evaluate the effectiveness of the Online Safety Act 2023.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The Act requires platforms to remove harmful content and protect children, with Ofcom enforcement including fines up to 10% of global revenue. This could significantly improve online safety. However, critics argue it could lead to over-censorship, that defining 'harmful' is subjective, and that encryption may be undermined by monitoring requirements.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ci26-digital-rights-privacy-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate the view that online safety legislation threatens freedom of expression. [12 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Online safety legislation such as the Online Safety Act 2023 aims to protect citizens from harmful content including hate speech, terrorism, and material harmful to children. These protections are necessary because the internet has enabled the rapid spread of content that causes real harm. However, such legislation poses risks to freedom of expression. The requirement to remove 'harmful' content creates pressure to over-remove content to avoid fines, as 'harmful' is subjective. Content moderation algorithms make mistakes, and legitimate political speech may be censored. Requirements around age",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Online safety legislation such as the Online Safety Act 2023 aims to protect citizens from harmful content including hate speech, terrorism, and material harmful to children. These protections are necessary because the internet has enabled the rapid spread of content that causes real harm. However, such legislation poses risks to freedom of expression. The requirement to remove 'harmful' content creates pressure to over-remove content to avoid fines, as 'harmful' is subjective. Content moderation algorithms make mistakes, and legitimate political speech may be censored. Requirements around age verification and monitoring could undermine encryption, which protects journalists, activists, and ordinary citizens. Freedom of expression has never been absolute. Existing laws restrict hate speech, defamation, and incitement — the Online Safety Act extends these principles to online spaces. Ofcom's oversight should provide accountability. The real challenge is implementation. If Ofcom sets clear, narrow definitions of harmful content and provides robust appeal mechanisms, freedom of expression can be preserved alongside safety. If definitions are vague and enforcement heavy-handed, the risk to free speech is real. In conclusion, online safety legislation does not inevitably threaten free expression, but creates a significant risk that must be managed through clear definitions, independent oversight, and robust appeal mechanisms."
+   }
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS19-character-encoding",
+ "topicName": "Character Encoding",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs19-character-encoding-q1",
+   "type": "short-answer",
+   "question": "What is the ASCII code for the letter 'M'?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "'A' = 65, so 'M' is the 13th letter: 65 + 12 = 77.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs19-character-encoding-q2",
+   "type": "short-answer",
+   "question": "How many characters can 7-bit ASCII represent?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "7-bit ASCII can represent 2^7 = 128 different characters.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs19-character-encoding-q3",
+   "type": "short-answer",
+   "question": "Give two advantages of Unicode over ASCII.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Unicode supports all world languages while ASCII only supports English. 2) Unicode includes emojis and special symbols that ASCII cannot represent. Also acceptable: backwards compatible with ASCII, one universal standard eliminating regional encodings.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs19-character-encoding-q4",
+   "type": "short-answer",
+   "question": "Write pseudo-code that converts a lowercase letter to uppercase.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT letter code ← ASC(letter) IF code >= 97 AND code <= 122 THEN upper ← CHR(code - 32) OUTPUT upper ELSE OUTPUT \"Already uppercase or not a letter\" ENDIF",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs19-character-encoding-q5",
+   "type": "short-answer",
+   "question": "Explain why the character '3' and the integer 3 are stored differently in a computer.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The character '3' is stored as its ASCII code 51 (binary 00110011) and takes 1 byte. The integer 3 is stored as the binary number 00000011 (just the value 3). They look completely different in binary and are processed differently by the computer.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs19-character-encoding-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain why Unicode was developed as an alternative to ASCII, and discuss one advantage and one disadvantage of using Unicode. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Unicode was developed because ASCII could only represent 128 characters (or 256 in Extended ASCII), which is insufficient for the world's languages, symbols, and emoji. ASCII only covers English alphabet characters, digits, and basic punctuation. Advantage: Unicode supports over 143,000 characters from all writing systems worldwide, enabling global communication and multilingual documents in a single encoding standard. Disadvantage: Unicode requires more storage space per character than ASCII — up to 4 bytes compared to ASCII's 1 byte. This means text files are larger when using Unicode, thoug",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Unicode was developed because ASCII could only represent 128 characters (or 256 in Extended ASCII), which is insufficient for the world's languages, symbols, and emoji. ASCII only covers English alphabet characters, digits, and basic punctuation. Advantage: Unicode supports over 143,000 characters from all writing systems worldwide, enabling global communication and multilingual documents in a single encoding standard. Disadvantage: Unicode requires more storage space per character than ASCII — up to 4 bytes compared to ASCII's 1 byte. This means text files are larger when using Unicode, though UTF-8 mitigates this by using 1 byte for ASCII characters."
+   }
+  }
+ ]
+}

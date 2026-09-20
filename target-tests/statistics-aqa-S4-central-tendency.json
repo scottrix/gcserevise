@@ -1,0 +1,58 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S4-central-tendency",
+ "topicName": "S4 Central Tendency",
+ "version": 1,
+ "tests": [
+  {
+   "id": "s4-central-tendency-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on S4 Central Tendency",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "s4-central-tendency-t1",
+     "type": "short-answer",
+     "question": "Find the mean, median, and mode of: 4, 6, 8, 6, 5, 6, 9",
+     "correctAnswer": "Mean = 44÷7 ≈ 6.29; Ordered: 4,5,6,6,6,8,9; Median = 6; Mode = 6",
+     "explanation": "Answer: Mean = 44÷7 ≈ 6.29; Ordered: 4,5,6,6,6,8,9; Median = 6; Mode = 6",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s4-central-tendency-t2",
+     "type": "short-answer",
+     "question": "The mean of 5 numbers is 12. Four of the numbers are 10, 15, 8, 14. Find the fifth number.",
+     "correctAnswer": "Total = 5×12 = 60; Fifth = 60 - (10+15+8+14) = 60 - 47 = 13",
+     "explanation": "Answer: Total = 5×12 = 60; Fifth = 60 - (10+15+8+14) = 60 - 47 = 13",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s4-central-tendency-t3",
+     "type": "short-answer",
+     "question": "Find the range: 23, 45, 12, 67, 34, 89, 56",
+     "correctAnswer": "Range = 89 - 12 = 77",
+     "explanation": "Answer: Range = 89 - 12 = 77",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s4-central-tendency-t4",
+     "type": "short-answer",
+     "question": "A data set has Q1 = 15, Q2 = 28, Q3 = 42. Find the interquartile range.",
+     "correctAnswer": "IQR = Q3 - Q1 = 42 - 15 = 27",
+     "explanation": "Answer: IQR = Q3 - Q1 = 42 - 15 = 27",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

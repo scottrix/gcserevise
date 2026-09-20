@@ -1,0 +1,94 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as17-the-big-bang-expansion",
+ "topicName": "The Big Bang & Expansion",
+ "version": 1,
+ "questions": [
+  {
+   "id": "as17-the-big-bang-expansion-q1",
+   "type": "short-answer",
+   "question": "Q: State Hubble's law and define each term.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "v = H₀d, where v is recession velocity (km/s), H₀ is the Hubble constant (~70 km/s/Mpc), and d is distance (Mpc).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as17-the-big-bang-expansion-q2",
+   "type": "short-answer",
+   "question": "Q: What is the cosmic microwave background?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Radiation from ~380,000 years after the Big Bang when the universe became transparent. It has been redshifted by expansion to microwave wavelengths at ~2.7 K.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as17-the-big-bang-expansion-q3",
+   "type": "short-answer",
+   "question": "Q: How does redshift support the Big Bang theory?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Virtually all distant galaxies show redshift, indicating they are moving away from us — evidence the universe is expanding. If we rewind this expansion, everything converges to a single point ~13.8 billion years ago.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as17-the-big-bang-expansion-q4",
+   "type": "short-answer",
+   "question": "Q: Explain Olbers' paradox and its resolution.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "If the universe were infinite, static and eternal, the night sky should be bright (every line of sight ending on a star). It is dark because the universe is finite in age and expanding — distant starlight has not yet reached us, and redshift reduces energy.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as17-the-big-bang-expansion-q5",
+   "type": "short-answer",
+   "question": "Q: How is the age of the universe estimated?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "From the Hubble constant: t ≈ 1/H₀ ≈ 13.8 billion years. This is consistent with ages of the oldest stars and globular clusters.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

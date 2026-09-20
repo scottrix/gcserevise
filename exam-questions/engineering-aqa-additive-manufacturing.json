@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "additive-manufacturing",
+ "topicName": "Additive Manufacturing",
+ "version": 1,
+ "questions": [
+  {
+   "id": "additive-manufacturing-q1",
+   "type": "short-answer",
+   "question": "Q: Explain how FDM 3D printing works, from digital model to finished part.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A CAD model is exported as an STL file, sliced into thin layers by the printer software. The printer heats thermoplastic filament and extrudes it through a nozzle that traces each layer onto the build platform. The platform lowers after each layer and the next is deposited on top. Support material is printed for overhangs and removed after completion.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "additive-manufacturing-q2",
+   "type": "short-answer",
+   "question": "Q: Why is additive manufacturing described as producing minimal waste compared to CNC machining?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Additive processes only deposit material where the component exists, so nearly all material becomes the finished part. CNC machining starts with a solid block and removes material (as chips/swarf) to carve the shape, wasting significant raw material.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "additive-manufacturing-q3",
+   "type": "short-answer",
+   "question": "Q: Compare FDM and SLS for producing a functional nylon prototype gear.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "SLS is better for a functional gear because it fuses nylon powder with a laser, producing parts with good mechanical strength and no support structures needed (unsintered powder supports overhangs). FDM nylon parts have weaker interlayer bonding and require support removal, which can leave surface marks affecting the gear profile.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "additive-manufacturing-q4",
+   "type": "short-answer",
+   "question": "Q: State two limitations of additive manufacturing that prevent it replacing injection moulding for high-volume production.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Additive manufacturing is much slower per part (building layer by layer) compared to injection moulding cycles of seconds, and the per-unit cost does not decrease significantly with volume, unlike moulding where tooling costs are amortised over thousands of parts.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "additive-manufacturing-q5",
+   "type": "short-answer",
+   "question": "Q: Explain why additive manufacturing is widely used in the aerospace industry.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Aerospace uses complex, low-volume components where the weight savings from optimised topology (possible only with additive manufacturing) justify the higher production cost. Additive manufacturing can produce internal channels and lattice structures impossible with conventional methods, reducing weight while maintaining strength.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS12-quality",
+ "topicName": "Quality",
+ "version": 1,
+ "questions": [
+  {
+   "id": "bs12-quality-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between quality control and quality assurance.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Quality control checks products AFTER production to find and remove defective items - it's a checkpoint at the end. Quality assurance builds quality INTO the process at every stage, checking throughout so defects are prevented, not just detected. QC = catching problems; QA = preventing problems.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs12-quality-q2",
+   "type": "short-answer",
+   "question": "Describe two ways TQM can benefit a business.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "TQM benefits: (1) Every employee takes responsibility for quality, reducing defects at source and creating a culture of continuous improvement - this leads to fewer customer complaints and returns. (2) Empowered workers can stop production if they spot a defect, preventing waste of materials and time on faulty batches - reducing costs and improving efficiency.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs12-quality-q3",
+   "type": "short-answer",
+   "question": "Evaluate whether a small business should invest in ISO 9001 certification.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Arguments for ISO 9001: signals quality to customers and partners, required by some B2B clients and government contracts, improves internal processes through documentation, builds competitive advantage over non-certified rivals. Arguments against: certification costs £3,000-£10,000 plus annual audits, significant staff time for documentation, may add bureaucracy that slows decision-making, a small",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs12-quality-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate whether a food manufacturer should move from quality control to quality assurance. <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: explain QC (end-of-line testing catches contaminated batches but they must be thrown away); explain QA (HACCP system checks at each stage - raw materials, cooking temperatures, packaging - preventing contamination before it occurs); consider costs (QA requires more training and monitoring systems but reduces waste); consider risks (food safety is critical - QC failures could lead to product recalls, legal action, and brand damage); conclude: QA is essential in food manufacturing where safety is non-negotiable - the cost of prevention is far less than the cost of a food",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: explain QC (end-of-line testing catches contaminated batches but they must be thrown away); explain QA (HACCP system checks at each stage - raw materials, cooking temperatures, packaging - preventing contamination before it occurs); consider costs (QA requires more training and monitoring systems but reduces waste); consider risks (food safety is critical - QC failures could lead to product recalls, legal action, and brand damage); conclude: QA is essential in food manufacturing where safety is non-negotiable - the cost of prevention is far less than the cost of a food safety scandal."
+   }
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C19-hydrocarbons-and-crude-oil",
+ "topicName": "Hydrocarbons And Crude Oil",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c19-hydrocarbons-and-crude-oil-q1",
+   "type": "short-answer",
+   "question": "What is crude oil a mixture of? Explain why crude oil is described as a finite resource.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Crude oil is a mixture of hydrocarbons (compounds of carbon and hydrogen only). It is finite because it was formed from ancient biomass over millions of years and cannot be replaced within a human lifetime — once used, supplies are gone.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c19-hydrocarbons-and-crude-oil-q2",
+   "type": "short-answer",
+   "question": "Describe how fractional distillation separates crude oil into fractions. Explain why fractions condense at different heights in the column.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Crude oil is heated and vaporised, then the vapours enter a fractionating column. The column is hot at the bottom and cool at the top. As vapours rise they cool. Each fraction condenses at a different height because hydrocarbons have different boiling points — long-chain hydrocarbons have high boiling points and condense near the bottom, while short-chain hydrocarbons have low boiling points and c",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c19-hydrocarbons-and-crude-oil-q3",
+   "type": "short-answer",
+   "question": "An alkane has 5 carbon atoms. Use the general formula to work out its molecular formula and name it.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Using CₙH₂ₙ₊₂ with n = 5: H = 2(5) + 2 = 12. Molecular formula = C₅H₁₂. The name is pentane .",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c19-hydrocarbons-and-crude-oil-q4",
+   "type": "short-answer",
+   "question": "Compare the properties of a short-chain hydrocarbon fraction (e.g. petrol) with a long-chain fraction (e.g. bitumen) in terms of boiling point, viscosity, flammability and volatility.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Petrol (short-chain) has a lower boiling point, is less viscous (more runny), is more flammable, and is more volatile than bitumen. Bitumen (long-chain) has a higher boiling point, is more viscous (thicker/sticky), is less flammable, and is less volatile.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c19-hydrocarbons-and-crude-oil-q5",
+   "type": "short-answer",
+   "question": "Higher Write a balanced symbol equation for the cracking of C₁₀H₂₂ to produce ethene and one other product. State whether each product is an alkane or an alkene.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "C₁₀H₂₂ → C₂H₄ + C₈H₁₈. C₂H₄ (ethene) is an alkene — it has a C=C double bond and fits CₙH₂ₙ. C₈H₁₈ is an alkane — it has only single bonds and fits CₙH₂ₙ₊₂ (n = 8, 2×8+2 = 18).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c19-hydrocarbons-and-crude-oil-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Describe how fractional distillation separates crude oil, and explain why cracking is necessary even after fractional distillation. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Fractional distillation separates crude oil by heating it to vaporise the hydrocarbons. The vapours enter a fractionating column which has a temperature gradient — hot at the bottom and cool at the top. As the vapours rise, they cool. Each fraction condenses at a different height because hydrocarbons have different boiling points. Long-chain hydrocarbons have high boiling points and strong intermolecular forces, so they condense near the bottom at higher temperatures (e.g. bitumen). Short-chain hydrocarbons have low boiling points and weaker intermolecular forces, so they rise higher and conde",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Fractional distillation separates crude oil by heating it to vaporise the hydrocarbons. The vapours enter a fractionating column which has a temperature gradient — hot at the bottom and cool at the top. As the vapours rise, they cool. Each fraction condenses at a different height because hydrocarbons have different boiling points. Long-chain hydrocarbons have high boiling points and strong intermolecular forces, so they condense near the bottom at higher temperatures (e.g. bitumen). Short-chain hydrocarbons have low boiling points and weaker intermolecular forces, so they rise higher and condense near the top at lower temperatures (e.g. petroleum gases, petrol). However, fractional distillation produces more long-chain fractions than are needed and not enough short-chain fractions like petrol, which are in high demand. Cracking solves this problem by breaking long-chain hydrocarbons (which are in surplus) into shorter, more useful molecules. Cracking always produces at least one alkene (useful for making polymers) and shorter alkanes (useful as fuels). Mark scheme: 1 mark for heating/vaporising crude oil; 1 mark for temperature gradient in column; 1 mark for different boiling points causing condensation at different heights; 1 mark for explaining supply/demand mismatch; 1 mark for cracking breaking long chains into shorter ones; 1 mark for mentioning alkene production from cracking"
+   }
+  }
+ ]
+}

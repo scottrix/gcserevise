@@ -2544,3 +2544,17 @@ padding-right: 1rem;
   .score-value { font-size: 2rem; }
   .results-actions { flex-direction: column; }
 }
+
+/* Self-marking (exam questions) */
+.self-mark {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg-secondary);
+}
+.self-mark-header { margin-bottom: 0.5rem; }
+.self-mark-hint { font-size: 0.8rem; color: var(--text-secondary); }
+.self-mark-btns { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.self-mark-btn.self-mark-active { outline: 2px solid var(--accent); font-weight: 700; }
+.self-mark-score { margin-top: 0.5rem; font-weight: 600; color: var(--accent); }

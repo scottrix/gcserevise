@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "electronic-systems",
+ "topicName": "Electronic Systems",
+ "version": 1,
+ "questions": [
+  {
+   "id": "electronic-systems-q1",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between analogue and digital signals, giving an example of each.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Analogue signals vary continuously over a range (e.g. temperature sensor output 0-5V). Digital signals have only two states, high or low (e.g. a switch output that is either 0V or 5V).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "electronic-systems-q2",
+   "type": "short-answer",
+   "question": "Q: Draw a truth table for a 2-input AND gate and a 2-input OR gate.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "AND: output is 1 only when both inputs are 1 (00->0, 01->0, 10->0, 11->1). OR: output is 1 when any input is 1 (00->0, 01->1, 10->1, 11->1).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "electronic-systems-q3",
+   "type": "short-answer",
+   "question": "Q: Explain why a microcontroller is more flexible than a hard-wired logic gate circuit.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A microcontroller's behaviour is determined by its program, which can be changed without altering the hardware. A logic gate circuit performs a fixed function determined by the wiring; any change requires rewiring. Microcontrollers can also handle complex sequences, timing, counting and decision-making that would require many logic gates.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "electronic-systems-q4",
+   "type": "short-answer",
+   "question": "Q: Describe how a transistor is used as an interface between a logic gate and a motor.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The logic gate output (typically 5V, a few mA) is connected to the transistor base through a resistor. The transistor acts as a switch: when the logic output is high, the transistor turns on, allowing a much larger collector current to flow through the motor from the power supply. The transistor thus amplifies the small logic signal to drive the high-current load.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "electronic-systems-q5",
+   "type": "short-answer",
+   "question": "Q: A system must sound a buzzer when temperature exceeds 30 degrees C AND a door is open. Design the logic solution.",
+   "marks": 1,
+   "commandWord": "design",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A thermistor and potential divider produce a high output above 30 degrees C. A door switch produces a high output when open. Both signals feed into a 2-input AND gate. The AND gate output goes high only when both conditions are true, driving a transistor that powers the buzzer.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

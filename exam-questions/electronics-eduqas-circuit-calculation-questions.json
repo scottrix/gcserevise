@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "circuit-calculation-questions",
+ "topicName": "Circuit Calculation Questions",
+ "version": 1,
+ "questions": [
+  {
+   "id": "circuit-calculation-questions-q1",
+   "type": "short-answer",
+   "question": "Q: A 12 V supply drives 150 mA through a resistor. Calculate its resistance showing full working.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "R = V/I = 12/0.150 = 80 Ω. (Convert 150 mA to 0.150 A first.)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuit-calculation-questions-q2",
+   "type": "short-answer",
+   "question": "Q: A 9 V battery powers a 4.5 V, 0.5 W Zener diode regulator. Calculate the series resistor value if the load current is 40 mA and Zener current is 10 mA.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "R_s = (V_in − V_Z)/(I_Z + I_load) = (9 − 4.5)/(0.01 + 0.04) = 4.5/0.05 = 90 Ω.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuit-calculation-questions-q3",
+   "type": "short-answer",
+   "question": "Q: Why should you keep intermediate values to 3 significant figures in a multi-step calculation?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Rounding too early introduces cumulative errors; keeping 3 significant figures ensures the final answer is accurate to at least 2 significant figures.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuit-calculation-questions-q4",
+   "type": "short-answer",
+   "question": "Q: A resistor carries 20 mA and dissipates 0.1 W. Calculate its resistance.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "P = I²R → R = P/I² = 0.1/(0.02)² = 0.1/0.0004 = 250 Ω.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuit-calculation-questions-q5",
+   "type": "short-answer",
+   "question": "Q: What is wrong with this working: 'I = V/R = 12/10k = 0.0012 A'?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The value 10k has not been converted to base units; it should be I = 12/10000 = 0.0012 A. The answer is correct but the method should show R = 10000 Ω explicitly.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuit-calculation-questions-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Describe the method for solving a circuit calculation question in an exam, using an example that involves finding the current through and power dissipated by a resistor. <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The systematic method for solving circuit calculations has four steps. First, identify what is known and what is unknown: read the question carefully and list the given quantities with their values and units. Second, convert all values to base SI units: for example, 12 V stays as 12 V, but 10 kΩ becomes 10000 Ω and 5 mA becomes 0.005 A. Third, choose the correct formula and write it down before substituting. To find current, use I = V/R; to find power, use P = VI (or P = I²R if I and R are known). Fourth, substitute the values, calculate and state the answer with correct units. Example: A 12 V",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "The systematic method for solving circuit calculations has four steps. First, identify what is known and what is unknown: read the question carefully and list the given quantities with their values and units. Second, convert all values to base SI units: for example, 12 V stays as 12 V, but 10 kΩ becomes 10000 Ω and 5 mA becomes 0.005 A. Third, choose the correct formula and write it down before substituting. To find current, use I = V/R; to find power, use P = VI (or P = I²R if I and R are known). Fourth, substitute the values, calculate and state the answer with correct units. Example: A 12 V supply is connected across a 4 kΩ resistor. Current: I = V/R = 12/4000 = 0.003 A = 3 mA. Power: P = VI = 12 × 0.003 = 0.036 W = 36 mW. This method ensures method marks are earned even if a later arithmetic error occurs, because each step is clearly shown."
+   }
+  }
+ ]
+}

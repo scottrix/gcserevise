@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "comparator-circuits",
+ "topicName": "Comparator Circuits",
+ "version": 1,
+ "questions": [
+  {
+   "id": "comparator-circuits-q1",
+   "type": "short-answer",
+   "question": "Q: Explain why a simple comparator can produce a chattering output when the input signal is noisy.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Noise causes the input to cross the single threshold repeatedly, making the output switch rapidly between states.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comparator-circuits-q2",
+   "type": "short-answer",
+   "question": "Q: A Schmitt trigger has V_UT = 4 V and V_LT = 2 V. What is the hysteresis voltage?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "V_H = V_UT − V_LT = 4 − 2 = 2 V.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comparator-circuits-q3",
+   "type": "short-answer",
+   "question": "Q: State the role of positive feedback in a Schmitt trigger.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Positive feedback creates two distinct threshold voltages (hysteresis), accelerates switching transitions and eliminates output chatter.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comparator-circuits-q4",
+   "type": "short-answer",
+   "question": "Q: A comparator has V+ = 3.2 V and V− = 3.0 V. What is the output state?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Since V+ > V−, the output is at positive saturation (high).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comparator-circuits-q5",
+   "type": "short-answer",
+   "question": "Q: Give two applications of comparator circuits.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Level detection (e.g. over-temperature alarm) and zero-crossing detection (e.g. in signal processing or timing circuits).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "comparator-circuits-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain the operation of a Schmitt trigger comparator circuit and describe how hysteresis eliminates output chatter. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A Schmitt trigger is a comparator circuit that uses positive feedback to create two distinct threshold voltages: an upper threshold (V_UT) and a lower threshold (V_LT). When the input rises above V_UT, the output switches to its high state and remains high until the input falls below V_LT. Similarly, when the input falls below V_LT, the output switches low and remains low until the input rises above V_UT again. This dual-threshold behaviour creates hysteresis (V_H = V_UT − V_LT), which means the circuit has memory of its previous output state. Hysteresis eliminates output chatter because small",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A Schmitt trigger is a comparator circuit that uses positive feedback to create two distinct threshold voltages: an upper threshold (V_UT) and a lower threshold (V_LT). When the input rises above V_UT, the output switches to its high state and remains high until the input falls below V_LT. Similarly, when the input falls below V_LT, the output switches low and remains low until the input rises above V_UT again. This dual-threshold behaviour creates hysteresis (V_H = V_UT − V_LT), which means the circuit has memory of its previous output state. Hysteresis eliminates output chatter because small noise fluctuations around a single threshold cannot cause repeated switching — the input must move fully through the hysteresis window to change the output state. Positive feedback also accelerates the switching transition, producing clean, fast output edges. The hysteresis width can be adjusted by choosing appropriate feedback resistor values: a wider hysteresis gives greater noise immunity at the cost of reduced sensitivity."
+   }
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S4-central-tendency",
+ "topicName": "S4 Central Tendency",
+ "version": 1,
+ "steps": [
+  {
+   "id": "s4-central-tendency-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Measures of central tendency identify the \"average\" or \"typical\" value in a set of data. The three main measures are mean, median, and mode."
+  },
+  {
+   "id": "s4-central-tendency-s2",
+   "kind": "learn",
+   "title": "Formula",
+   "body": "Mean = Sum of all values ÷ Number of values Symbol: x̄ (x-bar) represents the mean"
+  },
+  {
+   "id": "s4-central-tendency-s3",
+   "kind": "learn",
+   "title": "Mean from a Frequency Table",
+   "body": "Mean = Σ(f × x) ÷ Σf where f = frequency and x = value"
+  },
+  {
+   "id": "s4-central-tendency-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "The middle value when data is arranged in order. Position: For n values, median position = (n + 1) ÷ 2"
+  },
+  {
+   "id": "s4-central-tendency-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Find the mean, median, and mode of: 4, 6, 8, 6, 5, 6, 9 | The mean of 5 numbers is 12. Four of the numbers are 10, 15, 8, 14. Find the fifth number. | Find the range: 23, 45, 12, 67, 34, 89, 56"
+  },
+  {
+   "id": "s4-central-tendency-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Mean = 44÷7 ≈ 6.29; Ordered: 4,5,6,6,6,8,9; Median = 6; Mode = 6 | Total = 5×12 = 60; Fifth = 60 - (10+15+8+14) = 60 - 47 = 13 | Range = 89 - 12 = 77"
+  },
+  {
+   "id": "s4-central-tendency-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always order data before finding the median Check if there's more than one mode For grouped data, estimate the mean using midpoints Use median for data with outliers (less affected by extreme values) When comparing, comment on both average and spread Higher tier: Know how to find quartiles and IQR from cumulative frequency graphs"
+  }
+ ]
+}

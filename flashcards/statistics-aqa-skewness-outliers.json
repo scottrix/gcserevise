@@ -1,0 +1,159 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "skewness-outliers",
+ "topicName": "Skewness Outliers",
+ "version": 1,
+ "cards": [
+  {
+   "id": "skewness-outliers-fc1",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "A symmetric distribution has its mean, median, and mode approximately equal; the left and right sides are mirror images.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc2",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "Positive (right) skew has a long tail to the right; the mean is greater than the median, which is greater than the mode.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc3",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "Negative (left) skew has a long tail to the left; the mean is less than the median, which is less than the mode.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc4",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "Pearson's skewness coefficient = 3 × (mean – median) ÷ standard deviation; a positive value indicates positive skew, a negative value indicates negative skew.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc5",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "Values of Pearson's skewness coefficient between –0.5 and 0.5 suggest approximately symmetric data; values beyond ±1 indicate substantial skew.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc6",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "On a box plot, positive skew is shown by a longer right whisker and the median closer to Q1; negative skew by a longer left whisker and the median closer to Q3.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc7",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "Outliers are extreme values that differ significantly from the rest of the data; they can arise from measurement error or genuinely unusual observations.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc8",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "The 1.5 × IQR rule: any value below Q1 – 1.5 × IQR or above Q3 + 1.5 × IQR is classified as an outlier.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc9",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "The 2 standard deviations rule: any value more than 2 standard deviations from the mean may be classified as an outlier, used when the distribution is approximately normal.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc10",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "Outliers pull the mean towards them but do not affect the median; this is why the median is preferred for skewed data.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc11",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "When deciding whether to include or exclude an outlier, check for data recording errors first; if the value is genuine, analyse the data both with and without the outlier.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc12",
+   "front": "Recall a key point about Skewness Outliers",
+   "back": "In exam answers, always identify outliers by showing the calculation (e.g. Q1 – 1.5 × IQR = 10 – 18 = –8) and state whether the outlier should be kept or removed with justification.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc13",
+   "front": "What should you know about gcse statistics exam tips — skewness & outliers?",
+   "back": "1. For Skewness & Outliers questions, show every step of your working clearly — method marks count even if the final answer is wrong 2. Check your answer makes sense in context (estimation, units, reasonableness) 3. Use correct mathematical notation and state formulae before substituting values 4. If a Skewness & Outliers question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line 5. For problem-solving, identify the topic first, then recall the relevant method",
+   "tags": [
+    "gcse-statistics-exam-tips-skew"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc14",
+   "front": "Full-Mark Response",
+   "back": "A dataset of 10 test scores has Q1 = 35, Q2 = 52, Q3 = 65, mean = 54, and SD = 18. The maximum value is 110. Determine whether the maximum is an outlier and calculate Pearson's skewness coefficient.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "skewness-outliers-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of skewness & outliers, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382. AO2 (Application): Apply knowledge and understanding of skewness & outliers to interpret data, reason statistically and draw conclusions in context. AO3 (Evaluation): Evaluate statistical methods and",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

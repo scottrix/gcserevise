@@ -1,0 +1,111 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE5-cardiac-output-stroke-volume",
+ "topicName": "Cardiac Output, Stroke Volume & Heart Rate",
+ "version": 1,
+ "questions": [
+  {
+   "id": "pe5-cardiac-output-stroke-volume-q1",
+   "type": "short-answer",
+   "question": "State the equation linking cardiac output, stroke volume and heart rate.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cardiac Output = Stroke Volume × Heart Rate (CO = SV × HR).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe5-cardiac-output-stroke-volume-q2",
+   "type": "short-answer",
+   "question": "Calculate the cardiac output of an athlete with a stroke volume of 120 ml/beat and a heart rate of 170 bpm during exercise.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "CO = 120 ml/beat × 170 bpm = 20,400 ml/min = 20.4 l/min.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe5-cardiac-output-stroke-volume-q3",
+   "type": "short-answer",
+   "question": "Explain what is meant by an anticipatory rise and why it occurs.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An anticipatory rise is an increase in heart rate before exercise begins, caused by the release of adrenaline from the adrenal glands. It is an emotional/psychological response to the anticipation of exercise, preparing the body by increasing blood flow to working muscles before activity starts.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe5-cardiac-output-stroke-volume-q4",
+   "type": "short-answer",
+   "question": "Explain why a trained endurance athlete has a lower resting heart rate than an untrained person, despite having the same cardiac output at rest.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Regular aerobic training causes cardiac hypertrophy - the left ventricle becomes larger and stronger. This increases stroke volume, so the heart can pump the same cardiac output with fewer beats per minute. The athlete maintains the same resting cardiac output (~5 l/min) but with a higher SV and lower HR.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe5-cardiac-output-stroke-volume-q5",
+   "type": "short-answer",
+   "question": "Describe the heart rate response during recovery from exercise.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "After exercise stops, heart rate decreases rapidly in the first 1-3 minutes (parasympathetic nervous system activation). Then it decreases gradually back towards resting levels over 30-60 minutes. A fitter person recovers faster than an untrained person.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe5-cardiac-output-stroke-volume-q6",
+   "type": "short-answer",
+   "question": "A marathon runner has a resting HR of 42 bpm and a resting SV of 115 ml/beat. Calculate their resting cardiac output.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "CO = 115 × 42 = 4,830 ml/min ≈ 4.8 l/min.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

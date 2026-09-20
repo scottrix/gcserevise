@@ -1,0 +1,38 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P19-pressure",
+ "topicName": "Pressure",
+ "version": 1,
+ "tests": [
+  {
+   "id": "p19-pressure-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Pressure",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "p19-pressure-t1",
+     "type": "short-answer",
+     "question": "Foundation A woman of weight 600 N stands on both feet with total area 0.03 m². Calculate the pressure she exerts on the ground.",
+     "correctAnswer": "p = F / A = 600 / 0.03 = 20 000 Pa (20 kPa)",
+     "explanation": "Answer: p = F / A = 600 / 0.03 = 20 000 Pa (20 kPa)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p19-pressure-t3",
+     "type": "short-answer",
+     "question": "Higher Calculate the pressure at a depth of 5 m in sea water (density 1025 kg/m³, g = 9.8 N/kg).",
+     "correctAnswer": "p = hρg = 5 × 1025 × 9.8 = 50 225 Pa (50.2 kPa)",
+     "explanation": "Answer: p = hρg = 5 × 1025 × 9.8 = 50 225 Pa (50.2 kPa)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

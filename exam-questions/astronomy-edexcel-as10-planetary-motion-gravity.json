@@ -1,0 +1,94 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as10-planetary-motion-gravity",
+ "topicName": "Planetary Motion & Gravity",
+ "version": 1,
+ "questions": [
+  {
+   "id": "as10-planetary-motion-gravity-q1",
+   "type": "short-answer",
+   "question": "Q: State Kepler's three laws of planetary motion.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1st: Planets orbit in ellipses with the Sun at one focus. 2nd: A line from planet to Sun sweeps equal areas in equal times. 3rd: T² is proportional to a³.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as10-planetary-motion-gravity-q2",
+   "type": "short-answer",
+   "question": "Q: Why do planets move faster at perihelion?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Because of Kepler's second law — equal areas are swept in equal times, so the planet must move faster when closer to the Sun to cover the same area.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as10-planetary-motion-gravity-q3",
+   "type": "short-answer",
+   "question": "Q: State Newton's law of gravitation and explain each term.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "F = GMm/r². F is the gravitational force, G is the gravitational constant, M and m are the two masses, and r is the distance between their centres.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as10-planetary-motion-gravity-q4",
+   "type": "short-answer",
+   "question": "Q: What is a geostationary orbit and what is it used for?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An orbit above the equator at ~36,000 km altitude with a 24-hour period, so the satellite appears stationary above a fixed point on Earth. Used for communications and weather satellites.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as10-planetary-motion-gravity-q5",
+   "type": "short-answer",
+   "question": "Q: Calculate: if a planet orbits at 4 AU, what is its orbital period? (Use Kepler's 3rd law with Earth as reference.)",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "T² = a³, so T² = 4³ = 64, T = 8 years.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

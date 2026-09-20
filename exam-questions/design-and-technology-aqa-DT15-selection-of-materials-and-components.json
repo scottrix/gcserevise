@@ -1,0 +1,78 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT15-selection-of-materials-and-components",
+ "topicName": "Selection of Materials and Components",
+ "version": 1,
+ "questions": [
+  {
+   "id": "dt15-selection-of-materials-and-components-q1",
+   "type": "short-answer",
+   "question": "Create a simple decision matrix to compare acrylic, polycarbonate and glass for a display cabinet door.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Criteria with weights: Safety (impact resistance) 5, Transparency 4, Cost 3, Weight 3, Scratch resistance 2. Acrylic: 58. Polycarbonate: 62. Glass: 50. Winner: polycarbonate (best safety and transparency despite higher cost).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt15-selection-of-materials-and-components-q2",
+   "type": "short-answer",
+   "question": "A designer must choose between aluminium and polypropylene for a kitchen utensil handle. Justify using at least four criteria.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Function: handle must insulate - PP wins over aluminium. Weight: PP lightweight, aluminium heavier. Cost: PP cheap and easy to mould; aluminium requires die-casting. Durability: aluminium resists staining; PP may stain. Recommendation: PP for budget, aluminium with silicone overmould for premium.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt15-selection-of-materials-and-components-q3",
+   "type": "short-answer",
+   "question": "Explain how production volume (batch vs mass) influences material selection for a plastic product.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Mass production (100,000+ units): justifies expensive injection mould tooling - thermoplastics very cheap per unit. Batch (50-500 units): tooling cost per unit too high - use CNC, vacuum forming, or 3D printing.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt15-selection-of-materials-and-components-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A company is designing a reusable water bottle for the premium market. Using a decision matrix, compare stainless steel, glass and Tritan across at least five criteria. <div class=\"",
+   "marks": 4,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: identify criteria with weights - Durability 5, Aesthetics 4, Sustainability 4, Cost 3, Weight 3, Hygiene 3; score each; stainless steel: 84; glass: 72; Tritan: 70; conclude: stainless steel recommended for premium market.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: identify criteria with weights - Durability 5, Aesthetics 4, Sustainability 4, Cost 3, Weight 3, Hygiene 3; score each; stainless steel: 84; glass: 72; Tritan: 70; conclude: stainless steel recommended for premium market."
+   }
+  }
+ ]
+}

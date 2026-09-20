@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "modelling-calculation",
+ "topicName": "Modelling & Calculation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "modelling-calculation-q1",
+   "type": "short-answer",
+   "question": "Q: A steel rod of 8 mm diameter carries a tensile load of 15 kN. Calculate the stress in the rod.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Area = pi x (4)^2 = 50.3 mm2. Stress = 15000 / 50.3 = 298.2 MPa.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "modelling-calculation-q2",
+   "type": "short-answer",
+   "question": "Q: A 2 m long aluminium bar stretches by 0.5 mm under a tensile load. Calculate the strain.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Strain = Change in length / Original length = 0.5 / 2000 = 0.00025 (or 0.025%).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "modelling-calculation-q3",
+   "type": "short-answer",
+   "question": "Q: Explain what Young's Modulus tells an engineer about a material and why it is useful.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Young's Modulus (E) indicates stiffness — how much a material deflects under load. A high E (e.g. steel, 200 GPa) means the material is stiff and deflects little; a low E (e.g. rubber, 0.01 GPa) means it is flexible. Engineers use E to calculate deflections and select materials for stiffness-critical applications.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "modelling-calculation-q4",
+   "type": "short-answer",
+   "question": "Q: An aluminium cylinder has a diameter of 40 mm and a length of 100 mm. Calculate its mass (density of aluminium = 2700 kg/m3).",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Volume = pi x (0.02)^2 x 0.1 = 0.0001257 m3. Mass = density x volume = 2700 x 0.0001257 = 0.339 kg.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "modelling-calculation-q5",
+   "type": "short-answer",
+   "question": "Q: A component has an ultimate tensile strength of 500 MPa and is designed with a factor of safety of 4. Calculate the maximum working stress.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Working stress = UTS / FoS = 500 / 4 = 125 MPa. The component must not experience stress greater than 125 MPa in service.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

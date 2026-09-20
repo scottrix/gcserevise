@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P7-electrical-power-and-energy",
+ "topicName": "P7 Electrical Power And Energy",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p7-electrical-power-and-energy-q1",
+   "type": "short-answer",
+   "question": "Foundation A hair dryer has a power of 1200 W and is connected to a 230 V supply. Calculate the current it draws.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "I = P / V = 1200 / 230 = 5.22 A.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p7-electrical-power-and-energy-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain why the National Grid uses step-up transformers at power stations.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Step-up transformers increase the voltage and decrease the current. Lower current means less energy is wasted as heat in the transmission cables (since power loss = I squared x R). This makes the National Grid more efficient.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p7-electrical-power-and-energy-q3",
+   "type": "short-answer",
+   "question": "Foundation State the colour and function of each wire in a three-core mains cable.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Live wire = brown, carries the 230 V current from the supply. Neutral wire = blue, completes the circuit at 0 V. Earth wire = green/yellow, safety wire that connects the metal case to the ground to protect against electric shock.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p7-electrical-power-and-energy-q4",
+   "type": "short-answer",
+   "question": "Higher A 1500 W electric heater is used for 30 minutes. Calculate the energy transferred in (a) joules and (b) kWh.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Time = 30 x 60 = 1800 s. E = P x t = 1500 x 1800 = 2 700 000 J = 2.7 MJ. (b) E = 1.5 kW x 0.5 h = 0.75 kWh.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p7-electrical-power-and-energy-q5",
+   "type": "short-answer",
+   "question": "Higher A 10 Ω resistor has a current of 4 A flowing through it. Calculate the power dissipated using two different power equations and verify they give the same answer.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Using P = I x I x R = 4 x 4 x 10 = 160 W. Using P = V x I: first find V = I x R = 4 x 10 = 40 V. Then P = 40 x 4 = 160 W. Both give 160 W, confirming the equations are consistent.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p7-electrical-power-and-energy-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain how the National Grid transmits electricity efficiently using step-up and step-down transformers. Refer to power, current, voltage and energy loss. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Electricity is generated at power stations at around 25 000 V. A step-up transformer at the power station increases the voltage to 400 000 V for transmission through the National Grid cables. Since power = voltage × current, increasing the voltage means the current is reduced proportionally for the same power transmitted. Lower current is crucial because the energy lost as heat in the transmission cables depends on P = I²R — even a small reduction in current causes a large reduction in power loss because the current is squared. This means less energy is wasted and more reaches the consumer. Ne",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Electricity is generated at power stations at around 25 000 V. A step-up transformer at the power station increases the voltage to 400 000 V for transmission through the National Grid cables. Since power = voltage × current, increasing the voltage means the current is reduced proportionally for the same power transmitted. Lower current is crucial because the energy lost as heat in the transmission cables depends on P = I²R — even a small reduction in current causes a large reduction in power loss because the current is squared. This means less energy is wasted and more reaches the consumer. Near homes and industry, step-down transformers at substations reduce the voltage to 230 V for safe domestic use, which increases the current back to the level needed by appliances. Using transformers makes the grid efficient by minimising energy loss during long-distance transmission while delivering safe voltages to consumers. Mark scheme: 1 mark — step-up transformer increases voltage at power station, 1 mark — current is reduced, 1 mark — P = I²R explains energy loss in cables, 1 mark — lower current means much less energy wasted as heat, 1 mark — step-down transformer reduces voltage to 230 V near consumers, 1 mark — reference to same power being transmitted or efficiency"
+   }
+  }
+ ]
+}

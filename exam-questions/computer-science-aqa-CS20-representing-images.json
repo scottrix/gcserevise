@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS20-representing-images",
+ "topicName": "Representing Images",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs20-representing-images-q1",
+   "type": "short-answer",
+   "question": "An image has a resolution of 1920 x 1080 and a colour depth of 24 bits. Calculate the file size in megabytes.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "File size = 1920 x 1080 x 24 = 49,766,400 bits = 6,220,800 bytes = 6,075 KB = 5.93 MB",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs20-representing-images-q2",
+   "type": "short-answer",
+   "question": "What is the effect on file size if you double the width of an image but keep the height and colour depth the same?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The file size doubles, because total pixels = W x H. Doubling W means 2W x H = 2 x (W x H), so twice as many pixels.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs20-representing-images-q3",
+   "type": "short-answer",
+   "question": "An image uses 8-bit colour depth. How many different colours can it represent?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "2 8 = 256 colours",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs20-representing-images-q4",
+   "type": "short-answer",
+   "question": "Explain the trade-off between image quality and file size when increasing colour depth.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Increasing colour depth allows more colours to be represented, producing smoother gradients and more realistic images, but each pixel needs more bits, so the file size increases proportionally.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs20-representing-images-q5",
+   "type": "short-answer",
+   "question": "A 500 x 400 image has a file size of 1,600,000 bits. What is the colour depth?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Colour depth = 1,600,000 / (500 x 400) = 1,600,000 / 200,000 = 8 bits per pixel",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs20-representing-images-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A bitmap image is 1024 × 768 pixels with 24-bit colour depth. Calculate the file size in megabytes. If the colour depth is reduced to 8 bits, calculate the new file size and the percentage reduction. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Original file size: Number of pixels = 1024 × 768 = 786,432 File size in bits = 786,432 × 24 = 18,874,368 bits File size in bytes = 18,874,368 ÷ 8 = 2,359,296 bytes File size in MB = 2,359,296 ÷ (1024 × 1024) = 2.25 MB Reduced colour depth (8-bit): File size = 786,432 × 8 ÷ 8 ÷ (1024 × 1024) = 0.75 MB Percentage reduction = (2.25 - 0.75) ÷ 2.25 × 100 = 66.7% Reducing colour depth from 24-bit to 8-bit reduces the file size by approximately 66.7%.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Original file size: Number of pixels = 1024 × 768 = 786,432 File size in bits = 786,432 × 24 = 18,874,368 bits File size in bytes = 18,874,368 ÷ 8 = 2,359,296 bytes File size in MB = 2,359,296 ÷ (1024 × 1024) = 2.25 MB Reduced colour depth (8-bit): File size = 786,432 × 8 ÷ 8 ÷ (1024 × 1024) = 0.75 MB Percentage reduction = (2.25 - 0.75) ÷ 2.25 × 100 = 66.7% Reducing colour depth from 24-bit to 8-bit reduces the file size by approximately 66.7%."
+   }
+  }
+ ]
+}

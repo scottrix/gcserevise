@@ -1,0 +1,128 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "B3-transport-in-cells",
+ "topicName": "B3 Transport In Cells",
+ "version": 1,
+ "questions": [
+  {
+   "id": "b3-transport-in-cells-q1",
+   "type": "short-answer",
+   "question": "Define diffusion. (2 marks)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Diffusion is the movement of particles from an area of higher concentration to an area of lower concentration, down the concentration gradient.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b3-transport-in-cells-q2",
+   "type": "short-answer",
+   "question": "Define osmosis. (2 marks)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Osmosis is the movement of water molecules from a region of higher water concentration to a region of lower water concentration through a partially permeable membrane.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b3-transport-in-cells-q3",
+   "type": "short-answer",
+   "question": "Explain the difference between diffusion and active transport. (2 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Diffusion moves substances down the concentration gradient and does not require energy. Active transport moves substances against the concentration gradient and requires energy from respiration.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b3-transport-in-cells-q4",
+   "type": "short-answer",
+   "question": "A potato cylinder has an initial mass of 6.0 g and a final mass of 6.9 g after being placed in a dilute sugar solution. Calculate the percentage change in mass. (2 marks)",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Percentage change = ((6.9 - 6.0) ÷ 6.0) × 100 = (0.9 ÷ 6.0) × 100 = +15%",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b3-transport-in-cells-q5",
+   "type": "short-answer",
+   "question": "Explain why root hair cells use active transport to absorb minerals from the soil. (3 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Root hair cells use active transport because the concentration of minerals in the soil is lower than inside the cell. Minerals cannot diffuse in (they would diffuse out). Active transport uses energy from respiration to move minerals against the concentration gradient into the cell.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b3-transport-in-cells-q6",
+   "type": "short-answer",
+   "question": "Explain why a plant cell does not burst when placed in a very dilute solution, but an animal cell can. (3 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When placed in a dilute solution, water enters both cells by osmosis. The plant cell has a rigid cellulose cell wall that provides support and prevents the cell from bursting - the cell becomes turgid instead. The animal cell has no cell wall, so as water enters, the cell swells and can burst (lysis).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b3-transport-in-cells-q7",
+   "type": "short-answer",
+   "question": "Describe how you would investigate the effect of sugar solution concentration on osmosis in potato cylinders. (6 marks)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cut equal-sized potato cylinders; measure and record initial mass; place each in a different concentration of sugar solution; leave for a set time (e.g. 30 minutes); remove and blot dry; measure final mass; calculate percentage change in mass; plot a graph of percentage change against concentration. Control variables: time, temperature, volume of solution, surface area of potato.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

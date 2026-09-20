@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "testing-methods",
+ "topicName": "Testing Methods",
+ "version": 1,
+ "steps": [
+  {
+   "id": "testing-methods-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Destructive testing damages or destroys the test specimen: tensile testing, impact testing, fatigue testing and hardness testing."
+  },
+  {
+   "id": "testing-methods-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Non-destructive testing (NDT) evaluates components without damage: visual inspection, ultrasonic, X-ray, dye penetrant and magnetic particle testing."
+  },
+  {
+   "id": "testing-methods-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Tensile testing stretches a specimen to failure, measuring yield strength, UTS, ductility (elongation) and elastic modulus."
+  },
+  {
+   "id": "testing-methods-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Hardness testing presses an indenter into the surface: Brinell (ball), Vickers (diamond pyramid), Rockwell (ball or cone)."
+  },
+  {
+   "id": "testing-methods-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain the difference between destructive and non-destructive testing, giving two examples of each. | Q: Describe the tensile test and the key information it provides about a material. | Q: Why is ultrasonic testing preferred over X-ray testing for checking welds on a production line?"
+  },
+  {
+   "id": "testing-methods-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Destructive testing damages the specimen: tensile testing (stretches to failure), Charpy impact testing (breaks specimen). NDT does not damage the component: ultrasonic testing (internal defects), dye | A specimen is gripped in a machine and stretched at a constant rate. The force and extension are recorded, producing a stress-strain curve. This gives yield strength (onset of plastic deformation), ul | Ultrasonic testing is faster, requires no radiation safety precautions, can test thicker sections and is more portable. X-ray requires shielding, longer exposure times and film/detector processing, ma"
+  },
+  {
+   "id": "testing-methods-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Distinguish clearly between destructive (specimen damaged) and non-destructive (component intact) testing. In tensile test questions, identify the key points on the stress-strain curve: elastic limit, yield point, UTS, fracture. NDT questions: name the specific method AND explain what type of defect it detects (surface vs internal). Tolerance questions: state the maximum and minimum acceptable values explicitly. Quality control vs quality assurance: QC checks the product; QA ensures the process is correct."
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "questionnaire-design",
+ "topicName": "Questionnaire Design",
+ "version": 1,
+ "questions": [
+  {
+   "id": "questionnaire-design-q1",
+   "type": "short-answer",
+   "question": "Q: What is the difference between an open and a closed question?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An open question allows free-text answers giving detailed responses; a closed question offers fixed options that are easy to analyse but limit responses.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "questionnaire-design-q2",
+   "type": "short-answer",
+   "question": "Q: Why should leading questions be avoided?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Because they bias the results by encouraging a particular answer, making the data unrepresentative of respondents' true views.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "questionnaire-design-q3",
+   "type": "short-answer",
+   "question": "Q: What is a double-barrelled question?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A question that asks two things at once, making it unclear which part the respondent is answering, e.g. 'Do you enjoy maths and science?'",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "questionnaire-design-q4",
+   "type": "short-answer",
+   "question": "Q: How can a pilot study improve a questionnaire?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "By identifying unclear questions, missing response options, and practical problems before the main survey, so they can be corrected.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "questionnaire-design-q5",
+   "type": "short-answer",
+   "question": "Q: Name two ways to increase the response rate of a questionnaire.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Keep it short and simple; ensure anonymity; offer an incentive; use clear and simple language; send reminders.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "questionnaire-design-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A student writes this question on a questionnaire: 'How many hours of TV do you watch each week? (a) 0–5, (b) 5–10, (c) 10–15, (d) 15+'. Identify two problems and rewrite the question with improved options. <div class=\"",
+   "marks": 4,
+   "commandWord": "state",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Problem 1: The response options overlap — someone who watches exactly 5 hours could choose (a) or (b), and 10 hours could be (b) or (c). Problem 2: The upper limit of option (d) is open-ended ('15+'), which makes analysis of the upper range difficult. Improved version: 'How many hours of TV do you watch each week?' (a) 0–4, (b) 5–9, (c) 10–14, (d) 15–19, (e) 20 or more. The intervals are now non-overlapping and exhaustive, covering all possible values.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Problem 1: The response options overlap — someone who watches exactly 5 hours could choose (a) or (b), and 10 hours could be (b) or (c). Problem 2: The upper limit of option (d) is open-ended ('15+'), which makes analysis of the upper range difficult. Improved version: 'How many hours of TV do you watch each week?' (a) 0–4, (b) 5–9, (c) 10–14, (d) 15–19, (e) 20 or more. The intervals are now non-overlapping and exhaustive, covering all possible values."
+   }
+  }
+ ]
+}

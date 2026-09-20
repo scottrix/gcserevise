@@ -1,0 +1,57 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C10-concentration-and-yield",
+ "topicName": "Concentration And Yield",
+ "version": 1,
+ "steps": [
+  {
+   "id": "c10-concentration-and-yield-s1",
+   "kind": "learn",
+   "title": "Concentration",
+   "body": "The amount of solute dissolved in a given volume of solution. Measured in g/dm³ or mol/dm³."
+  },
+  {
+   "id": "c10-concentration-and-yield-s2",
+   "kind": "learn",
+   "title": "Percentage yield",
+   "body": "The percentage of the theoretical maximum amount of product actually obtained from a reaction."
+  },
+  {
+   "id": "c10-concentration-and-yield-s3",
+   "kind": "learn",
+   "title": "Atom economy",
+   "body": "The percentage of atoms in the reactants that end up in the desired product. A measure of how efficiently atoms are used."
+  },
+  {
+   "id": "c10-concentration-and-yield-s4",
+   "kind": "learn",
+   "title": "Why actual yield is always less than theoretical",
+   "body": "Incomplete reactions: Not all reactants are converted to products Product lost: Some product is lost during separation and purification (e.g. left on filter paper) Reversible reactions: Some products react back to form reactants Side reactions: Unexpected reactions produce unwanted by-products"
+  },
+  {
+   "id": "c10-concentration-and-yield-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "The theoretical yield is the maximum amount of product possible from the given amounts of reactants (calculated from the balanced equation). The actual yield is the amount of product actually obtained. The actual yield is always less than the theoretical yield. Why actual yield is always less than theoretical: Incomplete reactions: Not all reactants are converted to products Product lost: Some product is lost during separation and purification (e.g. left on filter paper) Reversible reactions: Some products react back to form reactants Side reactions: Unexpected reactions produce unwanted by-products Worked Example 4: Calculating percentage yield The theoretical yield of a reaction is 50 g but only 40 g of product is obtained. Calculate the percentage yield. Percentage yield = (40 ÷ 50) × 100 = 80% Worked Example 5: Percentage yield from reacting masses 10 g of calcium carbonate is heated. The theoretical yield of calcium oxide is 5.6 g, but only 4.2 g is collected. Calculate the percen"
+  },
+  {
+   "id": "c10-concentration-and-yield-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation 10 g of sugar is dissolved in 200 cm³ of solution. Calculate the concentration in g/dm³. | Foundation A reaction has a theoretical yield of 80 g. The actual yield is 60 g. Calculate the percentage yield. | Higher In the reaction C₂H₄ + Br₂ → C₂H₄Br₂, the desired product is C₂H₄Br₂. Calculate the atom economy. (M r : C₂H₄Br₂ = 188)"
+  },
+  {
+   "id": "c10-concentration-and-yield-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Volume = 200 ÷ 1000 = 0.2 dm³. Concentration = 10 ÷ 0.2 = 50 g/dm³ | Percentage yield = (60 ÷ 80) × 100 = 75% | This is an addition reaction — there is only one product. Atom economy = (188 ÷ 188) × 100 = 100%"
+  },
+  {
+   "id": "c10-concentration-and-yield-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always convert cm³ to dm³ before calculating concentration (divide by 1000) Atom economy uses the M r of products only, not reactants Percentage yield and atom economy are different — a reaction can have a high yield but low atom economy Addition reactions always have 100% atom economy because all reactant atoms end up in the product In atom economy questions, identify which product is the \"desired\" one carefully — the rest are waste When asked to explain why yield is less, give specific reasons not just \"some is lost\""
+  }
+ ]
+}

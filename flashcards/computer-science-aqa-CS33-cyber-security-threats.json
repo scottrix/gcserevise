@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS33-cyber-security-threats",
+ "topicName": "Cyber Security Threats",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs33-cyber-security-threats-fc1",
+   "front": "Recall a key point about Cyber Security Threats",
+   "back": "Social engineering is manipulating people into revealing confidential information or performing actions that compromise security. It exploits human psychology rather than technical vulnerabilities.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc2",
+   "front": "Recall a key point about Cyber Security Threats",
+   "back": "Blagging is inventing a false scenario (pretext) to trick someone into revealing information. The attacker creates a convincing story to gain the victim's trust.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc3",
+   "front": "Recall a key point about Cyber Security Threats",
+   "back": "Phishing is sending fraudulent emails that appear to come from a trusted source, designed to trick recipients into revealing personal information, clicking malicious links, or downloading malware.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc4",
+   "front": "Recall a key point about Cyber Security Threats",
+   "back": "Shouldering is directly observing someone's screen or keyboard to obtain personal information, such as passwords or PIN numbers, by looking over their shoulder.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc5",
+   "front": "Recall a key point about Cyber Security Threats",
+   "back": "Malware (malicious software) is any software deliberately designed to cause damage to a computer, server, client, or network. Different types of malware have different purposes and methods.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc6",
+   "front": "Recall a key point about Cyber Security Threats",
+   "back": "Pharming redirects users to a fake website even when they type the correct URL. It manipulates the DNS (Domain Name System) so that the legitimate web address points to the attacker's server.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc7",
+   "front": "What should you know about key concept?",
+   "back": "Cyber security threats rarely work in isolation. Attackers often combine multiple techniques to increase their chances of success. A social engineering attack might deliver malware, which then exploits unpatched software.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc8",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Threat types: malware (virus, worm, trojan, ransomware, spyware, keylogger), phishing, social engineering, brute force, DDoS, SQL injection. For each: describe HOW it works, its IMPACT, and a COUNTERMEASURE. Social engineering targets people, not technology. Viruses need user action, worms spread automatically. Ransomware encrypts files for payment. Always give specific examples.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc9",
+   "front": "What does Virus mean?",
+   "back": "Attached to host files (e.g. Damage, corruption)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc10",
+   "front": "What does Trojan mean?",
+   "back": "Disguised as legitimate software (e.g. Backdoor access, data theft)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc11",
+   "front": "What does Spyware mean?",
+   "back": "Bundled with other software (e.g. Monitoring, data collection)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc12",
+   "front": "What does Ransomware mean?",
+   "back": "Email attachments, exploits (e.g. Extortion (encrypt files for ransom))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc13",
+   "front": "What does Confusing virus and Trojan mean?",
+   "back": "Viruses replicate; Trojans don't (e.g. Virus = replicates via host file; Trojan = disguised software)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc14",
+   "front": "What does Confusing phishing and pharming mean?",
+   "back": "Phishing tricks via email; pharming redirects URLs (e.g. Phishing = fake email; Pharming = fake website redirect)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs33-cyber-security-threats-fc15",
+   "front": "What does Saying \"social engineering is a technical attack\" mean?",
+   "back": "It targets people, not technology (e.g. Social engineering exploits human psychology)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

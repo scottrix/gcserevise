@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "surface-finishing-treatment",
+ "topicName": "Surface Finishing & Treatment",
+ "version": 1,
+ "questions": [
+  {
+   "id": "surface-finishing-treatment-q1",
+   "type": "short-answer",
+   "question": "Q: Describe the full heat treatment process for hardening and tempering a high-carbon steel chisel.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Heat the chisel to above its critical temperature (approximately 800 degrees C) until cherry red. Quench rapidly in oil or water to produce hard martensite. Reheat to approximately 250-300 degrees C (tempering temperature) and hold, then air-cool. This reduces brittleness while maintaining sufficient hardness for cutting.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "surface-finishing-treatment-q2",
+   "type": "short-answer",
+   "question": "Q: Explain why temperpering is always carried out after hardening.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hardening produces a very hard but brittle martensitic structure that is prone to cracking under impact. Tempering reheats to a moderate temperature to allow some carbon to precipitate from the martensite, reducing internal stresses and brittleness while retaining most of the hardness.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "surface-finishing-treatment-q3",
+   "type": "short-answer",
+   "question": "Q: How does galvanising protect steel from corrosion even if the zinc coating is scratched?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Zinc is more electrochemically active than steel, so it acts as a sacrificial anode. Even when scratched, the surrounding zinc corrodes preferentially (sacrificial protection), protecting the exposed steel from rusting.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "surface-finishing-treatment-q4",
+   "type": "short-answer",
+   "question": "Q: Explain the process of electroplating a steel component with chromium.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The steel component (cathode) and a chromium anode are immersed in a chromium electrolyte solution. A DC current is passed: chromium ions migrate to the cathode and deposit as a thin, hard, corrosion-resistant layer on the component. The current density and time control the plating thickness.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "surface-finishing-treatment-q5",
+   "type": "short-answer",
+   "question": "Q: Why is normalising carried out after welding a steel component?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Welding creates a HAZ with uneven grain structure and residual thermal stresses. Normalising heats the component above its critical temperature and air-cools it, producing a uniform fine grain structure and relieving internal stresses throughout the material.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

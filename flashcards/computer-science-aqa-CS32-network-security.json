@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS32-network-security",
+ "topicName": "Network Security",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs32-network-security-fc1",
+   "front": "What should you know about key concept?",
+   "back": "Networks are vulnerable to unauthorised access, data theft, and malicious attacks because data travels across shared infrastructure. Effective network security uses multiple methods to protect data and systems.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc2",
+   "front": "Recall a key point about Network Security",
+   "back": "Authentication is the process of verifying that a user is who they claim to be. It ensures that only authorised people can access a system or network.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc3",
+   "front": "Recall a key point about Network Security",
+   "back": "Two-factor authentication requires the user to provide two different types of evidence to prove their identity. This combines something you KNOW (password) with something you HAVE (phone/token) or something you ARE (biometric).",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc4",
+   "front": "Recall a key point about Network Security",
+   "back": "Encryption is the process of converting plaintext data into ciphertext (unreadable form) using an encryption algorithm and a key. Only someone with the correct decryption key can convert it back to readable plaintext.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc5",
+   "front": "Recall a key point about Network Security",
+   "back": "Symmetric encryption uses the SAME key to encrypt and decrypt data. Both the sender and receiver must have the same secret key.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc6",
+   "front": "Recall a key point about Network Security",
+   "back": "Asymmetric encryption uses a PAIR of keys: a public key (shared openly) and a private key (kept secret). Data encrypted with the public key can only be decrypted with the matching private key.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc7",
+   "front": "Recall a key point about Network Security",
+   "back": "A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and an untrusted external network (like the internet).",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc8",
+   "front": "Recall a key point about Network Security",
+   "back": "MAC address filtering is a security method where a network only allows devices with specific, pre-approved MAC addresses to connect. A MAC address is a unique identifier assigned to every network interface card.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc9",
+   "front": "Recall a key point about Network Security",
+   "back": "Defence in depth is a security strategy that uses multiple layers of different security measures. If one layer fails, the other layers still provide protection. No single security measure is foolproof.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc10",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Network security measures: firewall, encryption, antivirus, authentication (passwords/MFA), user access levels, physical security. Know what each protects against and its limitations. Firewall ≠ antivirus. Encryption ≠ authentication. SSL/TLS = encrypted connection only. For security questions, always suggest multiple measures and explain WHY each is needed. No single measure provides complete protection.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc11",
+   "front": "What does Password mean?",
+   "back": "Secret text known only to user (e.g. Simple, cheap, widely supported)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc12",
+   "front": "What does Biometrics mean?",
+   "back": "Unique physical characteristic (e.g. Very hard to forge, can't forget)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc13",
+   "front": "What does 2FA mean?",
+   "back": "Two different types of evidence (e.g. Much stronger than single factor)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc14",
+   "front": "What does Keys used mean?",
+   "back": "One (same for encrypt and decrypt) (e.g. Two (public and private key pair))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs32-network-security-fc15",
+   "front": "What does Speed mean?",
+   "back": "Fast (e.g. Slower)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

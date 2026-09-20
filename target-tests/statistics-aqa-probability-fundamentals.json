@@ -1,0 +1,48 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "probability-fundamentals",
+ "topicName": "Probability Fundamentals",
+ "version": 1,
+ "tests": [
+  {
+   "id": "probability-fundamentals-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Probability Fundamentals",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "probability-fundamentals-t1",
+     "type": "short-answer",
+     "question": "Q: A fair six-sided die is rolled 300 times. What is the expected frequency of rolling a 4?",
+     "correctAnswer": "P(4) = 1/6. Expected frequency = (1/6) × 300 = 50",
+     "explanation": "Answer: P(4) = 1/6. Expected frequency = (1/6) × 300 = 50",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "probability-fundamentals-t3",
+     "type": "short-answer",
+     "question": "Q: A bag contains 4 red and 6 blue counters. Two counters are drawn without replacement. Draw a tree diagram and find P(both red).",
+     "correctAnswer": "P(R then R) = (4/10) × (3/9) = 12/90 = 2/15 ≈ 0.133",
+     "explanation": "Answer: P(R then R) = (4/10) × (3/9) = 12/90 = 2/15 ≈ 0.133",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "probability-fundamentals-t4",
+     "type": "short-answer",
+     "question": "Q: In a Venn diagram, P(A) = 0.6, P(B) = 0.5 and P(A∩B) = 0.2. Find P(A∪B).",
+     "correctAnswer": "P(A∪B) = P(A) + P(B) − P(A∩B) = 0.6 + 0.5 − 0.2 = 0.9",
+     "explanation": "Answer: P(A∪B) = P(A) + P(B) − P(A∩B) = 0.6 + 0.5 − 0.2 = 0.9",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

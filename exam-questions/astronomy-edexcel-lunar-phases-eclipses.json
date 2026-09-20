@@ -1,0 +1,163 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "lunar-phases-eclipses",
+ "topicName": "Lunar Phases & Eclipses",
+ "version": 1,
+ "questions": [
+  {
+   "id": "lunar-phases-eclipses-q1",
+   "type": "short-answer",
+   "question": "Q: Why is the synodic period (29.5 days) longer than the sidereal period (27.3 days)?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Because the Earth-Moon system moves around the Sun during the Moon's orbit. After one sidereal orbit, the Moon must travel an extra ~27° to catch up with the Sun's new position, adding about 2.2 days.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lunar-phases-eclipses-q2",
+   "type": "short-answer",
+   "question": "Q: Name the eight phases of the Moon in order.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "New moon, waxing crescent, first quarter, waxing gibbous, full moon, waning gibbous, last quarter, waning crescent.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lunar-phases-eclipses-q3",
+   "type": "short-answer",
+   "question": "Q: Why does the Moon always show the same face to Earth?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Tidal locking (synchronous rotation): the Moon's rotation period equals its orbital period (both 27.3 days). Earth's tidal forces slowed the Moon's rotation until it became locked.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lunar-phases-eclipses-q4",
+   "type": "short-answer",
+   "question": "Q: Why don't solar and lunar eclipses happen every month?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The Moon's orbit is tilted about 5° to the ecliptic plane. Most months, the Moon passes above or below the Sun at new moon, or above or below Earth's shadow at full moon. Eclipses only occur when the Moon is near a node (crossing the ecliptic) at new or full moon.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lunar-phases-eclipses-q5",
+   "type": "short-answer",
+   "question": "Q: What is the difference between the umbra and the penumbra?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The umbra is the darkest central shadow where all direct sunlight is blocked. The penumbra is the lighter outer shadow where only some sunlight is blocked. In a solar eclipse, totality occurs in the umbra; a partial eclipse in the penumbra.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lunar-phases-eclipses-q6",
+   "type": "short-answer",
+   "question": "Q: Why does the Moon appear red during a total lunar eclipse?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Earth's atmosphere refracts and scatters sunlight. Shorter wavelengths (blue) are scattered away, but longer wavelengths (red) pass through and are bent into Earth's shadow, illuminating the Moon with a reddish glow.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lunar-phases-eclipses-q7",
+   "type": "short-answer",
+   "question": "Q: What is the saros cycle?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A period of approximately 18 years 11 days after which nearly identical eclipses recur, because the Sun, Earth, and Moon return to almost the same geometry. Each saros contains about 70-85 eclipses.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lunar-phases-eclipses-q8",
+   "type": "short-answer",
+   "question": "Q: What is the path of totality?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The narrow strip on Earth's surface (up to ~270 km wide) from which a total solar eclipse is visible. Observers outside this path see only a partial eclipse.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lunar-phases-eclipses-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain why lunar phases occur and why eclipses do not happen every month. Describe the conditions for a total solar eclipse. (8 marks) <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Lunar phases occur because the Moon reflects sunlight, and as it orbits Earth every 29.5 days (synodic period), the angle between the Earth, Moon, and Sun changes, altering how much of the Moon's illuminated hemisphere is visible from Earth. At new moon, the Moon is between Earth and Sun, so its lit side faces away from us. At full moon, Earth is between the Sun and Moon, so we see the fully lit side. At first and last quarter, we see half the lit side. Eclipses do not occur every month because the Moon's orbit is tilted about 5° to the ecliptic plane. At most new moons, the Moon passes above ",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Lunar phases occur because the Moon reflects sunlight, and as it orbits Earth every 29.5 days (synodic period), the angle between the Earth, Moon, and Sun changes, altering how much of the Moon's illuminated hemisphere is visible from Earth. At new moon, the Moon is between Earth and Sun, so its lit side faces away from us. At full moon, Earth is between the Sun and Moon, so we see the fully lit side. At first and last quarter, we see half the lit side. Eclipses do not occur every month because the Moon's orbit is tilted about 5° to the ecliptic plane. At most new moons, the Moon passes above or below the Sun; at most full moons, it passes above or below Earth's shadow. Eclipses only occur when the Moon is near a node (where its orbit crosses the ecliptic) at the same time as new or full moon — these are eclipse seasons, occurring roughly every 6 months. For a total solar eclipse, three conditions must be met: the Moon must be at new moon phase, it must be near a node (crossing the ecliptic), and it must be close enough in its orbit (near perigee) that its apparent size matches or exceeds the Sun's. When all three conditions align, the Moon's umbra sweeps across Earth in a narrow path of totality (up to ~270 km wide), within which the Sun is completely obscured, revealing the corona. Outside the umbra, in the penumbra, observers see a partial eclipse. Totality lasts a maximum of about 7.5 minutes at any one location."
+   }
+  }
+ ]
+}

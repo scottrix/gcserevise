@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS5-trace-tables",
+ "topicName": "Trace Tables",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs5-trace-tables-q1",
+   "type": "short-answer",
+   "question": "Complete a trace table for this algorithm with input num = 7:",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "i result - 0 1 1 2 3 3 6 4 10 5 15 6 21 7 28 OUTPUT: 28 (This calculates the sum 1+2+3+4+5+6+7 = 28)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs5-trace-tables-q2",
+   "type": "short-answer",
+   "question": "What does the following algorithm compute? Use a trace table with x = 24, y = 6.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The algorithm counts how many times y fits into x - it performs integer division (24 DIV 6 = 4). The OUTPUT is 4.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs5-trace-tables-q3",
+   "type": "short-answer",
+   "question": "Complete a trace table for the following algorithm with the array [4, 1, 8, 3]:",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Initial: min = 4. i=1: numbers[1]=1, 1 1, no change. i=3: numbers[3]=3, 3>1, no change. OUTPUT: 1 (the minimum value).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs5-trace-tables-q4",
+   "type": "short-answer",
+   "question": "Explain why trace tables are useful for debugging.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Trace tables let you step through an algorithm line by line, recording variable values. This allows you to compare what you expected to happen with what actually happens, making it easy to spot where a logic error occurs.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs5-trace-tables-q5",
+   "type": "short-answer",
+   "question": "A trace table shows a variable that increases by 1 each iteration. What is the algorithm most likely doing?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "It is most likely counting. A variable that increments by 1 each step is typically a counter.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs5-trace-tables-ext",
+   "type": "extended",
+   "question": "Full-Mark Response The following pseudo-code processes an array: FOR i ← 1 TO 4 IF numbers[i] > max THEN max ← numbers[i] ENDIF NEXT i. Given numbers = [3, 7, 2, 9] and max = 0 initially, complete a trace table showing the value of i, numbers[i], max and the condition result for each iteration. [5 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Iteration | i | numbers[i] | Condition (numbers[i] > max) | max after 1 | 1 | 3 | 3 > 0 = TRUE | 3 2 | 2 | 7 | 7 > 3 = TRUE | 7 3 | 3 | 2 | 2 > 7 = FALSE | 7 4 | 4 | 9 | 9 > 7 = TRUE | 9 The algorithm finds the maximum value in the array. After all iterations, max = 9.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Iteration | i | numbers[i] | Condition (numbers[i] > max) | max after 1 | 1 | 3 | 3 > 0 = TRUE | 3 2 | 2 | 7 | 7 > 3 = TRUE | 7 3 | 3 | 2 | 2 > 7 = FALSE | 7 4 | 4 | 9 | 9 > 7 = TRUE | 9 The algorithm finds the maximum value in the array. After all iterations, max = 9."
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C9-chemical-calculations",
+ "topicName": "C9 Chemical Calculations",
+ "version": 1,
+ "tests": [
+  {
+   "id": "c9-chemical-calculations-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on C9 Chemical Calculations",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "c9-chemical-calculations-t1",
+     "type": "short-answer",
+     "question": "Foundation Calculate the relative formula mass of MgCl₂. (A r : Mg = 24, Cl = 35.5)",
+     "correctAnswer": "M r (MgCl₂) = 24 + (2 × 35.5) = 24 + 71 = 95",
+     "explanation": "Answer: M r (MgCl₂) = 24 + (2 × 35.5) = 24 + 71 = 95",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c9-chemical-calculations-t2",
+     "type": "short-answer",
+     "question": "Foundation How many moles are there in 20 g of NaOH? (A r : Na = 23, O = 16, H = 1)",
+     "correctAnswer": "M r (NaOH) = 23 + 16 + 1 = 40. Moles = 20 ÷ 40 = 0.5 mol",
+     "explanation": "Answer: M r (NaOH) = 23 + 16 + 1 = 40. Moles = 20 ÷ 40 = 0.5 mol",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c9-chemical-calculations-t4",
+     "type": "short-answer",
+     "question": "Foundation Balance the equation: Al + O₂ → Al₂O₃",
+     "correctAnswer": "4Al + 3O₂ → 2Al₂O₃ . Check: Left: Al=4, O=6. Right: Al=4, O=6. ✓",
+     "explanation": "Answer: 4Al + 3O₂ → 2Al₂O₃ . Check: Left: Al=4, O=6. Right: Al=4, O=6. ✓",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

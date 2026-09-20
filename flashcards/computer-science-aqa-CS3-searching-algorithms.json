@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS3-searching-algorithms",
+ "topicName": "Searching Algorithms",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs3-searching-algorithms-fc1",
+   "front": "Recall a key point about Searching Algorithms",
+   "back": "A searching algorithm finds the position of a specific item (the target) within a data structure such as a list or array. If the item is found, the algorithm returns its position; if not, it indicates the item is not present.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc2",
+   "front": "What should you know about linear search?",
+   "back": "checks each item in the list sequentially, starting from the first element, until the target is found or the end of the list is reached. It works on both sorted and unsorted data.",
+   "tags": [
+    "linear-search"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc3",
+   "front": "What should you know about binary search?",
+   "back": "works on a sorted list . It compares the target with the middle element. If the target is smaller, the search continues in the left half. If larger, it continues in the right half. This process repeats until the item is found or the search space is empty.",
+   "tags": [
+    "binary-search"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc4",
+   "front": "What should you know about use linear search when?",
+   "back": "the list is small, the list is unsorted, or you only need to search once.",
+   "tags": [
+    "use-linear-search-when"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc5",
+   "front": "What should you know about use binary search when?",
+   "back": "the list is large and already sorted, or you need to search the same list many times.",
+   "tags": [
+    "use-binary-search-when"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc6",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "When comparing search algorithms, always state the time complexity of each (O(n) vs O(log n)) and explain what this means in practice. For binary search, always mention that the data MUST be sorted. Show your working for maximum comparisons: for binary search, calculate log₂(n). For linear search, the worst case is n comparisons. Use a worked example with a specific value of n to illustrate.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc7",
+   "front": "What does 1 mean?",
+   "back": "0 (e.g. 3)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc8",
+   "front": "What does 2 mean?",
+   "back": "1 (e.g. 1)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc9",
+   "front": "What does 3 mean?",
+   "back": "2 (e.g. 7)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc10",
+   "front": "What does 1 mean?",
+   "back": "0 (e.g. 9)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc11",
+   "front": "What does 2 mean?",
+   "back": "5 (e.g. 9)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc12",
+   "front": "What does 3 mean?",
+   "back": "5 (e.g. 6)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc13",
+   "front": "What does 1 mean?",
+   "back": "0 (e.g. 9)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc14",
+   "front": "What does 2 mean?",
+   "back": "5 (e.g. 9)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs3-searching-algorithms-fc15",
+   "front": "What does 3 mean?",
+   "back": "5 (e.g. 6)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

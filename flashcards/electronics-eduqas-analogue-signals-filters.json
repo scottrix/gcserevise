@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "analogue-signals-filters",
+ "topicName": "Analogue Signals & Filters",
+ "version": 1,
+ "cards": [
+  {
+   "id": "analogue-signals-filters-fc1",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "An analogue signal varies continuously in amplitude and time; a digital signal has discrete voltage levels.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc2",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "Frequency response describes how a circuit's gain varies with frequency; it is typically plotted as a Bode diagram.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc3",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "An RC low-pass filter allows frequencies below the cut-off to pass while attenuating higher frequencies.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc4",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "An RC high-pass filter allows frequencies above the cut-off to pass while attenuating lower frequencies.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc5",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "The cut-off frequency (f_c) of an RC filter: f_c = 1/(2πRC); at this frequency the output is −3 dB (0.707 of input).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc6",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "Above the cut-off, a low-pass filter attenuates at −20 dB/decade (−6 dB/octave) for a first-order RC filter.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc7",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "Below the cut-off, a high-pass filter attenuates at −20 dB/decade as frequency decreases.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc8",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "Signal conditioning includes amplification, filtering, level shifting and impedance matching to prepare signals for processing.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc9",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "A buffer (voltage follower) using an op-amp provides impedance matching: high input impedance, low output impedance, unity gain.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc10",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "Cascading two first-order filters creates a second-order filter with −40 dB/decade roll-off but may require active buffering.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc11",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "The time constant τ = RC determines the filter's transient response; after 5τ the capacitor is considered fully charged.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc12",
+   "front": "Recall a key point about Analogue Signals & Filters",
+   "back": "Active filters use op-amps to provide gain and avoid the loading effects inherent in passive RC filters.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc13",
+   "front": "What should you know about gcse electronics exam tips — analogue signals & filters?",
+   "back": "1. For Analogue Signals & Filters questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Analogue Signals & Filters, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-ana"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc14",
+   "front": "Full-Mark Response",
+   "back": "Describe the operation of RC low-pass and high-pass filters, explaining how the cut-off frequency is determined and how signal conditioning prepares signals for further processing.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "analogue-signals-filters-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of analogue signals & filters, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of analogue signals & filters to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

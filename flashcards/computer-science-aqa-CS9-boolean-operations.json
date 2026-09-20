@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS9-boolean-operations",
+ "topicName": "Boolean Operations",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs9-boolean-operations-fc1",
+   "front": "What should you know about boolean operations?",
+   "back": "work on Boolean values (TRUE and FALSE) to produce a Boolean result. They are used to combine or invert conditions in IF statements and WHILE loops.",
+   "tags": [
+    "boolean-operations"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc2",
+   "front": "What should you know about not?",
+   "back": "reverses a Boolean value. NOT TRUE = FALSE, NOT FALSE = TRUE. It is used to invert a condition.",
+   "tags": [
+    "not"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc3",
+   "front": "What should you know about and?",
+   "back": "returns TRUE only when BOTH conditions are TRUE. If either one is FALSE, the result is FALSE.",
+   "tags": [
+    "and"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc4",
+   "front": "What should you know about or?",
+   "back": "returns TRUE when at least ONE condition is TRUE. Only returns FALSE when BOTH conditions are FALSE.",
+   "tags": [
+    "or"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc5",
+   "front": "What should you know about you can combine multiple boolean operators?",
+   "back": "in a single condition. Use brackets to make the order of evaluation clear.",
+   "tags": [
+    "you-can-combine-multiple-boole"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc6",
+   "front": "What should you know about brackets matter!?",
+   "back": "The condition \"A AND B OR C\" is ambiguous. It could mean \"(A AND B) OR C\" or \"A AND (B OR C)\" which give different results. Always use brackets to make your intention clear.",
+   "tags": [
+    "brackets-matter"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc7",
+   "front": "What should you know about de morgan's laws?",
+   "back": "allow you to simplify complex Boolean expressions by \"distributing\" NOT over AND/OR. They state that the opposite of an AND expression is an OR expression of the opposites, and vice versa.",
+   "tags": [
+    "de-morgan-s-laws"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc8",
+   "front": "What should you know about boolean operators have an order of precedence?",
+   "back": "NOT is evaluated first, then AND, then OR. Use brackets to override this order.",
+   "tags": [
+    "boolean-operators-have-an-orde"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc9",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "AND needs ALL conditions True, OR needs ANY condition True, NOT reverses. Use brackets to make complex conditions clear. Build truth tables if asked to evaluate Boolean expressions. For validation, AND is used when ALL criteria must be met; OR when ANY criterion is sufficient. Remember AND has higher precedence than OR — use brackets to override.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc10",
+   "front": "What does TRUE mean?",
+   "back": "FALSE",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc11",
+   "front": "What does FALSE mean?",
+   "back": "TRUE",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc12",
+   "front": "What does TRUE mean?",
+   "back": "TRUE (e.g. TRUE)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc13",
+   "front": "What does TRUE mean?",
+   "back": "FALSE (e.g. FALSE)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc14",
+   "front": "What does FALSE mean?",
+   "back": "TRUE (e.g. FALSE)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs9-boolean-operations-fc15",
+   "front": "What does FALSE mean?",
+   "back": "FALSE (e.g. FALSE)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

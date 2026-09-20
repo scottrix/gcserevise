@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "diodes-transistors",
+ "topicName": "Diodes & Transistors",
+ "version": 1,
+ "questions": [
+  {
+   "id": "diodes-transistors-q1",
+   "type": "short-answer",
+   "question": "Q: What is the typical forward voltage drop of a silicon diode?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Approximately 0.7 V.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "diodes-transistors-q2",
+   "type": "short-answer",
+   "question": "Q: A transistor has h_FE = 100 and I_B = 50 μA. What is I_C?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "I_C = h_FE × I_B = 100 × 50 × 10⁻⁶ = 5 mA.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "diodes-transistors-q3",
+   "type": "short-answer",
+   "question": "Q: Why does an LED need a series resistor?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "To limit the forward current to a safe value; without it, excessive current would destroy the LED.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "diodes-transistors-q4",
+   "type": "short-answer",
+   "question": "Q: What are the three terminals of a BJT?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Base, collector and emitter.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "diodes-transistors-q5",
+   "type": "short-answer",
+   "question": "Q: Describe the difference between using a transistor as a switch and as an amplifier.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "As a switch, the transistor operates between cut-off and saturation; as an amplifier, it operates in the active region where small base current changes produce proportionally larger collector current changes.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "diodes-transistors-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain how a bipolar junction transistor can be used both as an electronic switch and as an amplifier. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A bipolar junction transistor (BJT) has three terminals: base, collector and emitter. A small base current I_B controls a larger collector current I_C, where I_C = h_FE × I_B. As a switch, the transistor is driven between two states: cut-off (no base current, no collector current, switch open) and saturation (base current sufficient to allow maximum collector current, switch closed). A logic-level input at the base turns the load on or off. As an amplifier, the transistor is biased into the active region between cut-off and saturation. A small varying input signal at the base produces proporti",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A bipolar junction transistor (BJT) has three terminals: base, collector and emitter. A small base current I_B controls a larger collector current I_C, where I_C = h_FE × I_B. As a switch, the transistor is driven between two states: cut-off (no base current, no collector current, switch open) and saturation (base current sufficient to allow maximum collector current, switch closed). A logic-level input at the base turns the load on or off. As an amplifier, the transistor is biased into the active region between cut-off and saturation. A small varying input signal at the base produces proportional variations in collector current, resulting in a larger output signal at the collector. In a common-emitter configuration, the amplifier provides voltage, current and power gain but inverts the signal. The bias components set the operating point so the output can swing symmetrically without clipping."
+   }
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S5-describing-populations",
+ "topicName": "S5 Describing Populations",
+ "version": 1,
+ "cards": [
+  {
+   "id": "s5-describing-populations-fc1",
+   "front": "Recall a key point about S5 Describing Populations",
+   "back": "Describing a population involves using statistical measures to summarise and communicate the key characteristics of a group.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc2",
+   "front": "What should you know about a good statistical summary should?",
+   "back": "State the average (mean or median) Describe the spread (range or IQR) Comment on the shape of the distribution Make comparisons where relevant Draw conclusions about the population",
+   "tags": [
+    "a-good-statistical-summary-sho"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc3",
+   "front": "What should you know about key terms for distribution shape?",
+   "back": "Symmetrical: Mean ≈ Median, data balanced around centre Skewed right (positive): Mean > Median, tail extends to higher values Skewed left (negative): Mean Bimodal: Two peaks, two distinct groups in data",
+   "tags": [
+    "key-terms-for-distribution-sha"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc4",
+   "front": "What should you know about inference?",
+   "back": "Using sample statistics to draw conclusions about the population. Always acknowledge limitations: Sample may not be fully representative Results are estimates, not certainties Consider the sample size and method",
+   "tags": [
+    "inference"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc5",
+   "front": "What should you know about choosing the right measure?",
+   "back": "Use mean: When data is roughly symmetrical with no outliers Use median: When data has outliers or is skewed Use mode: For categorical data or to find most common value",
+   "tags": [
+    "choosing-the-right-measure"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc6",
+   "front": "What should you know about good conclusions?",
+   "back": "Are based on the statistical evidence Use appropriate language (\"suggests\", \"indicates\") Acknowledge limitations Answer the question asked",
+   "tags": [
+    "good-conclusions"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc7",
+   "front": "Recall a key point about S5 Describing Populations",
+   "back": "When describing populations: (1) Always report BOTH an average (mean or median) AND a measure of spread (range or IQR), (2) Compare mean vs median to identify skew — if mean > median, the data is right-skewed, (3) Use cautious language: \"suggests\", \"indicates\", \"approximately\" — sample data gives estimates, not certainties, (4) When comparing two groups, discuss both centre and spread, (5) Acknowledge limitations: sample size, sampling method, possible bias.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc8",
+   "front": "What should you know about answers?",
+   "back": "(a) Mean (7.2) < Median (7.5) — left-skewed. A few students with very low sleep hours are pulling the mean down. (b) Not reliably — (1) the sample is small (only 80), so sampling error could explain the difference, (2) the sample may not be representative (e.g. all from one school with early start times). (c) The national study (n=2000) is more reliable because a much larger sample size means the sample mean is closer to the true population mean, with less sampling error.",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc9",
+   "front": "What does Mean mean?",
+   "back": "The typical average value",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc10",
+   "front": "What does Median mean?",
+   "back": "The middle value (less affected by outliers)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc11",
+   "front": "What does Mode mean?",
+   "back": "The most common value",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc12",
+   "front": "What does Range mean?",
+   "back": "How spread out the data is",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc13",
+   "front": "What does IQR (Higher) mean?",
+   "back": "Spread of middle 50%",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc14",
+   "front": "Watch Out!",
+   "back": "1. Wrong: Only commenting on the average when comparing distributions, ignoring spread Correct: Always compare BOTH average and spread — \"Town B is higher on average AND more consistent\"",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "s5-describing-populations-fc15",
+   "front": "Extended Answer",
+   "back": "6 marks: A sample of 150 adults in City X reports: mean commute time = 34 minutes, median = 28 minutes, range = 75 minutes. A sample of 120 adults in City Y reports: mean = 31 minutes, median = 30 minutes, range = 40 minutes. (a) Describe the shape of the distribution for each city. (b) Compare the commute times for the two cities. (c) Ravi says \"City X has longer commutes than City Y.\" Evaluate t",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "B13-respiration",
+ "topicName": "Respiration",
+ "version": 1,
+ "questions": [
+  {
+   "id": "b13-respiration-q1",
+   "type": "short-answer",
+   "question": "Write the word and symbol equations for aerobic respiration.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Word equation: glucose + oxygen → carbon dioxide + water. Symbol equation: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b13-respiration-q2",
+   "type": "short-answer",
+   "question": "Write the word equations for anaerobic respiration in: (a) animal cells, (b) yeast cells.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Animal cells: glucose → lactic acid. (b) Yeast cells: glucose → ethanol + carbon dioxide.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b13-respiration-q3",
+   "type": "short-answer",
+   "question": "Explain why aerobic respiration releases more energy per glucose molecule than anaerobic respiration.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "In aerobic respiration, glucose is completely broken down to CO₂ and water, so all the energy stored in the glucose is released. In anaerobic respiration, glucose is only partially broken down (to lactic acid, or ethanol and CO₂), so energy remains stored in the products and less is released.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b13-respiration-q4",
+   "type": "short-answer",
+   "question": "After intense exercise, a person breathes heavily for several minutes. Explain what is happening in terms of oxygen debt and the role of the liver.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "During exercise, anaerobic respiration produced lactic acid in the muscles. This created an oxygen debt — the extra oxygen needed to convert lactic acid back to glucose. The heavy breathing supplies this extra oxygen. The lactic acid is transported to the liver, where it is converted back to glucose using the extra oxygen.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b13-respiration-q5",
+   "type": "short-answer",
+   "question": "Explain how fermentation by yeast is used in both brewing and baking.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Brewing: yeast ferments sugars in barley to produce ethanol (alcohol) and CO₂. Baking: yeast ferments sugars in bread dough; the CO₂ makes the dough rise, and the ethanol evaporates during baking.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b13-respiration-q6",
+   "type": "short-answer",
+   "question": "Define metabolism and give two examples of metabolic reactions.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Metabolism is the sum of all chemical reactions in the body. Examples include: conversion of glucose to glycogen, respiration, formation of lipids, breakdown of proteins to urea, photosynthesis.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b13-respiration-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Compare aerobic and anaerobic respiration. <div class=\"",
+   "marks": 6,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Aerobic respiration requires oxygen and occurs in the mitochondria, completely breaking down glucose into carbon dioxide and water. It releases a large amount of energy per glucose molecule (approximately 38 ATP). Anaerobic respiration does not require oxygen and occurs in the cytoplasm, partially breaking down glucose — in animals producing lactic acid, and in yeast producing ethanol and carbon dioxide. Anaerobic respiration releases much less energy per glucose molecule (only 2 ATP) because the glucose is not fully broken down and energy remains stored in the products. Both processes release",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Aerobic respiration requires oxygen and occurs in the mitochondria, completely breaking down glucose into carbon dioxide and water. It releases a large amount of energy per glucose molecule (approximately 38 ATP). Anaerobic respiration does not require oxygen and occurs in the cytoplasm, partially breaking down glucose — in animals producing lactic acid, and in yeast producing ethanol and carbon dioxide. Anaerobic respiration releases much less energy per glucose molecule (only 2 ATP) because the glucose is not fully broken down and energy remains stored in the products. Both processes release energy from glucose and are controlled by enzymes, but aerobic is more efficient for sustained activity while anaerobic provides energy quickly when oxygen supply is limited. Mark scheme: 1 mark — aerobic needs oxygen, anaerobic does not; 1 mark — correct products for each; 1 mark — aerobic in mitochondria, anaerobic in cytoplasm; 1 mark — aerobic releases more energy; 1 mark — anaerobic is partial breakdown; 1 mark — valid comparison of when each is used."
+   }
+  }
+ ]
+}

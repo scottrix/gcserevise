@@ -1,0 +1,138 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "mock-exam",
+ "topicName": "Pe Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "pe-mock",
+   "name": "Pe Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[The Skeletal System] Name the five functions of the skeleton.",
+     "correctAnswer": "Support, protection, movement, mineral storage, blood cell production.",
+     "explanation": "Support, protection, movement, mineral storage, blood cell production.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[The Skeletal System] How many bones make up the axial skeleton?",
+     "correctAnswer": "80 bones make up the axial skeleton.",
+     "explanation": "80 bones make up the axial skeleton.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[The Skeletal System] Give one example each of a long bone, a short bone, a flat bone and an irregular bone.",
+     "correctAnswer": "Long: femur; Short: carpals; Flat: cranium; Irregular: vertebrae.",
+     "explanation": "Long: femur; Short: carpals; Flat: cranium; Irregular: vertebrae.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Lever Systems] Name the three components of a lever system and explain what each represents in the human body.",
+     "correctAnswer": "Fulcrum (F) = the pivot point (a joint in the body); Effort (E) = the force applied (a muscle contracting); Load (L) = the resistance being moved (body weight or external object). The lever itself is the bone.",
+     "explanation": "Fulcrum (F) = the pivot point (a joint in the body); Effort (E) = the force applied (a muscle contracting); Load (L) = the resistance being moved (body weight or external object). The lever itself is the bone.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Lever Systems] Describe the arrangement of components in a second class lever and give an example from the body.",
+     "correctAnswer": "In a second class lever, the load is in the middle (F - L - E). The fulcrum is at one end, the load is between the fulcrum and the effort, and the effort is at the other end. Body example: plantar flexion - fulcrum at the ball of the foot, load at the ankle (body weight), effort from the gastrocnemi",
+     "explanation": "In a second class lever, the load is in the middle (F - L - E). The fulcrum is at one end, the load is between the fulcrum and the effort, and the effort is at the other end. Body example: plantar flexion - fulcrum at the ball of the foot, load at the ankle (body weight), effort from the gastrocnemi",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Lever Systems] Explain why third class levers have a mechanical disadvantage but are still beneficial for movement.",
+     "correctAnswer": "Third class levers have a mechanical disadvantage because the effort arm is shorter than the resistance arm (MA < 1), meaning more effort is needed to move the load. However, the benefit is that the load moves through a greater range of movement and at a faster speed than the point where effort is a",
+     "explanation": "Third class levers have a mechanical disadvantage because the effort arm is shorter than the resistance arm (MA < 1), meaning more effort is needed to move the load. However, the benefit is that the load moves through a greater range of movement and at a faster speed than the point where effort is a",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Movement Analysis in Sport] Identify the joint, movement and agonist muscle when a cricketer bowls the ball forward.",
+     "correctAnswer": "Joint: Shoulder (ball-and-socket). Movement: Flexion (the arm swings forwards and upwards). Agonist: Anterior deltoids and pectorals.",
+     "explanation": "Joint: Shoulder (ball-and-socket). Movement: Flexion (the arm swings forwards and upwards). Agonist: Anterior deltoids and pectorals.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Movement Analysis in Sport] Describe the movement at the knee during the upward phase of a squat and name the agonist muscle.",
+     "correctAnswer": "Movement: Extension at the knee (the angle increases as the leg straightens). Agonist: Quadriceps contract concentrically.",
+     "explanation": "Movement: Extension at the knee (the angle increases as the leg straightens). Agonist: Quadriceps contract concentrically.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Movement Analysis in Sport] What movement occurs at the shoulder during the arm-raising phase of a star jump? Name the agonist muscle.",
+     "correctAnswer": "Movement: Abduction at the shoulder (the arms move away from the midline of the body). Agonist: Deltoids (middle fibres).",
+     "explanation": "Movement: Abduction at the shoulder (the arms move away from the midline of the body). Agonist: Deltoids (middle fibres).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Planes and Axes of Movement] Name the three planes of movement and describe how each divides the body.",
+     "correctAnswer": "Sagittal plane - divides the body into left and right halves. Frontal plane - divides the body into front and back halves. Transverse plane - divides the body into top and bottom halves.",
+     "explanation": "Sagittal plane - divides the body into left and right halves. Frontal plane - divides the body into front and back halves. Transverse plane - divides the body into top and bottom halves.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Planes and Axes of Movement] Which plane and axis are used when performing a forward somersault?",
+     "correctAnswer": "A forward somersault occurs in the sagittal plane (the body rotates forwards, dividing left from right) around the transverse axis (the body rotates around an axis running from left to right through the hips).",
+     "explanation": "A forward somersault occurs in the sagittal plane (the body rotates forwards, dividing left from right) around the transverse axis (the body rotates around an axis running from left to right through the hips).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Planes and Axes of Movement] Explain why a cartwheel occurs in the frontal plane around the sagittal axis.",
+     "correctAnswer": "A cartwheel occurs in the frontal plane because the body rotates sideways (dividing front from back) and around the sagittal axis (the body rotates around an axis running from front to back through the body's centre). The arms and legs abduct and adduct as the body turns sideways.",
+     "explanation": "A cartwheel occurs in the frontal plane because the body rotates sideways (dividing front from back) and around the sagittal axis (the body rotates around an axis running from front to back through the body's centre). The arms and legs abduct and adduct as the body turns sideways.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "circuit-construction",
+ "topicName": "Circuit Construction & PCB Design",
+ "version": 1,
+ "steps": [
+  {
+   "id": "circuit-construction-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A breadboard provides a solderless prototyping platform with internal spring contacts connecting rows and columns."
+  },
+  {
+   "id": "circuit-construction-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Breadboard connections are temporary and suitable for testing circuit designs before permanent construction."
+  },
+  {
+   "id": "circuit-construction-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Stripboard (Veroboard) has copper tracks in rows; tracks must be cut to isolate sections where connections are not wanted."
+  },
+  {
+   "id": "circuit-construction-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "PCB design involves creating a layout with copper tracks that connect component pads according to the circuit schematic."
+  },
+  {
+   "id": "circuit-construction-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Describe the difference between a breadboard and a stripboard. | Q: What are two PCB design rules that must be followed? | Q: Describe the steps to create a good solder joint."
+  },
+  {
+   "id": "circuit-construction-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A breadboard is solderless and used for temporary prototyping with spring contacts; stripboard has copper tracks and requires soldering for permanent connections. | Tracks must be wide enough to carry the required current, and there must be sufficient clearance between adjacent tracks to prevent short circuits. | Clean the tip, apply iron to heat both pad and lead simultaneously, feed solder onto the joint, remove solder, then remove the iron; the joint should be shiny and concave."
+  },
+  {
+   "id": "circuit-construction-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When describing soldering, always mention heating both the pad and the lead before applying solder. List at least three PCB design rules: track width, clearance, pad size, component orientation. Know the visual difference: a good joint is shiny and concave; a dry joint is dull and granular. For breadboard questions, explain the internal connections (rows linked, columns linked for power rails). Mention the purpose of a solder mask and silk screen layer when describing PCB construction."
+  }
+ ]
+}

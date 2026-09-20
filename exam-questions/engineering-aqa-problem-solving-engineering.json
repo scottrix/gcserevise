@@ -1,0 +1,112 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "problem-solving-engineering",
+ "topicName": "Problem-Solving in Engineering",
+ "version": 1,
+ "questions": [
+  {
+   "id": "problem-solving-engineering-q1",
+   "type": "short-answer",
+   "question": "Q: Describe the main stages of the engineering problem-solving process.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Define the problem with a design brief. 2) Research existing solutions, materials and standards. 3) Write a specification. 4) Generate and develop solution ideas. 5) Prototype and test. 6) Evaluate against the specification. 7) Iterate: modify and re-test until all requirements are met.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "problem-solving-engineering-q2",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between a design brief and a specification.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A brief is a short statement of the problem and general requirements (what and why). A specification is a detailed, measurable list of technical requirements (how much and how well).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "problem-solving-engineering-q3",
+   "type": "short-answer",
+   "question": "Q: Why is iterative design important in engineering?",
+   "marks": 1,
+   "commandWord": "design",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Initial designs rarely meet all requirements. Iterative design allows engineers to test, identify weaknesses, modify and re-test in cycles. Each iteration improves the solution until the specification is fully met.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "problem-solving-engineering-q4",
+   "type": "short-answer",
+   "question": "Q: Explain how a risk assessment is conducted for a manufacturing operation.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Identify all hazards (moving parts, sharp tools, hot surfaces, chemicals). 2) Evaluate the risk: likelihood and severity. 3) Specify control measures: guards, PPE, safe procedures, training. 4) Record and review regularly.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "problem-solving-engineering-q5",
+   "type": "short-answer",
+   "question": "Q: What does fitness for purpose mean and how is it tested?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Fitness for purpose means the product reliably performs its intended function under expected conditions. It is tested by subjecting the product to realistic loads, environments and usage, then checking performance meets the specification.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "problem-solving-engineering-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A company needs a portable tablet stand for site engineers that is stable on uneven ground, folds flat and costs under 15 pounds to manufacture. Describe the problem-solving process from brief to final design. [8 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The brief: design a portable tablet stand for site engineers, stable on uneven ground, folding flat, costing under 15 pounds. Research investigates existing stands, site conditions, available materials and processes. The specification includes: max weight 500g, folded size under 200x150x20mm, adjustable angle 0-90 degrees, stable on 15-degree inclines, manufacturing cost under 15 pounds, durable outdoors. Ideation generates concepts (tripod, X-frame, kickstand); each is evaluated against the specification. The best concept (likely folding tripod for stability) is modelled in CAD and prototyped",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "The brief: design a portable tablet stand for site engineers, stable on uneven ground, folding flat, costing under 15 pounds. Research investigates existing stands, site conditions, available materials and processes. The specification includes: max weight 500g, folded size under 200x150x20mm, adjustable angle 0-90 degrees, stable on 15-degree inclines, manufacturing cost under 15 pounds, durable outdoors. Ideation generates concepts (tripod, X-frame, kickstand); each is evaluated against the specification. The best concept (likely folding tripod for stability) is modelled in CAD and prototyped using FDM. The prototype is tested for stability, ease of folding, weight and robustness. Evaluation compares results against the specification. Iterations address shortcomings: widening the base, improving the hinge, switching material to meet cost. Final testing confirms all requirements are met."
+   }
+  }
+ ]
+}

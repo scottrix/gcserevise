@@ -1,0 +1,94 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g25-environmental-geology",
+ "topicName": "Environmental Geology",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g25-environmental-geology-q1",
+   "type": "short-answer",
+   "question": "Q: What are the environmental impacts of quarrying?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Landscape destruction and habitat loss, dust and noise pollution, vibration from blasting, visual intrusion, increased traffic, changes to drainage and groundwater flow, and loss of agricultural land.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g25-environmental-geology-q2",
+   "type": "short-answer",
+   "question": "Q: How does landfill contaminate groundwater?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Rainwater percolating through waste dissolves harmful chemicals, forming leachate. If the landfill liner fails or is absent, leachate enters the underlying aquifer, polluting groundwater used for drinking.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g25-environmental-geology-q3",
+   "type": "short-answer",
+   "question": "Q: What is geothermal energy and where does it work best?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Energy from Earth's internal heat, accessed by drilling into hot aquifers or using heat pumps. It works best in tectonically active areas (e.g. Iceland) where high temperatures occur at shallow depth.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g25-environmental-geology-q4",
+   "type": "short-answer",
+   "question": "Q: How can carbon capture and storage help reduce climate change?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "CO2 from power stations and industry is captured, compressed and injected into deep porous rocks where impermeable cap rocks trap it permanently, preventing it entering the atmosphere.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g25-environmental-geology-q5",
+   "type": "short-answer",
+   "question": "Q: Why is remediation of contaminated land important?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Contaminated land poses risks to human health, groundwater quality and ecosystems. Remediation allows safe redevelopment, regenerating brownfield sites and reducing pressure on greenfield land.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

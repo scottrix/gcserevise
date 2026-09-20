@@ -1,0 +1,159 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "probability-distributions-comparisons",
+ "topicName": "Probability Distributions Comparisons",
+ "version": 1,
+ "cards": [
+  {
+   "id": "probability-distributions-comparisons-fc1",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "A probability distribution lists all possible outcomes with their associated probabilities; the total probability always sums to 1",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc2",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "Binomial distribution models the number of successes in n independent trials, each with the same probability p of success; P(X = r) = ²ⁿCᵣ × pʳ × (1−p)ⁿʻʳ where X~B(n, p)",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc3",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "For a binomial distribution: mean = np and variance = np(1−p); these are the expected value and spread",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc4",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "The normal distribution is a continuous bell-shaped curve, fully defined by its mean (μ) and standard deviation (σ); notation X~N(μ, σ²)",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc5",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "The 68–95–99.7 rule: approximately 68% of data lies within 1σ of the mean, 95% within 2σ, and 99.7% within 3σ",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc6",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "The normal distribution is symmetric about the mean; the mean, median and mode are all equal",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc7",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "Standardised score (z-score) = (value − mean) ÷ standard deviation; it measures how many standard deviations a value is from the mean",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc8",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "Standardising allows comparison between different distributions by converting values to a common N(0,1) scale",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc9",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "When comparing two data sets, compare medians or means for location, and IQR or standard deviation for spread",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc10",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "Use the context when comparing: always state which group is higher/lower and by how much, using summary statistics with units",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc11",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "A binomial situation requires: fixed number of trials, two outcomes (success/failure), independent trials, and constant probability of success",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc12",
+   "front": "Recall a key point about Probability Distributions Comparisons",
+   "back": "For normal distribution calculations, use z-tables or a calculator to find areas under the curve between given z-values",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc13",
+   "front": "What should you know about gcse statistics exam tips — probability distributions & comparisons?",
+   "back": "1. For Probability Distributions & Comparisons questions, show every step of your working clearly — method marks count even if the final answer is wrong 2. Check your answer makes sense in context (estimation, units, reasonableness) 3. Use correct mathematical notation and state formulae before substituting values 4. If a Probability Distributions & Comparisons question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line 5. For problem-solving, identify the topic first, then recall the relevant method",
+   "tags": [
+    "gcse-statistics-exam-tips-prob"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc14",
+   "front": "Full-Mark Response",
+   "back": "The masses of apples from Farm A are normally distributed with mean 150 g and standard deviation 12 g. The masses of apples from Farm B are normally distributed with mean 160 g and standard deviation 20 g. An apple from Farm A has mass 174 g and an apple from Farm B has mass 180 g. Which apple is relatively heavier? Show your working.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-distributions-comparisons-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of probability distributions & comparisons, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382. AO2 (Application): Apply knowledge and understanding of probability distributions & comparisons to interpret data, reason statistically and draw conclusions in context. AO3 (Evalu",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

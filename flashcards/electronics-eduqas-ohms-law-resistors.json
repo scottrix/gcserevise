@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "ohms-law-resistors",
+ "topicName": "Ohm's Law & Resistor Networks",
+ "version": 1,
+ "cards": [
+  {
+   "id": "ohms-law-resistors-fc1",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "In series, total resistance R_total = R1 + R2 + R3; the same current flows through each resistor.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc2",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "In parallel, 1/R_total = 1/R1 + 1/R2 + 1/R3; the same voltage is across each resistor.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc3",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "For two resistors in parallel: R_total = (R1 × R2)/(R1 + R2).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc4",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "A potential divider uses two series resistors to produce a fraction of the supply voltage: V_out = V_in × R2/(R1 + R2).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc5",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "In series circuits, voltage splits proportionally to resistance: the larger resistor gets the larger voltage share.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc6",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "In parallel circuits, each branch carries current inversely proportional to its resistance.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc7",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "Ohm's Law can be applied to each individual resistor in a network to find voltage or current.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc8",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "Variable resistors (potentiometers) can be used in potential dividers to produce adjustable output voltage.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc9",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "The total power dissipated in a network equals the sum of power in individual resistors.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc10",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "Series circuits act as voltage dividers; parallel circuits act as current dividers.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc11",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "When combining series and parallel sections, simplify the parallel parts first, then add series resistances.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc12",
+   "front": "Recall a key point about Ohm's Law & Resistor Networks",
+   "back": "A load across the output of a potential divider reduces the output voltage due to loading effects.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc13",
+   "front": "What should you know about gcse electronics exam tips — ohm's law & resistor networks?",
+   "back": "1. For Ohm's Law & Resistor Networks questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Ohm's Law & Resistor Networks, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-ohm"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc14",
+   "front": "Full-Mark Response",
+   "back": "Explain how to calculate the total resistance of a mixed series-parallel resistor network, and describe how a potential divider works.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "ohms-law-resistors-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of ohm's law & resistor networks, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of ohm's law & resistor networks to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic ci",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

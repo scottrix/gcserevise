@@ -1,0 +1,112 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P17-stopping-distances",
+ "topicName": "Stopping Distances",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p17-stopping-distances-q1",
+   "type": "short-answer",
+   "question": "Foundation Define stopping distance and state the equation that links its two components.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Stopping distance is the total distance travelled from seeing a hazard to stopping. Stopping distance = thinking distance + braking distance.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p17-stopping-distances-q2",
+   "type": "short-answer",
+   "question": "Foundation Give two factors that increase thinking distance and two factors that increase braking distance.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Thinking distance: higher speed, tiredness, alcohol/drugs, distractions. Braking distance: higher speed, wet/icy roads, worn tyres, worn brakes, greater mass.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p17-stopping-distances-q3",
+   "type": "short-answer",
+   "question": "Higher A car of mass 1200 kg travels at 15 m/s. The braking force is 6000 N. Calculate the braking distance.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "KE = ½ × 1200 × 15² = 135 000 J. Braking distance = KE / F = 135 000 / 6000 = 22.5 m",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p17-stopping-distances-q4",
+   "type": "short-answer",
+   "question": "Higher Explain, using kinetic energy, why doubling the speed of a vehicle increases the braking distance by a factor of four.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "KE = ½mv². If speed doubles from v to 2v, the new KE = ½m(2v)² = ½m × 4v² = 4 × ½mv². The kinetic energy is 4 times greater, so the brakes must do 4 times more work, and the braking distance increases by a factor of 4 (assuming the same braking force).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p17-stopping-distances-q5",
+   "type": "short-answer",
+   "question": "Foundation A driver is using a mobile phone. Explain how this affects their stopping distance.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Using a mobile phone is a distraction, which increases the driver's reaction time. This means the thinking distance increases, so the total stopping distance increases. The car travels further before the brakes are applied, increasing the risk of a collision.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p17-stopping-distances-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: A car is travelling at 40 mph on a dry road. The driver has consumed alcohol. Explain how each of the following affects the total stopping distance: (i) the speed of the car, (ii) the alcohol consumed, (iii) wet road conditions. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(i) Speed affects both thinking distance and braking distance. Higher speed means the car travels further during the driver's reaction time, increasing thinking distance. More importantly, kinetic energy is proportional to speed squared (KE = ½mv²), so if speed increases, the brakes must do much more work to stop the car, and braking distance increases in proportion to speed². (ii) Alcohol slows the driver's reaction time, meaning there is a longer delay between seeing the hazard and pressing the brake. This increases the thinking distance because the car travels further before the brakes are ",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "(i) Speed affects both thinking distance and braking distance. Higher speed means the car travels further during the driver's reaction time, increasing thinking distance. More importantly, kinetic energy is proportional to speed squared (KE = ½mv²), so if speed increases, the brakes must do much more work to stop the car, and braking distance increases in proportion to speed². (ii) Alcohol slows the driver's reaction time, meaning there is a longer delay between seeing the hazard and pressing the brake. This increases the thinking distance because the car travels further before the brakes are applied. Alcohol does not affect braking distance directly. (iii) Wet roads reduce the friction between the tyres and the road surface, so the maximum braking force is reduced. With less braking force available, the braking distance increases. The car skids more easily, taking longer to stop. Wet roads do not affect thinking distance. Mark scheme: 1 mark for speed increases thinking distance (travels further in reaction time); 1 mark for speed increases braking distance (KE ∝ v²); 1 mark for alcohol increases reaction time → increases thinking distance; 1 mark for alcohol does NOT affect braking distance; 1 mark for wet roads reduce friction → increase braking distance; 1 mark for wet roads do NOT affect thinking distance. (6 marks total)"
+   }
+  }
+ ]
+}

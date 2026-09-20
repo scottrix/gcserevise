@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "circuit-construction",
+ "topicName": "Circuit Construction & PCB Design",
+ "version": 1,
+ "cards": [
+  {
+   "id": "circuit-construction-fc1",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "A breadboard provides a solderless prototyping platform with internal spring contacts connecting rows and columns.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc2",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "Breadboard connections are temporary and suitable for testing circuit designs before permanent construction.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc3",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "Stripboard (Veroboard) has copper tracks in rows; tracks must be cut to isolate sections where connections are not wanted.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc4",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "PCB design involves creating a layout with copper tracks that connect component pads according to the circuit schematic.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc5",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "PCB design rules include: adequate track width for current, sufficient clearance between tracks, and correct pad sizes.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc6",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "Soldering creates a permanent electrical and mechanical joint; a good solder joint is shiny, concave and covers both pad and lead.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc7",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "The soldering process: clean the tip, heat both pad and lead simultaneously, apply solder, remove solder then remove iron.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc8",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "Dry joints occur when the joint is not heated sufficiently; they appear dull and granular and have high resistance.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc9",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "Component placement should follow the signal flow from input to output, with decoupling capacitors close to ICs.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc10",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "Through-hole components have leads that pass through the board; surface-mount devices (SMDs) are soldered on the same side.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc11",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "A solder mask (green coating) on a PCB prevents solder bridges between adjacent tracks during soldering.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc12",
+   "front": "Recall a key point about Circuit Construction & PCB Design",
+   "back": "Design for manufacture (DFM) considerations include: minimising board layers, standardising component orientation and providing test points.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc13",
+   "front": "What should you know about gcse electronics exam tips — circuit construction & pcb design?",
+   "back": "1. For Circuit Construction & PCB Design questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Circuit Construction & PCB Design, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-cir"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc14",
+   "front": "Full-Mark Response",
+   "back": "Describe the process of constructing a circuit from prototype to PCB, including the role of breadboarding, stripboard construction, PCB design rules and soldering technique.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-construction-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of circuit construction & pcb design, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of circuit construction & pcb design to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate elect",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

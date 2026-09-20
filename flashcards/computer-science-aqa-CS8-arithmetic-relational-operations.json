@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS8-arithmetic-relational-operations",
+ "topicName": "Arithmetic and Relational Operations",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs8-arithmetic-relational-operations-fc1",
+   "front": "What should you know about arithmetic operators?",
+   "back": "perform mathematical calculations on numeric values. At GCSE, you need to know seven operators including DIV and MOD.",
+   "tags": [
+    "arithmetic-operators"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc2",
+   "front": "What should you know about div?",
+   "back": "gives the whole number result of division (quotient). MOD gives the remainder. Together they describe any division completely: for a / b, the quotient is a DIV b and the remainder is a MOD b.",
+   "tags": [
+    "div"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc3",
+   "front": "What should you know about relational operators?",
+   "back": "compare two values and return a Boolean result (TRUE or FALSE). They are used in IF conditions and WHILE loop conditions.",
+   "tags": [
+    "relational-operators"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc4",
+   "front": "What should you know about exam warning?",
+   "back": "In pseudo-code, = means \"equal to\" (comparison), NOT assignment. Assignment uses the left-arrow (←). This is different from languages like Python where = is assignment and == is comparison.",
+   "tags": [
+    "exam-warning"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc5",
+   "front": "What should you know about bodmas/bias?",
+   "back": "applies in programming just as in maths. Operations are evaluated in a specific order: Brackets first, then exponents, then division/multiplication, then addition/subtraction.",
+   "tags": [
+    "bodmas-bias"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc6",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Know your operators: +, -, *, /, DIV, MOD, ^ for arithmetic; =, <>, , = for comparison; AND, OR, NOT for logic. MOD is essential for divisibility checks and wrapping values. DIV for integer division. Always use brackets to clarify order of operations. In pseudo-code, ← is assignment; = is equality comparison. Remember BODMAS applies in expressions.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc7",
+   "front": "What does Addition mean?",
+   "back": "+ (e.g. Add two values)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc8",
+   "front": "What does Subtraction mean?",
+   "back": "- (e.g. Subtract second from first)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc9",
+   "front": "What does Multiplication mean?",
+   "back": "* (e.g. Multiply two values)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc10",
+   "front": "What does Real division mean?",
+   "back": "/ (e.g. Divide, returns decimal)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc11",
+   "front": "What does Integer division mean?",
+   "back": "DIV (e.g. Divide, returns whole number only)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc12",
+   "front": "What does Modulo (remainder) mean?",
+   "back": "MOD (e.g. Returns the remainder after division)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc13",
+   "front": "What does Exponent mean?",
+   "back": "^ (e.g. Raises to a power)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc14",
+   "front": "What does 10 DIV 3 mean?",
+   "back": "3 (e.g. 10 / 3 = 3.33..., whole number part = 3)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-fc15",
+   "front": "What does 10 MOD 3 mean?",
+   "back": "1 (e.g. Remainder when 10 is divided by 3)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C1-atoms-and-elements",
+ "topicName": "C1 Atoms And Elements",
+ "version": 1,
+ "steps": [
+  {
+   "id": "c1-atoms-and-elements-s1",
+   "kind": "learn",
+   "title": "Atom",
+   "body": "The smallest particle of an element that can still be recognised as that element. Atoms are the building blocks of all matter."
+  },
+  {
+   "id": "c1-atoms-and-elements-s2",
+   "kind": "learn",
+   "title": "Element",
+   "body": "A substance made up of only one type of atom. Each element has a unique atomic number and is listed on the Periodic Table."
+  },
+  {
+   "id": "c1-atoms-and-elements-s3",
+   "kind": "learn",
+   "title": "Compound",
+   "body": "A substance made from two or more elements that are chemically combined in fixed proportions. Compounds can only be separated into their elements by chemical reactions."
+  },
+  {
+   "id": "c1-atoms-and-elements-s4",
+   "kind": "learn",
+   "title": "Mixture",
+   "body": "Two or more substances that are mixed together but are not chemically combined. Mixtures can be separated by physical methods such as filtration, distillation or chromatography."
+  },
+  {
+   "id": "c1-atoms-and-elements-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Law of conservation of mass: No atoms are created or destroyed in a chemical reaction, so the number of atoms of each element must be the same on both sides of the equation. To balance an equation, add numbers in front of formulae (coefficients). Never change the formulae themselves. Worked Example 1 - Balancing Mg + O₂ → MgO Step 1: Count atoms on each side: Left: Mg = 1, O = 2 | Right: Mg = 1, O = 1 Step 2: Oxygen is unbalanced. Put a 2 before MgO: Mg + O₂ → 2MgO Step 3: Recount: Left: Mg = 1, O = 2 | Right: Mg = 2, O = 2 Step 4: Now magnesium is unbalanced. Put a 2 before Mg: 2Mg + O₂ → 2MgO Step 5: Check: Left: Mg = 2, O = 2 | Right: Mg = 2, O = 2 ✓ Balanced! Worked Example 2 - Balancing Fe + O₂ → Fe₂O₃ Step 1: Count atoms: Left: Fe = 1, O = 2 | Right: Fe = 2, O = 3 Step 2: Balance Fe first by putting 2 before Fe: 2Fe + O₂ → Fe₂O₃ Step 3: Now balance O. LCM of 2 and 3 is 6: 2Fe + 3O₂ → Fe₂O₃ Wait - that gives O = 6 on the left. Need 2Fe₂O₃ on the right: 4Fe + 3O₂ → 2Fe₂O₃ Step 4: C"
+  },
+  {
+   "id": "c1-atoms-and-elements-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation Define the term compound and give one example. | Foundation Explain the difference between a mixture and a compound. | Foundation Balance the following equation: H₂ + O₂ → H₂O"
+  },
+  {
+   "id": "c1-atoms-and-elements-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A compound is a substance made from two or more elements that are chemically combined in fixed proportions. Example: water (H₂O) is a compound of hydrogen and oxygen. | A compound has elements chemically combined in fixed proportions and can only be separated by chemical reactions. A mixture has substances not chemically combined, with variable proportions, and can b | 2H₂ + O₂ → 2H₂O. Count: Left = H: 4, O: 2; Right = H: 4, O: 2. Balanced."
+  },
+  {
+   "id": "c1-atoms-and-elements-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Learn the definition of compound precisely: examiners look for \"chemically combined\" and \"fixed proportions\" - both must be mentioned for full marks When asked about the difference between mixtures and compounds, always state at least two differences for full marks Never change subscripts in a formula when balancing - only add numbers in front of formulae Always check your balanced equation by counting atoms of each element on both sides State symbols: remember (aq) means dissolved in water, not just \"watery\" - it is distinct from (l) Common mistake: writing Na for sodium is correct, but writing NA or nA is wrong - symbols have a capital letter first, lowercase second"
+  }
+ ]
+}

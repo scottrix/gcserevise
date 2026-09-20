@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS36-sql",
+ "topicName": "SQL",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs36-sql-fc1",
+   "front": "Recall a key point about SQL",
+   "back": "SQL (Structured Query Language) is the standard language used to create, read, update, and delete data in relational databases. It allows users to communicate with a database to retrieve and modify data.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc2",
+   "front": "What should you know about where clause?",
+   "back": "The WHERE clause filters records - only records that match the condition are returned. It is used with SELECT, UPDATE, and DELETE.",
+   "tags": [
+    "where-clause"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc3",
+   "front": "What should you know about order by clause?",
+   "back": "The ORDER BY clause sorts the results. ASC sorts in ascending order (A-Z, 1-9). DESC sorts in descending order (Z-A, 9-1). Default is ASC if not specified.",
+   "tags": [
+    "order-by-clause"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc4",
+   "front": "Recall a key point about SQL",
+   "back": "String values must be in single quotes ('Frank'). Numeric values do not need quotes (1006, 10). The order of values must match the order of fields listed. If inserting into all fields, you can omit the field list: INSERT INTO Students VALUES (1006, 'Frank', 'Chen', '10B', 10)",
+   "tags": [
+    "important"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc5",
+   "front": "What should you know about warning?",
+   "back": "Always include a WHERE clause with UPDATE. If you write UPDATE Students SET Form = '10A' without a WHERE clause, it would change the Form of EVERY student in the table to 10A!",
+   "tags": [
+    "warning"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc6",
+   "front": "What should you know about warning?",
+   "back": "Always include a WHERE clause with DELETE. DELETE FROM Students without a WHERE clause would delete EVERY record in the table! The data would be permanently lost.",
+   "tags": [
+    "warning"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc7",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Know SQL commands: SELECT (read), INSERT (add), UPDATE (modify), DELETE (remove). Always use WHERE with UPDATE and DELETE to avoid affecting all records. Single quotes for text values, no quotes for numbers. End statements with semicolons. SELECT * returns all fields. Use AND/OR for multiple conditions. ORDER BY for sorting. For joins, use table.field syntax to avoid ambiguity.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc8",
+   "front": "What does 1001 mean?",
+   "back": "Alice (e.g. Smith)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc9",
+   "front": "What does 1002 mean?",
+   "back": "Bob (e.g. Jones)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc10",
+   "front": "What does 1003 mean?",
+   "back": "Clara (e.g. Patel)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc11",
+   "front": "What does 1004 mean?",
+   "back": "David (e.g. Smith)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc12",
+   "front": "What does 1005 mean?",
+   "back": "Eve (e.g. Williams)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc13",
+   "front": "What does CS01 mean?",
+   "back": "Computer Science (e.g. Mr Khan)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc14",
+   "front": "What does MA01 mean?",
+   "back": "Mathematics (e.g. Mrs Brown)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs36-sql-fc15",
+   "front": "What does EN01 mean?",
+   "back": "English (e.g. Ms Taylor)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

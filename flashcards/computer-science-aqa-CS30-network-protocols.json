@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS30-network-protocols",
+ "topicName": "Network Protocols",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs30-network-protocols-fc1",
+   "front": "Recall a key point about Network Protocols",
+   "back": "A protocol is a set of rules that governs how data is transmitted between devices on a network. Protocols define the format, timing, sequencing, and error checking of data transmission.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc2",
+   "front": "What should you know about key concept?",
+   "back": "Protocols are needed so that different devices and systems can communicate with each other. Without agreed rules, there would be no way to ensure data arrives correctly, completely, and in the right order.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc3",
+   "front": "What should you know about purpose?",
+   "back": "TCP ensures reliable delivery of data between devices. It breaks data into packets, numbers them, checks they all arrive, and reassembles them in the correct order.",
+   "tags": [
+    "purpose"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc4",
+   "front": "What should you know about purpose?",
+   "back": "IP handles addressing and routing of data packets across networks. It adds source and destination IP addresses to each packet so it can be routed to the correct destination.",
+   "tags": [
+    "purpose"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc5",
+   "front": "What should you know about purpose?",
+   "back": "HTTP is the protocol used to transfer web pages from a web server to a web browser. It defines how requests and responses are formatted.",
+   "tags": [
+    "purpose"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc6",
+   "front": "What should you know about purpose?",
+   "back": "HTTPS is the secure version of HTTP. It encrypts all data between the browser and the server, preventing interception and tampering.",
+   "tags": [
+    "purpose"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc7",
+   "front": "What should you know about purpose?",
+   "back": "SMTP is the protocol used for SENDING email from a client to a mail server, and between mail servers.",
+   "tags": [
+    "purpose"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc8",
+   "front": "What should you know about purpose?",
+   "back": "IMAP is the protocol used for RECEIVING and managing email on a mail server. It allows the client to view and organise emails while keeping them stored on the server.",
+   "tags": [
+    "purpose"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc9",
+   "front": "What should you know about key concept?",
+   "back": "Protocols are organised in layers, where each layer handles a specific aspect of communication. Higher layers handle user-facing functions; lower layers handle data transport. Each layer only communicates with the layer directly above and below it.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc10",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Know key protocols: HTTP/HTTPS (web, port 80/443), FTP (file transfer, 21), SMTP (send email, 25), POP3/IMAP (receive email, 110/143), TCP (reliable delivery), UDP (fast, unreliable), IP (addressing/routing). TCP = reliable, UDP = fast. HTTPS = HTTP + encryption. Know the 4 TCP/IP layers and their purposes. Port numbers identify services.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc11",
+   "front": "What does Encryption mean?",
+   "back": "None (plain text) (e.g. SSL/TLS encryption)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc12",
+   "front": "What does Security mean?",
+   "back": "Not secure (e.g. Secure)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc13",
+   "front": "What does Port mean?",
+   "back": "80 (e.g. 443)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc14",
+   "front": "What does Certificate mean?",
+   "back": "Not required (e.g. SSL/TLS certificate required)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs30-network-protocols-fc15",
+   "front": "What does Use case mean?",
+   "back": "Non-sensitive browsing (e.g. Banking, shopping, login pages)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

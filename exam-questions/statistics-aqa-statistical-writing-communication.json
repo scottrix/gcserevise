@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "statistical-writing-communication",
+ "topicName": "Statistical Writing Communication",
+ "version": 1,
+ "questions": [
+  {
+   "id": "statistical-writing-communication-q1",
+   "type": "short-answer",
+   "question": "Q: Rewrite this vague answer: ‘The boys did better than the girls.’",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "‘The boys had a higher median score (68) than the girls (55), a difference of 13 marks, suggesting the boys performed better on average.’",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistical-writing-communication-q2",
+   "type": "short-answer",
+   "question": "Q: A student writes: ‘The data is quite spread out.’ How could this be improved?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Quote a measure of spread with units: ‘The IQR is 24 marks, meaning the middle 50% of students scored within a 24-mark range, which shows moderate spread.’",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistical-writing-communication-q3",
+   "type": "short-answer",
+   "question": "Q: Compare these two distributions: Town A (median £28 000, IQR £12 000) and Town B (median £32 000, IQR £6 000).",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Town B has a higher median income (£32 000 vs £28 000), so residents earn more on average. However, Town A’s incomes are more spread (IQR £12 000 vs £6 000), indicating greater variation in earnings. Town B’s incomes are more consistent.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistical-writing-communication-q4",
+   "type": "short-answer",
+   "question": "Q: A student concludes: ‘There is a positive correlation between ice cream sales and temperature, so higher temperatures cause more ice cream sales.’ What is wrong with this statement?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Correlation does not imply causation. While the variables are positively correlated, causation cannot be confirmed from observational data alone. There may be confounding variables (e.g. holidays, sunshine hours). The correct phrasing is ‘higher temperatures are associated with more ice cream sales’.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistical-writing-communication-q5",
+   "type": "short-answer",
+   "question": "Q: How should you adapt a statistical report about house prices for (a) an estate agent and (b) a Year 10 class?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Use professional terminology (median, quartile), reference precise figures, and focus on market trends. (b) Use simpler language (middle value instead of median), explain technical terms, and use visual comparisons like ‘the typical house costs about as much as 8 years of average salary’.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "statistical-writing-communication-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A study compares weekly screen time for two age groups. 11–14 year olds: median 21 hours, IQR 10 hours. 15–18 year olds: median 28 hours, IQR 14 hours. Write a comparison. <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The 15–18 age group spends more time on screens on average, with a median of 28 hours per week compared to 21 hours for the 11–14 age group, a difference of 7 hours. The 15–18 group also shows greater variability in screen time, with an IQR of 14 hours compared to 10 hours for the younger group. This means the middle 50% of 15–18 year olds span a wider range of screen time (14 hours) than the 11–14 year olds (10 hours). The higher median and greater spread for the older group may reflect increased independent phone use and social media activity in later teenage years, though this study cannot ",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "The 15–18 age group spends more time on screens on average, with a median of 28 hours per week compared to 21 hours for the 11–14 age group, a difference of 7 hours. The 15–18 group also shows greater variability in screen time, with an IQR of 14 hours compared to 10 hours for the younger group. This means the middle 50% of 15–18 year olds span a wider range of screen time (14 hours) than the 11–14 year olds (10 hours). The higher median and greater spread for the older group may reflect increased independent phone use and social media activity in later teenage years, though this study cannot establish the cause."
+   }
+  }
+ ]
+}

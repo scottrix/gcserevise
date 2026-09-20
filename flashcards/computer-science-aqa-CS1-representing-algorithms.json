@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS1-representing-algorithms",
+ "topicName": "Representing Algorithms",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs1-representing-algorithms-fc1",
+   "front": "Recall a key point about Representing Algorithms",
+   "back": "An algorithm is a step-by-step set of instructions that solves a specific problem. It must be finite, unambiguous, and produce a correct result for all valid inputs.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc2",
+   "front": "What should you know about pseudo-code?",
+   "back": "is not a real programming language. It uses structured English with programming constructs to describe algorithms without worrying about syntax rules.",
+   "tags": [
+    "pseudo-code"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc3",
+   "front": "What should you know about flowcharts?",
+   "back": "use standard symbols to represent different types of operations in an algorithm. Each symbol has a specific meaning.",
+   "tags": [
+    "flowcharts"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc4",
+   "front": "What should you know about decomposition?",
+   "back": "means breaking down a complex problem into smaller, more manageable sub-problems. Each sub-problem can be solved independently and then combined to solve the original problem.",
+   "tags": [
+    "decomposition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc5",
+   "front": "What should you know about abstraction?",
+   "back": "means removing unnecessary detail from a problem so you can focus on what matters. You include only the essential information needed to solve the problem and ignore everything else.",
+   "tags": [
+    "abstraction"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc6",
+   "front": "What should you know about every algorithm?",
+   "back": "can be analysed in terms of its inputs (what goes in), processing (what happens to it), and outputs (what comes out). Identifying these is the first step in designing any algorithm.",
+   "tags": [
+    "every-algorithm"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc7",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "When writing pseudo-code, always use the correct keywords (IF, THEN, ELSE, ENDIF, WHILE, ENDWHILE, FOR, TO, NEXT). Use ← for assignment, not =. For flowchart questions, draw each symbol carefully — ovals for START/STOP, rectangles for processes, diamonds for decisions, parallelograms for I/O. Decision diamonds must have exactly two exits (Yes/No). In decomposition questions, break into at least 3-4 sub-problems. For abstraction, always state WHAT detail is removed and WHY it is unnecessary.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc8",
+   "front": "What does Assignment mean?",
+   "back": "variable ← value (e.g. Store a value in a variable)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc9",
+   "front": "What does Input mean?",
+   "back": "INPUT prompt, variable (e.g. Get data from the user)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc10",
+   "front": "What does Output mean?",
+   "back": "OUTPUT expression (e.g. Display data to the user)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc11",
+   "front": "What does Selection mean?",
+   "back": "IF...THEN...ELSE...ENDIF (e.g. Make a decision)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc12",
+   "front": "What does Counted loop mean?",
+   "back": "FOR...TO...NEXT (e.g. Repeat a set number of times)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc13",
+   "front": "What does Condition loop mean?",
+   "back": "WHILE...ENDWHILE (e.g. Repeat while condition is true)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc14",
+   "front": "What does Post-test loop mean?",
+   "back": "REPEAT...UNTIL (e.g. Repeat until condition is true)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs1-representing-algorithms-fc15",
+   "front": "What does Terminator mean?",
+   "back": "Oval / Rounded rectangle (e.g. START and END of the algorithm)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

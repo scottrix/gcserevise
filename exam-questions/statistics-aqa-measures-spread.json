@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "measures-spread",
+ "topicName": "Measures Spread",
+ "version": 1,
+ "questions": [
+  {
+   "id": "measures-spread-q1",
+   "type": "short-answer",
+   "question": "Q: Data: 5, 8, 12, 15, 20. Find the range.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Range = 20 – 5 = 15.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "measures-spread-q2",
+   "type": "short-answer",
+   "question": "Q: For a dataset of 40 values, at what positions are Q1 and Q3?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q1 is at position 0.25 × 40 = 10 (the 10th value). Q3 is at position 0.75 × 40 = 30 (the 30th value).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "measures-spread-q3",
+   "type": "short-answer",
+   "question": "Q: From a cumulative frequency curve with total frequency 200, at what cumulative frequency do you read P10 and P90?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "P10: 0.10 × 200 = 20. P90: 0.90 × 200 = 180.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "measures-spread-q4",
+   "type": "short-answer",
+   "question": "Q: State one advantage of the interpercentile range over the range.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The interpercentile range excludes extreme values and outliers, giving a more reliable measure of the typical spread of the data.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "measures-spread-q5",
+   "type": "short-answer",
+   "question": "Q: The standard deviation of dataset A is 2.3 and dataset B is 5.1. What does this tell you?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Dataset B is more spread out around its mean than dataset A; the values in B vary more from the average.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "measures-spread-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Calculate the standard deviation of the following sample data: 4, 7, 8, 10, 11. <div class=\"",
+   "marks": 4,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Step 1: Find the mean. x̄ = (4 + 7 + 8 + 10 + 11) ÷ 5 = 40 ÷ 5 = 8 Step 2: Calculate deviations from the mean and square them: x | x – x̄ | (x – x̄)² 4 | –4 | 16 7 | –1 | 1 8 | 0 | 0 10| 2 | 4 11| 3 | 9 Sum | 30 Step 3: Variance = Σ(x – x̄)² ÷ (n – 1) = 30 ÷ 4 = 7.5 Step 4: Standard deviation = √7.5 ≈ 2.74 (to 2 d.p.)",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Step 1: Find the mean. x̄ = (4 + 7 + 8 + 10 + 11) ÷ 5 = 40 ÷ 5 = 8 Step 2: Calculate deviations from the mean and square them: x | x – x̄ | (x – x̄)² 4 | –4 | 16 7 | –1 | 1 8 | 0 | 0 10| 2 | 4 11| 3 | 9 Sum | 30 Step 3: Variance = Σ(x – x̄)² ÷ (n – 1) = 30 ÷ 4 = 7.5 Step 4: Standard deviation = √7.5 ≈ 2.74 (to 2 d.p.)"
+   }
+  }
+ ]
+}

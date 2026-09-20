@@ -1,0 +1,38 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P15-motion-and-acceleration",
+ "topicName": "Motion And Acceleration",
+ "version": 1,
+ "tests": [
+  {
+   "id": "p15-motion-and-acceleration-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Motion And Acceleration",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "p15-motion-and-acceleration-t1",
+     "type": "short-answer",
+     "question": "Foundation A runner travels 100 m in 12.5 s. Calculate the average speed.",
+     "correctAnswer": "v = s / t = 100 / 12.5 = 8 m/s",
+     "explanation": "Answer: v = s / t = 100 / 12.5 = 8 m/s",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p15-motion-and-acceleration-t2",
+     "type": "short-answer",
+     "question": "Foundation A car accelerates from rest to 30 m/s in 6 s. Calculate the acceleration.",
+     "correctAnswer": "a = Δv / t = (30 − 0) / 6 = 30 / 6 = 5 m/s²",
+     "explanation": "Answer: a = Δv / t = (30 − 0) / 6 = 30 / 6 = 5 m/s²",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

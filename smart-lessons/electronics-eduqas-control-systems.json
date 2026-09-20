@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "control-systems",
+ "topicName": "Control Systems & Microcontrollers",
+ "version": 1,
+ "steps": [
+  {
+   "id": "control-systems-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An open-loop control system has no feedback; the output is not checked against the desired value, so errors are not corrected automatically."
+  },
+  {
+   "id": "control-systems-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A closed-loop (feedback) control system measures the output and compares it with the set point, adjusting the input to reduce any error."
+  },
+  {
+   "id": "control-systems-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Closed-loop control uses a sensor to measure the output, a comparator to find the error, and a controller to correct it."
+  },
+  {
+   "id": "control-systems-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A microcontroller is a single-chip computer containing a processor, memory and input/output peripherals for embedded control."
+  },
+  {
+   "id": "control-systems-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Give one advantage and one disadvantage of open-loop control. | Q: Describe the three essential components of a closed-loop control system. | Q: Explain how PWM can be used to control the brightness of an LED."
+  },
+  {
+   "id": "control-systems-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Advantage: simple and low cost. Disadvantage: cannot correct for disturbances or changes in the system since there is no feedback. | A sensor to measure the output, a comparator to calculate the error between the output and set point, and a controller to adjust the input to reduce the error. | A PWM signal rapidly switches the LED on and off; increasing the duty cycle (on-time proportion) increases the average current and brightness, while decreasing it dims the LED."
+  },
+  {
+   "id": "control-systems-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always draw a block diagram for control system questions, showing sensor, comparator, controller and actuator with feedback path. Distinguish clearly between open-loop (no feedback) and closed-loop (feedback with error correction). For microcontroller questions, mention the specific peripherals needed: ADC for analogue sensors, PWM for motor/LED control. When describing a control program, outline the loop structure: read inputs → process data → update outputs → repeat. Explain the purpose of each component in a block diagram rather than just naming it."
+  }
+ ]
+}

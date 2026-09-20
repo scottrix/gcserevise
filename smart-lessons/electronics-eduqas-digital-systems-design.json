@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "digital-systems-design",
+ "topicName": "Digital Systems Design",
+ "version": 1,
+ "steps": [
+  {
+   "id": "digital-systems-design-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Digital system design involves specifying, designing and implementing circuits that process digital signals."
+  },
+  {
+   "id": "digital-systems-design-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A state diagram shows the sequence of states a system transitions through, with arrows for transitions and labels for conditions."
+  },
+  {
+   "id": "digital-systems-design-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Moore machines: outputs depend only on the current state; Mealy machines: outputs depend on current state and inputs."
+  },
+  {
+   "id": "digital-systems-design-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "State diagrams use circles for states and labelled arrows for transitions; each arrow shows the input condition causing the transition."
+  },
+  {
+   "id": "digital-systems-design-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What is the key difference between a Moore machine and a Mealy machine? | Q: What are the main steps in designing a digital system? | Q: Why is state reduction important in digital system design?"
+  },
+  {
+   "id": "digital-systems-design-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "In a Moore machine, outputs depend only on the current state; in a Mealy machine, outputs depend on both the current state and the inputs. | Specification → state diagram → state table → state assignment → derive logic equations → implement with flip-flops and gates. | State reduction eliminates redundant states, reducing the number of flip-flops and logic gates needed, simplifying the circuit and lowering cost."
+  },
+  {
+   "id": "digital-systems-design-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always label state diagram circles with state names/outputs and arrows with transition conditions. When drawing timing diagrams, show the clock first, then inputs, then outputs, with correct timing relationships. Convert state diagrams to state tables before deriving logic equations. Show unused states in your state table and specify transitions back to valid states. For system integration questions, draw a clear block diagram showing all subsystems and data paths."
+  }
+ ]
+}

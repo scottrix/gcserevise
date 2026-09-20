@@ -1,0 +1,94 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g10-rock-cycle",
+ "topicName": "The Rock Cycle",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g10-rock-cycle-q1",
+   "type": "short-answer",
+   "question": "Q: Describe a complete path through the rock cycle starting from an igneous rock.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Granite (igneous) to weathering/erosion to sediment transport to deposition to compaction and cementation to sandstone (sedimentary) to heat and pressure to quartzite (metamorphic) to further heating/melting to magma to cooling/crystallisation to granite (igneous again).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g10-rock-cycle-q2",
+   "type": "short-answer",
+   "question": "Q: What are the two main energy sources driving the rock cycle?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Internal heat from Earth's core (drives melting, metamorphism, plate tectonics, volcanism) and external solar energy (drives weathering, erosion, transport, and deposition by water, wind and ice).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g10-rock-cycle-q3",
+   "type": "short-answer",
+   "question": "Q: Can a metamorphic rock become a sedimentary rock directly?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Yes, metamorphic rocks exposed at the surface can be weathered and eroded into sediment, which is then transported, deposited and lithified into sedimentary rock.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g10-rock-cycle-q4",
+   "type": "short-answer",
+   "question": "Q: How does subduction return rocks to the mantle?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Oceanic crust (including any sedimentary or igneous rocks on it) is subducted at convergent boundaries, sinking into the mantle where it may melt, becoming magma that can rise to form new igneous rock, completing part of the cycle.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g10-rock-cycle-q5",
+   "type": "short-answer",
+   "question": "Q: Why is the rock cycle described as a 'cycle' when not all paths are circular?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "It is a cycle because rocks can be continuously transformed between the three types, but it is not a simple circle. Rocks can take many different paths (e.g. igneous to metamorphic to igneous without becoming sedimentary). It is a network of interconnected processes rather than a single loop.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

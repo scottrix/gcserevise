@@ -1,0 +1,48 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "voltage-current-resistance",
+ "topicName": "Voltage, Current & Resistance",
+ "version": 1,
+ "tests": [
+  {
+   "id": "voltage-current-resistance-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Voltage, Current & Resistance",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "voltage-current-resistance-t1",
+     "type": "short-answer",
+     "question": "Q: A 12 V battery drives 3 A through a resistor. What is its resistance?",
+     "correctAnswer": "Using V = IR: R = V/I = 12/3 = 4 Ω.",
+     "explanation": "Answer: Using V = IR: R = V/I = 12/3 = 4 Ω.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "voltage-current-resistance-t3",
+     "type": "short-answer",
+     "question": "Q: A current of 2 A flows for 5 seconds. How much charge passes?",
+     "correctAnswer": "Q = It = 2 × 5 = 10 C.",
+     "explanation": "Answer: Q = It = 2 × 5 = 10 C.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "voltage-current-resistance-t4",
+     "type": "short-answer",
+     "question": "Q: How should a voltmeter be connected in a circuit?",
+     "correctAnswer": "A voltmeter is connected in parallel across the component being measured.",
+     "explanation": "Answer: A voltmeter is connected in parallel across the component being measured.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

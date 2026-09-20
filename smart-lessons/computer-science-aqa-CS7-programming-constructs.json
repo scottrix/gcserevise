@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS7-programming-constructs",
+ "topicName": "Programming Constructs",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs7-programming-constructs-s1",
+   "kind": "learn",
+   "title": "Variable",
+   "body": "A named storage location in memory whose value can change during program execution. Constant: A named value that cannot be changed once it has been set."
+  },
+  {
+   "id": "cs7-programming-constructs-s2",
+   "kind": "learn",
+   "title": "Assignment",
+   "body": "means storing a value in a variable. The variable name goes on the left, the value or expression goes on the right. The previous value is overwritten."
+  },
+  {
+   "id": "cs7-programming-constructs-s3",
+   "kind": "learn",
+   "title": "Sequence",
+   "body": "means executing instructions one after another in order, from top to bottom. This is the simplest programming construct - every program uses sequence."
+  },
+  {
+   "id": "cs7-programming-constructs-s4",
+   "kind": "learn",
+   "title": "Selection",
+   "body": "allows a program to choose between different paths based on a condition. The three forms are: IF...THEN, IF...THEN...ELSE, and CASE/SWITCH."
+  },
+  {
+   "id": "cs7-programming-constructs-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Explain the difference between a variable and a constant. | Write pseudo-code that asks for a number and outputs \"Positive\", \"Negative\", or \"Zero\" using selection. | When would you use a REPEAT...UNTIL loop instead of a WHILE loop?"
+  },
+  {
+   "id": "cs7-programming-constructs-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A variable is a named memory location whose value can change during execution. A constant is a named value that cannot be changed once set. Constants prevent accidental changes and make code more read | INPUT number IF number > 0 THEN OUTPUT \"Positive\" ELSEIF number < 0 THEN OUTPUT \"Negative\" ELSE OUTPUT \"Zero\" ENDIF | Use REPEAT...UNTIL when the loop body must execute at least once (e.g. input validation). Use WHILE when the loop may need to execute zero times (e.g. searching a list that might be empty)."
+  },
+  {
+   "id": "cs7-programming-constructs-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always close your constructs: ENDIF, ENDWHILE, NEXT, ENDCASE Use constants (CONST) for values that should never change Choose the right loop: FOR for counted, WHILE for pre-condition, REPEAT for post-condition WHILE checks before running; REPEAT checks after - know the difference Indent nested constructs to show structure clearly Remember: sequence, selection, and iteration are the THREE basic constructs"
+  }
+ ]
+}

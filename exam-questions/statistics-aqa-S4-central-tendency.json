@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S4-central-tendency",
+ "topicName": "S4 Central Tendency",
+ "version": 1,
+ "questions": [
+  {
+   "id": "s4-central-tendency-q1",
+   "type": "short-answer",
+   "question": "Find the mean, median, and mode of: 4, 6, 8, 6, 5, 6, 9",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Mean = 44÷7 ≈ 6.29; Ordered: 4,5,6,6,6,8,9; Median = 6; Mode = 6",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4-central-tendency-q2",
+   "type": "short-answer",
+   "question": "The mean of 5 numbers is 12. Four of the numbers are 10, 15, 8, 14. Find the fifth number.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Total = 5×12 = 60; Fifth = 60 - (10+15+8+14) = 60 - 47 = 13",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4-central-tendency-q3",
+   "type": "short-answer",
+   "question": "Find the range: 23, 45, 12, 67, 34, 89, 56",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Range = 89 - 12 = 77",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4-central-tendency-q4",
+   "type": "short-answer",
+   "question": "A data set has Q1 = 15, Q2 = 28, Q3 = 42. Find the interquartile range.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "IQR = Q3 - Q1 = 42 - 15 = 27",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4-central-tendency-q5",
+   "type": "short-answer",
+   "question": "Which average would you use for favourite colours? Explain why.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Mode - because colour is categorical data (you cannot calculate mean or median for colours).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s4-central-tendency-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Two classes take the same test. Class A: 25 students, mean = 62, range = 35. Class B: 30 students, mean = 58, range = 50. (a) Calculate the combined mean for all 55 students. (b) Compare the performance of the two classes, commenting on both average and spread. (c) A new student joins Class A and scores 95. Explain the effect on the mean and median of Class A. <div class=\"",
+   "marks": 6,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Total for A = 25 × 62 = 1550. Total for B = 30 × 58 = 1740. Combined total = 3290. Combined mean = 3290/55 = 59.8 ≈ 60. (b) Class A performed better on average (mean 62 > 58). Class A's results were more consistent (range 35 (c) New mean = (1550+95)/26 = 1645/26 ≈ 63.3 (increased). The new score of 95 is well above the mean, pulling it up. The median will increase slightly because 95 is higher than most scores, shifting the middle value upward, but the change will be much smaller than the change in mean since median is resistant to outliers. Mark scheme: M1 for class totals, A1 for combine",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "(a) Total for A = 25 × 62 = 1550. Total for B = 30 × 58 = 1740. Combined total = 3290. Combined mean = 3290/55 = 59.8 ≈ 60. (b) Class A performed better on average (mean 62 > 58). Class A's results were more consistent (range 35 (c) New mean = (1550+95)/26 = 1645/26 ≈ 63.3 (increased). The new score of 95 is well above the mean, pulling it up. The median will increase slightly because 95 is higher than most scores, shifting the middle value upward, but the change will be much smaller than the change in mean since median is resistant to outliers. Mark scheme: M1 for class totals, A1 for combined mean ≈60, M1 for comparing averages, M1 for comparing spread, A1 for clear comparison statement, M1 for explaining mean increase, A1 for explaining median is less affected"
+   }
+  }
+ ]
+}

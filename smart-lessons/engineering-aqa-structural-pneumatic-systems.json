@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "structural-pneumatic-systems",
+ "topicName": "Structural & Pneumatic Systems",
+ "version": 1,
+ "steps": [
+  {
+   "id": "structural-pneumatic-systems-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Structural systems support loads without failing; engineers must understand loads, forces and failure modes."
+  },
+  {
+   "id": "structural-pneumatic-systems-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Static (dead) loads are constant, permanent forces (e.g. the weight of the structure itself)."
+  },
+  {
+   "id": "structural-pneumatic-systems-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Dynamic (live) loads vary over time (e.g. wind, vehicles, occupants, machinery vibration)."
+  },
+  {
+   "id": "structural-pneumatic-systems-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Space frame structures use interconnected triangulated members for lightweight, rigid construction (e.g. crane jibs, roof structures)."
+  },
+  {
+   "id": "structural-pneumatic-systems-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain the difference between dead loads and live loads, giving two examples of each. | Q: Explain why triangulation makes space frame structures rigid. | Q: Compare pneumatic and hydraulic systems for operating a factory clamping fixture."
+  },
+  {
+   "id": "structural-pneumatic-systems-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Dead loads are permanent forces from the structure's own weight (e.g. self-weight of beams, roofing tiles). Live loads are variable forces (e.g. people, furniture, wind, snow, vehicle traffic). Dead l | A triangle is the only rigid polygon: its three sides fix the shape and cannot deform without changing a side length. In a space frame, triangulated members carry loads axially (tension or compression | Pneumatics uses compressed air: fast, clean and safe but limited in clamping force due to air compressibility. Hydraulics uses pressurised oil: capable of very high clamping force with precise control"
+  },
+  {
+   "id": "structural-pneumatic-systems-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always classify loads as dead (permanent) or live (variable) in structural questions. In buckling questions, explain the instability mechanism (eccentric load + increasing deflection) rather than just stating 'it bends'. For pneumatic vs hydraulic, compare force, speed, cleanliness, safety and precision. Pascal's Law calculations: Pressure = Force / Area; apply same pressure to different areas to find forces. Triangulation is the key to space frame rigidity — explain that triangles cannot deform without changing a member length."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G45-fieldwork-analysis-conclusions",
+ "topicName": "Fieldwork: Analysis, Conclusions and Evaluation",
+ "version": 1,
+ "steps": [
+  {
+   "id": "g45-fieldwork-analysis-conclusions-s1",
+   "kind": "learn",
+   "title": "Key Concept",
+   "body": "Data analysis means identifying patterns, trends, and relationships in your data. It involves describing what the data shows, calculating statistics, and explaining the geographical reasons behind the patterns you find."
+  },
+  {
+   "id": "g45-fieldwork-analysis-conclusions-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "The IQR measures the spread of the middle 50% of data, eliminating the influence of outliers. It is calculated as Q3 − Q1, where Q1 is the 25th percentile and Q3 is the 75th percentile."
+  },
+  {
+   "id": "g45-fieldwork-analysis-conclusions-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Spearman's Rank measures the strength and direction of the relationship between two variables. It produces a value between -1 and +1. This is the most important statistical test for GCSE Geography fieldwork."
+  },
+  {
+   "id": "g45-fieldwork-analysis-conclusions-s4",
+   "kind": "learn",
+   "title": "Key Concept",
+   "body": "To determine if your Spearman's Rank result is statistically significant (not just due to chance), compare your calculated rs value to the critical value table at the 95% confidence level (p = 0.05). If your calculated value exceeds the critical value, the result is significant and you can reject the null hypothesis."
+  },
+  {
+   "id": "g45-fieldwork-analysis-conclusions-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Explain the difference between the mean and the median, and when each might be more appropriate. | A Spearman's Rank calculation gives a result of +0.82 with 10 pairs of data. The critical value at p=0.05 for n=10 is 0.65. Explain what this result means. | Describe three factors that could affect the reliability of fieldwork data."
+  },
+  {
+   "id": "g45-fieldwork-analysis-conclusions-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "The mean is the sum of all values divided by the number of values; the median is the middle value when data is arranged in order. The mean is more appropriate when data has no extreme outliers and you | The result of +0.82 indicates a strong positive correlation between the two variables. Since 0.82 exceeds the critical value of 0.65 at the 95% confidence level (p=0.05), the result is statistically s | Factor 1: Sample size - too few sites makes results unrepresentative and more affected by anomalies. Collecting data at only 3 river sites, for example, would not reliably show downstream trends. Fact"
+  },
+  {
+   "id": "g45-fieldwork-analysis-conclusions-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know how to calculate and interpret Spearman's Rank - it appears frequently on exams Always compare your calculated rs to the critical value to test significance When describing data, quote specific figures - don't just say \"it increased\" In conclusions, explicitly state \"the hypothesis is supported/rejected\" Evaluation questions are common - prepare by identifying specific limitations of your methods Higher mark questions: suggest specific improvements and explain how they would increase reliability or validity Remember: correlation does not equal causation Use statistical language: significant, correlation, anomaly, confidence level"
+  }
+ ]
+}

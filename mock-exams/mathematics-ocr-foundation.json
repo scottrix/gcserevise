@@ -1,0 +1,139 @@
+{
+ "subject": "mathematics",
+ "board": "OCR",
+ "topic": "mock-exam",
+ "topicName": "Mathematics Mock Exam",
+ "version": 1,
+ "tier": "Foundation",
+ "tests": [
+  {
+   "id": "mathematics-mock",
+   "name": "Mathematics Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 19,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "calculation",
+     "question": "[Algebraic Notation] Write 3 × x × x using powers.",
+     "correctAnswer": 3.0,
+     "explanation": "3x²",
+     "marks": 2,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "calculation",
+     "question": "[Algebraic Notation] Find the value of 4y when y = 7.",
+     "correctAnswer": 28.0,
+     "explanation": "28",
+     "marks": 2,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "calculation",
+     "question": "[Algebraic Notation] Find the value of a² when a = 5.",
+     "correctAnswer": 25.0,
+     "explanation": "25",
+     "marks": 2,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "calculation",
+     "question": "[Gradients & Intercepts] Find the gradient of the line passing through (0, 2) and (4, 10).",
+     "correctAnswer": 2.0,
+     "explanation": "2",
+     "marks": 2,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Gradients & Intercepts] Find the y-intercept of y = 5x - 8.",
+     "correctAnswer": "(0, -8)",
+     "explanation": "(0, -8)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Gradients & Intercepts] Find the x-intercept of y = 3x + 9.",
+     "correctAnswer": "(-3, 0)",
+     "explanation": "(-3, 0)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Quadratic Graphs] Find the y-intercept of y = x² - 4x + 3.",
+     "correctAnswer": "(0, 3)",
+     "explanation": "(0, 3)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Quadratic Graphs] Find the roots of y = x² - 9.",
+     "correctAnswer": "x = 3 and x = -3, so roots are (3, 0) and (-3, 0)",
+     "explanation": "x = 3 and x = -3, so roots are (3, 0) and (-3, 0)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Quadratic Graphs] Find the roots of y = x² - 5x + 6.",
+     "correctAnswer": "x = 2 and x = 3, so roots are (2, 0) and (3, 0)",
+     "explanation": "x = 2 and x = 3, so roots are (2, 0) and (3, 0)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Other Graphs] What shape is the graph of y = x³ - 2x?",
+     "correctAnswer": "S-shaped cubic curve",
+     "explanation": "S-shaped cubic curve",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Other Graphs] Where are the asymptotes on y = 2 ⁄ x ?",
+     "correctAnswer": "x = 0 and y = 0 (the axes)",
+     "explanation": "x = 0 and y = 0 (the axes)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Other Graphs] What point does y = 3 x pass through?",
+     "correctAnswer": "(0, 1)",
+     "explanation": "(0, 1)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

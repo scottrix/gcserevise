@@ -1,0 +1,138 @@
+{
+ "subject": "psychology",
+ "board": "OCR",
+ "topic": "mock-exam",
+ "topicName": "Psychology Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "psychology-mock",
+   "name": "Psychology Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Memory] Describe the multi-store model of memory and evaluate its strengths and limitations.",
+     "correctAnswer": "The MSM provides a clear, testable framework: evidence supports the distinction between STM and LTM (case of HM, primacy-recency effect). Limitations: it oversimplifies memory - STM and LTM are not unitary stores (WMM shows STM has multiple components); rehearsal is not the only way to transfer to L",
+     "explanation": "The MSM provides a clear, testable framework: evidence supports the distinction between STM and LTM (case of HM, primacy-recency effect). Limitations: it oversimplifies memory - STM and LTM are not unitary stores (WMM shows STM has multiple components); rehearsal is not the only way to transfer to L",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Memory] Explain how leading questions can affect the accuracy of eyewitness testimony, referring to Loftus & Palmer's research.",
+     "correctAnswer": "Loftus & Palmer showed verb manipulation ('smashed' vs 'hit') changed speed estimates by up to 10 mph. This demonstrates that leading questions alter memory through response bias or actual memory distortion. However, real-world eyewitness testimony may be more accurate than lab studies due to higher",
+     "explanation": "Loftus & Palmer showed verb manipulation ('smashed' vs 'hit') changed speed estimates by up to 10 mph. This demonstrates that leading questions alter memory through response bias or actual memory distortion. However, real-world eyewitness testimony may be more accurate than lab studies due to higher",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Memory] Compare and contrast episodic, semantic and procedural long-term memory.",
+     "correctAnswer": "Episodic: personal events, time-stamped, consciously recalled. Semantic: general facts, not time-stamped, consciously recalled. Procedural: skills/habits, not consciously recalled. All three are distinct LTM types with different brain regions.",
+     "explanation": "Episodic: personal events, time-stamped, consciously recalled. Semantic: general facts, not time-stamped, consciously recalled. Procedural: skills/habits, not consciously recalled. All three are distinct LTM types with different brain regions.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Language & Thought] Describe the Sapir-Whorf hypothesis and evaluate the strong and weak versions.",
+     "correctAnswer": "Strong version (determinism): language completely determines thought - without words for a concept, you cannot think it. This is largely discredited. Weak version (relativity): language influences thought - having words for concepts makes them easier to think about. Supported by colour perception st",
+     "explanation": "Strong version (determinism): language completely determines thought - without words for a concept, you cannot think it. This is largely discredited. Weak version (relativity): language influences thought - having words for concepts makes them easier to think about. Supported by colour perception st",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Language & Thought] Compare Piaget's and Vygotsky's views on the relationship between language and thought.",
+     "correctAnswer": "Piaget: thought comes first. Children develop understanding (e.g. object permanence, conservation) and then learn the language to express it. Vygotsky: language enables thought. Inner speech develops from social interaction and becomes the primary tool for higher-order thinking. Piaget sees language",
+     "explanation": "Piaget: thought comes first. Children develop understanding (e.g. object permanence, conservation) and then learn the language to express it. Vygotsky: language enables thought. Inner speech develops from social interaction and becomes the primary tool for higher-order thinking. Piaget sees language",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Language & Thought] Evaluate whether language determines how we think, using research evidence.",
+     "correctAnswer": "Language influences but does not determine thought. Evidence for: colour terminology affects colour memory; bilingual speakers show different thinking in different languages; spatial language affects navigation. Evidence against: the Dani tribe could discriminate colours without colour terms; people",
+     "explanation": "Language influences but does not determine thought. Evidence for: colour terminology affects colour memory; bilingual speakers show different thinking in different languages; spatial language affects navigation. Evidence against: the Dani tribe could discriminate colours without colour terms; people",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Animal vs Human Communication] Describe the key features that distinguish human language from animal communication systems.",
+     "correctAnswer": "Human language has: semanticity (meaning), generativity (infinite combinations), displacement (past/future), arbitrariness (no word-object connection), cultural transmission. Most animal communication lacks generativity and displacement - bees show some displacement but cannot create new messages.",
+     "explanation": "Human language has: semanticity (meaning), generativity (infinite combinations), displacement (past/future), arbitrariness (no word-object connection), cultural transmission. Most animal communication lacks generativity and displacement - bees show some displacement but cannot create new messages.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Animal vs Human Communication] Evaluate whether apes can learn language, referring to studies of Washoe and Kanzi.",
+     "correctAnswer": "Washoe: learned 100+ ASL signs and combined them creatively. Suggests apes can learn aspects of language. However: Terrace argued Washoe's combinations were imitation, not syntax; the Gardners were accused of over-interpreting signs; apes don't develop language naturally. Kanzi: learned through obse",
+     "explanation": "Washoe: learned 100+ ASL signs and combined them creatively. Suggests apes can learn aspects of language. However: Terrace argued Washoe's combinations were imitation, not syntax; the Gardners were accused of over-interpreting signs; apes don't develop language naturally. Kanzi: learned through obse",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Animal vs Human Communication] Discuss whether the difference between human and animal communication is qualitative or quantitative.",
+     "correctAnswer": "Qualitative difference: humans have unique features (generativity, syntax) that animals lack entirely - a difference in kind. Quantitative difference: animals show some language abilities (semanticity, limited displacement, basic combinations) - a difference in degree. Evidence supports a qualitativ",
+     "explanation": "Qualitative difference: humans have unique features (generativity, syntax) that animals lack entirely - a difference in kind. Quantitative difference: animals show some language abilities (semanticity, limited displacement, basic combinations) - a difference in degree. Evidence supports a qualitativ",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Non-Verbal Communication] Describe the key types of non-verbal communication and explain how each conveys meaning.",
+     "correctAnswer": "Types of NVC: body language (posture and gestures convey openness or defensiveness), facial expressions (convey six basic emotions universally), eye contact (signals interest or threat), proxemics (personal space zones signal relationship closeness), paralinguistics (tone and pitch convey emotion be",
+     "explanation": "Types of NVC: body language (posture and gestures convey openness or defensiveness), facial expressions (convey six basic emotions universally), eye contact (signals interest or threat), proxemics (personal space zones signal relationship closeness), paralinguistics (tone and pitch convey emotion be",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Non-Verbal Communication] Evaluate whether facial expressions are universal or culturally specific, using research evidence.",
+     "correctAnswer": "Ekman found universal recognition of six basic emotions across cultures, including the Fore tribe in Papua New Guinea who had limited Western contact. This supports the nature view (innate expressions). However, display rules vary: Japanese participants masked negative emotions more than Americans (",
+     "explanation": "Ekman found universal recognition of six basic emotions across cultures, including the Fore tribe in Papua New Guinea who had limited Western contact. This supports the nature view (innate expressions). However, display rules vary: Japanese participants masked negative emotions more than Americans (",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Non-Verbal Communication] Explain how proxemics can affect social interactions, referring to Hall's zones of personal space.",
+     "correctAnswer": "Hall's four zones: intimate (close family/partners), personal (friends), social (colleagues/acquaintances), public (strangers/speeches). Being too close causes discomfort and anxiety (e.g. crowded lifts). Violating personal space can be used deliberately to intimidate or show intimacy. Cultural diff",
+     "explanation": "Hall's four zones: intimate (close family/partners), personal (friends), social (colleagues/acquaintances), public (strangers/speeches). Being too close causes discomfort and anxiety (e.g. crowded lifts). Violating personal space can be used deliberately to intimidate or show intimacy. Cultural diff",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

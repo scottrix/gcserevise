@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "correlation-regression",
+ "topicName": "Correlation Regression",
+ "version": 1,
+ "steps": [
+  {
+   "id": "correlation-regression-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Correlation measures the strength and direction of the linear relationship between two variables; it does not imply causation."
+  },
+  {
+   "id": "correlation-regression-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Positive correlation: as one variable increases, the other tends to increase. Negative correlation: as one increases, the other tends to decrease."
+  },
+  {
+   "id": "correlation-regression-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A scatter graph is the first step in assessing correlation; the pattern of points reveals the type and strength of the relationship."
+  },
+  {
+   "id": "correlation-regression-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A line of best fit is drawn through the data points on a scatter graph so that roughly equal numbers of points lie above and below the line."
+  },
+  {
+   "id": "correlation-regression-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Two judges rank 5 contestants. The rank differences are: 0, 1, 1, 2, 0. Calculate Spearman's rₛ. | Q: Pearson's r for two variables is –0.85. Describe the correlation. | Q: A line of best fit is drawn for data where x ranges from 10 to 50. Is predicting y when x = 30 interpolation or extrapolation?"
+  },
+  {
+   "id": "correlation-regression-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Σd² = 0 + 1 + 1 + 4 + 0 = 6. rₛ = 1 – (6 × 6) ÷ (5 × (25 – 1)) = 1 – 36 ÷ 120 = 1 – 0.3 = 0.7. Moderate positive agreement. | Strong negative linear correlation: as one variable increases, the other tends to decrease, and the points lie close to a straight line with negative slope. | Interpolation, because x = 30 is within the observed range of 10 to 50."
+  },
+  {
+   "id": "correlation-regression-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When calculating Spearman's rank, if two or more values are tied, assign each the mean of the ranks they would have occupied. Always state the type and strength of correlation (e.g. 'strong positive') when describing a scatter graph — do not just say 'there is a correlation'. When using a line of best fit for predictions, always state whether you are interpolating or extrapolating and comment on reliability. In Spearman's rank questions, show a table of data values, ranks, rank differences (d), and d² to gain full method marks. When asked 'does correlation imply causation?', the answer is always no — explain that other factors (confounding variables) could cause both variables to change."
+  }
+ ]
+}

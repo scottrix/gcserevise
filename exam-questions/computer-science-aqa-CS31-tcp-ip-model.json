@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS31-tcp-ip-model",
+ "topicName": "TCP/IP Model",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs31-tcp-ip-model-q1",
+   "type": "short-answer",
+   "question": "Name the four layers of the TCP/IP model from top to bottom and state the main function of each.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Application (top): provides network services to applications (HTTP, SMTP). Transport: manages end-to-end delivery, reliability, and segmentation (TCP, UDP). Internet: handles addressing and routing across networks (IP). Link (bottom): handles physical transmission on the local network (Ethernet, Wi-Fi).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs31-tcp-ip-model-q2",
+   "type": "short-answer",
+   "question": "Explain the difference between TCP and UDP at the transport layer. Give an example of when each would be used.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "TCP is connection-oriented, reliable (uses acknowledgements and resends lost data), and ordered. UDP is connectionless, unreliable (no guarantees), and faster. TCP is used for web browsing and email where all data must arrive. UDP is used for live video streaming and online gaming where speed matters more than perfect delivery.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs31-tcp-ip-model-q3",
+   "type": "short-answer",
+   "question": "Describe the process of encapsulation as data is sent down the layers.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Encapsulation: the application layer creates data and passes it down. The transport layer adds a header with port numbers (creating a segment). The internet layer adds an IP header with source and destination addresses (creating a packet). The link layer adds a frame header with MAC addresses and a frame trailer for error checking (creating a frame). Each layer wraps the data from above with its o",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs31-tcp-ip-model-q4",
+   "type": "short-answer",
+   "question": "Which layer of the TCP/IP model handles routing of data across networks? Which protocol operates at this layer?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The Internet layer handles routing of data across networks. The Internet Protocol (IP) operates at this layer, adding source and destination IP addresses to packets and determining the best route for them.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs31-tcp-ip-model-q5",
+   "type": "short-answer",
+   "question": "Explain why the TCP/IP model uses layers rather than having a single protocol handle everything.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Layers allow each aspect of communication to be developed independently. A change at one layer (e.g. switching from Wi-Fi to Ethernet at the link layer) doesn't affect other layers. Layers make the model modular, easier to understand, and allow different technologies to work together. Without layers, a single protocol would need to handle everything from physical signals to application formatting,",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs31-tcp-ip-model-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Describe the four layers of the TCP/IP model, explaining the role of each layer and giving one protocol that operates at each layer. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Application layer: Provides the interface for user applications and handles high-level protocols. Formats data for the user and manages application-level communication. Protocol: HTTP (web browsing). Transport layer: Manages end-to-end communication between applications, ensuring data is delivered reliably or quickly depending on the protocol. Handles port addressing and error checking. Protocol: TCP (reliable delivery with error checking). Internet layer: Handles logical addressing (IP addresses) and routing of packets across networks. Determines the best path for data to travel from source t",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Application layer: Provides the interface for user applications and handles high-level protocols. Formats data for the user and manages application-level communication. Protocol: HTTP (web browsing). Transport layer: Manages end-to-end communication between applications, ensuring data is delivered reliably or quickly depending on the protocol. Handles port addressing and error checking. Protocol: TCP (reliable delivery with error checking). Internet layer: Handles logical addressing (IP addresses) and routing of packets across networks. Determines the best path for data to travel from source to destination. Protocol: IP (Internet Protocol for addressing and routing). Link layer: Manages physical transmission of data over the network medium. Handles hardware addressing (MAC addresses), framing, and error detection at the physical level. Protocol: Ethernet (wired LAN transmission)."
+   }
+  }
+ ]
+}

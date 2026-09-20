@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "graphical-representations",
+ "topicName": "Graphical Representations",
+ "version": 1,
+ "steps": [
+  {
+   "id": "graphical-representations-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A bar chart uses rectangular bars to represent frequencies; the height of each bar is proportional to the frequency of the category."
+  },
+  {
+   "id": "graphical-representations-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A dual (comparative) bar chart shows two datasets side by side for each category, allowing direct comparison between groups."
+  },
+  {
+   "id": "graphical-representations-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A compound (stacked) bar chart stacks sub-categories within each bar; the total bar height shows the overall total for each category."
+  },
+  {
+   "id": "graphical-representations-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Bar charts are used for discrete or qualitative data; the bars should have equal width and gaps between them."
+  },
+  {
+   "id": "graphical-representations-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What type of chart would you use to compare the favourite subjects of boys and girls in a school? | Q: From a cumulative frequency curve, the total frequency is 80. At what cumulative frequency value do you read the lower quartile? | Q: Points on a scatter graph generally rise from bottom-left to top-right. What type of correlation does this suggest?"
+  },
+  {
+   "id": "graphical-representations-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A dual (comparative) bar chart, because it shows two groups side by side for each category, making comparison easy. | Lower quartile is at 25% of total: 0.25 × 80 = 20. Read the value on the x-axis at cumulative frequency 20. | This suggests a positive correlation — as one variable increases, the other also tends to increase."
+  },
+  {
+   "id": "graphical-representations-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When drawing a cumulative frequency curve, always plot at the upper class boundary, not the midpoint. In scatter graph questions, always comment on the type and strength of correlation, and identify any outliers by name or coordinates. For frequency polygons, always close the polygon by joining the first point to the x-axis at the previous midpoint and the last point similarly. When reading values from an ogive, use a ruler to draw a horizontal line from the cumulative frequency axis to the curve, then a vertical line down to the data axis. Label all axes clearly and include units where appropriate — missing labels cost marks."
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "sequential-logic",
+ "topicName": "Sequential Logic & Flip-Flops",
+ "version": 1,
+ "questions": [
+  {
+   "id": "sequential-logic-q1",
+   "type": "short-answer",
+   "question": "Q: What is the invalid condition for an SR latch built from NOR gates?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "S=1 and R=1 simultaneously, because both Q and Q' would be forced to 0, violating the bistable condition.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sequential-logic-q2",
+   "type": "short-answer",
+   "question": "Q: How does a D flip-flop differ from an SR latch?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A D flip-flop is clocked and edge-triggered; it captures the D input on the clock edge, eliminating the invalid state and timing problems of an SR latch.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sequential-logic-q3",
+   "type": "short-answer",
+   "question": "Q: What happens when J=1 and K=1 on a JK flip-flop?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The output toggles: Q becomes the complement of its previous value on each clock pulse.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sequential-logic-q4",
+   "type": "short-answer",
+   "question": "Q: How many flip-flops are needed for a modulo-16 counter?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "4 flip-flops, since 2⁴ = 16 states (counting 0 to 15).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sequential-logic-q5",
+   "type": "short-answer",
+   "question": "Q: What is the difference between a ripple counter and a synchronous counter?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "In a ripple counter, each flip-flop is clocked by the output of the previous stage (asynchronous); in a synchronous counter, all flip-flops share a common clock.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sequential-logic-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain the operation of SR, D and JK flip-flops, and describe how JK flip-flops are used to construct a binary counter. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An SR latch has two inputs: Set (S) and Reset (R). Setting (S=1, R=0) makes Q=1; resetting (S=0, R=1) makes Q=0; S=0, R=0 holds the previous state; S=1, R=1 is invalid because both Q and Q' would be 0. A D flip-flop has a single data input D and a clock. On the active clock edge, Q takes the value of D. This eliminates the SR invalid state since only one input determines the next state. A JK flip-flop has J and K inputs: J=1,K=0 sets; J=0,K=1 resets; J=0,K=0 holds; J=1,K=1 toggles the output. The toggle mode is unique to the JK flip-flop and makes it ideal for counters. A binary counter is bui",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "An SR latch has two inputs: Set (S) and Reset (R). Setting (S=1, R=0) makes Q=1; resetting (S=0, R=1) makes Q=0; S=0, R=0 holds the previous state; S=1, R=1 is invalid because both Q and Q' would be 0. A D flip-flop has a single data input D and a clock. On the active clock edge, Q takes the value of D. This eliminates the SR invalid state since only one input determines the next state. A JK flip-flop has J and K inputs: J=1,K=0 sets; J=0,K=1 resets; J=0,K=0 holds; J=1,K=1 toggles the output. The toggle mode is unique to the JK flip-flop and makes it ideal for counters. A binary counter is built by connecting JK flip-flops with J=K=1 (toggle mode). The first flip-flop toggles on every clock pulse (LSB). Its Q output clocks the next flip-flop, which toggles at half the rate, and so on. This creates a ripple counter that counts in binary from 0 to 2ⁿ−1. For a synchronous counter, all flip-flops share the same clock, and J-K inputs are driven by logic that enables toggling at the correct counts, eliminating ripple delay."
+   }
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS10-data-structures",
+ "topicName": "Data Structures",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs10-data-structures-q1",
+   "type": "short-answer",
+   "question": "Write pseudo-code to declare an array of 5 temperatures and output the third temperature.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "temps ← [18.5, 20.3, 22.1, 19.8, 21.0] OUTPUT temps[2] // Outputs 22.1 (third element, index 2)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs10-data-structures-q2",
+   "type": "short-answer",
+   "question": "Write pseudo-code that finds the sum of all elements in the array [10, 20, 30, 40, 50].",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "numbers ← [10, 20, 30, 40, 50] total ← 0 FOR i ← 0 TO 4 total ← total + numbers[i] NEXT i OUTPUT total // 150",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs10-data-structures-q3",
+   "type": "short-answer",
+   "question": "A 2D array represents a 3x3 tic-tac-toe board. How would you access the centre square?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The centre square is at row 1, column 1: board[1][1]",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs10-data-structures-q4",
+   "type": "short-answer",
+   "question": "Define a record called Car with fields for make (string), model (string), year (integer), and price (real).",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "TYPE Car make AS STRING model AS STRING year AS INTEGER price AS REAL ENDTYPE",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs10-data-structures-q5",
+   "type": "short-answer",
+   "question": "Write pseudo-code that iterates through an array of names and outputs only the names that start with \"A\".",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "names ← [\"Alice\", \"Bob\", \"Amy\", \"Charlie\", \"Anna\"] FOR i ← 0 TO 4 IF SUBSTRING(names[i], 0, 1) = \"A\" THEN OUTPUT names[i] ENDIF NEXT i",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs10-data-structures-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A program needs to store the names and test scores of 5 students. Explain why a record is more suitable than two separate arrays, and write pseudo-code to declare and use this data structure. [5 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Using two separate arrays (one for names, one for scores) keeps related data in separate structures, making it harder to keep data together when sorting or passing to subroutines. A record groups related fields of different types into one unit. TYPE Student name : STRING score : INTEGER ENDTYPE declare students : ARRAY[1:5] OF Student students[1].name ← 'Alice' students[1].score ← 87 students[2].name ← 'Bob' students[2].score ← 72 This keeps each student's name and score together as a single unit, making the data easier to manage, sort, and pass to subroutines.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Using two separate arrays (one for names, one for scores) keeps related data in separate structures, making it harder to keep data together when sorting or passing to subroutines. A record groups related fields of different types into one unit. TYPE Student name : STRING score : INTEGER ENDTYPE declare students : ARRAY[1:5] OF Student students[1].name ← 'Alice' students[1].score ← 87 students[2].name ← 'Bob' students[2].score ← 72 This keeps each student's name and score together as a single unit, making the data easier to manage, sort, and pass to subroutines."
+   }
+  }
+ ]
+}

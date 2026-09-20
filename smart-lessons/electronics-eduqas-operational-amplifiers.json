@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "operational-amplifiers",
+ "topicName": "Operational Amplifiers",
+ "version": 1,
+ "steps": [
+  {
+   "id": "operational-amplifiers-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An operational amplifier (op-amp) is a high-gain differential amplifier with two inputs: inverting (−) and non-inverting (+)."
+  },
+  {
+   "id": "operational-amplifiers-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The ideal op-amp has infinite open-loop gain, infinite input impedance, zero output impedance and infinite bandwidth."
+  },
+  {
+   "id": "operational-amplifiers-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A real op-amp has very high but finite open-loop gain (typically 10⁵ to 10⁶), high input impedance and low output impedance."
+  },
+  {
+   "id": "operational-amplifiers-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Negative feedback is used to control gain and improve stability; it reduces overall gain to a predictable value set by external components."
+  },
+  {
+   "id": "operational-amplifiers-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: An inverting amplifier has Rin = 10 kΩ and Rf = 100 kΩ. What is its voltage gain? | Q: A non-inverting amplifier has Rf = 47 kΩ and R1 = 10 kΩ. Calculate the voltage gain. | Q: State two properties of an ideal op-amp."
+  },
+  {
+   "id": "operational-amplifiers-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Av = −Rf/Rin = −100/10 = −10. The gain magnitude is 10 and the output is inverted. | Av = 1 + Rf/R1 = 1 + 47/10 = 1 + 4.7 = 5.7. | Infinite open-loop gain and infinite input impedance (also zero output impedance and infinite bandwidth)."
+  },
+  {
+   "id": "operational-amplifiers-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always show the formula before substituting values: Av = −Rf/Rin for inverting, Av = 1 + Rf/R1 for non-inverting. Remember the minus sign for inverting amplifier gain — the output is phase-inverted. When asked about ideal op-amp properties, list at least two: infinite gain, infinite input impedance, zero output impedance. Draw the op-amp circuit diagram with correct input labels: (−) for inverting, (+) for non-inverting. State the virtual earth principle when explaining how an inverting amplifier works."
+  }
+ ]
+}

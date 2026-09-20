@@ -1,0 +1,57 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P20-moments-and-centre-of-mass",
+ "topicName": "Moments And Centre Of Mass",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p20-moments-and-centre-of-mass-s1",
+   "kind": "learn",
+   "title": "Moment",
+   "body": "The turning effect of a force. The moment depends on the size of the force and the perpendicular distance from the pivot to the line of action of the force."
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-s2",
+   "kind": "learn",
+   "title": "Principle of moments",
+   "body": "For an object in equilibrium (balanced), the total clockwise moment about any pivot equals the total anticlockwise moment."
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-s3",
+   "kind": "learn",
+   "title": "Centre of mass",
+   "body": "The point at which the mass of an object appears to be concentrated. The weight of the object acts through this point."
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-s4",
+   "kind": "learn",
+   "title": "Lever",
+   "body": "A simple machine that uses a pivot (fulcrum) to multiply a force. A small force applied at a large distance from the pivot can balance a large force at a small distance."
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "When an object is balanced (in equilibrium), the total clockwise moment equals the total anticlockwise moment. Total clockwise moment = Total anticlockwise moment (for a balanced object) Worked Example 4: Balancing moments A uniform seesaw is 4 m long with the pivot at the centre. A child of weight 300 N sits 1.5 m from the pivot on the left. How far from the pivot on the right must a child of weight 450 N sit to balance the seesaw? Anticlockwise moment = 300 × 1.5 = 450 Nm Clockwise moment must = 450 Nm 450 × d = 450 d = 450 / 450 = 1.0 m from the pivot on the right Worked Example 5: Two forces on one side A beam is balanced on a pivot. On the left, a force of 100 N acts at 0.3 m and a force of 50 N acts at 0.6 m. On the right, a single force acts at 0.4 m. Calculate the force on the right. Total anticlockwise moment = (100 × 0.3) + (50 × 0.6) = 30 + 30 = 60 Nm Clockwise moment = F × 0.4 F × 0.4 = 60 F = 60 / 0.4 = 150 N"
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation A force of 30 N acts at 0.4 m from a pivot. Calculate the moment. | Foundation State the principle of moments. | Higher A beam is balanced on a pivot. A 200 N force acts 0.5 m to the left. What force must act 0.8 m to the right to balance it?"
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "M = Fd = 30 × 0.4 = 12 Nm | For an object in equilibrium (balanced), the total clockwise moment about any pivot equals the total anticlockwise moment. | Anticlockwise moment = 200 × 0.5 = 100 Nm. Clockwise moment must = 100 Nm. F × 0.8 = 100, so F = 100 / 0.8 = 125 N"
+  },
+  {
+   "id": "p20-moments-and-centre-of-mass-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When calculating moments, always use the perpendicular distance from the pivot to the line of action of the force In balancing problems, set the total clockwise moment = total anticlockwise moment and solve For levers, the key idea is: small force × large distance = large force × small distance Gears: bigger gear = bigger moment but slower rotation; smaller gear = smaller moment but faster rotation Centre of mass of a uniform object is at its geometric centre — this is commonly assumed in exam questions Stability questions: always mention line of action of weight and whether it falls inside or outside the base"
+  }
+ ]
+}

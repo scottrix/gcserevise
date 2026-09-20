@@ -1,0 +1,94 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g1-earth-structure-composition",
+ "topicName": "Earth's Structure & Composition",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g1-earth-structure-composition-q1",
+   "type": "short-answer",
+   "question": "Q: Name the four main layers of the Earth from the surface inward.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Crust, mantle, outer core, inner core.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g1-earth-structure-composition-q2",
+   "type": "short-answer",
+   "question": "Q: How do seismic waves provide evidence for Earth's internal structure?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "P-waves travel through all layers (solids and liquids) but refract at boundaries. S-waves cannot pass through the liquid outer core, creating a shadow zone. The patterns of wave refraction and shadow zones reveal the depth and state of each layer.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g1-earth-structure-composition-q3",
+   "type": "short-answer",
+   "question": "Q: Why is the inner core solid despite temperatures of ~5,500 degrees C?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The immense pressure at that depth raises the melting point of iron and nickel above the actual temperature, keeping it solid.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g1-earth-structure-composition-q4",
+   "type": "short-answer",
+   "question": "Q: What is the difference between continental and oceanic crust?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Continental crust is thicker (30-70 km), less dense (~2.7 g/cm3), and granitic in composition. Oceanic crust is thinner (5-10 km), denser (~3.0 g/cm3), and basaltic.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g1-earth-structure-composition-q5",
+   "type": "short-answer",
+   "question": "Q: What generates Earth's magnetic field?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Convection currents in the liquid iron-nickel outer core, acting as a geodynamo, generate Earth's magnetic field.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

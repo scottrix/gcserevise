@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "amplifier-circuits",
+ "topicName": "Amplifier Circuits",
+ "version": 1,
+ "steps": [
+  {
+   "id": "amplifier-circuits-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Voltage gain is the ratio of output voltage to input voltage: Av = Vout/Vin; it can be expressed as a number or in decibels (dB)."
+  },
+  {
+   "id": "amplifier-circuits-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Gain in decibels: G(dB) = 20 log₁₀(Av); a gain of 10 equals 20 dB, a gain of 100 equals 40 dB."
+  },
+  {
+   "id": "amplifier-circuits-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Bandwidth is the range of frequencies over which the amplifier operates within specification, typically defined between the −3 dB points."
+  },
+  {
+   "id": "amplifier-circuits-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The gain-bandwidth product (GBW) is constant for a given op-amp: as closed-loop gain increases, bandwidth decreases proportionally."
+  },
+  {
+   "id": "amplifier-circuits-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: An amplifier has an input of 50 mV and an output of 2 V. Calculate the voltage gain and express it in dB. | Q: A summing amplifier has Rf = 100 kΩ and three inputs each with R = 20 kΩ. If V1 = 1 V, V2 = 2 V, V3 = 0.5 V, find Vout. | Q: An op-amp has a GBW of 1 MHz. If the closed-loop gain is 100, what is the bandwidth?"
+  },
+  {
+   "id": "amplifier-circuits-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Av = 2/0.05 = 40. G(dB) = 20 log₁₀(40) = 20 × 1.602 = 32.0 dB. | Vout = −Rf(V1/R1 + V2/R2 + V3/R3) = −100(1/20 + 2/20 + 0.5/20) = −100 × 0.175 = −17.5 V. | Bandwidth = GBW/Av = 1 × 10⁶/100 = 10 kHz."
+  },
+  {
+   "id": "amplifier-circuits-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Convert between linear gain and dB: G(dB) = 20 log₁₀(Av); Av = 10^(G/20). For summing amplifier questions, write the full equation first, then substitute values step by step. Remember the output of a summing amplifier is inverted — include the minus sign. When discussing bandwidth, always refer to the −3 dB point as the definition of bandwidth. Use the gain-bandwidth product to find bandwidth: BW = GBW/closed-loop gain."
+  }
+ ]
+}

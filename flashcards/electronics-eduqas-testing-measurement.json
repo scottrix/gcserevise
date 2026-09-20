@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "testing-measurement",
+ "topicName": "Testing & Measurement",
+ "version": 1,
+ "cards": [
+  {
+   "id": "testing-measurement-fc1",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "A multimeter measures voltage (parallel), current (series) and resistance (power off); always select the correct range and mode.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc2",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "An oscilloscope displays voltage against time, allowing measurement of amplitude, frequency, period and wave shape.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc3",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "Oscilloscope controls: Y-gain (V/div) sets vertical scale; timebase (ms/div or µs/div) sets horizontal scale.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc4",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "The trigger control stabilises the display by starting the sweep at a consistent point on the waveform.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc5",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "Peak-to-peak voltage (V_pp) is the total vertical distance from the most negative to the most positive point of the waveform.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc6",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "RMS voltage of a sine wave: V_rms = V_peak/√2 = 0.707 × V_peak; this is the equivalent DC heating value.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc7",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "Frequency can be determined from the oscilloscope: f = 1/T, where T is the period measured from the display.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc8",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "A signal generator produces standard waveforms (sine, square, triangle) at adjustable frequency and amplitude for testing.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc9",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "A logic probe indicates the logic state at a point in a digital circuit: high, low or pulsing, without needing an oscilloscope.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc10",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "When measuring current with a multimeter, the meter must be placed in series and the correct current range selected to avoid fuse damage.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc11",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "AC coupling on an oscilloscope removes the DC component of a signal, showing only the AC variation; DC coupling shows the total signal.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc12",
+   "front": "Recall a key point about Testing & Measurement",
+   "back": "Always check oscilloscope probe calibration using the built-in 1 kHz reference signal before taking measurements.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc13",
+   "front": "What should you know about gcse electronics exam tips — testing & measurement?",
+   "back": "1. For Testing & Measurement questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Testing & Measurement, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-tes"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc14",
+   "front": "Full-Mark Response",
+   "back": "Describe how to use an oscilloscope to measure the amplitude, frequency and wave shape of a signal, and explain how a multimeter and logic probe are used in circuit testing.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "testing-measurement-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of testing & measurement, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of testing & measurement to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits and syste",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

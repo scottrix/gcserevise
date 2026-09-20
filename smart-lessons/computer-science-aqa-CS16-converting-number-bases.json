@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS16-converting-number-bases",
+ "topicName": "Converting Number Bases",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs16-converting-number-bases-s1",
+   "kind": "learn",
+   "title": "You need to be able to convert between all three number bases",
+   "body": "decimal (base 10), binary (base 2), and hexadecimal (base 16). There are six possible conversions to master."
+  },
+  {
+   "id": "cs16-converting-number-bases-s2",
+   "kind": "learn",
+   "title": "Method",
+   "body": "Write out the binary place values above each bit. Add up all the place values where there is a 1. Ignore positions with a 0."
+  },
+  {
+   "id": "cs16-converting-number-bases-s3",
+   "kind": "learn",
+   "title": "Method",
+   "body": "Repeatedly divide the decimal number by 2. Record the remainder each time (it will always be 0 or 1). Read the remainders from bottom to top to get the binary number."
+  },
+  {
+   "id": "cs16-converting-number-bases-s4",
+   "kind": "learn",
+   "title": "Method",
+   "body": "Find the largest power of 2 that fits into the number. Subtract it and put a 1 in that position. Repeat with the remainder. Put 0s in positions where the power doesn't fit."
+  },
+  {
+   "id": "cs16-converting-number-bases-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Convert binary 11001010 to decimal. | Convert decimal 200 to binary (8 bits). | Convert hex A5 to decimal."
+  },
+  {
+   "id": "cs16-converting-number-bases-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "128 + 64 + 0 + 0 + 8 + 0 + 2 + 0 = 202 | 200 - 128 = 72, 72 - 64 = 8, 8 - 8 = 0. Binary: 11001000 | A x 16 + 5 x 1 = 10 x 16 + 5 = 160 + 5 = 165"
+  },
+  {
+   "id": "cs16-converting-number-bases-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Write out the place values above each binary digit - it prevents mistakes For binary-to-hex, group from the RIGHT in groups of 4 For hex-to-binary, always write 4 bits per hex digit (pad with zeros) Division remainders are read BOTTOM to TOP Practise all six conversions until they become automatic In the exam, show your working - you can get partial marks"
+  }
+ ]
+}

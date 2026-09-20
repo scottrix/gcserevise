@@ -1,0 +1,138 @@
+{
+ "subject": "law",
+ "board": "AQA",
+ "topic": "mock-exam",
+ "topicName": "Law Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "law-mock",
+   "name": "Law Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Civil Dispute Resolution] Q: What are the main differences between mediation and arbitration?",
+     "correctAnswer": "In mediation, a neutral mediator helps the parties reach their own voluntary agreement; the mediator does not decide the outcome and any settlement is non-binding until agreed. In arbitration, the arbitrator hears evidence and makes a binding decision (award) that the parties must comply with; arbit",
+     "explanation": "In mediation, a neutral mediator helps the parties reach their own voluntary agreement; the mediator does not decide the outcome and any settlement is non-binding until agreed. In arbitration, the arbitrator hears evidence and makes a binding decision (award) that the parties must comply with; arbit",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Civil Dispute Resolution] Q: Explain the civil court hierarchy for hearing cases.",
+     "correctAnswer": "Most civil cases start in the County Court. Higher-value or more complex cases go to the High Court (which has three divisions: Queen's/King's Bench, Chancery, and Family). Appeals from the County Court go to the High Court or Court of Appeal; appeals from the High Court go to the Court of Appeal (C",
+     "explanation": "Most civil cases start in the County Court. Higher-value or more complex cases go to the High Court (which has three divisions: Queen's/King's Bench, Chancery, and Family). Appeals from the County Court go to the High Court or Court of Appeal; appeals from the High Court go to the Court of Appeal (C",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Civil Dispute Resolution] Q: Why are parties encouraged to use ADR before going to court?",
+     "correctAnswer": "ADR is encouraged because it is generally cheaper, faster and less adversarial than court proceedings. The Civil Procedure Rules and pre-action protocols require parties to consider ADR. Courts can impose cost penalties on a party who unreasonably refuses to try ADR, even if they win the case (as he",
+     "explanation": "ADR is encouraged because it is generally cheaper, faster and less adversarial than court proceedings. The Civil Procedure Rules and pre-action protocols require parties to consider ADR. Courts can impose cost penalties on a party who unreasonably refuses to try ADR, even if they win the case (as he",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Consumer Rights] Q: What are the three statutory rights when buying goods?",
+     "correctAnswer": "Goods must be of satisfactory quality, fit for purpose and match their description. These are implied terms under the Consumer Rights Act 2015 — if any is breached, the consumer has a right to a remedy.",
+     "explanation": "Goods must be of satisfactory quality, fit for purpose and match their description. These are implied terms under the Consumer Rights Act 2015 — if any is breached, the consumer has a right to a remedy.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Consumer Rights] Q: What remedies are available for faulty goods under the Consumer Rights Act 2015?",
+     "correctAnswer": "Within 30 days: full refund (short-term right to reject). After 30 days but within 6 months: repair or replacement. If repair or replacement fails: refund (may be reduced for use). After 6 months: consumer must prove the fault was present at delivery.",
+     "explanation": "Within 30 days: full refund (short-term right to reject). After 30 days but within 6 months: repair or replacement. If repair or replacement fails: refund (may be reduced for use). After 6 months: consumer must prove the fault was present at delivery.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Consumer Rights] Q: What rights do consumers have when services are poor?",
+     "correctAnswer": "Services must be performed with reasonable care and skill, within a reasonable time and at a reasonable price. If not, the consumer can require the trader to redo the service or, if that is impossible, claim a price reduction.",
+     "explanation": "Services must be performed with reasonable care and skill, within a reasonable time and at a reasonable price. If not, the consumer can require the trader to redo the service or, if that is impossible, claim a price reduction.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Contract Law] Q: What three elements must exist for a valid contract?",
+     "correctAnswer": "Offer and acceptance (agreement), consideration (something of value exchanged), and intention to create legal relations (the parties intend the agreement to be legally binding).",
+     "explanation": "Offer and acceptance (agreement), consideration (something of value exchanged), and intention to create legal relations (the parties intend the agreement to be legally binding).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Contract Law] Q: What is the difference between an offer and an invitation to treat?",
+     "correctAnswer": "An offer is a definite statement of willingness to be bound; an invitation to treat is merely an invitation for others to make offers (e.g. goods on a shelf, advertisements). Only an offer can be accepted to form a contract.",
+     "explanation": "An offer is a definite statement of willingness to be bound; an invitation to treat is merely an invitation for others to make offers (e.g. goods on a shelf, advertisements). Only an offer can be accepted to form a contract.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Contract Law] Q: What is consideration and why is it needed?",
+     "correctAnswer": "Consideration is something of value exchanged between the parties — each must give and receive something. It is needed because a promise without consideration is generally not legally binding (a bare promise is only enforceable as a deed).",
+     "explanation": "Consideration is something of value exchanged between the parties — each must give and receive something. It is needed because a promise without consideration is generally not legally binding (a bare promise is only enforceable as a deed).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Courts & Court Structure] Q: What is the difference between criminal and civil courts?",
+     "correctAnswer": "Criminal courts deal with offences against the state (prosecuted by the Crown); civil courts deal with disputes between individuals or organisations, where the claimant sues the defendant.",
+     "explanation": "Criminal courts deal with offences against the state (prosecuted by the Crown); civil courts deal with disputes between individuals or organisations, where the claimant sues the defendant.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Courts & Court Structure] Q: What cases does the Crown Court hear?",
+     "correctAnswer": "Indictable offences (serious crimes like murder and rape), either-way offences sent from the Magistrates' Court, and appeals from the Magistrates' Court against conviction or sentence.",
+     "explanation": "Indictable offences (serious crimes like murder and rape), either-way offences sent from the Magistrates' Court, and appeals from the Magistrates' Court against conviction or sentence.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Courts & Court Structure] Q: What are the three divisions of the High Court?",
+     "correctAnswer": "Queen's Bench (contract and tort), Chancery (business, trusts, tax) and Family (divorce, children, financial remedies).",
+     "explanation": "Queen's Bench (contract and tort), Chancery (business, trusts, tax) and Family (divorce, children, financial remedies).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

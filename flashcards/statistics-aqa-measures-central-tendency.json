@@ -1,0 +1,159 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "measures-central-tendency",
+ "topicName": "Measures Central Tendency",
+ "version": 1,
+ "cards": [
+  {
+   "id": "measures-central-tendency-fc1",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "The mode is the value that occurs most frequently in a dataset; a dataset can have no mode, one mode (unimodal), or multiple modes (bimodal or multimodal).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc2",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "The mode is the only average that can be used for qualitative (categorical) data, since it does not require numerical values.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc3",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "The median is the middle value when all data are arranged in order; for n values, the median position is at (n + 1) ÷ 2.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc4",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "For an even number of data values, the median is the mean of the two middle values.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc5",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "The mean (arithmetic mean) = sum of all values ÷ number of values; it uses every data value and is affected by outliers.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc6",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "The weighted mean multiplies each value by its weight, sums these products, then divides by the sum of the weights: x̄ = Σ(wx) ÷ Σw.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc7",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "The geometric mean of n values is the nth root of their product: GM = ⁿ√(x₁ × x₂ × … × xₙ); it is used for data that grows multiplicatively such as percentage changes.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc8",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "For grouped data, the estimated mean uses midpoints of each class interval: estimated mean = Σ(f × midpoint) ÷ Σf.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc9",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "The mean is affected by extreme values (outliers), whereas the median and mode are not; this is important when choosing which average to use.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc10",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "Use the median when data is skewed or contains outliers; use the mean when data is roughly symmetric with no extreme values.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc11",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "Use the mode when data is categorical or when you need the most common value; use the weighted mean when values have different levels of importance.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc12",
+   "front": "Recall a key point about Measures Central Tendency",
+   "back": "When comparing distributions, always state which average you are using and justify your choice.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc13",
+   "front": "What should you know about gcse statistics exam tips — measures of central tendency?",
+   "back": "1. For Measures of Central Tendency questions, show every step of your working clearly — method marks count even if the final answer is wrong 2. Check your answer makes sense in context (estimation, units, reasonableness) 3. Use correct mathematical notation and state formulae before substituting values 4. If a Measures of Central Tendency question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line 5. For problem-solving, identify the topic first, then recall the relevant method",
+   "tags": [
+    "gcse-statistics-exam-tips-meas"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc14",
+   "front": "Full-Mark Response",
+   "back": "The table shows the number of siblings for 30 students. Calculate the estimated mean. 0–1: frequency 8, 2–3: frequency 14, 4–5: frequency 6, 6–7: frequency 2",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-central-tendency-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of measures of central tendency, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382. AO2 (Application): Apply knowledge and understanding of measures of central tendency to interpret data, reason statistically and draw conclusions in context. AO3 (Evaluation): Evaluate stati",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS12-subroutines",
+ "topicName": "Subroutines",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs12-subroutines-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A subroutine is a named, self-contained block of code that performs a specific task. It is defined once and can be called (invoked) from anywhere in the program. Subroutines make code more organised, reusable, and easier to debug."
+  },
+  {
+   "id": "cs12-subroutines-s2",
+   "kind": "learn",
+   "title": "A procedure",
+   "body": "is a subroutine that performs a task but does not return a value to the calling code. It may produce output, change variables, or modify data structures, but it doesn't send a result back."
+  },
+  {
+   "id": "cs12-subroutines-s3",
+   "kind": "learn",
+   "title": "A function",
+   "body": "is a subroutine that performs a calculation and returns a value to the calling code. The returned value can be stored in a variable, used in an expression, or output directly."
+  },
+  {
+   "id": "cs12-subroutines-s4",
+   "kind": "learn",
+   "title": "Parameters",
+   "body": "are the variables listed in the subroutine definition. Arguments are the actual values passed to the subroutine when it is called. Parameters act as placeholders; arguments fill them with real data."
+  },
+  {
+   "id": "cs12-subroutines-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "What is the difference between a procedure and a function? | Write a function called calculatePerimeter that takes the length and width of a rectangle and returns the perimeter. | Explain the difference between a parameter and an argument."
+  },
+  {
+   "id": "cs12-subroutines-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A procedure performs a task but does not return a value. A function performs a calculation and returns a value using the RETURN statement. Functions are used in expressions; procedures are called as s | FUNCTION calculatePerimeter(length, width) perimeter ← 2 * (length + width) RETURN perimeter ENDFUNCTION | Parameters are the variable names listed in the subroutine definition (placeholders). Arguments are the actual values passed to the subroutine when it is called. For example, in FUNCTION add(a, b), a "
+  },
+  {
+   "id": "cs12-subroutines-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Functions MUST have a RETURN statement - procedures do not Use the correct keywords: FUNCTION/ENDFUNCTION and PROCEDURE/ENDPROCEDURE Parameters go in the subroutine header; arguments are passed when calling Prefer local variables over global variables - explain why in exams When asked about benefits of subroutines, mention: reusability, readability, debugging, teamwork, and maintainability A RETURN statement immediately ends the function - no code after it will execute"
+  }
+ ]
+}

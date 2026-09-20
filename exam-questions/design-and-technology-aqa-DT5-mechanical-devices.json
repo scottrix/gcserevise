@@ -1,0 +1,78 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT5-mechanical-devices",
+ "topicName": "Mechanical Devices",
+ "version": 1,
+ "questions": [
+  {
+   "id": "dt5-mechanical-devices-q1",
+   "type": "short-answer",
+   "question": "Calculate the mechanical advantage of a wheelbarrow where the load is 500 N, the effort is 100 N, and the load is 0.4 m from the fulcrum with effort at 2.0 m.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "MA = Load / Effort = 500 / 100 = 5. Or: MA = effort distance / load distance = 2.0 / 0.4 = 5. The wheelbarrow multiplies the effort force by 5 times.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt5-mechanical-devices-q2",
+   "type": "short-answer",
+   "question": "A driver gear has 10 teeth and drives a gear with 40 teeth. Calculate the gear ratio and explain what happens to speed and torque.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Gear ratio = driven teeth / driver teeth = 40 / 10 = 4:1. The driven gear turns at 1/4 the speed of the driver but with 4x the torque. Used where high force is needed — e.g. a winch or heavy machinery.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt5-mechanical-devices-q3",
+   "type": "short-answer",
+   "question": "Explain why third-class levers do not provide mechanical advantage, using the human arm as an example.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "In a third-class lever, effort is between fulcrum and load — the effort arm is shorter than the load arm, so MA is always less than 1. The human bicep inserts close to the elbow (fulcrum) — large muscle force produces a smaller force at the hand but with a wide range of motion. This is a speed/range multiplier, not a force multiplier.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt5-mechanical-devices-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A designer is creating a hand-operated can crusher. Using your knowledge of levers, explain which class of lever would be most suitable and justify your choice with calculations and diagrams. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: identify second-class lever as most suitable (load between fulcrum and effort, always gives MA greater than 1); draw a labelled diagram with fulcrum at hinge, load at can contact point, effort at handle end; calculate MA based on given or assumed dimensions — e.g. effort arm 30 cm, load arm 5 cm, MA = 30/5 = 6; explain that 100 N hand force produces 600 N crushing force; consider ergonomics (handle length suits human grip strength); compare with first-class lever (less stable, MA depends on dimensions) and third-class lever (no MA, unsuitable); conclude that second-cla",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: identify second-class lever as most suitable (load between fulcrum and effort, always gives MA greater than 1); draw a labelled diagram with fulcrum at hinge, load at can contact point, effort at handle end; calculate MA based on given or assumed dimensions — e.g. effort arm 30 cm, load arm 5 cm, MA = 30/5 = 6; explain that 100 N hand force produces 600 N crushing force; consider ergonomics (handle length suits human grip strength); compare with first-class lever (less stable, MA depends on dimensions) and third-class lever (no MA, unsuitable); conclude that second-class is optimal for this force-multiplication task."
+   }
+  }
+ ]
+}

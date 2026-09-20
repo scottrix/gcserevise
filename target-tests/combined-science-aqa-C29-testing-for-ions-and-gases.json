@@ -1,0 +1,38 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C29-testing-for-ions-and-gases",
+ "topicName": "Testing For Ions And Gases",
+ "version": 1,
+ "tests": [
+  {
+   "id": "c29-testing-for-ions-and-gases-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Testing For Ions And Gases",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "c29-testing-for-ions-and-gases-t1",
+     "type": "short-answer",
+     "question": "1. A solution gives a lilac flame colour. What metal ion is present?",
+     "correctAnswer": "Potassium (K⁺) — lilac is the characteristic flame colour of potassium ions.",
+     "explanation": "Answer: Potassium (K⁺) — lilac is the characteristic flame colour of potassium ions.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c29-testing-for-ions-and-gases-t2",
+     "type": "short-answer",
+     "question": "2. A solution produces a brown precipitate with sodium hydroxide. Identify the cation.",
+     "correctAnswer": "Iron(III) (Fe³⁺) — iron(III) hydroxide is a brown precipitate.",
+     "explanation": "Answer: Iron(III) (Fe³⁺) — iron(III) hydroxide is a brown precipitate.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

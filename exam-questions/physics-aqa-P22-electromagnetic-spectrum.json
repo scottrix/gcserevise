@@ -1,0 +1,112 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P22-electromagnetic-spectrum",
+ "topicName": "Electromagnetic Spectrum",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p22-electromagnetic-spectrum-q1",
+   "type": "short-answer",
+   "question": "Foundation Name the seven types of EM radiation in order of increasing frequency.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q1: Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, gamma rays.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-q2",
+   "type": "short-answer",
+   "question": "Foundation State two uses of infrared radiation and one danger.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q2: Uses: heaters, remote controls, night vision cameras (any two). Danger: skin burns from intense infrared radiation.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-q3",
+   "type": "short-answer",
+   "question": "Higher A microwave has a wavelength of 6 cm. Calculate its frequency.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q3: λ = 6 cm = 0.06 m. f = v ÷ λ = 3 × 10⁸ ÷ 0.06 = 5 × 10⁹ Hz (5 GHz)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-q4",
+   "type": "short-answer",
+   "question": "Higher Explain why X-rays are suitable for medical imaging but gamma rays are used for cancer treatment instead.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q4: X-rays can penetrate soft tissue but are absorbed by bone, producing images. Gamma rays are more penetrating and ionising — they can kill cancer cells but also damage healthy cells, so they are used in controlled doses for radiotherapy where cell destruction is the aim.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-q5",
+   "type": "short-answer",
+   "question": "Foundation State the speed of all EM waves in a vacuum.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q5: 3 × 10⁸ m/s (speed of light in a vacuum).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Compare the dangers of different types of EM radiation. Explain why some types are more dangerous than others and give an example of a use for each of the three most dangerous types. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "EM radiation becomes more dangerous as frequency increases. Radio waves and microwaves are low frequency and non-ionising — microwaves can cause internal heating of tissues but are not generally dangerous at low doses. Infrared and visible light are also non-ionising, though intense IR can cause skin burns. UV, X-rays and gamma rays are high frequency and ionising — they carry enough energy to remove electrons from atoms, damaging cells and DNA, which can cause mutations and cancer. UV is used in fluorescent lamps and tanning beds but can cause skin cancer and eye damage. X-rays are used in me",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "EM radiation becomes more dangerous as frequency increases. Radio waves and microwaves are low frequency and non-ionising — microwaves can cause internal heating of tissues but are not generally dangerous at low doses. Infrared and visible light are also non-ionising, though intense IR can cause skin burns. UV, X-rays and gamma rays are high frequency and ionising — they carry enough energy to remove electrons from atoms, damaging cells and DNA, which can cause mutations and cancer. UV is used in fluorescent lamps and tanning beds but can cause skin cancer and eye damage. X-rays are used in medical imaging (bone fractures) but exposure must be limited as they can damage DNA. Gamma rays are used in cancer treatment (radiotherapy) and sterilisation, but are the most penetrating and ionising, requiring heavy shielding. Mark scheme: 1 mark — state that danger increases with frequency, 1 mark — explain ionisation (removing electrons/damaging DNA), 1 mark — identify UV, X-rays and gamma as ionising, 1 mark — use of UV (fluorescent lamps/tanning), 1 mark — use of X-rays (medical imaging), 1 mark — use of gamma rays (sterilisation/radiotherapy)"
+   }
+  }
+ ]
+}

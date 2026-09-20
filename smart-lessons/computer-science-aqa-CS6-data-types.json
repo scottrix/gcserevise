@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS6-data-types",
+ "topicName": "Data Types",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs6-data-types-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A data type defines the kind of data a variable can hold. Choosing the correct data type ensures data is stored efficiently and prevents errors."
+  },
+  {
+   "id": "cs6-data-types-s2",
+   "kind": "learn",
+   "title": "Integer",
+   "body": "stores whole numbers only - no decimal points. Use integer for counts, ages, positions, and any value that cannot logically be fractional."
+  },
+  {
+   "id": "cs6-data-types-s3",
+   "kind": "learn",
+   "title": "Common mistake",
+   "body": "Storing 3.14 as an integer would lose the decimal part, storing only 3. If a value needs decimal precision, use Real/Float instead."
+  },
+  {
+   "id": "cs6-data-types-s4",
+   "kind": "learn",
+   "title": "Real (or Float)",
+   "body": "stores numbers with a decimal point. Use real for measurements, prices, averages, and scientific calculations where precision matters."
+  },
+  {
+   "id": "cs6-data-types-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Name the five main data types and give an example value for each. | What is the difference between the integer 7 and the string \"7\"? | What is the result of INT(\"25\") + INT(\"10\")?"
+  },
+  {
+   "id": "cs6-data-types-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Integer: 42, Real/Float: 3.14, Boolean: TRUE, Character: 'A', String: \"Hello\". | The integer 7 can be used in mathematical operations (7 + 3 = 10). The string \"7\" is text and would concatenate (\"7\" + \"3\" = \"73\"). They are stored and processed differently. | INT(\"25\") = 25, INT(\"10\") = 10, so 25 + 10 = 35."
+  },
+  {
+   "id": "cs6-data-types-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know all five data types and be able to give appropriate examples Use single quotes for characters ('A') and double quotes for strings (\"Hello\") Remember INT() truncates - it does NOT round INPUT usually returns a string - you must cast it for arithmetic When asked why data types matter, mention memory, validation, and correct operations Be careful with + operator: it adds numbers but concatenates strings"
+  }
+ ]
+}

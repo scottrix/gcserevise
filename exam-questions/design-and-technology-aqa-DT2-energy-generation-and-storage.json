@@ -1,0 +1,78 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT2-energy-generation-and-storage",
+ "topicName": "Energy Generation and Storage",
+ "version": 1,
+ "questions": [
+  {
+   "id": "dt2-energy-generation-and-storage-q1",
+   "type": "short-answer",
+   "question": "Compare the advantages and disadvantages of solar and wind power for a small island community.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Solar: silent, low maintenance, suits sunny climates, but output drops at night and in cloudy weather. Wind: can generate at night, offshore is consistent, but noise and visual impact. For an island, a hybrid system combining both with battery storage would provide the most reliable supply.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt2-energy-generation-and-storage-q2",
+   "type": "short-answer",
+   "question": "Explain why energy storage is critical for renewable energy systems.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Renewables are intermittent — they generate power when conditions allow, not always when demand peaks. Storage (batteries, pumped hydro, supercapacitors) bridges the gap between generation and consumption, ensuring a stable supply.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt2-energy-generation-and-storage-q3",
+   "type": "short-answer",
+   "question": "A product designer must choose a power source for a portable camping lamp. Evaluate the options.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Candle/chemical light: cheap but hazardous, limited lifespan. Solar-powered rechargeable lamp: sustainable, no running cost, but needs daylight to charge. Battery-powered LED lamp: reliable, bright, but needs replacement batteries. Best choice: solar-rechargeable LED — renewable, safe, long-lasting, practical for camping.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt2-energy-generation-and-storage-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate the suitability of different energy sources for powering a remote weather monitoring station that must operate continuously for five years. <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: identify the specific requirements (continuous operation, remote location, 5-year lifespan, low maintenance); evaluate solar + battery (needs large panel/battery for winter, low maintenance, renewable); wind + battery (works day and night, but moving parts need maintenance); fuel cell (reliable, long runtime, but refuelling logistics in remote location); conclude with a justified hybrid system — e.g. solar as primary with small wind turbine and lithium-ion battery backup, considering worst-case weather scenarios.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: identify the specific requirements (continuous operation, remote location, 5-year lifespan, low maintenance); evaluate solar + battery (needs large panel/battery for winter, low maintenance, renewable); wind + battery (works day and night, but moving parts need maintenance); fuel cell (reliable, long runtime, but refuelling logistics in remote location); conclude with a justified hybrid system — e.g. solar as primary with small wind turbine and lithium-ion battery backup, considering worst-case weather scenarios."
+   }
+  }
+ ]
+}

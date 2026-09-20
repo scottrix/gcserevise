@@ -1,0 +1,139 @@
+{
+ "subject": "statistics",
+ "board": "CCEA",
+ "topic": "mock-exam",
+ "topicName": "Statistics Mock Exam",
+ "version": 1,
+ "tier": "Higher",
+ "tests": [
+  {
+   "id": "statistics-mock",
+   "name": "Statistics Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Charts & Diagrams] Q: In a pie chart, a category has frequency 15 out of a total of 60. What angle should its sector have?",
+     "correctAnswer": "Angle = (15 ÷ 60) × 360° = 0.25 × 360° = 90°.",
+     "explanation": "Angle = (15 ÷ 60) × 360° = 0.25 × 360° = 90°.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Charts & Diagrams] Q: A stem-and-leaf diagram has stem 4 and leaves 2, 5, 7, 8. What are the actual data values if the key is 4 | 2 means 42?",
+     "correctAnswer": "The data values are 42, 45, 47, and 48.",
+     "explanation": "The data values are 42, 45, 47, and 48.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Charts & Diagrams] Q: In a Venn diagram, set A has 20 elements, set B has 15 elements, and A ∩ B has 8 elements. How many elements are in A ∪ B?",
+     "correctAnswer": "A ∪ B = 20 + 15 – 8 = 27 elements.",
+     "explanation": "A ∪ B = 20 + 15 – 8 = 27 elements.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Common Calculation Pitfalls] Q: A student calculates the mean of grouped data as 45.2 using class upper bounds instead of midpoints. The classes are 10–20, 20–30, 30–40. What should they have used?",
+     "correctAnswer": "Midpoints: 15, 25, 35. Using upper bounds (20, 30, 40) overestimates each value by 5, shifting the mean upward.",
+     "explanation": "Midpoints: 15, 25, 35. Using upper bounds (20, 30, 40) overestimates each value by 5, shifting the mean upward.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Common Calculation Pitfalls] Q: A student computes P(A or B) = 0.6 + 0.7 = 1.3. Why is this wrong?",
+     "correctAnswer": "A probability cannot exceed 1. The events are not mutually exclusive, so P(A∪B) = P(A) + P(B) − P(A∩B). The overlap must be subtracted.",
+     "explanation": "A probability cannot exceed 1. The events are not mutually exclusive, so P(A∪B) = P(A) + P(B) − P(A∩B). The overlap must be subtracted.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Common Calculation Pitfalls] Q: Calculate the percentage change when a value rises from 80 to 100. A student writes (100÷80) × 100 = 125%. Is this correct?",
+     "correctAnswer": "The student found 125% of the original, not the percentage change. Percentage change = ((100−80)/80) × 100 = (20/80) × 100 = 25% increase.",
+     "explanation": "The student found 125% of the original, not the percentage change. Percentage change = ((100−80)/80) × 100 = (20/80) × 100 = 25% increase.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Correlation & Regression] Q: Two judges rank 5 contestants. The rank differences are: 0, 1, 1, 2, 0. Calculate Spearman's rₛ.",
+     "correctAnswer": "Σd² = 0 + 1 + 1 + 4 + 0 = 6. rₛ = 1 – (6 × 6) ÷ (5 × (25 – 1)) = 1 – 36 ÷ 120 = 1 – 0.3 = 0.7. Moderate positive agreement.",
+     "explanation": "Σd² = 0 + 1 + 1 + 4 + 0 = 6. rₛ = 1 – (6 × 6) ÷ (5 × (25 – 1)) = 1 – 36 ÷ 120 = 1 – 0.3 = 0.7. Moderate positive agreement.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Correlation & Regression] Q: Pearson's r for two variables is –0.85. Describe the correlation.",
+     "correctAnswer": "Strong negative linear correlation: as one variable increases, the other tends to decrease, and the points lie close to a straight line with negative slope.",
+     "explanation": "Strong negative linear correlation: as one variable increases, the other tends to decrease, and the points lie close to a straight line with negative slope.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Correlation & Regression] Q: A line of best fit is drawn for data where x ranges from 10 to 50. Is predicting y when x = 30 interpolation or extrapolation?",
+     "correctAnswer": "Interpolation, because x = 30 is within the observed range of 10 to 50.",
+     "explanation": "Interpolation, because x = 30 is within the observed range of 10 to 50.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Data Cleaning & Reliability] Q: What is data cleaning?",
+     "correctAnswer": "The process of checking a data set for errors, missing values and anomalies and correcting or removing them before analysis.",
+     "explanation": "The process of checking a data set for errors, missing values and anomalies and correcting or removing them before analysis.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Data Cleaning & Reliability] Q: How should you deal with an outlier?",
+     "correctAnswer": "Investigate it: if it is a data entry error, correct or remove it; if it is genuine, keep it but note its effect on results.",
+     "explanation": "Investigate it: if it is a data entry error, correct or remove it; if it is genuine, keep it but note its effect on results.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Data Cleaning & Reliability] Q: What is the difference between reliability and validity?",
+     "correctAnswer": "Reliability means consistency (getting the same result on repetition); validity means the method measures what it is supposed to measure.",
+     "explanation": "Reliability means consistency (getting the same result on repetition); validity means the method measures what it is supposed to measure.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

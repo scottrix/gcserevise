@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS32-network-security",
+ "topicName": "Network Security",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs32-network-security-s1",
+   "kind": "learn",
+   "title": "Key Concept",
+   "body": "Networks are vulnerable to unauthorised access, data theft, and malicious attacks because data travels across shared infrastructure. Effective network security uses multiple methods to protect data and systems."
+  },
+  {
+   "id": "cs32-network-security-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Authentication is the process of verifying that a user is who they claim to be. It ensures that only authorised people can access a system or network."
+  },
+  {
+   "id": "cs32-network-security-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Two-factor authentication requires the user to provide two different types of evidence to prove their identity. This combines something you KNOW (password) with something you HAVE (phone/token) or something you ARE (biometric)."
+  },
+  {
+   "id": "cs32-network-security-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Encryption is the process of converting plaintext data into ciphertext (unreadable form) using an encryption algorithm and a key. Only someone with the correct decryption key can convert it back to readable plaintext."
+  },
+  {
+   "id": "cs32-network-security-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Explain the difference between symmetric and asymmetric encryption. | What is two-factor authentication? Give an example. | How does a firewall using packet filtering work?"
+  },
+  {
+   "id": "cs32-network-security-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Symmetric encryption uses the same key for both encryption and decryption. It is fast but the key must be shared securely between sender and receiver. Asymmetric encryption uses a pair of keys: a publ | Two-factor authentication requires two different types of evidence to verify identity: something you know (password/PIN), something you have (phone/token), or something you are (biometric). Example: l | A firewall using packet filtering examines each data packet's header information (source IP, destination IP, port numbers, protocol) and compares it against a set of predefined rules. Packets matching"
+  },
+  {
+   "id": "cs32-network-security-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know all authentication methods and their strengths/weaknesses Be clear on symmetric vs asymmetric: same key vs public/private key pair For firewalls, explain packet filtering with specific rule examples Always mention MAC spoofing as a weakness of MAC filtering Defence in depth: multiple layers, different types, redundancy When asked \"how to secure a network,\" combine multiple methods"
+  }
+ ]
+}

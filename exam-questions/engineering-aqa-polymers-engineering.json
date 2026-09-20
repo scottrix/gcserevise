@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "polymers-engineering",
+ "topicName": "Polymers in Engineering",
+ "version": 1,
+ "questions": [
+  {
+   "id": "polymers-engineering-q1",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between a thermoplastic and a thermosetting polymer with an example of each.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Thermoplastics soften when heated and can be reshaped repeatedly (e.g. ABS). Thermosets undergo an irreversible chemical cure when first heated and cannot be remelted (e.g. epoxy resin).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "polymers-engineering-q2",
+   "type": "short-answer",
+   "question": "Q: Why is nylon commonly used for gears and bearings?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Nylon has excellent wear resistance, low friction coefficient, good mechanical strength and operates quietly without lubrication, making it ideal for moving parts like gears and bearings.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "polymers-engineering-q3",
+   "type": "short-answer",
+   "question": "Q: A manufacturer needs a transparent, impact-resistant guard for a machine. Which polymer should they choose and why?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Polycarbonate, because it combines high impact resistance (nearly unbreakable) with optical clarity, making it ideal for safety guards where visibility and protection are both required.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "polymers-engineering-q4",
+   "type": "short-answer",
+   "question": "Q: Explain why thermosetting polymers are difficult to recycle.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Thermosets have cross-linked molecular structures created during the curing process. These cross-links cannot be reversed by heating, so the material cannot be remelted and reshaped like a thermoplastic.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "polymers-engineering-q5",
+   "type": "short-answer",
+   "question": "Q: Describe how vulcanisation improves the properties of natural rubber for engineering use.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Vulcanisation adds sulphur cross-links between polymer chains, increasing tensile strength, elasticity (ability to return to original shape), heat resistance and durability while reducing plastic deformation.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

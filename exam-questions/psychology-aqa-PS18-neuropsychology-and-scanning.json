@@ -1,0 +1,78 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS18-neuropsychology-and-scanning",
+ "topicName": "Neuropsychology & Brain Scanning",
+ "version": 1,
+ "questions": [
+  {
+   "id": "ps18-neuropsychology-and-scanning-q1",
+   "type": "short-answer",
+   "question": "Compare structural and functional brain scanning methods, giving one strength and one limitation of each.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Structural (CT, MRI): show brain anatomy, detect damage. CT: quick but lower resolution and uses radiation. MRI: high resolution, no radiation, but slow and expensive. Functional (fMRI, EEG): show brain activity. fMRI: shows which areas are active, good spatial resolution, poor temporal resolution. EEG: shows when activity occurs, excellent temporal resolution, poor spatial resolution.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ps18-neuropsychology-and-scanning-q2",
+   "type": "short-answer",
+   "question": "Explain how fMRI works and evaluate its usefulness for studying brain function.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "fMRI measures blood flow changes - active areas use more oxygen, so oxygenated blood increases there. Strengths: non-invasive, shows both structure and function, good spatial resolution for locating active areas. Limitations: poor temporal resolution (delay of seconds between neural activity and blood flow change), expensive, participants must lie still, correlation doesn't prove causation.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ps18-neuropsychology-and-scanning-q3",
+   "type": "short-answer",
+   "question": "A researcher wants to study which brain areas are active during a memory task. Which scanning method would be most appropriate and why?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "fMRI would be most appropriate: it shows which specific brain areas are active during the memory task (spatial resolution), which is needed to identify regions involved. EEG would show WHEN activity occurs but not WHERE. MRI would show structure but not activity. The researcher would compare fMRI scans during the memory task vs rest to identify active regions.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ps18-neuropsychology-and-scanning-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate the contribution of brain scanning methods to our understanding of brain-behaviour relationships. <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: describe each method (CT, MRI, fMRI, EEG, post-mortem) with strengths and limitations; evaluate structural methods (good for identifying damage but don't show function); evaluate functional methods (show activity but are correlational); consider the complementary nature of methods (EEG for timing, fMRI for location); conclude: brain scanning has revolutionised neuropsychology by providing non-invasive ways to study the living brain, but all methods are correlational and none can establish causation alone. Combining methods (e.g. fMRI for location + EEG for timing) and ",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: describe each method (CT, MRI, fMRI, EEG, post-mortem) with strengths and limitations; evaluate structural methods (good for identifying damage but don't show function); evaluate functional methods (show activity but are correlational); consider the complementary nature of methods (EEG for timing, fMRI for location); conclude: brain scanning has revolutionised neuropsychology by providing non-invasive ways to study the living brain, but all methods are correlational and none can establish causation alone. Combining methods (e.g. fMRI for location + EEG for timing) and using experimental designs provides the strongest evidence."
+   }
+  }
+ ]
+}

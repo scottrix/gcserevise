@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS8-arithmetic-relational-operations",
+ "topicName": "Arithmetic and Relational Operations",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs8-arithmetic-relational-operations-q1",
+   "type": "short-answer",
+   "question": "Evaluate: 17 DIV 5 and 17 MOD 5",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "17 DIV 5 = 3 (17 / 5 = 3.4, whole number part = 3). 17 MOD 5 = 2 (remainder = 17 - 5*3 = 2).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-q2",
+   "type": "short-answer",
+   "question": "Write pseudo-code that checks if a number is divisible by 3.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT number IF number MOD 3 = 0 THEN OUTPUT number, \" is divisible by 3\" ELSE OUTPUT number, \" is not divisible by 3\" ENDIF",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-q3",
+   "type": "short-answer",
+   "question": "Evaluate step by step: 3 + 4 * 2 - 1",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Step 1: 4 * 2 = 8. Step 2: 3 + 8 = 11. Step 3: 11 - 1 = 10.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-q4",
+   "type": "short-answer",
+   "question": "Write pseudo-code that takes a number of minutes and outputs the hours and remaining minutes.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT totalMinutes hours ← totalMinutes DIV 60 minutes ← totalMinutes MOD 60 OUTPUT hours, \" hours and \", minutes, \" minutes\"",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-q5",
+   "type": "short-answer",
+   "question": "What is the result of (10 + 5) / 3? What about 10 + 5 / 3?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(10 + 5) / 3 = 15 / 3 = 5.0. 10 + 5 / 3 = 10 + 1.67 = 11.67. Brackets change the result!",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Write pseudo-code that inputs a number and determines whether it is divisible by both 3 and 5, divisible by 3 only, divisible by 5 only, or neither. Output an appropriate message for each case. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT number IF number MOD 3 = 0 AND number MOD 5 = 0 THEN OUTPUT 'Divisible by both 3 and 5' ELSE IF number MOD 3 = 0 THEN OUTPUT 'Divisible by 3 only' ELSE IF number MOD 5 = 0 THEN OUTPUT 'Divisible by 5 only' ELSE OUTPUT 'Not divisible by 3 or 5' ENDIF",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "INPUT number IF number MOD 3 = 0 AND number MOD 5 = 0 THEN OUTPUT 'Divisible by both 3 and 5' ELSE IF number MOD 3 = 0 THEN OUTPUT 'Divisible by 3 only' ELSE IF number MOD 5 = 0 THEN OUTPUT 'Divisible by 5 only' ELSE OUTPUT 'Not divisible by 3 or 5' ENDIF"
+   }
+  }
+ ]
+}

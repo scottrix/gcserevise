@@ -1,0 +1,58 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "SPG4-paragraphing",
+ "topicName": "Paragraphing",
+ "version": 1,
+ "tests": [
+  {
+   "id": "spg4-paragraphing-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Paragraphing",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "spg4-paragraphing-t1",
+     "type": "short-answer",
+     "question": "What does TiP ToP stand for?",
+     "correctAnswer": "Time, Place, Topic, Person - the four main reasons to start a new paragraph",
+     "explanation": "Answer: Time, Place, Topic, Person - the four main reasons to start a new paragraph",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg4-paragraphing-t3",
+     "type": "short-answer",
+     "question": "When should you start a new paragraph in dialogue?",
+     "correctAnswer": "Start a new paragraph for each new speaker",
+     "explanation": "Answer: Start a new paragraph for each new speaker",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg4-paragraphing-t4",
+     "type": "short-answer",
+     "question": "What does PEEL stand for?",
+     "correctAnswer": "Point, Evidence, Explanation, Link - a structure for analytical paragraphs",
+     "explanation": "Answer: Point, Evidence, Explanation, Link - a structure for analytical paragraphs",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg4-paragraphing-t5",
+     "type": "short-answer",
+     "question": "Why might a writer use a one-sentence paragraph?",
+     "correctAnswer": "To create impact, shock, emphasis, or a dramatic moment",
+     "explanation": "Answer: To create impact, shock, emphasis, or a dramatic moment",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS18-binary-arithmetic",
+ "topicName": "Binary Arithmetic",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs18-binary-arithmetic-s1",
+   "kind": "learn",
+   "title": "Binary addition",
+   "body": "follows the same principles as decimal addition but with only two digits (0 and 1). There are only four rules to remember."
+  },
+  {
+   "id": "cs18-binary-arithmetic-s2",
+   "kind": "learn",
+   "title": "Overflow",
+   "body": "occurs when the result of a binary addition requires more bits than are available. If adding two 8-bit numbers produces a 9th bit (a carry out from the leftmost column), the result cannot be stored correctly in 8 bits. This is an overflow error."
+  },
+  {
+   "id": "cs18-binary-arithmetic-s3",
+   "kind": "learn",
+   "title": "Detecting overflow",
+   "body": "If there is a carry out from the most significant bit (leftmost column), overflow has occurred. The stored result will be incorrect. In programming, you need to check for this condition."
+  },
+  {
+   "id": "cs18-binary-arithmetic-s4",
+   "kind": "learn",
+   "title": "To add more than two binary numbers,",
+   "body": "add them two at a time. Add the first two, then add the third to that result, and so on. Check for overflow at each step."
+  },
+  {
+   "id": "cs18-binary-arithmetic-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Add the binary numbers 01011010 and 00110101. Show your working. | Add 10110011 and 01101010. Does overflow occur? Explain why. | Perform a binary shift left by 2 on 00101100. What is the result in decimal?"
+  },
+  {
+   "id": "cs18-binary-arithmetic-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Carry: 0 0 1 1 0 0 0 0 Num A: 0 1 0 1 1 0 1 0 (90) Num B: 0 0 1 1 0 1 0 1 (53) ----------------------- Result: 1 0 0 0 1 1 1 1 (143) | Num A: 1 0 1 1 0 0 1 1 (179) Num B: 0 1 1 0 1 0 1 0 (106) Result would be 100101101 (285), but this needs 9 bits. With only 8 bits, we get 00101101 (45). Overflow occurs because 179 + 106 = 285, which | Original: 00101100 (44). Shift left 1: 01011000 (88). Shift left 2: 10110000 (176). Result = 176. Check: 44 x 2^2 = 44 x 4 = 176."
+  },
+  {
+   "id": "cs18-binary-arithmetic-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Write binary additions in columns, working from right to left Always show your carry bits - examiners award marks for working Check for overflow: if there is a carry out from the MSB (most significant bit), overflow has occurred Shift left = multiply by 2^n; shift right = integer divide by 2^n When shifting, lost bits are discarded (not wrapped around) A shift right on an odd number will lose the remainder"
+  }
+ ]
+}

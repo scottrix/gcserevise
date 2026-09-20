@@ -1,0 +1,157 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P22-electromagnetic-spectrum",
+ "topicName": "Electromagnetic Spectrum",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p22-electromagnetic-spectrum-fc1",
+   "front": "What should you know about electromagnetic waves?",
+   "back": "Transverse waves that transfer energy from the source to the absorber. They can all travel through a vacuum at the same speed (3 × 10⁸ m/s). They are produced by changes in atoms and nuclei.",
+   "tags": [
+    "electromagnetic-waves"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc2",
+   "front": "What should you know about ionising radiation?",
+   "back": "Radiation that can damage or destroy cells by removing electrons from atoms. Higher frequency EM waves (UV, X-rays, gamma rays) are ionising.",
+   "tags": [
+    "ionising-radiation"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc3",
+   "front": "What should you know about key relationships?",
+   "back": "As you go from radio to gamma: wavelength decreases, frequency increases, energy increases, danger increases. Since v = fλ and v is constant (3 × 10⁸ m/s in vacuum), if frequency increases then wavelength must decrease.",
+   "tags": [
+    "key-relationships"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc4",
+   "front": "What should you know about danger principle?",
+   "back": "The higher the frequency of the EM radiation, the more dangerous it is. UV, X-rays and gamma rays are ionising — they can damage cells and DNA, potentially causing cancer. The risk increases with the dose of radiation received.",
+   "tags": [
+    "danger-principle"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc5",
+   "front": "Recall a key point about Electromagnetic Spectrum",
+   "back": "Using v = f × λ with the speed of light (3 × 10⁸ m/s) to calculate EM wave frequencies or wavelengths. Standard form is essential for EM calculations since frequencies range from kHz (10³) to EHz (10¹⁸). Convert wavelength units before calculating: nm → m (×10⁻⁹), mm → m (×10⁻³).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc6",
+   "front": "What should you know about answers?",
+   "back": "(a) λ = v/f = 3 × 10⁸ ÷ 2.45 × 10⁹ = 0.122 m = 12.2 cm. (b) The statement is misleading — microwave radiation is non-ionising. It heats water molecules in food but does not damage DNA like ionising radiation (UV, X-rays, gamma). However, direct exposure to intense microwaves could cause internal tissue heating, so the oven is shielded. The word \"radiation\" alone does not mean dangerous. (c) UV lamp: λ = 100 nm = 1 × 10⁻⁷ m. Phone charger: λ = v/f = 3 × 10⁸ ÷ 50,000 = 6000 m. The phone charger radio waves have a much longer wavelength (6000 m vs 0.0000001 m).",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc7",
+   "front": "What does Radio waves mean?",
+   "back": "> 1 m (e.g. Alternating currents in circuits)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc8",
+   "front": "What does Microwaves mean?",
+   "back": "1 mm – 1 m (e.g. Microwave ovens, satellites)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc9",
+   "front": "What does Infrared mean?",
+   "back": "700 nm – 1 mm (e.g. Hot objects, flames)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc10",
+   "front": "What does Visible light mean?",
+   "back": "400 – 700 nm (e.g. Sun, lamps, lasers)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc11",
+   "front": "What does Ultraviolet mean?",
+   "back": "10 – 400 nm (e.g. Sun, UV lamps)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc12",
+   "front": "What does X-rays mean?",
+   "back": "0.01 – 10 nm (e.g. X-ray tubes, stars)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc13",
+   "front": "What does Gamma rays mean?",
+   "back": "< 0.01 nm (e.g. Radioactive decay, nuclear reactions)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc14",
+   "front": "What does Radio waves mean?",
+   "back": "Broadcasting (TV, radio), communication, Bluetooth (e.g. Very low risk — not ionising)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p22-electromagnetic-spectrum-fc15",
+   "front": "What does Microwaves mean?",
+   "back": "Cooking (microwave ovens), satellite communication, Wi-Fi (e.g. Internal heating of body tissues)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

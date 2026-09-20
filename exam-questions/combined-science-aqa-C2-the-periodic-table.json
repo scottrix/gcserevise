@@ -1,0 +1,129 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C2-the-periodic-table",
+ "topicName": "C2 The Periodic Table",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c2-the-periodic-table-q1",
+   "type": "short-answer",
+   "question": "Foundation Describe two ways Mendeleev arranged elements in his periodic table and explain why his table was accepted by other scientists.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Mendeleev arranged elements in order of atomic mass and put elements with similar properties in the same group. He left gaps for undiscovered elements and predicted their properties. His table was accepted because when the missing elements were discovered, their properties matched his predictions.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2-the-periodic-table-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain why alkali metals become more reactive as you go down the group.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "As you go down Group 1, the outer electron is further from the nucleus and there are more inner electron shells providing shielding. This means the outer electron is less strongly attracted to the nucleus and is lost more easily, making the atom more reactive.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2-the-periodic-table-q3",
+   "type": "short-answer",
+   "question": "Foundation Write a word equation and a symbol equation for the reaction of sodium with water. What observations would you make?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Word equation: sodium + water → sodium hydroxide + hydrogen. Symbol equation: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g). Observations: sodium melts into a ball, fizzes rapidly, moves quickly on the water surface.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2-the-periodic-table-q4",
+   "type": "short-answer",
+   "question": "Higher Chlorine is added to a solution of potassium iodide. State what happens and explain why. Write a symbol equation for the reaction.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Chlorine displaces iodine from potassium iodide because chlorine is more reactive than iodine (it is higher in Group 7). The solution turns brown/violet as iodine is released. Equation: Cl₂(aq) + 2KI(aq) → 2KCl(aq) + I₂(aq).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2-the-periodic-table-q5",
+   "type": "short-answer",
+   "question": "Foundation Explain why noble gases are unreactive and give one use of argon.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Noble gases are unreactive because they have full outer electron shells, so they do not need to gain, lose or share electrons. Argon is used in welding to provide an inert atmosphere that prevents the hot metal reacting with oxygen in the air.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2-the-periodic-table-q6",
+   "type": "short-answer",
+   "question": "Higher Compare the properties of alkali metals with transition metals. Give at least three differences.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Three differences: (1) Alkali metals are very reactive, transition metals are much less reactive. (2) Alkali metals have low melting points, transition metals have high melting points. (3) Alkali metals are soft (can be cut with a knife), transition metals are hard and strong. (4) Transition metals form coloured compounds, alkali metals form white compounds. (5) Many transition metals are good cat",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2-the-periodic-table-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain the reactivity trends in Group 1 and Group 7. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Group 1 reactivity increases down the group because the outer electron is further from the nucleus and more shielded by inner electron shells, so it is lost more easily. Group 7 reactivity decreases down the group because the outer shell is further from the nucleus and more shielded, so the atom finds it harder to attract an extra electron. Both trends are explained by increasing atomic size and shielding, but the outcome differs because Group 1 loses an electron (easier further out) while Group 7 gains one (harder further out). Mark scheme: 1 mark for Group 1 trend; 1 mark for Group 1 explana",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Group 1 reactivity increases down the group because the outer electron is further from the nucleus and more shielded by inner electron shells, so it is lost more easily. Group 7 reactivity decreases down the group because the outer shell is further from the nucleus and more shielded, so the atom finds it harder to attract an extra electron. Both trends are explained by increasing atomic size and shielding, but the outcome differs because Group 1 loses an electron (easier further out) while Group 7 gains one (harder further out). Mark scheme: 1 mark for Group 1 trend; 1 mark for Group 1 explanation (distance + shielding); 1 mark for Group 7 trend; 1 mark for Group 7 explanation (distance + shielding); 1 mark for linking both to outer electron; 1 mark for contrasting loss vs gain of electrons."
+   }
+  }
+ ]
+}

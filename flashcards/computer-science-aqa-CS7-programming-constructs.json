@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS7-programming-constructs",
+ "topicName": "Programming Constructs",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs7-programming-constructs-fc1",
+   "front": "What should you know about variable?",
+   "back": "A named storage location in memory whose value can change during program execution. Constant: A named value that cannot be changed once it has been set.",
+   "tags": [
+    "variable"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc2",
+   "front": "What should you know about assignment?",
+   "back": "means storing a value in a variable. The variable name goes on the left, the value or expression goes on the right. The previous value is overwritten.",
+   "tags": [
+    "assignment"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc3",
+   "front": "What should you know about sequence?",
+   "back": "means executing instructions one after another in order, from top to bottom. This is the simplest programming construct - every program uses sequence.",
+   "tags": [
+    "sequence"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc4",
+   "front": "What should you know about selection?",
+   "back": "allows a program to choose between different paths based on a condition. The three forms are: IF...THEN, IF...THEN...ELSE, and CASE/SWITCH.",
+   "tags": [
+    "selection"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc5",
+   "front": "What should you know about iteration?",
+   "back": "means repeating a block of code. There are three types: count-controlled (FOR), condition-controlled (WHILE), and post-condition (REPEAT...UNTIL).",
+   "tags": [
+    "iteration"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc6",
+   "front": "What should you know about nesting?",
+   "back": "means placing one construct inside another. You can put IF statements inside loops, loops inside IF statements, or loops inside other loops. This allows complex logic.",
+   "tags": [
+    "nesting"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc7",
+   "front": "Recall a key point about Programming Constructs",
+   "back": "When nesting, always match your opening and closing keywords. Every IF needs an ENDIF, every WHILE needs an ENDWHILE, and every FOR needs a NEXT. Indent your code to make the structure clear.",
+   "tags": [
+    "exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc8",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Choose the correct construct: IF for decisions, FOR for counted repetition (known number), WHILE for conditional repetition (unknown count). Always indent nested constructs clearly. For validation, use a WHILE loop with a Boolean flag. Show initialisation of variables BEFORE the loop. Remember: WHILE = pre-tested (may not execute), REPEAT-UNTIL = post-tested (always executes at least once). Use ENDIF, ENDWHILE to close each construct.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc9",
+   "front": "What does Value can change? mean?",
+   "back": "Yes (e.g. No)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc10",
+   "front": "What does When to use mean?",
+   "back": "Values that need updating (score, counter) (e.g. Fixed values (PI, tax rate, max attempts))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc11",
+   "front": "What does Example mean?",
+   "back": "score ← 0, then score ← score + 1 (e.g. CONST PI ← 3.14159)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc12",
+   "front": "What does Advantage mean?",
+   "back": "Flexible - can be updated (e.g. Prevents accidental changes, makes code readable)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc13",
+   "front": "What does Best for mean?",
+   "back": "Range checks, complex conditions (e.g. Checking specific values of one variable)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc14",
+   "front": "What does Conditions mean?",
+   "back": "Can combine multiple variables (e.g. One variable only)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs7-programming-constructs-fc15",
+   "front": "What does Example mean?",
+   "back": "IF age >= 18 AND hasID THEN (e.g. CASE OF menuChoice)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

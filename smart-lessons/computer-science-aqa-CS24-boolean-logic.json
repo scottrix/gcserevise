@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS24-boolean-logic",
+ "topicName": "Boolean Logic",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs24-boolean-logic-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Boolean logic is a form of algebra where all values are either TRUE (1) or FALSE (0). It is named after mathematician George Boole and forms the basis of how computers make decisions."
+  },
+  {
+   "id": "cs24-boolean-logic-s2",
+   "kind": "learn",
+   "title": "NOT gate",
+   "body": "Takes a single input and produces the opposite (inverted) output. If input is 1, output is 0. If input is 0, output is 1. Also called an inverter."
+  },
+  {
+   "id": "cs24-boolean-logic-s3",
+   "kind": "learn",
+   "title": "AND gate",
+   "body": "Takes two inputs and outputs 1 (TRUE) only if BOTH inputs are 1. If either or both inputs are 0, the output is 0."
+  },
+  {
+   "id": "cs24-boolean-logic-s4",
+   "kind": "learn",
+   "title": "OR gate",
+   "body": "Takes two inputs and outputs 1 (TRUE) if EITHER or BOTH inputs are 1. The output is 0 only when both inputs are 0."
+  },
+  {
+   "id": "cs24-boolean-logic-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Draw the truth table for Q = A . B | A circuit has the expression Q = (A OR B) AND NOT C. Draw the full truth table. | What is the difference between OR and XOR? Give a real-world example of each."
+  },
+  {
+   "id": "cs24-boolean-logic-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Q = A . NOT B: A=0 B=0 Q=0; A=0 B=1 Q=0; A=1 B=0 Q=1; A=1 B=1 Q=0. Output is 1 only when A=1 AND B=0. | Three inputs = 8 rows. Q=1 only when (A=1 OR B=1) AND C=0. Rows where Q=1: (0,1,0), (1,0,0), (1,1,0). All other rows Q=0. | OR outputs 1 if either or both inputs are 1. XOR outputs 1 only if the inputs are different. OR example: alarm if front OR back door is open. XOR example: staircase light controlled by two switches - "
+  },
+  {
+   "id": "cs24-boolean-logic-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always show intermediate columns in truth tables - marks are awarded for working Learn the Boolean notation: dot = AND, plus = OR, overbar = NOT When drawing circuits from expressions, work from the inside out (brackets first) For 3-input truth tables, count in binary: 000, 001, 010, 011, 100, 101, 110, 111 Remember order of operations: NOT, then AND, then OR Practise converting between expressions, circuits, and truth tables in both directions"
+  }
+ ]
+}

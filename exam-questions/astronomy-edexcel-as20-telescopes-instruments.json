@@ -1,0 +1,94 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as20-telescopes-instruments",
+ "topicName": "Telescopes & Instruments",
+ "version": 1,
+ "questions": [
+  {
+   "id": "as20-telescopes-instruments-q1",
+   "type": "short-answer",
+   "question": "Q: What are the advantages of reflecting telescopes over refracting?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Reflectors: no chromatic aberration, easier to make large mirrors (no internal defects), mirrors can be supported from behind, and are cheaper for the same aperture.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as20-telescopes-instruments-q2",
+   "type": "short-answer",
+   "question": "Q: How is magnification calculated?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Magnification = focal length of objective ÷ focal length of eyepiece.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as20-telescopes-instruments-q3",
+   "type": "short-answer",
+   "question": "Q: Why are radio telescopes often very large?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Radio wavelengths are much longer than visible light, so larger dishes are needed to achieve similar resolving power (resolution ∝ aperture/wavelength).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as20-telescopes-instruments-q4",
+   "type": "short-answer",
+   "question": "Q: Name two advantages of space telescopes.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) No atmospheric distortion (twinkling/scintillation), giving sharper images. 2) Can observe wavelengths blocked by the atmosphere (UV, X-ray, infrared).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "as20-telescopes-instruments-q5",
+   "type": "short-answer",
+   "question": "Q: Describe the difference between alt-az and equatorial mountings.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Alt-az mounts move in altitude and azimuth (up-down and left-right). Equatorial mounts align one axis with Earth's rotation axis, allowing tracking by rotating one axis at a constant rate.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT16-forces-and-stresses-on-materials",
+ "topicName": "Forces and Stresses on Materials",
+ "version": 1,
+ "questions": [
+  {
+   "id": "dt16-forces-and-stresses-on-materials-q1",
+   "type": "short-answer",
+   "question": "A shelf supports books. Explain where tension and compression occur in the shelf when loaded.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Top surface is in compression (squashed as the shelf bends downward), bottom surface is in tension (stretched as it curves). The centre (neutral axis) has zero stress. Shelf supports are often L-shaped to resist bending.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-q2",
+   "type": "short-answer",
+   "question": "Explain why an I-beam is more efficient than a solid rectangular beam of the same weight.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "In bending, stress is highest at top and bottom surfaces, zero at the neutral axis. An I-beam concentrates material in the flanges (top/bottom) where stress is highest, and minimises material in the web where stress is low. A solid beam wastes material at the neutral axis. Same weight, much stronger.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-q3",
+   "type": "short-answer",
+   "question": "A crane cable has UTS of 800 MPa and working stress of 200 MPa. Calculate the factor of safety and explain whether this is appropriate.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "FoS = 800 / 200 = 4. For a crane cable (safety-critical, lives at risk), FoS of 4 is at the lower end of acceptable - many standards require 5-10 for lifting equipment. Dynamic loads can temporarily multiply forces.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt16-forces-and-stresses-on-materials-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A designer is creating a lightweight folding chair. Explain how tension, compression and bending act on the chair, and justify the material choices for the frame and seat. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: identify forces - seat: bending, legs: compression, side rails: tension and bending, backrest: bending and torsion; justify - frame: tubular aluminium alloy (strength-to-weight), seat: woven polyester fabric (tensile strength, lightweight) or moulded polypropylene; discuss FoS and cross-section choices.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: identify forces - seat: bending, legs: compression, side rails: tension and bending, backrest: bending and torsion; justify - frame: tubular aluminium alloy (strength-to-weight), seat: woven polyester fabric (tensile strength, lightweight) or moulded polypropylene; discuss FoS and cross-section choices."
+   }
+  }
+ ]
+}

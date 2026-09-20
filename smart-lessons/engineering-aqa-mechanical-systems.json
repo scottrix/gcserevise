@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "mechanical-systems",
+ "topicName": "Mechanical Systems",
+ "version": 1,
+ "steps": [
+  {
+   "id": "mechanical-systems-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Mechanical systems transmit and convert forces and motion using mechanisms such as gears, levers, cams and pulleys."
+  },
+  {
+   "id": "mechanical-systems-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Linkages convert one type of motion to another: a bell crank converts linear motion to rotary motion; a push-pull linkage transmits motion around a corner."
+  },
+  {
+   "id": "mechanical-systems-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Gear trains transmit rotary motion between shafts: spur gears for parallel shafts, bevel gears for perpendicular shafts, worm gears for right-angle high-ratio drives."
+  },
+  {
+   "id": "mechanical-systems-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Gear ratio = Number of teeth on driven gear / Number of teeth on driver gear; it determines speed and torque multiplication."
+  },
+  {
+   "id": "mechanical-systems-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: A driver gear has 20 teeth and a driven gear has 60 teeth. Calculate the gear ratio and state the effect on speed and torque. | Q: Explain the difference between a first-class and a second-class lever with an example of each. | Q: A mechanism has a velocity ratio of 5 and a mechanical advantage of 4. Calculate its efficiency."
+  },
+  {
+   "id": "mechanical-systems-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Gear ratio = 60/20 = 3:1. The driven gear rotates at one-third the speed of the driver but with three times the torque. | First-class: fulcrum is between load and effort (e.g. seesaw, scissors). Second-class: load is between fulcrum and effort (e.g. wheelbarrow, nutcracker). Second-class levers always give a mechanical a | Efficiency = MA / VR x 100% = 4 / 5 x 100% = 80%. The remaining 20% is lost to friction and other losses."
+  },
+  {
+   "id": "mechanical-systems-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Gear ratio calculations are very common: always show the formula, substitute values and state the effect on speed and torque. Distinguish between MA (force ratio) and VR (distance ratio) — efficiency links them. When describing linkages, name the type (bell crank, push-pull, reverse motion) and the motion conversion. In cam questions, describe the cam profile and the resulting follower movement pattern. Always explain that idler gears reverse direction without changing the gear ratio."
+  }
+ ]
+}

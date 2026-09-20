@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "probability-fundamentals",
+ "topicName": "Probability Fundamentals",
+ "version": 1,
+ "questions": [
+  {
+   "id": "probability-fundamentals-q1",
+   "type": "short-answer",
+   "question": "Q: A fair six-sided die is rolled 300 times. What is the expected frequency of rolling a 4?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "P(4) = 1/6. Expected frequency = (1/6) × 300 = 50",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-fundamentals-q2",
+   "type": "short-answer",
+   "question": "Q: In a medical trial, 40 out of 1000 people taking a drug experienced side effects, compared with 80 out of 1000 taking a placebo. Calculate the relative risk.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Relative risk = P(side effects with drug) ÷ P(side effects with placebo) = (40/1000) ÷ (80/1000) = 0.04 ÷ 0.08 = 0.5. The drug group has half the risk.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-fundamentals-q3",
+   "type": "short-answer",
+   "question": "Q: A bag contains 4 red and 6 blue counters. Two counters are drawn without replacement. Draw a tree diagram and find P(both red).",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "P(R then R) = (4/10) × (3/9) = 12/90 = 2/15 ≈ 0.133",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-fundamentals-q4",
+   "type": "short-answer",
+   "question": "Q: In a Venn diagram, P(A) = 0.6, P(B) = 0.5 and P(A∩B) = 0.2. Find P(A∪B).",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "P(A∪B) = P(A) + P(B) − P(A∩B) = 0.6 + 0.5 − 0.2 = 0.9",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-fundamentals-q5",
+   "type": "short-answer",
+   "question": "Q: A coin is tossed 500 times and heads appears 270 times. Find the experimental probability of heads. Is the coin fair?",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Experimental probability = 270/500 = 0.54. Expected for fair coin = 0.5. The result is close to 0.5 but slightly high; with 500 trials this small difference could still be due to chance.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-fundamentals-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A game uses a biased coin where P(heads) = 0.6. The coin is tossed twice. Calculate the probability of getting: (a) two heads, (b) at least one tail. <div class=\"",
+   "marks": 4,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) P(H and H) = 0.6 × 0.6 = 0.36 (b) P(at least one tail) = 1 − P(both heads) = 1 − 0.36 = 0.64 Alternatively using a tree diagram: • P(H,T) = 0.6 × 0.4 = 0.24 • P(T,H) = 0.4 × 0.6 = 0.24 • P(T,T) = 0.4 × 0.4 = 0.16 P(at least one tail) = 0.24 + 0.24 + 0.16 = 0.64 Using the complement is quicker and reduces the chance of missing an outcome.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "(a) P(H and H) = 0.6 × 0.6 = 0.36 (b) P(at least one tail) = 1 − P(both heads) = 1 − 0.36 = 0.64 Alternatively using a tree diagram: • P(H,T) = 0.6 × 0.4 = 0.24 • P(T,H) = 0.4 × 0.6 = 0.24 • P(T,T) = 0.4 × 0.4 = 0.16 P(at least one tail) = 0.24 + 0.24 + 0.16 = 0.64 Using the complement is quicker and reduces the chance of missing an outcome."
+   }
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "production-planning-quality",
+ "topicName": "Production Planning & Quality",
+ "version": 1,
+ "steps": [
+  {
+   "id": "production-planning-quality-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Production planning determines the most efficient sequence of manufacturing operations."
+  },
+  {
+   "id": "production-planning-quality-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The plan lists every operation in order: material preparation, shaping, machining, finishing, assembly and inspection."
+  },
+  {
+   "id": "production-planning-quality-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Process selection matches the manufacturing method to material, quantity, tolerance and geometry."
+  },
+  {
+   "id": "production-planning-quality-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Jigs guide a cutting tool to the correct position (e.g. a drilling jig ensures identical hole positions)."
+  },
+  {
+   "id": "production-planning-quality-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain the difference between a jig and a fixture. | Q: Outline a production plan for 50 aluminium brackets requiring profile cutting, drilling, bending and anodising. | Q: Why are inspection stages included between manufacturing operations?"
+  },
+  {
+   "id": "production-planning-quality-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A jig holds the workpiece AND guides the cutting tool. A fixture holds the workpiece securely but does not guide the tool. | 1) Laser cut profiles from 3mm aluminium sheet. 2) Deburr edges. 3) CNC drill two mounting holes. 4) Bend to 90 degrees on press brake. 5) Inspect dimensions. 6) Anodise for surface protection. 7) Fin | Inspection catches defects early before further value is added. Finding an error before bending avoids wasting time on a part that will be scrapped."
+  },
+  {
+   "id": "production-planning-quality-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "List operations in correct manufacturing sequence - order matters. Distinguish between jigs (guide the tool) and fixtures (hold the workpiece only). Include inspection stages in your production plan. Link each operation to a specific machine, tool or process. Consider safety at every stage: identify hazards and precautions."
+  }
+ ]
+}

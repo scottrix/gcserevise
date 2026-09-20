@@ -1,0 +1,111 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE6-mechanics-breathing",
+ "topicName": "Mechanics of Breathing",
+ "version": 1,
+ "questions": [
+  {
+   "id": "pe6-mechanics-breathing-q1",
+   "type": "short-answer",
+   "question": "Describe the role of the diaphragm during inspiration.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "During inspiration, the diaphragm contracts and moves downwards (flattens from its dome shape). This increases the volume of the thorax top-to-bottom, which decreases the pressure inside the lungs, causing air to rush in.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe6-mechanics-breathing-q2",
+   "type": "short-answer",
+   "question": "Explain why quiet expiration at rest is described as a passive process.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Quiet expiration at rest is passive because it does not require muscle contraction. The diaphragm and external intercostal muscles simply relax, and the elastic recoil of the lungs and the weight of the ribs moving downwards and inwards decreases the thorax volume, increasing pressure and forcing air out.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe6-mechanics-breathing-q3",
+   "type": "short-answer",
+   "question": "How does forced expiration during exercise differ from quiet expiration at rest?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Forced expiration during exercise is an active process involving the contraction of the internal intercostal muscles (pulling ribs down and in) and the abdominal muscles (pushing the diaphragm up). This expels air more quickly and forcefully than passive expiration at rest.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe6-mechanics-breathing-q4",
+   "type": "short-answer",
+   "question": "Explain how an increase in thorax volume causes air to enter the lungs.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When the thorax volume increases (due to diaphragm contracting down and ribs moving up and out), the pressure inside the lungs decreases below atmospheric pressure. Air moves from the higher atmospheric pressure outside into the lower pressure inside the lungs, down the pressure gradient.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe6-mechanics-breathing-q5",
+   "type": "short-answer",
+   "question": "How is breathing rate regulated during exercise?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Chemoreceptors in the aorta and carotid arteries detect rising CO₂ levels in the blood during exercise. They send signals to the medulla oblongata (respiratory centre), which sends nerve impulses to the diaphragm and intercostal muscles, increasing the rate and depth of breathing.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe6-mechanics-breathing-q6",
+   "type": "short-answer",
+   "question": "Calculate minute ventilation if tidal volume is 500 ml and breathing rate is 14 breaths/min.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Minute ventilation = tidal volume × breathing rate = 500 ml × 14 = 7,000 ml/min = 7.0 l/min.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

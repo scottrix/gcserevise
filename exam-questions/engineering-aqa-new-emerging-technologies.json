@@ -1,0 +1,112 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "new-emerging-technologies",
+ "topicName": "New & Emerging Technologies",
+ "version": 1,
+ "questions": [
+  {
+   "id": "new-emerging-technologies-q1",
+   "type": "short-answer",
+   "question": "Q: Explain how CAD/CAM integration reduces manufacturing lead time.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "CAD models are used directly to generate CNC toolpaths (CAM), eliminating manual programming steps. Design changes update the manufacturing instructions automatically. This reduces errors and speeds up the transition from design to production.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "new-emerging-technologies-q2",
+   "type": "short-answer",
+   "question": "Q: Describe two benefits and two concerns of increasing automation in manufacturing.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Benefits: 1) Improved consistency and quality. 2) Increased productivity (24/7 operation). Concerns: 1) Job displacement for routine manual workers. 2) High initial investment and dependency on skilled technicians for maintenance.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "new-emerging-technologies-q3",
+   "type": "short-answer",
+   "question": "Q: Explain how Industry 4.0 and IoT improve manufacturing efficiency.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Connected sensors collect real-time data on temperature, vibration and output. This data is analysed to predict maintenance needs, optimise process parameters and track production flow, identifying bottlenecks.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "new-emerging-technologies-q4",
+   "type": "short-answer",
+   "question": "Q: What is a digital twin and how does it help engineers?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A digital twin is a virtual model of a physical product updated with real-time sensor data. Engineers use it to simulate changes, predict failures and test scenarios virtually before making physical changes.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "new-emerging-technologies-q5",
+   "type": "short-answer",
+   "question": "Q: Compare a traditional industrial robot with a collaborative robot (cobot).",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Traditional robots are large, fast and powerful; they work in cages for safety. Cobots are smaller, slower and force-limited; they work alongside humans without cages. Cobots are more flexible; traditional robots are better for heavy-duty work.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "new-emerging-technologies-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate the impact of automation and Industry 4.0 on a medium-sized engineering manufacturer. Consider production efficiency, workforce and investment. [8 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Automation and Industry 4.0 offer significant efficiency gains. Automated CNC machines and robots operate 24/7 with consistent quality, increasing output and reducing defect rates. IoT sensors enable predictive maintenance, reducing unplanned downtime by up to 50%. However, the workforce impact is significant: routine manual roles decline while demand for skilled technicians and programmers increases. Retraining existing staff is essential but costly. The investment required is substantial - robotic cells, IoT infrastructure and training can cost hundreds of thousands. For a medium-sized compa",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Automation and Industry 4.0 offer significant efficiency gains. Automated CNC machines and robots operate 24/7 with consistent quality, increasing output and reducing defect rates. IoT sensors enable predictive maintenance, reducing unplanned downtime by up to 50%. However, the workforce impact is significant: routine manual roles decline while demand for skilled technicians and programmers increases. Retraining existing staff is essential but costly. The investment required is substantial - robotic cells, IoT infrastructure and training can cost hundreds of thousands. For a medium-sized company, this must be prioritised - automating the most repetitive processes first, then expanding as ROI is demonstrated. Overall, long-term benefits in efficiency and competitiveness outweigh the costs, but the transition requires careful planning and workforce development."
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "circuit-calculation-questions",
+ "topicName": "Circuit Calculation Questions",
+ "version": 1,
+ "tests": [
+  {
+   "id": "circuit-calculation-questions-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Circuit Calculation Questions",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "circuit-calculation-questions-t1",
+     "type": "short-answer",
+     "question": "Q: A 12 V supply drives 150 mA through a resistor. Calculate its resistance showing full working.",
+     "correctAnswer": "R = V/I = 12/0.150 = 80 Ω. (Convert 150 mA to 0.150 A first.)",
+     "explanation": "Answer: R = V/I = 12/0.150 = 80 Ω. (Convert 150 mA to 0.150 A first.)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "circuit-calculation-questions-t2",
+     "type": "short-answer",
+     "question": "Q: A 9 V battery powers a 4.5 V, 0.5 W Zener diode regulator. Calculate the series resistor value if the load current is 40 mA and Zener current is 10 mA.",
+     "correctAnswer": "R_s = (V_in − V_Z)/(I_Z + I_load) = (9 − 4.5)/(0.01 + 0.04) = 4.5/0.05 = 90 Ω.",
+     "explanation": "Answer: R_s = (V_in − V_Z)/(I_Z + I_load) = (9 − 4.5)/(0.01 + 0.04) = 4.5/0.05 = 90 Ω.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "circuit-calculation-questions-t4",
+     "type": "short-answer",
+     "question": "Q: A resistor carries 20 mA and dissipates 0.1 W. Calculate its resistance.",
+     "correctAnswer": "P = I²R → R = P/I² = 0.1/(0.02)² = 0.1/0.0004 = 250 Ω.",
+     "explanation": "Answer: P = I²R → R = P/I² = 0.1/(0.02)² = 0.1/0.0004 = 250 Ω.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

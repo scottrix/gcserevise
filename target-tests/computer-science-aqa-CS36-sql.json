@@ -1,0 +1,58 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS36-sql",
+ "topicName": "SQL",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs36-sql-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on SQL",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs36-sql-t1",
+     "type": "short-answer",
+     "question": "Write an SQL query to show the first name and last name of all students in form 10B.",
+     "correctAnswer": "SELECT FirstName, LastName FROM Students WHERE Form = '10B'",
+     "explanation": "Answer: SELECT FirstName, LastName FROM Students WHERE Form = '10B'",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs36-sql-t2",
+     "type": "short-answer",
+     "question": "Write an SQL query to show all details of students whose last name starts with 'S', sorted by first name alphabetically.",
+     "correctAnswer": "SELECT * FROM Students WHERE LastName LIKE 'S%' ORDER BY FirstName ASC",
+     "explanation": "Answer: SELECT * FROM Students WHERE LastName LIKE 'S%' ORDER BY FirstName ASC",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs36-sql-t4",
+     "type": "short-answer",
+     "question": "Write an SQL statement to change Bob Jones's form from 10B to 11B and his year group to 11.",
+     "correctAnswer": "UPDATE Students SET Form = '11B', YearGroup = 11 WHERE StudentID = 1002",
+     "explanation": "Answer: UPDATE Students SET Form = '11B', YearGroup = 11 WHERE StudentID = 1002",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs36-sql-t5",
+     "type": "short-answer",
+     "question": "Write an SQL statement to delete all students in year group 11.",
+     "correctAnswer": "DELETE FROM Students WHERE YearGroup = 11",
+     "explanation": "Answer: DELETE FROM Students WHERE YearGroup = 11",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

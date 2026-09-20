@@ -1,0 +1,159 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT4-systems-approach-to-designing",
+ "topicName": "Systems Approach to Designing",
+ "version": 1,
+ "cards": [
+  {
+   "id": "dt4-systems-approach-to-designing-fc1",
+   "front": "Recall a key point about Systems Approach to Designing",
+   "back": "Systems approach: breaking down a product into interrelated subsystems — input (sensor/switch), process (microcontroller/logic), output (actuator/display).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc2",
+   "front": "Recall a key point about Systems Approach to Designing",
+   "back": "Open-loop system: no feedback — output does not affect input. E.g. a toaster with a timer: it runs for a set time regardless of how brown the bread is.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc3",
+   "front": "Recall a key point about Systems Approach to Designing",
+   "back": "Closed-loop system: uses feedback to adjust output — e.g. central heating with a thermostat senses temperature and switches the boiler on/off to maintain the set point.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc4",
+   "front": "Recall a key point about Systems Approach to Designing",
+   "back": "Feedback: information about the output fed back to the input to adjust the process — essential for precision and consistency.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc5",
+   "front": "Recall a key point about Systems Approach to Designing",
+   "back": "Flowcharts and systems diagrams: visual tools to represent how subsystems connect — standard symbols (oval=start/end, rectangle=process, diamond=decision, parallelogram=input/output).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc6",
+   "front": "What should you know about d&t exam tips?",
+   "back": "For systems questions, always: 1) State whether open or closed loop, 2) Identify input-process-output, 3) If closed loop, describe the feedback mechanism, 4) Explain why the system type is appropriate for the context. This structure covers AO1–AO3.",
+   "tags": [
+    "d-t-exam-tips"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc7",
+   "front": "What does Open-loop mean?",
+   "back": "None (e.g. Timer-based watering)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc8",
+   "front": "What does Closed-loop mean?",
+   "back": "Negative (e.g. Central heating thermostat)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc9",
+   "front": "What does Bang-bang mean?",
+   "back": "On/off (e.g. Oven thermostat)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc10",
+   "front": "What does Proportional mean?",
+   "back": "Continuous (e.g. Industrial temperature control)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc11",
+   "front": "What does Microcontroller mean?",
+   "back": "Programmable (e.g. BBC Micro:bit projects)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc12",
+   "front": "What does PLC mean?",
+   "back": "Industrial (e.g. UK food packaging lines)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc13",
+   "front": "Watch Out!",
+   "back": "Students often make mistakes here. Wrong: A closed-loop system is always better than an open-loop system because it has feedback. Correct: Closed-loop systems are more precise but also more complex, expensive and potentially less reliable (more components can fail). Open-loop is appropriate where conditions are predictable and precision is not critical — e.g. a simple nightlight that turns on at d",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc14",
+   "front": "Full-Mark Response",
+   "back": "Design a closed-loop system for an automatic greenhouse ventilation system. Explain the input, process, output and feedback, and justify why a closed-loop approach is necessary.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AQA D&T 8552: Written exam 50% + NEA 50%. AOs: AO1 Recall (20%), AO2 Apply (30%), AO3 Analyse & evaluate (50%). For grade 9, demonstrate systems thinking by analysing subsystem interactions and evaluating system choices with reference to specific contexts.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

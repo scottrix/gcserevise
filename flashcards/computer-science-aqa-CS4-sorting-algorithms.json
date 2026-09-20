@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS4-sorting-algorithms",
+ "topicName": "Sorting Algorithms",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs4-sorting-algorithms-fc1",
+   "front": "Recall a key point about Sorting Algorithms",
+   "back": "A sorting algorithm arranges the elements of a list into a particular order (usually ascending or descending). Sorting makes data easier to search, read, and process.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc2",
+   "front": "What should you know about bubble sort?",
+   "back": "works by repeatedly stepping through the list, comparing each pair of adjacent items, and swapping them if they are in the wrong order. After each pass, the largest unsorted element \"bubbles up\" to its correct position at the end of the list.",
+   "tags": [
+    "bubble-sort"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc3",
+   "front": "What should you know about merge sort?",
+   "back": "uses a \"divide and conquer\" approach. It splits the list into individual elements, then repeatedly merges pairs of sorted sublists until the whole list is recombined in order.",
+   "tags": [
+    "merge-sort"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc4",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "When comparing sorting algorithms, always give the time complexity of each and explain what it means for the given dataset size. Mention trade-offs: bubble sort is simple and in-place but slow; merge sort is fast but uses extra memory. For bubble sort questions, describe how each pass works and that n-1 passes are needed. Show the comparison count for a specific n to illustrate efficiency differences.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc5",
+   "front": "What does 1 mean?",
+   "back": "5, 3 (e.g. 5 > 3 → Swap)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc6",
+   "front": "What does 2 mean?",
+   "back": "5, 8 (e.g. 5 < 8 → No swap)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc7",
+   "front": "What does 3 mean?",
+   "back": "8, 1 (e.g. 8 > 1 → Swap)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc8",
+   "front": "What does 4 mean?",
+   "back": "8, 2 (e.g. 8 > 2 → Swap)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc9",
+   "front": "What does 1 mean?",
+   "back": "3, 5 (e.g. 3 < 5 → No swap)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc10",
+   "front": "What does 2 mean?",
+   "back": "5, 1 (e.g. 5 > 1 → Swap)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc11",
+   "front": "What does 3 mean?",
+   "back": "5, 2 (e.g. 5 > 2 → Swap)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc12",
+   "front": "What does 1 mean?",
+   "back": "3, 1 (e.g. 3 > 1 → Swap)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc13",
+   "front": "What does 2 mean?",
+   "back": "3, 2 (e.g. 3 > 2 → Swap)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc14",
+   "front": "What does 1 mean?",
+   "back": "1, 2 (e.g. 1 < 2 → No swap)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs4-sorting-algorithms-fc15",
+   "front": "What does Approach mean?",
+   "back": "Repeatedly swap adjacent items (e.g. Divide and conquer, then merge)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "tables-tabulation",
+ "topicName": "Tables Tabulation",
+ "version": 1,
+ "steps": [
+  {
+   "id": "tables-tabulation-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A tally chart uses strokes to record data count, with every fifth stroke crossing the previous four for easy counting."
+  },
+  {
+   "id": "tables-tabulation-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A frequency table lists each data value or class alongside its frequency (count of occurrences)."
+  },
+  {
+   "id": "tables-tabulation-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Grouped frequency tables organise continuous data into class intervals; each interval has a lower and upper boundary."
+  },
+  {
+   "id": "tables-tabulation-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Class width is the difference between the upper and lower class boundaries; all classes in a table may have equal or unequal widths."
+  },
+  {
+   "id": "tables-tabulation-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What is the advantage of using a tally chart when collecting data? | Q: Data is recorded in the grouped frequency table with class intervals 0–9, 10–19, 20–29. What is the class width of each interval? | Q: In a two-way table, 40 students study Biology, 30 study Chemistry, and 15 study both. How many study at least one subject?"
+  },
+  {
+   "id": "tables-tabulation-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A tally chart allows data to be recorded quickly and efficiently as it is collected, and the grouped tally marks (every five) make counting easy. | Each class interval has a width of 10. For the interval 0–9, the boundaries are –0.5 and 9.5, giving a width of 10. | Using the addition rule: 40 + 30 – 15 = 55 students study at least one subject."
+  },
+  {
+   "id": "tables-tabulation-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always check whether class intervals are written using ≤ and < (e.g. 10 ≤ x < 20) so you know exactly which class a boundary value belongs to. In two-way table questions, always calculate row and column totals first — they help you find missing values and check your working. When asked to estimate the mean from a grouped frequency table, use midpoints of each class interval, not the upper or lower boundaries. If a question asks for the most common class interval, look for the highest frequency — not the widest class. When drawing up a grouped frequency table, choose class widths so that no class has a frequency of zero unless the data genuinely has a gap."
+  }
+ ]
+}

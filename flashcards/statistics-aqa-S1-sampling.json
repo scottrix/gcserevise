@@ -1,0 +1,157 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S1-sampling",
+ "topicName": "S1 Sampling",
+ "version": 1,
+ "cards": [
+  {
+   "id": "s1-sampling-fc1",
+   "front": "Recall a key point about S1 Sampling",
+   "back": "A sample is a smaller group selected from a larger population. We use samples to make inferences (educated guesses) about the whole population.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc2",
+   "front": "Recall a key point about S1 Sampling",
+   "back": "A larger sample size generally gives more accurate results, but the method of sampling is equally important.",
+   "tags": [
+    "important"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc3",
+   "front": "What should you know about reasons for sampling?",
+   "back": "Too expensive to survey everyone Too time-consuming to collect all data Some tests are destructive (e.g. testing light bulbs until they fail) Practical limitations",
+   "tags": [
+    "reasons-for-sampling"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc4",
+   "front": "What should you know about random sampling?",
+   "back": "Every member of the population has an equal chance of being selected. This reduces bias.",
+   "tags": [
+    "random-sampling"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc5",
+   "front": "What should you know about simple random sample?",
+   "back": "Every possible sample of size n has an equal chance of being chosen. Method: Assign each member a number, then use random number generator or lottery to select.",
+   "tags": [
+    "simple-random-sample"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc6",
+   "front": "What should you know about stratified sampling?",
+   "back": "The population is divided into groups (strata), then a random sample is taken from each group proportional to its size.",
+   "tags": [
+    "stratified-sampling"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc7",
+   "front": "What should you know about systematic sampling?",
+   "back": "Select every kth item from a list after a random starting point. Formula: k = population size ÷ sample size",
+   "tags": [
+    "systematic-sampling"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc8",
+   "front": "What should you know about bias?",
+   "back": "occurs when the sample does not fairly represent the population, leading to misleading conclusions.",
+   "tags": [
+    "bias"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc9",
+   "front": "What should you know about key limitations?",
+   "back": "Sample may not be representative of the population Results are estimates, not exact values Sampling error - natural variation between samples Larger samples reduce but don't eliminate error",
+   "tags": [
+    "key-limitations"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc10",
+   "front": "Recall a key point about S1 Sampling",
+   "back": "For sampling problems: (1) Identify the population and the sample clearly, (2) For stratified sampling, calculate each group's proportion of the total, then multiply by sample size, (3) For systematic sampling, find k = population size ÷ sample size, then choose random start from 1 to k, (4) Always check your stratified sample numbers add up to the total sample size, (5) Round carefully — you may need to adjust one group to make totals work.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc11",
+   "front": "What should you know about answers?",
+   "back": "(a) No — people at a luxury car dealership are more likely to have higher incomes. Not everyone in the population has an equal chance of being selected. (b) Selection bias — the sample over-represents wealthy individuals and under-represents lower income groups. (c) Use stratified or simple random sampling from the general population, e.g. selecting from the electoral roll or using random phone numbers.",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc12",
+   "front": "What does Population mean?",
+   "back": "The entire group being studied",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc13",
+   "front": "What does Sample mean?",
+   "back": "A smaller group taken from the population",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc14",
+   "front": "What does Inference mean?",
+   "back": "Using sample data to draw conclusions about the population",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s1-sampling-fc15",
+   "front": "What does Bias mean?",
+   "back": "When the sample doesn't fairly represent the population",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

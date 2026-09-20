@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "electronic-systems",
+ "topicName": "Electronic Systems",
+ "version": 1,
+ "steps": [
+  {
+   "id": "electronic-systems-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Electronic systems process information using electronic components: input (sensors), process (logic/programming), output (actuators)."
+  },
+  {
+   "id": "electronic-systems-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Input sensors convert physical quantities to electrical signals: LDRs (light), thermistors (temperature), potentiometers (position)."
+  },
+  {
+   "id": "electronic-systems-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Analogue signals vary continuously; digital signals have only two states (high/low, 1/0); ADCs convert analogue to digital."
+  },
+  {
+   "id": "electronic-systems-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Logic gates process digital signals: AND (output high only if all inputs high), OR (output high if any input high), NOT (inverts)."
+  },
+  {
+   "id": "electronic-systems-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain the difference between analogue and digital signals, giving an example of each. | Q: Draw a truth table for a 2-input AND gate and a 2-input OR gate. | Q: Explain why a microcontroller is more flexible than a hard-wired logic gate circuit."
+  },
+  {
+   "id": "electronic-systems-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Analogue signals vary continuously over a range (e.g. temperature sensor output 0-5V). Digital signals have only two states, high or low (e.g. a switch output that is either 0V or 5V). | AND: output is 1 only when both inputs are 1 (00->0, 01->0, 10->0, 11->1). OR: output is 1 when any input is 1 (00->0, 01->1, 10->1, 11->1). | A microcontroller's behaviour is determined by its program, which can be changed without altering the hardware. A logic gate circuit performs a fixed function determined by the wiring; any change requ"
+  },
+  {
+   "id": "electronic-systems-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When designing electronic systems, always identify the input, process and output blocks separately. Logic gate truth tables must be complete for all input combinations — use systematic ordering (00, 01, 10, 11). In microcontroller questions, describe the program using flowchart symbols or pseudocode. Transistor interfacing questions are common: explain base, collector and emitter currents clearly. Remember that sensors produce analogue signals that need ADC conversion before digital processing."
+  }
+ ]
+}

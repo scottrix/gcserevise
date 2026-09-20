@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS11-input-output-string-handling",
+ "topicName": "Input, Output & String Handling",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs11-input-output-string-handling-fc1",
+   "front": "What should you know about input?",
+   "back": "gets data from the user (or another source) and stores it in a variable. In most pseudo-code, INPUT returns a string, so you may need to convert it to the correct data type.",
+   "tags": [
+    "input"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc2",
+   "front": "Recall a key point about Input, Output & String Handling",
+   "back": "Data received via INPUT is usually a string. If you need to perform arithmetic, you must convert it using INT(), FLOAT(), or other type conversion functions.",
+   "tags": [
+    "important"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc3",
+   "front": "What should you know about output?",
+   "back": "displays data to the user. You can output variables, strings, numbers, and expressions. Use & to concatenate (join) items in the output.",
+   "tags": [
+    "output"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc4",
+   "front": "What should you know about string operations?",
+   "back": "allow you to manipulate text data. At GCSE, you need to know LENGTH, POSITION (or INSTR), SUBSTRING, and concatenation.",
+   "tags": [
+    "string-operations"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc5",
+   "front": "Recall a key point about Input, Output & String Handling",
+   "back": "POSITION returns the index of the first character of the found substring. If the substring is not found, it returns -1. Positions are zero-indexed in many specifications.",
+   "tags": [
+    "note"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc6",
+   "front": "What should you know about every character?",
+   "back": "is stored in a computer as a numeric code (ASCII or Unicode). The ASC() function converts a character to its code, and CHR() converts a code back to a character.",
+   "tags": [
+    "every-character"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc7",
+   "front": "What should you know about type conversion?",
+   "back": "functions change data from one type to another. These are essential when working with user input (which arrives as a string) or when formatting output.",
+   "tags": [
+    "type-conversion"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc8",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Know key string functions: LENGTH(), SUBSTRING(), UPPER(), LOWER(), LEFT(), RIGHT(), ASC(), CHR(). Always cast input to the correct type before processing. Remember string indexing convention for your exam board. For string manipulation, find the space position first to split names. Show each step clearly when extracting substrings.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc9",
+   "front": "What does ASC(character) mean?",
+   "back": "Returns the character code of a single character (e.g. ASC('A'))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc10",
+   "front": "What does CHR(code) mean?",
+   "back": "Returns the character for a given code (e.g. CHR(65))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc11",
+   "front": "What does 'A' mean?",
+   "back": "65",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc12",
+   "front": "What does 'Z' mean?",
+   "back": "90",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc13",
+   "front": "What does 'a' mean?",
+   "back": "97",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc14",
+   "front": "What does 'z' mean?",
+   "back": "122",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs11-input-output-string-handling-fc15",
+   "front": "What does '0' mean?",
+   "back": "48",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

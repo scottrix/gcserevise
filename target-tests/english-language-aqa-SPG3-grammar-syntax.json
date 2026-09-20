@@ -1,0 +1,38 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "SPG3-grammar-syntax",
+ "topicName": "Grammar and Syntax",
+ "version": 1,
+ "tests": [
+  {
+   "id": "spg3-grammar-syntax-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Grammar and Syntax",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "spg3-grammar-syntax-t1",
+     "type": "short-answer",
+     "question": "Identify the error: \"The group of students are studying hard.\"",
+     "correctAnswer": "\"are\" should be \"is\" - the subject is \"group\" (singular), not \"students\"",
+     "explanation": "Answer: \"are\" should be \"is\" - the subject is \"group\" (singular), not \"students\"",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg3-grammar-syntax-t2",
+     "type": "short-answer",
+     "question": "Rewrite using active voice: \"The window was broken by the ball.\"",
+     "correctAnswer": "The ball broke the window.",
+     "explanation": "Answer: The ball broke the window.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

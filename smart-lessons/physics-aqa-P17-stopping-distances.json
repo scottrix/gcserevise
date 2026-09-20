@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P17-stopping-distances",
+ "topicName": "Stopping Distances",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p17-stopping-distances-s1",
+   "kind": "learn",
+   "title": "Stopping distance",
+   "body": "The total distance a vehicle travels from the moment the driver sees a hazard to the moment the vehicle stops. Stopping distance = thinking distance + braking distance."
+  },
+  {
+   "id": "p17-stopping-distances-s2",
+   "kind": "learn",
+   "title": "Thinking distance",
+   "body": "The distance the vehicle travels during the driver's reaction time (the time between seeing the hazard and pressing the brake)."
+  },
+  {
+   "id": "p17-stopping-distances-s3",
+   "kind": "learn",
+   "title": "Braking distance",
+   "body": "The distance the vehicle travels while the brakes are applied, from pressing the brake to coming to a complete stop."
+  },
+  {
+   "id": "p17-stopping-distances-s4",
+   "kind": "learn",
+   "title": "Reaction time",
+   "body": "The time between seeing a hazard and responding (pressing the brake). Typical reaction time is about 0.5 seconds."
+  },
+  {
+   "id": "p17-stopping-distances-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Braking distance depends on the vehicle's speed and factors affecting the brakes and road. Factor Effect on braking distance Why Higher speed Increases greatly More kinetic energy to remove; braking distance increases with speed² Greater mass Increases More kinetic energy (KE = ½mv²) Wet / icy roads Increases Less friction between tyres and road Worn tyres Increases Less grip on the road surface Worn brakes Increases Reduced braking force"
+  },
+  {
+   "id": "p17-stopping-distances-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation Define stopping distance and state the equation that links its two components. | Foundation Give two factors that increase thinking distance and two factors that increase braking distance. | Higher A car of mass 1200 kg travels at 15 m/s. The braking force is 6000 N. Calculate the braking distance."
+  },
+  {
+   "id": "p17-stopping-distances-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Stopping distance is the total distance travelled from seeing a hazard to stopping. Stopping distance = thinking distance + braking distance. | Thinking distance: higher speed, tiredness, alcohol/drugs, distractions. Braking distance: higher speed, wet/icy roads, worn tyres, worn brakes, greater mass. | KE = ½ × 1200 × 15² = 135 000 J. Braking distance = KE / F = 135 000 / 6000 = 22.5 m"
+  },
+  {
+   "id": "p17-stopping-distances-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Stopping distance = thinking distance + braking distance — don't multiply them Thinking distance is proportional to speed . Braking distance is proportional to speed² When asked to explain why speed affects braking distance, always use KE = ½mv² and the work done equation Alcohol and drugs affect thinking distance (via reaction time), NOT braking distance Wet/icy roads affect braking distance (via friction), NOT thinking distance Exam questions often ask you to estimate stopping distances — learn the typical values at 30 mph (23 m) and 70 mph (96 m)"
+  }
+ ]
+}

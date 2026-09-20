@@ -1,0 +1,112 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "composites-other-materials",
+ "topicName": "Composites & Other Materials",
+ "version": 1,
+ "questions": [
+  {
+   "id": "composites-other-materials-q1",
+   "type": "short-answer",
+   "question": "Q: Explain what a composite material is and why composites are used in engineering.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A composite combines a matrix and a reinforcement to create properties that neither material has alone. The reinforcement provides strength and stiffness while the matrix binds, protects and transfers loads. Composites allow engineers to tailor properties for specific applications.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "composites-other-materials-q2",
+   "type": "short-answer",
+   "question": "Q: Compare carbon fibre reinforced polymer (CFRP) and glass fibre reinforced polymer (GRP).",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "CFRP is lighter and stronger with a higher stiffness-to-weight ratio, but is significantly more expensive. GRP is cheaper, easier to manufacture and still offers good strength and corrosion resistance. CFRP is used where weight is critical (aerospace, motorsport); GRP for marine, chemical and general engineering.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "composites-other-materials-q3",
+   "type": "short-answer",
+   "question": "Q: Why does fibre orientation matter in composite materials?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Unidirectional fibres provide maximum strength only along the fibre direction; loads perpendicular to the fibres are carried only by the weaker matrix. Woven or multidirectional reinforcement distributes strength in multiple directions, which is needed when loads are not all in one direction.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "composites-other-materials-q4",
+   "type": "short-answer",
+   "question": "Q: Why is steel reinforcement added to structural concrete?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Concrete has high compressive strength but very low tensile strength (it cracks under tension). Steel rebars resist tension, creating reinforced concrete that can withstand both compression and tension, making it suitable for beams, columns and slabs.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "composites-other-materials-q5",
+   "type": "short-answer",
+   "question": "Q: Describe two advantages of plywood over solid timber for engineering applications.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Plywood resists splitting because alternate veneers have perpendicular grain directions, giving strength in both directions. It is also available in large, uniform sheets with consistent properties, unlike solid timber which has natural defects and variation.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "composites-other-materials-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate the use of CFRP versus aluminium alloy for the body panels of a high-performance sports car. Consider mechanical performance, weight, cost and manufacture. [8 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "CFRP offers a significantly higher strength-to-weight ratio than aluminium alloy, allowing body panels that are up to 40% lighter while maintaining equivalent or greater stiffness. In a high-performance sports car, reduced weight directly improves acceleration, braking, fuel efficiency and handling, making CFRP highly desirable. However, CFRP is far more expensive than aluminium alloy in both material cost and manufacturing complexity. CFRP panels require labour-intensive lay-up, autoclave curing and careful quality control, whereas aluminium panels can be stamped in high volumes using convent",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "CFRP offers a significantly higher strength-to-weight ratio than aluminium alloy, allowing body panels that are up to 40% lighter while maintaining equivalent or greater stiffness. In a high-performance sports car, reduced weight directly improves acceleration, braking, fuel efficiency and handling, making CFRP highly desirable. However, CFRP is far more expensive than aluminium alloy in both material cost and manufacturing complexity. CFRP panels require labour-intensive lay-up, autoclave curing and careful quality control, whereas aluminium panels can be stamped in high volumes using conventional presses. Repair of CFRP is also more difficult and costly than repairing aluminium panels, which can be reshaped or replaced relatively easily. For a limited-production high-performance car where weight saving justifies premium pricing, CFRP is the better choice. For higher-volume production, aluminium alloy offers a practical balance of light weight, lower cost and established manufacturing processes."
+   }
+  }
+ ]
+}

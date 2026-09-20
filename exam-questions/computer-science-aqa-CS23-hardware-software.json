@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS23-hardware-software",
+ "topicName": "Hardware & Software",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs23-hardware-software-q1",
+   "type": "short-answer",
+   "question": "Define the terms hardware and software.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hardware is the physical components of a computer system (the parts you can touch). Software is the programs and instructions that tell the hardware what to do (not physical).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs23-hardware-software-q2",
+   "type": "short-answer",
+   "question": "Explain why hardware and software are interdependent.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hardware needs software to provide it with instructions to execute; without software, hardware has nothing to run. Software needs hardware to execute its instructions; without hardware, software has nothing to run on. Neither can function alone.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs23-hardware-software-q3",
+   "type": "short-answer",
+   "question": "Classify each as input, output, or storage: keyboard, monitor, SSD, scanner, speaker, USB drive.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Keyboard = input, Monitor = output, SSD = storage, Scanner = input, Speaker = output, USB drive = storage.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs23-hardware-software-q4",
+   "type": "short-answer",
+   "question": "What is the difference between system software and application software? Give two examples of each.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "System software manages the hardware and provides a platform for applications (e.g. operating system, device driver). Application software performs specific tasks for the user (e.g. word processor, web browser).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs23-hardware-software-q5",
+   "type": "short-answer",
+   "question": "Explain the difference between general-purpose and special-purpose application software.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "General-purpose software can be used for many different tasks (e.g. a word processor can write letters, essays, reports). Special-purpose software is designed for one specific task (e.g. a payroll system that only calculates wages).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs23-hardware-software-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain the difference between RAM and ROM, and state why both are needed in a computer system. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "RAM (Random Access Memory) is volatile — it loses its contents when power is switched off. It stores the operating system, running programs, and data currently being processed. It is read-write, meaning the CPU can both read from and write to RAM. ROM (Read Only Memory) is non-volatile — it retains its contents when power is switched off. It stores the BIOS/boot instructions needed to start the computer. It is read-only, meaning the CPU can read from it but cannot write to it. Both are needed because ROM provides the startup instructions that load the OS into RAM, and RAM provides the working ",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "RAM (Random Access Memory) is volatile — it loses its contents when power is switched off. It stores the operating system, running programs, and data currently being processed. It is read-write, meaning the CPU can both read from and write to RAM. ROM (Read Only Memory) is non-volatile — it retains its contents when power is switched off. It stores the BIOS/boot instructions needed to start the computer. It is read-only, meaning the CPU can read from it but cannot write to it. Both are needed because ROM provides the startup instructions that load the OS into RAM, and RAM provides the working space for the OS and programs to run. Without ROM, the computer could not boot; without RAM, no programs could run."
+   }
+  }
+ ]
+}

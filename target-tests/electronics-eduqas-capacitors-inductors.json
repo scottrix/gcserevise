@@ -1,0 +1,58 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "capacitors-inductors",
+ "topicName": "Capacitors & Inductors",
+ "version": 1,
+ "tests": [
+  {
+   "id": "capacitors-inductors-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Capacitors & Inductors",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "capacitors-inductors-t1",
+     "type": "short-answer",
+     "question": "Q: A 100 μF capacitor is charged to 10 V. How much charge is stored?",
+     "correctAnswer": "Q = CV = 100 × 10⁻⁶ × 10 = 1 × 10⁻³ C = 1 mC.",
+     "explanation": "Answer: Q = CV = 100 × 10⁻⁶ × 10 = 1 × 10⁻³ C = 1 mC.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "capacitors-inductors-t2",
+     "type": "short-answer",
+     "question": "Q: What is the time constant of a circuit with R = 10 kΩ and C = 20 μF?",
+     "correctAnswer": "τ = RC = 10 × 10³ × 20 × 10⁻⁶ = 0.2 s.",
+     "explanation": "Answer: τ = RC = 10 × 10³ × 20 × 10⁻⁶ = 0.2 s.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "capacitors-inductors-t3",
+     "type": "short-answer",
+     "question": "Q: How much energy is stored in a 47 μF capacitor charged to 12 V?",
+     "correctAnswer": "E = ½CV² = 0.5 × 47 × 10⁻⁶ × 144 = 3.384 × 10⁻³ J ≈ 3.4 mJ.",
+     "explanation": "Answer: E = ½CV² = 0.5 × 47 × 10⁻⁶ × 144 = 3.384 × 10⁻³ J ≈ 3.4 mJ.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "capacitors-inductors-t4",
+     "type": "short-answer",
+     "question": "Q: What is the energy stored in a 10 mH inductor carrying 2 A?",
+     "correctAnswer": "E = ½LI² = 0.5 × 10 × 10⁻³ × 4 = 20 × 10⁻³ J = 20 mJ.",
+     "explanation": "Answer: E = ½LI² = 0.5 × 10 × 10⁻³ × 4 = 20 × 10⁻³ J = 20 mJ.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

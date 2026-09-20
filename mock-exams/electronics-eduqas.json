@@ -1,0 +1,138 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "mock-exam",
+ "topicName": "Electronics Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "electronics-mock",
+   "name": "Electronics Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Amplifier Circuits] Q: An amplifier has an input of 50 mV and an output of 2 V. Calculate the voltage gain and express it in dB.",
+     "correctAnswer": "Av = 2/0.05 = 40. G(dB) = 20 log₁₀(40) = 20 × 1.602 = 32.0 dB.",
+     "explanation": "Av = 2/0.05 = 40. G(dB) = 20 log₁₀(40) = 20 × 1.602 = 32.0 dB.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Amplifier Circuits] Q: A summing amplifier has Rf = 100 kΩ and three inputs each with R = 20 kΩ. If V1 = 1 V, V2 = 2 V, V3 = 0.5 V, find Vout.",
+     "correctAnswer": "Vout = −Rf(V1/R1 + V2/R2 + V3/R3) = −100(1/20 + 2/20 + 0.5/20) = −100 × 0.175 = −17.5 V.",
+     "explanation": "Vout = −Rf(V1/R1 + V2/R2 + V3/R3) = −100(1/20 + 2/20 + 0.5/20) = −100 × 0.175 = −17.5 V.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Amplifier Circuits] Q: An op-amp has a GBW of 1 MHz. If the closed-loop gain is 100, what is the bandwidth?",
+     "correctAnswer": "Bandwidth = GBW/Av = 1 × 10⁶/100 = 10 kHz.",
+     "explanation": "Bandwidth = GBW/Av = 1 × 10⁶/100 = 10 kHz.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Analogue Signals & Filters] Q: Calculate the cut-off frequency of an RC low-pass filter with R = 1 kΩ and C = 100 nF.",
+     "correctAnswer": "f_c = 1/(2πRC) = 1/(2π × 1000 × 100 × 10⁻⁹) = 1/(6.283 × 10⁻⁴) = 1592 Hz ≈ 1.6 kHz.",
+     "explanation": "f_c = 1/(2πRC) = 1/(2π × 1000 × 100 × 10⁻⁹) = 1/(6.283 × 10⁻⁴) = 1592 Hz ≈ 1.6 kHz.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Analogue Signals & Filters] Q: What is the roll-off rate of a first-order RC low-pass filter above the cut-off frequency?",
+     "correctAnswer": "−20 dB/decade, which is equivalent to −6 dB/octave.",
+     "explanation": "−20 dB/decade, which is equivalent to −6 dB/octave.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Analogue Signals & Filters] Q: Explain the purpose of a voltage follower buffer in a filter circuit.",
+     "correctAnswer": "A voltage follower provides high input impedance and low output impedance, preventing the filter from being loaded by the next stage.",
+     "explanation": "A voltage follower provides high input impedance and low output impedance, preventing the filter from being loaded by the next stage.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Boolean Algebra] Q: Simplify: A + A·B",
+     "correctAnswer": "A + A·B = A (absorption law).",
+     "explanation": "A + A·B = A (absorption law).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Boolean Algebra] Q: Apply De Morgan's law to (A·B)'.",
+     "correctAnswer": "(A·B)' = A' + B' (De Morgan's first law).",
+     "explanation": "(A·B)' = A' + B' (De Morgan's first law).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Boolean Algebra] Q: Simplify: A·Ā",
+     "correctAnswer": "A·Ā = 0 (complement law: a variable ANDed with its complement is always 0).",
+     "explanation": "A·Ā = 0 (complement law: a variable ANDed with its complement is always 0).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Capacitors & Inductors] Q: A 100 μF capacitor is charged to 10 V. How much charge is stored?",
+     "correctAnswer": "Q = CV = 100 × 10⁻⁶ × 10 = 1 × 10⁻³ C = 1 mC.",
+     "explanation": "Q = CV = 100 × 10⁻⁶ × 10 = 1 × 10⁻³ C = 1 mC.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Capacitors & Inductors] Q: What is the time constant of a circuit with R = 10 kΩ and C = 20 μF?",
+     "correctAnswer": "τ = RC = 10 × 10³ × 20 × 10⁻⁶ = 0.2 s.",
+     "explanation": "τ = RC = 10 × 10³ × 20 × 10⁻⁶ = 0.2 s.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Capacitors & Inductors] Q: How much energy is stored in a 47 μF capacitor charged to 12 V?",
+     "correctAnswer": "E = ½CV² = 0.5 × 47 × 10⁻⁶ × 144 = 3.384 × 10⁻³ J ≈ 3.4 mJ.",
+     "explanation": "E = ½CV² = 0.5 × 47 × 10⁻⁶ × 144 = 3.384 × 10⁻³ J ≈ 3.4 mJ.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

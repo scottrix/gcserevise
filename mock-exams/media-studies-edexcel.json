@@ -1,0 +1,138 @@
+{
+ "subject": "media-studies",
+ "board": "Edexcel",
+ "topic": "mock-exam",
+ "topicName": "Media-Studies Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "media-studies-mock",
+   "name": "Media-Studies Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Media Language] Q: What is the difference between denotation and connotation?",
+     "correctAnswer": "Denotation is the literal, surface-level meaning of a sign — what you actually see (e.g. a red rose is a flower). Connotation is the deeper cultural meaning it suggests (e.g. a red rose connotes love, passion, romance).",
+     "explanation": "Denotation is the literal, surface-level meaning of a sign — what you actually see (e.g. a red rose is a flower). Connotation is the deeper cultural meaning it suggests (e.g. a red rose connotes love, passion, romance).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Media Language] Q: Explain the three types of technical codes used in film and television.",
+     "correctAnswer": "Camerawork: shot types (close-up, wide shot, low angle) and movement that frame the action. Editing: cuts, transitions, pace and rhythm that shape narrative and emotion. Sound: diegetic (within the world) and non-diegetic (added) sound that creates atmosphere and meaning.",
+     "explanation": "Camerawork: shot types (close-up, wide shot, low angle) and movement that frame the action. Editing: cuts, transitions, pace and rhythm that shape narrative and emotion. Sound: diegetic (within the world) and non-diegetic (added) sound that creates atmosphere and meaning.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Media Language] Q: What is intertextuality and why do media producers use it?",
+     "correctAnswer": "Intertextuality is when one media product references or borrows from another — e.g. The Simpsons parodying a film scene. Producers use it to create humour, show sophistication, appeal to knowledgeable audiences, and add layers of meaning.",
+     "explanation": "Intertextuality is when one media product references or borrows from another — e.g. The Simpsons parodying a film scene. Producers use it to create humour, show sophistication, appeal to knowledgeable audiences, and add layers of meaning.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Newspapers & Journalism] Q: What are Galtung and Ruge's news values?",
+     "correctAnswer": "News values are the criteria editors use to decide which stories to publish: immediacy (is it happening now?), proximity (is it local?), conflict (does it involve dispute?), drama (is it dramatic?), celebrity (does it involve famous people?), negativity (is it bad news?), surprise (is it unexpected?",
+     "explanation": "News values are the criteria editors use to decide which stories to publish: immediacy (is it happening now?), proximity (is it local?), conflict (does it involve dispute?), drama (is it dramatic?), celebrity (does it involve famous people?), negativity (is it bad news?), surprise (is it unexpected?",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Newspapers & Journalism] Q: How do tabloid and broadsheet newspapers differ?",
+     "correctAnswer": "Tabloids use sensational stories, large headlines, simple language, and focus on celebrity and human interest. Broadsheets use detailed analysis, complex language, serious topics, and longer articles. The difference reflects their target audiences: tabloids target a mass audience, broadsheets target",
+     "explanation": "Tabloids use sensational stories, large headlines, simple language, and focus on celebrity and human interest. Broadsheets use detailed analysis, complex language, serious topics, and longer articles. The difference reflects their target audiences: tabloids target a mass audience, broadsheets target",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Newspapers & Journalism] Q: Evaluate the impact of digital technology on newspapers.",
+     "correctAnswer": "Digital technology has enabled 24/7 news updates, multimedia content, and global reach. However, it has devastated print circulation and advertising revenue. Online news is often free, making paywalls necessary but risky. Social media both distributes and competes with newspaper content. The busines",
+     "explanation": "Digital technology has enabled 24/7 news updates, multimedia content, and global reach. However, it has devastated print circulation and advertising revenue. Online news is often free, making paywalls necessary but risky. Social media both distributes and competes with newspaper content. The busines",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Radio & Podcasts] Q: How do BBC and commercial radio differ in their approaches to audiences?",
+     "correctAnswer": "BBC radio operates under public service obligations to serve diverse audiences with distinctive programming, funded by the licence fee. Commercial radio is funded by advertising and targets specific demographics to maximise ad revenue — this means programming is designed to attract the most commerci",
+     "explanation": "BBC radio operates under public service obligations to serve diverse audiences with distinctive programming, funded by the licence fee. Commercial radio is funded by advertising and targets specific demographics to maximise ad revenue — this means programming is designed to attract the most commerci",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Radio & Podcasts] Q: What are the key conventions of radio as a media form?",
+     "correctAnswer": "Key conventions include: scheduling (programmes at set times), jingles and station identification, news bulletins, phone-ins and audience interaction, playlists for music stations, presenter personality (parasocial relationships), and the use of sound codes (speech, music, effects, silence) to creat",
+     "explanation": "Key conventions include: scheduling (programmes at set times), jingles and station identification, news bulletins, phone-ins and audience interaction, playlists for music stations, presenter personality (parasocial relationships), and the use of sound codes (speech, music, effects, silence) to creat",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Radio & Podcasts] Q: Evaluate the impact of podcasting on traditional radio.",
+     "correctAnswer": "Podcasting has challenged radio by offering on-demand, niche content that radio's scheduled format cannot match. Audiences increasingly choose podcasts over scheduled programming. However, radio retains advantages: live content (news, sport), broad reach, and established presenter relationships. Man",
+     "explanation": "Podcasting has challenged radio by offering on-demand, niche content that radio's scheduled format cannot match. Audiences increasingly choose podcasts over scheduled programming. However, radio retains advantages: live content (news, sport), broad reach, and established presenter relationships. Man",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Online, Social & Participatory Media] Q: What is the 'prosumer' and how has digital media created this role?",
+     "correctAnswer": "A prosumer is someone who both produces and consumes media content. Digital media — smartphones, social media platforms, editing apps — has enabled audiences to create and share content, not just passively consume it. Examples include YouTube vloggers, TikTok creators, and fan fiction writers.",
+     "explanation": "A prosumer is someone who both produces and consumes media content. Digital media — smartphones, social media platforms, editing apps — has enabled audiences to create and share content, not just passively consume it. Examples include YouTube vloggers, TikTok creators, and fan fiction writers.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Online, Social & Participatory Media] Q: How do algorithms affect what audiences see on social media?",
+     "correctAnswer": "Algorithms analyse user behaviour (likes, shares, watch time) to personalise content feeds. They prioritise content likely to generate engagement, creating filter bubbles where users see posts that reinforce their existing views. This can polarise opinions and limit exposure to diverse perspectives.",
+     "explanation": "Algorithms analyse user behaviour (likes, shares, watch time) to personalise content feeds. They prioritise content likely to generate engagement, creating filter bubbles where users see posts that reinforce their existing views. This can polarise opinions and limit exposure to diverse perspectives.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Online, Social & Participatory Media] Q: Evaluate the impact of social media on democratic participation.",
+     "correctAnswer": "Social media enables direct political engagement, rapid mobilisation (Arab Spring, BLM), and gives voice to marginalised groups. However, filter bubbles polarise debate, misinformation spreads faster than truth, and algorithmic amplification rewards extreme content. The net effect depends on regulat",
+     "explanation": "Social media enables direct political engagement, rapid mobilisation (Arab Spring, BLM), and gives voice to marginalised groups. However, filter bubbles polarise debate, misinformation spreads faster than truth, and algorithmic amplification rewards extreme content. The net effect depends on regulat",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

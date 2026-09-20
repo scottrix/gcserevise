@@ -1,0 +1,58 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C11-gas-calculations",
+ "topicName": "Gas Calculations",
+ "version": 1,
+ "tests": [
+  {
+   "id": "c11-gas-calculations-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Gas Calculations",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "c11-gas-calculations-t1",
+     "type": "short-answer",
+     "question": "Higher What volume does 0.5 mol of chlorine gas occupy at RTP?",
+     "correctAnswer": "Volume = 0.5 × 24 = 12 dm³",
+     "explanation": "Answer: Volume = 0.5 × 24 = 12 dm³",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c11-gas-calculations-t2",
+     "type": "short-answer",
+     "question": "Higher How many moles are in 120 dm³ of neon gas at RTP?",
+     "correctAnswer": "Moles = 120 ÷ 24 = 5 mol",
+     "explanation": "Answer: Moles = 120 ÷ 24 = 5 mol",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c11-gas-calculations-t3",
+     "type": "short-answer",
+     "question": "Higher What mass of CO₂ (M r = 44) occupies 12 dm³ at RTP?",
+     "correctAnswer": "Moles = 12 ÷ 24 = 0.5 mol. Mass = 0.5 × 44 = 22 g",
+     "explanation": "Answer: Moles = 12 ÷ 24 = 0.5 mol. Mass = 0.5 × 44 = 22 g",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c11-gas-calculations-t4",
+     "type": "short-answer",
+     "question": "Higher In the reaction 2H₂(g) + O₂(g) → 2H₂O(g), what volume of oxygen is needed to react with 48 dm³ of hydrogen at RTP?",
+     "correctAnswer": "Mole ratio H₂ : O₂ = 2 : 1. Volume of O₂ = 48 ÷ 2 = 24 dm³",
+     "explanation": "Answer: Mole ratio H₂ : O₂ = 2 : 1. Volume of O₂ = 48 ÷ 2 = 24 dm³",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

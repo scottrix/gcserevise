@@ -1,0 +1,51 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT4-systems-approach-to-designing",
+ "topicName": "Systems Approach to Designing",
+ "version": 1,
+ "steps": [
+  {
+   "id": "dt4-systems-approach-to-designing-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Systems approach: breaking down a product into interrelated subsystems — input (sensor/switch), process (microcontroller/logic), output (actuator/display)."
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Open-loop system: no feedback — output does not affect input. E.g. a toaster with a timer: it runs for a set time regardless of how brown the bread is."
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Closed-loop system: uses feedback to adjust output — e.g. central heating with a thermostat senses temperature and switches the boiler on/off to maintain the set point."
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Feedback: information about the output fed back to the input to adjust the process — essential for precision and consistency."
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Explain the difference between an open-loop and a closed-loop system, giving an example of each. | A washing machine uses sensors to detect load weight and water temperature. Draw a systems diagram and explain how feedback is used. | Why is a closed-loop system more suitable than an open-loop system for controlling a greenhouse irrigation system?"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Open-loop: no feedback — the system does not monitor its own output. E.g. a fan heater with a simple on/off switch runs at fixed power. Closed-loop: feedback adjusts the output. E.g. a fan heater with | Input: load sensor, temperature sensor, water level sensor. Process: microcontroller compares sensor data with programmed settings. Output: motor speed, water valve, heater control. Feedback: temperat | A greenhouse needs precise moisture levels: too little water kills plants, too much causes root rot. Closed-loop: soil moisture sensor provides feedback, microcontroller activates irrigation only when"
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always draw a systems diagram if asked — it clarifies your thinking and earns marks Label input, process, output and feedback clearly Use the correct flowchart symbols in diagrams"
+  }
+ ]
+}

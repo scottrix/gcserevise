@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "diodes-transistors",
+ "topicName": "Diodes & Transistors",
+ "version": 1,
+ "steps": [
+  {
+   "id": "diodes-transistors-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A semiconductor diode allows current to flow in one direction only; it has a forward voltage drop of about 0.7 V for silicon."
+  },
+  {
+   "id": "diodes-transistors-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An LED (light-emitting diode) emits light when forward biased; it requires a series resistor to limit current."
+  },
+  {
+   "id": "diodes-transistors-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A bipolar junction transistor (BJT) has three terminals: base, collector and emitter."
+  },
+  {
+   "id": "diodes-transistors-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An NPN transistor switches on when the base-emitter voltage exceeds ~0.7 V, allowing collector current to flow."
+  },
+  {
+   "id": "diodes-transistors-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What is the typical forward voltage drop of a silicon diode? | Q: A transistor has h_FE = 100 and I_B = 50 μA. What is I_C? | Q: Why does an LED need a series resistor?"
+  },
+  {
+   "id": "diodes-transistors-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Approximately 0.7 V. | I_C = h_FE × I_B = 100 × 50 × 10⁻⁶ = 5 mA. | To limit the forward current to a safe value; without it, excessive current would destroy the LED."
+  },
+  {
+   "id": "diodes-transistors-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always include a series resistor when calculating LED circuits. State the value of V_BE (0.7 V for silicon) before using it in calculations. For switching circuits, verify the transistor is in saturation by checking I_C < h_FE × I_B. Label base, collector and emitter clearly on any circuit diagram. Remember that a common-emitter amplifier inverts the output signal."
+  }
+ ]
+}

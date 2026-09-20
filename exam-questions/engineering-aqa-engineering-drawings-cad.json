@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "engineering-drawings-cad",
+ "topicName": "Engineering Drawings & CAD/CAM",
+ "version": 1,
+ "questions": [
+  {
+   "id": "engineering-drawings-cad-q1",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between orthographic and isometric drawings.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Orthographic shows separate 2D views (front, plan, side) for precise dimensional information. Isometric shows a single 3D view for easier visualisation but less precision for dimensioning.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-drawings-cad-q2",
+   "type": "short-answer",
+   "question": "Q: Why is a section view used in engineering drawings?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A section reveals internal features (holes, chambers, wall thicknesses) hidden in external views. Hatching distinguishes solid material from empty space.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-drawings-cad-q3",
+   "type": "short-answer",
+   "question": "Q: Describe the information in an assembly drawing.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "All components in assembled positions with item numbers, a parts list with descriptions, quantities and materials. Overall dimensions but usually not individual part dimensions.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-drawings-cad-q4",
+   "type": "short-answer",
+   "question": "Q: Explain the CAD/CAM workflow from design to manufactured part.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Create 3D CAD model. 2) Generate 2D drawings with dimensions. 3) Use CAM to create toolpaths. 4) Post-process to G-code. 5) Verify by simulation. 6) Run CNC machine.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "engineering-drawings-cad-q5",
+   "type": "short-answer",
+   "question": "Q: State three dimensioning rules.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Never duplicate a dimension. 2) Place dimensions between views where possible. 3) Dimension from a common datum for related features.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

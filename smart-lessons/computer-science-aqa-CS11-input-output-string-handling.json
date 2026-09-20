@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS11-input-output-string-handling",
+ "topicName": "Input, Output & String Handling",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs11-input-output-string-handling-s1",
+   "kind": "learn",
+   "title": "INPUT",
+   "body": "gets data from the user (or another source) and stores it in a variable. In most pseudo-code, INPUT returns a string, so you may need to convert it to the correct data type."
+  },
+  {
+   "id": "cs11-input-output-string-handling-s2",
+   "kind": "learn",
+   "title": "Important",
+   "body": "Data received via INPUT is usually a string. If you need to perform arithmetic, you must convert it using INT(), FLOAT(), or other type conversion functions."
+  },
+  {
+   "id": "cs11-input-output-string-handling-s3",
+   "kind": "learn",
+   "title": "OUTPUT",
+   "body": "displays data to the user. You can output variables, strings, numbers, and expressions. Use & to concatenate (join) items in the output."
+  },
+  {
+   "id": "cs11-input-output-string-handling-s4",
+   "kind": "learn",
+   "title": "String operations",
+   "body": "allow you to manipulate text data. At GCSE, you need to know LENGTH, POSITION (or INSTR), SUBSTRING, and concatenation."
+  },
+  {
+   "id": "cs11-input-output-string-handling-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "What does LENGTH(\"GCSE Computer Science\") return? | Write pseudo-code that asks for a word and outputs the first three characters. | What is the ASCII code for 'A'? What is CHR(97)?"
+  },
+  {
+   "id": "cs11-input-output-string-handling-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "20 characters (including the space). | INPUT word OUTPUT SUBSTRING(word, 0, 3) | The ASCII code for 'A' is 65. CHR(97) = 'a'."
+  },
+  {
+   "id": "cs11-input-output-string-handling-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always convert INPUT to the correct type before arithmetic Remember: SUBSTRING(string, start, length) not (start, end) POSITION returns -1 if the substring is not found Know the key ASCII codes: A=65, a=97, 0=48 Use & for string concatenation in pseudo-code Use STR() to convert numbers to strings for output"
+  }
+ ]
+}

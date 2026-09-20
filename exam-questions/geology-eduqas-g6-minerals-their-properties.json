@@ -1,0 +1,94 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g6-minerals-their-properties",
+ "topicName": "Minerals & Their Properties",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g6-minerals-their-properties-q1",
+   "type": "short-answer",
+   "question": "Q: Define the term 'mineral'.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A naturally occurring, inorganic solid with a definite chemical composition and a regular crystalline structure.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g6-minerals-their-properties-q2",
+   "type": "short-answer",
+   "question": "Q: How does the Mohs hardness scale work?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Minerals are ranked 1 (talc, softest) to 10 (diamond, hardest). A mineral can scratch any mineral with a lower hardness number. For example, quartz (7) scratches feldspar (6) but not topaz (8).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g6-minerals-their-properties-q3",
+   "type": "short-answer",
+   "question": "Q: What is the difference between cleavage and fracture?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cleavage is a clean break along flat planes of weakness in the crystal structure (e.g. mica splitting into thin sheets). Fracture is an irregular break not along a plane of weakness (e.g. quartz showing conchoidal fracture).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g6-minerals-their-properties-q4",
+   "type": "short-answer",
+   "question": "Q: Name the five most common rock-forming minerals in Earth's crust.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Feldspar (most abundant), quartz, mica, amphibole and pyroxene, all are silicates.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g6-minerals-their-properties-q5",
+   "type": "short-answer",
+   "question": "Q: Why is streak more reliable than colour for mineral identification?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Colour can vary due to impurities (e.g. quartz can be clear, pink, purple, black). Streak (the powder colour) is more consistent and diagnostic, for example, haematite is always red-brown in streak regardless of its surface colour.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

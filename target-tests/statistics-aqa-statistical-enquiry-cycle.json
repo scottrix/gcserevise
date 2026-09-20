@@ -1,0 +1,48 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "statistical-enquiry-cycle",
+ "topicName": "Statistical Enquiry Cycle",
+ "version": 1,
+ "tests": [
+  {
+   "id": "statistical-enquiry-cycle-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Statistical Enquiry Cycle",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "statistical-enquiry-cycle-t1",
+     "type": "short-answer",
+     "question": "Q: List the stages of the Statistical Enquiry Cycle in order.",
+     "correctAnswer": "Plan, Collect, Process, Present, Interpret, Evaluate.",
+     "explanation": "Answer: Plan, Collect, Process, Present, Interpret, Evaluate.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "statistical-enquiry-cycle-t2",
+     "type": "short-answer",
+     "question": "Q: At which stage would you calculate the mean and range of a data set?",
+     "correctAnswer": "Process.",
+     "explanation": "Answer: Process.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "statistical-enquiry-cycle-t3",
+     "type": "short-answer",
+     "question": "Q: At which stage would you draw a scatter graph to show the relationship between two variables?",
+     "correctAnswer": "Present.",
+     "explanation": "Answer: Present.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE5-cardiac-output-stroke-volume",
+ "topicName": "Cardiac Output, Stroke Volume & Heart Rate",
+ "version": 1,
+ "tests": [
+  {
+   "id": "pe5-cardiac-output-stroke-volume-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Cardiac Output, Stroke Volume & Heart Rate",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "pe5-cardiac-output-stroke-volume-t1",
+     "type": "short-answer",
+     "question": "State the equation linking cardiac output, stroke volume and heart rate.",
+     "correctAnswer": "Cardiac Output = Stroke Volume × Heart Rate (CO = SV × HR).",
+     "explanation": "Answer: Cardiac Output = Stroke Volume × Heart Rate (CO = SV × HR).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "pe5-cardiac-output-stroke-volume-t2",
+     "type": "short-answer",
+     "question": "Calculate the cardiac output of an athlete with a stroke volume of 120 ml/beat and a heart rate of 170 bpm during exercise.",
+     "correctAnswer": "CO = 120 ml/beat × 170 bpm = 20,400 ml/min = 20.4 l/min.",
+     "explanation": "Answer: CO = 120 ml/beat × 170 bpm = 20,400 ml/min = 20.4 l/min.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "pe5-cardiac-output-stroke-volume-t6",
+     "type": "short-answer",
+     "question": "A marathon runner has a resting HR of 42 bpm and a resting SV of 115 ml/beat. Calculate their resting cardiac output.",
+     "correctAnswer": "CO = 115 × 42 = 4,830 ml/min ≈ 4.8 l/min.",
+     "explanation": "Answer: CO = 115 × 42 = 4,830 ml/min ≈ 4.8 l/min.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

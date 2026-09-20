@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "engineering-drawings-cad",
+ "topicName": "Engineering Drawings & CAD/CAM",
+ "version": 1,
+ "steps": [
+  {
+   "id": "engineering-drawings-cad-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Engineering drawings communicate design intent precisely using standardised conventions and symbols."
+  },
+  {
+   "id": "engineering-drawings-cad-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Orthographic projection shows multiple 2D views: front elevation, plan and side elevation."
+  },
+  {
+   "id": "engineering-drawings-cad-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Third angle projection places views in the orientation seen from that direction (the UK standard)."
+  },
+  {
+   "id": "engineering-drawings-cad-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Isometric drawing shows a 3D view at 30 degrees with no perspective distortion; all axes at true scale."
+  },
+  {
+   "id": "engineering-drawings-cad-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain the difference between orthographic and isometric drawings. | Q: Why is a section view used in engineering drawings? | Q: Describe the information in an assembly drawing."
+  },
+  {
+   "id": "engineering-drawings-cad-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Orthographic shows separate 2D views (front, plan, side) for precise dimensional information. Isometric shows a single 3D view for easier visualisation but less precision for dimensioning. | A section reveals internal features (holes, chambers, wall thicknesses) hidden in external views. Hatching distinguishes solid material from empty space. | All components in assembled positions with item numbers, a parts list with descriptions, quantities and materials. Overall dimensions but usually not individual part dimensions."
+  },
+  {
+   "id": "engineering-drawings-cad-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always name the specific drawing type (orthographic, isometric, section, assembly). Third angle projection is the UK standard - state this explicitly. Section views: hatching identifies different materials and cut surfaces. Assembly drawings show HOW parts fit; detail drawings show EACH part individually. CAD/CAM: describe the full chain from 3D model to CNC output."
+  }
+ ]
+}

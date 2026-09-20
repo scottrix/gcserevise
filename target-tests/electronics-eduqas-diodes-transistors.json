@@ -1,0 +1,48 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "diodes-transistors",
+ "topicName": "Diodes & Transistors",
+ "version": 1,
+ "tests": [
+  {
+   "id": "diodes-transistors-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Diodes & Transistors",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "diodes-transistors-t1",
+     "type": "short-answer",
+     "question": "Q: What is the typical forward voltage drop of a silicon diode?",
+     "correctAnswer": "Approximately 0.7 V.",
+     "explanation": "Answer: Approximately 0.7 V.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "diodes-transistors-t2",
+     "type": "short-answer",
+     "question": "Q: A transistor has h_FE = 100 and I_B = 50 μA. What is I_C?",
+     "correctAnswer": "I_C = h_FE × I_B = 100 × 50 × 10⁻⁶ = 5 mA.",
+     "explanation": "Answer: I_C = h_FE × I_B = 100 × 50 × 10⁻⁶ = 5 mA.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "diodes-transistors-t4",
+     "type": "short-answer",
+     "question": "Q: What are the three terminals of a BJT?",
+     "correctAnswer": "Base, collector and emitter.",
+     "explanation": "Answer: Base, collector and emitter.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

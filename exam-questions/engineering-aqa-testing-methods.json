@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "testing-methods",
+ "topicName": "Testing Methods",
+ "version": 1,
+ "questions": [
+  {
+   "id": "testing-methods-q1",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between destructive and non-destructive testing, giving two examples of each.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Destructive testing damages the specimen: tensile testing (stretches to failure), Charpy impact testing (breaks specimen). NDT does not damage the component: ultrasonic testing (internal defects), dye penetrant testing (surface cracks). Destructive testing is done on sample specimens; NDT can be done on production parts.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "testing-methods-q2",
+   "type": "short-answer",
+   "question": "Q: Describe the tensile test and the key information it provides about a material.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A specimen is gripped in a machine and stretched at a constant rate. The force and extension are recorded, producing a stress-strain curve. This gives yield strength (onset of plastic deformation), ultimate tensile strength (maximum stress), Young's Modulus (stiffness from the slope) and ductility (elongation at break).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "testing-methods-q3",
+   "type": "short-answer",
+   "question": "Q: Why is ultrasonic testing preferred over X-ray testing for checking welds on a production line?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Ultrasonic testing is faster, requires no radiation safety precautions, can test thicker sections and is more portable. X-ray requires shielding, longer exposure times and film/detector processing, making it slower and more expensive for routine production checks.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "testing-methods-q4",
+   "type": "short-answer",
+   "question": "Q: Explain why quality control uses statistical sampling rather than testing every component.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Testing every component is too slow and expensive for mass production, and some tests are destructive. Statistical sampling tests a representative sample; if the sample passes, there is high confidence the whole batch meets the standard. The sample size and frequency are determined by the required confidence level and the criticality of the component.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "testing-methods-q5",
+   "type": "short-answer",
+   "question": "Q: A shaft has a nominal diameter of 25 mm with a bilateral tolerance of +/-0.05 mm. State the maximum and minimum acceptable diameters.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Maximum = 25 + 0.05 = 25.05 mm. Minimum = 25 - 0.05 = 24.95 mm. Any diameter between 24.95 and 25.05 mm is acceptable.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

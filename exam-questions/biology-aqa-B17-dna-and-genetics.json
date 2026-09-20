@@ -1,0 +1,129 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "B17-dna-and-genetics",
+ "topicName": "Dna And Genetics",
+ "version": 1,
+ "questions": [
+  {
+   "id": "b17-dna-and-genetics-q1",
+   "type": "short-answer",
+   "question": "Define the terms: gene, allele, genotype, phenotype, dominant, recessive.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Gene: a short section of DNA that codes for a specific protein. Allele: different versions of the same gene. Genotype: the combination of alleles an organism has. Phenotype: the physical characteristic expressed. Dominant: allele that is expressed with only one copy. Recessive: allele that is only expressed with two copies.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b17-dna-and-genetics-q2",
+   "type": "short-answer",
+   "question": "In rabbits, black coat (B) is dominant over white coat (b). A heterozygous black rabbit is crossed with a white rabbit. Use a Punnett square to show the expected offspring ratios.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Bb × bb. Punnett square: Bb, Bb, bb, bb. Genotype ratio: 1 Bb : 1 bb. Phenotype ratio: 1 black : 1 white (50% each).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b17-dna-and-genetics-q3",
+   "type": "short-answer",
+   "question": "Explain the difference between homozygous and heterozygous. Give an example of each using the allele for cystic fibrosis.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Homozygous means both alleles are the same (e.g. FF = unaffected, ff = has cystic fibrosis). Heterozygous means the two alleles are different (e.g. Ff = carrier, unaffected but carries one recessive allele).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b17-dna-and-genetics-q4",
+   "type": "short-answer",
+   "question": "Polydactyly is caused by a dominant allele. Explain why two parents who both have polydactyly could have a child without polydactyly.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Both parents could be heterozygous (Dd). If Dd × Dd, there is a 1/4 (25%) chance of a child being dd (no polydactyly). The recessive allele d from each parent combines to give dd.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b17-dna-and-genetics-q5",
+   "type": "short-answer",
+   "question": "Both parents are carriers for cystic fibrosis (Ff). They already have one child with cystic fibrosis. What is the probability their next child will also have cystic fibrosis? Explain your answer.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The probability remains 1/4 = 25%. Each pregnancy is an independent event — the genotype of previous children does not affect the probability for the next child. Ff × Ff always gives 1/4 chance of ff.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b17-dna-and-genetics-q6",
+   "type": "short-answer",
+   "question": "Higher Explain how sex is determined in humans and why there is a 50% probability of each sex.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Sex is determined by the 23rd pair of chromosomes: XX = female, XY = male. The mother always contributes an X chromosome. The father contributes either X or Y. Punnett square: XX, XX, XY, XY. Therefore 50% chance of female (XX) and 50% chance of male (XY). The sperm determines the sex of the offspring.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b17-dna-and-genetics-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain genetic inheritance using a Punnett square. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cystic fibrosis is caused by a recessive allele (f), so two copies are needed for the condition. When both parents are carriers (Ff), a Punnett square can predict the offspring genotypes. The father's gametes carry either F or f, and the mother's gametes carry either F or f. The Punnett square shows: FF (25%), Ff (50%), ff (25%). The genotype ratio is 1 FF : 2 Ff : 1 ff. Phenotypically, 75% of children will not have cystic fibrosis (FF + Ff), while 25% will have cystic fibrosis (ff). There is a 50% chance of each child being a carrier (Ff). Each pregnancy is an independent event, so the probab",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Cystic fibrosis is caused by a recessive allele (f), so two copies are needed for the condition. When both parents are carriers (Ff), a Punnett square can predict the offspring genotypes. The father's gametes carry either F or f, and the mother's gametes carry either F or f. The Punnett square shows: FF (25%), Ff (50%), ff (25%). The genotype ratio is 1 FF : 2 Ff : 1 ff. Phenotypically, 75% of children will not have cystic fibrosis (FF + Ff), while 25% will have cystic fibrosis (ff). There is a 50% chance of each child being a carrier (Ff). Each pregnancy is an independent event, so the probability remains the same regardless of previous children. Carriers are unaffected because the dominant F allele produces enough functional protein. Mark scheme: 1 mark — correct parental genotypes identified; 1 mark — correct gametes shown; 1 mark — Punnett square drawn correctly; 1 mark — correct genotype ratio; 1 mark — correct phenotype ratio with percentages; 1 mark — explanation of carriers and independence of events."
+   }
+  }
+ ]
+}

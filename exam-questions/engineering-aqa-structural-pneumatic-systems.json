@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "structural-pneumatic-systems",
+ "topicName": "Structural & Pneumatic Systems",
+ "version": 1,
+ "questions": [
+  {
+   "id": "structural-pneumatic-systems-q1",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between dead loads and live loads, giving two examples of each.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Dead loads are permanent forces from the structure's own weight (e.g. self-weight of beams, roofing tiles). Live loads are variable forces (e.g. people, furniture, wind, snow, vehicle traffic). Dead loads can be calculated precisely; live loads are estimated using standards.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "structural-pneumatic-systems-q2",
+   "type": "short-answer",
+   "question": "Q: Explain why triangulation makes space frame structures rigid.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A triangle is the only rigid polygon: its three sides fix the shape and cannot deform without changing a side length. In a space frame, triangulated members carry loads axially (tension or compression) rather than in bending, which is structurally efficient and lightweight.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "structural-pneumatic-systems-q3",
+   "type": "short-answer",
+   "question": "Q: Compare pneumatic and hydraulic systems for operating a factory clamping fixture.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Pneumatics uses compressed air: fast, clean and safe but limited in clamping force due to air compressibility. Hydraulics uses pressurised oil: capable of very high clamping force with precise control, but slower, more expensive and oil leaks create contamination risk. For a clamping fixture requiring high, consistent force, hydraulics is better; for rapid, light-duty clamping, pneumatics is suffi",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "structural-pneumatic-systems-q4",
+   "type": "short-answer",
+   "question": "Q: A hydraulic press has a small piston of area 5 cm2 and a large piston of area 100 cm2. If 200N is applied to the small piston, calculate the force on the large piston.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Pressure = Force / Area = 200N / 5cm2 = 40 N/cm2. Force on large piston = Pressure x Area = 40 x 100 = 4000 N. Mechanical advantage = 4000/200 = 20.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "structural-pneumatic-systems-q5",
+   "type": "short-answer",
+   "question": "Q: Explain why a slender column buckles rather than crushing under compressive load.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Buckling is an instability failure: a small lateral deflection causes an eccentric load that creates a bending moment, which increases the deflection further. This runaway effect causes the column to bow sideways and collapse before the material reaches its compressive strength. Shorter, wider columns resist buckling better than long, slender ones.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

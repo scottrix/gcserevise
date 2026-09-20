@@ -1,0 +1,78 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT19-manufacturing-processes",
+ "topicName": "Manufacturing Processes",
+ "version": 1,
+ "questions": [
+  {
+   "id": "dt19-manufacturing-processes-q1",
+   "type": "short-answer",
+   "question": "Explain why injection moulding is used for mass-producing a polypropylene food container but not for a one-off prototype.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Injection moulding: steel mould tool costs 10,000-100,000+ GBP but per-unit cost is pennies once made - economic only at 10,000+ units. For a one-off, 3D printing or CNC would cost 20-200 GBP with no tooling investment.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt19-manufacturing-processes-q2",
+   "type": "short-answer",
+   "question": "Compare CNC machining and 3D printing for producing a small batch (50 units) of a complex bracket prototype.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "CNC: cuts from solid block - strong, accurate, any material, but creates waste, requires programming. 3D printing: builds layer by layer - minimal waste, easy internal cavities, no tooling, but slower, anisotropic, limited material range, rougher finish. For 50 brackets: 3D printing if complex internals and no high strength needed; CNC if metal strength and precision needed.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt19-manufacturing-processes-q3",
+   "type": "short-answer",
+   "question": "Describe the process of blow moulding a PET drinks bottle, explaining why this process is suitable for hollow containers.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Process: PET granules melted and extruded as a hollow tube (parison); mould closes around the parison; compressed air inflates the parison against the cooled mould walls; plastic solidifies; mould opens, bottle ejected. Suitable because: naturally produces hollow thin-walled shapes, uses minimal material, fast cycle time, consistent quality.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt19-manufacturing-processes-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A company needs to produce 50,000 identical ABS remote control casings. Compare injection moulding and vacuum forming, justifying the most appropriate process with reference to cost, quality and production rate. <div class=\"",
+   "marks": 4,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: Injection moulding - tooling: 20,000-50,000 GBP for steel mould, cycle time: 15-30 seconds, per-unit cost: 0.10-0.30 GBP after tooling amortised, quality: excellent - precise detail, consistent wall thickness. Vacuum forming - tooling: 500-2,000 GBP for wooden mould, cycle time: 2-5 minutes, per-unit cost: 1-3 GBP, quality: limited - thin walls, uneven thickness. At 50,000 units: injection moulding total approx 60,000 GBP (1.20/unit); vacuum forming approx 102,000 GBP (2.04/unit). Injection moulding is cheaper and produces superior quality.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: Injection moulding - tooling: 20,000-50,000 GBP for steel mould, cycle time: 15-30 seconds, per-unit cost: 0.10-0.30 GBP after tooling amortised, quality: excellent - precise detail, consistent wall thickness. Vacuum forming - tooling: 500-2,000 GBP for wooden mould, cycle time: 2-5 minutes, per-unit cost: 1-3 GBP, quality: limited - thin walls, uneven thickness. At 50,000 units: injection moulding total approx 60,000 GBP (1.20/unit); vacuum forming approx 102,000 GBP (2.04/unit). Injection moulding is cheaper and produces superior quality."
+   }
+  }
+ ]
+}

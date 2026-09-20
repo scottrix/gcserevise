@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS26-programming-languages-translators",
+ "topicName": "Programming Languages & Translators",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs26-programming-languages-translators-fc1",
+   "front": "What should you know about key concept?",
+   "back": "Programming languages exist at different levels of abstraction from the hardware. Low-level languages are close to what the CPU understands. High-level languages are closer to human language and abstract away hardware details.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc2",
+   "front": "Recall a key point about Programming Languages & Translators",
+   "back": "Machine code is the fundamental language of the computer, consisting entirely of binary (0s and 1s). It is the only language the CPU can execute directly without translation.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc3",
+   "front": "Recall a key point about Programming Languages & Translators",
+   "back": "Assembly language is a low-level programming language that uses mnemonics (short, memorable codes) to represent machine code instructions. Each mnemonic corresponds to exactly one machine code instruction.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc4",
+   "front": "Recall a key point about Programming Languages & Translators",
+   "back": "High-level languages are programming languages designed to be easy for humans to read and write. They use English-like keywords and abstract away hardware details like memory addresses and registers.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc5",
+   "front": "Recall a key point about Programming Languages & Translators",
+   "back": "A translator is a program that converts code written in one programming language into another. The three types are: compiler, interpreter, and assembler.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc6",
+   "front": "Recall a key point about Programming Languages & Translators",
+   "back": "Some languages use both. Java is first compiled to bytecode, then the bytecode is interpreted by the Java Virtual Machine (JVM). This gives some of the advantages of both approaches.",
+   "tags": [
+    "note"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc7",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "High-level: English-like, portable, one-to-many translation, easier debugging. Low-level: hardware-specific, faster execution, one-to-one translation, direct memory/register access. Assembly = mnemonics, Machine code = binary. All code must become machine code to run. For comparison, use a structured table or clear paragraphs for each side. Always explain WHY for scenario-based questions.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc8",
+   "front": "What does MOV mean?",
+   "back": "Move (e.g. Copies a value to a register or memory location)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc9",
+   "front": "What does ADD mean?",
+   "back": "Add (e.g. Adds a value to a register)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc10",
+   "front": "What does SUB mean?",
+   "back": "Subtract (e.g. Subtracts a value from a register)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc11",
+   "front": "What does CMP mean?",
+   "back": "Compare (e.g. Compares two values and sets flags)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc12",
+   "front": "What does JMP mean?",
+   "back": "Jump (e.g. Jumps to another instruction (unconditional))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc13",
+   "front": "What does JE mean?",
+   "back": "Jump if Equal (e.g. Jumps if the previous comparison was equal)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc14",
+   "front": "What does LD mean?",
+   "back": "Load (e.g. Loads data from memory into a register)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs26-programming-languages-translators-fc15",
+   "front": "What does ST mean?",
+   "back": "Store (e.g. Stores data from a register into memory)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

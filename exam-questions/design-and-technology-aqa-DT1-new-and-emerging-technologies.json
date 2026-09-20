@@ -1,0 +1,78 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT1-new-and-emerging-technologies",
+ "topicName": "New and Emerging Technologies",
+ "version": 1,
+ "questions": [
+  {
+   "id": "dt1-new-and-emerging-technologies-q1",
+   "type": "short-answer",
+   "question": "Explain how 3D printing has changed the prototype development process in product design.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "3D printing allows designers to create physical prototypes directly from CAD files in hours rather than weeks; it enables iterative testing, reduces material waste compared to subtractive methods, and allows complex geometries that CNC cannot produce.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt1-new-and-emerging-technologies-q2",
+   "type": "short-answer",
+   "question": "Discuss the social and economic impacts of increasing automation in manufacturing.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Positive: increased productivity, consistent quality, reduced hazardous work for humans. Negative: job displacement, skills gap, initial investment costs, dependence on technology. A balanced answer considers both sides with specific examples.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt1-new-and-emerging-technologies-q3",
+   "type": "short-answer",
+   "question": "Evaluate how the Internet of Things could influence the design of a domestic kettle.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An IoT kettle could: be controlled remotely via smartphone, learn user habits for energy efficiency, alert users to limescale build-up via sensors, integrate with smart-home energy monitoring. Evaluation should weigh convenience against cost, privacy and reliability concerns.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt1-new-and-emerging-technologies-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A company is considering replacing its traditional assembly line with robotic automation. Evaluate this decision, considering social, economic and environmental factors. <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: define robotic automation and its capabilities; present social arguments (job losses vs new skilled roles, worker safety); economic arguments (high initial cost vs long-term savings, 24/7 operation, consistency); environmental arguments (energy use of robots vs human labour, reduced waste from errors); reach a justified conclusion considering the company's specific context — e.g. high-volume, precision manufacturing may justify automation whereas small-batch artisan production may not.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: define robotic automation and its capabilities; present social arguments (job losses vs new skilled roles, worker safety); economic arguments (high initial cost vs long-term savings, 24/7 operation, consistency); environmental arguments (energy use of robots vs human labour, reduced waste from errors); reach a justified conclusion considering the company's specific context — e.g. high-volume, precision manufacturing may justify automation whereas small-batch artisan production may not."
+   }
+  }
+ ]
+}

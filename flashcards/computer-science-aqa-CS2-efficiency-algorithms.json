@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS2-efficiency-algorithms",
+ "topicName": "Efficiency of Algorithms",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs2-efficiency-algorithms-fc1",
+   "front": "Recall a key point about Efficiency of Algorithms",
+   "back": "Algorithm efficiency measures how much time and/or memory an algorithm uses to solve a problem. A more efficient algorithm uses fewer resources (time and space) to produce the same result.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc2",
+   "front": "What should you know about key principle?",
+   "back": "When two algorithms solve the same problem, the more efficient one will complete in fewer steps, especially as the input size increases.",
+   "tags": [
+    "key-principle"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc3",
+   "front": "What should you know about crucial point?",
+   "back": "Some algorithms that seem fast for small inputs become extremely slow for large inputs. The rate at which time increases matters more than the time for a single small input.",
+   "tags": [
+    "crucial-point"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc4",
+   "front": "What should you know about exam focus?",
+   "back": "At GCSE level, you need to understand that some algorithms are more efficient than others and explain WHY. You should be able to compare linear search vs binary search, and bubble sort vs merge sort, in terms of efficiency.",
+   "tags": [
+    "exam-focus"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc5",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "When comparing algorithm efficiency, always refer to Big O notation and explain how the number of operations grows with input size. Use concrete examples (e.g. n=100, n=1000) to illustrate differences. Remember that time complexity is about growth rate, not actual speed. Mention that Big O ignores constants and lower-order terms. If asked to compare algorithms, consider both time AND space complexity where relevant.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc6",
+   "front": "What does 10 mean?",
+   "back": "10 checks (e.g. 4 checks)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc7",
+   "front": "What does 100 mean?",
+   "back": "100 checks (e.g. 7 checks)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc8",
+   "front": "What does 1,000 mean?",
+   "back": "1,000 checks (e.g. 10 checks)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc9",
+   "front": "What does 1,000,000 mean?",
+   "back": "1,000,000 checks (e.g. 20 checks)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc10",
+   "front": "What does O(1) mean?",
+   "back": "Constant time (e.g. Time stays the same regardless of input size)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc11",
+   "front": "What does O(log n) mean?",
+   "back": "Logarithmic (e.g. Time increases very slowly - halves the problem each step)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc12",
+   "front": "What does O(n) mean?",
+   "back": "Linear (e.g. Time increases proportionally with input size)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc13",
+   "front": "What does O(n log n) mean?",
+   "back": "Linearithmic (e.g. Time increases slightly more than linearly)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc14",
+   "front": "What does O(n²) mean?",
+   "back": "Quadratic (e.g. Time increases with the square of input size)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs2-efficiency-algorithms-fc15",
+   "front": "What does Measures mean?",
+   "back": "How fast the algorithm runs (e.g. How much memory it uses)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

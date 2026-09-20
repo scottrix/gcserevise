@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "sequential-logic",
+ "topicName": "Sequential Logic & Flip-Flops",
+ "version": 1,
+ "steps": [
+  {
+   "id": "sequential-logic-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Sequential logic circuits have memory; their output depends on both current inputs and previous states."
+  },
+  {
+   "id": "sequential-logic-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An SR latch (Set-Reset) is the simplest memory element, built from two cross-coupled NAND or NOR gates."
+  },
+  {
+   "id": "sequential-logic-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The SR latch using NOR gates: S=1,R=0 sets Q=1; S=0,R=1 resets Q=0; S=0,R=0 holds state; S=1,R=1 is invalid."
+  },
+  {
+   "id": "sequential-logic-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A D flip-flop (data) captures the D input value on the clock edge; Q follows D when clocked."
+  },
+  {
+   "id": "sequential-logic-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What is the invalid condition for an SR latch built from NOR gates? | Q: How does a D flip-flop differ from an SR latch? | Q: What happens when J=1 and K=1 on a JK flip-flop?"
+  },
+  {
+   "id": "sequential-logic-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "S=1 and R=1 simultaneously, because both Q and Q' would be forced to 0, violating the bistable condition. | A D flip-flop is clocked and edge-triggered; it captures the D input on the clock edge, eliminating the invalid state and timing problems of an SR latch. | The output toggles: Q becomes the complement of its previous value on each clock pulse."
+  },
+  {
+   "id": "sequential-logic-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Draw truth/characteristic tables for flip-flops showing all input combinations and resulting Q. For counter design, determine the number of flip-flops from n = ⌈log₂(N)⌉ for a modulo-N counter. Always show the clock signal on timing diagrams and mark the triggering edge. State the invalid condition for SR latches and explain why JK flip-flops avoid it. For shift register questions, show data movement step by step with each clock pulse."
+  }
+ ]
+}

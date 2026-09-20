@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P28-electromagnetic-induction",
+ "topicName": "Electromagnetic Induction",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p28-electromagnetic-induction-s1",
+   "kind": "learn",
+   "title": "Electromagnetic induction",
+   "body": "The process of inducing a potential difference (and current if the circuit is complete) in a conductor by moving it through a magnetic field, or by changing the magnetic field around a conductor."
+  },
+  {
+   "id": "p28-electromagnetic-induction-s2",
+   "kind": "learn",
+   "title": "Generator effect",
+   "body": "When a wire moves through a magnetic field (or a magnetic field changes through a coil), a potential difference is induced. If the conductor is part of a complete circuit, a current flows. This is the opposite of the motor effect."
+  },
+  {
+   "id": "p28-electromagnetic-induction-s3",
+   "kind": "learn",
+   "title": "Transformer",
+   "body": "A device that changes the voltage of an alternating current. It consists of a primary coil and a secondary coil wound on the same iron core. Transformers only work with AC."
+  },
+  {
+   "id": "p28-electromagnetic-induction-s4",
+   "kind": "learn",
+   "title": "Step-up transformer",
+   "body": "A transformer that increases the voltage (more turns on the secondary coil than the primary)."
+  },
+  {
+   "id": "p28-electromagnetic-induction-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Example 1: Transformer turns calculation A step-down transformer has 2000 turns on the primary coil and 100 turns on the secondary coil. The primary voltage is 230 V. Calculate the secondary voltage. Solution: Vp / Vs = Np / Ns 230 / Vs = 2000 / 100 = 20 Vs = 230 / 20 = 11.5 V Example 2: Step-up transformer A step-up transformer has 500 turns on the primary and 10,000 turns on the secondary. The input voltage is 25,000 V. Calculate the output voltage. Solution: Vp / Vs = Np / Ns 25000 / Vs = 500 / 10000 = 0.05 Vs = 25000 / 0.05 = 500,000 V (500 kV) Example 3: Transformer current calculation A 100% efficient transformer has a primary voltage of 230 V and a secondary voltage of 11.5 V. The primary current is 0.2 A. Calculate the secondary current. Solution: Vp x Ip = Vs x Is 230 x 0.2 = 11.5 x Is 46 = 11.5 x Is Is = 46 / 11.5 = 4 A Example 4: National Grid energy loss Explain why the National Grid transmits electricity at 400,000 V rather than at 25,000 V. Solution: Transmitting at a hig"
+  },
+  {
+   "id": "p28-electromagnetic-induction-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation State three ways to increase the size of an induced potential difference. | Foundation Explain the difference between an alternator and a dynamo. | Higher A transformer has 800 turns on the primary coil and 40 turns on the secondary coil. The primary voltage is 230 V. Calculate the secondary voltage."
+  },
+  {
+   "id": "p28-electromagnetic-induction-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Q1: Three from: use a stronger magnet, move the conductor faster through the field, use more turns of wire on the coil. | Q2: An alternator produces alternating current (AC) and uses slip rings to connect the coil to the circuit. A dynamo produces direct current (DC) and uses a split ring commutator to reverse the connec | Q3: Vp / Vs = Np / Ns, so 230 / Vs = 800 / 40 = 20. Vs = 230 / 20 = 11.5 V"
+  },
+  {
+   "id": "p28-electromagnetic-induction-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "For electromagnetic induction, remember: movement or change is needed. A stationary wire in a constant field produces no induced PD. Know the difference between slip rings (alternator/AC) and split ring commutator (dynamo/DC) — this is a very common question. In transformer calculations, always set up the ratio Vp/Vs = Np/Ns carefully — make sure primary values are on one side and secondary on the other. For National Grid questions, link: high voltage → low current → less heat loss (P = I2R). Always mention the I2R equation. Transformers are never 100% efficient in reality — some energy is lost as heat in the coils and core. But for calculations, assume 100% efficiency unless told otherwise. Remember: step-up means voltage goes up and current goes down; step-down means voltage goes down an"
+  }
+ ]
+}

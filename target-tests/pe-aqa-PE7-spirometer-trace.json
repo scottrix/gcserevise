@@ -1,0 +1,38 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE7-spirometer-trace",
+ "topicName": "Spirometer Trace Interpretation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "pe7-spirometer-trace-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Spirometer Trace Interpretation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "pe7-spirometer-trace-t3",
+     "type": "short-answer",
+     "question": "Calculate vital capacity given: TV = 500 ml, IRV = 3,000 ml, ERV = 1,200 ml.",
+     "correctAnswer": "VC = TV + IRV + ERV = 500 + 3,000 + 1,200 = 4,700 ml.",
+     "explanation": "Answer: VC = TV + IRV + ERV = 500 + 3,000 + 1,200 = 4,700 ml.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "pe7-spirometer-trace-t6",
+     "type": "short-answer",
+     "question": "Calculate minute ventilation during exercise if tidal volume is 2,200 ml and breathing rate is 42 breaths/min.",
+     "correctAnswer": "Minute ventilation = 2,200 × 42 = 92,400 ml/min = 92.4 l/min.",
+     "explanation": "Answer: Minute ventilation = 2,200 × 42 = 92,400 ml/min = 92.4 l/min.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

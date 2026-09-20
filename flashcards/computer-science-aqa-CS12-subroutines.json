@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS12-subroutines",
+ "topicName": "Subroutines",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs12-subroutines-fc1",
+   "front": "Recall a key point about Subroutines",
+   "back": "A subroutine is a named, self-contained block of code that performs a specific task. It is defined once and can be called (invoked) from anywhere in the program. Subroutines make code more organised, reusable, and easier to debug.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc2",
+   "front": "What should you know about a procedure?",
+   "back": "is a subroutine that performs a task but does not return a value to the calling code. It may produce output, change variables, or modify data structures, but it doesn't send a result back.",
+   "tags": [
+    "a-procedure"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc3",
+   "front": "What should you know about a function?",
+   "back": "is a subroutine that performs a calculation and returns a value to the calling code. The returned value can be stored in a variable, used in an expression, or output directly.",
+   "tags": [
+    "a-function"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc4",
+   "front": "What should you know about parameters?",
+   "back": "are the variables listed in the subroutine definition. Arguments are the actual values passed to the subroutine when it is called. Parameters act as placeholders; arguments fill them with real data.",
+   "tags": [
+    "parameters"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc5",
+   "front": "What should you know about the return statement?",
+   "back": "sends a value back from a function to the calling code. A function can only return one value, though that value could be an array or record. Once RETURN is executed, the function ends immediately.",
+   "tags": [
+    "the-return-statement"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc6",
+   "front": "What should you know about global variables?",
+   "back": "are accessible from anywhere in the program. Local variables exist only inside the subroutine where they are declared and cannot be accessed outside it.",
+   "tags": [
+    "global-variables"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc7",
+   "front": "What should you know about best practice?",
+   "back": "Use local variables wherever possible. Global variables can cause unexpected bugs because any part of the program can modify them. Local variables keep data safe and contained within their subroutine.",
+   "tags": [
+    "best-practice"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc8",
+   "front": "What should you know about structured programming?",
+   "back": "uses subroutines to break a program into manageable, self-contained modules. This approach has several major benefits.",
+   "tags": [
+    "structured-programming"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc9",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "FUNCTION returns a value — must include RETURN. PROCEDURE does not return a value. Parameters are in the header; arguments are in the call. Use local variables inside subroutines to avoid scope issues. Always declare the return type for functions. Show the function/procedure definition AND how it is called. Advantages of subroutines: reusability, readability, easier debugging, team working.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc10",
+   "front": "What does Returns a value? mean?",
+   "back": "No (e.g. Yes - must include RETURN)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc11",
+   "front": "What does How to call mean?",
+   "back": "As a standalone statement (e.g. As part of an expression or assignment)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc12",
+   "front": "What does Typical use mean?",
+   "back": "Displaying output, modifying data (e.g. Calculations, data lookups, conversions)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc13",
+   "front": "What does Example mean?",
+   "back": "displayMenu() (e.g. calculateAverage(80, 90, 70))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc14",
+   "front": "What does Where declared mean?",
+   "back": "Inside a subroutine (e.g. At the top level of the program)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs12-subroutines-fc15",
+   "front": "What does Accessible from mean?",
+   "back": "Only within that subroutine (e.g. Anywhere in the program)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

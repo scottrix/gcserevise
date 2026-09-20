@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS25-software-classification",
+ "topicName": "Software Classification",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs25-software-classification-s1",
+   "kind": "learn",
+   "title": "Key Distinction",
+   "body": "System software manages the computer and provides a platform for other software. Application software performs tasks for the user. System software works behind the scenes; application software is what the user interacts with directly."
+  },
+  {
+   "id": "cs25-software-classification-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "An operating system (OS) is system software that manages computer hardware and software resources. It provides common services for application programs and acts as an intermediary between the user and the hardware."
+  },
+  {
+   "id": "cs25-software-classification-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Utility programs are system software that perform maintenance and housekeeping tasks to keep the computer running efficiently. They are not essential for the computer to function but help maintain performance and security."
+  },
+  {
+   "id": "cs25-software-classification-s4",
+   "kind": "learn",
+   "title": "Note",
+   "body": "Defragmentation is only needed for HDD (magnetic disk drives). SSDs do not need defragmentation because they have no moving parts and can access any location instantly. In fact, defragmenting an SSD can reduce its lifespan."
+  },
+  {
+   "id": "cs25-software-classification-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "List and briefly describe the five main functions of an operating system. | Explain the difference between a full backup and an incremental backup. | Why is defragmentation not needed for SSDs?"
+  },
+  {
+   "id": "cs25-software-classification-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Processor management (schedules CPU time); Memory management (allocates RAM); I/O management (controls devices); Security (user accounts, permissions); File management (organises files on disk). | Full backup copies all files every time (slow, uses most storage). Incremental backup only copies files that have changed since the last backup (fast, uses least storage). | SSDs use flash memory with no moving parts. Data can be accessed equally quickly from any location on the drive, so having file fragments in non-contiguous locations does not slow down access. Defragm"
+  },
+  {
+   "id": "cs25-software-classification-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know all five OS functions and be able to describe each with an example Understand the three types of backup and their trade-offs Remember: defragmentation is for HDDs only, NOT SSDs Be able to distinguish system software from application software Know the three categories of application software (general, special, bespoke) Explain utility programs by their function, not just by name"
+  }
+ ]
+}

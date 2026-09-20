@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S1-sampling",
+ "topicName": "S1 Sampling",
+ "version": 1,
+ "questions": [
+  {
+   "id": "s1-sampling-q1",
+   "type": "short-answer",
+   "question": "Define what is meant by a \"population\" in statistics.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The population is the entire group being studied or about which conclusions are to be drawn.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1-sampling-q2",
+   "type": "short-answer",
+   "question": "A school has 120 boys and 180 girls. A stratified sample of 50 students is needed. How many boys and girls should be selected?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Boys: (120/300) × 50 = 20; Girls: (180/300) × 50 = 30",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1-sampling-q3",
+   "type": "short-answer",
+   "question": "A researcher wants to survey 25 people from a list of 200 using systematic sampling. What value of k should be used?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "k = 200 ÷ 25 = 8 (select every 8th person)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1-sampling-q4",
+   "type": "short-answer",
+   "question": "Explain why asking people leaving a cinema about their views on films might produce a biased sample.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Biased because: only people who choose to watch films are surveyed; those leaving cinemas are likely to enjoy films more than general population; excludes people who don't go to cinemas.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1-sampling-q5",
+   "type": "short-answer",
+   "question": "Give two advantages of using a sample rather than surveying the whole population.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Any two: cheaper, faster, more practical, less resource-intensive, possible when population is very large or infinite.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s1-sampling-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: A town has 8000 adults: 3200 are aged 18–30, 2800 are aged 31–50, and 2000 are aged 51+. A researcher wants a stratified sample of 200 adults. (a) Calculate how many from each age group. (b) Describe how to select the people using simple random sampling within each group. (c) Explain one advantage of stratified sampling over simple random sampling for this survey about voting intentions. <div class=\"",
+   "marks": 6,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Total = 8000. 18–30: (3200/8000) × 200 = 80. 31–50: (2800/8000) × 200 = 70. 51+: (2000/8000) × 200 = 50. Check: 80 + 70 + 50 = 200 ✓ (b) Assign each person in the age group a number. Use a random number generator to select the required number of people. For 18–30, generate 80 unique random numbers from 1 to 3200. Repeat similarly for other groups. (c) Stratified sampling ensures each age group is represented proportionally. Simple random sampling might accidentally select very few from the 51+ group, meaning their views on voting are underrepresented. Since age affects voting intentions, p",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "(a) Total = 8000. 18–30: (3200/8000) × 200 = 80. 31–50: (2800/8000) × 200 = 70. 51+: (2000/8000) × 200 = 50. Check: 80 + 70 + 50 = 200 ✓ (b) Assign each person in the age group a number. Use a random number generator to select the required number of people. For 18–30, generate 80 unique random numbers from 1 to 3200. Repeat similarly for other groups. (c) Stratified sampling ensures each age group is represented proportionally. Simple random sampling might accidentally select very few from the 51+ group, meaning their views on voting are underrepresented. Since age affects voting intentions, proportional representation gives more reliable results. Mark scheme: M1 for correct proportions, A1 for 80, 70, 50, M1 for describing random number selection, A1 for clear method, M1 for identifying representation advantage, A1 for linking to voting context"
+   }
+  }
+ ]
+}

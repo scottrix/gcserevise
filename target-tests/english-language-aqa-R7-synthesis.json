@@ -1,0 +1,38 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "R7-synthesis",
+ "topicName": "Synthesis",
+ "version": 1,
+ "tests": [
+  {
+   "id": "r7-synthesis-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Synthesis",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "r7-synthesis-t2",
+     "type": "short-answer",
+     "question": "Should you analyse language devices in a synthesis question?",
+     "correctAnswer": "No - synthesis is about summarising content, not analysing language.",
+     "explanation": "Answer: No - synthesis is about summarising content, not analysing language.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "r7-synthesis-t3",
+     "type": "short-answer",
+     "question": "How should you use quotations in synthesis?",
+     "correctAnswer": "Keep them brief and use them as evidence to support your summary points.",
+     "explanation": "Answer: Keep them brief and use them as evidence to support your summary points.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

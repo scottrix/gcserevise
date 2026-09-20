@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "material-properties-selection",
+ "topicName": "Material Properties & Selection",
+ "version": 1,
+ "steps": [
+  {
+   "id": "material-properties-selection-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Tensile strength is the maximum stress a material can withstand while being stretched before it breaks."
+  },
+  {
+   "id": "material-properties-selection-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Toughness is the ability of a material to absorb energy and deform plastically before fracturing; tough materials resist impact."
+  },
+  {
+   "id": "material-properties-selection-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Brittleness is the tendency to fracture with little or no plastic deformation; brittle materials fail suddenly (e.g. cast iron, ceramics)."
+  },
+  {
+   "id": "material-properties-selection-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Ductility is the ability to be drawn into a wire; ductile materials undergo significant plastic deformation before breaking (e.g. copper, low-carbon steel)."
+  },
+  {
+   "id": "material-properties-selection-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Distinguish between toughness and hardness, giving an example of a material that is hard but not tough. | Q: Explain the difference between ductility and malleability with examples. | Q: A structural beam must support a heavy load without excessive bending. Which property is most important and which material would you select?"
+  },
+  {
+   "id": "material-properties-selection-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Hardness resists surface indentation or scratching; toughness absorbs energy before fracturing. Glass is very hard (resists scratching) but not tough (shatters on impact with little energy absorption) | Ductility is the ability to be stretched into a wire (tensile deformation); copper is very ductile. Malleability is the ability to be shaped by compressive force; lead is highly malleable but not very | Stiffness (Young's Modulus) is most important because it determines resistance to elastic deflection. Steel is the best choice due to its high stiffness (E approximately 200 GPa), combined with good s"
+  },
+  {
+   "id": "material-properties-selection-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Learn the definitions precisely — examiners mark key terms like 'plastic deformation' and 'energy absorption' for toughness. In calculation questions, always state the formula, show your working and include units (N/mm2 or MPa for stress). When selecting materials, always justify by linking a property to a requirement: 'Steel is chosen because its high stiffness prevents excessive deflection under load.' Factor of safety questions are common: remember FoS = UTS / Working stress. Distinguish carefully between strength (resistance to breaking) and stiffness (resistance to bending)."
+  }
+ ]
+}

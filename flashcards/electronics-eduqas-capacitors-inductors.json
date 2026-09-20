@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "capacitors-inductors",
+ "topicName": "Capacitors & Inductors",
+ "version": 1,
+ "cards": [
+  {
+   "id": "capacitors-inductors-fc1",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "Capacitance C = Q/V, measured in farads (F); a capacitor stores charge on parallel plates separated by a dielectric.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc2",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "The energy stored in a capacitor is E = ½CV² = ½QV.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc3",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "In an RC charging circuit, V_C rises exponentially: V_C = V_supply(1 − e^(−t/RC)).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc4",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "The time constant τ = RC is the time for the capacitor to reach 63.2% of its final voltage when charging.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc5",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "During discharge, V_C = V_initial × e^(−t/RC); after 5τ the capacitor is effectively fully discharged.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc6",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "Inductance L is measured in henrys (H); an inductor stores energy in its magnetic field.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc7",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "The energy stored in an inductor is E = ½LI².",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc8",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "An inductor opposes changes in current: V = L × dI/dt (back EMF).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc9",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "Capacitors block DC at steady state but pass AC; inductors pass DC at steady state but oppose AC.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc10",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "Dielectric material between capacitor plates increases capacitance by reducing the electric field.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc11",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "Increasing plate area or decreasing plate separation increases capacitance.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc12",
+   "front": "Recall a key point about Capacitors & Inductors",
+   "back": "Inductors in series add: L_total = L1 + L2; in parallel: 1/L_total = 1/L1 + 1/L2.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc13",
+   "front": "What should you know about gcse electronics exam tips — capacitors & inductors?",
+   "back": "1. For Capacitors & Inductors questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Capacitors & Inductors, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-cap"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc14",
+   "front": "Full-Mark Response",
+   "back": "Describe how a capacitor charges and discharges in an RC circuit, explaining the significance of the time constant.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "capacitors-inductors-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of capacitors & inductors, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of capacitors & inductors to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits and sys",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

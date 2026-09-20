@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS27-systems-architecture",
+ "topicName": "Systems Architecture",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs27-systems-architecture-fc1",
+   "front": "Recall a key point about Systems Architecture",
+   "back": "The CPU (Central Processing Unit) is the brain of the computer. It processes data by executing instructions. The CPU contains the ALU, control unit, clock, and registers, connected by internal buses.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc2",
+   "front": "Recall a key point about Systems Architecture",
+   "back": "Registers are small, very fast memory locations inside the CPU. They hold data and instructions currently being processed. Registers are the fastest type of memory in a computer system.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc3",
+   "front": "Recall a key point about Systems Architecture",
+   "back": "Buses are parallel wires that connect components of the computer system, allowing data, addresses, and control signals to move between them.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc4",
+   "front": "Recall a key point about Systems Architecture",
+   "back": "The fetch-decode-execute cycle (also called the instruction cycle) is the process the CPU follows for every instruction. It fetches the next instruction from memory, decodes it to understand what to do, then executes it.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc5",
+   "front": "What should you know about key concept?",
+   "back": "Clock speed determines how many instruction cycles the CPU can perform per second. A higher clock speed means more instructions can be processed in the same time.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc6",
+   "front": "What should you know about key concept?",
+   "back": "A core is a complete processing unit within the CPU. A multi-core processor has multiple cores that can execute instructions simultaneously.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc7",
+   "front": "What should you know about key concept?",
+   "back": "Cache is a small, very fast memory between the CPU and RAM. It stores frequently used data and instructions so the CPU can access them quickly without waiting for RAM.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc8",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "CPU components: ALU (calculations), CU (control/decode), registers (PC, MAR, MDR, Accumulator). FDE cycle: Fetch → Decode → Execute — always in this order. PC = next instruction address. MAR = address to access. MDR = data at that address. Accumulator = calculation results. Cache: fast, small, expensive. More cores = parallel processing benefit only. Clock speed = cycles per second.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc9",
+   "front": "What does PC mean?",
+   "back": "Program Counter (e.g. Holds the memory address of the NEXT instruction to be fetched)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc10",
+   "front": "What does MAR mean?",
+   "back": "Memory Address Register (e.g. Holds the address in memory that is about to be read from or written to)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc11",
+   "front": "What does MDR mean?",
+   "back": "Memory Data Register (e.g. Holds the data that has been read from or is about to be written to memory)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc12",
+   "front": "What does ACC mean?",
+   "back": "Accumulator (e.g. Holds the results of calculations performed by the ALU)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc13",
+   "front": "What does CIR mean?",
+   "back": "Current Instruction Register (e.g. Holds the instruction that is currently being decoded and executed)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc14",
+   "front": "What does Address Bus mean?",
+   "back": "Memory addresses (e.g. Unidirectional (CPU → memory))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs27-systems-architecture-fc15",
+   "front": "What does Data Bus mean?",
+   "back": "Data and instructions (e.g. Bidirectional)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

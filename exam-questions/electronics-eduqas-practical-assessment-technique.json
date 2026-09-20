@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "practical-assessment-technique",
+ "topicName": "Practical Assessment Technique",
+ "version": 1,
+ "questions": [
+  {
+   "id": "practical-assessment-technique-q1",
+   "type": "short-answer",
+   "question": "Q: Why should you read the entire task brief before starting the practical assessment?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "To understand what circuit to build, what measurements to take and what documentation is required, so you can plan your time and approach effectively.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "practical-assessment-technique-q2",
+   "type": "short-answer",
+   "question": "Q: List three things you should check before connecting the power supply to your circuit.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Correct supply voltage, correct polarity and a visual inspection that all components are correctly placed and oriented.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "practical-assessment-technique-q3",
+   "type": "short-answer",
+   "question": "Q: A circuit you built is not working. Describe a systematic approach to find the fault.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "First check the power supply voltage is correct; then measure voltages at key nodes from input to output to find where the signal is lost; check connections and component values at the faulty stage.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "practical-assessment-technique-q4",
+   "type": "short-answer",
+   "question": "Q: What should a measurement table include?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Columns for the quantity being measured, the expected value (from calculation), the measured value and the correct SI units.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "practical-assessment-technique-q5",
+   "type": "short-answer",
+   "question": "Q: How should you divide your time in a practical assessment?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Roughly 40% for building the circuit, 30% for testing and taking measurements, and 30% for documentation and conclusions.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "practical-assessment-technique-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Describe how to approach a practical circuit assessment, from reading the task brief to submitting your documented work, explaining how to maximise marks at each stage. <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Maximising marks in a practical assessment requires a disciplined approach across three phases. First, read the entire task brief carefully, identifying what circuit to build, what measurements to record and what documentation is expected. Plan your time: roughly 40% for building, 30% for testing and 30% for documentation. Second, during construction, plan the breadboard layout before inserting components. Build the circuit section by section, performing a visual inspection after each stage to check component values, orientation (especially ICs, electrolytic capacitors and diodes) and connecti",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Maximising marks in a practical assessment requires a disciplined approach across three phases. First, read the entire task brief carefully, identifying what circuit to build, what measurements to record and what documentation is expected. Plan your time: roughly 40% for building, 30% for testing and 30% for documentation. Second, during construction, plan the breadboard layout before inserting components. Build the circuit section by section, performing a visual inspection after each stage to check component values, orientation (especially ICs, electrolytic capacitors and diodes) and connections. Before powering on, verify the supply voltage and polarity. Third, during testing, measure the power supply voltage first, then systematically measure node voltages from input to output. Record every measurement immediately in a clear table showing the quantity, expected value, measured value and correct SI units. If the circuit fails, use the half-split method to locate the fault: check power, then measure at the midpoint and narrow down. Fourth, for documentation, draw a neat circuit diagram with all component values and reference designators, include the completed measurement table and write a brief conclusion stating whether the circuit met its specification and explaining any discrepancies. Throughout, demonstrate safe working practices: correct equipment handling, safe soldering and appropriate ESD precautions. This systematic approach maximises marks by ensuring every require"
+   }
+  }
+ ]
+}

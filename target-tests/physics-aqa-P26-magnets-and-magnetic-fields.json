@@ -1,0 +1,48 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P26-magnets-and-magnetic-fields",
+ "topicName": "Magnets And Magnetic Fields",
+ "version": 1,
+ "tests": [
+  {
+   "id": "p26-magnets-and-magnetic-fields-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Magnets And Magnetic Fields",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "p26-magnets-and-magnetic-fields-t1",
+     "type": "short-answer",
+     "question": "Foundation Name the four magnetic elements.",
+     "correctAnswer": "Q1: Iron, nickel, cobalt and steel (an alloy of iron).",
+     "explanation": "Answer: Q1: Iron, nickel, cobalt and steel (an alloy of iron).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p26-magnets-and-magnetic-fields-t2",
+     "type": "short-answer",
+     "question": "Foundation State the rule for what happens when two north poles are brought close together.",
+     "correctAnswer": "Q2: Like poles repel — two north poles will repel each other.",
+     "explanation": "Answer: Q2: Like poles repel — two north poles will repel each other.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p26-magnets-and-magnetic-fields-t4",
+     "type": "short-answer",
+     "question": "Foundation In which direction do magnetic field lines point?",
+     "correctAnswer": "Q4: Magnetic field lines point from north to south (outside the magnet).",
+     "explanation": "Answer: Q4: Magnetic field lines point from north to south (outside the magnet).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

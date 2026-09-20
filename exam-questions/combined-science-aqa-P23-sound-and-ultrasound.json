@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P23-sound-and-ultrasound",
+ "topicName": "Sound And Ultrasound",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p23-sound-and-ultrasound-q1",
+   "type": "short-answer",
+   "question": "Foundation State the range of frequencies that humans can hear.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q1: Humans can hear frequencies between 20 Hz and 20,000 Hz (20 kHz).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p23-sound-and-ultrasound-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain why sound cannot travel through a vacuum.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q2: Sound is a longitudinal wave that requires particles to vibrate and transfer energy. In a vacuum there are no particles, so there is no medium for the sound to travel through.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p23-sound-and-ultrasound-q3",
+   "type": "short-answer",
+   "question": "Higher A sonar pulse returns after 1.2 s. The speed of sound in water is 1500 m/s. Calculate the depth of the water.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q3: Total distance = 1500 × 1.2 = 1800 m. Depth = 1800 ÷ 2 = 900 m",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p23-sound-and-ultrasound-q4",
+   "type": "short-answer",
+   "question": "Higher Describe how ultrasound is used in medical scanning. Explain why ultrasound is safer than X-rays for pre-natal scanning.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q4: An ultrasound transducer sends high-frequency sound waves into the body. When the waves reach a boundary between different tissues, some are reflected back as echoes. The time taken for echoes to return gives the distance to each boundary, building up an image. Ultrasound is non-ionising, so it does not damage cells or DNA, making it much safer than X-rays for scanning a developing foetus.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p23-sound-and-ultrasound-q5",
+   "type": "short-answer",
+   "question": "Foundation A person shouts at a cliff and hears the echo 2.0 s later. The speed of sound in air is 330 m/s. How far away is the cliff?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q5: Total distance = 330 × 2.0 = 660 m. Distance to cliff = 660 ÷ 2 = 330 m",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p23-sound-and-ultrasound-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain how ultrasound is used in medical scanning during pregnancy. Compare the safety of ultrasound with X-rays for this purpose. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An ultrasound transducer is placed on the skin and sends high-frequency sound waves (above 20,000 Hz) into the body. When the ultrasound reaches a boundary between different tissues (e.g. between fluid and bone, or between the foetus and amniotic fluid), some of the wave is reflected back as an echo and some continues through. The time taken for each echo to return is measured, and since the speed of ultrasound in tissue is known, the distance to each boundary can be calculated (distance = speed × time ÷ 2). A computer processes these times to build up an image of the foetus. Ultrasound is muc",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "An ultrasound transducer is placed on the skin and sends high-frequency sound waves (above 20,000 Hz) into the body. When the ultrasound reaches a boundary between different tissues (e.g. between fluid and bone, or between the foetus and amniotic fluid), some of the wave is reflected back as an echo and some continues through. The time taken for each echo to return is measured, and since the speed of ultrasound in tissue is known, the distance to each boundary can be calculated (distance = speed × time ÷ 2). A computer processes these times to build up an image of the foetus. Ultrasound is much safer than X-rays for pre-natal scanning because it is non-ionising — it does not carry enough energy to damage cells or DNA. X-rays are ionising and could damage the developing foetus, potentially causing mutations or cancer. Ultrasound can be used repeatedly without harmful effects. Mark scheme: 1 mark — ultrasound is above 20,000 Hz, 1 mark — waves reflect at tissue boundaries producing echoes, 1 mark — time of echo gives distance to boundary, 1 mark — computer builds image from echoes, 1 mark — ultrasound is non-ionising (safe), 1 mark — X-rays are ionising and can damage DNA/cells in a developing foetus"
+   }
+  }
+ ]
+}

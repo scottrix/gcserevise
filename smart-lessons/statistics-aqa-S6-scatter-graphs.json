@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S6-scatter-graphs",
+ "topicName": "S6 Scatter Graphs",
+ "version": 1,
+ "steps": [
+  {
+   "id": "s6-scatter-graphs-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A scatter graph plots two variables against each other to show the relationship between them. Each point represents one data item."
+  },
+  {
+   "id": "s6-scatter-graphs-s2",
+   "kind": "learn",
+   "title": "Positive Correlation",
+   "body": "As one variable increases, the other also increases. Negative Correlation: As one variable increases, the other decreases. No Correlation: No clear relationship between the variables."
+  },
+  {
+   "id": "s6-scatter-graphs-s3",
+   "kind": "learn",
+   "title": "Strength of Correlation",
+   "body": "Strong: Points closely follow a line Weak: Points are more scattered but still show a trend None: Points are randomly scattered"
+  },
+  {
+   "id": "s6-scatter-graphs-s4",
+   "kind": "learn",
+   "title": "Rules for Line of Best Fit",
+   "body": "Use a ruler to draw a straight line The line should follow the general trend Approximately equal number of points above and below the line The line does NOT have to go through the origin Ignore any outliers when drawing the line"
+  },
+  {
+   "id": "s6-scatter-graphs-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "What type of correlation would you expect between hours of sleep and tiredness? | A line of best fit has equation y = 3x + 5. Predict y when x = 7. | What is the difference between interpolation and extrapolation?"
+  },
+  {
+   "id": "s6-scatter-graphs-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Negative correlation - more sleep means less tiredness. | y = 3(7) + 5 = 21 + 5 = 26 | Interpolation is predicting within the data range; extrapolation is predicting outside the range."
+  },
+  {
+   "id": "s6-scatter-graphs-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always label axes when drawing scatter graphs Use \"positive\" or \"negative\" - not \"good\" or \"bad\" Interpolation is more reliable than extrapolation Correlation does NOT mean causation When drawing a line of best fit, balance points above and below Check for outliers and consider if they are errors Use the line of best fit to make predictions, not individual points"
+  }
+ ]
+}

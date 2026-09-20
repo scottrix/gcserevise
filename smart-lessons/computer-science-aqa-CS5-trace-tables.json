@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS5-trace-tables",
+ "topicName": "Trace Tables",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs5-trace-tables-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A trace table is a table used to record the value of variables each time they change as an algorithm is executed step by step. It helps you understand how an algorithm works, find logic errors, and determine what an unknown algorithm does."
+  },
+  {
+   "id": "cs5-trace-tables-s2",
+   "kind": "learn",
+   "title": "Setting up a trace table",
+   "body": "Create a column for each variable in the algorithm, plus a column for any OUTPUT statements. Each row represents one execution step where a variable changes."
+  },
+  {
+   "id": "cs5-trace-tables-s3",
+   "kind": "learn",
+   "title": "Exam technique",
+   "body": "When given an unknown algorithm, create a trace table and look at the pattern of values. The OUTPUT and how variables change will reveal what the algorithm does."
+  },
+  {
+   "id": "cs5-trace-tables-s4",
+   "kind": "learn",
+   "title": "Tip",
+   "body": "When looking at a completed trace table, examine the OUTPUT column and look for patterns in how variables change. Common patterns include: counting, accumulating (sum), finding maximum/minimum, searching, and computing remainders."
+  },
+  {
+   "id": "cs5-trace-tables-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Complete a trace table for this algorithm with input num = 7: | What does the following algorithm compute? Use a trace table with x = 24, y = 6. | Complete a trace table for the following algorithm with the array [4, 1, 8, 3]:"
+  },
+  {
+   "id": "cs5-trace-tables-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "i result - 0 1 1 2 3 3 6 4 10 5 15 6 21 7 28 OUTPUT: 28 (This calculates the sum 1+2+3+4+5+6+7 = 28) | The algorithm counts how many times y fits into x - it performs integer division (24 DIV 6 = 4). The OUTPUT is 4. | Initial: min = 4. i=1: numbers[1]=1, 1 1, no change. i=3: numbers[3]=3, 3>1, no change. OUTPUT: 1 (the minimum value)."
+  },
+  {
+   "id": "cs5-trace-tables-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always set up columns before you start tracing - include every variable and an OUTPUT column Record initial values before the loop begins Go through the algorithm line by line - don't skip steps For IF statements, evaluate the condition and only update variables if the condition is TRUE When asked \"what does this algorithm do?\", trace it first then describe the overall purpose Double-check your arithmetic - one wrong calculation will throw off the rest of the table If asked to find an error, trace the algorithm and compare with what should happen"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS28-memory-storage",
+ "topicName": "Memory & Storage",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs28-memory-storage-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Primary memory is the memory that is directly accessible by the CPU. It holds the data and instructions that the CPU is currently using or will need soon. Primary memory includes RAM and ROM."
+  },
+  {
+   "id": "cs28-memory-storage-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "RAM is volatile memory that stores the data and programs currently in use. It is called \"random access\" because any location can be accessed in the same amount of time. RAM loses its contents when power is turned off."
+  },
+  {
+   "id": "cs28-memory-storage-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "ROM is non-volatile memory that stores permanent instructions. Its contents cannot be changed (or are very difficult to change). ROM retains its data even when power is switched off."
+  },
+  {
+   "id": "cs28-memory-storage-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Cache is a small, very fast memory located between the CPU and RAM. It stores frequently accessed data and instructions to reduce the time the CPU spends waiting for data from slower RAM."
+  },
+  {
+   "id": "cs28-memory-storage-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Explain the difference between RAM and ROM. | Describe the memory hierarchy from fastest to slowest. | What is virtual memory and why does it slow down a computer?"
+  },
+  {
+   "id": "cs28-memory-storage-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "RAM is volatile (loses data without power), read-write, and stores running programs and current data. ROM is non-volatile (retains data without power), read-only, and stores permanent boot/startup ins | Registers (fastest) > L1 Cache > L2 Cache > L3 Cache > RAM > Secondary Storage (slowest). Speed decreases and capacity increases as you move down the hierarchy. | Virtual memory uses a section of the hard drive as extra RAM when actual RAM is full. The OS moves less-used data from RAM to disk (swapping/paging). It slows down the computer because hard drive acce"
+  },
+  {
+   "id": "cs28-memory-storage-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always mention \"volatile\" for RAM and \"non-volatile\" for ROM - these are key terms Know the memory hierarchy in order of speed For virtual memory, always explain it uses the hard drive (which is slower) Compare storage types across: speed, capacity, cost, durability, portability Embedded systems = dedicated function, microprocessor + ROM, limited I/O Adding more RAM improves performance by reducing virtual memory usage"
+  }
+ ]
+}

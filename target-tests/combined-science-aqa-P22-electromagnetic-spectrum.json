@@ -1,0 +1,38 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P22-electromagnetic-spectrum",
+ "topicName": "Electromagnetic Spectrum",
+ "version": 1,
+ "tests": [
+  {
+   "id": "p22-electromagnetic-spectrum-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Electromagnetic Spectrum",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "p22-electromagnetic-spectrum-t3",
+     "type": "short-answer",
+     "question": "Higher A microwave has a wavelength of 6 cm. Calculate its frequency.",
+     "correctAnswer": "Q3: λ = 6 cm = 0.06 m. f = v ÷ λ = 3 × 10⁸ ÷ 0.06 = 5 × 10⁹ Hz (5 GHz)",
+     "explanation": "Answer: Q3: λ = 6 cm = 0.06 m. f = v ÷ λ = 3 × 10⁸ ÷ 0.06 = 5 × 10⁹ Hz (5 GHz)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p22-electromagnetic-spectrum-t5",
+     "type": "short-answer",
+     "question": "Foundation State the speed of all EM waves in a vacuum.",
+     "correctAnswer": "Q5: 3 × 10⁸ m/s (speed of light in a vacuum).",
+     "explanation": "Answer: Q5: 3 × 10⁸ m/s (speed of light in a vacuum).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

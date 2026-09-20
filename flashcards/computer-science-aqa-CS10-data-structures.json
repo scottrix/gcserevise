@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS10-data-structures",
+ "topicName": "Data Structures",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs10-data-structures-fc1",
+   "front": "What should you know about data structures?",
+   "back": "are ways of organising and storing data so it can be accessed and modified efficiently. At GCSE, you need to know about arrays (1D and 2D) and records.",
+   "tags": [
+    "data-structures"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc2",
+   "front": "What should you know about a 1d array?",
+   "back": "is an indexed collection of items of the same data type stored under one name. Each item is called an element and is accessed using its index (position number). Arrays are zero-indexed in most languages - the first element is at index 0.",
+   "tags": [
+    "a-1d-array"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc3",
+   "front": "What should you know about a 2d array?",
+   "back": "is an array of arrays - a grid with rows and columns. Each element is accessed using two indices: the row index and the column index. Think of it like a table or spreadsheet.",
+   "tags": [
+    "a-2d-array"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc4",
+   "front": "What should you know about a record?",
+   "back": "is a data structure that groups related fields of different data types under one name. Each field has a name and can hold a different type of data. Records are ideal for representing real-world entities.",
+   "tags": [
+    "a-record"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc5",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Arrays: same type, accessed by index. Records: different types, accessed by field name. Always state the size when declaring an array. For 2D arrays, use two indices [row][column]. Know the difference between arrays (same type, indexed) and records (different types, named fields). When asked to choose, consider whether the data is the same type (array) or mixed types (record).",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc6",
+   "front": "What does 1D Array mean?",
+   "back": "A list of items of the same type, accessed by index (e.g. Storing a list of scores, names, or temperatures)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc7",
+   "front": "What does 2D Array mean?",
+   "back": "A grid of items in rows and columns, accessed by two indices (e.g. Storing a seating plan, grid, or spreadsheet)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc8",
+   "front": "What does Record mean?",
+   "back": "A collection of named fields of different types (e.g. Storing related data about one entity (e.g. a student))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc9",
+   "front": "What does Access method mean?",
+   "back": "By index number (e.g. By field name)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc10",
+   "front": "What does Data types mean?",
+   "back": "All elements same type (e.g. Each field can be different type)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc11",
+   "front": "What does When to use mean?",
+   "back": "List of similar items (e.g. Related data about one thing)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc12",
+   "front": "What does Example mean?",
+   "back": "List of scores [85, 92, 78] (e.g. Student {name, age, grade})",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc13",
+   "front": "What does Accessing index 5 in a 5-element array mean?",
+   "back": "Indices go from 0 to 4 for length 5 (e.g. Use LENGTH(array) - 1 for the last index)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc14",
+   "front": "What does Confusing row and column in 2D arrays mean?",
+   "back": "grid[0][1] and grid[1][0] are different (e.g. Remember: grid[row][column])",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs10-data-structures-fc15",
+   "front": "What does Forgetting to initialise array elements mean?",
+   "back": "Uninitialised elements may have unknown values (e.g. Set all elements before reading them)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

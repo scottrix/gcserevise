@@ -1,0 +1,159 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "time-series-moving-averages",
+ "topicName": "Time Series Moving Averages",
+ "version": 1,
+ "cards": [
+  {
+   "id": "time-series-moving-averages-fc1",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "A time series is a sequence of data values collected at regular time intervals (e.g. monthly sales, quarterly temperatures).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc2",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "The trend is the long-term general direction of the data, ignoring short-term fluctuations; it can be increasing, decreasing, or stationary.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc3",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "Seasonal variation is a regular, repeating pattern that occurs at fixed periods within a year (e.g. higher ice cream sales in summer).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc4",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "Cyclical variation is a longer-term pattern that repeats over more than one year (e.g. economic boom and bust cycles); it is harder to predict than seasonal variation.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc5",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "A moving average smooths out short-term fluctuations to reveal the underlying trend; it is calculated by averaging overlapping groups of consecutive data values.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc6",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "A 4-point moving average is used for quarterly data; each average covers four consecutive quarters and is centred between the middle two quarters.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc7",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "Because a 4-point moving average falls between two time periods, a second set of 2-point moving averages (centred moving averages) is needed to align with actual time periods.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc8",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "To calculate a centred 4-point moving average: first find the 4-point totals, then find the mean of each pair of consecutive 4-point averages.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc9",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "The seasonal variation for a quarter = actual value – trend value (from the centred moving average); positive means above trend, negative means below trend.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc10",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "The mean seasonal variation for each quarter is found by averaging all the seasonal variations for that specific quarter across different years.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc11",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "To make a prediction: estimate the trend (e.g. by extending the moving average line), then add the appropriate mean seasonal variation for the quarter.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc12",
+   "front": "Recall a key point about Time Series Moving Averages",
+   "back": "Predictions based on time series assume that past patterns will continue; they become less reliable the further into the future they are made.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc13",
+   "front": "What should you know about gcse statistics exam tips — time series & moving averages?",
+   "back": "1. For Time Series & Moving Averages questions, show every step of your working clearly — method marks count even if the final answer is wrong 2. Check your answer makes sense in context (estimation, units, reasonableness) 3. Use correct mathematical notation and state formulae before substituting values 4. If a Time Series & Moving Averages question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line 5. For problem-solving, identify the topic first, then recall the relevant method",
+   "tags": [
+    "gcse-statistics-exam-tips-time"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc14",
+   "front": "Full-Mark Response",
+   "back": "A shop records its quarterly sales (£thousands) over two years. Calculate the 4-point centred moving averages and the mean seasonal variations. Q1: 12, Q2: 18, Q3: 25, Q4: 15, Q1: 14, Q2: 20, Q3: 27, Q4: 17",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "time-series-moving-averages-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of time series & moving averages, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382. AO2 (Application): Apply knowledge and understanding of time series & moving averages to interpret data, reason statistically and draw conclusions in context. AO3 (Evaluation): Evaluate sta",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

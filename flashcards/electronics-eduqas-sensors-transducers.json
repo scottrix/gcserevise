@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "sensors-transducers",
+ "topicName": "Sensors & Transducers",
+ "version": 1,
+ "cards": [
+  {
+   "id": "sensors-transducers-fc1",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "A sensor converts a physical quantity (light, temperature, pressure) into an electrical signal; a transducer converts energy between forms.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc2",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "An LDR (light-dependent resistor) has resistance that decreases as light intensity increases; typically 1 MΩ in dark and 1 kΩ in bright light.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc3",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "An NTC thermistor has resistance that decreases as temperature increases; a PTC thermistor has resistance that increases with temperature.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc4",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "Sensors are commonly used in potential divider circuits to convert resistance changes into voltage changes for processing.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc5",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "The output voltage of a sensor potential divider: V_out = V_supply × R_fixed / (R_sensor + R_fixed) when the sensor is in the upper position.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc6",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "Signal conditioning adapts the sensor output for the next stage: amplification, filtering, level shifting or linearisation.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc7",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "An op-amp comparator can convert a varying sensor voltage into a digital on/off signal by comparing it with a reference voltage.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc8",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "A Schmitt trigger with a sensor input provides hysteresis, preventing output chatter when the measured quantity hovers near the threshold.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc9",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "Pressure sensors often use a piezoresistive element in a Wheatstone bridge configuration; the output is a small differential voltage.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc10",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "Sensor response time is the time taken to reach 63.2% of the final value after a step change in the measured quantity.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc11",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "Calibration ensures sensor readings are accurate by comparing outputs against known reference values and applying corrections.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc12",
+   "front": "Recall a key point about Sensors & Transducers",
+   "back": "A Wheatstone bridge converts small resistance changes into a voltage difference; it is used with strain gauges and pressure sensors.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc13",
+   "front": "What should you know about gcse electronics exam tips — sensors & transducers?",
+   "back": "1. For Sensors & Transducers questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Sensors & Transducers, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-sen"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc14",
+   "front": "Full-Mark Response",
+   "back": "Explain how an LDR or thermistor can be used in a potential divider circuit to monitor light or temperature, and describe how the output can be conditioned to drive a switching circuit.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "sensors-transducers-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of sensors & transducers, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of sensors & transducers to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits and syste",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

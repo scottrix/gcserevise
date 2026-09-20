@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "circuit-calculation-questions",
+ "topicName": "Circuit Calculation Questions",
+ "version": 1,
+ "cards": [
+  {
+   "id": "circuit-calculation-questions-fc1",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "Always write the formula first, then substitute values, then give the answer with units — this secures method marks even if the final answer is wrong.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc2",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "Ohm's Law: V = IR can be rearranged to I = V/R or R = V/I depending on which quantity is unknown.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc3",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "Power formulas: P = VI, P = I²R, P = V²/R — choose the one using the two known quantities.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc4",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "For potential dividers: V_out = V_in × R2/(R1 + R2); always identify which resistor is R2 (the one V_out is measured across).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc5",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "Convert all units to base SI before calculating: mA to A (×10⁻³), kΩ to Ω (×10³), μF to F (×10⁻⁶), mV to V (×10⁻³).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc6",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "Show each step of working on a new line; examiners award marks for correct method even if arithmetic errors occur later.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc7",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "Check your answer is sensible: resistance should be positive, current should not exceed supply capacity, power should be within ratings.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc8",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "For multi-step calculations, keep intermediate values to at least 3 significant figures to avoid rounding errors in the final answer.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc9",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "When a question gives component values in mixed units (e.g. kΩ and mA), convert everything to base units before substituting.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc10",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "Charge: Q = It; Energy: E = Pt = VIt; always check which formula applies to the quantities given.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc11",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "For capacitor calculations: Q = CV, E = ½CV², τ = RC — remember the ½ in the energy formula.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc12",
+   "front": "Recall a key point about Circuit Calculation Questions",
+   "back": "Label the circuit diagram with known and unknown quantities before starting calculations.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc13",
+   "front": "What should you know about gcse electronics exam tips — circuit calculation questions?",
+   "back": "1. For Circuit Calculation Questions questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Circuit Calculation Questions, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-cir"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc14",
+   "front": "Full-Mark Response",
+   "back": "Describe the method for solving a circuit calculation question in an exam, using an example that involves finding the current through and power dissipated by a resistor.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "circuit-calculation-questions-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of circuit calculation questions, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of circuit calculation questions to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic ci",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

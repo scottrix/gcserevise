@@ -1,0 +1,157 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S3-grouped-data",
+ "topicName": "S3 Grouped Data",
+ "version": 1,
+ "cards": [
+  {
+   "id": "s3-grouped-data-fc1",
+   "front": "Recall a key point about S3 Grouped Data",
+   "back": "Grouped data organises values into class intervals. When class intervals have different widths, we need special techniques to represent them fairly.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc2",
+   "front": "What should you know about higher tier only?",
+   "back": "Histograms with unequal class intervals and cumulative frequency graphs are Higher tier topics. You must understand frequency density.",
+   "tags": [
+    "higher-tier-only"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc3",
+   "front": "What should you know about when class widths are equal?",
+   "back": "The height of each bar represents the frequency directly. Bars touch each other (no gaps).",
+   "tags": [
+    "when-class-widths-are-equal"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc4",
+   "front": "What should you know about key formula?",
+   "back": "Frequency Density = Frequency ÷ Class Width The area of each bar represents the frequency, not the height!",
+   "tags": [
+    "key-formula"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc5",
+   "front": "What should you know about why use frequency density??",
+   "back": "With unequal intervals, a larger class would unfairly look bigger if we used height. Frequency density makes comparisons fair.",
+   "tags": [
+    "why-use-frequency-density"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc6",
+   "front": "What should you know about cumulative frequency?",
+   "back": "A running total of frequencies. We plot this against the upper class boundary of each interval.",
+   "tags": [
+    "cumulative-frequency"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc7",
+   "front": "What should you know about how to construct?",
+   "back": "Find the cumulative frequency for each class (add frequencies) Plot points at upper class boundaries Join points with a smooth curve Start from (lower boundary of first class, 0)",
+   "tags": [
+    "how-to-construct"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc8",
+   "front": "What should you know about from a cumulative frequency graph?",
+   "back": "Median (Q2): Go to half the total frequency on y-axis, read across to curve, then down to x-axis Lower Quartile (Q1): Go to quarter of total frequency Upper Quartile (Q3): Go to three-quarters of total frequency",
+   "tags": [
+    "from-a-cumulative-frequency-gr"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc9",
+   "front": "Recall a key point about S3 Grouped Data",
+   "back": "For grouped data problems: (1) For histograms, always calculate frequency density = frequency ÷ class width, (2) Remember: area of bar = frequency, NOT height, (3) For cumulative frequency, plot at UPPER class boundaries, (4) To find median from cumulative frequency graph, go to half the total on y-axis, read across to curve, then down to x-axis, (5) For estimated mean from grouped data, use midpoints: mean = Σ(f × midpoint) ÷ Σf.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc10",
+   "front": "What should you know about answers?",
+   "back": "(a) Median at CF=60: read from curve ≈ 64. Q1 at CF=30: ≈ 55. Q3 at CF=90: ≈ 73. IQR = 73−55 = 18. (b) At score 65, read CF ≈ 50. Students passing = 120−50 = 70. (c) Between 60 and 80: CF at 80 = 108, CF at 60 = 48. Students in range = 108−48 = 60 out of 120 = 50%. \"Most\" means more than 50%, so the claim is borderline — exactly half, not \"most\".",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc11",
+   "front": "What does Class Interval mean?",
+   "back": "A range of values grouped together (e.g. 0-10)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc12",
+   "front": "What does Frequency mean?",
+   "back": "Number of items in each class",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc13",
+   "front": "What does Frequency Density mean?",
+   "back": "Frequency ÷ Class Width",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc14",
+   "front": "What does Cumulative Frequency mean?",
+   "back": "Running total of frequencies",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s3-grouped-data-fc15",
+   "front": "What does Upper Class Boundary mean?",
+   "back": "The highest value in a class interval",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

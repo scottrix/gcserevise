@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "capacitors-inductors",
+ "topicName": "Capacitors & Inductors",
+ "version": 1,
+ "steps": [
+  {
+   "id": "capacitors-inductors-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Capacitance C = Q/V, measured in farads (F); a capacitor stores charge on parallel plates separated by a dielectric."
+  },
+  {
+   "id": "capacitors-inductors-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The energy stored in a capacitor is E = ½CV² = ½QV."
+  },
+  {
+   "id": "capacitors-inductors-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "In an RC charging circuit, V_C rises exponentially: V_C = V_supply(1 − e^(−t/RC))."
+  },
+  {
+   "id": "capacitors-inductors-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The time constant τ = RC is the time for the capacitor to reach 63.2% of its final voltage when charging."
+  },
+  {
+   "id": "capacitors-inductors-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: A 100 μF capacitor is charged to 10 V. How much charge is stored? | Q: What is the time constant of a circuit with R = 10 kΩ and C = 20 μF? | Q: How much energy is stored in a 47 μF capacitor charged to 12 V?"
+  },
+  {
+   "id": "capacitors-inductors-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Q = CV = 100 × 10⁻⁶ × 10 = 1 × 10⁻³ C = 1 mC. | τ = RC = 10 × 10³ × 20 × 10⁻⁶ = 0.2 s. | E = ½CV² = 0.5 × 47 × 10⁻⁶ × 144 = 3.384 × 10⁻³ J ≈ 3.4 mJ."
+  },
+  {
+   "id": "capacitors-inductors-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always convert units: μF to F (×10⁻⁶), mH to H (×10⁻³) before substituting into formulas. State the exponential formula before substituting values in RC circuit questions. Remember: at t = τ, charging reaches 63.2%; after 5τ it is ~99.3% charged. For energy calculations, use E = ½CV² for capacitors and E = ½LI² for inductors. Sketch the exponential charging/discharging curve to support your answer when asked to describe behaviour."
+  }
+ ]
+}

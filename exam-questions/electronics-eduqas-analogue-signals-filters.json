@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "analogue-signals-filters",
+ "topicName": "Analogue Signals & Filters",
+ "version": 1,
+ "questions": [
+  {
+   "id": "analogue-signals-filters-q1",
+   "type": "short-answer",
+   "question": "Q: Calculate the cut-off frequency of an RC low-pass filter with R = 1 kΩ and C = 100 nF.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "f_c = 1/(2πRC) = 1/(2π × 1000 × 100 × 10⁻⁹) = 1/(6.283 × 10⁻⁴) = 1592 Hz ≈ 1.6 kHz.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "analogue-signals-filters-q2",
+   "type": "short-answer",
+   "question": "Q: What is the roll-off rate of a first-order RC low-pass filter above the cut-off frequency?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "−20 dB/decade, which is equivalent to −6 dB/octave.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "analogue-signals-filters-q3",
+   "type": "short-answer",
+   "question": "Q: Explain the purpose of a voltage follower buffer in a filter circuit.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A voltage follower provides high input impedance and low output impedance, preventing the filter from being loaded by the next stage.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "analogue-signals-filters-q4",
+   "type": "short-answer",
+   "question": "Q: A high-pass RC filter has C = 10 nF and R = 15 kΩ. What is the cut-off frequency?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "f_c = 1/(2πRC) = 1/(2π × 15000 × 10 × 10⁻⁹) = 1/(9.425 × 10⁻⁴) = 1061 Hz ≈ 1.06 kHz.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "analogue-signals-filters-q5",
+   "type": "short-answer",
+   "question": "Q: State two reasons for using an active filter rather than a passive RC filter.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Active filters can provide gain and do not suffer from loading effects because the op-amp buffers the output.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "analogue-signals-filters-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Describe the operation of RC low-pass and high-pass filters, explaining how the cut-off frequency is determined and how signal conditioning prepares signals for further processing. <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An RC low-pass filter consists of a resistor in series with the signal path and a capacitor in parallel to ground; it allows low frequencies to pass while attenuating high frequencies as the capacitor's reactance decreases. An RC high-pass filter has the capacitor in series and the resistor to ground; it blocks low frequencies (where the capacitor's reactance is high) and passes high frequencies. The cut-off frequency for both is f_c = 1/(2πRC), at which the output amplitude falls to 0.707 of the input (−3 dB). Above f_c, a low-pass filter rolls off at −20 dB/decade; below f_c, a high-pass fil",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "An RC low-pass filter consists of a resistor in series with the signal path and a capacitor in parallel to ground; it allows low frequencies to pass while attenuating high frequencies as the capacitor's reactance decreases. An RC high-pass filter has the capacitor in series and the resistor to ground; it blocks low frequencies (where the capacitor's reactance is high) and passes high frequencies. The cut-off frequency for both is f_c = 1/(2πRC), at which the output amplitude falls to 0.707 of the input (−3 dB). Above f_c, a low-pass filter rolls off at −20 dB/decade; below f_c, a high-pass filter rolls off at the same rate. Signal conditioning prepares raw signals for further processing by amplifying weak signals, filtering unwanted noise, level-shifting to match voltage ranges, and impedance matching using buffer amplifiers (voltage followers) to prevent loading. Active filters using op-amps overcome the limitations of passive RC filters by providing gain, eliminating loading effects and enabling sharper roll-off through higher-order designs."
+   }
+  }
+ ]
+}

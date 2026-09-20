@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "power-energy-circuits",
+ "topicName": "Power & Energy in Circuits",
+ "version": 1,
+ "questions": [
+  {
+   "id": "power-energy-circuits-q1",
+   "type": "short-answer",
+   "question": "Q: A 12 V supply delivers 5 A. What is the power?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "P = VI = 12 × 5 = 60 W.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-energy-circuits-q2",
+   "type": "short-answer",
+   "question": "Q: A 10 Ω resistor carries 2 A. What power does it dissipate?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "P = I²R = 2² × 10 = 40 W.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-energy-circuits-q3",
+   "type": "short-answer",
+   "question": "Q: A 60 W lamp runs for 3 hours. How much energy does it consume?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "E = Pt = 60 × 3 = 180 Wh = 0.18 kWh.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-energy-circuits-q4",
+   "type": "short-answer",
+   "question": "Q: A 3000 mAh battery powers a device drawing 150 mA. How long will it last?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Time = capacity/current = 3000/150 = 20 hours.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-energy-circuits-q5",
+   "type": "short-answer",
+   "question": "Q: A circuit has 100 W input power and 75 W useful output. What is the efficiency?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Efficiency = 75/100 × 100% = 75%.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "power-energy-circuits-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain the relationship between power, voltage, current and resistance in a circuit, and discuss how energy efficiency is affected by internal resistance. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Power in an electrical circuit is the rate of energy transfer, calculated as P = VI. By substituting Ohm's Law (V = IR), two alternative forms are derived: P = I²R and P = V²/R. The choice of formula depends on which quantities are known. Energy consumed is E = Pt, measured in joules or kilowatt-hours for domestic billing. Internal resistance in a battery causes a voltage drop V_lost = I × r_internal when current is drawn, reducing the terminal voltage available to the load. This means some power (I² × r_internal) is dissipated inside the battery as heat rather than being delivered to the circ",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Power in an electrical circuit is the rate of energy transfer, calculated as P = VI. By substituting Ohm's Law (V = IR), two alternative forms are derived: P = I²R and P = V²/R. The choice of formula depends on which quantities are known. Energy consumed is E = Pt, measured in joules or kilowatt-hours for domestic billing. Internal resistance in a battery causes a voltage drop V_lost = I × r_internal when current is drawn, reducing the terminal voltage available to the load. This means some power (I² × r_internal) is dissipated inside the battery as heat rather than being delivered to the circuit. The useful output power is therefore less than the total power from the EMF, reducing efficiency. High-current applications are most affected because internal resistance losses increase with the square of current (P = I²R). To maximise efficiency, batteries with low internal resistance should be used, and load resistance should be significantly greater than the internal resistance."
+   }
+  }
+ ]
+}

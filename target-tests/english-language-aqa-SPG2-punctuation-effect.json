@@ -1,0 +1,68 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "SPG2-punctuation-effect",
+ "topicName": "Punctuation for Effect",
+ "version": 1,
+ "tests": [
+  {
+   "id": "spg2-punctuation-effect-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Punctuation for Effect",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "spg2-punctuation-effect-t1",
+     "type": "short-answer",
+     "question": "Rewrite this sentence using a colon for emphasis: \"She wanted one thing only, revenge.\"",
+     "correctAnswer": "She wanted one thing only: revenge.",
+     "explanation": "Answer: She wanted one thing only: revenge.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg2-punctuation-effect-t2",
+     "type": "short-answer",
+     "question": "Rewrite using a semi-colon: \"The door slammed. She jumped.\"",
+     "correctAnswer": "The door slammed; she jumped.",
+     "explanation": "Answer: The door slammed; she jumped.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg2-punctuation-effect-t3",
+     "type": "short-answer",
+     "question": "Add a dash for dramatic effect: \"He opened the box and saw something unexpected.\"",
+     "correctAnswer": "He opened the box—and saw something unexpected.",
+     "explanation": "Answer: He opened the box—and saw something unexpected.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg2-punctuation-effect-t4",
+     "type": "short-answer",
+     "question": "Rewrite using ellipsis to create suspense: \"She heard footsteps getting closer to her door.\"",
+     "correctAnswer": "She heard footsteps... getting closer... to her door.",
+     "explanation": "Answer: She heard footsteps... getting closer... to her door.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "spg2-punctuation-effect-t5",
+     "type": "short-answer",
+     "question": "Correct the punctuation in: \"Where are you going\" asked Sarah",
+     "correctAnswer": "\"Where are you going?\" asked Sarah.",
+     "explanation": "Answer: \"Where are you going?\" asked Sarah.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

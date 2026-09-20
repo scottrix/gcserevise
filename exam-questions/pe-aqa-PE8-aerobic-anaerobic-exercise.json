@@ -1,0 +1,111 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE8-aerobic-anaerobic-exercise",
+ "topicName": "Aerobic and Anaerobic Exercise",
+ "version": 1,
+ "questions": [
+  {
+   "id": "pe8-aerobic-anaerobic-exercise-q1",
+   "type": "short-answer",
+   "question": "Write the word equation for aerobic respiration.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Glucose + Oxygen → Carbon Dioxide + Water + Energy",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe8-aerobic-anaerobic-exercise-q2",
+   "type": "short-answer",
+   "question": "Write the word equation for anaerobic respiration.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Glucose → Lactic Acid + Energy",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe8-aerobic-anaerobic-exercise-q3",
+   "type": "short-answer",
+   "question": "Explain why a marathon runner uses primarily the aerobic system while a 100m sprinter uses primarily the anaerobic system.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A marathon is a long-duration, moderate-intensity event (26.2 miles), so the aerobic system can supply sufficient energy using oxygen. A 100m sprint is a very short, maximal-intensity effort (~10 seconds), requiring energy too quickly for oxygen delivery, so the anaerobic system (ATP-PC) provides the immediate energy needed.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe8-aerobic-anaerobic-exercise-q4",
+   "type": "short-answer",
+   "question": "What is EPOC and why does it occur after anaerobic exercise?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "EPOC (Excess Post-exercise Oxygen Consumption) is the additional oxygen consumed after exercise to restore the body to its pre-exercise state. It occurs after anaerobic exercise because the body could not supply enough oxygen during the activity, creating an oxygen debt. The extra oxygen is needed to break down lactic acid, resynthesise ATP and PC stores, and replenish oxygen stores in blood and m",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe8-aerobic-anaerobic-exercise-q5",
+   "type": "short-answer",
+   "question": "Explain why an active cool-down is better for recovery than passive rest.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An active cool-down (light exercise such as jogging) maintains blood flow, which continues to deliver oxygen to muscles and transport lactic acid to the liver for processing. In passive rest, blood flow decreases significantly, meaning lactic acid removal and EPOC repayment are slower.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe8-aerobic-anaerobic-exercise-q6",
+   "type": "short-answer",
+   "question": "What are the three ways lactic acid is removed from the body during recovery?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Lactic acid is removed by: (1) conversion back to pyruvate and oxidation aerobically in mitochondria, (2) transport to the liver where it is converted back to glucose (Cori cycle), and (3) use as a fuel by the heart and slow-twitch muscle fibres.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS24-boolean-logic",
+ "topicName": "Boolean Logic",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs24-boolean-logic-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Boolean Logic",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs24-boolean-logic-t4",
+     "type": "short-answer",
+     "question": "Write the Boolean expression for a circuit where A and B go into an OR gate, and the output is fed into a NOT gate.",
+     "correctAnswer": "Q = A + B (this is the NOR gate function)",
+     "explanation": "Answer: Q = A + B (this is the NOR gate function)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs24-boolean-logic-t5",
+     "type": "short-answer",
+     "question": "How many rows does a truth table need for a circuit with 3 inputs?",
+     "correctAnswer": "2 3 = 8 rows, covering all combinations from 000 to 111.",
+     "explanation": "Answer: 2 3 = 8 rows, covering all combinations from 000 to 111.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

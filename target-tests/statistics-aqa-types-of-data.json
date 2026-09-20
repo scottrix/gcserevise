@@ -1,0 +1,38 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "types-of-data",
+ "topicName": "Types Of Data",
+ "version": 1,
+ "tests": [
+  {
+   "id": "types-of-data-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Types Of Data",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "types-of-data-t1",
+     "type": "short-answer",
+     "question": "Q: Is 'number of goals scored in a match' discrete or continuous?",
+     "correctAnswer": "Discrete — it can only take whole-number values (0, 1, 2, …).",
+     "explanation": "Answer: Discrete — it can only take whole-number values (0, 1, 2, …).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "types-of-data-t5",
+     "type": "short-answer",
+     "question": "Q: What type of diagram is most appropriate for displaying continuous grouped data?",
+     "correctAnswer": "A histogram.",
+     "explanation": "Answer: A histogram.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P4-specific-heat-capacity",
+ "topicName": "P4 Specific Heat Capacity",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p4-specific-heat-capacity-q1",
+   "type": "short-answer",
+   "question": "Foundation Define specific heat capacity and state its unit.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The specific heat capacity of a substance is the amount of energy needed to change the temperature of 1 kg of the substance by 1 °C. The unit is J/kg°C (joules per kilogram per degree Celsius).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4-specific-heat-capacity-q2",
+   "type": "short-answer",
+   "question": "Foundation Calculate the energy needed to heat 3 kg of water from 15 °C to 85 °C. c = 4200 J/kg°C.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "ΔE = m x c x ΔT = 3 x 4200 x (85 - 15) = 3 x 4200 x 70 = 882 000 J = 882 kJ.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4-specific-heat-capacity-q3",
+   "type": "short-answer",
+   "question": "Foundation Explain why water is used in central heating systems rather than oil.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Water has a higher SHC (4200 J/kg°C) than oil (~2000 J/kg°C). This means water stores more thermal energy per kg for each degree of temperature rise. Water can therefore carry more energy from the boiler to the radiators and release it over a longer time, making it more effective for heating.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4-specific-heat-capacity-q4",
+   "type": "short-answer",
+   "question": "Higher A 1.5 kg block of iron (c = 450 J/kg°C) is heated from 20 °C to 120 °C. Calculate the energy supplied.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "ΔE = m x c x ΔT = 1.5 x 450 x (120 - 20) = 1.5 x 450 x 100 = 67 500 J = 67.5 kJ.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4-specific-heat-capacity-q5",
+   "type": "short-answer",
+   "question": "Higher In a required practical, a 0.4 kg metal block is heated by a 10 V, 2 A heater for 7 minutes. The temperature rises by 35 °C. Calculate the SHC. Explain why the true SHC may be different from your calculated value.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "E = V x I x t = 10 x 2 x (7 x 60) = 10 x 2 x 420 = 8400 J. c = E / (m x ΔT) = 8400 / (0.4 x 35) = 8400 / 14 = 600 J/kg°C. The true SHC may be different because some energy is lost to the surroundings (not all heat goes into the block), so the calculated SHC is higher than the true value. Also, the thermometer may not read the true average temperature of the block.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4-specific-heat-capacity-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Describe how you would investigate the specific heat capacity of a metal block in the laboratory. Explain your method and evaluate the main sources of error and how they affect the result. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Method: Measure the mass of the metal block using a balance. Wrap the block in insulation to reduce heat loss. Insert an immersion heater and a thermometer into the holes in the block. Record the initial temperature. Connect the immersion heater to a joulemeter (or use a voltmeter, ammeter and stopwatch and calculate E = V × I × t). Switch on the heater for a set time (e.g. 10 minutes). Record the final temperature and the total energy supplied. Calculate the SHC using c = E ÷ (m × ΔT). Sources of error: (1) Heat loss to the surroundings — not all the electrical energy goes into heating the bl",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Method: Measure the mass of the metal block using a balance. Wrap the block in insulation to reduce heat loss. Insert an immersion heater and a thermometer into the holes in the block. Record the initial temperature. Connect the immersion heater to a joulemeter (or use a voltmeter, ammeter and stopwatch and calculate E = V × I × t). Switch on the heater for a set time (e.g. 10 minutes). Record the final temperature and the total energy supplied. Calculate the SHC using c = E ÷ (m × ΔT). Sources of error: (1) Heat loss to the surroundings — not all the electrical energy goes into heating the block; some is dissipated to the thermal store of the air and insulation. This means the calculated SHC is higher than the true value because less energy actually heats the block than the joulemeter records. (2) The thermometer may not be in good thermal contact with the block, so the measured temperature change may be inaccurate. (3) Heat may not be distributed evenly through the block, creating hot spots near the heater. To improve: use thicker insulation, allow time for heat to distribute before reading the final temperature, and use a smaller temperature rise to reduce heat loss. Mark scheme: 1 mark — correct method with mass, heater, thermometer and insulation; 1 mark — measuring energy and temperature change; 1 mark — correct use of equation c = E/(mΔT); 1 mark — heat loss to surroundings identified and effect on result explained; 1 mark — second error identified (thermometer contact"
+   }
+  }
+ ]
+}

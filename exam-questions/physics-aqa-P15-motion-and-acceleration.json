@@ -1,0 +1,129 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P15-motion-and-acceleration",
+ "topicName": "Motion And Acceleration",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p15-motion-and-acceleration-q1",
+   "type": "short-answer",
+   "question": "Foundation A runner travels 100 m in 12.5 s. Calculate the average speed.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "v = s / t = 100 / 12.5 = 8 m/s",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p15-motion-and-acceleration-q2",
+   "type": "short-answer",
+   "question": "Foundation A car accelerates from rest to 30 m/s in 6 s. Calculate the acceleration.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "a = Δv / t = (30 − 0) / 6 = 30 / 6 = 5 m/s²",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p15-motion-and-acceleration-q3",
+   "type": "short-answer",
+   "question": "Higher A car has initial velocity 8 m/s and accelerates at 2 m/s² for 5 s. Calculate the final velocity and the distance travelled.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "v = u + at = 8 + 2 × 5 = 18 m/s. s = ½(u + v)t = ½(8 + 18) × 5 = ½ × 26 × 5 = 65 m",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p15-motion-and-acceleration-q4",
+   "type": "short-answer",
+   "question": "Higher Describe what a flat horizontal section and a negative gradient represent on a velocity-time graph.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Flat horizontal section = constant velocity (not accelerating). Negative gradient = deceleration (slowing down).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p15-motion-and-acceleration-q5",
+   "type": "short-answer",
+   "question": "Foundation On a distance-time graph, what does the gradient represent and how can you tell if an object is accelerating?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Gradient represents speed. If the line curves upwards (getting steeper), the object is accelerating.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p15-motion-and-acceleration-q6",
+   "type": "short-answer",
+   "question": "Higher A velocity-time graph shows a car accelerating from 0 to 20 m/s in 4 s, then travelling at constant velocity for 6 s. Calculate the total distance travelled.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Phase 1 (acceleration): area = ½ × 4 × 20 = 40 m. Phase 2 (constant): area = 20 × 6 = 120 m. Total = 40 + 120 = 160 m",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p15-motion-and-acceleration-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Describe how to investigate the relationship between force and acceleration using a trolley, light gates and masses. Explain how the results confirm F = ma. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Set up a trolley on a sloped runway (to compensate for friction) with a pulley at the end. Attach a string over the pulley to a mass hanger. Set up two light gates connected to a data logger, a known distance apart. Attach a card of known length to the trolley so each light gate can measure velocity. Start with the trolley and a 1 N mass on the hanger. Release the trolley and record the acceleration from the data logger. Repeat with increasing force by adding masses to the hanger. To keep the total mass of the system constant, transfer masses from the trolley to the hanger each time. Plot a gr",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Set up a trolley on a sloped runway (to compensate for friction) with a pulley at the end. Attach a string over the pulley to a mass hanger. Set up two light gates connected to a data logger, a known distance apart. Attach a card of known length to the trolley so each light gate can measure velocity. Start with the trolley and a 1 N mass on the hanger. Release the trolley and record the acceleration from the data logger. Repeat with increasing force by adding masses to the hanger. To keep the total mass of the system constant, transfer masses from the trolley to the hanger each time. Plot a graph of acceleration (y-axis) against force (x-axis). The graph should be a straight line through the origin, showing that acceleration is directly proportional to force (confirming F = ma, or a = F/m). The gradient equals 1/m, confirming the inverse relationship with mass. Mark scheme: 1 mark for correct apparatus (trolley, pulley, light gates); 1 mark for method of varying force (adding masses); 1 mark for measuring acceleration with light gates/data logger; 1 mark for keeping total mass constant (transferring masses); 1 mark for plotting graph and stating it is a straight line through origin; 1 mark for conclusion that a ∝ F (confirming F = ma). (6 marks total)"
+   }
+  }
+ ]
+}

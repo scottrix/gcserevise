@@ -1,0 +1,57 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P27-electromagnets",
+ "topicName": "Electromagnets",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p27-electromagnets-s1",
+   "kind": "learn",
+   "title": "Electromagnet",
+   "body": "A coil of wire (solenoid) with a current flowing through it, which produces a magnetic field. Unlike a permanent magnet, an electromagnet can be switched on and off by turning the current on and off."
+  },
+  {
+   "id": "p27-electromagnets-s2",
+   "kind": "learn",
+   "title": "Solenoid",
+   "body": "A coil of wire that produces a strong, uniform magnetic field inside it when a current flows. The field inside is strong and parallel to the axis; the field outside is similar to a bar magnet."
+  },
+  {
+   "id": "p27-electromagnets-s3",
+   "kind": "learn",
+   "title": "Motor effect",
+   "body": "When a current-carrying wire is placed in a magnetic field, the wire experiences a force. This is the motor effect. The force is greatest when the wire is perpendicular to the magnetic field."
+  },
+  {
+   "id": "p27-electromagnets-s4",
+   "kind": "learn",
+   "title": "Fleming's left-hand rule",
+   "body": "A rule to determine the direction of the force on a current-carrying wire in a magnetic field. First finger = direction of magnetic field (N to S), Second finger = direction of current, Thumb = direction of force (motion)."
+  },
+  {
+   "id": "p27-electromagnets-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Example 1: Using Fleming's left-hand rule A wire carries current upwards through a magnetic field that points from left to right. What is the direction of the force on the wire? Solution: Using Fleming's left-hand rule: • First finger (Field): points left to right • Second finger (Current): points upwards • Thumb (Force/Motion): points away from you (into the page) The force pushes the wire into the page. Example 2: Calculating force A wire of length 0.05 m carries a current of 3 A perpendicular to a magnetic field of flux density 0.4 T. Calculate the force on the wire. Solution: F = B × I × L = 0.4 × 3 × 0.05 = 0.06 N Example 3: Increasing motor force An electric motor spins too slowly. State two ways to increase the force on the coil to make it spin faster. Solution: 1. Increase the current flowing through the coil (F is proportional to I). 2. Use stronger magnets to increase the magnetic flux density (F is proportional to B). (Other valid answers: increase the length of wire in the "
+  },
+  {
+   "id": "p27-electromagnets-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation State three ways to increase the strength of an electromagnet. | Foundation Explain why an electromagnet is more useful than a permanent magnet in a scrap yard crane. | Higher A wire of length 0.1 m carries a current of 2 A perpendicular to a magnetic field of 0.5 T. Calculate the force on the wire."
+  },
+  {
+   "id": "p27-electromagnets-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Q1: Three from: increase the current, add more turns of wire to the coil, add a soft iron core inside the coil, use a higher voltage power supply to increase current. | Q2: An electromagnet can be switched on and off by controlling the current. In a scrap yard, this allows the crane to pick up metal objects when the current is on and release them when the current is  | Q3: F = B × I × L = 0.5 × 2 × 0.1 = 0.1 N"
+  },
+  {
+   "id": "p27-electromagnets-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Fleming's left-hand rule uses the LEFT hand — a very common mistake is using the right hand. Remember the order: F irst finger = F ield, se C ond finger = C urrent, thu M b = M otion. The force is zero when the wire is parallel to the field — it must be at an angle (perpendicular is maximum). For the motor, always mention the split ring commutator — it's the component that keeps the motor turning. When asked about increasing electromagnet strength, choose the most effective answer first: iron core, then more turns, then more current. For loudspeaker questions, always link: varying current → varying force → vibrating cone → sound waves."
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS30-network-protocols",
+ "topicName": "Network Protocols",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs30-network-protocols-q1",
+   "type": "short-answer",
+   "question": "What is a network protocol and why are protocols needed?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A network protocol is a set of rules that governs how data is transmitted between devices. Protocols are needed to ensure different devices can communicate, data arrives correctly and completely, errors are handled, and communication is standardised across different manufacturers and systems.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs30-network-protocols-q2",
+   "type": "short-answer",
+   "question": "Explain the roles of TCP and IP and how they work together.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "TCP ensures reliable delivery by breaking data into packets, numbering them, checking they all arrive, and reassembling them in order. IP handles addressing and routing, adding source and destination addresses to packets so they can be delivered across networks. They work together: IP routes packets to the destination, and TCP ensures they all arrive correctly and in order.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs30-network-protocols-q3",
+   "type": "short-answer",
+   "question": "What is the difference between HTTP and HTTPS?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "HTTP transfers web pages in plain text (no encryption) and is not secure. HTTPS is the same as HTTP but adds SSL/TLS encryption, making the data unreadable to anyone intercepting it. HTTPS also uses digital certificates to verify the server's identity. HTTP uses port 80; HTTPS uses port 443.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs30-network-protocols-q4",
+   "type": "short-answer",
+   "question": "Which protocol is used for sending email and which for receiving it?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "SMTP (Simple Mail Transfer Protocol) is used for sending email. IMAP (Internet Message Access Protocol) is used for receiving and reading email.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs30-network-protocols-q5",
+   "type": "short-answer",
+   "question": "Explain why protocols are organised in layers.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Protocols are layered so each layer handles one specific aspect of communication. Layers can be changed independently (e.g. switching from Wi-Fi to Ethernet doesn't affect the application layer). Each layer only needs to communicate with the layers directly above and below it, making the system modular and easier to develop and maintain.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs30-network-protocols-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain the difference between TCP and UDP, giving one example of when each would be used and justifying your choice. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "TCP (Transmission Control Protocol) is a reliable, connection-oriented protocol. It establishes a connection before sending, checks all packets arrive, resends any lost packets, and reassembles data in the correct order. UDP (User Datagram Protocol) is an unreliable, connectionless protocol. It sends packets without checking delivery or order, making it faster but with no guarantee of arrival. Example for TCP: Email (SMTP) — emails must arrive completely and in order; reliability matters more than speed. Lost or reordered email content would be unacceptable. Example for UDP: Live video streami",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "TCP (Transmission Control Protocol) is a reliable, connection-oriented protocol. It establishes a connection before sending, checks all packets arrive, resends any lost packets, and reassembles data in the correct order. UDP (User Datagram Protocol) is an unreliable, connectionless protocol. It sends packets without checking delivery or order, making it faster but with no guarantee of arrival. Example for TCP: Email (SMTP) — emails must arrive completely and in order; reliability matters more than speed. Lost or reordered email content would be unacceptable. Example for UDP: Live video streaming — speed matters more than reliability; a few lost frames are acceptable but delayed packets cause buffering. TCP's retransmission delays would make the stream lag and buffer."
+   }
+  }
+ ]
+}

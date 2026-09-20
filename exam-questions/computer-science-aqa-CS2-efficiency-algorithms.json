@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS2-efficiency-algorithms",
+ "topicName": "Efficiency of Algorithms",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs2-efficiency-algorithms-q1",
+   "type": "short-answer",
+   "question": "What does time complexity measure?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Time complexity measures how the running time of an algorithm grows as the input size increases. It describes the relationship between input size and number of operations.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs2-efficiency-algorithms-q2",
+   "type": "short-answer",
+   "question": "An algorithm has O(n) time complexity. If it takes 5 seconds to process 1000 items, approximately how long would it take to process 5000 items?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Approximately 25 seconds. O(n) means time is proportional to input size. 5000 is 5 times 1000, so 5 × 5 = 25 seconds.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs2-efficiency-algorithms-q3",
+   "type": "short-answer",
+   "question": "Explain why binary search is more efficient than linear search for large datasets.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Binary search halves the search space each step, so it needs at most log₂(n) comparisons. Linear search checks every item, needing up to n comparisons. For large n, log₂(n) is vastly smaller than n.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs2-efficiency-algorithms-q4",
+   "type": "short-answer",
+   "question": "Give an example of a situation where using a less efficient algorithm might be acceptable.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When the dataset is very small (e.g. sorting 10 items), the difference between efficient and inefficient algorithms is negligible. Also, when the algorithm only runs once and speed is not critical.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs2-efficiency-algorithms-q5",
+   "type": "short-answer",
+   "question": "A bubble sort on 100 items takes up to 10,000 comparisons. How many comparisons would it take for 1000 items?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Up to 1,000,000 comparisons. Bubble sort is O(n²), so for 1000 items: 1000 × 1000 = 1,000,000.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs2-efficiency-algorithms-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Two algorithms solve the same problem. Algorithm A has time complexity O(n²) and Algorithm B has O(n log n). Explain which algorithm is more efficient for large datasets and why. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Algorithm B (O(n log n)) is more efficient for large datasets. As n increases, n² grows much faster than n log n. For example, with n = 1000: Algorithm A performs roughly 1,000,000 operations while Algorithm B performs roughly 10,000 operations. Big O notation shows that Algorithm B scales better because its growth rate is lower, meaning it will be significantly faster for large inputs. However, for very small datasets Algorithm A might be comparable due to lower constant overhead.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Algorithm B (O(n log n)) is more efficient for large datasets. As n increases, n² grows much faster than n log n. For example, with n = 1000: Algorithm A performs roughly 1,000,000 operations while Algorithm B performs roughly 10,000 operations. Big O notation shows that Algorithm B scales better because its growth rate is lower, meaning it will be significantly faster for large inputs. However, for very small datasets Algorithm A might be comparable due to lower constant overhead."
+   }
+  }
+ ]
+}

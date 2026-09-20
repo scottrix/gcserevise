@@ -1,0 +1,78 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "FN6-heat-transfer-cooking",
+ "topicName": "Heat Transfer & Cooking Methods",
+ "version": 1,
+ "questions": [
+  {
+   "id": "fn6-heat-transfer-cooking-q1",
+   "type": "short-answer",
+   "question": "Q: Explain the three methods of heat transfer with a cooking example for each.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Conduction: heat transfers through direct contact — e.g. a frying pan conducts heat from the hob to the food. Convection: heat transfers through fluid movement — e.g. hot air circulating in an oven bakes a cake. Radiation: heat transfers through electromagnetic waves — e.g. a grill radiates infrared heat to toast bread.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "fn6-heat-transfer-cooking-q2",
+   "type": "short-answer",
+   "question": "Q: Why is steaming considered a healthier cooking method than boiling?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Steaming retains more water-soluble vitamins (B and C) because the food doesn't contact the cooking water, so nutrients aren't leached out. Steaming also requires no added fat, preserving the food's natural flavour, colour, and texture. Boiling leaches water-soluble vitamins into the cooking water and can overcook vegetables, making them mushy.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "fn6-heat-transfer-cooking-q3",
+   "type": "short-answer",
+   "question": "Q: Evaluate the use of microwave cooking for preparing nutritious meals.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Microwaving is quick and uses minimal water, preserving water-soluble vitamins better than boiling. It's energy-efficient and convenient. However, it doesn't produce browning (Maillard reaction), so foods lack the flavour and texture of oven-cooked alternatives. It's unsuitable for pastry or crispy foods. Microwave penetration is limited (~4cm), leading to uneven cooking in thick foods. Best for r",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "fn6-heat-transfer-cooking-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Compare two different cooking methods, explaining how heat is transferred and the effects on nutritional and sensory properties. [12 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Boiling and steaming are both moist-heat cooking methods but differ significantly in heat transfer and effects on food. Boiling uses convection — heat transfers through circulating hot water at 100°C. The food is fully immersed, and water-soluble vitamins (B and C) leach into the cooking water. If the water is discarded, these nutrients are lost. Boiling also causes cell walls to break down, potentially making vegetables soft and losing colour (especially green vegetables, where acid released during cooking degrades chlorophyll). Steaming also uses convection — heat transfers through circulati",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Boiling and steaming are both moist-heat cooking methods but differ significantly in heat transfer and effects on food. Boiling uses convection — heat transfers through circulating hot water at 100°C. The food is fully immersed, and water-soluble vitamins (B and C) leach into the cooking water. If the water is discarded, these nutrients are lost. Boiling also causes cell walls to break down, potentially making vegetables soft and losing colour (especially green vegetables, where acid released during cooking degrades chlorophyll). Steaming also uses convection — heat transfers through circulating steam. However, the food sits above the water and never touches it, so water-soluble vitamins are retained in the food. The gentle heat preserves cell structure, maintaining firmer texture, brighter colour, and more flavour. Steaming requires no added fat. Both methods cook at approximately 100°C, so high-temperature reactions like the Maillard reaction don't occur. Neither produces browning or the complex flavours associated with dry-heat cooking. From a nutritional perspective, steaming is clearly superior — studies show steamed broccoli retains up to 80% of vitamin C compared to only 40% in boiled broccoli. However, the cooking water from boiling can be used in soups and sauces to recover leached nutrients. From a sensory perspective, steamed vegetables have better texture, colour, and flavour. Boiling can produce mushy, pale, less flavourful results if overdone. Overall, steaming "
+   }
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "comparator-circuits",
+ "topicName": "Comparator Circuits",
+ "version": 1,
+ "steps": [
+  {
+   "id": "comparator-circuits-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A comparator compares two input voltages and switches its output to indicate which is higher; no negative feedback is used."
+  },
+  {
+   "id": "comparator-circuits-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "When V+ > V−, the output goes to positive saturation; when V+ < V−, the output goes to negative saturation."
+  },
+  {
+   "id": "comparator-circuits-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A simple comparator has a single threshold voltage; the output switches when the input crosses this level."
+  },
+  {
+   "id": "comparator-circuits-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Noise on the input signal can cause a simple comparator to chatter (switch rapidly) near the threshold."
+  },
+  {
+   "id": "comparator-circuits-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain why a simple comparator can produce a chattering output when the input signal is noisy. | Q: A Schmitt trigger has V_UT = 4 V and V_LT = 2 V. What is the hysteresis voltage? | Q: State the role of positive feedback in a Schmitt trigger."
+  },
+  {
+   "id": "comparator-circuits-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Noise causes the input to cross the single threshold repeatedly, making the output switch rapidly between states. | V_H = V_UT − V_LT = 4 − 2 = 2 V. | Positive feedback creates two distinct threshold voltages (hysteresis), accelerates switching transitions and eliminates output chatter."
+  },
+  {
+   "id": "comparator-circuits-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When drawing a Schmitt trigger, clearly show the positive feedback resistor from output to non-inverting input. Label both threshold voltages (V_UT and V_LT) on the transfer characteristic and state the hysteresis value. Explain hysteresis using the analogy: the output 'remembers' its previous state until the opposite threshold is crossed. For calculations, always state the hysteresis formula: V_H = V_UT − V_LT. Distinguish between a simple comparator (one threshold) and a Schmitt trigger (two thresholds with hysteresis)."
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "subject": "english-language",
+ "board": "Eduqas",
+ "topic": "mock-exam",
+ "topicName": "English-Language Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "english-language-mock",
+   "name": "English-Language Mock Exam",
+   "description": "Timed mock covering 5 topics",
+   "timeLimit": 18,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Retrieval & Literal Comprehension] When answering a \"List four things\" question, should you use your own words or copy the text exactly?",
+     "correctAnswer": "Write in your own words where possible (but keep close to the text)",
+     "explanation": "Write in your own words where possible (but keep close to the text)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Retrieval & Literal Comprehension] What's the difference between retrieval and inference?",
+     "correctAnswer": "You can use bullet points or numbered lists",
+     "explanation": "You can use bullet points or numbered lists",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Retrieval & Literal Comprehension] How long should you spend on AQA Paper 1 Q1?",
+     "correctAnswer": "Each point should be a complete idea",
+     "explanation": "Each point should be a complete idea",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Inference & Deduction] Full-Mark Response 8 marks: Look in detail at lines 10-22. How does the writer use language here to suggest the character's state of mind? You should include your own inference about what the language suggests. <div class=\"",
+     "correctAnswer": "The writer suggests the character is deeply anxious and on edge. This is established through the description of her \"fingers drumming an irregular rhythm on the tabletop,\" which implies restless nervous energy she cannot control. The adjective \"irregular\" is particularly revealing - it suggests her ",
+     "explanation": "The writer suggests the character is deeply anxious and on edge. This is established through the description of her \"fingers drumming an irregular rhythm on the tabletop,\" which implies restless nervous energy she cannot control. The adjective \"irregular\" is particularly revealing - it suggests her ",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Language Analysis] What is the difference between a metaphor and a simile?",
+     "correctAnswer": "A metaphor directly says something IS something else, while a simile compares using \"like\" or \"as\".",
+     "explanation": "A metaphor directly says something IS something else, while a simile compares using \"like\" or \"as\".",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Language Analysis] What does PEEL stand for?",
+     "correctAnswer": "Point, Evidence, Explain, Link - a structure for writing analytical paragraphs.",
+     "explanation": "Point, Evidence, Explain, Link - a structure for writing analytical paragraphs.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Language Analysis] Why should you avoid writing \"this makes the reader want to read on\"?",
+     "correctAnswer": "It's too vague and generic - you need to explain the specific emotional or intellectual response created.",
+     "explanation": "It's too vague and generic - you need to explain the specific emotional or intellectual response created.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Structure Analysis] What is the difference between language and structure analysis?",
+     "correctAnswer": "Language analysis looks at word choice and literary devices; structure analysis looks at how the text is organised and sequenced.",
+     "explanation": "Language analysis looks at word choice and literary devices; structure analysis looks at how the text is organised and sequenced.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Structure Analysis] Why might a writer use a short paragraph?",
+     "correctAnswer": "To create impact, drama, tension, or to draw attention to a key moment or idea.",
+     "explanation": "To create impact, drama, tension, or to draw attention to a key moment or idea.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Structure Analysis] What does \"in media res\" mean?",
+     "correctAnswer": "Starting in the middle of the action - a narrative technique that creates immediate engagement.",
+     "explanation": "Starting in the middle of the action - a narrative technique that creates immediate engagement.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Evaluating Texts] What does \"evaluate\" mean in the context of English Language?",
+     "correctAnswer": "To make a judgement about how effective or successful a text is, supported by evidence and analysis.",
+     "explanation": "To make a judgement about how effective or successful a text is, supported by evidence and analysis.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Evaluating Texts] How should you structure an evaluation response?",
+     "correctAnswer": "Start with your opinion, use PEEL paragraphs with evidence and analysis, consider alternative views, and reach a conclusion.",
+     "explanation": "Start with your opinion, use PEEL paragraphs with evidence and analysis, consider alternative views, and reach a conclusion.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C25-water-and-waste",
+ "topicName": "Water And Waste",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c25-water-and-waste-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between potable water and pure water.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Potable water is safe to drink but is not pure — it contains dissolved substances at safe levels and no harmful microbes. Pure water contains only H₂O molecules with no dissolved substances; it boils at exactly 100°C.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c25-water-and-waste-q2",
+   "type": "short-answer",
+   "question": "Describe the three stages of water treatment used to produce potable water from fresh water sources.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(1) Filtration — water passes through sand/gravel filters to remove solid particles. (2) Sedimentation — aluminium sulfate is added so fine particles clump and settle out. (3) Chlorination — chlorine is added to kill microbes, making the water safe to drink.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c25-water-and-waste-q3",
+   "type": "short-answer",
+   "question": "Higher Compare distillation and reverse osmosis as methods of desalination. Explain why desalination is more expensive than treating fresh water.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Distillation involves boiling sea water and condensing the vapour; reverse osmosis forces water through a semi-permeable membrane at high pressure, leaving salt behind. Both are expensive because they require large amounts of energy — distillation needs heat, reverse osmosis needs high pressure. Treating fresh water is cheaper because filtration, sedimentation and chlorination use much less energy",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c25-water-and-waste-q4",
+   "type": "short-answer",
+   "question": "Describe the stages of waste water treatment. How can energy be produced during the process?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(1) Screening removes large solids. (2) Sedimentation separates sludge from effluent. (3) Aerobic bacteria digest organic matter in the effluent. (4) Anaerobic bacteria digest the sludge, producing methane gas . The methane can be burned to generate electricity or heat.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c25-water-and-waste-q5",
+   "type": "short-answer",
+   "question": "Explain how the use of fertilisers can lead to eutrophication and the death of fish in a lake.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Fertilisers run off farmland into lakes. The excess nutrients cause rapid growth of algae (algal bloom). The algae block sunlight so underwater plants die. When the algae die, bacteria decompose them , using aerobic respiration which consumes dissolved oxygen . The oxygen levels fall so low that fish die .",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c25-water-and-waste-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Describe how fresh water is treated to make it potable in the UK. Explain why treating sea water to make it potable is more expensive, and describe one method of desalination. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "In the UK, fresh water from rivers, lakes and aquifers is treated in three stages. First, filtration removes solid particles — the water is passed through beds of sand and gravel. Second, sedimentation involves adding aluminium sulfate to make fine particles clump together (flocculation) and settle to the bottom as sediment. Third, chlorination involves adding chlorine to kill harmful microbes (bacteria), making the water safe to drink. Treating sea water (desalination) is more expensive because both methods require large amounts of energy. In distillation, the sea water must be heated to boil",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "In the UK, fresh water from rivers, lakes and aquifers is treated in three stages. First, filtration removes solid particles — the water is passed through beds of sand and gravel. Second, sedimentation involves adding aluminium sulfate to make fine particles clump together (flocculation) and settle to the bottom as sediment. Third, chlorination involves adding chlorine to kill harmful microbes (bacteria), making the water safe to drink. Treating sea water (desalination) is more expensive because both methods require large amounts of energy. In distillation, the sea water must be heated to boiling, which requires significant fuel. In reverse osmosis, very high pressure is needed to force water through a semi-permeable membrane, leaving the salt behind. This pressure is generated by pumps that consume large amounts of electricity. Fresh water treatment is cheaper because filtration, sedimentation and chlorination all use relatively little energy compared to boiling water or generating high pressure. Mark scheme: 1 mark for filtration (removes solids); 1 mark for sedimentation (aluminium sulfate, particles clump); 1 mark for chlorination (kills microbes); 1 mark for explaining why desalination is expensive (energy); 1 mark for describing distillation OR reverse osmosis; 1 mark for comparison with fresh water treatment cost"
+   }
+  }
+ ]
+}

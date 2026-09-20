@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS1-representing-algorithms",
+ "topicName": "Representing Algorithms",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs1-representing-algorithms-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "An algorithm is a step-by-step set of instructions that solves a specific problem. It must be finite, unambiguous, and produce a correct result for all valid inputs."
+  },
+  {
+   "id": "cs1-representing-algorithms-s2",
+   "kind": "learn",
+   "title": "Pseudo-code",
+   "body": "is not a real programming language. It uses structured English with programming constructs to describe algorithms without worrying about syntax rules."
+  },
+  {
+   "id": "cs1-representing-algorithms-s3",
+   "kind": "learn",
+   "title": "Flowcharts",
+   "body": "use standard symbols to represent different types of operations in an algorithm. Each symbol has a specific meaning."
+  },
+  {
+   "id": "cs1-representing-algorithms-s4",
+   "kind": "learn",
+   "title": "Decomposition",
+   "body": "means breaking down a complex problem into smaller, more manageable sub-problems. Each sub-problem can be solved independently and then combined to solve the original problem."
+  },
+  {
+   "id": "cs1-representing-algorithms-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "What shape is used in a flowchart to represent a decision? | Write pseudo-code that asks the user for a number and outputs \"Even\" if it is divisible by 2, or \"Odd\" if it is not. | Explain the difference between decomposition and abstraction."
+  },
+  {
+   "id": "cs1-representing-algorithms-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A diamond shape is used to represent a decision in a flowchart. | INPUT number IF number MOD 2 = 0 THEN OUTPUT \"Even\" ELSE OUTPUT \"Odd\" ENDIF | Decomposition breaks a complex problem into smaller sub-problems that can be solved independently. Abstraction removes unnecessary detail so you can focus on what is essential to solve the problem."
+  },
+  {
+   "id": "cs1-representing-algorithms-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always use the correct pseudo-code keywords: IF, THEN, ELSE, ENDIF, WHILE, ENDWHILE, FOR, TO, NEXT Flowchart decision boxes must have exactly two exits (Yes/No) When asked to decompose, break the problem into at least 3-4 sub-problems When asked about abstraction, explain WHAT detail is removed and WHY Use the left-arrow symbol for assignment in pseudo-code, not = Remember: decomposition splits up, abstraction strips down"
+  }
+ ]
+}

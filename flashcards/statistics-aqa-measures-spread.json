@@ -1,0 +1,159 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "measures-spread",
+ "topicName": "Measures Spread",
+ "version": 1,
+ "cards": [
+  {
+   "id": "measures-spread-fc1",
+   "front": "Recall a key point about Measures Spread",
+   "back": "The range is the difference between the largest and smallest values: range = maximum – minimum; it is affected by outliers.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc2",
+   "front": "Recall a key point about Measures Spread",
+   "back": "The interquartile range (IQR) = Q3 – Q1; it measures the spread of the middle 50% of the data and is not affected by outliers.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc3",
+   "front": "Recall a key point about Measures Spread",
+   "back": "The IQR is preferred over the range when the data contains outliers or is skewed, because it ignores extreme values.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc4",
+   "front": "Recall a key point about Measures Spread",
+   "back": "The pth percentile is the value below which p% of the data falls; it can be read from a cumulative frequency curve.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc5",
+   "front": "Recall a key point about Measures Spread",
+   "back": "The 10th percentile (P10) is the value at 10% of the total cumulative frequency; the 90th percentile (P90) is at 90%.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc6",
+   "front": "Recall a key point about Measures Spread",
+   "back": "The interpercentile range is the difference between two percentiles, e.g. P90 – P10, which captures the middle 80% of the data.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc7",
+   "front": "Recall a key point about Measures Spread",
+   "back": "The interpercentile range is more stable than the range because it excludes extreme values, similar to how the IQR works.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc8",
+   "front": "Recall a key point about Measures Spread",
+   "back": "Variance measures the average squared deviation from the mean: σ² = Σ(x – x̄)² ÷ n (population) or s² = Σ(x – x̄)² ÷ (n – 1) (sample).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc9",
+   "front": "Recall a key point about Measures Spread",
+   "back": "Standard deviation (SD) is the square root of the variance; it measures spread in the same units as the original data.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc10",
+   "front": "Recall a key point about Measures Spread",
+   "back": "A larger standard deviation means the data is more spread out from the mean; a smaller SD means the data is closer to the mean.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc11",
+   "front": "Recall a key point about Measures Spread",
+   "back": "For grouped data, the estimated standard deviation uses midpoints: s = √[Σf(x – x̄)² ÷ (Σf – 1)] where x is the midpoint of each class.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc12",
+   "front": "Recall a key point about Measures Spread",
+   "back": "When comparing two distributions, compare both a measure of central tendency (e.g. median) and a measure of spread (e.g. IQR or SD).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc13",
+   "front": "What should you know about gcse statistics exam tips — measures of spread?",
+   "back": "1. For Measures of Spread questions, show every step of your working clearly — method marks count even if the final answer is wrong 2. Check your answer makes sense in context (estimation, units, reasonableness) 3. Use correct mathematical notation and state formulae before substituting values 4. If a Measures of Spread question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line 5. For problem-solving, identify the topic first, then recall the relevant method",
+   "tags": [
+    "gcse-statistics-exam-tips-meas"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc14",
+   "front": "Full-Mark Response",
+   "back": "Calculate the standard deviation of the following sample data: 4, 7, 8, 10, 11.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "measures-spread-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of measures of spread, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382. AO2 (Application): Apply knowledge and understanding of measures of spread to interpret data, reason statistically and draw conclusions in context. AO3 (Evaluation): Evaluate statistical methods and c",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

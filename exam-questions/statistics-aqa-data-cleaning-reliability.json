@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "data-cleaning-reliability",
+ "topicName": "Data Cleaning Reliability",
+ "version": 1,
+ "questions": [
+  {
+   "id": "data-cleaning-reliability-q1",
+   "type": "short-answer",
+   "question": "Q: What is data cleaning?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The process of checking a data set for errors, missing values and anomalies and correcting or removing them before analysis.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-cleaning-reliability-q2",
+   "type": "short-answer",
+   "question": "Q: How should you deal with an outlier?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Investigate it: if it is a data entry error, correct or remove it; if it is genuine, keep it but note its effect on results.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-cleaning-reliability-q3",
+   "type": "short-answer",
+   "question": "Q: What is the difference between reliability and validity?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Reliability means consistency (getting the same result on repetition); validity means the method measures what it is supposed to measure.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-cleaning-reliability-q4",
+   "type": "short-answer",
+   "question": "Q: Why is a control group important in an experiment?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "It provides a baseline for comparison so the effect of the treatment can be measured, reducing the risk of attributing changes to the wrong cause.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-cleaning-reliability-q5",
+   "type": "short-answer",
+   "question": "Q: Give an example of bias in data collection.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Asking about healthy eating only outside a gym — the sample is likely to include more health-conscious people than the general population.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "data-cleaning-reliability-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A data set of students' heights in cm includes the values: 152, 148, 165, 15, 170, 155, 163, 159, 172, 145. Explain how you would clean this data set. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Step 1 — Identify anomalies: The value 15 cm is clearly an outlier. A height of 15 cm for a student is not realistic, so this is almost certainly a data entry error (likely meant to be 150 or 155). Step 2 — Investigate the outlier: Check the original data collection sheet. If the correct value can be found, correct it. If not, the value should be removed because it is clearly an error and would distort summary statistics (e.g. making the mean far too low). Step 3 — Check for missing data: Confirm all 10 records have been entered. If any records are incomplete, decide whether to exclude them or",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Step 1 — Identify anomalies: The value 15 cm is clearly an outlier. A height of 15 cm for a student is not realistic, so this is almost certainly a data entry error (likely meant to be 150 or 155). Step 2 — Investigate the outlier: Check the original data collection sheet. If the correct value can be found, correct it. If not, the value should be removed because it is clearly an error and would distort summary statistics (e.g. making the mean far too low). Step 3 — Check for missing data: Confirm all 10 records have been entered. If any records are incomplete, decide whether to exclude them or use an appropriate method to handle the missing values. Step 4 — Verify remaining values: The other heights (145–172 cm) are plausible for students, so they should be kept. After cleaning, the data set should be analysed and the removal of the error value should be documented."
+   }
+  }
+ ]
+}

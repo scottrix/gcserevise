@@ -1,0 +1,157 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P27-electromagnets",
+ "topicName": "Electromagnets",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p27-electromagnets-fc1",
+   "front": "What should you know about electromagnet?",
+   "back": "A coil of wire (solenoid) with a current flowing through it, which produces a magnetic field. Unlike a permanent magnet, an electromagnet can be switched on and off by turning the current on and off.",
+   "tags": [
+    "electromagnet"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc2",
+   "front": "What should you know about solenoid?",
+   "back": "A coil of wire that produces a strong, uniform magnetic field inside it when a current flows. The field inside is strong and parallel to the axis; the field outside is similar to a bar magnet.",
+   "tags": [
+    "solenoid"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc3",
+   "front": "What should you know about motor effect?",
+   "back": "When a current-carrying wire is placed in a magnetic field, the wire experiences a force. This is the motor effect. The force is greatest when the wire is perpendicular to the magnetic field.",
+   "tags": [
+    "motor-effect"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc4",
+   "front": "What should you know about fleming's left-hand rule?",
+   "back": "A rule to determine the direction of the force on a current-carrying wire in a magnetic field. First finger = direction of magnetic field (N to S), Second finger = direction of current, Thumb = direction of force (motion).",
+   "tags": [
+    "fleming-s-left-hand-rule"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc5",
+   "front": "What should you know about why an iron core helps?",
+   "back": "The iron becomes an induced magnet when the current flows, adding its own magnetic field to the solenoid's field. This makes the combined field much stronger. Soft iron is used because it loses its magnetism when the current is switched off, allowing the electromagnet to be turned off quickly.",
+   "tags": [
+    "why-an-iron-core-helps"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc6",
+   "front": "What should you know about fleming's left-hand rule?",
+   "back": "Hold your left hand with your first finger, second finger and thumb at right angles to each other: • First finger = direction of the magnetic Field (N to S) • Second finger = direction of the Current (conventional current, + to -) • Thumb = direction of the Force (motion) Remember: F irst = F ield, se C ond = C urrent, thu M b = M otion",
+   "tags": [
+    "fleming-s-left-hand-rule"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc7",
+   "front": "What should you know about no force when parallel?",
+   "back": "If the current-carrying wire is parallel to the magnetic field, there is NO force. The wire must be at an angle to the field. The force is greatest when the wire is perpendicular to the field.",
+   "tags": [
+    "no-force-when-parallel"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc8",
+   "front": "What should you know about how an electric motor works?",
+   "back": "A coil of wire carrying current sits in a magnetic field. The current flows in opposite directions on each side of the coil. Using Fleming's left-hand rule, one side experiences an upward force and the other side a downward force. These opposing forces create a turning effect (torque) that makes the coil rotate.",
+   "tags": [
+    "how-an-electric-motor-works"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc9",
+   "front": "What should you know about how a loudspeaker works?",
+   "back": "A coil is attached to the speaker cone and sits in a permanent magnetic field. An alternating current from the amplifier flows through the coil. As the current direction changes, the force on the coil changes direction (using the motor effect). This makes the coil move back and forth, which vibrates the cone. The vibrating cone produces sound waves with the same frequency as the AC signal.",
+   "tags": [
+    "how-a-loudspeaker-works"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc10",
+   "front": "Recall a key point about Electromagnets",
+   "back": "Using the force equation F = B × I × L. Ensure all quantities are in the correct SI units: B in tesla (T), I in amps (A), L in metres (m). Force is in newtons (N). The wire must be perpendicular to the field for this equation to apply. Rearrange to find any unknown variable.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc11",
+   "front": "What should you know about answers?",
+   "back": "(a) As the number of turns increases, the electromagnet picks up more paper clips, so the strength increases. However, it is not directly proportional — from 10 to 30 turns the clips triple (3 to 9), but from 30 to 50 turns the clips only increase from 9 to 12, showing the rate of increase is slowing down. (b) At 2.5 A, the iron core may have reached magnetic saturation — it cannot become any more magnetised regardless of further increases in current. Alternatively, the electromagnet may be approaching the maximum number of clips it can physically hold. (c) A steel core would initially produce",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc12",
+   "front": "What does Increasing the current mean?",
+   "back": "Stronger magnetic field",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc13",
+   "front": "What does Adding more turns to the coil mean?",
+   "back": "Stronger magnetic field",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc14",
+   "front": "What does Adding an iron core inside the solenoid mean?",
+   "back": "Much stronger magnetic field (iron becomes an induced magnet)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p27-electromagnets-fc15",
+   "front": "What does Using a soft iron core (rather than steel) mean?",
+   "back": "Easier to switch off — soft iron loses magnetism quickly when current stops",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

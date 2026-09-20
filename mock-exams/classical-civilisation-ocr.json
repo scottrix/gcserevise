@@ -1,0 +1,138 @@
+{
+ "subject": "classical-civilisation",
+ "board": "OCR",
+ "topic": "mock-exam",
+ "topicName": "Classical-Civilisation Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "classical-civilisation-mock",
+   "name": "Classical-Civilisation Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Essay Writing Skills] Q: What does PEEL stand for?",
+     "correctAnswer": "Point, Evidence, Explanation, Link — ensures each paragraph is focused and developed.",
+     "explanation": "Point, Evidence, Explanation, Link — ensures each paragraph is focused and developed.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Essay Writing Skills] Q: What should an introduction include?",
+     "correctAnswer": "Definition of key terms, understanding of the question, and indication of your line of argument.",
+     "explanation": "Definition of key terms, understanding of the question, and indication of your line of argument.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Essay Writing Skills] Q: Why is a conclusion essential?",
+     "correctAnswer": "Without a conclusion delivering a justified judgement, you cannot access the top mark band.",
+     "explanation": "Without a conclusion delivering a justified judgement, you cannot access the top mark band.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Command Words & Question Types] Q: What is the key difference between 'describe' and 'explain'?",
+     "correctAnswer": "Describe requires an account of what happened (factual detail), while explain requires reasons why it happened (causation and significance).",
+     "explanation": "Describe requires an account of what happened (factual detail), while explain requires reasons why it happened (causation and significance).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Command Words & Question Types] Q: What must you include in a 'how far' answer?",
+     "correctAnswer": "A balanced argument showing both sides, supported by specific evidence, leading to a clear judgement.",
+     "explanation": "A balanced argument showing both sides, supported by specific evidence, leading to a clear judgement.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Command Words & Question Types] Q: How should you approach a 'compare' question?",
+     "correctAnswer": "Identify both similarities and differences using specific evidence, linking the comparison to the question's focus.",
+     "explanation": "Identify both similarities and differences using specific evidence, linking the comparison to the question's focus.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Foundation Myths] Q: Why did Greek cities need foundation myths?",
+     "correctAnswer": "Foundation myths gave cities divine authority, a heroic past, and a shared identity. They legitimised political power, explained customs, and unified communities under a common origin story.",
+     "explanation": "Foundation myths gave cities divine authority, a heroic past, and a shared identity. They legitimised political power, explained customs, and unified communities under a common origin story.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Foundation Myths] Q: How did the myth of Theseus serve Athenian political interests?",
+     "correctAnswer": "Theseus's synoecism legitimised Athens's control over Attica, his autochthony supported the claim that Athenians were indigenous, and his heroic deeds gave Athens prestige among Greek cities.",
+     "explanation": "Theseus's synoecism legitimised Athens's control over Attica, his autochthony supported the claim that Athenians were indigenous, and his heroic deeds gave Athens prestige among Greek cities.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Foundation Myths] Q: What was the significance of Romulus killing Remus?",
+     "correctAnswer": "It explained why Rome had only one founder, established the precedent that the city's needs came before family bonds, and foreshadowed Rome's history of civil conflict resolved by single authority.",
+     "explanation": "It explained why Rome had only one founder, established the precedent that the city's needs came before family bonds, and foreshadowed Rome's history of civil conflict resolved by single authority.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Heracles and Heroes] Q: Why did Hera hate Heracles?",
+     "correctAnswer": "Heracles was the son of Zeus and the mortal Alcmene, making him living proof of Zeus's infidelity. Hera's hatred was motivated by jealousy and a desire to punish Zeus's illegitimate offspring.",
+     "explanation": "Heracles was the son of Zeus and the mortal Alcmene, making him living proof of Zeus's infidelity. Hera's hatred was motivated by jealousy and a desire to punish Zeus's illegitimate offspring.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Heracles and Heroes] Q: What was the purpose of the Twelve Labours?",
+     "correctAnswer": "They were Heracles' penance for killing his wife and children in a fit of Hera-induced madness. The oracle at Delphi instructed him to serve King Eurystheus for twelve years.",
+     "explanation": "They were Heracles' penance for killing his wife and children in a fit of Hera-induced madness. The oracle at Delphi instructed him to serve King Eurystheus for twelve years.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Heracles and Heroes] Q: How does Heracles fit the pattern of the Greek hero?",
+     "correctAnswer": "He has divine parentage (son of Zeus), shows extraordinary strength from childhood, performs impossible deeds (the Labours), suffers greatly (madness, servitude, death), and achieves immortality.",
+     "explanation": "He has divine parentage (son of Zeus), shows extraordinary strength from childhood, performs impossible deeds (the Labours), suffers greatly (madness, servitude, death), and achieves immortality.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

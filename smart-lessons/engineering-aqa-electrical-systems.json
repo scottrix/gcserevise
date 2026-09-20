@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "electrical-systems",
+ "topicName": "Electrical Systems",
+ "version": 1,
+ "steps": [
+  {
+   "id": "electrical-systems-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Electrical systems use power supplies, control devices and output devices to perform useful functions."
+  },
+  {
+   "id": "electrical-systems-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Power supplies provide energy: mains (AC 230V, 50Hz) for stationary equipment; batteries (DC) for portable applications."
+  },
+  {
+   "id": "electrical-systems-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Input control devices include switches (toggle, push-button, limit, reed), relays and sensors that control current flow."
+  },
+  {
+   "id": "electrical-systems-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Relays are electrically operated switches: a small control current energises an electromagnet that switches a larger load circuit."
+  },
+  {
+   "id": "electrical-systems-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain how a relay works and why relays are used in engineering control systems. | Q: Calculate the current drawn by a 2.2 kW heater connected to a 230V mains supply. | Q: Explain the difference between AC and DC power supplies, giving an application for each."
+  },
+  {
+   "id": "electrical-systems-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A small control current flows through the relay coil, creating a magnetic field that pulls in the armature, switching the contacts. This allows a low-voltage, low-current control circuit to safely swi | I = P / V = 2200 / 230 = 9.57 A. A 13A fuse would be appropriate for this appliance. | AC reverses direction periodically (mains 230V 50Hz for household and industrial equipment). DC flows in one direction only (batteries for portable electronics and vehicles)."
+  },
+  {
+   "id": "electrical-systems-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always show your working in circuit calculations: write the formula, substitute values and include units. Relay questions are common: explain the control circuit (low power) and load circuit (high power) separately. Distinguish clearly between AC (mains, reverses direction) and DC (batteries, one direction). In safety questions, always link the safety device to how it protects the user (e.g. 'fuse melts to break the circuit'). Power calculations using P = VI are frequently examined — memorise all three forms of the power equation."
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS34-detecting-preventing-cyber-threats",
+ "topicName": "Detecting & Preventing Cyber Threats",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc1",
+   "front": "What should you know about key concept?",
+   "back": "Effective cyber security requires both detection (identifying threats) and prevention (stopping threats). No single method is sufficient - multiple layers of defence are needed.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc2",
+   "front": "Recall a key point about Detecting & Preventing Cyber Threats",
+   "back": "Biometric security uses unique biological characteristics to identify and authenticate users. Biometrics are very difficult to forge or steal.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc3",
+   "front": "What should you know about why biometrics are strong?",
+   "back": "They are something you ARE, not something you KNOW (password) or HAVE (token). You cannot forget, lose, or easily share a biometric. However, if biometric data is stolen, it cannot be changed like a password can.",
+   "tags": [
+    "why-biometrics-are-strong"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc4",
+   "front": "Recall a key point about Detecting & Preventing Cyber Threats",
+   "back": "A password policy is a set of rules that govern how passwords are created, used, and managed within an organisation. Strong password policies significantly reduce the risk of unauthorised access.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc5",
+   "front": "What should you know about password best practices?",
+   "back": "Use different passwords for each account. Use a password manager to store complex passwords securely. Never share passwords. Never write passwords on sticky notes. Enable two-factor authentication wherever possible.",
+   "tags": [
+    "password-best-practices"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc6",
+   "front": "Recall a key point about Detecting & Preventing Cyber Threats",
+   "back": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a challenge designed to determine whether the user is a human or a computer (bot). It prevents automated programs from abusing online services.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc7",
+   "front": "What should you know about purpose?",
+   "back": "Email confirmation verifies that the person registering an account owns the email address they provided. It also enables account recovery if the password is forgotten.",
+   "tags": [
+    "purpose"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc8",
+   "front": "What should you know about purpose?",
+   "back": "Automatic updates ensure that software is always running the latest version with all security patches applied. This closes known vulnerabilities that attackers could exploit.",
+   "tags": [
+    "purpose"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc9",
+   "front": "Recall a key point about Detecting & Preventing Cyber Threats",
+   "back": "Penetration testing (pen testing) is an authorised simulated cyber attack on a computer system, performed to identify security weaknesses. A professional \"ethical hacker\" tries to find and exploit vulnerabilities before real attackers do.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc10",
+   "front": "Recall a key point about Detecting & Preventing Cyber Threats",
+   "back": "Anti-malware software (also called antivirus software) detects, prevents, and removes malicious software from a computer system. It protects against viruses, Trojans, spyware, ransomware, and other threats.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc11",
+   "front": "Recall a key point about Detecting & Preventing Cyber Threats",
+   "back": "Defence in depth is a security strategy that uses multiple layers of protection. If one layer fails, other layers still provide security. No single measure is completely effective on its own.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc12",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Detection: penetration testing, network monitoring, intrusion detection systems, audit logs. Prevention: firewalls, antivirus, access control, encryption, user education, software updates, MFA. For each method, explain HOW it works and its LIMITATION. No single method is sufficient — always use defence in depth (multiple layers). Pen testing ≠ real attack. Updates patch vulnerabilities that antivirus cannot address.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc13",
+   "front": "What does Fingerprint mean?",
+   "back": "Scans unique ridge patterns on fingertips (e.g. Quick, reliable, widely available)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc14",
+   "front": "What does Facial recognition mean?",
+   "back": "Maps facial features and proportions (e.g. Contactless, convenient)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs34-detecting-preventing-cyber-threats-fc15",
+   "front": "What does Iris/retina mean?",
+   "back": "Scans unique patterns in the eye (e.g. Extremely accurate, very hard to fake)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

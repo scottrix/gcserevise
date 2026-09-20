@@ -1,0 +1,94 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS1-representing-algorithms",
+ "topicName": "Representing Algorithms",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs1-representing-algorithms-q1",
+   "type": "short-answer",
+   "question": "What shape is used in a flowchart to represent a decision?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A diamond shape is used to represent a decision in a flowchart.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs1-representing-algorithms-q2",
+   "type": "short-answer",
+   "question": "Write pseudo-code that asks the user for a number and outputs \"Even\" if it is divisible by 2, or \"Odd\" if it is not.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT number IF number MOD 2 = 0 THEN OUTPUT \"Even\" ELSE OUTPUT \"Odd\" ENDIF",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs1-representing-algorithms-q3",
+   "type": "short-answer",
+   "question": "Explain the difference between decomposition and abstraction.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Decomposition breaks a complex problem into smaller sub-problems that can be solved independently. Abstraction removes unnecessary detail so you can focus on what is essential to solve the problem.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs1-representing-algorithms-q4",
+   "type": "short-answer",
+   "question": "A program needs to calculate the area of a rectangle. Identify the inputs, processing and outputs.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Inputs: length and width of the rectangle. Processing: multiply length by width. Output: the area of the rectangle.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs1-representing-algorithms-q5",
+   "type": "short-answer",
+   "question": "Decompose the problem of creating an online shopping system into at least four sub-problems.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Sub-problems: 1) Browse/search products, 2) Add items to basket, 3) Process payment, 4) Manage delivery details, 5) Handle user accounts.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

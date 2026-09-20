@@ -33,7 +33,7 @@ nav.className = 'sidebar';
 nav.id = 'sidebar-nav';
 
 if (isLandingPage) {
-nav.innerHTML = '<h3>Subjects</h3><ul>' +
+nav.innerHTML = '<h3>Menu</h3><ul><li><a href="dashboard.html">\u{1F4CA} Dashboard</a></li></ul><h3>Subjects</h3><ul>' +
 SUBJ_DATA.map(function(s) {
 var cls = s.id === currentPage ? ' class="active"' : '';
 return '<li><a href="' + s.id + '.html"' + cls + '>' + s.name + '</a></li>';
@@ -92,7 +92,7 @@ SUBJ_DATA.map(function(s) {
 return '<li><a href="' + s.id + '.html">' + s.name + '</a></li>';
 }).join('') + '</ul>';
 } else {
-nav.innerHTML = '<h3>Topics</h3><ul id="sidebar-topics"><li><a href="' + landingHref + '">&larr; ' + (subjectSlug.replace(/-/g,' ')) + '</a></li></ul>';
+nav.innerHTML = '<h3>Menu</h3><ul><li><a href="' + prefix + 'dashboard.html">\u{1F4CA} Dashboard</a></li></ul><h3>Topics</h3><ul id="sidebar-topics"><li><a href="' + landingHref + '">&larr; ' + (subjectSlug.replace(/-/g,' ')) + '</a></li></ul>';
 
 fetch(landingHref).then(function(r) { return r.text(); }).then(function(html) {
 var parser = new DOMParser();

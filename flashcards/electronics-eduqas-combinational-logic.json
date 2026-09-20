@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "combinational-logic",
+ "topicName": "Combinational Logic Systems",
+ "version": 1,
+ "cards": [
+  {
+   "id": "combinational-logic-fc1",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "Combinational logic produces outputs determined solely by current inputs, with no memory or feedback.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc2",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "A half adder adds two single-bit binary numbers, producing Sum (XOR) and Carry (AND).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc3",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "A full adder adds three bits (two inputs plus carry-in), producing Sum and Carry-out using two half adders and an OR gate.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc4",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "Sum = A ⊕ B ⊕ C_in; Carry-out = A·B + C_in·(A ⊕ B).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc5",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "Multiple full adders can be cascaded to build multi-bit ripple-carry adders.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc6",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "A multiplexer (MUX) selects one of several inputs and routes it to a single output, controlled by select lines.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc7",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "A 2ⁿ-to-1 MUX has n select lines and 2ⁿ data inputs.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc8",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "A decoder converts a binary input on n lines to one of 2ⁿ output lines being active (e.g. 3-to-8 decoder).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc9",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "An encoder performs the reverse of a decoder: it converts active input lines into a binary code output.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc10",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "Priority encoders resolve conflicts when multiple inputs are active by selecting the highest-priority input.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc11",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "Comparators compare two binary numbers and output whether A > B, A = B or A < B.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc12",
+   "front": "Recall a key point about Combinational Logic Systems",
+   "back": "Combinational circuits can be analysed by writing the Boolean expression from the gate diagram or deriving a truth table.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc13",
+   "front": "What should you know about gcse electronics exam tips — combinational logic systems?",
+   "back": "1. For Combinational Logic Systems questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Combinational Logic Systems, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-com"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc14",
+   "front": "Full-Mark Response",
+   "back": "Describe the structure and operation of a full adder, and explain how multiple full adders are combined to create a multi-bit adder.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "combinational-logic-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of combinational logic systems, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of combinational logic systems to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circui",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "B11-vaccines-and-drugs",
+ "topicName": "Vaccines And Drugs",
+ "version": 1,
+ "questions": [
+  {
+   "id": "b11-vaccines-and-drugs-q1",
+   "type": "short-answer",
+   "question": "Explain how vaccination provides immunity to a disease. (3 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A vaccine contains a dead or inactive pathogen. When injected, white blood cells produce antibodies specific to the pathogen and memory cells are formed. If the live pathogen enters later, memory cells produce antibodies rapidly, destroying the pathogen before illness develops.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b11-vaccines-and-drugs-q2",
+   "type": "short-answer",
+   "question": "Explain why antibiotics cannot be used to treat viral diseases. (2 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Antibiotics target bacterial structures (like cell walls). Viruses live inside body cells, so antibiotics cannot reach them without damaging the body's own cells. Viruses also have different structures to bacteria, so antibiotics have nothing to target.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b11-vaccines-and-drugs-q3",
+   "type": "short-answer",
+   "question": "Describe how antibiotic-resistant bacteria develop. (3 marks)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A random mutation in a bacterium makes it resistant to an antibiotic. When the antibiotic is used, non-resistant bacteria are killed but resistant ones survive. The resistant bacteria reproduce, passing on the resistance gene. Over time the resistant population increases.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b11-vaccines-and-drugs-q4",
+   "type": "short-answer",
+   "question": "Suggest two ways to reduce the problem of antibiotic resistance. (2 marks)",
+   "marks": 1,
+   "commandWord": "suggest",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Only use antibiotics when necessary (not for viral infections); always complete the full course of antibiotics; reduce use of antibiotics in farming; develop new antibiotics (any two).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b11-vaccines-and-drugs-q5",
+   "type": "short-answer",
+   "question": "Explain why new drugs must be tested using double-blind trials. (3 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "In a double-blind trial, neither patients nor doctors know who receives the real drug or the placebo. This eliminates bias - doctors cannot subconsciously influence results, and the placebo effect is controlled. Any difference in outcomes must be due to the drug itself.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b11-vaccines-and-drugs-q6",
+   "type": "short-answer",
+   "question": "What is the difference between a painkiller and an antibiotic? (2 marks)",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Antibiotics kill bacteria that cause infection (they cure the disease). Painkillers only relieve symptoms like pain and fever - they do not kill the pathogen or cure the infection.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b11-vaccines-and-drugs-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain how vaccination works and how antibiotic resistance develops. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Vaccination involves injecting a small amount of dead or inactive pathogen into the body. The white blood cells recognise the pathogen as foreign and lymphocytes produce antibodies specific to its antigens. Memory cells are also produced and remain in the blood. If the live pathogen enters later, the memory cells rapidly produce large quantities of the correct antibodies, destroying the pathogen before it causes illness. Antibiotic resistance develops through natural selection. A random mutation in a bacterium may make it resistant to an antibiotic. When the antibiotic is used, it kills non-re",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Vaccination involves injecting a small amount of dead or inactive pathogen into the body. The white blood cells recognise the pathogen as foreign and lymphocytes produce antibodies specific to its antigens. Memory cells are also produced and remain in the blood. If the live pathogen enters later, the memory cells rapidly produce large quantities of the correct antibodies, destroying the pathogen before it causes illness. Antibiotic resistance develops through natural selection. A random mutation in a bacterium may make it resistant to an antibiotic. When the antibiotic is used, it kills non-resistant bacteria but the resistant bacteria survive. The resistant bacteria then reproduce, passing on the resistance gene to their offspring. Over time, the population of resistant bacteria increases, and the antibiotic becomes ineffective against this strain — for example, MRSA is resistant to several antibiotics. Mark scheme: 1 mark for vaccine contains dead/inactive pathogen; 1 mark for antibody and memory cell production; 1 mark for secondary response; 1 mark for mutation causing resistance; 1 mark for selection pressure (antibiotic kills non-resistant); 1 mark for reproduction of resistant strain"
+   }
+  }
+ ]
+}

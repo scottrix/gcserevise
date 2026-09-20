@@ -1,0 +1,157 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S4-central-tendency",
+ "topicName": "S4 Central Tendency",
+ "version": 1,
+ "cards": [
+  {
+   "id": "s4-central-tendency-fc1",
+   "front": "Recall a key point about S4 Central Tendency",
+   "back": "Measures of central tendency identify the \"average\" or \"typical\" value in a set of data. The three main measures are mean, median, and mode.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc2",
+   "front": "What should you know about formula?",
+   "back": "Mean = Sum of all values ÷ Number of values Symbol: x̄ (x-bar) represents the mean",
+   "tags": [
+    "formula"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc3",
+   "front": "What should you know about mean from a frequency table?",
+   "back": "Mean = Σ(f × x) ÷ Σf where f = frequency and x = value",
+   "tags": [
+    "mean-from-a-frequency-table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc4",
+   "front": "Recall a key point about S4 Central Tendency",
+   "back": "The middle value when data is arranged in order. Position: For n values, median position = (n + 1) ÷ 2",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc5",
+   "front": "What should you know about from a frequency table?",
+   "back": "Find the cumulative frequency, then locate the middle position.",
+   "tags": [
+    "from-a-frequency-table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc6",
+   "front": "Recall a key point about S4 Central Tendency",
+   "back": "The value that occurs most frequently. Data can have one mode (unimodal), two modes (bimodal), or no mode Only average that can be used for categorical data",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc7",
+   "front": "What should you know about modal class?",
+   "back": "For grouped data, the class with the highest frequency is the modal class.",
+   "tags": [
+    "modal-class"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc8",
+   "front": "Recall a key point about S4 Central Tendency",
+   "back": "Range = Highest value - Lowest value Measures the spread of data. A larger range means more variation.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc9",
+   "front": "What should you know about quartiles divide data into four equal parts?",
+   "back": "Q1 (Lower Quartile): 25% of data below Q2 (Median): 50% of data below Q3 (Upper Quartile): 75% of data below",
+   "tags": [
+    "quartiles-divide-data-into-fou"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc10",
+   "front": "What should you know about interquartile range (iqr)?",
+   "back": "IQR = Q3 - Q1 Measures the spread of the middle 50% of data. Less affected by outliers than the range.",
+   "tags": [
+    "interquartile-range-iqr"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc11",
+   "front": "What should you know about when comparing distributions, discuss?",
+   "back": "A measure of average (mean or median) A measure of spread (range or IQR) Compare using phrases like \"higher than\", \"more varied than\"",
+   "tags": [
+    "when-comparing-distributions-d"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc12",
+   "front": "Recall a key point about S4 Central Tendency",
+   "back": "For averages and spread problems: (1) Always order data before finding the median, (2) For frequency tables, use Σ(f×x)/Σf for the mean, (3) When a value is missing and the mean is given, use: missing value = (mean × n) − sum of known values, (4) To compare distributions, always comment on BOTH average (mean/median) AND spread (range/IQR), (5) Use the median for data with outliers — it's not affected by extreme values.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc13",
+   "front": "What should you know about answers?",
+   "back": "(a) Mean > Median indicates right-skewed (positive skew). A few very high salaries pull the mean up above the median. (b) The median (£28,000) — it better represents a typical salary because the mean is inflated by a small number of very high earners. (c) The mean would change more — removing the CEO's salary significantly reduces the total sum, bringing the mean down. The median would barely change because it depends on the middle value, which shifts by at most one position.",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc14",
+   "front": "What does Mean mean?",
+   "back": "Sum of values ÷ number of values (e.g. Continuous data, no outliers)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "s4-central-tendency-fc15",
+   "front": "What does Median mean?",
+   "back": "Middle value when ordered (e.g. Data with outliers, skewed data)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

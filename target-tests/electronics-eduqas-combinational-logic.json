@@ -1,0 +1,48 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "combinational-logic",
+ "topicName": "Combinational Logic Systems",
+ "version": 1,
+ "tests": [
+  {
+   "id": "combinational-logic-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Combinational Logic Systems",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "combinational-logic-t1",
+     "type": "short-answer",
+     "question": "Q: What logic gates does a half adder use?",
+     "correctAnswer": "An XOR gate for the Sum (A ⊕ B) and an AND gate for the Carry (A · B).",
+     "explanation": "Answer: An XOR gate for the Sum (A ⊕ B) and an AND gate for the Carry (A · B).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "combinational-logic-t3",
+     "type": "short-answer",
+     "question": "Q: How many select lines does an 8-to-1 multiplexer need?",
+     "correctAnswer": "3 select lines, since 2³ = 8.",
+     "explanation": "Answer: 3 select lines, since 2³ = 8.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "combinational-logic-t5",
+     "type": "short-answer",
+     "question": "Q: Write the Boolean expressions for a full adder.",
+     "correctAnswer": "Sum = A ⊕ B ⊕ C_in; Carry-out = A·B + C_in·(A ⊕ B).",
+     "explanation": "Answer: Sum = A ⊕ B ⊕ C_in; Carry-out = A·B + C_in·(A ⊕ B).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

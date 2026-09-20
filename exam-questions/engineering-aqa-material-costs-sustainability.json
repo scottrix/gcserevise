@@ -1,0 +1,112 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "material-costs-sustainability",
+ "topicName": "Material Costs & Sustainability",
+ "version": 1,
+ "questions": [
+  {
+   "id": "material-costs-sustainability-q1",
+   "type": "short-answer",
+   "question": "Q: Explain how economies of scale reduce the cost of engineered components.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "As production volume increases, fixed costs (tooling, setup) are spread across more units, and bulk purchasing of materials reduces raw material cost per unit. Automated processes also become cost-effective at higher volumes, reducing labour cost per unit.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-costs-sustainability-q2",
+   "type": "short-answer",
+   "question": "Q: Why is recycling metals generally easier and more cost-effective than recycling thermosetting polymers?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Metals can be remelted and reformed without significant loss of properties, making recycling straightforward and economical. Thermosetting polymers have irreversible cross-links that cannot be remelted, so they must be ground up and used as fillers, which is less valuable and less practical.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-costs-sustainability-q3",
+   "type": "short-answer",
+   "question": "Q: Explain the environmental problem of planned obsolescence and suggest how engineers can reduce its impact.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Planned obsolescence generates unnecessary waste by encouraging disposal of products that could still function. Engineers can reduce impact by designing for durability, using standard replaceable components, enabling disassembly for repair, and selecting recyclable materials.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-costs-sustainability-q4",
+   "type": "short-answer",
+   "question": "Q: Describe how a life cycle assessment helps engineers make more sustainable material choices.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An LCA quantifies the total environmental impact (energy use, emissions, waste) from material extraction through manufacture, use and disposal. This allows engineers to compare materials objectively and avoid choices that appear cheap but have high hidden environmental costs.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-costs-sustainability-q5",
+   "type": "short-answer",
+   "question": "Q: Why is near-net-shape manufacturing more sustainable than machining from solid stock?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Near-net-shape processes (casting, moulding, forging) produce components close to the final shape with minimal waste. Machining from solid stock removes significant material as chips/swarf, wasting raw material and energy.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-costs-sustainability-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate the environmental impact of using CFRP versus aluminium for an aircraft component, considering manufacture, use and end of life. [8 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "CFRP production is energy-intensive: carbon fibre manufacture requires high temperatures (above 1000 degrees C) in inert atmospheres, and lay-up and autoclave curing are labour and energy intensive. This gives CFRP a high manufacturing carbon footprint compared to aluminium, which is also energy-intensive to smelt but benefits from well-established, efficient mass-production processes. During the use phase, CFRP's lower weight significantly reduces fuel consumption over the aircraft's operational life, potentially offsetting the higher manufacturing impact many times over — this is where CFRP'",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "CFRP production is energy-intensive: carbon fibre manufacture requires high temperatures (above 1000 degrees C) in inert atmospheres, and lay-up and autoclave curing are labour and energy intensive. This gives CFRP a high manufacturing carbon footprint compared to aluminium, which is also energy-intensive to smelt but benefits from well-established, efficient mass-production processes. During the use phase, CFRP's lower weight significantly reduces fuel consumption over the aircraft's operational life, potentially offsetting the higher manufacturing impact many times over — this is where CFRP's environmental advantage is greatest. At end of life, aluminium is 100% recyclable by remelting, retaining its properties and value. CFRP cannot be remelted; current recycling methods (pyrolysis, solvolysis) recover fibres but with degraded properties, and the process is expensive and not widely available. Much CFRP currently ends up in landfill. Overall, CFRP is environmentally preferable when the use-phase fuel savings outweigh the manufacturing and disposal impacts, which is typically the case for long-life aircraft. However, for shorter-life products, aluminium's recyclability may make it the more sustainable choice."
+   }
+  }
+ ]
+}

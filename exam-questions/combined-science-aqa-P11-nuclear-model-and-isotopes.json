@@ -1,0 +1,129 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P11-nuclear-model-and-isotopes",
+ "topicName": "Nuclear Model And Isotopes",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p11-nuclear-model-and-isotopes-q1",
+   "type": "short-answer",
+   "question": "Foundation Describe the results of Rutherford's alpha scattering experiment and what each result tells us about the structure of the atom.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Most alpha particles went straight through → the atom is mostly empty space. Some were deflected → the nucleus is positively charged. A few bounced back → the nucleus is small, dense and contains most of the mass.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p11-nuclear-model-and-isotopes-q2",
+   "type": "short-answer",
+   "question": "Foundation An atom has 26 protons and 30 neutrons. State its atomic number and mass number.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Atomic number = 26 (number of protons). Mass number = 26 + 30 = 56 (protons + neutrons). This is iron-56.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p11-nuclear-model-and-isotopes-q3",
+   "type": "short-answer",
+   "question": "Higher Explain what isotopes are, using carbon-12 and carbon-14 as examples.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. Carbon-12 has 6 protons and 6 neutrons. Carbon-14 has 6 protons and 8 neutrons. They are both carbon (atomic number 6) but have different mass numbers (12 and 14).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p11-nuclear-model-and-isotopes-q4",
+   "type": "short-answer",
+   "question": "Higher Chlorine has two isotopes: Cl-35 (75%) and Cl-37 (25%). Explain why they have the same chemical properties but different physical properties.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Same chemical properties because they have the same number of electrons (17) and the same electron configuration. Different physical properties because they have different masses (Cl-35 has 18 neutrons, Cl-37 has 20 neutrons).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p11-nuclear-model-and-isotopes-q5",
+   "type": "short-answer",
+   "question": "Foundation List four sources of background radiation and identify which is the largest natural source in the UK.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Four sources: radon gas, cosmic rays, rocks and soil, food and drink (also accept medical, nuclear industry). Radon gas is the largest natural source in the UK.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p11-nuclear-model-and-isotopes-q6",
+   "type": "short-answer",
+   "question": "Higher Uranium-235 has atomic number 92. Calculate the number of protons, neutrons and electrons in a neutral U-235 atom.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Protons = 92, Neutrons = 235 − 92 = 143, Electrons = 92 (neutral atom).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p11-nuclear-model-and-isotopes-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Describe the alpha scattering experiment and explain how the results led to the nuclear model of the atom, replacing the plum pudding model. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Rutherford, Geiger and Marsden fired alpha particles at thin gold foil. Most alpha particles passed straight through, which showed that the atom is mostly empty space. Some alpha particles were deflected at large angles, which showed the nucleus has a positive charge because it repelled the positive alpha particles. A very few alpha particles bounced back towards the source, which showed the nucleus is very small, dense and contains most of the atom's mass. These results could not be explained by the plum pudding model, which predicted that all alpha particles would pass through with only smal",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Rutherford, Geiger and Marsden fired alpha particles at thin gold foil. Most alpha particles passed straight through, which showed that the atom is mostly empty space. Some alpha particles were deflected at large angles, which showed the nucleus has a positive charge because it repelled the positive alpha particles. A very few alpha particles bounced back towards the source, which showed the nucleus is very small, dense and contains most of the atom's mass. These results could not be explained by the plum pudding model, which predicted that all alpha particles would pass through with only small deflections. The new nuclear model — a tiny positive nucleus surrounded by electrons in mostly empty space — was developed to explain these observations. Mark scheme: 1 mark for most passed through → empty space; 1 mark for some deflected → positive nucleus; 1 mark for few bounced back → small dense nucleus with most mass; 1 mark for plum pudding model predicted no large deflections; 1 mark for new model with tiny nucleus + electrons; 1 mark for clear link between observation and conclusion. (6 marks total)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT6-materials-and-their-working-properties",
+ "topicName": "Materials and Their Working Properties",
+ "version": 1,
+ "questions": [
+  {
+   "id": "dt6-materials-and-their-working-properties-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between hardness and toughness, giving an example of a material that is hard but not tough.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hardness = resistance to surface deformation/scratching. Toughness = ability to absorb impact energy without fracturing. Glass is hard (resists scratching) but not tough (shatters on impact). In contrast, rubber is not hard (easily scratched) but is tough (absorbs impact energy without breaking).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt6-materials-and-their-working-properties-q2",
+   "type": "short-answer",
+   "question": "A designer needs a material for electrical wiring. Justify the choice of copper over steel based on working properties.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Copper: excellent electrical conductivity (second only to silver), ductile (easily drawn into wire), malleable (easy to bend during installation), corrosion resistant (forms protective patina). Steel: poor conductivity, less ductile (harder to draw and bend), heavier, prone to rust. Copper is chosen for its combined conductivity and workability despite being more expensive than steel.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt6-materials-and-their-working-properties-q3",
+   "type": "short-answer",
+   "question": "Why is brittleness an important consideration when selecting materials for a car bumper?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A car bumper must absorb impact energy without shattering — it needs toughness, not hardness. A brittle material (e.g. rigid plastic or ceramic) would crack on impact, failing to protect the vehicle and creating sharp debris. Modern bumpers use tough polymers (polypropylene, polycarbonate blends) that deform to absorb energy then spring back.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt6-materials-and-their-working-properties-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Compare the suitability of mild steel and polycarbonate for a child's bicycle helmet shell, considering at least four working properties. <div class=\"",
+   "marks": 4,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: identify helmet requirements (impact protection, lightweight, comfort, durability); compare properties — Toughness: polycarbonate is extremely tough (absorbs impact, deforms without shattering); mild steel is tough but dents permanently. Weight/density: polycarbonate approx 1.2 g/cm3; mild steel approx 7.8 g/cm3 — steel helmet would be unbearably heavy. Malleability: polycarbonate can be vacuum-formed into complex shell shapes; steel requires stamping with limited formability. Corrosion: polycarbonate is inert; steel rusts unless coated. Conclusion: polycarbonate is fa",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: identify helmet requirements (impact protection, lightweight, comfort, durability); compare properties — Toughness: polycarbonate is extremely tough (absorbs impact, deforms without shattering); mild steel is tough but dents permanently. Weight/density: polycarbonate approx 1.2 g/cm3; mild steel approx 7.8 g/cm3 — steel helmet would be unbearably heavy. Malleability: polycarbonate can be vacuum-formed into complex shell shapes; steel requires stamping with limited formability. Corrosion: polycarbonate is inert; steel rusts unless coated. Conclusion: polycarbonate is far superior for this application due to its combination of toughness, low density, formability and corrosion resistance."
+   }
+  }
+ ]
+}

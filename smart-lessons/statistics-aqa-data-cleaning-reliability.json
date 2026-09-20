@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "data-cleaning-reliability",
+ "topicName": "Data Cleaning Reliability",
+ "version": 1,
+ "steps": [
+  {
+   "id": "data-cleaning-reliability-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Data cleaning means checking and correcting a data set before analysis — removing errors, dealing with missing values and identifying anomalies."
+  },
+  {
+   "id": "data-cleaning-reliability-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Missing data can occur when respondents skip questions or when measurements fail."
+  },
+  {
+   "id": "data-cleaning-reliability-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Options for missing data: exclude the record, use the mean/median for that variable, or investigate why it is missing."
+  },
+  {
+   "id": "data-cleaning-reliability-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An outlier is a value that is much higher or lower than the rest of the data."
+  },
+  {
+   "id": "data-cleaning-reliability-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What is data cleaning? | Q: How should you deal with an outlier? | Q: What is the difference between reliability and validity?"
+  },
+  {
+   "id": "data-cleaning-reliability-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "The process of checking a data set for errors, missing values and anomalies and correcting or removing them before analysis. | Investigate it: if it is a data entry error, correct or remove it; if it is genuine, keep it but note its effect on results. | Reliability means consistency (getting the same result on repetition); validity means the method measures what it is supposed to measure."
+  },
+  {
+   "id": "data-cleaning-reliability-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always investigate an outlier before removing it — never just delete data without a reason. When asked about data quality, comment on both reliability and validity. Bias can occur at any stage: sampling, question wording, data collection or analysis. Control groups are specific to experiments — do not mention them for surveys or observational studies. Explain the difference between a genuine outlier and an error using examples."
+  }
+ ]
+}

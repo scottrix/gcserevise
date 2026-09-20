@@ -1,0 +1,61 @@
+{
+ "subject": "german",
+ "board": "AQA",
+ "topic": "GM30-word-order-and-conjunctions",
+ "topicName": "Word Order and Conjunctions",
+ "version": 1,
+ "questions": [
+  {
+   "id": "gm30-word-order-and-conjunctions-q1",
+   "type": "short-answer",
+   "question": "Q: Rewrite with correct word order: Ich denke (dass / Deutsch / wichtig / sein). Ich bleibe zu Hause (weil / ich / krank / sein).",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Ich denke, dass Deutsch wichtig ist. Ich bleibe zu Hause, weil ich krank bin. (Verb goes to the END after dass and weil.)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "gm30-word-order-and-conjunctions-q2",
+   "type": "short-answer",
+   "question": "Q: Rewrite starting with the subordinate clause: Ich gehe nicht aus, weil das Wetter schlecht ist. → Weil...",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Weil das Wetter schlecht ist, gehe ich nicht aus. (Subordinate clause first = position 1; main clause verb must be in position 2 = gehe ich, NOT ich gehe.)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "gm30-word-order-and-conjunctions-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Writing task: Write about main clause word order; subordinate clauses (verb to end); coordinating vs subordinating conjunctions; dass, weil, wenn, obwohl. <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, modal verbs, separable verbs); show precise grammar (cases, word order, adjective endings); express and justify opinions; include cultural knowledge about DACH countries; use a wide range of vocabulary; be well-organised with connecting words (außerdem, jedoch, trotzdem, zusammenfassend). Mark scheme: Content (relevance and detail) + Quality of language (accuracy and range) = total marks",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, modal verbs, separable verbs); show precise grammar (cases, word order, adjective endings); express and justify opinions; include cultural knowledge about DACH countries; use a wide range of vocabulary; be well-organised with connecting words (außerdem, jedoch, trotzdem, zusammenfassend). Mark scheme: Content (relevance and detail) + Quality of language (accuracy and range) = total marks"
+   }
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P6-series-and-parallel-circuits",
+ "topicName": "P6 Series And Parallel Circuits",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p6-series-and-parallel-circuits-s1",
+   "kind": "learn",
+   "title": "Series circuit",
+   "body": "A circuit where components are connected one after the other in a single loop. There is only one path for the current to flow."
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-s2",
+   "kind": "learn",
+   "title": "Parallel circuit",
+   "body": "A circuit where components are connected in separate branches. Each branch provides a different path for the current."
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-s3",
+   "kind": "learn",
+   "title": "Adding resistors in parallel",
+   "body": "When you add a resistor in parallel, you provide an extra path for current. This means the total resistance decreases because more current can flow overall."
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-s4",
+   "kind": "learn",
+   "title": "Adding resistors in series",
+   "body": "When you add a resistor in series, you make it harder for current to flow through the single loop. The total resistance increases ."
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Worked Example 1 — Series Circuit (Current and Voltage) Question: Two resistors are connected in series to a 12 V battery. The current through the circuit is 2 A. What is the current through each resistor? The voltage across R_1 is 4 V. What is the voltage across R_2? Solution: In series, current is the same everywhere: I = 2 A through both resistors. In series, V_total = V_1 + V_2. So V_2 = 12 - 4 = 8 V. Worked Example 2 — Series Circuit (Resistance) Question: A 4 Ω resistor and a 6 Ω resistor are connected in series to a 10 V battery. Calculate the total resistance, the current in the circuit, and the voltage across each resistor. Solution: R_total = R_1 + R_2 = 4 + 6 = 10 Ω I = V / R_total = 10 / 10 = 1 A V across 4 Ω: V = I x R = 1 x 4 = 4 V V across 6 Ω: V = I x R = 1 x 6 = 6 V (check: 4 + 6 = 10 V = V_total) Worked Example 3 — Parallel Circuit (Current) Question: Two resistors are connected in parallel to a 12 V supply. The current through R_1 is 3 A and the current through R_2 i"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation State the rules for current and voltage in a series circuit. | Foundation Two 6 Ω resistors are connected in series to a 12 V battery. Calculate the total resistance and the current in the circuit. | Foundation Explain why domestic circuits use parallel rather than series wiring. Give two reasons."
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "In a series circuit: current is the same through all components (I_total = I_1 = I_2), and the total voltage is shared across the components (V_total = V_1 + V_2). | R_total = 6 + 6 = 12 Ω. I = V / R = 12 / 12 = 1 A. | 1) Each appliance receives the full mains voltage (230 V). 2) Each appliance can be switched on or off independently without affecting the others. If one breaks, the rest still work."
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Remember the key difference: series = one loop, current same, voltage shared ; parallel = multiple branches, current shared, voltage same . In series, adding a resistor increases total resistance. In parallel, adding a resistor decreases total resistance. When a question asks about domestic circuits, always mention parallel because each appliance gets full voltage and works independently. For series calculations: find total R first, then find I, then find V across each component. For parallel calculations: each branch gets full voltage, so calculate I through each branch separately, then add currents for the total. The total resistance in parallel is always less than the smallest individual resistance — use this to check your answer."
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS19-character-encoding",
+ "topicName": "Character Encoding",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs19-character-encoding-fc1",
+   "front": "What should you know about character encoding?",
+   "back": "is a system that assigns a unique numeric code to each character. Computers can only process numbers, so every letter, digit, and symbol must be represented by a number. The two main encoding systems are ASCII and Unicode.",
+   "tags": [
+    "character-encoding"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc2",
+   "front": "What should you know about ascii?",
+   "back": "(American Standard Code for Information Interchange) is a 7-bit character encoding system that represents 128 different characters. It was designed for English-language text and includes letters, digits, punctuation, and control characters.",
+   "tags": [
+    "ascii"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc3",
+   "front": "What should you know about pattern to remember?",
+   "back": "Uppercase letters: 'A' = 65 to 'Z' = 90 (26 letters) Lowercase letters: 'a' = 97 to 'z' = 122 (26 letters) Digits: '0' = 48 to '9' = 57 (10 digits) The difference between 'a' and 'A' is always 32 (add 32 to convert upper to lower)",
+   "tags": [
+    "pattern-to-remember"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc4",
+   "front": "What should you know about unicode?",
+   "back": "is a character encoding standard that supports characters from all languages in the world, plus symbols, emojis, and historical scripts. It can represent over 1 million different characters.",
+   "tags": [
+    "unicode"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc5",
+   "front": "What should you know about unicode is the modern standard?",
+   "back": "because it solves ASCII's biggest limitation: only supporting English. With Unicode, any text in any language can be represented, stored, and transmitted correctly.",
+   "tags": [
+    "unicode-is-the-modern-standard"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc6",
+   "front": "What should you know about trade-off?",
+   "back": "Unicode uses more storage space than ASCII. A plain English text file in Unicode (UTF-16) uses roughly twice the space of the same file in ASCII. However, with modern storage being cheap, this trade-off is usually acceptable.",
+   "tags": [
+    "trade-off"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc7",
+   "front": "What should you know about asc() and chr()?",
+   "back": "are the functions used to convert between characters and their numeric codes. ASC converts a character to its code; CHR converts a code to its character.",
+   "tags": [
+    "asc-and-chr"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc8",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "ASCII: 7-bit (128 chars) or 8-bit Extended (256 chars). Unicode: variable length, 143,000+ chars. Know why Unicode replaced ASCII (international support). ASCII advantage: small file size. Unicode advantage: universal character support. UTF-8 is backward-compatible with ASCII. When comparing, always discuss storage size vs character support trade-off.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc9",
+   "front": "What does 'A' mean?",
+   "back": "65 (e.g. 01000001)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc10",
+   "front": "What does 'B' mean?",
+   "back": "66 (e.g. 01000010)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc11",
+   "front": "What does 'Z' mean?",
+   "back": "90 (e.g. 01011010)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc12",
+   "front": "What does 'a' mean?",
+   "back": "97 (e.g. 01100001)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc13",
+   "front": "What does 'b' mean?",
+   "back": "98 (e.g. 01100010)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc14",
+   "front": "What does 'z' mean?",
+   "back": "122 (e.g. 01111010)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs19-character-encoding-fc15",
+   "front": "What does '0' mean?",
+   "back": "48 (e.g. 00110000)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

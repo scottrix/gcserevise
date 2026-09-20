@@ -1,0 +1,129 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "B8-health-and-disease",
+ "topicName": "B8 Health And Disease",
+ "version": 1,
+ "questions": [
+  {
+   "id": "b8-health-and-disease-q1",
+   "type": "short-answer",
+   "question": "Define the term \"health.\" (1 mark)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Health is a state of physical and mental wellbeing, not just the absence of disease or infirmity.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b8-health-and-disease-q2",
+   "type": "short-answer",
+   "question": "Explain the difference between a communicable disease and a non-communicable disease. Give one example of each. (3 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A communicable disease can be passed from person to person and is caused by pathogens (e.g. flu, caused by a virus). A non-communicable disease cannot be passed between people and is caused by lifestyle or genetic factors (e.g. cancer or type 2 diabetes).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b8-health-and-disease-q3",
+   "type": "short-answer",
+   "question": "Explain the difference between a benign tumour and a malignant tumour. (3 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A benign tumour stays in one place, does not spread to other parts of the body, and is usually contained within a fibrous capsule. A malignant tumour can spread to other parts of the body through the blood or lymph (metastasis), is not contained by a capsule, and is cancer - it is life-threatening if untreated.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b8-health-and-disease-q4",
+   "type": "short-answer",
+   "question": "A study finds that people who eat more ice cream have higher rates of sunburn. Does ice cream cause sunburn? Explain your answer using the terms \"correlation\" and \"causation.\" (3 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "No, this is a correlation, not causation. Eating ice cream does not cause sunburn. The link is likely due to a confounding factor: both ice cream consumption and sunburn increase during hot, sunny weather. The actual cause of sunburn is UV exposure from the sun, not ice cream. This example shows that correlation does not prove causation.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b8-health-and-disease-q5",
+   "type": "short-answer",
+   "question": "Describe two ways in which diseases can interact with each other. Use examples. (4 marks)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Immune system interactions: HIV weakens the immune system by destroying white blood cells, making the person more vulnerable to other communicable diseases (e.g. tuberculosis) that a healthy immune system would fight off. 2) Physical and mental health interactions: A person with a long-term physical illness (e.g. cancer) is more likely to develop depression. Depression can then affect physical ",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b8-health-and-disease-q6",
+   "type": "short-answer",
+   "question": "Explain how obesity is a risk factor for type 2 diabetes and cardiovascular disease. (4 marks)",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Obesity is a risk factor for type 2 diabetes because excess body fat causes cells to become resistant to insulin, meaning the body cannot properly control blood sugar levels. The pancreas cannot produce enough insulin to overcome this resistance, leading to type 2 diabetes. Obesity is a risk factor for cardiovascular disease because excess body fat raises blood pressure and increases blood cholest",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b8-health-and-disease-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain the difference between correlation and causation using smoking and lung cancer as an example. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Correlation means two variables are linked — when one changes, the other changes too. Causation means one variable directly causes the other. A correlation does not prove causation — there could be a confounding factor. In the case of smoking and lung cancer, there is a strong correlation: as smoking rates increase, lung cancer rates increase. However, correlation alone does not prove that smoking causes lung cancer. Scientists established causation through additional evidence: they identified carcinogens in tobacco smoke that directly damage DNA in lung cells; they showed that the more a pers",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Correlation means two variables are linked — when one changes, the other changes too. Causation means one variable directly causes the other. A correlation does not prove causation — there could be a confounding factor. In the case of smoking and lung cancer, there is a strong correlation: as smoking rates increase, lung cancer rates increase. However, correlation alone does not prove that smoking causes lung cancer. Scientists established causation through additional evidence: they identified carcinogens in tobacco smoke that directly damage DNA in lung cells; they showed that the more a person smokes, the greater their risk (a dose-response relationship); they found that stopping smoking reduces risk; and they demonstrated the biological mechanism by which carcinogens cause mutations leading to uncontrolled cell division. This combination of epidemiological correlation and biological evidence proves causation, not just correlation. Mark scheme: 1 mark for defining correlation; 1 mark for defining causation; 1 mark for explaining that correlation ≠ causation; 1 mark for the smoking–cancer correlation; 1 mark for additional evidence needed (carcinogens/mechanism); 1 mark for concluding how causation was established"
+   }
+  }
+ ]
+}

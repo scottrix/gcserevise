@@ -1,0 +1,94 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G44-fieldwork-data-collection",
+ "topicName": "Fieldwork: Data Collection and Presentation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g44-fieldwork-data-collection-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between primary and secondary data, giving two examples of each from fieldwork.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Primary data is collected firsthand by the researcher: e.g. river velocity measurements using a flow meter; environmental quality scores recorded on-site. Secondary data was collected by someone else for a different purpose: e.g. census population data; Environment Agency river discharge records. Primary data is specific to the study and up-to-date but time-consuming; secondary data provides wider",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g44-fieldwork-data-collection-q2",
+   "type": "short-answer",
+   "question": "Compare systematic and random sampling. When might each be the better choice?",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Systematic sampling collects data at regular intervals (e.g. every 500m), while random sampling selects points by chance. Systematic is better when you want to cover the whole area evenly and identify trends along a transect (e.g. river changes downstream). Random is better when you want to eliminate all selection bias and the area is fairly uniform. However, random sampling may cluster or miss ar",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g44-fieldwork-data-collection-q3",
+   "type": "short-answer",
+   "question": "Explain what stratified sampling is and why it might be used in an urban fieldwork study.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Stratified sampling divides the study area into subgroups (strata) based on known characteristics, then samples proportionally from each. In urban fieldwork, this is useful because towns have distinct zones (CBD, inner city, suburbs) with very different characteristics. By sampling proportionally from each zone, you ensure all parts of the town are represented. For example, if the CBD is 15% of th",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g44-fieldwork-data-collection-q4",
+   "type": "short-answer",
+   "question": "Suggest the most appropriate presentation method for each of the following: (a) river width at 10 sites downstream; (b) land use proportions in a town centre; (c) the relationship between distance from the CBD and house prices.",
+   "marks": 1,
+   "commandWord": "suggest",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Line graph - shows continuous change along a transect (distance downstream on x-axis, width on y-axis). (b) Pie chart - shows proportions of different land uses making up the whole. (c) Scatter graph - shows the relationship between two continuous variables (distance from CBD and house price) with a line of best fit to identify the trend.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g44-fieldwork-data-collection-q5",
+   "type": "short-answer",
+   "question": "Explain why the choice of sampling method affects the reliability of fieldwork conclusions.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The sampling method determines how representative the data is of the whole area. A biased sample (e.g. only collecting data near roads because they are easy to access) will give results that don't reflect the true pattern. Systematic sampling ensures even coverage but may miss features between points. Random sampling eliminates bias but may leave gaps. Stratified sampling ensures all groups are re",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "R6-comparing-texts",
+ "topicName": "Comparing Texts",
+ "version": 1,
+ "tests": [
+  {
+   "id": "r6-comparing-texts-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Comparing Texts",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "r6-comparing-texts-t1",
+     "type": "short-answer",
+     "question": "What are the two main things you should compare between texts?",
+     "correctAnswer": "Perspectives (viewpoints) and methods (how they convey those viewpoints).",
+     "explanation": "Answer: Perspectives (viewpoints) and methods (how they convey those viewpoints).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "r6-comparing-texts-t3",
+     "type": "short-answer",
+     "question": "Name three comparative connectives for showing differences.",
+     "correctAnswer": "However, in contrast, whereas, on the other hand, unlike.",
+     "explanation": "Answer: However, in contrast, whereas, on the other hand, unlike.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

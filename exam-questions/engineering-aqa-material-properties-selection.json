@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "material-properties-selection",
+ "topicName": "Material Properties & Selection",
+ "version": 1,
+ "questions": [
+  {
+   "id": "material-properties-selection-q1",
+   "type": "short-answer",
+   "question": "Q: Distinguish between toughness and hardness, giving an example of a material that is hard but not tough.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hardness resists surface indentation or scratching; toughness absorbs energy before fracturing. Glass is very hard (resists scratching) but not tough (shatters on impact with little energy absorption).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-properties-selection-q2",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between ductility and malleability with examples.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Ductility is the ability to be stretched into a wire (tensile deformation); copper is very ductile. Malleability is the ability to be shaped by compressive force; lead is highly malleable but not very ductile.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-properties-selection-q3",
+   "type": "short-answer",
+   "question": "Q: A structural beam must support a heavy load without excessive bending. Which property is most important and which material would you select?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Stiffness (Young's Modulus) is most important because it determines resistance to elastic deflection. Steel is the best choice due to its high stiffness (E approximately 200 GPa), combined with good strength and relatively low cost.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-properties-selection-q4",
+   "type": "short-answer",
+   "question": "Q: Calculate the stress in a steel rod of 10 mm diameter carrying a tensile load of 20 kN.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Area = pi x (5)^2 = 78.5 mm2. Stress = Force / Area = 20000 N / 78.5 mm2 = 254.8 N/mm2 (or 254.8 MPa).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-properties-selection-q5",
+   "type": "short-answer",
+   "question": "Q: Explain why a factor of safety is used in engineering design.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A factor of safety accounts for uncertainties in material properties, loading conditions, manufacturing defects and wear over time. It ensures the component can withstand loads beyond the expected working stress without failure.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

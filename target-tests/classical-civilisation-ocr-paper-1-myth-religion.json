@@ -1,0 +1,38 @@
+{
+ "subject": "classical-civilisation",
+ "board": "OCR",
+ "topic": "paper-1-myth-religion",
+ "topicName": "Paper 1: Myth & Religion Technique",
+ "version": 1,
+ "tests": [
+  {
+   "id": "paper-1-myth-religion-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Paper 1: Myth & Religion Technique",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "paper-1-myth-religion-t1",
+     "type": "short-answer",
+     "question": "Q: What percentage is Paper 1 worth?",
+     "correctAnswer": "50% — equally weighted with Paper 2.",
+     "explanation": "Answer: 50% — equally weighted with Paper 2.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "paper-1-myth-religion-t5",
+     "type": "short-answer",
+     "question": "Q: How much time for the extended question?",
+     "correctAnswer": "Approximately 45 minutes — it requires a sustained, developed response.",
+     "explanation": "Answer: Approximately 45 minutes — it requires a sustained, developed response.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

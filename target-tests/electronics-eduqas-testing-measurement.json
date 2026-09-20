@@ -1,0 +1,38 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "testing-measurement",
+ "topicName": "Testing & Measurement",
+ "version": 1,
+ "tests": [
+  {
+   "id": "testing-measurement-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Testing & Measurement",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "testing-measurement-t1",
+     "type": "short-answer",
+     "question": "Q: An oscilloscope shows 4 divisions peak-to-peak with Y-gain set to 2 V/div. What is V_pp and V_rms (sine)?",
+     "correctAnswer": "V_pp = 4 × 2 = 8 V. V_peak = 4 V. V_rms = 4/√2 = 2.83 V.",
+     "explanation": "Answer: V_pp = 4 × 2 = 8 V. V_peak = 4 V. V_rms = 4/√2 = 2.83 V.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "testing-measurement-t3",
+     "type": "short-answer",
+     "question": "Q: A sine wave has a period of 5 divisions at 0.2 ms/div. What is its frequency?",
+     "correctAnswer": "T = 5 × 0.2 = 1 ms = 0.001 s. f = 1/T = 1/0.001 = 1000 Hz = 1 kHz.",
+     "explanation": "Answer: T = 5 × 0.2 = 1 ms = 0.001 s. f = 1/T = 1/0.001 = 1000 Hz = 1 kHz.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

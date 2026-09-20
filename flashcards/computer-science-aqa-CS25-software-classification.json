@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS25-software-classification",
+ "topicName": "Software Classification",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs25-software-classification-fc1",
+   "front": "What should you know about key distinction?",
+   "back": "System software manages the computer and provides a platform for other software. Application software performs tasks for the user. System software works behind the scenes; application software is what the user interacts with directly.",
+   "tags": [
+    "key-distinction"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc2",
+   "front": "Recall a key point about Software Classification",
+   "back": "An operating system (OS) is system software that manages computer hardware and software resources. It provides common services for application programs and acts as an intermediary between the user and the hardware.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc3",
+   "front": "Recall a key point about Software Classification",
+   "back": "Utility programs are system software that perform maintenance and housekeeping tasks to keep the computer running efficiently. They are not essential for the computer to function but help maintain performance and security.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc4",
+   "front": "Recall a key point about Software Classification",
+   "back": "Defragmentation is only needed for HDD (magnetic disk drives). SSDs do not need defragmentation because they have no moving parts and can access any location instantly. In fact, defragmenting an SSD can reduce its lifespan.",
+   "tags": [
+    "note"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc5",
+   "front": "Recall a key point about Software Classification",
+   "back": "Backups should be stored in a different location from the original data (offsite or in the cloud). This protects against physical disasters (fire, flood, theft) that could destroy both the original and the backup if stored together.",
+   "tags": [
+    "important"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc6",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "System software: OS, utilities, translators, libraries. Application software: user tasks. Compiler: all at once, fast execution, hides source. Interpreter: line by line, slower execution, easier debugging. Assembler: translates assembly language to machine code. Open source ≠ free. Know examples of each software type. For comparison questions, give equal detail on both sides.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc7",
+   "front": "What does Purpose mean?",
+   "back": "Manage hardware and provide a platform (e.g. Perform specific tasks for the user)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc8",
+   "front": "What does User interaction mean?",
+   "back": "Often runs in background (e.g. User interacts directly)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc9",
+   "front": "What does Dependency mean?",
+   "back": "Runs without application software (e.g. Cannot run without system software)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc10",
+   "front": "What does Examples mean?",
+   "back": "OS, drivers, utilities, translators (e.g. Word processor, browser, games)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc11",
+   "front": "What does Necessity mean?",
+   "back": "Essential for computer to function (e.g. Optional - installed as needed)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc12",
+   "front": "What does File storage mean?",
+   "back": "Fragments scattered across disk (e.g. File pieces stored together)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc13",
+   "front": "What does Read speed mean?",
+   "back": "Slow - read head moves frequently (e.g. Fast - read head moves less)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc14",
+   "front": "What does Disk wear mean?",
+   "back": "More movement = more wear (e.g. Less movement = less wear)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs25-software-classification-fc15",
+   "front": "What does Full backup mean?",
+   "back": "All files and data (e.g. Slow)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

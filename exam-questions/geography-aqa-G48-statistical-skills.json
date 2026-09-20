@@ -1,0 +1,111 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G48-statistical-skills",
+ "topicName": "Statistical Skills and Data Analysis",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g48-statistical-skills-q1",
+   "type": "short-answer",
+   "question": "Calculate the mean, median, mode, and range for the following data: 12, 15, 18, 18, 22, 25, 30, 35",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Mean = (12+15+18+18+22+25+30+35) ÷ 8 = 175 ÷ 8 = 21.875 ≈ 21.9. Median = (18+22) ÷ 2 = 20 (middle two of 8 values). Mode = 18 (appears twice, all others appear once). Range = 35 − 12 = 23.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g48-statistical-skills-q2",
+   "type": "short-answer",
+   "question": "A country's exports were $4.2 billion in 2015 and $6.3 billion in 2025. Calculate the percentage change.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Percentage change = ((6.3 − 4.2) ÷ 4.2) × 100 = (2.1 ÷ 4.2) × 100 = 0.5 × 100 = 50% increase.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g48-statistical-skills-q3",
+   "type": "short-answer",
+   "question": "Explain the difference between the range and the interquartile range. Why is the IQR often preferred?",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The range is the difference between the highest and lowest values, using only two data points. The IQR is the difference between Q3 and Q1, measuring the spread of the middle 50% of data. The IQR is preferred because it ignores the most extreme values (the top 25% and bottom 25%) that may be outliers, giving a better representation of typical variation. For example, if one house in an area costs £",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g48-statistical-skills-q4",
+   "type": "short-answer",
+   "question": "What is the difference between interpolation and extrapolation? Which is more reliable and why?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Interpolation estimates a value within the existing data range by reading off the line of best fit. Extrapolation estimates a value beyond the data range by extending the line of best fit. Interpolation is more reliable because it is supported by observed data on either side of the estimate. Extrapolation is less reliable because it assumes the trend continues in the same way beyond the data, whic",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g48-statistical-skills-q5",
+   "type": "short-answer",
+   "question": "Explain what is meant by \"correlation does not prove causation\" with a geographical example.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "\"Correlation does not prove causation\" means that just because two variables are statistically related, it does not mean one causes the other. There may be a third underlying factor affecting both. For example, there is a positive correlation between a country's GNI per head and life expectancy, but higher GNI does not directly cause longer life - instead, higher GNI enables better healthcare, nut",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g48-statistical-skills-q6",
+   "type": "short-answer",
+   "question": "Using the following data, calculate Q1, Q3, and the IQR: 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 50",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "11 values arranged: 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 50. Median = 20 (6th value). Lower half: 5, 8, 11, 14, 17 → Q1 = 11. Upper half: 23, 26, 29, 32, 50 → Q3 = 29. IQR = Q3 − Q1 = 29 − 11 = 18. Note: the range is 50 − 5 = 45, but the IQR of 18 better represents the typical spread because the outlier of 50 inflates the range.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

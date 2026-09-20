@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "sensors-transducers",
+ "topicName": "Sensors & Transducers",
+ "version": 1,
+ "steps": [
+  {
+   "id": "sensors-transducers-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A sensor converts a physical quantity (light, temperature, pressure) into an electrical signal; a transducer converts energy between forms."
+  },
+  {
+   "id": "sensors-transducers-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An LDR (light-dependent resistor) has resistance that decreases as light intensity increases; typically 1 MΩ in dark and 1 kΩ in bright light."
+  },
+  {
+   "id": "sensors-transducers-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An NTC thermistor has resistance that decreases as temperature increases; a PTC thermistor has resistance that increases with temperature."
+  },
+  {
+   "id": "sensors-transducers-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Sensors are commonly used in potential divider circuits to convert resistance changes into voltage changes for processing."
+  },
+  {
+   "id": "sensors-transducers-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: An LDR has a resistance of 200 kΩ in darkness and 2 kΩ in bright light. It is in a potential divider with a 10 kΩ fixed resistor and 9 V supply (LDR on top). What is V_out in darkness and in bright | Q: Explain why an NTC thermistor is suitable for a temperature monitoring circuit. | Q: What is the purpose of signal conditioning in a sensor circuit?"
+  },
+  {
+   "id": "sensors-transducers-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Dark: V_out = 9 × 10/(200 + 10) = 0.43 V. Bright: V_out = 9 × 10/(2 + 10) = 7.5 V. | Its resistance decreases as temperature increases, so when placed in a potential divider the output voltage rises with temperature, providing a clear electrical signal proportional to temperature. | To adapt the raw sensor output for the next stage by amplifying weak signals, filtering noise, level shifting or linearising the response."
+  },
+  {
+   "id": "sensors-transducers-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always draw the potential divider and calculate V_out for both extreme sensor values (e.g. dark/light or hot/cold). State whether the sensor resistance increases or decreases with the physical quantity before calculating divider output. For thermistor questions, specify NTC (resistance falls with temperature) or PTC (resistance rises with temperature). When asked about signal conditioning, list the specific techniques needed: amplification, filtering, level shifting or linearisation. Include a comparator or Schmitt trigger stage when converting a sensor voltage to a digital on/off output."
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS15-number-bases",
+ "topicName": "Number Bases",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs15-number-bases-q1",
+   "type": "short-answer",
+   "question": "What is the decimal value of binary 10110?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1x16 + 0x8 + 1x4 + 1x2 + 0x1 = 16 + 4 + 2 = 22",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs15-number-bases-q2",
+   "type": "short-answer",
+   "question": "What is the decimal value of hex 2F?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "2 x 16 + 15 x 1 = 32 + 15 = 47",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs15-number-bases-q3",
+   "type": "short-answer",
+   "question": "Why do computers use binary instead of decimal?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Computers use binary because their hardware consists of transistors that have only two states: on (1) and off (0). This makes binary the natural representation for electronic circuits. Using only two states also makes it reliable and easy to distinguish between values even with electrical noise.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs15-number-bases-q4",
+   "type": "short-answer",
+   "question": "Why is hexadecimal used instead of binary when humans read computer data?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hexadecimal is used because one hex digit represents exactly 4 binary bits, making it a compact and easy-to-read shorthand for binary. A 16-digit binary number like 1111111111111111 becomes just FFFF in hex. It is much easier for humans to read and less error-prone than long binary strings.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs15-number-bases-q5",
+   "type": "short-answer",
+   "question": "What decimal number does the hex digit C represent?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "C = 12 in decimal.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs15-number-bases-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Convert the decimal number 156 to binary and to hexadecimal. Show your working for each conversion. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Decimal to Binary (divide by 2, record remainders): 156 ÷ 2 = 78 r 0 78 ÷ 2 = 39 r 0 39 ÷ 2 = 19 r 1 19 ÷ 2 = 9 r 1 9 ÷ 2 = 4 r 1 4 ÷ 2 = 2 r 0 2 ÷ 2 = 1 r 0 1 ÷ 2 = 0 r 1 Read remainders bottom-up: 10011100 Decimal to Hexadecimal (divide by 16): 156 ÷ 16 = 9 remainder 12 9 ÷ 16 = 0 remainder 9 12 = C in hex Read remainders bottom-up: 9C So 156₁₀ = 10011100₂ = 9C₁₆",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Decimal to Binary (divide by 2, record remainders): 156 ÷ 2 = 78 r 0 78 ÷ 2 = 39 r 0 39 ÷ 2 = 19 r 1 19 ÷ 2 = 9 r 1 9 ÷ 2 = 4 r 1 4 ÷ 2 = 2 r 0 2 ÷ 2 = 1 r 0 1 ÷ 2 = 0 r 1 Read remainders bottom-up: 10011100 Decimal to Hexadecimal (divide by 16): 156 ÷ 16 = 9 remainder 12 9 ÷ 16 = 0 remainder 9 12 = C in hex Read remainders bottom-up: 9C So 156₁₀ = 10011100₂ = 9C₁₆"
+   }
+  }
+ ]
+}

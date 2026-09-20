@@ -1,0 +1,112 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C14-electrolysis",
+ "topicName": "Electrolysis",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c14-electrolysis-q1",
+   "type": "short-answer",
+   "question": "Foundation Define electrolysis. What type of current is used?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Electrolysis is the process of using electricity to break down an ionic compound into its elements. A direct current (DC) is used.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c14-electrolysis-q2",
+   "type": "short-answer",
+   "question": "Foundation Predict the products at each electrode when molten potassium iodide is electrolysed.",
+   "marks": 1,
+   "commandWord": "predict",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cathode: potassium (K). Anode: iodine (I₂). The K⁺ ions are attracted to the cathode and gain electrons. The I⁻ ions are attracted to the anode and lose electrons.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c14-electrolysis-q3",
+   "type": "short-answer",
+   "question": "Higher Predict the products at each electrode when copper(II) chloride solution is electrolysed. Write the half-equations.",
+   "marks": 1,
+   "commandWord": "predict",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cathode: copper — Cu²⁺ + 2e⁻ → Cu (Cu is less reactive than H). Anode: chlorine — 2Cl⁻ → Cl₂ + 2e⁻ (Cl⁻ is a halide ion).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c14-electrolysis-q4",
+   "type": "short-answer",
+   "question": "Foundation Explain why cryolite is used in the extraction of aluminium.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cryolite is mixed with aluminium oxide to lower its melting point from over 2000°C to about 900°C. This saves energy and reduces costs.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c14-electrolysis-q5",
+   "type": "short-answer",
+   "question": "Higher Describe how you would electroplate a steel ring with gold. State the electrodes and electrolyte used, and write the half-equation at the cathode.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cathode: the steel ring. Anode: a piece of gold. Electrolyte: a solution containing gold ions (e.g. gold cyanide solution). At the cathode: Au⁺ + e⁻ → Au (gold deposits onto the steel ring).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c14-electrolysis-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain the products of the electrolysis of aqueous sodium chloride, including half equations. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "In aqueous sodium chloride, the ions present are Na⁺, Cl⁻, H⁺ (from water) and OH⁻ (from water). At the cathode (negative electrode), sodium is more reactive than hydrogen, so H⁺ ions are discharged instead of Na⁺: 2H⁺ + 2e⁻ → H₂. Hydrogen gas is produced. At the anode (positive electrode), Cl⁻ is a halide ion and is discharged in preference to OH⁻: 2Cl⁻ → Cl₂ + 2e⁻. Chlorine gas is produced. The overall result is that hydrogen forms at the cathode, chlorine forms at the anode, and NaOH remains in solution. Mark scheme: 1 mark for identifying all ions present; 1 mark for H₂ at cathode with rea",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "In aqueous sodium chloride, the ions present are Na⁺, Cl⁻, H⁺ (from water) and OH⁻ (from water). At the cathode (negative electrode), sodium is more reactive than hydrogen, so H⁺ ions are discharged instead of Na⁺: 2H⁺ + 2e⁻ → H₂. Hydrogen gas is produced. At the anode (positive electrode), Cl⁻ is a halide ion and is discharged in preference to OH⁻: 2Cl⁻ → Cl₂ + 2e⁻. Chlorine gas is produced. The overall result is that hydrogen forms at the cathode, chlorine forms at the anode, and NaOH remains in solution. Mark scheme: 1 mark for identifying all ions present; 1 mark for H₂ at cathode with reason (Na more reactive than H); 1 mark for correct cathode half equation; 1 mark for Cl₂ at anode with reason (halide discharged); 1 mark for correct anode half equation; 1 mark for stating NaOH remains in solution."
+   }
+  }
+ ]
+}

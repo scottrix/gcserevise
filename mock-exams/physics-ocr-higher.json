@@ -1,0 +1,139 @@
+{
+ "subject": "physics",
+ "board": "OCR",
+ "topic": "mock-exam",
+ "topicName": "Physics Mock Exam",
+ "version": 1,
+ "tier": "Higher",
+ "tests": [
+  {
+   "id": "physics-mock",
+   "name": "Physics Mock Exam",
+   "description": "Timed mock covering 6 topics",
+   "timeLimit": 27,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Energy Stores and Transfers] Foundation Name the eight energy stores and give one example of each.",
+     "correctAnswer": "Kinetic — moving car; gravitational potential — book on shelf; elastic potential — stretched spring; thermal — hot cup of tea; chemical — food/fuel; nuclear — uranium in reactor; magnetic — two repelling magnets held apart; electrostatic — two opposite charges separated.",
+     "explanation": "Kinetic — moving car; gravitational potential — book on shelf; elastic potential — stretched spring; thermal — hot cup of tea; chemical — food/fuel; nuclear — uranium in reactor; magnetic — two repelling magnets held apart; electrostatic — two opposite charges separated.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Energy Stores and Transfers] Foundation A ball falls from a height of 2 m. Describe the energy transfers that take place.",
+     "correctAnswer": "At the top: gravitational potential store is at its maximum, kinetic store is zero. As the ball falls: gravitational potential store decreases, kinetic store increases. Energy is transferred mechanically (by gravitational force doing work). Some energy is dissipated to the thermal store of the surro",
+     "explanation": "At the top: gravitational potential store is at its maximum, kinetic store is zero. As the ball falls: gravitational potential store decreases, kinetic store increases. Energy is transferred mechanically (by gravitational force doing work). Some energy is dissipated to the thermal store of the surro",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Energy Stores and Transfers] Foundation State the conservation of energy principle.",
+     "correctAnswer": "Energy cannot be created or destroyed. It can only be transferred usefully, stored, or dissipated. The total energy input always equals the total energy output.",
+     "explanation": "Energy cannot be created or destroyed. It can only be transferred usefully, stored, or dissipated. The total energy input always equals the total energy output.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Density and States of Matter] Extended Answer Question 6 marks: Describe how you would determine the density of an irregular solid object and a liquid. Explain the sources of uncertainty in each method. <div class=\"",
+     "correctAnswer": "For an irregular solid, first measure the mass using an electronic balance. Then use the water displacement method to find the volume: fill a measuring cylinder with enough water to submerge the object and record the initial volume. Carefully lower the object into the water on a thin thread and reco",
+     "explanation": "For an irregular solid, first measure the mass using an electronic balance. Then use the water displacement method to find the volume: fill a measuring cylinder with enough water to submerge the object and record the initial volume. Carefully lower the object into the water on a thin thread and reco",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Particle Motion and Pressure] Foundation Describe what causes gas pressure in a sealed container.",
+     "correctAnswer": "Gas particles are in constant random motion. They collide with the walls of the container, exerting a force on them. The total force per unit area of the wall is the gas pressure.",
+     "explanation": "Gas particles are in constant random motion. They collide with the walls of the container, exerting a force on them. The total force per unit area of the wall is the gas pressure.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Particle Motion and Pressure] Foundation Explain how Brownian motion provides evidence for the particle model.",
+     "correctAnswer": "Brownian motion shows larger particles (e.g. smoke) moving in random zigzag paths. This is caused by collisions with smaller, invisible air or water particles. This random, uneven bombardment can only be explained if matter is made of tiny particles in constant motion — supporting the particle model",
+     "explanation": "Brownian motion shows larger particles (e.g. smoke) moving in random zigzag paths. This is caused by collisions with smaller, invisible air or water particles. This random, uneven bombardment can only be explained if matter is made of tiny particles in constant motion — supporting the particle model",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Particle Motion and Pressure] Higher A gas at 150 kPa has a volume of 4.0 m³. The volume is reduced to 1.5 m³ at constant temperature. Calculate the new pressure.",
+     "correctAnswer": "p₁V₁ = p₂V₂ → 150 × 4.0 = p₂ × 1.5 → 600 = 1.5 p₂ → p₂ = 400 kPa",
+     "explanation": "p₁V₁ = p₂V₂ → 150 × 4.0 = p₂ × 1.5 → 600 = 1.5 p₂ → p₂ = 400 kPa",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Nuclear Model and Isotopes] Foundation Describe the results of Rutherford's alpha scattering experiment and what each result tells us about the structure of the atom.",
+     "correctAnswer": "Most alpha particles went straight through → the atom is mostly empty space. Some were deflected → the nucleus is positively charged. A few bounced back → the nucleus is small, dense and contains most of the mass.",
+     "explanation": "Most alpha particles went straight through → the atom is mostly empty space. Some were deflected → the nucleus is positively charged. A few bounced back → the nucleus is small, dense and contains most of the mass.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Nuclear Model and Isotopes] Foundation An atom has 26 protons and 30 neutrons. State its atomic number and mass number.",
+     "correctAnswer": "Atomic number = 26 (number of protons). Mass number = 26 + 30 = 56 (protons + neutrons). This is iron-56.",
+     "explanation": "Atomic number = 26 (number of protons). Mass number = 26 + 30 = 56 (protons + neutrons). This is iron-56.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Nuclear Model and Isotopes] Higher Explain what isotopes are, using carbon-12 and carbon-14 as examples.",
+     "correctAnswer": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. Carbon-12 has 6 protons and 6 neutrons. Carbon-14 has 6 protons and 8 neutrons. They are both carbon (atomic number 6) but have different mass numbers (12 and 14).",
+     "explanation": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. Carbon-12 has 6 protons and 6 neutrons. Carbon-14 has 6 protons and 8 neutrons. They are both carbon (atomic number 6) but have different mass numbers (12 and 14).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Particle Motion and Pressure] Explain, in terms of particle motion, why the pressure of a gas increases when its temperature increases at constant volume. [6 marks] <div class=\"",
+     "correctAnswer": "When the temperature of a gas increases, thermal energy is transferred to the gas particles, increasing their average kinetic energy (1). The particles move faster on average (1). Because the volume is constant, the particles travel the same distance between collisions with the walls (1). However, s",
+     "explanation": "When the temperature of a gas increases, thermal energy is transferred to the gas particles, increasing their average kinetic energy (1). The particles move faster on average (1). Because the volume is constant, the particles travel the same distance between collisions with the walls (1). However, s",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Nuclear Model and Isotopes] Describe how and why our model of the atom has changed from Dalton's solid sphere to the nuclear model. Include the evidence that led to each change. [6 marks] <div class=\"",
+     "correctAnswer": "Dalton proposed the solid sphere model, suggesting atoms were tiny indivisible spheres (1). Thomson discovered the electron in 1897, showing atoms contained smaller negatively charged particles, so he proposed the plum pudding model — a ball of positive charge with electrons embedded within it (1). ",
+     "explanation": "Dalton proposed the solid sphere model, suggesting atoms were tiny indivisible spheres (1). Thomson discovered the electron in 1897, showing atoms contained smaller negatively charged particles, so he proposed the plum pudding model — a ball of positive charge with electrons embedded within it (1). ",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

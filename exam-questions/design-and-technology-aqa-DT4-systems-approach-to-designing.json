@@ -1,0 +1,78 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT4-systems-approach-to-designing",
+ "topicName": "Systems Approach to Designing",
+ "version": 1,
+ "questions": [
+  {
+   "id": "dt4-systems-approach-to-designing-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between an open-loop and a closed-loop system, giving an example of each.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Open-loop: no feedback — the system does not monitor its own output. E.g. a fan heater with a simple on/off switch runs at fixed power. Closed-loop: feedback adjusts the output. E.g. a fan heater with a thermostat senses room temperature and adjusts power to maintain the desired temperature.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-q2",
+   "type": "short-answer",
+   "question": "A washing machine uses sensors to detect load weight and water temperature. Draw a systems diagram and explain how feedback is used.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Input: load sensor, temperature sensor, water level sensor. Process: microcontroller compares sensor data with programmed settings. Output: motor speed, water valve, heater control. Feedback: temperature sensor feeds back actual water temperature; microcontroller adjusts heater to reach target. Load sensor determines cycle time — heavier loads need longer.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-q3",
+   "type": "short-answer",
+   "question": "Why is a closed-loop system more suitable than an open-loop system for controlling a greenhouse irrigation system?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A greenhouse needs precise moisture levels: too little water kills plants, too much causes root rot. Closed-loop: soil moisture sensor provides feedback, microcontroller activates irrigation only when moisture drops below threshold. Open-loop: timer-based watering regardless of soil conditions — wastes water in rain, underwater in drought. Closed-loop is essential where conditions vary.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt4-systems-approach-to-designing-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Design a closed-loop system for an automatic greenhouse ventilation system. Explain the input, process, output and feedback, and justify why a closed-loop approach is necessary. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: define input (temperature sensor and humidity sensor inside greenhouse), process (microcontroller compares readings with set points — e.g. 25°C and 60% RH), output (motor opens roof vents, fan activates), feedback (continuous sensor monitoring — when temperature drops below set point, vents close, fan stops); explain why closed-loop is needed (external temperature fluctuates, solar gain varies, open-loop timer cannot respond to actual conditions); discuss safety features (vent limit switches, alarm for sensor failure) and energy efficiency (vents use natural convection",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: define input (temperature sensor and humidity sensor inside greenhouse), process (microcontroller compares readings with set points — e.g. 25°C and 60% RH), output (motor opens roof vents, fan activates), feedback (continuous sensor monitoring — when temperature drops below set point, vents close, fan stops); explain why closed-loop is needed (external temperature fluctuates, solar gain varies, open-loop timer cannot respond to actual conditions); discuss safety features (vent limit switches, alarm for sensor failure) and energy efficiency (vents use natural convection before activating fans)."
+   }
+  }
+ ]
+}

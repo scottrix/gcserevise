@@ -1,0 +1,137 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P17-stopping-distances",
+ "topicName": "Stopping Distances",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p17-stopping-distances-fc1",
+   "front": "What should you know about stopping distance?",
+   "back": "The total distance a vehicle travels from the moment the driver sees a hazard to the moment the vehicle stops. Stopping distance = thinking distance + braking distance.",
+   "tags": [
+    "stopping-distance"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc2",
+   "front": "What should you know about thinking distance?",
+   "back": "The distance the vehicle travels during the driver's reaction time (the time between seeing the hazard and pressing the brake).",
+   "tags": [
+    "thinking-distance"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc3",
+   "front": "What should you know about braking distance?",
+   "back": "The distance the vehicle travels while the brakes are applied, from pressing the brake to coming to a complete stop.",
+   "tags": [
+    "braking-distance"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc4",
+   "front": "What should you know about reaction time?",
+   "back": "The time between seeing a hazard and responding (pressing the brake). Typical reaction time is about 0.5 seconds.",
+   "tags": [
+    "reaction-time"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc5",
+   "front": "Both thinking distance and braking distance increase with speed, but braking distance increases much more dramatically.",
+   "back": "If speed doubles, thinking distance doubles, but braking distance increases by a factor of 4 (it is proportional to speed²).",
+   "tags": [
+    "both-thinking-distance-and-bra"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc6",
+   "front": "What should you know about why braking distance increases with the square of speed?",
+   "back": "The kinetic energy of the vehicle is KE = ½mv². If speed doubles, KE quadruples. The brakes must remove all this energy, so the braking distance is proportional to v².",
+   "tags": [
+    "why-braking-distance-increases"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc7",
+   "front": "Recall a key point about Stopping Distances",
+   "back": "Stopping distance = thinking distance + braking distance. Thinking distance = speed × reaction time. Braking distance relates to KE: F × d = ½mv², so d = ½mv²/F. If speed doubles, KE quadruples, so braking distance quadruples (d ∝ v²). You may also use t = √(2h/g) to calculate reaction time from ruler drop distance.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc8",
+   "front": "What should you know about answers?",
+   "back": "(a) At each speed, thinking distance / speed = 6/20 = 9/30 = 12/40 = 15/50 = 18/60 = 21/70 = 0.3 m per mph. This constant ratio shows proportionality. Reaction time = 0.3 m/mph ÷ 0.447 m/s per mph ≈ 0.67 s . (b) Thinking distance ∝ speed (linear), but braking distance ∝ speed² (quadratic). KE = ½mv², so doubling speed quadruples KE and therefore quadruples the work the brakes must do. (c) At 30 mph on a dry road, total stopping distance = 23 m, so the car would just stop in time. On a wet road, braking distance is roughly doubled (≈ 28 m), giving a total of about 9 + 28 = 37 m. The car would N",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc9",
+   "front": "Required Practical: Investigating Reaction Time",
+   "back": "Aim: To measure human reaction time and investigate factors that affect it.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc10",
+   "front": "Watch Out!",
+   "back": "1. Wrong: If speed doubles, the stopping distance doubles. Correct: If speed doubles, thinking distance doubles BUT braking distance increases by a factor of 4 (it is proportional to speed²). So the total stopping distance more than doubles.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc11",
+   "front": "Extended Answer",
+   "back": "6 marks: A car is travelling at 40 mph on a dry road. The driver has consumed alcohol. Explain how each of the following affects the total stopping distance: (i) the speed of the car, (ii) the alcohol consumed, (iii) wet road conditions.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc12",
+   "front": "Analysis and Evaluation",
+   "back": "The Highway Code gives the following typical stopping distances at different speeds:",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "p17-stopping-distances-fc13",
+   "front": "Ready to ace your GCSE Combined Science exams?",
+   "back": "Get the best revision books and guides to boost your grades.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

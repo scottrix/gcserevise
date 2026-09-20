@@ -1,0 +1,68 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS17-units-information",
+ "topicName": "Units of Information",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs17-units-information-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Units of Information",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs17-units-information-t1",
+     "type": "short-answer",
+     "question": "How many bytes are in 3.5 KB?",
+     "correctAnswer": "3.5 KB = 3.5 x 1,000 = 3,500 bytes.",
+     "explanation": "Answer: 3.5 KB = 3.5 x 1,000 = 3,500 bytes.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs17-units-information-t2",
+     "type": "short-answer",
+     "question": "A text file contains 2,000 characters stored in ASCII (1 byte per character). What is the file size in KB?",
+     "correctAnswer": "2,000 characters x 1 byte = 2,000 bytes = 2,000 / 1,000 = 2 KB.",
+     "explanation": "Answer: 2,000 characters x 1 byte = 2,000 bytes = 2,000 / 1,000 = 2 KB.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs17-units-information-t3",
+     "type": "short-answer",
+     "question": "Calculate the size of a 640x480 pixel image with 8-bit colour depth in KB.",
+     "correctAnswer": "640 x 480 x 8 = 2,457,600 bits = 307,200 bytes = 307.2 KB.",
+     "explanation": "Answer: 640 x 480 x 8 = 2,457,600 bits = 307,200 bytes = 307.2 KB.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs17-units-information-t4",
+     "type": "short-answer",
+     "question": "Which is larger: 0.5 GB or 600 MB? Show your working.",
+     "correctAnswer": "0.5 GB = 0.5 x 1,000 = 500 MB. 600 MB > 500 MB, so 600 MB is larger.",
+     "explanation": "Answer: 0.5 GB = 0.5 x 1,000 = 500 MB. 600 MB > 500 MB, so 600 MB is larger.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs17-units-information-t5",
+     "type": "short-answer",
+     "question": "A sound file is recorded at 22,050 Hz with 8-bit samples for 60 seconds. Calculate the file size in MB.",
+     "correctAnswer": "22,050 x 8 x 60 = 10,584,000 bits = 1,323,000 bytes = 1,323 KB = 1.323 MB.",
+     "explanation": "Answer: 22,050 x 8 x 60 = 10,584,000 bits = 1,323,000 bytes = 1,323 KB = 1.323 MB.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

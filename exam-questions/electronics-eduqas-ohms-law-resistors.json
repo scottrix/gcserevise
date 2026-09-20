@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "ohms-law-resistors",
+ "topicName": "Ohm's Law & Resistor Networks",
+ "version": 1,
+ "questions": [
+  {
+   "id": "ohms-law-resistors-q1",
+   "type": "short-answer",
+   "question": "Q: Three resistors of 2 Ω, 3 Ω and 5 Ω are connected in series. What is the total resistance?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "R_total = 2 + 3 + 5 = 10 Ω.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ohms-law-resistors-q2",
+   "type": "short-answer",
+   "question": "Q: Two resistors of 6 Ω and 3 Ω are connected in parallel. What is the total resistance?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "R_total = (6 × 3)/(6 + 3) = 18/9 = 2 Ω.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ohms-law-resistors-q3",
+   "type": "short-answer",
+   "question": "Q: A 12 V supply feeds a potential divider with R1 = 4 kΩ and R2 = 8 kΩ. What is V_out?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "V_out = 12 × 8/(4 + 8) = 12 × 8/12 = 8 V.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ohms-law-resistors-q4",
+   "type": "short-answer",
+   "question": "Q: Why does connecting a load across a potential divider reduce V_out?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The load is in parallel with R2, lowering the effective resistance of the lower branch and reducing the voltage fraction across it.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ohms-law-resistors-q5",
+   "type": "short-answer",
+   "question": "Q: In a series circuit of 10 Ω and 20 Ω with a 9 V supply, what is the voltage across the 20 Ω resistor?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "V = 9 × 20/(10 + 20) = 9 × 20/30 = 6 V.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ohms-law-resistors-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain how to calculate the total resistance of a mixed series-parallel resistor network, and describe how a potential divider works. <div class=\"",
+   "marks": 4,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "To calculate total resistance of a mixed network, first identify which resistors are in parallel and combine them using 1/R_total = 1/R1 + 1/R2 + …, then add any series resistances to get the overall equivalent resistance. A potential divider consists of two resistors (R1 and R2) in series across a supply voltage. The output voltage taken across R2 is V_out = V_in × R2/(R1 + R2). The voltage divides in proportion to the resistances: the larger R2 is relative to R1, the greater the output voltage. If a load is connected across R2, it forms a parallel combination with R2, reducing the effective ",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "To calculate total resistance of a mixed network, first identify which resistors are in parallel and combine them using 1/R_total = 1/R1 + 1/R2 + …, then add any series resistances to get the overall equivalent resistance. A potential divider consists of two resistors (R1 and R2) in series across a supply voltage. The output voltage taken across R2 is V_out = V_in × R2/(R1 + R2). The voltage divides in proportion to the resistances: the larger R2 is relative to R1, the greater the output voltage. If a load is connected across R2, it forms a parallel combination with R2, reducing the effective lower resistance and therefore reducing V_out. This loading effect must be considered in practical circuits."
+   }
+  }
+ ]
+}

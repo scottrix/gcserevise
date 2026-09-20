@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "sampling-techniques",
+ "topicName": "Sampling Techniques",
+ "version": 1,
+ "questions": [
+  {
+   "id": "sampling-techniques-q1",
+   "type": "short-answer",
+   "question": "Q: What is the advantage of a random sample over an opportunity sample?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A random sample gives every member an equal chance of selection, reducing bias and making the sample more representative of the population.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sampling-techniques-q2",
+   "type": "short-answer",
+   "question": "Q: How do you calculate the sample size for a stratum in stratified sampling?",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Stratum sample size = (stratum size ÷ population size) × total sample size.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sampling-techniques-q3",
+   "type": "short-answer",
+   "question": "Q: A school has 200 Year 10 and 300 Year 11 students. A stratified sample of 50 is needed. How many from each year?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Year 10: (200/500) × 50 = 20; Year 11: (300/500) × 50 = 30.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sampling-techniques-q4",
+   "type": "short-answer",
+   "question": "Q: What is systematic sampling?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Selecting every kth member from an ordered list after choosing a random starting point, where k = population size ÷ sample size.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sampling-techniques-q5",
+   "type": "short-answer",
+   "question": "Q: Why is opportunity sampling likely to be biased?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Because it only includes people who happen to be available, who may not be representative of the whole population.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sampling-techniques-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A school has 120 boys and 180 girls. A stratified sample of 50 students is required. Calculate how many boys and how many girls should be sampled. Explain why stratified sampling is better than simple random sampling here. <div class=\"",
+   "marks": 4,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Total students = 120 + 180 = 300. Boys: (120 ÷ 300) × 50 = 0.4 × 50 = 20 boys. Girls: (180 ÷ 300) × 50 = 0.6 × 50 = 30 girls. Stratified sampling is better than simple random sampling because it guarantees the sample reflects the gender balance of the population (40% boys, 60% girls). A simple random sample might by chance include too many or too few of one gender, giving a sample that does not represent the population accurately.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Total students = 120 + 180 = 300. Boys: (120 ÷ 300) × 50 = 0.4 × 50 = 20 boys. Girls: (180 ÷ 300) × 50 = 0.6 × 50 = 30 girls. Stratified sampling is better than simple random sampling because it guarantees the sample reflects the gender balance of the population (40% boys, 60% girls). A simple random sample might by chance include too many or too few of one gender, giving a sample that does not represent the population accurately."
+   }
+  }
+ ]
+}

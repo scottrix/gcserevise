@@ -1,0 +1,157 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS6-data-types",
+ "topicName": "Data Types",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs6-data-types-fc1",
+   "front": "Recall a key point about Data Types",
+   "back": "A data type defines the kind of data a variable can hold. Choosing the correct data type ensures data is stored efficiently and prevents errors.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc2",
+   "front": "What should you know about integer?",
+   "back": "stores whole numbers only - no decimal points. Use integer for counts, ages, positions, and any value that cannot logically be fractional.",
+   "tags": [
+    "integer"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc3",
+   "front": "What should you know about common mistake?",
+   "back": "Storing 3.14 as an integer would lose the decimal part, storing only 3. If a value needs decimal precision, use Real/Float instead.",
+   "tags": [
+    "common-mistake"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc4",
+   "front": "What should you know about real (or float)?",
+   "back": "stores numbers with a decimal point. Use real for measurements, prices, averages, and scientific calculations where precision matters.",
+   "tags": [
+    "real-or-float"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc5",
+   "front": "What should you know about boolean?",
+   "back": "can only hold one of two values: TRUE or FALSE. Use boolean for flags, conditions, and yes/no questions.",
+   "tags": [
+    "boolean"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc6",
+   "front": "What should you know about character?",
+   "back": "stores exactly one symbol - a single letter, digit, or special character. Characters are enclosed in single quotes.",
+   "tags": [
+    "character"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc7",
+   "front": "What should you know about distinction?",
+   "back": "A character '5' is NOT the same as the integer 5. The character '5' has the ASCII code 53, while the integer 5 has the value five. They are stored and processed differently.",
+   "tags": [
+    "distinction"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc8",
+   "front": "What should you know about string?",
+   "back": "stores a sequence of zero or more characters. Strings are enclosed in double quotes. An empty string \"\" contains no characters.",
+   "tags": [
+    "string"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc9",
+   "front": "What should you know about type casting?",
+   "back": "means converting a value from one data type to another. This is necessary when performing operations that require specific types, or when reading input that arrives as a string.",
+   "tags": [
+    "type-casting"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc10",
+   "front": "Recall a key point about Data Types",
+   "back": "Choosing the right data type saves memory. A Boolean needs only 1 byte, while a string might need many bytes. Using a string to store \"TRUE\" instead of a Boolean wastes memory.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc11",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "When asked about data types, always state the type AND explain why it is the most appropriate. Consider: does it need decimal places? Is it text or a single character? Is it a true/false value? Is it a whole number? Remember that INTEGER is for whole numbers only, REAL/FLOAT for decimals, STRING for text, CHAR for single characters, and BOOLEAN for true/false. Casting between types (e.g. str() to int()) is a common exam topic.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc12",
+   "front": "What does Integer mean?",
+   "back": "A whole number (no decimal point) (e.g. 42, -7, 0, 1000)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc13",
+   "front": "What does Real / Float mean?",
+   "back": "A number with a decimal point (e.g. 3.14, -0.5, 9.81)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc14",
+   "front": "What does Boolean mean?",
+   "back": "Can only be TRUE or FALSE (e.g. TRUE, FALSE)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs6-data-types-fc15",
+   "front": "What does Character mean?",
+   "back": "A single symbol (letter, digit, punctuation) (e.g. 'A', '7', '?', 'z')",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

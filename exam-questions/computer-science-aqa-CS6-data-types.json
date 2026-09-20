@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS6-data-types",
+ "topicName": "Data Types",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs6-data-types-q1",
+   "type": "short-answer",
+   "question": "Name the five main data types and give an example value for each.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Integer: 42, Real/Float: 3.14, Boolean: TRUE, Character: 'A', String: \"Hello\".",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs6-data-types-q2",
+   "type": "short-answer",
+   "question": "What is the difference between the integer 7 and the string \"7\"?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The integer 7 can be used in mathematical operations (7 + 3 = 10). The string \"7\" is text and would concatenate (\"7\" + \"3\" = \"73\"). They are stored and processed differently.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs6-data-types-q3",
+   "type": "short-answer",
+   "question": "What is the result of INT(\"25\") + INT(\"10\")?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INT(\"25\") = 25, INT(\"10\") = 10, so 25 + 10 = 35.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs6-data-types-q4",
+   "type": "short-answer",
+   "question": "Why should you store a person's age as an integer rather than a string?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Storing age as an integer allows arithmetic (e.g. checking if age >= 18), saves memory, and validates that the input is a whole number. A string age cannot be compared numerically.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs6-data-types-q5",
+   "type": "short-answer",
+   "question": "Write pseudo-code that asks the user for a number, converts it to a real, divides it by 2, and outputs the result.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT userInput num ← FLOAT(userInput) result ← num / 2 OUTPUT result",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs6-data-types-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A program stores a student's name, their test score as a whole number, their height in metres, and whether they have passed. State the most appropriate data type for each value and explain your choice. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Name: STRING — a name consists of multiple characters (e.g. 'Alice'), so a string is needed rather than a single character. Test score: INTEGER — test scores are whole numbers (e.g. 85), so integer is appropriate as no decimal part is needed. Height: REAL/FLOAT — height in metres requires decimal places (e.g. 1.65), so a real/float type is needed to store the fractional part. Passed: BOOLEAN — the student has either passed or not passed, so only two values (TRUE/FALSE) are needed, making Boolean the most efficient choice.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Name: STRING — a name consists of multiple characters (e.g. 'Alice'), so a string is needed rather than a single character. Test score: INTEGER — test scores are whole numbers (e.g. 85), so integer is appropriate as no decimal part is needed. Height: REAL/FLOAT — height in metres requires decimal places (e.g. 1.65), so a real/float type is needed to store the fractional part. Passed: BOOLEAN — the student has either passed or not passed, so only two values (TRUE/FALSE) are needed, making Boolean the most efficient choice."
+   }
+  }
+ ]
+}

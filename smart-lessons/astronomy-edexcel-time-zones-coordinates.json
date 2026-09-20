@@ -1,0 +1,51 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "time-zones-coordinates",
+ "topicName": "Time Zones & Celestial Coordinates",
+ "version": 1,
+ "steps": [
+  {
+   "id": "time-zones-coordinates-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Time zones divide the Earth into 24 roughly 15°-wide zones, each one hour apart. The Prime Meridian (0°, Greenwich) defines Greenwich Mean Time (GMT) / Universal Time (UT)."
+  },
+  {
+   "id": "time-zones-coordinates-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Moving east: add 1 hour per 15° of longitude. Moving west: subtract 1 hour. The International Date Line (roughly 180°) is where the calendar date changes by one day."
+  },
+  {
+   "id": "time-zones-coordinates-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "British Summer Time (BST) = GMT+1, used from the last Sunday in March to the last Sunday in October."
+  },
+  {
+   "id": "time-zones-coordinates-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The equatorial coordinate system fixes objects on the celestial sphere using right ascension (RA) and declination (Dec), analogous to longitude and latitude on Earth."
+  },
+  {
+   "id": "time-zones-coordinates-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: How are time zones related to longitude? | Q: What is the equatorial coordinate system? | Q: What is the difference between altitude-azimuth and equatorial coordinates?"
+  },
+  {
+   "id": "time-zones-coordinates-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Earth rotates 360° in 24 hours = 15° per hour. Each time zone spans roughly 15° of longitude. Moving east by 15° adds 1 hour; moving west subtracts 1 hour. The Prime Meridian at Greenwich defines the  | A system using right ascension (RA, measured in hours east from the vernal equinox) and declination (Dec, measured in degrees from the celestial equator) to fix objects on the celestial sphere. RA is  | Alt-az coordinates (altitude above horizon, azimuth on compass) depend on the observer's location and time. Equatorial coordinates (RA, Dec) are fixed for each star and do not change with location or "
+  },
+  {
+   "id": "time-zones-coordinates-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "For coordinate questions, always specify the system: RA/Dec (equatorial) or Alt/Az (horizon). Don't mix them. Remember: 1 hour of RA = 15°. Converting between hours and degrees is a common exam calculation. For time zone questions, state the rule: +1 hour per 15° east, −1 hour per 15° west from Greenwich. The key difference between the two systems: equatorial coordinates are fixed; alt-az coordinates change with time and location."
+  }
+ ]
+}

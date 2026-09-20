@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "joining-assembly",
+ "topicName": "Joining & Assembly",
+ "version": 1,
+ "steps": [
+  {
+   "id": "joining-assembly-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Permanent joints cannot be disassembled without damage: welding, brazing, soft soldering, riveting and adhesive bonding."
+  },
+  {
+   "id": "joining-assembly-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Temporary joints can be repeatedly assembled and disassembled: bolts, nuts, screws, clips and captive fasteners."
+  },
+  {
+   "id": "joining-assembly-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Welding fuses metals together by melting the parent material (and usually a filler rod); MIG, TIG and MMA are common arc welding processes."
+  },
+  {
+   "id": "joining-assembly-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Brazing joins metals by melting a filler (brass alloy, above 450 degrees C) that flows by capillary action between closely fitting parts."
+  },
+  {
+   "id": "joining-assembly-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain the difference between a permanent and a temporary joint, giving two examples of each. | Q: Compare brazing and soft soldering in terms of joint strength and applications. | Q: Why is TIG welding preferred over MIG welding for thin aluminium sheet?"
+  },
+  {
+   "id": "joining-assembly-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Permanent joints cannot be disassembled without damage (e.g. welding, riveting). Temporary joints can be repeatedly assembled and disassembled (e.g. bolted joints, screwed connections). The choice dep | Brazing uses a filler above 450 degrees C (brass alloy), producing strong joints suitable for structural and mechanical applications. Soft soldering uses a filler below 450 degrees C (tin-lead or lead | TIG welding gives precise heat control using a foot pedal, allowing the welder to manage the low thermal mass of thin sheet. TIG produces a smaller, neater weld pool with better penetration control, r"
+  },
+  {
+   "id": "joining-assembly-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Classify joints as permanent or temporary first — this is almost always required in exam answers. When comparing welding processes, focus on: precision (TIG), speed (MIG), and material suitability. The temperature distinction matters: brazing above 450 degrees C, soft soldering below 450 degrees C. HAZ questions are common — explain that properties change due to thermal cycling, not direct melting. Always justify joint choice by linking it to the application requirement (disassembly, strength, materials)."
+  }
+ ]
+}

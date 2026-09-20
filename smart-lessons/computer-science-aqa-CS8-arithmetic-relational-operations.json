@@ -1,0 +1,57 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS8-arithmetic-relational-operations",
+ "topicName": "Arithmetic and Relational Operations",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs8-arithmetic-relational-operations-s1",
+   "kind": "learn",
+   "title": "Arithmetic operators",
+   "body": "perform mathematical calculations on numeric values. At GCSE, you need to know seven operators including DIV and MOD."
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-s2",
+   "kind": "learn",
+   "title": "DIV",
+   "body": "gives the whole number result of division (quotient). MOD gives the remainder. Together they describe any division completely: for a / b, the quotient is a DIV b and the remainder is a MOD b."
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-s3",
+   "kind": "learn",
+   "title": "Relational operators",
+   "body": "compare two values and return a Boolean result (TRUE or FALSE). They are used in IF conditions and WHILE loop conditions."
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-s4",
+   "kind": "learn",
+   "title": "Exam Warning",
+   "body": "In pseudo-code, = means \"equal to\" (comparison), NOT assignment. Assignment uses the left-arrow (←). This is different from languages like Python where = is assignment and == is comparison."
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Relational operators compare two values and return a Boolean result (TRUE or FALSE). They are used in IF conditions and WHILE loop conditions. Operator Symbol Meaning Example Result Equal to = Both values are the same 5 = 5 TRUE Not equal to <> Values are different 5 <> 3 TRUE Less than < First value is smaller 3 < 5 TRUE Greater than > First value is larger 7 > 4 TRUE Less than or equal to <= First value is smaller or equal 5 <= 5 TRUE Greater than or equal to >= First value is larger or equal 6 >= 3 TRUE Exam Warning: In pseudo-code, = means \"equal to\" (comparison), NOT assignment. Assignment uses the left-arrow (←). This is different from languages like Python where = is assignment and == is comparison. Relational Operators in Conditions IF age >= 18 THEN OUTPUT \"Adult\" ENDIF WHILE attempts < 3 INPUT \"Try again: \", guess attempts ← attempts + 1 ENDWHILE IF password = \"secret\" THEN OUTPUT \"Access granted\" ENDIF"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Evaluate: 17 DIV 5 and 17 MOD 5 | Write pseudo-code that checks if a number is divisible by 3. | Evaluate step by step: 3 + 4 * 2 - 1"
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "17 DIV 5 = 3 (17 / 5 = 3.4, whole number part = 3). 17 MOD 5 = 2 (remainder = 17 - 5*3 = 2). | INPUT number IF number MOD 3 = 0 THEN OUTPUT number, \" is divisible by 3\" ELSE OUTPUT number, \" is not divisible by 3\" ENDIF | Step 1: 4 * 2 = 8. Step 2: 3 + 8 = 11. Step 3: 11 - 1 = 10."
+  },
+  {
+   "id": "cs8-arithmetic-relational-operations-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "DIV gives the whole number part of division; MOD gives the remainder Use MOD 2 = 0 to check for even numbers Use MOD 10 to get the last digit of a number Always use brackets to make order of operations clear In pseudo-code, = means \"is equal to\" (comparison), not assignment Practise DIV and MOD calculations - they appear frequently in exams"
+  }
+ ]
+}

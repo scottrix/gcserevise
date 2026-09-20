@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "troubleshooting-circuits",
+ "topicName": "Troubleshooting & Fault Finding",
+ "version": 1,
+ "questions": [
+  {
+   "id": "troubleshooting-circuits-q1",
+   "type": "short-answer",
+   "question": "Q: Describe the half-split method of fault finding.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Measure at the midpoint of the signal path; if the signal is correct there, the fault is after that point; if not, it is before. Repeat to narrow down the fault location.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "troubleshooting-circuits-q2",
+   "type": "short-answer",
+   "question": "Q: What are the symptoms of an open-circuit resistor in a series circuit?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Zero current flows, the full supply voltage appears across the open resistor, and components after the break have no voltage across them.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "troubleshooting-circuits-q3",
+   "type": "short-answer",
+   "question": "Q: What is a solder bridge and how can it be detected?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A solder bridge is an unintended solder connection between adjacent tracks; it is detected by visual inspection and continuity testing with a multimeter.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "troubleshooting-circuits-q4",
+   "type": "short-answer",
+   "question": "Q: Why should the power supply be checked first when troubleshooting?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Because many circuit faults are caused by missing, incorrect or unstable supply voltage; checking it first eliminates the most common cause before investigating signal paths.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "troubleshooting-circuits-q5",
+   "type": "short-answer",
+   "question": "Q: Give two differences between voltage testing and continuity testing.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Voltage testing is done with power on and measures voltage at nodes; continuity testing is done with power off and checks whether a conductive path exists.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "troubleshooting-circuits-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Describe a systematic approach to fault finding in an electronic circuit, explaining the half-split method and how open circuits and short circuits are identified. <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Systematic fault finding begins with observing the symptoms: what the circuit should do versus what it actually does. First, check the power supply — correct voltage, polarity and current capacity — since many faults originate here. Next, use the half-split method: measure the signal at the midpoint of the signal path. If the signal is correct at the midpoint, the fault lies in the latter half; if not, it lies in the first half. Repeat this process, splitting the remaining section each time, to rapidly locate the faulty stage. Open circuits are identified by zero current flow in the path, with",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Systematic fault finding begins with observing the symptoms: what the circuit should do versus what it actually does. First, check the power supply — correct voltage, polarity and current capacity — since many faults originate here. Next, use the half-split method: measure the signal at the midpoint of the signal path. If the signal is correct at the midpoint, the fault lies in the latter half; if not, it lies in the first half. Repeat this process, splitting the remaining section each time, to rapidly locate the faulty stage. Open circuits are identified by zero current flow in the path, with the full supply voltage appearing across the break (since no current means no voltage drop across other series components). Continuity testing with a multimeter (power off) confirms the break. Short circuits are identified by excessive current, blown fuses, near-zero voltage across the shorted section and overheating. Visual inspection can reveal solder bridges, while continuity testing shows unintended low-resistance paths. After locating and repairing the fault, the circuit must be fully retested to confirm the fix and ensure no new faults were introduced."
+   }
+  }
+ ]
+}

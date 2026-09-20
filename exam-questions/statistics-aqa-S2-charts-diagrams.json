@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S2-charts-diagrams",
+ "topicName": "S2 Charts Diagrams",
+ "version": 1,
+ "questions": [
+  {
+   "id": "s2-charts-diagrams-q1",
+   "type": "short-answer",
+   "question": "Calculate the angle for a pie chart sector representing 15 students out of a total of 60.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(15/60) × 360° = 90°",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2-charts-diagrams-q2",
+   "type": "short-answer",
+   "question": "A pictogram uses ⭐ = 6 points. How many stars are needed to represent 27 points?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "27 ÷ 6 = 4.5 stars (4 full stars and 1 half star)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2-charts-diagrams-q3",
+   "type": "short-answer",
+   "question": "In a bar chart, what should be the height of the \"Blue\" bar if 24 people chose blue out of 120 surveyed?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Height = 24 (the frequency value)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2-charts-diagrams-q4",
+   "type": "short-answer",
+   "question": "A pie chart has a sector of 90°. If the total frequency is 200, how many does this sector represent?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(90/360) × 200 = 50",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2-charts-diagrams-q5",
+   "type": "short-answer",
+   "question": "Describe the trend shown in a time series graph where values go: 8, 7, 6, 5, 4, 3 over six months.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Downward trend (decreasing) - values are falling from 8 to 3 over the six months.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s2-charts-diagrams-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: The table shows monthly sales for a shop over two years: Month Jan Feb Mar Apr May Jun 2024 12 14 18 22 26 30 2025 15 17 21 25 29 33 (a) Draw a time series graph showing both years. (b) Describe the trend and compare 2024 with 2025. (c) Estimate sales for August 2025, giving a reason for your estimate. <div class=\"",
+   "marks": 6,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Plot both years on the same axes with months on x-axis and sales (£000s) on y-axis. Connect points within each year. Use different colours or a key for 2024 and 2025. (b) Both years show an upward trend (increasing sales from January to June). 2025 sales are consistently higher than 2024 by approximately £3000 each month. The rate of increase is similar in both years. (c) The monthly increase is roughly £4000/month. By August (2 months after June): 33 + 4 + 4 = £41,000. Alternatively, the pattern from 2024 shows growth slows in later months, so a lower estimate of £38,000 may be more reali",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "(a) Plot both years on the same axes with months on x-axis and sales (£000s) on y-axis. Connect points within each year. Use different colours or a key for 2024 and 2025. (b) Both years show an upward trend (increasing sales from January to June). 2025 sales are consistently higher than 2024 by approximately £3000 each month. The rate of increase is similar in both years. (c) The monthly increase is roughly £4000/month. By August (2 months after June): 33 + 4 + 4 = £41,000. Alternatively, the pattern from 2024 shows growth slows in later months, so a lower estimate of £38,000 may be more realistic. Mark scheme: M1 for plotting points, A1 for connected time series with key, M1 for describing upward trend, A1 for comparing years, M1 for extrapolation with reason, A1 for reasonable estimate with justification"
+   }
+  }
+ ]
+}

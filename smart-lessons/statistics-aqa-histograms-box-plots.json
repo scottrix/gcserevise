@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "histograms-box-plots",
+ "topicName": "Histograms Box Plots",
+ "version": 1,
+ "steps": [
+  {
+   "id": "histograms-box-plots-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A histogram displays continuous data using bars with no gaps between them; the area of each bar (not the height) is proportional to the frequency."
+  },
+  {
+   "id": "histograms-box-plots-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Frequency density = frequency ÷ class width; the vertical axis of a histogram shows frequency density, not frequency."
+  },
+  {
+   "id": "histograms-box-plots-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "When class widths are equal, the bar heights are proportional to the frequencies and frequency density is simply frequency ÷ class width."
+  },
+  {
+   "id": "histograms-box-plots-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "When class widths are unequal, you must calculate frequency density for each bar; the height no longer equals the frequency."
+  },
+  {
+   "id": "histograms-box-plots-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: A histogram has a class interval of width 5 with frequency 30. What is the frequency density? | Q: On a box plot, Q1 = 12, Q2 = 18, Q3 = 24. What is the IQR and what does the median's position tell you about skewness? | Q: A dataset has Q1 = 10, Q3 = 22. What are the outlier boundaries?"
+  },
+  {
+   "id": "histograms-box-plots-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Frequency density = 30 ÷ 5 = 6. | IQR = 24 – 12 = 12. The median (18) is exactly midway between Q1 and Q3, so the distribution is approximately symmetric. | IQR = 12. Lower boundary = 10 – 1.5 × 12 = –8. Upper boundary = 22 + 1.5 × 12 = 40. Values below –8 or above 40 are outliers."
+  },
+  {
+   "id": "histograms-box-plots-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always calculate frequency density before drawing a histogram — never use frequency directly on the y-axis unless all class widths are equal. When comparing box plots, write about median (location), IQR (spread), and overall range, and use comparative language such as 'higher' or 'more spread out'. On a box plot, the whisker does not extend to an outlier — it stops at the last data point within the 1.5 × IQR boundary. When estimating frequencies from a histogram, remember frequency = frequency density × class width (i.e. the area of the bar). If a histogram question gives you a missing frequency, set up an equation using total area = total frequency and solve."
+  }
+ ]
+}

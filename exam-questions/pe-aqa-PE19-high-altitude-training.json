@@ -1,0 +1,111 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE19-high-altitude-training",
+ "topicName": "High Altitude Training",
+ "version": 1,
+ "questions": [
+  {
+   "id": "pe19-high-altitude-training-q1",
+   "type": "short-answer",
+   "question": "At what altitude is high altitude training typically performed?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Above 2,500 metres (8,000 feet).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe19-high-altitude-training-q2",
+   "type": "short-answer",
+   "question": "Explain the process of erythropoiesis and how it benefits an endurance athlete.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "At altitude, the lower oxygen levels are detected by the kidneys, which release the hormone erythropoietin (EPO). EPO stimulates the red bone marrow to produce more red blood cells. More RBCs means the blood can carry more oxygen, which benefits endurance athletes by improving oxygen delivery to working muscles, delaying fatigue and improving VO₂ max.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe19-high-altitude-training-q3",
+   "type": "short-answer",
+   "question": "Why can't athletes train as hard at altitude as they can at sea level?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "At altitude, the partial pressure of oxygen is lower, meaning less oxygen diffuses into the blood at the alveoli. With less oxygen in the blood, the heart must work harder and muscles receive less oxygen per unit of blood. This means the same exercise intensity requires a higher percentage of maximum effort, and the athlete simply cannot reach the same maximum speeds, powers or workloads as at sea",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe19-high-altitude-training-q4",
+   "type": "short-answer",
+   "question": "Describe three limitations of high altitude training.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(1) Cannot train as hard - reduced oxygen means lower maximum training intensity, potentially losing anaerobic fitness. (2) Expense and accessibility - altitude camps are costly and not accessible to all. (3) Effects are temporary - increased RBC count decreases within 2-3 weeks of returning to sea level. (Other valid: altitude sickness, unfair advantage.)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe19-high-altitude-training-q5",
+   "type": "short-answer",
+   "question": "Explain the \"live high, train low\" approach and why it is used.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "\"Live high, train low\" involves living at altitude (2,000-2,500m) to stimulate the body's adaptations (especially EPO release and increased RBC production) while descending to lower elevations (below 1,000m) for training sessions. This approach aims to gain the physiological benefits of altitude exposure while maintaining the ability to train at sea-level intensities, overcoming the main limitatio",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe19-high-altitude-training-q6",
+   "type": "short-answer",
+   "question": "Why are the benefits of altitude training temporary?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The benefits are temporary because when the athlete returns to sea level, the kidneys no longer detect low oxygen levels, so EPO production decreases to normal. Without the stimulus of continued altitude exposure, the body gradually returns RBC production to normal levels. The extra RBCs have a lifespan of approximately 120 days, so the enhanced oxygen-carrying capacity diminishes over 2-3 weeks a",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

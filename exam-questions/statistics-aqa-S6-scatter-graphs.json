@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S6-scatter-graphs",
+ "topicName": "S6 Scatter Graphs",
+ "version": 1,
+ "questions": [
+  {
+   "id": "s6-scatter-graphs-q1",
+   "type": "short-answer",
+   "question": "What type of correlation would you expect between hours of sleep and tiredness?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Negative correlation - more sleep means less tiredness.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s6-scatter-graphs-q2",
+   "type": "short-answer",
+   "question": "A line of best fit has equation y = 3x + 5. Predict y when x = 7.",
+   "marks": 1,
+   "commandWord": "predict",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "y = 3(7) + 5 = 21 + 5 = 26",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s6-scatter-graphs-q3",
+   "type": "short-answer",
+   "question": "What is the difference between interpolation and extrapolation?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Interpolation is predicting within the data range; extrapolation is predicting outside the range.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s6-scatter-graphs-q4",
+   "type": "short-answer",
+   "question": "A scatter graph shows test scores between 40% and 90%. Is predicting a score of 95% interpolation or extrapolation?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Extrapolation - 95% is outside the range of 40-90%.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s6-scatter-graphs-q5",
+   "type": "short-answer",
+   "question": "State two rules for drawing a line of best fit.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Any two: use a ruler; follow the trend; equal points above and below; don't force through origin; ignore outliers.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s6-scatter-graphs-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Data is collected on ice cream sales and temperature for 12 days: Temperature (°C): 15, 18, 20, 22, 24, 25, 26, 28, 30, 32, 33, 35 Sales (£hundreds): 5, 8, 10, 14, 16, 18, 19, 22, 25, 28, 30, 35 (a) Describe the correlation. (b) The line of best fit has equation y = 1.5x − 18. Use this to predict sales at 21°C and 40°C. (c) Which prediction is more reliable? Explain why. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Strong positive correlation — as temperature increases, ice cream sales also increase. The points follow a clear upward trend. (b) At 21°C: y = 1.5(21) − 18 = 31.5 − 18 = 13.5, so £1,350. At 40°C: y = 1.5(40) − 18 = 60 − 18 = 42, so £4,200. (c) The prediction at 21°C is more reliable because it is interpolation — 21°C is within the data range (15–35°C). The prediction at 40°C is extrapolation — it's outside the range, and the relationship might not continue linearly. For example, at very high temperatures, people might stay indoors and sales could drop. Mark scheme: M1 for identifying posi",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "(a) Strong positive correlation — as temperature increases, ice cream sales also increase. The points follow a clear upward trend. (b) At 21°C: y = 1.5(21) − 18 = 31.5 − 18 = 13.5, so £1,350. At 40°C: y = 1.5(40) − 18 = 60 − 18 = 42, so £4,200. (c) The prediction at 21°C is more reliable because it is interpolation — 21°C is within the data range (15–35°C). The prediction at 40°C is extrapolation — it's outside the range, and the relationship might not continue linearly. For example, at very high temperatures, people might stay indoors and sales could drop. Mark scheme: M1 for identifying positive correlation, A1 for \"strong positive\", M1 for correct substitution, A1 for both predictions, M1 for identifying interpolation vs extrapolation, A1 for explaining why 21°C is more reliable"
+   }
+  }
+ ]
+}

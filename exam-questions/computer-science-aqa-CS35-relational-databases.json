@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS35-relational-databases",
+ "topicName": "Relational Databases",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs35-relational-databases-q1",
+   "type": "short-answer",
+   "question": "Define the terms field, record, and table in the context of a database.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A field is a single category of data in a table (a column). A record is a complete set of data for one entity in a table (a row). A table is a structured collection of related data organised in rows and columns.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs35-relational-databases-q2",
+   "type": "short-answer",
+   "question": "What is a primary key? Why is it important?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A primary key is a field that uniquely identifies each record in a table. It must be unique (no two records can have the same value) and cannot be null. It is important because it allows each record to be uniquely identified and retrieved, and it enables relationships between tables via foreign keys.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs35-relational-databases-q3",
+   "type": "short-answer",
+   "question": "Explain the difference between a primary key and a foreign key.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A primary key uniquely identifies each record in its own table. A foreign key is a field in one table that references the primary key of another table, creating a link between them. Primary keys must be unique; foreign keys can repeat. Every table has one primary key; foreign keys only exist when there is a relationship between tables.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs35-relational-databases-q4",
+   "type": "short-answer",
+   "question": "What is data redundancy and how does a relational database eliminate it?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Data redundancy is when the same data is stored in multiple places, wasting space and causing inconsistency. A relational database eliminates redundancy by splitting data into separate related tables, so each piece of data is stored only once. When data needs to be linked, foreign keys are used instead of duplicating the data.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs35-relational-databases-q5",
+   "type": "short-answer",
+   "question": "How would you resolve a many-to-many relationship in a relational database?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A many-to-many relationship is resolved by creating a linking (junction) table between the two entities. The linking table contains foreign keys referencing the primary keys of both tables, converting the M:N relationship into two 1:M relationships. For example, Students M:N Courses is resolved by creating an Enrolments table with StudentID (FK) and CourseID (FK).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs35-relational-databases-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A school stores student data in a flat file with fields: StudentID, Name, TutorGroup, TutorName, TutorRoom. Explain two problems with this flat file design, and describe how a relational database would solve them. [5 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Problem 1: Data redundancy — the TutorName and TutorRoom are repeated for every student in the same tutor group. If 30 students share a tutor, the tutor's name and room appear 30 times. Problem 2: Update anomaly — if a tutor changes room, every record for their students must be updated. Missing one record causes data inconsistency. Relational database solution: Students table: StudentID (PK), Name, TutorGroup (FK) Tutors table: TutorGroup (PK), TutorName, TutorRoom The TutorGroup field in Students is a foreign key linking to the Tutors table. Now each tutor's name and room are stored only once",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Problem 1: Data redundancy — the TutorName and TutorRoom are repeated for every student in the same tutor group. If 30 students share a tutor, the tutor's name and room appear 30 times. Problem 2: Update anomaly — if a tutor changes room, every record for their students must be updated. Missing one record causes data inconsistency. Relational database solution: Students table: StudentID (PK), Name, TutorGroup (FK) Tutors table: TutorGroup (PK), TutorName, TutorRoom The TutorGroup field in Students is a foreign key linking to the Tutors table. Now each tutor's name and room are stored only once. If a tutor changes room, only ONE record in the Tutors table needs updating, eliminating redundancy and update anomalies."
+   }
+  }
+ ]
+}

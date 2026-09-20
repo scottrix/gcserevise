@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "interpreting-exam-questions",
+ "topicName": "Interpreting Exam Questions",
+ "version": 1,
+ "questions": [
+  {
+   "id": "interpreting-exam-questions-q1",
+   "type": "short-answer",
+   "question": "Q: A question asks: ‘Describe the distribution of the data shown in the box plot.’ What should you include in your answer?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "State the median, quartiles, IQR, and range. Mention skewness (e.g. positively skewed if the upper whisker is longer). Give specific values from the box plot. Do not explain why it is skewed.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "interpreting-exam-questions-q2",
+   "type": "short-answer",
+   "question": "Q: A question asks: ‘Compare the heights of the two groups.’ You write: ‘Group A has mean 162 cm and Group B has mean 158 cm.’ Why would this not get full marks?",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "You must compare both location and spread. Use comparative language (‘Group A is taller on average by 4 cm’) and also compare spread (IQR or SD). State differences explicitly rather than just listing values.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "interpreting-exam-questions-q3",
+   "type": "short-answer",
+   "question": "Q: A question asks you to ‘Evaluate the use of a questionnaire to collect data about diet.’ What two things should your answer include?",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Strengths (e.g. cheap, large sample possible, easy to analyse) and weaknesses (e.g. social desirability bias, recall inaccuracy, low response rate). Reach a balanced judgement.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "interpreting-exam-questions-q4",
+   "type": "short-answer",
+   "question": "Q: A cumulative frequency graph has the x-axis labelled 0, 20, 40, 60, 80, 100 with gridlines. The median is read as 52. The actual median is 56. What went wrong?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The gridlines may be at intervals of 20, with the space between 40 and 60 not being linearly subdivided, or the student misread the scale. Always check the scale divisions carefully and use a ruler to read values.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "interpreting-exam-questions-q5",
+   "type": "short-answer",
+   "question": "Q: A question asks: ‘Justify your answer.’ You have calculated that the correlation coefficient r = −0.82. What should you write?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "State the conclusion (‘There is a strong negative correlation’) and justify with the value (‘because r = −0.82, which is close to −1’). Explain what this means in context.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "interpreting-exam-questions-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A question shows a grouped frequency table of marks for two classes and asks: ‘Compare the performance of Class 1 and Class 2.’ The median for Class 1 is 54 and for Class 2 is 47. The IQR for Class 1 is 18 and for Class 2 is 22. Write a full answer. <div class=\"",
+   "marks": 4,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Class 1 performed better on average, with a median mark of 54 compared to Class 2’s median of 47, a difference of 7 marks. Class 1’s marks were also more consistent, with an IQR of 18 compared to Class 2’s IQR of 22. This means Class 2’s marks are more spread out around the median. Both classes had their middle 50% of students scoring within roughly 18–22 marks of each other, but Class 1’s smaller IQR indicates more consistent performance.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Class 1 performed better on average, with a median mark of 54 compared to Class 2’s median of 47, a difference of 7 marks. Class 1’s marks were also more consistent, with an IQR of 18 compared to Class 2’s IQR of 22. This means Class 2’s marks are more spread out around the median. Both classes had their middle 50% of students scoring within roughly 18–22 marks of each other, but Class 1’s smaller IQR indicates more consistent performance."
+   }
+  }
+ ]
+}

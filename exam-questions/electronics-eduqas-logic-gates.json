@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "logic-gates",
+ "topicName": "Logic Gates",
+ "version": 1,
+ "questions": [
+  {
+   "id": "logic-gates-q1",
+   "type": "short-answer",
+   "question": "Q: Draw the truth table for a 2-input AND gate.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A=0,B=0→0; A=0,B=1→0; A=1,B=0→0; A=1,B=1→1.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "logic-gates-q2",
+   "type": "short-answer",
+   "question": "Q: What is the output of a NAND gate when both inputs are 1?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "0. A NAND gate produces the complement of the AND output.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "logic-gates-q3",
+   "type": "short-answer",
+   "question": "Q: Why are NAND and NOR called universal gates?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Because any Boolean function can be implemented using only NAND gates or only NOR gates, without needing any other gate type.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "logic-gates-q4",
+   "type": "short-answer",
+   "question": "Q: How many rows does a truth table for a 3-input logic gate have?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "2³ = 8 rows.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "logic-gates-q5",
+   "type": "short-answer",
+   "question": "Q: What is the difference between XOR and XNOR gates?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "XOR outputs 1 when inputs are different; XNOR outputs 1 when inputs are the same (XOR followed by NOT).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "logic-gates-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Describe the function of each fundamental logic gate (AND, OR, NOT, NAND, NOR, XOR) and explain why NAND is a universal gate. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An AND gate outputs 1 only when all inputs are 1. An OR gate outputs 1 when any input is 1. A NOT gate inverts its single input. A NAND gate outputs 0 only when all inputs are 1 (complement of AND). A NOR gate outputs 1 only when all inputs are 0 (complement of OR). An XOR gate outputs 1 when its inputs are different. NAND is a universal gate because any Boolean function can be built using only NAND gates: a NOT gate is a NAND with both inputs tied together; an AND gate is a NAND followed by a NOT (two NANDs); an OR gate is implemented by inverting both inputs first then feeding them to a NAND",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "An AND gate outputs 1 only when all inputs are 1. An OR gate outputs 1 when any input is 1. A NOT gate inverts its single input. A NAND gate outputs 0 only when all inputs are 1 (complement of AND). A NOR gate outputs 1 only when all inputs are 0 (complement of OR). An XOR gate outputs 1 when its inputs are different. NAND is a universal gate because any Boolean function can be built using only NAND gates: a NOT gate is a NAND with both inputs tied together; an AND gate is a NAND followed by a NOT (two NANDs); an OR gate is implemented by inverting both inputs first then feeding them to a NAND (De Morgan's equivalence). Since NOT, AND and OR together can implement any Boolean expression, and all three can be built from NAND alone, NAND is universal. The same reasoning applies to NOR."
+   }
+  }
+ ]
+}

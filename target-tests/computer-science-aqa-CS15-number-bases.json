@@ -1,0 +1,48 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS15-number-bases",
+ "topicName": "Number Bases",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs15-number-bases-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Number Bases",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs15-number-bases-t1",
+     "type": "short-answer",
+     "question": "What is the decimal value of binary 10110?",
+     "correctAnswer": "1x16 + 0x8 + 1x4 + 1x2 + 0x1 = 16 + 4 + 2 = 22",
+     "explanation": "Answer: 1x16 + 0x8 + 1x4 + 1x2 + 0x1 = 16 + 4 + 2 = 22",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs15-number-bases-t2",
+     "type": "short-answer",
+     "question": "What is the decimal value of hex 2F?",
+     "correctAnswer": "2 x 16 + 15 x 1 = 32 + 15 = 47",
+     "explanation": "Answer: 2 x 16 + 15 x 1 = 32 + 15 = 47",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs15-number-bases-t5",
+     "type": "short-answer",
+     "question": "What decimal number does the hex digit C represent?",
+     "correctAnswer": "C = 12 in decimal.",
+     "explanation": "Answer: C = 12 in decimal.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

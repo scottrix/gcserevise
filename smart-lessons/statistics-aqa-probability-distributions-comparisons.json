@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "probability-distributions-comparisons",
+ "topicName": "Probability Distributions Comparisons",
+ "version": 1,
+ "steps": [
+  {
+   "id": "probability-distributions-comparisons-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A probability distribution lists all possible outcomes with their associated probabilities; the total probability always sums to 1"
+  },
+  {
+   "id": "probability-distributions-comparisons-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Binomial distribution models the number of successes in n independent trials, each with the same probability p of success; P(X = r) = ²ⁿCᵣ × pʳ × (1−p)ⁿʻʳ where X~B(n, p)"
+  },
+  {
+   "id": "probability-distributions-comparisons-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "For a binomial distribution: mean = np and variance = np(1−p); these are the expected value and spread"
+  },
+  {
+   "id": "probability-distributions-comparisons-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The normal distribution is a continuous bell-shaped curve, fully defined by its mean (μ) and standard deviation (σ); notation X~N(μ, σ²)"
+  },
+  {
+   "id": "probability-distributions-comparisons-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: A fair coin is tossed 10 times. What is the probability of getting exactly 7 heads? | Q: Heights of a population are normally distributed with mean 170 cm and standard deviation 6 cm. Use the 68–95–99.7 rule to estimate the percentage of people between 158 cm and 182 cm. | Q: Student A scores 72 on a test with mean 60 and SD 8. Student B scores 78 on a test with mean 70 and SD 5. Who performed better relative to their class?"
+  },
+  {
+   "id": "probability-distributions-comparisons-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "X~B(10, 0.5). P(X=7) = ¹⁰C₇ × 0.5⁷ × 0.5³ = 120 × 0.0078125 × 0.125 = 0.1171875 ≈ 0.117 | 158 = 170 − 12 = mean − 2σ. 182 = 170 + 12 = mean + 2σ. By the 68–95–99.7 rule, approximately 95% of data lies within 2σ of the mean. | z_A = (72−60)/8 = 1.5. z_B = (78−70)/5 = 1.6. Student B performed better as their z-score is higher."
+  },
+  {
+   "id": "probability-distributions-comparisons-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always state the distribution notation: X~B(n, p) for binomial and X~N(μ, σ²) for normal When using the 68–95–99.7 rule, first identify how many standard deviations from the mean the boundary values are In comparison questions, compare both location (mean/median) and spread (SD/IQR), and always refer back to the context For z-score questions, show the calculation clearly: z = (x − μ)/σ, then interpret the sign and magnitude Check whether a question is asking for a binomial or normal approach by looking for keywords: ‘number of successes’ suggests binomial; ‘normally distributed’ suggests normal"
+  }
+ ]
+}

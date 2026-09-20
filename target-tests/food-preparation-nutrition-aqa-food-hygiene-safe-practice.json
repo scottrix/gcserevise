@@ -1,0 +1,38 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "food-hygiene-safe-practice",
+ "topicName": "Food Hygiene & Safe Practice",
+ "version": 1,
+ "tests": [
+  {
+   "id": "food-hygiene-safe-practice-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Food Hygiene & Safe Practice",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "food-hygiene-safe-practice-t1",
+     "type": "short-answer",
+     "question": "Q: What are the 4 Cs of food safety?",
+     "correctAnswer": "Cross-contamination prevention, Cleaning, Chilling, and Cooking.",
+     "explanation": "Answer: Cross-contamination prevention, Cleaning, Chilling, and Cooking.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-hygiene-safe-practice-t2",
+     "type": "short-answer",
+     "question": "Q: What is the correct fridge temperature range?",
+     "correctAnswer": "0–5°C, which keeps food below the danger zone to slow or stop bacterial growth.",
+     "explanation": "Answer: 0–5°C, which keeps food below the danger zone to slow or stop bacterial growth.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

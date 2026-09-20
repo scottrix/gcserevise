@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "shaping-forming-casting",
+ "topicName": "Shaping, Forming & Casting",
+ "version": 1,
+ "steps": [
+  {
+   "id": "shaping-forming-casting-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Shaping and forming processes change the shape of material without removing it; they rely on plastic deformation."
+  },
+  {
+   "id": "shaping-forming-casting-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Bending and folding shape sheet metal using a press brake; the bend angle, radius and material thickness are key variables."
+  },
+  {
+   "id": "shaping-forming-casting-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Press forming (stamping) uses a punch and die to shape sheet metal in a single stroke; suitable for high-volume production."
+  },
+  {
+   "id": "shaping-forming-casting-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Punching and blanking cut shapes from sheet metal using a press: punching removes a hole; blanking cuts out the entire shape."
+  },
+  {
+   "id": "shaping-forming-casting-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Explain the difference between sand casting and pressure die casting, giving an application for each. | Q: Why is injection moulding the most common process for high-volume thermoplastic components? | Q: Describe the process of bending a sheet metal bracket on a press brake."
+  },
+  {
+   "id": "shaping-forming-casting-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Sand casting uses a disposable sand mould; it is cheap for small batches and large parts (e.g. engine blocks). Die casting uses a permanent steel mould with molten metal injected under pressure; it is | Injection moulding has very fast cycle times (seconds per part), excellent repeatability, good surface finish, fine detail reproduction and low labour cost per part. The high initial tooling cost is a | The sheet metal is placed between the punch (upper tool) and V-die (lower tool) on the press brake. The punch descends, forcing the metal into the V-die to the required bend angle. The bend radius is "
+  },
+  {
+   "id": "shaping-forming-casting-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always specify the material when describing a forming/casting process: die casting is for non-ferrous metals only; injection moulding is for thermoplastics only. Volume is the key decision factor: sand casting for low volume, die casting/injection moulding for high volume. When comparing processes, always consider: tooling cost, unit cost, production rate, surface finish and tolerance. Springback is a favourite exam point for bending: the metal relaxes slightly after bending, so overbend to compensate. Forging vs casting: forging = stronger grain structure; casting = can produce more complex shapes."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as22-astrophotography",
+ "topicName": "Astrophotography",
+ "version": 1,
+ "steps": [
+  {
+   "id": "as22-astrophotography-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Astrophotography records images of celestial objects using cameras attached to telescopes or with standard cameras on tripods"
+  },
+  {
+   "id": "as22-astrophotography-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Key camera settings: exposure time, ISO/gain, and aperture (f-number)"
+  },
+  {
+   "id": "as22-astrophotography-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Star trails are created by long exposures showing the apparent rotation of the sky around the celestial pole"
+  },
+  {
+   "id": "as22-astrophotography-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Image stacking combines multiple short exposures to reduce noise and reveal faint detail"
+  },
+  {
+   "id": "as22-astrophotography-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What is image stacking and why is it used? | Q: What are dark frames and flat frames? | Q: How are star trail images created?"
+  },
+  {
+   "id": "as22-astrophotography-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Combining multiple short exposures of the same object to reduce random noise and increase signal-to-noise ratio, revealing fainter detail than a single long exposure. | Dark frames: exposures with the lens cap on, recording sensor noise for subtraction. Flat frames: images of a uniform light source, correcting vignetting and dust shadows on the sensor. | By taking a very long exposure (or stacking many short ones) while the camera remains fixed, recording the apparent circular motion of stars around the celestial pole."
+  },
+  {
+   "id": "as22-astrophotography-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Stacking improves signal-to-noise ratio — this is a key concept Dark frames subtract noise; flat frames correct vignetting — know the difference Both boards cover astrophotography basics in the observational skills section The 500 rule is useful but not always examined — understand the principle rather than memorising the number"
+  }
+ ]
+}

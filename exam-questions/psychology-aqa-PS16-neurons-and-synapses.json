@@ -1,0 +1,78 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS16-neurons-and-synapses",
+ "topicName": "Neurons & Synapses",
+ "version": 1,
+ "questions": [
+  {
+   "id": "ps16-neurons-and-synapses-q1",
+   "type": "short-answer",
+   "question": "Describe the structure and function of sensory, motor and relay neurons.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Sensory neurons: carry information from sensory receptors to the CNS (long dendrites, short axons). Motor neurons: carry signals from the CNS to muscles and glands (short dendrites, long axons). Relay neurons: connect sensory and motor neurons within the CNS (short dendrites and axons). Together they form the reflex arc.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ps16-neurons-and-synapses-q2",
+   "type": "short-answer",
+   "question": "Explain how synaptic transmission works, including the role of neurotransmitters.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Electrical impulse travels down the axon -> reaches terminal buttons -> vesicles release neurotransmitters into the synaptic cleft -> neurotransmitters diffuse across and bind to receptors on the postsynaptic neuron -> if excitatory signals exceed inhibitory signals, the next neuron fires. The signal is unidirectional (only released from the presynaptic neuron).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ps16-neurons-and-synapses-q3",
+   "type": "short-answer",
+   "question": "Discuss the role of neurotransmitters in behaviour, referring to serotonin and dopamine.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Serotonin regulates mood, sleep and appetite. Low serotonin is linked to depression (SSRIs increase serotonin and treat depression) and aggression. Dopamine is involved in reward, motivation and movement. Excess dopamine is linked to schizophrenia; low dopamine in motor areas causes Parkinson's disease. Both show that chemical imbalances affect behaviour.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ps16-neurons-and-synapses-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate the contribution of neuroscience to our understanding of behaviour, discussing the limitations of neurotransmitter explanations. <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: describe neurotransmitter functions (serotonin, dopamine, acetylcholine); present supporting evidence (drug treatments, brain scanning studies); evaluate limitations (correlational not causal, reductionist, ignores social/cognitive factors, individual differences in neurotransmitter activity); consider the diathesis-stress model (biological vulnerability + environmental triggers); conclude: neurotransmitter research has made important contributions (especially to understanding mental health and developing drug treatments), but reductionist explanations that ignore psyc",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: describe neurotransmitter functions (serotonin, dopamine, acetylcholine); present supporting evidence (drug treatments, brain scanning studies); evaluate limitations (correlational not causal, reductionist, ignores social/cognitive factors, individual differences in neurotransmitter activity); consider the diathesis-stress model (biological vulnerability + environmental triggers); conclude: neurotransmitter research has made important contributions (especially to understanding mental health and developing drug treatments), but reductionist explanations that ignore psychological and social factors are incomplete. A biopsychosocial approach provides a more comprehensive understanding."
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS11-input-output-string-handling",
+ "topicName": "Input, Output & String Handling",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs11-input-output-string-handling-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Input, Output & String Handling",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs11-input-output-string-handling-t1",
+     "type": "short-answer",
+     "question": "What does LENGTH(\"GCSE Computer Science\") return?",
+     "correctAnswer": "20 characters (including the space).",
+     "explanation": "Answer: 20 characters (including the space).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs11-input-output-string-handling-t2",
+     "type": "short-answer",
+     "question": "Write pseudo-code that asks for a word and outputs the first three characters.",
+     "correctAnswer": "INPUT word OUTPUT SUBSTRING(word, 0, 3)",
+     "explanation": "Answer: INPUT word OUTPUT SUBSTRING(word, 0, 3)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs11-input-output-string-handling-t3",
+     "type": "short-answer",
+     "question": "What is the ASCII code for 'A'? What is CHR(97)?",
+     "correctAnswer": "The ASCII code for 'A' is 65. CHR(97) = 'a'.",
+     "explanation": "Answer: The ASCII code for 'A' is 65. CHR(97) = 'a'.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

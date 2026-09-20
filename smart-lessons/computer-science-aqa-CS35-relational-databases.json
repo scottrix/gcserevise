@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS35-relational-databases",
+ "topicName": "Relational Databases",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs35-relational-databases-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A database is an organised, structured collection of data that can be easily accessed, managed, and updated. A relational database stores data in multiple linked tables that relate to each other."
+  },
+  {
+   "id": "cs35-relational-databases-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A table is a structured set of data organised in rows and columns. Each table stores data about one type of entity (e.g. a table for Students, a table for Courses)."
+  },
+  {
+   "id": "cs35-relational-databases-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A field is a single category of data within a table. Each field has a name and a data type (e.g. text, integer, date). A field stores one piece of information for each record."
+  },
+  {
+   "id": "cs35-relational-databases-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A record is a single, complete set of data in a table. Each row represents one item or entity, containing values for every field."
+  },
+  {
+   "id": "cs35-relational-databases-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Define the terms field, record, and table in the context of a database. | What is a primary key? Why is it important? | Explain the difference between a primary key and a foreign key."
+  },
+  {
+   "id": "cs35-relational-databases-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A field is a single category of data in a table (a column). A record is a complete set of data for one entity in a table (a row). A table is a structured collection of related data organised in rows a | A primary key is a field that uniquely identifies each record in a table. It must be unique (no two records can have the same value) and cannot be null. It is important because it allows each record t | A primary key uniquely identifies each record in its own table. A foreign key is a field in one table that references the primary key of another table, creating a link between them. Primary keys must "
+  },
+  {
+   "id": "cs35-relational-databases-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know the definitions: table, field, record, primary key, foreign key Primary key = unique identifier; Foreign key = link to another table Always explain WHY primary keys must be unique (to identify each record) For redundancy questions, give a concrete example of duplicated data Remember: M:N relationships need a linking table to resolve Be able to draw simple E-R diagrams showing 1:1, 1:M, and M:N relationships"
+  }
+ ]
+}

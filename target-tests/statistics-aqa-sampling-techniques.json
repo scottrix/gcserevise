@@ -1,0 +1,38 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "sampling-techniques",
+ "topicName": "Sampling Techniques",
+ "version": 1,
+ "tests": [
+  {
+   "id": "sampling-techniques-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Sampling Techniques",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "sampling-techniques-t2",
+     "type": "short-answer",
+     "question": "Q: How do you calculate the sample size for a stratum in stratified sampling?",
+     "correctAnswer": "Stratum sample size = (stratum size ÷ population size) × total sample size.",
+     "explanation": "Answer: Stratum sample size = (stratum size ÷ population size) × total sample size.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sampling-techniques-t3",
+     "type": "short-answer",
+     "question": "Q: A school has 200 Year 10 and 300 Year 11 students. A stratified sample of 50 is needed. How many from each year?",
+     "correctAnswer": "Year 10: (200/500) × 50 = 20; Year 11: (300/500) × 50 = 30.",
+     "explanation": "Answer: Year 10: (200/500) × 50 = 20; Year 11: (300/500) × 50 = 30.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

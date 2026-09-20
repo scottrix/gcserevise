@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "control-systems",
+ "topicName": "Control Systems & Microcontrollers",
+ "version": 1,
+ "cards": [
+  {
+   "id": "control-systems-fc1",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "An open-loop control system has no feedback; the output is not checked against the desired value, so errors are not corrected automatically.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc2",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "A closed-loop (feedback) control system measures the output and compares it with the set point, adjusting the input to reduce any error.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc3",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "Closed-loop control uses a sensor to measure the output, a comparator to find the error, and a controller to correct it.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc4",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "A microcontroller is a single-chip computer containing a processor, memory and input/output peripherals for embedded control.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc5",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "ADC (Analogue-to-Digital Converter) converts a sensor's analogue output into a digital value the microcontroller can process.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc6",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "DAC (Digital-to-Analogue Converter) converts a digital value from the microcontroller into an analogue voltage to drive actuators.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc7",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "PWM (Pulse Width Modulation) controls the average power delivered to a load by varying the duty cycle of a digital pulse stream.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc8",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "A PIC microcontroller (e.g. PIC16F) is a family of low-cost microcontrollers commonly used in education and simple control projects.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc9",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "Arduino is an open-source microcontroller platform with a simplified programming environment (C/C++), widely used for prototyping.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc10",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "Microcontroller inputs can be digital (switch, logic signal) or analogue (via ADC); outputs can drive LEDs, relays, motors or displays.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc11",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "A control program typically reads inputs, processes the data (comparing with thresholds or using algorithms) and updates outputs in a continuous loop.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc12",
+   "front": "Recall a key point about Control Systems & Microcontrollers",
+   "back": "Hysteresis in a control system (e.g. a thermostat) prevents rapid on/off cycling by having different turn-on and turn-off thresholds.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc13",
+   "front": "What should you know about gcse electronics exam tips — control systems & microcontrollers?",
+   "back": "1. For Control Systems & Microcontrollers questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Control Systems & Microcontrollers, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-con"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc14",
+   "front": "Full-Mark Response",
+   "back": "Compare open-loop and closed-loop control systems, and explain how a microcontroller can implement a closed-loop temperature control system.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "control-systems-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of control systems & microcontrollers, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of control systems & microcontrollers to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate ele",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

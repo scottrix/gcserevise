@@ -1,0 +1,112 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "metals-alloys",
+ "topicName": "Metals & Alloys",
+ "version": 1,
+ "questions": [
+  {
+   "id": "metals-alloys-q1",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between ferrous and non-ferrous metals, giving two examples of each.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Ferrous metals contain iron (e.g. low-carbon steel, cast iron); non-ferrous metals do not contain iron (e.g. aluminium, copper). Ferrous metals are generally magnetic and prone to rust; non-ferrous metals are non-magnetic and more corrosion-resistant.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "metals-alloys-q2",
+   "type": "short-answer",
+   "question": "Q: Why is stainless steel resistant to corrosion?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Stainless steel contains at least 10.5% chromium, which forms a thin, self-healing chromium oxide layer on the surface that prevents further oxidation and rusting.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "metals-alloys-q3",
+   "type": "short-answer",
+   "question": "Q: Describe how heat treatment can change the properties of a high-carbon steel.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Heating to above its critical temperature then quenching in water or oil produces a very hard, brittle martensitic structure. Reheating to a lower temperature (tempering) reduces brittleness while retaining much of the hardness.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "metals-alloys-q4",
+   "type": "short-answer",
+   "question": "Q: Why is aluminium widely used in aerospace engineering despite being more expensive than steel?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Aluminium has a low density (about one-third that of steel), good corrosion resistance and adequate strength when alloyed, making it ideal for weight-critical aerospace applications.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "metals-alloys-q5",
+   "type": "short-answer",
+   "question": "Q: Compare the properties and uses of brass and bronze.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Brass (Cu + Zn) is corrosion-resistant, machinable and attractive; used for valves and fittings. Bronze (Cu + Sn) is harder, more wear-resistant and better in marine environments; used for bearings and marine hardware.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "metals-alloys-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate the suitability of aluminium alloy versus stainless steel for the frame of a lightweight portable generator. Consider mechanical properties, corrosion resistance, cost and weight. [8 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Aluminium alloy is significantly lighter than stainless steel (density approximately 2.7 g/cm3 vs 7.9 g/cm3), making it far more suitable for a portable product where weight is a critical design requirement. A lighter frame improves portability and reduces user fatigue. However, aluminium alloys typically have lower tensile strength than stainless steel, so thicker sections or additional bracing may be needed to achieve equivalent structural rigidity, which partially offsets the weight advantage. Both materials offer excellent corrosion resistance, but through different mechanisms: stainless s",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Aluminium alloy is significantly lighter than stainless steel (density approximately 2.7 g/cm3 vs 7.9 g/cm3), making it far more suitable for a portable product where weight is a critical design requirement. A lighter frame improves portability and reduces user fatigue. However, aluminium alloys typically have lower tensile strength than stainless steel, so thicker sections or additional bracing may be needed to achieve equivalent structural rigidity, which partially offsets the weight advantage. Both materials offer excellent corrosion resistance, but through different mechanisms: stainless steel relies on its chromium oxide layer, while aluminium forms a natural alumina layer. Both are adequate for an outdoor generator. Cost is a significant factor: aluminium alloy is generally more expensive per kilogram than stainless steel, and the manufacturing processes (e.g. extrusion, CNC machining) can add cost. However, the weight saving reduces transport costs and improves the product's market appeal. In conclusion, aluminium alloy is the better choice for a portable generator frame because the weight advantage is the overriding requirement for portability, despite the higher material cost and the need for careful structural design to compensate for lower strength."
+   }
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "hypothesis-formulation",
+ "topicName": "Hypothesis Formulation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "hypothesis-formulation-q1",
+   "type": "short-answer",
+   "question": "Q: What is a hypothesis?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A testable statement predicting the outcome of a statistical investigation.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hypothesis-formulation-q2",
+   "type": "short-answer",
+   "question": "Q: What does the null hypothesis state?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "That there is no difference, no effect or no relationship between the variables being studied.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hypothesis-formulation-q3",
+   "type": "short-answer",
+   "question": "Q: Write a suitable hypothesis for investigating whether Year 11 students spend more time on homework than Year 10 students.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Year 11 students spend more time on homework per week than Year 10 students.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hypothesis-formulation-q4",
+   "type": "short-answer",
+   "question": "Q: Why must a hypothesis be testable?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "So that data can be collected and analysed to determine whether the prediction is supported or not.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hypothesis-formulation-q5",
+   "type": "short-answer",
+   "question": "Q: What is the difference between an independent and a dependent variable?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The independent variable is the one you change or categorise; the dependent variable is the one you measure or observe.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hypothesis-formulation-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A student wants to investigate whether people who exercise regularly have a lower resting heart rate. Write a suitable hypothesis and identify the variables. <div class=\"",
+   "marks": 4,
+   "commandWord": "state",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hypothesis: People who exercise regularly have a lower resting heart rate than those who do not exercise regularly. Independent variable: Whether the person exercises regularly (categorised as 'exercises regularly' or 'does not exercise regularly'). Dependent variable: Resting heart rate (measured in beats per minute). The hypothesis is testable because both variables can be measured: exercise habits can be categorised and resting heart rate can be recorded. Data from both groups can then be compared using an appropriate diagram and summary statistic.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Hypothesis: People who exercise regularly have a lower resting heart rate than those who do not exercise regularly. Independent variable: Whether the person exercises regularly (categorised as 'exercises regularly' or 'does not exercise regularly'). Dependent variable: Resting heart rate (measured in beats per minute). The hypothesis is testable because both variables can be measured: exercise habits can be categorised and resting heart rate can be recorded. Data from both groups can then be compared using an appropriate diagram and summary statistic."
+   }
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS18-neuropsychology-and-scanning",
+ "topicName": "Neuropsychology & Brain Scanning",
+ "version": 1,
+ "steps": [
+  {
+   "id": "ps18-neuropsychology-and-scanning-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "CT scans (Computed Tomography): use X-rays to create cross-sectional images of the brain. Show structure but not function. Useful for detecting tumours, bleeding and structural damage. Limitation: only shows anatomy, not activity."
+  },
+  {
+   "id": "ps18-neuropsychology-and-scanning-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "MRI (Magnetic Resonance Imaging): uses strong magnetic fields and radio waves to create detailed structural images. Higher resolution than CT. Shows brain structure in fine detail. Limitation: still only shows structure, not function; expensive; claustrophobic for some patients."
+  },
+  {
+   "id": "ps18-neuropsychology-and-scanning-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "fMRI (functional MRI): measures changes in blood oxygenation (active brain areas use more oxygenated blood). Shows both structure AND function - which areas are active during tasks. Limitation: temporal resolution is poor (changes over seconds, not milliseconds); expensive; cannot determine if activity causes behaviour or is a consequence."
+  },
+  {
+   "id": "ps18-neuropsychology-and-scanning-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "EEG (Electroencephalogram): records electrical brain activity through electrodes on the scalp. Excellent temporal resolution (milliseconds). Used to study sleep stages and diagnose epilepsy. Limitation: poor spatial resolution (cannot pinpoint exact brain location of activity)."
+  },
+  {
+   "id": "ps18-neuropsychology-and-scanning-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Compare structural and functional brain scanning methods, giving one strength and one limitation of each. | Explain how fMRI works and evaluate its usefulness for studying brain function. | A researcher wants to study which brain areas are active during a memory task. Which scanning method would be most appropriate and why?"
+  },
+  {
+   "id": "ps18-neuropsychology-and-scanning-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Structural (CT, MRI): show brain anatomy, detect damage. CT: quick but lower resolution and uses radiation. MRI: high resolution, no radiation, but slow and expensive. Functional (fMRI, EEG): show bra | fMRI measures blood flow changes - active areas use more oxygen, so oxygenated blood increases there. Strengths: non-invasive, shows both structure and function, good spatial resolution for locating a | fMRI would be most appropriate: it shows which specific brain areas are active during the memory task (spatial resolution), which is needed to identify regions involved. EEG would show WHEN activity o"
+  },
+  {
+   "id": "ps18-neuropsychology-and-scanning-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "CT/MRI = STRUCTURE (what does the brain look like?). fMRI/EEG = FUNCTION (what is the brain doing?). fMRI: good WHERE (spatial), bad WHEN (temporal). EEG: good WHEN (temporal), bad WHERE (spatial). All scanning methods are CORRELATIONAL - they show associations, not causation."
+  }
+ ]
+}

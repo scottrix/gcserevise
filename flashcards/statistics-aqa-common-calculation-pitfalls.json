@@ -1,0 +1,159 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "common-calculation-pitfalls",
+ "topicName": "Common Calculation Pitfalls",
+ "version": 1,
+ "cards": [
+  {
+   "id": "common-calculation-pitfalls-fc1",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "Always show intermediate steps in calculations; method marks can be awarded even if the final answer is wrong",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc2",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "Use BIDMAS/BODMAS correctly: brackets first, then indices, then division/multiplication, then addition/subtraction",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc3",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "For the mean of grouped data: mean = ∑(midpoint × frequency) ÷ ∑frequency; do not use class boundaries or upper limits as the x-value",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc4",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "Standard deviation formula: SD = √(∑fx²/∑f − (mean)²) for coded or from a calculator; ensure you use the correct version for the syllabus",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc5",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "When calculating IQR from grouped data: Q1 is at the 25th percentile position and Q3 at the 75th; use linear interpolation within the class",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc6",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "IQR = Q3 − Q1; a common error is calculating Q3 + Q1 or using the wrong positions for quartiles",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc7",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "For Spearman’s rank: rank the data first (assign 1, 2, 3…), find d = rank_x − rank_y for each pair, then r_s = 1 − (6∑d²)/(n(n²−1))",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc8",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "Check reasonableness: a mean height of 170 m is clearly wrong (should be cm); a probability above 1 or below 0 is impossible",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc9",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "Round only at the final answer; rounding intermediate values introduces cumulative error",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc10",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "When using formulas from the formula sheet, substitute values before calculating; do not try to rearrange under time pressure",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc11",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "For percentage change: ((new − original) ÷ original) × 100; a common error is dividing by the new value instead of the original",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc12",
+   "front": "Recall a key point about Common Calculation Pitfalls",
+   "back": "Index number calculations: check you are dividing by the correct base value, not the current value",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc13",
+   "front": "What should you know about gcse statistics exam tips — common calculation pitfalls?",
+   "back": "1. For Common Calculation Pitfalls questions, show every step of your working clearly — method marks count even if the final answer is wrong 2. Check your answer makes sense in context (estimation, units, reasonableness) 3. Use correct mathematical notation and state formulae before substituting values 4. If a Common Calculation Pitfalls question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line 5. For problem-solving, identify the topic first, then recall the relevant method",
+   "tags": [
+    "gcse-statistics-exam-tips-comm"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc14",
+   "front": "Full-Mark Response",
+   "back": "The table shows grouped data for the masses of 40 parcels. Calculate the estimated mean. | Mass (kg) | Frequency | |-----------|----------| | 0–2 | 8 | | 2–4 | 14 | | 4–6 | 12 | | 6–8 | 6 |",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "common-calculation-pitfalls-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of common calculation pitfalls, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382. AO2 (Application): Apply knowledge and understanding of common calculation pitfalls to interpret data, reason statistically and draw conclusions in context. AO3 (Evaluation): Evaluate statist",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

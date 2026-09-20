@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P27-electromagnets",
+ "topicName": "Electromagnets",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p27-electromagnets-q1",
+   "type": "short-answer",
+   "question": "Foundation State three ways to increase the strength of an electromagnet.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q1: Three from: increase the current, add more turns of wire to the coil, add a soft iron core inside the coil, use a higher voltage power supply to increase current.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p27-electromagnets-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain why an electromagnet is more useful than a permanent magnet in a scrap yard crane.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q2: An electromagnet can be switched on and off by controlling the current. In a scrap yard, this allows the crane to pick up metal objects when the current is on and release them when the current is switched off. A permanent magnet cannot be switched off, so it could not release the objects.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p27-electromagnets-q3",
+   "type": "short-answer",
+   "question": "Higher A wire of length 0.1 m carries a current of 2 A perpendicular to a magnetic field of 0.5 T. Calculate the force on the wire.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q3: F = B × I × L = 0.5 × 2 × 0.1 = 0.1 N",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p27-electromagnets-q4",
+   "type": "short-answer",
+   "question": "Higher Explain how a split ring commutator keeps a DC motor spinning in the same direction.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q4: The split ring commutator reverses the direction of current in the coil every half turn. Without it, the coil would rotate half a turn, then the forces would reverse and push it back. The commutator swaps the connections to the coil at the right moment, ensuring the force on each side of the coil continues to push in the same rotational direction so the motor keeps spinning.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p27-electromagnets-q5",
+   "type": "short-answer",
+   "question": "Foundation Describe how a loudspeaker converts an electrical signal into sound waves.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q5: A coil attached to the speaker cone sits in a permanent magnetic field. An alternating current flows through the coil. As the current changes direction, the force on the coil changes direction (motor effect). This makes the coil and cone vibrate back and forth. The vibrating cone produces sound waves that match the frequency of the alternating current.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p27-electromagnets-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain how the motor effect causes a current-carrying coil to rotate in a magnetic field. Explain the role of the split ring commutator in keeping the motor turning. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A coil of wire carrying current sits in a magnetic field between two permanent magnets. The current flows in opposite directions on each side of the coil. Using Fleming's left-hand rule, the side of the coil where current flows upwards experiences a downward force, while the side where current flows downwards experiences an upward force. These two forces act in opposite directions on opposite sides of the coil, creating a turning effect (torque) that makes the coil rotate. However, after half a turn, the sides of the coil have swapped positions. Without the commutator, the current would still ",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "A coil of wire carrying current sits in a magnetic field between two permanent magnets. The current flows in opposite directions on each side of the coil. Using Fleming's left-hand rule, the side of the coil where current flows upwards experiences a downward force, while the side where current flows downwards experiences an upward force. These two forces act in opposite directions on opposite sides of the coil, creating a turning effect (torque) that makes the coil rotate. However, after half a turn, the sides of the coil have swapped positions. Without the commutator, the current would still flow in the same direction in each side, so the forces would now push in the wrong direction and the coil would stop or reverse. The split ring commutator reverses the direction of current in the coil every half turn, just as the coil passes the vertical position. This means the force on each side of the coil always pushes in the same rotational direction, keeping the motor spinning continuously. Mark scheme: 1 mark — current flows in opposite directions on each side of coil, 1 mark — opposite forces on each side create a turning effect/torque, 1 mark — use Fleming's left-hand rule to determine force direction, 1 mark — without commutator the coil would reverse after half a turn, 1 mark — split ring commutator reverses current every half turn, 1 mark — this keeps forces pushing in the same rotational direction"
+   }
+  }
+ ]
+}

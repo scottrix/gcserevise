@@ -1,0 +1,51 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC9-elasticity",
+ "topicName": "Price Elasticity",
+ "version": 1,
+ "steps": [
+  {
+   "id": "ec9-elasticity-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "PED = % change in quantity demanded / % change in price. |PED| > 1 = elastic; |PED| < 1 = inelastic."
+  },
+  {
+   "id": "ec9-elasticity-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Factors affecting PED: substitutes (more = more elastic), necessity vs luxury (necessities = inelastic), proportion of income (larger = more elastic), time (more elastic long-term)."
+  },
+  {
+   "id": "ec9-elasticity-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "PES = % change in quantity supplied / % change in price. PES > 1 = elastic supply; PES < 1 = inelastic. More elastic with spare capacity, easy switching, and longer time."
+  },
+  {
+   "id": "ec9-elasticity-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "If demand is inelastic, raising price increases revenue (petrol, cigarettes). If elastic, raising price reduces revenue."
+  },
+  {
+   "id": "ec9-elasticity-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Calculate PED if price rises from £10 to £12 and quantity falls from 100 to 80. Is demand elastic or inelastic? | Explain three factors that make demand price inelastic. | Evaluate why understanding PED is important for a business setting pricing strategy."
+  },
+  {
+   "id": "ec9-elasticity-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "%ΔP = (12-10)/10 × 100 = 20%. %ΔQ = (80-100)/100 × 100 = -20%. PED = -20%/20% = -1.0. Absolute value = 1 = unit elasticity. Total revenue stays the same. | Three factors: (1) Few substitutes (insulin for diabetics). (2) Necessity (bread, electricity, water). (3) Small proportion of income (salt, matches — price changes are insignificant). | If demand is inelastic, raise prices — quantity falls less than price rises, increasing revenue. If elastic, lower prices — quantity rises more than price falls, increasing revenue. PED varies by time"
+  },
+  {
+   "id": "ec9-elasticity-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always show the PED formula and working: (%ΔQd) / (%ΔP). PED is NEGATIVE (law of demand), but we use the ABSOLUTE value for comparison. Use the TOTAL REVENUE TEST: price rises and revenue rises = inelastic. Price rises and revenue falls = elastic."
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS31-tcp-ip-model",
+ "topicName": "TCP/IP Model",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs31-tcp-ip-model-fc1",
+   "front": "Recall a key point about TCP/IP Model",
+   "back": "The TCP/IP model is a conceptual framework that describes how data is transmitted over a network. It divides network communication into four layers, each with a specific role. Data passes down through the layers when being sent, and up through the layers when being received.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc2",
+   "front": "What should you know about function?",
+   "back": "The application layer provides network services directly to user applications. It is the layer that users interact with most directly. It determines what data is sent and how it is formatted for the application.",
+   "tags": [
+    "function"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc3",
+   "front": "What should you know about function?",
+   "back": "The transport layer manages end-to-end communication between two devices. It ensures data is delivered reliably (TCP) or quickly (UDP), breaks data into segments, and handles flow control.",
+   "tags": [
+    "function"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc4",
+   "front": "What should you know about function?",
+   "back": "The internet layer handles addressing and routing of data packets across networks. It adds IP addresses to identify the source and destination, and determines the best route for packets to take across interconnected networks.",
+   "tags": [
+    "function"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc5",
+   "front": "What should you know about function?",
+   "back": "The link layer handles the physical transmission of data on a local network segment. It is responsible for getting data from one device to the next on the same network, using MAC addresses and physical media.",
+   "tags": [
+    "function"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc6",
+   "front": "Recall a key point about TCP/IP Model",
+   "back": "Encapsulation is the process where each layer adds its own header (control information) to the data as it passes down the layers. When data is received, each layer removes its header (decapsulation) as it passes up the layers.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc7",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "4 TCP/IP layers (top to bottom): Application → Transport → Internet → Link. Each layer has a specific role and uses specific protocols. Data is encapsulated going down, decapsulated going up. Packets contain headers from each layer. Application = user interface, Transport = delivery, Internet = routing, Link = physical. Know which protocols belong to which layer.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc8",
+   "front": "What does 4 (Top) mean?",
+   "back": "Application (e.g. HTTP, HTTPS, SMTP, IMAP, FTP)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc9",
+   "front": "What does 3 mean?",
+   "back": "Transport (e.g. TCP, UDP)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc10",
+   "front": "What does 2 mean?",
+   "back": "Internet (e.g. IP)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc11",
+   "front": "What does 1 (Bottom) mean?",
+   "back": "Link (e.g. Ethernet, Wi-Fi)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc12",
+   "front": "What does Connection mean?",
+   "back": "Connection-oriented (establishes connection first) (e.g. Connectionless (just sends data))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc13",
+   "front": "What does Reliability mean?",
+   "back": "Reliable (acks, resends lost data) (e.g. Unreliable (no guarantee of delivery))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc14",
+   "front": "What does Ordering mean?",
+   "back": "Ordered (reassembles in sequence) (e.g. Not ordered (arrives in any order))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs31-tcp-ip-model-fc15",
+   "front": "What does Speed mean?",
+   "back": "Slower (overhead of checks) (e.g. Faster (no overhead))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

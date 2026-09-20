@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "B15-the-endocrine-system",
+ "topicName": "The Endocrine System",
+ "version": 1,
+ "questions": [
+  {
+   "id": "b15-the-endocrine-system-q1",
+   "type": "short-answer",
+   "question": "Name the gland that produces insulin and glucagon, and explain the effect of each hormone on blood glucose concentration.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The pancreas produces both insulin and glucagon. Insulin lowers blood glucose by causing the liver to convert glucose to glycogen and stimulating cells to take up glucose. Glucagon raises blood glucose by causing the liver to convert glycogen back to glucose, which is released into the blood.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b15-the-endocrine-system-q2",
+   "type": "short-answer",
+   "question": "Compare the nervous system and the endocrine system in terms of speed, duration and method of signal transmission.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Nervous system: fast, short-lived, electrical impulses travel along neurones, targeted effect. Endocrine system: slower, long-lasting, chemical hormones travel in the bloodstream, widespread effect.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b15-the-endocrine-system-q3",
+   "type": "short-answer",
+   "question": "Explain what negative feedback is and how it helps maintain blood glucose concentration within a normal range.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Negative feedback is a mechanism that reverses a change from the normal level. When blood glucose rises too high, insulin is released to bring it down. When blood glucose falls too low, glucagon is released to bring it up. This keeps blood glucose within a narrow range. Once the level returns to normal, the corrective mechanism reduces.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b15-the-endocrine-system-q4",
+   "type": "short-answer",
+   "question": "Describe the differences between Type 1 and Type 2 diabetes, including their causes and treatments.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Type 1: pancreas produces little or no insulin (autoimmune), usually starts in childhood, treated with insulin injections, not linked to lifestyle. Type 2: cells become resistant to insulin or pancreas produces too little, usually starts in adulthood, linked to obesity/lifestyle, treated with diet, exercise and medication (sometimes insulin).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b15-the-endocrine-system-q5",
+   "type": "short-answer",
+   "question": "A person exercises vigorously. Explain how glucagon helps maintain their blood glucose concentration during exercise.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "During exercise, muscles use glucose for respiration, so blood glucose falls. The pancreas detects the low blood glucose and releases glucagon. Glucagon causes the liver to convert stored glycogen back into glucose, which is released into the blood. This raises blood glucose back to normal.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "b15-the-endocrine-system-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Compare the nervous and endocrine systems. <div class=\"",
+   "marks": 6,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The nervous system uses electrical impulses that travel along neurones to carry information quickly to specific target areas, producing rapid but short-lived responses. The endocrine system uses chemical messengers (hormones) that travel in the bloodstream to target organs, producing slower but longer-lasting and more widespread effects. For example, a reflex action (nervous) is very fast and localised, such as pulling your hand away from heat. In contrast, adrenaline (endocrine) takes longer to have an effect but causes widespread changes including increased heart rate and breathing rate that",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "The nervous system uses electrical impulses that travel along neurones to carry information quickly to specific target areas, producing rapid but short-lived responses. The endocrine system uses chemical messengers (hormones) that travel in the bloodstream to target organs, producing slower but longer-lasting and more widespread effects. For example, a reflex action (nervous) is very fast and localised, such as pulling your hand away from heat. In contrast, adrenaline (endocrine) takes longer to have an effect but causes widespread changes including increased heart rate and breathing rate that persist for some time. Both systems work together to coordinate the body's responses, but the nervous system is better for rapid, targeted responses while the endocrine system is better for slow, sustained regulation such as controlling the menstrual cycle or blood glucose. Mark scheme: 1 mark — electrical vs chemical; 1 mark — fast vs slow; 1 mark — short-lived vs long-lasting; 1 mark — targeted vs widespread; 1 mark — correct named example for each; 1 mark — conclusion comparing when each is more appropriate."
+   }
+  }
+ ]
+}

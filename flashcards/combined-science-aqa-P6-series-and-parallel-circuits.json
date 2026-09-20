@@ -1,0 +1,157 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P6-series-and-parallel-circuits",
+ "topicName": "P6 Series And Parallel Circuits",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p6-series-and-parallel-circuits-fc1",
+   "front": "What should you know about series circuit?",
+   "back": "A circuit where components are connected one after the other in a single loop. There is only one path for the current to flow.",
+   "tags": [
+    "series-circuit"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc2",
+   "front": "What should you know about parallel circuit?",
+   "back": "A circuit where components are connected in separate branches. Each branch provides a different path for the current.",
+   "tags": [
+    "parallel-circuit"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc3",
+   "front": "What should you know about adding resistors in parallel?",
+   "back": "When you add a resistor in parallel, you provide an extra path for current. This means the total resistance decreases because more current can flow overall.",
+   "tags": [
+    "adding-resistors-in-parallel"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc4",
+   "front": "What should you know about adding resistors in series?",
+   "back": "When you add a resistor in series, you make it harder for current to flow through the single loop. The total resistance increases .",
+   "tags": [
+    "adding-resistors-in-series"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc5",
+   "front": "What should you know about domestic circuits are wired in parallel?",
+   "back": "because: (1) each appliance gets the full mains voltage (230 V); (2) each appliance can be switched on or off independently; (3) if one appliance breaks, the others still work.",
+   "tags": [
+    "domestic-circuits-are-wired-in"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc6",
+   "front": "What should you know about parallel resistance?",
+   "back": "The total resistance of a parallel circuit is always less than the smallest individual resistance. For two resistors in parallel: 1/R_total = 1/R_1 + 1/R_2.",
+   "tags": [
+    "parallel-resistance"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc7",
+   "front": "Recall a key point about P6 Series And Parallel Circuits",
+   "back": "For series circuits: R_total = R₁ + R₂ + R₃. For parallel circuits with two resistors: 1/R_total = 1/R₁ + 1/R₂, then invert to find R_total. Always use V = IR to find unknowns in each branch. In series, find total R first, then I, then V across each component. In parallel, each branch has the full supply voltage.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc8",
+   "front": "What should you know about answers?",
+   "back": "(a) R_total = 10 + 10 = 20 Ω. I = V/R_total = 12/20 = 0.6 A — consistent. (b) Series — in series, total resistance changes significantly (R_total changes from 20 Ω), so current changes noticeably. In parallel, R_total is dominated by the good resistor (~10 Ω) so the change is smaller and harder to detect. (c) All current readings are 0.05 A too high, so calculated R_total is too low. Subtract 0.05 A from each reading before calculating resistance to correct the zero error.",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc9",
+   "front": "What does Current mean?",
+   "back": "Same everywhere: I_total = I_1 = I_2 = I_3 (e.g. Shared between branches: I_total = I_1 + I_2 + I_3)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc10",
+   "front": "What does Potential difference mean?",
+   "back": "Shared across components: V_total = V_1 + V_2 + V_3 (e.g. Same across each branch: V_total = V_1 = V_2 = V_3)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc11",
+   "front": "What does Resistance mean?",
+   "back": "Total resistance = sum of individual resistances: R_total = R_1 + R_2 (e.g. Adding resistors in parallel reduces total resistance)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc12",
+   "front": "What does Series mean?",
+   "back": "0.6 (e.g. 6.0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc13",
+   "front": "What does Parallel mean?",
+   "back": "2.4 (e.g. 12.0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc14",
+   "front": "Required Practical: Investigating Resistance in Series and Parallel",
+   "back": "Aim: To investigate how the total resistance of a circuit changes when resistors are added in series and in parallel.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "p6-series-and-parallel-circuits-fc15",
+   "front": "Watch Out!",
+   "back": "1. Wrong: Current is \"used up\" by components in a series circuit Correct: Current is the same through all components in series — it is energy that is transferred, not the current itself",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "circuit-diagram-questions",
+ "topicName": "Circuit Diagram Questions",
+ "version": 1,
+ "questions": [
+  {
+   "id": "circuit-diagram-questions-q1",
+   "type": "short-answer",
+   "question": "Q: How do you tell whether two crossing wires in a circuit diagram are connected?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "If there is a filled dot at the crossing point, the wires are connected; if there is no dot, they are not connected.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuit-diagram-questions-q2",
+   "type": "short-answer",
+   "question": "Q: Why should circuit diagrams be drawn with signal flowing from left to right?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "It follows standard convention, making the diagram easier to read and understand; input is on the left and output is on the right.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuit-diagram-questions-q3",
+   "type": "short-answer",
+   "question": "Q: What information should be labelled on each component in a circuit diagram?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Each component should have a reference designator (e.g. R1, C1) and its value (e.g. 10 kΩ, 47 μF).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuit-diagram-questions-q4",
+   "type": "short-answer",
+   "question": "Q: Explain what a node is in a circuit diagram and why it matters.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A node is a connection point where two or more components meet; all points on a node are at the same voltage, which is fundamental for circuit analysis.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuit-diagram-questions-q5",
+   "type": "short-answer",
+   "question": "Q: When reading an unfamiliar circuit diagram, what should you identify first?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Identify the power supply (positive and 0 V rails) first, then trace the signal path from input to output, breaking the circuit into functional sub-stages.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "circuit-diagram-questions-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain the conventions used when drawing and reading circuit diagrams, and describe how to systematically interpret an unfamiliar circuit. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Circuit diagrams use standard symbols for each component: zigzag or rectangle for resistors, parallel lines for capacitors, triangle-with-bar for diodes, and triangles for op-amps with (+) and (−) inputs. Wires that connect are shown with a filled dot at the junction; crossing wires without a dot are not connected. Signal flows from left (input) to right (output), with positive supply at the top and 0 V (ground) at the bottom. Every component is labelled with a reference designator (R1, C2, IC1) and its value (10 kΩ, 100 μF). To systematically interpret an unfamiliar circuit: first identify th",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Circuit diagrams use standard symbols for each component: zigzag or rectangle for resistors, parallel lines for capacitors, triangle-with-bar for diodes, and triangles for op-amps with (+) and (−) inputs. Wires that connect are shown with a filled dot at the junction; crossing wires without a dot are not connected. Signal flows from left (input) to right (output), with positive supply at the top and 0 V (ground) at the bottom. Every component is labelled with a reference designator (R1, C2, IC1) and its value (10 kΩ, 100 μF). To systematically interpret an unfamiliar circuit: first identify the power supply rails (+V, ground) and any IC pin connections; second, locate the input and output terminals; third, break the circuit into functional blocks — typically input stage (sensor or signal source), processing stage (amplifier, filter or logic), and output stage (driver, display or actuator); fourth, trace the signal path through each block, noting how each component contributes to the overall function; fifth, identify any feedback paths that indicate closed-loop control. This structured approach turns a complex diagram into manageable sections."
+   }
+  }
+ ]
+}

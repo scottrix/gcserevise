@@ -1,0 +1,48 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS9-boolean-operations",
+ "topicName": "Boolean Operations",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs9-boolean-operations-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Boolean Operations",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs9-boolean-operations-t1",
+     "type": "short-answer",
+     "question": "Complete the truth table for A AND B where A = TRUE, B = FALSE.",
+     "correctAnswer": "TRUE AND FALSE = FALSE. Both must be TRUE for AND to return TRUE.",
+     "explanation": "Answer: TRUE AND FALSE = FALSE. Both must be TRUE for AND to return TRUE.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs9-boolean-operations-t2",
+     "type": "short-answer",
+     "question": "Evaluate: NOT (TRUE OR FALSE)",
+     "correctAnswer": "TRUE OR FALSE = TRUE. Then NOT TRUE = FALSE.",
+     "explanation": "Answer: TRUE OR FALSE = TRUE. Then NOT TRUE = FALSE.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs9-boolean-operations-t3",
+     "type": "short-answer",
+     "question": "Use De Morgan's Laws to simplify: NOT (x >= 0 AND x <= 100)",
+     "correctAnswer": "Using De Morgan's: NOT(x >= 0) OR NOT(x <= 100) = x < 0 OR x > 100.",
+     "explanation": "Answer: Using De Morgan's: NOT(x >= 0) OR NOT(x <= 100) = x < 0 OR x > 100.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

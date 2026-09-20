@@ -1,0 +1,38 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS20-representing-images",
+ "topicName": "Representing Images",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs20-representing-images-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Representing Images",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs20-representing-images-t3",
+     "type": "short-answer",
+     "question": "An image uses 8-bit colour depth. How many different colours can it represent?",
+     "correctAnswer": "2 8 = 256 colours",
+     "explanation": "Answer: 2 8 = 256 colours",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs20-representing-images-t5",
+     "type": "short-answer",
+     "question": "A 500 x 400 image has a file size of 1,600,000 bits. What is the colour depth?",
+     "correctAnswer": "Colour depth = 1,600,000 / (500 x 400) = 1,600,000 / 200,000 = 8 bits per pixel",
+     "explanation": "Answer: Colour depth = 1,600,000 / (500 x 400) = 1,600,000 / 200,000 = 8 bits per pixel",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

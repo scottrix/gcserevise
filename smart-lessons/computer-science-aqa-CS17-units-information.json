@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS17-units-information",
+ "topicName": "Units of Information",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs17-units-information-s1",
+   "kind": "learn",
+   "title": "A bit",
+   "body": "(binary digit) is the smallest unit of data in computing. It can hold exactly one of two values: 0 or 1. All data in a computer - text, images, sound, video - is ultimately stored as bits."
+  },
+  {
+   "id": "cs17-units-information-s2",
+   "kind": "learn",
+   "title": "Larger units",
+   "body": "are multiples of bytes. At GCSE, you need to know the standard SI prefixes. Note: some specifications use powers of 2 (KiB, MiB) but most GCSE exams use the decimal (power of 10) definitions."
+  },
+  {
+   "id": "cs17-units-information-s3",
+   "kind": "learn",
+   "title": "Note on binary prefixes",
+   "body": "Some systems use KiB (kibibyte = 1024 bytes), MiB (mebibyte = 1048576 bytes), etc. These use powers of 2 (2^10 = 1024). Check your exam board specification for which system to use. Most GCSE exams use the decimal (1000-based) system."
+  },
+  {
+   "id": "cs17-units-information-s4",
+   "kind": "learn",
+   "title": "To calculate file sizes,",
+   "body": "you need to know how many bits or bytes are needed to store each element, then multiply by the number of elements."
+  },
+  {
+   "id": "cs17-units-information-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "How many bytes are in 3.5 KB? | A text file contains 2,000 characters stored in ASCII (1 byte per character). What is the file size in KB? | Calculate the size of a 640x480 pixel image with 8-bit colour depth in KB."
+  },
+  {
+   "id": "cs17-units-information-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "3.5 KB = 3.5 x 1,000 = 3,500 bytes. | 2,000 characters x 1 byte = 2,000 bytes = 2,000 / 1,000 = 2 KB. | 640 x 480 x 8 = 2,457,600 bits = 307,200 bytes = 307.2 KB."
+  },
+  {
+   "id": "cs17-units-information-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "1 byte = 8 bits - this is the most fundamental relationship to remember For GCSE, typically use 1000 (not 1024) as the multiplier between units Always convert to the same unit before comparing For image size: width x height x colour depth (in bits) For sound size: sample rate x resolution x duration x channels Check if the question asks for the answer in bits, bytes, KB, or MB"
+  }
+ ]
+}

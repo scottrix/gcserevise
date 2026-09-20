@@ -1,0 +1,51 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as12-stellar-lifecycle",
+ "topicName": "Stellar Lifecycle",
+ "version": 1,
+ "steps": [
+  {
+   "id": "as12-stellar-lifecycle-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Stars form in nebulae: gravity pulls gas and dust together, forming a protostar that heats up until fusion begins"
+  },
+  {
+   "id": "as12-stellar-lifecycle-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Main sequence: the longest stable phase where hydrogen fuses to helium in the core; the Sun is currently here"
+  },
+  {
+   "id": "as12-stellar-lifecycle-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Low-mass stars (<8 solar masses) expand to red giants, shed outer layers as planetary nebulae, leaving white dwarfs"
+  },
+  {
+   "id": "as12-stellar-lifecycle-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "High-mass stars (>8 solar masses) expand to red supergiants, then explode as supernovae, leaving neutron stars or black holes"
+  },
+  {
+   "id": "as12-stellar-lifecycle-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Describe the lifecycle of a star like the Sun. | Q: What happens to a star more than 8 times the mass of the Sun? | Q: What is the Chandrasekhar limit?"
+  },
+  {
+   "id": "as12-stellar-lifecycle-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Nebula → protostar → main sequence (hydrogen fusion) → red giant (helium fusion) → planetary nebula → white dwarf. | It becomes a red supergiant, undergoes further fusion stages up to iron, then explodes as a supernova. The core becomes a neutron star (if <3 M☉) or a black hole (if >3 M☉). | ~1.4 solar masses — the maximum mass a white dwarf can have. Above this, electron degeneracy pressure cannot support it and it collapses further."
+  },
+  {
+   "id": "as12-stellar-lifecycle-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Draw the lifecycle paths: low-mass vs high-mass — they diverge after the main sequence The Sun has ~5 billion years of main-sequence life remaining A planetary nebula has NOTHING to do with planets — it's a historical name White dwarfs cool over billions of years to become black dwarfs (theoretical — none exist yet)"
+  }
+ ]
+}

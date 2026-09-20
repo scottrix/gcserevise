@@ -1,0 +1,159 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "correlation-regression",
+ "topicName": "Correlation Regression",
+ "version": 1,
+ "cards": [
+  {
+   "id": "correlation-regression-fc1",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "Correlation measures the strength and direction of the linear relationship between two variables; it does not imply causation.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc2",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "Positive correlation: as one variable increases, the other tends to increase. Negative correlation: as one increases, the other tends to decrease.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc3",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "A scatter graph is the first step in assessing correlation; the pattern of points reveals the type and strength of the relationship.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc4",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "A line of best fit is drawn through the data points on a scatter graph so that roughly equal numbers of points lie above and below the line.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc5",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "The line of best fit should pass through the point (x̄, ̅) and can be used to estimate one variable given a value of the other.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc6",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "Interpolation is using the line of best fit to estimate within the range of observed data; it is generally reliable.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc7",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "Extrapolation is using the line of best fit to estimate outside the range of observed data; it is unreliable because the relationship may not continue.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc8",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "Spearman's rank correlation coefficient (rₛ) measures the strength of monotonic (rank-based) relationships: rₛ = 1 – 6Σd² ÷ (n(n² – 1)), where d is the difference in ranks.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc9",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "Spearman's rₛ ranges from –1 to +1; +1 means perfect increasing monotonic relationship, –1 means perfect decreasing, and 0 means no monotonic relationship.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc10",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "Pearson's product-moment correlation coefficient (r) measures the strength of linear correlation: it also ranges from –1 to +1.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc11",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "Pearson's r is suitable only for linear relationships between two quantitative variables; Spearman's rₛ can handle non-linear monotonic relationships.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc12",
+   "front": "Recall a key point about Correlation Regression",
+   "back": "Correlation does not imply causation: two variables may be correlated because of a confounding variable, coincidence, or both being effects of a common cause.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc13",
+   "front": "What should you know about gcse statistics exam tips — correlation & regression?",
+   "back": "1. For Correlation & Regression questions, show every step of your working clearly — method marks count even if the final answer is wrong 2. Check your answer makes sense in context (estimation, units, reasonableness) 3. Use correct mathematical notation and state formulae before substituting values 4. If a Correlation & Regression question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line 5. For problem-solving, identify the topic first, then recall the relevant method",
+   "tags": [
+    "gcse-statistics-exam-tips-corr"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc14",
+   "front": "Full-Mark Response",
+   "back": "Two judges rank 6 films. Calculate Spearman's rank correlation coefficient. Film: A, B, C, D, E, F Judge 1 ranks: 1, 2, 3, 4, 5, 6 Judge 2 ranks: 2, 1, 4, 3, 6, 5",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "correlation-regression-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of correlation & regression, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382. AO2 (Application): Apply knowledge and understanding of correlation & regression to interpret data, reason statistically and draw conclusions in context. AO3 (Evaluation): Evaluate statistical m",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

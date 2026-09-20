@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P4-specific-heat-capacity",
+ "topicName": "P4 Specific Heat Capacity",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p4-specific-heat-capacity-s1",
+   "kind": "learn",
+   "title": "Specific heat capacity (c)",
+   "body": "The amount of energy needed to change the temperature of 1 kg of a substance by 1 °C. Measured in joules per kilogram per degree Celsius (J/kg°C)."
+  },
+  {
+   "id": "p4-specific-heat-capacity-s2",
+   "kind": "learn",
+   "title": "Key idea",
+   "body": "Different substances need different amounts of energy to change their temperature by the same amount. A substance with a high SHC takes a lot of energy to heat up, but also stores a lot of energy."
+  },
+  {
+   "id": "p4-specific-heat-capacity-s3",
+   "kind": "learn",
+   "title": "Rearranging the equation",
+   "body": "c = ΔE / (m x ΔT). m = ΔE / (c x ΔT). ΔT = ΔE / (m x c)."
+  },
+  {
+   "id": "p4-specific-heat-capacity-s4",
+   "kind": "learn",
+   "title": "Water has a very high SHC",
+   "body": "— it takes 4200 J to heat 1 kg of water by 1 °C. This means water stores a lot of thermal energy, which is why it is used in central heating systems and as a coolant."
+  },
+  {
+   "id": "p4-specific-heat-capacity-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Worked Example 1 — Calculating Energy Needed Question: Calculate the energy needed to heat 2 kg of water from 20 °C to 80 °C. The specific heat capacity of water is 4200 J/kg°C. Solution: ΔE = m x c x ΔT = 2 x 4200 x (80 - 20) = 2 x 4200 x 60 = 504 000 J = 504 kJ Worked Example 2 — Calculating SHC Question: A 0.5 kg aluminium block is heated with 18 000 J of energy. Its temperature rises from 20 °C to 60 °C. Calculate the specific heat capacity of aluminium. Solution: c = ΔE / (m x ΔT) = 18 000 / (0.5 x 40) = 18 000 / 20 = 900 J/kg°C Worked Example 3 — Calculating Temperature Change Question: 200 000 J of energy is transferred to 10 kg of water (c = 4200 J/kg°C). Calculate the temperature rise. Solution: ΔT = ΔE / (m x c) = 200 000 / (10 x 4200) = 200 000 / 42 000 = 4.76 °C The temperature rises by approximately 4.8 °C. Worked Example 4 — Required Practical Calculation Question: In a SHC experiment, an immersion heater is connected to a 12 V supply and carries a current of 4 A for 5 mi"
+  },
+  {
+   "id": "p4-specific-heat-capacity-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation Define specific heat capacity and state its unit. | Foundation Calculate the energy needed to heat 3 kg of water from 15 °C to 85 °C. c = 4200 J/kg°C. | Foundation Explain why water is used in central heating systems rather than oil."
+  },
+  {
+   "id": "p4-specific-heat-capacity-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "The specific heat capacity of a substance is the amount of energy needed to change the temperature of 1 kg of the substance by 1 °C. The unit is J/kg°C (joules per kilogram per degree Celsius). | ΔE = m x c x ΔT = 3 x 4200 x (85 - 15) = 3 x 4200 x 70 = 882 000 J = 882 kJ. | Water has a higher SHC (4200 J/kg°C) than oil (~2000 J/kg°C). This means water stores more thermal energy per kg for each degree of temperature rise. Water can therefore carry more energy from the boi"
+  },
+  {
+   "id": "p4-specific-heat-capacity-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always convert mass to kilograms before using the equation — a common mistake is using grams. ΔT is the temperature change , not the final temperature. Calculate ΔT = T_final minus T_initial. In the required practical, if using E = VIt, make sure you convert time to seconds . If your calculated SHC seems too high, it is likely because of heat loss to the surroundings — not all the energy goes into heating the block. When comparing substances: high SHC = hard to heat, stores lots of energy; low SHC = easy to heat, stores less energy . The water SHC value (4200 J/kg°C) comes up frequently — memorise it."
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS19-character-encoding",
+ "topicName": "Character Encoding",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs19-character-encoding-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Character Encoding",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs19-character-encoding-t1",
+     "type": "short-answer",
+     "question": "What is the ASCII code for the letter 'M'?",
+     "correctAnswer": "'A' = 65, so 'M' is the 13th letter: 65 + 12 = 77.",
+     "explanation": "Answer: 'A' = 65, so 'M' is the 13th letter: 65 + 12 = 77.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs19-character-encoding-t2",
+     "type": "short-answer",
+     "question": "How many characters can 7-bit ASCII represent?",
+     "correctAnswer": "7-bit ASCII can represent 2^7 = 128 different characters.",
+     "explanation": "Answer: 7-bit ASCII can represent 2^7 = 128 different characters.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

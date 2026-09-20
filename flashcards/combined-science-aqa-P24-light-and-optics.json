@@ -1,0 +1,157 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P24-light-and-optics",
+ "topicName": "Light And Optics",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p24-light-and-optics-fc1",
+   "front": "What should you know about reflection?",
+   "back": "When a wave bounces off a surface. The angle of incidence equals the angle of reflection. Both angles are measured from the normal.",
+   "tags": [
+    "reflection"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc2",
+   "front": "What should you know about refraction?",
+   "back": "The change in direction of a wave when it changes speed as it passes from one medium to another at an angle. The wave bends towards the normal when slowing down and away from the normal when speeding up.",
+   "tags": [
+    "refraction"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc3",
+   "front": "What should you know about normal?",
+   "back": "An imaginary line perpendicular to the surface at the point of incidence. All angles are measured from the normal, NOT from the surface.",
+   "tags": [
+    "normal"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc4",
+   "front": "What should you know about refractive index (n)?",
+   "back": "A measure of how much a material slows down light. n = speed of light in vacuum ÷ speed of light in material. Higher n = more bending.",
+   "tags": [
+    "refractive-index-n"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc5",
+   "front": "What should you know about total internal reflection (tir)?",
+   "back": "When light travelling in a denser medium hits a boundary with a less dense medium at an angle greater than the critical angle, all the light reflects back inside.",
+   "tags": [
+    "total-internal-reflection-tir"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc6",
+   "front": "What should you know about critical angle?",
+   "back": "The smallest angle of incidence at which total internal reflection occurs. Below this angle, some light refracts out. At this angle, light refracts along the boundary (angle of refraction = 90 degrees).",
+   "tags": [
+    "critical-angle"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc7",
+   "front": "What should you know about law of reflection?",
+   "back": "The angle of incidence equals the angle of reflection. This applies to all waves, not just light.",
+   "tags": [
+    "law-of-reflection"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc8",
+   "front": "Recall a key point about Light And Optics",
+   "back": "Light bends towards the normal when entering a more dense medium (slowing down), and away from the normal when entering a less dense medium (speeding up). If light enters along the normal, it changes speed but does NOT change direction.",
+   "tags": [
+    "remember"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc9",
+   "front": "What should you know about two conditions needed for tir?",
+   "back": "1) The light must be travelling in the denser medium towards the less dense medium. 2) The angle of incidence must be greater than the critical angle for the boundary.",
+   "tags": [
+    "two-conditions-needed-for-tir"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc10",
+   "front": "Recall a key point about Light And Optics",
+   "back": "Using Snell's law: n = sin i / sin r. You must use a calculator to find sine values of angles in degrees. To find a refractive index, divide sin(i) by sin(r). To find a critical angle, use sin C = 1/n and then use the inverse sine function. Magnification = image height / object height (no units).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc11",
+   "front": "What should you know about answers?",
+   "back": "(a) Mean n = (1.52 + 1.49 + 1.52 + 1.53 + 1.51) ÷ 5 = 7.57 ÷ 5 = 1.514 ≈ 1.51. (b) At small angles of incidence (30°), the angle of refraction is also small (19°), so a small measurement error in the angle produces a larger percentage error in the sine value, making the calculated n less precise. (c) n = 1.33 corresponds to water. Light bends less in water than in glass because water has a lower refractive index, meaning light travels faster in water than in glass and changes speed less when entering from air.",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc12",
+   "front": "What does Specular reflection mean?",
+   "back": "Reflection from a smooth, flat surface. All rays reflect in the same direction, producing a clear image. (e.g. Mirror, calm water)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc13",
+   "front": "What does Diffuse reflection mean?",
+   "back": "Reflection from a rough surface. Rays reflect in different directions due to the uneven surface. No clear image. (e.g. Wall, paper, rough sea)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc14",
+   "front": "What does Air to Glass mean?",
+   "back": "Slows down (e.g. Bends towards normal)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p24-light-and-optics-fc15",
+   "front": "What does Glass to Air mean?",
+   "back": "Speeds up (e.g. Bends away from normal)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

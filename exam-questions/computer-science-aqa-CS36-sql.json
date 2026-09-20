@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS36-sql",
+ "topicName": "SQL",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs36-sql-q1",
+   "type": "short-answer",
+   "question": "Write an SQL query to show the first name and last name of all students in form 10B.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "SELECT FirstName, LastName FROM Students WHERE Form = '10B'",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs36-sql-q2",
+   "type": "short-answer",
+   "question": "Write an SQL query to show all details of students whose last name starts with 'S', sorted by first name alphabetically.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "SELECT * FROM Students WHERE LastName LIKE 'S%' ORDER BY FirstName ASC",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs36-sql-q3",
+   "type": "short-answer",
+   "question": "Write an SQL statement to insert a new student: StudentID 1007, Grace Lee, form 10A, year 10.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INSERT INTO Students (StudentID, FirstName, LastName, Form, YearGroup) VALUES (1007, 'Grace', 'Lee', '10A', 10)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs36-sql-q4",
+   "type": "short-answer",
+   "question": "Write an SQL statement to change Bob Jones's form from 10B to 11B and his year group to 11.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "UPDATE Students SET Form = '11B', YearGroup = 11 WHERE StudentID = 1002",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs36-sql-q5",
+   "type": "short-answer",
+   "question": "Write an SQL statement to delete all students in year group 11.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "DELETE FROM Students WHERE YearGroup = 11",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs36-sql-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A table called Students has fields: StudentID, Name, TutorGroup, Grade. Write SQL statements to: (1) Show all students in tutor group '7B' with their names and grades. (2) Add a new student with ID 105, name 'Kai', tutor group '7B', grade 'B'. (3) Update the grade of student ID 105 to 'A'. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "state",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1. SELECT Name, Grade FROM Students WHERE TutorGroup = '7B'; 2. INSERT INTO Students (StudentID, Name, TutorGroup, Grade) VALUES (105, 'Kai', '7B', 'B'); 3. UPDATE Students SET Grade = 'A' WHERE StudentID = 105; Note: Text values are enclosed in single quotes. The WHERE clause in the UPDATE ensures only student 105's grade is changed — without it, ALL students' grades would be updated to 'A'.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "1. SELECT Name, Grade FROM Students WHERE TutorGroup = '7B'; 2. INSERT INTO Students (StudentID, Name, TutorGroup, Grade) VALUES (105, 'Kai', '7B', 'B'); 3. UPDATE Students SET Grade = 'A' WHERE StudentID = 105; Note: Text values are enclosed in single quotes. The WHERE clause in the UPDATE ensures only student 105's grade is changed — without it, ALL students' grades would be updated to 'A'."
+   }
+  }
+ ]
+}

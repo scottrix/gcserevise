@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "graphical-misrepresentation",
+ "topicName": "Graphical Misrepresentation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "graphical-misrepresentation-q1",
+   "type": "short-answer",
+   "question": "Q: A bar chart shows profits of £101k and £103k, but the y-axis starts at £100k. Why is this misleading?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The difference of £2k appears very large visually because the axis is truncated, exaggerating the relative change from 101 to 103.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "graphical-misrepresentation-q2",
+   "type": "short-answer",
+   "question": "Q: A pictogram shows 1 car for 1000 sales and 2 cars stacked for 2000 sales. The second image is double height AND double width. Why is this misleading?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Doubling both dimensions quadruples the area, making 2000 appear four times larger than 1000 rather than twice as large.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "graphical-misrepresentation-q3",
+   "type": "short-answer",
+   "question": "Q: A line graph shows data for 2000, 2005, 2010, and 2020 with equal spacing on the x-axis. What is the problem?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The years are not equally spaced (the last gap is 10 years, not 5), so equal spacing on the x-axis gives a misleading impression of the rate of change.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "graphical-misrepresentation-q4",
+   "type": "short-answer",
+   "question": "Q: A 3D pie chart has two sectors of equal value. Why might one appear larger?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "3D perspective makes sectors at the front appear larger than those at the back, even when they represent the same value.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "graphical-misrepresentation-q5",
+   "type": "short-answer",
+   "question": "Q: How can you correct a bar chart with a truncated y-axis?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Start the y-axis at zero to show the true proportional difference, or clearly indicate the break in the axis with a zigzag symbol.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "graphical-misrepresentation-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A company presents a bar chart comparing this year's sales (£210k) with last year's sales (£200k). The y-axis starts at £190k. Explain why this graph is misleading and how it should be improved. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The y-axis is truncated at £190k, which means the bar for £210k appears roughly twice as tall as the bar for £200k, exaggerating the difference. In reality, the increase is only (£210k – £200k) ÷ £200k × 100 = 5%, but the visual impression suggests a much larger increase. To improve the graph, the y-axis should start at £0 so that the bars show the true proportional difference. Alternatively, if a truncated axis is used for clarity, a break symbol (zigzag) should be drawn on the y-axis and the actual values should be labelled on each bar so the reader can see the true difference.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "The y-axis is truncated at £190k, which means the bar for £210k appears roughly twice as tall as the bar for £200k, exaggerating the difference. In reality, the increase is only (£210k – £200k) ÷ £200k × 100 = 5%, but the visual impression suggests a much larger increase. To improve the graph, the y-axis should start at £0 so that the bars show the true proportional difference. Alternatively, if a truncated axis is used for clarity, a break symbol (zigzag) should be drawn on the y-axis and the actual values should be labelled on each bar so the reader can see the true difference."
+   }
+  }
+ ]
+}

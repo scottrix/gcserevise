@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "operational-amplifiers",
+ "topicName": "Operational Amplifiers",
+ "version": 1,
+ "cards": [
+  {
+   "id": "operational-amplifiers-fc1",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "An operational amplifier (op-amp) is a high-gain differential amplifier with two inputs: inverting (−) and non-inverting (+).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc2",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "The ideal op-amp has infinite open-loop gain, infinite input impedance, zero output impedance and infinite bandwidth.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc3",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "A real op-amp has very high but finite open-loop gain (typically 10⁵ to 10⁶), high input impedance and low output impedance.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc4",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "Negative feedback is used to control gain and improve stability; it reduces overall gain to a predictable value set by external components.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc5",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "The inverting amplifier configuration has the input signal applied to the inverting input via Rin with feedback resistor Rf from output to inverting input.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc6",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "Gain of an inverting amplifier: Av = −Rf/Rin; the output is 180° out of phase with the input.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc7",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "The non-inverting amplifier has the input applied to the non-inverting input; feedback via a voltage divider to the inverting input.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc8",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "Gain of a non-inverting amplifier: Av = 1 + Rf/R1; the output is in phase with the input.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc9",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "The virtual earth (virtual ground) principle: when negative feedback is applied, the two inputs are at virtually the same potential.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc10",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "Op-amps require dual-rail power supplies (typically ±15 V) or single-rail with a virtual mid-rail reference.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc11",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "Slew rate limits how fast the output voltage can change, measured in V/µs.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc12",
+   "front": "Recall a key point about Operational Amplifiers",
+   "back": "Input bias currents are small currents that flow into the op-amp inputs; they can cause offset errors in precision circuits.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc13",
+   "front": "What should you know about gcse electronics exam tips — operational amplifiers?",
+   "back": "1. For Operational Amplifiers questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Operational Amplifiers, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-ope"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc14",
+   "front": "Full-Mark Response",
+   "back": "Describe the characteristics of an ideal op-amp and explain how negative feedback is used in both inverting and non-inverting amplifier configurations.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "operational-amplifiers-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of operational amplifiers, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of operational amplifiers to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits and sys",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C1-atoms-and-elements",
+ "topicName": "C1 Atoms And Elements",
+ "version": 1,
+ "tests": [
+  {
+   "id": "c1-atoms-and-elements-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on C1 Atoms And Elements",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "c1-atoms-and-elements-t3",
+     "type": "short-answer",
+     "question": "Foundation Balance the following equation: H₂ + O₂ → H₂O",
+     "correctAnswer": "2H₂ + O₂ → 2H₂O. Count: Left = H: 4, O: 2; Right = H: 4, O: 2. Balanced.",
+     "explanation": "Answer: 2H₂ + O₂ → 2H₂O. Count: Left = H: 4, O: 2; Right = H: 4, O: 2. Balanced.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c1-atoms-and-elements-t5",
+     "type": "short-answer",
+     "question": "Higher Balance the following equation: Al + O₂ → Al₂O₃",
+     "correctAnswer": "4Al + 3O₂ → 2Al₂O₃. Check: Left = Al: 4, O: 6; Right = Al: 4, O: 6. Balanced.",
+     "explanation": "Answer: 4Al + 3O₂ → 2Al₂O₃. Check: Left = Al: 4, O: 6; Right = Al: 4, O: 6. Balanced.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

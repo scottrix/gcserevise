@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS24-boolean-logic",
+ "topicName": "Boolean Logic",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs24-boolean-logic-q1",
+   "type": "short-answer",
+   "question": "Draw the truth table for Q = A . B",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q = A . NOT B: A=0 B=0 Q=0; A=0 B=1 Q=0; A=1 B=0 Q=1; A=1 B=1 Q=0. Output is 1 only when A=1 AND B=0.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs24-boolean-logic-q2",
+   "type": "short-answer",
+   "question": "A circuit has the expression Q = (A OR B) AND NOT C. Draw the full truth table.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Three inputs = 8 rows. Q=1 only when (A=1 OR B=1) AND C=0. Rows where Q=1: (0,1,0), (1,0,0), (1,1,0). All other rows Q=0.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs24-boolean-logic-q3",
+   "type": "short-answer",
+   "question": "What is the difference between OR and XOR? Give a real-world example of each.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "OR outputs 1 if either or both inputs are 1. XOR outputs 1 only if the inputs are different. OR example: alarm if front OR back door is open. XOR example: staircase light controlled by two switches - on when switches differ.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs24-boolean-logic-q4",
+   "type": "short-answer",
+   "question": "Write the Boolean expression for a circuit where A and B go into an OR gate, and the output is fed into a NOT gate.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q = A + B (this is the NOR gate function)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs24-boolean-logic-q5",
+   "type": "short-answer",
+   "question": "How many rows does a truth table need for a circuit with 3 inputs?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "2 3 = 8 rows, covering all combinations from 000 to 111.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs24-boolean-logic-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Draw and complete the truth table for the following logic circuit: A AND B is fed into a NOT gate. Then explain what type of gate this combination produces. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The circuit is: A AND B → NOT = NAND gate A | B | A AND B | NOT (A AND B) 0 | 0 | 0 | 1 0 | 1 | 0 | 1 1 | 0 | 0 | 1 1 | 1 | 1 | 0 This combination produces a NAND gate. The output is 0 only when both inputs are 1, and 1 in all other cases. The NAND gate is the negation of the AND gate — adding a NOT gate to the output of an AND gate produces the NAND truth table.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "The circuit is: A AND B → NOT = NAND gate A | B | A AND B | NOT (A AND B) 0 | 0 | 0 | 1 0 | 1 | 0 | 1 1 | 0 | 0 | 1 1 | 1 | 1 | 0 This combination produces a NAND gate. The output is 0 only when both inputs are 1, and 1 in all other cases. The NAND gate is the negation of the AND gate — adding a NOT gate to the output of an AND gate produces the NAND truth table."
+   }
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g18-geological-hazard-processes",
+ "topicName": "Geological Hazard Processes",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g18-geological-hazard-processes-q1",
+   "type": "short-answer",
+   "question": "Q: What factors increase the risk of a landslide?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Steep slope angle, weak or fractured geology (e.g. clay layers, jointed rock), water saturation (heavy rain raises pore water pressure, lubricates failure surfaces, and adds weight), removal of vegetation (roots stabilise soil), and human activities (cutting into slopes, loading the top, mining).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g18-geological-hazard-processes-q2",
+   "type": "short-answer",
+   "question": "Q: How does water trigger landslides?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Water increases pore water pressure within the slope, reducing friction between grains. It lubricates potential slip surfaces (especially clay layers). It adds weight to the soil. It can physically erode the base of slopes. All these reduce the factor of safety below 1, causing failure.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g18-geological-hazard-processes-q3",
+   "type": "short-answer",
+   "question": "Q: What causes subsidence and sinkholes in limestone areas?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Rainwater (slightly acidic from dissolved CO2) percolates through joints in limestone, gradually dissolving the rock and creating underground cavities. When the cavity roof becomes too thin to support the surface, it collapses, forming a sinkhole. Lowering the water table (from pumping) can accelerate this by removing buoyant support.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g18-geological-hazard-processes-q4",
+   "type": "short-answer",
+   "question": "Q: Name three methods of monitoring geological hazards.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Seismometers to detect earthquakes and volcanic tremor. 2) GPS and satellite radar (InSAR) to measure ground deformation. 3) Groundwater monitoring (piezometers) to detect water level changes that may trigger landslides.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g18-geological-hazard-processes-q5",
+   "type": "short-answer",
+   "question": "Q: How can the risk from geological hazards be reduced?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hazard mapping and zoning (avoid building in high-risk areas), slope stabilisation (retaining walls, drainage, rock bolts), building codes for earthquake resistance, early warning systems (sensors, alarms), and emergency planning (evacuation routes, shelters).",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

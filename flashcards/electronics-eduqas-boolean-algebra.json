@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "boolean-algebra",
+ "topicName": "Boolean Algebra",
+ "version": 1,
+ "cards": [
+  {
+   "id": "boolean-algebra-fc1",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "Boolean algebra uses variables with values 0 or 1; operations are AND (·), OR (+) and NOT (overbar).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc2",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "Identity laws: A + 0 = A, A · 1 = A; null element laws: A + 1 = 1, A · 0 = 0.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc3",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "Idempotent laws: A + A = A, A · A = A; complement laws: A + Ā = 1, A · Ā = 0.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc4",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "Commutative: A + B = B + A, A · B = B · A; Associative: (A + B) + C = A + (B + C).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc5",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "Distributive law: A · (B + C) = A·B + A·C; also A + B·C = (A + B)·(A + C).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc6",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "De Morgan's First Law: (A · B)' = A' + B'; the complement of AND is OR of complements.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc7",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "De Morgan's Second Law: (A + B)' = A' · B'; the complement of OR is AND of complements.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc8",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "Absorption laws: A + A·B = A, A · (A + B) = A eliminate redundant terms.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc9",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "Karnaugh maps (K-maps) provide a visual method for simplifying Boolean expressions up to 4 variables.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc10",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "On a K-map, adjacent cells differ by one variable; groups of 1, 2, 4 or 8 can be combined.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc11",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "Sum of Products (SoP) groups the 1s on the K-map; Product of Sums (PoS) groups the 0s.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc12",
+   "front": "Recall a key point about Boolean Algebra",
+   "back": "Simplified expressions from K-maps use the fewest gates, reducing cost and propagation delay.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc13",
+   "front": "What should you know about gcse electronics exam tips — boolean algebra?",
+   "back": "1. For Boolean Algebra questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Boolean Algebra, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-boo"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc14",
+   "front": "Full-Mark Response",
+   "back": "State De Morgan's laws and show how they can be used to convert an AND-OR logic circuit into an equivalent circuit using only NAND gates.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-algebra-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of boolean algebra, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of boolean algebra to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits and systems, making r",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

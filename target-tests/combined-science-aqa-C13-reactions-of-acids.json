@@ -1,0 +1,38 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C13-reactions-of-acids",
+ "topicName": "Reactions Of Acids",
+ "version": 1,
+ "tests": [
+  {
+   "id": "c13-reactions-of-acids-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Reactions Of Acids",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "c13-reactions-of-acids-t1",
+     "type": "short-answer",
+     "question": "Foundation Write the word equation for the reaction between hydrochloric acid and sodium hydroxide.",
+     "correctAnswer": "Hydrochloric acid + sodium hydroxide → sodium chloride + water",
+     "explanation": "Answer: Hydrochloric acid + sodium hydroxide → sodium chloride + water",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c13-reactions-of-acids-t2",
+     "type": "short-answer",
+     "question": "Foundation What ion do all acids produce in water? What ion do all alkalis produce in water?",
+     "correctAnswer": "Acids produce H⁺ ions. Alkalis produce OH⁻ ions.",
+     "explanation": "Answer: Acids produce H⁺ ions. Alkalis produce OH⁻ ions.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

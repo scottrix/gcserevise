@@ -1,0 +1,77 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "WT2-letters",
+ "topicName": "Letters",
+ "version": 1,
+ "questions": [
+  {
+   "id": "wt2-letters-q1",
+   "type": "short-answer",
+   "question": "When should you use \"Yours faithfully\" versus \"Yours sincerely\"?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "\"Yours faithfully\" with Dear Sir/Madam; \"Yours sincerely\" when using a specific name (Dear Mr Smith).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "wt2-letters-q2",
+   "type": "short-answer",
+   "question": "What is the correct order for a formal letter's components?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Sender's address, date, recipient's address, salutation, content, sign-off, signature.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "wt2-letters-q3",
+   "type": "short-answer",
+   "question": "Write the opening of a letter to your local council about litter in your area.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Your opening should include: sender's address, date, council's address, \"Dear Sir/Madam\", and a clear statement of purpose.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "wt2-letters-q4",
+   "type": "short-answer",
+   "question": "Why should you avoid contractions in formal letters?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Contractions are too informal for formal writing. Writing \"do not\" instead of \"don't\" maintains a professional, respectful tone.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

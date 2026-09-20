@@ -1,0 +1,78 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS26-analysing-financial-performance",
+ "topicName": "Analysing Financial Performance",
+ "version": 1,
+ "questions": [
+  {
+   "id": "bs26-analysing-financial-performance-q1",
+   "type": "short-answer",
+   "question": "Calculate the gross profit margin and net profit margin for a business with revenue £200,000, cost of sales £120,000, and expenses £50,000.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Gross profit = £200,000 - £120,000 = £80,000. Gross profit margin = (£80,000 / £200,000) x 100 = 40%. Net profit = £80,000 - £50,000 = £30,000. Net profit margin = (£30,000 / £200,000) x 100 = 15%. This means for every £1 of revenue, 40p is gross profit and 15p is net profit.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs26-analysing-financial-performance-q2",
+   "type": "short-answer",
+   "question": "Explain what a current ratio of 0.8 means for a business and suggest what it should do.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A current ratio of 0.8 means current liabilities exceed current assets - the business has less than £1 of short-term assets for every £1 of short-term debt. This indicates potential insolvency: the business may not be able to pay suppliers, wages, or tax on time. Solutions: arrange overdraft, chase debts (reduce trade receivables), sell surplus stock, negotiate longer payment terms with suppliers,",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs26-analysing-financial-performance-q3",
+   "type": "short-answer",
+   "question": "Evaluate why financial ratios are useful but also have limitations when comparing business performance.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Ratios are useful: allow comparison over time (trend analysis), against competitors (benchmarking), and against targets. They simplify complex financial data into understandable measures. Limitations: ratios are based on historical data (past performance doesn't guarantee future results), different accounting methods make comparisons unreliable (e.g. different depreciation methods), they don't cap",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "bs26-analysing-financial-performance-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate the financial performance of a business that has: revenue £500,000 (up 10%), gross profit margin 35% (down from 40%), net profit margin 8% (same as last year), current ratio 1.2 (down from 1.8). <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: analyse revenue growth (positive, 10% increase shows expanding market); gross profit margin decline (5 percentage points - rising cost of sales, possibly supplier price increases, need to negotiate or find alternatives); stable net profit margin (expenses have been reduced to offset the gross margin decline - good cost control in overheads but this may not be sustainable); declining current ratio (from 1.8 to 1.2 - approaching dangerously low liquidity, may struggle to pay short-term debts); conclude: the business is growing revenue and maintaining net profit through c",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: analyse revenue growth (positive, 10% increase shows expanding market); gross profit margin decline (5 percentage points - rising cost of sales, possibly supplier price increases, need to negotiate or find alternatives); stable net profit margin (expenses have been reduced to offset the gross margin decline - good cost control in overheads but this may not be sustainable); declining current ratio (from 1.8 to 1.2 - approaching dangerously low liquidity, may struggle to pay short-term debts); conclude: the business is growing revenue and maintaining net profit through cost-cutting, but rising production costs and declining liquidity are warning signs. Recommendations: investigate cost of sales increase, rebuild liquidity (chase debts, reduce stock), and ensure cost-cutting isn't damaging long-term capacity (e.g. cutting marketing that drives the revenue growth)."
+   }
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "modelling-calculation",
+ "topicName": "Modelling & Calculation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "modelling-calculation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Modelling & Calculation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "modelling-calculation-t1",
+     "type": "short-answer",
+     "question": "Q: A steel rod of 8 mm diameter carries a tensile load of 15 kN. Calculate the stress in the rod.",
+     "correctAnswer": "Area = pi x (4)^2 = 50.3 mm2. Stress = 15000 / 50.3 = 298.2 MPa.",
+     "explanation": "Answer: Area = pi x (4)^2 = 50.3 mm2. Stress = 15000 / 50.3 = 298.2 MPa.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "modelling-calculation-t2",
+     "type": "short-answer",
+     "question": "Q: A 2 m long aluminium bar stretches by 0.5 mm under a tensile load. Calculate the strain.",
+     "correctAnswer": "Strain = Change in length / Original length = 0.5 / 2000 = 0.00025 (or 0.025%).",
+     "explanation": "Answer: Strain = Change in length / Original length = 0.5 / 2000 = 0.00025 (or 0.025%).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

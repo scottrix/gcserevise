@@ -1,0 +1,139 @@
+{
+ "subject": "chemistry",
+ "board": "Edexcel",
+ "topic": "mock-exam",
+ "topicName": "Chemistry Mock Exam",
+ "version": 1,
+ "tier": "Foundation",
+ "tests": [
+  {
+   "id": "chemistry-mock",
+   "name": "Chemistry Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Atoms and Elements] Foundation Define the term compound and give one example.",
+     "correctAnswer": "A compound is a substance made from two or more elements that are chemically combined in fixed proportions. Example: water (H₂O) is a compound of hydrogen and oxygen.",
+     "explanation": "A compound is a substance made from two or more elements that are chemically combined in fixed proportions. Example: water (H₂O) is a compound of hydrogen and oxygen.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Atoms and Elements] Foundation Explain the difference between a mixture and a compound.",
+     "correctAnswer": "A compound has elements chemically combined in fixed proportions and can only be separated by chemical reactions. A mixture has substances not chemically combined, with variable proportions, and can be separated by physical methods (filtration, distillation, etc.).",
+     "explanation": "A compound has elements chemically combined in fixed proportions and can only be separated by chemical reactions. A mixture has substances not chemically combined, with variable proportions, and can be separated by physical methods (filtration, distillation, etc.).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Atoms and Elements] Foundation Balance the following equation: H₂ + O₂ → H₂O",
+     "correctAnswer": "2H₂ + O₂ → 2H₂O. Count: Left = H: 4, O: 2; Right = H: 4, O: 2. Balanced.",
+     "explanation": "2H₂ + O₂ → 2H₂O. Count: Left = H: 4, O: 2; Right = H: 4, O: 2. Balanced.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Concentration and Yield] Foundation 10 g of sugar is dissolved in 200 cm³ of solution. Calculate the concentration in g/dm³.",
+     "correctAnswer": "Volume = 200 ÷ 1000 = 0.2 dm³. Concentration = 10 ÷ 0.2 = 50 g/dm³",
+     "explanation": "Volume = 200 ÷ 1000 = 0.2 dm³. Concentration = 10 ÷ 0.2 = 50 g/dm³",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Concentration and Yield] Foundation A reaction has a theoretical yield of 80 g. The actual yield is 60 g. Calculate the percentage yield.",
+     "correctAnswer": "Percentage yield = (60 ÷ 80) × 100 = 75%",
+     "explanation": "Percentage yield = (60 ÷ 80) × 100 = 75%",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Concentration and Yield] Higher In the reaction C₂H₄ + Br₂ → C₂H₄Br₂, the desired product is C₂H₄Br₂. Calculate the atom economy. (M r : C₂H₄Br₂ = 188)",
+     "correctAnswer": "This is an addition reaction — there is only one product. Atom economy = (188 ÷ 188) × 100 = 100%",
+     "explanation": "This is an addition reaction — there is only one product. Atom economy = (188 ÷ 188) × 100 = 100%",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Gas Calculations] Higher What volume does 0.5 mol of chlorine gas occupy at RTP?",
+     "correctAnswer": "Volume = 0.5 × 24 = 12 dm³",
+     "explanation": "Volume = 0.5 × 24 = 12 dm³",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Gas Calculations] Higher How many moles are in 120 dm³ of neon gas at RTP?",
+     "correctAnswer": "Moles = 120 ÷ 24 = 5 mol",
+     "explanation": "Moles = 120 ÷ 24 = 5 mol",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Gas Calculations] Higher What mass of CO₂ (M r = 44) occupies 12 dm³ at RTP?",
+     "correctAnswer": "Moles = 12 ÷ 24 = 0.5 mol. Mass = 0.5 × 44 = 22 g",
+     "explanation": "Moles = 12 ÷ 24 = 0.5 mol. Mass = 0.5 × 44 = 22 g",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Reactivity of Metals] Foundation List the following metals in order of reactivity (most reactive first): copper, potassium, iron, zinc, sodium.",
+     "correctAnswer": "Potassium, sodium, zinc, iron, copper (from most to least reactive)",
+     "explanation": "Potassium, sodium, zinc, iron, copper (from most to least reactive)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Reactivity of Metals] Foundation Write the word equation for calcium reacting with cold water.",
+     "correctAnswer": "Calcium + water → calcium hydroxide + hydrogen",
+     "explanation": "Calcium + water → calcium hydroxide + hydrogen",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Reactivity of Metals] Higher Will magnesium displace copper from copper(II) sulfate solution? Write the balanced symbol equation if a reaction occurs.",
+     "correctAnswer": "Yes — magnesium is more reactive than copper, so displacement occurs. Mg(s) + CuSO₄(aq) → MgSO₄(aq) + Cu(s)",
+     "explanation": "Yes — magnesium is more reactive than copper, so displacement occurs. Mg(s) + CuSO₄(aq) → MgSO₄(aq) + Cu(s)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

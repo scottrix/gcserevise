@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "shaping-forming-casting",
+ "topicName": "Shaping, Forming & Casting",
+ "version": 1,
+ "questions": [
+  {
+   "id": "shaping-forming-casting-q1",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between sand casting and pressure die casting, giving an application for each.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Sand casting uses a disposable sand mould; it is cheap for small batches and large parts (e.g. engine blocks). Die casting uses a permanent steel mould with molten metal injected under pressure; it is expensive to tool but fast per part, ideal for high-volume small non-ferrous parts (e.g. zinc die-cast gearbox housings).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "shaping-forming-casting-q2",
+   "type": "short-answer",
+   "question": "Q: Why is injection moulding the most common process for high-volume thermoplastic components?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Injection moulding has very fast cycle times (seconds per part), excellent repeatability, good surface finish, fine detail reproduction and low labour cost per part. The high initial tooling cost is amortised over thousands or millions of parts.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "shaping-forming-casting-q3",
+   "type": "short-answer",
+   "question": "Q: Describe the process of bending a sheet metal bracket on a press brake.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The sheet metal is placed between the punch (upper tool) and V-die (lower tool) on the press brake. The punch descends, forcing the metal into the V-die to the required bend angle. The bend radius is determined by the V-die opening width and punch tip radius. The metal springs back slightly after the load is removed, so the bend angle is set slightly beyond the target.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "shaping-forming-casting-q4",
+   "type": "short-answer",
+   "question": "Q: Explain why forged components are stronger than cast components of the same material.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Forging aligns the grain structure with the component's shape through controlled deformation, creating a continuous grain flow that follows the contours. Casting produces a random, equiaxed grain structure with potential porosity. The aligned grain structure gives forged parts superior toughness and fatigue resistance.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "shaping-forming-casting-q5",
+   "type": "short-answer",
+   "question": "Q: Why are draft angles needed on injection moulded parts?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Draft angles (1-3 degrees) on vertical walls allow the cooled, shrunk part to eject freely from the mould. Without draft, the part would stick due to friction and vacuum, causing damage, marking or failure to eject.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

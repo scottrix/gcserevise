@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "boolean-algebra",
+ "topicName": "Boolean Algebra",
+ "version": 1,
+ "steps": [
+  {
+   "id": "boolean-algebra-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Boolean algebra uses variables with values 0 or 1; operations are AND (·), OR (+) and NOT (overbar)."
+  },
+  {
+   "id": "boolean-algebra-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Identity laws: A + 0 = A, A · 1 = A; null element laws: A + 1 = 1, A · 0 = 0."
+  },
+  {
+   "id": "boolean-algebra-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Idempotent laws: A + A = A, A · A = A; complement laws: A + Ā = 1, A · Ā = 0."
+  },
+  {
+   "id": "boolean-algebra-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Commutative: A + B = B + A, A · B = B · A; Associative: (A + B) + C = A + (B + C)."
+  },
+  {
+   "id": "boolean-algebra-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Simplify: A + A·B | Q: Apply De Morgan's law to (A·B)'. | Q: Simplify: A·Ā"
+  },
+  {
+   "id": "boolean-algebra-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A + A·B = A (absorption law). | (A·B)' = A' + B' (De Morgan's first law). | A·Ā = 0 (complement law: a variable ANDed with its complement is always 0)."
+  },
+  {
+   "id": "boolean-algebra-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When applying De Morgan's laws, break the bar, change the operator: AND becomes OR and vice versa. On K-maps, always use Gray code ordering of variables along rows and columns. Group the largest possible power of 2 to obtain the simplest expression. Show each simplification step and state the law used (absorption, distribution, etc.). Every 1 on the K-map must be included in at least one group for SoP form."
+  }
+ ]
+}

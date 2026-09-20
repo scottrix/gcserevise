@@ -1,0 +1,57 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS22-data-compression",
+ "topicName": "Data Compression",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs22-data-compression-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Data compression reduces the number of bits needed to represent data. This saves storage space and reduces the time needed to transmit data over a network."
+  },
+  {
+   "id": "cs22-data-compression-s2",
+   "kind": "learn",
+   "title": "Key Difference",
+   "body": "Lossy compression discards some data permanently - you cannot get the original back. Lossless compression finds more efficient ways to represent the same data - the original can be perfectly reconstructed."
+  },
+  {
+   "id": "cs22-data-compression-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Huffman coding is a lossless compression algorithm that assigns shorter binary codes to more frequently occurring characters and longer codes to less frequent characters."
+  },
+  {
+   "id": "cs22-data-compression-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Run length encoding (RLE) is a lossless compression method that replaces sequences of the same data value (runs) with a count and the value, stored as frequency/data pairs."
+  },
+  {
+   "id": "cs22-data-compression-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Definition: Run length encoding (RLE) is a lossless compression method that replaces sequences of the same data value (runs) with a count and the value, stored as frequency/data pairs. How RLE Works RLE is most effective when data contains long runs of repeated values. Instead of storing each value individually, it stores the count followed by the value. Example 1: Simple RLE Uncompressed: AAAAAABBCCCCCCDDDDDD Compressed with RLE: 6A2B6C6D Original = 20 characters; Compressed = 8 characters This is a significant saving because there are many repeated runs. Example 2: RLE with Bitmap Images A row of a bitmap image with 1-bit colour depth: Uncompressed: 000000001111111100000000 RLE: 0,8 1,8 0,8 (frequency,data pairs) Original = 24 values; Compressed = 6 values Example 3: When RLE Doesn't Work Well Data: ABCDEFGHIJKLMNOP RLE: 1A1B1C1D1E1F1G1H1I1J1K1L1M1N1O1P Original = 16 characters; Compressed = 32 characters RLE actually makes the file LARGER when there are no repeated runs. Each charac"
+  },
+  {
+   "id": "cs22-data-compression-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Explain the difference between lossy and lossless compression. | The string \"MISSISSIPPI\" has these character frequencies: M=1, I=4, S=4, P=2. Construct a Huffman tree and assign codes to each character. | Using the Huffman codes from Q2, calculate the total bit length of \"MISSISSIPPI\" and compare it to a fixed-length encoding."
+  },
+  {
+   "id": "cs22-data-compression-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Lossy compression permanently removes some data to achieve a smaller file size; the original cannot be restored. Lossless compression reduces file size without losing any data; the original can be per | Combine M(1) and P(2) → MP(3). Combine MP(3) and I(4) or S(4): e.g. MP(3) and one of the 4s → e.g. MP(3) + I(4) = MPI(7). Then MPI(7) + S(4) = root(11). Codes will vary depending on tree construction, | With 4 characters, fixed-length needs 2 bits each. Fixed = 11 x 2 = 22 bits. Huffman depends on your tree from Q2, but should be fewer than 22 bits (likely around 18-19 bits). The saving comes from I "
+  },
+  {
+   "id": "cs22-data-compression-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know the difference between lossy and lossless and give examples of each Practise building Huffman trees step by step - show all stages Always compare Huffman encoding to fixed-length and calculate the saving Remember RLE uses frequency/data pairs - show the format clearly Explain WHY a compression method is suitable for a given scenario, not just which one For Huffman, remember: no code is a prefix of another code State that RLE can increase file size if data has few repeated runs"
+  }
+ ]
+}

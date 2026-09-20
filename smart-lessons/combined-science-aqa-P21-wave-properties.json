@@ -1,0 +1,57 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P21-wave-properties",
+ "topicName": "Wave Properties",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p21-wave-properties-s1",
+   "kind": "learn",
+   "title": "Wave",
+   "body": "Vibrations that transfer energy from one place to another without transferring matter. The substance a wave travels through is called the medium."
+  },
+  {
+   "id": "p21-wave-properties-s2",
+   "kind": "learn",
+   "title": "Transverse wave",
+   "body": "A wave where the vibrations are perpendicular (at right angles) to the direction of energy transfer."
+  },
+  {
+   "id": "p21-wave-properties-s3",
+   "kind": "learn",
+   "title": "Longitudinal wave",
+   "body": "A wave where the vibrations are parallel to the direction of energy transfer."
+  },
+  {
+   "id": "p21-wave-properties-s4",
+   "kind": "learn",
+   "title": "Amplitude",
+   "body": "The maximum displacement of a wave from its rest position. Larger amplitude = more energy."
+  },
+  {
+   "id": "p21-wave-properties-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Example 1: Calculating wave speed A wave has a frequency of 50 Hz and a wavelength of 0.6 m. Calculate the wave speed. Solution: v = f × λ = 50 × 0.6 = 30 m/s Example 2: Calculating wavelength A sound wave travels at 330 m/s with a frequency of 440 Hz. Calculate the wavelength. Solution: λ = v ÷ f = 330 ÷ 440 = 0.75 m Example 3: Calculating frequency A water wave travels at 1.5 m/s with a wavelength of 0.3 m. Calculate the frequency. Solution: f = v ÷ λ = 1.5 ÷ 0.3 = 5 Hz Example 4: Calculating period A wave has a frequency of 200 Hz. Calculate its period. Solution: T = 1 ÷ f = 1 ÷ 200 = 0.005 s (or 5 ms) Example 5: Ripple tank calculation In a ripple tank, a student measures 5 wavelengths across a distance of 12 cm. The frequency of the vibrator is 4 Hz. Calculate the wave speed. Solution: Step 1: Find wavelength — λ = 12 cm ÷ 5 = 2.4 cm = 0.024 m Step 2: Calculate speed — v = f × λ = 4 × 0.024 = 0.096 m/s Example 6: Unit conversion A radio wave has a frequency of 900 MHz and travels "
+  },
+  {
+   "id": "p21-wave-properties-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation A wave has a frequency of 20 Hz and a wavelength of 0.5 m. Calculate its wave speed. | Foundation A sound wave travels at 340 m/s and has a frequency of 680 Hz. Calculate its wavelength. | Higher A wave has a period of 0.025 s. Calculate its frequency."
+  },
+  {
+   "id": "p21-wave-properties-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Q1: v = f × λ = 20 × 0.5 = 10 m/s | Q2: λ = v ÷ f = 340 ÷ 680 = 0.5 m | Q3: f = 1 ÷ T = 1 ÷ 0.025 = 40 Hz"
+  },
+  {
+   "id": "p21-wave-properties-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always check units — convert cm to m, kHz to Hz (×1000), MHz to Hz (×10⁶) before calculating. Remember: waves transfer energy, NOT matter. The particles just vibrate about their rest position. When describing wave types, always state the direction of vibrations relative to the direction of energy transfer. For the ripple tank practical, remember to measure multiple wavelengths then divide — this reduces uncertainty. Frequency is measured in Hz (not 'cycles per second' in exams). The period equation T = 1/f can be rearranged to f = 1/T if you need frequency from period."
+  }
+ ]
+}

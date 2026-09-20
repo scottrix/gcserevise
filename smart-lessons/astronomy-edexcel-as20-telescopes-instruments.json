@@ -1,0 +1,51 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as20-telescopes-instruments",
+ "topicName": "Telescopes & Instruments",
+ "version": 1,
+ "steps": [
+  {
+   "id": "as20-telescopes-instruments-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Refracting telescopes use a convex objective lens to gather and focus light"
+  },
+  {
+   "id": "as20-telescopes-instruments-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Reflecting telescopes use a concave primary mirror; Newtonian and Cassegrain are common designs"
+  },
+  {
+   "id": "as20-telescopes-instruments-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Magnification = focal length of objective / focal length of eyepiece"
+  },
+  {
+   "id": "as20-telescopes-instruments-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Resolving power is the ability to distinguish fine detail; larger apertures give better resolution"
+  },
+  {
+   "id": "as20-telescopes-instruments-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: What are the advantages of reflecting telescopes over refracting? | Q: How is magnification calculated? | Q: Why are radio telescopes often very large?"
+  },
+  {
+   "id": "as20-telescopes-instruments-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Reflectors: no chromatic aberration, easier to make large mirrors (no internal defects), mirrors can be supported from behind, and are cheaper for the same aperture. | Magnification = focal length of objective ÷ focal length of eyepiece. | Radio wavelengths are much longer than visible light, so larger dishes are needed to achieve similar resolving power (resolution ∝ aperture/wavelength)."
+  },
+  {
+   "id": "as20-telescopes-instruments-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Magnification formula is often tested — know M = f_obj / f_eye Reflectors solve chromatic aberration — this is the #1 advantage Space telescopes: no atmosphere = no distortion + access to blocked wavelengths Both boards test telescope types and their comparative advantages"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G47-graphical-numerical-skills",
+ "topicName": "Graphical and Numerical Skills",
+ "version": 1,
+ "steps": [
+  {
+   "id": "g47-graphical-numerical-skills-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A line graph shows how a continuous variable changes over time or distance. The x-axis usually represents time or distance, and the y-axis represents the measured variable. Points are plotted and joined with straight lines or a curve of best fit."
+  },
+  {
+   "id": "g47-graphical-numerical-skills-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A bar chart uses rectangular bars to compare discrete categories. The height (or length) of each bar represents the value. Bars can be vertical or horizontal. They should have gaps between them (unlike histograms)."
+  },
+  {
+   "id": "g47-graphical-numerical-skills-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A pie chart shows proportions of a whole as segments of a circle. The full circle (360°) represents the total, and each segment is proportional to the value it represents."
+  },
+  {
+   "id": "g47-graphical-numerical-skills-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A scatter graph plots two variables against each other to test whether a relationship exists. Each point represents one observation. The pattern of points reveals the type and strength of correlation."
+  },
+  {
+   "id": "g47-graphical-numerical-skills-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Explain the difference between a simple bar chart and a compound bar chart, giving a geographical example of when each would be used. | A country's population is 32 million and its area is 256,000 km². Calculate its population density. | Describe the characteristics of a population pyramid for a country in Stage 4 of the DTM."
+  },
+  {
+   "id": "g47-graphical-numerical-skills-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A simple bar chart has one bar per category showing a single value (e.g. GNI per head for different countries). A compound bar chart divides each bar into sections showing subcategories (e.g. energy m | Population density = Total population ÷ Total area = 32,000,000 ÷ 256,000 = 125 people per km². | A Stage 4 population pyramid has a narrow base (low birth rate), relatively straight sides (low death rate across all ages), a wide middle section (large working-age population), and a widening top (i"
+  },
+  {
+   "id": "g47-graphical-numerical-skills-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always include title, axis labels, units, and key when drawing graphs When describing graphs, quote data and identify trends, not just \"it goes up\" Know which graph type is best for each data type (categorical = bar, continuous = line, proportional = pie) Population pyramids: always describe base, sides, and top, and link to DTM stage For pie chart calculations, always check angles add up to 360° Choropleth maps: use a consistent colour scale with a clear key Percentage change questions: remember to divide by the ORIGINAL value, not the new value When interpreting scatter graphs, describe both the direction AND strength of correlation"
+  }
+ ]
+}

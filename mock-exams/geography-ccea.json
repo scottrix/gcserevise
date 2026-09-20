@@ -1,0 +1,138 @@
+{
+ "subject": "geography",
+ "board": "CCEA",
+ "topic": "mock-exam",
+ "topicName": "Geography Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "geography-mock",
+   "name": "Geography Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[UK Physical Landscapes] Describe the distribution of upland and lowland areas in the UK. (3 marks)",
+     "correctAnswer": "Upland areas are mainly found in the north and west of the UK (1 mark), including the Scottish Highlands, Lake District, Pennines, Snowdonia and Dartmoor (1 mark). Lowland areas are predominantly in the south and east, including the London Basin, East Anglia and the Fens (1 mark).",
+     "explanation": "Upland areas are mainly found in the north and west of the UK (1 mark), including the Scottish Highlands, Lake District, Pennines, Snowdonia and Dartmoor (1 mark). Lowland areas are predominantly in the south and east, including the London Basin, East Anglia and the Fens (1 mark).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[UK Physical Landscapes] Explain how geology influences the UK's landscape. (4 marks)",
+     "correctAnswer": "Geology determines landscape because harder, older rocks (igneous and metamorphic) resist erosion and form upland areas like the Scottish Highlands and Snowdonia (1 mark). Softer, younger sedimentary rocks erode more easily, forming lowland areas like the London Basin and East Anglia (1 mark). Diffe",
+     "explanation": "Geology determines landscape because harder, older rocks (igneous and metamorphic) resist erosion and form upland areas like the Scottish Highlands and Snowdonia (1 mark). Softer, younger sedimentary rocks erode more easily, forming lowland areas like the London Basin and East Anglia (1 mark). Diffe",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[UK Physical Landscapes] Compare the characteristics of glaciated and non-glaciated landscapes in the UK. (6 marks)",
+     "correctAnswer": "Glaciated landscapes (north and west) have deep, steep-sided U-shaped valleys carved by glaciers (1 mark), while non-glaciated landscapes have shallow V-shaped valleys formed by rivers (1 mark). Glaciated areas feature rugged peaks, corries and ribbon lakes (1 mark), while non-glaciated areas have r",
+     "explanation": "Glaciated landscapes (north and west) have deep, steep-sided U-shaped valleys carved by glaciers (1 mark), while non-glaciated landscapes have shallow V-shaped valleys formed by rivers (1 mark). Glaciated areas feature rugged peaks, corries and ribbon lakes (1 mark), while non-glaciated areas have r",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Coastal Processes] Describe the differences between constructive and destructive waves. (4 marks)",
+     "correctAnswer": "Constructive waves are low and long with a low wave height and long wavelength (1 mark), with a strong swash and weak backwash that deposits sediment to build up beaches (1 mark). Destructive waves are tall and steep with a short wavelength and high frequency (1 mark), with a weak swash and strong b",
+     "explanation": "Constructive waves are low and long with a low wave height and long wavelength (1 mark), with a strong swash and weak backwash that deposits sediment to build up beaches (1 mark). Destructive waves are tall and steep with a short wavelength and high frequency (1 mark), with a weak swash and strong b",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Coastal Processes] Explain the process of longshore drift. (4 marks)",
+     "correctAnswer": "Longshore drift occurs when waves approach the coast at an angle rather than head-on (1 mark). The swash carries sediment up the beach at the angle of wave approach (1 mark). The backwash then pulls sediment straight back down the beach at right angles under gravity (1 mark). This zigzag movement gr",
+     "explanation": "Longshore drift occurs when waves approach the coast at an angle rather than head-on (1 mark). The swash carries sediment up the beach at the angle of wave approach (1 mark). The backwash then pulls sediment straight back down the beach at right angles under gravity (1 mark). This zigzag movement gr",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Coastal Processes] Compare mechanical and chemical weathering at the coast. (6 marks)",
+     "correctAnswer": "Mechanical weathering physically breaks rock apart without changing its chemical composition - freeze-thaw weathering widens cracks as water freezes and expands (1 mark), while salt weathering grows crystals in pores (1 mark). Chemical weathering changes the rock's composition through reactions - so",
+     "explanation": "Mechanical weathering physically breaks rock apart without changing its chemical composition - freeze-thaw weathering widens cracks as water freezes and expands (1 mark), while salt weathering grows crystals in pores (1 mark). Chemical weathering changes the rock's composition through reactions - so",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Coastal Landforms] Describe the formation of a wave-cut platform. (4 marks)",
+     "correctAnswer": "Waves erode the base of the cliff through hydraulic power and abrasion, creating a wave-cut notch (1 mark). The notch undercuts the cliff above, making it unstable (1 mark). The overhanging cliff collapses through mass movement, and the debris is washed away (1 mark). As the cliff retreats inland, a",
+     "explanation": "Waves erode the base of the cliff through hydraulic power and abrasion, creating a wave-cut notch (1 mark). The notch undercuts the cliff above, making it unstable (1 mark). The overhanging cliff collapses through mass movement, and the debris is washed away (1 mark). As the cliff retreats inland, a",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Coastal Landforms] Explain the sequence from cave to stump on a headland. (4 marks)",
+     "correctAnswer": "Waves exploit a weakness (crack or joint) in the headland through hydraulic power, enlarging it into a cave (1 mark). The cave is eroded right through the headland by wave action, creating an arch of rock above a tunnel (1 mark). Weathering and erosion weaken the roof of the arch until it collapses,",
+     "explanation": "Waves exploit a weakness (crack or joint) in the headland through hydraulic power, enlarging it into a cave (1 mark). The cave is eroded right through the headland by wave action, creating an arch of rock above a tunnel (1 mark). Weathering and erosion weaken the roof of the arch until it collapses,",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Coastal Landforms] Using a named example, explain how a spit forms. (4 marks)",
+     "correctAnswer": "Spurn Head in Yorkshire is a 5.5 km long spit formed by longshore drift. Prevailing north-easterly waves transport sediment southwards along the Holderness Coast (1 mark). When the coastline changes direction at the Humber Estuary, longshore drift continues to deposit sediment in the same direction,",
+     "explanation": "Spurn Head in Yorkshire is a 5.5 km long spit formed by longshore drift. Prevailing north-easterly waves transport sediment southwards along the Holderness Coast (1 mark). When the coastline changes direction at the Humber Estuary, longshore drift continues to deposit sediment in the same direction,",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Coastal Management] Describe one hard engineering strategy used to protect the coast. (2 marks)",
+     "correctAnswer": "Rock armour involves placing large boulders (1-2 tonnes) at the base of cliffs (1 mark). The boulders absorb and deflect wave energy, reducing erosion of the cliff behind (1 mark).",
+     "explanation": "Rock armour involves placing large boulders (1-2 tonnes) at the base of cliffs (1 mark). The boulders absorb and deflect wave energy, reducing erosion of the cliff behind (1 mark).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Coastal Management] Explain how groynes protect the coastline. (4 marks)",
+     "correctAnswer": "Groynes are wooden or concrete barriers built at right angles to the coastline, extending into the sea (1 mark). They trap sediment being transported by longshore drift on the up-drift side (1 mark). This builds up a wider beach which absorbs more wave energy naturally (1 mark). However, groynes sta",
+     "explanation": "Groynes are wooden or concrete barriers built at right angles to the coastline, extending into the sea (1 mark). They trap sediment being transported by longshore drift on the up-drift side (1 mark). This builds up a wider beach which absorbs more wave energy naturally (1 mark). However, groynes sta",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Coastal Management] Compare hard and soft engineering approaches to coastal management. (6 marks)",
+     "correctAnswer": "Hard engineering uses artificial structures to resist wave energy - sea walls reflect waves and prevent flooding, but are expensive (£5,000-10,000/m) and ugly (1 mark). Rock armour and gabions absorb energy but have shorter lifespans (1 mark). Soft engineering works with natural processes - beach no",
+     "explanation": "Hard engineering uses artificial structures to resist wave energy - sea walls reflect waves and prevent flooding, but are expensive (£5,000-10,000/m) and ugly (1 mark). Rock armour and gabions absorb energy but have shorter lifespans (1 mark). Soft engineering works with natural processes - beach no",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C10-concentration-and-yield",
+ "topicName": "Concentration And Yield",
+ "version": 1,
+ "tests": [
+  {
+   "id": "c10-concentration-and-yield-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Concentration And Yield",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "c10-concentration-and-yield-t1",
+     "type": "short-answer",
+     "question": "Foundation 10 g of sugar is dissolved in 200 cm³ of solution. Calculate the concentration in g/dm³.",
+     "correctAnswer": "Volume = 200 ÷ 1000 = 0.2 dm³. Concentration = 10 ÷ 0.2 = 50 g/dm³",
+     "explanation": "Answer: Volume = 200 ÷ 1000 = 0.2 dm³. Concentration = 10 ÷ 0.2 = 50 g/dm³",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c10-concentration-and-yield-t2",
+     "type": "short-answer",
+     "question": "Foundation A reaction has a theoretical yield of 80 g. The actual yield is 60 g. Calculate the percentage yield.",
+     "correctAnswer": "Percentage yield = (60 ÷ 80) × 100 = 75%",
+     "explanation": "Answer: Percentage yield = (60 ÷ 80) × 100 = 75%",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "c10-concentration-and-yield-t5",
+     "type": "short-answer",
+     "question": "Foundation A solution of HCl has a concentration of 0.5 mol/dm³. How many moles of HCl are in 100 cm³ of this solution?",
+     "correctAnswer": "Volume = 100 ÷ 1000 = 0.1 dm³. Moles = 0.5 × 0.1 = 0.05 mol",
+     "explanation": "Answer: Volume = 100 ÷ 1000 = 0.1 dm³. Moles = 0.5 × 0.1 = 0.05 mol",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

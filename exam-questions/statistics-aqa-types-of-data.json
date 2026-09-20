@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "types-of-data",
+ "topicName": "Types Of Data",
+ "version": 1,
+ "questions": [
+  {
+   "id": "types-of-data-q1",
+   "type": "short-answer",
+   "question": "Q: Is 'number of goals scored in a match' discrete or continuous?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Discrete — it can only take whole-number values (0, 1, 2, …).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "types-of-data-q2",
+   "type": "short-answer",
+   "question": "Q: Give an example of ordinal data.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Satisfaction rating (very dissatisfied, dissatisfied, neutral, satisfied, very satisfied).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "types-of-data-q3",
+   "type": "short-answer",
+   "question": "Q: What is bivariate data?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Data that consists of pairs of values for two variables measured on the same individual, used to investigate relationships.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "types-of-data-q4",
+   "type": "short-answer",
+   "question": "Q: Why is 'height' classified as continuous data?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Because height can take any value within a range, including decimal values like 165.3 cm.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "types-of-data-q5",
+   "type": "short-answer",
+   "question": "Q: What type of diagram is most appropriate for displaying continuous grouped data?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A histogram.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "types-of-data-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Classify each of the following as qualitative (categorical or ordinal), discrete quantitative or continuous quantitative: (a) hair colour, (b) exam grade (A–U), (c) time taken to run 100 m, (d) number of books read last month. <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Hair colour — qualitative categorical: it is non-numerical and the categories (blonde, brown, black, red, etc.) have no natural order. (b) Exam grade (A–U) — qualitative ordinal: the grades are non-numerical categories but they do have a natural ranking from A (best) to U (worst). (c) Time taken to run 100 m — continuous quantitative: time can take any value within a range, including decimals (e.g. 12.37 seconds). (d) Number of books read last month — discrete quantitative: it is numerical but can only take whole-number values (0, 1, 2, 3, …).",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "(a) Hair colour — qualitative categorical: it is non-numerical and the categories (blonde, brown, black, red, etc.) have no natural order. (b) Exam grade (A–U) — qualitative ordinal: the grades are non-numerical categories but they do have a natural ranking from A (best) to U (worst). (c) Time taken to run 100 m — continuous quantitative: time can take any value within a range, including decimals (e.g. 12.37 seconds). (d) Number of books read last month — discrete quantitative: it is numerical but can only take whole-number values (0, 1, 2, 3, …)."
+   }
+  }
+ ]
+}

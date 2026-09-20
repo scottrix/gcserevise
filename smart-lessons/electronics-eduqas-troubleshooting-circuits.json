@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "troubleshooting-circuits",
+ "topicName": "Troubleshooting & Fault Finding",
+ "version": 1,
+ "steps": [
+  {
+   "id": "troubleshooting-circuits-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Systematic fault finding follows a logical sequence: observe symptoms, identify the section at fault, locate the faulty component, then repair and test."
+  },
+  {
+   "id": "troubleshooting-circuits-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The half-split method tests at the midpoint of a signal path, halving the suspect area with each measurement."
+  },
+  {
+   "id": "troubleshooting-circuits-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An open circuit breaks the current path; symptoms include zero current flow and full supply voltage across the break."
+  },
+  {
+   "id": "troubleshooting-circuits-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A short circuit provides a zero-resistance path; symptoms include excessive current, blown fuses and overheating."
+  },
+  {
+   "id": "troubleshooting-circuits-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Describe the half-split method of fault finding. | Q: What are the symptoms of an open-circuit resistor in a series circuit? | Q: What is a solder bridge and how can it be detected?"
+  },
+  {
+   "id": "troubleshooting-circuits-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Measure at the midpoint of the signal path; if the signal is correct there, the fault is after that point; if not, it is before. Repeat to narrow down the fault location. | Zero current flows, the full supply voltage appears across the open resistor, and components after the break have no voltage across them. | A solder bridge is an unintended solder connection between adjacent tracks; it is detected by visual inspection and continuity testing with a multimeter."
+  },
+  {
+   "id": "troubleshooting-circuits-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always describe a systematic approach: observe, identify the section, locate the component, repair, retest. State that the power supply should be checked before signal paths. Explain the half-split method step by step with a practical example. Distinguish clearly between open-circuit symptoms (no current, voltage across break) and short-circuit symptoms (excess current, near-zero voltage across short). Mention both visual inspection and meter testing as complementary fault-finding techniques."
+  }
+ ]
+}

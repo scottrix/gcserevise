@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "surface-finishing-treatment",
+ "topicName": "Surface Finishing & Treatment",
+ "version": 1,
+ "steps": [
+  {
+   "id": "surface-finishing-treatment-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Heat treatment alters material properties through controlled heating and cooling cycles without changing the shape."
+  },
+  {
+   "id": "surface-finishing-treatment-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Annealing heats metal above its critical temperature then cools it slowly (in the furnace) to soften and increase ductility."
+  },
+  {
+   "id": "surface-finishing-treatment-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Hardening heats steel above its critical temperature then quenches rapidly (in water or oil) to produce a hard, brittle martensitic structure."
+  },
+  {
+   "id": "surface-finishing-treatment-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Tempering reheats hardened steel to a lower temperature then cools it; reduces brittleness while retaining most of the hardness."
+  },
+  {
+   "id": "surface-finishing-treatment-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Describe the full heat treatment process for hardening and tempering a high-carbon steel chisel. | Q: Explain why temperpering is always carried out after hardening. | Q: How does galvanising protect steel from corrosion even if the zinc coating is scratched?"
+  },
+  {
+   "id": "surface-finishing-treatment-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Heat the chisel to above its critical temperature (approximately 800 degrees C) until cherry red. Quench rapidly in oil or water to produce hard martensite. Reheat to approximately 250-300 degrees C ( | Hardening produces a very hard but brittle martensitic structure that is prone to cracking under impact. Tempering reheats to a moderate temperature to allow some carbon to precipitate from the marten | Zinc is more electrochemically active than steel, so it acts as a sacrificial anode. Even when scratched, the surrounding zinc corrodes preferentially (sacrificial protection), protecting the exposed "
+  },
+  {
+   "id": "surface-finishing-treatment-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always give the full heat treatment sequence: temperature, method of cooling and the resulting property change. Distinguish between annealing (slow cool = soft) and hardening (quench = hard) — the starting temperature is the same. Tempering MUST follow hardening — never describe hardening alone as a complete treatment. Galvanising offers both barrier protection AND sacrificial protection — mention both in your answer. For surface finishing questions, always link the finish to a specific functional requirement."
+  }
+ ]
+}

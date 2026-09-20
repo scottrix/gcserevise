@@ -1,0 +1,138 @@
+{
+ "subject": "drama",
+ "board": "Edexcel",
+ "topic": "mock-exam",
+ "topicName": "Drama Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "drama-mock",
+   "name": "Drama Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Stage Types and Performance Spaces] Name three stage types and explain how each affects the audience-performer relationship.",
+     "correctAnswer": "Three named types with clear explanation of audience positioning and the performer relationship — e.g. proscenium creates distance/thrust creates intimacy/in-the-round creates total immersion.",
+     "explanation": "Three named types with clear explanation of audience positioning and the performer relationship — e.g. proscenium creates distance/thrust creates intimacy/in-the-round creates total immersion.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Stage Types and Performance Spaces] A director wants to create an intimate, immersive experience. Which stage type would you recommend and why?",
+     "correctAnswer": "A justified recommendation (e.g. promenade or in-the-round) with specific reasons about audience proximity, sight lines and the immersive qualities the stage type enables.",
+     "explanation": "A justified recommendation (e.g. promenade or in-the-round) with specific reasons about audience proximity, sight lines and the immersive qualities the stage type enables.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Stage Types and Performance Spaces] Compare the advantages and disadvantages of performing in-the-round versus a proscenium arch stage.",
+     "correctAnswer": "A balanced comparison: in-the-round gives intimacy and 360-degree audience engagement but requires constant movement management; proscenium allows controlled focus and set design but creates distance.",
+     "explanation": "A balanced comparison: in-the-round gives intimacy and 360-degree audience engagement but requires constant movement management; proscenium allows controlled focus and set design but creates distance.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Boal and Theatre of the Oppressed] Explain how forum theatre works and why Boal believed it was important for social change.",
+     "correctAnswer": "Forum theatre: a short play showing oppression is performed, then replayed. Spect-actors shout 'Stop!', replace the oppressed character, and try different strategies. The Joker facilitates. It's important because it turns passive audiences into active problem-solvers, rehearsing real-world change.",
+     "explanation": "Forum theatre: a short play showing oppression is performed, then replayed. Spect-actors shout 'Stop!', replace the oppressed character, and try different strategies. The Joker facilitates. It's important because it turns passive audiences into active problem-solvers, rehearsing real-world change.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Boal and Theatre of the Oppressed] What is the role of the 'Joker' in forum theatre? How does this differ from a traditional director?",
+     "correctAnswer": "The Joker is a facilitator, not a director — they encourage intervention, ask questions and manage the forum. Unlike a director who controls the action, the Joker hands power to the spect-actors.",
+     "explanation": "The Joker is a facilitator, not a director — they encourage intervention, ask questions and manage the forum. Unlike a director who controls the action, the Joker hands power to the spect-actors.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Boal and Theatre of the Oppressed] Compare Boal's Theatre of the Oppressed with Brecht's epic theatre — both want social change but use different methods. How?",
+     "correctAnswer": "Both want social change. Brecht: audience THINKS about issues from a distance (V-effect). Boal: audience ACTS on issues by intervening (forum theatre). Brecht is observation; Boal is participation. Both reject passive entertainment.",
+     "explanation": "Both want social change. Brecht: audience THINKS about issues from a distance (V-effect). Boal: audience ACTS on issues by intervening (forum theatre). Brecht is observation; Boal is participation. Both reject passive entertainment.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Devising Process and Stimulus] Describe the process you would use to develop a piece of drama from a stimulus. Use a specific example.",
+     "correctAnswer": "Full process: receive stimulus → initial reactions → research → brainstorm → improvise → select strongest ideas → structure → rehearse → refine. Give a specific stimulus example showing each stage.",
+     "explanation": "Full process: receive stimulus → initial reactions → research → brainstorm → improvise → select strongest ideas → structure → rehearse → refine. Give a specific stimulus example showing each stage.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Devising Process and Stimulus] How can research enhance a devised piece? What types of research might you do?",
+     "correctAnswer": "Research adds depth and authenticity: factual research (statistics, history), personal research (interviews, experiences), artistic research (other plays, art works). It prevents cliches and enriches content.",
+     "explanation": "Research adds depth and authenticity: factual research (statistics, history), personal research (interviews, experiences), artistic research (other plays, art works). It prevents cliches and enriches content.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Devising Process and Stimulus] Explain how collaborative devising is different from working with a script. What are the challenges and benefits?",
+     "correctAnswer": "Collaborative: everyone contributes ideas, ownership is shared, multiple perspectives enrich the work. Challenges: compromise, conflicting visions, unequal contribution. Benefits: creativity, investment, diverse ideas.",
+     "explanation": "Collaborative: everyone contributes ideas, ownership is shared, multiple perspectives enrich the work. Challenges: compromise, conflicting visions, unequal contribution. Benefits: creativity, investment, diverse ideas.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Rehearsal Techniques and Strategies] Explain how hot-seating and role on the wall help develop character understanding during the devising process.",
+     "correctAnswer": "Hot-seating reveals what the character knows and feels through questioning; role on the wall shows what is hidden (inside) versus what is visible (outside). Both deepen character understanding — hot-seating is verbal, role on the wall is visual.",
+     "explanation": "Hot-seating reveals what the character knows and feels through questioning; role on the wall shows what is hidden (inside) versus what is visible (outside). Both deepen character understanding — hot-seating is verbal, role on the wall is visual.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Rehearsal Techniques and Strategies] Describe how you would use thought tracking and conscience alley to explore a character's moral dilemma.",
+     "correctAnswer": "Thought tracking reveals the character's inner conflict in a specific moment; conscience alley externalises the two sides of the dilemma. Together they show the gap between what a character says and what they think.",
+     "explanation": "Thought tracking reveals the character's inner conflict in a specific moment; conscience alley externalises the two sides of the dilemma. Together they show the gap between what a character says and what they think.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Rehearsal Techniques and Strategies] What is 'marking the moment' and why is it an effective rehearsal technique?",
+     "correctAnswer": "Marking the moment identifies the most dramatically important point and highlights it — through slow motion, freeze-frame, repetition or sound. It's effective because it directs the audience's attention to the key turning point.",
+     "explanation": "Marking the moment identifies the most dramatically important point and highlights it — through slow motion, freeze-frame, repetition or sound. It's effective because it directs the audience's attention to the key turning point.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

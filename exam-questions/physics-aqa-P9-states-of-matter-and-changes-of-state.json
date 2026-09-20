@@ -1,0 +1,129 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P9-states-of-matter-and-changes-of-state",
+ "topicName": "P9 States Of Matter And Changes Of State",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p9-states-of-matter-and-changes-of-state-q1",
+   "type": "short-answer",
+   "question": "Foundation Describe the arrangement and movement of particles in a gas.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Particles in a gas are arranged randomly, far apart, and move rapidly in all directions. They have the highest energy of the three states.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p9-states-of-matter-and-changes-of-state-q2",
+   "type": "short-answer",
+   "question": "Foundation A metal block has a mass of 2.7 kg and a volume of 0.001 m³. Calculate its density in kg/m³.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "ρ = m / V = 2.7 / 0.001 = 2700 kg/m³ (this is aluminium)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p9-states-of-matter-and-changes-of-state-q3",
+   "type": "short-answer",
+   "question": "Foundation Explain why the temperature of a substance does not change while it is melting, even though energy is being supplied.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The energy is being used to break intermolecular bonds (increase potential energy) rather than increase the kinetic energy of particles. Since temperature depends on average kinetic energy, the temperature stays constant.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p9-states-of-matter-and-changes-of-state-q4",
+   "type": "short-answer",
+   "question": "Higher 500 kJ of energy is supplied to change water at 100°C into steam. The specific latent heat of vaporisation of water is 2 260 000 J/kg. Calculate the mass of water that boils.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "m = E / L v = 500 000 / 2 260 000 = 0.221 kg (221 g)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p9-states-of-matter-and-changes-of-state-q5",
+   "type": "short-answer",
+   "question": "Higher An irregular object has a mass of 250 g. When placed in a measuring cylinder, the water level rises from 30 cm³ to 80 cm³. Calculate the density in g/cm³ and kg/m³.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "V = 80 − 30 = 50 cm³. ρ = 250 / 50 = 5.0 g/cm³. In kg/m³: 5.0 × 1000 = 5000 kg/m³",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p9-states-of-matter-and-changes-of-state-q6",
+   "type": "short-answer",
+   "question": "Higher Sketch a heating curve for water from −20°C to 120°C. Label the melting point, boiling point, and the sections where changes of state occur.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The heating curve should show: a rising slope from −20°C to 0°C (ice warming), a flat section at 0°C (melting), a rising slope from 0°C to 100°C (water warming), a flat section at 100°C (boiling), and a rising slope above 100°C (steam warming). The melting point is 0°C and the boiling point is 100°C.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p9-states-of-matter-and-changes-of-state-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain, in terms of particles, what happens to a solid as it is heated from below its melting point to above its boiling point. Include references to internal energy and the changes that occur. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Initially, the solid is heated and particles vibrate faster about their fixed positions — kinetic energy increases and temperature rises. At the melting point, energy breaks intermolecular bonds so particles can move past each other — this is the change from solid to liquid. Temperature stays constant because energy increases potential energy, not kinetic energy. Once fully melted, the liquid is heated and particles move faster — kinetic energy and temperature increase again. At the boiling point, energy breaks the remaining bonds completely so particles can move freely in all directions — the",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Initially, the solid is heated and particles vibrate faster about their fixed positions — kinetic energy increases and temperature rises. At the melting point, energy breaks intermolecular bonds so particles can move past each other — this is the change from solid to liquid. Temperature stays constant because energy increases potential energy, not kinetic energy. Once fully melted, the liquid is heated and particles move faster — kinetic energy and temperature increase again. At the boiling point, energy breaks the remaining bonds completely so particles can move freely in all directions — the liquid changes to a gas. Temperature stays constant again as energy goes into increasing potential energy. After boiling, the gas particles move even faster and temperature continues to rise. Mark scheme: 1 mark for each of — particles vibrate faster in solid; KE increases and temperature rises; flat section at melting point — bonds breaking; PE increases not KE; particles move freely as liquid; flat section at boiling point — remaining bonds break; gas particles move rapidly. (6 marks total)"
+   }
+  }
+ ]
+}

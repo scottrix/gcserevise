@@ -1,0 +1,138 @@
+{
+ "subject": "engineering",
+ "board": "CCEA",
+ "topic": "mock-exam",
+ "topicName": "Engineering Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "engineering-mock",
+   "name": "Engineering Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Additive Manufacturing] Q: Explain how FDM 3D printing works, from digital model to finished part.",
+     "correctAnswer": "A CAD model is exported as an STL file, sliced into thin layers by the printer software. The printer heats thermoplastic filament and extrudes it through a nozzle that traces each layer onto the build platform. The platform lowers after each layer and the next is deposited on top. Support material i",
+     "explanation": "A CAD model is exported as an STL file, sliced into thin layers by the printer software. The printer heats thermoplastic filament and extrudes it through a nozzle that traces each layer onto the build platform. The platform lowers after each layer and the next is deposited on top. Support material i",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Additive Manufacturing] Q: Why is additive manufacturing described as producing minimal waste compared to CNC machining?",
+     "correctAnswer": "Additive processes only deposit material where the component exists, so nearly all material becomes the finished part. CNC machining starts with a solid block and removes material (as chips/swarf) to carve the shape, wasting significant raw material.",
+     "explanation": "Additive processes only deposit material where the component exists, so nearly all material becomes the finished part. CNC machining starts with a solid block and removes material (as chips/swarf) to carve the shape, wasting significant raw material.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Additive Manufacturing] Q: Compare FDM and SLS for producing a functional nylon prototype gear.",
+     "correctAnswer": "SLS is better for a functional gear because it fuses nylon powder with a laser, producing parts with good mechanical strength and no support structures needed (unsintered powder supports overhangs). FDM nylon parts have weaker interlayer bonding and require support removal, which can leave surface m",
+     "explanation": "SLS is better for a functional gear because it fuses nylon powder with a laser, producing parts with good mechanical strength and no support structures needed (unsintered powder supports overhangs). FDM nylon parts have weaker interlayer bonding and require support removal, which can leave surface m",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Aerodynamics in Engineering] Q: Explain how an aerofoil generates lift using Bernoulli's principle.",
+     "correctAnswer": "The aerofoil's curved upper surface forces air to travel faster than the flatter lower surface. According to Bernoulli's principle, faster-moving air has lower pressure. The pressure difference (lower above, higher below) creates an upward force — lift — that supports the aircraft.",
+     "explanation": "The aerofoil's curved upper surface forces air to travel faster than the flatter lower surface. According to Bernoulli's principle, faster-moving air has lower pressure. The pressure difference (lower above, higher below) creates an upward force — lift — that supports the aircraft.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Aerodynamics in Engineering] Q: Why does drag increase significantly at higher speeds?",
+     "correctAnswer": "Drag force is proportional to the square of velocity: Fd = 0.5 x Cd x A x rho x v2. Doubling speed quadruples drag, meaning much more thrust (and fuel) is needed to overcome air resistance at high speeds.",
+     "explanation": "Drag force is proportional to the square of velocity: Fd = 0.5 x Cd x A x rho x v2. Doubling speed quadruples drag, meaning much more thrust (and fuel) is needed to overcome air resistance at high speeds.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Aerodynamics in Engineering] Q: Explain two ways a car manufacturer can reduce aerodynamic drag.",
+     "correctAnswer": "1) Streamlining the body shape with a smooth, tapered rear to reduce flow separation and turbulence (lowering form drag). 2) Flattening the underbody and adding a rear diffuser to reduce air turbulence beneath the car, which contributes significantly to overall drag.",
+     "explanation": "1) Streamlining the body shape with a smooth, tapered rear to reduce flow separation and turbulence (lowering form drag). 2) Flattening the underbody and adding a rear diffuser to reduce air turbulence beneath the car, which contributes significantly to overall drag.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Composites & Other Materials] Q: Explain what a composite material is and why composites are used in engineering.",
+     "correctAnswer": "A composite combines a matrix and a reinforcement to create properties that neither material has alone. The reinforcement provides strength and stiffness while the matrix binds, protects and transfers loads. Composites allow engineers to tailor properties for specific applications.",
+     "explanation": "A composite combines a matrix and a reinforcement to create properties that neither material has alone. The reinforcement provides strength and stiffness while the matrix binds, protects and transfers loads. Composites allow engineers to tailor properties for specific applications.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Composites & Other Materials] Q: Compare carbon fibre reinforced polymer (CFRP) and glass fibre reinforced polymer (GRP).",
+     "correctAnswer": "CFRP is lighter and stronger with a higher stiffness-to-weight ratio, but is significantly more expensive. GRP is cheaper, easier to manufacture and still offers good strength and corrosion resistance. CFRP is used where weight is critical (aerospace, motorsport); GRP for marine, chemical and genera",
+     "explanation": "CFRP is lighter and stronger with a higher stiffness-to-weight ratio, but is significantly more expensive. GRP is cheaper, easier to manufacture and still offers good strength and corrosion resistance. CFRP is used where weight is critical (aerospace, motorsport); GRP for marine, chemical and genera",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Composites & Other Materials] Q: Why does fibre orientation matter in composite materials?",
+     "correctAnswer": "Unidirectional fibres provide maximum strength only along the fibre direction; loads perpendicular to the fibres are carried only by the weaker matrix. Woven or multidirectional reinforcement distributes strength in multiple directions, which is needed when loads are not all in one direction.",
+     "explanation": "Unidirectional fibres provide maximum strength only along the fibre direction; loads perpendicular to the fibres are carried only by the weaker matrix. Woven or multidirectional reinforcement distributes strength in multiple directions, which is needed when loads are not all in one direction.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Electrical Systems] Q: Explain how a relay works and why relays are used in engineering control systems.",
+     "correctAnswer": "A small control current flows through the relay coil, creating a magnetic field that pulls in the armature, switching the contacts. This allows a low-voltage, low-current control circuit to safely switch a high-voltage, high-current load circuit, providing isolation and safety.",
+     "explanation": "A small control current flows through the relay coil, creating a magnetic field that pulls in the armature, switching the contacts. This allows a low-voltage, low-current control circuit to safely switch a high-voltage, high-current load circuit, providing isolation and safety.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Electrical Systems] Q: Calculate the current drawn by a 2.2 kW heater connected to a 230V mains supply.",
+     "correctAnswer": "I = P / V = 2200 / 230 = 9.57 A. A 13A fuse would be appropriate for this appliance.",
+     "explanation": "I = P / V = 2200 / 230 = 9.57 A. A 13A fuse would be appropriate for this appliance.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Electrical Systems] Q: Explain the difference between AC and DC power supplies, giving an application for each.",
+     "correctAnswer": "AC reverses direction periodically (mains 230V 50Hz for household and industrial equipment). DC flows in one direction only (batteries for portable electronics and vehicles).",
+     "explanation": "AC reverses direction periodically (mains 230V 50Hz for household and industrial equipment). DC flows in one direction only (batteries for portable electronics and vehicles).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

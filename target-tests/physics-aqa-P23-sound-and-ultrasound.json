@@ -1,0 +1,48 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P23-sound-and-ultrasound",
+ "topicName": "Sound And Ultrasound",
+ "version": 1,
+ "tests": [
+  {
+   "id": "p23-sound-and-ultrasound-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Sound And Ultrasound",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "p23-sound-and-ultrasound-t1",
+     "type": "short-answer",
+     "question": "Foundation State the range of frequencies that humans can hear.",
+     "correctAnswer": "Q1: Humans can hear frequencies between 20 Hz and 20,000 Hz (20 kHz).",
+     "explanation": "Answer: Q1: Humans can hear frequencies between 20 Hz and 20,000 Hz (20 kHz).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p23-sound-and-ultrasound-t3",
+     "type": "short-answer",
+     "question": "Higher A sonar pulse returns after 1.2 s. The speed of sound in water is 1500 m/s. Calculate the depth of the water.",
+     "correctAnswer": "Q3: Total distance = 1500 × 1.2 = 1800 m. Depth = 1800 ÷ 2 = 900 m",
+     "explanation": "Answer: Q3: Total distance = 1500 × 1.2 = 1800 m. Depth = 1800 ÷ 2 = 900 m",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p23-sound-and-ultrasound-t5",
+     "type": "short-answer",
+     "question": "Foundation A person shouts at a cliff and hears the echo 2.0 s later. The speed of sound in air is 330 m/s. How far away is the cliff?",
+     "correctAnswer": "Q5: Total distance = 330 × 2.0 = 660 m. Distance to cliff = 660 ÷ 2 = 330 m",
+     "explanation": "Answer: Q5: Total distance = 330 × 2.0 = 660 m. Distance to cliff = 660 ÷ 2 = 330 m",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

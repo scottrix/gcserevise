@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS32-network-security",
+ "topicName": "Network Security",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs32-network-security-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between symmetric and asymmetric encryption.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Symmetric encryption uses the same key for both encryption and decryption. It is fast but the key must be shared securely between sender and receiver. Asymmetric encryption uses a pair of keys: a public key (shared openly) for encryption and a private key (kept secret) for decryption. It is slower but solves the key distribution problem.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs32-network-security-q2",
+   "type": "short-answer",
+   "question": "What is two-factor authentication? Give an example.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Two-factor authentication requires two different types of evidence to verify identity: something you know (password/PIN), something you have (phone/token), or something you are (biometric). Example: logging into online banking requires your password (know) and a code sent to your phone (have).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs32-network-security-q3",
+   "type": "short-answer",
+   "question": "How does a firewall using packet filtering work?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A firewall using packet filtering examines each data packet's header information (source IP, destination IP, port numbers, protocol) and compares it against a set of predefined rules. Packets matching allowed rules are permitted through; packets matching denied rules or not matching any rule are blocked.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs32-network-security-q4",
+   "type": "short-answer",
+   "question": "What is MAC address filtering and what is its main weakness?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "MAC address filtering only allows devices with pre-approved MAC addresses to connect to a network. Its main weakness is that MAC addresses can be spoofed - an attacker can configure their device to use an approved MAC address and bypass the filter.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs32-network-security-q5",
+   "type": "short-answer",
+   "question": "Explain the principle of defence in depth and why it is important.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Defence in depth uses multiple layers of different security measures so that if one layer fails, others still provide protection. It is important because no single security measure is foolproof - each has weaknesses. By combining methods like firewalls, encryption, authentication, and MAC filtering, the overall security is much stronger than any single method alone.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs32-network-security-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A company network uses a firewall and encryption. Explain two additional security measures the company should implement, justifying why each is needed despite the existing measures. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1. Antivirus/Anti-malware software: A firewall cannot detect malware that is already on a device or that a user downloads intentionally (e.g. from a phishing email). Antivirus software scans files and programs for known malware signatures, quarantining or removing threats that bypass the firewall. 2. User authentication (strong passwords + multi-factor authentication): Encryption protects data in transit but does not prevent unauthorised access if an attacker obtains valid credentials. Strong password policies (minimum length, complexity) and MFA (requiring a second verification step like a ph",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "1. Antivirus/Anti-malware software: A firewall cannot detect malware that is already on a device or that a user downloads intentionally (e.g. from a phishing email). Antivirus software scans files and programs for known malware signatures, quarantining or removing threats that bypass the firewall. 2. User authentication (strong passwords + multi-factor authentication): Encryption protects data in transit but does not prevent unauthorised access if an attacker obtains valid credentials. Strong password policies (minimum length, complexity) and MFA (requiring a second verification step like a phone code) significantly reduce the risk of account compromise, even if passwords are leaked."
+   }
+  }
+ ]
+}

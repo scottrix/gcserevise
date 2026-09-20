@@ -1,0 +1,129 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C7-states-of-matter",
+ "topicName": "C7 States Of Matter",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c7-states-of-matter-q1",
+   "type": "short-answer",
+   "question": "Foundation Describe the arrangement and movement of particles in a solid, a liquid and a gas.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Solid: Particles are arranged in a regular pattern, close together, and vibrate about fixed positions. Liquid: Particles are close together but can move randomly past each other. Gas: Particles are far apart and move very fast in all directions.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c7-states-of-matter-q2",
+   "type": "short-answer",
+   "question": "Foundation Bromine has a melting point of −7°C and a boiling point of 59°C. State the physical state of bromine at: (a) −20°C, (b) 25°C, (c) 80°C.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) −20°C is below the melting point (−7°C), so bromine is a solid. (b) 25°C is between the melting point (−7°C) and boiling point (59°C), so bromine is a liquid. (c) 80°C is above the boiling point (59°C), so bromine is a gas.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c7-states-of-matter-q3",
+   "type": "short-answer",
+   "question": "Foundation Name the changes of state that occur when: (a) ice becomes water, (b) water becomes steam, (c) steam becomes water, (d) water becomes ice.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) Melting. (b) Boiling / evaporation. (c) Condensing. (d) Freezing.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c7-states-of-matter-q4",
+   "type": "short-answer",
+   "question": "Higher Explain why the mass of a substance does not change when it changes state. Why is this a physical change rather than a chemical change?",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The mass does not change because no particles are created or destroyed during a change of state - only the arrangement and movement of the particles changes. It is a physical change rather than a chemical change because no new substances are formed; the particles remain the same substance (e.g. H₂O remains H₂O whether solid, liquid or gas).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c7-states-of-matter-q5",
+   "type": "short-answer",
+   "question": "Higher State two limitations of the simple particle model and explain why each is a limitation.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Limitation 1: The model does not show the forces between particles. This is a limitation because intermolecular forces are crucial for explaining why substances have different melting points and states at different temperatures. Limitation 2: The model represents particles as solid spheres, but real atoms/molecules are not solid spheres. This is a limitation because real particles have internal st",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c7-states-of-matter-q6",
+   "type": "short-answer",
+   "question": "Foundation Dry ice (solid CO₂) turns directly into gas at −78°C. What is this change of state called? Write an equation with state symbols.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "This change of state is called sublimation (solid directly to gas). Equation: CO₂(s) → CO₂(g).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c7-states-of-matter-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain changes of state using the particle model. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "When a solid is heated, particles gain energy and vibrate more vigorously. At the melting point, particles have enough energy to break free from their fixed positions and the regular arrangement collapses — the solid becomes a liquid. When a liquid is heated, particles move faster. At the boiling point, particles have enough energy to overcome the intermolecular forces holding them together and they escape entirely — the liquid becomes a gas where particles move rapidly in all directions and are far apart. During each state change, the temperature stays constant because the energy is being use",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "When a solid is heated, particles gain energy and vibrate more vigorously. At the melting point, particles have enough energy to break free from their fixed positions and the regular arrangement collapses — the solid becomes a liquid. When a liquid is heated, particles move faster. At the boiling point, particles have enough energy to overcome the intermolecular forces holding them together and they escape entirely — the liquid becomes a gas where particles move rapidly in all directions and are far apart. During each state change, the temperature stays constant because the energy is being used to overcome forces between particles rather than increase kinetic energy. No particles are created or destroyed — mass is conserved. Mark scheme: 1 mark for particles gain energy; 1 mark for melting explanation (break fixed positions); 1 mark for boiling explanation (overcome intermolecular forces); 1 mark for constant temperature during state change; 1 mark for energy used to overcome forces; 1 mark for conservation of mass."
+   }
+  }
+ ]
+}

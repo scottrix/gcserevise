@@ -1,0 +1,57 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C3-history-of-the-atom",
+ "topicName": "C3 History Of The Atom",
+ "version": 1,
+ "steps": [
+  {
+   "id": "c3-history-of-the-atom-s1",
+   "kind": "learn",
+   "title": "Atomic model",
+   "body": "A representation of the structure of an atom. Our understanding of the atom has changed over time as new evidence was discovered."
+  },
+  {
+   "id": "c3-history-of-the-atom-s2",
+   "kind": "learn",
+   "title": "Nucleus",
+   "body": "The tiny, dense centre of an atom containing protons and neutrons. It has a positive charge due to the protons."
+  },
+  {
+   "id": "c3-history-of-the-atom-s3",
+   "kind": "learn",
+   "title": "Electron shell",
+   "body": "A fixed energy level at a set distance from the nucleus in which electrons orbit the nucleus."
+  },
+  {
+   "id": "c3-history-of-the-atom-s4",
+   "kind": "learn",
+   "title": "Isotope",
+   "body": "Atoms of the same element that have the same number of protons but a different number of neutrons. They have the same atomic number but different mass numbers."
+  },
+  {
+   "id": "c3-history-of-the-atom-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Rules for electron shells: The first shell holds up to 2 electrons. The second and third shells each hold up to 8 electrons. Electrons fill the shells starting with the one closest to the nucleus. Electron configuration for first 20 elements: 2, 8, 8, 2 Worked Example - Electron Configurations Hydrogen (1): 1 Helium (2): 2 Lithium (3): 2,1 Carbon (6): 2,4 Neon (10): 2,8 Sodium (11): 2,8,1 Argon (18): 2,8,8 Calcium (20): 2,8,8,2 The number of electrons in the outer shell determines the group number in the periodic table. The number of occupied shells determines the period number. Worked Example - Electron Configuration and the Periodic Table Sodium has electron configuration 2,8,1. Outer shell has 1 electron → Group 1 3 occupied shells → Period 3 Chlorine has electron configuration 2,8,7. Outer shell has 7 electrons → Group 7 3 occupied shells → Period 3"
+  },
+  {
+   "id": "c3-history-of-the-atom-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation Describe the plum pudding model and explain how the alpha scattering experiment disproved it. | Foundation A boron atom has atomic number 5 and mass number 11. Calculate the number of protons, neutrons and electrons. | Foundation Write the electron configuration for: (a) nitrogen (atomic number 7), (b) magnesium (atomic number 12), (c) potassium (atomic number 19)."
+  },
+  {
+   "id": "c3-history-of-the-atom-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "The plum pudding model proposed that an atom is a positive sphere with negative electrons embedded in it (like plums in a pudding). The alpha scattering experiment disproved it because: (1) most alpha | Protons = atomic number = 5. Electrons = protons (neutral atom) = 5. Neutrons = mass number − atomic number = 11 − 5 = 6. | (a) Nitrogen (7): 2,5. (b) Magnesium (12): 2,8,2. (c) Potassium (19): 2,8,8,1."
+  },
+  {
+   "id": "c3-history-of-the-atom-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When describing Rutherford's experiment, always link each observation to the conclusion (e.g. \"most passed through → atoms are mostly empty space\") The phrase \"mostly empty space\" is key for Rutherford's model - examiners look for this specifically Electron configuration: remember the first shell only holds 2 electrons, then 8, 8, 2 for the first 20 elements For isotopes, always state that chemical properties are the same because the electron configuration is the same When calculating neutrons, students often forget to subtract: neutrons = mass number − atomic number Relative atomic mass calculations: multiply each isotope mass by its percentage, add them up, then divide by 100"
+  }
+ ]
+}

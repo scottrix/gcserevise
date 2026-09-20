@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "electrical-systems",
+ "topicName": "Electrical Systems",
+ "version": 1,
+ "questions": [
+  {
+   "id": "electrical-systems-q1",
+   "type": "short-answer",
+   "question": "Q: Explain how a relay works and why relays are used in engineering control systems.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A small control current flows through the relay coil, creating a magnetic field that pulls in the armature, switching the contacts. This allows a low-voltage, low-current control circuit to safely switch a high-voltage, high-current load circuit, providing isolation and safety.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "electrical-systems-q2",
+   "type": "short-answer",
+   "question": "Q: Calculate the current drawn by a 2.2 kW heater connected to a 230V mains supply.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "I = P / V = 2200 / 230 = 9.57 A. A 13A fuse would be appropriate for this appliance.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "electrical-systems-q3",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between AC and DC power supplies, giving an application for each.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "AC reverses direction periodically (mains 230V 50Hz for household and industrial equipment). DC flows in one direction only (batteries for portable electronics and vehicles).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "electrical-systems-q4",
+   "type": "short-answer",
+   "question": "Q: Two resistors of 4 ohms and 6 ohms are connected in parallel across a 12V supply. Calculate the total resistance and the current from the supply.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1/Rt = 1/4 + 1/6 = 0.25 + 0.167 = 0.417; Rt = 2.4 ohms. I = V/Rt = 12/2.4 = 5 A.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "electrical-systems-q5",
+   "type": "short-answer",
+   "question": "Q: Describe three electrical safety features used in engineering products.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Earthing provides a path for fault current to flow safely to ground, blowing the fuse. Double insulation (Class II) uses reinforced insulation so earthing is not needed. Fuses and circuit breakers disconnect the supply if current exceeds a safe level.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

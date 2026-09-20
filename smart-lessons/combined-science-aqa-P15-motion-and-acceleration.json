@@ -1,0 +1,57 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P15-motion-and-acceleration",
+ "topicName": "Motion And Acceleration",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p15-motion-and-acceleration-s1",
+   "kind": "learn",
+   "title": "Distance",
+   "body": "How far an object has travelled overall (scalar — magnitude only). Measured in metres (m)."
+  },
+  {
+   "id": "p15-motion-and-acceleration-s2",
+   "kind": "learn",
+   "title": "Displacement",
+   "body": "How far an object is from its starting point in a straight line, including direction (vector — magnitude and direction). Measured in metres (m)."
+  },
+  {
+   "id": "p15-motion-and-acceleration-s3",
+   "kind": "learn",
+   "title": "Speed",
+   "body": "How fast an object is travelling, regardless of direction (scalar). Measured in m/s."
+  },
+  {
+   "id": "p15-motion-and-acceleration-s4",
+   "kind": "learn",
+   "title": "Velocity",
+   "body": "Speed in a given direction (vector). Measured in m/s."
+  },
+  {
+   "id": "p15-motion-and-acceleration-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Feature of graph What it shows Gradient (slope) Speed — steeper gradient = higher speed Flat (horizontal) section Stationary (not moving, speed = 0) Straight sloping line Constant speed Curved line (getting steeper) Acceleration Curved line (getting less steep) Deceleration To find speed from a distance-time graph: calculate the gradient of the line. Speed = gradient = change in distance / change in time. For a curved line, draw a tangent at the point of interest and find its gradient for the instantaneous speed."
+  },
+  {
+   "id": "p15-motion-and-acceleration-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation A runner travels 100 m in 12.5 s. Calculate the average speed. | Foundation A car accelerates from rest to 30 m/s in 6 s. Calculate the acceleration. | Higher A car has initial velocity 8 m/s and accelerates at 2 m/s² for 5 s. Calculate the final velocity and the distance travelled."
+  },
+  {
+   "id": "p15-motion-and-acceleration-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "v = s / t = 100 / 12.5 = 8 m/s | a = Δv / t = (30 − 0) / 6 = 30 / 6 = 5 m/s² | v = u + at = 8 + 2 × 5 = 18 m/s. s = ½(u + v)t = ½(8 + 18) × 5 = ½ × 26 × 5 = 65 m"
+  },
+  {
+   "id": "p15-motion-and-acceleration-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Distance-time graph: gradient = speed . Velocity-time graph: gradient = acceleration . Don't mix these up! On a velocity-time graph, the area under the line = displacement. Calculate it as rectangles and triangles When using SUVAT equations, write down the variables you know and the one you need, then pick the right equation Deceleration is just negative acceleration — use a negative value for a For “from rest”, u = 0. For “comes to a stop”, v = 0 Always include units in your answer — speed in m/s, acceleration in m/s², distance in m"
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P24-light-and-optics",
+ "topicName": "Light And Optics",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p24-light-and-optics-q1",
+   "type": "short-answer",
+   "question": "Foundation State the law of reflection.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q1: The angle of incidence equals the angle of reflection, where both angles are measured from the normal.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p24-light-and-optics-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain the difference between specular and diffuse reflection.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q2: Specular reflection occurs on smooth surfaces — all rays reflect in the same direction, producing a clear image (e.g. a mirror). Diffuse reflection occurs on rough surfaces — the uneven surface means each ray hits at a different angle and reflects in a different direction, so no clear image is formed (e.g. a wall).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p24-light-and-optics-q3",
+   "type": "short-answer",
+   "question": "Higher Light enters water from air at an angle of incidence of 35 degrees. The angle of refraction is 26 degrees. Calculate the refractive index of water.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q3: n = sin i / sin r = sin(35) / sin(26) = 0.574 / 0.438 = 1.31",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p24-light-and-optics-q4",
+   "type": "short-answer",
+   "question": "Higher Diamond has a refractive index of 2.42. Calculate its critical angle.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q4: sin C = 1 / n = 1 / 2.42 = 0.413. C = sin⁻¹(0.413) = 24.4 degrees",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p24-light-and-optics-q5",
+   "type": "short-answer",
+   "question": "Foundation An object 4 cm tall is viewed through a convex lens and produces an image 12 cm tall. Calculate the magnification.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q5: Magnification = image height / object height = 12 / 4 = 3",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p24-light-and-optics-q6",
+   "type": "short-answer",
+   "question": "Higher Explain how total internal reflection allows optical fibres to transmit data over long distances.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q6: Optical fibres are thin strands of glass. Light enters one end and hits the glass-air boundary at an angle greater than the critical angle, causing total internal reflection. The light reflects repeatedly along the fibre, carrying the signal with very little loss. The cladding around the core ensures the light stays within the fibre by keeping the angle above the critical angle.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p24-light-and-optics-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain how total internal reflection is used in optical fibres to transmit data over long distances. Why must the fibre be designed so that light always hits the boundary above the critical angle? <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An optical fibre is a thin strand of glass with a central core surrounded by cladding of lower refractive index. Light enters one end of the fibre and travels through the core. When the light reaches the boundary between the core and the cladding, it hits at an angle greater than the critical angle for the core-cladding boundary. This means total internal reflection occurs, and all the light is reflected back into the core. The light continues to reflect repeatedly off the boundaries as it travels along the fibre, carrying the data signal with very little loss of intensity over long distances.",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "An optical fibre is a thin strand of glass with a central core surrounded by cladding of lower refractive index. Light enters one end of the fibre and travels through the core. When the light reaches the boundary between the core and the cladding, it hits at an angle greater than the critical angle for the core-cladding boundary. This means total internal reflection occurs, and all the light is reflected back into the core. The light continues to reflect repeatedly off the boundaries as it travels along the fibre, carrying the data signal with very little loss of intensity over long distances. The fibre must be designed so that light always hits the boundary above the critical angle because if the angle were below the critical angle, some light would refract out of the core into the cladding, weakening the signal. The cladding has a lower refractive index than the core, ensuring the critical angle condition is met for rays travelling along the fibre. Mark scheme: 1 mark — light enters fibre and travels through glass core, 1 mark — light hits core-cladding boundary above critical angle, 1 mark — total internal reflection occurs repeatedly, 1 mark — signal carried with minimal loss, 1 mark — if angle were below critical angle, light would refract out and signal would weaken, 1 mark — cladding has lower refractive index to ensure TIR conditions are met"
+   }
+  }
+ ]
+}

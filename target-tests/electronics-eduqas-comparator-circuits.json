@@ -1,0 +1,38 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "comparator-circuits",
+ "topicName": "Comparator Circuits",
+ "version": 1,
+ "tests": [
+  {
+   "id": "comparator-circuits-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Comparator Circuits",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "comparator-circuits-t2",
+     "type": "short-answer",
+     "question": "Q: A Schmitt trigger has V_UT = 4 V and V_LT = 2 V. What is the hysteresis voltage?",
+     "correctAnswer": "V_H = V_UT − V_LT = 4 − 2 = 2 V.",
+     "explanation": "Answer: V_H = V_UT − V_LT = 4 − 2 = 2 V.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "comparator-circuits-t4",
+     "type": "short-answer",
+     "question": "Q: A comparator has V+ = 3.2 V and V− = 3.0 V. What is the output state?",
+     "correctAnswer": "Since V+ > V−, the output is at positive saturation (high).",
+     "explanation": "Answer: Since V+ > V−, the output is at positive saturation (high).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

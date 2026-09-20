@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C10-concentration-and-yield",
+ "topicName": "Concentration And Yield",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c10-concentration-and-yield-q1",
+   "type": "short-answer",
+   "question": "Foundation 10 g of sugar is dissolved in 200 cm³ of solution. Calculate the concentration in g/dm³.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Volume = 200 ÷ 1000 = 0.2 dm³. Concentration = 10 ÷ 0.2 = 50 g/dm³",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c10-concentration-and-yield-q2",
+   "type": "short-answer",
+   "question": "Foundation A reaction has a theoretical yield of 80 g. The actual yield is 60 g. Calculate the percentage yield.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Percentage yield = (60 ÷ 80) × 100 = 75%",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c10-concentration-and-yield-q3",
+   "type": "short-answer",
+   "question": "Higher In the reaction C₂H₄ + Br₂ → C₂H₄Br₂, the desired product is C₂H₄Br₂. Calculate the atom economy. (M r : C₂H₄Br₂ = 188)",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "This is an addition reaction — there is only one product. Atom economy = (188 ÷ 188) × 100 = 100%",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c10-concentration-and-yield-q4",
+   "type": "short-answer",
+   "question": "Higher Explain two reasons why the actual yield of a reaction is always less than the theoretical yield.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Any two from: incomplete reactions (not all reactants convert to products); product lost during separation/purification; reversible reactions (some products reform reactants); side reactions producing unwanted by-products.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c10-concentration-and-yield-q5",
+   "type": "short-answer",
+   "question": "Foundation A solution of HCl has a concentration of 0.5 mol/dm³. How many moles of HCl are in 100 cm³ of this solution?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Volume = 100 ÷ 1000 = 0.1 dm³. Moles = 0.5 × 0.1 = 0.05 mol",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c10-concentration-and-yield-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain the difference between percentage yield and atom economy. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Percentage yield measures how much product is actually obtained compared to the theoretical maximum. It is calculated as (actual yield ÷ theoretical yield) × 100. A yield less than 100% occurs because of incomplete reactions, product lost during purification, reversible reactions or side reactions. Atom economy measures how efficiently the reactant atoms end up in the desired product. It is calculated as (M r of desired product ÷ sum of M r of all products) × 100. A reaction can have a high percentage yield but low atom economy (e.g. making H₂ from Zn + 2HCl has high yield but low atom economy",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Percentage yield measures how much product is actually obtained compared to the theoretical maximum. It is calculated as (actual yield ÷ theoretical yield) × 100. A yield less than 100% occurs because of incomplete reactions, product lost during purification, reversible reactions or side reactions. Atom economy measures how efficiently the reactant atoms end up in the desired product. It is calculated as (M r of desired product ÷ sum of M r of all products) × 100. A reaction can have a high percentage yield but low atom economy (e.g. making H₂ from Zn + 2HCl has high yield but low atom economy because most atoms end up in waste ZnCl₂). Both are important: yield for practical efficiency and atom economy for sustainability and waste reduction. Mark scheme: 1 mark for defining % yield; 1 mark for formula; 1 mark for reasons yield is less than 100%; 1 mark for defining atom economy; 1 mark for formula; 1 mark for explaining they measure different things with example."
+   }
+  }
+ ]
+}

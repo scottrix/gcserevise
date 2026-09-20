@@ -1,0 +1,129 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P28-electromagnetic-induction",
+ "topicName": "Electromagnetic Induction",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p28-electromagnetic-induction-q1",
+   "type": "short-answer",
+   "question": "Foundation State three ways to increase the size of an induced potential difference.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q1: Three from: use a stronger magnet, move the conductor faster through the field, use more turns of wire on the coil.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p28-electromagnetic-induction-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain the difference between an alternator and a dynamo.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q2: An alternator produces alternating current (AC) and uses slip rings to connect the coil to the circuit. A dynamo produces direct current (DC) and uses a split ring commutator to reverse the connections every half turn, keeping the current flowing in one direction only.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p28-electromagnetic-induction-q3",
+   "type": "short-answer",
+   "question": "Higher A transformer has 800 turns on the primary coil and 40 turns on the secondary coil. The primary voltage is 230 V. Calculate the secondary voltage.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q3: Vp / Vs = Np / Ns, so 230 / Vs = 800 / 40 = 20. Vs = 230 / 20 = 11.5 V",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p28-electromagnetic-induction-q4",
+   "type": "short-answer",
+   "question": "Higher A 100% efficient step-up transformer has an input voltage of 25,000 V and an input current of 400 A. The output voltage is 400,000 V. Calculate the output current.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q4: Vp x Ip = Vs x Is. 25000 x 400 = 400000 x Is. 10,000,000 = 400000 x Is. Is = 10,000,000 / 400,000 = 25 A",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p28-electromagnetic-induction-q5",
+   "type": "short-answer",
+   "question": "Foundation Explain why the National Grid uses step-up transformers between power stations and transmission cables.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q5: Step-up transformers increase the voltage for transmission. Higher voltage means lower current for the same power. Lower current means less energy is lost as heat in the transmission cables (since P = I2R), making the system more efficient.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p28-electromagnetic-induction-q6",
+   "type": "short-answer",
+   "question": "Higher Explain why transformers only work with alternating current and not with direct current.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q6: Transformers work by electromagnetic induction: the primary coil's AC produces a changing magnetic field in the iron core, which induces a potential difference in the secondary coil. With DC, the current and magnetic field are constant, so there is no changing field to induce a PD in the secondary coil (except briefly at switch-on or switch-off).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p28-electromagnetic-induction-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain why the National Grid transmits electricity at very high voltages. Describe the role of step-up and step-down transformers and explain why transmitting at high voltage reduces energy loss. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Power stations generate electricity at about 25,000 V. Before transmission across the country, a step-up transformer increases the voltage to around 400,000 V. For the same power transmitted (P = VI), a higher voltage means a lower current flows in the transmission cables. This is important because energy lost as heat in the cables depends on the current squared and the resistance (P = I²R). A lower current means much less energy is wasted as heat in the cables, making the transmission more efficient. For example, doubling the voltage halves the current, and since power loss depends on I², the",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Power stations generate electricity at about 25,000 V. Before transmission across the country, a step-up transformer increases the voltage to around 400,000 V. For the same power transmitted (P = VI), a higher voltage means a lower current flows in the transmission cables. This is important because energy lost as heat in the cables depends on the current squared and the resistance (P = I²R). A lower current means much less energy is wasted as heat in the cables, making the transmission more efficient. For example, doubling the voltage halves the current, and since power loss depends on I², the energy lost is reduced to one quarter. At the consumer end, step-down transformers reduce the voltage to 230 V for safe domestic use. Without the high-voltage transmission, a much larger current would flow, and far more energy would be wasted as heat, making the system very inefficient and requiring much thicker, more expensive cables. Mark scheme: 1 mark — step-up transformer increases voltage from 25,000 V to 400,000 V, 1 mark — higher voltage means lower current for same power (P = VI), 1 mark — energy loss is proportional to I²R, 1 mark — lower current means much less energy wasted as heat, 1 mark — step-down transformer reduces voltage to 230 V for safe use, 1 mark — quantification (e.g. doubling V halves I, reducing loss by factor of 4)"
+   }
+  }
+ ]
+}

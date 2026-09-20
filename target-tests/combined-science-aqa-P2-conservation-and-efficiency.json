@@ -1,0 +1,48 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P2-conservation-and-efficiency",
+ "topicName": "P2 Conservation And Efficiency",
+ "version": 1,
+ "tests": [
+  {
+   "id": "p2-conservation-and-efficiency-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on P2 Conservation And Efficiency",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "p2-conservation-and-efficiency-t1",
+     "type": "short-answer",
+     "question": "Foundation A device has a total energy input of 1000 J. The useful energy output is 700 J. Calculate the efficiency as a percentage.",
+     "correctAnswer": "Efficiency = (700 ÷ 1000) × 100% = 70%.",
+     "explanation": "Answer: Efficiency = (700 ÷ 1000) × 100% = 70%.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p2-conservation-and-efficiency-t3",
+     "type": "short-answer",
+     "question": "Foundation A motor has an input power of 400 W and an efficiency of 75%. Calculate the useful output power.",
+     "correctAnswer": "Useful power out = 0.75 × 400 = 300 W.",
+     "explanation": "Answer: Useful power out = 0.75 × 400 = 300 W.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p2-conservation-and-efficiency-t4",
+     "type": "short-answer",
+     "question": "Higher An electric kettle is 90% efficient. It transfers 180 000 J of useful energy to the water. Calculate the total electrical energy input.",
+     "correctAnswer": "Total energy in = useful energy out ÷ efficiency = 180 000 ÷ 0.90 = 200 000 J.",
+     "explanation": "Answer: Total energy in = useful energy out ÷ efficiency = 180 000 ÷ 0.90 = 200 000 J.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

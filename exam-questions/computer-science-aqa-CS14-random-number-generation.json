@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS14-random-number-generation",
+ "topicName": "Random Number Generation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs14-random-number-generation-q1",
+   "type": "short-answer",
+   "question": "Write pseudo-code to simulate rolling two dice and output the total.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "die1 ← RANDOM(6) + 1 die2 ← RANDOM(6) + 1 total ← die1 + die2 OUTPUT \"You rolled \", die1, \" and \", die2, \" = \", total",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs14-random-number-generation-q2",
+   "type": "short-answer",
+   "question": "Write pseudo-code to generate a random number between 50 and 100 (inclusive).",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "number ← RANDOM(51) + 50 // RANDOM(51) gives 0-50, +50 gives 50-100",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs14-random-number-generation-q3",
+   "type": "short-answer",
+   "question": "Explain what a seed is and why it is useful for debugging.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A seed is a starting value for the random number generator. The same seed always produces the same sequence of pseudorandom numbers. This is useful for debugging because you can reproduce the same \"random\" results each time you run the program, making it easier to find and fix errors.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs14-random-number-generation-q4",
+   "type": "short-answer",
+   "question": "Write pseudo-code that simulates a coin flip 10 times and counts the number of heads.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "heads ← 0 FOR i ← 1 TO 10 flip ← RANDOM(2) // 0 or 1 IF flip = 0 THEN heads ← heads + 1 ENDIF NEXT i OUTPUT \"Heads: \", heads",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs14-random-number-generation-q5",
+   "type": "short-answer",
+   "question": "A game has a 1 in 8 chance of finding treasure. Write pseudo-code to simulate this.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "chance ← RANDOM(8) // 0 to 7 IF chance = 0 THEN // 1 in 8 chance OUTPUT \"You found treasure!\" ELSE OUTPUT \"No treasure here\" ENDIF",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs14-random-number-generation-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Write pseudo-code for a program that simulates rolling two dice and calculates the total. The program should roll 1000 times and count how many times the total is 7. Output the count and the percentage. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "count ← 0 FOR i ← 1 TO 1000 die1 ← RANDOM_INT(1, 6) die2 ← RANDOM_INT(1, 6) total ← die1 + die2 IF total = 7 THEN count ← count + 1 ENDIF NEXT i percentage ← (count / 1000) * 100 OUTPUT 'Total of 7 appeared ' & count & ' times' OUTPUT 'Percentage: ' & percentage & '%'",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "count ← 0 FOR i ← 1 TO 1000 die1 ← RANDOM_INT(1, 6) die2 ← RANDOM_INT(1, 6) total ← die1 + die2 IF total = 7 THEN count ← count + 1 ENDIF NEXT i percentage ← (count / 1000) * 100 OUTPUT 'Total of 7 appeared ' & count & ' times' OUTPUT 'Percentage: ' & percentage & '%'"
+   }
+  }
+ ]
+}

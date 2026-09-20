@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "control-systems",
+ "topicName": "Control Systems & Microcontrollers",
+ "version": 1,
+ "questions": [
+  {
+   "id": "control-systems-q1",
+   "type": "short-answer",
+   "question": "Q: Give one advantage and one disadvantage of open-loop control.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Advantage: simple and low cost. Disadvantage: cannot correct for disturbances or changes in the system since there is no feedback.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "control-systems-q2",
+   "type": "short-answer",
+   "question": "Q: Describe the three essential components of a closed-loop control system.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A sensor to measure the output, a comparator to calculate the error between the output and set point, and a controller to adjust the input to reduce the error.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "control-systems-q3",
+   "type": "short-answer",
+   "question": "Q: Explain how PWM can be used to control the brightness of an LED.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A PWM signal rapidly switches the LED on and off; increasing the duty cycle (on-time proportion) increases the average current and brightness, while decreasing it dims the LED.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "control-systems-q4",
+   "type": "short-answer",
+   "question": "Q: What is the role of an ADC in a microcontroller-based sensor system?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The ADC converts the analogue voltage from a sensor into a digital number that the microcontroller can read, process and use in its control program.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "control-systems-q5",
+   "type": "short-answer",
+   "question": "Q: Why might a thermostat use hysteresis instead of a single temperature threshold?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hysteresis creates separate turn-on and turn-off temperatures, preventing the heating from rapidly switching on and off when the temperature is near the set point.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "control-systems-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Compare open-loop and closed-loop control systems, and explain how a microcontroller can implement a closed-loop temperature control system. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An open-loop control system applies an input to a process without checking the result; it is simple and cheap but cannot correct for disturbances or component variations. A closed-loop system measures the actual output using a sensor, compares it with the desired set point using a comparator, and adjusts the controller output to reduce the error. This feedback makes closed-loop systems more accurate and robust, though more complex. A microcontroller can implement closed-loop temperature control as follows: a temperature sensor (e.g. thermistor in a potential divider) produces an analogue volta",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "An open-loop control system applies an input to a process without checking the result; it is simple and cheap but cannot correct for disturbances or component variations. A closed-loop system measures the actual output using a sensor, compares it with the desired set point using a comparator, and adjusts the controller output to reduce the error. This feedback makes closed-loop systems more accurate and robust, though more complex. A microcontroller can implement closed-loop temperature control as follows: a temperature sensor (e.g. thermistor in a potential divider) produces an analogue voltage proportional to temperature. The microcontroller's ADC converts this to a digital value. The control program compares the reading with the set point stored in software. If the temperature is below the set point, the microcontroller turns on a heater (via a transistor or relay); if above, it turns the heater off. Adding hysteresis (separate on and off thresholds) prevents rapid cycling. PWM can provide proportional control rather than simple on/off, adjusting the heater power according to the error magnitude. The program runs in a continuous loop, reading the sensor, calculating the error and updating the output to maintain the desired temperature."
+   }
+  }
+ ]
+}

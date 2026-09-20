@@ -5,8 +5,9 @@
     var depth = 0;
     var path = window.location.pathname;
     var parts = path.split('/').filter(Boolean);
-    if (parts.length > 2) depth = 2;
-    else if (parts.length > 1) depth = 1;
+    // parts include the site-root segment and the filename, so climb
+    // everything above those to reach the site root.
+    depth = Math.max(0, parts.length - 2);
     var prefix = '';
     for (var i = 0; i < depth; i++) prefix += '../';
     return prefix + 'fastmail_icon.svg';

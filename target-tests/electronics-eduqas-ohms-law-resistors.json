@@ -1,0 +1,58 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "ohms-law-resistors",
+ "topicName": "Ohm's Law & Resistor Networks",
+ "version": 1,
+ "tests": [
+  {
+   "id": "ohms-law-resistors-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Ohm's Law & Resistor Networks",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "ohms-law-resistors-t1",
+     "type": "short-answer",
+     "question": "Q: Three resistors of 2 Ω, 3 Ω and 5 Ω are connected in series. What is the total resistance?",
+     "correctAnswer": "R_total = 2 + 3 + 5 = 10 Ω.",
+     "explanation": "Answer: R_total = 2 + 3 + 5 = 10 Ω.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ohms-law-resistors-t2",
+     "type": "short-answer",
+     "question": "Q: Two resistors of 6 Ω and 3 Ω are connected in parallel. What is the total resistance?",
+     "correctAnswer": "R_total = (6 × 3)/(6 + 3) = 18/9 = 2 Ω.",
+     "explanation": "Answer: R_total = (6 × 3)/(6 + 3) = 18/9 = 2 Ω.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ohms-law-resistors-t3",
+     "type": "short-answer",
+     "question": "Q: A 12 V supply feeds a potential divider with R1 = 4 kΩ and R2 = 8 kΩ. What is V_out?",
+     "correctAnswer": "V_out = 12 × 8/(4 + 8) = 12 × 8/12 = 8 V.",
+     "explanation": "Answer: V_out = 12 × 8/(4 + 8) = 12 × 8/12 = 8 V.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ohms-law-resistors-t5",
+     "type": "short-answer",
+     "question": "Q: In a series circuit of 10 Ω and 20 Ω with a 9 V supply, what is the voltage across the 20 Ω resistor?",
+     "correctAnswer": "V = 9 × 20/(10 + 20) = 9 × 20/30 = 6 V.",
+     "explanation": "Answer: V = 9 × 20/(10 + 20) = 9 × 20/30 = 6 V.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

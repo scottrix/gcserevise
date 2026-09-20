@@ -1,0 +1,48 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S6-scatter-graphs",
+ "topicName": "S6 Scatter Graphs",
+ "version": 1,
+ "tests": [
+  {
+   "id": "s6-scatter-graphs-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on S6 Scatter Graphs",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "s6-scatter-graphs-t1",
+     "type": "short-answer",
+     "question": "What type of correlation would you expect between hours of sleep and tiredness?",
+     "correctAnswer": "Negative correlation - more sleep means less tiredness.",
+     "explanation": "Answer: Negative correlation - more sleep means less tiredness.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s6-scatter-graphs-t2",
+     "type": "short-answer",
+     "question": "A line of best fit has equation y = 3x + 5. Predict y when x = 7.",
+     "correctAnswer": "y = 3(7) + 5 = 21 + 5 = 26",
+     "explanation": "Answer: y = 3(7) + 5 = 21 + 5 = 26",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s6-scatter-graphs-t4",
+     "type": "short-answer",
+     "question": "A scatter graph shows test scores between 40% and 90%. Is predicting a score of 95% interpolation or extrapolation?",
+     "correctAnswer": "Extrapolation - 95% is outside the range of 40-90%.",
+     "explanation": "Answer: Extrapolation - 95% is outside the range of 40-90%.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

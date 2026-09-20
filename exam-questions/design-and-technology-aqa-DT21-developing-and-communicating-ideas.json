@@ -1,0 +1,78 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT21-developing-and-communicating-ideas",
+ "topicName": "Developing and Communicating Ideas",
+ "version": 1,
+ "questions": [
+  {
+   "id": "dt21-developing-and-communicating-ideas-q1",
+   "type": "short-answer",
+   "question": "Explain why designers begin with freehand sketches before moving to CAD, rather than going straight to computer modelling.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Freehand sketching is fast and fluid - designers can generate 10-20 concepts in the time it takes to model one in CAD. Sketching allows rapid exploration without software constraints. CAD is used later to refine the best concept with precision.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt21-developing-and-communicating-ideas-q2",
+   "type": "short-answer",
+   "question": "Describe the key features of an orthographic projection drawing and explain why it is used for manufacturing.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Orthographic projection shows the object in 2D from multiple perpendicular views: front elevation, side elevation, plan. Drawn to scale, true dimensions, no perspective distortion, includes dimension lines, material specifications. Used for manufacture because it provides precise, unambiguous information.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt21-developing-and-communicating-ideas-q3",
+   "type": "short-answer",
+   "question": "A designer needs to show how a retractable pen assembles. Which drawing type is most appropriate and why?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An exploded view is most appropriate - it shows each component separated along the axis of assembly, with lines indicating how parts connect. This clearly communicates the assembly sequence, which neither orthographic (external form only) nor rendered perspective (does not reveal internal parts) can do effectively.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dt21-developing-and-communicating-ideas-ext",
+   "type": "extended",
+   "question": "Full-Mark Response You are designing a desk lamp. Produce an annotated freehand sketch of one concept, then explain how you would develop this idea using CAD, including two specific advantages CAD provides. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: produce a sketch showing the lamp's form (base, articulated arm, shade), annotate with materials (weighted steel base, aluminium arm, polymer shade), dimensions (base 200 mm, arm reach 400 mm), function (adjustable arm, touch dimmer). CAD development: 1) Parametric modelling - adjust proportions, test geometry. 2) FEA - simulate stress on arm joint, simulate thermal performance of LED housing.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: produce a sketch showing the lamp's form (base, articulated arm, shade), annotate with materials (weighted steel base, aluminium arm, polymer shade), dimensions (base 200 mm, arm reach 400 mm), function (adjustable arm, touch dimmer). CAD development: 1) Parametric modelling - adjust proportions, test geometry. 2) FEA - simulate stress on arm joint, simulate thermal performance of LED housing."
+   }
+  }
+ ]
+}

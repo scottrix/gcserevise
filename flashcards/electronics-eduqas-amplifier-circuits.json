@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "amplifier-circuits",
+ "topicName": "Amplifier Circuits",
+ "version": 1,
+ "cards": [
+  {
+   "id": "amplifier-circuits-fc1",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "Voltage gain is the ratio of output voltage to input voltage: Av = Vout/Vin; it can be expressed as a number or in decibels (dB).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc2",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "Gain in decibels: G(dB) = 20 log₁₀(Av); a gain of 10 equals 20 dB, a gain of 100 equals 40 dB.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc3",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "Bandwidth is the range of frequencies over which the amplifier operates within specification, typically defined between the −3 dB points.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc4",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "The gain-bandwidth product (GBW) is constant for a given op-amp: as closed-loop gain increases, bandwidth decreases proportionally.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc5",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "Negative feedback reduces gain but increases bandwidth, improves linearity and stabilises the circuit against component variations.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc6",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "The inverting amplifier has Av = −Rf/Rin; its input impedance equals Rin (not the op-amp's input impedance).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc7",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "The summing amplifier (inverting) combines multiple inputs: Vout = −Rf(V1/R1 + V2/R2 + V3/R3).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc8",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "A summing amplifier with equal input resistors gives Vout = −(Rf/R)(V1 + V2 + V3); it acts as an analogue adder.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc9",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "If Rf = R for each input, the output is the negative sum of all input voltages.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc10",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "The output resistance of an op-amp with negative feedback is very low, making it close to an ideal voltage source.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc11",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "Power bandwidth is the maximum frequency at which the output can swing fully without slew-rate-induced distortion.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc12",
+   "front": "Recall a key point about Amplifier Circuits",
+   "back": "Input offset voltage is a small differential voltage needed to zero the output; it can be corrected with a trimming potentiometer.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc13",
+   "front": "What should you know about gcse electronics exam tips — amplifier circuits?",
+   "back": "1. For Amplifier Circuits questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Amplifier Circuits, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-amp"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc14",
+   "front": "Full-Mark Response",
+   "back": "Explain the concept of gain-bandwidth product and describe how a summing amplifier combines multiple input signals.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "amplifier-circuits-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of amplifier circuits, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of amplifier circuits to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits and systems, ma",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

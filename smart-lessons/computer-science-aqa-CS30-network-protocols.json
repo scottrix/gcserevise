@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS30-network-protocols",
+ "topicName": "Network Protocols",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs30-network-protocols-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A protocol is a set of rules that governs how data is transmitted between devices on a network. Protocols define the format, timing, sequencing, and error checking of data transmission."
+  },
+  {
+   "id": "cs30-network-protocols-s2",
+   "kind": "learn",
+   "title": "Key Concept",
+   "body": "Protocols are needed so that different devices and systems can communicate with each other. Without agreed rules, there would be no way to ensure data arrives correctly, completely, and in the right order."
+  },
+  {
+   "id": "cs30-network-protocols-s3",
+   "kind": "learn",
+   "title": "Purpose",
+   "body": "TCP ensures reliable delivery of data between devices. It breaks data into packets, numbers them, checks they all arrive, and reassembles them in the correct order."
+  },
+  {
+   "id": "cs30-network-protocols-s4",
+   "kind": "learn",
+   "title": "Purpose",
+   "body": "IP handles addressing and routing of data packets across networks. It adds source and destination IP addresses to each packet so it can be routed to the correct destination."
+  },
+  {
+   "id": "cs30-network-protocols-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "What is a network protocol and why are protocols needed? | Explain the roles of TCP and IP and how they work together. | What is the difference between HTTP and HTTPS?"
+  },
+  {
+   "id": "cs30-network-protocols-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "A network protocol is a set of rules that governs how data is transmitted between devices. Protocols are needed to ensure different devices can communicate, data arrives correctly and completely, erro | TCP ensures reliable delivery by breaking data into packets, numbering them, checking they all arrive, and reassembling them in order. IP handles addressing and routing, adding source and destination  | HTTP transfers web pages in plain text (no encryption) and is not secure. HTTPS is the same as HTTP but adds SSL/TLS encryption, making the data unreadable to anyone intercepting it. HTTPS also uses d"
+  },
+  {
+   "id": "cs30-network-protocols-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know the definition of a protocol: \"a set of rules for data communication\" Be able to explain the role of each key protocol (TCP, IP, HTTP, HTTPS, SMTP, IMAP) Remember: SMTP = sending, IMAP = receiving (not the other way round) Always mention encryption when comparing HTTP and HTTPS TCP = reliability; IP = addressing/routing Protocol layers allow modularity and independence between layers"
+  }
+ ]
+}

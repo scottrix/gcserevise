@@ -171,7 +171,13 @@ class FlashcardRenderer {
   // Load flashcards from JSON file
   async loadFlashcards(jsonUrl) {
     try {
-      const response = await fetch(jsonUrl);
+      let response = await fetch(jsonUrl);
+      if (!response.ok) {
+        // Board variants share content: fall back to the AQA pack.
+        const fallbackUrl = jsonUrl.replace(
+          /(\/gcserevise\/[a-z-]+\/[a-z0-9-]+-)(edexcel|ocr|eduqas|ccea)(?=-)/, '$1aqa');
+        if (fallbackUrl !== jsonUrl) response = await fetch(fallbackUrl);
+      }
       if (!response.ok) throw new Error(`Failed to load: ${jsonUrl}`);
       const data = await response.json();
       this.flashcards = data.cards || [];

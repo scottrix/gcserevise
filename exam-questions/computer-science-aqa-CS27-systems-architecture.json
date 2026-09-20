@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS27-systems-architecture",
+ "topicName": "Systems Architecture",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs27-systems-architecture-q1",
+   "type": "short-answer",
+   "question": "Describe the role of each of the following CPU components: ALU, Control Unit, PC, MAR, MDR, ACC.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "ALU: performs arithmetic and logic operations. Control Unit: coordinates all CPU activities, decodes instructions. PC: holds the memory address of the next instruction to fetch. MAR: holds the memory address to read from or write to. MDR: holds the data being read from or written to memory. ACC: stores the results of ALU calculations.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs27-systems-architecture-q2",
+   "type": "short-answer",
+   "question": "Explain the three stages of the fetch-decode-execute cycle.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Fetch: the address in the PC is copied to the MAR, the instruction at that address is copied to the MDR, then to the CIR, and the PC is incremented. Decode: the control unit decodes the instruction in the CIR to identify the operation and operands. Execute: the instruction is carried out (e.g. ALU performs calculation) and results are stored in the ACC or written to memory.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs27-systems-architecture-q3",
+   "type": "short-answer",
+   "question": "How does increasing the number of cores affect CPU performance? Why doesn't doubling the cores double the speed?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "More cores allow the CPU to process multiple instructions simultaneously (parallel processing). However, doubling cores does not double speed because: not all tasks can be divided into parallel parts, some software is not written to use multiple cores, and cores share some resources (cache, bus bandwidth).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs27-systems-architecture-q4",
+   "type": "short-answer",
+   "question": "What is the purpose of cache memory? Why does a larger cache improve performance?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cache stores frequently used data and instructions close to the CPU, providing faster access than RAM. A larger cache holds more frequently used data, reducing cache misses (times the CPU must wait for data from slower RAM). Fewer cache misses = less wasted time = better performance.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs27-systems-architecture-q5",
+   "type": "short-answer",
+   "question": "State whether each bus is unidirectional or bidirectional: address bus, data bus, control bus.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Address bus: unidirectional (CPU to memory). Data bus: bidirectional. Control bus: bidirectional.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs27-systems-architecture-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Describe the role of the CPU in the Fetch-Decode-Execute cycle, explaining the purpose of the Program Counter, Memory Address Register, and Accumulator. [5 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The CPU continuously performs the Fetch-Decode-Execute cycle: FETCH: The Program Counter (PC) holds the address of the next instruction. This address is copied to the Memory Address Register (MAR). The instruction at that address is fetched from RAM and stored in the Memory Data Register (MDR). The PC is then incremented to point to the next instruction. DECODE: The Control Unit (CU) decodes the fetched instruction to determine what operation to perform and what data is needed. EXECUTE: The Arithmetic Logic Unit (ALU) performs any calculations or logic operations. The result is stored in the A",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "The CPU continuously performs the Fetch-Decode-Execute cycle: FETCH: The Program Counter (PC) holds the address of the next instruction. This address is copied to the Memory Address Register (MAR). The instruction at that address is fetched from RAM and stored in the Memory Data Register (MDR). The PC is then incremented to point to the next instruction. DECODE: The Control Unit (CU) decodes the fetched instruction to determine what operation to perform and what data is needed. EXECUTE: The Arithmetic Logic Unit (ALU) performs any calculations or logic operations. The result is stored in the Accumulator (a special register that holds the results of arithmetic/logic operations). If needed, the result may be stored back in RAM. The cycle then repeats from FETCH."
+   }
+  }
+ ]
+}

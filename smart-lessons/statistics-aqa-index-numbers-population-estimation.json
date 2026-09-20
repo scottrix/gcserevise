@@ -1,0 +1,51 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "index-numbers-population-estimation",
+ "topicName": "Index Numbers Population Estimation",
+ "version": 1,
+ "steps": [
+  {
+   "id": "index-numbers-population-estimation-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An index number measures how a quantity changes relative to a base period; the base value is always 100"
+  },
+  {
+   "id": "index-numbers-population-estimation-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Index number = (current value ÷ base value) × 100; an index of 120 means a 20% increase from the base period"
+  },
+  {
+   "id": "index-numbers-population-estimation-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "RPI (Retail Prices Index) measures the change in cost of a basket of goods and services including mortgage interest payments"
+  },
+  {
+   "id": "index-numbers-population-estimation-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "CPI (Consumer Prices Index) is similar to RPI but excludes mortgage interest and housing costs; CPI is used for the government’s inflation target"
+  },
+  {
+   "id": "index-numbers-population-estimation-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: In the base year 2020, a basket of goods cost £200. In 2024 the same basket costs £260. Calculate the index number for 2024 with 2020 as the base. | Q: A weighted price index is calculated from three items. Item A: price relative 120, weight 4. Item B: price relative 105, weight 3. Item C: price relative 135, weight 1. Find the overall weighted in | Q: In a capture-recapture study, 48 rabbits are caught, tagged and released. Later, 60 rabbits are caught and 12 have tags. Estimate the total rabbit population."
+  },
+  {
+   "id": "index-numbers-population-estimation-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Index = (260 ÷ 200) × 100 = 130. Prices have risen by 30% since the base year. | Weighted index = (4×120 + 3×105 + 1×135) ÷ (4+3+1) = (480 + 315 + 135) ÷ 8 = 930 ÷ 8 = 116.25 | N = (48 × 60) ÷ 12 = 2880 ÷ 12 = 240. The estimated population is 240 rabbits."
+  },
+  {
+   "id": "index-numbers-population-estimation-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always state the base year when giving an index number, and show the calculation as (current/base) × 100 For weighted index questions, set out a clear table with columns for item, price relative, and weight before calculating When discussing RPI vs CPI, mention that CPI excludes mortgage interest payments and is the government’s preferred measure In capture-recapture questions, list the assumptions and explain how violating each one would affect the estimate For crude vs standardised rate questions, always explain that crude rates can be misleading due to different population structures"
+  }
+ ]
+}

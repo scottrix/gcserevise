@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS28-memory-storage",
+ "topicName": "Memory & Storage",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs28-memory-storage-fc1",
+   "front": "Recall a key point about Memory & Storage",
+   "back": "Primary memory is the memory that is directly accessible by the CPU. It holds the data and instructions that the CPU is currently using or will need soon. Primary memory includes RAM and ROM.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc2",
+   "front": "Recall a key point about Memory & Storage",
+   "back": "RAM is volatile memory that stores the data and programs currently in use. It is called \"random access\" because any location can be accessed in the same amount of time. RAM loses its contents when power is turned off.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc3",
+   "front": "Recall a key point about Memory & Storage",
+   "back": "ROM is non-volatile memory that stores permanent instructions. Its contents cannot be changed (or are very difficult to change). ROM retains its data even when power is switched off.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc4",
+   "front": "Recall a key point about Memory & Storage",
+   "back": "Cache is a small, very fast memory located between the CPU and RAM. It stores frequently accessed data and instructions to reduce the time the CPU spends waiting for data from slower RAM.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc5",
+   "front": "Recall a key point about Memory & Storage",
+   "back": "Registers are the smallest, fastest memory locations in the computer system. They are located inside the CPU itself and hold individual data values currently being processed.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc6",
+   "front": "Recall a key point about Memory & Storage",
+   "back": "Virtual memory is a technique where the operating system uses a section of the hard drive as if it were additional RAM. When RAM is full, the OS moves less-used data from RAM to a \"swap file\" or \"page file\" on the hard drive.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc7",
+   "front": "What should you know about exam point?",
+   "back": "Adding more RAM reduces the need for virtual memory, which improves performance because RAM is much faster than accessing the hard drive for swapping.",
+   "tags": [
+    "exam-point"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc8",
+   "front": "Recall a key point about Memory & Storage",
+   "back": "Secondary storage is non-volatile, long-term storage that holds data permanently, even when the power is off. It is used to store the operating system, applications, and user files. It is much slower than primary memory but has much larger capacity.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc9",
+   "front": "Recall a key point about Memory & Storage",
+   "back": "Cloud storage stores data on remote servers accessed via the internet, rather than on local storage devices. The data is managed by a third-party provider.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc10",
+   "front": "Recall a key point about Memory & Storage",
+   "back": "An embedded system is a computer system built into a larger device, designed to perform a specific, dedicated function. It typically has a microprocessor, ROM (not RAM), and limited I/O.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc11",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Memory hierarchy: Cache (fastest, smallest) → RAM → Virtual Memory → SSD → HDD (slowest, largest). RAM: volatile, fast, working storage. ROM: non-volatile, boot instructions. Virtual memory: disk space used as RAM overflow, slow. SSD vs HDD: speed, durability, cost, capacity. When asked about performance, consider the bottleneck — if RAM is full, virtual memory slows everything down (thrashing).",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc12",
+   "front": "What does Volatility mean?",
+   "back": "Volatile (lost without power) (e.g. Non-volatile (retained without power))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc13",
+   "front": "What does Read/Write mean?",
+   "back": "Read and write (e.g. Read only)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc14",
+   "front": "What does Contents mean?",
+   "back": "Running programs and current data (e.g. Permanent boot/startup instructions)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs28-memory-storage-fc15",
+   "front": "What does Changeable mean?",
+   "back": "Yes - constantly changing (e.g. No - set at manufacture)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

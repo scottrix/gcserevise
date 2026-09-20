@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "operational-amplifiers",
+ "topicName": "Operational Amplifiers",
+ "version": 1,
+ "questions": [
+  {
+   "id": "operational-amplifiers-q1",
+   "type": "short-answer",
+   "question": "Q: An inverting amplifier has Rin = 10 kΩ and Rf = 100 kΩ. What is its voltage gain?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Av = −Rf/Rin = −100/10 = −10. The gain magnitude is 10 and the output is inverted.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "operational-amplifiers-q2",
+   "type": "short-answer",
+   "question": "Q: A non-inverting amplifier has Rf = 47 kΩ and R1 = 10 kΩ. Calculate the voltage gain.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Av = 1 + Rf/R1 = 1 + 47/10 = 1 + 4.7 = 5.7.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "operational-amplifiers-q3",
+   "type": "short-answer",
+   "question": "Q: State two properties of an ideal op-amp.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Infinite open-loop gain and infinite input impedance (also zero output impedance and infinite bandwidth).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "operational-amplifiers-q4",
+   "type": "short-answer",
+   "question": "Q: What is the virtual earth principle in an inverting amplifier?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Negative feedback keeps the inverting input at virtually the same potential as the non-inverting input (0 V), so it acts as a virtual earth.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "operational-amplifiers-q5",
+   "type": "short-answer",
+   "question": "Q: Why is negative feedback used in op-amp circuits?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Negative feedback reduces and stabilises gain, increases bandwidth, reduces distortion and makes the gain depend on external resistors rather than the op-amp's internal gain.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "operational-amplifiers-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Describe the characteristics of an ideal op-amp and explain how negative feedback is used in both inverting and non-inverting amplifier configurations. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An ideal op-amp has infinite open-loop gain, infinite input impedance, zero output impedance and infinite bandwidth. In practice, real op-amps have very high gain (10⁵–10⁶) and input impedance, with low output impedance. In an inverting amplifier, the input signal is applied through Rin to the inverting input, with Rf providing negative feedback from output to inverting input; the non-inverting input is grounded. Due to the virtual earth principle, both inputs sit at approximately 0 V, so gain is Av = −Rf/Rin. In a non-inverting amplifier, the input goes to the non-inverting input, and a fract",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "An ideal op-amp has infinite open-loop gain, infinite input impedance, zero output impedance and infinite bandwidth. In practice, real op-amps have very high gain (10⁵–10⁶) and input impedance, with low output impedance. In an inverting amplifier, the input signal is applied through Rin to the inverting input, with Rf providing negative feedback from output to inverting input; the non-inverting input is grounded. Due to the virtual earth principle, both inputs sit at approximately 0 V, so gain is Av = −Rf/Rin. In a non-inverting amplifier, the input goes to the non-inverting input, and a fraction of the output is fed back to the inverting input via a voltage divider (Rf and R1); gain is Av = 1 + Rf/R1. Negative feedback in both configurations stabilises the gain, makes it dependent on resistor values rather than the op-amp's internal characteristics, increases bandwidth and reduces distortion."
+   }
+  }
+ ]
+}

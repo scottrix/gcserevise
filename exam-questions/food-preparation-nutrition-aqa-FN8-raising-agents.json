@@ -1,0 +1,78 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "FN8-raising-agents",
+ "topicName": "Raising Agents & Aeration",
+ "version": 1,
+ "questions": [
+  {
+   "id": "fn8-raising-agents-q1",
+   "type": "short-answer",
+   "question": "Q: What is the difference between bicarbonate of soda and baking powder?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Bicarbonate of soda is a single chemical (NaHCO₃) that requires an acid to activate it and produce CO₂. Baking powder contains both bicarbonate of soda AND cream of tartar (acid), so it only needs moisture and heat to activate. Use bicarbonate of soda when the recipe contains acidic ingredients (buttermilk, cocoa, lemon); use baking powder when there is no acid.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "fn8-raising-agents-q2",
+   "type": "short-answer",
+   "question": "Q: How does yeast make bread rise?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Yeast is a living microorganism that ferments sugars in the dough, producing carbon dioxide gas and ethanol. The CO₂ is trapped by the gluten network (developed through kneading), causing the dough to expand. This process (proving) requires warmth (25-35°C), moisture, food (sugar from flour), and time. During baking, the heat kills the yeast, evaporates the ethanol, and sets the structure through ",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "fn8-raising-agents-q3",
+   "type": "short-answer",
+   "question": "Q: Evaluate the importance of oven temperature in successful baking with raising agents.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Oven temperature is critical. Too low: gas is produced slowly and escapes before the structure sets (protein coagulation, starch gelatinisation), causing collapse. Too high: gas expands too rapidly, the product rises too fast and then collapses as the structure can't support it. The correct temperature allows gas production and structural setting to happen at the right pace — the product rises ful",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "fn8-raising-agents-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Compare chemical and biological raising agents, explaining how they work and when each is used. [12 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Chemical and biological raising agents both produce gas to aerate baked goods, but they differ fundamentally in their mechanism, speed, and applications. Chemical raising agents (baking powder, bicarbonate of soda) produce CO₂ through chemical reactions. Baking powder contains both bicarbonate of soda and cream of tartar — moisture activates the reaction, and heat accelerates it. Bicarbonate of soda alone requires an acidic ingredient to activate it. Chemical raising agents work quickly, producing gas as soon as they are mixed with liquid, and continue producing gas during heating. Chemical ra",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Chemical and biological raising agents both produce gas to aerate baked goods, but they differ fundamentally in their mechanism, speed, and applications. Chemical raising agents (baking powder, bicarbonate of soda) produce CO₂ through chemical reactions. Baking powder contains both bicarbonate of soda and cream of tartar — moisture activates the reaction, and heat accelerates it. Bicarbonate of soda alone requires an acidic ingredient to activate it. Chemical raising agents work quickly, producing gas as soon as they are mixed with liquid, and continue producing gas during heating. Chemical raising agents are used in cakes, scones, biscuits, and quick breads where speed is needed. They produce a fine, even texture and require no proving time. However, they have limitations: the reaction is fixed (can't be controlled once activated), and too much produces a soapy taste or causes collapse. Biological raising agents (yeast) produce CO₂ through fermentation — a living process. Yeast feeds on sugars in flour, producing CO₂ and ethanol. The process requires warmth (25-35°C), moisture, food, and time (typically 1-2 hours for proving). Kneading develops the gluten network that traps the gas. Yeast is used in bread, rolls, and pizza dough. It produces a distinctive flavour (from fermentation by-products) and a chewy, open texture. The process can be controlled through temperature and time, but requires patience and skill. The key differences: chemical agents work quickly and are used "
+   }
+  }
+ ]
+}

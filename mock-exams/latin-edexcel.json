@@ -1,0 +1,138 @@
+{
+ "subject": "latin",
+ "board": "Edexcel",
+ "topic": "mock-exam",
+ "topicName": "Latin Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "latin-mock",
+   "name": "Latin Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Cases & Their Uses] Q: What is the function of the nominative case?",
+     "correctAnswer": "It marks the subject of the verb and the complement after verbs like sum (to be). For example: puella currit (the girl runs).",
+     "explanation": "It marks the subject of the verb and the complement after verbs like sum (to be). For example: puella currit (the girl runs).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Cases & Their Uses] Q: When is the vocative different from the nominative?",
+     "correctAnswer": "Only in the second declension masculine singular, where -us becomes -e (e.g. Marce, not Marcus) and -ius becomes -i (e.g. fili, not filius).",
+     "explanation": "Only in the second declension masculine singular, where -us becomes -e (e.g. Marce, not Marcus) and -ius becomes -i (e.g. fili, not filius).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Cases & Their Uses] Q: What is the difference between the accusative and dative cases?",
+     "correctAnswer": "The accusative marks the direct object (what is directly acted upon: puellam video — I see the girl). The dative marks the indirect object (to/for whom: puellae librum dedi — I gave a book to the girl).",
+     "explanation": "The accusative marks the direct object (what is directly acted upon: puellam video — I see the girl). The dative marks the indirect object (to/for whom: puellae librum dedi — I gave a book to the girl).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Narrative & Style in Prose] Q: Why is word order significant in Latin prose?",
+     "correctAnswer": "Latin word order is flexible, so authors place words in specific positions for emphasis. The first and last positions in a sentence are the most emphatic, and any unexpected positioning draws attention.",
+     "explanation": "Latin word order is flexible, so authors place words in specific positions for emphasis. The first and last positions in a sentence are the most emphatic, and any unexpected positioning draws attention.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Narrative & Style in Prose] Q: What is hyperbaton and what effect does it create?",
+     "correctAnswer": "Hyperbaton is the separation of an adjective from its noun (e.g. 'magna cum virtute' instead of 'cum magna virtute'). It draws attention to both words and creates a literary, emphasised effect.",
+     "explanation": "Hyperbaton is the separation of an adjective from its noun (e.g. 'magna cum virtute' instead of 'cum magna virtute'). It draws attention to both words and creates a literary, emphasised effect.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Narrative & Style in Prose] Q: Define tricolon and give an example.",
+     "correctAnswer": "A group of three parallel phrases or clauses that build emphasis and climax. The most famous example is Caesar's 'veni, vidi, vici' (I came, I saw, I conquered).",
+     "explanation": "A group of three parallel phrases or clauses that build emphasis and climax. The most famous example is Caesar's 'veni, vidi, vici' (I came, I saw, I conquered).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Nouns & Declensions] Q: How many declensions are there in Latin?",
+     "correctAnswer": "Five: first (a-stem), second (o-stem), third (consonant/i-stem), fourth (u-stem), and fifth (e-stem).",
+     "explanation": "Five: first (a-stem), second (o-stem), third (consonant/i-stem), fourth (u-stem), and fifth (e-stem).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Nouns & Declensions] Q: What gender are most first declension nouns? Name two masculine exceptions.",
+     "correctAnswer": "Mostly feminine. Masculine exceptions include nauta (sailor) and agricola (farmer).",
+     "explanation": "Mostly feminine. Masculine exceptions include nauta (sailor) and agricola (farmer).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Nouns & Declensions] Q: How do you find the stem of a third declension noun?",
+     "correctAnswer": "Remove the genitive singular ending (-is) from the genitive form. For example: rex, regis → stem is reg-.",
+     "explanation": "Remove the genitive singular ending (-is) from the genitive form. For example: rex, regis → stem is reg-.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Poetic Metre & Style] Q: What is a dactylic hexameter and which types of poetry use it?",
+     "correctAnswer": "A line of six feet, each foot being a dactyl (- uu) or spondee (--), with a spondee or trochee in the final foot. It is the metre of epic poetry (Virgil's Aeneid, Ovid's Metamorphoses).",
+     "explanation": "A line of six feet, each foot being a dactyl (- uu) or spondee (--), with a spondee or trochee in the final foot. It is the metre of epic poetry (Virgil's Aeneid, Ovid's Metamorphoses).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Poetic Metre & Style] Q: What is the caesura and why is it important?",
+     "correctAnswer": "A natural pause within a hexameter line, usually in the third foot. It divides the line into two parts and allows the poet to structure meaning within the metrical framework.",
+     "explanation": "A natural pause within a hexameter line, usually in the third foot. It divides the line into two parts and allows the poet to structure meaning within the metrical framework.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Poetic Metre & Style] Q: Explain elision with an example.",
+     "correctAnswer": "When a word ending in a vowel or -m is followed by a word beginning with a vowel or h-, the final syllable is not pronounced separately. Example: multum ille et terris becomes multill'et terris.",
+     "explanation": "When a word ending in a vowel or -m is followed by a word beginning with a vowel or h-, the final syllable is not pronounced separately. Example: multum ille et terris becomes multill'et terris.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

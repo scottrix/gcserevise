@@ -1,0 +1,138 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "mock-exam",
+ "topicName": "Biology Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "biology-mock",
+   "name": "Biology Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[B1 Cell Structure] Name three structures found in both animal and plant cells.",
+     "correctAnswer": "Nucleus, cell membrane, cytoplasm, mitochondria, ribosomes (any three)",
+     "explanation": "Nucleus, cell membrane, cytoplasm, mitochondria, ribosomes (any three)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[B1 Cell Structure] Name three structures found in plant cells but NOT in animal cells.",
+     "correctAnswer": "Cell wall (cellulose), chloroplasts, permanent vacuole (cell sap)",
+     "explanation": "Cell wall (cellulose), chloroplasts, permanent vacuole (cell sap)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[B1 Cell Structure] Describe two differences between a prokaryotic cell and a eukaryotic cell.",
+     "correctAnswer": "Prokaryotic cells have no nucleus (DNA is free in cytoplasm); prokaryotic cells are smaller (0.2-2.0 μm vs 5-100 μm); prokaryotic cells have circular DNA and may have plasmids (any two)",
+     "explanation": "Prokaryotic cells have no nucleus (DNA is free in cytoplasm); prokaryotic cells are smaller (0.2-2.0 μm vs 5-100 μm); prokaryotic cells have circular DNA and may have plasmids (any two)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Body Defences] Q1. Name three primary defences of the human body and describe how each one prevents pathogens from entering. Foundation [6 marks]",
+     "correctAnswer": "Skin — acts as a physical barrier covering the body surface, preventing pathogens from entering tissues beneath; also produces antimicrobial secretions that kill bacteria (2 marks)",
+     "explanation": "Skin — acts as a physical barrier covering the body surface, preventing pathogens from entering tissues beneath; also produces antimicrobial secretions that kill bacteria (2 marks)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Body Defences] Q2. Describe the process of phagocytosis. Foundation Higher [4 marks]",
+     "correctAnswer": "Mucus membranes + cilia — mucus traps pathogens in the respiratory tract; cilia beat to move the mucus upwards and out of the respiratory tract where it is swallowed or coughed up (2 marks)",
+     "explanation": "Mucus membranes + cilia — mucus traps pathogens in the respiratory tract; cilia beat to move the mucus upwards and out of the respiratory tract where it is swallowed or coughed up (2 marks)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Body Defences] Q3. Explain how antibodies are specific to one type of pathogen. Use the term 'lock-and-key' in your answer. Foundation Higher [3 marks]",
+     "correctAnswer": "Stomach acid — hydrochloric acid in the stomach kills bacteria and other pathogens in food by creating a highly acidic environment (pH 1–2) that denatures their enzymes (2 marks)",
+     "explanation": "Stomach acid — hydrochloric acid in the stomach kills bacteria and other pathogens in food by creating a highly acidic environment (pH 1–2) that denatures their enzymes (2 marks)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Vaccines And Drugs] Explain how vaccination provides immunity to a disease. (3 marks)",
+     "correctAnswer": "A vaccine contains a dead or inactive pathogen. When injected, white blood cells produce antibodies specific to the pathogen and memory cells are formed. If the live pathogen enters later, memory cells produce antibodies rapidly, destroying the pathogen before illness develops.",
+     "explanation": "A vaccine contains a dead or inactive pathogen. When injected, white blood cells produce antibodies specific to the pathogen and memory cells are formed. If the live pathogen enters later, memory cells produce antibodies rapidly, destroying the pathogen before illness develops.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Vaccines And Drugs] Explain why antibiotics cannot be used to treat viral diseases. (2 marks)",
+     "correctAnswer": "Antibiotics target bacterial structures (like cell walls). Viruses live inside body cells, so antibiotics cannot reach them without damaging the body's own cells. Viruses also have different structures to bacteria, so antibiotics have nothing to target.",
+     "explanation": "Antibiotics target bacterial structures (like cell walls). Viruses live inside body cells, so antibiotics cannot reach them without damaging the body's own cells. Viruses also have different structures to bacteria, so antibiotics have nothing to target.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Vaccines And Drugs] Describe how antibiotic-resistant bacteria develop. (3 marks)",
+     "correctAnswer": "A random mutation in a bacterium makes it resistant to an antibiotic. When the antibiotic is used, non-resistant bacteria are killed but resistant ones survive. The resistant bacteria reproduce, passing on the resistance gene. Over time the resistant population increases.",
+     "explanation": "A random mutation in a bacterium makes it resistant to an antibiotic. When the antibiotic is used, non-resistant bacteria are killed but resistant ones survive. The resistant bacteria reproduce, passing on the resistance gene. Over time the resistant population increases.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Photosynthesis] Write the word equation and symbol equation for photosynthesis.",
+     "correctAnswer": "Word equation: carbon dioxide + water → glucose + oxygen. Symbol equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. (Light energy is required; absorbed by chlorophyll.)",
+     "explanation": "Word equation: carbon dioxide + water → glucose + oxygen. Symbol equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. (Light energy is required; absorbed by chlorophyll.)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Photosynthesis] Name the three limiting factors for photosynthesis and explain how each affects the rate.",
+     "correctAnswer": "The three limiting factors are: (1) Light intensity — more light provides more energy for the reaction, increasing rate until another factor limits; (2) CO₂ concentration — more CO₂ provides more raw material, increasing rate until another factor limits; (3) Temperature — higher temperature increase",
+     "explanation": "The three limiting factors are: (1) Light intensity — more light provides more energy for the reaction, increasing rate until another factor limits; (2) CO₂ concentration — more CO₂ provides more raw material, increasing rate until another factor limits; (3) Temperature — higher temperature increase",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Photosynthesis] Higher A lamp is moved from 10 cm to 30 cm away from a plant. By what factor does the light intensity change?",
+     "correctAnswer": "Distance triples from 10 cm to 30 cm. Light intensity ∝ 1/d². New intensity = 1/30² = 1/900. Original = 1/10² = 1/100. Factor = 100/900 = 1/9. Light intensity is reduced to one ninth.",
+     "explanation": "Distance triples from 10 cm to 30 cm. Light intensity ∝ 1/d². New intensity = 1/30² = 1/900. Original = 1/10² = 1/100. Factor = 100/900 = 1/9. Light intensity is reduced to one ninth.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "subject": "design-and-technology",
+ "board": "Edexcel",
+ "topic": "mock-exam",
+ "topicName": "Design-And-Technology Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "design-and-technology-mock",
+   "name": "Design-And-Technology Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[New and Emerging Technologies] Explain how 3D printing has changed the prototype development process in product design.",
+     "correctAnswer": "3D printing allows designers to create physical prototypes directly from CAD files in hours rather than weeks; it enables iterative testing, reduces material waste compared to subtractive methods, and allows complex geometries that CNC cannot produce.",
+     "explanation": "3D printing allows designers to create physical prototypes directly from CAD files in hours rather than weeks; it enables iterative testing, reduces material waste compared to subtractive methods, and allows complex geometries that CNC cannot produce.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[New and Emerging Technologies] Discuss the social and economic impacts of increasing automation in manufacturing.",
+     "correctAnswer": "Positive: increased productivity, consistent quality, reduced hazardous work for humans. Negative: job displacement, skills gap, initial investment costs, dependence on technology. A balanced answer considers both sides with specific examples.",
+     "explanation": "Positive: increased productivity, consistent quality, reduced hazardous work for humans. Negative: job displacement, skills gap, initial investment costs, dependence on technology. A balanced answer considers both sides with specific examples.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[New and Emerging Technologies] Evaluate how the Internet of Things could influence the design of a domestic kettle.",
+     "correctAnswer": "An IoT kettle could: be controlled remotely via smartphone, learn user habits for energy efficiency, alert users to limescale build-up via sensors, integrate with smart-home energy monitoring. Evaluation should weigh convenience against cost, privacy and reliability concerns.",
+     "explanation": "An IoT kettle could: be controlled remotely via smartphone, learn user habits for energy efficiency, alert users to limescale build-up via sensors, integrate with smart-home energy monitoring. Evaluation should weigh convenience against cost, privacy and reliability concerns.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Ferrous and Non-Ferrous Metals] Explain why stainless steel is used for surgical instruments whereas mild steel is not, despite both being ferrous metals.",
+     "correctAnswer": "Stainless steel has 10.5%+ chromium which forms a passive chromium oxide layer - self-healing, prevents rust even when scratched. Mild steel has no chromium and rusts rapidly.",
+     "explanation": "Stainless steel has 10.5%+ chromium which forms a passive chromium oxide layer - self-healing, prevents rust even when scratched. Mild steel has no chromium and rusts rapidly.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Ferrous and Non-Ferrous Metals] Justify the use of aluminium rather than steel for aircraft fuselage construction.",
+     "correctAnswer": "Aluminium: density 2.7 g/cm3 vs steel 7.8 - 1/3 the weight, crucial for fuel efficiency; corrosion-resistant; good strength-to-weight when alloyed. Trade-off: more expensive and less stiff.",
+     "explanation": "Aluminium: density 2.7 g/cm3 vs steel 7.8 - 1/3 the weight, crucial for fuel efficiency; corrosion-resistant; good strength-to-weight when alloyed. Trade-off: more expensive and less stiff.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Ferrous and Non-Ferrous Metals] A product designer needs a gold-coloured, corrosion-resistant material for a door handle. Compare brass and gold-anodised aluminium.",
+     "correctAnswer": "Brass: genuine gold appearance, naturally corrosion-resistant, heavy and tactile (premium feel), low friction, antimicrobial. Gold-anodised aluminium: lighter, cheaper, coating can scratch to reveal silver beneath. For a door handle: brass is superior.",
+     "explanation": "Brass: genuine gold appearance, naturally corrosion-resistant, heavy and tactile (premium feel), low friction, antimicrobial. Gold-anodised aluminium: lighter, cheaper, coating can scratch to reveal silver beneath. For a door handle: brass is superior.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Thermoplastics and Thermosets] Explain the structural difference between thermoplastics and thermosets and how this affects their recyclability.",
+     "correctAnswer": "Thermoplastics have linear chains with weak intermolecular forces - heat overcomes these, chains slide apart (melt), cool and reform. Repeatable = recyclable. Thermosets have cross-links (covalent bonds) - once cured, permanent, cannot be undone by heating, so they char rather than melt.",
+     "explanation": "Thermoplastics have linear chains with weak intermolecular forces - heat overcomes these, chains slide apart (melt), cool and reform. Repeatable = recyclable. Thermosets have cross-links (covalent bonds) - once cured, permanent, cannot be undone by heating, so they char rather than melt.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Thermoplastics and Thermosets] A designer needs a transparent, impact-resistant material for a safety goggles lens. Justify the choice of polycarbonate over acrylic.",
+     "correctAnswer": "Polycarbonate: extremely high impact resistance (250x stronger than glass, 30x stronger than acrylic), transparent. Acrylic: good transparency, but brittle - shatters on high impact. For safety goggles, polycarbonate is essential because it deforms rather than shatters.",
+     "explanation": "Polycarbonate: extremely high impact resistance (250x stronger than glass, 30x stronger than acrylic), transparent. Acrylic: good transparency, but brittle - shatters on high impact. For safety goggles, polycarbonate is essential because it deforms rather than shatters.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Thermoplastics and Thermosets] Explain why a living hinge on a shampoo bottle cap must be made from polypropylene and not from acrylic.",
+     "correctAnswer": "A living hinge is an extremely thin section that flexes repeatedly. Polypropylene has exceptional fatigue resistance - semi-crystalline structure allows millions of flex cycles. Acrylic is amorphous and brittle - would crack after very few flexes.",
+     "explanation": "A living hinge is an extremely thin section that flexes repeatedly. Polypropylene has exceptional fatigue resistance - semi-crystalline structure allows millions of flex cycles. Acrylic is amorphous and brittle - would crack after very few flexes.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Textiles and Fibres] Explain why polycotton is used for school shirts instead of 100% cotton or 100% polyester.",
+     "correctAnswer": "100% cotton: comfortable but creases badly, shrinks. 100% polyester: durable and wrinkle-free but feels clammy, does not breathe. Polycotton (typically 65/35): retains cotton's breathability, gains polyester's durability and crease resistance, ideal for school uniforms.",
+     "explanation": "100% cotton: comfortable but creases badly, shrinks. 100% polyester: durable and wrinkle-free but feels clammy, does not breathe. Polycotton (typically 65/35): retains cotton's breathability, gains polyester's durability and crease resistance, ideal for school uniforms.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Textiles and Fibres] Compare woven and knitted fabric constructions, explaining why each suits different garments.",
+     "correctAnswer": "Woven: warp + weft at 90 degrees, stable, holds shape - suits structured garments (shirts, trousers). Knitted: interlocking loops, stretchy, comfortable - suits body-hugging garments (t-shirts, socks, sportswear).",
+     "explanation": "Woven: warp + weft at 90 degrees, stable, holds shape - suits structured garments (shirts, trousers). Knitted: interlocking loops, stretchy, comfortable - suits body-hugging garments (t-shirts, socks, sportswear).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Textiles and Fibres] Discuss the environmental impact of synthetic fibres compared to natural fibres.",
+     "correctAnswer": "Synthetic: petrochemicals (non-renewable), microplastic shedding, non-biodegradable, but durable and recyclable. Natural: renewable, biodegradable, but cotton needs vast water and pesticides. Neither is perfectly sustainable - blended fabrics are hardest to recycle.",
+     "explanation": "Synthetic: petrochemicals (non-renewable), microplastic shedding, non-biodegradable, but durable and recyclable. Natural: renewable, biodegradable, but cotton needs vast water and pesticides. Neither is perfectly sustainable - blended fabrics are hardest to recycle.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

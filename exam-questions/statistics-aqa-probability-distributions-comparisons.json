@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "probability-distributions-comparisons",
+ "topicName": "Probability Distributions Comparisons",
+ "version": 1,
+ "questions": [
+  {
+   "id": "probability-distributions-comparisons-q1",
+   "type": "short-answer",
+   "question": "Q: A fair coin is tossed 10 times. What is the probability of getting exactly 7 heads?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "X~B(10, 0.5). P(X=7) = ¹⁰C₇ × 0.5⁷ × 0.5³ = 120 × 0.0078125 × 0.125 = 0.1171875 ≈ 0.117",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-distributions-comparisons-q2",
+   "type": "short-answer",
+   "question": "Q: Heights of a population are normally distributed with mean 170 cm and standard deviation 6 cm. Use the 68–95–99.7 rule to estimate the percentage of people between 158 cm and 182 cm.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "158 = 170 − 12 = mean − 2σ. 182 = 170 + 12 = mean + 2σ. By the 68–95–99.7 rule, approximately 95% of data lies within 2σ of the mean.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-distributions-comparisons-q3",
+   "type": "short-answer",
+   "question": "Q: Student A scores 72 on a test with mean 60 and SD 8. Student B scores 78 on a test with mean 70 and SD 5. Who performed better relative to their class?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "z_A = (72−60)/8 = 1.5. z_B = (78−70)/5 = 1.6. Student B performed better as their z-score is higher.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-distributions-comparisons-q4",
+   "type": "short-answer",
+   "question": "Q: A dice is rolled 20 times. Using a binomial model with p = 1/6 for rolling a 6, find the expected number of sixes and the variance.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Mean = np = 20 × 1/6 ≈ 3.33. Variance = np(1−p) = 20 × (1/6) × (5/6) ≈ 2.78.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-distributions-comparisons-q5",
+   "type": "short-answer",
+   "question": "Q: Explain why a binomial distribution would not be appropriate for modelling the number of goals scored in a football match.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The binomial requires a fixed number of independent trials with constant probability. Goals in a football match do not have a fixed number of trials, the probability of scoring likely changes during the match, and goals may not be independent events (momentum effects).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "probability-distributions-comparisons-ext",
+   "type": "extended",
+   "question": "Full-Mark Response The masses of apples from Farm A are normally distributed with mean 150 g and standard deviation 12 g. The masses of apples from Farm B are normally distributed with mean 160 g and standard deviation 20 g. An apple from Farm A has mass 174 g and an apple from Farm B has mass 180 g. Which apple is relatively heavier? Show your working. <div class=\"",
+   "marks": 4,
+   "commandWord": "state",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Standardise each apple’s mass using z = (value − mean) ÷ SD. Farm A: z = (174 − 150) ÷ 12 = 24 ÷ 12 = 2.0 Farm B: z = (180 − 160) ÷ 20 = 20 ÷ 20 = 1.0 The Farm A apple is 2.0 standard deviations above its mean, while the Farm B apple is only 1.0 standard deviation above its mean. Therefore the Farm A apple is relatively heavier compared to its distribution.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Standardise each apple’s mass using z = (value − mean) ÷ SD. Farm A: z = (174 − 150) ÷ 12 = 24 ÷ 12 = 2.0 Farm B: z = (180 − 160) ÷ 20 = 20 ÷ 20 = 1.0 The Farm A apple is 2.0 standard deviations above its mean, while the Farm B apple is only 1.0 standard deviation above its mean. Therefore the Farm A apple is relatively heavier compared to its distribution."
+   }
+  }
+ ]
+}

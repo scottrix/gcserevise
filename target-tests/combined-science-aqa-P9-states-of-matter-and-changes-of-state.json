@@ -1,0 +1,38 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P9-states-of-matter-and-changes-of-state",
+ "topicName": "P9 States Of Matter And Changes Of State",
+ "version": 1,
+ "tests": [
+  {
+   "id": "p9-states-of-matter-and-changes-of-state-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on P9 States Of Matter And Changes Of State",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "p9-states-of-matter-and-changes-of-state-t2",
+     "type": "short-answer",
+     "question": "Foundation A metal block has a mass of 2.7 kg and a volume of 0.001 m³. Calculate its density in kg/m³.",
+     "correctAnswer": "ρ = m / V = 2.7 / 0.001 = 2700 kg/m³ (this is aluminium)",
+     "explanation": "Answer: ρ = m / V = 2.7 / 0.001 = 2700 kg/m³ (this is aluminium)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "p9-states-of-matter-and-changes-of-state-t4",
+     "type": "short-answer",
+     "question": "Higher 500 kJ of energy is supplied to change water at 100°C into steam. The specific latent heat of vaporisation of water is 2 260 000 J/kg. Calculate the mass of water that boils.",
+     "correctAnswer": "m = E / L v = 500 000 / 2 260 000 = 0.221 kg (221 g)",
+     "explanation": "Answer: m = E / L v = 500 000 / 2 260 000 = 0.221 kg (221 g)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

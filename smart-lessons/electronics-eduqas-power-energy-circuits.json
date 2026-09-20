@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "power-energy-circuits",
+ "topicName": "Power & Energy in Circuits",
+ "version": 1,
+ "steps": [
+  {
+   "id": "power-energy-circuits-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Electrical power P = VI, measured in watts (W); 1 W = 1 J/s."
+  },
+  {
+   "id": "power-energy-circuits-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Using Ohm's Law, power can also be expressed as P = I²R or P = V²/R."
+  },
+  {
+   "id": "power-energy-circuits-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Electrical energy E = Pt, measured in joules (J); domestic energy is billed in kWh."
+  },
+  {
+   "id": "power-energy-circuits-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Resistors dissipate power as heat; this must be within the resistor's power rating to avoid damage."
+  },
+  {
+   "id": "power-energy-circuits-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: A 12 V supply delivers 5 A. What is the power? | Q: A 10 Ω resistor carries 2 A. What power does it dissipate? | Q: A 60 W lamp runs for 3 hours. How much energy does it consume?"
+  },
+  {
+   "id": "power-energy-circuits-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "P = VI = 12 × 5 = 60 W. | P = I²R = 2² × 10 = 40 W. | E = Pt = 60 × 3 = 180 Wh = 0.18 kWh."
+  },
+  {
+   "id": "power-energy-circuits-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Choose the correct power formula: use P = VI if V and I are known, P = I²R if I and R are known, P = V²/R if V and R are known. Convert mAh to Ah (divide by 1000) before calculating battery life. Always check power ratings of resistors; a ¼ W resistor cannot safely dissipate 2 W. For efficiency, state the formula first: η = P_out/P_in × 100%. When a battery has internal resistance, use V_terminal = EMF − I × r_internal."
+  }
+ ]
+}

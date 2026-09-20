@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "voltage-current-resistance",
+ "topicName": "Voltage, Current & Resistance",
+ "version": 1,
+ "steps": [
+  {
+   "id": "voltage-current-resistance-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Voltage is the potential difference that drives charge through a circuit, measured in volts (V)."
+  },
+  {
+   "id": "voltage-current-resistance-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Current is the rate of flow of charge, measured in amperes (A); 1 A = 1 C/s."
+  },
+  {
+   "id": "voltage-current-resistance-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Resistance opposes the flow of current, measured in ohms (Ω)."
+  },
+  {
+   "id": "voltage-current-resistance-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Ohm's Law states V = IR, linking voltage, current and resistance linearly for ohmic conductors."
+  },
+  {
+   "id": "voltage-current-resistance-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: A 12 V battery drives 3 A through a resistor. What is its resistance? | Q: What is the difference between conventional current and electron flow? | Q: A current of 2 A flows for 5 seconds. How much charge passes?"
+  },
+  {
+   "id": "voltage-current-resistance-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Using V = IR: R = V/I = 12/3 = 4 Ω. | Conventional current flows from positive to negative; electron flow is the actual movement of electrons from negative to positive. | Q = It = 2 × 5 = 10 C."
+  },
+  {
+   "id": "voltage-current-resistance-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always state Ohm's Law as V = IR before rearranging in calculations. Show full working: write the formula, substitute values, then give the answer with units. Remember conventional current is positive to negative; exam questions often use this convention. Check that your answer is sensible: resistance should not be negative in basic circuits. When describing measurements, always specify whether the meter is in series (ammeter) or parallel (voltmeter)."
+  }
+ ]
+}

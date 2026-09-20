@@ -1,0 +1,57 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P12-nuclear-radiation-and-hazards",
+ "topicName": "Nuclear Radiation And Hazards",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p12-nuclear-radiation-and-hazards-s1",
+   "kind": "learn",
+   "title": "Alpha particle (α)",
+   "body": "A particle consisting of 2 protons and 2 neutrons (a helium nucleus). It has a charge of +2 and is emitted from the nucleus during alpha decay."
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-s2",
+   "kind": "learn",
+   "title": "Beta particle (β)",
+   "body": "A fast-moving electron emitted from the nucleus when a neutron changes into a proton and an electron. It has a charge of −1."
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-s3",
+   "kind": "learn",
+   "title": "Gamma ray (γ)",
+   "body": "An electromagnetic wave emitted from the nucleus. It has no mass and no charge."
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-s4",
+   "kind": "learn",
+   "title": "Half-life",
+   "body": "The time it takes for the number of radioactive nuclei in a sample to halve, or for the activity of the sample to halve."
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Radioactive decay is a random process — you cannot predict when an individual nucleus will decay. However, for a large sample, the half-life is a predictable time. Half-life: The time taken for half the radioactive nuclei in a sample to decay. After each half-life, the activity (and number of undecayed nuclei) halves. After 2 half-lives, only a quarter remains. After 3, only an eighth. Worked Example 4: Calculating remaining activity A radioactive sample has an initial activity of 800 Bq and a half-life of 6 hours. What is its activity after 18 hours? Number of half-lives = 18 / 6 = 3 After 1 half-life: 800 / 2 = 400 Bq After 2 half-lives: 400 / 2 = 200 Bq After 3 half-lives: 200 / 2 = 100 Bq Worked Example 5: Finding the half-life A sample has an activity of 3200 Bq. After 24 days, the activity has fallen to 200 Bq. What is the half-life? 3200 → 1600 → 800 → 400 → 200 = 4 half-lives 4 half-lives = 24 days Half-life = 24 / 4 = 6 days Worked Example 6: Fraction remaining A substance has"
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation State the penetrating power and ionising power of alpha, beta and gamma radiation. | Foundation Explain the difference between contamination and irradiation. | Higher Radium-226 (atomic number 88) undergoes alpha decay. Write the nuclear equation and identify the daughter element."
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Alpha: high ionising, low penetrating (stopped by paper). Beta: moderate ionising, moderate penetrating (stopped by aluminium foil). Gamma: low ionising, high penetrating (reduced by thick lead/concre | Contamination is when a radioactive substance gets on or inside the body, exposing you continuously. Irradiation is when you are exposed to radiation from an external source — exposure stops when you  | 226 88 Ra → 222 86 Rn + 4 2 He. The daughter element is radon-222 (atomic number 86)."
+  },
+  {
+   "id": "p12-nuclear-radiation-and-hazards-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Learn the properties table for alpha, beta and gamma — ionising power and penetrating power are the most commonly tested In nuclear equations, always check that mass numbers and atomic numbers balance on both sides For half-life calculations, first work out the number of half-lives , then halve the activity repeatedly Contamination vs irradiation: contamination = source is on/in you, irradiation = source is outside you When asked about uses of radiation, always explain why that type is chosen (e.g. gamma for tracers because it penetrates tissue) Beta decay increases the atomic number by 1 (neutron → proton + electron). Alpha decay decreases it by 2 Gamma emission does not change the mass number or atomic number"
+  }
+ ]
+}

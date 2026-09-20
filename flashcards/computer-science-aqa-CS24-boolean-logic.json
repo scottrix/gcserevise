@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS24-boolean-logic",
+ "topicName": "Boolean Logic",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs24-boolean-logic-fc1",
+   "front": "Recall a key point about Boolean Logic",
+   "back": "Boolean logic is a form of algebra where all values are either TRUE (1) or FALSE (0). It is named after mathematician George Boole and forms the basis of how computers make decisions.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc2",
+   "front": "What should you know about not gate?",
+   "back": "Takes a single input and produces the opposite (inverted) output. If input is 1, output is 0. If input is 0, output is 1. Also called an inverter.",
+   "tags": [
+    "not-gate"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc3",
+   "front": "What should you know about and gate?",
+   "back": "Takes two inputs and outputs 1 (TRUE) only if BOTH inputs are 1. If either or both inputs are 0, the output is 0.",
+   "tags": [
+    "and-gate"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc4",
+   "front": "What should you know about or gate?",
+   "back": "Takes two inputs and outputs 1 (TRUE) if EITHER or BOTH inputs are 1. The output is 0 only when both inputs are 0.",
+   "tags": [
+    "or-gate"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc5",
+   "front": "What should you know about xor gate?",
+   "back": "Takes two inputs and outputs 1 (TRUE) if the inputs are DIFFERENT. If both inputs are the same (both 0 or both 1), the output is 0. Think of it as \"one or the other, but not both.\"",
+   "tags": [
+    "xor-gate"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc6",
+   "front": "What should you know about key concept?",
+   "back": "Logic gates can be combined (cascaded) to create more complex circuits. The output of one gate can become the input of another. Circuits with up to 3 inputs may appear in exams.",
+   "tags": [
+    "key-concept"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc7",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Learn truth tables for AND, OR, NOT, NAND, NOR, XOR. AND: all 1s → 1. OR: any 1 → 1. NOT: flip. NAND = NOT AND. NOR = NOT OR. XOR: different inputs → 1. Draw gate symbols clearly. For logic circuits, work through gate by gate from inputs to output. Complete intermediate columns in truth tables. NAND is a universal gate — any logic function can be built from NAND gates alone.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc8",
+   "front": "What does 0 mean?",
+   "back": "1",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc9",
+   "front": "What does 1 mean?",
+   "back": "0",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc10",
+   "front": "What does 0 mean?",
+   "back": "0 (e.g. 0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc11",
+   "front": "What does 0 mean?",
+   "back": "1 (e.g. 0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc12",
+   "front": "What does 1 mean?",
+   "back": "0 (e.g. 0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc13",
+   "front": "What does 1 mean?",
+   "back": "1 (e.g. 1)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc14",
+   "front": "What does 0 mean?",
+   "back": "0 (e.g. 0)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs24-boolean-logic-fc15",
+   "front": "What does 0 mean?",
+   "back": "1 (e.g. 1)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

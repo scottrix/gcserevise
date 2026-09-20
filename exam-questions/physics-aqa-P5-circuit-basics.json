@@ -1,0 +1,129 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P5-circuit-basics",
+ "topicName": "P5 Circuit Basics",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p5-circuit-basics-q1",
+   "type": "short-answer",
+   "question": "Foundation Name the component that measures current and state how it is connected in a circuit.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An ammeter measures current. It is connected in series with the component — the current flows through it.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p5-circuit-basics-q2",
+   "type": "short-answer",
+   "question": "Foundation A resistor has 8 V across it and a current of 2 A flows through it. Calculate its resistance.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "R = V / I = 8 / 2 = 4 Ω.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p5-circuit-basics-q3",
+   "type": "short-answer",
+   "question": "Foundation Describe the difference between the I-V graph of a resistor and a filament lamp.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A resistor (at constant temperature) gives a straight line through the origin — current is directly proportional to voltage (Ohmic). A filament lamp gives a curved graph that flattens at higher voltages — as current increases, the filament heats up and resistance increases, so current increases more slowly (non-Ohmic).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p5-circuit-basics-q4",
+   "type": "short-answer",
+   "question": "Higher A thermistor is connected to a 5 V supply. At 25 °C its resistance is 1000 Ω. At 100 °C its resistance is 100 Ω. Calculate the current at each temperature and explain the difference.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "At 25 °C: I = 5 / 1000 = 0.005 A = 5 mA. At 100 °C: I = 5 / 100 = 0.05 A = 50 mA. The current is much higher at 100 °C because the thermistor's resistance decreases as temperature increases (more charge carriers are released), allowing more current to flow.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p5-circuit-basics-q5",
+   "type": "short-answer",
+   "question": "Higher Explain why a diode only allows current to flow in one direction. How would this appear on an I-V graph?",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A diode has very low resistance in the forward direction (allows current through) but very high resistance in the reverse direction (blocks current). On the I-V graph: there is current in the forward direction (positive voltage), rising steeply once the threshold voltage is exceeded. In the reverse direction (negative voltage), the current is essentially zero.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p5-circuit-basics-q6",
+   "type": "short-answer",
+   "question": "Higher A student investigates the I-V characteristics of a resistor. They vary the voltage and measure the current. State one safety precaution and one way to improve accuracy.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Safety precaution: do not exceed the maximum voltage rating of the resistor to avoid overheating/burning out. Improving accuracy: take multiple readings and calculate a mean, or use smaller voltage increments to get more data points for a smoother graph.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p5-circuit-basics-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Compare the I-V characteristics of a resistor, a filament lamp and a diode. Include descriptions of the graph shapes and explanations for each. <div class=\"",
+   "marks": 6,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A resistor at constant temperature is an Ohmic conductor. Its I-V graph is a straight line through the origin, meaning current is directly proportional to voltage. The resistance remains constant. A filament lamp is a non-Ohmic conductor. Its I-V graph is a curve that flattens at higher voltages. As current increases, the filament heats up, the metal ions vibrate more, and resistance increases, so current increases less quickly. A diode only allows current to flow in the forward direction (forward bias). On the I-V graph, current is zero in reverse bias and rises steeply once the threshold vol",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "A resistor at constant temperature is an Ohmic conductor. Its I-V graph is a straight line through the origin, meaning current is directly proportional to voltage. The resistance remains constant. A filament lamp is a non-Ohmic conductor. Its I-V graph is a curve that flattens at higher voltages. As current increases, the filament heats up, the metal ions vibrate more, and resistance increases, so current increases less quickly. A diode only allows current to flow in the forward direction (forward bias). On the I-V graph, current is zero in reverse bias and rises steeply once the threshold voltage (~0.6 V) is exceeded in forward bias. The diode has very high resistance in reverse and very low resistance in forward bias above the threshold. Mark scheme: 1 mark — resistor straight line / Ohmic, 1 mark — resistance constant, 1 mark — lamp curves / non-Ohmic, 1 mark — resistance increases with temperature, 1 mark — diode conducts in one direction only, 1 mark — reference to threshold voltage or very high reverse resistance"
+   }
+  }
+ ]
+}

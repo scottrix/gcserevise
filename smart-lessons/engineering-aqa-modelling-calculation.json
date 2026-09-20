@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "modelling-calculation",
+ "topicName": "Modelling & Calculation",
+ "version": 1,
+ "steps": [
+  {
+   "id": "modelling-calculation-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Mathematical modelling predicts performance before manufacture, saving time and cost in development."
+  },
+  {
+   "id": "modelling-calculation-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Stress = Force / Area (units: N/mm2 or MPa); always identify the cross-sectional area carrying the load."
+  },
+  {
+   "id": "modelling-calculation-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Strain = Change in length / Original length (dimensionless ratio or percentage)."
+  },
+  {
+   "id": "modelling-calculation-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Young's Modulus (E) = Stress / Strain (units: GPa); measures stiffness of a material — higher E means stiffer."
+  },
+  {
+   "id": "modelling-calculation-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: A steel rod of 8 mm diameter carries a tensile load of 15 kN. Calculate the stress in the rod. | Q: A 2 m long aluminium bar stretches by 0.5 mm under a tensile load. Calculate the strain. | Q: Explain what Young's Modulus tells an engineer about a material and why it is useful."
+  },
+  {
+   "id": "modelling-calculation-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Area = pi x (4)^2 = 50.3 mm2. Stress = 15000 / 50.3 = 298.2 MPa. | Strain = Change in length / Original length = 0.5 / 2000 = 0.00025 (or 0.025%). | Young's Modulus (E) indicates stiffness — how much a material deflects under load. A high E (e.g. steel, 200 GPa) means the material is stiff and deflects little; a low E (e.g. rubber, 0.01 GPa) means"
+  },
+  {
+   "id": "modelling-calculation-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "In all calculation questions, write the formula first, substitute values, then give the answer with units. Convert units carefully: mm to m, kN to N, mm2 to m2 as needed for consistent calculations. Young's Modulus questions: remember E = Stress / Strain only in the elastic (linear) region. Factor of safety: always state what FoS the designer has chosen and justify whether it is appropriate for the application. Density calculations require consistent units — convert all dimensions to metres before calculating volume."
+  }
+ ]
+}

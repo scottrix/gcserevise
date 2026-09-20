@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S5-describing-populations",
+ "topicName": "S5 Describing Populations",
+ "version": 1,
+ "questions": [
+  {
+   "id": "s5-describing-populations-q1",
+   "type": "short-answer",
+   "question": "Data has mean = 45, median = 38. Describe the skew of the distribution.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Right skew (positive skew) - mean > median suggests a few high values pulling the mean up.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s5-describing-populations-q2",
+   "type": "short-answer",
+   "question": "A survey finds mode = 2 for \"number of pets\". What does this tell us?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Most households have 2 pets - this is the most common value.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s5-describing-populations-q3",
+   "type": "short-answer",
+   "question": "Why might the median be better than the mean for describing house prices?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "House prices often have expensive outliers that pull the mean up. The median better represents a \"typical\" price.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s5-describing-populations-q4",
+   "type": "short-answer",
+   "question": "Two classes have test results: Class A (Mean=65, Range=40), Class B (Mean=68, Range=15). Compare them.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Class B performed better on average (68 > 65). Class B has more consistent results (smaller range: 15 vs 40). Class A has more variation in performance.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s5-describing-populations-q5",
+   "type": "short-answer",
+   "question": "What limitations should you mention when describing a population from sample data?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Sample may not be fully representative; results are estimates; sampling error exists; larger samples give more reliable conclusions.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "s5-describing-populations-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: A sample of 150 adults in City X reports: mean commute time = 34 minutes, median = 28 minutes, range = 75 minutes. A sample of 120 adults in City Y reports: mean = 31 minutes, median = 30 minutes, range = 40 minutes. (a) Describe the shape of the distribution for each city. (b) Compare the commute times for the two cities. (c) Ravi says \"City X has longer commutes than City Y.\" Evaluate this claim using both averages. <div class=\"",
+   "marks": 6,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) City X: Mean (34) > Median (28) — right-skewed, with some very long commutes pulling the mean up. City Y: Mean (31) ≈ Median (30) — roughly symmetrical distribution. (b) City X has slightly higher average commute (mean 34 vs 31, median 28 vs 30). However, the median is actually lower in City X (28 vs 30), suggesting most people in City X have shorter commutes but a few have very long ones. City X has much more variation (range 75 vs 40). (c) Ravi's claim is partly supported by the mean but contradicted by the median. The mean in City X is higher due to a few extreme values (outliers with v",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "(a) City X: Mean (34) > Median (28) — right-skewed, with some very long commutes pulling the mean up. City Y: Mean (31) ≈ Median (30) — roughly symmetrical distribution. (b) City X has slightly higher average commute (mean 34 vs 31, median 28 vs 30). However, the median is actually lower in City X (28 vs 30), suggesting most people in City X have shorter commutes but a few have very long ones. City X has much more variation (range 75 vs 40). (c) Ravi's claim is partly supported by the mean but contradicted by the median. The mean in City X is higher due to a few extreme values (outliers with very long commutes). The median — a better measure for skewed data — is actually lower in City X. So for a \"typical\" person, City Y has slightly longer commutes. Ravi's claim is misleading because the mean is distorted by outliers. Mark scheme: M1 for identifying right skew in X, A1 for symmetrical in Y, M1 for comparing both averages, A1 for noting median reversal, M1 for evaluating the claim, A1 for explaining why mean is misleading"
+   }
+  }
+ ]
+}

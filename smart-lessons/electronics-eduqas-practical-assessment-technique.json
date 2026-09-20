@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "practical-assessment-technique",
+ "topicName": "Practical Assessment Technique",
+ "version": 1,
+ "steps": [
+  {
+   "id": "practical-assessment-technique-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The practical assessment requires you to build, test and document a circuit under controlled conditions within a set time."
+  },
+  {
+   "id": "practical-assessment-technique-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Read the task brief completely before starting; identify the circuit to build, the measurements required and the documentation expected."
+  },
+  {
+   "id": "practical-assessment-technique-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Plan your construction before building: identify components, plan the breadboard layout and check you have all parts."
+  },
+  {
+   "id": "practical-assessment-technique-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Build the circuit methodically, section by section, and visually inspect each connection before powering on."
+  },
+  {
+   "id": "practical-assessment-technique-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Why should you read the entire task brief before starting the practical assessment? | Q: List three things you should check before connecting the power supply to your circuit. | Q: A circuit you built is not working. Describe a systematic approach to find the fault."
+  },
+  {
+   "id": "practical-assessment-technique-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "To understand what circuit to build, what measurements to take and what documentation is required, so you can plan your time and approach effectively. | Correct supply voltage, correct polarity and a visual inspection that all components are correctly placed and oriented. | First check the power supply voltage is correct; then measure voltages at key nodes from input to output to find where the signal is lost; check connections and component values at the faulty stage."
+  },
+  {
+   "id": "practical-assessment-technique-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Read the brief fully, then plan your approach before touching any components. Build section by section and test each stage as you go, rather than building the whole circuit at once. Always measure the power supply voltage first before checking any other part of the circuit. Record measurements as you take them — do not rely on memory to fill in the table later. If a fault occurs, stay calm and use the half-split method: check at the midpoint, then narrow down."
+  }
+ ]
+}

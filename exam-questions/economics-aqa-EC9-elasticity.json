@@ -1,0 +1,78 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC9-elasticity",
+ "topicName": "Price Elasticity",
+ "version": 1,
+ "questions": [
+  {
+   "id": "ec9-elasticity-q1",
+   "type": "short-answer",
+   "question": "Calculate PED if price rises from £10 to £12 and quantity falls from 100 to 80. Is demand elastic or inelastic?",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "%ΔP = (12-10)/10 × 100 = 20%. %ΔQ = (80-100)/100 × 100 = -20%. PED = -20%/20% = -1.0. Absolute value = 1 = unit elasticity. Total revenue stays the same.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ec9-elasticity-q2",
+   "type": "short-answer",
+   "question": "Explain three factors that make demand price inelastic.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Three factors: (1) Few substitutes (insulin for diabetics). (2) Necessity (bread, electricity, water). (3) Small proportion of income (salt, matches — price changes are insignificant).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ec9-elasticity-q3",
+   "type": "short-answer",
+   "question": "Evaluate why understanding PED is important for a business setting pricing strategy.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "If demand is inelastic, raise prices — quantity falls less than price rises, increasing revenue. If elastic, lower prices — quantity rises more than price falls, increasing revenue. PED varies by time period, market segment, and price level.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "ec9-elasticity-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Evaluate whether a government should tax goods with inelastic demand or elastic demand to raise the most revenue. <div class=\"",
+   "marks": 4,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A grade 9 response will: taxing inelastic goods raises more revenue (quantity barely falls); taxing elastic goods raises little (consumers switch); equity issue (inelastic goods like energy hit the poor hardest); conclude: tax inelastic goods for revenue efficiency but use revenue to fund progressive spending for equity.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "A grade 9 response will: taxing inelastic goods raises more revenue (quantity barely falls); taxing elastic goods raises little (consumers switch); equity issue (inelastic goods like energy hit the poor hardest); conclude: tax inelastic goods for revenue efficiency but use revenue to fund progressive spending for equity."
+   }
+  }
+ ]
+}

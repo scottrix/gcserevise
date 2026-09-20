@@ -1,0 +1,157 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P28-electromagnetic-induction",
+ "topicName": "Electromagnetic Induction",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p28-electromagnetic-induction-fc1",
+   "front": "What should you know about electromagnetic induction?",
+   "back": "The process of inducing a potential difference (and current if the circuit is complete) in a conductor by moving it through a magnetic field, or by changing the magnetic field around a conductor.",
+   "tags": [
+    "electromagnetic-induction"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc2",
+   "front": "What should you know about generator effect?",
+   "back": "When a wire moves through a magnetic field (or a magnetic field changes through a coil), a potential difference is induced. If the conductor is part of a complete circuit, a current flows. This is the opposite of the motor effect.",
+   "tags": [
+    "generator-effect"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc3",
+   "front": "What should you know about transformer?",
+   "back": "A device that changes the voltage of an alternating current. It consists of a primary coil and a secondary coil wound on the same iron core. Transformers only work with AC.",
+   "tags": [
+    "transformer"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc4",
+   "front": "What should you know about step-up transformer?",
+   "back": "A transformer that increases the voltage (more turns on the secondary coil than the primary).",
+   "tags": [
+    "step-up-transformer"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc5",
+   "front": "What should you know about step-down transformer?",
+   "back": "A transformer that decreases the voltage (fewer turns on the secondary coil than the primary).",
+   "tags": [
+    "step-down-transformer"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc6",
+   "front": "What should you know about key rule?",
+   "back": "The induced potential difference always opposes the change that produced it (Lenz's law). This means the induced current creates a magnetic field that tries to stop the original change — if you push a magnet into a coil, the coil's induced field repels the magnet.",
+   "tags": [
+    "key-rule"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc7",
+   "front": "What should you know about how a generator works?",
+   "back": "A coil rotates in a magnetic field. As the coil turns, the magnetic flux through the coil changes, inducing a potential difference. When the coil is perpendicular to the field, maximum flux links the coil but the rate of change is zero (PD = 0). When the coil is parallel to the field, minimum flux links but the rate of change is maximum (PD = maximum).",
+   "tags": [
+    "how-a-generator-works"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc8",
+   "front": "What should you know about why transformers only work with ac?",
+   "back": "Transformers need a changing magnetic field to induce a potential difference in the secondary coil. AC produces a continuously changing magnetic field. DC produces a constant magnetic field, so no induction occurs in the secondary coil after the initial switch-on.",
+   "tags": [
+    "why-transformers-only-work-wit"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc9",
+   "front": "What should you know about the national grid?",
+   "back": "A network of cables and transformers that connects power stations to consumers (homes, factories, etc.). It uses step-up and step-down transformers to reduce energy loss in transmission.",
+   "tags": [
+    "the-national-grid"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc10",
+   "front": "What should you know about key calculation?",
+   "back": "For a given power transmitted, doubling the voltage halves the current. Since energy loss is proportional to current squared (P = I2R), halving the current reduces energy loss to one quarter. This is why very high voltages are used for long-distance transmission.",
+   "tags": [
+    "key-calculation"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc11",
+   "front": "Recall a key point about Electromagnetic Induction",
+   "back": "Transformer calculations use two equations: Vp/Vs = Np/Ns (turns ratio) and Vp × Ip = Vs × Is (power conservation for 100% efficiency). Set up ratios carefully keeping primary on one side and secondary on the other. For National Grid problems, use P = I²R to calculate power lost in cables and P = VI to relate power, voltage and current.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc12",
+   "front": "What should you know about answers?",
+   "back": "(a) Scenario A: I = P/V = 500,000,000 ÷ 25,000 = 20,000 A. Scenario B: I = P/V = 500,000,000 ÷ 400,000 = 1,250 A. (b) Scenario A: P_loss = I²R = 20,000² × 200 = 80,000,000,000 W = 80 GW. Scenario B: P_loss = I²R = 1,250² × 200 = 312,500,000 W = 312.5 MW. (c) In Scenario A, the power loss (80 GW) far exceeds the power generated (500 MW), which is physically impossible — the system would fail. In Scenario B, the loss is 312.5 MW out of 500 MW generated, which is 62.5% loss. This shows that even at 400,000 V, the loss is significant, but without step-up transformation the system could not functio",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc13",
+   "front": "What does Output mean?",
+   "back": "Alternating current (AC) (e.g. Direct current (DC))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc14",
+   "front": "What does Connection to coil mean?",
+   "back": "Slip rings (e.g. Split ring commutator)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p28-electromagnetic-induction-fc15",
+   "front": "What does How it works mean?",
+   "back": "Coil rotates in magnetic field. Slip rings maintain continuous contact, allowing the current to alternate as the coil rotates. (e.g. Coil rotates in magnetic field. Split ring commutator reverses connections every half turn, keeping current in one direction.)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C8-nanoscience",
+ "topicName": "C8 Nanoscience",
+ "version": 1,
+ "questions": [
+  {
+   "id": "c8-nanoscience-q1",
+   "type": "short-answer",
+   "question": "Higher Define the term nanoparticle and state the size range in nanometres and in metres.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A nanoparticle is a particle with a size between 1 nm and 100 nm. In metres: 1 × 10⁻⁹ m to 100 × 10⁻⁹ m (1 nm to 100 nm). Nanoparticles are typically made up of a few hundred atoms.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c8-nanoscience-q2",
+   "type": "short-answer",
+   "question": "Higher A cube has a side length of 5 nm. Calculate its surface area, volume and surface area to volume ratio.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Surface area = 6 × 5² = 6 × 25 = 150 nm². Volume = 5³ = 125 nm³. SA:V ratio = 150 ÷ 125 = 1.2:1.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c8-nanoscience-q3",
+   "type": "short-answer",
+   "question": "Higher Explain why nanoparticles are often much more reactive than the same substance in bulk form.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Nanoparticles have a much higher surface area to volume ratio than bulk materials. This means a much larger proportion of the atoms are on the surface of the particle and are available to react. With more surface atoms exposed, the rate of reaction is much faster, making nanoparticles much more reactive.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c8-nanoscience-q4",
+   "type": "short-answer",
+   "question": "Higher Give two uses of nanoparticles and explain why nanoparticles are useful in each case. Suggest one risk of using nanoparticles.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Use 1: Sunscreens - titanium dioxide nanoparticles absorb UV radiation effectively and are invisible on the skin (no white residue). Use 2: Medicine delivery - nanoparticles can carry drugs directly to specific cells, reducing side effects. Risk: Nanoparticles are so small they could be absorbed into the body through the skin or by inhalation. The long-term health effects are not fully understood ",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c8-nanoscience-q5",
+   "type": "short-answer",
+   "question": "Higher A cube of side 4 cm is cut into 64 cubes of side 1 cm. Calculate the total surface area and SA:V ratio before and after. Explain the significance of this change.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Before: SA = 6 × 4² = 96 cm². Volume = 4³ = 64 cm³. SA:V = 96/64 = 1.5:1. After: Each small cube SA = 6 × 1² = 6 cm². Total SA = 64 × 6 = 384 cm². Volume = 64 × 1 = 64 cm³ (same). SA:V = 384/64 = 6:1. Significance: The total surface area has increased from 96 to 384 cm² (4 times greater) while the volume stays the same. The SA:V ratio has increased from 1.5:1 to 6:1. This shows why smaller particl",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "c8-nanoscience-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Evaluate the uses and risks of nanoparticles. <div class=\"",
+   "marks": 6,
+   "commandWord": "evaluate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Nanoparticles have a very high surface area to volume ratio, making them much more reactive than bulk materials. This makes them useful as catalysts (more surface available for reactions), in medicine (carrying drugs to specific cells), and in sunscreens (TiO₂ nanoparticles absorb UV effectively and are invisible on skin). However, there are risks: nanoparticles are so small they can be inhaled deep into the lungs and pass into cells or the bloodstream. Their high reactivity could cause unexpected chemical reactions in the body. The long-term health and environmental effects are not fully unde",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Nanoparticles have a very high surface area to volume ratio, making them much more reactive than bulk materials. This makes them useful as catalysts (more surface available for reactions), in medicine (carrying drugs to specific cells), and in sunscreens (TiO₂ nanoparticles absorb UV effectively and are invisible on skin). However, there are risks: nanoparticles are so small they can be inhaled deep into the lungs and pass into cells or the bloodstream. Their high reactivity could cause unexpected chemical reactions in the body. The long-term health and environmental effects are not fully understood. It is therefore important that nanoparticles are thoroughly tested before widespread use. Mark scheme: 1 mark for high SA:V explanation; 1 mark for a valid use with explanation; 1 mark for a second use with explanation; 1 mark for a risk (absorption into body); 1 mark for a second risk (unknown long-term effects); 1 mark for balanced evaluation."
+   }
+  }
+ ]
+}

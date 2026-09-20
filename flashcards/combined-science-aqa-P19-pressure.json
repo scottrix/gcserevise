@@ -1,0 +1,147 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P19-pressure",
+ "topicName": "Pressure",
+ "version": 1,
+ "cards": [
+  {
+   "id": "p19-pressure-fc1",
+   "front": "What should you know about pressure?",
+   "back": "The force per unit area. Pressure tells us how concentrated a force is. Measured in Pascals (Pa), where 1 Pa = 1 N/m².",
+   "tags": [
+    "pressure"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc2",
+   "front": "What should you know about atmospheric pressure?",
+   "back": "The pressure exerted by the weight of air above a point. It decreases with increasing height above the ground.",
+   "tags": [
+    "atmospheric-pressure"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc3",
+   "front": "What should you know about upthrust?",
+   "back": "The resultant upward force on an object submerged in a fluid. It equals the weight of the fluid displaced by the object.",
+   "tags": [
+    "upthrust"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc4",
+   "front": "What should you know about increasing the area decreases the pressure?",
+   "back": "(for the same force). This is why skis and snowshoes are wide — they spread your weight over a larger area so you do not sink. Decreasing the area increases the pressure — this is why sharp knives cut better than blunt ones.",
+   "tags": [
+    "increasing-the-area-decreases-"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc5",
+   "front": "What should you know about atmospheric pressure decreases with height.?",
+   "back": "At sea level, atmospheric pressure is about 101 000 Pa (101 kPa). As you go higher, there is less air above you, so the weight of air above you is less, and the pressure is lower.",
+   "tags": [
+    "atmospheric-pressure-decreases"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc6",
+   "front": "What should you know about pressure in a liquid depends on three things?",
+   "back": "depth (h), density of the liquid (ρ), and gravitational field strength (g). It does NOT depend on the volume of liquid or the shape of the container.",
+   "tags": [
+    "pressure-in-a-liquid-depends-o"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc7",
+   "front": "What should you know about archimedes principle?",
+   "back": "The upthrust on an object in a fluid is equal to the weight of the fluid it displaces. If the object displaces a large volume of heavy fluid, the upthrust is large.",
+   "tags": [
+    "archimedes-principle"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc8",
+   "front": "What should you know about an object floats if its density is less than the density of the fluid?",
+   "back": "(e.g. wood on water, helium balloon in air). An object sinks if its density is greater than the fluid (e.g. steel in water). A ship floats because its overall density (including the air inside) is less than water, even though it is made of steel.",
+   "tags": [
+    "an-object-floats-if-its-densit"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc9",
+   "front": "Recall a key point about Pressure",
+   "back": "Use p = F/A for pressure on a surface (ensure area is in m² — divide cm² by 10 000). Use p = hρg for pressure in a liquid (depth in m, density in kg/m³, g = 9.8 N/kg). Rearrange equations: F = pA, h = p/(ρg), A = F/p. Convert kPa to Pa by multiplying by 1000.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc10",
+   "front": "What should you know about answers?",
+   "back": "(a) Pressure is directly proportional to depth — as depth increases, pressure increases linearly (roughly 4.9 kPa per 0.5 m). (b) The pressure sensor may not be perfectly calibrated, or there may be systematic error at higher readings. More likely: the sensor was zeroed at the surface but atmospheric pressure may not have been accounted for consistently, or the sensor position has slight error at greater depths. The discrepancy grows with depth, suggesting a systematic error in the depth measurement (the sensor may be slightly less deep than recorded). (c) ρ = p/(hg) = 10 100 / (1.0 × 9.8) = 1",
+   "tags": [
+    "answers"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc11",
+   "front": "Watch Out!",
+   "back": "1. Wrong: Pressure in a liquid depends on the volume of liquid or the shape of the container. Correct: Pressure in a liquid depends only on depth, density and g (p = hρg). It does NOT depend on volume or container shape.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc12",
+   "front": "Extended Answer",
+   "back": "6 marks: Explain, in terms of forces and pressure, why a ship made of steel can float on water but a solid block of the same steel sinks. Include the role of upthrust and density.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc13",
+   "front": "Analysis and Evaluation",
+   "back": "A student measures the pressure at different depths in a tank of fresh water (ρ = 1000 kg/m³). They use a pressure sensor connected to a data logger. Their results are:",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "p19-pressure-fc14",
+   "front": "Ready to ace your GCSE Combined Science exams?",
+   "back": "Get the best revision books and guides to boost your grades.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "power-supplies",
+ "topicName": "Power Supplies & Regulation",
+ "version": 1,
+ "cards": [
+  {
+   "id": "power-supplies-fc1",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "A power supply converts AC mains to a stable DC voltage through transformer, rectifier, smoothing and regulation stages.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc2",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "A step-down transformer reduces the AC mains voltage to a lower AC voltage suitable for the circuit.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc3",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "Half-wave rectification uses a single diode and only rectifies one half of the AC cycle, giving 50% efficiency.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc4",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "Full-wave rectification using a bridge rectifier uses four diodes and rectifies both halves of the AC cycle.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc5",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "The output of a rectifier is pulsating DC; a smoothing capacitor converts this to a more constant DC level.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc6",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "Ripple voltage is the residual AC variation on the DC output; larger capacitance reduces ripple for a given load current.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc7",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "Ripple voltage formula: V_ripple ≈ I_load / (f × C), where f is the ripple frequency (100 Hz for full-wave on 50 Hz mains).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc8",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "A Zener diode operates in reverse breakdown to provide a stable reference voltage; it is the simplest form of voltage regulator.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc9",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "A Zener regulator circuit uses a series resistor to limit current: R_s = (V_in − V_Z) / (I_Z + I_load).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc10",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "A three-terminal voltage regulator (e.g. 7805 for 5 V, 7812 for 12 V) provides a fixed, stable output with built-in protection.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc11",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "Linear regulators dissipate excess voltage as heat; efficiency is V_out / V_in, so they run hot when the difference is large.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc12",
+   "front": "Recall a key point about Power Supplies & Regulation",
+   "back": "Switch-mode power supplies (SMPS) use high-frequency switching for higher efficiency and smaller size than linear regulators.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc13",
+   "front": "What should you know about gcse electronics exam tips — power supplies & regulation?",
+   "back": "1. For Power Supplies & Regulation questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Power Supplies & Regulation, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-pow"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc14",
+   "front": "Full-Mark Response",
+   "back": "Describe the stages of a regulated DC power supply from mains AC input to stable DC output, explaining the role of rectification, smoothing and voltage regulation.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "power-supplies-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of power supplies & regulation, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of power supplies & regulation to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circui",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

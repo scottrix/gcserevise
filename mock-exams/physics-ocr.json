@@ -1,0 +1,138 @@
+{
+ "subject": "physics",
+ "board": "OCR",
+ "topic": "mock-exam",
+ "topicName": "Physics Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "physics-mock",
+   "name": "Physics Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[P1 Energy Stores And Transfers] Foundation Name the eight energy stores and give one example of each.",
+     "correctAnswer": "Kinetic — moving car; gravitational potential — book on shelf; elastic potential — stretched spring; thermal — hot cup of tea; chemical — food/fuel; nuclear — uranium in reactor; magnetic — two repelling magnets held apart; electrostatic — two opposite charges separated.",
+     "explanation": "Kinetic — moving car; gravitational potential — book on shelf; elastic potential — stretched spring; thermal — hot cup of tea; chemical — food/fuel; nuclear — uranium in reactor; magnetic — two repelling magnets held apart; electrostatic — two opposite charges separated.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[P1 Energy Stores And Transfers] Foundation A ball falls from a height of 2 m. Describe the energy transfers that take place.",
+     "correctAnswer": "At the top: gravitational potential store is at its maximum, kinetic store is zero. As the ball falls: gravitational potential store decreases, kinetic store increases. Energy is transferred mechanically (by gravitational force doing work). Some energy is dissipated to the thermal store of the surro",
+     "explanation": "At the top: gravitational potential store is at its maximum, kinetic store is zero. As the ball falls: gravitational potential store decreases, kinetic store increases. Energy is transferred mechanically (by gravitational force doing work). Some energy is dissipated to the thermal store of the surro",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[P1 Energy Stores And Transfers] Foundation State the conservation of energy principle.",
+     "correctAnswer": "Energy cannot be created or destroyed. It can only be transferred usefully, stored, or dissipated. The total energy input always equals the total energy output.",
+     "explanation": "Energy cannot be created or destroyed. It can only be transferred usefully, stored, or dissipated. The total energy input always equals the total energy output.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Particle Motion And Pressure] Foundation Describe what causes gas pressure in a sealed container.",
+     "correctAnswer": "Gas particles are in constant random motion. They collide with the walls of the container, exerting a force on them. The total force per unit area of the wall is the gas pressure.",
+     "explanation": "Gas particles are in constant random motion. They collide with the walls of the container, exerting a force on them. The total force per unit area of the wall is the gas pressure.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Particle Motion And Pressure] Foundation Explain how Brownian motion provides evidence for the particle model.",
+     "correctAnswer": "Brownian motion shows larger particles (e.g. smoke) moving in random zigzag paths. This is caused by collisions with smaller, invisible air or water particles. This random, uneven bombardment can only be explained if matter is made of tiny particles in constant motion — supporting the particle model",
+     "explanation": "Brownian motion shows larger particles (e.g. smoke) moving in random zigzag paths. This is caused by collisions with smaller, invisible air or water particles. This random, uneven bombardment can only be explained if matter is made of tiny particles in constant motion — supporting the particle model",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Particle Motion And Pressure] Higher A gas at 150 kPa has a volume of 4.0 m³. The volume is reduced to 1.5 m³ at constant temperature. Calculate the new pressure.",
+     "correctAnswer": "p₁V₁ = p₂V₂ → 150 × 4.0 = p₂ × 1.5 → 600 = 1.5 p₂ → p₂ = 400 kPa",
+     "explanation": "p₁V₁ = p₂V₂ → 150 × 4.0 = p₂ × 1.5 → 600 = 1.5 p₂ → p₂ = 400 kPa",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Nuclear Model And Isotopes] Foundation Describe the results of Rutherford's alpha scattering experiment and what each result tells us about the structure of the atom.",
+     "correctAnswer": "Most alpha particles went straight through → the atom is mostly empty space. Some were deflected → the nucleus is positively charged. A few bounced back → the nucleus is small, dense and contains most of the mass.",
+     "explanation": "Most alpha particles went straight through → the atom is mostly empty space. Some were deflected → the nucleus is positively charged. A few bounced back → the nucleus is small, dense and contains most of the mass.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Nuclear Model And Isotopes] Foundation An atom has 26 protons and 30 neutrons. State its atomic number and mass number.",
+     "correctAnswer": "Atomic number = 26 (number of protons). Mass number = 26 + 30 = 56 (protons + neutrons). This is iron-56.",
+     "explanation": "Atomic number = 26 (number of protons). Mass number = 26 + 30 = 56 (protons + neutrons). This is iron-56.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Nuclear Model And Isotopes] Higher Explain what isotopes are, using carbon-12 and carbon-14 as examples.",
+     "correctAnswer": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. Carbon-12 has 6 protons and 6 neutrons. Carbon-14 has 6 protons and 8 neutrons. They are both carbon (atomic number 6) but have different mass numbers (12 and 14).",
+     "explanation": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons. Carbon-12 has 6 protons and 6 neutrons. Carbon-14 has 6 protons and 8 neutrons. They are both carbon (atomic number 6) but have different mass numbers (12 and 14).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Nuclear Radiation And Hazards] Foundation State the penetrating power and ionising power of alpha, beta and gamma radiation.",
+     "correctAnswer": "Alpha: high ionising, low penetrating (stopped by paper). Beta: moderate ionising, moderate penetrating (stopped by aluminium foil). Gamma: low ionising, high penetrating (reduced by thick lead/concrete).",
+     "explanation": "Alpha: high ionising, low penetrating (stopped by paper). Beta: moderate ionising, moderate penetrating (stopped by aluminium foil). Gamma: low ionising, high penetrating (reduced by thick lead/concrete).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Nuclear Radiation And Hazards] Foundation Explain the difference between contamination and irradiation.",
+     "correctAnswer": "Contamination is when a radioactive substance gets on or inside the body, exposing you continuously. Irradiation is when you are exposed to radiation from an external source — exposure stops when you move away. Contamination is generally more dangerous.",
+     "explanation": "Contamination is when a radioactive substance gets on or inside the body, exposing you continuously. Irradiation is when you are exposed to radiation from an external source — exposure stops when you move away. Contamination is generally more dangerous.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Nuclear Radiation And Hazards] Higher Radium-226 (atomic number 88) undergoes alpha decay. Write the nuclear equation and identify the daughter element.",
+     "correctAnswer": "226 88 Ra → 222 86 Rn + 4 2 He. The daughter element is radon-222 (atomic number 86).",
+     "explanation": "226 88 Ra → 222 86 Rn + 4 2 He. The daughter element is radon-222 (atomic number 86).",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

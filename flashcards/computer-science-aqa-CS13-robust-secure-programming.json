@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS13-robust-secure-programming",
+ "topicName": "Robust & Secure Programming",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs13-robust-secure-programming-fc1",
+   "front": "What should you know about validation?",
+   "back": "is the process of checking that input data is reasonable, sensible, and within acceptable limits before it is processed. Validation does NOT check if data is accurate - only that it is acceptable.",
+   "tags": [
+    "validation"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc2",
+   "front": "What should you know about validation vs verification?",
+   "back": "Validation checks if data is reasonable. Verification checks if data is correct (e.g. double-entry where you type the data twice to confirm it). They are different processes!",
+   "tags": [
+    "validation-vs-verification"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc3",
+   "front": "What should you know about authentication?",
+   "back": "is the process of verifying a user's identity. The most common method is a username and password system. Authentication ensures that only authorised users can access a system.",
+   "tags": [
+    "authentication"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc4",
+   "front": "What should you know about testing?",
+   "back": "is the process of running a program with various inputs to check it works correctly. Good testing uses a range of test data to find errors.",
+   "tags": [
+    "testing"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc5",
+   "front": "Recall a key point about Robust & Secure Programming",
+   "back": "Boundary data tests the exact limits. For a range of 1-100, boundary data is 1, 100, 0, and 101. The boundary values that are just outside the valid range are especially important.",
+   "tags": [
+    "exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc6",
+   "front": "What should you know about syntax errors?",
+   "back": "are mistakes in the grammar/rules of the programming language. The program cannot run at all. Logic errors are mistakes in the program's logic - the program runs but produces incorrect results.",
+   "tags": [
+    "syntax-errors"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc7",
+   "front": "What should you know about debugging?",
+   "back": "is the process of finding and fixing errors in a program. Common techniques include using trace tables, adding output statements, using IDE debuggers, and dry running.",
+   "tags": [
+    "debugging"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc8",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Validation = is the data reasonable? (type check, range check, length check, presence check, format check, lookup check). Verification = is the data what was intended? (double entry, visual check). Authentication = who are you? Authorisation = what can you do? Always name the specific type of validation check, not just 'it checks the input'. Show validation code using WHILE loops with appropriate conditions.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc9",
+   "front": "What does Range check mean?",
+   "back": "Checks that a value is within a specified range (e.g. Age must be between 0 and 120)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc10",
+   "front": "What does Length check mean?",
+   "back": "Checks that a string has an acceptable number of characters (e.g. Password must be at least 8 characters)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc11",
+   "front": "What does Type check mean?",
+   "back": "Checks that the data is of the correct data type (e.g. Age must be an integer, not a string)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc12",
+   "front": "What does Presence check mean?",
+   "back": "Checks that a field has not been left empty (e.g. Name field cannot be blank)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc13",
+   "front": "What does Format check mean?",
+   "back": "Checks that data follows a specific pattern (e.g. Email must contain @, date must be DD/MM/YYYY)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc14",
+   "front": "What does Lookup check mean?",
+   "back": "Checks that a value exists in a predefined list (e.g. Country must be in the list of valid countries)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs13-robust-secure-programming-fc15",
+   "front": "What does Normal data mean?",
+   "back": "Typical, valid data that the program should accept (e.g. 25, 50, 80)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

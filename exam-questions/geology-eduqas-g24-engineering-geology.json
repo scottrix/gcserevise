@@ -1,0 +1,94 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g24-engineering-geology",
+ "topicName": "Engineering Geology",
+ "version": 1,
+ "questions": [
+  {
+   "id": "g24-engineering-geology-q1",
+   "type": "short-answer",
+   "question": "Q: What are the stages of a site investigation?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Desk study: review existing data. 2) Walkover survey: visual inspection. 3) Ground investigation: boreholes, trial pits, geophysical surveys. 4) Laboratory testing: rock strength, permeability. 5) Report: geological model with recommendations.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g24-engineering-geology-q2",
+   "type": "short-answer",
+   "question": "Q: Why is permeability important for dam construction?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A dam must have an impermeable foundation to prevent water leaking under or around it. If the bedrock is permeable (e.g. jointed limestone), water will seep through, reducing reservoir effectiveness and potentially eroding foundations.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g24-engineering-geology-q3",
+   "type": "short-answer",
+   "question": "Q: What geological factors affect tunnel construction?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Rock type and strength, jointing and faulting (weak zones may collapse), groundwater (flooding, pressure on walls), and rock stress (deep tunnels may experience rock bursts). Each requires different support methods.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g24-engineering-geology-q4",
+   "type": "short-answer",
+   "question": "Q: Why do buildings on clay need special foundations?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Clay has low bearing capacity and is compressible, causing settlement. Some clays shrink and swell with moisture changes, cracking buildings. Solutions include deep pile foundations or raft foundations.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g24-engineering-geology-q5",
+   "type": "short-answer",
+   "question": "Q: What is the difference between porosity and permeability?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Porosity is the proportion of open space in a rock (how much fluid it stores). Permeability is how easily fluid flows through (how well pores are connected). A rock can be porous but impermeable (e.g. shale).",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

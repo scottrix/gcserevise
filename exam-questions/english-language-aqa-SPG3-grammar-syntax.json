@@ -1,0 +1,94 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "SPG3-grammar-syntax",
+ "topicName": "Grammar and Syntax",
+ "version": 1,
+ "questions": [
+  {
+   "id": "spg3-grammar-syntax-q1",
+   "type": "short-answer",
+   "question": "Identify the error: \"The group of students are studying hard.\"",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "\"are\" should be \"is\" - the subject is \"group\" (singular), not \"students\"",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "spg3-grammar-syntax-q2",
+   "type": "short-answer",
+   "question": "Rewrite using active voice: \"The window was broken by the ball.\"",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The ball broke the window.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "spg3-grammar-syntax-q3",
+   "type": "short-answer",
+   "question": "What type of sentence is this? \"When the rain stopped, the children ran outside.\"",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Complex sentence - main clause (\"the children ran outside\") + subordinate clause (\"when the rain stopped\")",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "spg3-grammar-syntax-q4",
+   "type": "short-answer",
+   "question": "Correct the tense inconsistency: \"She walks into the room and saw the mess.\"",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "She walked into the room and saw the mess. (or: She walks into the room and sees the mess.)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "spg3-grammar-syntax-q5",
+   "type": "short-answer",
+   "question": "Complete: \"Neither the teacher nor the students ___ (is/are) responsible.\"",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "are - with \"neither...nor\", the verb agrees with the nearest subject (\"students\")",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

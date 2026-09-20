@@ -1,0 +1,57 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P10-particle-motion-and-pressure",
+ "topicName": "Particle Motion And Pressure",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p10-particle-motion-and-pressure-s1",
+   "kind": "learn",
+   "title": "Brownian motion",
+   "body": "The random, zigzag motion of particles in a fluid (liquid or gas), caused by collisions with much smaller, fast-moving particles. This provides evidence for the particle model of matter."
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-s2",
+   "kind": "learn",
+   "title": "Gas pressure",
+   "body": "The force exerted by gas particles per unit area on the walls of a container, caused by particles colliding with the walls."
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-s3",
+   "kind": "learn",
+   "title": "Absolute zero",
+   "body": "The lowest possible temperature (−273°C or 0 K), at which particles have zero kinetic energy and stop moving."
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-s4",
+   "kind": "learn",
+   "title": "Kelvin scale",
+   "body": "A temperature scale that starts at absolute zero. An increase of 1 K is the same as an increase of 1°C."
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Gas particles are in constant random motion. When they collide with the walls of their container, they exert a force on the wall. The pressure is this force per unit area. p = F / A p = pressure (Pa), F = force (N), A = area (m²) How gas pressure arises: Gas particles collide with the walls of the container. Each collision exerts a tiny force. Billions of collisions per second add up to produce the overall gas pressure. The pressure depends on how hard and how often the particles hit the walls."
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation Describe what causes gas pressure in a sealed container. | Foundation Explain how Brownian motion provides evidence for the particle model. | Higher A gas at 150 kPa has a volume of 4.0 m³. The volume is reduced to 1.5 m³ at constant temperature. Calculate the new pressure."
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Gas particles are in constant random motion. They collide with the walls of the container, exerting a force on them. The total force per unit area of the wall is the gas pressure. | Brownian motion shows larger particles (e.g. smoke) moving in random zigzag paths. This is caused by collisions with smaller, invisible air or water particles. This random, uneven bombardment can only | p₁V₁ = p₂V₂ → 150 × 4.0 = p₂ × 1.5 → 600 = 1.5 p₂ → p₂ = 400 kPa"
+  },
+  {
+   "id": "p10-particle-motion-and-pressure-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "When explaining gas pressure, always mention particles colliding with walls — not just \"particles moving\" Boyle's Law only works at constant temperature and for a fixed mass of gas — check these conditions before using p₁V₁ = p₂V₂ Always convert temperatures to Kelvin before using proportional relationships — pressure is proportional to Kelvin temperature, not Celsius temperature In Brownian motion questions, make clear the distinction between the small, invisible particles (air/water) and the larger, visible particles (smoke/pollen) Remember: 1 kPa = 1000 Pa. Make sure all pressures are in the same units before calculating When asked to explain pressure changes, always link back to frequency of collisions and/or force of collisions"
+  }
+ ]
+}

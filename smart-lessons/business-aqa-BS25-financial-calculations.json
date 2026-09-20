@@ -1,0 +1,51 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS25-financial-calculations",
+ "topicName": "Financial Calculations",
+ "version": 1,
+ "steps": [
+  {
+   "id": "bs25-financial-calculations-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Revenue = price x quantity sold. Total costs = fixed costs + variable costs. Profit = revenue - total costs. Loss occurs when total costs exceed revenue."
+  },
+  {
+   "id": "bs25-financial-calculations-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Fixed costs don't change with output (rent, salaries, insurance). Variable costs change with output (raw materials, packaging). Semi-variable costs have both elements (electricity = standing charge + usage)."
+  },
+  {
+   "id": "bs25-financial-calculations-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Break-even point: where total revenue = total costs (no profit, no loss). Break-even quantity = fixed costs / contribution per unit. Contribution per unit = selling price - variable cost per unit."
+  },
+  {
+   "id": "bs25-financial-calculations-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Margin of safety = actual output - break-even output. It shows how much sales can fall before the business makes a loss. A larger margin of safety means lower risk."
+  },
+  {
+   "id": "bs25-financial-calculations-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "A business sells products at £20 each. Fixed costs are £10,000 per month and variable costs are £8 per unit. Calculate the break-even quantity. | Explain what the margin of safety tells a business and why it is important. | Evaluate the usefulness of break-even analysis for a business deciding whether to launch a new product."
+  },
+  {
+   "id": "bs25-financial-calculations-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Contribution per unit = £20 - £8 = £12. Break-even quantity = £10,000 / £12 = 833.3 units (round up to 834 units). The business must sell at least 834 units per month to cover all costs. At 834 units: | The margin of safety shows how far above break-even the business is currently operating. E.g. if break-even is 834 units and the business sells 1,200, the margin of safety is 366 units (or 30.5%). Thi | Break-even analysis is useful: identifies the minimum sales needed, helps set sales targets, shows the impact of price/cost changes (what-if analysis), supports loan applications (shows viability). Li"
+  },
+  {
+   "id": "bs25-financial-calculations-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always show your working in calculations: state the formula, substitute values, give the answer with units. Remember: break-even is a point (quantity), margin of safety is a range (difference). ARR questions: calculate average annual profit FIRST (total profit / number of years), then divide by investment."
+  }
+ ]
+}

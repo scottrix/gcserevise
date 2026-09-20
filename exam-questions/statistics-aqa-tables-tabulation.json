@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "tables-tabulation",
+ "topicName": "Tables Tabulation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "tables-tabulation-q1",
+   "type": "short-answer",
+   "question": "Q: What is the advantage of using a tally chart when collecting data?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A tally chart allows data to be recorded quickly and efficiently as it is collected, and the grouped tally marks (every five) make counting easy.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tables-tabulation-q2",
+   "type": "short-answer",
+   "question": "Q: Data is recorded in the grouped frequency table with class intervals 0–9, 10–19, 20–29. What is the class width of each interval?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Each class interval has a width of 10. For the interval 0–9, the boundaries are –0.5 and 9.5, giving a width of 10.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tables-tabulation-q3",
+   "type": "short-answer",
+   "question": "Q: In a two-way table, 40 students study Biology, 30 study Chemistry, and 15 study both. How many study at least one subject?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Using the addition rule: 40 + 30 – 15 = 55 students study at least one subject.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tables-tabulation-q4",
+   "type": "short-answer",
+   "question": "Q: A grouped frequency table has class intervals 5 ≤ x < 15 and 15 ≤ x < 25. What is the midpoint of the second class?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The midpoint is (15 + 25) ÷ 2 = 20.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tables-tabulation-q5",
+   "type": "short-answer",
+   "question": "Q: The total frequency is 200 and the frequency of the class 10 ≤ x < 20 is 50. What is the relative frequency of this class?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Relative frequency = 50 ÷ 200 = 0.25 or 25%.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tables-tabulation-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A survey of 60 households recorded the number of pets owned. The results are shown in the grouped frequency table below. Estimate the mean number of pets. Class intervals: 0–2 (f=22), 2–4 (f=18), 4–6 (f=12), 6–8 (f=8) <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Class interval | Midpoint (m) | Frequency (f) | f x m 0 ≤ x < 2 | 1 | 22 | 22 2 ≤ x < 4 | 3 | 18 | 54 4 ≤ x < 6 | 5 | 12 | 60 6 ≤ x < 8 | 7 | 8 | 56 Total | | 60 | 192 Estimated mean = Σ(fm) ÷ Σf = 192 ÷ 60 = 3.2 pets. The mean is estimated because we use midpoints rather than the actual data values within each class.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Class interval | Midpoint (m) | Frequency (f) | f x m 0 ≤ x < 2 | 1 | 22 | 22 2 ≤ x < 4 | 3 | 18 | 54 4 ≤ x < 6 | 5 | 12 | 60 6 ≤ x < 8 | 7 | 8 | 56 Total | | 60 | 192 Estimated mean = Σ(fm) ÷ Σf = 192 ÷ 60 = 3.2 pets. The mean is estimated because we use midpoints rather than the actual data values within each class."
+   }
+  }
+ ]
+}

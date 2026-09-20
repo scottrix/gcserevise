@@ -1,0 +1,51 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as10-planetary-motion-gravity",
+ "topicName": "Planetary Motion & Gravity",
+ "version": 1,
+ "steps": [
+  {
+   "id": "as10-planetary-motion-gravity-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Kepler's first law: planets orbit in ellipses with the Sun at one focus"
+  },
+  {
+   "id": "as10-planetary-motion-gravity-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Kepler's second law: a line joining a planet and the Sun sweeps equal areas in equal times (planets move faster at perihelion, slower at aphelion)"
+  },
+  {
+   "id": "as10-planetary-motion-gravity-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Kepler's third law: T² ∝ a³ — the square of the orbital period is proportional to the cube of the semi-major axis"
+  },
+  {
+   "id": "as10-planetary-motion-gravity-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Newton's law of gravitation: F = GMm/r² — gravitational force is proportional to the product of masses and inversely proportional to the square of the distance"
+  },
+  {
+   "id": "as10-planetary-motion-gravity-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: State Kepler's three laws of planetary motion. | Q: Why do planets move faster at perihelion? | Q: State Newton's law of gravitation and explain each term."
+  },
+  {
+   "id": "as10-planetary-motion-gravity-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "1st: Planets orbit in ellipses with the Sun at one focus. 2nd: A line from planet to Sun sweeps equal areas in equal times. 3rd: T² is proportional to a³. | Because of Kepler's second law — equal areas are swept in equal times, so the planet must move faster when closer to the Sun to cover the same area. | F = GMm/r². F is the gravitational force, G is the gravitational constant, M and m are the two masses, and r is the distance between their centres."
+  },
+  {
+   "id": "as10-planetary-motion-gravity-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Kepler's 3rd law calculations: use Earth as reference (a=1 AU, T=1 year) for simplicity F = GMm/r² — remember: doubling distance quarters the force (inverse square law) AQA specifically tests Kepler's laws — know all three by name and content For Edexcel, be prepared to apply Kepler's 3rd law to calculate orbital periods"
+  }
+ ]
+}

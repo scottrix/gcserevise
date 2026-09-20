@@ -1,0 +1,111 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE18-optimising-training-injury",
+ "topicName": "Optimising Training and Preventing Injury",
+ "version": 1,
+ "questions": [
+  {
+   "id": "pe18-optimising-training-injury-q1",
+   "type": "short-answer",
+   "question": "Calculate the maximum heart rate and aerobic training zone for a 20-year-old.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Max HR = 220 - 20 = 200 bpm. Aerobic zone (60-80%): 200 × 0.60 = 120 bpm; 200 × 0.80 = 160 bpm. Aerobic zone = 120-160 bpm.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe18-optimising-training-injury-q2",
+   "type": "short-answer",
+   "question": "Describe the three parts of a warm-up and explain why each is important.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(1) Pulse-raiser: 5-10 minutes of light aerobic activity to raise heart rate and body temperature, making muscles more elastic. (2) Stretching: dynamic and/or static stretches to increase joint range of movement and reduce muscle stiffness. (3) Skill-related practice: sport-specific drills to prepare the neuromuscular system and practise technique before full-intensity activity.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe18-optimising-training-injury-q3",
+   "type": "short-answer",
+   "question": "An athlete can lift 80kg for 6 reps on bench press. Estimate their 1RM.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1RM = 80 × (1 + (6 ÷ 30)) = 80 × 1.2 = 96 kg.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe18-optimising-training-injury-q4",
+   "type": "short-answer",
+   "question": "Explain why training at 80-90% of max HR develops the anaerobic system.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Training at 80-90% of max HR requires the body to work at an intensity where the aerobic system alone cannot supply enough energy. The anaerobic (lactic acid) system must contribute significantly to meet the energy demand, producing ATP rapidly without oxygen. This trains the body to tolerate and process lactic acid more effectively, improving the lactate threshold.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe18-optimising-training-injury-q5",
+   "type": "short-answer",
+   "question": "Describe three injury prevention strategies and explain how each works.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(1) Proper warm-up: increases muscle temperature and elasticity, and joint mobility, reducing the risk of strains and sprains. (2) Correct footwear: provides support and cushioning for the feet and joints, reducing impact forces and preventing ankle and knee injuries. (3) Correct technique: ensures forces are applied through the body correctly, reducing unnecessary stress on joints, ligaments and ",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "pe18-optimising-training-injury-q6",
+   "type": "short-answer",
+   "question": "Why are rest days important in a training programme?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Rest days are essential because they allow the body to recover and repair from training. Muscles need time to rebuild (repairing micro-tears from training causes hypertrophy). Without rest, the body accumulates fatigue, leading to overtraining syndrome, reduced performance and increased injury risk. Rest also allows energy stores (glycogen, PC) to be replenished.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

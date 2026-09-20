@@ -1,0 +1,112 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "graphical-representations",
+ "topicName": "Graphical Representations",
+ "version": 1,
+ "questions": [
+  {
+   "id": "graphical-representations-q1",
+   "type": "short-answer",
+   "question": "Q: What type of chart would you use to compare the favourite subjects of boys and girls in a school?",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A dual (comparative) bar chart, because it shows two groups side by side for each category, making comparison easy.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "graphical-representations-q2",
+   "type": "short-answer",
+   "question": "Q: From a cumulative frequency curve, the total frequency is 80. At what cumulative frequency value do you read the lower quartile?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Lower quartile is at 25% of total: 0.25 × 80 = 20. Read the value on the x-axis at cumulative frequency 20.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "graphical-representations-q3",
+   "type": "short-answer",
+   "question": "Q: Points on a scatter graph generally rise from bottom-left to top-right. What type of correlation does this suggest?",
+   "marks": 1,
+   "commandWord": "suggest",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "This suggests a positive correlation — as one variable increases, the other also tends to increase.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "graphical-representations-q4",
+   "type": "short-answer",
+   "question": "Q: How do you plot a frequency polygon for a grouped frequency table?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Plot the midpoint of each class interval on the x-axis against its frequency on the y-axis, then join the points with straight lines.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "graphical-representations-q5",
+   "type": "short-answer",
+   "question": "Q: What is the key difference between a bar chart and a histogram?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A bar chart has gaps between bars and is used for discrete/qualitative data; a histogram has no gaps and is used for continuous data, with bar area proportional to frequency.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "graphical-representations-ext",
+   "type": "extended",
+   "question": "Full-Mark Response The grouped frequency table shows the marks of 40 students in a test. Draw a cumulative frequency curve and use it to find the median and interquartile range. 0–20: 4, 20–40: 8, 40–60: 16, 60–80: 8, 80–100: 4 <div class=\"",
+   "marks": 4,
+   "commandWord": "calculate",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Plot cumulative frequencies at upper class boundaries: 20: 4, 40: 12, 60: 28, 80: 36, 100: 40 Draw a smooth S-shaped curve through the points. Median at cumulative frequency = 40 ÷ 2 = 20: Read from 20 on the y-axis → approximately 50 on the x-axis. Lower quartile at cumulative frequency = 40 ÷ 4 = 10: Read from 10 → approximately 35. Upper quartile at cumulative frequency = 3 × 40 ÷ 4 = 30: Read from 30 → approximately 65. Interquartile range = 65 – 35 = 30 marks.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Plot cumulative frequencies at upper class boundaries: 20: 4, 40: 12, 60: 28, 80: 36, 100: 40 Draw a smooth S-shaped curve through the points. Median at cumulative frequency = 40 ÷ 2 = 20: Read from 20 on the y-axis → approximately 50 on the x-axis. Lower quartile at cumulative frequency = 40 ÷ 4 = 10: Read from 10 → approximately 35. Upper quartile at cumulative frequency = 3 × 40 ÷ 4 = 30: Read from 30 → approximately 65. Interquartile range = 65 – 35 = 30 marks."
+   }
+  }
+ ]
+}

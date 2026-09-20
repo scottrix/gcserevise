@@ -1,0 +1,112 @@
+{
+ "subject": "law",
+ "board": "AQA",
+ "topic": "criminal-defences",
+ "topicName": "Criminal Defences",
+ "version": 1,
+ "questions": [
+  {
+   "id": "criminal-defences-q1",
+   "type": "short-answer",
+   "question": "Q: When can self-defence be used as a defence?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Self-defence is available where the defendant honestly believed they needed to use force and the force used was reasonable and proportionate to the threat perceived. The defendant can defend themselves, another person or property.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "criminal-defences-q2",
+   "type": "short-answer",
+   "question": "Q: What are the M'Naghten rules for insanity?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The defendant must have a defect of reason caused by a disease of the mind, such that either (a) they did not know the nature and quality of their act, or (b) they did not know that what they were doing was wrong. Both are objective tests.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "criminal-defences-q3",
+   "type": "short-answer",
+   "question": "Q: What is the difference between insanity and automatism?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Insanity requires a defect of reason from an internal disease of the mind and leads to a special verdict (not guilty by reason of insanity). Automatism is caused by an external factor and results in a full acquittal, but only if the condition was truly involuntary and not self-induced.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "criminal-defences-q4",
+   "type": "short-answer",
+   "question": "Q: When can intoxication be a defence?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Involuntary intoxication can negate mens rea for any crime. Voluntary intoxication can only be a defence to specific intent crimes (where the defendant was so drunk they could not form intent) — it is never a defence to basic intent crimes.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "criminal-defences-q5",
+   "type": "short-answer",
+   "question": "Q: What are the limitations on the defence of duress?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Duress is not available for murder or attempted murder. The threat must be of death or serious injury, it must be immediate or effectively immediate, and a person of reasonable firmness must have succumbed. The defendant must not have voluntarily joined a criminal organisation (the associational rule).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "criminal-defences-ext",
+   "type": "extended",
+   "question": "Full-Mark Response How far do criminal defences achieve justice for defendants? (15 marks) <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Criminal defences achieve justice for some defendants by recognising that not all criminal acts deserve punishment, but significant gaps and inconsistencies mean that justice is not always served. Self-defence is an effective defence because it recognises the right to protect oneself and others — the requirement of reasonable force ensures proportionality. However, the test is applied subjectively for the belief and objectively for the force used, which can disadvantage those who genuinely but unreasonably perceive a threat. Insanity, governed by the M'Naghten rules from 1843, is deeply proble",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Criminal defences achieve justice for some defendants by recognising that not all criminal acts deserve punishment, but significant gaps and inconsistencies mean that justice is not always served. Self-defence is an effective defence because it recognises the right to protect oneself and others — the requirement of reasonable force ensures proportionality. However, the test is applied subjectively for the belief and objectively for the force used, which can disadvantage those who genuinely but unreasonably perceive a threat. Insanity, governed by the M'Naghten rules from 1843, is deeply problematic — the archaic language ('defect of reason', 'disease of the mind') is medically meaningless and has led to illogical outcomes where diabetics and epileptics have been classed as insane. The special verdict of 'not guilty by reason of insanity' can result in indefinite hospital detention, which may be more restrictive than a prison sentence — hardly just for a person who was not morally blameworthy. Automatism provides a full acquittal but only where the cause is external, creating an artificial distinction with insanity. Duress recognises that people forced to commit crimes should not always be punished, but the rule excluding murder is controversial — a person threatened with death may have no real choice. Intoxication law is arguably the most unjust area: a defendant who deliberately gets drunk can use this as a defence to specific intent crimes, which many find morally wrong. Fu"
+   }
+  }
+ ]
+}

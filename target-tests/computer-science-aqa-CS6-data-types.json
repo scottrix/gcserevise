@@ -1,0 +1,48 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS6-data-types",
+ "topicName": "Data Types",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs6-data-types-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Data Types",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs6-data-types-t1",
+     "type": "short-answer",
+     "question": "Name the five main data types and give an example value for each.",
+     "correctAnswer": "Integer: 42, Real/Float: 3.14, Boolean: TRUE, Character: 'A', String: \"Hello\".",
+     "explanation": "Answer: Integer: 42, Real/Float: 3.14, Boolean: TRUE, Character: 'A', String: \"Hello\".",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs6-data-types-t3",
+     "type": "short-answer",
+     "question": "What is the result of INT(\"25\") + INT(\"10\")?",
+     "correctAnswer": "INT(\"25\") = 25, INT(\"10\") = 10, so 25 + 10 = 35.",
+     "explanation": "Answer: INT(\"25\") = 25, INT(\"10\") = 10, so 25 + 10 = 35.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs6-data-types-t5",
+     "type": "short-answer",
+     "question": "Write pseudo-code that asks the user for a number, converts it to a real, divides it by 2, and outputs the result.",
+     "correctAnswer": "INPUT userInput num ← FLOAT(userInput) result ← num / 2 OUTPUT result",
+     "explanation": "Answer: INPUT userInput num ← FLOAT(userInput) result ← num / 2 OUTPUT result",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

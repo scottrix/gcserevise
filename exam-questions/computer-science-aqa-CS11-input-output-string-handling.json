@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS11-input-output-string-handling",
+ "topicName": "Input, Output & String Handling",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs11-input-output-string-handling-q1",
+   "type": "short-answer",
+   "question": "What does LENGTH(\"GCSE Computer Science\") return?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "20 characters (including the space).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs11-input-output-string-handling-q2",
+   "type": "short-answer",
+   "question": "Write pseudo-code that asks for a word and outputs the first three characters.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT word OUTPUT SUBSTRING(word, 0, 3)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs11-input-output-string-handling-q3",
+   "type": "short-answer",
+   "question": "What is the ASCII code for 'A'? What is CHR(97)?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The ASCII code for 'A' is 65. CHR(97) = 'a'.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs11-input-output-string-handling-q4",
+   "type": "short-answer",
+   "question": "Write pseudo-code that takes two numbers as input, adds them, and outputs the result as a sentence.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT \"Enter first number: \", a INPUT \"Enter second number: \", b num1 ← FLOAT(a) num2 ← FLOAT(b) total ← num1 + num2 OUTPUT a & \" + \" & b & \" = \" & STR(total)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs11-input-output-string-handling-q5",
+   "type": "short-answer",
+   "question": "Write pseudo-code that checks if the first character of a word is uppercase.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT word firstChar ← SUBSTRING(word, 0, 1) IF ASC(firstChar) >= 65 AND ASC(firstChar) <= 90 THEN OUTPUT \"First character is uppercase\" ELSE OUTPUT \"First character is not uppercase\" ENDIF",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs11-input-output-string-handling-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Write pseudo-code that inputs a full name (e.g. 'Jane Smith'), extracts and outputs the first name and last name separately, then outputs the initials in uppercase. [5 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "state",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "INPUT 'Enter full name: ', fullname space_pos ← 0 FOR i ← 0 TO LENGTH(fullname) - 1 IF fullname[i] = ' ' THEN space_pos ← i ENDIF NEXT i firstname ← SUBSTRING(fullname, 0, space_pos) lastname ← SUBSTRING(fullname, space_pos + 1, LENGTH(fullname) - space_pos - 1) OUTPUT 'First name: ' & firstname OUTPUT 'Last name: ' & lastname initials ← UPPER(firstname[0]) & '.' & UPPER(lastname[0]) & '.' OUTPUT 'Initials: ' & initials",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "INPUT 'Enter full name: ', fullname space_pos ← 0 FOR i ← 0 TO LENGTH(fullname) - 1 IF fullname[i] = ' ' THEN space_pos ← i ENDIF NEXT i firstname ← SUBSTRING(fullname, 0, space_pos) lastname ← SUBSTRING(fullname, space_pos + 1, LENGTH(fullname) - space_pos - 1) OUTPUT 'First name: ' & firstname OUTPUT 'Last name: ' & lastname initials ← UPPER(firstname[0]) & '.' & UPPER(lastname[0]) & '.' OUTPUT 'Initials: ' & initials"
+   }
+  }
+ ]
+}

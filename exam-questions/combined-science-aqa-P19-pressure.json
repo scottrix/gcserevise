@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P19-pressure",
+ "topicName": "Pressure",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p19-pressure-q1",
+   "type": "short-answer",
+   "question": "Foundation A woman of weight 600 N stands on both feet with total area 0.03 m². Calculate the pressure she exerts on the ground.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "p = F / A = 600 / 0.03 = 20 000 Pa (20 kPa)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p19-pressure-q2",
+   "type": "short-answer",
+   "question": "Foundation Explain why atmospheric pressure decreases with height above the Earth surface.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Atmospheric pressure is caused by the weight of air above a point. As height increases, there is less air above, so less weight of air, and therefore lower pressure.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p19-pressure-q3",
+   "type": "short-answer",
+   "question": "Higher Calculate the pressure at a depth of 5 m in sea water (density 1025 kg/m³, g = 9.8 N/kg).",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "p = hρg = 5 × 1025 × 9.8 = 50 225 Pa (50.2 kPa)",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p19-pressure-q4",
+   "type": "short-answer",
+   "question": "Higher Explain, in terms of density and upthrust, why a solid steel block sinks in water but a steel ship floats.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The solid steel block is denser than water, so it cannot displace enough water to create an upthrust equal to its weight — it sinks. The steel ship has a hollow shape filled with air, making its overall density less than water. It displaces a large volume of water, creating an upthrust equal to its weight, so it floats.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p19-pressure-q5",
+   "type": "short-answer",
+   "question": "Foundation A drawing pin has a very small point. Explain why it is easy to push into a wall using the formula for pressure.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Pressure = force / area. The point of the drawing pin has a very small area, so the same force produces a very large pressure, easily piercing the wall. The large head has a large area, producing a small pressure on your thumb.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p19-pressure-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain, in terms of forces and pressure, why a ship made of steel can float on water but a solid block of the same steel sinks. Include the role of upthrust and density. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A solid block of steel has a density of about 7800 kg/m³, which is much greater than the density of water (1000 kg/m³). When placed in water, it displaces a volume of water equal to its own volume, but the weight of this displaced water (the upthrust) is less than the weight of the steel block. Since upthrust Mark scheme: 1 mark for solid steel has density > water; 1 mark for solid block displaces small volume → upthrust",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "A solid block of steel has a density of about 7800 kg/m³, which is much greater than the density of water (1000 kg/m³). When placed in water, it displaces a volume of water equal to its own volume, but the weight of this displaced water (the upthrust) is less than the weight of the steel block. Since upthrust Mark scheme: 1 mark for solid steel has density > water; 1 mark for solid block displaces small volume → upthrust"
+   }
+  }
+ ]
+}

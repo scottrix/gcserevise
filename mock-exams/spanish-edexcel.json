@@ -1,0 +1,138 @@
+{
+ "subject": "spanish",
+ "board": "Edexcel",
+ "topic": "mock-exam",
+ "topicName": "Spanish Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "spanish-mock",
+   "name": "Spanish Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Tenses: Present, Preterite and Imperfect] Write 4 sentences in Spanish about tenses: present, preterite and imperfect.",
+     "correctAnswer": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "explanation": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Tenses: Present, Preterite and Imperfect] Write a paragraph (40-60 words) giving your opinion on tenses: present, preterite and imperfect.",
+     "correctAnswer": "A structured paragraph with: introduction (en mi opinión...), opinion with reason (creo que... porque...), a different viewpoint (sin embargo...), and a conclusion (en conclusión...). Use connecting words and varied vocabulary.",
+     "explanation": "A structured paragraph with: introduction (en mi opinión...), opinion with reason (creo que... porque...), a different viewpoint (sin embargo...), and a conclusion (en conclusión...). Use connecting words and varied vocabulary.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Tenses: Present, Preterite and Imperfect] Translate into Spanish: \"I think tenses: present, preterite and imperfect is important because...\"",
+     "correctAnswer": "\"Creo que [topic] es importante porque...\" — ensure adjective agreement (masculine/feminine), correct verb form, and give a specific reason.",
+     "explanation": "\"Creo que [topic] es importante porque...\" — ensure adjective agreement (masculine/feminine), correct verb form, and give a specific reason.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Tenses: Future and Conditional] Write 4 sentences in Spanish about tenses: future and conditional.",
+     "correctAnswer": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "explanation": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Tenses: Future and Conditional] Write a paragraph (40-60 words) giving your opinion on tenses: future and conditional.",
+     "correctAnswer": "A structured paragraph with: introduction (en mi opinión...), opinion with reason (creo que... porque...), a different viewpoint (sin embargo...), and a conclusion (en conclusión...). Use connecting words and varied vocabulary.",
+     "explanation": "A structured paragraph with: introduction (en mi opinión...), opinion with reason (creo que... porque...), a different viewpoint (sin embargo...), and a conclusion (en conclusión...). Use connecting words and varied vocabulary.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Tenses: Future and Conditional] Translate into Spanish: \"I think tenses: future and conditional is important because...\"",
+     "correctAnswer": "\"Creo que [topic] es importante porque...\" — ensure adjective agreement (masculine/feminine), correct verb form, and give a specific reason.",
+     "explanation": "\"Creo que [topic] es importante porque...\" — ensure adjective agreement (masculine/feminine), correct verb form, and give a specific reason.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[Articles, Adjectives and Agreement] Write 4 sentences in Spanish about articles, adjectives and agreement.",
+     "correctAnswer": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "explanation": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[Articles, Adjectives and Agreement] Write a paragraph (40-60 words) giving your opinion on articles, adjectives and agreement.",
+     "correctAnswer": "A structured paragraph with: introduction (en mi opinión...), opinion with reason (creo que... porque...), a different viewpoint (sin embargo...), and a conclusion (en conclusión...). Use connecting words and varied vocabulary.",
+     "explanation": "A structured paragraph with: introduction (en mi opinión...), opinion with reason (creo que... porque...), a different viewpoint (sin embargo...), and a conclusion (en conclusión...). Use connecting words and varied vocabulary.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[Articles, Adjectives and Agreement] Translate into Spanish: \"I think articles, adjectives and agreement is important because...\"",
+     "correctAnswer": "\"Creo que [topic] es importante porque...\" — ensure adjective agreement (masculine/feminine), correct verb form, and give a specific reason.",
+     "explanation": "\"Creo que [topic] es importante porque...\" — ensure adjective agreement (masculine/feminine), correct verb form, and give a specific reason.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[Pronouns and Negation] Write 4 sentences in Spanish about pronouns and negation.",
+     "correctAnswer": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "explanation": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[Pronouns and Negation] Write a paragraph (40-60 words) giving your opinion on pronouns and negation.",
+     "correctAnswer": "A structured paragraph with: introduction (en mi opinión...), opinion with reason (creo que... porque...), a different viewpoint (sin embargo...), and a conclusion (en conclusión...). Use connecting words and varied vocabulary.",
+     "explanation": "A structured paragraph with: introduction (en mi opinión...), opinion with reason (creo que... porque...), a different viewpoint (sin embargo...), and a conclusion (en conclusión...). Use connecting words and varied vocabulary.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[Pronouns and Negation] Translate into Spanish: \"I think pronouns and negation is important because...\"",
+     "correctAnswer": "\"Creo que [topic] es importante porque...\" — ensure adjective agreement (masculine/feminine), correct verb form, and give a specific reason.",
+     "explanation": "\"Creo que [topic] es importante porque...\" — ensure adjective agreement (masculine/feminine), correct verb form, and give a specific reason.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

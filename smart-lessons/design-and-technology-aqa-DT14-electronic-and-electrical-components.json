@@ -1,0 +1,51 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT14-electronic-and-electrical-components",
+ "topicName": "Electronic and Electrical Components",
+ "version": 1,
+ "steps": [
+  {
+   "id": "dt14-electronic-and-electrical-components-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Resistors: limit current flow - fixed (colour-coded), variable (potentiometers), thermistors (resistance changes with temperature - used in thermostats)."
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Capacitors: store and release electrical charge - timing circuits, smoothing power supplies. Electrolytic (high capacity, polarised) and ceramic (low capacity, non-polarised)."
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Transistors: electronic switches or amplifiers - small base current controls larger collector-emitter current. NPN and PNP types. Essential for logic circuits."
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "LEDs: light-emitting diodes - convert electrical energy to light, very efficient, polarised. Need a current-limiting resistor. RGB LEDs combine three colours."
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Explain the function of a transistor in a circuit that uses a thermistor to switch on a fan when temperature rises. | Why does an LED always need a current-limiting resistor? Calculate the resistor value for a 9 V supply, 2 V LED and 15 mA current. | Compare the advantages of using a microcontroller versus a hard-wired analogue circuit for a traffic light sequence."
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "As temperature rises, the thermistor's resistance decreases, voltage at the transistor's base rises. When base voltage reaches approx 0.7 V, the transistor switches ON, allowing current to flow from c | Without a resistor, excessive current would destroy the LED. R = (Vsupply - VLED) / I = (9 - 2) / 0.015 = 7 / 0.015 = 467 ohms. Nearest standard value: 470 ohm resistor. | Microcontroller: programmable timing, flexible sequence, can add sensors, easy to modify, compact. Hard-wired: fixed sequence, difficult to modify, more components, less reliable. For a traffic light "
+  },
+  {
+   "id": "dt14-electronic-and-electrical-components-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Show Ohm's Law calculations step by step - V = IR rearranged for the unknown State component function before explaining how it works in the circuit Know the difference: analogue (continuous) vs digital (on/off, 0/1)"
+  }
+ ]
+}

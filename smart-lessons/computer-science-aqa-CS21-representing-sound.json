@@ -1,0 +1,57 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS21-representing-sound",
+ "topicName": "Representing Sound",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs21-representing-sound-s1",
+   "kind": "learn",
+   "title": "Key Concept",
+   "body": "Sound is an analogue signal - a continuous wave. Computers can only store digital data (binary 0s and 1s), so analogue sound must be converted to digital form using a process called sampling."
+  },
+  {
+   "id": "cs21-representing-sound-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Sampling rate is the number of samples taken per second, measured in Hertz (Hz). A higher sampling rate means more measurements of the sound wave are taken each second."
+  },
+  {
+   "id": "cs21-representing-sound-s3",
+   "kind": "learn",
+   "title": "Nyquist's Theorem",
+   "body": "To accurately reproduce a sound, the sampling rate must be at least twice the highest frequency in the sound. Human hearing ranges up to about 20,000 Hz, so CD quality uses 44,100 Hz (just over 2 x 20,000)."
+  },
+  {
+   "id": "cs21-representing-sound-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Sample resolution (also called bit depth) is the number of bits used to represent each sample. More bits per sample means more possible amplitude values can be recorded."
+  },
+  {
+   "id": "cs21-representing-sound-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Change Effect on Quality Effect on File Size Increase sampling rate Improves (captures more detail, higher frequencies) Increases (more samples per second) Decrease sampling rate Degrades (loss of high frequencies, aliasing) Decreases Increase sample resolution Improves (more amplitude levels, less quantisation noise) Increases (more bits per sample) Decrease sample resolution Degrades (more quantisation noise, reduced dynamic range) Decreases Use stereo instead of mono Improves (spatial sound, richer audio) Doubles (2 channels instead of 1) Important: There is always a trade-off between sound quality and file size. Higher sampling rates and greater sample resolution produce better quality audio but require significantly more storage space. Compression can reduce file size, but may also affect quality. Comparison CD quality (44,100 Hz, 16-bit, stereo) for 1 minute = ~10.1 MB Telephone quality (8,000 Hz, 8-bit, mono) for 1 minute = ~469 KB CD quality is over 20 times larger but sounds d"
+  },
+  {
+   "id": "cs21-representing-sound-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Calculate the file size in MB of a 5-minute stereo recording sampled at 44,100 Hz with 16-bit resolution. | Explain why a higher sampling rate produces better quality sound. | What is the minimum sampling rate needed to accurately record a sound with a maximum frequency of 15,000 Hz?"
+  },
+  {
+   "id": "cs21-representing-sound-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "File size = 44,100 x 16 x 300 x 2 = 423,360,000 bits = 52,920,000 bytes = 50.47 MB | A higher sampling rate takes more samples per second, which means the digital recording captures more detail of the original sound wave. This means the recreated sound is closer to the original, espec | At least 30,000 Hz (2 x 15,000), according to Nyquist's Theorem."
+  },
+  {
+   "id": "cs21-representing-sound-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always show your working in file size calculations - marks are given for steps Remember: File size = sample rate x resolution x duration x channels Convert minutes to seconds before calculating Don't forget channels: mono = 1, stereo = 2 When explaining quality, use terms like \"closer to the original wave\" and \"more detail captured\" Know Nyquist's theorem: sample rate must be at least 2x the highest frequency Be ready to compare the effect of changing sampling rate vs changing sample resolution"
+  }
+ ]
+}

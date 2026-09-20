@@ -1,0 +1,57 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS20-representing-images",
+ "topicName": "Representing Images",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs20-representing-images-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A bitmap image is made up of a grid of small squares called pixels (picture elements). Each pixel is assigned a binary value that represents its colour."
+  },
+  {
+   "id": "cs20-representing-images-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Resolution is the number of pixels in an image, expressed as width x height. For example, 1920 x 1080 means 1920 pixels across and 1080 pixels down."
+  },
+  {
+   "id": "cs20-representing-images-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Colour depth (also called bit depth) is the number of bits used to represent the colour of each pixel. More bits per pixel means more possible colours."
+  },
+  {
+   "id": "cs20-representing-images-s4",
+   "kind": "learn",
+   "title": "Important",
+   "body": "There is always a trade-off between file size and image quality. Higher resolution and greater colour depth produce better images but require more storage space and bandwidth."
+  },
+  {
+   "id": "cs20-representing-images-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Change Effect on File Size Effect on Quality Increase resolution (more pixels) Increases Improves (more detail) Decrease resolution (fewer pixels) Decreases Degrades (pixelation) Increase colour depth Increases Improves (more colours, smoother gradients) Decrease colour depth Decreases Degrades (banding, colour steps) Important: There is always a trade-off between file size and image quality. Higher resolution and greater colour depth produce better images but require more storage space and bandwidth. Doubling the Resolution If you double both the width and the height of an image, the file size quadruples (4x), because the total number of pixels is width x height - doubling both means 2 x 2 = 4 times as many pixels. Example Image A: 100 x 100 at 24-bit = 100 x 100 x 24 = 240,000 bits Image B: 200 x 200 at 24-bit = 200 x 200 x 24 = 960,000 bits Doubling both dimensions = 4x the file size, not 2x. Doubling the Colour Depth Doubling the colour depth doubles the file size, as each pixel no"
+  },
+  {
+   "id": "cs20-representing-images-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "An image has a resolution of 1920 x 1080 and a colour depth of 24 bits. Calculate the file size in megabytes. | What is the effect on file size if you double the width of an image but keep the height and colour depth the same? | An image uses 8-bit colour depth. How many different colours can it represent?"
+  },
+  {
+   "id": "cs20-representing-images-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "File size = 1920 x 1080 x 24 = 49,766,400 bits = 6,220,800 bytes = 6,075 KB = 5.93 MB | The file size doubles, because total pixels = W x H. Doubling W means 2W x H = 2 x (W x H), so twice as many pixels. | 2 8 = 256 colours"
+  },
+  {
+   "id": "cs20-representing-images-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always show your working in file size calculations - marks are given for each step Remember the formula: File size = W x H x colour depth Don't forget to convert between bits, bytes, KB, and MB when asked If asked about quality vs file size, mention the trade-off When asked about doubling resolution, calculate the new pixel count, don't just guess Be precise: say \"colour depth\" not just \"bits\", and \"resolution\" not just \"size\""
+  }
+ ]
+}

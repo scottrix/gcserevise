@@ -1,0 +1,112 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P2-conservation-and-efficiency",
+ "topicName": "P2 Conservation And Efficiency",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p2-conservation-and-efficiency-q1",
+   "type": "short-answer",
+   "question": "Foundation A device has a total energy input of 1000 J. The useful energy output is 700 J. Calculate the efficiency as a percentage.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Efficiency = (700 ÷ 1000) × 100% = 70%.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p2-conservation-and-efficiency-q2",
+   "type": "short-answer",
+   "question": "Foundation State why no machine can be 100% efficient (except an electric heater).",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Some energy is always dissipated (wasted) to the thermal store of the surroundings due to friction, air resistance, or electrical resistance. An electric heater is the exception because all the \"wasted\" thermal energy IS the useful output.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p2-conservation-and-efficiency-q3",
+   "type": "short-answer",
+   "question": "Foundation A motor has an input power of 400 W and an efficiency of 75%. Calculate the useful output power.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Useful power out = 0.75 × 400 = 300 W.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p2-conservation-and-efficiency-q4",
+   "type": "short-answer",
+   "question": "Higher An electric kettle is 90% efficient. It transfers 180 000 J of useful energy to the water. Calculate the total electrical energy input.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Total energy in = useful energy out ÷ efficiency = 180 000 ÷ 0.90 = 200 000 J.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p2-conservation-and-efficiency-q5",
+   "type": "short-answer",
+   "question": "Higher Explain two ways to improve the efficiency of a machine that has moving parts. Refer to energy stores in your answer.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Lubricate the moving parts — this reduces friction, so less energy is dissipated to the thermal store of the surroundings. 2) Use more streamlined shapes — this reduces air resistance, so less energy is dissipated to the thermal store via drag. Both methods reduce wasted energy and increase the proportion of useful energy, improving efficiency.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p2-conservation-and-efficiency-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain why no device (except an electric heater) can be 100% efficient, and describe two ways to improve the efficiency of a machine with moving parts. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "No device can be 100% efficient because whenever energy is transferred, some energy is always dissipated to the thermal store of the surroundings. In machines with moving parts, friction between surfaces causes energy to be transferred to the thermal store rather than the useful output. Air resistance also dissipates energy to the thermal store. Electrical resistance in wires and components dissipates energy as heat. Sound energy from vibrations is also wasted. An electric heater is the only exception because its intended useful output IS thermal energy, so even the \"wasted\" heat counts as use",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "No device can be 100% efficient because whenever energy is transferred, some energy is always dissipated to the thermal store of the surroundings. In machines with moving parts, friction between surfaces causes energy to be transferred to the thermal store rather than the useful output. Air resistance also dissipates energy to the thermal store. Electrical resistance in wires and components dissipates energy as heat. Sound energy from vibrations is also wasted. An electric heater is the only exception because its intended useful output IS thermal energy, so even the \"wasted\" heat counts as useful. Two ways to improve efficiency: (1) Lubricate the moving parts — this reduces friction, so less energy is dissipated to the thermal store of the surroundings and more energy goes to the useful output. (2) Streamline the shape — this reduces air resistance, so less energy is dissipated as heat due to drag. Mark scheme: 1 mark — some energy always dissipated; 1 mark — friction causes thermal dissipation; 1 mark — electric heater exception explained; 1 mark — lubrication reduces friction; 1 mark — streamlining reduces air resistance; 1 mark — both methods reduce wasted energy and increase useful proportion"
+   }
+  }
+ ]
+}

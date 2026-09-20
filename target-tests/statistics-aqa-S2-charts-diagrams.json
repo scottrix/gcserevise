@@ -1,0 +1,58 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S2-charts-diagrams",
+ "topicName": "S2 Charts Diagrams",
+ "version": 1,
+ "tests": [
+  {
+   "id": "s2-charts-diagrams-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on S2 Charts Diagrams",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "s2-charts-diagrams-t1",
+     "type": "short-answer",
+     "question": "Calculate the angle for a pie chart sector representing 15 students out of a total of 60.",
+     "correctAnswer": "(15/60) × 360° = 90°",
+     "explanation": "Answer: (15/60) × 360° = 90°",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s2-charts-diagrams-t2",
+     "type": "short-answer",
+     "question": "A pictogram uses ⭐ = 6 points. How many stars are needed to represent 27 points?",
+     "correctAnswer": "27 ÷ 6 = 4.5 stars (4 full stars and 1 half star)",
+     "explanation": "Answer: 27 ÷ 6 = 4.5 stars (4 full stars and 1 half star)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s2-charts-diagrams-t3",
+     "type": "short-answer",
+     "question": "In a bar chart, what should be the height of the \"Blue\" bar if 24 people chose blue out of 120 surveyed?",
+     "correctAnswer": "Height = 24 (the frequency value)",
+     "explanation": "Answer: Height = 24 (the frequency value)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s2-charts-diagrams-t4",
+     "type": "short-answer",
+     "question": "A pie chart has a sector of 90°. If the total frequency is 200, how many does this sector represent?",
+     "correctAnswer": "(90/360) × 200 = 50",
+     "explanation": "Answer: (90/360) × 200 = 50",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

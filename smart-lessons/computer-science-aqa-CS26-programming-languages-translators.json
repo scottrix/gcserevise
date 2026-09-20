@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS26-programming-languages-translators",
+ "topicName": "Programming Languages & Translators",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs26-programming-languages-translators-s1",
+   "kind": "learn",
+   "title": "Key Concept",
+   "body": "Programming languages exist at different levels of abstraction from the hardware. Low-level languages are close to what the CPU understands. High-level languages are closer to human language and abstract away hardware details."
+  },
+  {
+   "id": "cs26-programming-languages-translators-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Machine code is the fundamental language of the computer, consisting entirely of binary (0s and 1s). It is the only language the CPU can execute directly without translation."
+  },
+  {
+   "id": "cs26-programming-languages-translators-s3",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Assembly language is a low-level programming language that uses mnemonics (short, memorable codes) to represent machine code instructions. Each mnemonic corresponds to exactly one machine code instruction."
+  },
+  {
+   "id": "cs26-programming-languages-translators-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "High-level languages are programming languages designed to be easy for humans to read and write. They use English-like keywords and abstract away hardware details like memory addresses and registers."
+  },
+  {
+   "id": "cs26-programming-languages-translators-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Explain the difference between machine code and assembly language. | Compare a compiler and an interpreter in terms of how they translate code and when they find errors. | Why might a programmer choose to write in assembly language instead of a high-level language?"
+  },
+  {
+   "id": "cs26-programming-languages-translators-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Machine code is binary (0s and 1s) that the CPU executes directly. Assembly language uses mnemonics (short text codes like MOV, ADD) that are easier for humans to read. Each mnemonic corresponds to on | A compiler translates all source code into machine code at once, creating an executable. It finds syntax errors during compilation (before running). An interpreter translates and executes one line at  | To have direct control over hardware (registers, memory addresses), to write very fast-executing code, or to write code for embedded systems with limited resources where high-level languages may be to"
+  },
+  {
+   "id": "cs26-programming-languages-translators-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Know the three language levels and their key characteristics Be able to compare compiler vs interpreter across all key properties Remember: assembly language is the LANGUAGE, assembler is the TRANSLATOR Use specific examples of high-level languages (Python, Java, C++) When asked \"when to use each,\" consider: need for speed, hardware control, portability, debugging Machine code is the ONLY language the CPU understands directly"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE8-aerobic-anaerobic-exercise",
+ "topicName": "Aerobic and Anaerobic Exercise",
+ "version": 1,
+ "tests": [
+  {
+   "id": "pe8-aerobic-anaerobic-exercise-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Aerobic and Anaerobic Exercise",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "pe8-aerobic-anaerobic-exercise-t1",
+     "type": "short-answer",
+     "question": "Write the word equation for aerobic respiration.",
+     "correctAnswer": "Glucose + Oxygen → Carbon Dioxide + Water + Energy",
+     "explanation": "Answer: Glucose + Oxygen → Carbon Dioxide + Water + Energy",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "pe8-aerobic-anaerobic-exercise-t2",
+     "type": "short-answer",
+     "question": "Write the word equation for anaerobic respiration.",
+     "correctAnswer": "Glucose → Lactic Acid + Energy",
+     "explanation": "Answer: Glucose → Lactic Acid + Energy",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

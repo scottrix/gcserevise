@@ -1,0 +1,159 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "histograms-box-plots",
+ "topicName": "Histograms Box Plots",
+ "version": 1,
+ "cards": [
+  {
+   "id": "histograms-box-plots-fc1",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "A histogram displays continuous data using bars with no gaps between them; the area of each bar (not the height) is proportional to the frequency.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc2",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "Frequency density = frequency ÷ class width; the vertical axis of a histogram shows frequency density, not frequency.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc3",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "When class widths are equal, the bar heights are proportional to the frequencies and frequency density is simply frequency ÷ class width.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc4",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "When class widths are unequal, you must calculate frequency density for each bar; the height no longer equals the frequency.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc5",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "The total area of all bars in a histogram equals the total frequency; you can find missing frequencies by setting up area equations.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc6",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "A box plot (box-and-whisker diagram) shows five key values: minimum, lower quartile (Q1), median (Q2), upper quartile (Q3), and maximum.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc7",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "The box in a box plot spans from Q1 to Q3, with a vertical line inside at the median; the whiskers extend to the minimum and maximum values.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc8",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "Outliers on a box plot are values beyond 1.5 × IQR from the quartiles; they are plotted as individual points and the whisker stops at the last non-outlier value.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc9",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "To compare distributions using box plots, comment on the median (central tendency), IQR (spread), and the position of the median within the box (skewness).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc10",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "If the median is closer to Q1, the distribution is positively skewed; if closer to Q3, it is negatively skewed; if centred, it is approximately symmetric.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc11",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "When drawing a histogram, always label the frequency density axis and mark the class boundaries on the horizontal axis.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc12",
+   "front": "Recall a key point about Histograms Box Plots",
+   "back": "To estimate the frequency of a range within a histogram, calculate the total area of the bars within that range.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc13",
+   "front": "What should you know about gcse statistics exam tips — histograms & box plots?",
+   "back": "1. For Histograms & Box Plots questions, show every step of your working clearly — method marks count even if the final answer is wrong 2. Check your answer makes sense in context (estimation, units, reasonableness) 3. Use correct mathematical notation and state formulae before substituting values 4. If a Histograms & Box Plots question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line 5. For problem-solving, identify the topic first, then recall the relevant method",
+   "tags": [
+    "gcse-statistics-exam-tips-hist"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc14",
+   "front": "Full-Mark Response",
+   "back": "The frequency table shows the times taken for 120 runners to complete a race. Draw a histogram. 0–10 min: frequency 15, 10–20 min: frequency 40, 20–40 min: frequency 45, 40–60 min: frequency 20",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "histograms-box-plots-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of histograms & box plots, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382. AO2 (Application): Apply knowledge and understanding of histograms & box plots to interpret data, reason statistically and draw conclusions in context. AO3 (Evaluation): Evaluate statistical metho",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

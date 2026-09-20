@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS17-units-information",
+ "topicName": "Units of Information",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs17-units-information-fc1",
+   "front": "What should you know about a bit?",
+   "back": "(binary digit) is the smallest unit of data in computing. It can hold exactly one of two values: 0 or 1. All data in a computer - text, images, sound, video - is ultimately stored as bits.",
+   "tags": [
+    "a-bit"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc2",
+   "front": "What should you know about larger units?",
+   "back": "are multiples of bytes. At GCSE, you need to know the standard SI prefixes. Note: some specifications use powers of 2 (KiB, MiB) but most GCSE exams use the decimal (power of 10) definitions.",
+   "tags": [
+    "larger-units"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc3",
+   "front": "What should you know about note on binary prefixes?",
+   "back": "Some systems use KiB (kibibyte = 1024 bytes), MiB (mebibyte = 1048576 bytes), etc. These use powers of 2 (2^10 = 1024). Check your exam board specification for which system to use. Most GCSE exams use the decimal (1000-based) system.",
+   "tags": [
+    "note-on-binary-prefixes"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc4",
+   "front": "What should you know about to calculate file sizes,?",
+   "back": "you need to know how many bits or bytes are needed to store each element, then multiply by the number of elements.",
+   "tags": [
+    "to-calculate-file-sizes"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc5",
+   "front": "What should you know about when comparing data quantities,?",
+   "back": "always convert both values to the same unit first. This avoids confusion and makes comparison straightforward.",
+   "tags": [
+    "when-comparing-data-quantities"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc6",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Know the hierarchy: bit → byte → KiB → MiB → GiB → TiB. Each step is ×1024. Always convert to the same unit before calculating. Watch for bits vs bytes (b vs B). If a question asks about storage capacity, convert everything to the same unit first. Show your conversion steps clearly for method marks.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc7",
+   "front": "What does Bit mean?",
+   "back": "0 or 1 (e.g. A single binary digit: on/off, yes/no, true/false)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc8",
+   "front": "What does Byte mean?",
+   "back": "8 bits (e.g. A single character (in ASCII), a number from 0-255)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc9",
+   "front": "What does Nibble mean?",
+   "back": "4 bits (e.g. A single hex digit (0-F))",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc10",
+   "front": "What does Kilobyte (KB) mean?",
+   "back": "1,000 bytes (e.g. 10^3 bytes)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc11",
+   "front": "What does Megabyte (MB) mean?",
+   "back": "1,000,000 bytes (e.g. 10^6 bytes / 1,000 KB)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc12",
+   "front": "What does Gigabyte (GB) mean?",
+   "back": "1,000,000,000 bytes (e.g. 10^9 bytes / 1,000 MB)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc13",
+   "front": "What does Terabyte (TB) mean?",
+   "back": "1,000,000,000,000 bytes (e.g. 10^12 bytes / 1,000 GB)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc14",
+   "front": "What does Petabyte (PB) mean?",
+   "back": "1,000,000,000,000,000 bytes (e.g. 10^15 bytes / 1,000 TB)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs17-units-information-fc15",
+   "front": "What does A text message mean?",
+   "back": "~100 bytes",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

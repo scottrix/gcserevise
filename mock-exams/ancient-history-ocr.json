@@ -1,0 +1,138 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "mock-exam",
+ "topicName": "Ancient-History Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "ancient-history-mock",
+   "name": "Ancient-History Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Greek City-States (Poleis)] Q: What was a polis and why was it important in ancient Greece?",
+     "correctAnswer": "A polis was an independent city-state consisting of a city and its surrounding countryside. It was the fundamental political, social and religious unit of Greek life. Each polis had its own government, laws, army and patron deity. The concept of citizenship and civic duty centred on the polis.",
+     "explanation": "A polis was an independent city-state consisting of a city and its surrounding countryside. It was the fundamental political, social and religious unit of Greek life. Each polis had its own government, laws, army and patron deity. The concept of citizenship and civic duty centred on the polis.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Greek City-States (Poleis)] Q: Who was excluded from citizenship in a Greek polis?",
+     "correctAnswer": "Women, slaves and metics (foreign residents) were excluded. Only free adult male citizens could participate in politics and hold office. Metics paid taxes and served in the military but had no political rights.",
+     "explanation": "Women, slaves and metics (foreign residents) were excluded. Only free adult male citizens could participate in politics and hold office. Metics paid taxes and served in the military but had no political rights.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Greek City-States (Poleis)] Q: What were the acropolis and agora, and what were their functions?",
+     "correctAnswer": "The acropolis was the fortified hilltop, serving as a religious sanctuary (temples to patron gods) and defensive refuge. The agora was the central public space used as a marketplace, meeting place for political assemblies, and venue for social interaction.",
+     "explanation": "The acropolis was the fortified hilltop, serving as a religious sanctuary (temples to patron gods) and defensive refuge. The agora was the central public space used as a marketplace, meeting place for political assemblies, and venue for social interaction.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Athenian Daily Life & Society] Q: What was the oikos and how was it organised?",
+     "correctAnswer": "The oikos was the household unit controlled by the kyrios (male head). It included his wife, children, slaves and all property. The kyrios had legal authority over all members. Women managed the household interior (weaving, food, slaves) while men handled public affairs. The oikos was the foundation",
+     "explanation": "The oikos was the household unit controlled by the kyrios (male head). It included his wife, children, slaves and all property. The kyrios had legal authority over all members. Women managed the household interior (weaving, food, slaves) while men handled public affairs. The oikos was the foundation",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Athenian Daily Life & Society] Q: What restrictions did Athenian women face?",
+     "correctAnswer": "Citizen women could not vote, hold office, or own property. They needed a male kyrios (father, husband or guardian) to represent them legally. They lived largely secluded in the gynaikeion, rarely left the house, and had no formal education. Their primary roles were managing the household and produc",
+     "explanation": "Citizen women could not vote, hold office, or own property. They needed a male kyrios (father, husband or guardian) to represent them legally. They lived largely secluded in the gynaikeion, rarely left the house, and had no formal education. Their primary roles were managing the household and produc",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[Athenian Daily Life & Society] Q: What happened at a symposium?",
+     "correctAnswer": "Elite men reclined on couches in the andron (men's room), drank diluted wine, were entertained by musicians, dancers and hetairai, and engaged in conversation covering politics, philosophy and poetry. Symposia were crucial for social networking, political alliances and intellectual discussion. Slave",
+     "explanation": "Elite men reclined on couches in the andron (men's room), drank diluted wine, were entertained by musicians, dancers and hetairai, and engaged in conversation covering politics, philosophy and poetry. Symposia were crucial for social networking, political alliances and intellectual discussion. Slave",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[The Ionian Revolt (499-494 BC)] Q: Why did Aristagoras start the Ionian Revolt?",
+     "correctAnswer": "Aristagoras persuaded the Persian satrap Artaphernes to support an attack on Naxos, but the expedition failed. Aristagoras now owed money to Persia and feared punishment. Rather than face this, he resigned as tyrant, declared democracy in Miletus and launched a revolt against Persian rule.",
+     "explanation": "Aristagoras persuaded the Persian satrap Artaphernes to support an attack on Naxos, but the expedition failed. Aristagoras now owed money to Persia and feared punishment. Rather than face this, he resigned as tyrant, declared democracy in Miletus and launched a revolt against Persian rule.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[The Ionian Revolt (499-494 BC)] Q: Why did Athens and Eretria support the revolt?",
+     "correctAnswer": "Athens supported the Ionians partly because Miletus was a fellow Ionian city (shared ethnic and cultural ties) and partly because of the oracle advising them to free Miletus. Eretria supported them because Miletus had previously helped Eretria. Athens sent 20 ships and Eretria sent 5.",
+     "explanation": "Athens supported the Ionians partly because Miletus was a fellow Ionian city (shared ethnic and cultural ties) and partly because of the oracle advising them to free Miletus. Eretria supported them because Miletus had previously helped Eretria. Athens sent 20 ships and Eretria sent 5.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[The Ionian Revolt (499-494 BC)] Q: Why did the burning of Sardis provoke such a strong Persian response?",
+     "correctAnswer": "Sardis was the capital of the satrapy and a symbol of Persian authority. Its destruction (including a temple of Cybele) was a profound insult to Persian imperial prestige. Herodotus says Darius asked who the Athenians were and demanded a servant remind him to punish them at every meal.",
+     "explanation": "Sardis was the capital of the satrapy and a symbol of Persian authority. Its destruction (including a temple of Cybele) was a profound insult to Persian imperial prestige. Herodotus says Darius asked who the Athenians were and demanded a servant remind him to punish them at every meal.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[The Battle of Marathon (490 BC)] Q: Why did Darius invade Greece in 490 BC?",
+     "correctAnswer": "To punish Athens and Eretria for supporting the Ionian Revolt and to extend Persian control into mainland Greece. Darius also wanted to restore Hippias as a puppet tyrant in Athens.",
+     "explanation": "To punish Athens and Eretria for supporting the Ionian Revolt and to extend Persian control into mainland Greece. Darius also wanted to restore Hippias as a puppet tyrant in Athens.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[The Battle of Marathon (490 BC)] Q: How did Miltiades win the Battle of Marathon?",
+     "correctAnswer": "Miltiades strengthened both wings of the Greek line while thinning the centre. When the Greeks advanced, the strong wings crushed the Persian flanks, then turned inward to attack the Persian centre from both sides (double envelopment). The Persians fled to their ships.",
+     "explanation": "Miltiades strengthened both wings of the Greek line while thinning the centre. When the Greeks advanced, the strong wings crushed the Persian flanks, then turned inward to attack the Persian centre from both sides (double envelopment). The Persians fled to their ships.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[The Battle of Marathon (490 BC)] Q: Why was the decision to attack controversial?",
+     "correctAnswer": "The ten Athenian strategoi were split 5-5 on whether to attack or wait. The Persians had more troops and feared cavalry. Miltiades persuaded the polemarch Callimachus to break the tie in favour of attacking, arguing that waiting would allow more Persian allies to arrive.",
+     "explanation": "The ten Athenian strategoi were split 5-5 on whether to attack or wait. The Persians had more troops and feared cavalry. Miltiades persuaded the polemarch Callimachus to break the tie in favour of attacking, arguing that waiting would allow more Persian allies to arrive.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

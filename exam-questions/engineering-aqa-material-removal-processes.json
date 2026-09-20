@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "material-removal-processes",
+ "topicName": "Material Removal Processes",
+ "version": 1,
+ "questions": [
+  {
+   "id": "material-removal-processes-q1",
+   "type": "short-answer",
+   "question": "Q: Calculate the spindle speed for turning a 50 mm diameter steel bar at a cutting speed of 30 m/min.",
+   "marks": 1,
+   "commandWord": "calculate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "N = (CS x 1000) / (pi x D) = (30 x 1000) / (3.14 x 50) = 30000 / 157 = 191 RPM.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-removal-processes-q2",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between turning and milling.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "In turning, the workpiece rotates and a stationary single-point tool moves along it (producing cylindrical shapes). In milling, the workpiece is stationary (or moves linearly) and a rotating multi-tooth cutter removes material (producing flat surfaces, slots and profiles).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-removal-processes-q3",
+   "type": "short-answer",
+   "question": "Q: Why is laser cutting widely used for sheet metal profiles in engineering?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Laser cutting is highly accurate, produces clean edges with minimal kerf, requires no tooling (just a CAD file), cuts complex shapes easily and has a very small heat-affected zone, minimising material distortion.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-removal-processes-q4",
+   "type": "short-answer",
+   "question": "Q: Describe the chemical etching process for manufacturing a PCB.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A copper-clad board is coated with photoresist, exposed to UV through a mask of the circuit pattern, and developed to remove unexposed resist. The board is immersed in ferric chloride solution, which etches away the exposed copper, leaving the protected copper traces that form the circuit.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "material-removal-processes-q5",
+   "type": "short-answer",
+   "question": "Q: Explain why coolant is used during machining operations.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Coolant reduces friction between the tool and workpiece, removes heat to prevent thermal damage, improves surface finish, flushes away chips and extends tool life by preventing overheating and wear.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

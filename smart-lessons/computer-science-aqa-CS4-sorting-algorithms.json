@@ -1,0 +1,57 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS4-sorting-algorithms",
+ "topicName": "Sorting Algorithms",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs4-sorting-algorithms-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "A sorting algorithm arranges the elements of a list into a particular order (usually ascending or descending). Sorting makes data easier to search, read, and process."
+  },
+  {
+   "id": "cs4-sorting-algorithms-s2",
+   "kind": "learn",
+   "title": "Bubble sort",
+   "body": "works by repeatedly stepping through the list, comparing each pair of adjacent items, and swapping them if they are in the wrong order. After each pass, the largest unsorted element \"bubbles up\" to its correct position at the end of the list."
+  },
+  {
+   "id": "cs4-sorting-algorithms-s3",
+   "kind": "learn",
+   "title": "Merge sort",
+   "body": "uses a \"divide and conquer\" approach. It splits the list into individual elements, then repeatedly merges pairs of sorted sublists until the whole list is recombined in order."
+  },
+  {
+   "id": "cs4-sorting-algorithms-s4",
+   "kind": "learn",
+   "title": "GCSE Computer Science Exam Tips",
+   "body": "When comparing sorting algorithms, always give the time complexity of each and explain what it means for the given dataset size. Mention trade-offs: bubble sort is simple and in-place but slow; merge sort is fast but uses extra memory. For bubble sort questions, describe how each pass works and that n-1 passes are needed. Show the comparison count for a specific n to illustrate efficiency differences."
+  },
+  {
+   "id": "cs4-sorting-algorithms-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Merge sort uses a \"divide and conquer\" approach. It splits the list into individual elements, then repeatedly merges pairs of sorted sublists until the whole list is recombined in order. Algorithm in Pseudo-code Merge Sort Pseudo-code PROCEDURE mergeSort(list) IF LENGTH(list) 0 AND LENGTH(right) > 0 IF left[0] Step-by-Step Worked Example Sorting [5, 3, 8, 1] using merge sort Phase 1: Divide [5, 3, 8, 1] / \\ [5, 3] [8, 1] / \\ / \\ [5] [3] [8] [1] Phase 2: Merge Merge [5] and [3] → 3 Final result: [1, 3, 5, 8] Merge Sort Performance: All cases: O(n log n) The divide step creates log n levels Each level requires n comparisons during merging Memory: O(n) - needs extra space for temporary arrays"
+  },
+  {
+   "id": "cs4-sorting-algorithms-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Show the state of the list [4, 2, 7, 1] after each pass of bubble sort. | Describe the two phases of merge sort. | Why is merge sort more efficient than bubble sort for large datasets?"
+  },
+  {
+   "id": "cs4-sorting-algorithms-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Pass 1: Compare 4,2 → swap → [2,4,7,1]. Compare 4,7 → no swap. Compare 7,1 → swap → [2,4,1,7]. Pass 2: Compare 2,4 → no swap. Compare 4,1 → swap → [2,1,4,7]. Pass 3: Compare 2,1 → swap → [1,2,4,7]. Pa | Phase 1 (Divide): Split the list recursively into smaller sublists until each sublist contains one element. Phase 2 (Merge): Repeatedly merge pairs of sorted sublists by comparing the first elements a | Merge sort has O(n log n) time complexity while bubble sort has O(n²). As n grows large, n² grows much faster than n log n, so bubble sort becomes extremely slow while merge sort remains relatively ef"
+  },
+  {
+   "id": "cs4-sorting-algorithms-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Practise showing bubble sort step-by-step with a table showing each comparison and swap For merge sort, draw the divide tree and show each merge step Remember: bubble sort can stop early if a pass has no swaps When comparing, always mention time complexity: O(n²) vs O(n log n) Don't forget memory: bubble sort is in-place, merge sort needs extra space In the exam, show ALL your working - you get marks for each step, not just the final answer"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS29-network-types-topologies",
+ "topicName": "Network Types & Topologies",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs29-network-types-topologies-q1",
+   "type": "short-answer",
+   "question": "Define PAN, LAN, and WAN, giving an example of each.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "PAN: Personal Area Network, very small range (under 10m), connects personal devices like phone to headphones. LAN: Local Area Network, covers a single building/site, e.g. a school network. WAN: Wide Area Network, covers large geographical area, e.g. the internet.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs29-network-types-topologies-q2",
+   "type": "short-answer",
+   "question": "Compare Ethernet and Wi-Fi, giving two advantages and two disadvantages of each.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Ethernet advantages: faster and more reliable, more secure (physical cable needed). Ethernet disadvantages: limited mobility, requires cabling to each device. Wi-Fi advantages: no cables needed, devices can move freely. Wi-Fi disadvantages: less secure (signals can be intercepted), signal can be blocked or interfered with.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs29-network-types-topologies-q3",
+   "type": "short-answer",
+   "question": "Give three advantages and three disadvantages of using a computer network.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Advantages: resource sharing (printers), file sharing between users, centralised backups. Disadvantages: security risks (malware spreads), cost of setup and maintenance, if server fails many users affected.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs29-network-types-topologies-q4",
+   "type": "short-answer",
+   "question": "Compare star and mesh topologies. What is the main advantage of each?",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Star: all devices connect to a central hub/switch. Main advantage: easy to add devices, one cable failure only affects one device. Mesh: devices have multiple interconnections. Main advantage: no single point of failure - highly reliable because data can route around failed connections.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs29-network-types-topologies-q5",
+   "type": "short-answer",
+   "question": "Why is fibre optic cable used for backbone connections rather than copper Ethernet?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Fibre optic uses light signals through glass fibres, giving much higher speeds, ability to transmit over much longer distances without signal loss, and immunity to electromagnetic interference. Copper Ethernet is limited by distance and is affected by interference.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

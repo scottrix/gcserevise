@@ -1,0 +1,138 @@
+{
+ "subject": "statistics",
+ "board": "CCEA",
+ "topic": "mock-exam",
+ "topicName": "Statistics Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "statistics-mock",
+   "name": "Statistics Mock Exam",
+   "description": "Timed mock covering 4 topics",
+   "timeLimit": 15,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[S1 Sampling] Define what is meant by a \"population\" in statistics.",
+     "correctAnswer": "The population is the entire group being studied or about which conclusions are to be drawn.",
+     "explanation": "The population is the entire group being studied or about which conclusions are to be drawn.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[S1 Sampling] A school has 120 boys and 180 girls. A stratified sample of 50 students is needed. How many boys and girls should be selected?",
+     "correctAnswer": "Boys: (120/300) × 50 = 20; Girls: (180/300) × 50 = 30",
+     "explanation": "Boys: (120/300) × 50 = 20; Girls: (180/300) × 50 = 30",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[S1 Sampling] A researcher wants to survey 25 people from a list of 200 using systematic sampling. What value of k should be used?",
+     "correctAnswer": "k = 200 ÷ 25 = 8 (select every 8th person)",
+     "explanation": "k = 200 ÷ 25 = 8 (select every 8th person)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[S2 Charts Diagrams] Calculate the angle for a pie chart sector representing 15 students out of a total of 60.",
+     "correctAnswer": "(15/60) × 360° = 90°",
+     "explanation": "(15/60) × 360° = 90°",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[S2 Charts Diagrams] A pictogram uses ⭐ = 6 points. How many stars are needed to represent 27 points?",
+     "correctAnswer": "27 ÷ 6 = 4.5 stars (4 full stars and 1 half star)",
+     "explanation": "27 ÷ 6 = 4.5 stars (4 full stars and 1 half star)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-6",
+     "type": "short-answer",
+     "question": "[S2 Charts Diagrams] In a bar chart, what should be the height of the \"Blue\" bar if 24 people chose blue out of 120 surveyed?",
+     "correctAnswer": "Height = 24 (the frequency value)",
+     "explanation": "Height = 24 (the frequency value)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-7",
+     "type": "short-answer",
+     "question": "[S3 Grouped Data] A histogram bar has width 25 and frequency density 3.2. Find the frequency.",
+     "correctAnswer": "Frequency = 3.2 × 25 = 80",
+     "explanation": "Frequency = 3.2 × 25 = 80",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-8",
+     "type": "short-answer",
+     "question": "[S3 Grouped Data] Calculate the frequency density for a class with width 15 and frequency 45.",
+     "correctAnswer": "Frequency density = 45 ÷ 15 = 3",
+     "explanation": "Frequency density = 45 ÷ 15 = 3",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-9",
+     "type": "short-answer",
+     "question": "[S3 Grouped Data] A cumulative frequency graph has total 200. What cumulative frequency gives the median?",
+     "correctAnswer": "Median position = 200 ÷ 2 = 100",
+     "explanation": "Median position = 200 ÷ 2 = 100",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-10",
+     "type": "short-answer",
+     "question": "[S4 Central Tendency] Find the mean, median, and mode of: 4, 6, 8, 6, 5, 6, 9",
+     "correctAnswer": "Mean = 44÷7 ≈ 6.29; Ordered: 4,5,6,6,6,8,9; Median = 6; Mode = 6",
+     "explanation": "Mean = 44÷7 ≈ 6.29; Ordered: 4,5,6,6,6,8,9; Median = 6; Mode = 6",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-11",
+     "type": "short-answer",
+     "question": "[S4 Central Tendency] The mean of 5 numbers is 12. Four of the numbers are 10, 15, 8, 14. Find the fifth number.",
+     "correctAnswer": "Total = 5×12 = 60; Fifth = 60 - (10+15+8+14) = 60 - 47 = 13",
+     "explanation": "Total = 5×12 = 60; Fifth = 60 - (10+15+8+14) = 60 - 47 = 13",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "mock-12",
+     "type": "short-answer",
+     "question": "[S4 Central Tendency] Find the range: 23, 45, 12, 67, 34, 89, 56",
+     "correctAnswer": "Range = 89 - 12 = 77",
+     "explanation": "Range = 89 - 12 = 77",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

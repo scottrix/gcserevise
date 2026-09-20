@@ -1,0 +1,159 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS35-relational-databases",
+ "topicName": "Relational Databases",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cs35-relational-databases-fc1",
+   "front": "Recall a key point about Relational Databases",
+   "back": "A database is an organised, structured collection of data that can be easily accessed, managed, and updated. A relational database stores data in multiple linked tables that relate to each other.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc2",
+   "front": "Recall a key point about Relational Databases",
+   "back": "A table is a structured set of data organised in rows and columns. Each table stores data about one type of entity (e.g. a table for Students, a table for Courses).",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc3",
+   "front": "Recall a key point about Relational Databases",
+   "back": "A field is a single category of data within a table. Each field has a name and a data type (e.g. text, integer, date). A field stores one piece of information for each record.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc4",
+   "front": "Recall a key point about Relational Databases",
+   "back": "A record is a single, complete set of data in a table. Each row represents one item or entity, containing values for every field.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc5",
+   "front": "Recall a key point about Relational Databases",
+   "back": "A primary key is a field (or combination of fields) that uniquely identifies each record in a table. No two records can have the same primary key value. A primary key cannot be left empty (null).",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc6",
+   "front": "Recall a key point about Relational Databases",
+   "back": "A foreign key is a field in one table that references the primary key of another table. It creates a link (relationship) between the two tables, allowing them to be connected.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc7",
+   "front": "Recall a key point about Relational Databases",
+   "back": "An entity-relationship (E-R) diagram is a visual representation of the data and relationships in a database. It shows entities (tables), their attributes (fields), and how they relate to each other.",
+   "tags": [
+    "definition"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc8",
+   "front": "Recall a key point about Relational Databases",
+   "back": "Many-to-many relationships cannot be directly implemented in a relational database. They must be resolved using a linking (junction) table that breaks the M:N relationship into two 1:M relationships.",
+   "tags": [
+    "important"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc9",
+   "front": "What should you know about data redundancy?",
+   "back": "Data redundancy is when the same data is stored in multiple places in a database. This wastes storage space and can lead to data inconsistency.",
+   "tags": [
+    "data-redundancy"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc10",
+   "front": "What should you know about data inconsistency?",
+   "back": "Data inconsistency is when the same data has different values in different places. This happens when redundant data is updated in one place but not in others.",
+   "tags": [
+    "data-inconsistency"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc11",
+   "front": "What should you know about gcse computer science exam tips?",
+   "back": "Flat file: single table, redundancy, anomalies. Relational DB: linked tables, keys, less redundancy. Primary key: unique, NOT NULL, identifies records. Foreign key: links to another table's PK. Normalisation: reduces redundancy, prevents insert/update/delete anomalies. Entity-relationship diagrams show relationships (1:1, 1:M, M:N). Always name tables, fields, and key types in your answers.",
+   "tags": [
+    "gcse-computer-science-exam-tip"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc12",
+   "front": "What does 1001 mean?",
+   "back": "Alice (e.g. Smith)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc13",
+   "front": "What does 1002 mean?",
+   "back": "Bob (e.g. Jones)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc14",
+   "front": "What does 1003 mean?",
+   "back": "Clara (e.g. Patel)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cs35-relational-databases-fc15",
+   "front": "What does 1001 mean?",
+   "back": "Alice (e.g. Smith)",
+   "tags": [
+    "table"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

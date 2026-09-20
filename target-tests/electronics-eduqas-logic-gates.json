@@ -1,0 +1,48 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "logic-gates",
+ "topicName": "Logic Gates",
+ "version": 1,
+ "tests": [
+  {
+   "id": "logic-gates-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Logic Gates",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "logic-gates-t1",
+     "type": "short-answer",
+     "question": "Q: Draw the truth table for a 2-input AND gate.",
+     "correctAnswer": "A=0,B=0→0; A=0,B=1→0; A=1,B=0→0; A=1,B=1→1.",
+     "explanation": "Answer: A=0,B=0→0; A=0,B=1→0; A=1,B=0→0; A=1,B=1→1.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "logic-gates-t2",
+     "type": "short-answer",
+     "question": "Q: What is the output of a NAND gate when both inputs are 1?",
+     "correctAnswer": "0. A NAND gate produces the complement of the AND output.",
+     "explanation": "Answer: 0. A NAND gate produces the complement of the AND output.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "logic-gates-t4",
+     "type": "short-answer",
+     "question": "Q: How many rows does a truth table for a 3-input logic gate have?",
+     "correctAnswer": "2³ = 8 rows.",
+     "explanation": "Answer: 2³ = 8 rows.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

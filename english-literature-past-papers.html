@@ -36,7 +36,7 @@
 
 <nav class="breadcrumb">
 <a href="../">Home</a> <span>›</span>
-<a href="../english-literature.html">English Literature</a> <span>›</span>
+<a href="english-literature.html">English Literature</a> <span>›</span>
 <span>Past Papers</span>
 </nav>
 
@@ -113,8 +113,13 @@
 
 <section class="section">
 <h2>📝 Topic-Based Practice</h2>
-<p>Looking for questions on a specific topic? Visit the <a href="../english-literature.html">English Literature subject page</a> to find topic-by-topic revision notes with exam questions and practice questions.</</section>
+<p>Looking for questions on a specific topic? Visit the <a href="english-literature.html">English Literature subject page</a> to find topic-by-topic revision notes with exam questions and practice questions.</</section>
 
+
+<section class="section">
+<h2>⏱ Mock Exams (Timed Papers)</h2>
+<div id="mock-exam-container"></div>
+</section>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
@@ -133,7 +138,8 @@ if (localStorage.getItem('gcserevise-theme') === 'light') {
 document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
 }
 </script>
-<script src="../sidebar.js"></script>
-<script src="../affiliate-images.js"></script>
+<script src="sidebar.js"></script>
+<script src="affiliate-images.js"></script>
+<script src="mock-exams/mock-exams.js"></script>
 </body>
 </html>

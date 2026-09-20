@@ -1,0 +1,112 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P25-black-body-radiation",
+ "topicName": "Black Body Radiation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "p25-black-body-radiation-q1",
+   "type": "short-answer",
+   "question": "Higher Define what is meant by a black body.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q1: A black body is an object that absorbs all the electromagnetic radiation incident on it. It does not reflect or transmit any radiation. It is also the best possible emitter of radiation at any given temperature.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p25-black-body-radiation-q2",
+   "type": "short-answer",
+   "question": "Higher Describe two ways that increasing the temperature of a black body affects the radiation it emits.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q2: (1) The total rate of radiation emitted increases — a hotter body emits more radiation per second. (2) The peak wavelength of the emitted radiation becomes shorter — it shifts towards the higher-frequency (blue/violet) end of the spectrum.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p25-black-body-radiation-q3",
+   "type": "short-answer",
+   "question": "Higher Explain how increasing the concentration of greenhouse gases in the atmosphere causes global warming.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q3: Greenhouse gases (such as CO2 and methane) absorb infrared radiation emitted by the Earth's surface and re-emit it in all directions, including back towards the surface. This means less radiation escapes to space. If greenhouse gas concentration increases, more IR is trapped, the Earth absorbs more than it emits, and the temperature rises until a new equilibrium at a higher temperature is reac",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p25-black-body-radiation-q4",
+   "type": "short-answer",
+   "question": "Higher A red giant star and a white dwarf star are observed. The white dwarf has a much higher surface temperature. Compare the total radiation emitted per second and the peak wavelength of the two stars.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q4: The white dwarf has a higher surface temperature so it emits more radiation per unit area per second than the red giant. The white dwarf's peak wavelength is shorter (in the blue/white region) while the red giant's peak wavelength is longer (in the red/infrared region). The red giant may emit more total radiation because it has a much larger surface area, even though the intensity per unit are",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p25-black-body-radiation-q5",
+   "type": "short-answer",
+   "question": "Higher Explain why the Earth's temperature remains roughly constant under normal conditions.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q5: Under normal conditions, the Earth is in thermal equilibrium — the average amount of radiation absorbed from the Sun equals the average amount of radiation emitted back into space. Any change in temperature is corrected by the balance: if the Earth warms slightly, it emits more radiation; if it cools, it emits less. This keeps the temperature roughly constant.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "p25-black-body-radiation-ext",
+   "type": "extended",
+   "question": "Extended Answer 6 marks: Explain how the balance between radiation absorbed and radiation emitted determines the Earth's temperature. Discuss how human activities could affect this balance. <div class=\"",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The Earth's temperature depends on the balance between incoming solar radiation (mostly visible light and infrared) and outgoing radiation emitted by the Earth (infrared). When the Earth absorbs the same amount of radiation as it emits, the temperature stays roughly constant (thermal equilibrium). The Earth absorbs visible light from the Sun and warms up. It then emits infrared radiation back into space. Greenhouse gases in the atmosphere (CO₂, methane, water vapour) absorb some of this outgoing infrared radiation and re-emit it in all directions, including back towards the surface. This traps",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "The Earth's temperature depends on the balance between incoming solar radiation (mostly visible light and infrared) and outgoing radiation emitted by the Earth (infrared). When the Earth absorbs the same amount of radiation as it emits, the temperature stays roughly constant (thermal equilibrium). The Earth absorbs visible light from the Sun and warms up. It then emits infrared radiation back into space. Greenhouse gases in the atmosphere (CO₂, methane, water vapour) absorb some of this outgoing infrared radiation and re-emit it in all directions, including back towards the surface. This traps heat and keeps the Earth warmer than it would be otherwise. Human activities such as burning fossil fuels, deforestation and agriculture increase the concentration of greenhouse gases in the atmosphere. More greenhouse gases means more infrared radiation is absorbed and re-emitted towards Earth, so less escapes to space. The Earth now absorbs more radiation than it emits, causing the temperature to rise until a new equilibrium is reached at a higher temperature — this is global warming. Mark scheme: 1 mark — temperature depends on balance of absorbed vs emitted radiation, 1 mark — equilibrium when absorbed = emitted, 1 mark — Earth absorbs visible light and emits infrared, 1 mark — greenhouse gases absorb and re-emit IR towards Earth, 1 mark — human activities increase greenhouse gas concentration, 1 mark — more greenhouse gases means less IR escapes so temperature rises"
+   }
+  }
+ ]
+}

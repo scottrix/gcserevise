@@ -1,0 +1,51 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "testing-measurement",
+ "topicName": "Testing & Measurement",
+ "version": 1,
+ "steps": [
+  {
+   "id": "testing-measurement-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "A multimeter measures voltage (parallel), current (series) and resistance (power off); always select the correct range and mode."
+  },
+  {
+   "id": "testing-measurement-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "An oscilloscope displays voltage against time, allowing measurement of amplitude, frequency, period and wave shape."
+  },
+  {
+   "id": "testing-measurement-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Oscilloscope controls: Y-gain (V/div) sets vertical scale; timebase (ms/div or µs/div) sets horizontal scale."
+  },
+  {
+   "id": "testing-measurement-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "The trigger control stabilises the display by starting the sweep at a consistent point on the waveform."
+  },
+  {
+   "id": "testing-measurement-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: An oscilloscope shows 4 divisions peak-to-peak with Y-gain set to 2 V/div. What is V_pp and V_rms (sine)? | Q: How should a multimeter be connected to measure current through a resistor? | Q: A sine wave has a period of 5 divisions at 0.2 ms/div. What is its frequency?"
+  },
+  {
+   "id": "testing-measurement-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "V_pp = 4 × 2 = 8 V. V_peak = 4 V. V_rms = 4/√2 = 2.83 V. | The multimeter must be connected in series with the resistor, with the correct current range selected. | T = 5 × 0.2 = 1 ms = 0.001 s. f = 1/T = 1/0.001 = 1000 Hz = 1 kHz."
+  },
+  {
+   "id": "testing-measurement-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "For oscilloscope measurements: count divisions carefully and multiply by the V/div or time/div setting. Always convert period to frequency: f = 1/T; make sure T is in seconds before calculating. When asked about multimeter use, specify the connection: voltmeter in parallel, ammeter in series. Remember V_rms = V_peak/√2 for sine waves only; do not use this for square or triangle waves. Mention trigger level and slope when explaining how to get a stable oscilloscope display."
+  }
+ ]
+}

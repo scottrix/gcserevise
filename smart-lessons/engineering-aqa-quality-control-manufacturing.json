@@ -1,0 +1,51 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "quality-control-manufacturing",
+ "topicName": "Quality Control in Manufacturing",
+ "version": 1,
+ "steps": [
+  {
+   "id": "quality-control-manufacturing-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Quality control (QC) ensures manufactured products meet design specifications through inspection and testing."
+  },
+  {
+   "id": "quality-control-manufacturing-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Tolerances define the permissible variation from a nominal dimension: critical dimensions have tighter tolerances."
+  },
+  {
+   "id": "quality-control-manufacturing-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Vernier calipers measure internal, external and depth dimensions to 0.02 mm resolution."
+  },
+  {
+   "id": "quality-control-manufacturing-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Micrometers measure external dimensions to 0.01 mm resolution using a precision screw thread."
+  },
+  {
+   "id": "quality-control-manufacturing-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Q: Describe how to use a Vernier caliper to measure the external diameter of a shaft. | Q: Explain the difference between quality control and quality assurance. | Q: A manufacturer produces shafts with a nominal diameter of 20.00 mm and tolerance of +/-0.03 mm. Design a go/no-go gauge for this dimension."
+  },
+  {
+   "id": "quality-control-manufacturing-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Close the external jaws around the shaft, ensuring they sit squarely on the surface without tilting. Gently tighten the locking screw. Read the main scale to the nearest whole millimetre, then read th | Quality control detects defects through inspection and testing of the finished product or components. Quality assurance prevents defects by establishing correct processes, procedures and systems throu | Go gauge: 19.97 mm (the minimum acceptable diameter — the shaft must pass through). No-go gauge: 20.03 mm (the maximum acceptable diameter — the shaft must NOT pass through). A shaft that passes the g"
+  },
+  {
+   "id": "quality-control-manufacturing-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Vernier caliper and micrometer readings are common exam questions — practise reading both scales. In QC vs QA questions, QC = inspection (reactive), QA = process (proactive). Go/no-go gauge: go = minimum, no-go = maximum; part must PASS go and FAIL no-go to be in tolerance. SPC questions: explain the trend detection benefit (early warning before defects occur). Always link measurement instruments to their resolution: Vernier 0.02 mm, micrometer 0.01 mm."
+  }
+ ]
+}

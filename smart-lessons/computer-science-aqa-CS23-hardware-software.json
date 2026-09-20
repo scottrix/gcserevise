@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS23-hardware-software",
+ "topicName": "Hardware & Software",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs23-hardware-software-s1",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Hardware refers to the physical components of a computer system - the parts you can see and touch. Hardware includes all the electronic and mechanical parts that make up the computer."
+  },
+  {
+   "id": "cs23-hardware-software-s2",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "Software refers to the programs, instructions, and data that tell the hardware what to do. Software is not physical - it is the set of instructions that the hardware executes."
+  },
+  {
+   "id": "cs23-hardware-software-s3",
+   "kind": "learn",
+   "title": "Key Concept",
+   "body": "Hardware and software are interdependent. Hardware needs software to give it instructions; software needs hardware to execute those instructions. Neither can function without the other."
+  },
+  {
+   "id": "cs23-hardware-software-s4",
+   "kind": "learn",
+   "title": "Definition",
+   "body": "System software manages and controls the hardware and provides a platform for application software to run on. It runs in the background and the user may not directly interact with it."
+  },
+  {
+   "id": "cs23-hardware-software-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Define the terms hardware and software. | Explain why hardware and software are interdependent. | Classify each as input, output, or storage: keyboard, monitor, SSD, scanner, speaker, USB drive."
+  },
+  {
+   "id": "cs23-hardware-software-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Hardware is the physical components of a computer system (the parts you can touch). Software is the programs and instructions that tell the hardware what to do (not physical). | Hardware needs software to provide it with instructions to execute; without software, hardware has nothing to run. Software needs hardware to execute its instructions; without hardware, software has n | Keyboard = input, Monitor = output, SSD = storage, Scanner = input, Speaker = output, USB drive = storage."
+  },
+  {
+   "id": "cs23-hardware-software-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always define hardware as \"physical components\" and software as \"programs/instructions\" When asked about the relationship, emphasise interdependence Know your input/output/storage device classifications Be clear on system vs application software with examples A touchscreen is BOTH an input and output device Remember: data flows IN through input devices and OUT through output devices"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P19-pressure",
+ "topicName": "Pressure",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p19-pressure-s1",
+   "kind": "learn",
+   "title": "Pressure",
+   "body": "The force per unit area. Pressure tells us how concentrated a force is. Measured in Pascals (Pa), where 1 Pa = 1 N/m²."
+  },
+  {
+   "id": "p19-pressure-s2",
+   "kind": "learn",
+   "title": "Atmospheric pressure",
+   "body": "The pressure exerted by the weight of air above a point. It decreases with increasing height above the ground."
+  },
+  {
+   "id": "p19-pressure-s3",
+   "kind": "learn",
+   "title": "Upthrust",
+   "body": "The resultant upward force on an object submerged in a fluid. It equals the weight of the fluid displaced by the object."
+  },
+  {
+   "id": "p19-pressure-s4",
+   "kind": "learn",
+   "title": "Increasing the area decreases the pressure",
+   "body": "(for the same force). This is why skis and snowshoes are wide — they spread your weight over a larger area so you do not sink. Decreasing the area increases the pressure — this is why sharp knives cut better than blunt ones."
+  },
+  {
+   "id": "p19-pressure-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "The atmosphere is a layer of air around the Earth. The weight of this air creates atmospheric pressure . Atmospheric pressure decreases with height. At sea level, atmospheric pressure is about 101 000 Pa (101 kPa). As you go higher, there is less air above you, so the weight of air above you is less, and the pressure is lower. Atmospheric pressure explains why: Drinking straws work: you reduce the pressure inside the straw, and atmospheric pressure on the drink surface pushes the liquid up Suction cups stick: you push air out from under the cup, and atmospheric pressure holds it in place Your ears pop on aeroplanes: the pressure difference between inside and outside your ear forces your eardrum"
+  },
+  {
+   "id": "p19-pressure-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation A woman of weight 600 N stands on both feet with total area 0.03 m². Calculate the pressure she exerts on the ground. | Foundation Explain why atmospheric pressure decreases with height above the Earth surface. | Higher Calculate the pressure at a depth of 5 m in sea water (density 1025 kg/m³, g = 9.8 N/kg)."
+  },
+  {
+   "id": "p19-pressure-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "p = F / A = 600 / 0.03 = 20 000 Pa (20 kPa) | Atmospheric pressure is caused by the weight of air above a point. As height increases, there is less air above, so less weight of air, and therefore lower pressure. | p = hρg = 5 × 1025 × 9.8 = 50 225 Pa (50.2 kPa)"
+  },
+  {
+   "id": "p19-pressure-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "For pressure calculations, make sure area is in m² — convert cm² to m² (divide by 10 000) Pressure in liquids depends on depth, density and g — not on the volume or shape of the container When explaining floating/sinking, always compare the density of the object to the density of the fluid Upthrust = weight of fluid displaced, NOT weight of the object Atmospheric pressure is caused by the weight of air above — it is not magic A ship floats because of its shape (hull displaces lots of water) — not because steel floats"
+  }
+ ]
+}

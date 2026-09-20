@@ -1,0 +1,94 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "production-planning-quality",
+ "topicName": "Production Planning & Quality",
+ "version": 1,
+ "questions": [
+  {
+   "id": "production-planning-quality-q1",
+   "type": "short-answer",
+   "question": "Q: Explain the difference between a jig and a fixture.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A jig holds the workpiece AND guides the cutting tool. A fixture holds the workpiece securely but does not guide the tool.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "production-planning-quality-q2",
+   "type": "short-answer",
+   "question": "Q: Outline a production plan for 50 aluminium brackets requiring profile cutting, drilling, bending and anodising.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Laser cut profiles from 3mm aluminium sheet. 2) Deburr edges. 3) CNC drill two mounting holes. 4) Bend to 90 degrees on press brake. 5) Inspect dimensions. 6) Anodise for surface protection. 7) Final inspection and packaging.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "production-planning-quality-q3",
+   "type": "short-answer",
+   "question": "Q: Why are inspection stages included between manufacturing operations?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Inspection catches defects early before further value is added. Finding an error before bending avoids wasting time on a part that will be scrapped.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "production-planning-quality-q4",
+   "type": "short-answer",
+   "question": "Q: Explain why setup time must be minimised in batch production.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Setup time is non-productive; the machine is not making parts. Reducing setup time increases productive capacity and reduces unit cost.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "production-planning-quality-q5",
+   "type": "short-answer",
+   "question": "Q: Describe three workholding methods for a milling machine.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1) Machine vice for small rectangular blocks. 2) Clamp kit with step blocks for irregular shapes. 3) CNC fixture for repeated production runs.",
+      "marks": 1
+     }
+    ]
+   }
+  }
+ ]
+}

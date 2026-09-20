@@ -1,0 +1,159 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "probability-fundamentals",
+ "topicName": "Probability Fundamentals",
+ "version": 1,
+ "cards": [
+  {
+   "id": "probability-fundamentals-fc1",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "All probabilities lie on the 0–1 scale: 0 means impossible, 1 means certain, 0.5 means even chance",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc2",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "P(event) = number of favourable outcomes ÷ total number of equally likely outcomes for theoretical probability",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc3",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "Expected frequency = probability × number of trials; e.g. if P(green) = 0.3 and you spin 200 times, expect 60 greens",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc4",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "Relative risk = P(event in group A) ÷ P(event in group B); a relative risk of 2 means group A is twice as likely to experience the event",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc5",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "Absolute risk = P(event occurring); absolute risk difference = P(event in A) − P(event in B) gives the actual change in likelihood",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc6",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "Experimental probability (relative frequency) = frequency of outcome ÷ total trials; it tends towards theoretical probability as trials increase (law of large numbers)",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc7",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "For mutually exclusive events: P(A or B) = P(A) + P(B); they cannot happen simultaneously so there is no overlap",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc8",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "For independent events: P(A and B) = P(A) × P(B); the outcome of one does not affect the other",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc9",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "Tree diagrams show all possible outcomes for two or more stages; multiply along branches for ‘and’ probabilities, add across end branches for ‘or’ probabilities",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc10",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "Venn diagrams use overlapping circles to represent sets; P(A∪B) = P(A) + P(B) − P(A∩B) for non-mutually exclusive events",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc11",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "Conditional probability: P(A|B) = P(A∩B) ÷ P(B); the probability of A given that B has already occurred",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc12",
+   "front": "Recall a key point about Probability Fundamentals",
+   "back": "Sample space diagrams list all possible outcome pairs in a grid; each cell is equally likely so counting favourable cells gives the probability",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc13",
+   "front": "What should you know about gcse statistics exam tips — probability fundamentals?",
+   "back": "1. For Probability Fundamentals questions, show every step of your working clearly — method marks count even if the final answer is wrong 2. Check your answer makes sense in context (estimation, units, reasonableness) 3. Use correct mathematical notation and state formulae before substituting values 4. If a Probability Fundamentals question asks you to 'prove' or 'show', write a logical chain of reasoning with a conclusion line 5. For problem-solving, identify the topic first, then recall the relevant method",
+   "tags": [
+    "gcse-statistics-exam-tips-prob"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc14",
+   "front": "Full-Mark Response",
+   "back": "A game uses a biased coin where P(heads) = 0.6. The coin is tossed twice. Calculate the probability of getting: (a) two heads, (b) at least one tail.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "probability-fundamentals-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of probability fundamentals, including data collection, presentation and calculation techniques relevant to Edexcel 1ST0 & AQA 8382. AO2 (Application): Apply knowledge and understanding of probability fundamentals to interpret data, reason statistically and draw conclusions in context. AO3 (Evaluation): Evaluate statistical m",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

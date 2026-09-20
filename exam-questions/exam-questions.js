@@ -18,6 +18,7 @@ class ExamQuestionsRenderer {
     this.currentIndex = 0;
     this.userAnswers = {};
     this.showingMarkScheme = false;
+    this.selfMarks = this.loadSelfMarks();
   }
 
   getStorageKey(topicId) {
@@ -43,7 +44,13 @@ class ExamQuestionsRenderer {
 
   async loadQuestions(jsonUrl, topicId) {
     try {
-      const response = await fetch(jsonUrl);
+      let response = await fetch(jsonUrl);
+      if (!response.ok) {
+        // Board variants share content: fall back to the AQA pack.
+        const fallbackUrl = jsonUrl.replace(
+          /(\/gcserevise\/[a-z-]+\/[a-z0-9-]+-)(edexcel|ocr|eduqas|ccea)(?=-)/, '$1aqa');
+        if (fallbackUrl !== jsonUrl) response = await fetch(fallbackUrl);
+      }
       if (!response.ok) throw new Error(`Failed to load: ${jsonUrl}`);
       const data = await response.json();
       this.questions = data.questions || [];
@@ -144,6 +151,21 @@ class ExamQuestionsRenderer {
     // Mark scheme
     if (this.options.showMarkScheme && (isAnswered || this.showingMarkScheme)) {
       html += this.renderMarkScheme(q, isCorrect);
+
+    if (isAnswered && isCorrect === null) {
+      const sm = this.selfMarks[q.id];
+      const btn = (band, label) => `<button class="btn btn-sm self-mark-btn ${sm && sm.band === band ? 'self-mark-active' : ''}" data-band="${band}">${label}</button>`;
+      html += `
+      <div class="self-mark">
+        <div class="self-mark-header"><strong>Mark your answer</strong> <span class="self-mark-hint">compare with the mark scheme above, then self-assess</span></div>
+        <div class="self-mark-btns">
+          ${btn('full', `Full marks (${q.marks})`)}
+          ${btn('partial', `Partial (${Math.ceil(q.marks / 2)})`)}
+          ${btn('none', 'No marks (0)')}
+        </div>
+        ${sm ? `<div class="self-mark-score">Self-assessed: ${sm.marks}/${sm.total}</div>` : ''}
+      </div>`;
+    }
     }
 
     // Navigation
@@ -243,7 +265,9 @@ class ExamQuestionsRenderer {
       const correct = answered ? this.checkAnswer(q, this.userAnswers[q.id]) : null;
       let status = '';
       if (answered && correct) status = '✓ Correct';
-      else if (answered) status = '✗ Incorrect';
+      else if (answered && correct === false) status = '✗ Incorrect';
+      else if (answered && this.selfMarks[q.id]) status = 'Self-marked: ' + this.selfMarks[q.id].band;
+      else if (answered) status = '○ Mark yourself';
       else status = '○ Not attempted';
       return `
         <div class="exam-list-item ${answered ? (correct ? 'correct' : 'incorrect') : ''}" data-index="${i}">
@@ -261,6 +285,29 @@ class ExamQuestionsRenderer {
     // For text answers, we can't auto-grade reliably
     // Could implement keyword matching here
     return null; // null = needs manual review
+  }
+
+  loadSelfMarks() {
+    try {
+      return JSON.parse(localStorage.getItem('gcserevise_exam_selfmarks') || '{}');
+    } catch (e) { return {}; }
+  }
+
+  saveSelfMark(qid, band, marks, total) {
+    this.selfMarks[qid] = { band: band, marks: marks, total: total, ts: Date.now() };
+    try {
+      const all = JSON.parse(localStorage.getItem('gcserevise_exam_selfmarks') || '{}');
+      all[qid] = this.selfMarks[qid];
+      localStorage.setItem('gcserevise_exam_selfmarks', JSON.stringify(all));
+    } catch (e) {}
+  }
+
+  selfMarkQuestion(band) {
+    const q = this.questions[this.currentIndex];
+    if (!q) return;
+    const earned = band === 'full' ? q.marks : band === 'partial' ? Math.ceil(q.marks / 2) : 0;
+    this.saveSelfMark(q.id, band, earned, q.marks);
+    this.updateDisplay();
   }
 
   escapeHtml(text) {
@@ -306,6 +353,14 @@ class ExamQuestionsRenderer {
     // Mark scheme toggle
     const toggleBtn = document.getElementById('eq-toggle-ms');
     if (toggleBtn) toggleBtn.addEventListener('click', () => this.toggleMarkScheme());
+
+    // Self-mark buttons
+    document.querySelectorAll('.self-mark-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.selfMarkQuestion(btn.dataset.band);
+      });
+    });
 
     // List items
     document.querySelectorAll('.exam-list-item').forEach(item => {
@@ -402,7 +457,8 @@ class ExamQuestionsRenderer {
     }).length;
     const total = this.questions.length;
 
-    alert(`Session complete! ${correct}/${total} correct (auto-graded). ${total - Object.keys(this.userAnswers).length} unanswered.`);
+    const selfMarked = Object.keys(this.selfMarks).filter(id => this.userAnswers[id] !== undefined).length;
+    alert(`Session complete! ${correct}/${total} auto-graded correct, ${selfMarked} self-marked. ${total - Object.keys(this.userAnswers).length} unanswered.`);
     this.render();
   }
 }

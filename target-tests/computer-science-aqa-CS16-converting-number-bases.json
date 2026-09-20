@@ -1,0 +1,68 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS16-converting-number-bases",
+ "topicName": "Converting Number Bases",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cs16-converting-number-bases-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Converting Number Bases",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cs16-converting-number-bases-t1",
+     "type": "short-answer",
+     "question": "Convert binary 11001010 to decimal.",
+     "correctAnswer": "128 + 64 + 0 + 0 + 8 + 0 + 2 + 0 = 202",
+     "explanation": "Answer: 128 + 64 + 0 + 0 + 8 + 0 + 2 + 0 = 202",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs16-converting-number-bases-t2",
+     "type": "short-answer",
+     "question": "Convert decimal 200 to binary (8 bits).",
+     "correctAnswer": "200 - 128 = 72, 72 - 64 = 8, 8 - 8 = 0. Binary: 11001000",
+     "explanation": "Answer: 200 - 128 = 72, 72 - 64 = 8, 8 - 8 = 0. Binary: 11001000",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs16-converting-number-bases-t3",
+     "type": "short-answer",
+     "question": "Convert hex A5 to decimal.",
+     "correctAnswer": "A x 16 + 5 x 1 = 10 x 16 + 5 = 160 + 5 = 165",
+     "explanation": "Answer: A x 16 + 5 x 1 = 10 x 16 + 5 = 160 + 5 = 165",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs16-converting-number-bases-t4",
+     "type": "short-answer",
+     "question": "Convert binary 111100001010 to hex.",
+     "correctAnswer": "Group: 1111 0000 1010 = F0A",
+     "explanation": "Answer: Group: 1111 0000 1010 = F0A",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cs16-converting-number-bases-t5",
+     "type": "short-answer",
+     "question": "Convert hex 2F to binary.",
+     "correctAnswer": "2 = 0010, F = 1111. Binary: 00101111",
+     "explanation": "Answer: 2 = 0010, F = 1111. Binary: 00101111",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

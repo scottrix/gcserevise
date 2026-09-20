@@ -1,0 +1,61 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "FN9-food-preservation",
+ "topicName": "Food Preservation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "fn9-food-preservation-q1",
+   "type": "short-answer",
+   "question": "Q: How does adding sugar preserve jam?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "High sugar concentrations (approximately 60%) in jam reduce water activity — the water is bound to the sugar molecules and is unavailable for microorganisms to use. Without available water, bacteria, yeasts, and moulds cannot grow. The combination of sugar, acidity (from fruit), and heat treatment during boiling ensures a long shelf life.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "fn9-food-preservation-q2",
+   "type": "short-answer",
+   "question": "Q: Evaluate the advantages and disadvantages of UHT treatment for milk.",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Advantages: UHT milk has a long shelf life (6+ months unopened), can be stored without refrigeration (useful in areas without reliable fridges), reduces food waste, and is safe (all pathogens and spores destroyed). Disadvantages: the high heat alters flavour (some find it 'cooked' tasting), destroys some heat-sensitive vitamins (B1, B6, B12, vitamin C), and may denature some proteins. Consumer pre",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "fn9-food-preservation-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Compare three different methods of food preservation, explaining how each works and its effect on food quality. [12 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Freezing, drying, and pasteurisation are three common preservation methods that work through different mechanisms and have different effects on food quality. Freezing works by reducing temperature to -18°C, at which point microorganisms become dormant and enzymatic activity is drastically slowed. Water freezes, immobilising the food's contents. However, ice crystal formation damages cell walls — slow freezing creates large crystals that rupture cells, causing texture changes (e.g. soft strawberries, tough meat). Fast freezing (blast freezing) minimises this damage. Nutrients are largely preser",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Freezing, drying, and pasteurisation are three common preservation methods that work through different mechanisms and have different effects on food quality. Freezing works by reducing temperature to -18°C, at which point microorganisms become dormant and enzymatic activity is drastically slowed. Water freezes, immobilising the food's contents. However, ice crystal formation damages cell walls — slow freezing creates large crystals that rupture cells, causing texture changes (e.g. soft strawberries, tough meat). Fast freezing (blast freezing) minimises this damage. Nutrients are largely preserved, though some water-soluble vitamins may be lost in drip loss on thawing. Drying removes moisture, reducing water activity below the level microorganisms need for growth (below 0.6 for most). Without available water, bacteria, moulds, and yeasts cannot grow. Drying concentrates flavours and nutrients per gram but significantly alters texture — dried foods are hard and require reconstitution. Some vitamin C is lost through oxidation during the drying process. Dried foods are lightweight and shelf-stable at room temperature. Pasteurisation uses heat (72°C for 15 seconds) to destroy pathogenic bacteria, making food safe to drink/eat. It extends refrigerated shelf life but does not kill all microorganisms or spores. The moderate heat preserves most nutrients and flavour, though some heat-sensitive vitamins (B1, C) are partially lost. Pasteurised products require continuous refrigeration a"
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE1-skeletal-system",
+ "topicName": "The Skeletal System",
+ "version": 1,
+ "tests": [
+  {
+   "id": "pe1-skeletal-system-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Skeletal System",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "pe1-skeletal-system-t1",
+     "type": "short-answer",
+     "question": "Name the five functions of the skeleton.",
+     "correctAnswer": "Support, protection, movement, mineral storage, blood cell production.",
+     "explanation": "Answer: Support, protection, movement, mineral storage, blood cell production.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "pe1-skeletal-system-t2",
+     "type": "short-answer",
+     "question": "How many bones make up the axial skeleton?",
+     "correctAnswer": "80 bones make up the axial skeleton.",
+     "explanation": "Answer: 80 bones make up the axial skeleton.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "pe1-skeletal-system-t3",
+     "type": "short-answer",
+     "question": "Give one example each of a long bone, a short bone, a flat bone and an irregular bone.",
+     "correctAnswer": "Long: femur; Short: carpals; Flat: cranium; Irregular: vertebrae.",
+     "explanation": "Answer: Long: femur; Short: carpals; Flat: cranium; Irregular: vertebrae.",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

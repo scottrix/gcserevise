@@ -1,0 +1,112 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "voltage-current-resistance",
+ "topicName": "Voltage, Current & Resistance",
+ "version": 1,
+ "questions": [
+  {
+   "id": "voltage-current-resistance-q1",
+   "type": "short-answer",
+   "question": "Q: A 12 V battery drives 3 A through a resistor. What is its resistance?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Using V = IR: R = V/I = 12/3 = 4 Ω.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "voltage-current-resistance-q2",
+   "type": "short-answer",
+   "question": "Q: What is the difference between conventional current and electron flow?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Conventional current flows from positive to negative; electron flow is the actual movement of electrons from negative to positive.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "voltage-current-resistance-q3",
+   "type": "short-answer",
+   "question": "Q: A current of 2 A flows for 5 seconds. How much charge passes?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Q = It = 2 × 5 = 10 C.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "voltage-current-resistance-q4",
+   "type": "short-answer",
+   "question": "Q: How should a voltmeter be connected in a circuit?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A voltmeter is connected in parallel across the component being measured.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "voltage-current-resistance-q5",
+   "type": "short-answer",
+   "question": "Q: State Ohm's Law and name the quantities involved.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "V = IR, where V is voltage (volts), I is current (amperes) and R is resistance (ohms).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "voltage-current-resistance-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain the relationship between voltage, current and resistance, and describe how each is measured in a circuit. <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Voltage, current and resistance are related by Ohm's Law: V = IR. Voltage (potential difference) is the driving force that pushes charge through a circuit and is measured in volts using a voltmeter connected in parallel across the component. Current is the rate of flow of charge (I = Q/t), measured in amperes using an ammeter connected in series with the component. Resistance opposes current flow and is measured in ohms; it can be calculated from voltage and current measurements using R = V/I. For ohmic conductors, resistance remains constant regardless of the applied voltage, producing a stra",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Voltage, current and resistance are related by Ohm's Law: V = IR. Voltage (potential difference) is the driving force that pushes charge through a circuit and is measured in volts using a voltmeter connected in parallel across the component. Current is the rate of flow of charge (I = Q/t), measured in amperes using an ammeter connected in series with the component. Resistance opposes current flow and is measured in ohms; it can be calculated from voltage and current measurements using R = V/I. For ohmic conductors, resistance remains constant regardless of the applied voltage, producing a straight-line V-I graph through the origin."
+   }
+  }
+ ]
+}

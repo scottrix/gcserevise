@@ -1,0 +1,57 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P23-sound-and-ultrasound",
+ "topicName": "Sound And Ultrasound",
+ "version": 1,
+ "steps": [
+  {
+   "id": "p23-sound-and-ultrasound-s1",
+   "kind": "learn",
+   "title": "Sound waves",
+   "body": "Longitudinal waves produced by vibrating objects. They require a medium (solid, liquid or gas) to travel — they cannot travel through a vacuum."
+  },
+  {
+   "id": "p23-sound-and-ultrasound-s2",
+   "kind": "learn",
+   "title": "Ultrasound",
+   "body": "Sound waves with a frequency above 20,000 Hz (20 kHz). Humans cannot hear ultrasound."
+  },
+  {
+   "id": "p23-sound-and-ultrasound-s3",
+   "kind": "learn",
+   "title": "Infrasound",
+   "body": "Sound waves with a frequency below 20 Hz. Humans cannot hear infrasound."
+  },
+  {
+   "id": "p23-sound-and-ultrasound-s4",
+   "kind": "learn",
+   "title": "Echo",
+   "body": "A reflected sound wave. The time delay between a sound and its echo can be used to calculate distance."
+  },
+  {
+   "id": "p23-sound-and-ultrasound-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Example 1: Calculating depth using sonar A ship sends out a sonar pulse. The echo returns after 0.8 seconds. The speed of sound in water is 1500 m/s. Calculate the depth of the sea. Solution: Total distance = speed × time = 1500 × 0.8 = 1200 m Depth = total distance ÷ 2 = 1200 ÷ 2 = 600 m Example 2: Calculating distance from an echo in air A person claps their hands and hears an echo from a wall 0.3 seconds later. The speed of sound in air is 330 m/s. How far away is the wall? Solution: Total distance = 330 × 0.3 = 99 m Distance to wall = 99 ÷ 2 = 49.5 m Example 3: Medical ultrasound timing In an ultrasound scan, a pulse takes 4 × 10⁻⁵ s to return from a boundary. The speed of ultrasound in tissue is 1500 m/s. How far below the skin is the boundary? Solution: Total distance = 1500 × 4 × 10⁻⁵ = 0.06 m Depth = 0.06 ÷ 2 = 0.03 m = 3 cm Example 4: Calculating time for an echo A ship is floating above a sea floor at a depth of 3000 m. The speed of sound in water is 1500 m/s. How long will i"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Foundation State the range of frequencies that humans can hear. | Foundation Explain why sound cannot travel through a vacuum. | Higher A sonar pulse returns after 1.2 s. The speed of sound in water is 1500 m/s. Calculate the depth of the water."
+  },
+  {
+   "id": "p23-sound-and-ultrasound-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "Q1: Humans can hear frequencies between 20 Hz and 20,000 Hz (20 kHz). | Q2: Sound is a longitudinal wave that requires particles to vibrate and transfer energy. In a vacuum there are no particles, so there is no medium for the sound to travel through. | Q3: Total distance = 1500 × 1.2 = 1800 m. Depth = 1800 ÷ 2 = 900 m"
+  },
+  {
+   "id": "p23-sound-and-ultrasound-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Always divide by 2 in echo calculations — the sound travels there AND back. This is the most common mistake. Sound is ALWAYS longitudinal — if asked to classify, never call it transverse. Remember the speed of sound: ~330 m/s in air, ~1500 m/s in water, ~5000 m/s in steel. When comparing ultrasound to X-rays, always mention that ultrasound is non-ionising — this is the key advantage. Infrasound = below 20 Hz; Ultrasound = above 20,000 Hz. Don't mix them up. If asked about uses of ultrasound, state the use AND briefly explain how it works (e.g. \"ultrasound reflects from tissue boundaries, producing echoes used to build an image\")."
+  }
+ ]
+}

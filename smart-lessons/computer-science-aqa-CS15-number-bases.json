@@ -1,0 +1,51 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS15-number-bases",
+ "topicName": "Number Bases",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cs15-number-bases-s1",
+   "kind": "learn",
+   "title": "A number base (or radix)",
+   "body": "is the number of unique digits used to represent numbers in a positional numeral system. The position of each digit determines its value - this is called positional notation."
+  },
+  {
+   "id": "cs15-number-bases-s2",
+   "kind": "learn",
+   "title": "Decimal",
+   "body": "is the number system we use every day. It has 10 digits (0-9). Each position represents a power of 10: units, tens, hundreds, thousands, etc."
+  },
+  {
+   "id": "cs15-number-bases-s3",
+   "kind": "learn",
+   "title": "Why do humans use base 10?",
+   "body": "Most likely because we have 10 fingers! There is nothing mathematically special about base 10 - it is just what we are used to."
+  },
+  {
+   "id": "cs15-number-bases-s4",
+   "kind": "learn",
+   "title": "Binary",
+   "body": "uses only two digits: 0 and 1. Each position represents a power of 2. Binary is the fundamental language of computers because electronic circuits have two states: on (1) and off (0)."
+  },
+  {
+   "id": "cs15-number-bases-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "What is the decimal value of binary 10110? | What is the decimal value of hex 2F? | Why do computers use binary instead of decimal?"
+  },
+  {
+   "id": "cs15-number-bases-check",
+   "kind": "check",
+   "title": "Check your answers",
+   "body": "1x16 + 0x8 + 1x4 + 1x2 + 0x1 = 16 + 4 + 2 = 22 | 2 x 16 + 15 x 1 = 32 + 15 = 47 | Computers use binary because their hardware consists of transistors that have only two states: on (1) and off (0). This makes binary the natural representation for electronic circuits. Using only two "
+  },
+  {
+   "id": "cs15-number-bases-tips",
+   "kind": "review",
+   "title": "Exam tips",
+   "body": "Remember: computers ONLY use binary internally - hex is for human convenience Binary place values double each position: 1, 2, 4, 8, 16, 32, 64, 128 Hex place values multiply by 16: 1, 16, 256, 4096 Each hex digit = exactly 4 binary bits Know the hex digits: A=10, B=11, C=12, D=13, E=14, F=15 When explaining why binary: mention transistors, on/off states, reliability"
+  }
+ ]
+}

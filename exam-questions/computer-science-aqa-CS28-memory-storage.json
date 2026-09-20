@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS28-memory-storage",
+ "topicName": "Memory & Storage",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs28-memory-storage-q1",
+   "type": "short-answer",
+   "question": "Explain the difference between RAM and ROM.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "RAM is volatile (loses data without power), read-write, and stores running programs and current data. ROM is non-volatile (retains data without power), read-only, and stores permanent boot/startup instructions.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs28-memory-storage-q2",
+   "type": "short-answer",
+   "question": "Describe the memory hierarchy from fastest to slowest.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Registers (fastest) > L1 Cache > L2 Cache > L3 Cache > RAM > Secondary Storage (slowest). Speed decreases and capacity increases as you move down the hierarchy.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs28-memory-storage-q3",
+   "type": "short-answer",
+   "question": "What is virtual memory and why does it slow down a computer?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Virtual memory uses a section of the hard drive as extra RAM when actual RAM is full. The OS moves less-used data from RAM to disk (swapping/paging). It slows down the computer because hard drive access is much slower than RAM access. When the CPU needs data that has been swapped to disk, it must wait while it is loaded back into RAM.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs28-memory-storage-q4",
+   "type": "short-answer",
+   "question": "Compare HDD and SSD storage, giving two advantages and one disadvantage of each.",
+   "marks": 1,
+   "commandWord": "compare",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "HDD advantages: cheaper per GB, very large capacity available. HDD disadvantage: slower access due to moving parts, less durable. SSD advantages: faster access (no moving parts), more durable. SSD disadvantage: more expensive per GB, limited write cycles.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs28-memory-storage-q5",
+   "type": "short-answer",
+   "question": "What is an embedded system? Give three examples.",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "An embedded system is a computer system built into a larger device, designed to perform one specific dedicated function. It typically has a microprocessor and ROM rather than full RAM. Examples: microwave oven controller, washing machine, car engine management system.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs28-memory-storage-ext",
+   "type": "extended",
+   "question": "Full-Mark Response Explain the concept of virtual memory, why it is needed, and one disadvantage of using it. [3 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Virtual memory is a technique where the operating system uses a section of the hard drive/SSD as if it were additional RAM. When the physical RAM becomes full, the OS moves less frequently used data from RAM to a designated area on disk called the swap file or page file. It is needed because it allows the computer to run more programs simultaneously than the physical RAM could hold, preventing 'out of memory' errors when multitasking. Disadvantage: Accessing virtual memory is much slower than accessing RAM because disk read/write speeds are significantly slower than memory access. If the syste",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Virtual memory is a technique where the operating system uses a section of the hard drive/SSD as if it were additional RAM. When the physical RAM becomes full, the OS moves less frequently used data from RAM to a designated area on disk called the swap file or page file. It is needed because it allows the computer to run more programs simultaneously than the physical RAM could hold, preventing 'out of memory' errors when multitasking. Disadvantage: Accessing virtual memory is much slower than accessing RAM because disk read/write speeds are significantly slower than memory access. If the system relies heavily on virtual memory (thrashing), performance degrades severely as the CPU spends more time swapping data between disk and RAM than executing instructions."
+   }
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS9-boolean-operations",
+ "topicName": "Boolean Operations",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs9-boolean-operations-q1",
+   "type": "short-answer",
+   "question": "Complete the truth table for A AND B where A = TRUE, B = FALSE.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "TRUE AND FALSE = FALSE. Both must be TRUE for AND to return TRUE.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs9-boolean-operations-q2",
+   "type": "short-answer",
+   "question": "Evaluate: NOT (TRUE OR FALSE)",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "TRUE OR FALSE = TRUE. Then NOT TRUE = FALSE.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs9-boolean-operations-q3",
+   "type": "short-answer",
+   "question": "Use De Morgan's Laws to simplify: NOT (x >= 0 AND x <= 100)",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Using De Morgan's: NOT(x >= 0) OR NOT(x <= 100) = x < 0 OR x > 100.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs9-boolean-operations-q4",
+   "type": "short-answer",
+   "question": "Write a condition that checks if a person is eligible for a student discount (age < 18 OR hasStudentCard = TRUE) AND isShopping = TRUE.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "IF (age < 18 OR hasStudentCard = TRUE) AND isShopping = TRUE THEN OUTPUT \"Student discount applied\" ENDIF",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs9-boolean-operations-q5",
+   "type": "short-answer",
+   "question": "Evaluate step by step: NOT FALSE AND TRUE OR FALSE",
+   "marks": 1,
+   "commandWord": "evaluate",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Step 1: NOT FALSE = TRUE (NOT has highest precedence). Step 2: TRUE AND TRUE = TRUE (AND next). Step 3: TRUE OR FALSE = TRUE (OR lowest). Result: TRUE.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs9-boolean-operations-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A login system requires a username of at least 5 characters AND a password of at least 8 characters. The user is locked out after 3 failed attempts. Write pseudo-code using Boolean operators to implement this. [5 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "describe",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "attempts ← 0 loggedin ← FALSE WHILE attempts = 5 AND LENGTH(password) >= 8 THEN OUTPUT 'Login successful' loggedin ← TRUE ELSE attempts ← attempts + 1 IF NOT loggedin AND attempts",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "attempts ← 0 loggedin ← FALSE WHILE attempts = 5 AND LENGTH(password) >= 8 THEN OUTPUT 'Login successful' loggedin ← TRUE ELSE attempts ← attempts + 1 IF NOT loggedin AND attempts"
+   }
+  }
+ ]
+}

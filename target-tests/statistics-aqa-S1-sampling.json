@@ -1,0 +1,38 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "S1-sampling",
+ "topicName": "S1 Sampling",
+ "version": 1,
+ "tests": [
+  {
+   "id": "s1-sampling-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on S1 Sampling",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "s1-sampling-t2",
+     "type": "short-answer",
+     "question": "A school has 120 boys and 180 girls. A stratified sample of 50 students is needed. How many boys and girls should be selected?",
+     "correctAnswer": "Boys: (120/300) × 50 = 20; Girls: (180/300) × 50 = 30",
+     "explanation": "Answer: Boys: (120/300) × 50 = 20; Girls: (180/300) × 50 = 30",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "s1-sampling-t3",
+     "type": "short-answer",
+     "question": "A researcher wants to survey 25 people from a list of 200 using systematic sampling. What value of k should be used?",
+     "correctAnswer": "k = 200 ÷ 25 = 8 (select every 8th person)",
+     "explanation": "Answer: k = 200 ÷ 25 = 8 (select every 8th person)",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

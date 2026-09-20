@@ -1,0 +1,159 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "digital-systems-design",
+ "topicName": "Digital Systems Design",
+ "version": 1,
+ "cards": [
+  {
+   "id": "digital-systems-design-fc1",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "Digital system design involves specifying, designing and implementing circuits that process digital signals.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc2",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "A state diagram shows the sequence of states a system transitions through, with arrows for transitions and labels for conditions.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc3",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "Moore machines: outputs depend only on the current state; Mealy machines: outputs depend on current state and inputs.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc4",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "State diagrams use circles for states and labelled arrows for transitions; each arrow shows the input condition causing the transition.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc5",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "Timing diagrams display signal levels against time, showing the relationship between clock, input and output waveforms.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc6",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "System integration combines subsystems (combinational logic, registers, counters) into a complete working system.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc7",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "Design steps: define specification → state diagram → state table → state assignment → logic equations → circuit implementation.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc8",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "State reduction eliminates redundant states to minimise the number of flip-flops required.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc9",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "Unused states should be mapped to ensure the system returns to a valid state (self-correcting design).",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc10",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "A system block diagram shows major subsystems and data flow between them at a high level.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc11",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "Propagation delays accumulate through cascaded logic, determining the maximum clock frequency of the system.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc12",
+   "front": "Recall a key point about Digital Systems Design",
+   "back": "Glitches (temporary unwanted transitions) can occur in combinational logic due to unequal propagation paths.",
+   "tags": [
+    "key-fact"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc13",
+   "front": "What should you know about gcse electronics exam tips — digital systems design?",
+   "back": "1. For Digital Systems Design questions, use correct electronic symbols and terminology 2. Always show your working in calculations, including units at each step 3. When analysing circuits, state which law or rule you are applying first 4. For evaluation questions on Digital Systems Design, compare component choices and consider cost, reliability and tolerance 5. Draw circuit diagrams neatly with conventional symbols",
+   "tags": [
+    "gcse-electronics-exam-tips-dig"
+   ],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc14",
+   "front": "Full-Mark Response",
+   "back": "Describe the process of designing a digital system from specification to implementation, including the role of state diagrams and timing diagrams.",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  },
+  {
+   "id": "digital-systems-design-fc15",
+   "front": "Assessment Objective Analysis",
+   "back": "AO1 (Knowledge & Understanding): Demonstrate knowledge and understanding of digital systems design, including electronic components, circuit theory and systems concepts relevant to WJEC Eduqas C690QS. AO2 (Application): Apply knowledge and understanding of digital systems design to analyse, design and construct electronic circuits and systems. AO3 (Evaluation): Evaluate electronic circuits and sys",
+   "tags": [
+    "section"
+   ],
+   "difficulty": 3,
+   "ao": "AO1"
+  }
+ ]
+}

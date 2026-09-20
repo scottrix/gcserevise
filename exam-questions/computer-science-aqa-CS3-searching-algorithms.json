@@ -1,0 +1,112 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS3-searching-algorithms",
+ "topicName": "Searching Algorithms",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cs3-searching-algorithms-q1",
+   "type": "short-answer",
+   "question": "Describe how a linear search works.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A linear search checks each item in a list one by one, starting from the first element, until the target is found or the end of the list is reached. It works on both sorted and unsorted data.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs3-searching-algorithms-q2",
+   "type": "short-answer",
+   "question": "Why must data be sorted before binary search can be used?",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Binary search compares the target with the middle element and eliminates half the list based on whether the target is smaller or larger. This only works if the list is sorted, because the algorithm relies on the fact that all items before the middle are smaller and all items after are larger.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs3-searching-algorithms-q3",
+   "type": "short-answer",
+   "question": "Perform a binary search for the value 72 in the list [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. Show each step.",
+   "marks": 1,
+   "commandWord": "describe",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Step 1: low=0, high=9, mid=4, list[4]=16. 16<72, so low=5. Step 2: low=5, high=9, mid=7, list[7]=56. 56<72, so low=8. Step 3: low=8, high=9, mid=8, list[8]=72. 72=72, found at index 8.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs3-searching-algorithms-q4",
+   "type": "short-answer",
+   "question": "A sorted list contains 256 items. What is the maximum number of comparisons needed by binary search?",
+   "marks": 1,
+   "commandWord": "state",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "log₂(256) = 8. Maximum 8 comparisons.",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs3-searching-algorithms-q5",
+   "type": "short-answer",
+   "question": "Explain one advantage and one disadvantage of linear search compared to binary search.",
+   "marks": 1,
+   "commandWord": "explain",
+   "ao": "AO1",
+   "difficulty": 2,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Advantage: Linear search works on unsorted data, unlike binary search. Disadvantage: Linear search is much slower for large datasets - O(n) vs O(log n).",
+      "marks": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "cs3-searching-algorithms-ext",
+   "type": "extended",
+   "question": "Full-Mark Response A sorted list contains 1024 student names. Compare the maximum number of comparisons needed by linear search and binary search to find a specific name. [4 marks] <div class=\"",
+   "marks": 4,
+   "commandWord": "compare",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Linear search: In the worst case, it would check all 1024 items, so the maximum number of comparisons is 1024 (O(n)). Binary search: Each comparison halves the search space: 1024 → 512 → 256 → 128 → 64 → 32 → 16 → 8 → 4 → 2 → 1. This takes a maximum of 10 comparisons (O(log₂ n), since 2¹⁰ = 1024). Binary search is significantly more efficient for this sorted dataset, requiring at most 10 comparisons compared to 1024 for linear search.",
+      "marks": 4
+     }
+    ],
+    "exemplarAnswer": "Linear search: In the worst case, it would check all 1024 items, so the maximum number of comparisons is 1024 (O(n)). Binary search: Each comparison halves the search space: 1024 → 512 → 256 → 128 → 64 → 32 → 16 → 8 → 4 → 2 → 1. This takes a maximum of 10 comparisons (O(log₂ n), since 2¹⁰ = 1024). Binary search is significantly more efficient for this sorted dataset, requiring at most 10 comparisons compared to 1024 for linear search."
+   }
+  }
+ ]
+}
