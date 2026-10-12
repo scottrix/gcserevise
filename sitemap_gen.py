@@ -27,7 +27,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-BASE_URL = 'https://scottrix.github.io'
+BASE_URL = 'https://www.scottrix.co.uk'
 TODAY = subprocess.check_output(['date', '-u', '+%Y-%m-%d']).decode().strip()
 
 
@@ -60,7 +60,7 @@ def is_skippable(p, repo_root):
 def enumerate_html(repo_root):
     """Yield (Path, public_url, priority, changefreq_or_None) per HTML file."""
     # Detect repo kind by directory name
-    repo_name = Path(repo_root).name
+    repo_name = Path(repo_root).resolve().name
     subpath_map = {
         'scottrix.github.io': '',
         'devtools':           '/devtools',
@@ -159,7 +159,7 @@ def render_sitemapindex(entries):
 
 
 def generate_for_repo(repo_root, check_only=False):
-    repo_root = Path(repo_root)
+    repo_root = Path(repo_root).resolve()
     repo_name = repo_root.name
     plan = []  # (path, new_content)
 
