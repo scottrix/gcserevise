@@ -33,7 +33,7 @@
 ## Your GCSE Revise (Current State)
 
 ### Strengths
-- Clean, fast, board-agnostic
+- Clean, fast, board-specific (per-board pages with board-specific URLs, titles and badges)
 - Good extended questions, misconceptions, problem-solving
 - AO3 reasoning sections
 - Model answers with mark schemes
