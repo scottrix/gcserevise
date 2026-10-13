@@ -10,8 +10,8 @@
 <meta property="og:title" content="GCSE Law - Free Revision Notes">
 <meta property="og:description" content="Free GCSE Law revision notes across 26 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/law.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/law.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/law.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/law.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -60,20 +60,8 @@
 <p class="topic-desc">Complete revision notes for GCSE Law covering all topics across AQA specifications.</p>
 </article>
 
-<div class="selector-bar">
-  <div class="selector-group">
-    <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
-      <option value="aqa">AQA</option>
-    </select>
-  </div>
-  
-</div>
-
-
-
-  <section id="law-aqa" class="section">
-    <h2>Law (26 Topics)</h2>
+  <section id="law-aqa" class="section" data-board="aqa">
+    <h2>Law — AQA (26 Topics)</h2>
     <div class="topics-grid">
       <a href="topics/law/aqa/civil-dispute-resolution.html" class="topic-card">
         <span class="topic-id">Civil</span>
@@ -210,34 +198,28 @@
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/law/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/law/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/law\/([^/]+)\//);
-    const tierMatch = path.match(/law\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

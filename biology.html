@@ -5,13 +5,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Biology - Free GCSE Revision Notes</title>
-<meta name="description" content="Free GCSE Biology revision notes across 88 topics across all major exam boards.">
+<meta name="description" content="Free GCSE Biology revision notes across 99 topics across all major exam boards.">
 <meta name="keywords" content="GCSE Biology, Biology revision notes, past papers, AQA, Edexcel, OCR, CCEA">
 <meta property="og:title" content="GCSE Biology - Free Revision Notes">
-<meta property="og:description" content="Free GCSE Biology revision notes across 88 topics across all major exam boards.">
+<meta property="og:description" content="Free GCSE Biology revision notes across 99 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/biology.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/biology.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/biology.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/biology.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -66,18 +66,16 @@
 <div class="selector-bar">
   <div class="selector-group">
     <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
+    <select id="board-select" onchange="switchSubjectBoard()">
       <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="ccea">CCEA</option>
     </select>
   </div>
-  
 </div>
 
 
-  <section id="biology-aqa" class="section">
-    <h2>Biology (22 Topics)</h2>
+  <section id="biology-aqa" class="section" data-board="aqa">
+    <h2>Biology — AQA (22 Topics)</h2>
     <div class="topics-grid">
-
       <a href="topics/biology/aqa/B1-cell-structure.html" class="topic-card">
         <span class="topic-id">B1</span>
         <span class="topic-name">Cell Structure</span>
@@ -169,40 +167,363 @@
     </div>
   </section>
 
+  <section id="biology-edexcel" class="section" data-board="edexcel">
+    <h2>Biology — Pearson Edexcel (22 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/biology/edexcel/B1-cell-structure.html" class="topic-card">
+        <span class="topic-id">B1</span>
+        <span class="topic-name">Cell Structure</span>
+      </a>
+      <a href="topics/biology/edexcel/B10-body-defences.html" class="topic-card">
+        <span class="topic-id">B10</span>
+        <span class="topic-name">Body Defences</span>
+      </a>
+      <a href="topics/biology/edexcel/B11-vaccines-and-drugs.html" class="topic-card">
+        <span class="topic-id">B11</span>
+        <span class="topic-name">Vaccines And Drugs</span>
+      </a>
+      <a href="topics/biology/edexcel/B12-photosynthesis.html" class="topic-card">
+        <span class="topic-id">B12</span>
+        <span class="topic-name">Photosynthesis</span>
+      </a>
+      <a href="topics/biology/edexcel/B13-respiration.html" class="topic-card">
+        <span class="topic-id">B13</span>
+        <span class="topic-name">Respiration</span>
+      </a>
+      <a href="topics/biology/edexcel/B14-nervous-system.html" class="topic-card">
+        <span class="topic-id">B14</span>
+        <span class="topic-name">Nervous System</span>
+      </a>
+      <a href="topics/biology/edexcel/B15-the-endocrine-system.html" class="topic-card">
+        <span class="topic-id">B15</span>
+        <span class="topic-name">The Endocrine System</span>
+      </a>
+      <a href="topics/biology/edexcel/B16-reproduction-and-hormones.html" class="topic-card">
+        <span class="topic-id">B16</span>
+        <span class="topic-name">Reproduction And Hormones</span>
+      </a>
+      <a href="topics/biology/edexcel/B17-dna-and-genetics.html" class="topic-card">
+        <span class="topic-id">B17</span>
+        <span class="topic-name">Dna And Genetics</span>
+      </a>
+      <a href="topics/biology/edexcel/B18-genetic-variation.html" class="topic-card">
+        <span class="topic-id">B18</span>
+        <span class="topic-name">Genetic Variation</span>
+      </a>
+      <a href="topics/biology/edexcel/B19-evolution.html" class="topic-card">
+        <span class="topic-id">B19</span>
+        <span class="topic-name">Evolution</span>
+      </a>
+      <a href="topics/biology/edexcel/B2-cell-division.html" class="topic-card">
+        <span class="topic-id">B2</span>
+        <span class="topic-name">Cell Division</span>
+      </a>
+      <a href="topics/biology/edexcel/B20-ecosystems.html" class="topic-card">
+        <span class="topic-id">B20</span>
+        <span class="topic-name">Ecosystems</span>
+      </a>
+      <a href="topics/biology/edexcel/B21-nutrient-cycles.html" class="topic-card">
+        <span class="topic-id">B21</span>
+        <span class="topic-name">Nutrient Cycles</span>
+      </a>
+      <a href="topics/biology/edexcel/B22-human-impact-on-the-environment.html" class="topic-card">
+        <span class="topic-id">B22</span>
+        <span class="topic-name">Human Impact On The Environment</span>
+      </a>
+      <a href="topics/biology/edexcel/B3-transport-in-cells.html" class="topic-card">
+        <span class="topic-id">B3</span>
+        <span class="topic-name">Transport In Cells</span>
+      </a>
+      <a href="topics/biology/edexcel/B4-tissues-and-organs.html" class="topic-card">
+        <span class="topic-id">B4</span>
+        <span class="topic-name">Tissues And Organs</span>
+      </a>
+      <a href="topics/biology/edexcel/B5-digestive-system.html" class="topic-card">
+        <span class="topic-id">B5</span>
+        <span class="topic-name">Digestive System</span>
+      </a>
+      <a href="topics/biology/edexcel/B6-the-heart-and-blood.html" class="topic-card">
+        <span class="topic-id">B6</span>
+        <span class="topic-name">The Heart And Blood</span>
+      </a>
+      <a href="topics/biology/edexcel/B7-plant-organisation.html" class="topic-card">
+        <span class="topic-id">B7</span>
+        <span class="topic-name">Plant Organisation</span>
+      </a>
+      <a href="topics/biology/edexcel/B8-health-and-disease.html" class="topic-card">
+        <span class="topic-id">B8</span>
+        <span class="topic-name">Health And Disease</span>
+      </a>
+      <a href="topics/biology/edexcel/B9-pathogens-and-disease.html" class="topic-card">
+        <span class="topic-id">B9</span>
+        <span class="topic-name">Pathogens And Disease</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="biology-ocr" class="section" data-board="ocr">
+    <h2>Biology — OCR (33 Topics)</h2>
+    <h3>Core</h3>
+    <div class="topics-grid">
+      <a href="topics/biology/ocr/B1-cell-structure.html" class="topic-card">
+        <span class="topic-id">B1</span>
+        <span class="topic-name">Cell Structure</span>
+      </a>
+      <a href="topics/biology/ocr/B10-body-defences.html" class="topic-card">
+        <span class="topic-id">B10</span>
+        <span class="topic-name">Body Defences</span>
+      </a>
+      <a href="topics/biology/ocr/B11-vaccines-and-drugs.html" class="topic-card">
+        <span class="topic-id">B11</span>
+        <span class="topic-name">Vaccines And Drugs</span>
+      </a>
+      <a href="topics/biology/ocr/B12-photosynthesis.html" class="topic-card">
+        <span class="topic-id">B12</span>
+        <span class="topic-name">Photosynthesis</span>
+      </a>
+      <a href="topics/biology/ocr/B13-respiration.html" class="topic-card">
+        <span class="topic-id">B13</span>
+        <span class="topic-name">Respiration</span>
+      </a>
+      <a href="topics/biology/ocr/B14-nervous-system.html" class="topic-card">
+        <span class="topic-id">B14</span>
+        <span class="topic-name">Nervous System</span>
+      </a>
+      <a href="topics/biology/ocr/B15-the-endocrine-system.html" class="topic-card">
+        <span class="topic-id">B15</span>
+        <span class="topic-name">The Endocrine System</span>
+      </a>
+      <a href="topics/biology/ocr/B16-reproduction-and-hormones.html" class="topic-card">
+        <span class="topic-id">B16</span>
+        <span class="topic-name">Reproduction And Hormones</span>
+      </a>
+      <a href="topics/biology/ocr/B17-dna-and-genetics.html" class="topic-card">
+        <span class="topic-id">B17</span>
+        <span class="topic-name">Dna And Genetics</span>
+      </a>
+      <a href="topics/biology/ocr/B18-genetic-variation.html" class="topic-card">
+        <span class="topic-id">B18</span>
+        <span class="topic-name">Genetic Variation</span>
+      </a>
+      <a href="topics/biology/ocr/B19-evolution.html" class="topic-card">
+        <span class="topic-id">B19</span>
+        <span class="topic-name">Evolution</span>
+      </a>
+      <a href="topics/biology/ocr/B2-cell-division.html" class="topic-card">
+        <span class="topic-id">B2</span>
+        <span class="topic-name">Cell Division</span>
+      </a>
+      <a href="topics/biology/ocr/B20-ecosystems.html" class="topic-card">
+        <span class="topic-id">B20</span>
+        <span class="topic-name">Ecosystems</span>
+      </a>
+      <a href="topics/biology/ocr/B21-nutrient-cycles.html" class="topic-card">
+        <span class="topic-id">B21</span>
+        <span class="topic-name">Nutrient Cycles</span>
+      </a>
+      <a href="topics/biology/ocr/B22-human-impact-on-the-environment.html" class="topic-card">
+        <span class="topic-id">B22</span>
+        <span class="topic-name">Human Impact On The Environment</span>
+      </a>
+      <a href="topics/biology/ocr/B3-transport-in-cells.html" class="topic-card">
+        <span class="topic-id">B3</span>
+        <span class="topic-name">Transport In Cells</span>
+      </a>
+      <a href="topics/biology/ocr/B4-tissues-and-organs.html" class="topic-card">
+        <span class="topic-id">B4</span>
+        <span class="topic-name">Tissues And Organs</span>
+      </a>
+      <a href="topics/biology/ocr/B5-digestive-system.html" class="topic-card">
+        <span class="topic-id">B5</span>
+        <span class="topic-name">Digestive System</span>
+      </a>
+      <a href="topics/biology/ocr/B6-the-heart-and-blood.html" class="topic-card">
+        <span class="topic-id">B6</span>
+        <span class="topic-name">The Heart And Blood</span>
+      </a>
+      <a href="topics/biology/ocr/B7-plant-organisation.html" class="topic-card">
+        <span class="topic-id">B7</span>
+        <span class="topic-name">Plant Organisation</span>
+      </a>
+      <a href="topics/biology/ocr/B8-health-and-disease.html" class="topic-card">
+        <span class="topic-id">B8</span>
+        <span class="topic-name">Health And Disease</span>
+      </a>
+      <a href="topics/biology/ocr/B9-pathogens-and-disease.html" class="topic-card">
+        <span class="topic-id">B9</span>
+        <span class="topic-name">Pathogens And Disease</span>
+      </a>
+    </div>
+    <h3>Higher Tier</h3>
+    <div class="topics-grid">
+      <a href="topics/biology/ocr/higher/B17-dna-and-genetics.html" class="topic-card">
+        <span class="topic-id">B17</span>
+        <span class="topic-name">Dna And Genetics</span>
+      </a>
+      <a href="topics/biology/ocr/higher/B18-genetic-variation.html" class="topic-card">
+        <span class="topic-id">B18</span>
+        <span class="topic-name">Genetic Variation</span>
+      </a>
+      <a href="topics/biology/ocr/higher/B18-photosynthesis.html" class="topic-card">
+        <span class="topic-id">B18</span>
+        <span class="topic-name">Photosynthesis</span>
+      </a>
+      <a href="topics/biology/ocr/higher/B19-evolution.html" class="topic-card">
+        <span class="topic-id">B19</span>
+        <span class="topic-name">Evolution</span>
+      </a>
+      <a href="topics/biology/ocr/higher/B19-plant-uses-of-glucose.html" class="topic-card">
+        <span class="topic-id">B19</span>
+        <span class="topic-name">Plant Uses Of Glucose</span>
+      </a>
+      <a href="topics/biology/ocr/higher/B20-aerobic-respiration.html" class="topic-card">
+        <span class="topic-id">B20</span>
+        <span class="topic-name">Aerobic Respiration</span>
+      </a>
+      <a href="topics/biology/ocr/higher/B20-ecosystems.html" class="topic-card">
+        <span class="topic-id">B20</span>
+        <span class="topic-name">Ecosystems</span>
+      </a>
+      <a href="topics/biology/ocr/higher/B21-anaerobic-respiration.html" class="topic-card">
+        <span class="topic-id">B21</span>
+        <span class="topic-name">Anaerobic Respiration</span>
+      </a>
+      <a href="topics/biology/ocr/higher/B21-nutrient-cycles.html" class="topic-card">
+        <span class="topic-id">B21</span>
+        <span class="topic-name">Nutrient Cycles</span>
+      </a>
+      <a href="topics/biology/ocr/higher/B22-human-impact-on-the-environment.html" class="topic-card">
+        <span class="topic-id">B22</span>
+        <span class="topic-name">Human Impact On The Environment</span>
+      </a>
+      <a href="topics/biology/ocr/higher/B22-metabolism.html" class="topic-card">
+        <span class="topic-id">B22</span>
+        <span class="topic-name">Metabolism</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="biology-ccea" class="section" data-board="ccea">
+    <h2>Biology — CCEA (22 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/biology/ccea/B1-cell-structure.html" class="topic-card">
+        <span class="topic-id">B1</span>
+        <span class="topic-name">Cell Structure</span>
+      </a>
+      <a href="topics/biology/ccea/B10-body-defences.html" class="topic-card">
+        <span class="topic-id">B10</span>
+        <span class="topic-name">Body Defences</span>
+      </a>
+      <a href="topics/biology/ccea/B11-vaccines-and-drugs.html" class="topic-card">
+        <span class="topic-id">B11</span>
+        <span class="topic-name">Vaccines And Drugs</span>
+      </a>
+      <a href="topics/biology/ccea/B12-photosynthesis.html" class="topic-card">
+        <span class="topic-id">B12</span>
+        <span class="topic-name">Photosynthesis</span>
+      </a>
+      <a href="topics/biology/ccea/B13-respiration.html" class="topic-card">
+        <span class="topic-id">B13</span>
+        <span class="topic-name">Respiration</span>
+      </a>
+      <a href="topics/biology/ccea/B14-nervous-system.html" class="topic-card">
+        <span class="topic-id">B14</span>
+        <span class="topic-name">Nervous System</span>
+      </a>
+      <a href="topics/biology/ccea/B15-the-endocrine-system.html" class="topic-card">
+        <span class="topic-id">B15</span>
+        <span class="topic-name">The Endocrine System</span>
+      </a>
+      <a href="topics/biology/ccea/B16-reproduction-and-hormones.html" class="topic-card">
+        <span class="topic-id">B16</span>
+        <span class="topic-name">Reproduction And Hormones</span>
+      </a>
+      <a href="topics/biology/ccea/B17-dna-and-genetics.html" class="topic-card">
+        <span class="topic-id">B17</span>
+        <span class="topic-name">Dna And Genetics</span>
+      </a>
+      <a href="topics/biology/ccea/B18-genetic-variation.html" class="topic-card">
+        <span class="topic-id">B18</span>
+        <span class="topic-name">Genetic Variation</span>
+      </a>
+      <a href="topics/biology/ccea/B19-evolution.html" class="topic-card">
+        <span class="topic-id">B19</span>
+        <span class="topic-name">Evolution</span>
+      </a>
+      <a href="topics/biology/ccea/B2-cell-division.html" class="topic-card">
+        <span class="topic-id">B2</span>
+        <span class="topic-name">Cell Division</span>
+      </a>
+      <a href="topics/biology/ccea/B20-ecosystems.html" class="topic-card">
+        <span class="topic-id">B20</span>
+        <span class="topic-name">Ecosystems</span>
+      </a>
+      <a href="topics/biology/ccea/B21-nutrient-cycles.html" class="topic-card">
+        <span class="topic-id">B21</span>
+        <span class="topic-name">Nutrient Cycles</span>
+      </a>
+      <a href="topics/biology/ccea/B22-human-impact-on-the-environment.html" class="topic-card">
+        <span class="topic-id">B22</span>
+        <span class="topic-name">Human Impact On The Environment</span>
+      </a>
+      <a href="topics/biology/ccea/B3-transport-in-cells.html" class="topic-card">
+        <span class="topic-id">B3</span>
+        <span class="topic-name">Transport In Cells</span>
+      </a>
+      <a href="topics/biology/ccea/B4-tissues-and-organs.html" class="topic-card">
+        <span class="topic-id">B4</span>
+        <span class="topic-name">Tissues And Organs</span>
+      </a>
+      <a href="topics/biology/ccea/B5-digestive-system.html" class="topic-card">
+        <span class="topic-id">B5</span>
+        <span class="topic-name">Digestive System</span>
+      </a>
+      <a href="topics/biology/ccea/B6-the-heart-and-blood.html" class="topic-card">
+        <span class="topic-id">B6</span>
+        <span class="topic-name">The Heart And Blood</span>
+      </a>
+      <a href="topics/biology/ccea/B7-plant-organisation.html" class="topic-card">
+        <span class="topic-id">B7</span>
+        <span class="topic-name">Plant Organisation</span>
+      </a>
+      <a href="topics/biology/ccea/B8-health-and-disease.html" class="topic-card">
+        <span class="topic-id">B8</span>
+        <span class="topic-name">Health And Disease</span>
+      </a>
+      <a href="topics/biology/ccea/B9-pathogens-and-disease.html" class="topic-card">
+        <span class="topic-id">B9</span>
+        <span class="topic-name">Pathogens And Disease</span>
+      </a>
+    </div>
+  </section>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (true) {
-                    newHref = `topics/biology/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/biology/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/biology\/([^/]+)\//);
-    const tierMatch = path.match(/biology\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

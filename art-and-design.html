@@ -5,13 +5,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Art and Design - Free GCSE Revision Notes</title>
-<meta name="description" content="Free GCSE Art and Design revision notes across 155 topics across all major exam boards.">
+<meta name="description" content="Free GCSE Art and Design revision notes across 190 topics across all major exam boards.">
 <meta name="keywords" content="GCSE Art and Design, Art and Design revision notes, past papers, AQA, Edexcel, OCR, Eduqas, CCEA">
 <meta property="og:title" content="GCSE Art and Design - Free Revision Notes">
-<meta property="og:description" content="Free GCSE Art and Design revision notes across 155 topics across all major exam boards.">
+<meta property="og:description" content="Free GCSE Art and Design revision notes across 190 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/art-and-design.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/art-and-design.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/art-and-design.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/art-and-design.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -67,33 +67,59 @@
 <div class="selector-bar">
   <div class="selector-group">
     <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
+    <select id="board-select" onchange="switchSubjectBoard()">
       <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
     </select>
   </div>
-  
 </div>
 
 
-  <section id="art-and-design-aqa" class="section">
-    <h2>Art (31 Topics)</h2>
+  <section id="art-and-design-aqa" class="section" data-board="aqa">
+    <h2>Art And Design — AQA (38 Topics)</h2>
     <div class="topics-grid">
-
       <a href="topics/art-and-design/aqa/3D1-product-design-and-development.html" class="topic-card">
-        <span class="topic-id">3D1</span>
-        <span class="topic-name">3D1 Product Design And Development</span>
+        <span class="topic-id">3d1</span>
+        <span class="topic-name">3d1 Product Design And Development</span>
       </a>
       <a href="topics/art-and-design/aqa/3D2-materials-and-manufacturing.html" class="topic-card">
-        <span class="topic-id">3D2</span>
-        <span class="topic-name">3D2 Materials And Manufacturing</span>
+        <span class="topic-id">3d2</span>
+        <span class="topic-name">3d2 Materials And Manufacturing</span>
       </a>
       <a href="topics/art-and-design/aqa/3D3-architectural-and-interior-design.html" class="topic-card">
-        <span class="topic-id">3D3</span>
-        <span class="topic-name">3D3 Architectural And Interior Design</span>
+        <span class="topic-id">3d3</span>
+        <span class="topic-name">3d3 Architectural And Interior Design</span>
       </a>
       <a href="topics/art-and-design/aqa/3D4-designers-and-design-movements.html" class="topic-card">
-        <span class="topic-id">3D4</span>
-        <span class="topic-name">3D4 Designers And Design Movements</span>
+        <span class="topic-id">3d4</span>
+        <span class="topic-name">3d4 Designers And Design Movements</span>
+      </a>
+      <a href="topics/art-and-design/aqa/AC1-art-craft-and-design-making-connections.html" class="topic-card">
+        <span class="topic-id">AC1</span>
+        <span class="topic-name">Art Craft And Design Making Connections</span>
+      </a>
+      <a href="topics/art-and-design/aqa/AC2-the-creative-process-from-brief-to-outcome.html" class="topic-card">
+        <span class="topic-id">AC2</span>
+        <span class="topic-name">The Creative Process From Brief To Outcome</span>
+      </a>
+      <a href="topics/art-and-design/aqa/AC3-building-your-portfolio-component-1.html" class="topic-card">
+        <span class="topic-id">AC3</span>
+        <span class="topic-name">Building Your Portfolio Component 1</span>
+      </a>
+      <a href="topics/art-and-design/aqa/AC4-the-externally-set-assignment-component-2.html" class="topic-card">
+        <span class="topic-id">AC4</span>
+        <span class="topic-name">The Externally Set Assignment Component 2</span>
+      </a>
+      <a href="topics/art-and-design/aqa/AC5-formal-elements-line-colour-tone-shape-form-texture-pattern.html" class="topic-card">
+        <span class="topic-id">AC5</span>
+        <span class="topic-name">Formal Elements Line Colour Tone Shape Form Texture Pattern</span>
+      </a>
+      <a href="topics/art-and-design/aqa/AC6-design-principles-balance-emphasis-proportion-unity-variety-rhythm.html" class="topic-card">
+        <span class="topic-id">AC6</span>
+        <span class="topic-name">Design Principles Balance Emphasis Proportion Unity Variety Rhythm</span>
+      </a>
+      <a href="topics/art-and-design/aqa/AC7-artists-craftspeople-and-designers.html" class="topic-card">
+        <span class="topic-id">AC7</span>
+        <span class="topic-name">Artists Craftspeople And Designers</span>
       </a>
       <a href="topics/art-and-design/aqa/FA1-mark-making-and-line.html" class="topic-card">
         <span class="topic-id">FA1</span>
@@ -121,7 +147,7 @@
       </a>
       <a href="topics/art-and-design/aqa/FA6-3d-form-and-sculpture-techniques.html" class="topic-card">
         <span class="topic-id">FA6</span>
-        <span class="topic-name">3D Form And Sculpture Techniques</span>
+        <span class="topic-name">3d Form And Sculpture Techniques</span>
       </a>
       <a href="topics/art-and-design/aqa/FA7-installation-and-mixed-media.html" class="topic-card">
         <span class="topic-id">FA7</span>
@@ -206,40 +232,665 @@
     </div>
   </section>
 
+  <section id="art-and-design-edexcel" class="section" data-board="edexcel">
+    <h2>Art And Design — Pearson Edexcel (38 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/art-and-design/edexcel/3D1-product-design-and-development.html" class="topic-card">
+        <span class="topic-id">3d1</span>
+        <span class="topic-name">3d1 Product Design And Development</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/3D2-materials-and-manufacturing.html" class="topic-card">
+        <span class="topic-id">3d2</span>
+        <span class="topic-name">3d2 Materials And Manufacturing</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/3D3-architectural-and-interior-design.html" class="topic-card">
+        <span class="topic-id">3d3</span>
+        <span class="topic-name">3d3 Architectural And Interior Design</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/3D4-designers-and-design-movements.html" class="topic-card">
+        <span class="topic-id">3d4</span>
+        <span class="topic-name">3d4 Designers And Design Movements</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/AC1-art-craft-and-design-making-connections.html" class="topic-card">
+        <span class="topic-id">AC1</span>
+        <span class="topic-name">Art Craft And Design Making Connections</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/AC2-the-creative-process-from-brief-to-outcome.html" class="topic-card">
+        <span class="topic-id">AC2</span>
+        <span class="topic-name">The Creative Process From Brief To Outcome</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/AC3-building-your-portfolio-component-1.html" class="topic-card">
+        <span class="topic-id">AC3</span>
+        <span class="topic-name">Building Your Portfolio Component 1</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/AC4-the-externally-set-assignment-component-2.html" class="topic-card">
+        <span class="topic-id">AC4</span>
+        <span class="topic-name">The Externally Set Assignment Component 2</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/AC5-formal-elements-line-colour-tone-shape-form-texture-pattern.html" class="topic-card">
+        <span class="topic-id">AC5</span>
+        <span class="topic-name">Formal Elements Line Colour Tone Shape Form Texture Pattern</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/AC6-design-principles-balance-emphasis-proportion-unity-variety-rhythm.html" class="topic-card">
+        <span class="topic-id">AC6</span>
+        <span class="topic-name">Design Principles Balance Emphasis Proportion Unity Variety Rhythm</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/AC7-artists-craftspeople-and-designers.html" class="topic-card">
+        <span class="topic-id">AC7</span>
+        <span class="topic-name">Artists Craftspeople And Designers</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/FA1-mark-making-and-line.html" class="topic-card">
+        <span class="topic-id">FA1</span>
+        <span class="topic-name">Mark Making And Line</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/FA10-artists-and-art-movements.html" class="topic-card">
+        <span class="topic-id">FA10</span>
+        <span class="topic-name">Artists And Art Movements</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/FA2-colour-theory-and-mixing.html" class="topic-card">
+        <span class="topic-id">FA2</span>
+        <span class="topic-name">Colour Theory And Mixing</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/FA3-composition-and-layout.html" class="topic-card">
+        <span class="topic-id">FA3</span>
+        <span class="topic-name">Composition And Layout</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/FA4-working-with-watercolour-and-acrylic.html" class="topic-card">
+        <span class="topic-id">FA4</span>
+        <span class="topic-name">Working With Watercolour And Acrylic</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/FA5-observational-and-analytical-drawing.html" class="topic-card">
+        <span class="topic-id">FA5</span>
+        <span class="topic-name">Observational And Analytical Drawing</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/FA6-3d-form-and-sculpture-techniques.html" class="topic-card">
+        <span class="topic-id">FA6</span>
+        <span class="topic-name">3d Form And Sculpture Techniques</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/FA7-installation-and-mixed-media.html" class="topic-card">
+        <span class="topic-id">FA7</span>
+        <span class="topic-name">Installation And Mixed Media</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/FA8-printmaking-techniques.html" class="topic-card">
+        <span class="topic-id">FA8</span>
+        <span class="topic-name">Printmaking Techniques</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/FA9-photography-and-digital-art-in-fine-art.html" class="topic-card">
+        <span class="topic-id">FA9</span>
+        <span class="topic-name">Photography And Digital Art In Fine Art</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/GC1-the-design-process.html" class="topic-card">
+        <span class="topic-id">GC1</span>
+        <span class="topic-name">The Design Process</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/GC2-typography-and-lettering.html" class="topic-card">
+        <span class="topic-id">GC2</span>
+        <span class="topic-name">Typography And Lettering</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/GC3-digital-design-tools-and-techniques.html" class="topic-card">
+        <span class="topic-id">GC3</span>
+        <span class="topic-name">Digital Design Tools And Techniques</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/GC4-branding-and-corporate-identity.html" class="topic-card">
+        <span class="topic-id">GC4</span>
+        <span class="topic-name">Branding And Corporate Identity</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/GC5-packaging-and-print-design.html" class="topic-card">
+        <span class="topic-id">GC5</span>
+        <span class="topic-name">Packaging And Print Design</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/GC6-graphic-designers-and-movements.html" class="topic-card">
+        <span class="topic-id">GC6</span>
+        <span class="topic-name">Graphic Designers And Movements</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/PH1-camera-controls-and-exposure.html" class="topic-card">
+        <span class="topic-id">PH1</span>
+        <span class="topic-name">Camera Controls And Exposure</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/PH2-composition-and-framing.html" class="topic-card">
+        <span class="topic-id">PH2</span>
+        <span class="topic-name">Composition And Framing</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/PH3-lighting-and-flash.html" class="topic-card">
+        <span class="topic-id">PH3</span>
+        <span class="topic-name">Lighting And Flash</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/PH4-digital-editing-and-manipulation.html" class="topic-card">
+        <span class="topic-id">PH4</span>
+        <span class="topic-name">Digital Editing And Manipulation</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/PH5-photographic-genres-and-styles.html" class="topic-card">
+        <span class="topic-id">PH5</span>
+        <span class="topic-name">Photographic Genres And Styles</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/PH6-photographers-and-photography-history.html" class="topic-card">
+        <span class="topic-id">PH6</span>
+        <span class="topic-name">Photographers And Photography History</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/TD1-hand-and-machine-stitching.html" class="topic-card">
+        <span class="topic-id">TD1</span>
+        <span class="topic-name">Hand And Machine Stitching</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/TD2-knitting-weaving-and-crochet.html" class="topic-card">
+        <span class="topic-id">TD2</span>
+        <span class="topic-name">Knitting Weaving And Crochet</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/TD3-fabric-printing-and-dyeing.html" class="topic-card">
+        <span class="topic-id">TD3</span>
+        <span class="topic-name">Fabric Printing And Dyeing</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/TD4-embellishment-and-mixed-media-textiles.html" class="topic-card">
+        <span class="topic-id">TD4</span>
+        <span class="topic-name">Embellishment And Mixed Media Textiles</span>
+      </a>
+      <a href="topics/art-and-design/edexcel/TD5-textile-designers-and-traditions.html" class="topic-card">
+        <span class="topic-id">TD5</span>
+        <span class="topic-name">Textile Designers And Traditions</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="art-and-design-ocr" class="section" data-board="ocr">
+    <h2>Art And Design — OCR (38 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/art-and-design/ocr/3D1-product-design-and-development.html" class="topic-card">
+        <span class="topic-id">3d1</span>
+        <span class="topic-name">3d1 Product Design And Development</span>
+      </a>
+      <a href="topics/art-and-design/ocr/3D2-materials-and-manufacturing.html" class="topic-card">
+        <span class="topic-id">3d2</span>
+        <span class="topic-name">3d2 Materials And Manufacturing</span>
+      </a>
+      <a href="topics/art-and-design/ocr/3D3-architectural-and-interior-design.html" class="topic-card">
+        <span class="topic-id">3d3</span>
+        <span class="topic-name">3d3 Architectural And Interior Design</span>
+      </a>
+      <a href="topics/art-and-design/ocr/3D4-designers-and-design-movements.html" class="topic-card">
+        <span class="topic-id">3d4</span>
+        <span class="topic-name">3d4 Designers And Design Movements</span>
+      </a>
+      <a href="topics/art-and-design/ocr/AC1-art-craft-and-design-making-connections.html" class="topic-card">
+        <span class="topic-id">AC1</span>
+        <span class="topic-name">Art Craft And Design Making Connections</span>
+      </a>
+      <a href="topics/art-and-design/ocr/AC2-the-creative-process-from-brief-to-outcome.html" class="topic-card">
+        <span class="topic-id">AC2</span>
+        <span class="topic-name">The Creative Process From Brief To Outcome</span>
+      </a>
+      <a href="topics/art-and-design/ocr/AC3-building-your-portfolio-component-1.html" class="topic-card">
+        <span class="topic-id">AC3</span>
+        <span class="topic-name">Building Your Portfolio Component 1</span>
+      </a>
+      <a href="topics/art-and-design/ocr/AC4-the-externally-set-assignment-component-2.html" class="topic-card">
+        <span class="topic-id">AC4</span>
+        <span class="topic-name">The Externally Set Assignment Component 2</span>
+      </a>
+      <a href="topics/art-and-design/ocr/AC5-formal-elements-line-colour-tone-shape-form-texture-pattern.html" class="topic-card">
+        <span class="topic-id">AC5</span>
+        <span class="topic-name">Formal Elements Line Colour Tone Shape Form Texture Pattern</span>
+      </a>
+      <a href="topics/art-and-design/ocr/AC6-design-principles-balance-emphasis-proportion-unity-variety-rhythm.html" class="topic-card">
+        <span class="topic-id">AC6</span>
+        <span class="topic-name">Design Principles Balance Emphasis Proportion Unity Variety Rhythm</span>
+      </a>
+      <a href="topics/art-and-design/ocr/AC7-artists-craftspeople-and-designers.html" class="topic-card">
+        <span class="topic-id">AC7</span>
+        <span class="topic-name">Artists Craftspeople And Designers</span>
+      </a>
+      <a href="topics/art-and-design/ocr/FA1-mark-making-and-line.html" class="topic-card">
+        <span class="topic-id">FA1</span>
+        <span class="topic-name">Mark Making And Line</span>
+      </a>
+      <a href="topics/art-and-design/ocr/FA10-artists-and-art-movements.html" class="topic-card">
+        <span class="topic-id">FA10</span>
+        <span class="topic-name">Artists And Art Movements</span>
+      </a>
+      <a href="topics/art-and-design/ocr/FA2-colour-theory-and-mixing.html" class="topic-card">
+        <span class="topic-id">FA2</span>
+        <span class="topic-name">Colour Theory And Mixing</span>
+      </a>
+      <a href="topics/art-and-design/ocr/FA3-composition-and-layout.html" class="topic-card">
+        <span class="topic-id">FA3</span>
+        <span class="topic-name">Composition And Layout</span>
+      </a>
+      <a href="topics/art-and-design/ocr/FA4-working-with-watercolour-and-acrylic.html" class="topic-card">
+        <span class="topic-id">FA4</span>
+        <span class="topic-name">Working With Watercolour And Acrylic</span>
+      </a>
+      <a href="topics/art-and-design/ocr/FA5-observational-and-analytical-drawing.html" class="topic-card">
+        <span class="topic-id">FA5</span>
+        <span class="topic-name">Observational And Analytical Drawing</span>
+      </a>
+      <a href="topics/art-and-design/ocr/FA6-3d-form-and-sculpture-techniques.html" class="topic-card">
+        <span class="topic-id">FA6</span>
+        <span class="topic-name">3d Form And Sculpture Techniques</span>
+      </a>
+      <a href="topics/art-and-design/ocr/FA7-installation-and-mixed-media.html" class="topic-card">
+        <span class="topic-id">FA7</span>
+        <span class="topic-name">Installation And Mixed Media</span>
+      </a>
+      <a href="topics/art-and-design/ocr/FA8-printmaking-techniques.html" class="topic-card">
+        <span class="topic-id">FA8</span>
+        <span class="topic-name">Printmaking Techniques</span>
+      </a>
+      <a href="topics/art-and-design/ocr/FA9-photography-and-digital-art-in-fine-art.html" class="topic-card">
+        <span class="topic-id">FA9</span>
+        <span class="topic-name">Photography And Digital Art In Fine Art</span>
+      </a>
+      <a href="topics/art-and-design/ocr/GC1-the-design-process.html" class="topic-card">
+        <span class="topic-id">GC1</span>
+        <span class="topic-name">The Design Process</span>
+      </a>
+      <a href="topics/art-and-design/ocr/GC2-typography-and-lettering.html" class="topic-card">
+        <span class="topic-id">GC2</span>
+        <span class="topic-name">Typography And Lettering</span>
+      </a>
+      <a href="topics/art-and-design/ocr/GC3-digital-design-tools-and-techniques.html" class="topic-card">
+        <span class="topic-id">GC3</span>
+        <span class="topic-name">Digital Design Tools And Techniques</span>
+      </a>
+      <a href="topics/art-and-design/ocr/GC4-branding-and-corporate-identity.html" class="topic-card">
+        <span class="topic-id">GC4</span>
+        <span class="topic-name">Branding And Corporate Identity</span>
+      </a>
+      <a href="topics/art-and-design/ocr/GC5-packaging-and-print-design.html" class="topic-card">
+        <span class="topic-id">GC5</span>
+        <span class="topic-name">Packaging And Print Design</span>
+      </a>
+      <a href="topics/art-and-design/ocr/GC6-graphic-designers-and-movements.html" class="topic-card">
+        <span class="topic-id">GC6</span>
+        <span class="topic-name">Graphic Designers And Movements</span>
+      </a>
+      <a href="topics/art-and-design/ocr/PH1-camera-controls-and-exposure.html" class="topic-card">
+        <span class="topic-id">PH1</span>
+        <span class="topic-name">Camera Controls And Exposure</span>
+      </a>
+      <a href="topics/art-and-design/ocr/PH2-composition-and-framing.html" class="topic-card">
+        <span class="topic-id">PH2</span>
+        <span class="topic-name">Composition And Framing</span>
+      </a>
+      <a href="topics/art-and-design/ocr/PH3-lighting-and-flash.html" class="topic-card">
+        <span class="topic-id">PH3</span>
+        <span class="topic-name">Lighting And Flash</span>
+      </a>
+      <a href="topics/art-and-design/ocr/PH4-digital-editing-and-manipulation.html" class="topic-card">
+        <span class="topic-id">PH4</span>
+        <span class="topic-name">Digital Editing And Manipulation</span>
+      </a>
+      <a href="topics/art-and-design/ocr/PH5-photographic-genres-and-styles.html" class="topic-card">
+        <span class="topic-id">PH5</span>
+        <span class="topic-name">Photographic Genres And Styles</span>
+      </a>
+      <a href="topics/art-and-design/ocr/PH6-photographers-and-photography-history.html" class="topic-card">
+        <span class="topic-id">PH6</span>
+        <span class="topic-name">Photographers And Photography History</span>
+      </a>
+      <a href="topics/art-and-design/ocr/TD1-hand-and-machine-stitching.html" class="topic-card">
+        <span class="topic-id">TD1</span>
+        <span class="topic-name">Hand And Machine Stitching</span>
+      </a>
+      <a href="topics/art-and-design/ocr/TD2-knitting-weaving-and-crochet.html" class="topic-card">
+        <span class="topic-id">TD2</span>
+        <span class="topic-name">Knitting Weaving And Crochet</span>
+      </a>
+      <a href="topics/art-and-design/ocr/TD3-fabric-printing-and-dyeing.html" class="topic-card">
+        <span class="topic-id">TD3</span>
+        <span class="topic-name">Fabric Printing And Dyeing</span>
+      </a>
+      <a href="topics/art-and-design/ocr/TD4-embellishment-and-mixed-media-textiles.html" class="topic-card">
+        <span class="topic-id">TD4</span>
+        <span class="topic-name">Embellishment And Mixed Media Textiles</span>
+      </a>
+      <a href="topics/art-and-design/ocr/TD5-textile-designers-and-traditions.html" class="topic-card">
+        <span class="topic-id">TD5</span>
+        <span class="topic-name">Textile Designers And Traditions</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="art-and-design-eduqas" class="section" data-board="eduqas">
+    <h2>Art And Design — Eduqas (38 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/art-and-design/eduqas/3D1-product-design-and-development.html" class="topic-card">
+        <span class="topic-id">3d1</span>
+        <span class="topic-name">3d1 Product Design And Development</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/3D2-materials-and-manufacturing.html" class="topic-card">
+        <span class="topic-id">3d2</span>
+        <span class="topic-name">3d2 Materials And Manufacturing</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/3D3-architectural-and-interior-design.html" class="topic-card">
+        <span class="topic-id">3d3</span>
+        <span class="topic-name">3d3 Architectural And Interior Design</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/3D4-designers-and-design-movements.html" class="topic-card">
+        <span class="topic-id">3d4</span>
+        <span class="topic-name">3d4 Designers And Design Movements</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/AC1-art-craft-and-design-making-connections.html" class="topic-card">
+        <span class="topic-id">AC1</span>
+        <span class="topic-name">Art Craft And Design Making Connections</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/AC2-the-creative-process-from-brief-to-outcome.html" class="topic-card">
+        <span class="topic-id">AC2</span>
+        <span class="topic-name">The Creative Process From Brief To Outcome</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/AC3-building-your-portfolio-component-1.html" class="topic-card">
+        <span class="topic-id">AC3</span>
+        <span class="topic-name">Building Your Portfolio Component 1</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/AC4-the-externally-set-assignment-component-2.html" class="topic-card">
+        <span class="topic-id">AC4</span>
+        <span class="topic-name">The Externally Set Assignment Component 2</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/AC5-formal-elements-line-colour-tone-shape-form-texture-pattern.html" class="topic-card">
+        <span class="topic-id">AC5</span>
+        <span class="topic-name">Formal Elements Line Colour Tone Shape Form Texture Pattern</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/AC6-design-principles-balance-emphasis-proportion-unity-variety-rhythm.html" class="topic-card">
+        <span class="topic-id">AC6</span>
+        <span class="topic-name">Design Principles Balance Emphasis Proportion Unity Variety Rhythm</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/AC7-artists-craftspeople-and-designers.html" class="topic-card">
+        <span class="topic-id">AC7</span>
+        <span class="topic-name">Artists Craftspeople And Designers</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/FA1-mark-making-and-line.html" class="topic-card">
+        <span class="topic-id">FA1</span>
+        <span class="topic-name">Mark Making And Line</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/FA10-artists-and-art-movements.html" class="topic-card">
+        <span class="topic-id">FA10</span>
+        <span class="topic-name">Artists And Art Movements</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/FA2-colour-theory-and-mixing.html" class="topic-card">
+        <span class="topic-id">FA2</span>
+        <span class="topic-name">Colour Theory And Mixing</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/FA3-composition-and-layout.html" class="topic-card">
+        <span class="topic-id">FA3</span>
+        <span class="topic-name">Composition And Layout</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/FA4-working-with-watercolour-and-acrylic.html" class="topic-card">
+        <span class="topic-id">FA4</span>
+        <span class="topic-name">Working With Watercolour And Acrylic</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/FA5-observational-and-analytical-drawing.html" class="topic-card">
+        <span class="topic-id">FA5</span>
+        <span class="topic-name">Observational And Analytical Drawing</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/FA6-3d-form-and-sculpture-techniques.html" class="topic-card">
+        <span class="topic-id">FA6</span>
+        <span class="topic-name">3d Form And Sculpture Techniques</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/FA7-installation-and-mixed-media.html" class="topic-card">
+        <span class="topic-id">FA7</span>
+        <span class="topic-name">Installation And Mixed Media</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/FA8-printmaking-techniques.html" class="topic-card">
+        <span class="topic-id">FA8</span>
+        <span class="topic-name">Printmaking Techniques</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/FA9-photography-and-digital-art-in-fine-art.html" class="topic-card">
+        <span class="topic-id">FA9</span>
+        <span class="topic-name">Photography And Digital Art In Fine Art</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/GC1-the-design-process.html" class="topic-card">
+        <span class="topic-id">GC1</span>
+        <span class="topic-name">The Design Process</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/GC2-typography-and-lettering.html" class="topic-card">
+        <span class="topic-id">GC2</span>
+        <span class="topic-name">Typography And Lettering</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/GC3-digital-design-tools-and-techniques.html" class="topic-card">
+        <span class="topic-id">GC3</span>
+        <span class="topic-name">Digital Design Tools And Techniques</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/GC4-branding-and-corporate-identity.html" class="topic-card">
+        <span class="topic-id">GC4</span>
+        <span class="topic-name">Branding And Corporate Identity</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/GC5-packaging-and-print-design.html" class="topic-card">
+        <span class="topic-id">GC5</span>
+        <span class="topic-name">Packaging And Print Design</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/GC6-graphic-designers-and-movements.html" class="topic-card">
+        <span class="topic-id">GC6</span>
+        <span class="topic-name">Graphic Designers And Movements</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/PH1-camera-controls-and-exposure.html" class="topic-card">
+        <span class="topic-id">PH1</span>
+        <span class="topic-name">Camera Controls And Exposure</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/PH2-composition-and-framing.html" class="topic-card">
+        <span class="topic-id">PH2</span>
+        <span class="topic-name">Composition And Framing</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/PH3-lighting-and-flash.html" class="topic-card">
+        <span class="topic-id">PH3</span>
+        <span class="topic-name">Lighting And Flash</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/PH4-digital-editing-and-manipulation.html" class="topic-card">
+        <span class="topic-id">PH4</span>
+        <span class="topic-name">Digital Editing And Manipulation</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/PH5-photographic-genres-and-styles.html" class="topic-card">
+        <span class="topic-id">PH5</span>
+        <span class="topic-name">Photographic Genres And Styles</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/PH6-photographers-and-photography-history.html" class="topic-card">
+        <span class="topic-id">PH6</span>
+        <span class="topic-name">Photographers And Photography History</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/TD1-hand-and-machine-stitching.html" class="topic-card">
+        <span class="topic-id">TD1</span>
+        <span class="topic-name">Hand And Machine Stitching</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/TD2-knitting-weaving-and-crochet.html" class="topic-card">
+        <span class="topic-id">TD2</span>
+        <span class="topic-name">Knitting Weaving And Crochet</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/TD3-fabric-printing-and-dyeing.html" class="topic-card">
+        <span class="topic-id">TD3</span>
+        <span class="topic-name">Fabric Printing And Dyeing</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/TD4-embellishment-and-mixed-media-textiles.html" class="topic-card">
+        <span class="topic-id">TD4</span>
+        <span class="topic-name">Embellishment And Mixed Media Textiles</span>
+      </a>
+      <a href="topics/art-and-design/eduqas/TD5-textile-designers-and-traditions.html" class="topic-card">
+        <span class="topic-id">TD5</span>
+        <span class="topic-name">Textile Designers And Traditions</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="art-and-design-ccea" class="section" data-board="ccea">
+    <h2>Art And Design — CCEA (38 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/art-and-design/ccea/3D1-product-design-and-development.html" class="topic-card">
+        <span class="topic-id">3d1</span>
+        <span class="topic-name">3d1 Product Design And Development</span>
+      </a>
+      <a href="topics/art-and-design/ccea/3D2-materials-and-manufacturing.html" class="topic-card">
+        <span class="topic-id">3d2</span>
+        <span class="topic-name">3d2 Materials And Manufacturing</span>
+      </a>
+      <a href="topics/art-and-design/ccea/3D3-architectural-and-interior-design.html" class="topic-card">
+        <span class="topic-id">3d3</span>
+        <span class="topic-name">3d3 Architectural And Interior Design</span>
+      </a>
+      <a href="topics/art-and-design/ccea/3D4-designers-and-design-movements.html" class="topic-card">
+        <span class="topic-id">3d4</span>
+        <span class="topic-name">3d4 Designers And Design Movements</span>
+      </a>
+      <a href="topics/art-and-design/ccea/AC1-art-craft-and-design-making-connections.html" class="topic-card">
+        <span class="topic-id">AC1</span>
+        <span class="topic-name">Art Craft And Design Making Connections</span>
+      </a>
+      <a href="topics/art-and-design/ccea/AC2-the-creative-process-from-brief-to-outcome.html" class="topic-card">
+        <span class="topic-id">AC2</span>
+        <span class="topic-name">The Creative Process From Brief To Outcome</span>
+      </a>
+      <a href="topics/art-and-design/ccea/AC3-building-your-portfolio-component-1.html" class="topic-card">
+        <span class="topic-id">AC3</span>
+        <span class="topic-name">Building Your Portfolio Component 1</span>
+      </a>
+      <a href="topics/art-and-design/ccea/AC4-the-externally-set-assignment-component-2.html" class="topic-card">
+        <span class="topic-id">AC4</span>
+        <span class="topic-name">The Externally Set Assignment Component 2</span>
+      </a>
+      <a href="topics/art-and-design/ccea/AC5-formal-elements-line-colour-tone-shape-form-texture-pattern.html" class="topic-card">
+        <span class="topic-id">AC5</span>
+        <span class="topic-name">Formal Elements Line Colour Tone Shape Form Texture Pattern</span>
+      </a>
+      <a href="topics/art-and-design/ccea/AC6-design-principles-balance-emphasis-proportion-unity-variety-rhythm.html" class="topic-card">
+        <span class="topic-id">AC6</span>
+        <span class="topic-name">Design Principles Balance Emphasis Proportion Unity Variety Rhythm</span>
+      </a>
+      <a href="topics/art-and-design/ccea/AC7-artists-craftspeople-and-designers.html" class="topic-card">
+        <span class="topic-id">AC7</span>
+        <span class="topic-name">Artists Craftspeople And Designers</span>
+      </a>
+      <a href="topics/art-and-design/ccea/FA1-mark-making-and-line.html" class="topic-card">
+        <span class="topic-id">FA1</span>
+        <span class="topic-name">Mark Making And Line</span>
+      </a>
+      <a href="topics/art-and-design/ccea/FA10-artists-and-art-movements.html" class="topic-card">
+        <span class="topic-id">FA10</span>
+        <span class="topic-name">Artists And Art Movements</span>
+      </a>
+      <a href="topics/art-and-design/ccea/FA2-colour-theory-and-mixing.html" class="topic-card">
+        <span class="topic-id">FA2</span>
+        <span class="topic-name">Colour Theory And Mixing</span>
+      </a>
+      <a href="topics/art-and-design/ccea/FA3-composition-and-layout.html" class="topic-card">
+        <span class="topic-id">FA3</span>
+        <span class="topic-name">Composition And Layout</span>
+      </a>
+      <a href="topics/art-and-design/ccea/FA4-working-with-watercolour-and-acrylic.html" class="topic-card">
+        <span class="topic-id">FA4</span>
+        <span class="topic-name">Working With Watercolour And Acrylic</span>
+      </a>
+      <a href="topics/art-and-design/ccea/FA5-observational-and-analytical-drawing.html" class="topic-card">
+        <span class="topic-id">FA5</span>
+        <span class="topic-name">Observational And Analytical Drawing</span>
+      </a>
+      <a href="topics/art-and-design/ccea/FA6-3d-form-and-sculpture-techniques.html" class="topic-card">
+        <span class="topic-id">FA6</span>
+        <span class="topic-name">3d Form And Sculpture Techniques</span>
+      </a>
+      <a href="topics/art-and-design/ccea/FA7-installation-and-mixed-media.html" class="topic-card">
+        <span class="topic-id">FA7</span>
+        <span class="topic-name">Installation And Mixed Media</span>
+      </a>
+      <a href="topics/art-and-design/ccea/FA8-printmaking-techniques.html" class="topic-card">
+        <span class="topic-id">FA8</span>
+        <span class="topic-name">Printmaking Techniques</span>
+      </a>
+      <a href="topics/art-and-design/ccea/FA9-photography-and-digital-art-in-fine-art.html" class="topic-card">
+        <span class="topic-id">FA9</span>
+        <span class="topic-name">Photography And Digital Art In Fine Art</span>
+      </a>
+      <a href="topics/art-and-design/ccea/GC1-the-design-process.html" class="topic-card">
+        <span class="topic-id">GC1</span>
+        <span class="topic-name">The Design Process</span>
+      </a>
+      <a href="topics/art-and-design/ccea/GC2-typography-and-lettering.html" class="topic-card">
+        <span class="topic-id">GC2</span>
+        <span class="topic-name">Typography And Lettering</span>
+      </a>
+      <a href="topics/art-and-design/ccea/GC3-digital-design-tools-and-techniques.html" class="topic-card">
+        <span class="topic-id">GC3</span>
+        <span class="topic-name">Digital Design Tools And Techniques</span>
+      </a>
+      <a href="topics/art-and-design/ccea/GC4-branding-and-corporate-identity.html" class="topic-card">
+        <span class="topic-id">GC4</span>
+        <span class="topic-name">Branding And Corporate Identity</span>
+      </a>
+      <a href="topics/art-and-design/ccea/GC5-packaging-and-print-design.html" class="topic-card">
+        <span class="topic-id">GC5</span>
+        <span class="topic-name">Packaging And Print Design</span>
+      </a>
+      <a href="topics/art-and-design/ccea/GC6-graphic-designers-and-movements.html" class="topic-card">
+        <span class="topic-id">GC6</span>
+        <span class="topic-name">Graphic Designers And Movements</span>
+      </a>
+      <a href="topics/art-and-design/ccea/PH1-camera-controls-and-exposure.html" class="topic-card">
+        <span class="topic-id">PH1</span>
+        <span class="topic-name">Camera Controls And Exposure</span>
+      </a>
+      <a href="topics/art-and-design/ccea/PH2-composition-and-framing.html" class="topic-card">
+        <span class="topic-id">PH2</span>
+        <span class="topic-name">Composition And Framing</span>
+      </a>
+      <a href="topics/art-and-design/ccea/PH3-lighting-and-flash.html" class="topic-card">
+        <span class="topic-id">PH3</span>
+        <span class="topic-name">Lighting And Flash</span>
+      </a>
+      <a href="topics/art-and-design/ccea/PH4-digital-editing-and-manipulation.html" class="topic-card">
+        <span class="topic-id">PH4</span>
+        <span class="topic-name">Digital Editing And Manipulation</span>
+      </a>
+      <a href="topics/art-and-design/ccea/PH5-photographic-genres-and-styles.html" class="topic-card">
+        <span class="topic-id">PH5</span>
+        <span class="topic-name">Photographic Genres And Styles</span>
+      </a>
+      <a href="topics/art-and-design/ccea/PH6-photographers-and-photography-history.html" class="topic-card">
+        <span class="topic-id">PH6</span>
+        <span class="topic-name">Photographers And Photography History</span>
+      </a>
+      <a href="topics/art-and-design/ccea/TD1-hand-and-machine-stitching.html" class="topic-card">
+        <span class="topic-id">TD1</span>
+        <span class="topic-name">Hand And Machine Stitching</span>
+      </a>
+      <a href="topics/art-and-design/ccea/TD2-knitting-weaving-and-crochet.html" class="topic-card">
+        <span class="topic-id">TD2</span>
+        <span class="topic-name">Knitting Weaving And Crochet</span>
+      </a>
+      <a href="topics/art-and-design/ccea/TD3-fabric-printing-and-dyeing.html" class="topic-card">
+        <span class="topic-id">TD3</span>
+        <span class="topic-name">Fabric Printing And Dyeing</span>
+      </a>
+      <a href="topics/art-and-design/ccea/TD4-embellishment-and-mixed-media-textiles.html" class="topic-card">
+        <span class="topic-id">TD4</span>
+        <span class="topic-name">Embellishment And Mixed Media Textiles</span>
+      </a>
+      <a href="topics/art-and-design/ccea/TD5-textile-designers-and-traditions.html" class="topic-card">
+        <span class="topic-id">TD5</span>
+        <span class="topic-name">Textile Designers And Traditions</span>
+      </a>
+    </div>
+  </section>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/art-and-design/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/art-and-design/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/art-and-design\/([^/]+)\//);
-    const tierMatch = path.match(/art-and-design\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

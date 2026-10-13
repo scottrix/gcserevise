@@ -5,13 +5,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dance - Free GCSE Revision Notes</title>
-<meta name="description" content="Free GCSE Dance revision notes across 22 topics across all major exam boards.">
+<meta name="description" content="Free GCSE Dance revision notes across 26 topics across all major exam boards.">
 <meta name="keywords" content="GCSE Dance, Dance revision notes, past papers, AQA">
 <meta property="og:title" content="GCSE Dance - Free Revision Notes">
-<meta property="og:description" content="Free GCSE Dance revision notes across 22 topics across all major exam boards.">
+<meta property="og:description" content="Free GCSE Dance revision notes across 26 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/dance.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/dance.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/dance.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/dance.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -60,24 +60,16 @@
 <p class="topic-desc">Complete revision notes for GCSE Dance covering all topics across AQA specifications.</p>
 </article>
 
-<div class="selector-bar">
-  <div class="selector-group">
-    <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
-      <option value="aqa">AQA</option>
-    </select>
-  </div>
-  
-</div>
-
-
-  <section id="dance-aqa" class="section">
-    <h2>Dance (22 Topics)</h2>
+  <section id="dance-aqa" class="section" data-board="aqa">
+    <h2>Dance — AQA (26 Topics)</h2>
     <div class="topics-grid">
-
       <a href="topics/dance/aqa/analysing-performance.html" class="topic-card">
         <span class="topic-id">Analysing</span>
         <span class="topic-name">Analysing Performance</span>
+      </a>
+      <a href="topics/dance/aqa/artificial-things.html" class="topic-card">
+        <span class="topic-id">Artificial</span>
+        <span class="topic-name">Artificial Things</span>
       </a>
       <a href="topics/dance/aqa/choreographic-devices.html" class="topic-card">
         <span class="topic-id">Choreographic</span>
@@ -119,6 +111,10 @@
         <span class="topic-id">Describing</span>
         <span class="topic-name">Describing Dance Writing</span>
       </a>
+      <a href="topics/dance/aqa/emancipation-expressionism.html" class="topic-card">
+        <span class="topic-id">Emancipation</span>
+        <span class="topic-name">Emancipation Expressionism</span>
+      </a>
       <a href="topics/dance/aqa/evaluating-dance-works.html" class="topic-card">
         <span class="topic-id">Evaluating</span>
         <span class="topic-name">Evaluating Dance Works</span>
@@ -143,6 +139,10 @@
         <span class="topic-id">Practical</span>
         <span class="topic-name">Practical Exam Technique Dance</span>
       </a>
+      <a href="topics/dance/aqa/professional-works-overview.html" class="topic-card">
+        <span class="topic-id">Professional</span>
+        <span class="topic-name">Professional Works Overview</span>
+      </a>
       <a href="topics/dance/aqa/safe-dance-practice.html" class="topic-card">
         <span class="topic-id">Safe</span>
         <span class="topic-name">Safe Dance Practice</span>
@@ -159,47 +159,44 @@
         <span class="topic-id">Technical</span>
         <span class="topic-name">Technical Skills Dance</span>
       </a>
+      <a href="topics/dance/aqa/within-her-eyes.html" class="topic-card">
+        <span class="topic-id">Within</span>
+        <span class="topic-name">Within Her Eyes</span>
+      </a>
       <a href="topics/dance/aqa/written-exam-technique-dance.html" class="topic-card">
         <span class="topic-id">Written</span>
         <span class="topic-name">Written Exam Technique Dance</span>
       </a>
     </div>
   </section>
-
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/dance/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/dance/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/dance\/([^/]+)\//);
-    const tierMatch = path.match(/dance\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

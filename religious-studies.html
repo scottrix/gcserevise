@@ -5,13 +5,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Religious Studies - Free GCSE Revision Notes</title>
-<meta name="description" content="Free GCSE Religious Studies revision notes across 210 topics across all major exam boards.">
+<meta name="description" content="Free GCSE Religious Studies revision notes across 235 topics across all major exam boards.">
 <meta name="keywords" content="GCSE Religious Studies, Religious Studies revision notes, past papers, AQA, Edexcel, OCR, Eduqas, CCEA">
 <meta property="og:title" content="GCSE Religious Studies - Free Revision Notes">
-<meta property="og:description" content="Free GCSE Religious Studies revision notes across 210 topics across all major exam boards.">
+<meta property="og:description" content="Free GCSE Religious Studies revision notes across 235 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/religious-studies.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/religious-studies.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/religious-studies.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/religious-studies.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -67,18 +67,16 @@
 <div class="selector-bar">
   <div class="selector-group">
     <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
+    <select id="board-select" onchange="switchSubjectBoard()">
       <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
     </select>
   </div>
-  
 </div>
 
 
-  <section id="religious-studies-aqa" class="section">
-    <h2>Religious (42 Topics)</h2>
+  <section id="religious-studies-aqa" class="section" data-board="aqa">
+    <h2>Religious Studies — AQA (47 Topics)</h2>
     <div class="topics-grid">
-
       <a href="topics/religious-studies/aqa/RS1-the-nature-of-god.html" class="topic-card">
         <span class="topic-id">RS1</span>
         <span class="topic-name">The Nature Of God</span>
@@ -159,9 +157,29 @@
         <span class="topic-id">RS27</span>
         <span class="topic-name">Islamic Festivals</span>
       </a>
+      <a href="topics/religious-studies/aqa/RS28-human-sexuality-and-relationships.html" class="topic-card">
+        <span class="topic-id">RS28</span>
+        <span class="topic-name">Human Sexuality And Relationships</span>
+      </a>
+      <a href="topics/religious-studies/aqa/RS29-marriage-and-divorce.html" class="topic-card">
+        <span class="topic-id">RS29</span>
+        <span class="topic-name">Marriage And Divorce</span>
+      </a>
       <a href="topics/religious-studies/aqa/RS3-the-incarnation.html" class="topic-card">
         <span class="topic-id">RS3</span>
         <span class="topic-name">The Incarnation</span>
+      </a>
+      <a href="topics/religious-studies/aqa/RS30-contraception-and-family-planning.html" class="topic-card">
+        <span class="topic-id">RS30</span>
+        <span class="topic-name">Contraception And Family Planning</span>
+      </a>
+      <a href="topics/religious-studies/aqa/RS31-the-nature-and-purpose-of-families.html" class="topic-card">
+        <span class="topic-id">RS31</span>
+        <span class="topic-name">The Nature And Purpose Of Families</span>
+      </a>
+      <a href="topics/religious-studies/aqa/RS32-gender-equality-and-prejudice.html" class="topic-card">
+        <span class="topic-id">RS32</span>
+        <span class="topic-name">Gender Equality And Prejudice</span>
       </a>
       <a href="topics/religious-studies/aqa/RS33-the-origins-of-the-universe.html" class="topic-card">
         <span class="topic-id">RS33</span>
@@ -250,6 +268,781 @@
     </div>
   </section>
 
+  <section id="religious-studies-edexcel" class="section" data-board="edexcel">
+    <h2>Religious Studies — Pearson Edexcel (47 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/religious-studies/edexcel/RS1-the-nature-of-god.html" class="topic-card">
+        <span class="topic-id">RS1</span>
+        <span class="topic-name">The Nature Of God</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS10-pilgrimage.html" class="topic-card">
+        <span class="topic-id">RS10</span>
+        <span class="topic-name">Pilgrimage</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS11-christmas-and-easter.html" class="topic-card">
+        <span class="topic-id">RS11</span>
+        <span class="topic-name">Christmas And Easter</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS12-the-role-of-the-church.html" class="topic-card">
+        <span class="topic-id">RS12</span>
+        <span class="topic-name">The Role Of The Church</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS13-the-worldwide-church.html" class="topic-card">
+        <span class="topic-id">RS13</span>
+        <span class="topic-name">The Worldwide Church</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS14-the-six-articles-and-five-roots.html" class="topic-card">
+        <span class="topic-id">RS14</span>
+        <span class="topic-name">The Six Articles And Five Roots</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS15-tawhid-the-oneness-of-god.html" class="topic-card">
+        <span class="topic-id">RS15</span>
+        <span class="topic-name">Tawhid The Oneness Of God</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS16-angels.html" class="topic-card">
+        <span class="topic-id">RS16</span>
+        <span class="topic-name">Angels</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS17-predestination-and-free-will.html" class="topic-card">
+        <span class="topic-id">RS17</span>
+        <span class="topic-name">Predestination And Free Will</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS18-akhirah-life-after-death.html" class="topic-card">
+        <span class="topic-id">RS18</span>
+        <span class="topic-name">Akhirah Life After Death</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS19-risalah-prophethood.html" class="topic-card">
+        <span class="topic-id">RS19</span>
+        <span class="topic-name">Risalah Prophethood</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS2-creation.html" class="topic-card">
+        <span class="topic-id">RS2</span>
+        <span class="topic-name">Creation</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS20-the-imamate.html" class="topic-card">
+        <span class="topic-id">RS20</span>
+        <span class="topic-name">The Imamate</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS21-the-five-pillars.html" class="topic-card">
+        <span class="topic-id">RS21</span>
+        <span class="topic-name">The Five Pillars</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS22-salah-prayer.html" class="topic-card">
+        <span class="topic-id">RS22</span>
+        <span class="topic-name">Salah Prayer</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS23-sawm-fasting.html" class="topic-card">
+        <span class="topic-id">RS23</span>
+        <span class="topic-name">Sawm Fasting</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS24-zakah-and-khums.html" class="topic-card">
+        <span class="topic-id">RS24</span>
+        <span class="topic-name">Zakah And Khums</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS25-hajj-pilgrimage.html" class="topic-card">
+        <span class="topic-id">RS25</span>
+        <span class="topic-name">Hajj Pilgrimage</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS26-jihad.html" class="topic-card">
+        <span class="topic-id">RS26</span>
+        <span class="topic-name">Jihad</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS27-islamic-festivals.html" class="topic-card">
+        <span class="topic-id">RS27</span>
+        <span class="topic-name">Islamic Festivals</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS28-human-sexuality-and-relationships.html" class="topic-card">
+        <span class="topic-id">RS28</span>
+        <span class="topic-name">Human Sexuality And Relationships</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS29-marriage-and-divorce.html" class="topic-card">
+        <span class="topic-id">RS29</span>
+        <span class="topic-name">Marriage And Divorce</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS3-the-incarnation.html" class="topic-card">
+        <span class="topic-id">RS3</span>
+        <span class="topic-name">The Incarnation</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS30-contraception-and-family-planning.html" class="topic-card">
+        <span class="topic-id">RS30</span>
+        <span class="topic-name">Contraception And Family Planning</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS31-the-nature-and-purpose-of-families.html" class="topic-card">
+        <span class="topic-id">RS31</span>
+        <span class="topic-name">The Nature And Purpose Of Families</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS32-gender-equality-and-prejudice.html" class="topic-card">
+        <span class="topic-id">RS32</span>
+        <span class="topic-name">Gender Equality And Prejudice</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS33-the-origins-of-the-universe.html" class="topic-card">
+        <span class="topic-id">RS33</span>
+        <span class="topic-name">The Origins Of The Universe</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS34-stewardship-and-the-environment.html" class="topic-card">
+        <span class="topic-id">RS34</span>
+        <span class="topic-name">Stewardship And The Environment</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS35-the-origins-of-human-life.html" class="topic-card">
+        <span class="topic-id">RS35</span>
+        <span class="topic-name">The Origins Of Human Life</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS36-abortion.html" class="topic-card">
+        <span class="topic-id">RS36</span>
+        <span class="topic-name">Abortion</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS37-euthanasia-and-the-afterlife.html" class="topic-card">
+        <span class="topic-id">RS37</span>
+        <span class="topic-name">Euthanasia And The Afterlife</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS38-animal-rights-and-experimentation.html" class="topic-card">
+        <span class="topic-id">RS38</span>
+        <span class="topic-name">Animal Rights And Experimentation</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS39-peace-justice-and-reconciliation.html" class="topic-card">
+        <span class="topic-id">RS39</span>
+        <span class="topic-name">Peace Justice And Reconciliation</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS4-the-crucifixion-and-resurrection.html" class="topic-card">
+        <span class="topic-id">RS4</span>
+        <span class="topic-name">The Crucifixion And Resurrection</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS40-violence-terrorism-and-war.html" class="topic-card">
+        <span class="topic-id">RS40</span>
+        <span class="topic-name">Violence Terrorism And War</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS41-just-war-and-holy-war.html" class="topic-card">
+        <span class="topic-id">RS41</span>
+        <span class="topic-name">Just War And Holy War</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS42-nuclear-weapons-and-pacifism.html" class="topic-card">
+        <span class="topic-id">RS42</span>
+        <span class="topic-name">Nuclear Weapons And Pacifism</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS43-good-evil-and-the-causes-of-crime.html" class="topic-card">
+        <span class="topic-id">RS43</span>
+        <span class="topic-name">Good Evil And The Causes Of Crime</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS44-types-of-crime.html" class="topic-card">
+        <span class="topic-id">RS44</span>
+        <span class="topic-name">Types Of Crime</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS45-aims-of-punishment.html" class="topic-card">
+        <span class="topic-id">RS45</span>
+        <span class="topic-name">Aims Of Punishment</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS46-the-treatment-of-criminals.html" class="topic-card">
+        <span class="topic-id">RS46</span>
+        <span class="topic-name">The Treatment Of Criminals</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS47-forgiveness-and-the-death-penalty.html" class="topic-card">
+        <span class="topic-id">RS47</span>
+        <span class="topic-name">Forgiveness And The Death Penalty</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS5-sin-and-salvation.html" class="topic-card">
+        <span class="topic-id">RS5</span>
+        <span class="topic-name">Sin And Salvation</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS6-the-afterlife.html" class="topic-card">
+        <span class="topic-id">RS6</span>
+        <span class="topic-name">The Afterlife</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS7-forms-of-worship.html" class="topic-card">
+        <span class="topic-id">RS7</span>
+        <span class="topic-name">Forms Of Worship</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS8-prayer.html" class="topic-card">
+        <span class="topic-id">RS8</span>
+        <span class="topic-name">Prayer</span>
+      </a>
+      <a href="topics/religious-studies/edexcel/RS9-sacraments-baptism-and-eucharist.html" class="topic-card">
+        <span class="topic-id">RS9</span>
+        <span class="topic-name">Sacraments Baptism And Eucharist</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="religious-studies-ocr" class="section" data-board="ocr">
+    <h2>Religious Studies — OCR (47 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/religious-studies/ocr/RS1-the-nature-of-god.html" class="topic-card">
+        <span class="topic-id">RS1</span>
+        <span class="topic-name">The Nature Of God</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS10-pilgrimage.html" class="topic-card">
+        <span class="topic-id">RS10</span>
+        <span class="topic-name">Pilgrimage</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS11-christmas-and-easter.html" class="topic-card">
+        <span class="topic-id">RS11</span>
+        <span class="topic-name">Christmas And Easter</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS12-the-role-of-the-church.html" class="topic-card">
+        <span class="topic-id">RS12</span>
+        <span class="topic-name">The Role Of The Church</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS13-the-worldwide-church.html" class="topic-card">
+        <span class="topic-id">RS13</span>
+        <span class="topic-name">The Worldwide Church</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS14-the-six-articles-and-five-roots.html" class="topic-card">
+        <span class="topic-id">RS14</span>
+        <span class="topic-name">The Six Articles And Five Roots</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS15-tawhid-the-oneness-of-god.html" class="topic-card">
+        <span class="topic-id">RS15</span>
+        <span class="topic-name">Tawhid The Oneness Of God</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS16-angels.html" class="topic-card">
+        <span class="topic-id">RS16</span>
+        <span class="topic-name">Angels</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS17-predestination-and-free-will.html" class="topic-card">
+        <span class="topic-id">RS17</span>
+        <span class="topic-name">Predestination And Free Will</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS18-akhirah-life-after-death.html" class="topic-card">
+        <span class="topic-id">RS18</span>
+        <span class="topic-name">Akhirah Life After Death</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS19-risalah-prophethood.html" class="topic-card">
+        <span class="topic-id">RS19</span>
+        <span class="topic-name">Risalah Prophethood</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS2-creation.html" class="topic-card">
+        <span class="topic-id">RS2</span>
+        <span class="topic-name">Creation</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS20-the-imamate.html" class="topic-card">
+        <span class="topic-id">RS20</span>
+        <span class="topic-name">The Imamate</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS21-the-five-pillars.html" class="topic-card">
+        <span class="topic-id">RS21</span>
+        <span class="topic-name">The Five Pillars</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS22-salah-prayer.html" class="topic-card">
+        <span class="topic-id">RS22</span>
+        <span class="topic-name">Salah Prayer</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS23-sawm-fasting.html" class="topic-card">
+        <span class="topic-id">RS23</span>
+        <span class="topic-name">Sawm Fasting</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS24-zakah-and-khums.html" class="topic-card">
+        <span class="topic-id">RS24</span>
+        <span class="topic-name">Zakah And Khums</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS25-hajj-pilgrimage.html" class="topic-card">
+        <span class="topic-id">RS25</span>
+        <span class="topic-name">Hajj Pilgrimage</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS26-jihad.html" class="topic-card">
+        <span class="topic-id">RS26</span>
+        <span class="topic-name">Jihad</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS27-islamic-festivals.html" class="topic-card">
+        <span class="topic-id">RS27</span>
+        <span class="topic-name">Islamic Festivals</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS28-human-sexuality-and-relationships.html" class="topic-card">
+        <span class="topic-id">RS28</span>
+        <span class="topic-name">Human Sexuality And Relationships</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS29-marriage-and-divorce.html" class="topic-card">
+        <span class="topic-id">RS29</span>
+        <span class="topic-name">Marriage And Divorce</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS3-the-incarnation.html" class="topic-card">
+        <span class="topic-id">RS3</span>
+        <span class="topic-name">The Incarnation</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS30-contraception-and-family-planning.html" class="topic-card">
+        <span class="topic-id">RS30</span>
+        <span class="topic-name">Contraception And Family Planning</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS31-the-nature-and-purpose-of-families.html" class="topic-card">
+        <span class="topic-id">RS31</span>
+        <span class="topic-name">The Nature And Purpose Of Families</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS32-gender-equality-and-prejudice.html" class="topic-card">
+        <span class="topic-id">RS32</span>
+        <span class="topic-name">Gender Equality And Prejudice</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS33-the-origins-of-the-universe.html" class="topic-card">
+        <span class="topic-id">RS33</span>
+        <span class="topic-name">The Origins Of The Universe</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS34-stewardship-and-the-environment.html" class="topic-card">
+        <span class="topic-id">RS34</span>
+        <span class="topic-name">Stewardship And The Environment</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS35-the-origins-of-human-life.html" class="topic-card">
+        <span class="topic-id">RS35</span>
+        <span class="topic-name">The Origins Of Human Life</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS36-abortion.html" class="topic-card">
+        <span class="topic-id">RS36</span>
+        <span class="topic-name">Abortion</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS37-euthanasia-and-the-afterlife.html" class="topic-card">
+        <span class="topic-id">RS37</span>
+        <span class="topic-name">Euthanasia And The Afterlife</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS38-animal-rights-and-experimentation.html" class="topic-card">
+        <span class="topic-id">RS38</span>
+        <span class="topic-name">Animal Rights And Experimentation</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS39-peace-justice-and-reconciliation.html" class="topic-card">
+        <span class="topic-id">RS39</span>
+        <span class="topic-name">Peace Justice And Reconciliation</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS4-the-crucifixion-and-resurrection.html" class="topic-card">
+        <span class="topic-id">RS4</span>
+        <span class="topic-name">The Crucifixion And Resurrection</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS40-violence-terrorism-and-war.html" class="topic-card">
+        <span class="topic-id">RS40</span>
+        <span class="topic-name">Violence Terrorism And War</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS41-just-war-and-holy-war.html" class="topic-card">
+        <span class="topic-id">RS41</span>
+        <span class="topic-name">Just War And Holy War</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS42-nuclear-weapons-and-pacifism.html" class="topic-card">
+        <span class="topic-id">RS42</span>
+        <span class="topic-name">Nuclear Weapons And Pacifism</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS43-good-evil-and-the-causes-of-crime.html" class="topic-card">
+        <span class="topic-id">RS43</span>
+        <span class="topic-name">Good Evil And The Causes Of Crime</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS44-types-of-crime.html" class="topic-card">
+        <span class="topic-id">RS44</span>
+        <span class="topic-name">Types Of Crime</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS45-aims-of-punishment.html" class="topic-card">
+        <span class="topic-id">RS45</span>
+        <span class="topic-name">Aims Of Punishment</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS46-the-treatment-of-criminals.html" class="topic-card">
+        <span class="topic-id">RS46</span>
+        <span class="topic-name">The Treatment Of Criminals</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS47-forgiveness-and-the-death-penalty.html" class="topic-card">
+        <span class="topic-id">RS47</span>
+        <span class="topic-name">Forgiveness And The Death Penalty</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS5-sin-and-salvation.html" class="topic-card">
+        <span class="topic-id">RS5</span>
+        <span class="topic-name">Sin And Salvation</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS6-the-afterlife.html" class="topic-card">
+        <span class="topic-id">RS6</span>
+        <span class="topic-name">The Afterlife</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS7-forms-of-worship.html" class="topic-card">
+        <span class="topic-id">RS7</span>
+        <span class="topic-name">Forms Of Worship</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS8-prayer.html" class="topic-card">
+        <span class="topic-id">RS8</span>
+        <span class="topic-name">Prayer</span>
+      </a>
+      <a href="topics/religious-studies/ocr/RS9-sacraments-baptism-and-eucharist.html" class="topic-card">
+        <span class="topic-id">RS9</span>
+        <span class="topic-name">Sacraments Baptism And Eucharist</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="religious-studies-eduqas" class="section" data-board="eduqas">
+    <h2>Religious Studies — Eduqas (47 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/religious-studies/eduqas/RS1-the-nature-of-god.html" class="topic-card">
+        <span class="topic-id">RS1</span>
+        <span class="topic-name">The Nature Of God</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS10-pilgrimage.html" class="topic-card">
+        <span class="topic-id">RS10</span>
+        <span class="topic-name">Pilgrimage</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS11-christmas-and-easter.html" class="topic-card">
+        <span class="topic-id">RS11</span>
+        <span class="topic-name">Christmas And Easter</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS12-the-role-of-the-church.html" class="topic-card">
+        <span class="topic-id">RS12</span>
+        <span class="topic-name">The Role Of The Church</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS13-the-worldwide-church.html" class="topic-card">
+        <span class="topic-id">RS13</span>
+        <span class="topic-name">The Worldwide Church</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS14-the-six-articles-and-five-roots.html" class="topic-card">
+        <span class="topic-id">RS14</span>
+        <span class="topic-name">The Six Articles And Five Roots</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS15-tawhid-the-oneness-of-god.html" class="topic-card">
+        <span class="topic-id">RS15</span>
+        <span class="topic-name">Tawhid The Oneness Of God</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS16-angels.html" class="topic-card">
+        <span class="topic-id">RS16</span>
+        <span class="topic-name">Angels</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS17-predestination-and-free-will.html" class="topic-card">
+        <span class="topic-id">RS17</span>
+        <span class="topic-name">Predestination And Free Will</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS18-akhirah-life-after-death.html" class="topic-card">
+        <span class="topic-id">RS18</span>
+        <span class="topic-name">Akhirah Life After Death</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS19-risalah-prophethood.html" class="topic-card">
+        <span class="topic-id">RS19</span>
+        <span class="topic-name">Risalah Prophethood</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS2-creation.html" class="topic-card">
+        <span class="topic-id">RS2</span>
+        <span class="topic-name">Creation</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS20-the-imamate.html" class="topic-card">
+        <span class="topic-id">RS20</span>
+        <span class="topic-name">The Imamate</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS21-the-five-pillars.html" class="topic-card">
+        <span class="topic-id">RS21</span>
+        <span class="topic-name">The Five Pillars</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS22-salah-prayer.html" class="topic-card">
+        <span class="topic-id">RS22</span>
+        <span class="topic-name">Salah Prayer</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS23-sawm-fasting.html" class="topic-card">
+        <span class="topic-id">RS23</span>
+        <span class="topic-name">Sawm Fasting</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS24-zakah-and-khums.html" class="topic-card">
+        <span class="topic-id">RS24</span>
+        <span class="topic-name">Zakah And Khums</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS25-hajj-pilgrimage.html" class="topic-card">
+        <span class="topic-id">RS25</span>
+        <span class="topic-name">Hajj Pilgrimage</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS26-jihad.html" class="topic-card">
+        <span class="topic-id">RS26</span>
+        <span class="topic-name">Jihad</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS27-islamic-festivals.html" class="topic-card">
+        <span class="topic-id">RS27</span>
+        <span class="topic-name">Islamic Festivals</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS28-human-sexuality-and-relationships.html" class="topic-card">
+        <span class="topic-id">RS28</span>
+        <span class="topic-name">Human Sexuality And Relationships</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS29-marriage-and-divorce.html" class="topic-card">
+        <span class="topic-id">RS29</span>
+        <span class="topic-name">Marriage And Divorce</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS3-the-incarnation.html" class="topic-card">
+        <span class="topic-id">RS3</span>
+        <span class="topic-name">The Incarnation</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS30-contraception-and-family-planning.html" class="topic-card">
+        <span class="topic-id">RS30</span>
+        <span class="topic-name">Contraception And Family Planning</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS31-the-nature-and-purpose-of-families.html" class="topic-card">
+        <span class="topic-id">RS31</span>
+        <span class="topic-name">The Nature And Purpose Of Families</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS32-gender-equality-and-prejudice.html" class="topic-card">
+        <span class="topic-id">RS32</span>
+        <span class="topic-name">Gender Equality And Prejudice</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS33-the-origins-of-the-universe.html" class="topic-card">
+        <span class="topic-id">RS33</span>
+        <span class="topic-name">The Origins Of The Universe</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS34-stewardship-and-the-environment.html" class="topic-card">
+        <span class="topic-id">RS34</span>
+        <span class="topic-name">Stewardship And The Environment</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS35-the-origins-of-human-life.html" class="topic-card">
+        <span class="topic-id">RS35</span>
+        <span class="topic-name">The Origins Of Human Life</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS36-abortion.html" class="topic-card">
+        <span class="topic-id">RS36</span>
+        <span class="topic-name">Abortion</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS37-euthanasia-and-the-afterlife.html" class="topic-card">
+        <span class="topic-id">RS37</span>
+        <span class="topic-name">Euthanasia And The Afterlife</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS38-animal-rights-and-experimentation.html" class="topic-card">
+        <span class="topic-id">RS38</span>
+        <span class="topic-name">Animal Rights And Experimentation</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS39-peace-justice-and-reconciliation.html" class="topic-card">
+        <span class="topic-id">RS39</span>
+        <span class="topic-name">Peace Justice And Reconciliation</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS4-the-crucifixion-and-resurrection.html" class="topic-card">
+        <span class="topic-id">RS4</span>
+        <span class="topic-name">The Crucifixion And Resurrection</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS40-violence-terrorism-and-war.html" class="topic-card">
+        <span class="topic-id">RS40</span>
+        <span class="topic-name">Violence Terrorism And War</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS41-just-war-and-holy-war.html" class="topic-card">
+        <span class="topic-id">RS41</span>
+        <span class="topic-name">Just War And Holy War</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS42-nuclear-weapons-and-pacifism.html" class="topic-card">
+        <span class="topic-id">RS42</span>
+        <span class="topic-name">Nuclear Weapons And Pacifism</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS43-good-evil-and-the-causes-of-crime.html" class="topic-card">
+        <span class="topic-id">RS43</span>
+        <span class="topic-name">Good Evil And The Causes Of Crime</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS44-types-of-crime.html" class="topic-card">
+        <span class="topic-id">RS44</span>
+        <span class="topic-name">Types Of Crime</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS45-aims-of-punishment.html" class="topic-card">
+        <span class="topic-id">RS45</span>
+        <span class="topic-name">Aims Of Punishment</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS46-the-treatment-of-criminals.html" class="topic-card">
+        <span class="topic-id">RS46</span>
+        <span class="topic-name">The Treatment Of Criminals</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS47-forgiveness-and-the-death-penalty.html" class="topic-card">
+        <span class="topic-id">RS47</span>
+        <span class="topic-name">Forgiveness And The Death Penalty</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS5-sin-and-salvation.html" class="topic-card">
+        <span class="topic-id">RS5</span>
+        <span class="topic-name">Sin And Salvation</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS6-the-afterlife.html" class="topic-card">
+        <span class="topic-id">RS6</span>
+        <span class="topic-name">The Afterlife</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS7-forms-of-worship.html" class="topic-card">
+        <span class="topic-id">RS7</span>
+        <span class="topic-name">Forms Of Worship</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS8-prayer.html" class="topic-card">
+        <span class="topic-id">RS8</span>
+        <span class="topic-name">Prayer</span>
+      </a>
+      <a href="topics/religious-studies/eduqas/RS9-sacraments-baptism-and-eucharist.html" class="topic-card">
+        <span class="topic-id">RS9</span>
+        <span class="topic-name">Sacraments Baptism And Eucharist</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="religious-studies-ccea" class="section" data-board="ccea">
+    <h2>Religious Studies — CCEA (47 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/religious-studies/ccea/RS1-the-nature-of-god.html" class="topic-card">
+        <span class="topic-id">RS1</span>
+        <span class="topic-name">The Nature Of God</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS10-pilgrimage.html" class="topic-card">
+        <span class="topic-id">RS10</span>
+        <span class="topic-name">Pilgrimage</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS11-christmas-and-easter.html" class="topic-card">
+        <span class="topic-id">RS11</span>
+        <span class="topic-name">Christmas And Easter</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS12-the-role-of-the-church.html" class="topic-card">
+        <span class="topic-id">RS12</span>
+        <span class="topic-name">The Role Of The Church</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS13-the-worldwide-church.html" class="topic-card">
+        <span class="topic-id">RS13</span>
+        <span class="topic-name">The Worldwide Church</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS14-the-six-articles-and-five-roots.html" class="topic-card">
+        <span class="topic-id">RS14</span>
+        <span class="topic-name">The Six Articles And Five Roots</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS15-tawhid-the-oneness-of-god.html" class="topic-card">
+        <span class="topic-id">RS15</span>
+        <span class="topic-name">Tawhid The Oneness Of God</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS16-angels.html" class="topic-card">
+        <span class="topic-id">RS16</span>
+        <span class="topic-name">Angels</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS17-predestination-and-free-will.html" class="topic-card">
+        <span class="topic-id">RS17</span>
+        <span class="topic-name">Predestination And Free Will</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS18-akhirah-life-after-death.html" class="topic-card">
+        <span class="topic-id">RS18</span>
+        <span class="topic-name">Akhirah Life After Death</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS19-risalah-prophethood.html" class="topic-card">
+        <span class="topic-id">RS19</span>
+        <span class="topic-name">Risalah Prophethood</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS2-creation.html" class="topic-card">
+        <span class="topic-id">RS2</span>
+        <span class="topic-name">Creation</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS20-the-imamate.html" class="topic-card">
+        <span class="topic-id">RS20</span>
+        <span class="topic-name">The Imamate</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS21-the-five-pillars.html" class="topic-card">
+        <span class="topic-id">RS21</span>
+        <span class="topic-name">The Five Pillars</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS22-salah-prayer.html" class="topic-card">
+        <span class="topic-id">RS22</span>
+        <span class="topic-name">Salah Prayer</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS23-sawm-fasting.html" class="topic-card">
+        <span class="topic-id">RS23</span>
+        <span class="topic-name">Sawm Fasting</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS24-zakah-and-khums.html" class="topic-card">
+        <span class="topic-id">RS24</span>
+        <span class="topic-name">Zakah And Khums</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS25-hajj-pilgrimage.html" class="topic-card">
+        <span class="topic-id">RS25</span>
+        <span class="topic-name">Hajj Pilgrimage</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS26-jihad.html" class="topic-card">
+        <span class="topic-id">RS26</span>
+        <span class="topic-name">Jihad</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS27-islamic-festivals.html" class="topic-card">
+        <span class="topic-id">RS27</span>
+        <span class="topic-name">Islamic Festivals</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS28-human-sexuality-and-relationships.html" class="topic-card">
+        <span class="topic-id">RS28</span>
+        <span class="topic-name">Human Sexuality And Relationships</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS29-marriage-and-divorce.html" class="topic-card">
+        <span class="topic-id">RS29</span>
+        <span class="topic-name">Marriage And Divorce</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS3-the-incarnation.html" class="topic-card">
+        <span class="topic-id">RS3</span>
+        <span class="topic-name">The Incarnation</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS30-contraception-and-family-planning.html" class="topic-card">
+        <span class="topic-id">RS30</span>
+        <span class="topic-name">Contraception And Family Planning</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS31-the-nature-and-purpose-of-families.html" class="topic-card">
+        <span class="topic-id">RS31</span>
+        <span class="topic-name">The Nature And Purpose Of Families</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS32-gender-equality-and-prejudice.html" class="topic-card">
+        <span class="topic-id">RS32</span>
+        <span class="topic-name">Gender Equality And Prejudice</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS33-the-origins-of-the-universe.html" class="topic-card">
+        <span class="topic-id">RS33</span>
+        <span class="topic-name">The Origins Of The Universe</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS34-stewardship-and-the-environment.html" class="topic-card">
+        <span class="topic-id">RS34</span>
+        <span class="topic-name">Stewardship And The Environment</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS35-the-origins-of-human-life.html" class="topic-card">
+        <span class="topic-id">RS35</span>
+        <span class="topic-name">The Origins Of Human Life</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS36-abortion.html" class="topic-card">
+        <span class="topic-id">RS36</span>
+        <span class="topic-name">Abortion</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS37-euthanasia-and-the-afterlife.html" class="topic-card">
+        <span class="topic-id">RS37</span>
+        <span class="topic-name">Euthanasia And The Afterlife</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS38-animal-rights-and-experimentation.html" class="topic-card">
+        <span class="topic-id">RS38</span>
+        <span class="topic-name">Animal Rights And Experimentation</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS39-peace-justice-and-reconciliation.html" class="topic-card">
+        <span class="topic-id">RS39</span>
+        <span class="topic-name">Peace Justice And Reconciliation</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS4-the-crucifixion-and-resurrection.html" class="topic-card">
+        <span class="topic-id">RS4</span>
+        <span class="topic-name">The Crucifixion And Resurrection</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS40-violence-terrorism-and-war.html" class="topic-card">
+        <span class="topic-id">RS40</span>
+        <span class="topic-name">Violence Terrorism And War</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS41-just-war-and-holy-war.html" class="topic-card">
+        <span class="topic-id">RS41</span>
+        <span class="topic-name">Just War And Holy War</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS42-nuclear-weapons-and-pacifism.html" class="topic-card">
+        <span class="topic-id">RS42</span>
+        <span class="topic-name">Nuclear Weapons And Pacifism</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS43-good-evil-and-the-causes-of-crime.html" class="topic-card">
+        <span class="topic-id">RS43</span>
+        <span class="topic-name">Good Evil And The Causes Of Crime</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS44-types-of-crime.html" class="topic-card">
+        <span class="topic-id">RS44</span>
+        <span class="topic-name">Types Of Crime</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS45-aims-of-punishment.html" class="topic-card">
+        <span class="topic-id">RS45</span>
+        <span class="topic-name">Aims Of Punishment</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS46-the-treatment-of-criminals.html" class="topic-card">
+        <span class="topic-id">RS46</span>
+        <span class="topic-name">The Treatment Of Criminals</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS47-forgiveness-and-the-death-penalty.html" class="topic-card">
+        <span class="topic-id">RS47</span>
+        <span class="topic-name">Forgiveness And The Death Penalty</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS5-sin-and-salvation.html" class="topic-card">
+        <span class="topic-id">RS5</span>
+        <span class="topic-name">Sin And Salvation</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS6-the-afterlife.html" class="topic-card">
+        <span class="topic-id">RS6</span>
+        <span class="topic-name">The Afterlife</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS7-forms-of-worship.html" class="topic-card">
+        <span class="topic-id">RS7</span>
+        <span class="topic-name">Forms Of Worship</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS8-prayer.html" class="topic-card">
+        <span class="topic-id">RS8</span>
+        <span class="topic-name">Prayer</span>
+      </a>
+      <a href="topics/religious-studies/ccea/RS9-sacraments-baptism-and-eucharist.html" class="topic-card">
+        <span class="topic-id">RS9</span>
+        <span class="topic-name">Sacraments Baptism And Eucharist</span>
+      </a>
+    </div>
+  </section>
 </main>
 <aside class="ad-right" id="ad-rail-right">
 <a href="https://www.amazon.co.uk/s?k=GCSE+Religious+Studies+books&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
@@ -285,34 +1078,28 @@
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/religious-studies/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/religious-studies/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/religious-studies\/([^/]+)\//);
-    const tierMatch = path.match(/religious-studies\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

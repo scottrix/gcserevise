@@ -10,8 +10,8 @@
 <meta property="og:title" content="GCSE Music - Free Revision Notes">
 <meta property="og:description" content="Free GCSE Music revision notes across 140 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/music.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/music.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/music.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/music.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -67,33 +67,31 @@
 <div class="selector-bar">
   <div class="selector-group">
     <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
+    <select id="board-select" onchange="switchSubjectBoard()">
       <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
     </select>
   </div>
-  
 </div>
 
 
-  <section id="music-aqa" class="section">
-    <h2>Music (28 Topics)</h2>
+  <section id="music-aqa" class="section" data-board="aqa">
+    <h2>Music — AQA (28 Topics)</h2>
     <div class="topics-grid">
-
       <a href="topics/music/aqa/MU1-melody.html" class="topic-card">
         <span class="topic-id">MU1</span>
         <span class="topic-name">Melody</span>
       </a>
       <a href="topics/music/aqa/MU10-musical-theatre-broadway-1950s-1990s.html" class="topic-card">
         <span class="topic-id">MU10</span>
-        <span class="topic-name">Musical Theatre Broadway 1950S 1990S</span>
+        <span class="topic-name">Musical Theatre Broadway 1950s 1990s</span>
       </a>
       <a href="topics/music/aqa/MU11-rock-music-of-the-1960s-and-1970s.html" class="topic-card">
         <span class="topic-id">MU11</span>
-        <span class="topic-name">Rock Music Of The 1960S And 1970S</span>
+        <span class="topic-name">Rock Music Of The 1960s And 1970s</span>
       </a>
       <a href="topics/music/aqa/MU12-film-and-computer-gaming-music-1990s-present.html" class="topic-card">
         <span class="topic-id">MU12</span>
-        <span class="topic-name">Film And Computer Gaming Music 1990S Present</span>
+        <span class="topic-name">Film And Computer Gaming Music 1990s Present</span>
       </a>
       <a href="topics/music/aqa/MU13-aos2-study-piece-queen.html" class="topic-card">
         <span class="topic-id">MU13</span>
@@ -194,40 +192,505 @@
     </div>
   </section>
 
+  <section id="music-edexcel" class="section" data-board="edexcel">
+    <h2>Music — Pearson Edexcel (28 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/music/edexcel/MU1-melody.html" class="topic-card">
+        <span class="topic-id">MU1</span>
+        <span class="topic-name">Melody</span>
+      </a>
+      <a href="topics/music/edexcel/MU10-musical-theatre-broadway-1950s-1990s.html" class="topic-card">
+        <span class="topic-id">MU10</span>
+        <span class="topic-name">Musical Theatre Broadway 1950s 1990s</span>
+      </a>
+      <a href="topics/music/edexcel/MU11-rock-music-of-the-1960s-and-1970s.html" class="topic-card">
+        <span class="topic-id">MU11</span>
+        <span class="topic-name">Rock Music Of The 1960s And 1970s</span>
+      </a>
+      <a href="topics/music/edexcel/MU12-film-and-computer-gaming-music-1990s-present.html" class="topic-card">
+        <span class="topic-id">MU12</span>
+        <span class="topic-name">Film And Computer Gaming Music 1990s Present</span>
+      </a>
+      <a href="topics/music/edexcel/MU13-aos2-study-piece-queen.html" class="topic-card">
+        <span class="topic-id">MU13</span>
+        <span class="topic-name">Aos2 Study Piece Queen</span>
+      </a>
+      <a href="topics/music/edexcel/MU14-blues-music-1920-1950.html" class="topic-card">
+        <span class="topic-id">MU14</span>
+        <span class="topic-name">Blues Music 1920 1950</span>
+      </a>
+      <a href="topics/music/edexcel/MU15-african-and-caribbean-fusion-music.html" class="topic-card">
+        <span class="topic-id">MU15</span>
+        <span class="topic-name">African And Caribbean Fusion Music</span>
+      </a>
+      <a href="topics/music/edexcel/MU16-contemporary-latin-music.html" class="topic-card">
+        <span class="topic-id">MU16</span>
+        <span class="topic-name">Contemporary Latin Music</span>
+      </a>
+      <a href="topics/music/edexcel/MU17-aos3-study-piece-esperanza-spalding.html" class="topic-card">
+        <span class="topic-id">MU17</span>
+        <span class="topic-name">Aos3 Study Piece Esperanza Spalding</span>
+      </a>
+      <a href="topics/music/edexcel/MU18-copland-and-british-orchestral-music.html" class="topic-card">
+        <span class="topic-id">MU18</span>
+        <span class="topic-name">Copland And British Orchestral Music</span>
+      </a>
+      <a href="topics/music/edexcel/MU19-kodály-and-bartók.html" class="topic-card">
+        <span class="topic-id">MU19</span>
+        <span class="topic-name">Kodály And Bartók</span>
+      </a>
+      <a href="topics/music/edexcel/MU2-harmony-and-tonality.html" class="topic-card">
+        <span class="topic-id">MU2</span>
+        <span class="topic-name">Harmony And Tonality</span>
+      </a>
+      <a href="topics/music/edexcel/MU20-minimalist-music.html" class="topic-card">
+        <span class="topic-id">MU20</span>
+        <span class="topic-name">Minimalist Music</span>
+      </a>
+      <a href="topics/music/edexcel/MU21-aos4-study-piece-bartók-hungarian-pictures.html" class="topic-card">
+        <span class="topic-id">MU21</span>
+        <span class="topic-name">Aos4 Study Piece Bartók Hungarian Pictures</span>
+      </a>
+      <a href="topics/music/edexcel/MU22-solo-performance.html" class="topic-card">
+        <span class="topic-id">MU22</span>
+        <span class="topic-name">Solo Performance</span>
+      </a>
+      <a href="topics/music/edexcel/MU23-ensemble-performance.html" class="topic-card">
+        <span class="topic-id">MU23</span>
+        <span class="topic-name">Ensemble Performance</span>
+      </a>
+      <a href="topics/music/edexcel/MU24-performance-preparation-and-assessment.html" class="topic-card">
+        <span class="topic-id">MU24</span>
+        <span class="topic-name">Performance Preparation And Assessment</span>
+      </a>
+      <a href="topics/music/edexcel/MU25-melody-writing.html" class="topic-card">
+        <span class="topic-id">MU25</span>
+        <span class="topic-name">Melody Writing</span>
+      </a>
+      <a href="topics/music/edexcel/MU26-chords-and-accompaniment-writing.html" class="topic-card">
+        <span class="topic-id">MU26</span>
+        <span class="topic-name">Chords And Accompaniment Writing</span>
+      </a>
+      <a href="topics/music/edexcel/MU27-composition-techniques-and-development.html" class="topic-card">
+        <span class="topic-id">MU27</span>
+        <span class="topic-name">Composition Techniques And Development</span>
+      </a>
+      <a href="topics/music/edexcel/MU28-free-composition-and-composing-to-a-brief.html" class="topic-card">
+        <span class="topic-id">MU28</span>
+        <span class="topic-name">Free Composition And Composing To A Brief</span>
+      </a>
+      <a href="topics/music/edexcel/MU3-structure-and-form.html" class="topic-card">
+        <span class="topic-id">MU3</span>
+        <span class="topic-name">Structure And Form</span>
+      </a>
+      <a href="topics/music/edexcel/MU4-rhythm-metre-and-tempo.html" class="topic-card">
+        <span class="topic-id">MU4</span>
+        <span class="topic-name">Rhythm Metre And Tempo</span>
+      </a>
+      <a href="topics/music/edexcel/MU5-dynamics-texture-and-sonority.html" class="topic-card">
+        <span class="topic-id">MU5</span>
+        <span class="topic-name">Dynamics Texture And Sonority</span>
+      </a>
+      <a href="topics/music/edexcel/MU6-baroque-music-1650-1750.html" class="topic-card">
+        <span class="topic-id">MU6</span>
+        <span class="topic-name">Baroque Music 1650 1750</span>
+      </a>
+      <a href="topics/music/edexcel/MU7-classical-music-1750-1820.html" class="topic-card">
+        <span class="topic-id">MU7</span>
+        <span class="topic-name">Classical Music 1750 1820</span>
+      </a>
+      <a href="topics/music/edexcel/MU8-romantic-music-1815-1910.html" class="topic-card">
+        <span class="topic-id">MU8</span>
+        <span class="topic-name">Romantic Music 1815 1910</span>
+      </a>
+      <a href="topics/music/edexcel/MU9-aos1-study-piece-beethoven-symphony-no.-1.html" class="topic-card">
+        <span class="topic-id">MU9</span>
+        <span class="topic-name">Aos1 Study Piece Beethoven Symphony No. 1</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="music-ocr" class="section" data-board="ocr">
+    <h2>Music — OCR (28 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/music/ocr/MU1-melody.html" class="topic-card">
+        <span class="topic-id">MU1</span>
+        <span class="topic-name">Melody</span>
+      </a>
+      <a href="topics/music/ocr/MU10-musical-theatre-broadway-1950s-1990s.html" class="topic-card">
+        <span class="topic-id">MU10</span>
+        <span class="topic-name">Musical Theatre Broadway 1950s 1990s</span>
+      </a>
+      <a href="topics/music/ocr/MU11-rock-music-of-the-1960s-and-1970s.html" class="topic-card">
+        <span class="topic-id">MU11</span>
+        <span class="topic-name">Rock Music Of The 1960s And 1970s</span>
+      </a>
+      <a href="topics/music/ocr/MU12-film-and-computer-gaming-music-1990s-present.html" class="topic-card">
+        <span class="topic-id">MU12</span>
+        <span class="topic-name">Film And Computer Gaming Music 1990s Present</span>
+      </a>
+      <a href="topics/music/ocr/MU13-aos2-study-piece-queen.html" class="topic-card">
+        <span class="topic-id">MU13</span>
+        <span class="topic-name">Aos2 Study Piece Queen</span>
+      </a>
+      <a href="topics/music/ocr/MU14-blues-music-1920-1950.html" class="topic-card">
+        <span class="topic-id">MU14</span>
+        <span class="topic-name">Blues Music 1920 1950</span>
+      </a>
+      <a href="topics/music/ocr/MU15-african-and-caribbean-fusion-music.html" class="topic-card">
+        <span class="topic-id">MU15</span>
+        <span class="topic-name">African And Caribbean Fusion Music</span>
+      </a>
+      <a href="topics/music/ocr/MU16-contemporary-latin-music.html" class="topic-card">
+        <span class="topic-id">MU16</span>
+        <span class="topic-name">Contemporary Latin Music</span>
+      </a>
+      <a href="topics/music/ocr/MU17-aos3-study-piece-esperanza-spalding.html" class="topic-card">
+        <span class="topic-id">MU17</span>
+        <span class="topic-name">Aos3 Study Piece Esperanza Spalding</span>
+      </a>
+      <a href="topics/music/ocr/MU18-copland-and-british-orchestral-music.html" class="topic-card">
+        <span class="topic-id">MU18</span>
+        <span class="topic-name">Copland And British Orchestral Music</span>
+      </a>
+      <a href="topics/music/ocr/MU19-kodály-and-bartók.html" class="topic-card">
+        <span class="topic-id">MU19</span>
+        <span class="topic-name">Kodály And Bartók</span>
+      </a>
+      <a href="topics/music/ocr/MU2-harmony-and-tonality.html" class="topic-card">
+        <span class="topic-id">MU2</span>
+        <span class="topic-name">Harmony And Tonality</span>
+      </a>
+      <a href="topics/music/ocr/MU20-minimalist-music.html" class="topic-card">
+        <span class="topic-id">MU20</span>
+        <span class="topic-name">Minimalist Music</span>
+      </a>
+      <a href="topics/music/ocr/MU21-aos4-study-piece-bartók-hungarian-pictures.html" class="topic-card">
+        <span class="topic-id">MU21</span>
+        <span class="topic-name">Aos4 Study Piece Bartók Hungarian Pictures</span>
+      </a>
+      <a href="topics/music/ocr/MU22-solo-performance.html" class="topic-card">
+        <span class="topic-id">MU22</span>
+        <span class="topic-name">Solo Performance</span>
+      </a>
+      <a href="topics/music/ocr/MU23-ensemble-performance.html" class="topic-card">
+        <span class="topic-id">MU23</span>
+        <span class="topic-name">Ensemble Performance</span>
+      </a>
+      <a href="topics/music/ocr/MU24-performance-preparation-and-assessment.html" class="topic-card">
+        <span class="topic-id">MU24</span>
+        <span class="topic-name">Performance Preparation And Assessment</span>
+      </a>
+      <a href="topics/music/ocr/MU25-melody-writing.html" class="topic-card">
+        <span class="topic-id">MU25</span>
+        <span class="topic-name">Melody Writing</span>
+      </a>
+      <a href="topics/music/ocr/MU26-chords-and-accompaniment-writing.html" class="topic-card">
+        <span class="topic-id">MU26</span>
+        <span class="topic-name">Chords And Accompaniment Writing</span>
+      </a>
+      <a href="topics/music/ocr/MU27-composition-techniques-and-development.html" class="topic-card">
+        <span class="topic-id">MU27</span>
+        <span class="topic-name">Composition Techniques And Development</span>
+      </a>
+      <a href="topics/music/ocr/MU28-free-composition-and-composing-to-a-brief.html" class="topic-card">
+        <span class="topic-id">MU28</span>
+        <span class="topic-name">Free Composition And Composing To A Brief</span>
+      </a>
+      <a href="topics/music/ocr/MU3-structure-and-form.html" class="topic-card">
+        <span class="topic-id">MU3</span>
+        <span class="topic-name">Structure And Form</span>
+      </a>
+      <a href="topics/music/ocr/MU4-rhythm-metre-and-tempo.html" class="topic-card">
+        <span class="topic-id">MU4</span>
+        <span class="topic-name">Rhythm Metre And Tempo</span>
+      </a>
+      <a href="topics/music/ocr/MU5-dynamics-texture-and-sonority.html" class="topic-card">
+        <span class="topic-id">MU5</span>
+        <span class="topic-name">Dynamics Texture And Sonority</span>
+      </a>
+      <a href="topics/music/ocr/MU6-baroque-music-1650-1750.html" class="topic-card">
+        <span class="topic-id">MU6</span>
+        <span class="topic-name">Baroque Music 1650 1750</span>
+      </a>
+      <a href="topics/music/ocr/MU7-classical-music-1750-1820.html" class="topic-card">
+        <span class="topic-id">MU7</span>
+        <span class="topic-name">Classical Music 1750 1820</span>
+      </a>
+      <a href="topics/music/ocr/MU8-romantic-music-1815-1910.html" class="topic-card">
+        <span class="topic-id">MU8</span>
+        <span class="topic-name">Romantic Music 1815 1910</span>
+      </a>
+      <a href="topics/music/ocr/MU9-aos1-study-piece-beethoven-symphony-no.-1.html" class="topic-card">
+        <span class="topic-id">MU9</span>
+        <span class="topic-name">Aos1 Study Piece Beethoven Symphony No. 1</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="music-eduqas" class="section" data-board="eduqas">
+    <h2>Music — Eduqas (28 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/music/eduqas/MU1-melody.html" class="topic-card">
+        <span class="topic-id">MU1</span>
+        <span class="topic-name">Melody</span>
+      </a>
+      <a href="topics/music/eduqas/MU10-musical-theatre-broadway-1950s-1990s.html" class="topic-card">
+        <span class="topic-id">MU10</span>
+        <span class="topic-name">Musical Theatre Broadway 1950s 1990s</span>
+      </a>
+      <a href="topics/music/eduqas/MU11-rock-music-of-the-1960s-and-1970s.html" class="topic-card">
+        <span class="topic-id">MU11</span>
+        <span class="topic-name">Rock Music Of The 1960s And 1970s</span>
+      </a>
+      <a href="topics/music/eduqas/MU12-film-and-computer-gaming-music-1990s-present.html" class="topic-card">
+        <span class="topic-id">MU12</span>
+        <span class="topic-name">Film And Computer Gaming Music 1990s Present</span>
+      </a>
+      <a href="topics/music/eduqas/MU13-aos2-study-piece-queen.html" class="topic-card">
+        <span class="topic-id">MU13</span>
+        <span class="topic-name">Aos2 Study Piece Queen</span>
+      </a>
+      <a href="topics/music/eduqas/MU14-blues-music-1920-1950.html" class="topic-card">
+        <span class="topic-id">MU14</span>
+        <span class="topic-name">Blues Music 1920 1950</span>
+      </a>
+      <a href="topics/music/eduqas/MU15-african-and-caribbean-fusion-music.html" class="topic-card">
+        <span class="topic-id">MU15</span>
+        <span class="topic-name">African And Caribbean Fusion Music</span>
+      </a>
+      <a href="topics/music/eduqas/MU16-contemporary-latin-music.html" class="topic-card">
+        <span class="topic-id">MU16</span>
+        <span class="topic-name">Contemporary Latin Music</span>
+      </a>
+      <a href="topics/music/eduqas/MU17-aos3-study-piece-esperanza-spalding.html" class="topic-card">
+        <span class="topic-id">MU17</span>
+        <span class="topic-name">Aos3 Study Piece Esperanza Spalding</span>
+      </a>
+      <a href="topics/music/eduqas/MU18-copland-and-british-orchestral-music.html" class="topic-card">
+        <span class="topic-id">MU18</span>
+        <span class="topic-name">Copland And British Orchestral Music</span>
+      </a>
+      <a href="topics/music/eduqas/MU19-kodály-and-bartók.html" class="topic-card">
+        <span class="topic-id">MU19</span>
+        <span class="topic-name">Kodály And Bartók</span>
+      </a>
+      <a href="topics/music/eduqas/MU2-harmony-and-tonality.html" class="topic-card">
+        <span class="topic-id">MU2</span>
+        <span class="topic-name">Harmony And Tonality</span>
+      </a>
+      <a href="topics/music/eduqas/MU20-minimalist-music.html" class="topic-card">
+        <span class="topic-id">MU20</span>
+        <span class="topic-name">Minimalist Music</span>
+      </a>
+      <a href="topics/music/eduqas/MU21-aos4-study-piece-bartók-hungarian-pictures.html" class="topic-card">
+        <span class="topic-id">MU21</span>
+        <span class="topic-name">Aos4 Study Piece Bartók Hungarian Pictures</span>
+      </a>
+      <a href="topics/music/eduqas/MU22-solo-performance.html" class="topic-card">
+        <span class="topic-id">MU22</span>
+        <span class="topic-name">Solo Performance</span>
+      </a>
+      <a href="topics/music/eduqas/MU23-ensemble-performance.html" class="topic-card">
+        <span class="topic-id">MU23</span>
+        <span class="topic-name">Ensemble Performance</span>
+      </a>
+      <a href="topics/music/eduqas/MU24-performance-preparation-and-assessment.html" class="topic-card">
+        <span class="topic-id">MU24</span>
+        <span class="topic-name">Performance Preparation And Assessment</span>
+      </a>
+      <a href="topics/music/eduqas/MU25-melody-writing.html" class="topic-card">
+        <span class="topic-id">MU25</span>
+        <span class="topic-name">Melody Writing</span>
+      </a>
+      <a href="topics/music/eduqas/MU26-chords-and-accompaniment-writing.html" class="topic-card">
+        <span class="topic-id">MU26</span>
+        <span class="topic-name">Chords And Accompaniment Writing</span>
+      </a>
+      <a href="topics/music/eduqas/MU27-composition-techniques-and-development.html" class="topic-card">
+        <span class="topic-id">MU27</span>
+        <span class="topic-name">Composition Techniques And Development</span>
+      </a>
+      <a href="topics/music/eduqas/MU28-free-composition-and-composing-to-a-brief.html" class="topic-card">
+        <span class="topic-id">MU28</span>
+        <span class="topic-name">Free Composition And Composing To A Brief</span>
+      </a>
+      <a href="topics/music/eduqas/MU3-structure-and-form.html" class="topic-card">
+        <span class="topic-id">MU3</span>
+        <span class="topic-name">Structure And Form</span>
+      </a>
+      <a href="topics/music/eduqas/MU4-rhythm-metre-and-tempo.html" class="topic-card">
+        <span class="topic-id">MU4</span>
+        <span class="topic-name">Rhythm Metre And Tempo</span>
+      </a>
+      <a href="topics/music/eduqas/MU5-dynamics-texture-and-sonority.html" class="topic-card">
+        <span class="topic-id">MU5</span>
+        <span class="topic-name">Dynamics Texture And Sonority</span>
+      </a>
+      <a href="topics/music/eduqas/MU6-baroque-music-1650-1750.html" class="topic-card">
+        <span class="topic-id">MU6</span>
+        <span class="topic-name">Baroque Music 1650 1750</span>
+      </a>
+      <a href="topics/music/eduqas/MU7-classical-music-1750-1820.html" class="topic-card">
+        <span class="topic-id">MU7</span>
+        <span class="topic-name">Classical Music 1750 1820</span>
+      </a>
+      <a href="topics/music/eduqas/MU8-romantic-music-1815-1910.html" class="topic-card">
+        <span class="topic-id">MU8</span>
+        <span class="topic-name">Romantic Music 1815 1910</span>
+      </a>
+      <a href="topics/music/eduqas/MU9-aos1-study-piece-beethoven-symphony-no.-1.html" class="topic-card">
+        <span class="topic-id">MU9</span>
+        <span class="topic-name">Aos1 Study Piece Beethoven Symphony No. 1</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="music-ccea" class="section" data-board="ccea">
+    <h2>Music — CCEA (28 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/music/ccea/MU1-melody.html" class="topic-card">
+        <span class="topic-id">MU1</span>
+        <span class="topic-name">Melody</span>
+      </a>
+      <a href="topics/music/ccea/MU10-musical-theatre-broadway-1950s-1990s.html" class="topic-card">
+        <span class="topic-id">MU10</span>
+        <span class="topic-name">Musical Theatre Broadway 1950s 1990s</span>
+      </a>
+      <a href="topics/music/ccea/MU11-rock-music-of-the-1960s-and-1970s.html" class="topic-card">
+        <span class="topic-id">MU11</span>
+        <span class="topic-name">Rock Music Of The 1960s And 1970s</span>
+      </a>
+      <a href="topics/music/ccea/MU12-film-and-computer-gaming-music-1990s-present.html" class="topic-card">
+        <span class="topic-id">MU12</span>
+        <span class="topic-name">Film And Computer Gaming Music 1990s Present</span>
+      </a>
+      <a href="topics/music/ccea/MU13-aos2-study-piece-queen.html" class="topic-card">
+        <span class="topic-id">MU13</span>
+        <span class="topic-name">Aos2 Study Piece Queen</span>
+      </a>
+      <a href="topics/music/ccea/MU14-blues-music-1920-1950.html" class="topic-card">
+        <span class="topic-id">MU14</span>
+        <span class="topic-name">Blues Music 1920 1950</span>
+      </a>
+      <a href="topics/music/ccea/MU15-african-and-caribbean-fusion-music.html" class="topic-card">
+        <span class="topic-id">MU15</span>
+        <span class="topic-name">African And Caribbean Fusion Music</span>
+      </a>
+      <a href="topics/music/ccea/MU16-contemporary-latin-music.html" class="topic-card">
+        <span class="topic-id">MU16</span>
+        <span class="topic-name">Contemporary Latin Music</span>
+      </a>
+      <a href="topics/music/ccea/MU17-aos3-study-piece-esperanza-spalding.html" class="topic-card">
+        <span class="topic-id">MU17</span>
+        <span class="topic-name">Aos3 Study Piece Esperanza Spalding</span>
+      </a>
+      <a href="topics/music/ccea/MU18-copland-and-british-orchestral-music.html" class="topic-card">
+        <span class="topic-id">MU18</span>
+        <span class="topic-name">Copland And British Orchestral Music</span>
+      </a>
+      <a href="topics/music/ccea/MU19-kodály-and-bartók.html" class="topic-card">
+        <span class="topic-id">MU19</span>
+        <span class="topic-name">Kodály And Bartók</span>
+      </a>
+      <a href="topics/music/ccea/MU2-harmony-and-tonality.html" class="topic-card">
+        <span class="topic-id">MU2</span>
+        <span class="topic-name">Harmony And Tonality</span>
+      </a>
+      <a href="topics/music/ccea/MU20-minimalist-music.html" class="topic-card">
+        <span class="topic-id">MU20</span>
+        <span class="topic-name">Minimalist Music</span>
+      </a>
+      <a href="topics/music/ccea/MU21-aos4-study-piece-bartók-hungarian-pictures.html" class="topic-card">
+        <span class="topic-id">MU21</span>
+        <span class="topic-name">Aos4 Study Piece Bartók Hungarian Pictures</span>
+      </a>
+      <a href="topics/music/ccea/MU22-solo-performance.html" class="topic-card">
+        <span class="topic-id">MU22</span>
+        <span class="topic-name">Solo Performance</span>
+      </a>
+      <a href="topics/music/ccea/MU23-ensemble-performance.html" class="topic-card">
+        <span class="topic-id">MU23</span>
+        <span class="topic-name">Ensemble Performance</span>
+      </a>
+      <a href="topics/music/ccea/MU24-performance-preparation-and-assessment.html" class="topic-card">
+        <span class="topic-id">MU24</span>
+        <span class="topic-name">Performance Preparation And Assessment</span>
+      </a>
+      <a href="topics/music/ccea/MU25-melody-writing.html" class="topic-card">
+        <span class="topic-id">MU25</span>
+        <span class="topic-name">Melody Writing</span>
+      </a>
+      <a href="topics/music/ccea/MU26-chords-and-accompaniment-writing.html" class="topic-card">
+        <span class="topic-id">MU26</span>
+        <span class="topic-name">Chords And Accompaniment Writing</span>
+      </a>
+      <a href="topics/music/ccea/MU27-composition-techniques-and-development.html" class="topic-card">
+        <span class="topic-id">MU27</span>
+        <span class="topic-name">Composition Techniques And Development</span>
+      </a>
+      <a href="topics/music/ccea/MU28-free-composition-and-composing-to-a-brief.html" class="topic-card">
+        <span class="topic-id">MU28</span>
+        <span class="topic-name">Free Composition And Composing To A Brief</span>
+      </a>
+      <a href="topics/music/ccea/MU3-structure-and-form.html" class="topic-card">
+        <span class="topic-id">MU3</span>
+        <span class="topic-name">Structure And Form</span>
+      </a>
+      <a href="topics/music/ccea/MU4-rhythm-metre-and-tempo.html" class="topic-card">
+        <span class="topic-id">MU4</span>
+        <span class="topic-name">Rhythm Metre And Tempo</span>
+      </a>
+      <a href="topics/music/ccea/MU5-dynamics-texture-and-sonority.html" class="topic-card">
+        <span class="topic-id">MU5</span>
+        <span class="topic-name">Dynamics Texture And Sonority</span>
+      </a>
+      <a href="topics/music/ccea/MU6-baroque-music-1650-1750.html" class="topic-card">
+        <span class="topic-id">MU6</span>
+        <span class="topic-name">Baroque Music 1650 1750</span>
+      </a>
+      <a href="topics/music/ccea/MU7-classical-music-1750-1820.html" class="topic-card">
+        <span class="topic-id">MU7</span>
+        <span class="topic-name">Classical Music 1750 1820</span>
+      </a>
+      <a href="topics/music/ccea/MU8-romantic-music-1815-1910.html" class="topic-card">
+        <span class="topic-id">MU8</span>
+        <span class="topic-name">Romantic Music 1815 1910</span>
+      </a>
+      <a href="topics/music/ccea/MU9-aos1-study-piece-beethoven-symphony-no.-1.html" class="topic-card">
+        <span class="topic-id">MU9</span>
+        <span class="topic-name">Aos1 Study Piece Beethoven Symphony No. 1</span>
+      </a>
+    </div>
+  </section>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/music/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/music/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/music\/([^/]+)\//);
-    const tierMatch = path.match(/music\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

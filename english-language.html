@@ -5,13 +5,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>English Language - Free GCSE Revision Notes</title>
-<meta name="description" content="Free GCSE English Language revision notes across 165 topics across all major exam boards.">
+<meta name="description" content="Free GCSE English Language revision notes across 135 topics across all major exam boards.">
 <meta name="keywords" content="GCSE English Language, English Language revision notes, past papers, AQA, Edexcel, OCR, Eduqas, CCEA">
 <meta property="og:title" content="GCSE English Language - Free Revision Notes">
-<meta property="og:description" content="Free GCSE English Language revision notes across 165 topics across all major exam boards.">
+<meta property="og:description" content="Free GCSE English Language revision notes across 135 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/english-language.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/english-language.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/english-language.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/english-language.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -67,24 +67,16 @@
 <div class="selector-bar">
   <div class="selector-group">
     <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
+    <select id="board-select" onchange="switchSubjectBoard()">
       <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
     </select>
   </div>
-  
 </div>
 
 
-  <section id="english-language-aqa" class="section">
-    <h2>English (27 Topics)</h2>
+  <section id="english-language-aqa" class="section" data-board="aqa">
+    <h2>English Language — AQA (27 Topics)</h2>
     <div class="topics-grid">
-
-      
-      
-      
-      
-      
-      
       <a href="topics/english-language/aqa/R1-retrieval.html" class="topic-card">
         <span class="topic-id">R1</span>
         <span class="topic-name">Retrieval</span>
@@ -196,40 +188,489 @@
     </div>
   </section>
 
+  <section id="english-language-edexcel" class="section" data-board="edexcel">
+    <h2>English Language — Pearson Edexcel (27 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/english-language/edexcel/R1-retrieval.html" class="topic-card">
+        <span class="topic-id">R1</span>
+        <span class="topic-name">Retrieval</span>
+      </a>
+      <a href="topics/english-language/edexcel/R2-inference.html" class="topic-card">
+        <span class="topic-id">R2</span>
+        <span class="topic-name">Inference</span>
+      </a>
+      <a href="topics/english-language/edexcel/R3-language-analysis.html" class="topic-card">
+        <span class="topic-id">R3</span>
+        <span class="topic-name">Language Analysis</span>
+      </a>
+      <a href="topics/english-language/edexcel/R4-structure-analysis.html" class="topic-card">
+        <span class="topic-id">R4</span>
+        <span class="topic-name">Structure Analysis</span>
+      </a>
+      <a href="topics/english-language/edexcel/R5-evaluating-texts.html" class="topic-card">
+        <span class="topic-id">R5</span>
+        <span class="topic-name">Evaluating Texts</span>
+      </a>
+      <a href="topics/english-language/edexcel/R6-comparing-texts.html" class="topic-card">
+        <span class="topic-id">R6</span>
+        <span class="topic-name">Comparing Texts</span>
+      </a>
+      <a href="topics/english-language/edexcel/R7-synthesis.html" class="topic-card">
+        <span class="topic-id">R7</span>
+        <span class="topic-name">Synthesis</span>
+      </a>
+      <a href="topics/english-language/edexcel/R8-understanding-perspectives.html" class="topic-card">
+        <span class="topic-id">R8</span>
+        <span class="topic-name">Understanding Perspectives</span>
+      </a>
+      <a href="topics/english-language/edexcel/SPG1-spelling-rules.html" class="topic-card">
+        <span class="topic-id">SPG1</span>
+        <span class="topic-name">Spelling Rules</span>
+      </a>
+      <a href="topics/english-language/edexcel/SPG2-punctuation-effect.html" class="topic-card">
+        <span class="topic-id">SPG2</span>
+        <span class="topic-name">Punctuation Effect</span>
+      </a>
+      <a href="topics/english-language/edexcel/SPG3-grammar-syntax.html" class="topic-card">
+        <span class="topic-id">SPG3</span>
+        <span class="topic-name">Grammar Syntax</span>
+      </a>
+      <a href="topics/english-language/edexcel/SPG4-paragraphing.html" class="topic-card">
+        <span class="topic-id">SPG4</span>
+        <span class="topic-name">Paragraphing</span>
+      </a>
+      <a href="topics/english-language/edexcel/W1-using-quotations.html" class="topic-card">
+        <span class="topic-id">W1</span>
+        <span class="topic-name">Using Quotations</span>
+      </a>
+      <a href="topics/english-language/edexcel/W2-essay-structure.html" class="topic-card">
+        <span class="topic-id">W2</span>
+        <span class="topic-name">Essay Structure</span>
+      </a>
+      <a href="topics/english-language/edexcel/W3-critical-style.html" class="topic-card">
+        <span class="topic-id">W3</span>
+        <span class="topic-name">Critical Style</span>
+      </a>
+      <a href="topics/english-language/edexcel/W4-subject-terminology.html" class="topic-card">
+        <span class="topic-id">W4</span>
+        <span class="topic-name">Subject Terminology</span>
+      </a>
+      <a href="topics/english-language/edexcel/WC1-descriptive-writing.html" class="topic-card">
+        <span class="topic-id">WC1</span>
+        <span class="topic-name">Descriptive Writing</span>
+      </a>
+      <a href="topics/english-language/edexcel/WC2-narrative-writing.html" class="topic-card">
+        <span class="topic-id">WC2</span>
+        <span class="topic-name">Narrative Writing</span>
+      </a>
+      <a href="topics/english-language/edexcel/WC3-vocabulary-word-choice.html" class="topic-card">
+        <span class="topic-id">WC3</span>
+        <span class="topic-name">Vocabulary Word Choice</span>
+      </a>
+      <a href="topics/english-language/edexcel/WC4-sentence-structures.html" class="topic-card">
+        <span class="topic-id">WC4</span>
+        <span class="topic-name">Sentence Structures</span>
+      </a>
+      <a href="topics/english-language/edexcel/WC5-punctuation.html" class="topic-card">
+        <span class="topic-id">WC5</span>
+        <span class="topic-name">Punctuation</span>
+      </a>
+      <a href="topics/english-language/edexcel/WT1-persuasive-writing.html" class="topic-card">
+        <span class="topic-id">WT1</span>
+        <span class="topic-name">Persuasive Writing</span>
+      </a>
+      <a href="topics/english-language/edexcel/WT2-letters.html" class="topic-card">
+        <span class="topic-id">WT2</span>
+        <span class="topic-name">Letters</span>
+      </a>
+      <a href="topics/english-language/edexcel/WT3-speeches.html" class="topic-card">
+        <span class="topic-id">WT3</span>
+        <span class="topic-name">Speeches</span>
+      </a>
+      <a href="topics/english-language/edexcel/WT4-articles.html" class="topic-card">
+        <span class="topic-id">WT4</span>
+        <span class="topic-name">Articles</span>
+      </a>
+      <a href="topics/english-language/edexcel/WT5-reviews.html" class="topic-card">
+        <span class="topic-id">WT5</span>
+        <span class="topic-name">Reviews</span>
+      </a>
+      <a href="topics/english-language/edexcel/WT6-audience-purpose.html" class="topic-card">
+        <span class="topic-id">WT6</span>
+        <span class="topic-name">Audience Purpose</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="english-language-ocr" class="section" data-board="ocr">
+    <h2>English Language — OCR (27 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/english-language/ocr/R1-retrieval.html" class="topic-card">
+        <span class="topic-id">R1</span>
+        <span class="topic-name">Retrieval</span>
+      </a>
+      <a href="topics/english-language/ocr/R2-inference.html" class="topic-card">
+        <span class="topic-id">R2</span>
+        <span class="topic-name">Inference</span>
+      </a>
+      <a href="topics/english-language/ocr/R3-language-analysis.html" class="topic-card">
+        <span class="topic-id">R3</span>
+        <span class="topic-name">Language Analysis</span>
+      </a>
+      <a href="topics/english-language/ocr/R4-structure-analysis.html" class="topic-card">
+        <span class="topic-id">R4</span>
+        <span class="topic-name">Structure Analysis</span>
+      </a>
+      <a href="topics/english-language/ocr/R5-evaluating-texts.html" class="topic-card">
+        <span class="topic-id">R5</span>
+        <span class="topic-name">Evaluating Texts</span>
+      </a>
+      <a href="topics/english-language/ocr/R6-comparing-texts.html" class="topic-card">
+        <span class="topic-id">R6</span>
+        <span class="topic-name">Comparing Texts</span>
+      </a>
+      <a href="topics/english-language/ocr/R7-synthesis.html" class="topic-card">
+        <span class="topic-id">R7</span>
+        <span class="topic-name">Synthesis</span>
+      </a>
+      <a href="topics/english-language/ocr/R8-understanding-perspectives.html" class="topic-card">
+        <span class="topic-id">R8</span>
+        <span class="topic-name">Understanding Perspectives</span>
+      </a>
+      <a href="topics/english-language/ocr/SPG1-spelling-rules.html" class="topic-card">
+        <span class="topic-id">SPG1</span>
+        <span class="topic-name">Spelling Rules</span>
+      </a>
+      <a href="topics/english-language/ocr/SPG2-punctuation-effect.html" class="topic-card">
+        <span class="topic-id">SPG2</span>
+        <span class="topic-name">Punctuation Effect</span>
+      </a>
+      <a href="topics/english-language/ocr/SPG3-grammar-syntax.html" class="topic-card">
+        <span class="topic-id">SPG3</span>
+        <span class="topic-name">Grammar Syntax</span>
+      </a>
+      <a href="topics/english-language/ocr/SPG4-paragraphing.html" class="topic-card">
+        <span class="topic-id">SPG4</span>
+        <span class="topic-name">Paragraphing</span>
+      </a>
+      <a href="topics/english-language/ocr/W1-using-quotations.html" class="topic-card">
+        <span class="topic-id">W1</span>
+        <span class="topic-name">Using Quotations</span>
+      </a>
+      <a href="topics/english-language/ocr/W2-essay-structure.html" class="topic-card">
+        <span class="topic-id">W2</span>
+        <span class="topic-name">Essay Structure</span>
+      </a>
+      <a href="topics/english-language/ocr/W3-critical-style.html" class="topic-card">
+        <span class="topic-id">W3</span>
+        <span class="topic-name">Critical Style</span>
+      </a>
+      <a href="topics/english-language/ocr/W4-subject-terminology.html" class="topic-card">
+        <span class="topic-id">W4</span>
+        <span class="topic-name">Subject Terminology</span>
+      </a>
+      <a href="topics/english-language/ocr/WC1-descriptive-writing.html" class="topic-card">
+        <span class="topic-id">WC1</span>
+        <span class="topic-name">Descriptive Writing</span>
+      </a>
+      <a href="topics/english-language/ocr/WC2-narrative-writing.html" class="topic-card">
+        <span class="topic-id">WC2</span>
+        <span class="topic-name">Narrative Writing</span>
+      </a>
+      <a href="topics/english-language/ocr/WC3-vocabulary-word-choice.html" class="topic-card">
+        <span class="topic-id">WC3</span>
+        <span class="topic-name">Vocabulary Word Choice</span>
+      </a>
+      <a href="topics/english-language/ocr/WC4-sentence-structures.html" class="topic-card">
+        <span class="topic-id">WC4</span>
+        <span class="topic-name">Sentence Structures</span>
+      </a>
+      <a href="topics/english-language/ocr/WC5-punctuation.html" class="topic-card">
+        <span class="topic-id">WC5</span>
+        <span class="topic-name">Punctuation</span>
+      </a>
+      <a href="topics/english-language/ocr/WT1-persuasive-writing.html" class="topic-card">
+        <span class="topic-id">WT1</span>
+        <span class="topic-name">Persuasive Writing</span>
+      </a>
+      <a href="topics/english-language/ocr/WT2-letters.html" class="topic-card">
+        <span class="topic-id">WT2</span>
+        <span class="topic-name">Letters</span>
+      </a>
+      <a href="topics/english-language/ocr/WT3-speeches.html" class="topic-card">
+        <span class="topic-id">WT3</span>
+        <span class="topic-name">Speeches</span>
+      </a>
+      <a href="topics/english-language/ocr/WT4-articles.html" class="topic-card">
+        <span class="topic-id">WT4</span>
+        <span class="topic-name">Articles</span>
+      </a>
+      <a href="topics/english-language/ocr/WT5-reviews.html" class="topic-card">
+        <span class="topic-id">WT5</span>
+        <span class="topic-name">Reviews</span>
+      </a>
+      <a href="topics/english-language/ocr/WT6-audience-purpose.html" class="topic-card">
+        <span class="topic-id">WT6</span>
+        <span class="topic-name">Audience Purpose</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="english-language-eduqas" class="section" data-board="eduqas">
+    <h2>English Language — Eduqas (27 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/english-language/eduqas/R1-retrieval.html" class="topic-card">
+        <span class="topic-id">R1</span>
+        <span class="topic-name">Retrieval</span>
+      </a>
+      <a href="topics/english-language/eduqas/R2-inference.html" class="topic-card">
+        <span class="topic-id">R2</span>
+        <span class="topic-name">Inference</span>
+      </a>
+      <a href="topics/english-language/eduqas/R3-language-analysis.html" class="topic-card">
+        <span class="topic-id">R3</span>
+        <span class="topic-name">Language Analysis</span>
+      </a>
+      <a href="topics/english-language/eduqas/R4-structure-analysis.html" class="topic-card">
+        <span class="topic-id">R4</span>
+        <span class="topic-name">Structure Analysis</span>
+      </a>
+      <a href="topics/english-language/eduqas/R5-evaluating-texts.html" class="topic-card">
+        <span class="topic-id">R5</span>
+        <span class="topic-name">Evaluating Texts</span>
+      </a>
+      <a href="topics/english-language/eduqas/R6-comparing-texts.html" class="topic-card">
+        <span class="topic-id">R6</span>
+        <span class="topic-name">Comparing Texts</span>
+      </a>
+      <a href="topics/english-language/eduqas/R7-synthesis.html" class="topic-card">
+        <span class="topic-id">R7</span>
+        <span class="topic-name">Synthesis</span>
+      </a>
+      <a href="topics/english-language/eduqas/R8-understanding-perspectives.html" class="topic-card">
+        <span class="topic-id">R8</span>
+        <span class="topic-name">Understanding Perspectives</span>
+      </a>
+      <a href="topics/english-language/eduqas/SPG1-spelling-rules.html" class="topic-card">
+        <span class="topic-id">SPG1</span>
+        <span class="topic-name">Spelling Rules</span>
+      </a>
+      <a href="topics/english-language/eduqas/SPG2-punctuation-effect.html" class="topic-card">
+        <span class="topic-id">SPG2</span>
+        <span class="topic-name">Punctuation Effect</span>
+      </a>
+      <a href="topics/english-language/eduqas/SPG3-grammar-syntax.html" class="topic-card">
+        <span class="topic-id">SPG3</span>
+        <span class="topic-name">Grammar Syntax</span>
+      </a>
+      <a href="topics/english-language/eduqas/SPG4-paragraphing.html" class="topic-card">
+        <span class="topic-id">SPG4</span>
+        <span class="topic-name">Paragraphing</span>
+      </a>
+      <a href="topics/english-language/eduqas/W1-using-quotations.html" class="topic-card">
+        <span class="topic-id">W1</span>
+        <span class="topic-name">Using Quotations</span>
+      </a>
+      <a href="topics/english-language/eduqas/W2-essay-structure.html" class="topic-card">
+        <span class="topic-id">W2</span>
+        <span class="topic-name">Essay Structure</span>
+      </a>
+      <a href="topics/english-language/eduqas/W3-critical-style.html" class="topic-card">
+        <span class="topic-id">W3</span>
+        <span class="topic-name">Critical Style</span>
+      </a>
+      <a href="topics/english-language/eduqas/W4-subject-terminology.html" class="topic-card">
+        <span class="topic-id">W4</span>
+        <span class="topic-name">Subject Terminology</span>
+      </a>
+      <a href="topics/english-language/eduqas/WC1-descriptive-writing.html" class="topic-card">
+        <span class="topic-id">WC1</span>
+        <span class="topic-name">Descriptive Writing</span>
+      </a>
+      <a href="topics/english-language/eduqas/WC2-narrative-writing.html" class="topic-card">
+        <span class="topic-id">WC2</span>
+        <span class="topic-name">Narrative Writing</span>
+      </a>
+      <a href="topics/english-language/eduqas/WC3-vocabulary-word-choice.html" class="topic-card">
+        <span class="topic-id">WC3</span>
+        <span class="topic-name">Vocabulary Word Choice</span>
+      </a>
+      <a href="topics/english-language/eduqas/WC4-sentence-structures.html" class="topic-card">
+        <span class="topic-id">WC4</span>
+        <span class="topic-name">Sentence Structures</span>
+      </a>
+      <a href="topics/english-language/eduqas/WC5-punctuation.html" class="topic-card">
+        <span class="topic-id">WC5</span>
+        <span class="topic-name">Punctuation</span>
+      </a>
+      <a href="topics/english-language/eduqas/WT1-persuasive-writing.html" class="topic-card">
+        <span class="topic-id">WT1</span>
+        <span class="topic-name">Persuasive Writing</span>
+      </a>
+      <a href="topics/english-language/eduqas/WT2-letters.html" class="topic-card">
+        <span class="topic-id">WT2</span>
+        <span class="topic-name">Letters</span>
+      </a>
+      <a href="topics/english-language/eduqas/WT3-speeches.html" class="topic-card">
+        <span class="topic-id">WT3</span>
+        <span class="topic-name">Speeches</span>
+      </a>
+      <a href="topics/english-language/eduqas/WT4-articles.html" class="topic-card">
+        <span class="topic-id">WT4</span>
+        <span class="topic-name">Articles</span>
+      </a>
+      <a href="topics/english-language/eduqas/WT5-reviews.html" class="topic-card">
+        <span class="topic-id">WT5</span>
+        <span class="topic-name">Reviews</span>
+      </a>
+      <a href="topics/english-language/eduqas/WT6-audience-purpose.html" class="topic-card">
+        <span class="topic-id">WT6</span>
+        <span class="topic-name">Audience Purpose</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="english-language-ccea" class="section" data-board="ccea">
+    <h2>English Language — CCEA (27 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/english-language/ccea/R1-retrieval.html" class="topic-card">
+        <span class="topic-id">R1</span>
+        <span class="topic-name">Retrieval</span>
+      </a>
+      <a href="topics/english-language/ccea/R2-inference.html" class="topic-card">
+        <span class="topic-id">R2</span>
+        <span class="topic-name">Inference</span>
+      </a>
+      <a href="topics/english-language/ccea/R3-language-analysis.html" class="topic-card">
+        <span class="topic-id">R3</span>
+        <span class="topic-name">Language Analysis</span>
+      </a>
+      <a href="topics/english-language/ccea/R4-structure-analysis.html" class="topic-card">
+        <span class="topic-id">R4</span>
+        <span class="topic-name">Structure Analysis</span>
+      </a>
+      <a href="topics/english-language/ccea/R5-evaluating-texts.html" class="topic-card">
+        <span class="topic-id">R5</span>
+        <span class="topic-name">Evaluating Texts</span>
+      </a>
+      <a href="topics/english-language/ccea/R6-comparing-texts.html" class="topic-card">
+        <span class="topic-id">R6</span>
+        <span class="topic-name">Comparing Texts</span>
+      </a>
+      <a href="topics/english-language/ccea/R7-synthesis.html" class="topic-card">
+        <span class="topic-id">R7</span>
+        <span class="topic-name">Synthesis</span>
+      </a>
+      <a href="topics/english-language/ccea/R8-understanding-perspectives.html" class="topic-card">
+        <span class="topic-id">R8</span>
+        <span class="topic-name">Understanding Perspectives</span>
+      </a>
+      <a href="topics/english-language/ccea/SPG1-spelling-rules.html" class="topic-card">
+        <span class="topic-id">SPG1</span>
+        <span class="topic-name">Spelling Rules</span>
+      </a>
+      <a href="topics/english-language/ccea/SPG2-punctuation-effect.html" class="topic-card">
+        <span class="topic-id">SPG2</span>
+        <span class="topic-name">Punctuation Effect</span>
+      </a>
+      <a href="topics/english-language/ccea/SPG3-grammar-syntax.html" class="topic-card">
+        <span class="topic-id">SPG3</span>
+        <span class="topic-name">Grammar Syntax</span>
+      </a>
+      <a href="topics/english-language/ccea/SPG4-paragraphing.html" class="topic-card">
+        <span class="topic-id">SPG4</span>
+        <span class="topic-name">Paragraphing</span>
+      </a>
+      <a href="topics/english-language/ccea/W1-using-quotations.html" class="topic-card">
+        <span class="topic-id">W1</span>
+        <span class="topic-name">Using Quotations</span>
+      </a>
+      <a href="topics/english-language/ccea/W2-essay-structure.html" class="topic-card">
+        <span class="topic-id">W2</span>
+        <span class="topic-name">Essay Structure</span>
+      </a>
+      <a href="topics/english-language/ccea/W3-critical-style.html" class="topic-card">
+        <span class="topic-id">W3</span>
+        <span class="topic-name">Critical Style</span>
+      </a>
+      <a href="topics/english-language/ccea/W4-subject-terminology.html" class="topic-card">
+        <span class="topic-id">W4</span>
+        <span class="topic-name">Subject Terminology</span>
+      </a>
+      <a href="topics/english-language/ccea/WC1-descriptive-writing.html" class="topic-card">
+        <span class="topic-id">WC1</span>
+        <span class="topic-name">Descriptive Writing</span>
+      </a>
+      <a href="topics/english-language/ccea/WC2-narrative-writing.html" class="topic-card">
+        <span class="topic-id">WC2</span>
+        <span class="topic-name">Narrative Writing</span>
+      </a>
+      <a href="topics/english-language/ccea/WC3-vocabulary-word-choice.html" class="topic-card">
+        <span class="topic-id">WC3</span>
+        <span class="topic-name">Vocabulary Word Choice</span>
+      </a>
+      <a href="topics/english-language/ccea/WC4-sentence-structures.html" class="topic-card">
+        <span class="topic-id">WC4</span>
+        <span class="topic-name">Sentence Structures</span>
+      </a>
+      <a href="topics/english-language/ccea/WC5-punctuation.html" class="topic-card">
+        <span class="topic-id">WC5</span>
+        <span class="topic-name">Punctuation</span>
+      </a>
+      <a href="topics/english-language/ccea/WT1-persuasive-writing.html" class="topic-card">
+        <span class="topic-id">WT1</span>
+        <span class="topic-name">Persuasive Writing</span>
+      </a>
+      <a href="topics/english-language/ccea/WT2-letters.html" class="topic-card">
+        <span class="topic-id">WT2</span>
+        <span class="topic-name">Letters</span>
+      </a>
+      <a href="topics/english-language/ccea/WT3-speeches.html" class="topic-card">
+        <span class="topic-id">WT3</span>
+        <span class="topic-name">Speeches</span>
+      </a>
+      <a href="topics/english-language/ccea/WT4-articles.html" class="topic-card">
+        <span class="topic-id">WT4</span>
+        <span class="topic-name">Articles</span>
+      </a>
+      <a href="topics/english-language/ccea/WT5-reviews.html" class="topic-card">
+        <span class="topic-id">WT5</span>
+        <span class="topic-name">Reviews</span>
+      </a>
+      <a href="topics/english-language/ccea/WT6-audience-purpose.html" class="topic-card">
+        <span class="topic-id">WT6</span>
+        <span class="topic-name">Audience Purpose</span>
+      </a>
+    </div>
+  </section>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/english-language/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/english-language/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/english-language\/([^/]+)\//);
-    const tierMatch = path.match(/english-language\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

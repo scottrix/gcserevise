@@ -10,8 +10,8 @@
 <meta property="og:title" content="GCSE Economics - Free Revision Notes">
 <meta property="og:description" content="Free GCSE Economics revision notes across 88 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/economics.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/economics.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/economics.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/economics.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -66,18 +66,16 @@
 <div class="selector-bar">
   <div class="selector-group">
     <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
+    <select id="board-select" onchange="switchSubjectBoard()">
       <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="ccea">CCEA</option>
     </select>
   </div>
-  
 </div>
 
 
-  <section id="economics-aqa" class="section">
-    <h2>Economics (22 Topics)</h2>
+  <section id="economics-aqa" class="section" data-board="aqa">
+    <h2>Economics — AQA (22 Topics)</h2>
     <div class="topics-grid">
-
       <a href="topics/economics/aqa/EC1-economic-activity.html" class="topic-card">
         <span class="topic-id">EC1</span>
         <span class="topic-name">Economic Activity</span>
@@ -169,40 +167,315 @@
     </div>
   </section>
 
+  <section id="economics-edexcel" class="section" data-board="edexcel">
+    <h2>Economics — Pearson Edexcel (22 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/economics/edexcel/EC1-economic-activity.html" class="topic-card">
+        <span class="topic-id">EC1</span>
+        <span class="topic-name">Economic Activity</span>
+      </a>
+      <a href="topics/economics/edexcel/EC10-intermarket-relationships.html" class="topic-card">
+        <span class="topic-id">EC10</span>
+        <span class="topic-name">Intermarket Relationships</span>
+      </a>
+      <a href="topics/economics/edexcel/EC15-market-failure.html" class="topic-card">
+        <span class="topic-id">EC15</span>
+        <span class="topic-name">Market Failure</span>
+      </a>
+      <a href="topics/economics/edexcel/EC16-interest-rates-and-saving.html" class="topic-card">
+        <span class="topic-id">EC16</span>
+        <span class="topic-name">Interest Rates And Saving</span>
+      </a>
+      <a href="topics/economics/edexcel/EC17-government-revenue-and-spending.html" class="topic-card">
+        <span class="topic-id">EC17</span>
+        <span class="topic-name">Government Revenue And Spending</span>
+      </a>
+      <a href="topics/economics/edexcel/EC18-economic-growth.html" class="topic-card">
+        <span class="topic-id">EC18</span>
+        <span class="topic-name">Economic Growth</span>
+      </a>
+      <a href="topics/economics/edexcel/EC19-inflation-and-unemployment.html" class="topic-card">
+        <span class="topic-id">EC19</span>
+        <span class="topic-name">Inflation And Unemployment</span>
+      </a>
+      <a href="topics/economics/edexcel/EC2-factors-of-production.html" class="topic-card">
+        <span class="topic-id">EC2</span>
+        <span class="topic-name">Factors Of Production</span>
+      </a>
+      <a href="topics/economics/edexcel/EC20-fiscal-policy.html" class="topic-card">
+        <span class="topic-id">EC20</span>
+        <span class="topic-name">Fiscal Policy</span>
+      </a>
+      <a href="topics/economics/edexcel/EC21-monetary-policy.html" class="topic-card">
+        <span class="topic-id">EC21</span>
+        <span class="topic-name">Monetary Policy</span>
+      </a>
+      <a href="topics/economics/edexcel/EC22-supply-side-policies.html" class="topic-card">
+        <span class="topic-id">EC22</span>
+        <span class="topic-name">Supply Side Policies</span>
+      </a>
+      <a href="topics/economics/edexcel/EC23-the-distribution-of-income.html" class="topic-card">
+        <span class="topic-id">EC23</span>
+        <span class="topic-name">The Distribution Of Income</span>
+      </a>
+      <a href="topics/economics/edexcel/EC24-international-trade.html" class="topic-card">
+        <span class="topic-id">EC24</span>
+        <span class="topic-name">International Trade</span>
+      </a>
+      <a href="topics/economics/edexcel/EC25-exchange-rates.html" class="topic-card">
+        <span class="topic-id">EC25</span>
+        <span class="topic-name">Exchange Rates</span>
+      </a>
+      <a href="topics/economics/edexcel/EC26-globalisation-and-the-financial-sector.html" class="topic-card">
+        <span class="topic-id">EC26</span>
+        <span class="topic-name">Globalisation And The Financial Sector</span>
+      </a>
+      <a href="topics/economics/edexcel/EC3-resource-allocation.html" class="topic-card">
+        <span class="topic-id">EC3</span>
+        <span class="topic-name">Resource Allocation</span>
+      </a>
+      <a href="topics/economics/edexcel/EC4-specialisation-and-division-of-labour.html" class="topic-card">
+        <span class="topic-id">EC4</span>
+        <span class="topic-name">Specialisation And Division Of Labour</span>
+      </a>
+      <a href="topics/economics/edexcel/EC5-making-economic-choices.html" class="topic-card">
+        <span class="topic-id">EC5</span>
+        <span class="topic-name">Making Economic Choices</span>
+      </a>
+      <a href="topics/economics/edexcel/EC6-demand.html" class="topic-card">
+        <span class="topic-id">EC6</span>
+        <span class="topic-name">Demand</span>
+      </a>
+      <a href="topics/economics/edexcel/EC7-supply.html" class="topic-card">
+        <span class="topic-id">EC7</span>
+        <span class="topic-name">Supply</span>
+      </a>
+      <a href="topics/economics/edexcel/EC8-price-determination.html" class="topic-card">
+        <span class="topic-id">EC8</span>
+        <span class="topic-name">Price Determination</span>
+      </a>
+      <a href="topics/economics/edexcel/EC9-elasticity.html" class="topic-card">
+        <span class="topic-id">EC9</span>
+        <span class="topic-name">Elasticity</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="economics-ocr" class="section" data-board="ocr">
+    <h2>Economics — OCR (22 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/economics/ocr/EC1-economic-activity.html" class="topic-card">
+        <span class="topic-id">EC1</span>
+        <span class="topic-name">Economic Activity</span>
+      </a>
+      <a href="topics/economics/ocr/EC10-intermarket-relationships.html" class="topic-card">
+        <span class="topic-id">EC10</span>
+        <span class="topic-name">Intermarket Relationships</span>
+      </a>
+      <a href="topics/economics/ocr/EC15-market-failure.html" class="topic-card">
+        <span class="topic-id">EC15</span>
+        <span class="topic-name">Market Failure</span>
+      </a>
+      <a href="topics/economics/ocr/EC16-interest-rates-and-saving.html" class="topic-card">
+        <span class="topic-id">EC16</span>
+        <span class="topic-name">Interest Rates And Saving</span>
+      </a>
+      <a href="topics/economics/ocr/EC17-government-revenue-and-spending.html" class="topic-card">
+        <span class="topic-id">EC17</span>
+        <span class="topic-name">Government Revenue And Spending</span>
+      </a>
+      <a href="topics/economics/ocr/EC18-economic-growth.html" class="topic-card">
+        <span class="topic-id">EC18</span>
+        <span class="topic-name">Economic Growth</span>
+      </a>
+      <a href="topics/economics/ocr/EC19-inflation-and-unemployment.html" class="topic-card">
+        <span class="topic-id">EC19</span>
+        <span class="topic-name">Inflation And Unemployment</span>
+      </a>
+      <a href="topics/economics/ocr/EC2-factors-of-production.html" class="topic-card">
+        <span class="topic-id">EC2</span>
+        <span class="topic-name">Factors Of Production</span>
+      </a>
+      <a href="topics/economics/ocr/EC20-fiscal-policy.html" class="topic-card">
+        <span class="topic-id">EC20</span>
+        <span class="topic-name">Fiscal Policy</span>
+      </a>
+      <a href="topics/economics/ocr/EC21-monetary-policy.html" class="topic-card">
+        <span class="topic-id">EC21</span>
+        <span class="topic-name">Monetary Policy</span>
+      </a>
+      <a href="topics/economics/ocr/EC22-supply-side-policies.html" class="topic-card">
+        <span class="topic-id">EC22</span>
+        <span class="topic-name">Supply Side Policies</span>
+      </a>
+      <a href="topics/economics/ocr/EC23-the-distribution-of-income.html" class="topic-card">
+        <span class="topic-id">EC23</span>
+        <span class="topic-name">The Distribution Of Income</span>
+      </a>
+      <a href="topics/economics/ocr/EC24-international-trade.html" class="topic-card">
+        <span class="topic-id">EC24</span>
+        <span class="topic-name">International Trade</span>
+      </a>
+      <a href="topics/economics/ocr/EC25-exchange-rates.html" class="topic-card">
+        <span class="topic-id">EC25</span>
+        <span class="topic-name">Exchange Rates</span>
+      </a>
+      <a href="topics/economics/ocr/EC26-globalisation-and-the-financial-sector.html" class="topic-card">
+        <span class="topic-id">EC26</span>
+        <span class="topic-name">Globalisation And The Financial Sector</span>
+      </a>
+      <a href="topics/economics/ocr/EC3-resource-allocation.html" class="topic-card">
+        <span class="topic-id">EC3</span>
+        <span class="topic-name">Resource Allocation</span>
+      </a>
+      <a href="topics/economics/ocr/EC4-specialisation-and-division-of-labour.html" class="topic-card">
+        <span class="topic-id">EC4</span>
+        <span class="topic-name">Specialisation And Division Of Labour</span>
+      </a>
+      <a href="topics/economics/ocr/EC5-making-economic-choices.html" class="topic-card">
+        <span class="topic-id">EC5</span>
+        <span class="topic-name">Making Economic Choices</span>
+      </a>
+      <a href="topics/economics/ocr/EC6-demand.html" class="topic-card">
+        <span class="topic-id">EC6</span>
+        <span class="topic-name">Demand</span>
+      </a>
+      <a href="topics/economics/ocr/EC7-supply.html" class="topic-card">
+        <span class="topic-id">EC7</span>
+        <span class="topic-name">Supply</span>
+      </a>
+      <a href="topics/economics/ocr/EC8-price-determination.html" class="topic-card">
+        <span class="topic-id">EC8</span>
+        <span class="topic-name">Price Determination</span>
+      </a>
+      <a href="topics/economics/ocr/EC9-elasticity.html" class="topic-card">
+        <span class="topic-id">EC9</span>
+        <span class="topic-name">Elasticity</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="economics-ccea" class="section" data-board="ccea">
+    <h2>Economics — CCEA (22 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/economics/ccea/EC1-economic-activity.html" class="topic-card">
+        <span class="topic-id">EC1</span>
+        <span class="topic-name">Economic Activity</span>
+      </a>
+      <a href="topics/economics/ccea/EC10-intermarket-relationships.html" class="topic-card">
+        <span class="topic-id">EC10</span>
+        <span class="topic-name">Intermarket Relationships</span>
+      </a>
+      <a href="topics/economics/ccea/EC15-market-failure.html" class="topic-card">
+        <span class="topic-id">EC15</span>
+        <span class="topic-name">Market Failure</span>
+      </a>
+      <a href="topics/economics/ccea/EC16-interest-rates-and-saving.html" class="topic-card">
+        <span class="topic-id">EC16</span>
+        <span class="topic-name">Interest Rates And Saving</span>
+      </a>
+      <a href="topics/economics/ccea/EC17-government-revenue-and-spending.html" class="topic-card">
+        <span class="topic-id">EC17</span>
+        <span class="topic-name">Government Revenue And Spending</span>
+      </a>
+      <a href="topics/economics/ccea/EC18-economic-growth.html" class="topic-card">
+        <span class="topic-id">EC18</span>
+        <span class="topic-name">Economic Growth</span>
+      </a>
+      <a href="topics/economics/ccea/EC19-inflation-and-unemployment.html" class="topic-card">
+        <span class="topic-id">EC19</span>
+        <span class="topic-name">Inflation And Unemployment</span>
+      </a>
+      <a href="topics/economics/ccea/EC2-factors-of-production.html" class="topic-card">
+        <span class="topic-id">EC2</span>
+        <span class="topic-name">Factors Of Production</span>
+      </a>
+      <a href="topics/economics/ccea/EC20-fiscal-policy.html" class="topic-card">
+        <span class="topic-id">EC20</span>
+        <span class="topic-name">Fiscal Policy</span>
+      </a>
+      <a href="topics/economics/ccea/EC21-monetary-policy.html" class="topic-card">
+        <span class="topic-id">EC21</span>
+        <span class="topic-name">Monetary Policy</span>
+      </a>
+      <a href="topics/economics/ccea/EC22-supply-side-policies.html" class="topic-card">
+        <span class="topic-id">EC22</span>
+        <span class="topic-name">Supply Side Policies</span>
+      </a>
+      <a href="topics/economics/ccea/EC23-the-distribution-of-income.html" class="topic-card">
+        <span class="topic-id">EC23</span>
+        <span class="topic-name">The Distribution Of Income</span>
+      </a>
+      <a href="topics/economics/ccea/EC24-international-trade.html" class="topic-card">
+        <span class="topic-id">EC24</span>
+        <span class="topic-name">International Trade</span>
+      </a>
+      <a href="topics/economics/ccea/EC25-exchange-rates.html" class="topic-card">
+        <span class="topic-id">EC25</span>
+        <span class="topic-name">Exchange Rates</span>
+      </a>
+      <a href="topics/economics/ccea/EC26-globalisation-and-the-financial-sector.html" class="topic-card">
+        <span class="topic-id">EC26</span>
+        <span class="topic-name">Globalisation And The Financial Sector</span>
+      </a>
+      <a href="topics/economics/ccea/EC3-resource-allocation.html" class="topic-card">
+        <span class="topic-id">EC3</span>
+        <span class="topic-name">Resource Allocation</span>
+      </a>
+      <a href="topics/economics/ccea/EC4-specialisation-and-division-of-labour.html" class="topic-card">
+        <span class="topic-id">EC4</span>
+        <span class="topic-name">Specialisation And Division Of Labour</span>
+      </a>
+      <a href="topics/economics/ccea/EC5-making-economic-choices.html" class="topic-card">
+        <span class="topic-id">EC5</span>
+        <span class="topic-name">Making Economic Choices</span>
+      </a>
+      <a href="topics/economics/ccea/EC6-demand.html" class="topic-card">
+        <span class="topic-id">EC6</span>
+        <span class="topic-name">Demand</span>
+      </a>
+      <a href="topics/economics/ccea/EC7-supply.html" class="topic-card">
+        <span class="topic-id">EC7</span>
+        <span class="topic-name">Supply</span>
+      </a>
+      <a href="topics/economics/ccea/EC8-price-determination.html" class="topic-card">
+        <span class="topic-id">EC8</span>
+        <span class="topic-name">Price Determination</span>
+      </a>
+      <a href="topics/economics/ccea/EC9-elasticity.html" class="topic-card">
+        <span class="topic-id">EC9</span>
+        <span class="topic-name">Elasticity</span>
+      </a>
+    </div>
+  </section>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/economics/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/economics/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/economics\/([^/]+)\//);
-    const tierMatch = path.match(/economics\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

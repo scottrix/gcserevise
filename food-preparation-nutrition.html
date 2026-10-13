@@ -10,8 +10,8 @@
 <meta property="og:title" content="GCSE Food Preparation and Nutrition - Free Revision Notes">
 <meta property="og:description" content="Free GCSE Food Preparation and Nutrition revision notes across 104 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/food-preparation-nutrition.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/food-preparation-nutrition.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/food-preparation-nutrition.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/food-preparation-nutrition.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -66,18 +66,16 @@
 <div class="selector-bar">
   <div class="selector-group">
     <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
+    <select id="board-select" onchange="switchSubjectBoard()">
       <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option>
     </select>
   </div>
-  
 </div>
 
 
-  <section id="food-preparation-nutrition-aqa" class="section">
-    <h2>Food (26 Topics)</h2>
+  <section id="food-preparation-nutrition-aqa" class="section" data-board="aqa">
+    <h2>Food Preparation Nutrition — AQA (26 Topics)</h2>
     <div class="topics-grid">
-
       <a href="topics/food-preparation-nutrition/aqa/FN1-macronutrients.html" class="topic-card">
         <span class="topic-id">FN1</span>
         <span class="topic-name">Macronutrients</span>
@@ -185,40 +183,363 @@
     </div>
   </section>
 
+  <section id="food-preparation-nutrition-edexcel" class="section" data-board="edexcel">
+    <h2>Food Preparation Nutrition — Pearson Edexcel (26 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/food-preparation-nutrition/edexcel/FN1-macronutrients.html" class="topic-card">
+        <span class="topic-id">FN1</span>
+        <span class="topic-name">Macronutrients</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/FN10-sensory-properties.html" class="topic-card">
+        <span class="topic-id">FN10</span>
+        <span class="topic-name">Sensory Properties</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/FN2-micronutrients.html" class="topic-card">
+        <span class="topic-id">FN2</span>
+        <span class="topic-name">Micronutrients</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/FN3-balanced-diet.html" class="topic-card">
+        <span class="topic-id">FN3</span>
+        <span class="topic-name">Balanced Diet</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/FN4-diet-related-health.html" class="topic-card">
+        <span class="topic-id">FN4</span>
+        <span class="topic-name">Diet Related Health</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/FN5-nutritional-needs-life-stages.html" class="topic-card">
+        <span class="topic-id">FN5</span>
+        <span class="topic-name">Nutritional Needs Life Stages</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/FN6-heat-transfer-cooking.html" class="topic-card">
+        <span class="topic-id">FN6</span>
+        <span class="topic-name">Heat Transfer Cooking</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/FN7-functional-properties.html" class="topic-card">
+        <span class="topic-id">FN7</span>
+        <span class="topic-name">Functional Properties</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/FN8-raising-agents.html" class="topic-card">
+        <span class="topic-id">FN8</span>
+        <span class="topic-name">Raising Agents</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/FN9-food-preservation.html" class="topic-card">
+        <span class="topic-id">FN9</span>
+        <span class="topic-name">Food Preservation</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/british-international-cuisine.html" class="topic-card">
+        <span class="topic-id">British</span>
+        <span class="topic-name">British International Cuisine</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/cooking-techniques-different-foods.html" class="topic-card">
+        <span class="topic-id">Cooking</span>
+        <span class="topic-name">Cooking Techniques Different Foods</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/factors-affecting-food-choice.html" class="topic-card">
+        <span class="topic-id">Factors</span>
+        <span class="topic-name">Factors Affecting Food Choice</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/food-hygiene-safe-practice.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Hygiene Safe Practice</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/food-labelling-marketing.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Labelling Marketing</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/food-poisoning-food-borne-illness.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Poisoning Food Borne Illness</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/food-preparation-skills.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Preparation Skills</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/food-processing-technology.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Processing Technology</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/food-production-sustainability.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Production Sustainability</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/food-safety-legislation-haccp.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Safety Legislation Haccp</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/food-spoilage-microorganisms.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Spoilage Microorganisms</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/food-waste-sustainability.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Waste Sustainability</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/nea-task-1-food-investigation.html" class="topic-card">
+        <span class="topic-id">Nea</span>
+        <span class="topic-name">Nea Task 1 Food Investigation</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/nea-task-2-food-preparation.html" class="topic-card">
+        <span class="topic-id">Nea</span>
+        <span class="topic-name">Nea Task 2 Food Preparation</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/special-diets-food-intolerance.html" class="topic-card">
+        <span class="topic-id">Special</span>
+        <span class="topic-name">Special Diets Food Intolerance</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/edexcel/the-food-industry.html" class="topic-card">
+        <span class="topic-id">The</span>
+        <span class="topic-name">The Food Industry</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="food-preparation-nutrition-ocr" class="section" data-board="ocr">
+    <h2>Food Preparation Nutrition — OCR (26 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/food-preparation-nutrition/ocr/FN1-macronutrients.html" class="topic-card">
+        <span class="topic-id">FN1</span>
+        <span class="topic-name">Macronutrients</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/FN10-sensory-properties.html" class="topic-card">
+        <span class="topic-id">FN10</span>
+        <span class="topic-name">Sensory Properties</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/FN2-micronutrients.html" class="topic-card">
+        <span class="topic-id">FN2</span>
+        <span class="topic-name">Micronutrients</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/FN3-balanced-diet.html" class="topic-card">
+        <span class="topic-id">FN3</span>
+        <span class="topic-name">Balanced Diet</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/FN4-diet-related-health.html" class="topic-card">
+        <span class="topic-id">FN4</span>
+        <span class="topic-name">Diet Related Health</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/FN5-nutritional-needs-life-stages.html" class="topic-card">
+        <span class="topic-id">FN5</span>
+        <span class="topic-name">Nutritional Needs Life Stages</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/FN6-heat-transfer-cooking.html" class="topic-card">
+        <span class="topic-id">FN6</span>
+        <span class="topic-name">Heat Transfer Cooking</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/FN7-functional-properties.html" class="topic-card">
+        <span class="topic-id">FN7</span>
+        <span class="topic-name">Functional Properties</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/FN8-raising-agents.html" class="topic-card">
+        <span class="topic-id">FN8</span>
+        <span class="topic-name">Raising Agents</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/FN9-food-preservation.html" class="topic-card">
+        <span class="topic-id">FN9</span>
+        <span class="topic-name">Food Preservation</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/british-international-cuisine.html" class="topic-card">
+        <span class="topic-id">British</span>
+        <span class="topic-name">British International Cuisine</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/cooking-techniques-different-foods.html" class="topic-card">
+        <span class="topic-id">Cooking</span>
+        <span class="topic-name">Cooking Techniques Different Foods</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/factors-affecting-food-choice.html" class="topic-card">
+        <span class="topic-id">Factors</span>
+        <span class="topic-name">Factors Affecting Food Choice</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/food-hygiene-safe-practice.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Hygiene Safe Practice</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/food-labelling-marketing.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Labelling Marketing</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/food-poisoning-food-borne-illness.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Poisoning Food Borne Illness</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/food-preparation-skills.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Preparation Skills</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/food-processing-technology.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Processing Technology</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/food-production-sustainability.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Production Sustainability</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/food-safety-legislation-haccp.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Safety Legislation Haccp</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/food-spoilage-microorganisms.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Spoilage Microorganisms</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/food-waste-sustainability.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Waste Sustainability</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/nea-task-1-food-investigation.html" class="topic-card">
+        <span class="topic-id">Nea</span>
+        <span class="topic-name">Nea Task 1 Food Investigation</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/nea-task-2-food-preparation.html" class="topic-card">
+        <span class="topic-id">Nea</span>
+        <span class="topic-name">Nea Task 2 Food Preparation</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/special-diets-food-intolerance.html" class="topic-card">
+        <span class="topic-id">Special</span>
+        <span class="topic-name">Special Diets Food Intolerance</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/ocr/the-food-industry.html" class="topic-card">
+        <span class="topic-id">The</span>
+        <span class="topic-name">The Food Industry</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="food-preparation-nutrition-eduqas" class="section" data-board="eduqas">
+    <h2>Food Preparation Nutrition — Eduqas (26 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/food-preparation-nutrition/eduqas/FN1-macronutrients.html" class="topic-card">
+        <span class="topic-id">FN1</span>
+        <span class="topic-name">Macronutrients</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/FN10-sensory-properties.html" class="topic-card">
+        <span class="topic-id">FN10</span>
+        <span class="topic-name">Sensory Properties</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/FN2-micronutrients.html" class="topic-card">
+        <span class="topic-id">FN2</span>
+        <span class="topic-name">Micronutrients</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/FN3-balanced-diet.html" class="topic-card">
+        <span class="topic-id">FN3</span>
+        <span class="topic-name">Balanced Diet</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/FN4-diet-related-health.html" class="topic-card">
+        <span class="topic-id">FN4</span>
+        <span class="topic-name">Diet Related Health</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/FN5-nutritional-needs-life-stages.html" class="topic-card">
+        <span class="topic-id">FN5</span>
+        <span class="topic-name">Nutritional Needs Life Stages</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/FN6-heat-transfer-cooking.html" class="topic-card">
+        <span class="topic-id">FN6</span>
+        <span class="topic-name">Heat Transfer Cooking</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/FN7-functional-properties.html" class="topic-card">
+        <span class="topic-id">FN7</span>
+        <span class="topic-name">Functional Properties</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/FN8-raising-agents.html" class="topic-card">
+        <span class="topic-id">FN8</span>
+        <span class="topic-name">Raising Agents</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/FN9-food-preservation.html" class="topic-card">
+        <span class="topic-id">FN9</span>
+        <span class="topic-name">Food Preservation</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/british-international-cuisine.html" class="topic-card">
+        <span class="topic-id">British</span>
+        <span class="topic-name">British International Cuisine</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/cooking-techniques-different-foods.html" class="topic-card">
+        <span class="topic-id">Cooking</span>
+        <span class="topic-name">Cooking Techniques Different Foods</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/factors-affecting-food-choice.html" class="topic-card">
+        <span class="topic-id">Factors</span>
+        <span class="topic-name">Factors Affecting Food Choice</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/food-hygiene-safe-practice.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Hygiene Safe Practice</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/food-labelling-marketing.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Labelling Marketing</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/food-poisoning-food-borne-illness.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Poisoning Food Borne Illness</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/food-preparation-skills.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Preparation Skills</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/food-processing-technology.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Processing Technology</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/food-production-sustainability.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Production Sustainability</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/food-safety-legislation-haccp.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Safety Legislation Haccp</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/food-spoilage-microorganisms.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Spoilage Microorganisms</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/food-waste-sustainability.html" class="topic-card">
+        <span class="topic-id">Food</span>
+        <span class="topic-name">Food Waste Sustainability</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/nea-task-1-food-investigation.html" class="topic-card">
+        <span class="topic-id">Nea</span>
+        <span class="topic-name">Nea Task 1 Food Investigation</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/nea-task-2-food-preparation.html" class="topic-card">
+        <span class="topic-id">Nea</span>
+        <span class="topic-name">Nea Task 2 Food Preparation</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/special-diets-food-intolerance.html" class="topic-card">
+        <span class="topic-id">Special</span>
+        <span class="topic-name">Special Diets Food Intolerance</span>
+      </a>
+      <a href="topics/food-preparation-nutrition/eduqas/the-food-industry.html" class="topic-card">
+        <span class="topic-id">The</span>
+        <span class="topic-name">The Food Industry</span>
+      </a>
+    </div>
+  </section>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/food-preparation-nutrition/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/food-preparation-nutrition/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/food-preparation-nutrition\/([^/]+)\//);
-    const tierMatch = path.match(/food-preparation-nutrition\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

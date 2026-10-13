@@ -10,8 +10,8 @@
 <meta property="og:title" content="GCSE Computer Science - Free Revision Notes">
 <meta property="og:description" content="Free GCSE Computer Science revision notes across 148 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/computer-science.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/computer-science.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/computer-science.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/computer-science.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -66,18 +66,16 @@
 <div class="selector-bar">
   <div class="selector-group">
     <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
+    <select id="board-select" onchange="switchSubjectBoard()">
       <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option>
     </select>
   </div>
-  
 </div>
 
 
-  <section id="computer-science-aqa" class="section">
-    <h2>Computer (37 Topics)</h2>
+  <section id="computer-science-aqa" class="section" data-board="aqa">
+    <h2>Computer Science — AQA (37 Topics)</h2>
     <div class="topics-grid">
-
       <a href="topics/computer-science/aqa/CS1-representing-algorithms.html" class="topic-card">
         <span class="topic-id">CS1</span>
         <span class="topic-name">Representing Algorithms</span>
@@ -229,40 +227,495 @@
     </div>
   </section>
 
+  <section id="computer-science-edexcel" class="section" data-board="edexcel">
+    <h2>Computer Science — Pearson Edexcel (37 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/computer-science/edexcel/CS1-representing-algorithms.html" class="topic-card">
+        <span class="topic-id">CS1</span>
+        <span class="topic-name">Representing Algorithms</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS10-data-structures.html" class="topic-card">
+        <span class="topic-id">CS10</span>
+        <span class="topic-name">Data Structures</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS11-input-output-string-handling.html" class="topic-card">
+        <span class="topic-id">CS11</span>
+        <span class="topic-name">Input Output String Handling</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS12-subroutines.html" class="topic-card">
+        <span class="topic-id">CS12</span>
+        <span class="topic-name">Subroutines</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS13-robust-secure-programming.html" class="topic-card">
+        <span class="topic-id">CS13</span>
+        <span class="topic-name">Robust Secure Programming</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS14-random-number-generation.html" class="topic-card">
+        <span class="topic-id">CS14</span>
+        <span class="topic-name">Random Number Generation</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS15-number-bases.html" class="topic-card">
+        <span class="topic-id">CS15</span>
+        <span class="topic-name">Number Bases</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS16-converting-number-bases.html" class="topic-card">
+        <span class="topic-id">CS16</span>
+        <span class="topic-name">Converting Number Bases</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS17-units-information.html" class="topic-card">
+        <span class="topic-id">CS17</span>
+        <span class="topic-name">Units Information</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS18-binary-arithmetic.html" class="topic-card">
+        <span class="topic-id">CS18</span>
+        <span class="topic-name">Binary Arithmetic</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS19-character-encoding.html" class="topic-card">
+        <span class="topic-id">CS19</span>
+        <span class="topic-name">Character Encoding</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS2-efficiency-algorithms.html" class="topic-card">
+        <span class="topic-id">CS2</span>
+        <span class="topic-name">Efficiency Algorithms</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS20-representing-images.html" class="topic-card">
+        <span class="topic-id">CS20</span>
+        <span class="topic-name">Representing Images</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS21-representing-sound.html" class="topic-card">
+        <span class="topic-id">CS21</span>
+        <span class="topic-name">Representing Sound</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS22-data-compression.html" class="topic-card">
+        <span class="topic-id">CS22</span>
+        <span class="topic-name">Data Compression</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS23-hardware-software.html" class="topic-card">
+        <span class="topic-id">CS23</span>
+        <span class="topic-name">Hardware Software</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS24-boolean-logic.html" class="topic-card">
+        <span class="topic-id">CS24</span>
+        <span class="topic-name">Boolean Logic</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS25-software-classification.html" class="topic-card">
+        <span class="topic-id">CS25</span>
+        <span class="topic-name">Software Classification</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS26-programming-languages-translators.html" class="topic-card">
+        <span class="topic-id">CS26</span>
+        <span class="topic-name">Programming Languages Translators</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS27-systems-architecture.html" class="topic-card">
+        <span class="topic-id">CS27</span>
+        <span class="topic-name">Systems Architecture</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS28-memory-storage.html" class="topic-card">
+        <span class="topic-id">CS28</span>
+        <span class="topic-name">Memory Storage</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS29-network-types-topologies.html" class="topic-card">
+        <span class="topic-id">CS29</span>
+        <span class="topic-name">Network Types Topologies</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS3-searching-algorithms.html" class="topic-card">
+        <span class="topic-id">CS3</span>
+        <span class="topic-name">Searching Algorithms</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS30-network-protocols.html" class="topic-card">
+        <span class="topic-id">CS30</span>
+        <span class="topic-name">Network Protocols</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS31-tcp-ip-model.html" class="topic-card">
+        <span class="topic-id">CS31</span>
+        <span class="topic-name">Tcp Ip Model</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS32-network-security.html" class="topic-card">
+        <span class="topic-id">CS32</span>
+        <span class="topic-name">Network Security</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS33-cyber-security-threats.html" class="topic-card">
+        <span class="topic-id">CS33</span>
+        <span class="topic-name">Cyber Security Threats</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS34-detecting-preventing-cyber-threats.html" class="topic-card">
+        <span class="topic-id">CS34</span>
+        <span class="topic-name">Detecting Preventing Cyber Threats</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS35-relational-databases.html" class="topic-card">
+        <span class="topic-id">CS35</span>
+        <span class="topic-name">Relational Databases</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS36-sql.html" class="topic-card">
+        <span class="topic-id">CS36</span>
+        <span class="topic-name">Sql</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS37-ethical-legal-environmental-impacts.html" class="topic-card">
+        <span class="topic-id">CS37</span>
+        <span class="topic-name">Ethical Legal Environmental Impacts</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS4-sorting-algorithms.html" class="topic-card">
+        <span class="topic-id">CS4</span>
+        <span class="topic-name">Sorting Algorithms</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS5-trace-tables.html" class="topic-card">
+        <span class="topic-id">CS5</span>
+        <span class="topic-name">Trace Tables</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS6-data-types.html" class="topic-card">
+        <span class="topic-id">CS6</span>
+        <span class="topic-name">Data Types</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS7-programming-constructs.html" class="topic-card">
+        <span class="topic-id">CS7</span>
+        <span class="topic-name">Programming Constructs</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS8-arithmetic-relational-operations.html" class="topic-card">
+        <span class="topic-id">CS8</span>
+        <span class="topic-name">Arithmetic Relational Operations</span>
+      </a>
+      <a href="topics/computer-science/edexcel/CS9-boolean-operations.html" class="topic-card">
+        <span class="topic-id">CS9</span>
+        <span class="topic-name">Boolean Operations</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="computer-science-ocr" class="section" data-board="ocr">
+    <h2>Computer Science — OCR (37 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/computer-science/ocr/CS1-representing-algorithms.html" class="topic-card">
+        <span class="topic-id">CS1</span>
+        <span class="topic-name">Representing Algorithms</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS10-data-structures.html" class="topic-card">
+        <span class="topic-id">CS10</span>
+        <span class="topic-name">Data Structures</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS11-input-output-string-handling.html" class="topic-card">
+        <span class="topic-id">CS11</span>
+        <span class="topic-name">Input Output String Handling</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS12-subroutines.html" class="topic-card">
+        <span class="topic-id">CS12</span>
+        <span class="topic-name">Subroutines</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS13-robust-secure-programming.html" class="topic-card">
+        <span class="topic-id">CS13</span>
+        <span class="topic-name">Robust Secure Programming</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS14-random-number-generation.html" class="topic-card">
+        <span class="topic-id">CS14</span>
+        <span class="topic-name">Random Number Generation</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS15-number-bases.html" class="topic-card">
+        <span class="topic-id">CS15</span>
+        <span class="topic-name">Number Bases</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS16-converting-number-bases.html" class="topic-card">
+        <span class="topic-id">CS16</span>
+        <span class="topic-name">Converting Number Bases</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS17-units-information.html" class="topic-card">
+        <span class="topic-id">CS17</span>
+        <span class="topic-name">Units Information</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS18-binary-arithmetic.html" class="topic-card">
+        <span class="topic-id">CS18</span>
+        <span class="topic-name">Binary Arithmetic</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS19-character-encoding.html" class="topic-card">
+        <span class="topic-id">CS19</span>
+        <span class="topic-name">Character Encoding</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS2-efficiency-algorithms.html" class="topic-card">
+        <span class="topic-id">CS2</span>
+        <span class="topic-name">Efficiency Algorithms</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS20-representing-images.html" class="topic-card">
+        <span class="topic-id">CS20</span>
+        <span class="topic-name">Representing Images</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS21-representing-sound.html" class="topic-card">
+        <span class="topic-id">CS21</span>
+        <span class="topic-name">Representing Sound</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS22-data-compression.html" class="topic-card">
+        <span class="topic-id">CS22</span>
+        <span class="topic-name">Data Compression</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS23-hardware-software.html" class="topic-card">
+        <span class="topic-id">CS23</span>
+        <span class="topic-name">Hardware Software</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS24-boolean-logic.html" class="topic-card">
+        <span class="topic-id">CS24</span>
+        <span class="topic-name">Boolean Logic</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS25-software-classification.html" class="topic-card">
+        <span class="topic-id">CS25</span>
+        <span class="topic-name">Software Classification</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS26-programming-languages-translators.html" class="topic-card">
+        <span class="topic-id">CS26</span>
+        <span class="topic-name">Programming Languages Translators</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS27-systems-architecture.html" class="topic-card">
+        <span class="topic-id">CS27</span>
+        <span class="topic-name">Systems Architecture</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS28-memory-storage.html" class="topic-card">
+        <span class="topic-id">CS28</span>
+        <span class="topic-name">Memory Storage</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS29-network-types-topologies.html" class="topic-card">
+        <span class="topic-id">CS29</span>
+        <span class="topic-name">Network Types Topologies</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS3-searching-algorithms.html" class="topic-card">
+        <span class="topic-id">CS3</span>
+        <span class="topic-name">Searching Algorithms</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS30-network-protocols.html" class="topic-card">
+        <span class="topic-id">CS30</span>
+        <span class="topic-name">Network Protocols</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS31-tcp-ip-model.html" class="topic-card">
+        <span class="topic-id">CS31</span>
+        <span class="topic-name">Tcp Ip Model</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS32-network-security.html" class="topic-card">
+        <span class="topic-id">CS32</span>
+        <span class="topic-name">Network Security</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS33-cyber-security-threats.html" class="topic-card">
+        <span class="topic-id">CS33</span>
+        <span class="topic-name">Cyber Security Threats</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS34-detecting-preventing-cyber-threats.html" class="topic-card">
+        <span class="topic-id">CS34</span>
+        <span class="topic-name">Detecting Preventing Cyber Threats</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS35-relational-databases.html" class="topic-card">
+        <span class="topic-id">CS35</span>
+        <span class="topic-name">Relational Databases</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS36-sql.html" class="topic-card">
+        <span class="topic-id">CS36</span>
+        <span class="topic-name">Sql</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS37-ethical-legal-environmental-impacts.html" class="topic-card">
+        <span class="topic-id">CS37</span>
+        <span class="topic-name">Ethical Legal Environmental Impacts</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS4-sorting-algorithms.html" class="topic-card">
+        <span class="topic-id">CS4</span>
+        <span class="topic-name">Sorting Algorithms</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS5-trace-tables.html" class="topic-card">
+        <span class="topic-id">CS5</span>
+        <span class="topic-name">Trace Tables</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS6-data-types.html" class="topic-card">
+        <span class="topic-id">CS6</span>
+        <span class="topic-name">Data Types</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS7-programming-constructs.html" class="topic-card">
+        <span class="topic-id">CS7</span>
+        <span class="topic-name">Programming Constructs</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS8-arithmetic-relational-operations.html" class="topic-card">
+        <span class="topic-id">CS8</span>
+        <span class="topic-name">Arithmetic Relational Operations</span>
+      </a>
+      <a href="topics/computer-science/ocr/CS9-boolean-operations.html" class="topic-card">
+        <span class="topic-id">CS9</span>
+        <span class="topic-name">Boolean Operations</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="computer-science-eduqas" class="section" data-board="eduqas">
+    <h2>Computer Science — Eduqas (37 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/computer-science/eduqas/CS1-representing-algorithms.html" class="topic-card">
+        <span class="topic-id">CS1</span>
+        <span class="topic-name">Representing Algorithms</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS10-data-structures.html" class="topic-card">
+        <span class="topic-id">CS10</span>
+        <span class="topic-name">Data Structures</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS11-input-output-string-handling.html" class="topic-card">
+        <span class="topic-id">CS11</span>
+        <span class="topic-name">Input Output String Handling</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS12-subroutines.html" class="topic-card">
+        <span class="topic-id">CS12</span>
+        <span class="topic-name">Subroutines</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS13-robust-secure-programming.html" class="topic-card">
+        <span class="topic-id">CS13</span>
+        <span class="topic-name">Robust Secure Programming</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS14-random-number-generation.html" class="topic-card">
+        <span class="topic-id">CS14</span>
+        <span class="topic-name">Random Number Generation</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS15-number-bases.html" class="topic-card">
+        <span class="topic-id">CS15</span>
+        <span class="topic-name">Number Bases</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS16-converting-number-bases.html" class="topic-card">
+        <span class="topic-id">CS16</span>
+        <span class="topic-name">Converting Number Bases</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS17-units-information.html" class="topic-card">
+        <span class="topic-id">CS17</span>
+        <span class="topic-name">Units Information</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS18-binary-arithmetic.html" class="topic-card">
+        <span class="topic-id">CS18</span>
+        <span class="topic-name">Binary Arithmetic</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS19-character-encoding.html" class="topic-card">
+        <span class="topic-id">CS19</span>
+        <span class="topic-name">Character Encoding</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS2-efficiency-algorithms.html" class="topic-card">
+        <span class="topic-id">CS2</span>
+        <span class="topic-name">Efficiency Algorithms</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS20-representing-images.html" class="topic-card">
+        <span class="topic-id">CS20</span>
+        <span class="topic-name">Representing Images</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS21-representing-sound.html" class="topic-card">
+        <span class="topic-id">CS21</span>
+        <span class="topic-name">Representing Sound</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS22-data-compression.html" class="topic-card">
+        <span class="topic-id">CS22</span>
+        <span class="topic-name">Data Compression</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS23-hardware-software.html" class="topic-card">
+        <span class="topic-id">CS23</span>
+        <span class="topic-name">Hardware Software</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS24-boolean-logic.html" class="topic-card">
+        <span class="topic-id">CS24</span>
+        <span class="topic-name">Boolean Logic</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS25-software-classification.html" class="topic-card">
+        <span class="topic-id">CS25</span>
+        <span class="topic-name">Software Classification</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS26-programming-languages-translators.html" class="topic-card">
+        <span class="topic-id">CS26</span>
+        <span class="topic-name">Programming Languages Translators</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS27-systems-architecture.html" class="topic-card">
+        <span class="topic-id">CS27</span>
+        <span class="topic-name">Systems Architecture</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS28-memory-storage.html" class="topic-card">
+        <span class="topic-id">CS28</span>
+        <span class="topic-name">Memory Storage</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS29-network-types-topologies.html" class="topic-card">
+        <span class="topic-id">CS29</span>
+        <span class="topic-name">Network Types Topologies</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS3-searching-algorithms.html" class="topic-card">
+        <span class="topic-id">CS3</span>
+        <span class="topic-name">Searching Algorithms</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS30-network-protocols.html" class="topic-card">
+        <span class="topic-id">CS30</span>
+        <span class="topic-name">Network Protocols</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS31-tcp-ip-model.html" class="topic-card">
+        <span class="topic-id">CS31</span>
+        <span class="topic-name">Tcp Ip Model</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS32-network-security.html" class="topic-card">
+        <span class="topic-id">CS32</span>
+        <span class="topic-name">Network Security</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS33-cyber-security-threats.html" class="topic-card">
+        <span class="topic-id">CS33</span>
+        <span class="topic-name">Cyber Security Threats</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS34-detecting-preventing-cyber-threats.html" class="topic-card">
+        <span class="topic-id">CS34</span>
+        <span class="topic-name">Detecting Preventing Cyber Threats</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS35-relational-databases.html" class="topic-card">
+        <span class="topic-id">CS35</span>
+        <span class="topic-name">Relational Databases</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS36-sql.html" class="topic-card">
+        <span class="topic-id">CS36</span>
+        <span class="topic-name">Sql</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS37-ethical-legal-environmental-impacts.html" class="topic-card">
+        <span class="topic-id">CS37</span>
+        <span class="topic-name">Ethical Legal Environmental Impacts</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS4-sorting-algorithms.html" class="topic-card">
+        <span class="topic-id">CS4</span>
+        <span class="topic-name">Sorting Algorithms</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS5-trace-tables.html" class="topic-card">
+        <span class="topic-id">CS5</span>
+        <span class="topic-name">Trace Tables</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS6-data-types.html" class="topic-card">
+        <span class="topic-id">CS6</span>
+        <span class="topic-name">Data Types</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS7-programming-constructs.html" class="topic-card">
+        <span class="topic-id">CS7</span>
+        <span class="topic-name">Programming Constructs</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS8-arithmetic-relational-operations.html" class="topic-card">
+        <span class="topic-id">CS8</span>
+        <span class="topic-name">Arithmetic Relational Operations</span>
+      </a>
+      <a href="topics/computer-science/eduqas/CS9-boolean-operations.html" class="topic-card">
+        <span class="topic-id">CS9</span>
+        <span class="topic-name">Boolean Operations</span>
+      </a>
+    </div>
+  </section>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/computer-science/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/computer-science/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/computer-science\/([^/]+)\//);
-    const tierMatch = path.match(/computer-science\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

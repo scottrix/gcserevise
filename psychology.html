@@ -10,8 +10,8 @@
 <meta property="og:title" content="GCSE Psychology - Free Revision Notes">
 <meta property="og:description" content="Free GCSE Psychology revision notes across 78 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/psychology.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/psychology.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/psychology.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/psychology.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -65,18 +65,16 @@
 <div class="selector-bar">
   <div class="selector-group">
     <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
+    <select id="board-select" onchange="switchSubjectBoard()">
       <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option>
     </select>
   </div>
-  
 </div>
 
 
-  <section id="psychology-aqa" class="section">
-    <h2>Psychology (26 Topics)</h2>
+  <section id="psychology-aqa" class="section" data-board="aqa">
+    <h2>Psychology — AQA (26 Topics)</h2>
     <div class="topics-grid">
-
       <a href="topics/psychology/aqa/PS1-memory.html" class="topic-card">
         <span class="topic-id">PS1</span>
         <span class="topic-name">Memory</span>
@@ -184,40 +182,253 @@
     </div>
   </section>
 
+  <section id="psychology-edexcel" class="section" data-board="edexcel">
+    <h2>Psychology — Pearson Edexcel (26 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/psychology/edexcel/PS1-memory.html" class="topic-card">
+        <span class="topic-id">PS1</span>
+        <span class="topic-name">Memory</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS10-language-and-thought.html" class="topic-card">
+        <span class="topic-id">PS10</span>
+        <span class="topic-name">Language And Thought</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS11-animal-vs-human-communication.html" class="topic-card">
+        <span class="topic-id">PS11</span>
+        <span class="topic-name">Animal Vs Human Communication</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS12-non-verbal-communication.html" class="topic-card">
+        <span class="topic-id">PS12</span>
+        <span class="topic-name">Non Verbal Communication</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS13-explanations-of-nvb.html" class="topic-card">
+        <span class="topic-id">PS13</span>
+        <span class="topic-name">Explanations Of Nvb</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS14-culture-and-communication.html" class="topic-card">
+        <span class="topic-id">PS14</span>
+        <span class="topic-name">Culture And Communication</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS15-the-nervous-system.html" class="topic-card">
+        <span class="topic-id">PS15</span>
+        <span class="topic-name">The Nervous System</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS16-neurons-and-synapses.html" class="topic-card">
+        <span class="topic-id">PS16</span>
+        <span class="topic-name">Neurons And Synapses</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS17-brain-structure-and-function.html" class="topic-card">
+        <span class="topic-id">PS17</span>
+        <span class="topic-name">Brain Structure And Function</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS18-neuropsychology-and-scanning.html" class="topic-card">
+        <span class="topic-id">PS18</span>
+        <span class="topic-name">Neuropsychology And Scanning</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS19-mental-health-introduction.html" class="topic-card">
+        <span class="topic-id">PS19</span>
+        <span class="topic-name">Mental Health Introduction</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS2-perception.html" class="topic-card">
+        <span class="topic-id">PS2</span>
+        <span class="topic-name">Perception</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS20-depression.html" class="topic-card">
+        <span class="topic-id">PS20</span>
+        <span class="topic-name">Depression</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS21-addiction.html" class="topic-card">
+        <span class="topic-id">PS21</span>
+        <span class="topic-name">Addiction</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS22-treatments-and-therapies.html" class="topic-card">
+        <span class="topic-id">PS22</span>
+        <span class="topic-name">Treatments And Therapies</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS23-biological-approach.html" class="topic-card">
+        <span class="topic-id">PS23</span>
+        <span class="topic-name">Biological Approach</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS24-cognitive-approach.html" class="topic-card">
+        <span class="topic-id">PS24</span>
+        <span class="topic-name">Cognitive Approach</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS25-behaviourist-approach.html" class="topic-card">
+        <span class="topic-id">PS25</span>
+        <span class="topic-name">Behaviourist Approach</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS26-issues-and-debates.html" class="topic-card">
+        <span class="topic-id">PS26</span>
+        <span class="topic-name">Issues And Debates</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS3-development.html" class="topic-card">
+        <span class="topic-id">PS3</span>
+        <span class="topic-name">Development</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS4-research-methods-1.html" class="topic-card">
+        <span class="topic-id">PS4</span>
+        <span class="topic-name">Research Methods 1</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS5-research-methods-2.html" class="topic-card">
+        <span class="topic-id">PS5</span>
+        <span class="topic-name">Research Methods 2</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS6-social-influence.html" class="topic-card">
+        <span class="topic-id">PS6</span>
+        <span class="topic-name">Social Influence</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS7-conformity-and-obedience.html" class="topic-card">
+        <span class="topic-id">PS7</span>
+        <span class="topic-name">Conformity And Obedience</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS8-prosocial-behaviour.html" class="topic-card">
+        <span class="topic-id">PS8</span>
+        <span class="topic-name">Prosocial Behaviour</span>
+      </a>
+      <a href="topics/psychology/edexcel/PS9-crowd-and-collective-behaviour.html" class="topic-card">
+        <span class="topic-id">PS9</span>
+        <span class="topic-name">Crowd And Collective Behaviour</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="psychology-ocr" class="section" data-board="ocr">
+    <h2>Psychology — OCR (26 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/psychology/ocr/PS1-memory.html" class="topic-card">
+        <span class="topic-id">PS1</span>
+        <span class="topic-name">Memory</span>
+      </a>
+      <a href="topics/psychology/ocr/PS10-language-and-thought.html" class="topic-card">
+        <span class="topic-id">PS10</span>
+        <span class="topic-name">Language And Thought</span>
+      </a>
+      <a href="topics/psychology/ocr/PS11-animal-vs-human-communication.html" class="topic-card">
+        <span class="topic-id">PS11</span>
+        <span class="topic-name">Animal Vs Human Communication</span>
+      </a>
+      <a href="topics/psychology/ocr/PS12-non-verbal-communication.html" class="topic-card">
+        <span class="topic-id">PS12</span>
+        <span class="topic-name">Non Verbal Communication</span>
+      </a>
+      <a href="topics/psychology/ocr/PS13-explanations-of-nvb.html" class="topic-card">
+        <span class="topic-id">PS13</span>
+        <span class="topic-name">Explanations Of Nvb</span>
+      </a>
+      <a href="topics/psychology/ocr/PS14-culture-and-communication.html" class="topic-card">
+        <span class="topic-id">PS14</span>
+        <span class="topic-name">Culture And Communication</span>
+      </a>
+      <a href="topics/psychology/ocr/PS15-the-nervous-system.html" class="topic-card">
+        <span class="topic-id">PS15</span>
+        <span class="topic-name">The Nervous System</span>
+      </a>
+      <a href="topics/psychology/ocr/PS16-neurons-and-synapses.html" class="topic-card">
+        <span class="topic-id">PS16</span>
+        <span class="topic-name">Neurons And Synapses</span>
+      </a>
+      <a href="topics/psychology/ocr/PS17-brain-structure-and-function.html" class="topic-card">
+        <span class="topic-id">PS17</span>
+        <span class="topic-name">Brain Structure And Function</span>
+      </a>
+      <a href="topics/psychology/ocr/PS18-neuropsychology-and-scanning.html" class="topic-card">
+        <span class="topic-id">PS18</span>
+        <span class="topic-name">Neuropsychology And Scanning</span>
+      </a>
+      <a href="topics/psychology/ocr/PS19-mental-health-introduction.html" class="topic-card">
+        <span class="topic-id">PS19</span>
+        <span class="topic-name">Mental Health Introduction</span>
+      </a>
+      <a href="topics/psychology/ocr/PS2-perception.html" class="topic-card">
+        <span class="topic-id">PS2</span>
+        <span class="topic-name">Perception</span>
+      </a>
+      <a href="topics/psychology/ocr/PS20-depression.html" class="topic-card">
+        <span class="topic-id">PS20</span>
+        <span class="topic-name">Depression</span>
+      </a>
+      <a href="topics/psychology/ocr/PS21-addiction.html" class="topic-card">
+        <span class="topic-id">PS21</span>
+        <span class="topic-name">Addiction</span>
+      </a>
+      <a href="topics/psychology/ocr/PS22-treatments-and-therapies.html" class="topic-card">
+        <span class="topic-id">PS22</span>
+        <span class="topic-name">Treatments And Therapies</span>
+      </a>
+      <a href="topics/psychology/ocr/PS23-biological-approach.html" class="topic-card">
+        <span class="topic-id">PS23</span>
+        <span class="topic-name">Biological Approach</span>
+      </a>
+      <a href="topics/psychology/ocr/PS24-cognitive-approach.html" class="topic-card">
+        <span class="topic-id">PS24</span>
+        <span class="topic-name">Cognitive Approach</span>
+      </a>
+      <a href="topics/psychology/ocr/PS25-behaviourist-approach.html" class="topic-card">
+        <span class="topic-id">PS25</span>
+        <span class="topic-name">Behaviourist Approach</span>
+      </a>
+      <a href="topics/psychology/ocr/PS26-issues-and-debates.html" class="topic-card">
+        <span class="topic-id">PS26</span>
+        <span class="topic-name">Issues And Debates</span>
+      </a>
+      <a href="topics/psychology/ocr/PS3-development.html" class="topic-card">
+        <span class="topic-id">PS3</span>
+        <span class="topic-name">Development</span>
+      </a>
+      <a href="topics/psychology/ocr/PS4-research-methods-1.html" class="topic-card">
+        <span class="topic-id">PS4</span>
+        <span class="topic-name">Research Methods 1</span>
+      </a>
+      <a href="topics/psychology/ocr/PS5-research-methods-2.html" class="topic-card">
+        <span class="topic-id">PS5</span>
+        <span class="topic-name">Research Methods 2</span>
+      </a>
+      <a href="topics/psychology/ocr/PS6-social-influence.html" class="topic-card">
+        <span class="topic-id">PS6</span>
+        <span class="topic-name">Social Influence</span>
+      </a>
+      <a href="topics/psychology/ocr/PS7-conformity-and-obedience.html" class="topic-card">
+        <span class="topic-id">PS7</span>
+        <span class="topic-name">Conformity And Obedience</span>
+      </a>
+      <a href="topics/psychology/ocr/PS8-prosocial-behaviour.html" class="topic-card">
+        <span class="topic-id">PS8</span>
+        <span class="topic-name">Prosocial Behaviour</span>
+      </a>
+      <a href="topics/psychology/ocr/PS9-crowd-and-collective-behaviour.html" class="topic-card">
+        <span class="topic-id">PS9</span>
+        <span class="topic-name">Crowd And Collective Behaviour</span>
+      </a>
+    </div>
+  </section>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/psychology/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/psychology/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/psychology\/([^/]+)\//);
-    const tierMatch = path.match(/psychology\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>

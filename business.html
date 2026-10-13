@@ -10,8 +10,8 @@
 <meta property="og:title" content="GCSE Business Studies - Free Revision Notes">
 <meta property="og:description" content="Free GCSE Business Studies revision notes across 130 topics across all major exam boards.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/gcserevise/business.html">
-<link rel="canonical" href="https://scottrix.github.io/gcserevise/business.html">
+<meta property="og:url" content="https://www.scottrix.co.uk/gcserevise/business.html">
+<link rel="canonical" href="https://www.scottrix.co.uk/gcserevise/business.html">
 <meta property="og:site_name" content="GCSE Revise">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@
 <button id="close-mobile" class="close-btn">✕</button>
 </div>
 <nav class="mobile-nav-links">
-<a href="https://scottrix.github.io/">Scottrix</a>
+<a href="https://www.scottrix.co.uk/">Scottrix</a>
 <a href="./#subjects">Subjects</a>
 <a href="./#exam-boards">Exam Boards</a>
 <a href="./#about">About</a>
@@ -67,18 +67,16 @@
 <div class="selector-bar">
   <div class="selector-group">
     <label for="board-select">Exam Board: </label>
-    <select id="board-select" onchange="updateSubjectUrl()">
+    <select id="board-select" onchange="switchSubjectBoard()">
       <option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="eduqas">Eduqas</option><option value="ccea">CCEA</option>
     </select>
   </div>
-  
 </div>
 
 
-  <section id="business-aqa" class="section">
-    <h2>Business (26 Topics)</h2>
+  <section id="business-aqa" class="section" data-board="aqa">
+    <h2>Business — AQA (26 Topics)</h2>
     <div class="topics-grid">
-
       <a href="topics/business/aqa/BS1-purpose-and-enterprise.html" class="topic-card">
         <span class="topic-id">BS1</span>
         <span class="topic-name">Purpose And Enterprise</span>
@@ -186,40 +184,473 @@
     </div>
   </section>
 
+  <section id="business-edexcel" class="section" data-board="edexcel">
+    <h2>Business — Pearson Edexcel (26 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/business/edexcel/BS1-purpose-and-enterprise.html" class="topic-card">
+        <span class="topic-id">BS1</span>
+        <span class="topic-name">Purpose And Enterprise</span>
+      </a>
+      <a href="topics/business/edexcel/BS10-production-processes.html" class="topic-card">
+        <span class="topic-id">BS10</span>
+        <span class="topic-name">Production Processes</span>
+      </a>
+      <a href="topics/business/edexcel/BS11-procurement-and-stock-management.html" class="topic-card">
+        <span class="topic-id">BS11</span>
+        <span class="topic-name">Procurement And Stock Management</span>
+      </a>
+      <a href="topics/business/edexcel/BS12-quality.html" class="topic-card">
+        <span class="topic-id">BS12</span>
+        <span class="topic-name">Quality</span>
+      </a>
+      <a href="topics/business/edexcel/BS13-customer-service.html" class="topic-card">
+        <span class="topic-id">BS13</span>
+        <span class="topic-name">Customer Service</span>
+      </a>
+      <a href="topics/business/edexcel/BS14-organisational-structures.html" class="topic-card">
+        <span class="topic-id">BS14</span>
+        <span class="topic-name">Organisational Structures</span>
+      </a>
+      <a href="topics/business/edexcel/BS15-recruitment-and-selection.html" class="topic-card">
+        <span class="topic-id">BS15</span>
+        <span class="topic-name">Recruitment And Selection</span>
+      </a>
+      <a href="topics/business/edexcel/BS16-motivation.html" class="topic-card">
+        <span class="topic-id">BS16</span>
+        <span class="topic-name">Motivation</span>
+      </a>
+      <a href="topics/business/edexcel/BS17-training.html" class="topic-card">
+        <span class="topic-id">BS17</span>
+        <span class="topic-name">Training</span>
+      </a>
+      <a href="topics/business/edexcel/BS18-customers-segmentation-and-market-research.html" class="topic-card">
+        <span class="topic-id">BS18</span>
+        <span class="topic-name">Customers Segmentation And Market Research</span>
+      </a>
+      <a href="topics/business/edexcel/BS19-product.html" class="topic-card">
+        <span class="topic-id">BS19</span>
+        <span class="topic-name">Product</span>
+      </a>
+      <a href="topics/business/edexcel/BS2-business-ownership.html" class="topic-card">
+        <span class="topic-id">BS2</span>
+        <span class="topic-name">Business Ownership</span>
+      </a>
+      <a href="topics/business/edexcel/BS20-price-and-place.html" class="topic-card">
+        <span class="topic-id">BS20</span>
+        <span class="topic-name">Price And Place</span>
+      </a>
+      <a href="topics/business/edexcel/BS21-promotion.html" class="topic-card">
+        <span class="topic-id">BS21</span>
+        <span class="topic-name">Promotion</span>
+      </a>
+      <a href="topics/business/edexcel/BS22-the-marketing-mix.html" class="topic-card">
+        <span class="topic-id">BS22</span>
+        <span class="topic-name">The Marketing Mix</span>
+      </a>
+      <a href="topics/business/edexcel/BS23-sources-of-finance.html" class="topic-card">
+        <span class="topic-id">BS23</span>
+        <span class="topic-name">Sources Of Finance</span>
+      </a>
+      <a href="topics/business/edexcel/BS24-cash-flow.html" class="topic-card">
+        <span class="topic-id">BS24</span>
+        <span class="topic-name">Cash Flow</span>
+      </a>
+      <a href="topics/business/edexcel/BS25-financial-calculations.html" class="topic-card">
+        <span class="topic-id">BS25</span>
+        <span class="topic-name">Financial Calculations</span>
+      </a>
+      <a href="topics/business/edexcel/BS26-analysing-financial-performance.html" class="topic-card">
+        <span class="topic-id">BS26</span>
+        <span class="topic-name">Analysing Financial Performance</span>
+      </a>
+      <a href="topics/business/edexcel/BS3-aims-and-objectives.html" class="topic-card">
+        <span class="topic-id">BS3</span>
+        <span class="topic-name">Aims And Objectives</span>
+      </a>
+      <a href="topics/business/edexcel/BS4-stakeholders.html" class="topic-card">
+        <span class="topic-id">BS4</span>
+        <span class="topic-name">Stakeholders</span>
+      </a>
+      <a href="topics/business/edexcel/BS5-business-location-and-expansion.html" class="topic-card">
+        <span class="topic-id">BS5</span>
+        <span class="topic-name">Business Location And Expansion</span>
+      </a>
+      <a href="topics/business/edexcel/BS6-technology.html" class="topic-card">
+        <span class="topic-id">BS6</span>
+        <span class="topic-name">Technology</span>
+      </a>
+      <a href="topics/business/edexcel/BS7-ethical-and-environmental-considerations.html" class="topic-card">
+        <span class="topic-id">BS7</span>
+        <span class="topic-name">Ethical And Environmental Considerations</span>
+      </a>
+      <a href="topics/business/edexcel/BS8-the-economic-climate.html" class="topic-card">
+        <span class="topic-id">BS8</span>
+        <span class="topic-name">The Economic Climate</span>
+      </a>
+      <a href="topics/business/edexcel/BS9-globalisation-and-legislation.html" class="topic-card">
+        <span class="topic-id">BS9</span>
+        <span class="topic-name">Globalisation And Legislation</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="business-ocr" class="section" data-board="ocr">
+    <h2>Business — OCR (26 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/business/ocr/BS1-purpose-and-enterprise.html" class="topic-card">
+        <span class="topic-id">BS1</span>
+        <span class="topic-name">Purpose And Enterprise</span>
+      </a>
+      <a href="topics/business/ocr/BS10-production-processes.html" class="topic-card">
+        <span class="topic-id">BS10</span>
+        <span class="topic-name">Production Processes</span>
+      </a>
+      <a href="topics/business/ocr/BS11-procurement-and-stock-management.html" class="topic-card">
+        <span class="topic-id">BS11</span>
+        <span class="topic-name">Procurement And Stock Management</span>
+      </a>
+      <a href="topics/business/ocr/BS12-quality.html" class="topic-card">
+        <span class="topic-id">BS12</span>
+        <span class="topic-name">Quality</span>
+      </a>
+      <a href="topics/business/ocr/BS13-customer-service.html" class="topic-card">
+        <span class="topic-id">BS13</span>
+        <span class="topic-name">Customer Service</span>
+      </a>
+      <a href="topics/business/ocr/BS14-organisational-structures.html" class="topic-card">
+        <span class="topic-id">BS14</span>
+        <span class="topic-name">Organisational Structures</span>
+      </a>
+      <a href="topics/business/ocr/BS15-recruitment-and-selection.html" class="topic-card">
+        <span class="topic-id">BS15</span>
+        <span class="topic-name">Recruitment And Selection</span>
+      </a>
+      <a href="topics/business/ocr/BS16-motivation.html" class="topic-card">
+        <span class="topic-id">BS16</span>
+        <span class="topic-name">Motivation</span>
+      </a>
+      <a href="topics/business/ocr/BS17-training.html" class="topic-card">
+        <span class="topic-id">BS17</span>
+        <span class="topic-name">Training</span>
+      </a>
+      <a href="topics/business/ocr/BS18-customers-segmentation-and-market-research.html" class="topic-card">
+        <span class="topic-id">BS18</span>
+        <span class="topic-name">Customers Segmentation And Market Research</span>
+      </a>
+      <a href="topics/business/ocr/BS19-product.html" class="topic-card">
+        <span class="topic-id">BS19</span>
+        <span class="topic-name">Product</span>
+      </a>
+      <a href="topics/business/ocr/BS2-business-ownership.html" class="topic-card">
+        <span class="topic-id">BS2</span>
+        <span class="topic-name">Business Ownership</span>
+      </a>
+      <a href="topics/business/ocr/BS20-price-and-place.html" class="topic-card">
+        <span class="topic-id">BS20</span>
+        <span class="topic-name">Price And Place</span>
+      </a>
+      <a href="topics/business/ocr/BS21-promotion.html" class="topic-card">
+        <span class="topic-id">BS21</span>
+        <span class="topic-name">Promotion</span>
+      </a>
+      <a href="topics/business/ocr/BS22-the-marketing-mix.html" class="topic-card">
+        <span class="topic-id">BS22</span>
+        <span class="topic-name">The Marketing Mix</span>
+      </a>
+      <a href="topics/business/ocr/BS23-sources-of-finance.html" class="topic-card">
+        <span class="topic-id">BS23</span>
+        <span class="topic-name">Sources Of Finance</span>
+      </a>
+      <a href="topics/business/ocr/BS24-cash-flow.html" class="topic-card">
+        <span class="topic-id">BS24</span>
+        <span class="topic-name">Cash Flow</span>
+      </a>
+      <a href="topics/business/ocr/BS25-financial-calculations.html" class="topic-card">
+        <span class="topic-id">BS25</span>
+        <span class="topic-name">Financial Calculations</span>
+      </a>
+      <a href="topics/business/ocr/BS26-analysing-financial-performance.html" class="topic-card">
+        <span class="topic-id">BS26</span>
+        <span class="topic-name">Analysing Financial Performance</span>
+      </a>
+      <a href="topics/business/ocr/BS3-aims-and-objectives.html" class="topic-card">
+        <span class="topic-id">BS3</span>
+        <span class="topic-name">Aims And Objectives</span>
+      </a>
+      <a href="topics/business/ocr/BS4-stakeholders.html" class="topic-card">
+        <span class="topic-id">BS4</span>
+        <span class="topic-name">Stakeholders</span>
+      </a>
+      <a href="topics/business/ocr/BS5-business-location-and-expansion.html" class="topic-card">
+        <span class="topic-id">BS5</span>
+        <span class="topic-name">Business Location And Expansion</span>
+      </a>
+      <a href="topics/business/ocr/BS6-technology.html" class="topic-card">
+        <span class="topic-id">BS6</span>
+        <span class="topic-name">Technology</span>
+      </a>
+      <a href="topics/business/ocr/BS7-ethical-and-environmental-considerations.html" class="topic-card">
+        <span class="topic-id">BS7</span>
+        <span class="topic-name">Ethical And Environmental Considerations</span>
+      </a>
+      <a href="topics/business/ocr/BS8-the-economic-climate.html" class="topic-card">
+        <span class="topic-id">BS8</span>
+        <span class="topic-name">The Economic Climate</span>
+      </a>
+      <a href="topics/business/ocr/BS9-globalisation-and-legislation.html" class="topic-card">
+        <span class="topic-id">BS9</span>
+        <span class="topic-name">Globalisation And Legislation</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="business-eduqas" class="section" data-board="eduqas">
+    <h2>Business — Eduqas (26 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/business/eduqas/BS1-purpose-and-enterprise.html" class="topic-card">
+        <span class="topic-id">BS1</span>
+        <span class="topic-name">Purpose And Enterprise</span>
+      </a>
+      <a href="topics/business/eduqas/BS10-production-processes.html" class="topic-card">
+        <span class="topic-id">BS10</span>
+        <span class="topic-name">Production Processes</span>
+      </a>
+      <a href="topics/business/eduqas/BS11-procurement-and-stock-management.html" class="topic-card">
+        <span class="topic-id">BS11</span>
+        <span class="topic-name">Procurement And Stock Management</span>
+      </a>
+      <a href="topics/business/eduqas/BS12-quality.html" class="topic-card">
+        <span class="topic-id">BS12</span>
+        <span class="topic-name">Quality</span>
+      </a>
+      <a href="topics/business/eduqas/BS13-customer-service.html" class="topic-card">
+        <span class="topic-id">BS13</span>
+        <span class="topic-name">Customer Service</span>
+      </a>
+      <a href="topics/business/eduqas/BS14-organisational-structures.html" class="topic-card">
+        <span class="topic-id">BS14</span>
+        <span class="topic-name">Organisational Structures</span>
+      </a>
+      <a href="topics/business/eduqas/BS15-recruitment-and-selection.html" class="topic-card">
+        <span class="topic-id">BS15</span>
+        <span class="topic-name">Recruitment And Selection</span>
+      </a>
+      <a href="topics/business/eduqas/BS16-motivation.html" class="topic-card">
+        <span class="topic-id">BS16</span>
+        <span class="topic-name">Motivation</span>
+      </a>
+      <a href="topics/business/eduqas/BS17-training.html" class="topic-card">
+        <span class="topic-id">BS17</span>
+        <span class="topic-name">Training</span>
+      </a>
+      <a href="topics/business/eduqas/BS18-customers-segmentation-and-market-research.html" class="topic-card">
+        <span class="topic-id">BS18</span>
+        <span class="topic-name">Customers Segmentation And Market Research</span>
+      </a>
+      <a href="topics/business/eduqas/BS19-product.html" class="topic-card">
+        <span class="topic-id">BS19</span>
+        <span class="topic-name">Product</span>
+      </a>
+      <a href="topics/business/eduqas/BS2-business-ownership.html" class="topic-card">
+        <span class="topic-id">BS2</span>
+        <span class="topic-name">Business Ownership</span>
+      </a>
+      <a href="topics/business/eduqas/BS20-price-and-place.html" class="topic-card">
+        <span class="topic-id">BS20</span>
+        <span class="topic-name">Price And Place</span>
+      </a>
+      <a href="topics/business/eduqas/BS21-promotion.html" class="topic-card">
+        <span class="topic-id">BS21</span>
+        <span class="topic-name">Promotion</span>
+      </a>
+      <a href="topics/business/eduqas/BS22-the-marketing-mix.html" class="topic-card">
+        <span class="topic-id">BS22</span>
+        <span class="topic-name">The Marketing Mix</span>
+      </a>
+      <a href="topics/business/eduqas/BS23-sources-of-finance.html" class="topic-card">
+        <span class="topic-id">BS23</span>
+        <span class="topic-name">Sources Of Finance</span>
+      </a>
+      <a href="topics/business/eduqas/BS24-cash-flow.html" class="topic-card">
+        <span class="topic-id">BS24</span>
+        <span class="topic-name">Cash Flow</span>
+      </a>
+      <a href="topics/business/eduqas/BS25-financial-calculations.html" class="topic-card">
+        <span class="topic-id">BS25</span>
+        <span class="topic-name">Financial Calculations</span>
+      </a>
+      <a href="topics/business/eduqas/BS26-analysing-financial-performance.html" class="topic-card">
+        <span class="topic-id">BS26</span>
+        <span class="topic-name">Analysing Financial Performance</span>
+      </a>
+      <a href="topics/business/eduqas/BS3-aims-and-objectives.html" class="topic-card">
+        <span class="topic-id">BS3</span>
+        <span class="topic-name">Aims And Objectives</span>
+      </a>
+      <a href="topics/business/eduqas/BS4-stakeholders.html" class="topic-card">
+        <span class="topic-id">BS4</span>
+        <span class="topic-name">Stakeholders</span>
+      </a>
+      <a href="topics/business/eduqas/BS5-business-location-and-expansion.html" class="topic-card">
+        <span class="topic-id">BS5</span>
+        <span class="topic-name">Business Location And Expansion</span>
+      </a>
+      <a href="topics/business/eduqas/BS6-technology.html" class="topic-card">
+        <span class="topic-id">BS6</span>
+        <span class="topic-name">Technology</span>
+      </a>
+      <a href="topics/business/eduqas/BS7-ethical-and-environmental-considerations.html" class="topic-card">
+        <span class="topic-id">BS7</span>
+        <span class="topic-name">Ethical And Environmental Considerations</span>
+      </a>
+      <a href="topics/business/eduqas/BS8-the-economic-climate.html" class="topic-card">
+        <span class="topic-id">BS8</span>
+        <span class="topic-name">The Economic Climate</span>
+      </a>
+      <a href="topics/business/eduqas/BS9-globalisation-and-legislation.html" class="topic-card">
+        <span class="topic-id">BS9</span>
+        <span class="topic-name">Globalisation And Legislation</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="business-ccea" class="section" data-board="ccea">
+    <h2>Business — CCEA (26 Topics)</h2>
+    <div class="topics-grid">
+      <a href="topics/business/ccea/BS1-purpose-and-enterprise.html" class="topic-card">
+        <span class="topic-id">BS1</span>
+        <span class="topic-name">Purpose And Enterprise</span>
+      </a>
+      <a href="topics/business/ccea/BS10-production-processes.html" class="topic-card">
+        <span class="topic-id">BS10</span>
+        <span class="topic-name">Production Processes</span>
+      </a>
+      <a href="topics/business/ccea/BS11-procurement-and-stock-management.html" class="topic-card">
+        <span class="topic-id">BS11</span>
+        <span class="topic-name">Procurement And Stock Management</span>
+      </a>
+      <a href="topics/business/ccea/BS12-quality.html" class="topic-card">
+        <span class="topic-id">BS12</span>
+        <span class="topic-name">Quality</span>
+      </a>
+      <a href="topics/business/ccea/BS13-customer-service.html" class="topic-card">
+        <span class="topic-id">BS13</span>
+        <span class="topic-name">Customer Service</span>
+      </a>
+      <a href="topics/business/ccea/BS14-organisational-structures.html" class="topic-card">
+        <span class="topic-id">BS14</span>
+        <span class="topic-name">Organisational Structures</span>
+      </a>
+      <a href="topics/business/ccea/BS15-recruitment-and-selection.html" class="topic-card">
+        <span class="topic-id">BS15</span>
+        <span class="topic-name">Recruitment And Selection</span>
+      </a>
+      <a href="topics/business/ccea/BS16-motivation.html" class="topic-card">
+        <span class="topic-id">BS16</span>
+        <span class="topic-name">Motivation</span>
+      </a>
+      <a href="topics/business/ccea/BS17-training.html" class="topic-card">
+        <span class="topic-id">BS17</span>
+        <span class="topic-name">Training</span>
+      </a>
+      <a href="topics/business/ccea/BS18-customers-segmentation-and-market-research.html" class="topic-card">
+        <span class="topic-id">BS18</span>
+        <span class="topic-name">Customers Segmentation And Market Research</span>
+      </a>
+      <a href="topics/business/ccea/BS19-product.html" class="topic-card">
+        <span class="topic-id">BS19</span>
+        <span class="topic-name">Product</span>
+      </a>
+      <a href="topics/business/ccea/BS2-business-ownership.html" class="topic-card">
+        <span class="topic-id">BS2</span>
+        <span class="topic-name">Business Ownership</span>
+      </a>
+      <a href="topics/business/ccea/BS20-price-and-place.html" class="topic-card">
+        <span class="topic-id">BS20</span>
+        <span class="topic-name">Price And Place</span>
+      </a>
+      <a href="topics/business/ccea/BS21-promotion.html" class="topic-card">
+        <span class="topic-id">BS21</span>
+        <span class="topic-name">Promotion</span>
+      </a>
+      <a href="topics/business/ccea/BS22-the-marketing-mix.html" class="topic-card">
+        <span class="topic-id">BS22</span>
+        <span class="topic-name">The Marketing Mix</span>
+      </a>
+      <a href="topics/business/ccea/BS23-sources-of-finance.html" class="topic-card">
+        <span class="topic-id">BS23</span>
+        <span class="topic-name">Sources Of Finance</span>
+      </a>
+      <a href="topics/business/ccea/BS24-cash-flow.html" class="topic-card">
+        <span class="topic-id">BS24</span>
+        <span class="topic-name">Cash Flow</span>
+      </a>
+      <a href="topics/business/ccea/BS25-financial-calculations.html" class="topic-card">
+        <span class="topic-id">BS25</span>
+        <span class="topic-name">Financial Calculations</span>
+      </a>
+      <a href="topics/business/ccea/BS26-analysing-financial-performance.html" class="topic-card">
+        <span class="topic-id">BS26</span>
+        <span class="topic-name">Analysing Financial Performance</span>
+      </a>
+      <a href="topics/business/ccea/BS3-aims-and-objectives.html" class="topic-card">
+        <span class="topic-id">BS3</span>
+        <span class="topic-name">Aims And Objectives</span>
+      </a>
+      <a href="topics/business/ccea/BS4-stakeholders.html" class="topic-card">
+        <span class="topic-id">BS4</span>
+        <span class="topic-name">Stakeholders</span>
+      </a>
+      <a href="topics/business/ccea/BS5-business-location-and-expansion.html" class="topic-card">
+        <span class="topic-id">BS5</span>
+        <span class="topic-name">Business Location And Expansion</span>
+      </a>
+      <a href="topics/business/ccea/BS6-technology.html" class="topic-card">
+        <span class="topic-id">BS6</span>
+        <span class="topic-name">Technology</span>
+      </a>
+      <a href="topics/business/ccea/BS7-ethical-and-environmental-considerations.html" class="topic-card">
+        <span class="topic-id">BS7</span>
+        <span class="topic-name">Ethical And Environmental Considerations</span>
+      </a>
+      <a href="topics/business/ccea/BS8-the-economic-climate.html" class="topic-card">
+        <span class="topic-id">BS8</span>
+        <span class="topic-name">The Economic Climate</span>
+      </a>
+      <a href="topics/business/ccea/BS9-globalisation-and-legislation.html" class="topic-card">
+        <span class="topic-id">BS9</span>
+        <span class="topic-name">Globalisation And Legislation</span>
+      </a>
+    </div>
+  </section>
 </main>
 <footer class="site-footer">
 <p>GCSE Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p></footer>
 <script>
-function updateSubjectUrl() {
-    const board = document.getElementById('board-select').value;
-    const tier = document.getElementById('tier-select')?.value || 'foundation';
-    
-    document.querySelectorAll('.topic-card').forEach(card => {
-        const href = card.getAttribute('href');
-        if (href && href.startsWith('topics/')) {
-            const match = href.match(/topics\/[^/]+\/(?:[^/]+\/)*([^/]+\.html)/);
-            if (match) {
-                const fileName = match[1];
-                let newHref;
-                if (false) {
-                    newHref = `topics/business/` + board + `/` + tier + `/` + fileName;
-                } else {
-                    newHref = `topics/business/` + board + `/` + fileName;
-                }
-                card.setAttribute('href', newHref);
-            }
-        }
+function switchSubjectBoard() {
+    var sel = document.getElementById('board-select');
+    if (!sel) return;
+    var val = sel.value;
+    document.querySelectorAll('main section[data-board]').forEach(function (sec) {
+        sec.hidden = (sec.getAttribute('data-board') !== val);
     });
-    
-    const path = window.location.pathname;
-    const boardMatch = path.match(/business\/([^/]+)\//);
-    const tierMatch = path.match(/business\/[^/]+\/([^/]+)\//);
-    if (boardMatch) document.getElementById('board-select').value = boardMatch[1];
-    if (tierMatch) document.getElementById('tier-select').value = tierMatch[1];
 }
-document.addEventListener('DOMContentLoaded', updateSubjectUrl);
+document.addEventListener('DOMContentLoaded', function () {
+    var sel = document.getElementById('board-select');
+    var sections = document.querySelectorAll('main section[data-board]');
+    if (!sel || !sections.length) return;
+    var initial = sel.options[0] && sel.options[0].value;
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('board')) {
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === params.get('board')) { initial = params.get('board'); break; }
+        }
+    }
+    sel.value = initial;
+    switchSubjectBoard();
+});
 </script>
 <script src="app.js"></script>
 <script src="sidebar.js"></script>
