@@ -58,10 +58,13 @@ Music AoS4 pages' og:url/canonical/share links repointed from the dead
 repos. `sitemap_gen.py` and `build_search_index.py` now live in this repo;
 index entries carry proper id/name/subject/board fields.
 
-## P1 completion note (2026-10-12)
-- Depth: all P1 subjects at ≥1,800 real words per topic (maths foundation, English Language,
-  English Literature, Chemistry, Biology, Physics, Combined Science).
-- Practicals: every science topic file mentions/contains practical coverage on all boards.
-- Known remaining gaps OUTSIDE P1: OCR higher maths (97 topics ~1,400 words — same expansion
-  treatment recommended as next batch), and maths tier completeness (AQA has no higher set,
-  OCR has no foundation set — 97+97 counterpart files missing).
+## Post-P1 completion (2026-10-12) — OCR higher + maths tier structure
+- OCR higher maths: all 97 topics expanded to ≥1,800 real words (same enrichment as AQA).
+- Maths tier structure RESOLVED: both `aqa/foundation/` and `ocr/higher/` held the SAME
+  full 97-topic set under a single-tier label (higher-only topics sat in "foundation").
+  Files moved to board-first paths (`topics/mathematics/{board}/`) matching every other
+  subject; tier depth stays marked inline ((Higher) sections, tier badges). 194 redirect
+  stubs at the old tier URLs (meta refresh + canonical) preserve inbound links; stubs are
+  excluded from sitemap, search index and subject-page links by a content marker.
+- Remaining known gap: cross-board content differentiation for maths (aqa vs ocr bodies
+  are near-identical — that is the separate board-diff pass, not a tier problem).

@@ -44,7 +44,12 @@ def git_last_date(filepath, repo_root):
 
 
 def is_skippable(p, repo_root):
-    """Skip verification files, dotfiles, pycache."""
+    """Skip verification files, dotfiles, pycache, redirect stubs."""
+    try:
+        if 'http-equiv="refresh"' in open(p, encoding="utf-8", errors="replace").read(600):
+            return True
+    except OSError:
+        pass
     name = p.name
     if name.startswith('google') and name.endswith('.html'):
         return True

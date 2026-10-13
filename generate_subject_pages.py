@@ -35,6 +35,14 @@ def card_parts(path):
     return first.capitalize(), slug_title(stem)
 
 
+def is_redirect_stub(path):
+    try:
+        head = open(path, encoding="utf-8", errors="replace").read(600)
+        return "http-equiv=\"refresh\"" in head
+    except OSError:
+        return False
+
+
 def collect_board(sid, board):
     """Return [(tier_or_None, [relpath,...])] for topics/{sid}/{board}."""
     base = os.path.join(ROOT, "topics", sid, board)
@@ -47,7 +55,7 @@ def collect_board(sid, board):
         if tier not in (None, "foundation", "higher"):
             tier = None
         for fn in files:
-            if fn.endswith(".html") and fn != "index.html":
+            if fn.endswith(".html") and fn != "index.html" and not is_redirect_stub(os.path.join(dirpath, fn)):
                 rel = os.path.relpath(os.path.join(dirpath, fn), ROOT)
                 groups.setdefault(tier, []).append(rel.replace(os.sep, "/"))
     out = []
