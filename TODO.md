@@ -31,7 +31,7 @@
 | Subject pages: static all-board sections | ✅ DONE (2026-10-12) | Build-time render of every board's section per subject page (P0-2 of the brief) |
 | Maths foundation depth | ✅ DONE (2026-10-12) | All 97 AQA foundation topics ≥1,800 real words (batches 1+2a–2i: worked examples, model answers, key facts, exam context, drills; 4 wrong answers corrected). OCR higher maths (97 files) NOT yet expanded — out of P1 scope, tracked below |
 | Required-practical coverage 1:1 | ✅ DONE (2026-10-12) | All four boards × separate sciences 100% (36 files mention practicals); 36 boxes added total (AQA 9; Edexcel Core Practical / OCR PAG / CCEA Practical Investigation — names only, no board numbering we cannot verify) |
-| Board-diff pass | ⬜ TODO | Diff same-slug files across boards; inject genuine spec differences; board-difference boxes |
+| Board-diff pass | ✅ DONE (2026-10-12) | Per-board "Board Focus" boxes injected into 3,256 topic pages across 29 multi-board subjects (spec codes, paper structure, practicals, tier availability — verified facts only, with a check-your-spec line); composed "Board Differences" section on all 29 subject pages; 0 byte-identical cross-board bodies remain (was 10 groups). Data: board_focus_*.py; injector: inject_board_focus.py |
 | Interactive backfill | ⬜ TODO | `target-tests/` 111 → 977; map `mock-exams/` to papers |
 | Past-paper deep links | ⬜ TODO | Spec PDF + specimen papers + mark schemes per board (not just board homepages) |
 | TODO/analysis docs | ✅ DONE | This file replaces the stale tracker; analysis doc updated |
