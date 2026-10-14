@@ -34,7 +34,7 @@ All major GCSE subjects covered including:
 
 ## Live Site
 
-**[www.scottrix.co.uk/gcserevise](https://scottrix.github.io/gcserevise/)**
+**[www.scottrix.co.uk/gcserevise](https://www.scottrix.co.uk/gcserevise/)**
 
 ## Related Projects
 
