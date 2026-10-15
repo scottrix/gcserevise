@@ -37,6 +37,8 @@
 | P2 geography case studies + fieldwork | ✅ VERIFIED (2026-10-14) | 145/145 files carry case studies + fieldwork; named studies present (Amazon 234 refs, Lagos 57, Bristol 58, Haiti 31, Holderness 16, Dorset 7) |
 | P2 computer science pseudocode + SQL | ✅ VERIFIED (2026-10-14) | Pseudocode/trace tables in 37/37 files; dedicated CS36-sql.html (2,090–2,158 words, 45 SELECT examples) on all 4 boards |
 | Interactive backfill | ⬜ TODO | `target-tests/` 111 → 977; map `mock-exams/` to papers |
+| P3 single-board spec verification | ✅ DONE (2026-10-14) | Spec Focus box on all 261 single-board topic pages (astronomy 1AS0, ancient-history J198, classical-civ J199, dance 8236, engineering 8852, statistics 8382/1ST0; geology/film/electronics named without unverified codes) + Exam Board & Specification section on each of the 10 subject pages; Law honestly flagged: AQA 4160 withdrawn, no board offers GCSE Law — pages kept as A-Level Law foundation |
+| P3 coursework NEA frames | ✅ DONE (2026-10-14) | Coursework & NEA Guide section on all 11 NEA-bearing subject pages (art, music, drama, D&T, food, PE, media, dance, film, electronics, engineering): component weightings, frame/structure per NEA (portfolio AOs, choreographic log, NEA1 science linkage, A&E structure, SoI, circuit-simulation evidence...), timeline and top pitfalls |
 | Past-paper deep links | ⬜ TODO | Spec PDF + specimen papers + mark schemes per board (not just board homepages) |
 | TODO/analysis docs | ✅ DONE | This file replaces the stale tracker; analysis doc updated |
 
