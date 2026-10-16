@@ -1,0 +1,67 @@
+{
+ "subject": "sociology",
+ "board": "AQA",
+ "topic": "SO17-social-stratification",
+ "topicName": "Social Stratification & Class",
+ "version": 1,
+ "tests": [
+  {
+   "id": "SO17-social-stratification-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Social Stratification & Class",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "SO17-social-stratification-t1",
+     "type": "short-answer",
+     "question": "Explain what social stratification is and how social class affects life chances.",
+     "correctAnswer": "Stratification divides society into layers based on wealth, power and status. Class dramatically affects life chances: health, education, income, housing. These inequalities persist across generations.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO17-social-stratification-t2",
+     "type": "short-answer",
+     "question": "Describe the extent of wealth inequality in the UK and evaluate explanations for it.",
+     "correctAnswer": "Top 10% own 44% of wealth; bottom 50% own 9%. Marxist: capitalism concentrates wealth. Wilkinson and Pickett: inequality harms everyone. Some inequality may incentivise effort, but extreme inequality is harmful.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO17-social-stratification-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether social class is still relevant in modern society.",
+     "correctAnswer": "Class still affects health, education, income, housing. Counter: class identities are weakening; social mobility exists. Conclusion: class is less culturally significant but its material impact remains powerful.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "SO17-social-stratification-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Social Stratification & Class",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "SO17-social-stratification-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the view that social class is the most significant factor affecting life chances in modern Britain. <div class=\"",
+     "correctAnswer": "A grade 9 response will: define social class and life chances; present evidence that class affects health, education, income; compare with gender and ethnicity; consider intersectionality; conclude: social class is the most significant single factor but gender and ethnicity interact with class to compound disadvantage.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

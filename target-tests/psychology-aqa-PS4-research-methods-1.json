@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS4-research-methods-1",
+ "topicName": "Research Methods (Part 1)",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS4-research-methods-1-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Research Methods (Part 1)",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS4-research-methods-1-t1",
+     "type": "short-answer",
+     "question": "Describe the different types of experiment used in psychological research and evaluate their strengths and weaknesses.",
+     "correctAnswer": "Lab: high control (can establish cause-effect), replicable, but low ecological validity and demand characteristics. Field: natural setting, higher ecological validity, but less control and harder to replicate. Natural: IV not manipulated (ethical advantage), but no random allocation so causation harder to establish. Quasi: allows study of existing groups, but cannot randomly allocate.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS4-research-methods-1-t2",
+     "type": "short-answer",
+     "question": "Explain why correlation does not equal causation, using an example from psychology.",
+     "correctAnswer": "A correlation between ice cream sales and drowning incidents does not mean ice cream causes drowning - the third variable (hot weather) causes both. In psychology, a correlation between self-esteem and academic achievement does not prove one causes the other.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS4-research-methods-1-t3",
+     "type": "short-answer",
+     "question": "Compare random sampling with opportunity sampling, evaluating the strengths and limitations of each.",
+     "correctAnswer": "Random sampling: every member of the target population has an equal chance - reduces bias, representative. But impractical for large populations. Opportunity sampling: convenient, quick, cheap. But biased (unrepresentative). Random is more representative but harder to achieve; opportunity is practical but less rigorous.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS4-research-methods-1-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Research Methods (Part 1)",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS4-research-methods-1-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the use of experiments and observations in psychological research, considering when each method is most appropriate. <div class=\"",
+     "correctAnswer": "A grade 9 response will: describe experiments (lab, field, natural, quasi) and observations (naturalistic, controlled); evaluate experiments (cause-effect but artificial); evaluate observations (natural behaviour but no control); conclude: experiments are best for testing causal relationships; observations are best for studying natural behaviour. Researchers should choose the method that best fits their research question.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

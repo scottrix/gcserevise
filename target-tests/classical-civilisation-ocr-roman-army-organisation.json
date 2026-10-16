@@ -1,0 +1,96 @@
+{
+ "subject": "classical-civilisation",
+ "board": "OCR",
+ "topic": "roman-army-organisation",
+ "topicName": "The Roman Army",
+ "version": 1,
+ "tests": [
+  {
+   "id": "roman-army-organisation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Roman Army",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "roman-army-organisation-t1",
+     "type": "short-answer",
+     "question": "Q: Why was Roman discipline so effective?",
+     "correctAnswer": "Strict training created instinctive obedience and cohesion. Decimation deterred cowardice. The marching camp imposed order. Units that stood together survived; individuals who broke ranks endangered everyone.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "roman-army-organisation-t2",
+     "type": "short-answer",
+     "question": "Q: What was the difference between legionaries and auxiliaries?",
+     "correctAnswer": "Legionaries were Roman citizens in the legions; auxiliaries were non-citizens from provinces providing specialist skills (cavalry, archers) who received citizenship on discharge.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "roman-army-organisation-t3",
+     "type": "short-answer",
+     "question": "Q: Why was the Roman marching camp important?",
+     "correctAnswer": "It provided security against surprise attacks, gave soldiers routine, and allowed the army to project power. The same layout every night created familiarity and discipline.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "roman-army-organisation-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on The Roman Army",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "roman-army-organisation-t4",
+     "type": "short-answer",
+     "question": "Q: How did the army function as an engineering force?",
+     "correctAnswer": "Legionaries built roads, bridges, forts, walls like Hadrian's Wall, aqueducts and entire cities. Engineering was as important as combat in securing the empire.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "roman-army-organisation-t5",
+     "type": "short-answer",
+     "question": "Q: What made the gladius effective?",
+     "correctAnswer": "Its short length made it ideal for close-formation combat. Designed for thrusting (more lethal than slashing), it could be used behind the protection of the scutum.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "roman-army-organisation-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on The Roman Army",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "roman-army-organisation-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How far was Roman military success due to organisation rather than tactics? (15 marks) <div class=\"",
+     "correctAnswer": "Roman military success was primarily due to organisation, though effective tactics and engineering were also essential. The legion structure with cohorts, centuries and a clear chain of command, combined with the professional standing army and relentless training, produced soldiers who could manoeuvre as a coherent unit under any conditions. The marching camp system meant Romans never slept undefended. Logistics — supply lines, road networks and naval support — enabled sustained campaigns. This organisational depth meant Rome could absorb defeats and raise new armies, while enemies who lost once often collapsed. However, tactics were also crucial. The pilum-and-gladius combination was devastating. The testudo, crescent formation and reserve line allowed flexible responses. Engineering turned terrain disadvantages into advantages through siege works, bridges and roads. Overall, organisation was the foundation — it created the disciplined, well-supplied force that made tactical innovation possible. Without organisation, brilliant tactics would fail; with it, even conventional tactics could overwhelm most opponents.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

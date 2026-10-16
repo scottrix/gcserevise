@@ -1,0 +1,67 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC25-exchange-rates",
+ "topicName": "Exchange Rates",
+ "version": 1,
+ "tests": [
+  {
+   "id": "EC25-exchange-rates-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Exchange Rates",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "EC25-exchange-rates-t1",
+     "type": "short-answer",
+     "question": "Explain how an exchange rate is determined through supply and demand.",
+     "correctAnswer": "Exchange rates are determined by supply and demand for currencies. When demand for pounds rises (foreign investors want to invest in UK), the pound appreciates. When supply of pounds rises (UK consumers buying imports), the pound depreciates.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC25-exchange-rates-t2",
+     "type": "short-answer",
+     "question": "Analyse how a depreciation of the pound would affect UK exporters and consumers buying imports.",
+     "correctAnswer": "Depreciation: UK exporters benefit (goods cheaper for foreign buyers). UK consumers lose (imported goods become more expensive, inflationary pressure).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC25-exchange-rates-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether a strong pound is good for the UK economy.",
+     "correctAnswer": "A strong pound benefits: consumers (cheaper imports, cheaper holidays), firms importing raw materials. A strong pound harms: exporters, import-competing firms, tourism. Given the UK's trade deficit in goods, a slightly weaker pound may help reduce the deficit.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "EC25-exchange-rates-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Exchange Rates",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "EC25-exchange-rates-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the impact of a significant depreciation of the pound on the UK economy. <div class=\"",
+     "correctAnswer": "A grade 9 response will: immediate effects (imports more expensive = cost-push inflation, exports cheaper = boost for exporters); longer-term (reduced trade deficit if export volumes respond, inflation may trigger rate rises); distributional (exporters gain, the poor lose more as essentials are imported); conclude: depreciation has mixed effects — helps trade balance but causes inflation that hurts consumers, particularly those on low incomes.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

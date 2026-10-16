@@ -1,0 +1,107 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "food-poisoning-food-borne-illness",
+ "topicName": "Food Poisoning & Food-Borne Illness",
+ "version": 1,
+ "tests": [
+  {
+   "id": "food-poisoning-food-borne-illness-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Food Poisoning & Food-Borne Illness",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "food-poisoning-food-borne-illness-t1",
+     "type": "short-answer",
+     "question": "Q: Name the most common bacterial cause of food poisoning in the UK.",
+     "correctAnswer": "Campylobacter, often found in undercooked poultry.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-poisoning-food-borne-illness-t2",
+     "type": "short-answer",
+     "question": "Q: What is the difference between food poisoning by infection and by intoxication?",
+     "correctAnswer": "Infection: caused by eating food containing live bacteria that multiply in the gut. Intoxication: caused by eating food containing toxins already produced by bacteria before the food is eaten.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-poisoning-food-borne-illness-t3",
+     "type": "short-answer",
+     "question": "Q: Which bacterium produces toxins in food and is carried on human skin?",
+     "correctAnswer": "Staphylococcus aureus. It is carried on skin and in nasal passages, and can transfer to food through poor hand hygiene.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "food-poisoning-food-borne-illness-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Food Poisoning & Food-Borne Illness",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "food-poisoning-food-borne-illness-t4",
+     "type": "short-answer",
+     "question": "Q: What is cross-contamination and why is it dangerous?",
+     "correctAnswer": "Cross-contamination is the transfer of harmful bacteria from one food (usually raw meat/poultry) to ready-to-eat food. It is the most common cause of food poisoning.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-poisoning-food-borne-illness-t5",
+     "type": "short-answer",
+     "question": "Q: Name two sources of E. coli O157 and a serious complication it can cause.",
+     "correctAnswer": "Sources: undercooked minced beef and unpasteurised milk. Complication: haemolytic uraemic syndrome (HUS), which can cause kidney failure.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-poisoning-food-borne-illness-t6",
+     "type": "short-answer",
+     "question": "Q: Why is Clostridium perfringens particularly difficult to eliminate through cooking?",
+     "correctAnswer": "It forms heat-resistant spores that can survive normal cooking temperatures. If food is then left at room temperature, the spores germinate and the bacteria multiply rapidly.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-poisoning-food-borne-illness-t7",
+     "type": "short-answer",
+     "question": "Q: Give three ways to prevent cross-contamination.",
+     "correctAnswer": "Use separate chopping boards for raw and cooked food, wash hands thoroughly after handling raw meat, store raw meat below ready-to-eat food in the fridge, and clean and disinfect surfaces between tasks (any three).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-poisoning-food-borne-illness-t8",
+     "type": "short-answer",
+     "question": "Q: What is norovirus and how is it commonly spread?",
+     "correctAnswer": "Norovirus is a virus (the 'winter vomiting bug') spread through contaminated food, water, surfaces, or poor personal hygiene, especially by food handlers who are ill.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

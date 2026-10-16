@@ -1,0 +1,96 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "power-supplies",
+ "topicName": "Power Supplies & Regulation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "power-supplies-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Power Supplies & Regulation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "power-supplies-t1",
+     "type": "short-answer",
+     "question": "Q: What is the ripple frequency of a full-wave rectifier supplied from 50 Hz mains?",
+     "correctAnswer": "100 Hz, because both halves of the AC cycle are rectified, doubling the frequency.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "power-supplies-t2",
+     "type": "short-answer",
+     "question": "Q: A Zener regulator has V_in = 12 V, V_Z = 5.1 V, I_Z = 20 mA and I_load = 50 mA. Calculate R_s.",
+     "correctAnswer": "R_s = (V_in − V_Z)/(I_Z + I_load) = (12 − 5.1)/(0.02 + 0.05) = 6.9/0.07 = 98.6 Ω ≈ 100 Ω.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "power-supplies-t3",
+     "type": "short-answer",
+     "question": "Q: Explain why a smoothing capacitor reduces ripple voltage.",
+     "correctAnswer": "The capacitor charges during the rectifier peak and discharges into the load during the trough, filling in the gaps between rectified pulses.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "power-supplies-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Power Supplies & Regulation",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "power-supplies-t4",
+     "type": "short-answer",
+     "question": "Q: State two advantages of a bridge rectifier over a half-wave rectifier.",
+     "correctAnswer": "A bridge rectifier uses both halves of the AC cycle (higher output) and has lower ripple because the ripple frequency is doubled.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "power-supplies-t5",
+     "type": "short-answer",
+     "question": "Q: Why does a 7805 regulator need a heat sink when the input voltage is significantly above 5 V?",
+     "correctAnswer": "The regulator dissipates power P = (V_in − V_out) × I_load as heat; with a large voltage difference, this power can exceed the device's dissipation limit.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "power-supplies-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Power Supplies & Regulation",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "power-supplies-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Describe the stages of a regulated DC power supply from mains AC input to stable DC output, explaining the role of rectification, smoothing and voltage regulation. <div class=\"",
+     "correctAnswer": "A regulated DC power supply converts mains AC to stable DC through four stages. First, a step-down transformer reduces the 230 V AC mains to a lower AC voltage (e.g. 12 V AC). Second, a rectifier converts the AC to pulsating DC: a half-wave rectifier uses one diode and only passes one half-cycle, while a bridge rectifier uses four diodes to pass both half-cycles, producing full-wave rectified DC with a ripple frequency of 100 Hz. Third, a smoothing capacitor (typically hundreds or thousands of microfarads) charges during the rectifier peaks and discharges into the load during the troughs, reducing the ripple voltage. The ripple is approximately V_ripple = I_load/(f × C). Fourth, a voltage regulator provides a constant output voltage regardless of remaining ripple or load current changes. A Zener diode regulator uses the reverse breakdown voltage as a reference, with a series resistor to limit current. A three-terminal IC regulator (e.g. 7805) provides tighter regulation with built-in current limiting and thermal shutdown. The result is a clean, stable DC supply suitable for powering electronic circuits.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

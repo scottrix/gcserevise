@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS26-issues-and-debates",
+ "topicName": "Issues & Debates in Psychology",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS26-issues-and-debates-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Issues & Debates in Psychology",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS26-issues-and-debates-t1",
+     "type": "short-answer",
+     "question": "Explain the nature-nurture debate and evaluate whether behaviour is determined by nature or nurture.",
+     "correctAnswer": "Nature: behaviour is biologically determined (genes, brain, evolution). Evidence: twin studies, universal behaviours. Nurture: behaviour is environmentally determined (learning, culture, upbringing). Evidence: cultural differences, conditioning. Modern interactionism: both contribute - genes provide predispositions, environment triggers or suppresses them. Epigenetics shows environment can alter g",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS26-issues-and-debates-t2",
+     "type": "short-answer",
+     "question": "Describe the difference between free will and determinism, giving examples of each from psychological research.",
+     "correctAnswer": "Free will: people make conscious choices about their behaviour. Supported by: subjective experience of choice, effectiveness of therapies that assume personal agency (CBT). Determinism: behaviour is caused by prior factors. Biological determinism (genes -> behaviour), environmental determinism (conditioning -> behaviour), psychic determinism (unconscious drives). Soft determinism (Bandura): behavi",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS26-issues-and-debates-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether psychological research suffers from ethnocentric and gender bias, and explain how this can be addressed.",
+     "correctAnswer": "Ethnocentric bias: Western research dominates and may not generalise (Asch's conformity findings vary by culture; WEIRD samples are not representative). Gender bias: male participants overrepresented (Milgram used only males, Kohlberg's moral stages based on males). Addressing bias: use diverse samples, conduct cross-cultural research, include both genders, be aware of androcentrism (male-centred ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS26-issues-and-debates-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Issues & Debates in Psychology",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS26-issues-and-debates-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether the nature-nurture debate has been resolved by modern psychology. <div class=\"",
+     "correctAnswer": "A grade 9 response will: define nature and nurture with evidence for each; explain why the debate is a false dichotomy (interactionism); present epigenetics as evidence for interaction (environment switches genes on/off); discuss the diathesis-stress model (genetic vulnerability + environmental triggers); evaluate using specific examples (depression: genetic predisposition + life events; phobias: biological preparedness + conditioning); conclude: the nature-nurture debate is largely resolved in favour of interactionism - both contribute to all behaviour. The question is no longer whether nature or nurture matters, but HOW they interact. Epigenetics provides the mechanism for this interaction, showing that the old nature-vs-nurture framework is outdated.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as11-star-properties-classification",
+ "topicName": "Star Properties & Classification",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as11-star-properties-classification-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Star Properties & Classification",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as11-star-properties-classification-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between apparent and absolute magnitude?",
+     "correctAnswer": "Apparent magnitude is how bright a star looks from Earth. Absolute magnitude is the brightness it would have if placed at a standard distance of 10 parsecs.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as11-star-properties-classification-t2",
+     "type": "short-answer",
+     "question": "Q: State the spectral classes from hottest to coolest.",
+     "correctAnswer": "O, B, A, F, G, K, M (mnemonic: Oh Be A Fine Girl/Guy, Kiss Me).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as11-star-properties-classification-t3",
+     "type": "short-answer",
+     "question": "Q: How is stellar parallax used to measure distance?",
+     "correctAnswer": "A star's apparent shift against background stars is measured over 6 months. Distance in parsecs = 1/parallax angle in arcseconds.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as11-star-properties-classification-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Star Properties & Classification",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as11-star-properties-classification-t4",
+     "type": "short-answer",
+     "question": "Q: Why do blue stars appear brighter than red stars of the same size?",
+     "correctAnswer": "Blue stars are hotter, and luminosity depends on temperature (L ∝ T⁴), so hotter stars emit far more energy per unit area.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as11-star-properties-classification-t5",
+     "type": "short-answer",
+     "question": "Q: What is the inverse square law of light?",
+     "correctAnswer": "Apparent brightness decreases proportionally to 1/d², where d is the distance from the star.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

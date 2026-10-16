@@ -1,0 +1,77 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "ah3-athens-democracy",
+ "topicName": "Athens & the Birth of Democracy",
+ "version": 1,
+ "tests": [
+  {
+   "id": "ah3-athens-democracy-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Athens & the Birth of Democracy",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "ah3-athens-democracy-t1",
+     "type": "short-answer",
+     "question": "Q: What were Solon's key reforms and why were they important?",
+     "correctAnswer": "Solon (594 BC) cancelled all debts (seisachtheia), banned debt slavery, and reorganised citizens into four property classes. This prevented civil war between rich and poor, freed those enslaved by debt, and laid foundations for later democracy by giving even the poorest some political rights.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah3-athens-democracy-t2",
+     "type": "short-answer",
+     "question": "Q: How did Cleisthenes' reforms create democracy?",
+     "correctAnswer": "Cleisthenes (508 BC) reorganised Attica into 140 demes (local districts) and grouped them into ten new tribes, each containing demes from city, coast and inland areas. This broke the power of aristocratic families by mixing citizens across regions. The boule of 500 (50 from each tribe) was created, giving broader participation in government.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah3-athens-democracy-t3",
+     "type": "short-answer",
+     "question": "Q: What was ostracism and what was its purpose?",
+     "correctAnswer": "Ostracism was a procedure where the assembly voted to exile one citizen for 10 years. Citizens wrote the name of the person they wanted exiled on pottery shards (ostraka). If at least 6,000 votes were cast, the person with the most votes was exiled. Its purpose was to remove potential tyrants or those becoming too powerful.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "ah3-athens-democracy-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Athens & the Birth of Democracy",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "ah3-athens-democracy-t4",
+     "type": "short-answer",
+     "question": "Q: How did Pericles make Athens more democratic?",
+     "correctAnswer": "Pericles introduced pay (misthophoria) for jury service and public office in the 450s BC, enabling even poor citizens (thetes) to participate in government without financial loss. He also made the boule selection by lot rather than election, reducing the influence of wealth and rhetoric.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah3-athens-democracy-t5",
+     "type": "short-answer",
+     "question": "Q: How was Athenian democracy different from modern democracy?",
+     "correctAnswer": "Athenian democracy was direct: citizens voted on laws and policies themselves in the assembly, not through elected representatives. Offices were filled by lot (random selection) rather than election. However, it excluded women, slaves and metics — probably only 10-20% of the population were citizens.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

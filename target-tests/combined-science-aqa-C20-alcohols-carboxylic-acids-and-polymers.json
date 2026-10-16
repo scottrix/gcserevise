@@ -1,0 +1,106 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C20-alcohols-carboxylic-acids-and-polymers",
+ "topicName": "Alcohols Carboxylic Acids And Polymers",
+ "version": 1,
+ "tests": [
+  {
+   "id": "C20-alcohols-carboxylic-acids-and-polymers-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Alcohols Carboxylic Acids And Polymers",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "C20-alcohols-carboxylic-acids-and-polymers-t1",
+     "type": "short-answer",
+     "question": "Name the functional group present in alcohols and give one use of ethanol.",
+     "correctAnswer": "The functional group in alcohols is the hydroxyl group (–OH) . Ethanol is used as a fuel, a solvent, or in alcoholic drinks.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C20-alcohols-carboxylic-acids-and-polymers-t2",
+     "type": "short-answer",
+     "question": "Write a balanced symbol equation for the complete combustion of ethanol.",
+     "correctAnswer": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C20-alcohols-carboxylic-acids-and-polymers-t3",
+     "type": "short-answer",
+     "question": "Explain why carboxylic acids are described as weak acids.",
+     "correctAnswer": "Carboxylic acids are weak acids because they partially ionise in water. Only a small proportion of acid molecules dissociate to release H⁺ ions, so their reactions are less vigorous than strong acids.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "C20-alcohols-carboxylic-acids-and-polymers-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Alcohols Carboxylic Acids And Polymers",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "C20-alcohols-carboxylic-acids-and-polymers-t4",
+     "type": "short-answer",
+     "question": "Higher Write a word equation for the formation of an ester from propanol and ethanoic acid. State the conditions needed.",
+     "correctAnswer": "Propanol + Ethanoic acid → Propyl ethanoate + Water. An acid catalyst (e.g. concentrated sulfuric acid) is needed, and the mixture is heated.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C20-alcohols-carboxylic-acids-and-polymers-t5",
+     "type": "short-answer",
+     "question": "Describe how addition polymers are formed from alkene monomers. Use ethene and polyethene as an example.",
+     "correctAnswer": "Addition polymerisation involves opening the C=C double bond in each alkene monomer. The monomers join together in a long chain. For ethene: the C=C double bond opens, and the molecules link to form polyethene, (—CH₂—CH₂—)ₙ. No other substance is produced.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C20-alcohols-carboxylic-acids-and-polymers-t6",
+     "type": "short-answer",
+     "question": "Higher Compare addition polymerisation and condensation polymerisation.",
+     "correctAnswer": "Addition polymerisation uses one type of monomer (alkenes); condensation uses two different monomers. Addition produces no by-product; condensation produces water. Addition polymers form C—C bonds from opened C=C; condensation polymers form ester linkages.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "C20-alcohols-carboxylic-acids-and-polymers-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Alcohols Carboxylic Acids And Polymers",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "C20-alcohols-carboxylic-acids-and-polymers-t7",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Compare addition polymerisation and condensation polymerisation, including the monomers involved, the products, and the type of bond formed. Give an example of each. <div class=\"",
+     "correctAnswer": "Addition polymerisation uses a single type of monomer — alkenes with a C=C double bond. The double bond opens and the monomers join together in a long chain. No other substance is produced as a by-product. The bond formed between monomers is a C—C single bond from the opened C=C double bond. An example is the polymerisation of ethene to form polyethene: n C₂H₄ → (—CH₂—CH₂—)ₙ. Condensation polymerisation uses two different types of monomer. For polyesters, one monomer is a diol (with two –OH groups) and the other is a dicarboxylic acid (with two –COOH groups). Each time the monomers join, a molecule of water is lost as a by-product. The bond formed between monomers is an ester linkage (—COO—). An example is the formation of a polyester from a diol and a dicarboxylic acid: diol + dicarboxylic acid → polyester + water. The key differences are: addition uses one monomer type and produces no by-product, while condensation uses two monomer types and produces water. Mark scheme: 1 mark for addition monomer type (alkenes, single type); 1 mark for addition mechanism (C=C opens, no by-product); 1 mark for addition example; 1 mark for condensation monomer types (diol + dicarboxylic acid); 1 mark for condensation mechanism (water lost as by-product, ester linkage); 1 mark for condensation example",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "subject": "religious-studies",
+ "board": "AQA",
+ "topic": "RS24-zakah-and-khums",
+ "topicName": "Zakah and Khums",
+ "version": 1,
+ "tests": [
+  {
+   "id": "RS24-zakah-and-khums-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Zakah and Khums",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "RS24-zakah-and-khums-t1",
+     "type": "short-answer",
+     "question": "Explain two reasons why zakah is important for Muslims.",
+     "correctAnswer": "1) Zakah purifies wealth — by giving away 2.5% of their surplus, Muslims acknowledge that all wealth ultimately belongs to Allah and they are merely its stewards. Hoarding wealth is condemned in the Qur'an. 2) Zakah reduces inequality — it redistributes wealth from the rich to the poor, ensuring everyone's basic needs are met. This creates a more just and caring society and prevents the extreme po",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "B21-nutrient-cycles",
+ "topicName": "Nutrient Cycles",
+ "version": 1,
+ "tests": [
+  {
+   "id": "B21-nutrient-cycles-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Nutrient Cycles",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "B21-nutrient-cycles-t1",
+     "type": "short-answer",
+     "question": "Describe the carbon cycle, explaining how carbon is added to and removed from the atmosphere.",
+     "correctAnswer": "CO₂ is removed from the atmosphere by photosynthesis (plants convert CO₂ to glucose). Carbon passes through food chains when animals eat plants. CO₂ is added to the atmosphere by: respiration (all living organisms), decomposition (decomposers break down dead material and respire), and combustion (burning fossil fuels releases stored carbon as CO₂). Carbon is also removed when dead organisms form f",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B21-nutrient-cycles-t2",
+     "type": "short-answer",
+     "question": "Describe the main processes in the water cycle.",
+     "correctAnswer": "Evaporation: Sun heats water in oceans/lakes, turning it to water vapour. Transpiration: water evaporates from plant leaves. Condensation: water vapour cools and forms clouds. Precipitation: water falls as rain/snow. Runoff and infiltration: water flows over or soaks into the ground, returning to rivers and oceans.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B21-nutrient-cycles-t3",
+     "type": "short-answer",
+     "question": "Explain three factors that affect the rate of decomposition.",
+     "correctAnswer": "(1) Temperature — higher temperature speeds up enzyme activity and decomposition, up to an optimum. Very high temperatures denature enzymes. (2) Moisture — decomposers need water; moist conditions speed up decomposition; dry conditions slow it. (3) Oxygen — aerobic decomposers need oxygen; lack of oxygen slows decomposition (anaerobic decomposition is slower).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "B21-nutrient-cycles-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Nutrient Cycles",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "B21-nutrient-cycles-t4",
+     "type": "short-answer",
+     "question": "Explain why a compost heap is turned regularly and kept moist.",
+     "correctAnswer": "Turning the compost heap introduces oxygen, which aerobic decomposers need for respiration. This speeds up decomposition. Keeping it moist provides the water that decomposers need to survive and for enzyme action.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B21-nutrient-cycles-t5",
+     "type": "short-answer",
+     "question": "Higher Compare aerobic and anaerobic decomposition, giving an example of where each is used.",
+     "correctAnswer": "Aerobic decomposition uses oxygen and happens in compost heaps. It is faster and produces CO₂ and compost. Anaerobic decomposition happens without oxygen, such as in biogas generators. It is slower and produces methane (biogas) and digestate. Biogas can be used as fuel, while digestate is used as fertiliser.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "B21-nutrient-cycles-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Nutrient Cycles",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "B21-nutrient-cycles-t6",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Describe the carbon cycle, explaining how carbon is recycled through the living and non-living components of an ecosystem. <div class=\"",
+     "correctAnswer": "Carbon is constantly recycled in the carbon cycle. Plants remove CO₂ from the atmosphere during photosynthesis, converting it into glucose and other organic molecules. Carbon passes through the food chain when animals eat plants and when predators eat other animals. All living organisms respire, which releases CO₂ back into the atmosphere. When organisms die, decomposers (bacteria and fungi) break down their bodies. Decomposers respire during decomposition, releasing more CO₂ into the atmosphere. Under certain conditions over millions of years, the remains of dead organisms are compressed into fossil fuels (coal, oil, natural gas), which lock up carbon underground. When fossil fuels are burned (combustion), this stored carbon is released as CO₂ back into the atmosphere. The oceans also absorb CO₂ from the atmosphere, acting as a carbon sink. The carbon cycle maintains a balance of CO₂ in the atmosphere, but human activities such as burning fossil fuels and deforestation are disrupting this balance. Mark scheme: 1 mark for photosynthesis removing CO₂; 1 mark for carbon passing through food chains; 1 mark for respiration releasing CO₂; 1 mark for decomposition releasing CO₂; 1 mark for fossil fuel formation and combustion; 1 mark for overall recycling / balance",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

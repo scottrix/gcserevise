@@ -1,0 +1,96 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "measures-central-tendency",
+ "topicName": "Measures Central Tendency",
+ "version": 1,
+ "tests": [
+  {
+   "id": "measures-central-tendency-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Measures Central Tendency",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "measures-central-tendency-t1",
+     "type": "short-answer",
+     "question": "Q: Find the mode, median, and mean of: 3, 5, 5, 7, 10",
+     "correctAnswer": "Mode = 5 (appears twice). Median = 5 (middle value of 5 numbers). Mean = (3 + 5 + 5 + 7 + 10) ÷ 5 = 30 ÷ 5 = 6.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "measures-central-tendency-t2",
+     "type": "short-answer",
+     "question": "Q: A student scores 65, 70, and 75 in tests weighted 2, 3, and 5 respectively. Calculate the weighted mean.",
+     "correctAnswer": "Weighted mean = (2 × 65 + 3 × 70 + 5 × 75) ÷ (2 + 3 + 5) = (130 + 210 + 375) ÷ 10 = 715 ÷ 10 = 71.5.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "measures-central-tendency-t3",
+     "type": "short-answer",
+     "question": "Q: An investment grows by 10% in year 1 and 20% in year 2. Why is the geometric mean more appropriate than the arithmetic mean for the average growth rate?",
+     "correctAnswer": "Growth is multiplicative, so the geometric mean = √(1.10 × 1.20) = √1.32 ≈ 1.149, giving an average growth rate of about 14.9%. The arithmetic mean (15%) would overestimate the overall growth.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "measures-central-tendency-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Measures Central Tendency",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "measures-central-tendency-t4",
+     "type": "short-answer",
+     "question": "Q: A dataset has values 2, 3, 3, 3, 100. Explain why the median is more appropriate than the mean.",
+     "correctAnswer": "The outlier 100 pulls the mean to 22.2, which does not represent the data well. The median of 3 better reflects the central value since most data are around 3.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "measures-central-tendency-t5",
+     "type": "short-answer",
+     "question": "Q: From a grouped frequency table with total frequency 50 and Σ(f × midpoint) = 1200, find the estimated mean.",
+     "correctAnswer": "Estimated mean = 1200 ÷ 50 = 24.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "measures-central-tendency-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Measures Central Tendency",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "measures-central-tendency-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response The table shows the number of siblings for 30 students. Calculate the estimated mean. 0–1: frequency 8, 2–3: frequency 14, 4–5: frequency 6, 6–7: frequency 2 <div class=\"",
+     "correctAnswer": "Find midpoints and calculate f × midpoint: Class | Midpoint (m) | f | f × m 0–1 | 0.5 | 8 | 4 2–3 | 2.5 |14 | 35 4–5 | 4.5 | 6 | 27 6–7 | 6.5 | 2 | 13 Total | |30 | 79 Estimated mean = Σ(f × m) ÷ Σf = 79 ÷ 30 = 2.63 (to 2 d.p.) This is an estimate because we have used midpoints rather than the actual data values within each class.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

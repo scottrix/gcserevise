@@ -1,0 +1,107 @@
+{
+ "subject": "latin",
+ "board": "OCR",
+ "topic": "sentence-structure-translation",
+ "topicName": "Sentence Structure & Translation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "sentence-structure-translation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Sentence Structure & Translation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "sentence-structure-translation-t1",
+     "type": "short-answer",
+     "question": "Q: What is the typical word order of a Latin sentence?",
+     "correctAnswer": "Subject-Object-Verb (SOV). The verb usually comes at or near the end. However, word order is flexible because case endings show grammatical relationships.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sentence-structure-translation-t2",
+     "type": "short-answer",
+     "question": "Q: What does GNC agreement mean for adjectives?",
+     "correctAnswer": "Gender, Number, Case: an adjective must match the noun it describes in all three. For example, puella bona (fem. nom. sg.) but servum bonum (masc. acc. sg.).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sentence-structure-translation-t3",
+     "type": "short-answer",
+     "question": "Q: How does the relative pronoun agree with its antecedent?",
+     "correctAnswer": "The relative pronoun agrees with its antecedent in gender and number, but its case is determined by its function within the relative clause itself.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "sentence-structure-translation-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Sentence Structure & Translation",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "sentence-structure-translation-t4",
+     "type": "short-answer",
+     "question": "Q: What is the accusative + infinitive construction?",
+     "correctAnswer": "Indirect statement: the subject of reported speech is in the accusative, and the verb becomes an infinitive. Example: dicit puellam venire (he says the girl is coming).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sentence-structure-translation-t5",
+     "type": "short-answer",
+     "question": "Q: How do you distinguish a purpose clause from a result clause?",
+     "correctAnswer": "Both use ut + subjunctive, but a purpose clause translates as 'in order to' and has no signal word in the main clause. A result clause translates as 'so...that' and is signalled by tam, tantus, ita, or similar in the main clause.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sentence-structure-translation-t6",
+     "type": "short-answer",
+     "question": "Q: What does cum + subjunctive mean and how does context change its translation?",
+     "correctAnswer": "Cum can mean 'when' (temporal), 'since' (causal), or 'although' (concessive), depending on context. All three use the subjunctive mood.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sentence-structure-translation-t7",
+     "type": "short-answer",
+     "question": "Q: How do you translate ne + subjunctive?",
+     "correctAnswer": "Ne + subjunctive forms a negative purpose clause ('in order not to') or a negative indirect command ('not to'). Example: venit ne pater videret (he came so that his father would not see).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sentence-structure-translation-t8",
+     "type": "short-answer",
+     "question": "Q: What is the enclitic -que and how does it differ from et?",
+     "correctAnswer": "-que means 'and' but is attached to the end of the second word (puellae puerique — girls and boys), whereas et stands as a separate word. -que is more emphatic, joining the pair closely.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

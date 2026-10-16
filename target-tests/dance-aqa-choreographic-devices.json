@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "choreographic-devices",
+ "topicName": "Choreographic Devices",
+ "version": 1,
+ "tests": [
+  {
+   "id": "choreographic-devices-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Choreographic Devices",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "choreographic-devices-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between unison and canon?",
+     "correctAnswer": "In unison, all dancers move at the same time; in canon, dancers start the same phrase at different times in sequence.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "choreographic-devices-t2",
+     "type": "short-answer",
+     "question": "Q: Describe how accumulation works as a choreographic device.",
+     "correctAnswer": "Accumulation starts with one movement, then adds a second so both are performed, then a third, and so on — the phrase gradually grows longer with each repetition.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "choreographic-devices-t3",
+     "type": "short-answer",
+     "question": "Q: Why might a choreographer use retrograde in a dance?",
+     "correctAnswer": "Retrograde creates a striking visual effect, like rewinding time. It can symbolise memory, returning to the past, or give a phrase a surprising twist that maintains audience interest.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "choreographic-devices-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Choreographic Devices",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "choreographic-devices-t4",
+     "type": "short-answer",
+     "question": "Q: How does repetition help communicate choreographic intention?",
+     "correctAnswer": "Repetition draws attention to key movements, making them memorable and emphasising their importance to the audience, reinforcing the meaning the choreographer wants to convey.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "choreographic-devices-t5",
+     "type": "short-answer",
+     "question": "Q: Explain how fragmentation can be used to develop a dance phrase.",
+     "correctAnswer": "Fragmentation breaks an existing phrase into smaller parts — these fragments can be rearranged, performed in a different order, or isolated to create new material while keeping a link to the original.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

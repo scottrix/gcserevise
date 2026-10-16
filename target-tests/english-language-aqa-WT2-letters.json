@@ -1,0 +1,48 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "WT2-letters",
+ "topicName": "Letters",
+ "version": 1,
+ "tests": [
+  {
+   "id": "WT2-letters-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Letters",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "WT2-letters-t1",
+     "type": "short-answer",
+     "question": "When should you use \"Yours faithfully\" versus \"Yours sincerely\"?",
+     "correctAnswer": "\"Yours faithfully\" with Dear Sir/Madam; \"Yours sincerely\" when using a specific name (Dear Mr Smith).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WT2-letters-t2",
+     "type": "short-answer",
+     "question": "What is the correct order for a formal letter's components?",
+     "correctAnswer": "Sender's address, date, recipient's address, salutation, content, sign-off, signature.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WT2-letters-t3",
+     "type": "short-answer",
+     "question": "Write the opening of a letter to your local council about litter in your area.",
+     "correctAnswer": "Your opening should include: sender's address, date, council's address, \"Dear Sir/Madam\", and a clear statement of purpose.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

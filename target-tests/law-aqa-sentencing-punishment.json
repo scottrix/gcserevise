@@ -1,0 +1,96 @@
+{
+ "subject": "law",
+ "board": "AQA",
+ "topic": "sentencing-punishment",
+ "topicName": "Sentencing & Punishment",
+ "version": 1,
+ "tests": [
+  {
+   "id": "sentencing-punishment-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Sentencing & Punishment",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "sentencing-punishment-t1",
+     "type": "short-answer",
+     "question": "Q: Explain the five main aims of sentencing.",
+     "correctAnswer": "Retribution — punishing the offender because they deserve it. Deterrence — discouraging the offender (individual) or others (general) from reoffending. Rehabilitation — reforming the offender through treatment or training. Incapacitation — protecting the public by removing dangerous offenders from society. Reparation — making the offender compensate the victim or make amends to society.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sentencing-punishment-t2",
+     "type": "short-answer",
+     "question": "Q: What is the role of the Sentencing Council?",
+     "correctAnswer": "The Sentencing Council produces guidelines that set out the appropriate sentence for different offences, taking into account culpability and harm. Courts must follow these guidelines unless it would be contrary to the interests of justice to do so. The Council also promotes awareness of sentencing and monitors the effectiveness of guidelines.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sentencing-punishment-t3",
+     "type": "short-answer",
+     "question": "Q: What is the difference between aggravating and mitigating factors?",
+     "correctAnswer": "Aggravating factors make the offence more serious and tend to increase the sentence (e.g. use of a weapon, vulnerable victim, previous convictions). Mitigating factors reduce the offender's culpability or the seriousness and tend to decrease the sentence (e.g. guilty plea, first offence, mental health, age, provocation).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "sentencing-punishment-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Sentencing & Punishment",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "sentencing-punishment-t4",
+     "type": "short-answer",
+     "question": "Q: What are community orders and what requirements can they include?",
+     "correctAnswer": "Community orders are non-custodial sentences that impose requirements on the offender to serve in the community. Requirements can include unpaid work (up to 300 hours), curfew (with electronic monitoring), drug or alcohol treatment, attendance at specified activities, prohibited activities, residence requirement, exclusion from areas, and a rehabilitation activity requirement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sentencing-punishment-t5",
+     "type": "short-answer",
+     "question": "Q: Why does the law treat young offenders differently from adults in sentencing?",
+     "correctAnswer": "Young offenders are treated differently because the primary aim for under-18s is rehabilitation rather than punishment, reflecting their reduced maturity and greater capacity for change. Sentences include referral orders, youth rehabilitation orders and, only as a last resort, detention. The principle is that criminalising young people can entrench offending behaviour, so the focus is on education",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "sentencing-punishment-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Sentencing & Punishment",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "sentencing-punishment-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How far do custodial sentences achieve the aims of sentencing? (15 marks) <div class=\"",
+     "correctAnswer": "Custodial sentences achieve some aims of sentencing more effectively than others. They are most effective at incapacitation, removing dangerous offenders from society and preventing them from causing further harm during their imprisonment. They also serve retribution by imposing a severe punishment that reflects the seriousness of the offence and satisfies society's expectation that serious wrongdoing is punished. General deterrence may be partially achieved, as the knowledge that serious offences lead to imprisonment may discourage some potential offenders. However, custodial sentences are much less effective at rehabilitation. The prison environment can entrench criminal behaviour through association with other offenders, and limited access to education, treatment and training means many prisoners are not reformed. Recidivism rates are high — around 48% of adults reoffend within one year of release, suggesting imprisonment fails to rehabilitate. Individual deterrence is also questionable, as many offenders reoffend after release. Furthermore, short custodial sentences (under 12 months) are particularly ineffective, with higher reoffending rates than community orders. Prison can also cause collateral damage: loss of employment, housing and family relationships, and negative effects on mental health, all of which increase the risk of reoffending. Overall, custodial sentences effectively achieve incapacitation and retribution but are largely ineffective at rehabilitation and i",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

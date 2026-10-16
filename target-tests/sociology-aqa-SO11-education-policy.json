@@ -1,0 +1,67 @@
+{
+ "subject": "sociology",
+ "board": "AQA",
+ "topic": "SO11-education-policy",
+ "topicName": "Education Policy",
+ "version": 1,
+ "tests": [
+  {
+   "id": "SO11-education-policy-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Education Policy",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "SO11-education-policy-t1",
+     "type": "short-answer",
+     "question": "Describe how education policy has changed since 1944 and evaluate the impact of these changes.",
+     "correctAnswer": "1944: tripartite system (grammar, secondary modern, technical) - reproduced class inequality. 1965: comprehensives - reduced stigma but streaming reproduced inequality. 1988: marketisation (league tables, Ofsted, choice) - benefits middle-class parents. 2010+: academies and free schools - mixed evidence on impact. Overall: policies have not significantly reduced class inequality.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO11-education-policy-t2",
+     "type": "short-answer",
+     "question": "Evaluate the impact of marketisation on educational inequality.",
+     "correctAnswer": "Marketisation: schools compete like businesses (league tables, Ofsted, open enrollment). Positive: drives up standards, gives parents choice. Negative: Smith and Noble - middle-class parents can 'work the system' (move near good schools, appeal decisions); Gewirtz - three types of chooser (privileged/skilled, semi-skilled, disconnected); creates social segregation (good schools become middle-class",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO11-education-policy-t3",
+     "type": "short-answer",
+     "question": "Assess whether comprehensive education has reduced inequality.",
+     "correctAnswer": "Comprehensives reduced the 11+ stigma and created more social mixing. However: streaming within comprehensives reproduced the tripartite divide (Ball: working-class in lower streams); middle-class parents still find ways to gain advantage (house buying, tutoring); the residual grammar schools in some areas maintain selection. Evaluation: comprehensives reduced some inequalities but could not overc",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "SO11-education-policy-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Education Policy",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "SO11-education-policy-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the impact of education policy on equality of educational opportunity since 1944. <div class=\"",
+     "correctAnswer": "A grade 9 response will: describe key policies (tripartite, comprehensive, marketisation, academies); evaluate each for impact on equality (tripartite reproduced class inequality, comprehensive reduced some inequalities but streaming persisted, marketisation increased class advantage, academies have mixed evidence); conclude: despite 75+ years of reform, class inequality in education persists because policies address symptoms (school structures) not causes (poverty, cultural capital, labelling). Genuine equality requires addressing structural inequality outside as well as inside schools.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

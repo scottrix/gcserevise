@@ -1,0 +1,48 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "WT6-audience-purpose",
+ "topicName": "Audience and Purpose",
+ "version": 1,
+ "tests": [
+  {
+   "id": "WT6-audience-purpose-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Audience and Purpose",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "WT6-audience-purpose-t1",
+     "type": "short-answer",
+     "question": "How would your writing differ if addressing a headteacher versus addressing your peers?",
+     "correctAnswer": "Headteacher: formal register, respectful tone, evidence-based arguments, no contractions. Peers: informal register, relatable tone, personal examples, contractions acceptable.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WT6-audience-purpose-t2",
+     "type": "short-answer",
+     "question": "Explain the difference between writing to persuade and writing to inform.",
+     "correctAnswer": "Persuade aims to convince the reader to agree or take action, using rhetorical devices and emotional appeal. Inform aims to provide facts objectively, with neutral language and clear explanations.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WT6-audience-purpose-t3",
+     "type": "short-answer",
+     "question": "A speech about healthy eating - how would tone differ for primary school children versus adults?",
+     "correctAnswer": "Primary children: simple vocabulary, fun analogies, engaging tone, direct address like \"your body needs...\" Adults: more sophisticated vocabulary, statistics and evidence, respectful tone, addressing them as decision-makers.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as21-observing-techniques",
+ "topicName": "Observing Techniques",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as21-observing-techniques-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Observing Techniques",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as21-observing-techniques-t1",
+     "type": "short-answer",
+     "question": "Q: What is star hopping?",
+     "correctAnswer": "A technique for finding faint objects by starting at a bright, recognisable star pattern and moving in steps using nearby stars until the target is reached.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as21-observing-techniques-t2",
+     "type": "short-answer",
+     "question": "Q: How can you estimate angular separation without equipment?",
+     "correctAnswer": "Using hand measurements at arm's length: little finger ≈ 1°, three middle fingers ≈ 5°, fist ≈ 10°, outstretched hand span ≈ 20°.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as21-observing-techniques-t3",
+     "type": "short-answer",
+     "question": "Q: What factors affect seeing conditions?",
+     "correctAnswer": "Atmospheric turbulence (causing twinkling/scintillation), light pollution, cloud cover, humidity and air transparency.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as21-observing-techniques-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Observing Techniques",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as21-observing-techniques-t4",
+     "type": "short-answer",
+     "question": "Q: How does a planisphere work?",
+     "correctAnswer": "It has a rotating disc with an oval window; you align the date and time to see which constellations are above the horizon at that moment for your latitude.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as21-observing-techniques-t5",
+     "type": "short-answer",
+     "question": "Q: What is the difference between a transit and an occultation?",
+     "correctAnswer": "A transit is when a smaller body passes in front of a larger one (e.g. Mercury across the Sun). An occultation is when a larger body completely hides a smaller one (e.g. the Moon occulting a star).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

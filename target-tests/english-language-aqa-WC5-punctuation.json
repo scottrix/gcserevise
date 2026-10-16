@@ -1,0 +1,77 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "WC5-punctuation",
+ "topicName": "Punctuation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "WC5-punctuation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Punctuation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "WC5-punctuation-t1",
+     "type": "short-answer",
+     "question": "Add the missing punctuation: \"the door opened she walked in slowly and looked around\"",
+     "correctAnswer": "\"The door opened. She walked in slowly and looked around.\" OR \"The door opened. She walked in, slowly, and looked around.\" (Several acceptable versions depending on intended pace and emphasis.)",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC5-punctuation-t2",
+     "type": "short-answer",
+     "question": "What's the difference between these two sentences? \"The students' books\" vs \"The student's books\"",
+     "correctAnswer": "\"The students' books\" = the books belonging to multiple students (plural possession). \"The student's books\" = the books belonging to one student (singular possession).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC5-punctuation-t3",
+     "type": "short-answer",
+     "question": "When would you use a colon instead of a full stop?",
+     "correctAnswer": "Use a colon when the second part explains, illustrates, or expands on the first part. A full stop separates unrelated sentences. Colons create anticipation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "WC5-punctuation-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Punctuation",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "WC5-punctuation-t4",
+     "type": "short-answer",
+     "question": "Correct the speech punctuation: \"Hello she said how are you\"",
+     "correctAnswer": "\"Hello,\" she said. \"How are you?\" OR \"Hello,\" she said, \"how are you?\"",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC5-punctuation-t5",
+     "type": "short-answer",
+     "question": "Explain when to use a semi-colon instead of a comma.",
+     "correctAnswer": "Use a semi-colon to join two complete, related sentences. Use a comma to separate clauses within a sentence or items in a list. Never use a comma to join two complete sentences (comma splice).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

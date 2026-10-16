@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g4-mountain-building",
+ "topicName": "Mountain Building (Orogeny)",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g4-mountain-building-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Mountain Building (Orogeny)",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g4-mountain-building-t1",
+     "type": "short-answer",
+     "question": "Q: What is an anticline and how does it form?",
+     "correctAnswer": "An anticline is an arch-shaped upfold in rock layers. It forms when compressive forces at a convergent boundary buckle rock layers upward. The oldest rocks are exposed in the core of the anticline.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g4-mountain-building-t2",
+     "type": "short-answer",
+     "question": "Q: How do fold mountains differ from fault-block mountains?",
+     "correctAnswer": "Fold mountains form by compression, rock layers buckle into folds at convergent boundaries (e.g. Himalayas). Fault-block mountains form by tension, normal faults cause blocks to drop down, leaving adjacent blocks standing high (e.g. Sierra Nevada).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g4-mountain-building-t3",
+     "type": "short-answer",
+     "question": "Q: What is a nappe and where would you find one?",
+     "correctAnswer": "A nappe is a large-scale recumbent fold where rock layers have been overturned and thrust over younger rocks. They form under intense compression in major mountain belts like the Alps.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g4-mountain-building-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Mountain Building (Orogeny)",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g4-mountain-building-t4",
+     "type": "short-answer",
+     "question": "Q: Name three major fold mountain ranges and state which plate collision caused each.",
+     "correctAnswer": "Himalayas (India colliding with Eurasia), Alps (Africa colliding with Eurasia), Andes (Nazca subducting under South America).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g4-mountain-building-t5",
+     "type": "short-answer",
+     "question": "Q: How does isostasy relate to mountain building?",
+     "correctAnswer": "When continental crust thickens during orogeny, the thickened crust floats higher on the mantle (like a thicker iceberg floats higher). This is isostatic uplift. Erosion later removes material, causing isostatic rebound as the crust rises further.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

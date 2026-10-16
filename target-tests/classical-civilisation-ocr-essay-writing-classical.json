@@ -1,0 +1,96 @@
+{
+ "subject": "classical-civilisation",
+ "board": "OCR",
+ "topic": "essay-writing-classical",
+ "topicName": "Essay Writing Skills",
+ "version": 1,
+ "tests": [
+  {
+   "id": "essay-writing-classical-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Essay Writing Skills",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "essay-writing-classical-t1",
+     "type": "short-answer",
+     "question": "Q: What does PEEL stand for?",
+     "correctAnswer": "Point, Evidence, Explanation, Link — ensures each paragraph is focused and developed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "essay-writing-classical-t2",
+     "type": "short-answer",
+     "question": "Q: What should an introduction include?",
+     "correctAnswer": "Definition of key terms, understanding of the question, and indication of your line of argument.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "essay-writing-classical-t3",
+     "type": "short-answer",
+     "question": "Q: Why is a conclusion essential?",
+     "correctAnswer": "Without a conclusion delivering a justified judgement, you cannot access the top mark band.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "essay-writing-classical-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Essay Writing Skills",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "essay-writing-classical-t4",
+     "type": "short-answer",
+     "question": "Q: How does a 'how far' essay differ from an 'explain' essay?",
+     "correctAnswer": "'How far' requires presenting both sides before a judgement; 'explain' focuses on giving reasons.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "essay-writing-classical-t5",
+     "type": "short-answer",
+     "question": "Q: What distinguishes a top-band answer?",
+     "correctAnswer": "Sustained analysis, precise classical evidence from literary and visual sources, and a convincing judgement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "essay-writing-classical-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Essay Writing Skills",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "essay-writing-classical-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How far was xenia the most important value in the world of the Odyssey? (15 marks) <div class=\"",
+     "correctAnswer": "Xenia was a central value in the Odyssey, but not clearly more important than loyalty, cunning or family. Xenia structures many episodes: the Phaeacians show ideal hospitality, Eumaeus demonstrates true xenia despite poverty, and the suitors are killed for violating it. The code is divinely enforced by Zeus Xenios, giving it religious authority other values lack. The suitors' deaths show that violating xenia is a capital offence. However, loyalty is equally central — Penelope's faithfulness for twenty years, Eumaeus's devotion and Argos's patient waiting show that loyalty drives the poem's emotional power. Cunning (metis) is fundamental — Odysseus's entire strategy depends on it. Family bonds are the deepest motivation — Odysseus endures twenty years of suffering to return to Penelope and Telemachus. In conclusion, xenia was one of several equally important values. Its divine enforcement makes it uniquely powerful, but loyalty, cunning and family love are equally essential to the poem's meaning and to Odysseus's success.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "ah18-punic-wars",
+ "topicName": "The Punic Wars & Hannibal",
+ "version": 1,
+ "tests": [
+  {
+   "id": "ah18-punic-wars-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Punic Wars & Hannibal",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "ah18-punic-wars-t1",
+     "type": "short-answer",
+     "question": "Q: What caused the First Punic War?",
+     "correctAnswer": "Rome and Carthage both wanted control of Sicily, a strategically and economically valuable island. The conflict began when the Mamertines (Italian mercenaries in Messana) asked Rome for protection against Carthage. Rome, seeing an opportunity, intervened and war followed (264-241 BC).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah18-punic-wars-t2",
+     "type": "short-answer",
+     "question": "Q: How did Hannibal achieve his victory at Cannae?",
+     "correctAnswer": "Hannibal deliberately made his centre thin and weak while strengthening his flanks. When the Romans pushed forward against the centre, the Carthaginian flanks wrapped around the Roman army (double envelopment). The Romans were surrounded and slaughtered — perhaps 50,000-70,000 died in a single day.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah18-punic-wars-t3",
+     "type": "short-answer",
+     "question": "Q: Why did Hannibal ultimately fail despite his brilliant victories?",
+     "correctAnswer": "Hannibal won battles but could not take Rome itself. He lacked siege equipment and reinforcements from Carthage were limited. Rome's allies largely remained loyal, and Rome raised new armies after each defeat. Eventually Scipio attacked Carthage directly in Africa, forcing Hannibal to leave Italy and fight at Zama (202 BC), where he was defeated.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "ah18-punic-wars-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on The Punic Wars & Hannibal",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "ah18-punic-wars-t4",
+     "type": "short-answer",
+     "question": "Q: Why was Carthage destroyed in the Third Punic War?",
+     "correctAnswer": "Cato the Elder argued that Carthage, even after military defeat, remained a potential threat to Rome. Carthage had recovered economically, which frightened Rome. When Carthage violated a treaty by defending itself against Numidian attacks, Rome used this as a pretext for war. After a three-year siege, Carthage was destroyed in 146 BC.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah18-punic-wars-t5",
+     "type": "short-answer",
+     "question": "Q: How did the Punic Wars transform Rome?",
+     "correctAnswer": "Rome gained its first overseas provinces (Sicily, Sardinia, Spain), built a powerful navy, and became the dominant power in the Western Mediterranean. The wars also brought wealth, slavery and Greek cultural influence to Rome, while creating social tensions as the rich bought up land worked by war-displaced peasants.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

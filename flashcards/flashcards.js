@@ -201,6 +201,8 @@ class FlashcardRenderer {
     if (!this.container) return;
     
     if (this.flashcards.length === 0) {
+      var sec = this.container.closest('section');
+      if (sec) { sec.hidden = true; return; }
       this.container.innerHTML = '<p class="flashcard-empty">No flashcards available for this topic.</p>';
       return;
     }
@@ -490,6 +492,8 @@ function initTopicFlashcards() {
     if (cards.length > 0) {
       renderer.render();
     } else {
+      var sec = container.closest('section');
+      if (sec) { sec.hidden = true; return; }
       container.innerHTML = '<p class="flashcard-empty">Flashcards coming soon for this topic.</p>';
     }
   });

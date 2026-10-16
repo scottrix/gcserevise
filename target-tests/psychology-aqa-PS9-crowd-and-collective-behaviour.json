@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS9-crowd-and-collective-behaviour",
+ "topicName": "Crowd & Collective Behaviour",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS9-crowd-and-collective-behaviour-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Crowd & Collective Behaviour",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS9-crowd-and-collective-behaviour-t1",
+     "type": "short-answer",
+     "question": "Explain how deindividuation can lead to both antisocial and prosocial behaviour in crowds.",
+     "correctAnswer": "Deindividuation reduces personal accountability - people follow group norms. In an antisocial crowd (riot), anonymity leads to aggression because the group norm is destructive. In a prosocial crowd (charity run), anonymity leads to helpfulness because the group norm is supportive.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS9-crowd-and-collective-behaviour-t2",
+     "type": "short-answer",
+     "question": "Describe Tajfel's minimal group paradigm and evaluate what it tells us about prejudice.",
+     "correctAnswer": "Tajfel showed that even arbitrary group divisions create in-group favouritism. This demonstrates that prejudice arises from the basic cognitive process of categorisation. Limitation: the paradigm is artificial - real-world prejudice involves history, power, and material conflict.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS9-crowd-and-collective-behaviour-t3",
+     "type": "short-answer",
+     "question": "Evaluate methods for reducing prejudice, referring to psychological research.",
+     "correctAnswer": "Contact hypothesis: prejudice reduces when groups interact under equal status, cooperation, and shared goals. Sherif's Robbers Cave: hostile groups reconciled when they worked together on superordinate goals. Evaluation: contact works under optimal conditions but may backfire if groups compete.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS9-crowd-and-collective-behaviour-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Crowd & Collective Behaviour",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS9-crowd-and-collective-behaviour-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the view that prejudice is an inevitable consequence of group membership. <div class=\"",
+     "correctAnswer": "A grade 9 response will: explain SIT (categorisation creates in-group favouritism automatically); support with Tajfel's minimal group paradigm; evaluate (SIT shows bias is basic to group membership); counter-argument (prejudice levels vary across cultures and time, contact reduces prejudice, superordinate goals create cooperation); conclude: while the cognitive processes are basic, the expression of prejudice is not inevitable - it depends on social context and whether conditions promote intergroup contact.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

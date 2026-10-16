@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS8-the-economic-climate",
+ "topicName": "The Economic Climate",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS8-the-economic-climate-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Economic Climate",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS8-the-economic-climate-t1",
+     "type": "short-answer",
+     "question": "Explain how a rise in interest rates from 2% to 5% might affect a business that has a large bank loan.",
+     "correctAnswer": "Higher interest rates increase loan repayments, reducing profit margins. The business may cut investment, delay expansion, or raise prices. Consumers also have less disposable income (higher mortgage payments), so demand may fall. However, savers earn more interest, which could benefit some customer groups.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS8-the-economic-climate-t2",
+     "type": "short-answer",
+     "question": "Analyse how a strengthening of the pound against the euro would affect a UK business that exports to France.",
+     "correctAnswer": "A stronger pound means UK goods become more expensive for French buyers (they get fewer pounds per euro), making exports less competitive. The business may lose orders to cheaper competitors. However, if the business imports raw materials priced in euros, those inputs become cheaper, partially offsetting the export disadvantage.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS8-the-economic-climate-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether a recession is always bad for businesses.",
+     "correctAnswer": "Some businesses suffer in recession (luxury goods, travel, restaurants) as consumers cut discretionary spending. However, some benefit: discount retailers (Aldi, Lidl) gain customers trading down; repair services grow as people fix rather than replace; essential goods (food, energy) remain in demand. A recession forces efficiency improvements and eliminates weak competitors, so well-managed busine",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS8-the-economic-climate-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on The Economic Climate",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS8-the-economic-climate-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate how a recession might affect a budget clothing retailer compared to a luxury fashion brand. <div class=\"",
+     "correctAnswer": "A grade 9 response will: analyse the budget retailer (may benefit as consumers trade down from expensive brands, demand for essential clothing remains, competitive pricing attracts new customers); analyse the luxury brand (discretionary spending falls, wealthy customers less affected but may still reduce purchases, brand image may suffer if discounting); conclude with a nuanced view: recession typically benefits value retailers at the expense of premium brands, but the extent depends on severity and duration of the recession and the specific market positioning of each business.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

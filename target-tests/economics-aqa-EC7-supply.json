@@ -1,0 +1,67 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC7-supply",
+ "topicName": "Supply",
+ "version": 1,
+ "tests": [
+  {
+   "id": "EC7-supply-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Supply",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "EC7-supply-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between a movement along the supply curve and a shift of the supply curve.",
+     "correctAnswer": "Movement along: caused by price change only (e.g. market price rises, firms supply more). Shift: caused by non-price factor (e.g. technology reduces costs, firms supply more at every price).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC7-supply-t2",
+     "type": "short-answer",
+     "question": "Describe three factors that could cause an increase in the supply of solar panels.",
+     "correctAnswer": "Three factors: (1) Improved technology — more efficient manufacturing reduces costs. (2) Government subsidies — reducing production costs. (3) Lower cost of raw materials (silicon). (4) More firms entering the market.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC7-supply-t3",
+     "type": "short-answer",
+     "question": "Analyse how a rise in the minimum wage might affect supply of goods from labour-intensive firms.",
+     "correctAnswer": "Higher minimum wage increases labour costs for labour-intensive firms. This raises production costs, shifting supply left (less supplied at each price). The firm may raise prices, reduce output, automate, or absorb costs.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "EC7-supply-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Supply",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "EC7-supply-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether government subsidies for renewable energy effectively increase green electricity supply. <div class=\"",
+     "correctAnswer": "A grade 9 response will: analyse how subsidies reduce costs, shifting supply right; consider effectiveness (UK renewables grew rapidly); evaluate drawbacks (cost to taxpayers, dependency risk); conclude: subsidies are effective short-to-medium term for emerging technologies, but should be phased out as renewables become cost-competitive.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

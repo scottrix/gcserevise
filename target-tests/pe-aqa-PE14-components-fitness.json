@@ -1,0 +1,87 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE14-components-fitness",
+ "topicName": "Components of Fitness",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PE14-components-fitness-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Components of Fitness",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PE14-components-fitness-t1",
+     "type": "short-answer",
+     "question": "Define cardiovascular endurance and give a sporting example where it is the most important component.",
+     "correctAnswer": "Cardiovascular endurance is the ability of the heart, lungs and blood vessels to deliver oxygen to working muscles over a prolonged period. Example: marathon running, where the athlete must sustain aerobic exercise for over 26 miles.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE14-components-fitness-t2",
+     "type": "short-answer",
+     "question": "Explain the difference between strength and power.",
+     "correctAnswer": "Strength is the maximum force a muscle can exert in a single maximal contraction. Power is the ability to exert a maximal force in the shortest possible time (strength × speed). Strength involves maximum force regardless of speed; power requires force to be applied QUICKLY.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE14-components-fitness-t3",
+     "type": "short-answer",
+     "question": "Define agility and give two sporting examples.",
+     "correctAnswer": "Agility is the ability to change direction quickly and precisely while maintaining balance and control. Examples: a footballer dribbling past a defender with quick changes of direction; a tennis player changing direction to reach a wide shot.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PE14-components-fitness-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Components of Fitness",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PE14-components-fitness-t4",
+     "type": "short-answer",
+     "question": "What is the formula linking power, strength and speed?",
+     "correctAnswer": "Power = Strength × Speed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE14-components-fitness-t5",
+     "type": "short-answer",
+     "question": "Explain the difference between static and dynamic balance, giving a sporting example of each.",
+     "correctAnswer": "Static balance is maintaining the body's centre of mass above the base of support while stationary (e.g. a gymnast holding a handstand on the beam). Dynamic balance is maintaining the body's centre of mass above the base of support while moving (e.g. a rugby player staying on their feet while being tackled).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE14-components-fitness-t6",
+     "type": "short-answer",
+     "question": "Define reaction time and explain why it is important for a sprinter at the start of a race.",
+     "correctAnswer": "Reaction time is the time taken to initiate a response to a stimulus. For a sprinter, it is the time between hearing the starting gun and beginning to push off the blocks. A faster reaction time means the sprinter gets out of the blocks sooner, giving them an advantage in a race decided by hundredths of a second.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

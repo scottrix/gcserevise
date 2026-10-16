@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "evaluating-dance-works",
+ "topicName": "Evaluating Dance Works",
+ "version": 1,
+ "tests": [
+  {
+   "id": "evaluating-dance-works-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Evaluating Dance Works",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "evaluating-dance-works-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between analysis and evaluation?",
+     "correctAnswer": "Analysis explains how and why choreographic choices work; evaluation judges how effective they are — analysis is about understanding, evaluation is about judging success.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "evaluating-dance-works-t2",
+     "type": "short-answer",
+     "question": "Q: Why must evaluation be supported by evidence?",
+     "correctAnswer": "Evidence grounds your judgement in fact; without it, evaluation is mere opinion and gains no marks in the AQA exam.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "evaluating-dance-works-t3",
+     "type": "short-answer",
+     "question": "Q: Give two criteria you could use to evaluate a dance work.",
+     "correctAnswer": "Clarity of intention (how clearly the purpose is communicated) and cohesion (how well the elements work together as a unified whole).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "evaluating-dance-works-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Evaluating Dance Works",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "evaluating-dance-works-t4",
+     "type": "short-answer",
+     "question": "Q: How would you evaluate a section of a dance as partially effective?",
+     "correctAnswer": "State what works well with evidence, then explain what is less successful with evidence — for example, 'the lift effectively shows trust but the transition into it is unclear, weakening the overall impact.'",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "evaluating-dance-works-t5",
+     "type": "short-answer",
+     "question": "Q: Why is it important to evaluate your own choreography honestly?",
+     "correctAnswer": "Honest evaluation identifies genuine strengths and areas for improvement, showing the examiner mature reflective practice rather than uncritical self-praise.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

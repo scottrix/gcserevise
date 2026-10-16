@@ -1,0 +1,96 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "digital-systems-design",
+ "topicName": "Digital Systems Design",
+ "version": 1,
+ "tests": [
+  {
+   "id": "digital-systems-design-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Digital Systems Design",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "digital-systems-design-t1",
+     "type": "short-answer",
+     "question": "Q: What is the key difference between a Moore machine and a Mealy machine?",
+     "correctAnswer": "In a Moore machine, outputs depend only on the current state; in a Mealy machine, outputs depend on both the current state and the inputs.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "digital-systems-design-t2",
+     "type": "short-answer",
+     "question": "Q: What are the main steps in designing a digital system?",
+     "correctAnswer": "Specification → state diagram → state table → state assignment → derive logic equations → implement with flip-flops and gates.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "digital-systems-design-t3",
+     "type": "short-answer",
+     "question": "Q: Why is state reduction important in digital system design?",
+     "correctAnswer": "State reduction eliminates redundant states, reducing the number of flip-flops and logic gates needed, simplifying the circuit and lowering cost.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "digital-systems-design-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Digital Systems Design",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "digital-systems-design-t4",
+     "type": "short-answer",
+     "question": "Q: What information does a timing diagram convey?",
+     "correctAnswer": "It shows the voltage levels of signals (clock, inputs, outputs) over time, illustrating their relationships and delays.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "digital-systems-design-t5",
+     "type": "short-answer",
+     "question": "Q: Why should unused states be considered in a design?",
+     "correctAnswer": "Unused states could be entered due to noise or power-up; a self-correcting design ensures the system returns to a valid operating state.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "digital-systems-design-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Digital Systems Design",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "digital-systems-design-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Describe the process of designing a digital system from specification to implementation, including the role of state diagrams and timing diagrams. <div class=\"",
+     "correctAnswer": "Digital system design begins with a specification defining the required behaviour, inputs and outputs. From the specification, a state diagram is drawn showing each state as a circle and transitions as labelled arrows indicating input conditions. The state diagram is converted to a state table listing each state, its next state for every input combination, and the output. State reduction identifies and merges equivalent states to minimise flip-flop count. State assignment allocates a unique binary code to each state. Logic equations for next-state and output functions are derived from the state table using K-maps or Boolean algebra. The circuit is implemented using flip-flops (to store state) and combinational logic (for next-state and output decoding). Timing diagrams are essential throughout: they verify correct operation by showing clock, input and output waveforms over time, confirming that outputs change at the correct clock edges and that propagation delays do not cause setup/hold violations. For system integration, a block diagram shows how subsystems connect, and timing analysis ensures the complete system meets its maximum clock frequency requirement.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

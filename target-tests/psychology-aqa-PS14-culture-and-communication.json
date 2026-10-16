@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS14-culture-and-communication",
+ "topicName": "Culture & Communication",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS14-culture-and-communication-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Culture & Communication",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS14-culture-and-communication-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between individualist and collectivist cultures and how this affects communication.",
+     "correctAnswer": "Individualist cultures value independence and direct communication; collectivist cultures value interdependence and indirect communication. In individualist cultures, speaking directly is valued; in collectivist cultures, preserving harmony and avoiding confrontation is prioritised. These differences affect workplace, social and family communication.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS14-culture-and-communication-t2",
+     "type": "short-answer",
+     "question": "Describe how culture influences conformity, referring to Smith & Bond's meta-analysis.",
+     "correctAnswer": "Smith & Bond's meta-analysis found that conformity rates were higher in collectivist cultures (e.g. 37% in Japan vs 25% in the US for Asch-type tasks). This is because conformity serves different functions: in collectivist cultures it maintains group harmony (positive); in individualist cultures it is seen as weakness (negative). The meaning of conformity is culturally constructed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS14-culture-and-communication-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether psychological research based on WEIRD samples can be generalised to all cultures.",
+     "correctAnswer": "WEIRD samples: 96% of psychology study participants are from Western countries (Arnett, 2008). Henrich et al. (2010) showed WEIRD participants are outliers on many psychological measures. This means findings may not generalise. However: some findings (e.g. universal facial expressions) DO replicate across cultures; biological processes are shared. Conclusion: WEIRD bias is a real problem but does ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS14-culture-and-communication-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Culture & Communication",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS14-culture-and-communication-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the importance of considering culture in psychological research, discussing the limitations of WEIRD samples. <div class=\"",
+     "correctAnswer": "A grade 9 response will: define WEIRD and explain the problem (unrepresentative samples); describe Henrich et al.'s findings (WEIRD outliers on many measures); explain how culture affects key findings (conformity, self-concept, communication); evaluate the counter-argument (some findings are universal; biological processes are shared); conclude: cultural bias is a significant limitation in psychology, and researchers must test across cultures. However, the solution is not to dismiss Western research but to supplement it with cross-cultural replication. Culture matters but so do universal human processes.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

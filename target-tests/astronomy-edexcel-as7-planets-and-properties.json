@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as7-planets-and-properties",
+ "topicName": "Planets & Their Properties",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as7-planets-and-properties-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Planets & Their Properties",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as7-planets-and-properties-t1",
+     "type": "short-answer",
+     "question": "Q: Which planet has the strongest greenhouse effect and why?",
+     "correctAnswer": "Venus — its thick CO2 atmosphere traps heat, raising surface temperature to about 460°C.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as7-planets-and-properties-t2",
+     "type": "short-answer",
+     "question": "Q: Why does Uranus appear blue-green?",
+     "correctAnswer": "Methane in its atmosphere absorbs red light and reflects blue-green light.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as7-planets-and-properties-t3",
+     "type": "short-answer",
+     "question": "Q: What causes Mercury's extreme temperature range?",
+     "correctAnswer": "Mercury has virtually no atmosphere to retain heat, so the sunlit side reaches ~430°C while the dark side drops to ~−180°C.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as7-planets-and-properties-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Planets & Their Properties",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as7-planets-and-properties-t4",
+     "type": "short-answer",
+     "question": "Q: Name two distinguishing features of Mars.",
+     "correctAnswer": "Olympus Mons (the Solar System's largest volcano) and Valles Marineris (a vast canyon system).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as7-planets-and-properties-t5",
+     "type": "short-answer",
+     "question": "Q: Compare the compositions of Jupiter and Neptune.",
+     "correctAnswer": "Jupiter is mainly hydrogen and helium (a gas giant). Neptune contains more water, ammonia and methane ices (an ice giant).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

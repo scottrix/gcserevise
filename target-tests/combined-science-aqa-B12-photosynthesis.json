@@ -1,0 +1,106 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "B12-photosynthesis",
+ "topicName": "Photosynthesis",
+ "version": 1,
+ "tests": [
+  {
+   "id": "B12-photosynthesis-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Photosynthesis",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "B12-photosynthesis-t1",
+     "type": "short-answer",
+     "question": "Write the word equation and symbol equation for photosynthesis.",
+     "correctAnswer": "Word equation: carbon dioxide + water → glucose + oxygen. Symbol equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. (Light energy is required; absorbed by chlorophyll.)",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B12-photosynthesis-t2",
+     "type": "short-answer",
+     "question": "Name the three limiting factors for photosynthesis and explain how each affects the rate.",
+     "correctAnswer": "The three limiting factors are: (1) Light intensity — more light provides more energy for the reaction, increasing rate until another factor limits; (2) CO₂ concentration — more CO₂ provides more raw material, increasing rate until another factor limits; (3) Temperature — higher temperature increases enzyme activity and rate, but above ~45°C enzymes denature and rate drops sharply.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B12-photosynthesis-t3",
+     "type": "short-answer",
+     "question": "Higher A lamp is moved from 10 cm to 30 cm away from a plant. By what factor does the light intensity change?",
+     "correctAnswer": "Distance triples from 10 cm to 30 cm. Light intensity ∝ 1/d². New intensity = 1/30² = 1/900. Original = 1/10² = 1/100. Factor = 100/900 = 1/9. Light intensity is reduced to one ninth.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "B12-photosynthesis-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Photosynthesis",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "B12-photosynthesis-t4",
+     "type": "short-answer",
+     "question": "State three ways plants use the glucose produced by photosynthesis.",
+     "correctAnswer": "Any three from: respiration (to release energy), converted to starch for storage, converted to cellulose for cell walls, converted to lipids for storage in seeds, combined with nitrates to make amino acids/proteins.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B12-photosynthesis-t5",
+     "type": "short-answer",
+     "question": "Explain why a plant converts glucose to starch for storage rather than storing glucose directly.",
+     "correctAnswer": "Glucose is soluble and would dissolve in the cell sap, lowering the water potential and causing excess water to enter by osmosis (potentially bursting the cell). Starch is insoluble, so it does not affect water potential and can be stored safely in large quantities.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B12-photosynthesis-t6",
+     "type": "short-answer",
+     "question": "Describe how you would investigate the effect of light intensity on the rate of photosynthesis using pondweed, including the variables you would control.",
+     "correctAnswer": "Cut pondweed and place it in a beaker of water with sodium hydrogencarbonate. Place a lamp at a measured distance. Count oxygen bubbles per minute. Repeat at different distances. Control variables: temperature (use water bath), CO₂ concentration (same amount of NaHCO₃), same length/species of pondweed. Independent variable: distance of lamp. Dependent variable: bubble count per minute.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "B12-photosynthesis-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Photosynthesis",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "B12-photosynthesis-t7",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Explain how light intensity affects the rate of photosynthesis. <div class=\"",
+     "correctAnswer": "As light intensity increases, the rate of photosynthesis increases because more light energy is absorbed by chlorophyll, providing more energy for the reaction. The rate increases proportionally at low light intensities where light is the limiting factor. However, at higher light intensities the rate plateaus because another factor (such as CO₂ concentration or temperature) becomes the limiting factor. The relationship between light intensity and distance follows the inverse square law: light intensity ∝ 1/d², so doubling the distance reduces the light intensity to one quarter, causing a significant drop in the rate of photosynthesis. Mark scheme: 1 mark — light increases rate; 1 mark — more energy absorbed by chlorophyll; 1 mark — proportional increase at low intensity; 1 mark — plateau when another factor limits; 1 mark — inverse square law; 1 mark — correct use of 1/d² relationship.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as22-astrophotography",
+ "topicName": "Astrophotography",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as22-astrophotography-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Astrophotography",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as22-astrophotography-t1",
+     "type": "short-answer",
+     "question": "Q: What is image stacking and why is it used?",
+     "correctAnswer": "Combining multiple short exposures of the same object to reduce random noise and increase signal-to-noise ratio, revealing fainter detail than a single long exposure.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as22-astrophotography-t2",
+     "type": "short-answer",
+     "question": "Q: What are dark frames and flat frames?",
+     "correctAnswer": "Dark frames: exposures with the lens cap on, recording sensor noise for subtraction. Flat frames: images of a uniform light source, correcting vignetting and dust shadows on the sensor.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as22-astrophotography-t3",
+     "type": "short-answer",
+     "question": "Q: How are star trail images created?",
+     "correctAnswer": "By taking a very long exposure (or stacking many short ones) while the camera remains fixed, recording the apparent circular motion of stars around the celestial pole.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as22-astrophotography-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Astrophotography",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as22-astrophotography-t4",
+     "type": "short-answer",
+     "question": "Q: What is the '500 rule' in astrophotography?",
+     "correctAnswer": "A guide for maximum exposure time without star trailing on a fixed tripod: 500 ÷ focal length (mm) = max seconds. E.g. with a 50mm lens: 500/50 = 10 seconds.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as22-astrophotography-t5",
+     "type": "short-answer",
+     "question": "Q: Why is a tracking mount needed for deep-sky imaging?",
+     "correctAnswer": "Deep-sky objects are very faint and require long total exposure times. A tracking mount follows the sky's rotation, keeping stars pin-point rather than trailing.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "subject": "religious-studies",
+ "board": "AQA",
+ "topic": "RS10-pilgrimage",
+ "topicName": "Pilgrimage",
+ "version": 1,
+ "tests": [
+  {
+   "id": "RS10-pilgrimage-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Pilgrimage",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "RS10-pilgrimage-t1",
+     "type": "short-answer",
+     "question": "Explain why Lourdes is an important place of pilgrimage for Catholics.",
+     "correctAnswer": "Lourdes is important because the Virgin Mary appeared to Bernadette Soubirous there in 1858. Mary revealed a spring of water that is believed to have healing properties — the Church has officially recognised 70 miraculous cures. Catholics go on pilgrimage to Lourdes to seek healing, to pray at the grotto where Mary appeared, to bathe in the water, and to join in processions and Mass. It is a place",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "RS10-pilgrimage-t2",
+     "type": "short-answer",
+     "question": "\"Pilgrimage is a waste of time and money.\" Evaluate this statement.",
+     "correctAnswer": "Some argue pilgrimage is wasteful because the money spent on travel could help the poor, and God can be worshipped anywhere (Matthew 18:20). However, Christians who go on pilgrimage say it deepens their faith in ways that ordinary worship cannot — visiting sacred places connects them to Christian history and the experiences of other believers. At Lourdes, many find comfort and healing. At Iona, pi",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as8-asteroids-comets-meteoroids",
+ "topicName": "Asteroids, Comets & Meteoroids",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as8-asteroids-comets-meteoroids-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Asteroids, Comets & Meteoroids",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as8-asteroids-comets-meteoroids-t1",
+     "type": "short-answer",
+     "question": "Q: Why do comet tails always point away from the Sun?",
+     "correctAnswer": "The solar wind and radiation pressure push ionised gas and dust away from the Sun, so tails always point away regardless of the comet's direction of travel.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as8-asteroids-comets-meteoroids-t2",
+     "type": "short-answer",
+     "question": "Q: Distinguish between a meteor and a meteorite.",
+     "correctAnswer": "A meteor is the visible streak of light produced when a meteoroid enters and burns up in the atmosphere. A meteorite is a fragment that survives passage through the atmosphere and reaches the ground.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as8-asteroids-comets-meteoroids-t3",
+     "type": "short-answer",
+     "question": "Q: What is the difference between short-period and long-period comets?",
+     "correctAnswer": "Short-period comets have orbital periods under 200 years and originate from the Kuiper belt. Long-period comets have periods over 200 years and originate from the Oort cloud.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as8-asteroids-comets-meteoroids-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Asteroids, Comets & Meteoroids",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as8-asteroids-comets-meteoroids-t4",
+     "type": "short-answer",
+     "question": "Q: Why is the asteroid belt not a destroyed planet?",
+     "correctAnswer": "The total mass of the asteroid belt is only about 4% of the Moon's mass — far too little to form a planet. Jupiter's gravity prevented accretion into a single body.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as8-asteroids-comets-meteoroids-t5",
+     "type": "short-answer",
+     "question": "Q: Describe the structure of a comet when near the Sun.",
+     "correctAnswer": "Near the Sun, a comet develops a coma (fuzzy envelope of gas and dust around the nucleus) and two tails: a straight ion tail of ionised gas and a curved dust tail.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

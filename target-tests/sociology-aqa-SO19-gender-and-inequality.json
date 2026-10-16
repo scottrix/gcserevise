@@ -1,0 +1,67 @@
+{
+ "subject": "sociology",
+ "board": "AQA",
+ "topic": "SO19-gender-and-inequality",
+ "topicName": "Gender & Inequality",
+ "version": 1,
+ "tests": [
+  {
+   "id": "SO19-gender-and-inequality-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Gender & Inequality",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "SO19-gender-and-inequality-t1",
+     "type": "short-answer",
+     "question": "Explain why the gender pay gap exists and evaluate whether legislation can eliminate it.",
+     "correctAnswer": "The gap exists because: occupational segregation, part-time work, career breaks, glass ceiling, discrimination. Legislation has reduced but not eliminated it because laws address direct discrimination but not structural factors.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO19-gender-and-inequality-t2",
+     "type": "short-answer",
+     "question": "Compare different Feminist perspectives on gender inequality.",
+     "correctAnswer": "Liberal: reform through law - effective but slow. Marxist: capitalism + patriarchy - need to overthrow both. Radical: patriarchy is root cause - need fundamental restructuring. Difference: women are not one group - intersectionality matters.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO19-gender-and-inequality-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether gender inequality has been significantly reduced in modern Britain.",
+     "correctAnswer": "Progress: girls outperform boys, equal pay legislation, more women in professional jobs. Remaining: 8% pay gap, glass ceiling, domestic violence, care work, under-representation. Conclusion: significant progress but full equality not achieved.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "SO19-gender-and-inequality-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Gender & Inequality",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "SO19-gender-and-inequality-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the view that gender inequality is the most significant form of inequality in modern Britain. <div class=\"",
+     "correctAnswer": "A grade 9 response will: present evidence for gender inequality; compare with class and ethnic inequality; consider intersectionality; conclude: gender inequality is significant but cannot be isolated from class and ethnic inequality. No single form is 'most significant' - they interact and compound each other.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS23-hardware-software",
+ "topicName": "Hardware & Software",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CS23-hardware-software-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Hardware & Software",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CS23-hardware-software-t1",
+     "type": "short-answer",
+     "question": "Define the terms hardware and software.",
+     "correctAnswer": "Hardware is the physical components of a computer system (the parts you can touch). Software is the programs and instructions that tell the hardware what to do (not physical).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS23-hardware-software-t2",
+     "type": "short-answer",
+     "question": "Explain why hardware and software are interdependent.",
+     "correctAnswer": "Hardware needs software to provide it with instructions to execute; without software, hardware has nothing to run. Software needs hardware to execute its instructions; without hardware, software has nothing to run on. Neither can function alone.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS23-hardware-software-t3",
+     "type": "short-answer",
+     "question": "Classify each as input, output, or storage: keyboard, monitor, SSD, scanner, speaker, USB drive.",
+     "correctAnswer": "Keyboard = input, Monitor = output, SSD = storage, Scanner = input, Speaker = output, USB drive = storage.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CS23-hardware-software-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Hardware & Software",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CS23-hardware-software-t4",
+     "type": "short-answer",
+     "question": "What is the difference between system software and application software? Give two examples of each.",
+     "correctAnswer": "System software manages the hardware and provides a platform for applications (e.g. operating system, device driver). Application software performs specific tasks for the user (e.g. word processor, web browser).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS23-hardware-software-t5",
+     "type": "short-answer",
+     "question": "Explain the difference between general-purpose and special-purpose application software.",
+     "correctAnswer": "General-purpose software can be used for many different tasks (e.g. a word processor can write letters, essays, reports). Special-purpose software is designed for one specific task (e.g. a payroll system that only calculates wages).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CS23-hardware-software-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Hardware & Software",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CS23-hardware-software-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Explain the difference between RAM and ROM, and state why both are needed in a computer system. [4 marks] <div class=\"",
+     "correctAnswer": "RAM (Random Access Memory) is volatile — it loses its contents when power is switched off. It stores the operating system, running programs, and data currently being processed. It is read-write, meaning the CPU can both read from and write to RAM. ROM (Read Only Memory) is non-volatile — it retains its contents when power is switched off. It stores the BIOS/boot instructions needed to start the computer. It is read-only, meaning the CPU can read from it but cannot write to it. Both are needed because ROM provides the startup instructions that load the OS into RAM, and RAM provides the working space for the OS and programs to run. Without ROM, the computer could not boot; without RAM, no programs could run.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

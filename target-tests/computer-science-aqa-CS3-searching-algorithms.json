@@ -1,0 +1,96 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS3-searching-algorithms",
+ "topicName": "Searching Algorithms",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CS3-searching-algorithms-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Searching Algorithms",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CS3-searching-algorithms-t1",
+     "type": "short-answer",
+     "question": "Describe how a linear search works.",
+     "correctAnswer": "A linear search checks each item in a list one by one, starting from the first element, until the target is found or the end of the list is reached. It works on both sorted and unsorted data.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS3-searching-algorithms-t2",
+     "type": "short-answer",
+     "question": "Why must data be sorted before binary search can be used?",
+     "correctAnswer": "Binary search compares the target with the middle element and eliminates half the list based on whether the target is smaller or larger. This only works if the list is sorted, because the algorithm relies on the fact that all items before the middle are smaller and all items after are larger.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS3-searching-algorithms-t3",
+     "type": "short-answer",
+     "question": "Perform a binary search for the value 72 in the list [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. Show each step.",
+     "correctAnswer": "Step 1: low=0, high=9, mid=4, list[4]=16. 16<72, so low=5. Step 2: low=5, high=9, mid=7, list[7]=56. 56<72, so low=8. Step 3: low=8, high=9, mid=8, list[8]=72. 72=72, found at index 8.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CS3-searching-algorithms-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Searching Algorithms",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CS3-searching-algorithms-t4",
+     "type": "short-answer",
+     "question": "A sorted list contains 256 items. What is the maximum number of comparisons needed by binary search?",
+     "correctAnswer": "log₂(256) = 8. Maximum 8 comparisons.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS3-searching-algorithms-t5",
+     "type": "short-answer",
+     "question": "Explain one advantage and one disadvantage of linear search compared to binary search.",
+     "correctAnswer": "Advantage: Linear search works on unsorted data, unlike binary search. Disadvantage: Linear search is much slower for large datasets - O(n) vs O(log n).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CS3-searching-algorithms-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Searching Algorithms",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CS3-searching-algorithms-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response A sorted list contains 1024 student names. Compare the maximum number of comparisons needed by linear search and binary search to find a specific name. [4 marks] <div class=\"",
+     "correctAnswer": "Linear search: In the worst case, it would check all 1024 items, so the maximum number of comparisons is 1024 (O(n)). Binary search: Each comparison halves the search space: 1024 → 512 → 256 → 128 → 64 → 32 → 16 → 8 → 4 → 2 → 1. This takes a maximum of 10 comparisons (O(log₂ n), since 2¹⁰ = 1024). Binary search is significantly more efficient for this sorted dataset, requiring at most 10 comparisons compared to 1024 for linear search.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

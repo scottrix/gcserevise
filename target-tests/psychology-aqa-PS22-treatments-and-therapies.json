@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS22-treatments-and-therapies",
+ "topicName": "Treatments & Therapies",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS22-treatments-and-therapies-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Treatments & Therapies",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS22-treatments-and-therapies-t1",
+     "type": "short-answer",
+     "question": "Describe how systematic desensitisation works and explain why it is effective for treating phobias.",
+     "correctAnswer": "Systematic desensitisation: (1) Teach relaxation techniques. (2) Build anxiety hierarchy (e.g. for spider phobia: picture -> toy spider -> small spider in jar -> large spider). (3) Patient relaxes while exposed to each step, moving up when anxiety is minimal. Effective because: it replaces the fear response with relaxation (counterconditioning), it's gradual (not overwhelming), and the patient mai",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS22-treatments-and-therapies-t2",
+     "type": "short-answer",
+     "question": "Compare CBT and drug therapy as treatments for mental health problems.",
+     "correctAnswer": "CBT: addresses thinking patterns (root causes), teaches long-term skills, no side effects, effective for depression/anxiety. But: slow, requires effort, limited availability. Drug therapy: fast-acting, easy to prescribe, widely available. But: side effects, treats symptoms not causes, dependency risk (benzodiazepines), relapse when stopped. Combined: March et al. found CBT + SSRI most effective fo",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS22-treatments-and-therapies-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether biological or psychological treatments are more effective for mental health problems.",
+     "correctAnswer": "Neither is universally more effective - it depends on the condition and severity. Severe depression/schizophrenia: medication essential first. Mild-moderate depression/anxiety: CBT may be sufficient. Phobias: systematic desensitisation is highly effective. Combined approaches often work best. Evidence-based practice recommends matching treatment to the individual's specific needs and preferences.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS22-treatments-and-therapies-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Treatments & Therapies",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS22-treatments-and-therapies-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the effectiveness of psychological and biological treatments for mental health problems. <div class=\"",
+     "correctAnswer": "A grade 9 response will: describe CBT, systematic desensitisation, and drug therapy with mechanisms; evaluate each treatment (strengths and limitations with specific research evidence); compare effectiveness across conditions (drugs for severe, CBT for mild-moderate, combined for best results); discuss issues (placebo effect, individual differences, access to therapy); conclude: no single treatment is best for all conditions - effective treatment should be personalised, evidence-based, and where appropriate combine biological and psychological approaches. The biopsychosocial model supports integrated treatment.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

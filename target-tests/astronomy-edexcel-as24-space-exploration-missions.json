@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as24-space-exploration-missions",
+ "topicName": "Space Exploration & Missions",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as24-space-exploration-missions-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Space Exploration & Missions",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as24-space-exploration-missions-t1",
+     "type": "short-answer",
+     "question": "Q: What was Sputnik 1 and why was it significant?",
+     "correctAnswer": "The first artificial satellite, launched by the USSR on 4 October 1957. It marked the beginning of the Space Age and the Space Race.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as24-space-exploration-missions-t2",
+     "type": "short-answer",
+     "question": "Q: Name three key achievements of the Apollo programme.",
+     "correctAnswer": "1) First humans on the Moon (Apollo 11, 1969). 2) Brought back lunar samples for analysis. 3) Demonstrated long-duration spaceflight and lunar operations.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as24-space-exploration-missions-t3",
+     "type": "short-answer",
+     "question": "Q: What is the ISS and what is its purpose?",
+     "correctAnswer": "The International Space Station — a habitable satellite in low Earth orbit, continuously occupied since 2000. It serves as a microgravity research laboratory and tests systems for future deep-space missions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as24-space-exploration-missions-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Space Exploration & Missions",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as24-space-exploration-missions-t4",
+     "type": "short-answer",
+     "question": "Q: Why were the Voyager missions significant?",
+     "correctAnswer": "Voyager 1 and 2 (launched 1977) used gravity assists to visit all four gas giants. Voyager 1 is now the most distant human-made object, in interstellar space. They carry the Golden Record with sounds and images of Earth.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as24-space-exploration-missions-t5",
+     "type": "short-answer",
+     "question": "Q: What is a gravity assist and why is it used?",
+     "correctAnswer": "Using a planet's gravitational field to change a spacecraft's velocity and trajectory without using fuel. It allows missions to reach distant targets that would otherwise require too much propellant.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

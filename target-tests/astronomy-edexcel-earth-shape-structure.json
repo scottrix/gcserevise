@@ -1,0 +1,107 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "earth-shape-structure",
+ "topicName": "Earth's Shape & Structure",
+ "version": 1,
+ "tests": [
+  {
+   "id": "earth-shape-structure-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Earth's Shape & Structure",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "earth-shape-structure-t1",
+     "type": "short-answer",
+     "question": "Q: What is an oblate spheroid and why is the Earth this shape?",
+     "correctAnswer": "A sphere that is slightly flattened at the poles and bulging at the equator. The Earth is oblate because its rotation causes centrifugal force that pushes material outward at the equator.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-shape-structure-t2",
+     "type": "short-answer",
+     "question": "Q: Give three pieces of evidence that the Earth is spherical.",
+     "correctAnswer": "Ships disappear hull-first over the horizon; the Earth casts a circular shadow on the Moon during a lunar eclipse; different constellations are visible at different latitudes; photographs from space (any three).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-shape-structure-t3",
+     "type": "short-answer",
+     "question": "Q: How did Eratosthenes estimate the Earth's circumference?",
+     "correctAnswer": "He measured the angle of the Sun's rays at Alexandria (7.2° from vertical) and knew the Sun was directly overhead at Syene. Using the distance between the cities (~800 km) and the angle as a fraction of 360°, he calculated the circumference as approximately 40,000 km.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "earth-shape-structure-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Earth's Shape & Structure",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "earth-shape-structure-t4",
+     "type": "short-answer",
+     "question": "Q: Describe the Earth's layered internal structure.",
+     "correctAnswer": "Inner core (solid iron-nickel, ~5,150 km deep, ~5,400°C), outer core (liquid iron-nickel, ~2,890 km deep), mantle (semi-solid silicate rock), and crust (solid rock, 5-70 km thick).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-shape-structure-t5",
+     "type": "short-answer",
+     "question": "Q: How do seismic waves reveal the Earth's internal structure?",
+     "correctAnswer": "P-waves pass through solids and liquids; S-waves only through solids. S-wave shadow zones show the outer core is liquid. Changes in wave speed at boundaries reveal the layers.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-shape-structure-t6",
+     "type": "short-answer",
+     "question": "Q: How does atmospheric refraction affect astronomical observations?",
+     "correctAnswer": "It bends light from celestial objects, making stars near the horizon appear higher than their true position. The Sun appears to rise about 2 minutes early and set 2 minutes late due to refraction.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-shape-structure-t7",
+     "type": "short-answer",
+     "question": "Q: What is the difference between oceanic and continental crust?",
+     "correctAnswer": "Oceanic crust is thin (5-10 km), dense, and basaltic. Continental crust is thicker (30-70 km), less dense, and granitic. Oceanic crust subducts under continental crust at plate boundaries.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-shape-structure-t8",
+     "type": "short-answer",
+     "question": "Q: Why is the Earth's atmosphere a problem for astronomers?",
+     "correctAnswer": "It causes refraction (distorting positions), scattering (making the sky blue and preventing daytime observations), absorption (blocking X-ray, UV, and infrared wavelengths), and turbulence (blurring images — 'seeing').",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

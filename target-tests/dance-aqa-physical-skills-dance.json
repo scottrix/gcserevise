@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "physical-skills-dance",
+ "topicName": "Physical Skills in Dance",
+ "version": 1,
+ "tests": [
+  {
+   "id": "physical-skills-dance-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Physical Skills in Dance",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "physical-skills-dance-t1",
+     "type": "short-answer",
+     "question": "Q: Name the five physical skills a dancer needs for performance.",
+     "correctAnswer": "Flexibility, strength, stamina, coordination and balance.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "physical-skills-dance-t2",
+     "type": "short-answer",
+     "question": "Q: Why is flexibility important for a dancer?",
+     "correctAnswer": "Flexibility increases the range of movement at joints, allowing dancers to create extended lines, achieve required shapes and reduce the risk of injury.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "physical-skills-dance-t3",
+     "type": "short-answer",
+     "question": "Q: How does stamina affect dance performance quality?",
+     "correctAnswer": "Stamina allows the dancer to maintain energy, technique and expression throughout the entire performance without deterioration.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "physical-skills-dance-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Physical Skills in Dance",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "physical-skills-dance-t4",
+     "type": "short-answer",
+     "question": "Q: Explain the relationship between strength and balance in dance.",
+     "correctAnswer": "Core and leg strength support the ability to hold stable positions and control weight shifts, which are essential for maintaining balance in static and moving actions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "physical-skills-dance-t5",
+     "type": "short-answer",
+     "question": "Q: Why must physical skills be developed together rather than in isolation?",
+     "correctAnswer": "Physical skills are interdependent — for example, coordination relies on balance, and balance relies on strength. Developing only one skill limits overall performance quality.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

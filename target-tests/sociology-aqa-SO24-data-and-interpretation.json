@@ -1,0 +1,67 @@
+{
+ "subject": "sociology",
+ "board": "AQA",
+ "topic": "SO24-data-and-interpretation",
+ "topicName": "Data & Interpretation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "SO24-data-and-interpretation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Data & Interpretation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "SO24-data-and-interpretation-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between quantitative and qualitative data, evaluating when each is most useful.",
+     "correctAnswer": "Quantitative: numbers, patterns, comparison (best for trends). Qualitative: words, meaning, depth (best for experiences). Both valuable - triangulation is best.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO24-data-and-interpretation-t2",
+     "type": "short-answer",
+     "question": "Explain why correlation does not prove causation.",
+     "correctAnswer": "Correlation means variables change together; causation means one CAUSES the other. Poverty and crime correlate but deprivation may cause both. Always consider alternative explanations.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO24-data-and-interpretation-t3",
+     "type": "short-answer",
+     "question": "A newspaper reports 'crime is rising' based on police statistics. Evaluate this evidence.",
+     "correctAnswer": "Police statistics show reported/recorded crime only (dark figure). CSEW shows crime FALLING since 1990s. The newspaper may cherry-pick data. Media distort crime coverage. Conclusion: unreliable without other sources.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "SO24-data-and-interpretation-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Data & Interpretation",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "SO24-data-and-interpretation-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the importance of using both quantitative and qualitative data in sociological research. <div class=\"",
+     "correctAnswer": "A grade 9 response will: define both types; argue quantitative identifies patterns; argue qualitative explains meanings; argue for triangulation; conclude: neither alone is sufficient - combining both provides the most comprehensive understanding.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS10-language-and-thought",
+ "topicName": "Language & Thought",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS10-language-and-thought-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Language & Thought",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS10-language-and-thought-t1",
+     "type": "short-answer",
+     "question": "Describe the Sapir-Whorf hypothesis and evaluate the strong and weak versions.",
+     "correctAnswer": "Strong version (determinism): language completely determines thought - without words for a concept, you cannot think it. This is largely discredited. Weak version (relativity): language influences thought - having words for concepts makes them easier to think about. Supported by colour perception studies and bilingual research.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS10-language-and-thought-t2",
+     "type": "short-answer",
+     "question": "Compare Piaget's and Vygotsky's views on the relationship between language and thought.",
+     "correctAnswer": "Piaget: thought comes first. Children develop understanding (e.g. object permanence, conservation) and then learn the language to express it. Vygotsky: language enables thought. Inner speech develops from social interaction and becomes the primary tool for higher-order thinking. Piaget sees language as a product of development; Vygotsky sees it as a driver.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS10-language-and-thought-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether language determines how we think, using research evidence.",
+     "correctAnswer": "Language influences but does not determine thought. Evidence for: colour terminology affects colour memory; bilingual speakers show different thinking in different languages; spatial language affects navigation. Evidence against: the Dani tribe could discriminate colours without colour terms; people can think in images not words; animals show complex cognition without language. Conclusion: weak ve",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS10-language-and-thought-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Language & Thought",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS10-language-and-thought-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether language shapes the way we think, or whether thought is independent of language. <div class=\"",
+     "correctAnswer": "A grade 9 response will: outline the Sapir-Whorf hypothesis (strong and weak versions); present evidence for language influencing thought (colour studies, bilingualism, spatial language); present evidence against (universal cognition, image-based thinking, animal cognition); evaluate Piaget vs Vygotsky on the direction of influence; conclude: language and thought interact - thought is not completely independent of language (weak relativity is supported), but language does not determine thought (strong determinism is not supported). Thought is shaped by both cognitive development and linguistic experience.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

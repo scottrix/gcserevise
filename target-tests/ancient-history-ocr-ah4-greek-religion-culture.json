@@ -1,0 +1,77 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "ah4-greek-religion-culture",
+ "topicName": "Greek Religion & Culture",
+ "version": 1,
+ "tests": [
+  {
+   "id": "ah4-greek-religion-culture-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Greek Religion & Culture",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "ah4-greek-religion-culture-t1",
+     "type": "short-answer",
+     "question": "Q: How did animal sacrifice work in Greek religion?",
+     "correctAnswer": "The animal (usually a sheep, goat or ox) was led to the altar, sprinkled with water and barley, and killed. Its bones and fat were burned on the altar for the gods, while the meat was shared among worshippers in a communal feast. This reinforced social bonds and honoured the gods simultaneously.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah4-greek-religion-culture-t2",
+     "type": "short-answer",
+     "question": "Q: Why was the oracle at Delphi so important?",
+     "correctAnswer": "Delphi was the sanctuary of Apollo, where the Pythia (priestess) delivered prophetic guidance. Cities and individuals consulted Delphi on major decisions: going to war, founding colonies, political reforms. Its authority was recognised across the Greek world, giving it enormous influence on political and military events.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah4-greek-religion-culture-t3",
+     "type": "short-answer",
+     "question": "Q: What were the Pan-Hellenic Games and why were they significant?",
+     "correctAnswer": "Four major festivals (Olympic, Pythian, Nemean, Isthmian) held at sacred sites, featuring athletic and musical competitions. They were significant because they united Greeks from all poleis in shared worship and competition, reinforcing pan-Hellenic identity. A sacred truce (ekecheiria) protected travellers during the games.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "ah4-greek-religion-culture-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Greek Religion & Culture",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "ah4-greek-religion-culture-t4",
+     "type": "short-answer",
+     "question": "Q: What was hubris and why did the Greeks fear it?",
+     "correctAnswer": "Hubris was arrogance or overweening pride, especially towards the gods. The Greeks believed hubris would be punished by nemesis (divine retribution). Tragic myths and plays repeatedly showed that mortals who challenged or insulted the gods suffered terrible consequences.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah4-greek-religion-culture-t5",
+     "type": "short-answer",
+     "question": "Q: How was religion connected to the state in ancient Greece?",
+     "correctAnswer": "There was no separation of religion and state. Religious officials were appointed by the state, public funds maintained temples, and political decisions were guided by religious consultation (oracles, sacrifices, omens). Cities had patron deities (Athena for Athens) whose worship was central to civic identity.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

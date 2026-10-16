@@ -1,0 +1,77 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS33-cyber-security-threats",
+ "topicName": "Cyber Security Threats",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CS33-cyber-security-threats-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Cyber Security Threats",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CS33-cyber-security-threats-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between phishing and pharming.",
+     "correctAnswer": "Phishing sends fraudulent emails that appear to be from a trusted source, tricking users into clicking links to fake websites or revealing information. Pharming manipulates DNS so that even when the user types the correct URL, they are redirected to a fake website. Phishing requires the victim to click a link; pharming redirects automatically.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS33-cyber-security-threats-t2",
+     "type": "short-answer",
+     "question": "Describe four types of malware and how each one works.",
+     "correctAnswer": "Virus: attaches to a host file, replicates when the file is opened, can corrupt or delete data. Trojan: disguised as legitimate software, does not replicate, creates backdoors for attackers. Spyware: secretly monitors user activity, records keystrokes and sends data to attacker. Ransomware: encrypts files and demands payment for decryption.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS33-cyber-security-threats-t3",
+     "type": "short-answer",
+     "question": "What is social engineering? Describe blagging, phishing, and shouldering.",
+     "correctAnswer": "Social engineering manipulates people into revealing information or performing actions that compromise security. Blagging: inventing a false scenario to gain trust and extract information (e.g. pretending to be IT support). Phishing: sending fraudulent emails appearing to be from trusted sources. Shouldering: directly observing someone's screen or keyboard to capture passwords or data.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CS33-cyber-security-threats-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Cyber Security Threats",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CS33-cyber-security-threats-t4",
+     "type": "short-answer",
+     "question": "Why are weak and default passwords a security threat?",
+     "correctAnswer": "Weak passwords (like 123456) can be easily guessed or cracked using brute force or dictionary attacks. Default passwords on devices are publicly known and can be found online, so any attacker can access a device if the default password hasn't been changed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS33-cyber-security-threats-t5",
+     "type": "short-answer",
+     "question": "Explain how multiple cyber security threats could combine in a single attack.",
+     "correctAnswer": "A phishing email (social engineering) tricks a user into opening an attachment that installs a Trojan. The Trojan exploits unpatched software to gain elevated access. Because of misconfigured access rights, the malware spreads across the network. The attacker then installs ransomware to encrypt files and demand payment. This combines social engineering + malware + unpatched software + misconfigure",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

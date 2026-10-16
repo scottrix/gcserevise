@@ -1,0 +1,96 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "correlation-regression",
+ "topicName": "Correlation Regression",
+ "version": 1,
+ "tests": [
+  {
+   "id": "correlation-regression-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Correlation Regression",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "correlation-regression-t1",
+     "type": "short-answer",
+     "question": "Q: Two judges rank 5 contestants. The rank differences are: 0, 1, 1, 2, 0. Calculate Spearman's rₛ.",
+     "correctAnswer": "Σd² = 0 + 1 + 1 + 4 + 0 = 6. rₛ = 1 – (6 × 6) ÷ (5 × (25 – 1)) = 1 – 36 ÷ 120 = 1 – 0.3 = 0.7. Moderate positive agreement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "correlation-regression-t2",
+     "type": "short-answer",
+     "question": "Q: Pearson's r for two variables is –0.85. Describe the correlation.",
+     "correctAnswer": "Strong negative linear correlation: as one variable increases, the other tends to decrease, and the points lie close to a straight line with negative slope.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "correlation-regression-t3",
+     "type": "short-answer",
+     "question": "Q: A line of best fit is drawn for data where x ranges from 10 to 50. Is predicting y when x = 30 interpolation or extrapolation?",
+     "correctAnswer": "Interpolation, because x = 30 is within the observed range of 10 to 50.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "correlation-regression-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Correlation Regression",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "correlation-regression-t4",
+     "type": "short-answer",
+     "question": "Q: Why is it unreliable to use a line of best fit to predict y when x = 90 if the observed x values range from 10 to 50?",
+     "correctAnswer": "This is extrapolation; we cannot assume the linear relationship continues beyond the observed data range.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "correlation-regression-t5",
+     "type": "short-answer",
+     "question": "Q: Give a reason why correlation does not imply causation.",
+     "correctAnswer": "Two variables may be correlated due to a third confounding variable; e.g. ice cream sales and drowning rates are both linked to hot weather, not to each other.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "correlation-regression-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Correlation Regression",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "correlation-regression-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Two judges rank 6 films. Calculate Spearman's rank correlation coefficient. Film: A, B, C, D, E, F Judge 1 ranks: 1, 2, 3, 4, 5, 6 Judge 2 ranks: 2, 1, 4, 3, 6, 5 <div class=\"",
+     "correctAnswer": "Film | Rank 1 | Rank 2 | d (R1–R2) | d² A | 1 | 2 | –1 | 1 B | 2 | 1 | 1 | 1 C | 3 | 4 | –1 | 1 D | 4 | 3 | 1 | 1 E | 5 | 6 | –1 | 1 F | 6 | 5 | 1 | 1 Σd² = 6 rₛ = 1 – 6Σd² ÷ (n(n² – 1)) = 1 – (6 × 6) ÷ (6 × 35) = 1 – 36 ÷ 210 = 1 – 0.171 = 0.829 rₛ ≈ 0.83, indicating strong positive agreement between the two judges. They rank the films in a very similar order.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

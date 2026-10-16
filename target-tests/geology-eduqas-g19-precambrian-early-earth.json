@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g19-precambrian-early-earth",
+ "topicName": "Precambrian & Early Earth",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g19-precambrian-early-earth-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Precambrian & Early Earth",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g19-precambrian-early-earth-t1",
+     "type": "short-answer",
+     "question": "Q: What was the composition of Earth's early atmosphere?",
+     "correctAnswer": "Rich in CO2, water vapour, nitrogen, methane and sulfur compounds. There was essentially no free oxygen. This is similar to the atmospheres of Venus and Mars today.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g19-precambrian-early-earth-t2",
+     "type": "short-answer",
+     "question": "Q: How did Earth's atmosphere become oxygenated?",
+     "correctAnswer": "Cyanobacteria evolved photosynthesis from ~3.5 billion years ago, releasing oxygen as a waste product. Over hundreds of millions of years, this oxygen first reacted with dissolved iron in the oceans (forming BIFs) and then accumulated in the atmosphere during the Great Oxidation Event (~2.4 Ga).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g19-precambrian-early-earth-t3",
+     "type": "short-answer",
+     "question": "Q: What are banded iron formations and how did they form?",
+     "correctAnswer": "BIFs are sedimentary rocks with alternating layers of iron oxide (hematite/magnetite) and chert. They formed when oxygen produced by cyanobacteria reacted with dissolved ferrous iron in Precambrian oceans, causing iron to precipitate as insoluble iron oxide on the ocean floor.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g19-precambrian-early-earth-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Precambrian & Early Earth",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g19-precambrian-early-earth-t4",
+     "type": "short-answer",
+     "question": "Q: Why is the Precambrian fossil record so sparse?",
+     "correctAnswer": "Most Precambrian organisms were soft-bodied and single-celled (bacteria, archaea), which rarely fossilise. The rocks are very old and have often been metamorphosed or eroded, destroying any fossils that may have existed. Also, organisms had not yet evolved hard parts (shells, skeletons) that preserve readily.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g19-precambrian-early-earth-t5",
+     "type": "short-answer",
+     "question": "Q: What are stromatolites and why are they important?",
+     "correctAnswer": "Stromatolites are layered structures formed by colonies of photosynthetic cyanobacteria trapping and binding sediment. They are among the oldest evidence of life on Earth (~3.5 Ga) and were responsible for producing the oxygen that eventually oxygenated the atmosphere.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

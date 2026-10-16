@@ -1,0 +1,96 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "operational-amplifiers",
+ "topicName": "Operational Amplifiers",
+ "version": 1,
+ "tests": [
+  {
+   "id": "operational-amplifiers-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Operational Amplifiers",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "operational-amplifiers-t1",
+     "type": "short-answer",
+     "question": "Q: An inverting amplifier has Rin = 10 kΩ and Rf = 100 kΩ. What is its voltage gain?",
+     "correctAnswer": "Av = −Rf/Rin = −100/10 = −10. The gain magnitude is 10 and the output is inverted.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "operational-amplifiers-t2",
+     "type": "short-answer",
+     "question": "Q: A non-inverting amplifier has Rf = 47 kΩ and R1 = 10 kΩ. Calculate the voltage gain.",
+     "correctAnswer": "Av = 1 + Rf/R1 = 1 + 47/10 = 1 + 4.7 = 5.7.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "operational-amplifiers-t3",
+     "type": "short-answer",
+     "question": "Q: State two properties of an ideal op-amp.",
+     "correctAnswer": "Infinite open-loop gain and infinite input impedance (also zero output impedance and infinite bandwidth).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "operational-amplifiers-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Operational Amplifiers",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "operational-amplifiers-t4",
+     "type": "short-answer",
+     "question": "Q: What is the virtual earth principle in an inverting amplifier?",
+     "correctAnswer": "Negative feedback keeps the inverting input at virtually the same potential as the non-inverting input (0 V), so it acts as a virtual earth.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "operational-amplifiers-t5",
+     "type": "short-answer",
+     "question": "Q: Why is negative feedback used in op-amp circuits?",
+     "correctAnswer": "Negative feedback reduces and stabilises gain, increases bandwidth, reduces distortion and makes the gain depend on external resistors rather than the op-amp's internal gain.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "operational-amplifiers-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Operational Amplifiers",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "operational-amplifiers-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Describe the characteristics of an ideal op-amp and explain how negative feedback is used in both inverting and non-inverting amplifier configurations. <div class=\"",
+     "correctAnswer": "An ideal op-amp has infinite open-loop gain, infinite input impedance, zero output impedance and infinite bandwidth. In practice, real op-amps have very high gain (10⁵–10⁶) and input impedance, with low output impedance. In an inverting amplifier, the input signal is applied through Rin to the inverting input, with Rf providing negative feedback from output to inverting input; the non-inverting input is grounded. Due to the virtual earth principle, both inputs sit at approximately 0 V, so gain is Av = −Rf/Rin. In a non-inverting amplifier, the input goes to the non-inverting input, and a fraction of the output is fed back to the inverting input via a voltage divider (Rf and R1); gain is Av = 1 + Rf/R1. Negative feedback in both configurations stabilises the gain, makes it dependent on resistor values rather than the op-amp's internal characteristics, increases bandwidth and reduces distortion.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "skewness-outliers",
+ "topicName": "Skewness Outliers",
+ "version": 1,
+ "tests": [
+  {
+   "id": "skewness-outliers-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Skewness Outliers",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "skewness-outliers-t1",
+     "type": "short-answer",
+     "question": "Q: For a distribution with mean = 45, median = 40, and SD = 10, calculate Pearson's skewness coefficient and interpret it.",
+     "correctAnswer": "Skewness = 3 × (45 – 40) ÷ 10 = 1.5. This is a positive value indicating positive (right) skew.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "skewness-outliers-t2",
+     "type": "short-answer",
+     "question": "Q: A dataset has Q1 = 20, Q3 = 44. A value of 82 is recorded. Is it an outlier using the 1.5 × IQR rule?",
+     "correctAnswer": "IQR = 44 – 20 = 24. Upper boundary = 44 + 1.5 × 24 = 80. Since 82 > 80, yes it is an outlier.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "skewness-outliers-t3",
+     "type": "short-answer",
+     "question": "Q: The data 5, 6, 7, 8, 100 has mean 25.2 and median 7. Why is the median more appropriate?",
+     "correctAnswer": "The outlier 100 inflates the mean to 25.2, far from most values. The median of 7 is resistant to the outlier and better represents the centre.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "skewness-outliers-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Skewness Outliers",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "skewness-outliers-t4",
+     "type": "short-answer",
+     "question": "Q: On a box plot, the right whisker is much longer than the left and the median is near Q1. What does this indicate?",
+     "correctAnswer": "This indicates positive skew — the data is stretched towards higher values, with a long tail to the right.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "skewness-outliers-t5",
+     "type": "short-answer",
+     "question": "Q: A value of 12 is recorded in a dataset with mean 50 and SD 18. Is it a potential outlier using the 2 SD rule?",
+     "correctAnswer": "Distance from mean = |12 – 50| = 38. Since 38 > 2 × 18 = 36, the value 12 is more than 2 SDs from the mean and is a potential outlier.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "skewness-outliers-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Skewness Outliers",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "skewness-outliers-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response A dataset of 10 test scores has Q1 = 35, Q2 = 52, Q3 = 65, mean = 54, and SD = 18. The maximum value is 110. Determine whether the maximum is an outlier and calculate Pearson's skewness coefficient. <div class=\"",
+     "correctAnswer": "Outlier test using 1.5 × IQR: IQR = 65 – 35 = 30 Upper boundary = 65 + 1.5 × 30 = 65 + 45 = 110 Since 110 equals (not exceeds) the boundary, it is not classified as an outlier by the 1.5 × IQR rule. It is at the very edge. Pearson's skewness coefficient: Skewness = 3 × (mean – median) ÷ SD = 3 × (54 – 52) ÷ 18 = 6 ÷ 18 = 0.333 Since 0.333 is between –0.5 and 0.5, the distribution is approximately symmetric with a very slight positive skew.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "food-spoilage-microorganisms",
+ "topicName": "Food Spoilage & Microorganisms",
+ "version": 1,
+ "tests": [
+  {
+   "id": "food-spoilage-microorganisms-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Food Spoilage & Microorganisms",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "food-spoilage-microorganisms-t1",
+     "type": "short-answer",
+     "question": "Q: What does FATTOM stand for?",
+     "correctAnswer": "Food, Acidity, Temperature, Time, Oxygen, Moisture — the six conditions microorganisms need to grow.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-spoilage-microorganisms-t2",
+     "type": "short-answer",
+     "question": "Q: What is the danger zone temperature range for bacterial growth?",
+     "correctAnswer": "5°C to 63°C. Bacteria multiply fastest at around 37°C (body temperature).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-spoilage-microorganisms-t3",
+     "type": "short-answer",
+     "question": "Q: Name three signs of food spoilage.",
+     "correctAnswer": "Unpleasant smell, discolouration, slime, visible mould, gas bubbles, or off-taste (any three).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "food-spoilage-microorganisms-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Food Spoilage & Microorganisms",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "food-spoilage-microorganisms-t4",
+     "type": "short-answer",
+     "question": "Q: How does pasteurisation help prevent spoilage?",
+     "correctAnswer": "It heats food to 72°C for 15 seconds, killing most harmful bacteria without significantly changing the food's flavour or nutritional value.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-spoilage-microorganisms-t5",
+     "type": "short-answer",
+     "question": "Q: Why does freezing at −18°C not kill bacteria?",
+     "correctAnswer": "Freezing stops bacterial growth by making water unavailable, but bacteria survive in a dormant state and can reactivate when the food is thawed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-spoilage-microorganisms-t6",
+     "type": "short-answer",
+     "question": "Q: What is the difference between food spoilage and food poisoning?",
+     "correctAnswer": "Spoilage makes food unpalatable (bad smell, taste, appearance) but may not always cause illness. Food poisoning is caused by consuming harmful bacteria or their toxins and causes illness.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-spoilage-microorganisms-t7",
+     "type": "short-answer",
+     "question": "Q: How do yeasts cause spoilage?",
+     "correctAnswer": "Yeasts ferment sugars, producing alcohol and carbon dioxide gas. This causes food to smell yeasty, taste sour, or develop gas bubbles.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-spoilage-microorganisms-t8",
+     "type": "short-answer",
+     "question": "Q: What are mycotoxins and which microorganism produces them?",
+     "correctAnswer": "Mycotoxins are harmful chemical substances produced by moulds. They can cause illness even if the mould is removed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

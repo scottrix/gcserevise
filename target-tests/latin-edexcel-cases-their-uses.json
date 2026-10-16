@@ -1,0 +1,126 @@
+{
+ "subject": "latin",
+ "board": "Edexcel",
+ "topic": "cases-their-uses",
+ "topicName": "Cases & Their Uses",
+ "version": 1,
+ "tests": [
+  {
+   "id": "cases-their-uses-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Cases & Their Uses",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "cases-their-uses-t1",
+     "type": "short-answer",
+     "question": "Q: What is the function of the nominative case?",
+     "correctAnswer": "It marks the subject of the verb and the complement after verbs like sum (to be). For example: puella currit (the girl runs).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cases-their-uses-t2",
+     "type": "short-answer",
+     "question": "Q: When is the vocative different from the nominative?",
+     "correctAnswer": "Only in the second declension masculine singular, where -us becomes -e (e.g. Marce, not Marcus) and -ius becomes -i (e.g. fili, not filius).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cases-their-uses-t3",
+     "type": "short-answer",
+     "question": "Q: What is the difference between the accusative and dative cases?",
+     "correctAnswer": "The accusative marks the direct object (what is directly acted upon: puellam video — I see the girl). The dative marks the indirect object (to/for whom: puellae librum dedi — I gave a book to the girl).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "cases-their-uses-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Cases & Their Uses",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "cases-their-uses-t4",
+     "type": "short-answer",
+     "question": "Q: Give two uses of the ablative case with examples.",
+     "correctAnswer": "Means: gladio pugnavit (he fought with a sword). Accompaniment: cum amicis venit (he came with friends). Time when: prima luce (at first light). Also: separation (ab urbe — from the city) or prepositional object (in villa — in the house).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cases-their-uses-t5",
+     "type": "short-answer",
+     "question": "Q: How does the preposition 'in' differ with accusative vs ablative?",
+     "correctAnswer": "In + accusative = motion into/onto (in villam — into the house). In + ablative = position in/on (in villa — in the house).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cases-their-uses-t6",
+     "type": "short-answer",
+     "question": "Q: What is the partitive genitive? Give an example.",
+     "correctAnswer": "The partitive genitive indicates 'of the whole' with nouns of quantity. Example: magna pars militum (a great part of the soldiers); numerus hostium (the number of the enemy).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cases-their-uses-t7",
+     "type": "short-answer",
+     "question": "Q: What is an ablative absolute? Give an example.",
+     "correctAnswer": "A grammatical construction using a noun and participle in the ablative to set background circumstances, grammatically independent of the main clause. Example: urbe capta, milites fugerunt (the city having been captured, the soldiers fled).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "cases-their-uses-t8",
+     "type": "short-answer",
+     "question": "Q: Which prepositions take the accusative and which take the ablative?",
+     "correctAnswer": "Accusative: ad (to), in (into), per (through), trans (across), contra (against). Ablative: ab (from), ex (out of), cum (with), de (about/from), in (in/on). Some, like in, take both with different meanings.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "cases-their-uses-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Cases & Their Uses",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "cases-their-uses-t9",
+     "type": "short-answer",
+     "question": "Full-Mark Response Explain the six Latin cases and their main functions, giving an example for each. (8 marks) <div class=\"",
+     "correctAnswer": "The nominative marks the subject of the verb and the complement after sum: puella currit (the girl runs — puella is the subject). The vocative is used for direct address: O puella! (O girl!); it is identical to the nominative except in 2nd declension masculine singular (Marce, not Marcus). The accusative marks the direct object of a transitive verb and the object of many prepositions: puellam video (I see the girl — puellam is the direct object); ad villam (to the villa — ad takes the accusative). The genitive indicates possession or 'of': villa patris (the house of the father — patris shows whose house it is). The dative marks the indirect object, answering 'to/for whom?': puellae librum dedi (I gave a book to the girl — puellae is the indirect object, the recipient). The ablative has multiple uses: means (gladio pugnavit — he fought with/by means of a sword), accompaniment with cum (cum amicis — with friends), and object of prepositions like ab, ex, de (ab urbe — from the city). The ablative absolute uses a noun and participle together: urbe capta (the city having been captured). Together, these six cases allow Latin to indicate every grammatical relationship through word endings rather than word order, making Latin syntax flexible and precise.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

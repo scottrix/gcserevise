@@ -1,0 +1,107 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "food-safety-legislation-haccp",
+ "topicName": "Food Safety Legislation & HACCP",
+ "version": 1,
+ "tests": [
+  {
+   "id": "food-safety-legislation-haccp-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Food Safety Legislation & HACCP",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "food-safety-legislation-haccp-t1",
+     "type": "short-answer",
+     "question": "Q: What are the three main requirements of the Food Safety Act 1990?",
+     "correctAnswer": "Food must be safe to eat, not harmful to health, and labelled and described accurately (not misleadingly).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-safety-legislation-haccp-t2",
+     "type": "short-answer",
+     "question": "Q: What is the role of an Environmental Health Officer?",
+     "correctAnswer": "EHOs enforce food safety law by inspecting food premises (often unannounced), taking food samples, issuing improvement notices, and closing businesses that pose an immediate health risk.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-safety-legislation-haccp-t3",
+     "type": "short-answer",
+     "question": "Q: What does HACCP stand for?",
+     "correctAnswer": "Hazard Analysis and Critical Control Points.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "food-safety-legislation-haccp-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Food Safety Legislation & HACCP",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "food-safety-legislation-haccp-t4",
+     "type": "short-answer",
+     "question": "Q: List the three types of food safety hazard with an example of each.",
+     "correctAnswer": "Biological (e.g. Salmonella bacteria), chemical (e.g. cleaning fluid contamination), physical (e.g. glass, bone, or packaging in food).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-safety-legislation-haccp-t5",
+     "type": "short-answer",
+     "question": "Q: What is a Critical Control Point (CCP)?",
+     "correctAnswer": "A step in the food process where control is essential to prevent, eliminate, or reduce a food safety hazard to an acceptable level (e.g. cooking to 75°C, chilling below 5°C).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-safety-legislation-haccp-t6",
+     "type": "short-answer",
+     "question": "Q: Name the 7 principles of HACCP.",
+     "correctAnswer": "1. Conduct hazard analysis, 2. Identify CCPs, 3. Set critical limits, 4. Monitor CCPs, 5. Establish corrective actions, 6. Verify the system works, 7. Keep documentation and records.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-safety-legislation-haccp-t7",
+     "type": "short-answer",
+     "question": "Q: What is the Food Hygiene Rating Scheme and what is the range of scores?",
+     "correctAnswer": "A scheme where EHOs rate food businesses from 0 (urgent improvement necessary) to 5 (very good) based on hygiene, structure, and management. Ratings are displayed publicly.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-safety-legislation-haccp-t8",
+     "type": "short-answer",
+     "question": "Q: Explain the due diligence defence.",
+     "correctAnswer": "A business can defend itself against a food safety charge by proving it took all reasonable precautions and exercised due diligence to avoid the offence — for example, having HACCP records, staff training logs, and supplier checks.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

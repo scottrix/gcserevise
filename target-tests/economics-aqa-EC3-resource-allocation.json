@@ -1,0 +1,67 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC3-resource-allocation",
+ "topicName": "Resource Allocation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "EC3-resource-allocation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Resource Allocation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "EC3-resource-allocation-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between factor markets and product markets, giving an example of each.",
+     "correctAnswer": "Factor markets trade factors of production: the labour market (workers sell labour for wages). Product markets trade finished goods: supermarkets (consumers buy food). In factor markets, households sell and firms buy; in product markets, firms sell and households buy.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC3-resource-allocation-t2",
+     "type": "short-answer",
+     "question": "Describe the three functions of the price mechanism in allocating resources.",
+     "correctAnswer": "Signalling: price changes tell producers and consumers where resources are needed (high prices signal shortage, attracting supply). Rationing: higher prices reduce quantity demanded, rationing scarce goods to those willing to pay. Incentivising: higher prices incentivise producers to supply more.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC3-resource-allocation-t3",
+     "type": "short-answer",
+     "question": "Analyse why the UK economy has shifted from secondary to tertiary sector dominance.",
+     "correctAnswer": "The UK shifted because: globalisation moved manufacturing to lower-cost countries; technology automated many processes; rising incomes increased demand for services; the UK developed competitive advantages in finance, education, and creative industries. This brought higher average wages but also regional inequality.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "EC3-resource-allocation-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Resource Allocation",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "EC3-resource-allocation-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether the price mechanism is the best way to allocate resources in an economy. <div class=\"",
+     "correctAnswer": "A grade 9 response will: argue for markets (efficient allocation, incentives, consumer choice); argue against (inequitable, ignores externalities, under-produces public goods); conclude: markets are most efficient for most goods, but government intervention corrects failures and ensures basic needs — a mixed economy achieves the best balance.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

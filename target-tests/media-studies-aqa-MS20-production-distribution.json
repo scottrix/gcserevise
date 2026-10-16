@@ -1,0 +1,67 @@
+{
+ "subject": "media-studies",
+ "board": "AQA",
+ "topic": "MS20-production-distribution",
+ "topicName": "Production & Distribution",
+ "version": 1,
+ "tests": [
+  {
+   "id": "MS20-production-distribution-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Production & Distribution",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "MS20-production-distribution-t1",
+     "type": "short-answer",
+     "question": "Q: Describe the three stages of media production.",
+     "correctAnswer": "Pre-production: planning stage including scripting, storyboarding, casting, location scouting, and budgeting. Production: the actual creation — filming, recording, performing. Post-production: editing, visual effects, sound mixing, colour grading, and final delivery. Each stage is essential and affects the final product.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS20-production-distribution-t2",
+     "type": "short-answer",
+     "question": "Q: How has streaming changed media distribution?",
+     "correctAnswer": "Streaming has: eliminated scheduling (on-demand viewing), shortened or removed theatrical windows, enabled global simultaneous release, changed revenue models (subscription vs box office), created data-driven commissioning, and allowed niche content to find audiences through algorithmic recommendation. Traditional distributors have lost gatekeeping power.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS20-production-distribution-t3",
+     "type": "short-answer",
+     "question": "Q: Evaluate the impact of digital technology on media production.",
+     "correctAnswer": "Digital technology has democratised production — affordable cameras, editing software, and online distribution enable independent creators. This increases content diversity. However, professional production still requires significant investment, and the volume of content makes discovery harder. Quality varies enormously, and professional standards remain important for major productions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "MS20-production-distribution-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Production & Distribution",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "MS20-production-distribution-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Analyse how digital technology has changed the production and distribution of media products. [15 marks] <div class=\"",
+     "correctAnswer": "Digital technology has fundamentally transformed both how media products are made and how they reach audiences. In production, digital technology has democratised the creative process. Affordable cameras, editing software, and special effects tools mean that high-quality media can be produced without studio budgets. YouTube creators, independent filmmakers, and podcast producers can now create professional content with minimal resources. This has increased the diversity of voices and content available. However, major productions still require significant investment. AAA video games, blockbuster films, and premium TV dramas have budgets in the hundreds of millions. Digital technology has raised audience expectations for production values, making it harder for low-budget content to compete for mainstream attention. In distribution, the impact has been even more dramatic. Streaming services have replaced scheduled broadcasting with on-demand access, eliminated the theatrical window for some films, and enabled global simultaneous release. Netflix's model of commissioning and distributing content based on viewing data represents a fundamental shift from the traditional model of testing content with audiences before committing to distribution. Marketing has also changed. Social media enables direct audience engagement, viral marketing can amplify reach at minimal cost, and data analytics allow precise targeting. However, this data-driven approach risks creating content that serves ",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

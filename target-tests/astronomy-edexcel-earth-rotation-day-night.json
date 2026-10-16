@@ -1,0 +1,107 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "earth-rotation-day-night",
+ "topicName": "Earth's Rotation & Day/Night",
+ "version": 1,
+ "tests": [
+  {
+   "id": "earth-rotation-day-night-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Earth's Rotation & Day/Night",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "earth-rotation-day-night-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between a sidereal day and a solar day?",
+     "correctAnswer": "A sidereal day (23h 56m 4s) is one complete 360° rotation of Earth relative to the stars. A solar day (24h) is the time for the Sun to return to the same position. The solar day is longer because Earth must rotate slightly more than 360° to compensate for its orbital motion.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-rotation-day-night-t2",
+     "type": "short-answer",
+     "question": "Q: Why is a solar day about 4 minutes longer than a sidereal day?",
+     "correctAnswer": "Because the Earth moves about 1° along its orbit each day, the Sun appears to shift eastward against the stars. The Earth must rotate an extra ~1° (about 4 minutes of time) for the Sun to return to the same position.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-rotation-day-night-t3",
+     "type": "short-answer",
+     "question": "Q: How does the Foucault pendulum demonstrate Earth's rotation?",
+     "correctAnswer": "A freely swinging pendulum maintains its plane of oscillation while the Earth rotates beneath it, causing the pendulum's plane to appear to rotate relative to the ground. At the poles, it rotates 360° in one sidereal day.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "earth-rotation-day-night-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Earth's Rotation & Day/Night",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "earth-rotation-day-night-t4",
+     "type": "short-answer",
+     "question": "Q: What are circumpolar stars?",
+     "correctAnswer": "Stars that never set below the horizon because they are close enough to the celestial pole. They trace complete circles around the pole. From the UK (latitude ~52°N), stars within 52° of the north celestial pole are circumpolar.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-rotation-day-night-t5",
+     "type": "short-answer",
+     "question": "Q: Why do stars appear to move across the sky from east to west?",
+     "correctAnswer": "Because the Earth rotates from west to east. This rotation carries the observer eastward, making celestial objects appear to move westward (rising in the east, setting in the west).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-rotation-day-night-t6",
+     "type": "short-answer",
+     "question": "Q: What is the Coriolis effect and how does it provide evidence for rotation?",
+     "correctAnswer": "Moving objects on a rotating Earth are deflected: to the right in the northern hemisphere and to the left in the southern. This causes weather systems to rotate anticlockwise (NH) or clockwise (SH), and is direct evidence of Earth's rotation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-rotation-day-night-t7",
+     "type": "short-answer",
+     "question": "Q: How fast does the Earth's surface move at the equator due to rotation?",
+     "correctAnswer": "About 460 m/s or 1,670 km/h. Speed decreases with latitude, reaching zero at the poles.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "earth-rotation-day-night-t8",
+     "type": "short-answer",
+     "question": "Q: Why is the Earth's rotation relevant to its shape?",
+     "correctAnswer": "Centrifugal force from rotation pushes material outward at the equator, creating an equatorial bulge. This makes the Earth an oblate spheroid with an equatorial diameter about 42 km greater than the polar diameter.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

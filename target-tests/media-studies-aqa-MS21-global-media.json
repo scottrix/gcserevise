@@ -1,0 +1,67 @@
+{
+ "subject": "media-studies",
+ "board": "AQA",
+ "topic": "MS21-global-media",
+ "topicName": "Global Media",
+ "version": 1,
+ "tests": [
+  {
+   "id": "MS21-global-media-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Global Media",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "MS21-global-media-t1",
+     "type": "short-answer",
+     "question": "Q: What is cultural imperialism and how does it apply to media?",
+     "correctAnswer": "Cultural imperialism is the theory that dominant Western (particularly American) media exports its culture worldwide, overwhelming local cultures and imposing Western values and lifestyles. Hollywood films, American TV, and global tech platforms distribute US cultural norms globally, potentially reducing cultural diversity and local identity.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS21-global-media-t2",
+     "type": "short-answer",
+     "question": "Q: How does glocalisation challenge cultural imperialism?",
+     "correctAnswer": "Glocalisation means global products are adapted for local markets — e.g. Netflix commissions local-language content like Squid Game (Korea) and Money Heist (Spain). This challenges cultural imperialism because local cultures aren't simply overwhelmed — they produce globally successful content on their own terms, and global companies adapt to local preferences.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS21-global-media-t3",
+     "type": "short-answer",
+     "question": "Q: Evaluate whether global media threatens local cultures.",
+     "correctAnswer": "Global media can threaten local cultures by overwhelming them with dominant (often American) content, reducing demand for local productions and eroding cultural identity. However, local cultures resist through glocalisation, producing globally successful local content, and using digital platforms to distribute their own stories. The evidence suggests a complex interplay rather than simple cultural",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "MS21-global-media-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Global Media",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "MS21-global-media-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the impact of globalisation on media industries and audiences. [15 marks] <div class=\"",
+     "correctAnswer": "Globalisation has profoundly reshaped media industries and audiences, creating both opportunities and concerns. For industries, globalisation enables massive scale. Transnational corporations like Disney and Netflix produce and distribute content worldwide, achieving economies of scale that national industries cannot match. Streaming platforms commission local content for global distribution — Squid Game (South Korea) became Netflix's most-watched series, demonstrating that local content can achieve global reach. However, the dominance of Western conglomerates raises cultural imperialism concerns. Hollywood's global reach means American values, lifestyles, and perspectives are disproportionately represented worldwide. Local industries may struggle to compete, potentially reducing cultural diversity. For audiences, globalisation increases access to diverse content. Streaming services offer content from multiple countries, subtitled and available globally. Audiences can discover Korean dramas, Spanish thrillers, and Indian films that traditional distribution would never have reached them. This challenges the one-directional flow assumed by cultural imperialism. Yet the digital divide means not everyone benefits equally. Regions with poor internet, limited device access, or non-dominant languages may be excluded from global media culture. English-language content still dominates, creating linguistic inequality. Glocalisation represents a middle ground — global companies adapting",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

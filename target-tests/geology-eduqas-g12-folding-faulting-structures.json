@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g12-folding-faulting-structures",
+ "topicName": "Folding, Faulting & Geological Structures",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g12-folding-faulting-structures-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Folding, Faulting & Geological Structures",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g12-folding-faulting-structures-t1",
+     "type": "short-answer",
+     "question": "Q: What are the three main types of unconformity?",
+     "correctAnswer": "1) Angular unconformity: tilted older rocks overlain by horizontal younger beds. 2) Disconformity: parallel beds above and below but with an erosion gap. 3) Nonconformity: sedimentary rocks resting on igneous or metamorphic basement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g12-folding-faulting-structures-t2",
+     "type": "short-answer",
+     "question": "Q: Why was Hutton's unconformity at Siccar Point significant?",
+     "correctAnswer": "It showed that the Silurian rocks beneath had been folded, eroded and then overlain by Devonian sandstone, a process requiring vast amounts of time. This provided crucial evidence for deep geological time and the principle of uniformitarianism.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g12-folding-faulting-structures-t3",
+     "type": "short-answer",
+     "question": "Q: How do you distinguish a normal fault from a reverse fault in the field?",
+     "correctAnswer": "Identify the hanging wall and footwall. In a normal fault, the hanging wall has moved down relative to the footwall (extension). In a reverse fault, the hanging wall has moved up (compression). Look for displacement of marker beds across the fault plane.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g12-folding-faulting-structures-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Folding, Faulting & Geological Structures",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g12-folding-faulting-structures-t4",
+     "type": "short-answer",
+     "question": "Q: What causes columnar jointing in basalt?",
+     "correctAnswer": "As basalt lava cools and contracts, tensional stresses create a regular pattern of hexagonal joints perpendicular to the cooling surface. The columns form because hexagonal fractures are the most efficient way to distribute stress.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g12-folding-faulting-structures-t5",
+     "type": "short-answer",
+     "question": "Q: How can you recognise a fold on a geological map?",
+     "correctAnswer": "Repeated outcrop patterns of the same rock type (symmetrical repetition), with a hinge zone and two limbs. Anticlines show oldest rocks in the core; synclines show youngest rocks in the core. Dip symbols point away from the anticline axis.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

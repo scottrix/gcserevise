@@ -1,0 +1,67 @@
+{
+ "subject": "citizenship-studies",
+ "board": "AQA",
+ "topic": "CI12-criminal-civil-law",
+ "topicName": "Criminal & Civil Law",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CI12-criminal-civil-law-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Criminal & Civil Law",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CI12-criminal-civil-law-t1",
+     "type": "short-answer",
+     "question": "Q: What is the main difference between criminal and civil law?",
+     "correctAnswer": "Criminal law deals with offences against the state, where the CPS prosecutes and guilt must be proven beyond reasonable doubt, with penalties including prison. Civil law resolves disputes between individuals, where the claimant sues and must prove their case on the balance of probabilities, with remedies like damages or injunctions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CI12-criminal-civil-law-t2",
+     "type": "short-answer",
+     "question": "Q: Why is the standard of proof higher in criminal cases?",
+     "correctAnswer": "The standard of proof is higher in criminal cases because the consequences are more severe — a defendant could lose their liberty through imprisonment. The 'beyond reasonable doubt' standard protects innocent people from wrongful conviction, reflecting the principle that it is better for the guilty to go free than for the innocent to be wrongly convicted.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CI12-criminal-civil-law-t3",
+     "type": "short-answer",
+     "question": "Q: Give an example where an act could be both a crime and a civil wrong.",
+     "correctAnswer": "If someone assaults another person, they could be prosecuted in a criminal court for the offence of assault and sentenced to prison. The victim could also sue them in a civil court for compensation for injuries, lost earnings, and emotional distress.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CI12-criminal-civil-law-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Criminal & Civil Law",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CI12-criminal-civil-law-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Compare criminal and civil law in the UK. [12 marks] <div class=\"",
+     "correctAnswer": "Criminal and civil law serve different purposes in the UK legal system. Criminal law deals with offences against the state and society as a whole. Cases are brought by the Crown Prosecution Service on behalf of the state, and guilt must be proven beyond reasonable doubt. Penalties include imprisonment, fines, and community orders, and the aim is to punish and deter offenders. Civil law resolves disputes between individuals or organisations. Cases are brought by a claimant who has suffered harm or loss, and liability must be proven on the balance of probabilities — a lower standard than criminal law. Remedies include damages, injunctions, and specific performance, and the aim is to put the injured party in the position they would have been in had the wrong not occurred. Despite these differences, the two systems overlap. An assault can lead to criminal prosecution and a civil claim for damages. Both systems operate through independent courts and are underpinned by the rule of law. Both have been affected by legal aid cuts, which some argue undermines access to justice.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

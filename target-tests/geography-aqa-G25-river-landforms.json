@@ -1,0 +1,48 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G25-river-landforms",
+ "topicName": "River Landforms",
+ "version": 1,
+ "tests": [
+  {
+   "id": "G25-river-landforms-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on River Landforms",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "G25-river-landforms-t1",
+     "type": "short-answer",
+     "question": "Explain the formation of a waterfall. (4 marks)",
+     "correctAnswer": "A waterfall forms where a river flows over a band of hard rock overlying softer rock (1 mark). The soft rock below erodes faster through hydraulic action and abrasion, creating an overhang of hard rock (1 mark). The overhang eventually collapses under gravity into the plunge pool below (1 mark). The fallen debris is swirled around by the waterfall, deepening the plunge pool through abrasion, and t",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G25-river-landforms-t2",
+     "type": "short-answer",
+     "question": "Describe the formation of an ox-bow lake. (4 marks)",
+     "correctAnswer": "Meanders develop pronounced bends with erosion on the outside and deposition on the inside of each curve (1 mark). Over time, the neck of the meander narrows as erosion continues on both outside bends (1 mark). During a flood, the river breaks through the narrow neck, taking the shortest route (1 mark). Deposition then seals off the cut-off meander from the main channel, creating an ox-bow lake (1",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G25-river-landforms-t3",
+     "type": "short-answer",
+     "question": "Compare the landforms found in the upper and lower courses of a river. (6 marks)",
+     "correctAnswer": "Upper course landforms are created mainly by erosion - interlocking spurs form where the river cannot erode laterally around hard rock projections, and waterfalls form where hard rock overlies soft rock (1 mark). Gorges form behind retreating waterfalls (1 mark). Lower course landforms are created mainly by deposition - levees form from repeated flood deposition, and flood plains are wide, flat ar",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

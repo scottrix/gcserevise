@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as25-satellites-space-probes",
+ "topicName": "Satellites & Space Probes",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as25-satellites-space-probes-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Satellites & Space Probes",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as25-satellites-space-probes-t1",
+     "type": "short-answer",
+     "question": "Q: What are the advantages of a geostationary orbit?",
+     "correctAnswer": "The satellite remains above the same point on Earth, so ground antennas don't need to track it. Ideal for communications and weather monitoring of a fixed region.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as25-satellites-space-probes-t2",
+     "type": "short-answer",
+     "question": "Q: Why are polar orbits useful for Earth observation?",
+     "correctAnswer": "The satellite passes over different parts of Earth on each orbit as the planet rotates beneath it, eventually covering the entire surface — ideal for mapping and environmental monitoring.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as25-satellites-space-probes-t3",
+     "type": "short-answer",
+     "question": "Q: Name three types of space probe and their functions.",
+     "correctAnswer": "Orbiter: orbits a body for long-term remote study (e.g. Mars Reconnaissance Orbiter). Lander: touches down to study the surface in situ (e.g. Philae). Rover: a mobile lander that can explore multiple locations (e.g. Curiosity).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as25-satellites-space-probes-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Satellites & Space Probes",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as25-satellites-space-probes-t4",
+     "type": "short-answer",
+     "question": "Q: What is the Kessler syndrome?",
+     "correctAnswer": "A cascading effect where collisions between space debris create more debris, potentially making certain orbits too dangerous to use.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as25-satellites-space-probes-t5",
+     "type": "short-answer",
+     "question": "Q: Calculate the orbital period of a satellite at 35,786 km altitude using Kepler's 3rd law.",
+     "correctAnswer": "A satellite at this altitude (geostationary orbit) has an orbital period of exactly 24 hours, matching Earth's rotation — this is the definition of geostationary orbit.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

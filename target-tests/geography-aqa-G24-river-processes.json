@@ -1,0 +1,48 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G24-river-processes",
+ "topicName": "River Processes",
+ "version": 1,
+ "tests": [
+  {
+   "id": "G24-river-processes-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on River Processes",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "G24-river-processes-t1",
+     "type": "short-answer",
+     "question": "Describe the changes in a river's long profile from source to mouth. (4 marks)",
+     "correctAnswer": "The long profile is steep in the upper course near the source (1 mark), with high kinetic energy that produces vertical erosion and V-shaped valleys (1 mark). In the middle course, the gradient becomes moderate, and lateral erosion and transportation become the dominant processes (1 mark). In the lower course near the mouth, the gradient is very gentle, energy is low, and deposition dominates, cre",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G24-river-processes-t2",
+     "type": "short-answer",
+     "question": "Explain the process of abrasion in a river. (4 marks)",
+     "correctAnswer": "Abrasion (also called corrasion) is the process by which the river's sediment load is scraped and rubbed against the bed and banks (1 mark). Rocks, pebbles and sand act like sandpaper, wearing away the channel surfaces (1 mark). It is most effective in the upper and middle courses where larger sediment is available as load (1 mark). Abrasion can create distinctive features like potholes where pebb",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G24-river-processes-t3",
+     "type": "short-answer",
+     "question": "Compare the four processes of river transportation. (6 marks)",
+     "correctAnswer": "The four transportation processes carry different sizes of sediment. Traction rolls the largest particles (boulders and cobbles) along the river bed (1 mark). Saltation bounces medium particles (sand and small pebbles) along the bed in a hopping motion (1 mark). Suspension carries fine particles (silt and clay) within the water column, making the water appear cloudy - this is the most common proce",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "subject": "history",
+ "board": "AQA",
+ "topic": "H2-weimar-republic",
+ "topicName": "The Weimar Republic",
+ "version": 1,
+ "tests": [
+  {
+   "id": "H2-weimar-republic-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Weimar Republic",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "H2-weimar-republic-t1",
+     "type": "short-answer",
+     "question": "Describe two weaknesses of the Weimar Constitution. (4 marks)",
+     "correctAnswer": "Article 48 allowed the President to rule by decree in an emergency, but \"emergency\" was never defined, so it could be abused. Proportional representation meant that no single party could win a majority, leading to unstable coalition governments that frequently collapsed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "H2-weimar-republic-t2",
+     "type": "short-answer",
+     "question": "Explain why the Spartacist Uprising failed. (8 marks)",
+     "correctAnswer": "The Spartacist Uprising failed because: it lacked popular support - most Berlin workers did not actively join the revolt; the Spartacists failed to seize key infrastructure like communications and transport; the government called in the Freikorps who were heavily armed and ruthless; the SPD had control of the state machinery and could mobilise force against the Communists. Luxemburg and Liebknecht",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "H2-weimar-republic-t3",
+     "type": "short-answer",
+     "question": "How far was the Weimar Republic threatened by right-wing opposition in the years 1919-1923? (12 marks)",
+     "correctAnswer": "Right-wing threats were very serious: the Kapp Putsch briefly seized Berlin in March 1920; right-wing extremists murdered Erzberger (1921) and Rathenau (1922); the Munich Putsch in 1923 showed the growing Nazi threat. The army was unreliable - it refused to fire on the Freikorps during the Kapp Putsch. The judiciary was biased, giving light sentences to right-wing killers. However, left-wing threa",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "H2-weimar-republic-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on The Weimar Republic",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "H2-weimar-republic-t4",
+     "type": "short-answer",
+     "question": "\"The Weimar Constitution was doomed from the start.\" How far do you agree? (16 marks)",
+     "correctAnswer": "The Constitution had significant flaws: Article 48 gave the President emergency powers that Hitler exploited; PR produced fragmented parliaments and weak coalitions; the President had too much power over the Chancellor. However, the Constitution was not inherently doomed - it functioned reasonably well during the Stresemann era (1924-1929). The real problems were external: the Versailles Treaty un",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "H2-weimar-republic-t5",
+     "type": "short-answer",
+     "question": "Explain why the Kapp Putsch was significant for the Weimar Republic. (8 marks)",
+     "correctAnswer": "The Kapp Putsch was significant because: it showed the Weimar government could not rely on the army to defend democracy (Reichswehr refused to fire on Freikorps); it demonstrated that the Republic depended on the working class (general strike saved the government); it revealed the biased justice system - right-wing conspirators were barely punished; and it set a pattern where right-wing threats to",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

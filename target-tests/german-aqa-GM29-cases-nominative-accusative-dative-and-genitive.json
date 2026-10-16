@@ -1,0 +1,57 @@
+{
+ "subject": "german",
+ "board": "AQA",
+ "topic": "GM29-cases-nominative-accusative-dative-and-genitive",
+ "topicName": "Cases: Nominative, Accusative, Dative and Genitive",
+ "version": 1,
+ "tests": [
+  {
+   "id": "GM29-cases-nominative-accusative-dative-and-genitive-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Cases: Nominative, Accusative, Dative and Genitive",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "GM29-cases-nominative-accusative-dative-and-genitive-t1",
+     "type": "short-answer",
+     "question": "Q: Fill in the correct article: Ich gebe ___ Mann ___ Buch. Ich fahre ___ Berlin.",
+     "correctAnswer": "Ich gebe dem Mann das Buch (dem = dative masculine after geben to someone; das = accusative neuter direct object). Ich fahre nach Berlin (nach takes dative, but with place names nach + no article for cities/countries).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "GM29-cases-nominative-accusative-dative-and-genitive-t2",
+     "type": "short-answer",
+     "question": "Q: Which case after these prepositions: mit, für, in (location), in (movement)?",
+     "correctAnswer": "mit → dative. für → accusative. in (location/Wo?) → dative. in (movement/Wohin?) → accusative.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "GM29-cases-nominative-accusative-dative-and-genitive-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Cases: Nominative, Accusative, Dative and Genitive",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "GM29-cases-nominative-accusative-dative-and-genitive-t3",
+     "type": "short-answer",
+     "question": "Full-Mark Response Writing task: Write about the four german cases; when to use each; definite and indefinite articles in all cases; prepositions taking specific cases. <div class=\"",
+     "correctAnswer": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, modal verbs, separable verbs); show precise grammar (cases, word order, adjective endings); express and justify opinions; include cultural knowledge about DACH countries; use a wide range of vocabulary; be well-organised with connecting words (außerdem, jedoch, trotzdem, zusammenfassend). Mark scheme: Content (relevance and detail) + Quality of language (accuracy and range) = total marks",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

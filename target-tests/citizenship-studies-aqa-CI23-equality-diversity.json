@@ -1,0 +1,67 @@
+{
+ "subject": "citizenship-studies",
+ "board": "AQA",
+ "topic": "CI23-equality-diversity",
+ "topicName": "Equality & Diversity",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CI23-equality-diversity-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Equality & Diversity",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CI23-equality-diversity-t1",
+     "type": "short-answer",
+     "question": "Q: What are the 9 protected characteristics in the Equality Act 2010?",
+     "correctAnswer": "Age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, and sexual orientation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CI23-equality-diversity-t2",
+     "type": "short-answer",
+     "question": "Q: Explain the difference between direct and indirect discrimination.",
+     "correctAnswer": "Direct discrimination is deliberately treating someone less favourably because of a protected characteristic, e.g. refusing to hire someone because of their race. Indirect discrimination is a policy that applies to everyone but disproportionately disadvantages a particular group, e.g. a height requirement that excludes more women than men.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CI23-equality-diversity-t3",
+     "type": "short-answer",
+     "question": "Q: Evaluate the effectiveness of the Equality Act 2010 in preventing discrimination.",
+     "correctAnswer": "The Act provides comprehensive legal protection across 9 characteristics and gives individuals legal recourse. However, discrimination persists — pay gaps remain, hate crime has increased, and the burden of proving discrimination falls on the victim. Legal protection is necessary but not sufficient to achieve equality.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CI23-equality-diversity-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Equality & Diversity",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CI23-equality-diversity-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the view that laws alone cannot create an equal society. [12 marks] <div class=\"",
+     "correctAnswer": "Laws such as the Equality Act 2010 are essential but insufficient for an equal society. Legal protection gives individuals recourse against discrimination and signals that discrimination is unacceptable. The Act covers 9 protected characteristics comprehensively. However, laws alone cannot change deep-rooted attitudes. Despite legal protections, the gender pay gap persists at 7.7%, ethnic minorities face hiring discrimination (shown in CV studies), and hate crime has increased. The Windrush scandal showed legal status alone did not protect people from institutional discrimination. Enforcement is also a challenge. The burden of proving discrimination falls on the individual, who may lack resources. Legal aid cuts have made this harder. The EHRC has limited resources to investigate systemic discrimination. Education, cultural change, and economic policies are needed alongside laws. Schools teaching diversity, employers auditing pay gaps, and media challenging stereotypes all contribute. Laws set the framework but achieving equality requires sustained action across all areas of life. In conclusion, while laws are a necessary foundation, they are not sufficient. Legal change must be accompanied by cultural, educational, and economic change to address root causes of inequality.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

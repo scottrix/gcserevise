@@ -1,0 +1,126 @@
+{
+ "subject": "latin",
+ "board": "Eduqas",
+ "topic": "poetic-metre-style",
+ "topicName": "Poetic Metre & Style",
+ "version": 1,
+ "tests": [
+  {
+   "id": "poetic-metre-style-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Poetic Metre & Style",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "poetic-metre-style-t1",
+     "type": "short-answer",
+     "question": "Q: What is a dactylic hexameter and which types of poetry use it?",
+     "correctAnswer": "A line of six feet, each foot being a dactyl (- uu) or spondee (--), with a spondee or trochee in the final foot. It is the metre of epic poetry (Virgil's Aeneid, Ovid's Metamorphoses).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "poetic-metre-style-t2",
+     "type": "short-answer",
+     "question": "Q: What is the caesura and why is it important?",
+     "correctAnswer": "A natural pause within a hexameter line, usually in the third foot. It divides the line into two parts and allows the poet to structure meaning within the metrical framework.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "poetic-metre-style-t3",
+     "type": "short-answer",
+     "question": "Q: Explain elision with an example.",
+     "correctAnswer": "When a word ending in a vowel or -m is followed by a word beginning with a vowel or h-, the final syllable is not pronounced separately. Example: multum ille et terris becomes multill'et terris.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "poetic-metre-style-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Poetic Metre & Style",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "poetic-metre-style-t4",
+     "type": "short-answer",
+     "question": "Q: What is enjambement and what effect does it create?",
+     "correctAnswer": "When a sentence continues from one line to the next without a natural pause. It creates momentum, suspense, and a flowing effect that draws the reader forward.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "poetic-metre-style-t5",
+     "type": "short-answer",
+     "question": "Q: How does alliteration function in Latin poetry?",
+     "correctAnswer": "Repetition of initial consonant sounds creates emphasis, musicality, and onomatopoeic effects. Harsh consonants imitate violence; smooth ones create calm.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "poetic-metre-style-t6",
+     "type": "short-answer",
+     "question": "Q: What is the difference between a dactyl and a spondee?",
+     "correctAnswer": "A dactyl is one long syllable followed by two short syllables (dum-di-di). A spondee is two long syllables (dum-dum).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "poetic-metre-style-t7",
+     "type": "short-answer",
+     "question": "Q: Why is hyperbaton more common in poetry than prose?",
+     "correctAnswer": "Poets separate adjectives from their nouns to create emphasis, beauty, and sound effects. The separation draws attention to both words.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "poetic-metre-style-t8",
+     "type": "short-answer",
+     "question": "Q: What is onomatopoeia and give a Virgilian example.",
+     "correctAnswer": "Words that imitate sounds. Virgil uses 'sternitur' (he is struck down) to mimic a body hitting the ground, and 'stridor' (screeching) to imitate harsh sounds.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "poetic-metre-style-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Poetic Metre & Style",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "poetic-metre-style-t9",
+     "type": "short-answer",
+     "question": "Full-Mark Response Explain how Virgil uses poetic metre and stylistic features to create atmosphere in the Aeneid. Discuss at least four features. (8 marks) <div class=\"",
+     "correctAnswer": "Virgil exploits every aspect of poetic technique to create atmosphere. The dactylic hexameter itself establishes an elevated, epic tone: the regular rhythm of six feet per line gives grandeur and momentum, while the caesura in the third foot creates a natural pause that structures the sense. Virgil varies dactyls and spondees: fast action uses more dactyls (the lighter pattern creating speed), while heavier passages use more spondees (the double-long pattern creating weight). Alliteration is used extensively for atmospheric effect: in battle scenes, harsh consonant clusters imitate the clash of weapons, while in descriptions of peace, smooth sounds create calm. Onomatopoeia reinforces meaning: 'sternitur' (he is struck down) mimics a body falling, and 'stridor' imitates grinding. Enjambement creates momentum and suspense: when a sentence runs across a line break, the reader is pulled forward, mirroring the urgency of Aeneas's flight from Troy. Hyperbaton is Virgil's most characteristic device: separating adjective from noun draws attention to both and creates a complex, layered effect. Together, these features make the Aeneid a carefully orchestrated auditory experience where sound and sense work together to create atmosphere.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

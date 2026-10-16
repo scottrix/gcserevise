@@ -1,0 +1,67 @@
+{
+ "subject": "sociology",
+ "board": "AQA",
+ "topic": "SO25-application-of-research-methods",
+ "topicName": "Application of Research Methods",
+ "version": 1,
+ "tests": [
+  {
+   "id": "SO25-application-of-research-methods-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Application of Research Methods",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "SO25-application-of-research-methods-t1",
+     "type": "short-answer",
+     "question": "A researcher wants to study the impact of divorce on children. Evaluate which method would be most appropriate.",
+     "correctAnswer": "Semi-structured interviews: allow children to express experiences, follow up on sensitive topics, build rapport. Ethical issues: consent from parents AND children, protection from distress.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO25-application-of-research-methods-t2",
+     "type": "short-answer",
+     "question": "Compare the practical and ethical issues of researching crime vs education.",
+     "correctAnswer": "Crime: greater ethical issues (risk, illegal activity, deception). Education: access challenges (gatekeepers, parental consent). Both require sensitivity but crime faces greater ethical dilemmas.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO25-application-of-research-methods-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether triangulation always produces better research than a single method.",
+     "correctAnswer": "Triangulation strengths: overcomes individual method limitations, increases validity, provides complete picture. Weaknesses: more time/cost, may produce contradictory findings. Conclusion: generally preferable but not always practical.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "SO25-application-of-research-methods-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Application of Research Methods",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "SO25-application-of-research-methods-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the factors sociologists should consider when choosing a research method. <div class=\"",
+     "correctAnswer": "A grade 9 response will: describe practical, ethical and theoretical factors; apply to a specific context; evaluate trade-offs; conclude: no single factor determines choice - sociologists must balance all three. Triangulation provides the strongest evidence where practical.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

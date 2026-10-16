@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g15-weathering-soils",
+ "topicName": "Weathering & Soils",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g15-weathering-soils-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Weathering & Soils",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g15-weathering-soils-t1",
+     "type": "short-answer",
+     "question": "Q: Describe how freeze-thaw weathering works.",
+     "correctAnswer": "Water enters cracks in rock. When temperature drops below freezing, the water expands by ~9% as it turns to ice, exerting pressure on the crack walls. Repeated freeze-thaw cycles gradually widen the crack until fragments of rock break off.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g15-weathering-soils-t2",
+     "type": "short-answer",
+     "question": "Q: How does hydrolysis weather feldspar?",
+     "correctAnswer": "Water reacts with feldspar minerals in granite, breaking their chemical bonds and converting them into clay minerals (kaolinite) plus dissolved silica and potassium/sodium ions. This weakens the rock and is a major process in granite weathering.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g15-weathering-soils-t3",
+     "type": "short-answer",
+     "question": "Q: What is the difference between weathering and erosion?",
+     "correctAnswer": "Weathering is the in-situ breakdown of rock where it sits (no transport involved). Erosion is the removal and transport of weathered material by agents such as water, wind or ice.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g15-weathering-soils-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Weathering & Soils",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g15-weathering-soils-t4",
+     "type": "short-answer",
+     "question": "Q: What factors control the rate of weathering?",
+     "correctAnswer": "Climate (temperature and moisture: warm and wet accelerates chemical weathering; cold promotes freeze-thaw), rock type and mineralogy (some minerals weather faster than others), surface area (more joints = faster weathering), time, and vegetation cover.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g15-weathering-soils-t5",
+     "type": "short-answer",
+     "question": "Q: Describe the layers (horizons) in a typical soil profile.",
+     "correctAnswer": "O horizon: organic layer (leaf litter). A horizon: topsoil with organic matter and minerals. B horizon: subsoil with accumulated leached minerals (clay, iron). C horizon: partially weathered parent rock (regolith).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

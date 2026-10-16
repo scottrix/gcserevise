@@ -1,0 +1,96 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "primary-secondary-data",
+ "topicName": "Primary Secondary Data",
+ "version": 1,
+ "tests": [
+  {
+   "id": "primary-secondary-data-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Primary Secondary Data",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "primary-secondary-data-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between primary and secondary data?",
+     "correctAnswer": "Primary data is collected firsthand by the investigator for a specific purpose; secondary data already exists and was collected by someone else, usually for a different purpose.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "primary-secondary-data-t2",
+     "type": "short-answer",
+     "question": "Q: Name three sources of secondary data.",
+     "correctAnswer": "Government databases (e.g. ONS), the internet, books, newspapers, previous studies, company records.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "primary-secondary-data-t3",
+     "type": "short-answer",
+     "question": "Q: What is a census?",
+     "correctAnswer": "A survey that collects data from every member of the population rather than a sample.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "primary-secondary-data-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Primary Secondary Data",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "primary-secondary-data-t4",
+     "type": "short-answer",
+     "question": "Q: Give one advantage and one disadvantage of primary data.",
+     "correctAnswer": "Advantage: it is specific to your investigation and you know exactly how it was collected. Disadvantage: it can be time-consuming and expensive.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "primary-secondary-data-t5",
+     "type": "short-answer",
+     "question": "Q: Why might secondary data be unreliable?",
+     "correctAnswer": "It may be outdated, collected using different methods, biased, or not relevant to your specific hypothesis.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "primary-secondary-data-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Primary Secondary Data",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "primary-secondary-data-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response A student wants to compare the average rainfall in London and Manchester over the last 10 years. Should they use primary or secondary data? Justify your answer. <div class=\"",
+     "correctAnswer": "The student should use secondary data. Rainfall data for the last 10 years already exists and is freely available from the Met Office or other meteorological sources. Advantages: It is quick and free to access; the data has been collected professionally using standardised instruments over a long period, making it reliable. Collecting primary data would be impractical because the student would need rain gauges in both cities running for 10 years, which is far beyond the time and cost available for a school investigation. The student should check that the secondary data comes from a reputable source and that the recording methods are consistent between the two cities.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

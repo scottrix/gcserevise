@@ -1,0 +1,77 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "ah6-athenian-empire",
+ "topicName": "The Athenian Empire (Delian League)",
+ "version": 1,
+ "tests": [
+  {
+   "id": "ah6-athenian-empire-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Athenian Empire (Delian League)",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "ah6-athenian-empire-t1",
+     "type": "short-answer",
+     "question": "Q: Why was the Delian League formed?",
+     "correctAnswer": "In 478 BC, after the Persian Wars, Greek states formed a defensive alliance against further Persian attack. Athens was chosen as leader (hegemon) because of its large navy. Members contributed ships or money to a common treasury on Delos.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah6-athenian-empire-t2",
+     "type": "short-answer",
+     "question": "Q: How did Athens transform the Delian League into an empire?",
+     "correctAnswer": "Athens moved the treasury from Delos to Athens (454 BC), claiming it was safer. It forced members to use Athenian currency and weights, required legal cases to be tried in Athenian courts, and prevented members from leaving by force (e.g. crushing the Naxos revolt). The Erythrae decree shows Athens directly controlling allied governments.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah6-athenian-empire-t3",
+     "type": "short-answer",
+     "question": "Q: What happened to states that tried to leave the Delian League?",
+     "correctAnswer": "They were forcibly prevented. Naxos was the first to attempt withdrawal (c. 470 BC) and was besieged and forced back into the League. Thasos revolted (465 BC) and after a two-year siege was forced to dismantle its walls, surrender its fleet and pay increased tribute. These examples deterred other rebellions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "ah6-athenian-empire-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on The Athenian Empire (Delian League)",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "ah6-athenian-empire-t4",
+     "type": "short-answer",
+     "question": "Q: How did Athens use the League's money?",
+     "correctAnswer": "After moving the treasury to Athens, Pericles used tribute money to fund the Athenian building programme (including the Parthenon), pay for the navy and support Athenian democracy. Effectively, Athens spent allied money on its own city, provoking resentment.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah6-athenian-empire-t5",
+     "type": "short-answer",
+     "question": "Q: What was the significance of moving the treasury from Delos to Athens?",
+     "correctAnswer": "It symbolised and enabled the transformation from alliance to empire. The money was now under Athens' direct control. Athens could use the funds for its own purposes rather than just defence against Persia. It also meant Athens could monitor and control contributions more closely.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

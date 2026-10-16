@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g9-metamorphic-rocks",
+ "topicName": "Metamorphic Rocks",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g9-metamorphic-rocks-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Metamorphic Rocks",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g9-metamorphic-rocks-t1",
+     "type": "short-answer",
+     "question": "Q: How does regional metamorphism differ from contact metamorphism?",
+     "correctAnswer": "Regional metamorphism is large-scale, caused by tectonic compression and heat during mountain building, producing foliated rocks over wide areas. Contact metamorphism is local, caused by heat from an igneous intrusion, producing non-foliated rocks in a narrow aureole around the intrusion.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g9-metamorphic-rocks-t2",
+     "type": "short-answer",
+     "question": "Q: Describe the metamorphic progression from mudstone to gneiss.",
+     "correctAnswer": "Mudstone to slate (low grade, fine-grained, slaty cleavage) to phyllite (low-medium, slightly coarser) to schist (medium grade, visible mica, schistosity) to gneiss (high grade, coarse, banded segregation of light and dark minerals).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g9-metamorphic-rocks-t3",
+     "type": "short-answer",
+     "question": "Q: What are index minerals and why are they useful?",
+     "correctAnswer": "Minerals that only form within specific temperature-pressure ranges. Their presence in a rock indicates the metamorphic grade. For example, chlorite indicates low grade, garnet indicates medium grade, and sillimanite indicates high grade.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g9-metamorphic-rocks-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Metamorphic Rocks",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g9-metamorphic-rocks-t4",
+     "type": "short-answer",
+     "question": "Q: How does marble form and what are its characteristics?",
+     "correctAnswer": "Marble forms from the metamorphism of limestone. Calcite recrystallises into interlocking crystals, destroying any fossils and sedimentary textures. Marble is non-foliated and has a sugary texture.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g9-metamorphic-rocks-t5",
+     "type": "short-answer",
+     "question": "Q: Why does foliation develop in some metamorphic rocks but not others?",
+     "correctAnswer": "Foliation develops under directed pressure (differential stress) which aligns platy minerals like mica perpendicular to the maximum stress direction. It does not develop under uniform pressure (confining pressure only, as in contact metamorphism) or in rocks lacking platy minerals.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

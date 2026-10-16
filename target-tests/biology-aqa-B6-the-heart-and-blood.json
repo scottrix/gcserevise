@@ -1,0 +1,106 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "B6-the-heart-and-blood",
+ "topicName": "B6 The Heart And Blood",
+ "version": 1,
+ "tests": [
+  {
+   "id": "B6-the-heart-and-blood-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on B6 The Heart And Blood",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "B6-the-heart-and-blood-t1",
+     "type": "short-answer",
+     "question": "Describe the double circulatory system in humans. (3 marks)",
+     "correctAnswer": "Humans have a double circulatory system with two separate circuits. The pulmonary circuit carries deoxygenated blood from the right ventricle to the lungs to pick up oxygen, and returns oxygenated blood to the left atrium. The systemic circuit carries oxygenated blood from the left ventricle to the rest of the body to deliver oxygen, and returns deoxygenated blood to the right atrium.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B6-the-heart-and-blood-t2",
+     "type": "short-answer",
+     "question": "Explain why the left ventricle has a thicker muscular wall than the right ventricle. (3 marks)",
+     "correctAnswer": "The left ventricle pumps blood around the whole body (systemic circuit), which requires high pressure to push blood through the extensive network of blood vessels. The right ventricle only pumps blood to the lungs (pulmonary circuit), which are close by and require less pressure. The thicker muscular wall of the left ventricle allows it to contract more powerfully and generate this higher pressure",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B6-the-heart-and-blood-t3",
+     "type": "short-answer",
+     "question": "Compare the structure of arteries and veins. Explain how each is adapted to its function. (4 marks)",
+     "correctAnswer": "Arteries have thick walls containing muscle and elastic tissue to withstand the high pressure of blood pumped from the heart; they have a narrow lumen to maintain high pressure. Veins have thinner walls because blood is at low pressure; they have a wider lumen to allow easy blood flow; and they contain valves to prevent backflow of blood. Both carry blood but arteries carry blood away from the hea",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "B6-the-heart-and-blood-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on B6 The Heart And Blood",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "B6-the-heart-and-blood-t4",
+     "type": "short-answer",
+     "question": "Describe how red blood cells are adapted to carry oxygen. (3 marks)",
+     "correctAnswer": "Red blood cells contain haemoglobin which binds to oxygen in the lungs and releases it at the tissues. They have no nucleus, creating more space inside for haemoglobin so more oxygen can be carried. Their biconcave disc shape increases the surface area for oxygen diffusion.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B6-the-heart-and-blood-t5",
+     "type": "short-answer",
+     "question": "Explain how coronary heart disease develops and describe one treatment. (4 marks)",
+     "correctAnswer": "CHD develops when fatty deposits (cholesterol/plaque) build up on the inner walls of the coronary arteries, narrowing them and reducing blood flow to the heart muscle. This means the heart receives less oxygen. One treatment is a stent - a wire mesh tube inserted into the narrowed artery to keep it open and restore normal blood flow. Alternatively, statins are drugs that reduce blood cholesterol l",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B6-the-heart-and-blood-t6",
+     "type": "short-answer",
+     "question": "Name two substances carried in blood plasma and state where each is transported to. (2 marks)",
+     "correctAnswer": "Carbon dioxide - transported from body tissues to the lungs for excretion. Urea - transported from the liver to the kidneys for excretion. (Also acceptable: dissolved nutrients like glucose from the small intestine to body tissues; hormones from glands to target organs.)",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "B6-the-heart-and-blood-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on B6 The Heart And Blood",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "B6-the-heart-and-blood-t7",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Explain how the structure of an artery, a vein and a capillary relates to its function. <div class=\"",
+     "correctAnswer": "Arteries carry blood at high pressure away from the heart, so they have thick walls containing muscle and elastic tissue to withstand and accommodate this pressure. The elastic fibres allow the artery to stretch and recoil as blood is pumped through. Arteries have a narrow lumen to maintain high pressure. Veins carry blood at low pressure back to the heart, so they have thinner walls with less muscle and elastic tissue. They have a wide lumen to allow easy blood flow at low pressure, and contain valves to prevent backflow of blood. Capillaries are the site of exchange between blood and tissues, so their walls are only one cell thick, creating a very short diffusion path for oxygen, carbon dioxide and nutrients. They have a very narrow lumen (one red blood cell wide) to slow blood flow and maximise exchange. Mark scheme: 1 mark for artery structure + function link; 1 mark for artery wall detail; 1 mark for vein structure + function link; 1 mark for vein valves; 1 mark for capillary structure + function link; 1 mark for one-cell-thick diffusion path",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

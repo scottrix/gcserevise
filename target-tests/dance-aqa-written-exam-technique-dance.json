@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "written-exam-technique-dance",
+ "topicName": "Written Exam Technique",
+ "version": 1,
+ "tests": [
+  {
+   "id": "written-exam-technique-dance-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Written Exam Technique",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "written-exam-technique-dance-t1",
+     "type": "short-answer",
+     "question": "Q: How should you manage your time in the AQA 8236 written exam?",
+     "correctAnswer": "Allocate approximately 1.5 minutes per mark. Read all questions first, then start with your strongest topic. For a 6-mark question, allow about 9 minutes including planning time. Leave 5 minutes at the end for checking.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "written-exam-technique-dance-t2",
+     "type": "short-answer",
+     "question": "Q: What is the PEEL structure and why is it useful?",
+     "correctAnswer": "PEEL stands for Point, Evidence, Explanation, Link. It ensures each paragraph has a clear point, is supported by specific evidence from the work, explains how the evidence supports the point, and links back to the choreographic intention or question focus.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "written-exam-technique-dance-t3",
+     "type": "short-answer",
+     "question": "Q: How should you approach an annotation question?",
+     "correctAnswer": "Use precise dance terminology — not vague labels. Place labels accurately on the correct part of the diagram. Cover action, dynamics, space and relationships where relevant, and ensure each annotation is specific rather than general.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "written-exam-technique-dance-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Written Exam Technique",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "written-exam-technique-dance-t4",
+     "type": "short-answer",
+     "question": "Q: Why is it important to plan extended answers before writing?",
+     "correctAnswer": "Planning ensures your answer is structured, covers all required elements and directly addresses the command word. A brief outline prevents waffle, ensures you include evidence and keeps your answer focused on the question.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "written-exam-technique-dance-t5",
+     "type": "short-answer",
+     "question": "Q: What should you check for when reviewing your answers at the end of the exam?",
+     "correctAnswer": "Check that you have answered the command word correctly, used specific dance terminology, supported points with evidence from the work, written in full sentences, and not left any questions blank.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "C4-ionic-bonding",
+ "topicName": "C4 Ionic Bonding",
+ "version": 1,
+ "tests": [
+  {
+   "id": "C4-ionic-bonding-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on C4 Ionic Bonding",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "C4-ionic-bonding-t1",
+     "type": "short-answer",
+     "question": "Foundation Describe how an ionic bond forms between a metal and a non-metal.",
+     "correctAnswer": "In ionic bonding, the metal atom transfers one or more electrons to the non-metal atom. The metal becomes a positive ion (it has lost negative electrons) and the non-metal becomes a negative ion (it has gained electrons). Both achieve a full outer shell. The strong electrostatic attraction between the oppositely charged ions is the ionic bond.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C4-ionic-bonding-t2",
+     "type": "short-answer",
+     "question": "Foundation Draw a dot and cross diagram for the formation of lithium oxide, Li₂O. Explain why the formula is Li₂O.",
+     "correctAnswer": "Lithium (2,1) loses one electron → Li⁺ (2). Two lithium atoms each lose one electron. Oxygen (2,6) gains two electrons → O²⁻ (2,8). The formula is Li₂O because two Li⁺ ions (each +1) balance one O²⁻ ion (−2). The dot and cross diagram shows two Li atoms each with one outer electron (dots), and one O atom with six outer electrons (crosses). The two electrons from lithium appear on oxygen's outer sh",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C4-ionic-bonding-t3",
+     "type": "short-answer",
+     "question": "Foundation Explain why ionic compounds have high melting points.",
+     "correctAnswer": "Ionic compounds have high melting points because there are strong electrostatic forces of attraction between the oppositely charged ions in the giant ionic lattice. A large amount of energy is needed to overcome these forces and break the lattice apart.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "C4-ionic-bonding-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on C4 Ionic Bonding",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "C4-ionic-bonding-t4",
+     "type": "short-answer",
+     "question": "Higher Explain why solid sodium chloride does not conduct electricity but sodium chloride solution does conduct electricity.",
+     "correctAnswer": "In solid NaCl, the ions are held in fixed positions in the lattice and cannot move, so they cannot carry charge and the substance does not conduct electricity. In NaCl solution, water molecules separate the ions from the lattice. The Na⁺ and Cl⁻ ions are free to move throughout the solution, so they can carry charge and the solution conducts electricity.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C4-ionic-bonding-t5",
+     "type": "short-answer",
+     "question": "Higher Predict the formula of the ionic compound formed between: (a) calcium and fluorine, (b) potassium and oxygen, (c) magnesium and oxygen.",
+     "correctAnswer": "(a) CaF₂ - calcium forms Ca²⁺, fluorine forms F⁻. Two F⁻ needed to balance one Ca²⁺. (b) K₂O - potassium forms K⁺, oxygen forms O²⁻. Two K⁺ needed to balance one O²⁻. (c) MgO - magnesium forms Mg²⁺, oxygen forms O²⁻. Charges already balance.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C4-ionic-bonding-t6",
+     "type": "short-answer",
+     "question": "Foundation What charge will ions formed from the following atoms have? (a) Ca, (b) O, (c) K, (d) Cl",
+     "correctAnswer": "(a) Ca is in Group 2 → Ca²⁺ (loses 2 electrons). (b) O is in Group 6 → O²⁻ (gains 2 electrons). (c) K is in Group 1 → K⁺ (loses 1 electron). (d) Cl is in Group 7 → Cl⁻ (gains 1 electron).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "C4-ionic-bonding-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on C4 Ionic Bonding",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "C4-ionic-bonding-t7",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Explain why ionic compounds have high melting points and conduct electricity when molten but not when solid. <div class=\"",
+     "correctAnswer": "Ionic compounds have high melting points because there are strong electrostatic forces of attraction between oppositely charged ions in the giant ionic lattice. A large amount of energy is needed to overcome these forces. When solid, the ions are held in fixed positions in the lattice and cannot move, so they cannot carry charge and the substance does not conduct electricity. When molten, the lattice breaks down and the ions are free to move throughout the liquid. These mobile ions can carry charge, so the molten ionic compound conducts electricity. Mark scheme: 1 mark for strong electrostatic forces; 1 mark for high energy needed; 1 mark for ions fixed in solid; 1 mark for cannot carry charge when solid; 1 mark for ions free to move when molten; 1 mark for mobile ions carry charge.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

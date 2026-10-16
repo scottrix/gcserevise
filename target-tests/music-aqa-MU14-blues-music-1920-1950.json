@@ -1,0 +1,67 @@
+{
+ "subject": "music",
+ "board": "AQA",
+ "topic": "MU14-blues-music-1920-1950",
+ "topicName": "Blues Music 1920-1950",
+ "version": 1,
+ "tests": [
+  {
+   "id": "MU14-blues-music-1920-1950-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Blues Music 1920-1950",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "MU14-blues-music-1920-1950-t1",
+     "type": "short-answer",
+     "question": "Describe how blues music 1920-1950 are used in a piece of music you have studied. Use musical vocabulary.",
+     "correctAnswer": "A detailed description using precise musical vocabulary (e.g. specific terms from the AQA elements list), referencing a named piece with accurate observations about how the elements are used and their effect.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MU14-blues-music-1920-1950-t2",
+     "type": "short-answer",
+     "question": "Compare how two different pieces use blues music 1920-1950. Explain the effect in each case.",
+     "correctAnswer": "A comparison of two pieces identifying similarities and differences in how blues music 1920-1950 are used, explaining the different effects created in each musical context, using comparative language.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MU14-blues-music-1920-1950-t3",
+     "type": "short-answer",
+     "question": "How could you use blues music 1920-1950 in your own composition or performance? Explain your choices.",
+     "correctAnswer": "A practical application showing understanding of how blues music 1920-1950 can be manipulated in composition or performance, with specific examples of choices made and their intended effect.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "MU14-blues-music-1920-1950-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Blues Music 1920-1950",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "MU14-blues-music-1920-1950-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Analyse a blues track, identifying at least five characteristic blues features using AQA musical vocabulary. Explain how each feature contributes to the style. <div class=\"",
+     "correctAnswer": "A grade 9 response will: identify 12-bar blues structure with Roman numerals; name blue notes and their scale degrees; explain call and response; identify shuffle rhythm; discuss the evolution from Delta to Chicago blues; use precise terminology. Mark scheme: AO3 (analyse and evaluate) + AO4 (knowledge and understanding) = total marks for listening; AO1 (perform) + AO2 (compose) for coursework components",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

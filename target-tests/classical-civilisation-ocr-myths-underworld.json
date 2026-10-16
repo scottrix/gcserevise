@@ -1,0 +1,96 @@
+{
+ "subject": "classical-civilisation",
+ "board": "OCR",
+ "topic": "myths-underworld",
+ "topicName": "Myths of the Underworld",
+ "version": 1,
+ "tests": [
+  {
+   "id": "myths-underworld-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Myths of the Underworld",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "myths-underworld-t1",
+     "type": "short-answer",
+     "question": "Q: Why were the dead buried with a coin in their mouth?",
+     "correctAnswer": "To pay Charon the ferryman for transport across the River Styx — souls without payment were said to wander the banks for a hundred years.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "myths-underworld-t2",
+     "type": "short-answer",
+     "question": "Q: What were the three main regions of the Underworld?",
+     "correctAnswer": "The Asphodel Meadows (for ordinary souls), Elysium (for heroes and the favoured), and Tartarus (for the wicked and those who offended the gods).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "myths-underworld-t3",
+     "type": "short-answer",
+     "question": "Q: How did Persephone's story explain the seasons?",
+     "correctAnswer": "Persephone was abducted by Hades and ate pomegranate seeds, binding her to the Underworld for part of each year. Her mother Demeter's grief caused winter; her return brought spring.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "myths-underworld-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Myths of the Underworld",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "myths-underworld-t4",
+     "type": "short-answer",
+     "question": "Q: Why did Orpheus lose Eurydice?",
+     "correctAnswer": "Hades allowed Orpheus to lead Eurydice out on condition he did not look back. At the last moment, Orpheus looked to check she was following, and she was dragged back forever.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "myths-underworld-t5",
+     "type": "short-answer",
+     "question": "Q: What is the difference between katabasis and nekuia?",
+     "correctAnswer": "Katabasis is a physical journey down to the Underworld; nekuia is summoning the dead while remaining at the surface.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "myths-underworld-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Myths of the Underworld",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "myths-underworld-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How far do Greek myths of the Underworld reveal a pessimistic view of death? (15 marks) <div class=\"",
+     "correctAnswer": "Greek Underworld myths reveal a fundamentally pessimistic view of death, though they also contain elements of hope. The earliest and most influential depiction — Homer's Odyssey Book 11 — is deeply bleak. Achilles tells Odysseus he would rather be a landless peasant on Earth than king of the dead, declaring that death strips all meaning from existence. The shades in Homer are witless, feeble remnants of their living selves. The Asphodel Meadows, where most ordinary souls dwelt, was a place of neutral nothingness — neither reward nor punishment, merely a joyless continuation. This reflects a view that death is the end of everything worthwhile about life. However, there were more hopeful traditions. Elysium offered a paradise for heroes and the favoured, suggesting that exceptional deeds or divine favour could be rewarded. The Eleusinian Mysteries promised initiates a blessed afterlife, indicating that Greek religion developed more optimistic beliefs over time. The myth of Persephone also introduces hope: she returns from the Underworld each year, symbolising the cycle of death and rebirth. Yet even these hopeful elements are limited — Elysium was for very few, and Persephone's return is always temporary. Overall, Greek Underworld myths are predominantly pessimistic, reflecting a culture that valued life intensely and viewed death as a devastating loss, with only limited routes to a better existence beyond it.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

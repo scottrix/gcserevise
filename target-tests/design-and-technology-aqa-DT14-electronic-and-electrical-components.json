@@ -1,0 +1,67 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT14-electronic-and-electrical-components",
+ "topicName": "Electronic and Electrical Components",
+ "version": 1,
+ "tests": [
+  {
+   "id": "DT14-electronic-and-electrical-components-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Electronic and Electrical Components",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "DT14-electronic-and-electrical-components-t1",
+     "type": "short-answer",
+     "question": "Explain the function of a transistor in a circuit that uses a thermistor to switch on a fan when temperature rises.",
+     "correctAnswer": "As temperature rises, the thermistor's resistance decreases, voltage at the transistor's base rises. When base voltage reaches approx 0.7 V, the transistor switches ON, allowing current to flow from collector to emitter, powering the fan. The transistor acts as an electronic switch.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT14-electronic-and-electrical-components-t2",
+     "type": "short-answer",
+     "question": "Why does an LED always need a current-limiting resistor? Calculate the resistor value for a 9 V supply, 2 V LED and 15 mA current.",
+     "correctAnswer": "Without a resistor, excessive current would destroy the LED. R = (Vsupply - VLED) / I = (9 - 2) / 0.015 = 7 / 0.015 = 467 ohms. Nearest standard value: 470 ohm resistor.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT14-electronic-and-electrical-components-t3",
+     "type": "short-answer",
+     "question": "Compare the advantages of using a microcontroller versus a hard-wired analogue circuit for a traffic light sequence.",
+     "correctAnswer": "Microcontroller: programmable timing, flexible sequence, can add sensors, easy to modify, compact. Hard-wired: fixed sequence, difficult to modify, more components, less reliable. For a traffic light needing changes and sensor integration, a microcontroller is far superior.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "DT14-electronic-and-electrical-components-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Electronic and Electrical Components",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "DT14-electronic-and-electrical-components-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Design an electronic circuit for an automatic nightlight that turns on an LED when ambient light drops below a threshold. Name and explain each component. <div class=\"",
+     "correctAnswer": "A grade 9 response will: identify components - LDR (high resistance in dark, low in light), variable resistor (sets threshold), NPN transistor (switches LED), LED (light output), current-limiting resistor (protects LED); explain: LDR and variable resistor form a voltage divider - in daylight, base voltage below 0.7 V, transistor off; in darkness, base voltage exceeds 0.7 V, transistor on, LED lights.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

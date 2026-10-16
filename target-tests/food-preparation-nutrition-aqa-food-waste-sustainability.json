@@ -1,0 +1,126 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "food-waste-sustainability",
+ "topicName": "Food Waste & Sustainability",
+ "version": 1,
+ "tests": [
+  {
+   "id": "food-waste-sustainability-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Food Waste & Sustainability",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "food-waste-sustainability-t1",
+     "type": "short-answer",
+     "question": "Q: Approximately how much food waste does the UK produce per year?",
+     "correctAnswer": "Around 9.5 million tonnes per year, of which about 70% was intended for human consumption and could have been eaten.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-waste-sustainability-t2",
+     "type": "short-answer",
+     "question": "Q: Which sector produces the most food waste in the UK?",
+     "correctAnswer": "Households — they produce around 70% of UK food waste, mainly from over-buying, not using food before it spoils, and cooking too much.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-waste-sustainability-t3",
+     "type": "short-answer",
+     "question": "Q: Why is sending food waste to landfill particularly harmful to the environment?",
+     "correctAnswer": "In landfill, food decomposes anaerobically (without oxygen), producing methane — a greenhouse gas 25 times more potent than CO2 that contributes significantly to climate change.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "food-waste-sustainability-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Food Waste & Sustainability",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "food-waste-sustainability-t4",
+     "type": "short-answer",
+     "question": "Q: Name three strategies consumers can use to reduce household food waste.",
+     "correctAnswer": "Meal planning before shopping, writing and following a shopping list, correct portion sizes, using leftovers creatively, understanding use-by vs best-before dates, proper food storage (any three).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-waste-sustainability-t5",
+     "type": "short-answer",
+     "question": "Q: What is the Love Food Hate Waste campaign and who runs it?",
+     "correctAnswer": "A UK campaign run by WRAP (Waste and Resources Action Programme) that provides tips and resources to help consumers reduce household food waste through better planning, storage, and portion control.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-waste-sustainability-t6",
+     "type": "short-answer",
+     "question": "Q: What is anaerobic digestion and what does it produce?",
+     "correctAnswer": "A process where microorganisms break down food waste in the absence of oxygen. It produces biogas (which can be used for energy) and digestate (a nutrient-rich material used as fertiliser).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-waste-sustainability-t7",
+     "type": "short-answer",
+     "question": "Q: How do retailers reduce food waste? Give three methods.",
+     "correctAnswer": "Dynamic pricing (reducing prices on near-date items), donating surplus food to charities like FareShare, improving demand forecasting to avoid over-ordering, and improving packaging to extend shelf life (any three).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-waste-sustainability-t8",
+     "type": "short-answer",
+     "question": "Q: Explain the concept of nose-to-tail eating.",
+     "correctAnswer": "Nose-to-tail eating means using every part of an animal for food, not just the popular cuts. This reduces waste from butchery, respects the animal, and makes meat consumption more sustainable.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "food-waste-sustainability-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Food Waste & Sustainability",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "food-waste-sustainability-t9",
+     "type": "short-answer",
+     "question": "Full-Mark Response Explain the environmental impact of food waste and discuss strategies that can be used at consumer and retailer levels to reduce it. (8 marks) <div class=\"",
+     "correctAnswer": "Food waste has a significant environmental impact. In the UK, approximately 9.5 million tonnes of food are wasted annually, and when this waste is sent to landfill it decomposes anaerobically, producing methane — a greenhouse gas 25 times more potent than CO2. Food waste also represents wasted resources: the water, energy, land, and transport used to produce, process, and distribute food that is ultimately thrown away. The FAO estimates that if food waste were a country, it would be the third-largest emitter of greenhouse gases after China and the USA. At the consumer level, the most effective strategies are meal planning (deciding meals in advance and writing a shopping list to avoid impulse buying), portion control (using measuring tools to cook the right amount), proper food storage (understanding which foods go in the fridge, freezer, or cupboard), and using leftovers creatively in new meals. Understanding the difference between use-by (safety) and best-before (quality) dates prevents edible food being thrown away unnecessarily. At the retailer level, strategies include dynamic pricing (marking down near-date food to sell it before it becomes waste), donating surplus food to charities such as FareShare, improving demand forecasting to prevent over-ordering, and adopting packaging innovations that extend shelf life. Retailers can also remove multi-buy promotions that encourage over-purchasing. Both levels must work together: retailers make sustainable choices easier, while",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

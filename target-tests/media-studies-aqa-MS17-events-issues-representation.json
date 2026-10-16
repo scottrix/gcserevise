@@ -1,0 +1,67 @@
+{
+ "subject": "media-studies",
+ "board": "AQA",
+ "topic": "MS17-events-issues-representation",
+ "topicName": "Events & Issues Representation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "MS17-events-issues-representation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Events & Issues Representation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "MS17-events-issues-representation-t1",
+     "type": "short-answer",
+     "question": "Q: What is agenda setting and how does it work?",
+     "correctAnswer": "Agenda setting is the media's ability to influence which issues the public considers important by choosing which stories to cover prominently. The media doesn't tell people what to think about an issue, but it determines which issues people think about. Stories given front-page coverage or prime-time slots are perceived as more important.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS17-events-issues-representation-t2",
+     "type": "short-answer",
+     "question": "Q: Explain Stanley Cohen's concept of the moral panic.",
+     "correctAnswer": "A moral panic occurs when the media defines a group, behaviour, or condition as a threat to societal values. Cohen studied the media response to mods and rockers, showing how exaggerated reporting created a deviancy amplification spiral — more coverage led to more public concern, which led to more coverage, amplifying the perceived threat beyond its actual scale.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS17-events-issues-representation-t3",
+     "type": "short-answer",
+     "question": "Q: How does media framing affect audience understanding of events?",
+     "correctAnswer": "Framing determines how an event is understood — the same event can be framed differently. A strike can be framed as workers demanding fair pay or as unions holding the country to ransom. A protest can be framed as peaceful demonstration or violent disorder. The language, images, and context chosen by the media shape audience interpretation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "MS17-events-issues-representation-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Events & Issues Representation",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "MS17-events-issues-representation-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the role of media in constructing moral panics. [12 marks] <div class=\"",
+     "correctAnswer": "The media plays a central role in constructing moral panics by amplifying perceived threats to social values, often beyond their actual scale. Cohen's study of the mods and rockers showed how media exaggeration created a deviancy amplification spiral: sensational reporting made the groups seem more threatening, which led to more public concern, more policing, and more media coverage. The media didn't just report the events — it constructed a social problem. Moral panics follow a pattern: a group or behaviour is defined as deviant; the media exaggerates the scale and threat; moral entrepreneurs (politicians, experts) call for action; authorities respond with crackdowns; the panic subsides but the stereotype persists. Examples include video nasties in the 1980s, knife crime in the 2000s, and social media harms today. However, moral panic theory has limitations. Some threats are genuine — knife crime does kill people. Dismissing all public concern as moral panic can minimise real problems. The theory also assumes a passive audience, whereas Hall's reception theory suggests audiences may negotiate or resist the preferred reading. Social media has changed moral panics. Online, panics can escalate faster and spread further, but counter-narratives also emerge quickly. The gatekeeping function of traditional media is weakened. Overall, while moral panic theory remains valuable for understanding how media amplifies social anxieties, it must be applied critically — not all public conce",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

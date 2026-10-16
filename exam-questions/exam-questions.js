@@ -76,6 +76,8 @@ class ExamQuestionsRenderer {
     if (!this.container) return;
 
     if (this.questions.length === 0) {
+      var sec = this.container.closest('section');
+      if (sec) { sec.hidden = true; return; }
       this.container.innerHTML = '<p class="exam-empty">No exam questions available for this topic yet.</p>';
       return;
     }
@@ -490,6 +492,8 @@ function initTopicExamQuestions() {
     if (qs.length > 0) {
       renderer.render();
     } else {
+      var sec = container.closest('section');
+      if (sec) { sec.hidden = true; return; }
       container.innerHTML = '<p class="exam-empty">Exam questions coming soon for this topic.</p>';
     }
   });

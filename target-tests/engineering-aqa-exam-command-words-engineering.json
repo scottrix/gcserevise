@@ -1,0 +1,77 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "exam-command-words-engineering",
+ "topicName": "Exam Command Words",
+ "version": 1,
+ "tests": [
+  {
+   "id": "exam-command-words-engineering-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Exam Command Words",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "exam-command-words-engineering-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between describe and explain?",
+     "correctAnswer": "Describe tells what happens (the process or features); explain tells why it happens (the reasons or mechanisms).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "exam-command-words-engineering-t2",
+     "type": "short-answer",
+     "question": "Q: How should you structure an answer to an evaluate question?",
+     "correctAnswer": "Identify strengths and weaknesses of each option, then make a clear, justified judgement about which is better and why.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "exam-command-words-engineering-t3",
+     "type": "short-answer",
+     "question": "Q: What does a compare answer require that a describe answer does not?",
+     "correctAnswer": "A compare answer must identify BOTH similarities AND differences. A describe answer only states features without linking them.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "exam-command-words-engineering-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Exam Command Words",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "exam-command-words-engineering-t4",
+     "type": "short-answer",
+     "question": "Q: How should you approach a justify question?",
+     "correctAnswer": "State your choice clearly, then provide specific, technical reasons supporting it. Each reason should link a feature to a requirement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "exam-command-words-engineering-t5",
+     "type": "short-answer",
+     "question": "Q: What is the key difference between discuss and evaluate?",
+     "correctAnswer": "Discuss requires a balanced argument from multiple perspectives. Evaluate requires the same PLUS a clear, justified judgement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

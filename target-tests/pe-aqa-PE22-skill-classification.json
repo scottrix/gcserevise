@@ -1,0 +1,87 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE22-skill-classification",
+ "topicName": "Skill Classification",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PE22-skill-classification-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Skill Classification",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PE22-skill-classification-t1",
+     "type": "short-answer",
+     "question": "Define the terms 'skill' and 'ability' and explain the relationship between them.",
+     "correctAnswer": "A skill is a learned action with a predetermined result that can be reproduced consistently with minimum effort. An ability is an innate, inherited trait that underpins skilled performance. The relationship is that abilities form the foundation for skills - without the necessary abilities, a skill cannot be fully developed, and practice turns ability into skill.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE22-skill-classification-t2",
+     "type": "short-answer",
+     "question": "Using a named sporting example, explain the difference between an open skill and a closed skill.",
+     "correctAnswer": "An open skill is performed in an unpredictable environment and must be adapted to changing conditions. A closed skill is performed in a predictable, stable environment. Example: A football pass is open because the player must adapt to the position of opponents and teammates, the movement of the ball, and the playing surface. A swimming start is closed because the water is still, the blocks are fix",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE22-skill-classification-t3",
+     "type": "short-answer",
+     "question": "Classify a golf drive using all four skill classification continua.",
+     "correctAnswer": "A golf drive: Knapp's continuum - complex (requires coordination of grip, stance, backswing, downswing, follow-through); Open/Closed - closed (stable environment, no opponents interfering); Self/Externally paced - self-paced (golfer decides when to swing); Gross/Fine - mixed (large muscle groups for power, fine wrist/hand control for club face accuracy).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PE22-skill-classification-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Skill Classification",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PE22-skill-classification-t4",
+     "type": "short-answer",
+     "question": "Why is it important for a coach to understand skill classification when planning practice sessions?",
+     "correctAnswer": "A coach needs to understand skill classification because it determines the type of practice required. Open and externally paced skills need game-like, variable practice with decision-making. Closed and self-paced skills benefit from fixed, repetitive drills. Complex skills may need to be broken down into sub-routines (part practice), while basic skills can be practised whole.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE22-skill-classification-t5",
+     "type": "short-answer",
+     "question": "Explain the difference between a self-paced skill and an externally paced skill, giving one example of each.",
+     "correctAnswer": "A self-paced skill is one where the performer controls when to initiate the movement, e.g. a free throw in basketball where the player decides when to shoot. An externally paced skill is one where external factors determine the timing, e.g. returning a tennis serve where the opponent's delivery dictates when the return must be played.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE22-skill-classification-t6",
+     "type": "short-answer",
+     "question": "A gymnastics floor routine is classified as complex and closed. Explain why.",
+     "correctAnswer": "A gymnastics floor routine is complex because it involves many sub-routines (tumbling, jumps, spins, balances) that must be performed in a precise sequence, requiring high concentration and coordination. It is closed because the environment is predictable - the performer is alone on a set apparatus with no opponents to react to, and the routine follows a predetermined pattern.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

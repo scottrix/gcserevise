@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS1-memory",
+ "topicName": "Memory",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS1-memory-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Memory",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS1-memory-t1",
+     "type": "short-answer",
+     "question": "Describe the multi-store model of memory and evaluate its strengths and limitations.",
+     "correctAnswer": "The MSM provides a clear, testable framework: evidence supports the distinction between STM and LTM (case of HM, primacy-recency effect). Limitations: it oversimplifies memory - STM and LTM are not unitary stores (WMM shows STM has multiple components); rehearsal is not the only way to transfer to LTM (flashbulb memories).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS1-memory-t2",
+     "type": "short-answer",
+     "question": "Explain how leading questions can affect the accuracy of eyewitness testimony, referring to Loftus & Palmer's research.",
+     "correctAnswer": "Loftus & Palmer showed verb manipulation ('smashed' vs 'hit') changed speed estimates by up to 10 mph. This demonstrates that leading questions alter memory through response bias or actual memory distortion. However, real-world eyewitness testimony may be more accurate than lab studies due to higher anxiety and real consequences.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS1-memory-t3",
+     "type": "short-answer",
+     "question": "Compare and contrast episodic, semantic and procedural long-term memory.",
+     "correctAnswer": "Episodic: personal events, time-stamped, consciously recalled. Semantic: general facts, not time-stamped, consciously recalled. Procedural: skills/habits, not consciously recalled. All three are distinct LTM types with different brain regions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS1-memory-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Memory",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS1-memory-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the usefulness of the multi-store model of memory for understanding how we remember and forget. <div class=\"",
+     "correctAnswer": "A grade 9 response will: outline the MSM with evidence (case of HM supports STM/LTM distinction, primacy-recency effect); evaluate strengths (clear framework, testable predictions, supported by brain scanning); evaluate limitations (oversimplifies STM and LTM, ignores working memory, doesn't explain procedural memory); conclude: the MSM was foundational and is supported by key evidence, but it is now considered an incomplete explanation - the Working Memory Model and LTM subtypes offer more comprehensive accounts of specific memory processes.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as12-stellar-lifecycle",
+ "topicName": "Stellar Lifecycle",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as12-stellar-lifecycle-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Stellar Lifecycle",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as12-stellar-lifecycle-t1",
+     "type": "short-answer",
+     "question": "Q: Describe the lifecycle of a star like the Sun.",
+     "correctAnswer": "Nebula → protostar → main sequence (hydrogen fusion) → red giant (helium fusion) → planetary nebula → white dwarf.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as12-stellar-lifecycle-t2",
+     "type": "short-answer",
+     "question": "Q: What happens to a star more than 8 times the mass of the Sun?",
+     "correctAnswer": "It becomes a red supergiant, undergoes further fusion stages up to iron, then explodes as a supernova. The core becomes a neutron star (if <3 M☉) or a black hole (if >3 M☉).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as12-stellar-lifecycle-t3",
+     "type": "short-answer",
+     "question": "Q: What is the Chandrasekhar limit?",
+     "correctAnswer": "~1.4 solar masses — the maximum mass a white dwarf can have. Above this, electron degeneracy pressure cannot support it and it collapses further.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as12-stellar-lifecycle-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Stellar Lifecycle",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as12-stellar-lifecycle-t4",
+     "type": "short-answer",
+     "question": "Q: Why does a main-sequence star remain stable?",
+     "correctAnswer": "Hydrostatic equilibrium: gravitational collapse is balanced by outward radiation pressure from nuclear fusion.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as12-stellar-lifecycle-t5",
+     "type": "short-answer",
+     "question": "Q: What is a planetary nebula?",
+     "correctAnswer": "The ejected outer layers of a low-mass star at the end of its life, forming an expanding shell of gas illuminated by the hot exposed core.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

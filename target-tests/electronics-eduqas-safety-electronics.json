@@ -1,0 +1,96 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "safety-electronics",
+ "topicName": "Safety in Electronics",
+ "version": 1,
+ "tests": [
+  {
+   "id": "safety-electronics-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Safety in Electronics",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "safety-electronics-t1",
+     "type": "short-answer",
+     "question": "Q: Why must a 1 MΩ resistor be present in an antistatic wrist strap lead?",
+     "correctAnswer": "The 1 MΩ resistor limits current to a safe level if the wearer accidentally touches a live conductor, preventing electric shock while still discharging static.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "safety-electronics-t2",
+     "type": "short-answer",
+     "question": "Q: What is the purpose of fume extraction when soldering?",
+     "correctAnswer": "Fume extraction removes rosin-based flux fumes from the breathing zone, preventing respiratory irritation and potential long-term health effects.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "safety-electronics-t3",
+     "type": "short-answer",
+     "question": "Q: State three hazards associated with soldering and a control measure for each.",
+     "correctAnswer": "Burns from the iron (use stand, keep iron away from skin), fume inhalation (use fume extraction), and lead exposure (wash hands, use lead-free solder).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "safety-electronics-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Safety in Electronics",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "safety-electronics-t4",
+     "type": "short-answer",
+     "question": "Q: What is double-insulated (Class II) equipment and how is it identified?",
+     "correctAnswer": "Double-insulated equipment has reinforced insulation without needing an earth bond; it is identified by a square-within-a-square symbol on the casing.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "safety-electronics-t5",
+     "type": "short-answer",
+     "question": "Q: Describe the key steps in a risk assessment for an electronics workshop.",
+     "correctAnswer": "Identify hazards (soldering, ESD, mains electricity), evaluate who could be harmed and how, implement control measures (fume extraction, antistatic precautions, isolation procedures), and review regularly.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "safety-electronics-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Safety in Electronics",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "safety-electronics-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Explain the safety precautions necessary in an electronics workshop, covering electrical safety, ESD protection, soldering safety and risk assessment. <div class=\"",
+     "correctAnswer": "Electrical safety requires isolation of equipment from mains before any repair work, using lock-out/tag-out procedures to prevent accidental re-energisation. Class I equipment must have a verified earth bond, while Class II (double-insulated) equipment relies on reinforced insulation. PAT testing ensures portable equipment remains safe. ESD protection prevents static discharge from damaging MOSFETs and CMOS ICs: wear an antistatic wrist strap (with 1 MΩ resistor to earth), work on an antistatic mat and store sensitive components in antistatic bags. Soldering safety involves three main hazards: burns from the 300–400 °C iron (always return it to its stand), fume inhalation (use local fume extraction and avoid breathing rosin fumes) and lead exposure from 60/40 solder (wash hands after use, consider lead-free alternatives). A risk assessment systematically identifies these hazards, evaluates the severity and likelihood of harm, specifies who is at risk, implements control measures (extraction, PPE, training, safe procedures) and records findings for review. Regular reviews ensure controls remain effective and new hazards are addressed promptly.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

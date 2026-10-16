@@ -1,0 +1,67 @@
+{
+ "subject": "citizenship-studies",
+ "board": "AQA",
+ "topic": "CI18-global-issues-sustainability",
+ "topicName": "Global Issues & Sustainability",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CI18-global-issues-sustainability-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Global Issues & Sustainability",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CI18-global-issues-sustainability-t1",
+     "type": "short-answer",
+     "question": "Q: What are the UN Sustainable Development Goals?",
+     "correctAnswer": "The SDGs are 17 goals adopted by all UN member states in 2015, aiming to end poverty, protect the planet, and ensure peace and prosperity by 2030. They include goals on no poverty, zero hunger, quality education, gender equality, clean water, climate action, and reduced inequalities.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CI18-global-issues-sustainability-t2",
+     "type": "short-answer",
+     "question": "Q: Explain why climate change requires international cooperation.",
+     "correctAnswer": "Climate change is a global problem — emissions in one country affect the entire planet. No single nation can solve it alone. International agreements like the Paris Agreement are needed because countries must commit to reducing emissions collectively, and developing nations need financial and technical support from wealthier countries.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CI18-global-issues-sustainability-t3",
+     "type": "short-answer",
+     "question": "Q: Evaluate the effectiveness of individual actions vs government policy in addressing sustainability.",
+     "correctAnswer": "Individual actions like recycling and reducing energy use raise awareness and reduce personal carbon footprints. However, individual action alone is insufficient — about 70% of global emissions come from 100 companies. Government policy can drive systemic change through regulation, green investment, and international agreements. The most effective approach combines both.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CI18-global-issues-sustainability-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Global Issues & Sustainability",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CI18-global-issues-sustainability-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the view that global citizenship requires individuals to take action on climate change. [12 marks] <div class=\"",
+     "correctAnswer": "Global citizenship implies individuals have responsibilities beyond their own nation, and climate change is the defining global challenge. As global citizens, individuals should take action because everyday choices — energy use, travel, diet, consumption — directly contribute to carbon emissions. Individual action demonstrates commitment and can influence others. Democratic participation is also individual action: citizens can vote for parties with strong climate policies, join environmental pressure groups, and petition government. These individual political actions can drive systemic change that personal lifestyle changes alone cannot achieve. However, individual action has clear limitations. About 70% of global emissions come from just 100 companies. One person's recycling is insignificant compared to industrial emissions. Placing responsibility on individuals can distract from the need for government regulation and corporate accountability. In conclusion, while individual action is necessary to demonstrate commitment and build political demand for change, it is not sufficient on its own. Effective global citizenship on climate change requires both personal action and political engagement to drive the systemic changes the crisis demands.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

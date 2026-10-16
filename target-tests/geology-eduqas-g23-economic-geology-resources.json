@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g23-economic-geology-resources",
+ "topicName": "Economic Geology & Resources",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g23-economic-geology-resources-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Economic Geology & Resources",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g23-economic-geology-resources-t1",
+     "type": "short-answer",
+     "question": "Q: How do hydrothermal ore deposits form?",
+     "correctAnswer": "Hot, metal-rich fluids (often from cooling igneous intrusions) circulate through fractures in surrounding rock. As the fluids cool or react with the host rock, dissolved metals precipitate as ore minerals within veins and fractures.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g23-economic-geology-resources-t2",
+     "type": "short-answer",
+     "question": "Q: What conditions are needed for petroleum formation?",
+     "correctAnswer": "1) Source rock: organic-rich sediment buried and heated to produce oil/gas. 2) Reservoir rock: porous sandstone or limestone to store petroleum. 3) Cap/seal rock: impermeable shale or clay to trap petroleum. 4) Trap structure: anticline, fault or salt dome.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g23-economic-geology-resources-t3",
+     "type": "short-answer",
+     "question": "Q: How do placer deposits form?",
+     "correctAnswer": "Weathering releases heavy, resistant minerals from bedrock. Rivers transport the material; the heavy minerals (gold, diamond, tin) settle in slower-flowing parts while lighter material is carried further downstream, concentrating the valuable minerals.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g23-economic-geology-resources-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Economic Geology & Resources",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g23-economic-geology-resources-t4",
+     "type": "short-answer",
+     "question": "Q: What is an aquifer and why is it important?",
+     "correctAnswer": "A porous and permeable rock that stores and transmits groundwater. Important aquifers in Britain include the Chalk and Permo-Triassic sandstone, which supply much of the nation's drinking water.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g23-economic-geology-resources-t5",
+     "type": "short-answer",
+     "question": "Q: How do evaporite deposits form?",
+     "correctAnswer": "In warm, arid climates, seawater trapped in restricted basins evaporates. As concentration increases, minerals precipitate in order: first carbonates, then sulfates (gypsum), then halite (salt), and finally potash salts.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

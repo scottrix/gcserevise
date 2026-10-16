@@ -1,0 +1,87 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE33-performance-enhancing-drugs",
+ "topicName": "Performance Enhancing Drugs (PEDs)",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PE33-performance-enhancing-drugs-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Performance Enhancing Drugs (PEDs)",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PE33-performance-enhancing-drugs-t1",
+     "type": "short-answer",
+     "question": "Name three types of performance enhancing drugs and explain the sporting advantage of each.",
+     "correctAnswer": "Three types: (1) Stimulants - increase alertness, aggression and reaction speed, useful for sprinters or boxers. (2) Anabolic steroids - increase muscle mass and strength, useful for weightlifters or shot putters. (3) Beta blockers - reduce heart rate and anxiety, steady the hand, useful for archers or snooker players.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE33-performance-enhancing-drugs-t2",
+     "type": "short-answer",
+     "question": "Explain how EPO and blood doping both improve endurance performance. What are the main health risks?",
+     "correctAnswer": "EPO stimulates the bone marrow to produce more red blood cells, while blood doping involves reinfusing stored blood to increase red blood cell count. Both methods increase the number of red blood cells, which means more oxygen can be transported to working muscles. This delays fatigue and improves aerobic endurance in events like cycling and long-distance running. Health risks include blood thicke",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE33-performance-enhancing-drugs-t3",
+     "type": "short-answer",
+     "question": "Why might a boxer use diuretics? Explain the advantage and the health risks.",
+     "correctAnswer": "A boxer might use diuretics to lose water weight rapidly before a weigh-in, allowing them to compete in a lower weight category. After weighing in, they rehydrate and may fight at a weight significantly above the limit, giving them a size and strength advantage. Health risks include severe dehydration, muscle cramps, kidney damage, electrolyte imbalance and heart arrhythmias from potassium loss.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PE33-performance-enhancing-drugs-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Performance Enhancing Drugs (PEDs)",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PE33-performance-enhancing-drugs-t4",
+     "type": "short-answer",
+     "question": "Explain why anabolic steroids might appeal to a weightlifter but are dangerous for a teenage athlete.",
+     "correctAnswer": "Anabolic steroids appeal to a weightlifter because they increase muscle mass and strength significantly, allowing heavier lifts and faster recovery from intense training sessions. However, they are particularly dangerous for teenage athletes because they can stunt growth by causing premature closure of the epiphyseal (growth) plates in bones, meaning the teenager may never reach their full adult h",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE33-performance-enhancing-drugs-t5",
+     "type": "short-answer",
+     "question": "Describe the difference between the effects of stimulants and beta blockers. Give a sport appropriate for each.",
+     "correctAnswer": "Stimulants increase heart rate, alertness, aggression and reduce the perception of fatigue - they speed the body up. Appropriate sport: boxing or sprinting where aggression and fast reactions are needed. Beta blockers reduce heart rate, anxiety and muscle tremors - they calm the body down. Appropriate sport: archery or snooker where a steady hand and calm focus are needed. They have opposite effec",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE33-performance-enhancing-drugs-t6",
+     "type": "short-answer",
+     "question": "\"Taking PEDs is a personal choice and should not be banned.\" To what extent do you agree? Give reasoned arguments.",
+     "correctAnswer": "Disagree: PEDs give an unfair advantage over clean competitors, breaking the contract to compete. They damage the integrity and credibility of sport, discourage young athletes from competing fairly, and pose serious health risks that performers may feel pressured to accept. Sport should be about natural ability and training effort. Agree (limited): Some argue that if all performers had access, it ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "subject": "english-literature",
+ "board": "AQA",
+ "topic": "P1-poetry-terminology",
+ "topicName": "Poetry Terminology",
+ "version": 1,
+ "tests": [
+  {
+   "id": "P1-poetry-terminology-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Poetry Terminology",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "P1-poetry-terminology-t1",
+     "type": "short-answer",
+     "question": "What is enjambment and what effect can it create?",
+     "correctAnswer": "Enjambment is when a sentence runs over the end of a line without punctuation. Effects: creates forward momentum, links ideas, reflects continuous action or thought, sounds natural and conversational.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P1-poetry-terminology-t2",
+     "type": "short-answer",
+     "question": "What's the difference between a caesura and an end-stopped line?",
+     "correctAnswer": "Caesura is a pause WITHIN a line (usually with punctuation). End-stopped lines have punctuation AT the end. Caesura slows within the line; end-stopped lines complete the thought before the next.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P1-poetry-terminology-t3",
+     "type": "short-answer",
+     "question": "What are the features of a Shakespearean sonnet?",
+     "correctAnswer": "Shakespearean sonnet: 14 lines, iambic pentameter, ABAB CDCD EFEF GG rhyme scheme. Three quatrains present problem; final couplet provides resolution or twist.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

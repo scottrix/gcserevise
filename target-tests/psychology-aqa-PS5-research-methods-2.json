@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS5-research-methods-2",
+ "topicName": "Research Methods (Part 2)",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS5-research-methods-2-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Research Methods (Part 2)",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS5-research-methods-2-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between quantitative and qualitative data, giving one strength and one limitation of each.",
+     "correctAnswer": "Quantitative: numerical, easy to analyse and compare, objective. But lacks depth and context. Qualitative: rich, detailed, captures experiences. But harder to analyse, subjective. Both types are valuable - mixed methods provide a more complete picture.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS5-research-methods-2-t2",
+     "type": "short-answer",
+     "question": "Describe three ethical issues that psychologists must consider when conducting research.",
+     "correctAnswer": "Informed consent: participants must know what they are agreeing to - without it, their autonomy is violated. Deception: misleading participants undermines trust - only justified if the research question cannot be addressed otherwise. Protection from harm: researchers must minimise risks.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS5-research-methods-2-t3",
+     "type": "short-answer",
+     "question": "A study finds mean = 15, median = 12, mode = 10. Explain what these results suggest about the distribution of the data.",
+     "correctAnswer": "Mean > median > mode suggests a positively skewed distribution - a few high scores are pulling the mean upwards. The median (12) is a better measure of central tendency here because it is less affected by the extreme high scores than the mean (15).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS5-research-methods-2-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Research Methods (Part 2)",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS5-research-methods-2-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the importance of ethical guidelines in psychological research, considering whether they are too strict. <div class=\"",
+     "correctAnswer": "A grade 9 response will: explain key ethical principles (consent, deception, protection, withdrawal); argue they are necessary (Milgram's study caused extreme stress); argue they may be too strict (some important research could not be conducted, deception sometimes necessary for valid results); conclude: ethical guidelines are essential but should be proportionate - researchers should seek the least deceptive approach while still being able to investigate important questions.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

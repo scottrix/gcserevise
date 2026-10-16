@@ -53,6 +53,7 @@ MockExamRenderer.prototype.loadMock = function(url, meta) {
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return r.json();
   }).then(function(data) {
+    self.data = data;
     var tests = data.tests || [];
     self.test = tests[0] || null;
     return self.test;
@@ -78,12 +79,32 @@ MockExamRenderer.prototype.renderSetup = function(boards, tiers) {
     '<div class="mock-controls"><label>Board: <select id="mock-board">' + boardOpts + '</select></label>' +
     '<label>Tier: <select id="mock-tier">' + tierOpts + '</select></label>' +
     '<button id="mock-start">Start mock exam</button></div>' +
+    this.paperStructureHtml() +
     '<div id="mock-stage"></div></div>';
   document.getElementById('mock-start').addEventListener('click', function() {
     self.meta.board = document.getElementById('mock-board').value;
     self.meta.tier = document.getElementById('mock-tier').value;
     self.start();
   });
+  this.prefetchStructure();
+};
+
+MockExamRenderer.prototype.prefetchStructure = function () {
+  var self = this;
+  this.loadMock(this.mockUrl(), this.meta).then(function (test) {
+    var psEl = document.querySelector(".mock-paper-structure");
+    if (psEl && self.data) psEl.outerHTML = self.paperStructureHtml();
+  });
+};
+
+MockExamRenderer.prototype.paperStructureHtml = function () {
+  var ps = (this.data && this.data.paperStructure) || (this.meta && this.meta.paperStructure) || null;
+  if (!ps || !ps.length) return "";
+  var h = '<div class="mock-paper-structure"><strong>Your real exam structure:</strong><ul>';
+  for (var i = 0; i < ps.length; i++) {
+    h += '<li><strong>' + ps[i].name + '</strong>' + (ps[i].detail ? ' — ' + ps[i].detail : '') + '</li>';
+  }
+  return h + '</ul></div>';
 };
 
 MockExamRenderer.prototype.mockUrl = function() {
@@ -111,6 +132,8 @@ MockExamRenderer.prototype.start = function() {
         stage.innerHTML = '<p class="mock-empty">No mock paper for this board/tier yet — try another combination.</p>';
         return;
       }
+    var psEl = document.querySelector('.mock-paper-structure');
+    if (psEl) psEl.outerHTML = self.paperStructureHtml();
     self.answers = {};
     self.submitted = false;
     self.remaining = (test.timeLimit || 30) * 60;

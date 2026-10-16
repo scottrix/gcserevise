@@ -1,0 +1,96 @@
+{
+ "subject": "biology",
+ "board": "AQA",
+ "topic": "B20-ecosystems",
+ "topicName": "Ecosystems",
+ "version": 1,
+ "tests": [
+  {
+   "id": "B20-ecosystems-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Ecosystems",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "B20-ecosystems-t1",
+     "type": "short-answer",
+     "question": "Define the terms: ecosystem, community, population and habitat.",
+     "correctAnswer": "Ecosystem: the interaction of a community of living organisms with the non-living parts of their environment. Community: all the populations of different species living in the same area at the same time. Population: all organisms of the same species living in the same area at the same time. Habitat: the place where an organism lives.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B20-ecosystems-t2",
+     "type": "short-answer",
+     "question": "Explain the difference between competition and predation, giving an example of each.",
+     "correctAnswer": "Competition is when organisms compete for limited resources (e.g. plants competing for light). Predation is when one organism (predator) kills and eats another (prey) (e.g. foxes eating rabbits). Competition is between organisms of the same or different species; predation is between predator and prey species.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B20-ecosystems-t3",
+     "type": "short-answer",
+     "question": "Describe the predator-prey cycle and explain why there is a time lag between changes in the prey population and changes in the predator population.",
+     "correctAnswer": "When prey increase, predators have more food and their population increases (with a time lag because predators need time to reproduce and grow). More predators eat more prey, so prey decrease. Less prey means predators decrease. Fewer predators means prey increase again. The time lag exists because reproduction takes time — predators cannot increase instantly when prey becomes more available.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "B20-ecosystems-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Ecosystems",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "B20-ecosystems-t4",
+     "type": "short-answer",
+     "question": "Explain why a pyramid of biomass is always pyramid-shaped. Give three reasons why biomass is lost between trophic levels.",
+     "correctAnswer": "A pyramid of biomass is always pyramid-shaped because biomass is lost at each trophic level. Reasons for loss: (1) Not all parts of an organism are eaten (bones, fur, roots). (2) Not all food eaten is absorbed — some is egested as faeces. (3) Absorbed material is used for respiration, producing CO₂, water and heat. (4) Some material is excreted as waste (urea).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B20-ecosystems-t5",
+     "type": "short-answer",
+     "question": "A producer has a biomass of 50,000 kJ/m². Estimate the biomass available to tertiary consumers and explain why food chains are rarely longer than 4-5 trophic levels.",
+     "correctAnswer": "Producer: 50,000 kJ/m². Primary consumers: ~10% = 5,000 kJ/m². Secondary consumers: ~10% = 500 kJ/m². Tertiary consumers: ~10% = 50 kJ/m². Food chains are rarely longer than 4-5 trophic levels because there is not enough energy/biomass remaining to support another level — only about 10% is transferred at each step.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "B20-ecosystems-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Ecosystems",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "B20-ecosystems-t6",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Explain why pyramids of biomass are always pyramid-shaped and why food chains rarely have more than four or five trophic levels. <div class=\"",
+     "correctAnswer": "Pyramids of biomass are always pyramid-shaped because biomass is lost at each trophic level. Firstly, not all parts of an organism are eaten — for example, bones, fur, roots and hooves are left behind. Secondly, not all food that is eaten is absorbed; some is egested as faeces. Thirdly, absorbed material is used for respiration, which releases CO₂, water and heat energy. Fourthly, some absorbed material is excreted as waste, such as urea in urine. Only approximately 10% of the biomass is transferred from one trophic level to the next. Because so much energy is lost at each stage, there is not enough biomass remaining to support further trophic levels beyond four or five. At the tertiary consumer level, the biomass available may be only 0.1% of the producer biomass, which is insufficient to sustain another level. Mark scheme: 1 mark for not all parts eaten; 1 mark for egestion; 1 mark for respiration; 1 mark for excretion; 1 mark for ~10% transfer; 1 mark for explanation of why food chains are limited in length",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

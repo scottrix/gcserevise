@@ -1,0 +1,67 @@
+{
+ "subject": "english-literature",
+ "board": "AQA",
+ "topic": "S3-shakespearean-dramatic-techniques",
+ "topicName": "Shakespearean Dramatic Techniques",
+ "version": 1,
+ "tests": [
+  {
+   "id": "S3-shakespearean-dramatic-techniques-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Shakespearean Dramatic Techniques",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "S3-shakespearean-dramatic-techniques-t1",
+     "type": "short-answer",
+     "question": "What is dramatic irony and give an example from \"Macbeth\".",
+     "correctAnswer": "Dramatic irony is when the audience knows more than characters. Example: Duncan praises Macbeth's loyalty while we know he plans murder. Creates tension and makes audience complicit.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "S3-shakespearean-dramatic-techniques-t2",
+     "type": "short-answer",
+     "question": "How does Shakespeare use the supernatural to create tension?",
+     "correctAnswer": "Witches establish evil from the opening; prophecies drive plot; ambiguity creates irony; ghost and hallucinations show psychological horror. Supernatural creates atmosphere and motivates action.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "S3-shakespearean-dramatic-techniques-t3",
+     "type": "short-answer",
+     "question": "What is the function of Banquo as a foil to Macbeth?",
+     "correctAnswer": "Banquo contrasts Macbeth - both receive prophecies, but Banquo resists temptation. He shows what Macbeth could have been. His murder marks Macbeth's descent into tyranny.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "S3-shakespearean-dramatic-techniques-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Shakespearean Dramatic Techniques",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "S3-shakespearean-dramatic-techniques-t5",
+     "type": "short-answer",
+     "question": "Full-Mark Response 25 marks: \"How does Shakespeare use dramatic irony to engage the audience in Macbeth?\" <div class=\"",
+     "correctAnswer": "Shakespeare weaponises dramatic irony throughout Macbeth to position the audience as complicit witnesses, creating an engagement that is both intellectual and viscerally uncomfortable. When Duncan arrives at Inverness and praises its \"pleasant seat,\" the irony operates on multiple levels: we know Macbeth plans regicide, making Duncan's trust painfully misguided; for a Jacobean audience who believed in the Divine Right of Kings, the irony carries spiritual weight — Duncan praises the very man who will violate God's order. The effect is not merely suspense but moral discomfort: the audience is forced to watch without intervening, becoming passively complicit in the unfolding atrocity. The witches' prophecies generate sustained dramatic irony through ambiguity — the audience gradually perceives the double meanings (\"none of woman born shall harm Macbeth\") that Macbeth blindly accepts at face value, positioning us as interpreters who understand what the tragic hero cannot. This creates dramatic tension that is simultaneously intellectual (we piece together the truth) and emotional (we foresee destruction we cannot prevent). Shakespeare's most devastating irony is structural: Macbeth believes he controls his destiny, yet the audience watches him fulfil the witches' predictions exactly as intended — his \"choice\" to act on the prophecies is itself the mechanism of his destruction, making the audience's superior knowledge a source of tragic pity rather than mere suspense. Mark scheme",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

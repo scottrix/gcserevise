@@ -1,0 +1,67 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT20-investigating-design-contexts",
+ "topicName": "Investigating Design Contexts",
+ "version": 1,
+ "tests": [
+  {
+   "id": "DT20-investigating-design-contexts-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Investigating Design Contexts",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "DT20-investigating-design-contexts-t1",
+     "type": "short-answer",
+     "question": "Write a design brief and three specification points for a product that helps elderly people open jar lids.",
+     "correctAnswer": "Brief: 'Design and make a device that enables elderly users with reduced grip strength to open vacuum-sealed jar lids safely and independently.' Specification: 1) Must accommodate jar diameters from 50-100 mm. 2) Must require no more than 20 N of grip force. 3) Must be manufacturable for under 8 GBP retail cost.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT20-investigating-design-contexts-t2",
+     "type": "short-answer",
+     "question": "Explain the difference between a design brief and a design specification.",
+     "correctAnswer": "Design brief: a short statement describing the PROBLEM to solve - who, what, context. Does NOT specify the solution. Design specification: a detailed, measurable list of CRITERIA the final product must meet. The brief asks 'what is the problem?'; the specification answers 'what must the solution achieve?'",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT20-investigating-design-contexts-t3",
+     "type": "short-answer",
+     "question": "A designer wants to create a new type of school bag. Describe three research methods they should use and explain what each would reveal.",
+     "correctAnswer": "1) User interviews with students - reveal what they carry, pain points, preferences. 2) Observation of students using bags - reveals actual behaviour vs what they say. 3) Competitor analysis - identifies feature gaps, price points, common failure points.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "DT20-investigating-design-contexts-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Investigating Design Contexts",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "DT20-investigating-design-contexts-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response A company has identified that cyclists struggle to carry groceries on their bicycles. Write a design brief, produce a specification with at least six measurable points, and describe two research methods. <div class=\"",
+     "correctAnswer": "A grade 9 response will: Brief: 'Design and make a device that enables urban cyclists to safely carry up to 10 kg of groceries on a standard commuter bicycle without affecting stability.' Specification: 1) Carry up to 10 kg. 2) Fit bicycles with 20-28 inch wheels without tools. 3) Maintain stability at 15 mph. 4) Weather-resistant (IPX4). 5) Retail cost under 40 GBP. 6) Device weight under 1.5 kg when empty. Research: 1) Observation at supermarkets. 2) Interviews with cyclists about grocery volumes and pain points.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

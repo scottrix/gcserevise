@@ -1,0 +1,96 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS8-arithmetic-relational-operations",
+ "topicName": "Arithmetic and Relational Operations",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CS8-arithmetic-relational-operations-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Arithmetic and Relational Operations",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CS8-arithmetic-relational-operations-t1",
+     "type": "short-answer",
+     "question": "Evaluate: 17 DIV 5 and 17 MOD 5",
+     "correctAnswer": "17 DIV 5 = 3 (17 / 5 = 3.4, whole number part = 3). 17 MOD 5 = 2 (remainder = 17 - 5*3 = 2).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS8-arithmetic-relational-operations-t2",
+     "type": "short-answer",
+     "question": "Write pseudo-code that checks if a number is divisible by 3.",
+     "correctAnswer": "INPUT number IF number MOD 3 = 0 THEN OUTPUT number, \" is divisible by 3\" ELSE OUTPUT number, \" is not divisible by 3\" ENDIF",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS8-arithmetic-relational-operations-t3",
+     "type": "short-answer",
+     "question": "Evaluate step by step: 3 + 4 * 2 - 1",
+     "correctAnswer": "Step 1: 4 * 2 = 8. Step 2: 3 + 8 = 11. Step 3: 11 - 1 = 10.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CS8-arithmetic-relational-operations-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Arithmetic and Relational Operations",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CS8-arithmetic-relational-operations-t4",
+     "type": "short-answer",
+     "question": "Write pseudo-code that takes a number of minutes and outputs the hours and remaining minutes.",
+     "correctAnswer": "INPUT totalMinutes hours ← totalMinutes DIV 60 minutes ← totalMinutes MOD 60 OUTPUT hours, \" hours and \", minutes, \" minutes\"",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS8-arithmetic-relational-operations-t5",
+     "type": "short-answer",
+     "question": "What is the result of (10 + 5) / 3? What about 10 + 5 / 3?",
+     "correctAnswer": "(10 + 5) / 3 = 15 / 3 = 5.0. 10 + 5 / 3 = 10 + 1.67 = 11.67. Brackets change the result!",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CS8-arithmetic-relational-operations-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Arithmetic and Relational Operations",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CS8-arithmetic-relational-operations-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Write pseudo-code that inputs a number and determines whether it is divisible by both 3 and 5, divisible by 3 only, divisible by 5 only, or neither. Output an appropriate message for each case. [4 marks] <div class=\"",
+     "correctAnswer": "INPUT number IF number MOD 3 = 0 AND number MOD 5 = 0 THEN OUTPUT 'Divisible by both 3 and 5' ELSE IF number MOD 3 = 0 THEN OUTPUT 'Divisible by 3 only' ELSE IF number MOD 5 = 0 THEN OUTPUT 'Divisible by 5 only' ELSE OUTPUT 'Not divisible by 3 or 5' ENDIF",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

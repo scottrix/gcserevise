@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "choreographic-process",
+ "topicName": "The Choreographic Process",
+ "version": 1,
+ "tests": [
+  {
+   "id": "choreographic-process-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Choreographic Process",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "choreographic-process-t1",
+     "type": "short-answer",
+     "question": "Q: Name the three main stages of the choreographic process.",
+     "correctAnswer": "Exploration, selection and refinement — though the process may revisit stages in any order.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "choreographic-process-t2",
+     "type": "short-answer",
+     "question": "Q: Why is exploration an important stage in choreography?",
+     "correctAnswer": "Exploration allows the choreographer to experiment freely with movement ideas, generating a wide range of material before deciding what works best.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "choreographic-process-t3",
+     "type": "short-answer",
+     "question": "Q: How does the choreographic process support GCSE Dance coursework?",
+     "correctAnswer": "Documenting each stage provides evidence of creative decision-making, which is assessed in the NEA choreography component.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "choreographic-process-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on The Choreographic Process",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "choreographic-process-t4",
+     "type": "short-answer",
+     "question": "Q: Explain why the choreographic process is not always linear.",
+     "correctAnswer": "Choreographers often revisit earlier stages — for example, refining may reveal the need to explore new ideas or select different material.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "choreographic-process-t5",
+     "type": "short-answer",
+     "question": "Q: What is the role of feedback during the choreographic process?",
+     "correctAnswer": "Feedback from teachers, peers or video review helps the choreographer identify strengths and weaknesses, guiding further refinement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

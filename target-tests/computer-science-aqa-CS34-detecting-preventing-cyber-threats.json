@@ -1,0 +1,77 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS34-detecting-preventing-cyber-threats",
+ "topicName": "Detecting & Preventing Cyber Threats",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CS34-detecting-preventing-cyber-threats-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Detecting & Preventing Cyber Threats",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CS34-detecting-preventing-cyber-threats-t1",
+     "type": "short-answer",
+     "question": "Describe two biometric security measures and explain their advantages over passwords.",
+     "correctAnswer": "Fingerprint scanning: reads unique ridge patterns on fingertips. Facial recognition: maps facial features. Advantages over passwords: cannot be forgotten, lost, or easily shared; very difficult to forge; the user always has their biometric with them.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS34-detecting-preventing-cyber-threats-t2",
+     "type": "short-answer",
+     "question": "What is the purpose of CAPTCHA? Give an example of how it works.",
+     "correctAnswer": "CAPTCHA determines whether the user is human or a computer program (bot). It prevents automated attacks like fake account creation, brute force attacks, and ticket scalping. Example: asking the user to select all images containing traffic lights - easy for humans, difficult for bots.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS34-detecting-preventing-cyber-threats-t3",
+     "type": "short-answer",
+     "question": "Explain how anti-malware software detects threats, including its limitations.",
+     "correctAnswer": "Anti-malware detects threats using: signature-based detection (comparing files to known malware patterns), heuristic analysis (monitoring behaviour for suspicious activity), and real-time scanning of files as they are accessed. Limitations: cannot detect brand new malware not in the signature database (zero-day), requires regular updates, can be bypassed by sophisticated threats, and does not prot",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CS34-detecting-preventing-cyber-threats-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Detecting & Preventing Cyber Threats",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CS34-detecting-preventing-cyber-threats-t4",
+     "type": "short-answer",
+     "question": "What is penetration testing and why is it important?",
+     "correctAnswer": "Penetration testing is an authorised simulated cyber attack performed by ethical hackers to identify security vulnerabilities before real attackers can exploit them. It is important because it finds weaknesses that can then be fixed proactively, tests both technical and human defences, and provides a realistic assessment of security posture.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS34-detecting-preventing-cyber-threats-t5",
+     "type": "short-answer",
+     "question": "Explain the principle of defence in depth, giving examples of technical, physical, and procedural measures.",
+     "correctAnswer": "Defence in depth uses multiple layers of security so that if one layer fails, others still provide protection. Technical measures: firewalls, encryption, anti-malware, automatic updates. Physical measures: locked doors, CCTV, biometric building access. Procedural measures: security policies, staff training, password policies, pen testing. No single measure is sufficient; the combination of all thr",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

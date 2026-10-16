@@ -1,0 +1,67 @@
+{
+ "subject": "media-studies",
+ "board": "AQA",
+ "topic": "MS1-media-language",
+ "topicName": "Media Language",
+ "version": 1,
+ "tests": [
+  {
+   "id": "MS1-media-language-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Media Language",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "MS1-media-language-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between denotation and connotation?",
+     "correctAnswer": "Denotation is the literal, surface-level meaning of a sign — what you actually see (e.g. a red rose is a flower). Connotation is the deeper cultural meaning it suggests (e.g. a red rose connotes love, passion, romance).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS1-media-language-t2",
+     "type": "short-answer",
+     "question": "Q: Explain the three types of technical codes used in film and television.",
+     "correctAnswer": "Camerawork: shot types (close-up, wide shot, low angle) and movement that frame the action. Editing: cuts, transitions, pace and rhythm that shape narrative and emotion. Sound: diegetic (within the world) and non-diegetic (added) sound that creates atmosphere and meaning.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS1-media-language-t3",
+     "type": "short-answer",
+     "question": "Q: What is intertextuality and why do media producers use it?",
+     "correctAnswer": "Intertextuality is when one media product references or borrows from another — e.g. The Simpsons parodying a film scene. Producers use it to create humour, show sophistication, appeal to knowledgeable audiences, and add layers of meaning.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "MS1-media-language-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Media Language",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "MS1-media-language-t5",
+     "type": "short-answer",
+     "question": "Full-Mark Response Analyse how media language creates meaning in one of your CSPs. [15 marks] <div class=\"",
+     "correctAnswer": "In the advert for 'This Girl Can' (BBC, 2017), media language is used to challenge conventional representations of women in sports media. The visual code shows a close-up of a woman mid-exercise, sweating and smiling. The denotation is a woman exercising; the connotation is that fitness is for enjoyment and empowerment, not just appearance. This subverts the conventional media language of women's fitness adverts, which typically use long shots emphasising slim bodies and polished appearance. The bold, sans-serif typography of 'This Girl Can' uses an informal, confident register. The word 'can' is an active verb that connotes ability and determination, contrasting with the passive representation of women in many media products. The colour palette uses bright, energetic colours (pinks, oranges) that connote vitality and energy rather than traditional feminine delicacy. The tagline 'I'm building my strengths and you can see it' anchors the image with a direct, first-person statement that connotes empowerment and visibility. The use of first person creates an intimate, personal connection with the audience. The advert uses intertextuality by referencing the language of motivational posters and fitness campaigns, but subverts their conventions by showing a realistic, relatable body rather than an idealised one. Overall, the media language of this CSP deliberately challenges dominant codes and conventions to create a progressive, empowering message that redefines how women's partic",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

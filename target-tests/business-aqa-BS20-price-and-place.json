@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS20-price-and-place",
+ "topicName": "Price and Place",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS20-price-and-place-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Price and Place",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS20-price-and-place-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between penetration pricing and price skimming, and when each would be appropriate.",
+     "correctAnswer": "Penetration pricing: low initial price to quickly attract customers and gain market share. Appropriate when: the market is price-sensitive, there are many competitors, the business wants to build a customer base fast, and economies of scale will reduce costs over time. Price skimming: high initial price to maximise revenue from early adopters, then gradually lower. Appropriate when: the product is",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS20-price-and-place-t2",
+     "type": "short-answer",
+     "question": "Describe two advantages and two disadvantages of selling through a wholesaler rather than directly to retailers.",
+     "correctAnswer": "Wholesaler advantages: (1) breaks bulk - buys large quantities from producer, reducing the producer's storage and handling costs; (2) provides distribution to many small retailers the producer couldn't reach individually. Disadvantages: (1) reduces the producer's profit margin (wholesaler takes a cut); (2) less control over how the product is displayed and sold to end consumers.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS20-price-and-place-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether a new premium coffee brand should use penetration pricing or price skimming when entering the UK market.",
+     "correctAnswer": "Penetration pricing for a premium coffee brand: attracts customers quickly, but contradicts the 'premium' positioning - customers may associate low price with low quality. Price skimming: reinforces premium image, recovers costs from quality-conscious early adopters, but sales will be lower initially and competitors may undercut. Conclusion: a premium brand should use skimming or competitive prici",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS20-price-and-place-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Price and Place",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS20-price-and-place-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether an independent bookshop should focus on competitive pricing or differentiation when competing with Amazon. <div class=\"",
+     "correctAnswer": "A grade 9 response will: analyse competitive pricing (Amazon can undercut due to economies of scale and minimal margins - an indie cannot win a price war); differentiation benefits (curated selection, personal recommendations, events, café, community space, signed copies); pricing strategy (fair pricing, not cheapest, but value-added bundles like book + coffee deal); place advantage (physical browsing experience vs waiting for delivery); conclude: competing on price against Amazon is futile - the bookshop must differentiate through experience, expertise, and community. Pricing should be at or near RRP with added value (loyalty scheme, gift wrapping, events) that Amazon cannot match.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

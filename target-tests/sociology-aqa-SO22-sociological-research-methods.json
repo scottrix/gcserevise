@@ -1,0 +1,67 @@
+{
+ "subject": "sociology",
+ "board": "AQA",
+ "topic": "SO22-sociological-research-methods",
+ "topicName": "Sociological Research Methods",
+ "version": 1,
+ "tests": [
+  {
+   "id": "SO22-sociological-research-methods-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Sociological Research Methods",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "SO22-sociological-research-methods-t1",
+     "type": "short-answer",
+     "question": "Compare questionnaires and interviews, evaluating strengths and limitations of each.",
+     "correctAnswer": "Questionnaires: large samples, cheap, anonymous (strengths); low response, social desirability, inflexible (limitations). Interviews: depth, follow-ups (strengths); interviewer bias, small samples (limitations).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO22-sociological-research-methods-t2",
+     "type": "short-answer",
+     "question": "Explain why a sociologist might choose participant observation, and evaluate its ethical implications.",
+     "correctAnswer": "Participant observation: useful for deviant/closed groups. Ethical issues: covert = deception (violates consent) but may be only way to access some groups; overt = honest but Hawthorne effect.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO22-sociological-research-methods-t3",
+     "type": "short-answer",
+     "question": "A researcher wants to study whether employers discriminate against ethnic minority applicants. Which method is most appropriate?",
+     "correctAnswer": "A field experiment (CV study like Wood's): send identical CVs varying only ethnic name. Tests actual behaviour, high ecological validity, can establish causation. Ethical issue: deception of employers.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "SO22-sociological-research-methods-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Sociological Research Methods",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "SO22-sociological-research-methods-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the strengths and limitations of using questionnaires in sociological research. <div class=\"",
+     "correctAnswer": "A grade 9 response will: describe questionnaires; present strengths and limitations; compare with interviews; conclude: questionnaires are valuable for large-scale quantitative research but unsuitable for in-depth qualitative investigation. Triangulation provides the most comprehensive understanding.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

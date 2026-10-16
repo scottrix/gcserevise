@@ -1,0 +1,48 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G30-urban-growth-lics-nees",
+ "topicName": "Urban Growth in LICs and NEEs",
+ "version": 1,
+ "tests": [
+  {
+   "id": "G30-urban-growth-lics-nees-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Urban Growth in LICs and NEEs",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "G30-urban-growth-lics-nees-t1",
+     "type": "short-answer",
+     "question": "Explain why Lagos has grown so rapidly. (4 marks)",
+     "correctAnswer": "Lagos has grown rapidly due to rural-urban migration driven by push factors (poverty, Boko Haram insurgency, desertification in rural Nigeria) and pull factors (employment in oil and manufacturing, higher incomes, education and healthcare) (1 mark). Natural increase also contributes significantly - the young migrant population has high birth rates (36 per 1,000) and improved healthcare reduces dea",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G30-urban-growth-lics-nees-t2",
+     "type": "short-answer",
+     "question": "Describe two challenges of urban growth in a named LIC or NEE city. (4 marks)",
+     "correctAnswer": "In Lagos, water and sanitation is a major challenge - only 10% of residents have piped water and 60% lack adequate sanitation (1 mark). This leads to waterborne diseases like cholera, especially in slum areas like Makoko where open defecation contaminates water sources (1 mark). Traffic congestion is another challenge - over 5 million cars on limited roads create commutes of over 2 hours (1 mark).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G30-urban-growth-lics-nees-t3",
+     "type": "short-answer",
+     "question": "Using a named example, assess the opportunities and challenges of urban growth in LICs and NEEs. (6 marks)",
+     "correctAnswer": "Lagos offers significant opportunities - it generates 25% of Nigeria's GDP, providing employment in oil, manufacturing, tech and services (1 mark). The informal economy supports 65% of workers through street trading and transport services (1 mark). However, challenges are severe - 60% live in slums with overcrowding and poor sanitation (1 mark). Traffic congestion costs $8.5 billion per year, and ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

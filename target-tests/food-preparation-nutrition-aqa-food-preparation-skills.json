@@ -1,0 +1,107 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "food-preparation-skills",
+ "topicName": "Food Preparation Skills",
+ "version": 1,
+ "tests": [
+  {
+   "id": "food-preparation-skills-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Food Preparation Skills",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "food-preparation-skills-t1",
+     "type": "short-answer",
+     "question": "Q: What is mise en place and why is it important?",
+     "correctAnswer": "Mise en place means 'everything in its place' — preparing and organising all ingredients and equipment before cooking. It ensures efficient, safe, and stress-free food preparation, preventing mistakes like missing ingredients.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-preparation-skills-t2",
+     "type": "short-answer",
+     "question": "Q: Describe the bridge grip and when it is used.",
+     "correctAnswer": "The bridge grip involves forming a bridge with your thumb and fingers over the food, creating a tunnel for the knife to pass under. It is used for cutting food in half safely, such as halving an onion or potato.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-preparation-skills-t3",
+     "type": "short-answer",
+     "question": "Q: Describe the claw grip and why it is important for safety.",
+     "correctAnswer": "The claw grip involves curling your fingertips inward like a claw, with fingertips behind the knuckles, resting on the food to guide the knife blade. It protects fingertips from the blade while providing control for slicing and chopping.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "food-preparation-skills-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Food Preparation Skills",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "food-preparation-skills-t4",
+     "type": "short-answer",
+     "question": "Q: Why is it important to keep knives sharp?",
+     "correctAnswer": "Sharp knives cut more easily with less force, giving better control and reducing the risk of the knife slipping and causing injury. Dull knives require more pressure and are more likely to slip.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-preparation-skills-t5",
+     "type": "short-answer",
+     "question": "Q: How should you prevent a chopping board from slipping?",
+     "correctAnswer": "Place a damp cloth or paper towel underneath the chopping board to create friction and keep it stable during food preparation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-preparation-skills-t6",
+     "type": "short-answer",
+     "question": "Q: What is the difference between a level measure and a heaped measure?",
+     "correctAnswer": "A level measure means the ingredient is flat and level with the top of the spoon (scraped with a straight edge). A heaped measure means as much as naturally sits on the spoon without pressing down. Recipes default to level unless stated otherwise.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-preparation-skills-t7",
+     "type": "short-answer",
+     "question": "Q: Name four parts of a box grater and their uses.",
+     "correctAnswer": "Coarse grating (cheese, vegetables), fine grating (hard cheese, chocolate, citrus zest), slicing (cucumber, carrot), and grating-zester side (nutmeg, ginger, fine zest) (identify all four).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-preparation-skills-t8",
+     "type": "short-answer",
+     "question": "Q: Why should vegetables be cut to uniform size?",
+     "correctAnswer": "Uniform size ensures even cooking — smaller pieces cook faster than larger ones, so mixed sizes would result in some pieces overcooked and others undercooked.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

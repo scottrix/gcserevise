@@ -1,0 +1,96 @@
+{
+ "subject": "law",
+ "board": "AQA",
+ "topic": "courts-structure",
+ "topicName": "Courts & Court Structure",
+ "version": 1,
+ "tests": [
+  {
+   "id": "courts-structure-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Courts & Court Structure",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "courts-structure-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between criminal and civil courts?",
+     "correctAnswer": "Criminal courts deal with offences against the state (prosecuted by the Crown); civil courts deal with disputes between individuals or organisations, where the claimant sues the defendant.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "courts-structure-t2",
+     "type": "short-answer",
+     "question": "Q: What cases does the Crown Court hear?",
+     "correctAnswer": "Indictable offences (serious crimes like murder and rape), either-way offences sent from the Magistrates' Court, and appeals from the Magistrates' Court against conviction or sentence.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "courts-structure-t3",
+     "type": "short-answer",
+     "question": "Q: What are the three divisions of the High Court?",
+     "correctAnswer": "Queen's Bench (contract and tort), Chancery (business, trusts, tax) and Family (divorce, children, financial remedies).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "courts-structure-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Courts & Court Structure",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "courts-structure-t4",
+     "type": "short-answer",
+     "question": "Q: Why are tribunals used instead of courts for some disputes?",
+     "correctAnswer": "Tribunals are cheaper, faster, less formal and have specialist expertise in their area. They are more accessible for ordinary people.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "courts-structure-t5",
+     "type": "short-answer",
+     "question": "Q: What is the role of the Supreme Court?",
+     "correctAnswer": "It is the highest court in the UK, hearing appeals on points of law of general public importance. Its decisions bind all lower courts.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "courts-structure-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Courts & Court Structure",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "courts-structure-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How effective is the court hierarchy in delivering justice? (15 marks) <div class=\"",
+     "correctAnswer": "The court hierarchy is broadly effective in delivering justice because it ensures consistency, provides clear appeal routes and assigns cases to appropriate levels of formality and seriousness. The doctrine of precedent, which depends on the hierarchy, ensures that lower courts follow decisions of higher courts, creating predictability and fairness in the law. Appeal routes allow errors to be corrected — a defendant convicted unfairly in the Magistrates' Court can appeal to the Crown Court, and points of law can reach the Supreme Court for final determination. The division between summary, either-way and indictable offences means that minor cases are dealt with quickly and cheaply in the Magistrates' Court, while serious cases receive the full formality and safeguards of the Crown Court, including jury trial. Tribunals extend access to justice by providing specialist, cheaper and less formal procedures for particular disputes. However, the court hierarchy has significant weaknesses. Delays are a serious problem — Crown Court cases can take months to come to trial, denying justice to both defendants and victims. The Magistrates' Court, while efficient, lacks the safeguards of jury trial and relies on lay volunteers who may not understand complex legal issues. Cost is a major barrier — the higher up the hierarchy, the more expensive justice becomes, meaning effective access to justice often depends on wealth. Furthermore, the complexity of the system disadvantages litigants in ",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

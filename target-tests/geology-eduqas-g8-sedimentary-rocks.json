@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g8-sedimentary-rocks",
+ "topicName": "Sedimentary Rocks",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g8-sedimentary-rocks-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Sedimentary Rocks",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g8-sedimentary-rocks-t1",
+     "type": "short-answer",
+     "question": "Q: How do clastic sedimentary rocks differ from chemical and biochemical ones?",
+     "correctAnswer": "Clastic rocks form from broken fragments of pre-existing rock (e.g. sandstone from sand grains). Chemical rocks form by precipitation from solution (e.g. rock salt from evaporating seawater). Biochemical rocks form from the remains of organisms (e.g. chalk from microscopic shells).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g8-sedimentary-rocks-t2",
+     "type": "short-answer",
+     "question": "Q: Describe the process of lithification.",
+     "correctAnswer": "Sediment is buried under more layers. Compaction squeezes out water and reduces pore space as grains pack tighter. Cementation occurs when dissolved minerals (e.g. silica, calcite) precipitate in the remaining pore spaces, binding the grains into solid rock.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g8-sedimentary-rocks-t3",
+     "type": "short-answer",
+     "question": "Q: What is the difference between conglomerate and breccia?",
+     "correctAnswer": "Both are clastic rocks with gravel-sized clasts (>2 mm). Conglomerate has rounded clasts (transported far, abraded). Breccia has angular clasts (transported only a short distance, not yet rounded).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g8-sedimentary-rocks-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Sedimentary Rocks",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g8-sedimentary-rocks-t4",
+     "type": "short-answer",
+     "question": "Q: How does graded bedding form?",
+     "correctAnswer": "A turbidity current carries sediment of mixed sizes downslope. As the current slows, the largest/heaviest particles settle first, followed by progressively finer material, producing a layer with coarse grains at the base and fine grains at the top.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g8-sedimentary-rocks-t5",
+     "type": "short-answer",
+     "question": "Q: What sedimentary structures indicate current direction?",
+     "correctAnswer": "Cross-bedding shows the direction of wind or water flow (dip direction of the cross-beds indicates downstream). Asymmetric ripple marks also indicate current direction (steeper side faces downstream).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

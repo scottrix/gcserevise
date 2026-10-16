@@ -1,0 +1,77 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "quality-control-manufacturing",
+ "topicName": "Quality Control in Manufacturing",
+ "version": 1,
+ "tests": [
+  {
+   "id": "quality-control-manufacturing-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Quality Control in Manufacturing",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "quality-control-manufacturing-t1",
+     "type": "short-answer",
+     "question": "Q: Describe how to use a Vernier caliper to measure the external diameter of a shaft.",
+     "correctAnswer": "Close the external jaws around the shaft, ensuring they sit squarely on the surface without tilting. Gently tighten the locking screw. Read the main scale to the nearest whole millimetre, then read the Vernier scale where its lines align with the main scale for the decimal reading. Add both readings for the total measurement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "quality-control-manufacturing-t2",
+     "type": "short-answer",
+     "question": "Q: Explain the difference between quality control and quality assurance.",
+     "correctAnswer": "Quality control detects defects through inspection and testing of the finished product or components. Quality assurance prevents defects by establishing correct processes, procedures and systems throughout production. QC is reactive (finds problems); QA is proactive (prevents problems).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "quality-control-manufacturing-t3",
+     "type": "short-answer",
+     "question": "Q: A manufacturer produces shafts with a nominal diameter of 20.00 mm and tolerance of +/-0.03 mm. Design a go/no-go gauge for this dimension.",
+     "correctAnswer": "Go gauge: 19.97 mm (the minimum acceptable diameter — the shaft must pass through). No-go gauge: 20.03 mm (the maximum acceptable diameter — the shaft must NOT pass through). A shaft that passes the go gauge and fails the no-go gauge is within tolerance.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "quality-control-manufacturing-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Quality Control in Manufacturing",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "quality-control-manufacturing-t4",
+     "type": "short-answer",
+     "question": "Q: Explain how statistical process control can detect a problem before defective parts are produced.",
+     "correctAnswer": "SPC takes regular samples and plots measurements on a control chart with upper and lower control limits. If measurements trend towards a limit (even while still within tolerance), the process is drifting. This early warning allows the operator to adjust the machine before it produces out-of-tolerance parts.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "quality-control-manufacturing-t5",
+     "type": "short-answer",
+     "question": "Q: Why is first article inspection carried out before full production begins?",
+     "correctAnswer": "FAI thoroughly checks the first part from a new setup to confirm the CNC program, tooling, material and machine settings are all correct. If the first part is wrong, the setup can be corrected before wasting material and time on a full batch of defective parts.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

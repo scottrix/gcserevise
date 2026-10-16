@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS2-perception",
+ "topicName": "Perception",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS2-perception-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Perception",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS2-perception-t1",
+     "type": "short-answer",
+     "question": "Compare Gregory's constructivist theory with Gibson's direct theory of perception.",
+     "correctAnswer": "Gregory: perception is constructed using past experience and expectations (top-down). Gibson: perception is directly picked up from the environment (bottom-up). Gregory explains illusions and ambiguous figures but struggles with infant perception. Gibson explains accurate perception in novel situations but cannot explain illusions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS2-perception-t2",
+     "type": "short-answer",
+     "question": "Explain how culture can affect perception, using research evidence.",
+     "correctAnswer": "Hudson (1960) found that Western participants easily perceived depth in 2D pictures using perspective cues, while non-Western participants (who had less exposure to 2D representations) found it harder. This suggests that some perceptual skills are learned through cultural experience.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS2-perception-t3",
+     "type": "short-answer",
+     "question": "Evaluate what visual illusions tell us about the nature of perception.",
+     "correctAnswer": "Illusions show perception is not a direct copy of reality - the brain interprets and sometimes misinterprets information. This supports Gregory's top-down processing view. However, not all illusions are explained by past experience; some (like the Kanizsa Triangle) may involve innate perceptual processes, supporting Gibson's view partially.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS2-perception-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Perception",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS2-perception-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether perception is primarily a top-down or bottom-up process. <div class=\"",
+     "correctAnswer": "A grade 9 response will: outline Gregory's top-down theory with evidence (illusions, ambiguous figures, past experience); outline Gibson's bottom-up theory with evidence (affordances, accurate perception in novel situations); evaluate both; conclude: perception involves both processes - bottom-up provides raw data, top-down refines interpretation. Interactionist approaches best explain the evidence.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

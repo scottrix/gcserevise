@@ -1,0 +1,77 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "ah11-ionian-revolt",
+ "topicName": "The Ionian Revolt (499-494 BC)",
+ "version": 1,
+ "tests": [
+  {
+   "id": "ah11-ionian-revolt-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Ionian Revolt (499-494 BC)",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "ah11-ionian-revolt-t1",
+     "type": "short-answer",
+     "question": "Q: Why did Aristagoras start the Ionian Revolt?",
+     "correctAnswer": "Aristagoras persuaded the Persian satrap Artaphernes to support an attack on Naxos, but the expedition failed. Aristagoras now owed money to Persia and feared punishment. Rather than face this, he resigned as tyrant, declared democracy in Miletus and launched a revolt against Persian rule.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah11-ionian-revolt-t2",
+     "type": "short-answer",
+     "question": "Q: Why did Athens and Eretria support the revolt?",
+     "correctAnswer": "Athens supported the Ionians partly because Miletus was a fellow Ionian city (shared ethnic and cultural ties) and partly because of the oracle advising them to free Miletus. Eretria supported them because Miletus had previously helped Eretria. Athens sent 20 ships and Eretria sent 5.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah11-ionian-revolt-t3",
+     "type": "short-answer",
+     "question": "Q: Why did the burning of Sardis provoke such a strong Persian response?",
+     "correctAnswer": "Sardis was the capital of the satrapy and a symbol of Persian authority. Its destruction (including a temple of Cybele) was a profound insult to Persian imperial prestige. Herodotus says Darius asked who the Athenians were and demanded a servant remind him to punish them at every meal.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "ah11-ionian-revolt-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on The Ionian Revolt (499-494 BC)",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "ah11-ionian-revolt-t4",
+     "type": "short-answer",
+     "question": "Q: How was the Ionian Revolt finally crushed?",
+     "correctAnswer": "The Persians systematically recaptured rebel cities. The decisive Battle of Lade (494 BC) saw the Persian fleet defeat the Ionian navy after the Samian and Lesbian contingents defected. Miletus was then besieged, sacked and its population enslaved or deported.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah11-ionian-revolt-t5",
+     "type": "short-answer",
+     "question": "Q: What was Herodotus' view of the Ionian Revolt?",
+     "correctAnswer": "Herodotus saw the revolt as the origin of the Persian Wars and a critical turning point. He presents it as a chain of cause and effect: the failed Naxos expedition led Aristagoras to revolt, Athenian support enraged Darius, and this led directly to the Persian invasions of mainland Greece.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "B18-genetic-variation",
+ "topicName": "Genetic Variation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "B18-genetic-variation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Genetic Variation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "B18-genetic-variation-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between continuous and discontinuous variation, giving one example of each.",
+     "correctAnswer": "Continuous variation has a range of values with no distinct categories (e.g. height, weight) and is usually influenced by many genes and the environment. Discontinuous variation has distinct categories with no intermediate values (e.g. blood group, eye colour) and is usually controlled by a single gene.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B18-genetic-variation-t2",
+     "type": "short-answer",
+     "question": "Describe what a mutation is and explain why most mutations have no effect on the phenotype.",
+     "correctAnswer": "A mutation is a change in the DNA sequence of a gene. Most mutations have no effect because the genetic code is degenerate (some amino acids are coded for by more than one codon), so a change may not alter the amino acid produced. Also, mutations may occur in non-coding regions of DNA.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B18-genetic-variation-t3",
+     "type": "short-answer",
+     "question": "Describe the process of genetic engineering used to produce human insulin in bacteria, naming the enzymes involved at each step.",
+     "correctAnswer": "1. Identify and cut out the human insulin gene from human DNA using a restriction enzyme. 2. Cut open a bacterial plasmid using the same restriction enzyme (creates complementary sticky ends). 3. Insert the human gene into the plasmid using ligase enzyme. 4. Insert the recombinant plasmid into a bacterium. 5. The bacterium multiplies and produces human insulin, which is harvested and purified.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "B18-genetic-variation-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Genetic Variation",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "B18-genetic-variation-t4",
+     "type": "short-answer",
+     "question": "Give two advantages and two disadvantages of GM crops.",
+     "correctAnswer": "Advantages: increased yield, pest resistance (reduces pesticide use), enhanced nutrition, disease resistance. Disadvantages: unknown long-term health effects, potential harm to biodiversity, GM genes may spread to wild plants, expensive seeds, dependence on biotechnology companies.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "B18-genetic-variation-t5",
+     "type": "short-answer",
+     "question": "Describe the process of selective breeding and explain one disadvantage of this technique.",
+     "correctAnswer": "Choose parents with desired characteristics from a mixed population. Breed them together. Select offspring with the desired characteristics and breed them. Repeat over many generations. Disadvantage: reduces the gene pool (less genetic variation), which increases risk of inherited disorders and vulnerability to new diseases due to inbreeding.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "B18-genetic-variation-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Genetic Variation",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "B18-genetic-variation-t6",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Evaluate the advantages and disadvantages of genetic engineering. <div class=\"",
+     "correctAnswer": "Genetic engineering has significant advantages: it can introduce desirable characteristics that would not be possible through selective breeding because genes can be transferred between species — for example, bacteria engineered to produce human insulin provide a reliable supply for diabetes treatment. GM crops can have increased yield, pest resistance (reducing pesticide use), and enhanced nutrition (e.g. golden rice with vitamin A). However, there are disadvantages and concerns: the long-term effects on human health and ecosystems are not fully known; GM genes could spread to wild plants through cross-pollination, potentially creating \"superweeds\"; GM seeds are expensive and create dependence on biotechnology companies; and some people have ethical objections to modifying organisms. Overall, the benefits of genetic engineering for medicine and food security are significant, but regulation and careful monitoring are essential to manage the risks. Mark scheme: 1 mark — at least two advantages given and explained; 1 mark — advantage of cross-species gene transfer; 1 mark — at least two disadvantages given and explained; 1 mark — environmental or health risk explained; 1 mark — ethical or economic concern; 1 mark — balanced evaluation with a reasoned conclusion.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC16-interest-rates-and-saving",
+ "topicName": "Interest Rates, Saving and Borrowing",
+ "version": 1,
+ "tests": [
+  {
+   "id": "EC16-interest-rates-and-saving-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Interest Rates, Saving and Borrowing",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "EC16-interest-rates-and-saving-t1",
+     "type": "short-answer",
+     "question": "Explain how a rise in interest rates affects consumers' decisions to save, borrow, and spend.",
+     "correctAnswer": "Saving: more attractive (higher returns on savings accounts). Borrowing: more expensive (higher loan and mortgage repayments, reducing disposable income). Spending: falls (higher mortgage payments leave less for discretionary spending; saving becomes relatively more attractive than spending). Overall: higher rates reduce economic activity.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC16-interest-rates-and-saving-t2",
+     "type": "short-answer",
+     "question": "Explain how a fall in interest rates might affect a firm's decision to invest in new equipment.",
+     "correctAnswer": "Lower interest rates make borrowing cheaper, so a firm is more likely to take out a loan for new equipment because: loan repayments are lower, the return on investment is more likely to exceed borrowing costs, and the opportunity cost of investing (forgone interest on savings) is lower. This stimulates investment and future productive capacity.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC16-interest-rates-and-saving-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether the Bank of England should raise interest rates when inflation is rising.",
+     "correctAnswer": "Arguments for raising rates: reduces spending and borrowing, cooling demand-pull inflation; makes saving attractive, reducing money supply growth; signals the Bank is serious about controlling inflation. Arguments against: higher mortgage costs hurt households; business investment falls, reducing future growth; could trigger recession if rates rise too fast. Conclusion: the Bank should raise rates",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "EC16-interest-rates-and-saving-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Interest Rates, Saving and Borrowing",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "EC16-interest-rates-and-saving-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the impact of a significant rise in interest rates on first-time homebuyers and on pensioners with savings. <div class=\"",
+     "correctAnswer": "A grade 9 response will: analyse homebuyers (higher mortgage payments, reduced affordability, may be unable to buy, house prices may fall reducing wealth); analyse pensioners (savings earn more interest, fixed-income investments become more valuable, but if they have mortgages they also suffer); conclude: the impact is highly unequal — asset-rich pensioners benefit while indebted young people suffer, widening intergenerational inequality. Policy should consider distributional effects alongside macroeconomic goals.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

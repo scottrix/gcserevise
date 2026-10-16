@@ -1,0 +1,67 @@
+{
+ "subject": "media-studies",
+ "board": "AQA",
+ "topic": "MS11-radio-podcasts",
+ "topicName": "Radio & Podcasts",
+ "version": 1,
+ "tests": [
+  {
+   "id": "MS11-radio-podcasts-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Radio & Podcasts",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "MS11-radio-podcasts-t1",
+     "type": "short-answer",
+     "question": "Q: How do BBC and commercial radio differ in their approaches to audiences?",
+     "correctAnswer": "BBC radio operates under public service obligations to serve diverse audiences with distinctive programming, funded by the licence fee. Commercial radio is funded by advertising and targets specific demographics to maximise ad revenue — this means programming is designed to attract the most commercially valuable listeners rather than serving all audiences.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS11-radio-podcasts-t2",
+     "type": "short-answer",
+     "question": "Q: What are the key conventions of radio as a media form?",
+     "correctAnswer": "Key conventions include: scheduling (programmes at set times), jingles and station identification, news bulletins, phone-ins and audience interaction, playlists for music stations, presenter personality (parasocial relationships), and the use of sound codes (speech, music, effects, silence) to create meaning without visuals.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS11-radio-podcasts-t3",
+     "type": "short-answer",
+     "question": "Q: Evaluate the impact of podcasting on traditional radio.",
+     "correctAnswer": "Podcasting has challenged radio by offering on-demand, niche content that radio's scheduled format cannot match. Audiences increasingly choose podcasts over scheduled programming. However, radio retains advantages: live content (news, sport), broad reach, and established presenter relationships. Many radio programmes are now also released as podcasts, showing convergence rather than replacement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "MS11-radio-podcasts-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Radio & Podcasts",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "MS11-radio-podcasts-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Compare radio and podcasting as media forms. [12 marks] <div class=\"",
+     "correctAnswer": "Radio and podcasting share the audio medium but differ significantly as media forms in production, distribution, regulation, and audience experience. Radio is a scheduled, live broadcast medium. Programmes air at fixed times, creating shared listening experiences (watercooler moments). BBC radio operates under public service obligations, providing diverse programming. Commercial radio targets demographics for advertisers. Radio is regulated by Ofcom, which ensures content standards and due impartiality. Podcasting is an on-demand, pre-recorded medium. Listeners choose what to hear and when, creating personalised experiences. Production barriers are low — anyone can create a podcast — enabling diverse, niche content. Podcasts are largely unregulated, allowing more freedom but less protection. The audience relationship differs. Radio presenters build parasocial relationships through daily scheduling, becoming companions in listeners' routines. Podcasts build intimacy through deep, long-form content and the sense of private, one-to-one communication that headphones create. Convergence is blurring the boundaries. BBC programmes are released as podcasts, and radio stations stream online. Smart speakers make both equally accessible via voice commands. Overall, radio and podcasting are complementary rather than competing forms. Radio excels at live content and broad reach; podcasts at niche content and on-demand convenience. Their convergence suggests the future is hybrid.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

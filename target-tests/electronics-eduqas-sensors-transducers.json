@@ -1,0 +1,96 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "sensors-transducers",
+ "topicName": "Sensors & Transducers",
+ "version": 1,
+ "tests": [
+  {
+   "id": "sensors-transducers-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Sensors & Transducers",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "sensors-transducers-t1",
+     "type": "short-answer",
+     "question": "Q: An LDR has a resistance of 200 kΩ in darkness and 2 kΩ in bright light. It is in a potential divider with a 10 kΩ fixed resistor and 9 V supply (LDR on top). What is V_out in darkness and in bright light?",
+     "correctAnswer": "Dark: V_out = 9 × 10/(200 + 10) = 0.43 V. Bright: V_out = 9 × 10/(2 + 10) = 7.5 V.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sensors-transducers-t2",
+     "type": "short-answer",
+     "question": "Q: Explain why an NTC thermistor is suitable for a temperature monitoring circuit.",
+     "correctAnswer": "Its resistance decreases as temperature increases, so when placed in a potential divider the output voltage rises with temperature, providing a clear electrical signal proportional to temperature.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sensors-transducers-t3",
+     "type": "short-answer",
+     "question": "Q: What is the purpose of signal conditioning in a sensor circuit?",
+     "correctAnswer": "To adapt the raw sensor output for the next stage by amplifying weak signals, filtering noise, level shifting or linearising the response.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "sensors-transducers-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Sensors & Transducers",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "sensors-transducers-t4",
+     "type": "short-answer",
+     "question": "Q: Why might a Schmitt trigger be used with a sensor input instead of a simple comparator?",
+     "correctAnswer": "A Schmitt trigger provides hysteresis, preventing the output from chattering when the sensor voltage hovers near the threshold due to noise or slow changes.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "sensors-transducers-t5",
+     "type": "short-answer",
+     "question": "Q: Describe how a Wheatstone bridge improves sensitivity for small resistance changes.",
+     "correctAnswer": "The bridge balances two voltage dividers; even a tiny resistance change unbalances the bridge, producing a measurable differential voltage proportional to the change.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "sensors-transducers-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Sensors & Transducers",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "sensors-transducers-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Explain how an LDR or thermistor can be used in a potential divider circuit to monitor light or temperature, and describe how the output can be conditioned to drive a switching circuit. <div class=\"",
+     "correctAnswer": "An LDR or thermistor changes its resistance in response to a physical quantity (light or temperature). When placed in a potential divider with a fixed resistor and a supply voltage, the resistance change produces a corresponding voltage change at the output. For example, an LDR in the upper position of a divider with a fixed resistor below gives a low V_out in darkness (high LDR resistance) and a high V_out in bright light (low LDR resistance). An NTC thermistor in the lower position gives V_out rising as temperature increases. However, the raw divider output may have a small voltage range, noise and a non-linear response. Signal conditioning addresses this: an op-amp amplifier increases the voltage swing, a filter removes unwanted noise, and a level shifter adjusts the DC offset. To create a switching circuit, the conditioned signal is fed to a comparator (or Schmitt trigger for hysteresis) that compares it with a reference voltage. When the sensor voltage crosses the threshold, the output switches between logic levels, driving a transistor, relay or LED to indicate or control the physical condition.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

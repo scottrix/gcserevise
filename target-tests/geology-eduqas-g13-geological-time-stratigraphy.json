@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g13-geological-time-stratigraphy",
+ "topicName": "Geological Time & Stratigraphy",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g13-geological-time-stratigraphy-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Geological Time & Stratigraphy",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g13-geological-time-stratigraphy-t1",
+     "type": "short-answer",
+     "question": "Q: State the three main principles of stratigraphy.",
+     "correctAnswer": "1) Superposition: oldest beds at the bottom. 2) Original horizontality: beds are deposited horizontally. 3) Cross-cutting relationships: a feature that cuts another is younger.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g13-geological-time-stratigraphy-t2",
+     "type": "short-answer",
+     "question": "Q: What makes a good index fossil?",
+     "correctAnswer": "Short geological time range (rapid evolution), wide geographical distribution, easily recognisable, and abundant in the rock record.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g13-geological-time-stratigraphy-t3",
+     "type": "short-answer",
+     "question": "Q: How does radiometric dating work?",
+     "correctAnswer": "A radioactive parent isotope decays into a stable daughter isotope at a known rate (half-life). By measuring the ratio of parent to daughter isotopes in a mineral, the age since the mineral crystallised (its closure temperature) can be calculated.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g13-geological-time-stratigraphy-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Geological Time & Stratigraphy",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g13-geological-time-stratigraphy-t4",
+     "type": "short-answer",
+     "question": "Q: What is the difference between relative and absolute dating?",
+     "correctAnswer": "Relative dating places rocks in chronological order (older/younger) without giving numerical ages. Absolute (radiometric) dating measures the actual age in years (typically millions of years) using radioactive isotope decay.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g13-geological-time-stratigraphy-t5",
+     "type": "short-answer",
+     "question": "Q: Name the four main eras of the Phanerozoic Eon in order.",
+     "correctAnswer": "Precambrian (oldest), Palaeozoic, Mesozoic, Cenozoic (youngest).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

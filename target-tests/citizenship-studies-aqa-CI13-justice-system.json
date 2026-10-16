@@ -1,0 +1,67 @@
+{
+ "subject": "citizenship-studies",
+ "board": "AQA",
+ "topic": "CI13-justice-system",
+ "topicName": "The Justice System",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CI13-justice-system-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Justice System",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CI13-justice-system-t1",
+     "type": "short-answer",
+     "question": "Q: What is the role of the Crown Prosecution Service?",
+     "correctAnswer": "The CPS reviews evidence gathered by the police and decides whether there is enough evidence and whether prosecution is in the public interest. It then presents the case in court on behalf of the state. The CPS does not investigate crimes — that is the police's role.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CI13-justice-system-t2",
+     "type": "short-answer",
+     "question": "Q: Explain two purposes of sentencing.",
+     "correctAnswer": "Retribution: the offender deserves to be punished for the harm they have caused, reflecting society's condemnation. Deterrence: the punishment discourages the offender from reoffending (individual deterrence) and discourages others from committing similar crimes (general deterrence).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CI13-justice-system-t3",
+     "type": "short-answer",
+     "question": "Q: What is restorative justice and what are its advantages?",
+     "correctAnswer": "Restorative justice brings offenders and victims together so offenders can understand the impact of their actions and victims can have a say in how harm is repaired. Advantages include higher victim satisfaction, lower reoffending rates, giving victims closure, and being more cost-effective than prison.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CI13-justice-system-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on The Justice System",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CI13-justice-system-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the effectiveness of the UK justice system in achieving fairness. [12 marks] <div class=\"",
+     "correctAnswer": "The UK justice system has strengths in achieving fairness. Trial by jury allows ordinary citizens to decide verdicts, protecting against state oppression. The rule of law ensures all are equal before the courts, and judicial independence means judges cannot be influenced by government. Legal aid was designed to ensure access to justice regardless of wealth. However, significant fairness issues remain. Legal aid cuts since 2012 have denied many people access to legal representation, particularly in civil cases. This means wealthy individuals and corporations have an advantage. Ethnic minorities are disproportionately represented in the criminal justice system — they are more likely to be stopped, arrested, and receive harsher sentences. The prison population is high but reoffending rates remain around 46%, suggesting the system fails at rehabilitation. Youth justice has improved with a focus on rehabilitation over punishment for young offenders, but concerns remain about the age of criminal responsibility (10 in England and Wales, one of the lowest in Europe). Overall, while the justice system has strong principles of fairness, practical issues around access, disproportionality, and rehabilitation mean it does not always deliver justice equally to all citizens.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

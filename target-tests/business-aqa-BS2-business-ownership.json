@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS2-business-ownership",
+ "topicName": "Business Ownership",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS2-business-ownership-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Business Ownership",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS2-business-ownership-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between limited and unlimited liability and why it matters to a business owner.",
+     "correctAnswer": "Unlimited liability: the owner is personally responsible for all business debts - personal assets (house, savings) can be seized. Limited liability: shareholders are only liable for the amount they invested - personal assets are protected. This matters because a business failure with unlimited liability could mean personal bankruptcy.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS2-business-ownership-t2",
+     "type": "short-answer",
+     "question": "A sole trader is considering converting to a private limited company. Evaluate the advantages and disadvantages of this change.",
+     "correctAnswer": "Advantages of becoming ltd: limited liability protects personal assets, easier to raise finance (selling shares), perceived as more credible, continues if owner dies. Disadvantages: more complex and costly to set up, must file annual accounts (public record), profits shared with shareholders, less direct control (shareholders vote on decisions). Conclusion: worthwhile if the business is growing an",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS2-business-ownership-t3",
+     "type": "short-answer",
+     "question": "Compare a plc and a not-for-profit organisation, explaining how their objectives differ.",
+     "correctAnswer": "Plc: aims to maximise shareholder value through profit and share price growth; owned by shareholders who receive dividends. Not-for-profit: aims to achieve a social or environmental purpose; any surplus is reinvested rather than distributed. Both need financial sustainability but their purpose and how they use profits differs fundamentally.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS2-business-ownership-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Business Ownership",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS2-business-ownership-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response A husband and wife want to start a small cafe. They have 30,000 GBP savings and will both work in the business. Recommend the most appropriate ownership structure and justify your choice. <div class=\"",
+     "correctAnswer": "A grade 9 response will: evaluate sole trader (simple, low cost, full control but unlimited liability - personal assets at risk if cafe fails), partnership (shared responsibility, more capital but still unlimited liability), ltd (limited liability protects their home but extra costs and complexity); conclude: for a small cafe with low financial risk and two owners who want simplicity, a partnership is most appropriate - it shares the workload and capital while keeping things straightforward. If they later want to expand, converting to ltd would then be worthwhile.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

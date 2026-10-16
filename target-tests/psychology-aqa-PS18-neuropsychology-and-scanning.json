@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS18-neuropsychology-and-scanning",
+ "topicName": "Neuropsychology & Brain Scanning",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS18-neuropsychology-and-scanning-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Neuropsychology & Brain Scanning",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS18-neuropsychology-and-scanning-t1",
+     "type": "short-answer",
+     "question": "Compare structural and functional brain scanning methods, giving one strength and one limitation of each.",
+     "correctAnswer": "Structural (CT, MRI): show brain anatomy, detect damage. CT: quick but lower resolution and uses radiation. MRI: high resolution, no radiation, but slow and expensive. Functional (fMRI, EEG): show brain activity. fMRI: shows which areas are active, good spatial resolution, poor temporal resolution. EEG: shows when activity occurs, excellent temporal resolution, poor spatial resolution.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS18-neuropsychology-and-scanning-t2",
+     "type": "short-answer",
+     "question": "Explain how fMRI works and evaluate its usefulness for studying brain function.",
+     "correctAnswer": "fMRI measures blood flow changes - active areas use more oxygen, so oxygenated blood increases there. Strengths: non-invasive, shows both structure and function, good spatial resolution for locating active areas. Limitations: poor temporal resolution (delay of seconds between neural activity and blood flow change), expensive, participants must lie still, correlation doesn't prove causation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS18-neuropsychology-and-scanning-t3",
+     "type": "short-answer",
+     "question": "A researcher wants to study which brain areas are active during a memory task. Which scanning method would be most appropriate and why?",
+     "correctAnswer": "fMRI would be most appropriate: it shows which specific brain areas are active during the memory task (spatial resolution), which is needed to identify regions involved. EEG would show WHEN activity occurs but not WHERE. MRI would show structure but not activity. The researcher would compare fMRI scans during the memory task vs rest to identify active regions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS18-neuropsychology-and-scanning-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Neuropsychology & Brain Scanning",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS18-neuropsychology-and-scanning-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the contribution of brain scanning methods to our understanding of brain-behaviour relationships. <div class=\"",
+     "correctAnswer": "A grade 9 response will: describe each method (CT, MRI, fMRI, EEG, post-mortem) with strengths and limitations; evaluate structural methods (good for identifying damage but don't show function); evaluate functional methods (show activity but are correlational); consider the complementary nature of methods (EEG for timing, fMRI for location); conclude: brain scanning has revolutionised neuropsychology by providing non-invasive ways to study the living brain, but all methods are correlational and none can establish causation alone. Combining methods (e.g. fMRI for location + EEG for timing) and using experimental designs provides the strongest evidence.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

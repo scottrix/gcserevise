@@ -1,0 +1,107 @@
+{
+ "subject": "latin",
+ "board": "OCR",
+ "topic": "prose-set-texts",
+ "topicName": "Prose Set Texts",
+ "version": 1,
+ "tests": [
+  {
+   "id": "prose-set-texts-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Prose Set Texts",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "prose-set-texts-t1",
+     "type": "short-answer",
+     "question": "Q: Name three common prose authors studied at GCSE Latin.",
+     "correctAnswer": "Caesar (De Bello Gallico), Cicero (speeches and letters), Tacitus (Annales), Pliny the Younger (Letters), Livy (Ab Urbe Condita) (any three).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-set-texts-t2",
+     "type": "short-answer",
+     "question": "Q: What is the subject of Caesar's De Bello Gallico?",
+     "correctAnswer": "Caesar's own account of his military campaigns in Gaul (58-50 BC), covering battles, negotiations with Gallic tribes, and expeditions to Britain and Germany.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-set-texts-t3",
+     "type": "short-answer",
+     "question": "Q: What was the Catilinarian conspiracy and which author wrote about it?",
+     "correctAnswer": "A plot led by Catiline to overthrow the Roman Republic in 63 BC, exposed by Cicero in his In Catilinam speeches. Cicero's four orations against Catiline are a key set text option.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "prose-set-texts-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Prose Set Texts",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "prose-set-texts-t4",
+     "type": "short-answer",
+     "question": "Q: What does Pliny's letter about Vesuvius describe?",
+     "correctAnswer": "Pliny the Younger describes the eruption of Mount Vesuvius in AD 79, which his uncle Pliny the Elder died investigating. It is a key eyewitness account of the disaster.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-set-texts-t5",
+     "type": "short-answer",
+     "question": "Q: How often do set texts change?",
+     "correctAnswer": "Set texts typically change every two years. You must check your exam board's specification for the current prescribed texts for your year of examination.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-set-texts-t6",
+     "type": "short-answer",
+     "question": "Q: What is the typical length of a prose set text prescription?",
+     "correctAnswer": "Approximately 110-120 lines of Latin text, as prescribed by the exam board.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-set-texts-t7",
+     "type": "short-answer",
+     "question": "Q: What themes are common in Tacitus's writing?",
+     "correctAnswer": "The corruption of imperial power, tyranny vs freedom, the relationship between emperor and Senate, moral decline under the principate, and the loss of Republican libertas.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-set-texts-t8",
+     "type": "short-answer",
+     "question": "Q: Why is understanding the author's purpose important?",
+     "correctAnswer": "Because each author writes with a specific agenda: Caesar writes to justify and glorify his own achievements; Cicero writes to persuade and defend; Tacitus writes to critique imperial power. Recognising purpose helps you analyse the text's reliability, bias, and literary construction.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

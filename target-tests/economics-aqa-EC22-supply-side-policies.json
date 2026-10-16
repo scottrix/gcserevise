@@ -1,0 +1,67 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC22-supply-side-policies",
+ "topicName": "Supply-Side Policies",
+ "version": 1,
+ "tests": [
+  {
+   "id": "EC22-supply-side-policies-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Supply-Side Policies",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "EC22-supply-side-policies-t1",
+     "type": "short-answer",
+     "question": "Explain how investment in education and training can improve the UK's economic performance.",
+     "correctAnswer": "Education and training improve human capital: workers become more productive, more adaptable (reducing structural unemployment), and more innovative. A better-educated workforce attracts foreign investment and increases GDP per capita.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC22-supply-side-policies-t2",
+     "type": "short-answer",
+     "question": "Describe the potential advantages and disadvantages of privatisation.",
+     "correctAnswer": "Advantages: introduces competition and profit motive (improving efficiency), reduces government spending, raises revenue from sale. Disadvantages: natural monopolies may exploit consumers, job losses as private firms cut costs, essential services may become unaffordable.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC22-supply-side-policies-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether supply-side policies are more effective than demand-side policies for long-term economic growth.",
+     "correctAnswer": "Supply-side policies increase productive capacity (shifting LRAS right) — permanent effects on potential output. Demand-side policies boost actual output but cannot increase potential. For long-term growth, supply-side is more effective. However, demand-side is needed to ensure the economy operates at its potential. Conclusion: both are needed — supply-side for long-term growth, demand-side for sh",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "EC22-supply-side-policies-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Supply-Side Policies",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "EC22-supply-side-policies-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether the government should use supply-side policies or fiscal stimulus to address the UK's low productivity. <div class=\"",
+     "correctAnswer": "A grade 9 response will: supply-side solutions (education, R&D tax credits, infrastructure — address root causes but take years); fiscal stimulus (infrastructure spending — faster but temporary); conclude: for a productivity problem, supply-side policies are essential. However, fiscal spending on productivity-enhancing infrastructure achieves both short-term demand boost AND long-term supply-side improvement.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

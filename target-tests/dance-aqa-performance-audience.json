@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "performance-audience",
+ "topicName": "Performance & the Audience",
+ "version": 1,
+ "tests": [
+  {
+   "id": "performance-audience-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Performance & the Audience",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "performance-audience-t1",
+     "type": "short-answer",
+     "question": "Q: How does a proscenium arch theatre affect the audience-performer relationship?",
+     "correctAnswer": "It creates a clear separation with a 'fourth wall', framing the dance visually and directing the audience's gaze to the stage as if watching a picture.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "performance-audience-t2",
+     "type": "short-answer",
+     "question": "Q: Why must a dancer adapt their performance for an in-the-round staging?",
+     "correctAnswer": "The audience is on all sides, so the dancer must adjust focus, projection and facings so that no part of the audience is excluded or sees only the back of the performer.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "performance-audience-t3",
+     "type": "short-answer",
+     "question": "Q: What is a site-specific performance and how does it change the audience experience?",
+     "correctAnswer": "A site-specific performance is created for a non-theatre space such as a gallery, street or ruin. It changes the experience by immersing the audience in the environment and breaking the traditional stage-audience boundary.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "performance-audience-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Performance & the Audience",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "performance-audience-t4",
+     "type": "short-answer",
+     "question": "Q: Explain the idea of energy exchange between performer and audience.",
+     "correctAnswer": "The performer sends energy and intention outward through projection and expression; the audience responds with attention, silence or applause, which in turn motivates the performer — it is a two-way relationship.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "performance-audience-t5",
+     "type": "short-answer",
+     "question": "Q: What factors contribute to overall performance quality?",
+     "correctAnswer": "Performance quality is shaped by the combination of physical skills (strength, flexibility), technical skills (alignment, control) and expressive skills (projection, musicality) working together effectively.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

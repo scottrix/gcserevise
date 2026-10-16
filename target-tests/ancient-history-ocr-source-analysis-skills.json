@@ -1,0 +1,96 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "source-analysis-skills",
+ "topicName": "Source Analysis Skills",
+ "version": 1,
+ "tests": [
+  {
+   "id": "source-analysis-skills-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Source Analysis Skills",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "source-analysis-skills-t1",
+     "type": "short-answer",
+     "question": "Q: What three elements should you always consider when analysing a source?",
+     "correctAnswer": "Content (what it says), provenance (who wrote it, when, why), and context (what else was happening at the time).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "source-analysis-skills-t2",
+     "type": "short-answer",
+     "question": "Q: Why can a biased source still be useful?",
+     "correctAnswer": "Because bias itself reveals attitudes, values and perspectives of the author or their society, which can be valuable evidence.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "source-analysis-skills-t3",
+     "type": "short-answer",
+     "question": "Q: What is the difference between reliability and utility?",
+     "correctAnswer": "Reliability concerns whether a source is accurate and trustworthy; utility concerns how useful it is for answering a specific question — a source can be useful even if unreliable.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "source-analysis-skills-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Source Analysis Skills",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "source-analysis-skills-t4",
+     "type": "short-answer",
+     "question": "Q: Name two ancient historians relevant to OCR J198 Greek topics.",
+     "correctAnswer": "Herodotus (called the 'Father of History') and Thucydides (author of the History of the Peloponnesian War).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "source-analysis-skills-t5",
+     "type": "short-answer",
+     "question": "Q: Why should you never accept a source at face value?",
+     "correctAnswer": "Because every source has a purpose, perspective and potential bias that shapes what it includes, omits or emphasises.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "source-analysis-skills-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Source Analysis Skills",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "source-analysis-skills-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How useful is Herodotus as a source for the Persian Wars? (12 marks) <div class=\"",
+     "correctAnswer": "Herodotus is useful as a source for the Persian Wars in several ways, but also has significant limitations. In terms of utility, Herodotus provides the most detailed surviving narrative of the Persian Wars — his Histories cover the Ionian Revolt, Marathon, Thermopylae, Salamis and Plataea in detail. He travelled widely and collected accounts from different peoples, giving both Greek and Persian perspectives. His work is the foundation of almost all modern knowledge of the wars. However, his provenance creates limitations. He wrote around 430 BCE, roughly 50-60 years after the events, meaning he relied on oral traditions that may have been exaggerated. He was Greek and clearly pro-Greek, describing the Persians in stereotypical terms. He sometimes includes clearly mythical elements alongside factual accounts. Furthermore, he aimed to entertain as well as inform, which may have led him to dramatise events. Despite these limitations, Herodotus remains invaluable because there are simply no comparable surviving accounts. A skilled historian can use his work critically, cross-referencing with archaeological evidence such as the Serpent Column and with later historians like Diodorus Siculus. Overall, Herodotus is essential but must be used with awareness of his biases and the gap between his writing and the events.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

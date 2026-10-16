@@ -1,0 +1,96 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "essay-writing-skills",
+ "topicName": "Essay Writing Skills",
+ "version": 1,
+ "tests": [
+  {
+   "id": "essay-writing-skills-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Essay Writing Skills",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "essay-writing-skills-t1",
+     "type": "short-answer",
+     "question": "Q: What does PEEL stand for and why is it useful?",
+     "correctAnswer": "Point, Evidence, Explanation, Link. It ensures each paragraph has a clear focus, is supported by specific evidence, is developed through explanation, and connects back to the question.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "essay-writing-skills-t2",
+     "type": "short-answer",
+     "question": "Q: What should an introduction include?",
+     "correctAnswer": "Definition of key terms, understanding of the question, and an indication of your line of argument.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "essay-writing-skills-t3",
+     "type": "short-answer",
+     "question": "Q: Why is a conclusion essential in an OCR J198 essay?",
+     "correctAnswer": "Because the conclusion is where you deliver your direct, justified judgement — without it, you cannot access the top mark band.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "essay-writing-skills-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Essay Writing Skills",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "essay-writing-skills-t4",
+     "type": "short-answer",
+     "question": "Q: How should you approach a 'how far' essay differently from an 'explain' essay?",
+     "correctAnswer": "A 'how far' essay requires presenting both sides of the argument before reaching a judgement, whereas an 'explain' essay focuses on giving reasons for something.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "essay-writing-skills-t5",
+     "type": "short-answer",
+     "question": "Q: What distinguishes a Level 4 (top band) answer?",
+     "correctAnswer": "Sustained analysis throughout, precise and specific evidence, and a convincing, well-justified judgement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "essay-writing-skills-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Essay Writing Skills",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "essay-writing-skills-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How far was Spartan military strength the main reason for its dominance in the Peloponnese? (15 marks) <div class=\"",
+     "correctAnswer": "Spartan military strength was a significant reason for its dominance in the Peloponnese, but it was not the only factor — its political system and diplomatic strategies were also crucial. The Spartan agoge produced the most feared hoplite army in Greece. Their discipline at battles like Plataea in 479 BCE demonstrated overwhelming military capability, and this reputation alone deterred many rivals from challenging Spartan authority. The Peloponnesian League, however, was equally important. By binding neighbouring states into a network of alliances, Sparta secured loyalty without constant military action. States like Corinth and Megara contributed forces and paid tribute, extending Spartan influence far beyond its own resources. Furthermore, the Spartan political system provided remarkable stability. The dual kingship, ephors and gerousia created a balanced constitution that prevented the kind of internal strife seen in other Greek cities. This stability allowed consistent long-term foreign policy. Nevertheless, military strength underpinned both the League and the political system — without the threat of Spartan force, allies might have defected. Additionally, Sparta's treatment of the helots was a critical weakness: the constant fear of helot revolt meant Sparta could rarely send its full army abroad, limiting expansion. In conclusion, Spartan military strength was the foundation of its dominance but operated alongside political stability and diplomatic skill. Military power",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS14-organisational-structures",
+ "topicName": "Organisational Structures",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS14-organisational-structures-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Organisational Structures",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS14-organisational-structures-t1",
+     "type": "short-answer",
+     "question": "Explain two advantages and two disadvantages of a flat organisational structure.",
+     "correctAnswer": "Advantages of flat structure: faster decision-making (fewer layers to consult), better communication (less distortion), employees have more responsibility and autonomy (improves motivation). Disadvantages: wide span of control means managers may be overstretched, less opportunity for promotion (fewer management levels), may lack clear authority for complex decisions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS14-organisational-structures-t2",
+     "type": "short-answer",
+     "question": "Describe the difference between centralisation and decentralisation, and give one benefit of each.",
+     "correctAnswer": "Centralisation: decisions made by senior management at headquarters. Benefit: consistency across all branches/departments, senior leaders have the big picture. Decentralisation: decisions made by local managers. Benefit: faster responses to local conditions, local managers understand their market better, develops leadership skills in junior managers.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS14-organisational-structures-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether a large business should delayer its hierarchical structure.",
+     "correctAnswer": "Arguments for delayering: removes expensive middle management (cost savings), speeds up communication between top and front line, empowers remaining staff, makes the organisation more agile. Arguments against: loss of experienced middle managers, wider spans of control may overwhelm senior managers, demotivation of remaining staff (more responsibility without more pay), possible loss of specialist",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS14-organisational-structures-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Organisational Structures",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS14-organisational-structures-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether a rapidly growing tech startup should change from a flat structure to a hierarchical one as it expands from 20 to 200 employees. <div class=\"",
+     "correctAnswer": "A grade 9 response will: analyse flat structure benefits at 20 employees (fast decisions, close team, innovation, shared ownership); problems at 200 (founder overwhelmed, inconsistent decisions, unclear accountability, communication breaks down); hierarchical benefits at scale (clear roles, span of control manageable, career progression); drawbacks (bureaucracy, slower innovation, silos); conclude: some structural adaptation is necessary but a full hierarchy may kill the innovative culture - a hybrid with light management layers plus cross-functional teams (matrix elements) could preserve agility while adding needed coordination.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

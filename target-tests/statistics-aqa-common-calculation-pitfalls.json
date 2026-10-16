@@ -1,0 +1,96 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "common-calculation-pitfalls",
+ "topicName": "Common Calculation Pitfalls",
+ "version": 1,
+ "tests": [
+  {
+   "id": "common-calculation-pitfalls-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Common Calculation Pitfalls",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "common-calculation-pitfalls-t1",
+     "type": "short-answer",
+     "question": "Q: A student calculates the mean of grouped data as 45.2 using class upper bounds instead of midpoints. The classes are 10–20, 20–30, 30–40. What should they have used?",
+     "correctAnswer": "Midpoints: 15, 25, 35. Using upper bounds (20, 30, 40) overestimates each value by 5, shifting the mean upward.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "common-calculation-pitfalls-t2",
+     "type": "short-answer",
+     "question": "Q: A student computes P(A or B) = 0.6 + 0.7 = 1.3. Why is this wrong?",
+     "correctAnswer": "A probability cannot exceed 1. The events are not mutually exclusive, so P(A∪B) = P(A) + P(B) − P(A∩B). The overlap must be subtracted.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "common-calculation-pitfalls-t3",
+     "type": "short-answer",
+     "question": "Q: Calculate the percentage change when a value rises from 80 to 100. A student writes (100÷80) × 100 = 125%. Is this correct?",
+     "correctAnswer": "The student found 125% of the original, not the percentage change. Percentage change = ((100−80)/80) × 100 = (20/80) × 100 = 25% increase.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "common-calculation-pitfalls-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Common Calculation Pitfalls",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "common-calculation-pitfalls-t4",
+     "type": "short-answer",
+     "question": "Q: A student finds the IQR as Q1 + Q3 = 24 + 36 = 60. What is the correct IQR?",
+     "correctAnswer": "IQR = Q3 − Q1 = 36 − 24 = 12. The student added instead of subtracting.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "common-calculation-pitfalls-t5",
+     "type": "short-answer",
+     "question": "Q: A student calculates Spearman’s rank with n = 8 and ∑d² = 22 and gets r_s = 2.1. How do you know this is wrong?",
+     "correctAnswer": "Spearman’s rank must lie between −1 and +1. Check: r_s = 1 − (6×22)/(8×63) = 1 − 132/504 = 1 − 0.262 = 0.738. The student likely made an arithmetic error in the formula.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "common-calculation-pitfalls-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Common Calculation Pitfalls",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "common-calculation-pitfalls-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response The table shows grouped data for the masses of 40 parcels. Calculate the estimated mean. | Mass (kg) | Frequency | |-----------|----------| | 0–2 | 8 | | 2–4 | 14 | | 4–6 | 12 | | 6–8 | 6 | <div class=\"",
+     "correctAnswer": "Step 1: Find the midpoint of each class. 0–2: midpoint = 1, 2–4: midpoint = 3, 4–6: midpoint = 5, 6–8: midpoint = 7 Step 2: Calculate midpoint × frequency for each class. 1 × 8 = 8, 3 × 14 = 42, 5 × 12 = 60, 7 × 6 = 42 Step 3: Sum the results. ∑fx = 8 + 42 + 60 + 42 = 152 Step 4: Divide by the total frequency. Estimated mean = 152 ÷ 40 = 3.8 kg Reasonableness check: 3.8 kg is between the lower and upper bounds of the data (0 and 8), and it falls in the 2–4 class, which has the highest frequency, so this is plausible.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

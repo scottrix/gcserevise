@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS3-aims-and-objectives",
+ "topicName": "Aims and Objectives",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS3-aims-and-objectives-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Aims and Objectives",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS3-aims-and-objectives-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between a business aim and a business objective, giving an example of each.",
+     "correctAnswer": "An aim is a general, long-term goal - e.g. 'to become the most popular cafe in the city'. An objective is a specific, measurable target that supports the aim - e.g. 'to achieve a 20% market share of city centre coffee sales within 12 months'. Aims give direction; objectives provide measurable milestones.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS3-aims-and-objectives-t2",
+     "type": "short-answer",
+     "question": "Write a SMART objective for a new coffee shop that has been trading for 6 months.",
+     "correctAnswer": "'Increase monthly revenue from 8,000 GBP to 12,000 GBP within 6 months by introducing a loyalty scheme and extending opening hours to 7pm.' This is Specific (increase revenue), Measurable (from 8k to 12k), Achievable (through specific actions), Relevant (supports growth), Time-bound (within 6 months).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS3-aims-and-objectives-t3",
+     "type": "short-answer",
+     "question": "Explain why a business's objectives might change as it moves from start-up to an established company.",
+     "correctAnswer": "Start-up: survival is the priority - covering costs, building a customer base, establishing the brand. Established: survival is assured, so objectives shift to profit maximisation, growth, increasing market share. Mature: may focus on ethical objectives or diversification as competition increases. Objectives evolve as circumstances change.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS3-aims-and-objectives-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Aims and Objectives",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS3-aims-and-objectives-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response A social enterprise that sells fair-trade products aims to both make a profit and support developing-world farmers. Evaluate the potential conflict between these two objectives and suggest how the business could balance them. <div class=\"",
+     "correctAnswer": "A grade 9 response will: explain the conflict (fair-trade means higher purchase prices, reducing profit margins; profit focus might push towards cheaper, non-fair-trade suppliers); evaluate solutions (premium pricing for ethically-conscious customers, cost savings elsewhere in operations, marketing the ethical story to justify higher prices); conclude that the objectives can be compatible if the target market values fair-trade enough to pay a premium, but the business must carefully manage costs to remain viable.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

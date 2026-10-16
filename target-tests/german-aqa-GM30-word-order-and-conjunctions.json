@@ -1,0 +1,57 @@
+{
+ "subject": "german",
+ "board": "AQA",
+ "topic": "GM30-word-order-and-conjunctions",
+ "topicName": "Word Order and Conjunctions",
+ "version": 1,
+ "tests": [
+  {
+   "id": "GM30-word-order-and-conjunctions-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Word Order and Conjunctions",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "GM30-word-order-and-conjunctions-t1",
+     "type": "short-answer",
+     "question": "Q: Rewrite with correct word order: Ich denke (dass / Deutsch / wichtig / sein). Ich bleibe zu Hause (weil / ich / krank / sein).",
+     "correctAnswer": "Ich denke, dass Deutsch wichtig ist. Ich bleibe zu Hause, weil ich krank bin. (Verb goes to the END after dass and weil.)",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "GM30-word-order-and-conjunctions-t2",
+     "type": "short-answer",
+     "question": "Q: Rewrite starting with the subordinate clause: Ich gehe nicht aus, weil das Wetter schlecht ist. → Weil...",
+     "correctAnswer": "Weil das Wetter schlecht ist, gehe ich nicht aus. (Subordinate clause first = position 1; main clause verb must be in position 2 = gehe ich, NOT ich gehe.)",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "GM30-word-order-and-conjunctions-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Word Order and Conjunctions",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "GM30-word-order-and-conjunctions-t3",
+     "type": "short-answer",
+     "question": "Full-Mark Response Writing task: Write about main clause word order; subordinate clauses (verb to end); coordinating vs subordinating conjunctions; dass, weil, wenn, obwohl. <div class=\"",
+     "correctAnswer": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, modal verbs, separable verbs); show precise grammar (cases, word order, adjective endings); express and justify opinions; include cultural knowledge about DACH countries; use a wide range of vocabulary; be well-organised with connecting words (außerdem, jedoch, trotzdem, zusammenfassend). Mark scheme: Content (relevance and detail) + Quality of language (accuracy and range) = total marks",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

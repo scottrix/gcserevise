@@ -1,0 +1,67 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT18-finishing-techniques",
+ "topicName": "Finishing Techniques",
+ "version": 1,
+ "tests": [
+  {
+   "id": "DT18-finishing-techniques-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Finishing Techniques",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "DT18-finishing-techniques-t1",
+     "type": "short-answer",
+     "question": "Explain why galvanising is used on steel gate hinges but not on stainless steel hinges.",
+     "correctAnswer": "Steel contains iron which rusts. Galvanising coats with zinc - zinc corrodes sacrificially, protecting exposed iron even if scratched. Stainless steel has 10.5%+ chromium forming a self-healing oxide layer - does not rust, so galvanising is unnecessary.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT18-finishing-techniques-t2",
+     "type": "short-answer",
+     "question": "Compare varnish and oil as finishes for an oak dining table, justifying your recommendation for a family home.",
+     "correctAnswer": "Varnish: hard clear film - excellent waterproof protection, resists scratches and heat, easy to wipe clean. Oil: penetrates wood, warm natural look, easy to repair, water-resistant but not waterproof, needs regular reapplication. For a busy family home: varnish for superior protection against spills and scratches.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT18-finishing-techniques-t3",
+     "type": "short-answer",
+     "question": "A polymer product needs the company logo applied. Compare pad printing and screen printing.",
+     "correctAnswer": "Pad printing: transfers ink via silicone pad - excellent for curved/irregular surfaces, small to medium logos, fine detail. Screen printing: ink through mesh stencil - best for flat surfaces, large areas, bold colours. For curved polymer casing: pad printing. For flat panel: screen printing.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "DT18-finishing-techniques-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Finishing Techniques",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "DT18-finishing-techniques-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response A manufacturer produces aluminium outdoor furniture. Evaluate THREE appropriate finishing techniques and recommend the most suitable for a coastal environment. <div class=\"",
+     "correctAnswer": "A grade 9 response will: identify coastal challenges (salt spray, UV, moisture); evaluate anodising (excellent corrosion resistance, UV stable, oxide layer is integral to aluminium - cannot chip, self-healing); powder coating (good but can chip on edges); painting (least durable - salt penetrates cracks, paint peels). Recommendation: anodising is most suitable for coastal environments.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

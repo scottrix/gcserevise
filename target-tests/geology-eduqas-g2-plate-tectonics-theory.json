@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g2-plate-tectonics-theory",
+ "topicName": "Plate Tectonics Theory",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g2-plate-tectonics-theory-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Plate Tectonics Theory",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g2-plate-tectonics-theory-t1",
+     "type": "short-answer",
+     "question": "Q: What are the three types of plate boundary?",
+     "correctAnswer": "Divergent (constructive, plates move apart), convergent (destructive, plates collide), and transform (conservative, plates slide past each other).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g2-plate-tectonics-theory-t2",
+     "type": "short-answer",
+     "question": "Q: What evidence did Wegener use to support continental drift?",
+     "correctAnswer": "1) Jigsaw fit of continents (e.g. South America and Africa). 2) Matching fossils on separated continents (e.g. Mesosaurus). 3) Matching rock types and mountain chains across oceans. 4) Evidence of past glaciation in now-tropical regions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g2-plate-tectonics-theory-t3",
+     "type": "short-answer",
+     "question": "Q: How does paleomagnetism support seafloor spreading?",
+     "correctAnswer": "As new oceanic crust forms at mid-ocean ridges, iron-rich minerals align with Earth's magnetic field. The field reverses periodically, creating symmetrical magnetic stripes on either side of the ridge, proving new crust forms at ridges and spreads outward.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g2-plate-tectonics-theory-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Plate Tectonics Theory",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g2-plate-tectonics-theory-t4",
+     "type": "short-answer",
+     "question": "Q: What happens at an oceanic-continental convergent boundary?",
+     "correctAnswer": "The denser oceanic plate subducts beneath the lighter continental plate. This produces a deep ocean trench, volcanic arc on the overriding plate, and earthquakes along the Benioff zone.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g2-plate-tectonics-theory-t5",
+     "type": "short-answer",
+     "question": "Q: Why was Wegener's theory initially rejected?",
+     "correctAnswer": "He could not explain the mechanism driving continental drift. The forces he proposed were too weak. The theory was only accepted after seafloor spreading was discovered in the 1960s.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

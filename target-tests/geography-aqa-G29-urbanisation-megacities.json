@@ -1,0 +1,48 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G29-urbanisation-megacities",
+ "topicName": "Urbanisation and Megacities",
+ "version": 1,
+ "tests": [
+  {
+   "id": "G29-urbanisation-megacities-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Urbanisation and Megacities",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "G29-urbanisation-megacities-t1",
+     "type": "short-answer",
+     "question": "Define the term urbanisation. (2 marks)",
+     "correctAnswer": "Urbanisation is the increase in the proportion of a country's population living in urban areas (towns and cities) rather than rural areas (1 mark). It is caused by rural-urban migration (people moving from countryside to city) and natural increase (births exceeding deaths within urban populations) (1 mark).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G29-urbanisation-megacities-t2",
+     "type": "short-answer",
+     "question": "Explain how push and pull factors contribute to rural-urban migration. (4 marks)",
+     "correctAnswer": "Push factors drive people away from rural areas - low agricultural wages, lack of services (healthcare, education, electricity), drought and famine, and lack of employment opportunities (1 mark). For example, in many LICs, rural farmers earn less than $2 per day, pushing them to seek better incomes in cities (1 mark). Pull factors attract people to urban areas - better employment prospects in indu",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G29-urbanisation-megacities-t3",
+     "type": "short-answer",
+     "question": "Why are most megacities now located in LICs and NEEs? (6 marks)",
+     "correctAnswer": "Most megacities are now in LICs and NEEs because these countries are experiencing the most rapid urbanisation (1 mark). HICs are already highly urbanised (over 75%) and their urban growth has slowed, meaning their cities grow slowly if at all (1 mark). LICs and NEEs have high rates of rural-urban migration as people are pushed from the countryside by poverty and pulled to cities by job opportuniti",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

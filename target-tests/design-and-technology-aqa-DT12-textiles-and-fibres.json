@@ -1,0 +1,67 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT12-textiles-and-fibres",
+ "topicName": "Textiles and Fibres",
+ "version": 1,
+ "tests": [
+  {
+   "id": "DT12-textiles-and-fibres-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Textiles and Fibres",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "DT12-textiles-and-fibres-t1",
+     "type": "short-answer",
+     "question": "Explain why polycotton is used for school shirts instead of 100% cotton or 100% polyester.",
+     "correctAnswer": "100% cotton: comfortable but creases badly, shrinks. 100% polyester: durable and wrinkle-free but feels clammy, does not breathe. Polycotton (typically 65/35): retains cotton's breathability, gains polyester's durability and crease resistance, ideal for school uniforms.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT12-textiles-and-fibres-t2",
+     "type": "short-answer",
+     "question": "Compare woven and knitted fabric constructions, explaining why each suits different garments.",
+     "correctAnswer": "Woven: warp + weft at 90 degrees, stable, holds shape - suits structured garments (shirts, trousers). Knitted: interlocking loops, stretchy, comfortable - suits body-hugging garments (t-shirts, socks, sportswear).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT12-textiles-and-fibres-t3",
+     "type": "short-answer",
+     "question": "Discuss the environmental impact of synthetic fibres compared to natural fibres.",
+     "correctAnswer": "Synthetic: petrochemicals (non-renewable), microplastic shedding, non-biodegradable, but durable and recyclable. Natural: renewable, biodegradable, but cotton needs vast water and pesticides. Neither is perfectly sustainable - blended fabrics are hardest to recycle.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "DT12-textiles-and-fibres-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Textiles and Fibres",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "DT12-textiles-and-fibres-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response A sportswear company is designing a running top. Evaluate 100% cotton, 100% polyester, and a cotton-polyester blend, recommending the best choice. <div class=\"",
+     "correctAnswer": "A grade 9 response will: identify requirements (moisture-wicking, lightweight, quick-drying); 100% cotton - absorbs sweat, heavy when wet; 100% polyester - wicks moisture, quick-drying, retains shape; cotton-poly blend - compromise but not enough wicking. Conclude: 100% polyester (or polyester-elastane blend) for performance running wear.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

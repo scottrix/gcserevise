@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS3-development",
+ "topicName": "Cognitive Development",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS3-development-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Cognitive Development",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS3-development-t1",
+     "type": "short-answer",
+     "question": "Describe Piaget's stages of cognitive development and explain the key features of each.",
+     "correctAnswer": "Sensorimotor: object permanence develops, learning through senses and actions. Pre-operational: egocentrism, lack of conservation, symbolic play. Concrete operational: conservation, classification, less egocentrism. Formal operational: abstract reasoning, hypothetical thinking.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS3-development-t2",
+     "type": "short-answer",
+     "question": "Explain the difference between assimilation and accommodation, using examples.",
+     "correctAnswer": "Assimilation: a child who knows 'dog' calls a sheep a 'dog' - fitting new info into an existing schema. Accommodation: the child learns a sheep is different and creates a new schema - modifying understanding. Both processes work together to build knowledge.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS3-development-t3",
+     "type": "short-answer",
+     "question": "Evaluate Piaget's theory of cognitive development, comparing it with Vygotsky's sociocultural theory.",
+     "correctAnswer": "Piaget strengths: highly influential, supported by conservation and egocentrism studies, practical applications in education (discovery learning). Limitations: underestimates children's abilities (Baillargeon showed object permanence earlier), stages are too rigid, ignores social/cultural factors. Vygotsky addresses social learning and the ZPD but is less specific about stages.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS3-development-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Cognitive Development",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS3-development-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether Piaget's theory or Vygotsky's theory provides a better explanation of cognitive development. <div class=\"",
+     "correctAnswer": "A grade 9 response will: outline Piaget's stage theory with evidence (conservation, egocentrism); outline Vygotsky's sociocultural theory (ZPD, scaffolding, language); evaluate Piaget (supported but underestimates children, ignores culture); evaluate Vygotsky (emphasises social learning but lacks clear stages); conclude: both theories contribute - Piaget provides the structural framework, Vygotsky explains how social interaction drives progress through those stages.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "paper-technique-revision",
+ "topicName": "Paper Technique Revision",
+ "version": 1,
+ "tests": [
+  {
+   "id": "paper-technique-revision-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Paper Technique Revision",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "paper-technique-revision-t1",
+     "type": "short-answer",
+     "question": "Q: A paper has 80 marks and lasts 90 minutes. How long should you spend on a 4-mark question?",
+     "correctAnswer": "Time per mark = 90 ÷ 80 ≈ 1.125 minutes. A 4-mark question should take roughly 4.5 minutes. If you spend more than 5 minutes, move on and return later.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "paper-technique-revision-t2",
+     "type": "short-answer",
+     "question": "Q: You calculate the mean of a data set as 2847. The data ranges from 10 to 50. What should you do?",
+     "correctAnswer": "The answer is unreasonable. A mean of 2847 cannot come from data in the range 10–50. Re-check the calculation: likely an error in the formula, using wrong values, or a calculator input mistake.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "paper-technique-revision-t3",
+     "type": "short-answer",
+     "question": "Q: Name two advantages of entering data into a calculator’s statistics mode rather than calculating the mean by hand.",
+     "correctAnswer": "1) Speed: the calculator computes mean, SD and other statistics instantly. 2) Accuracy: no arithmetic errors in summing or dividing, provided data is entered correctly.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "paper-technique-revision-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Paper Technique Revision",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "paper-technique-revision-t4",
+     "type": "short-answer",
+     "question": "Q: A student revises by re-reading their textbook three times. Explain why this is less effective than using past papers.",
+     "correctAnswer": "Re-reading creates an illusion of knowledge (familiarity) without testing actual recall. Past papers require retrieval from memory, apply knowledge in exam format, and reveal gaps in understanding. Active recall is far more effective than passive re-reading.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "paper-technique-revision-t5",
+     "type": "short-answer",
+     "question": "Q: The formula sheet shows SD = √(∑fx²/∑f − x̄²). What does each symbol mean?",
+     "correctAnswer": "∑ = sum of, f = frequency of each class, x = midpoint of each class, x̄ = mean, ∑fx² = sum of (frequency × midpoint²), ∑f = total frequency.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "paper-technique-revision-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Paper Technique Revision",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "paper-technique-revision-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Describe a complete revision and exam strategy for GCSE Statistics that maximises your grade. <div class=\"",
+     "correctAnswer": "Revision strategy: 1) Start revision 6–8 weeks before the exam using spaced practice: revise a topic, then revisit after 1 day, 3 days, and 1 week. 2) Use active methods: complete past papers under timed conditions, use flashcards for key terms, and keep a mistakes log to target weak areas. 3) Build a glossary of all statistical terms with precise definitions — many marks depend on accurate vocabulary. 4) Practise using the formula sheet: know which formulas are provided and how to apply each one. 5) Practise calculator skills: entering data lists, computing mean/SD, using nCr for binomial probabilities. Exam strategy: 1) Allocate roughly 1 minute per mark; leave 5–10 minutes for checking. 2) Read each question carefully, underline the command word, and identify what is being asked. 3) Show all working — method marks can be awarded even if the final answer is wrong. 4) If stuck, move on and return later; attempt every question. 5) Check answers: verify units, apply reasonableness checks, and re-read the question to ensure you answered what was asked. 6) For calculation questions, write the formula first, substitute values, then compute.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

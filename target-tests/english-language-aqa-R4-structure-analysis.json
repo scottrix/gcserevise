@@ -1,0 +1,48 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "R4-structure-analysis",
+ "topicName": "Structure Analysis",
+ "version": 1,
+ "tests": [
+  {
+   "id": "R4-structure-analysis-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Structure Analysis",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "R4-structure-analysis-t1",
+     "type": "short-answer",
+     "question": "What is the difference between language and structure analysis?",
+     "correctAnswer": "Language analysis looks at word choice and literary devices; structure analysis looks at how the text is organised and sequenced.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "R4-structure-analysis-t2",
+     "type": "short-answer",
+     "question": "Why might a writer use a short paragraph?",
+     "correctAnswer": "To create impact, drama, tension, or to draw attention to a key moment or idea.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "R4-structure-analysis-t3",
+     "type": "short-answer",
+     "question": "What does \"in media res\" mean?",
+     "correctAnswer": "Starting in the middle of the action - a narrative technique that creates immediate engagement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "subject": "classical-civilisation",
+ "board": "OCR",
+ "topic": "heracles-heroes",
+ "topicName": "Heracles and Heroes",
+ "version": 1,
+ "tests": [
+  {
+   "id": "heracles-heroes-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Heracles and Heroes",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "heracles-heroes-t1",
+     "type": "short-answer",
+     "question": "Q: Why did Hera hate Heracles?",
+     "correctAnswer": "Heracles was the son of Zeus and the mortal Alcmene, making him living proof of Zeus's infidelity. Hera's hatred was motivated by jealousy and a desire to punish Zeus's illegitimate offspring.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "heracles-heroes-t2",
+     "type": "short-answer",
+     "question": "Q: What was the purpose of the Twelve Labours?",
+     "correctAnswer": "They were Heracles' penance for killing his wife and children in a fit of Hera-induced madness. The oracle at Delphi instructed him to serve King Eurystheus for twelve years.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "heracles-heroes-t3",
+     "type": "short-answer",
+     "question": "Q: How does Heracles fit the pattern of the Greek hero?",
+     "correctAnswer": "He has divine parentage (son of Zeus), shows extraordinary strength from childhood, performs impossible deeds (the Labours), suffers greatly (madness, servitude, death), and achieves immortality.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "heracles-heroes-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Heracles and Heroes",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "heracles-heroes-t4",
+     "type": "short-answer",
+     "question": "Q: What do the Labours symbolise in Greek culture?",
+     "correctAnswer": "They represent civilisation overcoming chaos and barbarism — each Labour involves defeating a monster or taming a force of disorder at the edges of the known world.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "heracles-heroes-t5",
+     "type": "short-answer",
+     "question": "Q: How was Heracles both a god and a hero?",
+     "correctAnswer": "He was worshipped as a hero (a mortal of extraordinary deeds who died) and as a god (after his deification and ascent to Olympus). Some cults emphasised one aspect over the other.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "heracles-heroes-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Heracles and Heroes",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "heracles-heroes-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Explain why Heracles was considered the greatest of the Greek heroes. (12 marks) <div class=\"",
+     "correctAnswer": "Heracles was considered the greatest Greek hero because his deeds, suffering and eventual deification surpassed all other heroes. His Twelve Labours were the most extraordinary feats in Greek mythology: he defeated monsters that no other mortal could overcome, including the Nemean Lion whose skin was impervious to weapons, the many-headed Hydra, and Cerberus the guard-dog of the Underworld itself. These Labours took him to the very edges of the world and beyond, symbolising a reach no other hero achieved. His suffering was also unmatched — Hera's persecution drove him to murder his own family, he was forced into servitude under the inferior Eurystheus, and he ultimately died in agony from the poisoned blood of Nessus. Yet Heracles endured all of this, embodying the Greek concept of arete (excellence) through sheer perseverance. His deification was unique among heroes: he alone was granted full immortality and a place on Olympus, marrying Hebe and becoming the gatekeeper of the gods. Other heroes like Perseus and Theseus achieved great deeds but did not suffer as profoundly or attain godhood. Heracles thus represents the complete hero — one who reaches the absolute limits of human capability, endures the worst possible suffering, and transcends mortality itself.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

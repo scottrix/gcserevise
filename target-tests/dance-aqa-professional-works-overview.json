@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "professional-works-overview",
+ "topicName": "Professional Dance Works Overview",
+ "version": 1,
+ "tests": [
+  {
+   "id": "professional-works-overview-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Professional Dance Works Overview",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "professional-works-overview-t1",
+     "type": "short-answer",
+     "question": "Q: Name the three AQA set professional works and their choreographers.",
+     "correctAnswer": "'Within Her Eyes' by James Cousins, 'Artificial Things' by Lucy Bennett and 'Emancipation of Expressionism' by Kenrick H2O Sandy.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "professional-works-overview-t2",
+     "type": "short-answer",
+     "question": "Q: Which professional work was created for an integrated dance company?",
+     "correctAnswer": "'Artificial Things' by Lucy Bennett, created for Stopgap Dance Company which features both disabled and non-disabled dancers.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "professional-works-overview-t3",
+     "type": "short-answer",
+     "question": "Q: In which section of the written exam are professional works assessed?",
+     "correctAnswer": "Section C of the AQA 8236 written exam, worth 25 marks.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "professional-works-overview-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Professional Dance Works Overview",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "professional-works-overview-t4",
+     "type": "short-answer",
+     "question": "Q: What must you know about each set professional work for the exam?",
+     "correctAnswer": "The choreographer, company, intention, stimulus, movement content, structure and design elements including costume, lighting, set and aural setting.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "professional-works-overview-t5",
+     "type": "short-answer",
+     "question": "Q: Why is it helpful to compare the set professional works?",
+     "correctAnswer": "Comparing works highlights similarities and differences in choreographic approach, intention, style and features, deepening understanding of each.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

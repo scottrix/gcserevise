@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS18-customers-segmentation-and-market-research",
+ "topicName": "Customers, Segmentation and Market Research",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS18-customers-segmentation-and-market-research-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Customers, Segmentation and Market Research",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS18-customers-segmentation-and-market-research-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between primary and secondary market research, giving two advantages of each.",
+     "correctAnswer": "Primary research: collected first-hand for a specific purpose. Advantages: up-to-date, directly relevant, owned by the business (competitors can't access it). Secondary research: uses existing data from other sources. Advantages: cheaper, quicker, wider range available (government stats, trade bodies, internet).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS18-customers-segmentation-and-market-research-t2",
+     "type": "short-answer",
+     "question": "Describe how market segmentation can help a business target its products more effectively.",
+     "correctAnswer": "Segmentation helps by: identifying which customer groups are most profitable, tailoring products to specific needs (e.g. low-calorie meals for health-conscious segment), targeting marketing spend more efficiently (advertising where the target segment will see it), pricing appropriately for each segment's willingness to pay, and finding gaps in the market that competitors have missed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS18-customers-segmentation-and-market-research-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether a business should rely more on primary or secondary research when launching a new product.",
+     "correctAnswer": "Primary research benefits: directly relevant to the new product, current data, can test specific features/pricing, reveals customer preferences. Drawbacks: expensive, time-consuming, small samples may not be representative. Secondary research benefits: cheap, quick, broad context (market size, trends, competitor analysis). Drawbacks: may be outdated, not specific to the product, competitors have s",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS18-customers-segmentation-and-market-research-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Customers, Segmentation and Market Research",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS18-customers-segmentation-and-market-research-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate which types of market research a new vegan restaurant should conduct before opening. <div class=\"",
+     "correctAnswer": "A grade 9 response will: start with secondary research (market size of vegan dining, local demographics, competitor analysis, food trends); then primary research (local surveys on dining preferences, taste testing with target customers, footfall observations at potential locations); consider segmentation (age: younger adults more likely vegan; income: premium pricing for ethical consumers; psychographic: values-driven diners); sampling (stratified by age group locally); conclude: begin with free secondary data (local authority stats, Google Trends, competitor menus), then commission targeted primary research (local taste tests and preference surveys) - this phased approach manages cost while gathering the specific insights needed for menu and location decisions.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

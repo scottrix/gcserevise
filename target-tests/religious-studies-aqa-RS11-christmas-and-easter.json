@@ -1,0 +1,38 @@
+{
+ "subject": "religious-studies",
+ "board": "AQA",
+ "topic": "RS11-christmas-and-easter",
+ "topicName": "Christmas and Easter",
+ "version": 1,
+ "tests": [
+  {
+   "id": "RS11-christmas-and-easter-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Christmas and Easter",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "RS11-christmas-and-easter-t1",
+     "type": "short-answer",
+     "question": "Explain why Easter is the most important Christian festival.",
+     "correctAnswer": "Easter is the most important festival because it celebrates the resurrection — the event on which the entire Christian faith depends. Without the resurrection, Jesus would be just a dead teacher, and there would be no salvation. As Paul wrote: \"If Christ has not been raised, our preaching is useless and so is your faith\" (1 Corinthians 15:14). The resurrection proves Jesus' divinity, demonstrates ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "RS11-christmas-and-easter-t2",
+     "type": "short-answer",
+     "question": "Explain two ways Christians celebrate Christmas.",
+     "correctAnswer": "1) Many Christians attend a Midnight Mass or Christmas Day service, which includes nativity readings from Luke's Gospel, carols, and a celebration of Jesus' birth. 2) Christians set up nativity scenes in churches and homes, depicting the birth of Jesus in a manger with Mary, Joseph and the shepherds, to remind themselves and their families of the true meaning of Christmas amid commercialisation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

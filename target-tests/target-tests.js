@@ -103,6 +103,8 @@ class TargetTestsRenderer {
     if (!this.container) return;
 
     if (this.tests.length === 0) {
+      var sec = this.container.closest('section');
+      if (sec) { sec.hidden = true; return; }
       this.container.innerHTML = '<p class="target-empty">No target tests available for this topic yet.</p>';
       return;
     }
@@ -603,6 +605,8 @@ function initTopicTargetTests() {
     if (tests.length > 0) {
       renderer.render();
     } else {
+      var sec = container.closest('section');
+      if (sec) { sec.hidden = true; return; }
       container.innerHTML = '<p class="target-empty">Target tests coming soon for this topic.</p>';
     }
   });

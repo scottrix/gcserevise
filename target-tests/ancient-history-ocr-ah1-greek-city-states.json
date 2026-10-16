@@ -1,0 +1,77 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "ah1-greek-city-states",
+ "topicName": "Greek City-States (Poleis)",
+ "version": 1,
+ "tests": [
+  {
+   "id": "ah1-greek-city-states-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Greek City-States (Poleis)",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "ah1-greek-city-states-t1",
+     "type": "short-answer",
+     "question": "Q: What was a polis and why was it important in ancient Greece?",
+     "correctAnswer": "A polis was an independent city-state consisting of a city and its surrounding countryside. It was the fundamental political, social and religious unit of Greek life. Each polis had its own government, laws, army and patron deity. The concept of citizenship and civic duty centred on the polis.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah1-greek-city-states-t2",
+     "type": "short-answer",
+     "question": "Q: Who was excluded from citizenship in a Greek polis?",
+     "correctAnswer": "Women, slaves and metics (foreign residents) were excluded. Only free adult male citizens could participate in politics and hold office. Metics paid taxes and served in the military but had no political rights.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah1-greek-city-states-t3",
+     "type": "short-answer",
+     "question": "Q: What were the acropolis and agora, and what were their functions?",
+     "correctAnswer": "The acropolis was the fortified hilltop, serving as a religious sanctuary (temples to patron gods) and defensive refuge. The agora was the central public space used as a marketplace, meeting place for political assemblies, and venue for social interaction.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "ah1-greek-city-states-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Greek City-States (Poleis)",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "ah1-greek-city-states-t4",
+     "type": "short-answer",
+     "question": "Q: Why did the Greeks establish colonies across the Mediterranean?",
+     "correctAnswer": "Overpopulation, land shortage and political conflict at home drove colonisation from the 8th century BC. Colonies provided agricultural land, trade opportunities and resources. Each colony remained culturally Greek but was politically independent from its mother city (metropolis).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah1-greek-city-states-t5",
+     "type": "short-answer",
+     "question": "Q: How did Athens and Sparta differ as poleis?",
+     "correctAnswer": "Athens developed democracy, valued education, arts and naval power, and had a large population including many metics. Sparta was an oligarchy focused on military training, had a small citizen body supported by helot labour, and valued discipline and conformity above individual freedom.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

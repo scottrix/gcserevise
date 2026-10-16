@@ -1,0 +1,67 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "W4-subject-terminology",
+ "topicName": "Subject Terminology",
+ "version": 1,
+ "tests": [
+  {
+   "id": "W4-subject-terminology-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Subject Terminology",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "W4-subject-terminology-t1",
+     "type": "short-answer",
+     "question": "What's the difference between a metaphor and a simile?",
+     "correctAnswer": "Metaphor says something IS something else (\"life's a walking shadow\"). Simile compares using \"like\" or \"as\" (\"solitary as an oyster\"). Metaphors create stronger, more direct connections.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "W4-subject-terminology-t2",
+     "type": "short-answer",
+     "question": "What is a soliloquy and why is it useful for playwrights?",
+     "correctAnswer": "A soliloquy is a speech where a character alone on stage speaks their thoughts aloud. It reveals inner thoughts directly to the audience, creating intimacy and showing psychological state.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "W4-subject-terminology-t3",
+     "type": "short-answer",
+     "question": "What does dramatic irony mean?",
+     "correctAnswer": "Dramatic irony is when the audience knows more than the characters. It creates tension, makes audience complicit, and highlights characters' mistakes or blindness.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "W4-subject-terminology-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Subject Terminology",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "W4-subject-terminology-t5",
+     "type": "short-answer",
+     "question": "Full-Mark Response 30 marks: How does Shakespeare use language, form, and structure to present Macbeth's psychological deterioration? <div class=\"",
+     "correctAnswer": "Shakespeare charts Macbeth's psychological deterioration through an escalating sequence of soliloquies that progressively fragment his rational voice. In the early \"dagger\" soliloquy, the metaphor of a \"dagger of the mind\" suggests a mind still capable of distinguishing illusion from reality — the premodifying noun \"mind\" acknowledges the vision is internal. By Act V, however, the soliloquy \"Tomorrow, and tomorrow, and tomorrow\" abandons metaphor for nihilistic declaration: \"Life's but a walking shadow, a poor player.\" The structural shift from complex figurative language to direct, declarative despair mirrors Macbeth's collapse from tortured conscience to emotional emptiness. The repetition in \"Tomorrow, and tomorrow, and tomorrow\" — an example of epistrophe — creates a relentless, mechanical rhythm that structurally enacts the futility Macbeth now feels: time continues without meaning. Furthermore, the iambic pentameter, which has governed the play's verse, is maintained even as the content becomes hollow — Shakespeare's form insists on order even as Macbeth's mind disintegrates, heightening the tragic irony for an audience who witnesses his public composure masking private ruin. Mark scheme: AO1 (12/12) — confident, sustained argument tracking psychological deterioration; AO2 (12/12) — perceptive analysis of language (metaphor, epistrophe, declarative), form (soliloquy, iambic pentameter) and structure (progressive sequence, rhythmic shift) with precise terminology through",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

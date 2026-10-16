@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS23-sources-of-finance",
+ "topicName": "Sources of Finance",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS23-sources-of-finance-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Sources of Finance",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS23-sources-of-finance-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between internal and external sources of finance, giving two examples of each.",
+     "correctAnswer": "Internal finance comes from within the business: retained profit (keeping profits rather than distributing to owners), sale of unwanted assets (selling equipment, property, or subsidiaries). External finance comes from outside: bank loans (borrowing from a bank with interest), issuing shares (selling ownership to investors). Internal finance has no repayment or interest costs but is limited by the",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS23-sources-of-finance-t2",
+     "type": "short-answer",
+     "question": "Analyse why a small business might choose a bank overdraft rather than a bank loan.",
+     "correctAnswer": "A bank overdraft is flexible: the business borrows only what it needs, when it needs it, and only pays interest on the amount overdrawn. This suits businesses with irregular cash flow (e.g. seasonal businesses). A bank loan provides a fixed lump sum with regular repayments, which is better for specific purchases but less flexible. Overdrafts suit short-term cash flow gaps; loans suit longer-term i",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS23-sources-of-finance-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether a growing business should finance expansion through retained profit or by issuing new shares.",
+     "correctAnswer": "Retained profit: no interest or repayment, no loss of control, shows the business is profitable. But: may not be enough for large expansion, reduces dividends for shareholders (who may object), takes time to accumulate. Issuing shares: can raise large amounts, no repayment obligation, investors may bring expertise. But: dilutes existing owners' control, shareholders expect dividends, share issue c",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS23-sources-of-finance-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Sources of Finance",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS23-sources-of-finance-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate which sources of finance a startup coffee shop should use to fund its first year of trading. <div class=\"",
+     "correctAnswer": "A grade 9 response will: identify needs (premises deposit, equipment, stock, staff wages, marketing before revenue builds); analyse options: bank loan (covers equipment and fit-out, but repayments start immediately before cash flow is stable), personal savings (no interest, full control, but risky for the owner), overdraft facility (covers cash flow gaps in early months), government grant (if available for small business/new high street); recommend a mix: personal savings for the deposit and initial costs (owner commitment), bank loan for equipment (long-term asset financed long-term), and overdraft for working capital gaps. This spreads risk and matches each finance source to its appropriate use.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

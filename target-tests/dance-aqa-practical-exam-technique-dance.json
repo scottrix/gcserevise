@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "practical-exam-technique-dance",
+ "topicName": "Practical Exam Technique",
+ "version": 1,
+ "tests": [
+  {
+   "id": "practical-exam-technique-dance-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Practical Exam Technique",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "practical-exam-technique-dance-t1",
+     "type": "short-answer",
+     "question": "Q: What are the four categories of performance skills assessed in AQA 8236?",
+     "correctAnswer": "Technical accuracy, physical skills (flexibility, strength, stamina), expressive skills (projection, musicality, focus) and mental skills (commitment, concentration, confidence, responsiveness).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "practical-exam-technique-dance-t2",
+     "type": "short-answer",
+     "question": "Q: Why is it important to rehearse under exam conditions?",
+     "correctAnswer": "Rehearsing under exam conditions builds familiarity with the performance environment, reduces anxiety, and ensures you can perform at your best without the support of mirrors or teacher prompts. It develops the confidence and mental preparation needed for the actual exam.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "practical-exam-technique-dance-t3",
+     "type": "short-answer",
+     "question": "Q: What should you include in your programme note?",
+     "correctAnswer": "Your programme note should state your choreographic intention, describe how the stimulus inspired your ideas, explain key choreographic choices such as devices, structure and dynamics, and link these to how you want the audience to respond.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "practical-exam-technique-dance-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Practical Exam Technique",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "practical-exam-technique-dance-t4",
+     "type": "short-answer",
+     "question": "Q: How can videoing rehearsals improve your practical work?",
+     "correctAnswer": "Watching video allows you to see technical inaccuracies, unconvincing performance quality and unclear choreographic ideas that you may not feel from inside the movement. It enables you to set specific improvement targets for subsequent rehearsals.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "practical-exam-technique-dance-t5",
+     "type": "short-answer",
+     "question": "Q: What is the purpose of keeping a choreographic diary?",
+     "correctAnswer": "A choreographic diary documents your creative process — experiments, decisions, refinements and feedback. It provides evidence of your understanding of choreographic principles and supports the programme note by showing intentionality behind your choices.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

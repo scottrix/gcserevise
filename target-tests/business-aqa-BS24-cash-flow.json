@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS24-cash-flow",
+ "topicName": "Cash Flow",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS24-cash-flow-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Cash Flow",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS24-cash-flow-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between cash flow and profit, and why a profitable business might still experience cash flow problems.",
+     "correctAnswer": "Profit is total revenue minus total costs over a period - it's an accounting measure on the income statement. Cash flow is the actual movement of money in and out of the business. A business can be profitable but have poor cash flow if: customers haven't paid yet (credit sales are revenue but not cash), the business has bought lots of stock (cash out but no sale yet), or it has made large capital ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS24-cash-flow-t2",
+     "type": "short-answer",
+     "question": "Describe three causes of cash flow problems for a small business.",
+     "correctAnswer": "Three causes: (1) Seasonal variations - a business with peak sales at Christmas may struggle in summer when inflows are low but outflows (rent, wages) continue. (2) Allowing too much credit - if customers take 60 days to pay, the business pays suppliers and staff before receiving payment, creating a cash gap. (3) Overstocking - buying more stock than needed ties up cash that could be used for dail",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS24-cash-flow-t3",
+     "type": "short-answer",
+     "question": "Evaluate the best solutions for a seasonal business that experiences cash flow problems during its quiet period.",
+     "correctAnswer": "Solutions: overdraft facility (covers the cash gap during quiet months, flexible but expensive interest), negotiating payment terms with suppliers (extend from 30 to 60 days to delay outflows), building cash reserves during peak season (save surplus to cover quiet periods), reducing stock levels during quiet months (JIT ordering), and offering early payment discounts to customers during the quiet ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS24-cash-flow-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Cash Flow",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS24-cash-flow-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the cash flow situation of a business that has the following forecast: January closing balance -£3,000, February -£5,000, March +£2,000. Suggest solutions. <div class=\"",
+     "correctAnswer": "A grade 9 response will: identify the problem (negative cash balance Jan-Feb, meaning the business cannot pay its debts); analyse causes (likely seasonal - low revenue in winter, or large payment due in February such as rent/loan); suggest immediate solutions (arrange overdraft before January, delay non-essential purchases, negotiate payment terms with suppliers); medium-term solutions (build reserves during profitable months, invoice promptly and chase late payers, consider factoring for large invoices); note that March's positive balance means the problem is temporary - short-term finance is appropriate rather than long-term restructuring. The key action is forecasting early and arranging the overdraft facility BEFORE the cash gap hits.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

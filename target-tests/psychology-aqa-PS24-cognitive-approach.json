@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS24-cognitive-approach",
+ "topicName": "The Cognitive Approach",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS24-cognitive-approach-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Cognitive Approach",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS24-cognitive-approach-t1",
+     "type": "short-answer",
+     "question": "Describe the key assumptions of the cognitive approach and explain how schemas influence behaviour.",
+     "correctAnswer": "The cognitive approach assumes behaviour is shaped by internal mental processes (thinking, memory, perception). The mind works like a computer: input -> processing -> output. Schemas organise knowledge and help process information quickly, but can lead to distortion (Bartlett's study showed cultural schemas altered recall). Cognitive biases (confirmation bias, anchoring, hindsight bias) affect dec",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS24-cognitive-approach-t2",
+     "type": "short-answer",
+     "question": "Evaluate the cognitive approach, comparing it with the biological approach.",
+     "correctAnswer": "Cognitive strengths: scientific (uses lab experiments, brain scanning), practical applications (CBT is highly effective), explains internal processes (not just observable behaviour). Limitations: machine reductionism (the mind is more than a computer), ignores biological factors (emotion, hormones), relies on inference (we cannot directly observe mental processes). Compared to biological: cognitiv",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS24-cognitive-approach-t3",
+     "type": "short-answer",
+     "question": "Explain how cognitive biases affect decision-making, giving examples.",
+     "correctAnswer": "Confirmation bias: we notice and remember information that supports our beliefs, ignoring contradictory evidence. Example: if you believe left-handed people are creative, you notice creative left-handers but ignore creative right-handers. Anchoring: first information disproportionately influences judgements. Example: a shop shows a high 'was' price next to a lower price, making the lower price see",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS24-cognitive-approach-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on The Cognitive Approach",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS24-cognitive-approach-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the cognitive approach as an explanation for human behaviour, comparing it with the biological approach. <div class=\"",
+     "correctAnswer": "A grade 9 response will: outline cognitive assumptions (internal mental processes, information processing, schemas); present strengths (scientific methods, effective applications like CBT, explains internal processes); present limitations (machine reductionism, ignores emotion and biology, relies on inference); compare with biological (cognitive explains thinking, biological explains brain, both are needed); conclude: the cognitive approach has transformed psychology by studying internal mental processes and developing effective therapies, but it is incomplete alone. Cognitive neuroscience combines the strengths of both approaches for a more complete understanding.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

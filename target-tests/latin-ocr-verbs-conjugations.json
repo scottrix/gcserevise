@@ -1,0 +1,107 @@
+{
+ "subject": "latin",
+ "board": "OCR",
+ "topic": "verbs-conjugations",
+ "topicName": "Verbs & Conjugations",
+ "version": 1,
+ "tests": [
+  {
+   "id": "verbs-conjugations-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Verbs & Conjugations",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "verbs-conjugations-t1",
+     "type": "short-answer",
+     "question": "Q: What are the four principal parts of a Latin verb?",
+     "correctAnswer": "First person singular present active indicative, present infinitive, first person singular perfect active indicative, and perfect passive participle. Example: laudo, laudare, laudavi, laudatus.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "verbs-conjugations-t2",
+     "type": "short-answer",
+     "question": "Q: How do you identify which conjugation a verb belongs to?",
+     "correctAnswer": "By the characteristic vowel in the present infinitive (second principal part): 1st -are (a), 2nd -ere (e), 3rd -ere (short e/consonant), 4th -ire (i).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "verbs-conjugations-t3",
+     "type": "short-answer",
+     "question": "Q: What are the present tense personal endings?",
+     "correctAnswer": "-o/m (1st singular), -s (2nd singular), -t (3rd singular), -mus (1st plural), -tis (2nd plural), -nt (3rd plural).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "verbs-conjugations-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Verbs & Conjugations",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "verbs-conjugations-t4",
+     "type": "short-answer",
+     "question": "Q: How is the imperfect tense formed?",
+     "correctAnswer": "Add -ba- plus personal endings to the present stem. Example: laudabam (I was praising), laudabas (you were praising).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "verbs-conjugations-t5",
+     "type": "short-answer",
+     "question": "Q: What is the difference between active and passive voice?",
+     "correctAnswer": "Active: the subject performs the action (puella laudat — the girl praises). Passive: the subject receives the action (puella laudatur — the girl is praised).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "verbs-conjugations-t6",
+     "type": "short-answer",
+     "question": "Q: How is the perfect tense formed?",
+     "correctAnswer": "Use the perfect stem (third principal part minus -i) plus perfect endings: -i, -isti, -it, -imus, -istis, -erunt. Example: laudavi (I praised).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "verbs-conjugations-t7",
+     "type": "short-answer",
+     "question": "Q: Name three irregular Latin verbs and their meanings.",
+     "correctAnswer": "Sum (to be), possum (to be able), eo (to go). Also: volo (to want), nolo (not to want), malo (to prefer).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "verbs-conjugations-t8",
+     "type": "short-answer",
+     "question": "Q: What are the present passive personal endings?",
+     "correctAnswer": "-r (I), -ris (you), -tur (he/she/it), -mur (we), -mini (you plural), -ntur (they).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

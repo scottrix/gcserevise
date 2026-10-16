@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g26-geology-exam-technique",
+ "topicName": "Geology Exam Technique",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g26-geology-exam-technique-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Geology Exam Technique",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g26-geology-exam-technique-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between describe and explain?",
+     "correctAnswer": "Describe = state what you observe (facts, features, data). Explain = say why or how it happens (mechanism, cause, process).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g26-geology-exam-technique-t2",
+     "type": "short-answer",
+     "question": "Q: How should you approach a 6-mark extended writing question?",
+     "correctAnswer": "1) Identify the command word and focus. 2) Plan to cover all aspects. 3) Write in structured paragraphs with geological terminology. 4) Include specific examples or case studies. 5) If evaluating, consider both sides and reach a justified conclusion.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g26-geology-exam-technique-t3",
+     "type": "short-answer",
+     "question": "Q: What mathematical skills are required in GCSE Geology?",
+     "correctAnswer": "Calculating gradients, using standard form, calculating ratios and percentages, interpreting data from tables and graphs, and calculating true thickness from apparent thickness and dip angle.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g26-geology-exam-technique-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Geology Exam Technique",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g26-geology-exam-technique-t4",
+     "type": "short-answer",
+     "question": "Q: How do you make a good field sketch?",
+     "correctAnswer": "1) Choose a clear viewpoint. 2) Draw the outline of major features. 3) Add geological details (bedding, folds, faults). 4) Label and annotate key features. 5) Include a scale, direction and title.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g26-geology-exam-technique-t5",
+     "type": "short-answer",
+     "question": "Q: What does evaluate mean in an exam question?",
+     "correctAnswer": "Weigh up strengths and weaknesses, consider both sides of evidence, and reach a supported conclusion.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "subject": "chemistry",
+ "board": "AQA",
+ "topic": "C15-exothermic-and-endothermic-reactions",
+ "topicName": "Exothermic And Endothermic Reactions",
+ "version": 1,
+ "tests": [
+  {
+   "id": "C15-exothermic-and-endothermic-reactions-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Exothermic And Endothermic Reactions",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "C15-exothermic-and-endothermic-reactions-t1",
+     "type": "short-answer",
+     "question": "Foundation Define exothermic and endothermic reactions.",
+     "correctAnswer": "Exothermic: releases energy to surroundings, temperature increases. Endothermic: absorbs energy from surroundings, temperature decreases.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C15-exothermic-and-endothermic-reactions-t2",
+     "type": "short-answer",
+     "question": "Foundation Classify each of the following as exothermic or endothermic: combustion, thermal decomposition, neutralisation, photosynthesis.",
+     "correctAnswer": "Combustion = exothermic. Thermal decomposition = endothermic. Neutralisation = exothermic. Photosynthesis = endothermic.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C15-exothermic-and-endothermic-reactions-t3",
+     "type": "short-answer",
+     "question": "Higher For the reaction N₂ + 3H₂ → 2NH₃, calculate the energy change. Bond energies: N≡N = 945, H−H = 436, N−H = 391 (all kJ/mol).",
+     "correctAnswer": "Energy in (breaking): N≡N + 3(H−H) = 945 + (3 × 436) = 945 + 1308 = 2253 kJ/mol. Energy out (making): 6 × N−H (because 2NH₃ has 6 N−H bonds) = 6 × 391 = 2346 kJ/mol. Energy change = 2253 − 2346 = −93 kJ/mol (exothermic).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "C15-exothermic-and-endothermic-reactions-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Exothermic And Endothermic Reactions",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "C15-exothermic-and-endothermic-reactions-t4",
+     "type": "short-answer",
+     "question": "Foundation Describe how the reaction profile of an exothermic reaction differs from that of an endothermic reaction.",
+     "correctAnswer": "Exothermic: products at lower energy level than reactants, energy change arrow points down. Endothermic: products at higher energy level, energy change arrow points up. Both have activation energy (the hill from reactants to the peak).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "C15-exothermic-and-endothermic-reactions-t5",
+     "type": "short-answer",
+     "question": "Higher Explain, in terms of bond breaking and bond making, why combustion reactions are exothermic.",
+     "correctAnswer": "In combustion, the bonds formed in the products (C=O and O−H) release more energy than was needed to break the bonds in the reactants (C−H and O=O). Since more energy is released making bonds than absorbed breaking bonds, the reaction is exothermic.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "C15-exothermic-and-endothermic-reactions-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Exothermic And Endothermic Reactions",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "C15-exothermic-and-endothermic-reactions-t6",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Explain exothermic and endothermic reactions using bond energies. <div class=\"",
+     "correctAnswer": "In a chemical reaction, bonds in the reactants must first be broken, which requires energy (endothermic). New bonds then form in the products, which releases energy (exothermic). If the energy released when new bonds form is greater than the energy needed to break the original bonds, the reaction is exothermic — more energy is given out than taken in, so the surroundings get warmer and ΔH is negative. If the energy needed to break bonds is greater than the energy released making new bonds, the reaction is endothermic — more energy is taken in than given out, the surroundings get cooler and ΔH is positive. For example, combustion is exothermic because the C=O and O−H bonds formed in CO₂ and H₂O release more energy than was needed to break the C−H and O=O bonds in the reactants. Mark scheme: 1 mark for bond breaking requires energy; 1 mark for bond making releases energy; 1 mark for exothermic = more energy released than absorbed; 1 mark for endothermic = more energy absorbed than released; 1 mark for correct sign of ΔH; 1 mark for combustion example.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

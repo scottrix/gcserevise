@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS8-prosocial-behaviour",
+ "topicName": "Prosocial Behaviour",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS8-prosocial-behaviour-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Prosocial Behaviour",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS8-prosocial-behaviour-t1",
+     "type": "short-answer",
+     "question": "Describe the bystander effect and explain why the presence of others reduces helping behaviour.",
+     "correctAnswer": "The bystander effect: more bystanders = less helping. Reasons: diffusion of responsibility, pluralistic ignorance (nobody else seems concerned), and audience inhibition (fear of looking foolish). Latane & Darley's decision-making model: notice -> interpret -> take responsibility -> decide how to help -> implement help.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS8-prosocial-behaviour-t2",
+     "type": "short-answer",
+     "question": "Evaluate whether true altruism exists, using psychological research.",
+     "correctAnswer": "True altruism debate: Cialdini's negative state relief model argues that helping reduces our own distress - so all helping is selfish. Batson's empathy-altruism hypothesis argues that empathy motivates genuine altruism. Evidence: high-empathy people help even when they can easily escape the situation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS8-prosocial-behaviour-t3",
+     "type": "short-answer",
+     "question": "Explain how the cost-reward model accounts for prosocial behaviour and evaluate its limitations.",
+     "correctAnswer": "The cost-reward model explains helping as rational calculation. Strengths: supported by research. Limitations: ignores emotional responses (people often help instinctively), cannot explain impulsive heroism, assumes people always act rationally in emergencies.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS8-prosocial-behaviour-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Prosocial Behaviour",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS8-prosocial-behaviour-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the validity of the bystander effect as an explanation for failing to help in emergencies. <div class=\"",
+     "correctAnswer": "A grade 9 response will: describe the bystander effect with Latane & Darley's research; explain mechanisms (diffusion of responsibility, pluralistic ignorance, audience inhibition); evaluate using real-world evidence; consider alternative explanations; conclude: the bystander effect is well-established but real emergencies involve more complex processes than lab studies capture.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

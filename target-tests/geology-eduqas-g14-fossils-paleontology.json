@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g14-fossils-paleontology",
+ "topicName": "Fossils & Palaeontology",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g14-fossils-paleontology-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Fossils & Palaeontology",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g14-fossils-paleontology-t1",
+     "type": "short-answer",
+     "question": "Q: Name five modes of fossil preservation.",
+     "correctAnswer": "1) Original material (amber, permafrost). 2) Replacement (original mineral replaced atom by atom). 3) Permineralisation (minerals fill pores). 4) Mould and cast. 5) Compression (carbon film).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g14-fossils-paleontology-t2",
+     "type": "short-answer",
+     "question": "Q: What is the difference between a body fossil and a trace fossil?",
+     "correctAnswer": "A body fossil preserves part of the organism itself (shell, bone, leaf). A trace fossil preserves evidence of the organism's activity (footprint, burrow, coprolite) but not the body.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g14-fossils-paleontology-t3",
+     "type": "short-answer",
+     "question": "Q: How can fossils indicate past environments?",
+     "correctAnswer": "Living organisms have specific environmental requirements. Finding their fossils indicates those conditions existed: coral fossils indicate warm shallow marine conditions; coal-forming plants indicate humid swamps; dropstones indicate glacial conditions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g14-fossils-paleontology-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Fossils & Palaeontology",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g14-fossils-paleontology-t4",
+     "type": "short-answer",
+     "question": "Q: Why is the fossil record incomplete?",
+     "correctAnswer": "Most organisms decompose rapidly after death. Fossilisation requires rapid burial in sediment, which is uncommon. Soft-bodied organisms rarely fossilise. Even fossilised remains can be destroyed by erosion, metamorphism or melting.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g14-fossils-paleontology-t5",
+     "type": "short-answer",
+     "question": "Q: What conditions favour fossil preservation?",
+     "correctAnswer": "Rapid burial in fine sediment (prevents decay and scavenging), anoxic conditions (limits decomposition), hard body parts (shells, bones fossilise more easily than soft tissue), and absence of destructive geological processes.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

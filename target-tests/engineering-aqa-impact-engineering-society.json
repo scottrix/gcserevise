@@ -1,0 +1,96 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "impact-engineering-society",
+ "topicName": "Impact of Engineering on Society",
+ "version": 1,
+ "tests": [
+  {
+   "id": "impact-engineering-society-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Impact of Engineering on Society",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "impact-engineering-society-t1",
+     "type": "short-answer",
+     "question": "Q: Give two positive and two negative social impacts of building a new motorway.",
+     "correctAnswer": "Positive: 1) Improved connectivity reducing journey times. 2) Reduced congestion on local roads. Negative: 1) Noise and air pollution affecting nearby communities. 2) Community displacement and habitat destruction.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "impact-engineering-society-t2",
+     "type": "short-answer",
+     "question": "Q: Explain how engineering can both cause and help solve environmental problems.",
+     "correctAnswer": "Engineering causes problems through resource extraction, manufacturing emissions and waste. However, engineering also provides solutions: renewable energy, efficient processes, electric vehicles and recycling infrastructure.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "impact-engineering-society-t3",
+     "type": "short-answer",
+     "question": "Q: What is CSR and why is it important for engineering companies?",
+     "correctAnswer": "CSR means a company voluntarily considers social and environmental impacts alongside profit. It builds public trust, ensures long-term sustainability and attracts customers who value responsible business.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "impact-engineering-society-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Impact of Engineering on Society",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "impact-engineering-society-t4",
+     "type": "short-answer",
+     "question": "Q: Describe how life cycle assessment helps engineers reduce environmental impact.",
+     "correctAnswer": "LCA quantifies all impacts from material extraction through manufacture, use and disposal. By identifying the stage with greatest impact, engineers target improvements effectively.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "impact-engineering-society-t5",
+     "type": "short-answer",
+     "question": "Q: Explain why engineers have an ethical responsibility to consider safety in their designs.",
+     "correctAnswer": "Engineers create products that can cause harm if they fail. The public trusts that engineered products are safe because they lack expertise to assess risks. Engineers have a moral duty to design with appropriate safety margins and test thoroughly.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "impact-engineering-society-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Impact of Engineering on Society",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "impact-engineering-society-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response A company plans to build a large wind farm on agricultural land. Discuss the social, economic and environmental impacts. [8 marks] <div class=\"",
+     "correctAnswer": "The wind farm has significant positive environmental impacts: clean electricity without CO2 emissions, contributing to carbon reduction targets. Positive economic impacts include job creation during construction, ongoing maintenance roles and rental income for landowners. However, opponents raise valid social concerns: visual impact, noise affecting nearby residents and construction disruption. Ecological concerns include bird and bat mortality. Economic concerns include initial subsidy cost and potential property value reduction near turbines. Overall, the long-term environmental benefits outweigh localised impacts, provided careful site selection minimises effects on residents and wildlife.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

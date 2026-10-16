@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "expressive-skills-dance",
+ "topicName": "Expressive Skills in Dance",
+ "version": 1,
+ "tests": [
+  {
+   "id": "expressive-skills-dance-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Expressive Skills in Dance",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "expressive-skills-dance-t1",
+     "type": "short-answer",
+     "question": "Q: What is projection in dance and why does it matter?",
+     "correctAnswer": "Projection is the ability to extend energy and presence outward to engage the audience. It matters because it makes the performance compelling and ensures the audience connects with the dance.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "expressive-skills-dance-t2",
+     "type": "short-answer",
+     "question": "Q: How can focus be used to show a dancer's relationship with a partner?",
+     "correctAnswer": "A dancer can direct their gaze at a partner to show connection, look away to show distance, or use shared focus to demonstrate unity in the relationship.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "expressive-skills-dance-t3",
+     "type": "short-answer",
+     "question": "Q: Explain the difference between being on the beat and showing musicality.",
+     "correctAnswer": "Being on the beat means timing movements to the pulse; musicality goes further by responding to accents, dynamics, tempo changes and the emotional character of the music.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "expressive-skills-dance-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Expressive Skills in Dance",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "expressive-skills-dance-t4",
+     "type": "short-answer",
+     "question": "Q: What is phrasing and how does it improve a performance?",
+     "correctAnswer": "Phrasing is shaping movement sequences into meaningful units using breath, dynamics and timing. It improves performance by creating contrast, emphasis and clarity, like sentences in speech.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "expressive-skills-dance-t5",
+     "type": "short-answer",
+     "question": "Q: Why must physical and technical skills be secure before expressive skills can be effective?",
+     "correctAnswer": "If a dancer is struggling with technique or physical demands, their attention is on the body rather than communication. Secure technique frees the dancer to focus on expression.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

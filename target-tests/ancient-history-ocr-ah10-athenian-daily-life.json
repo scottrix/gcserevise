@@ -1,0 +1,77 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "ah10-athenian-daily-life",
+ "topicName": "Athenian Daily Life & Society",
+ "version": 1,
+ "tests": [
+  {
+   "id": "ah10-athenian-daily-life-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Athenian Daily Life & Society",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "ah10-athenian-daily-life-t1",
+     "type": "short-answer",
+     "question": "Q: What was the oikos and how was it organised?",
+     "correctAnswer": "The oikos was the household unit controlled by the kyrios (male head). It included his wife, children, slaves and all property. The kyrios had legal authority over all members. Women managed the household interior (weaving, food, slaves) while men handled public affairs. The oikos was the foundation of Athenian social and economic life.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah10-athenian-daily-life-t2",
+     "type": "short-answer",
+     "question": "Q: What restrictions did Athenian women face?",
+     "correctAnswer": "Citizen women could not vote, hold office, or own property. They needed a male kyrios (father, husband or guardian) to represent them legally. They lived largely secluded in the gynaikeion, rarely left the house, and had no formal education. Their primary roles were managing the household and producing legitimate heirs.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah10-athenian-daily-life-t3",
+     "type": "short-answer",
+     "question": "Q: What happened at a symposium?",
+     "correctAnswer": "Elite men reclined on couches in the andron (men's room), drank diluted wine, were entertained by musicians, dancers and hetairai, and engaged in conversation covering politics, philosophy and poetry. Symposia were crucial for social networking, political alliances and intellectual discussion. Slaves and hetairai were present but citizen women were excluded.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "ah10-athenian-daily-life-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Athenian Daily Life & Society",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "ah10-athenian-daily-life-t4",
+     "type": "short-answer",
+     "question": "Q: How did slavery function in Athens?",
+     "correctAnswer": "Slaves were property with no legal rights. They worked in homes (domestic slaves), workshops, the silver mines at Laurium (under brutal conditions) and agriculture. Some skilled slaves could earn money and buy their freedom. The Athenian economy and lifestyle of citizens depended fundamentally on slave labour.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah10-athenian-daily-life-t5",
+     "type": "short-answer",
+     "question": "Q: How did hetairai differ from citizen wives?",
+     "correctAnswer": "Hetairai were educated, cultured women who could attend symposia, engage in intellectual conversation and had financial independence. Citizen wives were secluded at home, had no education and focused on household management. Hetairai had more freedom but lacked the social status and legal protections of citizen marriage.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

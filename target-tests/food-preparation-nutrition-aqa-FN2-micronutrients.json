@@ -1,0 +1,67 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "FN2-micronutrients",
+ "topicName": "Micronutrients: Vitamins & Minerals",
+ "version": 1,
+ "tests": [
+  {
+   "id": "FN2-micronutrients-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Micronutrients: Vitamins & Minerals",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "FN2-micronutrients-t1",
+     "type": "short-answer",
+     "question": "Q: Why are water-soluble vitamins more easily lost during cooking than fat-soluble vitamins?",
+     "correctAnswer": "Water-soluble vitamins (B and C) dissolve in cooking water and are destroyed by heat. Boiling leaches them into the water. Fat-soluble vitamins (A, D, E, K) are more stable to heat and don't dissolve in water — they are retained in the food. To preserve water-soluble vitamins: steam, stir-fry, use minimal water, and cook for the shortest time.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "FN2-micronutrients-t2",
+     "type": "short-answer",
+     "question": "Q: Explain the relationship between vitamin D and calcium.",
+     "correctAnswer": "Vitamin D is essential for calcium absorption in the gut. Without adequate vitamin D, calcium cannot be effectively absorbed, regardless of intake. This is why vitamin D deficiency leads to rickets and osteomalacia — conditions of bone softening — even when calcium intake is sufficient. Sunlight exposure enables the body to synthesise vitamin D.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "FN2-micronutrients-t3",
+     "type": "short-answer",
+     "question": "Q: Evaluate the importance of iron in the diet, considering different sources.",
+     "correctAnswer": "Iron is essential for haemoglobin, which transports oxygen in the blood. Deficiency causes anaemia (fatigue, pallor). Haem iron from meat is well absorbed (15-35%), while non-haem iron from plants is poorly absorbed (2-20%). Vitamin C enhances non-haem iron absorption. Vegetarians must combine iron-rich plant foods with vitamin C sources. Iron deficiency is the most common nutritional deficiency g",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "FN2-micronutrients-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Micronutrients: Vitamins & Minerals",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "FN2-micronutrients-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Explain why micronutrient deficiencies remain a public health concern in the UK. [12 marks] <div class=\"",
+     "correctAnswer": "Despite food abundance, micronutrient deficiencies persist in the UK due to dietary patterns, lifestyle factors, and specific population vulnerabilities. Iron deficiency anaemia is the most common nutritional deficiency in the UK, particularly affecting teenage girls and women of childbearing age due to menstrual losses. Low iron intake is compounded by the poor bioavailability of non-haem iron from plant sources, and many people eating less red meat. Vitamin D deficiency is widespread, especially in winter months and among people with darker skin tones who need more sunlight to synthesise vitamin D. The shift away from oily fish consumption and increased indoor lifestyles have contributed. Rickets, once thought eliminated, has re-emerged. Calcium intake is declining as some people reduce dairy consumption without adequately replacing it with fortified alternatives. This has long-term implications for osteoporosis risk, particularly in post-menopausal women. Iodine deficiency has been identified in UK teenage girls, linked to reduced milk consumption and increased consumption of non-fortified plant milks. The root cause is dietary patterns high in processed foods (which provide calories but few micronutrients) and low in nutrient-dense foods (fruits, vegetables, wholegrains, oily fish, dairy). Public health strategies include fortification (e.g. folic acid in flour, vitamin D in some cereals), dietary guidelines, and targeted supplementation programmes.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

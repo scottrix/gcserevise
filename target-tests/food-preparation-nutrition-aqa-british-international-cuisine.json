@@ -1,0 +1,107 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "british-international-cuisine",
+ "topicName": "British & International Cuisine",
+ "version": 1,
+ "tests": [
+  {
+   "id": "british-international-cuisine-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on British & International Cuisine",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "british-international-cuisine-t1",
+     "type": "short-answer",
+     "question": "Q: Name three traditional British dishes.",
+     "correctAnswer": "Roast beef and Yorkshire pudding, fish and chips, shepherd's pie, full English breakfast, Sunday roast, trifle, Cornish pasty (any three).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "british-international-cuisine-t2",
+     "type": "short-answer",
+     "question": "Q: How has multiculturalism changed the British diet?",
+     "correctAnswer": "Multiculturalism has introduced new ingredients, recipes, and cooking techniques from around the world, expanded supermarket ranges, created diverse restaurant options, and led to fusion cuisine. Chicken tikka masala is a prime example of this fusion.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "british-international-cuisine-t3",
+     "type": "short-answer",
+     "question": "Q: What are the staple foods of Indian cuisine?",
+     "correctAnswer": "Rice, lentils (dahl), spices (cumin, coriander, turmeric), ghee, and flatbreads (naan, chapatti).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "british-international-cuisine-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on British & International Cuisine",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "british-international-cuisine-t4",
+     "type": "short-answer",
+     "question": "Q: Give an example of how historical trade influenced British food.",
+     "correctAnswer": "The Tudor spice trade introduced cinnamon, pepper, and nutmeg to Britain. Sugar from Caribbean plantations became affordable in the 18th century. Tea from China and India became the national drink.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "british-international-cuisine-t5",
+     "type": "short-answer",
+     "question": "Q: What is fusion cuisine? Give an example.",
+     "correctAnswer": "Fusion cuisine combines elements from different culinary traditions. Examples: chicken tikka masala (Indian spices with British cream-based sauce), sushi burrito (Japanese-Mexican), ramen burger (Japanese-American).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "british-international-cuisine-t6",
+     "type": "short-answer",
+     "question": "Q: Name a regional British dish and its region.",
+     "correctAnswer": "Cornish pasty (Cornwall), haggis (Scotland), Welsh rarebit (Wales), Lancashire hotpot (Lancashire), Bakewell tart (Derbyshire) (any one).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "british-international-cuisine-t7",
+     "type": "short-answer",
+     "question": "Q: What cooking technique is associated with Chinese cuisine?",
+     "correctAnswer": "Stir-frying: fast cooking at high heat in a wok, which preserves nutrients, colour, and texture while using little oil.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "british-international-cuisine-t8",
+     "type": "short-answer",
+     "question": "Q: Why is it important to study international cuisine in Food Preparation & Nutrition?",
+     "correctAnswer": "It broadens understanding of ingredients, cooking techniques, and cultural food practices; supports adapting recipes for different dietary needs; and reflects the multicultural reality of modern British food choice.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

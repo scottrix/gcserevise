@@ -1,0 +1,67 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "FN7-functional-properties",
+ "topicName": "Functional Properties of Food",
+ "version": 1,
+ "tests": [
+  {
+   "id": "FN7-functional-properties-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Functional Properties of Food",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "FN7-functional-properties-t1",
+     "type": "short-answer",
+     "question": "Q: Explain the process of gelatinisation and its role in sauce-making.",
+     "correctAnswer": "Gelatinisation occurs when starch granules are heated in liquid above 60°C. The granules absorb water and swell. As temperature increases, the granules burst, releasing amylose and amylopectin which thicken the liquid. On cooling, the starch molecules form a gel network, setting the sauce. This process thickens white sauce, gravy, and custard. The ratio of starch to liquid determines the final con",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "FN7-functional-properties-t2",
+     "type": "short-answer",
+     "question": "Q: What is the difference between the Maillard reaction and caramelisation?",
+     "correctAnswer": "The Maillard reaction involves amino acids and reducing sugars reacting at temperatures above 140°C, producing browning and complex savoury flavours. It requires protein (amino acids). Caramelisation involves only sugars heated above 160°C, producing browning and sweet toffee-like flavours. It doesn't require protein. Both produce browning but have different reactants and flavour profiles.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "FN7-functional-properties-t3",
+     "type": "short-answer",
+     "question": "Q: Explain how emulsification works, using mayonnaise as an example.",
+     "correctAnswer": "Mayonnaise is an oil-in-water emulsion. Oil and water are immiscible, but egg yolk contains lecithin — an emulsifier with a hydrophilic (water-loving) head and hydrophobic (water-hating) tail. The hydrophobic tail embeds in oil droplets while the hydrophilic head faces the water, creating a stable barrier around each oil droplet that prevents them from coalescing. Oil must be added slowly to allow",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "FN7-functional-properties-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Functional Properties of Food",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "FN7-functional-properties-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Explain how the functional properties of protein are used in cooking, using specific examples. [12 marks] <div class=\"",
+     "correctAnswer": "Proteins have several key functional properties that are exploited in cooking: denaturation, coagulation, foaming, emulsification, and gelation. Denaturation is the unfolding of protein molecules due to heat, acid, or mechanical action. This is the first stage before coagulation. Whisking egg whites denatures the proteins, uncoiling them so they can form a network around air bubbles. Coagulation follows denaturation — the unfolded proteins form new bonds, creating a solid network. In scrambled eggs, heating causes egg proteins to denature and then coagulate, transforming liquid egg into solid curds. Over-coagulation (excessive heat or time) makes proteins tough and rubbery — this is why overcooked eggs become rubbery and overcooked meat becomes dry and chewy. Foaming exploits the ability of denatured proteins to trap air. In meringues, egg white proteins denatured by whisking form a stable network around air bubbles. Acid (cream of tartar) stabilises the foam. Sugar strengthens the foam but must be added gradually. Baking sets the foam permanently through coagulation. Emulsification uses proteins as emulsifiers. Egg yolk contains lecithin, which stabilises oil-in-water emulsions like mayonnaise. The lecithin's hydrophilic head and hydrophobic tail sit between oil and water, preventing separation. Gelation occurs when proteins form a three-dimensional network that traps liquid. Gelatine (denatured collagen) forms a gel on cooling — used in jelly, panna cotta, and trifles. Unde",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

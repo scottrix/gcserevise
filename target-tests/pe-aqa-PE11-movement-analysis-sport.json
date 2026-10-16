@@ -1,0 +1,87 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE11-movement-analysis-sport",
+ "topicName": "Movement Analysis in Sport",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PE11-movement-analysis-sport-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Movement Analysis in Sport",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PE11-movement-analysis-sport-t1",
+     "type": "short-answer",
+     "question": "Identify the joint, movement and agonist muscle when a cricketer bowls the ball forward.",
+     "correctAnswer": "Joint: Shoulder (ball-and-socket). Movement: Flexion (the arm swings forwards and upwards). Agonist: Anterior deltoids and pectorals.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE11-movement-analysis-sport-t2",
+     "type": "short-answer",
+     "question": "Describe the movement at the knee during the upward phase of a squat and name the agonist muscle.",
+     "correctAnswer": "Movement: Extension at the knee (the angle increases as the leg straightens). Agonist: Quadriceps contract concentrically.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE11-movement-analysis-sport-t3",
+     "type": "short-answer",
+     "question": "What movement occurs at the shoulder during the arm-raising phase of a star jump? Name the agonist muscle.",
+     "correctAnswer": "Movement: Abduction at the shoulder (the arms move away from the midline of the body). Agonist: Deltoids (middle fibres).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PE11-movement-analysis-sport-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Movement Analysis in Sport",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PE11-movement-analysis-sport-t4",
+     "type": "short-answer",
+     "question": "Explain the difference between plantar flexion and dorsiflexion, giving a sporting example of each.",
+     "correctAnswer": "Plantar flexion is pointing the foot downward (e.g. rising onto toes in a sprint start, using the gastrocnemius). Dorsiflexion is pulling the foot upward towards the shin (e.g. lifting the foot when walking uphill, using the tibialis anterior).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE11-movement-analysis-sport-t5",
+     "type": "short-answer",
+     "question": "Describe the movement at the hip when a footballer kicks a ball and name the agonist and antagonist muscles.",
+     "correctAnswer": "Movement: Flexion at the hip (the leg swings forwards). Agonist: Iliopsoas (hip flexors). Antagonist: Gluteals (relax to allow the hip to flex).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE11-movement-analysis-sport-t6",
+     "type": "short-answer",
+     "question": "During a press-up, describe the movement at the elbow when pushing up and state the agonist muscle.",
+     "correctAnswer": "Movement: Extension at the elbow (the arm straightens). Agonist: Triceps contracts concentrically to push the body upwards.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "subject": "latin",
+ "board": "Edexcel",
+ "topic": "narrative-style-prose",
+ "topicName": "Narrative & Style in Prose",
+ "version": 1,
+ "tests": [
+  {
+   "id": "narrative-style-prose-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Narrative & Style in Prose",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "narrative-style-prose-t1",
+     "type": "short-answer",
+     "question": "Q: Why is word order significant in Latin prose?",
+     "correctAnswer": "Latin word order is flexible, so authors place words in specific positions for emphasis. The first and last positions in a sentence are the most emphatic, and any unexpected positioning draws attention.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "narrative-style-prose-t2",
+     "type": "short-answer",
+     "question": "Q: What is hyperbaton and what effect does it create?",
+     "correctAnswer": "Hyperbaton is the separation of an adjective from its noun (e.g. 'magna cum virtute' instead of 'cum magna virtute'). It draws attention to both words and creates a literary, emphasised effect.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "narrative-style-prose-t3",
+     "type": "short-answer",
+     "question": "Q: Define tricolon and give an example.",
+     "correctAnswer": "A group of three parallel phrases or clauses that build emphasis and climax. The most famous example is Caesar's 'veni, vidi, vici' (I came, I saw, I conquered).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "narrative-style-prose-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Narrative & Style in Prose",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "narrative-style-prose-t4",
+     "type": "short-answer",
+     "question": "Q: What is the difference between anaphora and asyndeton?",
+     "correctAnswer": "Anaphora: repetition of a word at the start of successive clauses for emphasis. Asyndeton: omission of conjunctions in a list for speed and urgency. They can both appear together.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "narrative-style-prose-t5",
+     "type": "short-answer",
+     "question": "Q: How does Cicero's prose style differ from Caesar's?",
+     "correctAnswer": "Cicero uses long, elaborate periodic sentences, rhetorical questions, emotional appeals, and direct address. Caesar uses clear, concise, third-person narrative with short sentences and minimal ornamentation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "narrative-style-prose-t6",
+     "type": "short-answer",
+     "question": "Q: What is oratio obliqua and why do authors use it?",
+     "correctAnswer": "Reported (indirect) speech, using the accusative + infinitive construction. Authors use it to present events through characters' perspectives, create dramatic tension, and include different viewpoints without committing to direct speech.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "narrative-style-prose-t7",
+     "type": "short-answer",
+     "question": "Q: What is chiasmus and give an example of how it works.",
+     "correctAnswer": "An ABBA arrangement of words or ideas that creates balance and emphasis. Example: 'non vivere sed valere vita est' (not to live but to be strong is life) — the ideas mirror each other in reverse order.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "narrative-style-prose-t8",
+     "type": "short-answer",
+     "question": "Q: Describe Tacitus's characteristic prose style.",
+     "correctAnswer": "Tacitus writes in a compressed, epigrammatic style with sharp contrasts, brief sententiae (maxims), and loaded vocabulary. He uses brevity and irony for devastating moral and political critique.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "narrative-style-prose-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Narrative & Style in Prose",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "narrative-style-prose-t9",
+     "type": "short-answer",
+     "question": "Full-Mark Response How does an author's prose style contribute to their narrative? Discuss with reference to at least three stylistic features, using examples from set text authors. (8 marks) <div class=\"",
+     "correctAnswer": "An author's prose style is central to how they tell their story and shape the reader's response. Word order is the most fundamental tool: because Latin allows flexible word order, authors can place key words in emphatic positions. Caesar, for example, often places the enemy tribe name first in a sentence to foreground the threat, or positions a key verb at the end for climactic effect. Tacitus exploits word order more subtly, placing a loaded adjective last in a sentence so it delivers a devastating final judgment, such as his description of Tiberius's reign ending with a damning final word. Rhetorical devices build power and persuasion. Cicero uses anaphora (repetition of words at the start of successive clauses) to create a mounting, overwhelming effect in his orations: 'non ego... non ego... non ego' insists on his point with increasing force. Caesar uses asyndeton (omission of conjunctions) for speed and urgency: his lists of Gallic tribes without 'et' create a sense of overwhelming numbers and rapid action. Tricolon (groups of three) gives prose a satisfying rhythmic climax, famously in 'veni, vidi, vici' but also in Cicero's legal arguments where three reasons build to a convincing conclusion. Reported speech (oratio obliqua) allows the author to present events through others' perspectives without endorsing them, or to create dramatic irony when the reader knows more than the speaker. Each author combines these features in a distinctive way: Caesar for clarity and persu",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

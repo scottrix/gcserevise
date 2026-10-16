@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS4-stakeholders",
+ "topicName": "Stakeholders",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS4-stakeholders-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Stakeholders",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS4-stakeholders-t1",
+     "type": "short-answer",
+     "question": "Identify four stakeholders of a large supermarket and explain what each would want from the business.",
+     "correctAnswer": "Owners: maximum profit and return on investment. Employees: fair wages, job security, safe working conditions. Customers: low prices, wide product range, convenient location. Suppliers: reliable orders, prompt payment, long-term contracts.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS4-stakeholders-t2",
+     "type": "short-answer",
+     "question": "Explain how a conflict might arise between employees and owners of a business, and how it could be resolved.",
+     "correctAnswer": "Employees want higher wages and better conditions (costs increase, profits decrease). Owners want to minimise costs and maximise profits. Resolution: negotiation (unions and management discuss), compromise (modest pay rise tied to productivity improvements), or consultation (explaining financial constraints to employees).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS4-stakeholders-t3",
+     "type": "short-answer",
+     "question": "A factory wants to expand, creating 200 jobs but increasing traffic and noise. Evaluate the competing stakeholder interests.",
+     "correctAnswer": "Employees and local community support expansion (200 new jobs, economic boost). Local residents oppose it (more traffic, noise, pollution). Local council may support (business rates revenue) or oppose (planning concerns). The business must balance these through environmental mitigation (noise barriers, traffic management plans), community investment, and transparent communication.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS4-stakeholders-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Stakeholders",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS4-stakeholders-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response A large retailer is planning to open a new superstore on the edge of a small town. Analyse the impact on four different stakeholder groups and evaluate whether the development should go ahead. <div class=\"",
+     "correctAnswer": "A grade 9 response will: analyse impact on local residents (concern: increased traffic, noise, small shops may close; benefit: convenience, jobs), employees (benefit: new jobs, career progression), local small businesses (concern: competition, possible closure), local council (benefit: business rates, employment; concern: infrastructure costs); evaluate overall: the development brings economic benefits (jobs, investment, consumer choice) but may harm the town centre and community character; conclude with a justified position considering both sides.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

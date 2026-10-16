@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS17-brain-structure-and-function",
+ "topicName": "Brain Structure & Function",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS17-brain-structure-and-function-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Brain Structure & Function",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS17-brain-structure-and-function-t1",
+     "type": "short-answer",
+     "question": "Describe the functions of the four lobes of the cerebral cortex.",
+     "correctAnswer": "Frontal: planning, decisions, personality, motor control, speech production (Broca's area). Parietal: sensory processing (touch, temperature, pain), spatial awareness. Temporal: hearing, language comprehension (Wernicke's area), memory formation. Occipital: visual processing, colour and motion perception.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS17-brain-structure-and-function-t2",
+     "type": "short-answer",
+     "question": "Explain the difference between Broca's aphasia and Wernicke's aphasia, and what this tells us about localisation of function.",
+     "correctAnswer": "Broca's aphasia: damage to Broca's area (frontal lobe). Speech is slow, effortful and non-fluent but comprehension is fine. Patient Tan could only say 'tan' but understood everything. Wernicke's aphasia: damage to Wernicke's area (temporal lobe). Speech is fluent but meaningless (word salad); comprehension is poor. Both support localisation - specific areas have specific language functions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS17-brain-structure-and-function-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether the brain is best understood through localisation or holism.",
+     "correctAnswer": "Localisation evidence: Broca and Wernicke's case studies show specific areas for specific functions; brain scanning shows activity in specific regions during tasks. Holism evidence: Lashley's law of equipotentiality (intact brain areas can take over damaged functions); many functions require multiple brain regions working together; plasticity shows the brain can reorganise. Conclusion: some functi",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS17-brain-structure-and-function-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Brain Structure & Function",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS17-brain-structure-and-function-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the evidence for localisation of function in the brain. <div class=\"",
+     "correctAnswer": "A grade 9 response will: define localisation and describe key evidence (Broca, Wernicke, motor/sensory cortices, brain scanning); present holism evidence (Lashley's equipotentiality, plasticity, distributed processing); evaluate case studies (rich data but unique individuals, cannot infer normal function from damaged brains); evaluate brain scanning (shows activity locations but also widespread networks); conclude: localisation is supported for basic functions (motor control, primary sensory processing, key language areas), but complex cognitive functions (personality, intelligence, creativity) require integration across multiple brain regions. The interactionist position - localised specialisation within an interconnected system - best captures the evidence.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

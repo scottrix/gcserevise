@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as16-galaxies-galaxy-types",
+ "topicName": "Galaxies & Galaxy Types",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as16-galaxies-galaxy-types-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Galaxies & Galaxy Types",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as16-galaxies-galaxy-types-t1",
+     "type": "short-answer",
+     "question": "Q: Name the three main types of galaxies.",
+     "correctAnswer": "Elliptical, spiral (including barred spiral), and irregular.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as16-galaxies-galaxy-types-t2",
+     "type": "short-answer",
+     "question": "Q: What does the Hubble tuning-fork diagram show?",
+     "correctAnswer": "It classifies galaxies by shape — ellipticals on the left (E0–E7), normal spirals on the upper branch (Sa–Sd), barred spirals on the lower branch (SBa–SBd). It is a classification, NOT an evolutionary sequence.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as16-galaxies-galaxy-types-t3",
+     "type": "short-answer",
+     "question": "Q: How do elliptical and spiral galaxies differ in content?",
+     "correctAnswer": "Elliptical galaxies contain mostly old red stars with little gas or dust and minimal star formation. Spiral galaxies contain a mix of old and young stars with gas and dust in the disc, allowing ongoing star formation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as16-galaxies-galaxy-types-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Galaxies & Galaxy Types",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as16-galaxies-galaxy-types-t4",
+     "type": "short-answer",
+     "question": "Q: What is the Local Group?",
+     "correctAnswer": "A gravitationally bound cluster of over 80 galaxies, including the Milky Way, Andromeda (M31) and the Triangulum Galaxy (M33).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as16-galaxies-galaxy-types-t5",
+     "type": "short-answer",
+     "question": "Q: What will happen when the Milky Way and Andromeda collide?",
+     "correctAnswer": "They are approaching each other at ~110 km/s and will merge in about 4.5 billion years, likely forming a large elliptical galaxy. Individual stars are unlikely to collide due to vast separations.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

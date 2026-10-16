@@ -1,0 +1,87 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE3-joints-movement",
+ "topicName": "Joints and Movement",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PE3-joints-movement-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Joints and Movement",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PE3-joints-movement-t1",
+     "type": "short-answer",
+     "question": "Name the six key structures of a synovial joint and state the function of each.",
+     "correctAnswer": "Joint capsule - encloses and protects the joint; Synovial fluid - lubricates the joint; Articular cartilage - reduces friction and absorbs shock; Synovial membrane - produces synovial fluid; Ligaments - connect bone to bone and restrict excessive movement; Tendons - connect muscle to bone and transmit force.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE3-joints-movement-t2",
+     "type": "short-answer",
+     "question": "Compare the range of movement possible at a hinge joint and a ball-and-socket joint.",
+     "correctAnswer": "A hinge joint (e.g. elbow, knee) allows movement in only one plane - flexion and extension. A ball-and-socket joint (e.g. shoulder, hip) allows movement in all three planes including flexion, extension, abduction, adduction, rotation and circumduction.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE3-joints-movement-t3",
+     "type": "short-answer",
+     "question": "What is the difference between a tendon and a ligament?",
+     "correctAnswer": "A tendon connects muscle to bone and transmits the force of muscle contraction to produce movement. A ligament connects bone to bone and stabilises the joint by restricting excessive movement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PE3-joints-movement-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Joints and Movement",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PE3-joints-movement-t4",
+     "type": "short-answer",
+     "question": "Define plantar flexion and dorsiflexion. Give a sporting example of each.",
+     "correctAnswer": "Plantar flexion is pointing the foot downward (e.g. rising onto toes for a sprint start). Dorsiflexion is pulling the foot upward towards the shin (e.g. lifting the foot when walking uphill).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE3-joints-movement-t5",
+     "type": "short-answer",
+     "question": "Explain the difference between abduction and adduction with sporting examples.",
+     "correctAnswer": "Abduction is moving a limb away from the midline (e.g. raising arms sideways in a star jump). Adduction is moving a limb towards the midline (e.g. bringing arms back down in a star jump).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE3-joints-movement-t6",
+     "type": "short-answer",
+     "question": "Which type of joint is the shoulder, and why does it allow a greater range of movement than the knee?",
+     "correctAnswer": "The shoulder is a ball-and-socket joint. It allows a greater range of movement than the knee (a hinge joint) because the rounded head of the humerus fits into the shallow socket of the scapula, enabling movement in all three planes. The knee only allows flexion and extension in one plane.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

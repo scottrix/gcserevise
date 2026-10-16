@@ -1,0 +1,67 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT13-composites-and-smart-materials",
+ "topicName": "Composites and Smart Materials",
+ "version": 1,
+ "tests": [
+  {
+   "id": "DT13-composites-and-smart-materials-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Composites and Smart Materials",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "DT13-composites-and-smart-materials-t1",
+     "type": "short-answer",
+     "question": "Explain how the matrix and reinforcement work together in a composite material, using CFRP as an example.",
+     "correctAnswer": "In CFRP: epoxy resin matrix binds carbon fibres together, transfers loads between fibres, protects them. Carbon fibres carry tensile loads with exceptional strength. Matrix alone would be brittle; fibres alone would be a loose bundle. Together, stronger and lighter than steel.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT13-composites-and-smart-materials-t2",
+     "type": "short-answer",
+     "question": "A designer wants a bath plug that changes colour to indicate water too hot for a child. Justify the choice of smart material.",
+     "correctAnswer": "A thermochromic material is appropriate - changes colour at a specific temperature (e.g. 38 degrees C). No batteries needed, safe for water contact, instant visual indicator, durable when encapsulated in polymer plug body.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT13-composites-and-smart-materials-t3",
+     "type": "short-answer",
+     "question": "Discuss why composites are increasingly replacing metals in aircraft construction.",
+     "correctAnswer": "Weight reduction: CFRP is 70% lighter than aluminium and stronger per unit weight. Fatigue resistance: no fatigue cracks like metals. Corrosion resistance: no rust. Design flexibility: moulded into complex shapes. Trade-offs: higher cost, difficult to repair, limited recyclability.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "DT13-composites-and-smart-materials-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Composites and Smart Materials",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "DT13-composites-and-smart-materials-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response A prosthetic limb manufacturer is choosing between titanium alloy and CFRP for a running blade. Evaluate both and justify your recommendation. <div class=\"",
+     "correctAnswer": "A grade 9 response will: identify requirements (lightweight, energy return, fatigue resistance, impact resistant); titanium - excellent strength, good fatigue life, heavy, limited energy return; CFRP - exceptional strength-to-weight, engineered flex patterns (energy return), excellent fatigue resistance, but brittle off-axis; conclude: CFRP for the blade, titanium at the socket.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

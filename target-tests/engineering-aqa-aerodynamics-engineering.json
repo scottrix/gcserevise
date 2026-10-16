@@ -1,0 +1,77 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "aerodynamics-engineering",
+ "topicName": "Aerodynamics in Engineering",
+ "version": 1,
+ "tests": [
+  {
+   "id": "aerodynamics-engineering-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Aerodynamics in Engineering",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "aerodynamics-engineering-t1",
+     "type": "short-answer",
+     "question": "Q: Explain how an aerofoil generates lift using Bernoulli's principle.",
+     "correctAnswer": "The aerofoil's curved upper surface forces air to travel faster than the flatter lower surface. According to Bernoulli's principle, faster-moving air has lower pressure. The pressure difference (lower above, higher below) creates an upward force — lift — that supports the aircraft.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "aerodynamics-engineering-t2",
+     "type": "short-answer",
+     "question": "Q: Why does drag increase significantly at higher speeds?",
+     "correctAnswer": "Drag force is proportional to the square of velocity: Fd = 0.5 x Cd x A x rho x v2. Doubling speed quadruples drag, meaning much more thrust (and fuel) is needed to overcome air resistance at high speeds.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "aerodynamics-engineering-t3",
+     "type": "short-answer",
+     "question": "Q: Explain two ways a car manufacturer can reduce aerodynamic drag.",
+     "correctAnswer": "1) Streamlining the body shape with a smooth, tapered rear to reduce flow separation and turbulence (lowering form drag). 2) Flattening the underbody and adding a rear diffuser to reduce air turbulence beneath the car, which contributes significantly to overall drag.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "aerodynamics-engineering-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Aerodynamics in Engineering",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "aerodynamics-engineering-t4",
+     "type": "short-answer",
+     "question": "Q: Describe how wind tunnel testing is used in aerodynamic development.",
+     "correctAnswer": "A scale model or full-size vehicle is placed in the wind tunnel where controlled airflow passes over it. Force sensors measure drag and lift; smoke or tuft visualisation shows airflow patterns and separation points. The data is used to refine the design before CFD validation and production.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "aerodynamics-engineering-t5",
+     "type": "short-answer",
+     "question": "Q: Explain the difference between form drag and skin friction drag.",
+     "correctAnswer": "Form drag results from the shape of the object and the pressure difference between front and rear surfaces; it is reduced by streamlining. Skin friction drag results from air viscosity rubbing against the surface; it is reduced by making the surface smoother.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

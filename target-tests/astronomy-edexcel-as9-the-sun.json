@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as9-the-sun",
+ "topicName": "The Sun",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as9-the-sun-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Sun",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as9-the-sun-t1",
+     "type": "short-answer",
+     "question": "Q: What nuclear process powers the Sun?",
+     "correctAnswer": "Nuclear fusion — hydrogen nuclei (protons) fuse to form helium nuclei via the proton-proton chain, releasing energy.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as9-the-sun-t2",
+     "type": "short-answer",
+     "question": "Q: Why is the corona hotter than the photosphere?",
+     "correctAnswer": "The corona reaches 1–3 million°C compared to ~5,500°C at the photosphere. The exact heating mechanism is still debated but likely involves magnetic energy dissipation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as9-the-sun-t3",
+     "type": "short-answer",
+     "question": "Q: What are sunspots and how do they relate to the solar cycle?",
+     "correctAnswer": "Sunspots are cooler, darker areas on the photosphere with strong magnetic fields. Their number varies over an approximately 11-year cycle (solar cycle), peaking at solar maximum.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as9-the-sun-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on The Sun",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as9-the-sun-t4",
+     "type": "short-answer",
+     "question": "Q: What is the solar wind and what effects does it have?",
+     "correctAnswer": "The solar wind is a stream of charged particles from the Sun. It causes aurorae when interacting with Earth's magnetosphere and can affect satellites and communications.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as9-the-sun-t5",
+     "type": "short-answer",
+     "question": "Q: Describe the energy transport in the Sun's radiative and convective zones.",
+     "correctAnswer": "In the radiative zone, energy travels outward by radiation (photon absorption and re-emission). In the convective zone, energy is transported by convection — hot plasma rises, cools and sinks.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

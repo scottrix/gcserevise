@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g6-minerals-their-properties",
+ "topicName": "Minerals & Their Properties",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g6-minerals-their-properties-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Minerals & Their Properties",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g6-minerals-their-properties-t1",
+     "type": "short-answer",
+     "question": "Q: Define the term 'mineral'.",
+     "correctAnswer": "A naturally occurring, inorganic solid with a definite chemical composition and a regular crystalline structure.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g6-minerals-their-properties-t2",
+     "type": "short-answer",
+     "question": "Q: How does the Mohs hardness scale work?",
+     "correctAnswer": "Minerals are ranked 1 (talc, softest) to 10 (diamond, hardest). A mineral can scratch any mineral with a lower hardness number. For example, quartz (7) scratches feldspar (6) but not topaz (8).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g6-minerals-their-properties-t3",
+     "type": "short-answer",
+     "question": "Q: What is the difference between cleavage and fracture?",
+     "correctAnswer": "Cleavage is a clean break along flat planes of weakness in the crystal structure (e.g. mica splitting into thin sheets). Fracture is an irregular break not along a plane of weakness (e.g. quartz showing conchoidal fracture).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g6-minerals-their-properties-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Minerals & Their Properties",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g6-minerals-their-properties-t4",
+     "type": "short-answer",
+     "question": "Q: Name the five most common rock-forming minerals in Earth's crust.",
+     "correctAnswer": "Feldspar (most abundant), quartz, mica, amphibole and pyroxene, all are silicates.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g6-minerals-their-properties-t5",
+     "type": "short-answer",
+     "question": "Q: Why is streak more reliable than colour for mineral identification?",
+     "correctAnswer": "Colour can vary due to impurities (e.g. quartz can be clear, pink, purple, black). Streak (the powder colour) is more consistent and diagnostic, for example, haematite is always red-brown in streak regardless of its surface colour.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

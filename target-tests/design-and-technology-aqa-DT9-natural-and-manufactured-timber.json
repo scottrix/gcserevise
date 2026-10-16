@@ -1,0 +1,67 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT9-natural-and-manufactured-timber",
+ "topicName": "Natural and Manufactured Timber",
+ "version": 1,
+ "tests": [
+  {
+   "id": "DT9-natural-and-manufactured-timber-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Natural and Manufactured Timber",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "DT9-natural-and-manufactured-timber-t1",
+     "type": "short-answer",
+     "question": "Explain why plywood is less likely to warp than solid timber of the same thickness.",
+     "correctAnswer": "Solid timber has grain in one direction - it warps along the grain as moisture changes. Plywood's alternating veneer layers create opposing grain directions that cancel out warping forces.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT9-natural-and-manufactured-timber-t2",
+     "type": "short-answer",
+     "question": "A designer is making a kitchen worktop. Compare solid oak and MDF, justifying your recommendation.",
+     "correctAnswer": "Solid oak: beautiful grain, very durable, water-resistant with treatment - but expensive, can warp, heavy. MDF: smooth, uniform, does not warp, affordable - but swells if water penetrates, cannot be refinished.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT9-natural-and-manufactured-timber-t3",
+     "type": "short-answer",
+     "question": "Discuss the environmental advantages and disadvantages of using hardwoods in product design.",
+     "correctAnswer": "Advantages: durable (products last decades), repairable, biodegradable, carbon-neutral if sustainably sourced. Disadvantages: slow growth, deforestation risk, high transport miles, illegal logging concerns. FSC certification helps.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "DT9-natural-and-manufactured-timber-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Natural and Manufactured Timber",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "DT9-natural-and-manufactured-timber-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response A furniture designer must choose between solid ash and plywood for a curved dining chair seat. Evaluate both materials and justify your selection. <div class=\"",
+     "correctAnswer": "A grade 9 response will: identify ash properties (excellent steam-bending, attractive grain, strong and flexible); identify plywood properties (can be laminated into curves, dimensionally stable); conclude: ash for premium one-off chairs, plywood for mass production.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

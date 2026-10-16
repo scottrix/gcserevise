@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g16-erosion-transport-deposition",
+ "topicName": "Erosion, Transport & Deposition",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g16-erosion-transport-deposition-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Erosion, Transport & Deposition",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g16-erosion-transport-deposition-t1",
+     "type": "short-answer",
+     "question": "Q: Name the four processes of river erosion.",
+     "correctAnswer": "Hydraulic action (water force), abrasion (sediment scraping bedrock), attrition (particles colliding and rounding), solution (dissolving soluble rocks).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g16-erosion-transport-deposition-t2",
+     "type": "short-answer",
+     "question": "Q: Describe the four methods of sediment transport by rivers.",
+     "correctAnswer": "Traction: large particles roll along the bed. Saltation: medium particles bounce along the bed. Suspension: fine particles carried within the water flow. Solution: dissolved minerals carried invisibly in the water.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g16-erosion-transport-deposition-t3",
+     "type": "short-answer",
+     "question": "Q: What causes deposition to occur?",
+     "correctAnswer": "Deposition occurs when the transporting agent (river, wind, ice) loses energy and can no longer carry its sediment load. This happens when velocity decreases, gradient flattens, the flow meets an obstacle, or the glacier melts.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g16-erosion-transport-deposition-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Erosion, Transport & Deposition",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g16-erosion-transport-deposition-t4",
+     "type": "short-answer",
+     "question": "Q: How does glacial erosion differ from river erosion?",
+     "correctAnswer": "Glaciers erode by plucking (freezing onto rock and pulling it away) and abrasion (rock-laden ice grinding bedrock, producing striations and roches moutonnees). Rivers erode by hydraulic action and abrasion with water-borne sediment. Glaciers are much more powerful at eroding solid bedrock and carving U-shaped valleys.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g16-erosion-transport-deposition-t5",
+     "type": "short-answer",
+     "question": "Q: What are striations and what do they indicate?",
+     "correctAnswer": "Scratches and grooves on bedrock surfaces caused by rock fragments frozen into the base of a glacier scraping across the rock. They indicate the direction of ice movement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

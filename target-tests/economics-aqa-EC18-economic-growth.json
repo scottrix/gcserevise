@@ -1,0 +1,67 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC18-economic-growth",
+ "topicName": "Economic Growth",
+ "version": 1,
+ "tests": [
+  {
+   "id": "EC18-economic-growth-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Economic Growth",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "EC18-economic-growth-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between GDP, real GDP, and GDP per capita.",
+     "correctAnswer": "GDP = total value of all goods and services produced in a country in a year. Real GDP = GDP adjusted for inflation (using constant prices so we can compare across years). GDP per capita = GDP divided by population, giving average output per person — a better indicator of average living standards than total GDP.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC18-economic-growth-t2",
+     "type": "short-answer",
+     "question": "Describe three benefits and two costs of economic growth.",
+     "correctAnswer": "Benefits: (1) Higher incomes and consumption. (2) Lower unemployment as firms hire more workers. (3) More tax revenue for government to spend on public services. Costs: (1) Environmental damage (pollution, resource depletion). (2) Inequality — growth may benefit higher earners disproportionately.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC18-economic-growth-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether economic growth always improves living standards.",
+     "correctAnswer": "Growth improves average living standards (higher GDP per capita), but averages can hide inequality — the richest may capture most gains while the poorest see little improvement. Also, growth can cause: environmental damage (reducing quality of life), longer working hours (less leisure), and congestion in cities. Living standards depend on distribution, environment, and work-life balance, not just ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "EC18-economic-growth-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Economic Growth",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "EC18-economic-growth-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether the UK government should pursue economic growth as its primary objective. <div class=\"",
+     "correctAnswer": "A grade 9 response will: argue for growth (higher incomes, lower unemployment, more tax revenue for public services, global competitiveness); argue against as sole objective (environmental damage, inequality, growth can coexist with poverty, well-being depends on more than income); consider conflicts (growth vs sustainability, growth vs low inflation, growth vs equality); conclude: growth is important but should not be pursued at any cost — sustainable and inclusive growth that benefits all and respects environmental limits is preferable to growth at any cost.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

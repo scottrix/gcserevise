@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as23-practical-observing-skills",
+ "topicName": "Practical Observing Skills",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as23-practical-observing-skills-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Practical Observing Skills",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as23-practical-observing-skills-t1",
+     "type": "short-answer",
+     "question": "Q: Why should astronomers use red light at night?",
+     "correctAnswer": "Red light affects rod cells (responsible for night vision) less than white light, preserving dark adaptation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as23-practical-observing-skills-t2",
+     "type": "short-answer",
+     "question": "Q: What is averted vision and why is it useful?",
+     "correctAnswer": "Looking slightly to the side of a faint object uses the rod cells at the edge of the retina, which are more sensitive to dim light than the cone cells at the centre.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as23-practical-observing-skills-t3",
+     "type": "short-answer",
+     "question": "Q: What does 10×50 mean for binoculars?",
+     "correctAnswer": "10× magnification and 50mm objective lens diameter. The 50mm aperture determines light-gathering power.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as23-practical-observing-skills-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Practical Observing Skills",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as23-practical-observing-skills-t4",
+     "type": "short-answer",
+     "question": "Q: Describe safe methods for observing the Sun.",
+     "correctAnswer": "Use a certified solar filter (e.g. Baader film) over the FRONT of the telescope, or the projection method (project the image onto a card). NEVER use eyepiece solar filters or look directly at the Sun.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as23-practical-observing-skills-t5",
+     "type": "short-answer",
+     "question": "Q: What should be recorded in an observation log?",
+     "correctAnswer": "Date, time (UT), location, weather/seeing conditions, equipment used, object observed, description and a sketch.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT7-environmental-ecological-and-social-issues",
+ "topicName": "Environmental, Ecological and Social Issues",
+ "version": 1,
+ "tests": [
+  {
+   "id": "DT7-environmental-ecological-and-social-issues-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Environmental, Ecological and Social Issues",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "DT7-environmental-ecological-and-social-issues-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between a linear economy and a circular economy, using a smartphone as an example.",
+     "correctAnswer": "Linear: extract raw materials, manufacture phone, use for 2-3 years, dispose in landfill — resources flow one way. Circular: design phone for modular repair (Fairphone), use recycled aluminium and rare earths, offer trade-in for refurbishment, design for disassembly so components can be recovered — resources cycle continuously.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT7-environmental-ecological-and-social-issues-t2",
+     "type": "short-answer",
+     "question": "Describe how a designer could apply the 6 Rs to the development of a new office chair.",
+     "correctAnswer": "Rethink: does the chair need to be new or can existing chairs be refurbished? Refuse: avoid unnecessary packaging and toxic finishes. Reduce: minimise material use through FEA-optimised structure. Reuse: design modular components that can be replaced individually. Recycle: use mono-materials (single polymer type) for easy recycling. Repair: standard fasteners not adhesives, so parts can be swapped",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT7-environmental-ecological-and-social-issues-t3",
+     "type": "short-answer",
+     "question": "Discuss the ethical issues surrounding planned obsolescence in consumer electronics.",
+     "correctAnswer": "Arguments for: technological progress, affordability (cheaper to replace than repair), consumer demand for new features. Arguments against: environmental damage (e-waste, rare earth mining), consumer exploitation, loss of right to repair, resource depletion. A balanced answer considers both perspectives and reaches a justified conclusion about responsible design.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "DT7-environmental-ecological-and-social-issues-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Environmental, Ecological and Social Issues",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "DT7-environmental-ecological-and-social-issues-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the environmental impact of disposable coffee cups and propose a sustainable alternative using the circular economy model. <div class=\"",
+     "correctAnswer": "A grade 9 response will: analyse the current cup (paper lined with polyethylene — cannot be recycled easily, 2.5 billion used annually in UK); calculate the LCA impact (tree harvesting, waterproof lining manufacture, transport, landfill); apply circular economy principles — design a reusable cup system (e.g. deposit-return scheme with durable recycled polypropylene cups, collected, washed and redistributed); discuss the 6 Rs applied; consider social barriers (convenience culture) and economic factors (initial cost vs long-term savings); reference real examples (Frugalpac, KeepCup, deposit schemes); conclude with a justified proposal that balances environmental benefit with practical adoption.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

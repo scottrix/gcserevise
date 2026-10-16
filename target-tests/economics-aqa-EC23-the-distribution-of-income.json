@@ -1,0 +1,67 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC23-the-distribution-of-income",
+ "topicName": "The Distribution of Income",
+ "version": 1,
+ "tests": [
+  {
+   "id": "EC23-the-distribution-of-income-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Distribution of Income",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "EC23-the-distribution-of-income-t1",
+     "type": "short-answer",
+     "question": "Explain two causes of income inequality in the UK.",
+     "correctAnswer": "Two causes: (1) Education and skills gaps — workers with higher qualifications earn significantly more. (2) Wage differentials — globalisation and technology have increased demand for high-skilled workers while reducing demand for low-skilled workers.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC23-the-distribution-of-income-t2",
+     "type": "short-answer",
+     "question": "Describe how government can redistribute income through taxation and spending.",
+     "correctAnswer": "Progressive income tax (higher earners pay 40% or 45% vs 20% basic rate) redistributes from rich to poor. Welfare benefits (Universal Credit, child benefit, state pension) provide income to those on low incomes. Free public services benefit the poor most.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC23-the-distribution-of-income-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether reducing income inequality should be a government priority.",
+     "correctAnswer": "Argue for: inequality reduces social mobility, harms health and education, creates social tension. Argue against: some inequality provides incentives (to work harder, gain skills). Conclusion: reducing extreme inequality should be a priority, but some inequality is acceptable as an incentive — the key is ensuring opportunity and a minimum standard of living.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "EC23-the-distribution-of-income-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on The Distribution of Income",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "EC23-the-distribution-of-income-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether the UK's balance of payments deficit is a serious economic problem. <div class=\"",
+     "correctAnswer": "A grade 9 response will: explain the deficit (UK imports more goods than it exports); analyse causes (deindustrialisation, strong pound, low productivity); evaluate seriousness (deficit means living beyond means, financed by borrowing; but UK has services surplus and attracts investment); conclude: persistent deficit is concerning long-term but manageable short-term if the UK can continue attracting investment.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

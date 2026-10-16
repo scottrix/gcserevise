@@ -1,0 +1,87 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE38-diet-nutrition",
+ "topicName": "Diet and Nutrition",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PE38-diet-nutrition-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Diet and Nutrition",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PE38-diet-nutrition-t1",
+     "type": "short-answer",
+     "question": "Explain what is meant by energy balance and how it affects body weight.",
+     "correctAnswer": "Energy balance is the relationship between calories consumed (energy in from food and drink) and calories expended (energy out from BMR, physical activity and digestion). When energy in equals energy out, body weight is maintained. When energy in exceeds energy out, the excess is stored as fat and weight is gained. When energy out exceeds energy in, the body uses stored fat for energy and weight i",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE38-diet-nutrition-t2",
+     "type": "short-answer",
+     "question": "Describe the role of carbohydrates in sport. Why are complex carbohydrates preferred over simple carbohydrates in pre-event meals?",
+     "correctAnswer": "Carbohydrates are the body's primary and most efficient energy source, particularly for high-intensity exercise. They are broken down into glucose and stored as glycogen in muscles and the liver. During exercise, glycogen is converted back to glucose and used for energy through glycolysis. Complex carbohydrates are preferred in pre-event meals because they provide slow, sustained energy release ov",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE38-diet-nutrition-t3",
+     "type": "short-answer",
+     "question": "Explain why iron and calcium are particularly important minerals for athletes.",
+     "correctAnswer": "Iron is essential for athletes because it is the core component of haemoglobin, the protein in red blood cells that transports oxygen from the lungs to working muscles. Without sufficient iron, oxygen transport is impaired, reducing aerobic capacity and causing fatigue (anaemia). This is especially important for endurance athletes and female athletes who lose iron through menstruation. Calcium is ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PE38-diet-nutrition-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Diet and Nutrition",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PE38-diet-nutrition-t4",
+     "type": "short-answer",
+     "question": "Describe what an endurance athlete should eat before, during and after a marathon. Justify your recommendations.",
+     "correctAnswer": "Pre-event (2-4 hours before): A meal high in complex carbohydrates (e.g. pasta with tomato sauce) for sustained energy, with moderate protein and low fat/fibre for easy digestion. Pre-event (30 min before): Simple carbohydrate snack (e.g. banana) for quick energy. During the marathon: Sports drinks containing carbohydrates and electrolytes to maintain blood glucose and hydration; energy gels for a",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE38-diet-nutrition-t5",
+     "type": "short-answer",
+     "question": "Why should athletes avoid high-fibre foods in the 24 hours before competition?",
+     "correctAnswer": "Athletes should avoid high-fibre foods before competition because fibre is indigestible and can cause bloating, gas, stomach cramps and diarrhoea during exercise. These gastrointestinal issues are uncomfortable and distracting, and can significantly impair performance. Fibre also slows gastric emptying, meaning food stays in the stomach longer rather than being absorbed for energy. In the 24-48 ho",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE38-diet-nutrition-t6",
+     "type": "short-answer",
+     "question": "Explain the role of protein in post-exercise recovery and suggest an appropriate post-event meal for a strength athlete.",
+     "correctAnswer": "Protein is essential for post-exercise recovery because intense training causes micro-tears in muscle fibres, and protein provides the amino acids needed to repair this damage and rebuild stronger muscle tissue (hypertrophy). The 30-60 minute window after exercise is when muscles are most receptive to protein uptake, making it the optimal time for protein consumption. For a strength athlete, an ap",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

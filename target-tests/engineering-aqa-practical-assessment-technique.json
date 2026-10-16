@@ -1,0 +1,77 @@
+{
+ "subject": "engineering",
+ "board": "AQA",
+ "topic": "practical-assessment-technique",
+ "topicName": "Practical Assessment Technique",
+ "version": 1,
+ "tests": [
+  {
+   "id": "practical-assessment-technique-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Practical Assessment Technique",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "practical-assessment-technique-t1",
+     "type": "short-answer",
+     "question": "Q: Describe the structure of a strong NEA portfolio.",
+     "correctAnswer": "1) Context and brief. 2) Research: existing products, materials, processes. 3) Specification: measurable criteria. 4) Design development: initial ideas to final design. 5) Manufacturing plan: operations, tools, materials, safety. 6) Manufacture: photographic evidence. 7) Testing and evaluation: compare against specification.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "practical-assessment-technique-t2",
+     "type": "short-answer",
+     "question": "Q: Why is annotation important in the NEA portfolio?",
+     "correctAnswer": "Annotation explains the reasoning behind design decisions. Without annotation, the examiner cannot understand why decisions were made. Good annotation links each decision to a specification requirement or engineering principle.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "practical-assessment-technique-t3",
+     "type": "short-answer",
+     "question": "Q: Explain how to evaluate the finished NEA product against the specification.",
+     "correctAnswer": "Take each specification criterion in turn and test whether the product meets it. Record results with photographic evidence. If any criterion is not met, explain why and suggest improvements.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "practical-assessment-technique-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Practical Assessment Technique",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "practical-assessment-technique-t4",
+     "type": "short-answer",
+     "question": "Q: What are the most common mistakes in NEA portfolios?",
+     "correctAnswer": "1) Too much irrelevant research. 2) Jumping from brief to final design without showing development. 3) Missing manufacturing plan. 4) Poor annotation. 5) Superficial evaluation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "practical-assessment-technique-t5",
+     "type": "short-answer",
+     "question": "Q: How should you manage your time across the NEA project?",
+     "correctAnswer": "Allocate roughly: 20% to research and specification, 25% to design development, 15% to planning, 30% to manufacture and 10% to evaluation. Set internal deadlines for each stage.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

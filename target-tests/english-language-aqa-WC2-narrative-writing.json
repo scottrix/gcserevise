@@ -1,0 +1,77 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "WC2-narrative-writing",
+ "topicName": "Narrative Writing",
+ "version": 1,
+ "tests": [
+  {
+   "id": "WC2-narrative-writing-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Narrative Writing",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "WC2-narrative-writing-t1",
+     "type": "short-answer",
+     "question": "What are the five parts of a classic story arc?",
+     "correctAnswer": "Exposition (introduction), Rising Action (complications), Climax (turning point), Falling Action (consequences), Resolution (conclusion).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC2-narrative-writing-t2",
+     "type": "short-answer",
+     "question": "What does \"in medias res\" mean and why is it effective?",
+     "correctAnswer": "\"In medias res\" means starting in the middle of the action. It's effective because it immediately grabs the reader's attention and creates intrigue from the first line.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC2-narrative-writing-t3",
+     "type": "short-answer",
+     "question": "Name two ways to reveal character without directly stating traits.",
+     "correctAnswer": "Through dialogue (how they speak), through actions (what they do), through reactions (how they respond to events), through interactions with others, through telling details of appearance or behaviour.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "WC2-narrative-writing-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Narrative Writing",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "WC2-narrative-writing-t4",
+     "type": "short-answer",
+     "question": "What is the difference between first person and third person narrative voice?",
+     "correctAnswer": "First person uses \"I\" and is limited to the narrator's perspective, creating intimacy. Third person uses \"he/she/they\" and can be more flexible, showing multiple perspectives or maintaining distance.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC2-narrative-writing-t5",
+     "type": "short-answer",
+     "question": "Rewrite this weak opening to be more engaging: \"One day I went to the shops and something happened.\"",
+     "correctAnswer": "Example: \"The shops were the last place I wanted to be on a Tuesday. But that was before I saw the man in the grey coat watching me from across the street.\"",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

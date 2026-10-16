@@ -1,0 +1,48 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G26-flood-risk-management",
+ "topicName": "Flood Risk and Management",
+ "version": 1,
+ "tests": [
+  {
+   "id": "G26-flood-risk-management-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Flood Risk and Management",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "G26-flood-risk-management-t1",
+     "type": "short-answer",
+     "question": "Explain how urbanisation increases flood risk. (4 marks)",
+     "correctAnswer": "Urbanisation increases flood risk because impermeable surfaces like tarmac and concrete prevent rainwater from infiltrating into the soil (1 mark), causing up to 95% of rainfall to become surface runoff compared to 10% in natural areas (1 mark). Storm drains and culverts carry this runoff rapidly into rivers, shortening lag time (1 mark). This creates a flashy hydrograph with rapid rise and high p",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G26-flood-risk-management-t2",
+     "type": "short-answer",
+     "question": "Describe the features of a flashy storm hydrograph. (4 marks)",
+     "correctAnswer": "A flashy hydrograph has a steep rising limb showing that discharge increases rapidly after rainfall begins (1 mark). The peak discharge is high, meaning the river reaches a large volume of flow (1 mark). The lag time between peak rainfall and peak discharge is short, typically just a few hours (1 mark). The falling limb is also steep, showing that discharge decreases quickly once rainfall stops (1",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G26-flood-risk-management-t3",
+     "type": "short-answer",
+     "question": "Compare hard and soft engineering strategies for managing flood risk. (6 marks)",
+     "correctAnswer": "Hard engineering uses artificial structures like dams and flood walls to control water and protect property (1 mark). Dams are very effective at regulating flow but are expensive (£20M+) and flood valleys upstream (1 mark). Soft engineering works with natural processes like flood warnings, flood plain zoning and afforestation (1 mark). Flood warnings save lives cheaply but don't prevent damage (1 ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "subject": "pe",
+ "board": "AQA",
+ "topic": "PE13-health-fitness",
+ "topicName": "Health and Fitness",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PE13-health-fitness-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Health and Fitness",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PE13-health-fitness-t1",
+     "type": "short-answer",
+     "question": "State the WHO definition of health.",
+     "correctAnswer": "\"A state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.\"",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE13-health-fitness-t2",
+     "type": "short-answer",
+     "question": "Define fitness.",
+     "correctAnswer": "Fitness is the ability to meet the demands of the environment / the ability to meet the demands of a physical task.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE13-health-fitness-t3",
+     "type": "short-answer",
+     "question": "Explain how a person can be fit but not healthy, giving a specific example.",
+     "correctAnswer": "A person can be physically capable of performing at a high level (fit) but still have health problems. For example, an elite marathon runner may be extremely fit for their sport but may suffer from an eating disorder (poor mental health) or compete through injury (poor physical health). Fitness relates only to physical capacity, while health encompasses physical, mental and social well-being.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PE13-health-fitness-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Health and Fitness",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PE13-health-fitness-t4",
+     "type": "short-answer",
+     "question": "How can ill health decrease fitness?",
+     "correctAnswer": "Ill health can decrease fitness because: disease reduces the body's capacity for physical work; illness may prevent training and cause de-training; conditions like flu reduce cardiovascular efficiency, muscle strength and energy levels; chronic conditions limit the ability to exercise regularly.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE13-health-fitness-t5",
+     "type": "short-answer",
+     "question": "Describe the three dimensions of health and give an indicator for each.",
+     "correctAnswer": "Physical health - body functions efficiently without disease (indicator: healthy body weight, good energy levels). Mental health - psychological well-being (indicator: positive self-esteem, ability to cope with stress). Social health - positive relationships and interactions (indicator: supportive friendships, community involvement).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PE13-health-fitness-t6",
+     "type": "short-answer",
+     "question": "Explain why fitness does not guarantee good health.",
+     "correctAnswer": "Fitness refers only to the physical capacity to meet task demands. Health encompasses physical, mental and social well-being. A fit person can still develop mental health issues (e.g. depression, anxiety), social health problems (e.g. isolation despite athletic success), or physical conditions unrelated to fitness (e.g. asthma, diabetes). Additionally, extreme training for fitness can sometimes ha",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

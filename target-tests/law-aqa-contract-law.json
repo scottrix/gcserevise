@@ -1,0 +1,96 @@
+{
+ "subject": "law",
+ "board": "AQA",
+ "topic": "contract-law",
+ "topicName": "Contract Law",
+ "version": 1,
+ "tests": [
+  {
+   "id": "contract-law-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Contract Law",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "contract-law-t1",
+     "type": "short-answer",
+     "question": "Q: What three elements must exist for a valid contract?",
+     "correctAnswer": "Offer and acceptance (agreement), consideration (something of value exchanged), and intention to create legal relations (the parties intend the agreement to be legally binding).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "contract-law-t2",
+     "type": "short-answer",
+     "question": "Q: What is the difference between an offer and an invitation to treat?",
+     "correctAnswer": "An offer is a definite statement of willingness to be bound; an invitation to treat is merely an invitation for others to make offers (e.g. goods on a shelf, advertisements). Only an offer can be accepted to form a contract.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "contract-law-t3",
+     "type": "short-answer",
+     "question": "Q: What is consideration and why is it needed?",
+     "correctAnswer": "Consideration is something of value exchanged between the parties — each must give and receive something. It is needed because a promise without consideration is generally not legally binding (a bare promise is only enforceable as a deed).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "contract-law-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Contract Law",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "contract-law-t4",
+     "type": "short-answer",
+     "question": "Q: What remedies are available for breach of contract?",
+     "correctAnswer": "Damages (compensation to put the claimant in the position they would have been in), specific performance (court order to perform the contract), injunction (court order to prevent breach), and rescission (cancelling the contract).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "contract-law-t5",
+     "type": "short-answer",
+     "question": "Q: What is the difference between a condition and a warranty?",
+     "correctAnswer": "A condition is an essential term — breach allows the innocent party to terminate the contract and claim damages. A warranty is a minor term — breach only allows the claimant to claim damages, not to terminate.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "contract-law-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Contract Law",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "contract-law-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How far does contract law achieve a fair balance between the parties? (15 marks) <div class=\"",
+     "correctAnswer": "Contract law aims to achieve a fair balance between the parties by upholding agreements freely made, but in practice it can disadvantage weaker parties who lack bargaining power. The principle of freedom of contract means that the courts generally enforce the terms the parties have agreed, without questioning whether the bargain is fair. This respects individual autonomy and commercial certainty — businesses can rely on contracts being upheld. The requirement of consideration ensures that both parties receive something of value, and the doctrine of mistake and misrepresentation provides protection where agreement was not genuinely reached. Implied terms, such as those under the Consumer Rights Act 2015, add minimum standards to consumer contracts that the parties may not have negotiated. However, the law often fails to protect weaker parties. In practice, many contracts are on a 'take it or leave it' basis — consumers and employees rarely negotiate terms. Exclusion clauses can remove liability for breach, and while the Unfair Contract Terms Act 1977 and Consumer Rights Act 2015 provide some protection, they do not cover all situations. The rule that consideration need not be adequate means that a party can be bound by a very one-sided bargain. Privity of contract prevents third parties from enforcing contracts made for their benefit, though the Contracts (Rights of Third Parties) Act 1999 has partially addressed this. Furthermore, the remedies for breach favour those who can ",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

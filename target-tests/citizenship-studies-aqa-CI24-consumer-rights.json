@@ -1,0 +1,67 @@
+{
+ "subject": "citizenship-studies",
+ "board": "AQA",
+ "topic": "CI24-consumer-rights",
+ "topicName": "Consumer Rights",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CI24-consumer-rights-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Consumer Rights",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CI24-consumer-rights-t1",
+     "type": "short-answer",
+     "question": "Q: What are the three key rights when buying goods under the Consumer Rights Act 2015?",
+     "correctAnswer": "Goods must be: 1) as described — matching their description, 2) fit for purpose — able to do what the buyer reasonably expects, and 3) of satisfactory quality — meeting the standard a reasonable person would consider acceptable.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CI24-consumer-rights-t2",
+     "type": "short-answer",
+     "question": "Q: What can a consumer do if goods are faulty within 30 days of purchase?",
+     "correctAnswer": "Within 30 days, the consumer is entitled to a full refund. After 30 days but within 6 months, the consumer can request a repair or replacement. If the repair or replacement fails, they are entitled to a refund with a deduction for use.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CI24-consumer-rights-t3",
+     "type": "short-answer",
+     "question": "Q: Why do consumers also have responsibilities?",
+     "correctAnswer": "Consumers have responsibilities because market systems only work fairly when both parties act honestly. Consumers should read contracts, pay for goods, report unsafe products, and make informed choices. Without responsible behaviour, businesses cannot operate fairly and other consumers may be harmed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CI24-consumer-rights-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Consumer Rights",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CI24-consumer-rights-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the effectiveness of consumer protection in the UK. [12 marks] <div class=\"",
+     "correctAnswer": "UK consumer protection has significant strengths. The Consumer Rights Act 2015 provides clear rights: goods must be as described, fit for purpose, and of satisfactory quality. Within 30 days, consumers are entitled to a full refund. Online shoppers have additional protections including a 14-day cancellation period. However, effectiveness depends on consumers knowing their rights. Research suggests many consumers, especially young people, are unaware of their rights. The burden of complaining falls on the individual, which can be time-consuming and stressful. Enforcement is uneven. Trading Standards budgets have been cut significantly, reducing capacity to investigate rogue traders. Large corporations can resist claims with their legal resources, while individuals may give up. The CMA has limited resources relative to the market's scale. Nevertheless, consumer protection is generally effective for those who know their rights. Comparison websites and review platforms give consumers more information than ever before. Overall, while the legal framework is strong, practical effectiveness is limited by awareness, enforcement resources, and the unequal power between individual consumers and large businesses.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

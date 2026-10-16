@@ -1,0 +1,77 @@
+{
+ "subject": "astronomy",
+ "board": "Edexcel",
+ "topic": "as6-solar-system-overview",
+ "topicName": "The Solar System Overview",
+ "version": 1,
+ "tests": [
+  {
+   "id": "as6-solar-system-overview-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Solar System Overview",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "as6-solar-system-overview-t1",
+     "type": "short-answer",
+     "question": "Q: Name the four terrestrial planets in order from the Sun.",
+     "correctAnswer": "Mercury, Venus, Earth, Mars",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as6-solar-system-overview-t2",
+     "type": "short-answer",
+     "question": "Q: What is the asteroid belt and where is it located?",
+     "correctAnswer": "A region between Mars and Jupiter containing many rocky bodies; it separates the inner and outer planets.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as6-solar-system-overview-t3",
+     "type": "short-answer",
+     "question": "Q: Explain why Pluto is classified as a dwarf planet rather than a planet.",
+     "correctAnswer": "Pluto has not cleared its orbital neighbourhood of other debris, which is one of the three IAU criteria for full planet status. It orbits the Sun and is spherical, but fails the clearing criterion.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "as6-solar-system-overview-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on The Solar System Overview",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "as6-solar-system-overview-t4",
+     "type": "short-answer",
+     "question": "Q: What is the Kuiper belt?",
+     "correctAnswer": "A region beyond Neptune containing many small icy bodies, including dwarf planets like Pluto and Eris.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "as6-solar-system-overview-t5",
+     "type": "short-answer",
+     "question": "Q: Describe the formation of the Solar System.",
+     "correctAnswer": "The Solar System formed about 4.6 billion years ago from a collapsing cloud of gas and dust (solar nebula). As it collapsed it spun faster, forming a disc. The Sun formed at the centre; remaining material accreted into planets and smaller bodies.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

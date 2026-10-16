@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS19-mental-health-introduction",
+ "topicName": "Mental Health: An Introduction",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS19-mental-health-introduction-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Mental Health: An Introduction",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS19-mental-health-introduction-t1",
+     "type": "short-answer",
+     "question": "Compare the medical model with the biopsychosocial model of mental illness.",
+     "correctAnswer": "Medical model: mental illness is a disease with biological causes (genetics, neurotransmitters, brain abnormalities). Treatment: medication (drugs). Biopsychosocial model: mental illness results from biological, psychological and social factors interacting. Treatment: combination of medication, therapy and social support. The biopsychosocial model is more comprehensive but harder to implement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS19-mental-health-introduction-t2",
+     "type": "short-answer",
+     "question": "Explain how cultural factors can affect the diagnosis of mental health problems.",
+     "correctAnswer": "Cultural factors: symptoms vary by culture (e.g. depression expressed as physical pain in some Asian cultures); culture-bound syndromes don't fit Western diagnoses; diagnostic criteria (DSM-5, ICD-11) are Western-developed and may not generalise; language barriers affect diagnosis; stigma varies across cultures. Result: people from minority cultures may be misdiagnosed or under-diagnosed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS19-mental-health-introduction-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether the medical model is the best approach to understanding mental illness.",
+     "correctAnswer": "Medical model strengths: scientific basis (brain chemistry evidence), effective drug treatments (SSRIs for depression), reduces blame (illness not personal failure). Limitations: reductionist (ignores social and psychological causes), over-reliance on medication (side effects, doesn't address root causes), deterministic (implies individuals cannot change). The biopsychosocial model is more compreh",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS19-mental-health-introduction-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Mental Health: An Introduction",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS19-mental-health-introduction-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether the medical model or the biopsychosocial model provides a better understanding of mental health problems. <div class=\"",
+     "correctAnswer": "A grade 9 response will: define both models; present medical model strengths (scientific evidence, effective drug treatments, reduces blame) and limitations (reductionist, ignores social/psychological factors, over-relies on medication); present biopsychosocial strengths (comprehensive, considers multiple causes, combined treatment) and limitations (harder to implement, less precise, research is less controlled); conclude: the medical model is useful for acute treatment and biological understanding, but the biopsychosocial model provides a more complete explanation. For effective long-term treatment, an integrated approach using both models is best.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

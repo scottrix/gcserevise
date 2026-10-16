@@ -1,0 +1,77 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "WC3-vocabulary-word-choice",
+ "topicName": "Vocabulary and Word Choice",
+ "version": 1,
+ "tests": [
+  {
+   "id": "WC3-vocabulary-word-choice-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Vocabulary and Word Choice",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "WC3-vocabulary-word-choice-t1",
+     "type": "short-answer",
+     "question": "Replace \"very happy\" with a single, more precise word.",
+     "correctAnswer": "Ecstatic, overjoyed, elated, jubilant, delighted (any of these or similar).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC3-vocabulary-word-choice-t2",
+     "type": "short-answer",
+     "question": "What is the difference in connotation between \"cheap\" and \"inexpensive\"?",
+     "correctAnswer": "\"Cheap\" has negative connotations of poor quality. \"Inexpensive\" has neutral/positive connotations of good value. Same basic meaning, different emotional impact.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC3-vocabulary-word-choice-t3",
+     "type": "short-answer",
+     "question": "Rewrite \"She walked slowly across the room\" using a powerful verb instead of walked + slowly.",
+     "correctAnswer": "She crept/ambled/trudged/meandered/strolled across the room (any precise verb that shows slow movement).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "WC3-vocabulary-word-choice-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Vocabulary and Word Choice",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "WC3-vocabulary-word-choice-t4",
+     "type": "short-answer",
+     "question": "Why should you avoid using words you don't fully understand?",
+     "correctAnswer": "Misused ambitious vocabulary is obvious to examiners and loses marks. It shows lack of control. Better to use simpler vocabulary correctly than ambitious vocabulary incorrectly.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC3-vocabulary-word-choice-t5",
+     "type": "short-answer",
+     "question": "Give three alternatives to \"said\" for angry dialogue.",
+     "correctAnswer": "Snapped, growled, hissed, retorted, barked, snarled (any three of these or similar).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

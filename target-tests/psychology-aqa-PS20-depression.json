@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS20-depression",
+ "topicName": "Depression",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS20-depression-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Depression",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS20-depression-t1",
+     "type": "short-answer",
+     "question": "Describe biological and cognitive explanations of depression and evaluate each one.",
+     "correctAnswer": "Biological: genetics (twin studies show heritability), low serotonin/noradrenaline (supported by SSRI effectiveness). Cognitive: Beck's negative triad (negative self, world, future views maintain depression), Seligman's learned helplessness (uncontrollable outcomes lead to hopelessness). Biological is supported by drug effectiveness but is reductionist; cognitive explains thinking patterns but may",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS20-depression-t2",
+     "type": "short-answer",
+     "question": "Compare SSRI medication with CBT as treatments for depression.",
+     "correctAnswer": "SSRIs: increase serotonin, effective for 60-70% of patients, quick to prescribe, but side effects and treat symptoms not causes. CBT: challenges negative thoughts, teaches skills for long-term management, no side effects, but requires effort and time, therapist availability is limited. March et al. found CBT + SSRI combined was most effective for adolescent depression (71% improvement vs 61% SSRI ",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS20-depression-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether depression is best explained as a biological or a psychological condition.",
+     "correctAnswer": "Depression is best explained by an interaction of both: genetic vulnerability (biological) may be triggered by life events (social), which then activate negative thinking patterns (cognitive). The diathesis-stress model integrates biological predisposition with environmental triggers. Neither explanation alone fully accounts for depression - a biopsychosocial approach is most comprehensive.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS20-depression-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Depression",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS20-depression-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the relative effectiveness of biological and psychological treatments for depression. <div class=\"",
+     "correctAnswer": "A grade 9 response will: describe SSRIs (mechanism, effectiveness, limitations); describe CBT (mechanism, effectiveness, limitations); compare using research evidence (March et al.: combined is best); evaluate biological treatment (effective but side effects, treats symptoms); evaluate psychological treatment (addresses thinking but requires motivation, limited availability); conclude: for moderate-severe depression, combined treatment (SSRI + CBT) is most effective. For mild depression, CBT alone may be sufficient. Treatment should be personalised - the biopsychosocial model suggests different patients may benefit from different combinations.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

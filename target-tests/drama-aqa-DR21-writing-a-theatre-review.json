@@ -1,0 +1,67 @@
+{
+ "subject": "drama",
+ "board": "AQA",
+ "topic": "DR21-writing-a-theatre-review",
+ "topicName": "Writing a Theatre Review",
+ "version": 1,
+ "tests": [
+  {
+   "id": "DR21-writing-a-theatre-review-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Writing a Theatre Review",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "DR21-writing-a-theatre-review-t1",
+     "type": "short-answer",
+     "question": "Describe the structure of a theatre review for the GCSE written exam.",
+     "correctAnswer": "Introduction (production, company, venue, intention) → Performance analysis paragraph (specific vocal/physical choices) → Design analysis paragraph (specific set/lighting/sound/costume choices) → Direction analysis paragraph (staging/pacing) → Conclusion (overall effectiveness judgement linked to intention).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DR21-writing-a-theatre-review-t2",
+     "type": "short-answer",
+     "question": "What is the SEE framework and how does it improve your written analysis?",
+     "correctAnswer": "SEE: State the technique used, Evidence from the production (specific moment), Effect on the audience. It improves analysis by forcing you to move beyond description ('the lighting was blue') to analysis ('the blue lighting connoted coldness and isolation, making the audience feel the character's loneliness').",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DR21-writing-a-theatre-review-t3",
+     "type": "short-answer",
+     "question": "How can you ensure your theatre review is analytical rather than just descriptive?",
+     "correctAnswer": "Use precise terminology instead of everyday language. Always explain the MEANING and EFFECT of choices, not just what you saw. Make judgements about effectiveness. Support every claim with evidence. Replace 'I liked it' with 'The designer's choice was effective because...'",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "DR21-writing-a-theatre-review-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Writing a Theatre Review",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "DR21-writing-a-theatre-review-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Write a structured theatre review of a production you have seen, evaluating the effectiveness of the performance and design choices. <div class=\"",
+     "correctAnswer": "A grade 9 review will: open with factual introduction; use structured paragraphs (performance, design, direction); apply the SEE framework consistently; make clear judgements about effectiveness; support every claim with specific evidence; use precise theatrical terminology; conclude with overall evaluation linked to intention; write in an analytical, not descriptive style. Mark scheme: The live theatre review (Component 1 Section B) assesses AO2 (20%). The question asks you to analyse and evaluate a prod...",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

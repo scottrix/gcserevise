@@ -1,0 +1,96 @@
+{
+ "subject": "computer-science",
+ "board": "AQA",
+ "topic": "CS22-data-compression",
+ "topicName": "Data Compression",
+ "version": 1,
+ "tests": [
+  {
+   "id": "CS22-data-compression-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Data Compression",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "CS22-data-compression-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between lossy and lossless compression.",
+     "correctAnswer": "Lossy compression permanently removes some data to achieve a smaller file size; the original cannot be restored. Lossless compression reduces file size without losing any data; the original can be perfectly reconstructed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS22-data-compression-t2",
+     "type": "short-answer",
+     "question": "The string \"MISSISSIPPI\" has these character frequencies: M=1, I=4, S=4, P=2. Construct a Huffman tree and assign codes to each character.",
+     "correctAnswer": "Combine M(1) and P(2) → MP(3). Combine MP(3) and I(4) or S(4): e.g. MP(3) and one of the 4s → e.g. MP(3) + I(4) = MPI(7). Then MPI(7) + S(4) = root(11). Codes will vary depending on tree construction, but shorter codes for I and S, longer for M and P.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS22-data-compression-t3",
+     "type": "short-answer",
+     "question": "Using the Huffman codes from Q2, calculate the total bit length of \"MISSISSIPPI\" and compare it to a fixed-length encoding.",
+     "correctAnswer": "With 4 characters, fixed-length needs 2 bits each. Fixed = 11 x 2 = 22 bits. Huffman depends on your tree from Q2, but should be fewer than 22 bits (likely around 18-19 bits). The saving comes from I and S having short codes.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CS22-data-compression-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Data Compression",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CS22-data-compression-t4",
+     "type": "short-answer",
+     "question": "Apply run length encoding to this bitmap row: 111110000011111",
+     "correctAnswer": "RLE: 5,1 5,0 5,1 (or 51150051 depending on notation). Original = 15 values; Compressed = 6 values.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "CS22-data-compression-t5",
+     "type": "short-answer",
+     "question": "Explain why RLE would not be a good compression method for a photograph.",
+     "correctAnswer": "A photograph contains thousands of subtly different colours in adjacent pixels, with very few long runs of identical values. RLE would produce frequency/data pairs for nearly every pixel, making the compressed file similar in size to or larger than the original. Lossy compression (JPEG) is better for photographs.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "CS22-data-compression-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Data Compression",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "CS22-data-compression-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response A bitmap image contains the following pixel data: RRRRGGGGBBBBYYYY. Explain how run-length encoding would compress this data, and calculate the compression ratio. [4 marks] <div class=\"",
+     "correctAnswer": "Original data: RRRRGGGGBBBBYYYY (16 characters) RLE compression stores each colour and its count: R4G4B4Y4 (8 characters) Each run is encoded as: colour character + count digit. Compression ratio = original size ÷ compressed size = 16 ÷ 8 = 2:1 The data has been compressed to half its original size. RLE is effective here because the data contains long runs of identical values. If the data were RGBYRGBY (no repeats), RLE would not compress it effectively.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

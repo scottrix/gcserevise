@@ -1,0 +1,96 @@
+{
+ "subject": "law",
+ "board": "AQA",
+ "topic": "consumer-rights",
+ "topicName": "Consumer Rights",
+ "version": 1,
+ "tests": [
+  {
+   "id": "consumer-rights-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Consumer Rights",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "consumer-rights-t1",
+     "type": "short-answer",
+     "question": "Q: What are the three statutory rights when buying goods?",
+     "correctAnswer": "Goods must be of satisfactory quality, fit for purpose and match their description. These are implied terms under the Consumer Rights Act 2015 — if any is breached, the consumer has a right to a remedy.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "consumer-rights-t2",
+     "type": "short-answer",
+     "question": "Q: What remedies are available for faulty goods under the Consumer Rights Act 2015?",
+     "correctAnswer": "Within 30 days: full refund (short-term right to reject). After 30 days but within 6 months: repair or replacement. If repair or replacement fails: refund (may be reduced for use). After 6 months: consumer must prove the fault was present at delivery.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "consumer-rights-t3",
+     "type": "short-answer",
+     "question": "Q: What rights do consumers have when services are poor?",
+     "correctAnswer": "Services must be performed with reasonable care and skill, within a reasonable time and at a reasonable price. If not, the consumer can require the trader to redo the service or, if that is impossible, claim a price reduction.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "consumer-rights-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Consumer Rights",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "consumer-rights-t4",
+     "type": "short-answer",
+     "question": "Q: What is an unfair term in a consumer contract?",
+     "correctAnswer": "A term that creates a significant imbalance between the trader and consumer, to the consumer's detriment. Examples include excessive cancellation fees, excluding liability for breach, and changing terms without notice. Unfair terms are not binding on the consumer.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "consumer-rights-t5",
+     "type": "short-answer",
+     "question": "Q: How is consumer protection law enforced?",
+     "correctAnswer": "Trading Standards officers enforce the law locally — they investigate complaints, inspect businesses and prosecute rogue traders. The Competition and Markets Authority enforces at national level. Citizens Advice provides free consumer advice and helps resolve disputes.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "consumer-rights-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Consumer Rights",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "consumer-rights-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How effectively does the Consumer Rights Act 2015 protect consumers? (15 marks) <div class=\"",
+     "correctAnswer": "The Consumer Rights Act 2015 provides the strongest consumer protection framework in English legal history, but enforcement gaps and practical barriers mean that protection is not always effective in reality. The Act consolidates and modernises consumer law into a single, accessible statute, making rights clearer for both consumers and traders. The three implied terms for goods — satisfactory quality, fit for purpose and as described — set clear minimum standards that traders must meet. The short-term right to reject within 30 days gives consumers a powerful remedy that the old law did not provide. The inclusion of digital content is a significant modernisation, recognising that consumers buy apps, downloads and games that were previously unprotected. Unfair terms provisions prevent traders from imposing one-sided conditions, and the transparency requirement ensures that key terms are brought to the consumer's attention. However, the Act has significant limitations. Its protections depend on consumers knowing their rights — research consistently shows low awareness of consumer rights, particularly among vulnerable groups. Enforcement relies on Trading Standards, which has suffered severe funding cuts, meaning many rogue traders go unprosecuted. The small claims limit means that many consumers must use the courts to enforce rights, which is daunting and time-consuming even without legal costs. The six-month reverse burden of proof is helpful, but after that period consumers fa",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

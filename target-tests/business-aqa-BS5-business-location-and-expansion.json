@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS5-business-location-and-expansion",
+ "topicName": "Business Location and Expansion",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS5-business-location-and-expansion-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Business Location and Expansion",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS5-business-location-and-expansion-t1",
+     "type": "short-answer",
+     "question": "Explain three factors a business should consider when choosing a location for a new factory.",
+     "correctAnswer": "1) Proximity to raw materials/suppliers (reduces transport costs for heavy/bulky inputs). 2) Transport links (access to motorways, ports, rail for distribution). 3) Availability of labour (skills in the local area, wage costs, unemployment levels). Other factors: cost of land, government grants, proximity to customers.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS5-business-location-and-expansion-t2",
+     "type": "short-answer",
+     "question": "Compare organic growth and external growth as ways for a business to expand.",
+     "correctAnswer": "Organic growth: slow, controlled, funded from profits or borrowing, lower risk, management retains full control. External growth: rapid expansion through merger/takeover, high cost, risk of cultural clash and integration problems, but achieves instant market share increase. Organic is safer for risk-averse businesses; external suits businesses wanting rapid market dominance.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS5-business-location-and-expansion-t3",
+     "type": "short-answer",
+     "question": "Explain what is meant by economies of scale and give three examples.",
+     "correctAnswer": "Economies of scale = as output increases, the average cost per unit falls. Examples: 1) Purchasing economies (bulk buying at discounted prices). 2) Technical economies (using larger, more efficient machinery). 3) Financial economies (large firms can borrow at lower interest rates). 4) Marketing economies (spreading advertising costs over more units).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS5-business-location-and-expansion-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Business Location and Expansion",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS5-business-location-and-expansion-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response A successful local bakery wants to expand nationally. Evaluate franchising versus opening company-owned stores as growth strategies. <div class=\"",
+     "correctAnswer": "A grade 9 response will: evaluate franchising (rapid expansion with lower capital risk, franchisees invest their own money, motivated owner-operators, but less quality control, shares profits, brand risk if franchisee performs poorly); evaluate company-owned stores (full control, all profits retained, consistent quality, but high capital cost, slower growth, all risk on the business); conclude: franchising suits rapid national expansion with limited capital, but the bakery must invest in strong training and quality systems to protect its brand.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

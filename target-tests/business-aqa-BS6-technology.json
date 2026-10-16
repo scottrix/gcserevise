@@ -1,0 +1,67 @@
+{
+ "subject": "business",
+ "board": "AQA",
+ "topic": "BS6-technology",
+ "topicName": "Technology in Business",
+ "version": 1,
+ "tests": [
+  {
+   "id": "BS6-technology-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Technology in Business",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "BS6-technology-t1",
+     "type": "short-answer",
+     "question": "Explain two ways e-commerce has changed how businesses sell to customers.",
+     "correctAnswer": "E-commerce enables 24/7 trading without shop opening hours, reaches customers worldwide (not just local), reduces costs of rent and staff for physical premises, but requires website maintenance, delivery logistics, and faces online competition.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS6-technology-t2",
+     "type": "short-answer",
+     "question": "Analyse the impact of automation on a manufacturing business and its workers.",
+     "correctAnswer": "Positive impacts: higher output, consistent quality, lower long-term labour costs, 24/7 production. Negative impacts: high initial investment, redundancy and morale issues for displaced workers, need for skilled technicians, potential breakdowns halting production.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "BS6-technology-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether a small retail business should invest in an online store.",
+     "correctAnswer": "Arguments for: wider customer reach, lower overheads, trend towards online shopping (25%+ of UK retail), ability to compete with larger firms. Arguments against: website development costs, delivery management, returns handling, cybersecurity risks, existing loyal local customers. Conclusion depends on financial resources and market research - most businesses now need some online presence to remain",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "BS6-technology-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Technology in Business",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "BS6-technology-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether a traditional bookshop should invest in an e-commerce website. <div class=\"",
+     "correctAnswer": "A grade 9 response will: identify financial factors (website costs £2,000-£10,000, ongoing hosting, potential revenue increase); customer factors (convenience, wider reach, but some prefer browsing); competitive factors (Amazon dominance, differentiation through events/advice); operational factors (delivery logistics, stock management, returns). Conclude with a justified view: a hybrid model may work best - online presence to capture wider market while maintaining the physical shop's unique selling point of personal service and community.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

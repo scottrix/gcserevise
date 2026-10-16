@@ -1,0 +1,107 @@
+{
+ "subject": "latin",
+ "board": "Edexcel",
+ "topic": "prose-literature-exam-technique",
+ "topicName": "Prose Literature Exam Technique",
+ "version": 1,
+ "tests": [
+  {
+   "id": "prose-literature-exam-technique-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Prose Literature Exam Technique",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "prose-literature-exam-technique-t1",
+     "type": "short-answer",
+     "question": "Q: What three skills are tested in the prose literature exam?",
+     "correctAnswer": "Translation (accurate rendering of the Latin), analysis (identifying language and style features with their effects), and evaluation (discussing themes, context, and the author's purpose).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-literature-exam-technique-t2",
+     "type": "short-answer",
+     "question": "Q: Why must you quote Latin in your literature answers?",
+     "correctAnswer": "Because marks are awarded for supporting points with specific textual evidence. Vague references without Latin quotations score no marks, even if the observation is correct.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-literature-exam-technique-t3",
+     "type": "short-answer",
+     "question": "Q: How should you structure a 10-mark evaluation question?",
+     "correctAnswer": "Introduction stating your argument, 3-4 detailed points each supported by Latin quotations and analysis, and a brief conclusion. Use connectives to link points and ensure a coherent argument.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "prose-literature-exam-technique-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Prose Literature Exam Technique",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "prose-literature-exam-technique-t4",
+     "type": "short-answer",
+     "question": "Q: What is the time management rule for literature exams?",
+     "correctAnswer": "Allocate roughly 1 minute per mark. A 10-mark question deserves about 10 minutes. Do not spend so long on earlier questions that you run out of time for the higher-marked ones.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-literature-exam-technique-t5",
+     "type": "short-answer",
+     "question": "Q: What should you include in a context answer?",
+     "correctAnswer": "Who the author is, when the text was written, what historical events it describes, the author's purpose in writing, and how the passage fits within the wider work.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-literature-exam-technique-t6",
+     "type": "short-answer",
+     "question": "Q: How do you analyse how an author creates tension?",
+     "correctAnswer": "Identify specific techniques: word order (key words in emphatic positions), sentence structure (short urgent sentences), stylistic devices (anaphora, asyndeton for speed), vocabulary (verbs of fear/danger), and reported speech (showing characters' alarm).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-literature-exam-technique-t7",
+     "type": "short-answer",
+     "question": "Q: What is the difference between analysis and evaluation?",
+     "correctAnswer": "Analysis identifies and explains HOW the author uses language and style (what techniques, what effects). Evaluation assesses WHY the author writes this way and judges the significance of themes, characterisation, or historical message.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "prose-literature-exam-technique-t8",
+     "type": "short-answer",
+     "question": "Q: Why is reading the question carefully so important?",
+     "correctAnswer": "Because answering a different question from what was asked (e.g. summarising events instead of analysing style) earns very few marks. Every word in the question is there for a reason and must be addressed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

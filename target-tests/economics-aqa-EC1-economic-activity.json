@@ -1,0 +1,67 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC1-economic-activity",
+ "topicName": "Economic Activity",
+ "version": 1,
+ "tests": [
+  {
+   "id": "EC1-economic-activity-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Economic Activity",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "EC1-economic-activity-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between a need and a want, giving two examples of each.",
+     "correctAnswer": "A need is essential for survival (food, water, shelter); a want is desirable but not essential (smartphone, holiday). Needs are limited but wants are unlimited, creating the basic economic problem of scarcity. Examples of needs: clean water, basic food. Examples of wants: designer trainers, streaming subscription.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC1-economic-activity-t2",
+     "type": "short-answer",
+     "question": "Describe the three key economic decisions that all societies must make.",
+     "correctAnswer": "What to produce: society must decide which goods and services to make with limited resources. How to produce: choosing methods (labour-intensive vs capital-intensive). For whom to produce: how output is distributed — who benefits from the goods and services.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC1-economic-activity-t3",
+     "type": "short-answer",
+     "question": "Analyse how the three main economic groups interact in a market economy.",
+     "correctAnswer": "Consumers create demand by spending income on goods/services, signalling to producers what to make. Producers respond by supplying goods/services, employing workers, and investing in capital. Government sets rules (regulations, taxes), provides public services, and redistributes income. In a market economy, these groups interact through price: high demand raises prices, attracting producers, while",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "EC1-economic-activity-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Economic Activity",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "EC1-economic-activity-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether the government or the market should decide what goods and services are produced in an economy. <div class=\"",
+     "correctAnswer": "A grade 9 response will: analyse the market mechanism (consumers signal wants through demand, producers respond, prices allocate resources efficiently); analyse government decision-making (can prioritise public goods, correct market failures, ensure equity); evaluate trade-offs (markets respond to purchasing power not need, may under-produce merit goods; government may be inefficient); conclude: most economies use a mixed approach — markets decide most production while government provides public goods and corrects failures.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

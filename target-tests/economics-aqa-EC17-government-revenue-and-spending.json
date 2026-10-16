@@ -1,0 +1,67 @@
+{
+ "subject": "economics",
+ "board": "AQA",
+ "topic": "EC17-government-revenue-and-spending",
+ "topicName": "Government Revenue and Spending",
+ "version": 1,
+ "tests": [
+  {
+   "id": "EC17-government-revenue-and-spending-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Government Revenue and Spending",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "EC17-government-revenue-and-spending-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between direct and indirect taxation, giving two examples of each.",
+     "correctAnswer": "Direct taxes are paid directly to government from income or profits: income tax (on earnings), corporation tax (on company profits). Indirect taxes are included in the price of goods: VAT (20% on most goods and services), excise duty (on alcohol, tobacco, fuel).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC17-government-revenue-and-spending-t2",
+     "type": "short-answer",
+     "question": "Explain why VAT is considered a regressive tax even though everyone pays the same rate.",
+     "correctAnswer": "VAT is regressive because it takes a larger proportion of income from the poor. A household earning £15,000 spending £3,000 on VAT-rated goods pays £500 in VAT (3.3% of income). A household earning £100,000 spending £10,000 on the same goods pays £1,667 in VAT (1.7% of income). The rate is the same (20%) but the burden as a share of income is higher for lower earners.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "EC17-government-revenue-and-spending-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether the government should increase income tax on higher earners to fund public services.",
+     "correctAnswer": "Arguments for: raises significant revenue for underfunded public services (NHS, education), reduces inequality (progressive taxation), higher earners can afford to pay more. Arguments against: may discourage work and entrepreneurship (reducing incentive), could lead to tax avoidance/evasion, high earners may leave the UK. Conclusion: moderate increases on higher earners are justified to fund essen",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "EC17-government-revenue-and-spending-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Government Revenue and Spending",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "EC17-government-revenue-and-spending-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate whether the UK should shift from direct to indirect taxation. <div class=\"",
+     "correctAnswer": "A grade 9 response will: argue for indirect taxes (harder to evade, encourages saving over spending, allows choice — avoid by not buying taxed goods); argue against (regressive, hits the poor hardest, reduces consumer spending which is 60% of GDP); argue for direct taxes (progressive, based on ability to pay, automatic stabiliser in recessions); conclude: a mix of both is optimal — direct taxes for fairness and revenue stability, indirect taxes for efficiency and to discourage harmful consumption (sin taxes). Shifting entirely to indirect tax would increase inequality.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

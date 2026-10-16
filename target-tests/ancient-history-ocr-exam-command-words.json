@@ -1,0 +1,96 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "exam-command-words",
+ "topicName": "Command Words & Question Types",
+ "version": 1,
+ "tests": [
+  {
+   "id": "exam-command-words-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Command Words & Question Types",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "exam-command-words-t1",
+     "type": "short-answer",
+     "question": "Q: What is the key difference between 'describe' and 'explain' command words?",
+     "correctAnswer": "Describe requires giving an account of what happened (factual detail), while explain requires giving reasons why it happened (causation and significance).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "exam-command-words-t2",
+     "type": "short-answer",
+     "question": "Q: What must you include in a 'how far' answer?",
+     "correctAnswer": "A balanced argument showing both sides of the issue, supported by specific evidence, leading to a clear judgement about the extent.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "exam-command-words-t3",
+     "type": "short-answer",
+     "question": "Q: How many marks are extended questions typically worth in OCR J198?",
+     "correctAnswer": "12-15 marks, requiring sustained argument, analysis and a clear judgement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "exam-command-words-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Command Words & Question Types",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "exam-command-words-t4",
+     "type": "short-answer",
+     "question": "Q: What does 'assess the validity' of a statement mean?",
+     "correctAnswer": "Evaluate how true or accurate the statement is by presenting evidence that supports and contradicts it, then reaching a judgement.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "exam-command-words-t5",
+     "type": "short-answer",
+     "question": "Q: Which paper in OCR J198 focuses more on source analysis?",
+     "correctAnswer": "The Depth Study paper (Paper 2) focuses more on analysis of sources and interpretations.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "exam-command-words-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Command Words & Question Types",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "exam-command-words-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response Explain why understanding command words is essential for success in OCR J198 Ancient History (8 marks) <div class=\"",
+     "correctAnswer": "Understanding command words is essential because they determine the type of response the examiner expects. For example, 'describe' requires factual detail about what happened, while 'explain' demands reasons and causes. Misreading a command word can lead to a low mark even if the historical knowledge is strong — describing when asked to explain, or giving a one-sided answer to a 'how far' question, are common errors. Furthermore, OCR J198 has two papers with different emphases: the Period Study focuses on narrative and causation, while the Depth Study requires source analysis. Each paper uses command words that reflect these different skills, so understanding them ensures the candidate applies the correct approach. Ultimately, command words are the key to unlocking what the question demands, making them the most important first step in any exam answer.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

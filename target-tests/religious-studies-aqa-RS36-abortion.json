@@ -1,0 +1,28 @@
+{
+ "subject": "religious-studies",
+ "board": "AQA",
+ "topic": "RS36-abortion",
+ "topicName": "Abortion",
+ "version": 1,
+ "tests": [
+  {
+   "id": "RS36-abortion-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Abortion",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "RS36-abortion-t1",
+     "type": "short-answer",
+     "question": "Explain contrasting Christian and Muslim views on abortion.",
+     "correctAnswer": "Catholics believe abortion is always wrong because life begins at conception and the foetus has an absolute right to life (Jeremiah 1:5). In contrast, most Muslims permit abortion before 120 days (ensoulment) in cases of rape, risk to the mother, or serious abnormality. After 120 days, abortion is only allowed to save the mother's life. Anglicans take a middle position — abortion is generally wron",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

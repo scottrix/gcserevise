@@ -1,0 +1,67 @@
+{
+ "subject": "french",
+ "board": "AQA",
+ "topic": "FR12-technology-in-everyday-life",
+ "topicName": "Technology in Everyday Life",
+ "version": 1,
+ "tests": [
+  {
+   "id": "FR12-technology-in-everyday-life-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Technology in Everyday Life",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "FR12-technology-in-everyday-life-t1",
+     "type": "short-answer",
+     "question": "Write 4 sentences in French about technology in everyday life.",
+     "correctAnswer": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "FR12-technology-in-everyday-life-t2",
+     "type": "short-answer",
+     "question": "Write a paragraph (40-60 words) giving your opinion on technology in everyday life.",
+     "correctAnswer": "A structured paragraph with: introduction (à mon avis...), opinion with reason (je pense que... parce que...), a different viewpoint (cependant...), and a conclusion (en conclusion...). Use connecting words and varied vocabulary.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "FR12-technology-in-everyday-life-t3",
+     "type": "short-answer",
+     "question": "Translate into French: \"I think technology in everyday life is important because...\"",
+     "correctAnswer": "\"Je pense que [topic] est important(e) parce que...\" — ensure adjective agreement (important vs importante depending on noun gender), correct verb form, and give a specific reason.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "FR12-technology-in-everyday-life-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Technology in Everyday Life",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "FR12-technology-in-everyday-life-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Writing task: Write about social media, internet, smartphones; advantages and dangers; opinions on technology use. <div class=\"",
+     "correctAnswer": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, pronouns, negation); show precise grammar (agreement, conjugation, spelling); express and justify opinions; include cultural knowledge; use a wide range of vocabulary; be well-organised with connecting words (cependant, en revanche, de plus, en conclusion). Mark scheme: Content (relevance and detail) + Quality of language (accuracy and range) = total marks",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

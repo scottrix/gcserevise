@@ -1,0 +1,67 @@
+{
+ "subject": "sociology",
+ "board": "AQA",
+ "topic": "SO1-what-is-sociology",
+ "topicName": "What Is Sociology?",
+ "version": 1,
+ "tests": [
+  {
+   "id": "SO1-what-is-sociology-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on What Is Sociology?",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "SO1-what-is-sociology-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between sociology and common sense, using examples.",
+     "correctAnswer": "Sociology uses systematic research and evidence; common sense relies on untested assumptions. Example: common sense says 'criminals are born'; sociology shows crime is influenced by poverty, socialisation and labelling. Sociology challenges taken-for-granted assumptions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO1-what-is-sociology-t2",
+     "type": "short-answer",
+     "question": "Describe what C. Wright Mills meant by the sociological imagination.",
+     "correctAnswer": "The sociological imagination sees the connection between personal experiences and wider social forces. Example: divorce may feel like a personal failure, but rising divorce rates reflect social changes (changing gender roles, easier divorce laws, declining stigma). Mills argued we need this imagination to understand society.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO1-what-is-sociology-t3",
+     "type": "short-answer",
+     "question": "Evaluate whether individual behaviour is shaped more by social structures or personal agency.",
+     "correctAnswer": "Structure: social institutions (family, education, economy) shape our choices - working-class children are less likely to attend university. Agency: individuals make choices within constraints - some working-class children do succeed. Evaluation: structuration theory (Giddens) argues structure and agency are two sides of the same coin - structures enable and constrain agency; agency reproduces and",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "SO1-what-is-sociology-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on What Is Sociology?",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "SO1-what-is-sociology-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the view that sociology is no different from common sense. <div class=\"",
+     "correctAnswer": "A grade 9 response will: define sociology and common sense; argue they overlap (both make claims about society); argue they differ fundamentally (sociology uses evidence, challenges assumptions, reveals hidden patterns); give examples where common sense is wrong (crime rates, educational achievement, gender roles); conclude: while sociology and common sense both describe society, sociology is fundamentally different because it is systematic, evidence-based, and challenges assumptions that common sense accepts uncritically.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "subject": "music",
+ "board": "AQA",
+ "topic": "MU4-rhythm-metre-and-tempo",
+ "topicName": "Rhythm Metre and Tempo",
+ "version": 1,
+ "tests": [
+  {
+   "id": "MU4-rhythm-metre-and-tempo-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Rhythm Metre and Tempo",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "MU4-rhythm-metre-and-tempo-t1",
+     "type": "short-answer",
+     "question": "Describe how rhythm metre and tempo are used in a piece of music you have studied. Use musical vocabulary.",
+     "correctAnswer": "A detailed description using precise musical vocabulary (e.g. specific terms from the AQA elements list), referencing a named piece with accurate observations about how the elements are used and their effect.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MU4-rhythm-metre-and-tempo-t2",
+     "type": "short-answer",
+     "question": "Compare how two different pieces use rhythm metre and tempo. Explain the effect in each case.",
+     "correctAnswer": "A comparison of two pieces identifying similarities and differences in how rhythm metre and tempo are used, explaining the different effects created in each musical context, using comparative language.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MU4-rhythm-metre-and-tempo-t3",
+     "type": "short-answer",
+     "question": "How could you use rhythm metre and tempo in your own composition or performance? Explain your choices.",
+     "correctAnswer": "A practical application showing understanding of how rhythm metre and tempo can be manipulated in composition or performance, with specific examples of choices made and their intended effect.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "MU4-rhythm-metre-and-tempo-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Rhythm Metre and Tempo",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "MU4-rhythm-metre-and-tempo-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Identify three different rhythmic features in a piece of music. Use precise terminology and explain the effect of each feature on the character of the music. <div class=\"",
+     "correctAnswer": "A grade 9 response will: identify metre as simple or compound; name tempo using Italian terms; identify specific rhythmic devices (syncopation, hemiola, polyrhythm, augmentation); explain how rhythmic choices create character; use precise vocabulary from the AQA elements list. Mark scheme: AO3 (analyse and evaluate) + AO4 (knowledge and understanding) = total marks for listening; AO1 (perform) + AO2 (compose) for coursework components",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

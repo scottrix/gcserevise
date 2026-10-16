@@ -1,0 +1,77 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "WC1-descriptive-writing",
+ "topicName": "Descriptive Writing",
+ "version": 1,
+ "tests": [
+  {
+   "id": "WC1-descriptive-writing-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Descriptive Writing",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "WC1-descriptive-writing-t1",
+     "type": "short-answer",
+     "question": "What is the difference between descriptive writing and narrative writing?",
+     "correctAnswer": "Descriptive writing paints a picture of a moment or place, focusing on sensory details and atmosphere. Narrative writing tells a story with a plot, characters, and events unfolding over time.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC1-descriptive-writing-t2",
+     "type": "short-answer",
+     "question": "Name three techniques for creating \"show, don't tell\" writing.",
+     "correctAnswer": "Use sensory details, describe physical actions and reactions, include specific observations, use figurative language, focus on concrete details rather than abstract labels.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC1-descriptive-writing-t3",
+     "type": "short-answer",
+     "question": "Why is it important to include senses beyond just sight?",
+     "correctAnswer": "Sound, smell, touch, and taste create a more immersive experience. They trigger stronger emotional responses and memories in readers, making the description more vivid and memorable.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "WC1-descriptive-writing-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Descriptive Writing",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "WC1-descriptive-writing-t4",
+     "type": "short-answer",
+     "question": "What is the \"zoom technique\" and how does it help structure description?",
+     "correctAnswer": "The zoom technique moves from wide view (macro) to close-up detail (micro), or vice versa. It gives structure and logical flow to description, helping readers visualise the scene progressively.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC1-descriptive-writing-t5",
+     "type": "short-answer",
+     "question": "Rewrite this telling sentence to show instead: \"The old house was creepy.\"",
+     "correctAnswer": "Example: \"Windows stared like hollow eyes from the crumbling facade. Ivy clawed up the rotting walls. Inside, floorboards groaned beneath invisible feet, and the air tasted of mould and forgotten memories.\"",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

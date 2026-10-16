@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "dance-appreciation-skills",
+ "topicName": "Dance Appreciation Skills",
+ "version": 1,
+ "tests": [
+  {
+   "id": "dance-appreciation-skills-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Dance Appreciation Skills",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "dance-appreciation-skills-t1",
+     "type": "short-answer",
+     "question": "Q: What does AO4 assess in GCSE Dance?",
+     "correctAnswer": "AO4 assesses the ability to analyse and evaluate dance, including professional works and own choreographic practice.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "dance-appreciation-skills-t2",
+     "type": "short-answer",
+     "question": "Q: Explain the difference between describing and analysing a dance.",
+     "correctAnswer": "Describing means stating what you see (e.g. 'the dancers move in unison'); analysing means explaining how and why it works (e.g. 'unison creates a sense of unity reinforcing the choreographic intent').",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "dance-appreciation-skills-t3",
+     "type": "short-answer",
+     "question": "Q: Why must evaluation be supported by evidence?",
+     "correctAnswer": "Without evidence, evaluation is just opinion. AQA requires informed judgements backed by specific examples from the dance to show understanding.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "dance-appreciation-skills-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Dance Appreciation Skills",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "dance-appreciation-skills-t4",
+     "type": "short-answer",
+     "question": "Q: How do the three appreciation skills of describe, analyse and evaluate work together?",
+     "correctAnswer": "You first describe what you see, then analyse how and why it works, and finally evaluate how effective it is — each skill builds on the previous one.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "dance-appreciation-skills-t5",
+     "type": "short-answer",
+     "question": "Q: Why is using subject-specific terminology important in dance appreciation?",
+     "correctAnswer": "Accurate terminology shows precise understanding and communicates ideas clearly; vague language loses marks in the AQA written exam.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

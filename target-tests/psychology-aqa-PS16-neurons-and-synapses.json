@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "board": "AQA",
+ "topic": "PS16-neurons-and-synapses",
+ "topicName": "Neurons & Synapses",
+ "version": 1,
+ "tests": [
+  {
+   "id": "PS16-neurons-and-synapses-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Neurons & Synapses",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "PS16-neurons-and-synapses-t1",
+     "type": "short-answer",
+     "question": "Describe the structure and function of sensory, motor and relay neurons.",
+     "correctAnswer": "Sensory neurons: carry information from sensory receptors to the CNS (long dendrites, short axons). Motor neurons: carry signals from the CNS to muscles and glands (short dendrites, long axons). Relay neurons: connect sensory and motor neurons within the CNS (short dendrites and axons). Together they form the reflex arc.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS16-neurons-and-synapses-t2",
+     "type": "short-answer",
+     "question": "Explain how synaptic transmission works, including the role of neurotransmitters.",
+     "correctAnswer": "Electrical impulse travels down the axon -> reaches terminal buttons -> vesicles release neurotransmitters into the synaptic cleft -> neurotransmitters diffuse across and bind to receptors on the postsynaptic neuron -> if excitatory signals exceed inhibitory signals, the next neuron fires. The signal is unidirectional (only released from the presynaptic neuron).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "PS16-neurons-and-synapses-t3",
+     "type": "short-answer",
+     "question": "Discuss the role of neurotransmitters in behaviour, referring to serotonin and dopamine.",
+     "correctAnswer": "Serotonin regulates mood, sleep and appetite. Low serotonin is linked to depression (SSRIs increase serotonin and treat depression) and aggression. Dopamine is involved in reward, motivation and movement. Excess dopamine is linked to schizophrenia; low dopamine in motor areas causes Parkinson's disease. Both show that chemical imbalances affect behaviour.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "PS16-neurons-and-synapses-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Neurons & Synapses",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "PS16-neurons-and-synapses-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the contribution of neuroscience to our understanding of behaviour, discussing the limitations of neurotransmitter explanations. <div class=\"",
+     "correctAnswer": "A grade 9 response will: describe neurotransmitter functions (serotonin, dopamine, acetylcholine); present supporting evidence (drug treatments, brain scanning studies); evaluate limitations (correlational not causal, reductionist, ignores social/cognitive factors, individual differences in neurotransmitter activity); consider the diathesis-stress model (biological vulnerability + environmental triggers); conclude: neurotransmitter research has made important contributions (especially to understanding mental health and developing drug treatments), but reductionist explanations that ignore psychological and social factors are incomplete. A biopsychosocial approach provides a more comprehensive understanding.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

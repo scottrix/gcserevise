@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "stimulus-choreography",
+ "topicName": "Stimulus & Starting Points",
+ "version": 1,
+ "tests": [
+  {
+   "id": "stimulus-choreography-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Stimulus & Starting Points",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "stimulus-choreography-t1",
+     "type": "short-answer",
+     "question": "Q: Name the five types of stimulus used in dance choreography.",
+     "correctAnswer": "Visual, auditory, kinaesthetic, ideational and literary.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "stimulus-choreography-t2",
+     "type": "short-answer",
+     "question": "Q: Give an example of a visual stimulus and explain how it could inspire movement.",
+     "correctAnswer": "A painting of a stormy sea could inspire swirling, expansive movements with sudden changes in dynamics to represent crashing waves.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "stimulus-choreography-t3",
+     "type": "short-answer",
+     "question": "Q: How does an ideational stimulus differ from a literary stimulus?",
+     "correctAnswer": "An ideational stimulus is a concept or theme (e.g. loneliness), whereas a literary stimulus is based on specific words (e.g. a poem about loneliness).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "stimulus-choreography-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Stimulus & Starting Points",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "stimulus-choreography-t4",
+     "type": "short-answer",
+     "question": "Q: Why might a choreographer choose to combine more than one type of stimulus?",
+     "correctAnswer": "Combining stimuli can create richer, more layered choreography — for example, using both a visual image and a piece of music to inspire contrasting movement qualities.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "stimulus-choreography-t5",
+     "type": "short-answer",
+     "question": "Q: Explain how a kinaesthetic stimulus could be used to create movement material.",
+     "correctAnswer": "A kinaesthetic stimulus such as the feeling of tension in the shoulders could be explored and developed into movement phrases that show struggle or restriction.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

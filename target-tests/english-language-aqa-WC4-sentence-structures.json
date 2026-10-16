@@ -1,0 +1,77 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "WC4-sentence-structures",
+ "topicName": "Sentence Structures",
+ "version": 1,
+ "tests": [
+  {
+   "id": "WC4-sentence-structures-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Sentence Structures",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "WC4-sentence-structures-t1",
+     "type": "short-answer",
+     "question": "What is the difference between a simple, compound, and complex sentence?",
+     "correctAnswer": "Simple = one clause (one subject, one verb). Compound = two or more independent clauses joined by coordinating conjunctions (and, but, or). Complex = one independent clause and one or more dependent clauses joined by subordinating conjunctions (because, although, when).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC4-sentence-structures-t2",
+     "type": "short-answer",
+     "question": "Name three ways to vary sentence openings.",
+     "correctAnswer": "Start with: adverbs (Slowly, ...), -ing verbs (Running, ...), prepositions (Across the field, ...), connectives (However, ...), time phrases (Moments later, ...), subordinate clauses (Although tired, ...), similes (Like a ghost, ...).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC4-sentence-structures-t3",
+     "type": "short-answer",
+     "question": "When would you use short sentences in your writing?",
+     "correctAnswer": "For dramatic impact, to build tension, to speed up pace, to emphasise a key moment, to create contrast with longer sentences, for action scenes.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "WC4-sentence-structures-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Sentence Structures",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "WC4-sentence-structures-t4",
+     "type": "short-answer",
+     "question": "Rewrite this passage to vary the sentence structure: \"She walked to the window. She looked outside. It was raining. She felt sad.\"",
+     "correctAnswer": "Example: She walked to the window. Looking outside, she saw the rain falling steadily. A wave of sadness washed over her.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WC4-sentence-structures-t5",
+     "type": "short-answer",
+     "question": "What effect does a long sentence have on pace compared to a short sentence?",
+     "correctAnswer": "Long sentences slow the pace, creating a flowing, reflective, or descriptive feel. Short sentences speed up the pace, creating tension, urgency, and impact.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

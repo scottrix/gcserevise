@@ -1,0 +1,87 @@
+{
+ "subject": "geography",
+ "board": "AQA",
+ "topic": "G38-resource-management-overview",
+ "topicName": "Resource Management Overview",
+ "version": 1,
+ "tests": [
+  {
+   "id": "G38-resource-management-overview-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Resource Management Overview",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "G38-resource-management-overview-t1",
+     "type": "short-answer",
+     "question": "Explain why the distribution of food, water, and energy resources is uneven globally.",
+     "correctAnswer": "Resource distribution is uneven due to physical factors (climate affects food growing and water availability; geology determines fossil fuel and mineral deposits; rainfall varies enormously between regions), economic factors (wealth determines the ability to extract, process, and distribute resources; technology enables exploitation but is expensive), and political factors (conflict disrupts suppl",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G38-resource-management-overview-t2",
+     "type": "short-answer",
+     "question": "What are food miles? Why are they a concern?",
+     "correctAnswer": "Food miles measure the distance food travels from production to consumption. They are a concern because longer transport distances produce more carbon emissions (e.g. green beans from Kenya to the UK travel 6,800 miles, producing 2.6 kg CO₂ per kg). Reducing food miles can lower the carbon footprint of food. However, the issue is complex - some foods grown abroad naturally may have a lower overall",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G38-resource-management-overview-t3",
+     "type": "short-answer",
+     "question": "Describe the advantages and disadvantages of agribusiness in the UK.",
+     "correctAnswer": "Advantages: agribusiness produces high yields efficiently through mechanisation and economies of scale; it provides cheaper food for consumers; it increases UK food security by producing 60% of food needs. Disadvantages: it causes environmental damage (chemical runoff causing eutrophication, soil degradation, biodiversity loss from monoculture); it reduces rural employment through mechanisation; i",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "G38-resource-management-overview-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Resource Management Overview",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "G38-resource-management-overview-t4",
+     "type": "short-answer",
+     "question": "Explain the water supply-demand imbalance in the UK and how water transfer schemes help.",
+     "correctAnswer": "The UK's water supply-demand imbalance exists because areas of highest demand (south and east England, densely populated) have the lowest rainfall, while areas of highest rainfall (Wales, north, Scotland) have lower demand. Water transfer schemes address this by moving water from surplus to deficit areas. For example, Kielder Water in Northumberland stores water and transfers it to Tyne and Wear v",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G38-resource-management-overview-t5",
+     "type": "short-answer",
+     "question": "How has the UK's energy mix changed since 1990? Explain the reasons for these changes.",
+     "correctAnswer": "Since 1990, the UK's energy mix has shifted dramatically from fossil fuels to renewables. Coal fell from 67% to 1% due to climate change targets and the carbon tax; renewables (especially wind) grew from under 2% to over 40%, supported by government subsidies and falling technology costs; gas remained important at around 34%, replacing coal as the dominant fossil fuel; nuclear declined slightly as",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "G38-resource-management-overview-t6",
+     "type": "short-answer",
+     "question": "\"The UK should aim for energy self-sufficiency.\" How far do you agree?",
+     "correctAnswer": "A balanced view recognises both the benefits and challenges of energy self-sufficiency. Self-sufficiency would increase energy security (reducing vulnerability to imported gas price shocks, as seen in 2022), reduce dependence on potentially unreliable suppliers, and create domestic jobs in renewables and nuclear. However, complete self-sufficiency is unrealistic and potentially undesirable: the UK",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

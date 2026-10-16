@@ -1,0 +1,77 @@
+{
+ "subject": "electronics",
+ "board": "Eduqas",
+ "topic": "exam-command-words-elec",
+ "topicName": "Command Words & Question Types",
+ "version": 1,
+ "tests": [
+  {
+   "id": "exam-command-words-elec-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Command Words & Question Types",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "exam-command-words-elec-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between 'state' and 'explain' in an exam question?",
+     "correctAnswer": "'State' needs only a brief factual answer with no reasoning; 'explain' requires you to give reasons, linking cause and effect.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "exam-command-words-elec-t2",
+     "type": "short-answer",
+     "question": "Q: A question asks you to 'compare half-wave and full-wave rectification'. What should your answer include?",
+     "correctAnswer": "Both similarities (both convert AC to DC using diodes) and differences (full-wave uses both half-cycles, half-wave only one; full-wave has higher output and less ripple).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "exam-command-words-elec-t3",
+     "type": "short-answer",
+     "question": "Q: How should you approach a 'calculate' question worth 3 marks?",
+     "correctAnswer": "Write the formula (1 mark), substitute the correct values (1 mark), and give the final numerical answer with correct units (1 mark).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "exam-command-words-elec-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Command Words & Question Types",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "exam-command-words-elec-t4",
+     "type": "short-answer",
+     "question": "Q: What does 'evaluate' require that 'describe' does not?",
+     "correctAnswer": "'Evaluate' requires a judgement supported by evidence, weighing up strengths and weaknesses; 'describe' only needs a factual account of what happens.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "exam-command-words-elec-t5",
+     "type": "short-answer",
+     "question": "Q: Why is it important to check the number of marks for a question?",
+     "correctAnswer": "The number of marks indicates how many separate points or steps are expected; a 4-mark question needs roughly four distinct points or development stages.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

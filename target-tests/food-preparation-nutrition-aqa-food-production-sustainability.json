@@ -1,0 +1,126 @@
+{
+ "subject": "food-preparation-nutrition",
+ "board": "AQA",
+ "topic": "food-production-sustainability",
+ "topicName": "Food Production & Sustainability",
+ "version": 1,
+ "tests": [
+  {
+   "id": "food-production-sustainability-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Food Production & Sustainability",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "food-production-sustainability-t1",
+     "type": "short-answer",
+     "question": "Q: What does food provenance mean?",
+     "correctAnswer": "Food provenance means understanding where food comes from — how, where, and by whom it was produced, processed, and transported to the consumer.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-production-sustainability-t2",
+     "type": "short-answer",
+     "question": "Q: What are the main differences between intensive and organic farming?",
+     "correctAnswer": "Intensive farming uses artificial fertilisers, pesticides, and high-density housing to maximise yield cheaply. Organic farming avoids artificial chemicals, uses natural methods like crop rotation, and has higher animal welfare standards but is more expensive with lower yields.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-production-sustainability-t3",
+     "type": "short-answer",
+     "question": "Q: Name three ways consumers can reduce the carbon footprint of their food.",
+     "correctAnswer": "Eat less meat (especially beef), choose locally sourced and seasonal foods, reduce food waste, buy foods with less packaging, walk or cycle to shops (any three).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "food-production-sustainability-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Food Production & Sustainability",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "food-production-sustainability-t4",
+     "type": "short-answer",
+     "question": "Q: What is seasonal eating and why is it more sustainable?",
+     "correctAnswer": "Seasonal eating means consuming foods when they are naturally in season locally. This reduces the need for energy-intensive imports, heated greenhouses, and cold storage, lowering the environmental impact.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-production-sustainability-t5",
+     "type": "short-answer",
+     "question": "Q: Why does livestock farming have a higher carbon footprint than crop farming?",
+     "correctAnswer": "Livestock produce methane (a potent greenhouse gas) during digestion, require large amounts of land and feed (which itself has a carbon cost), and manure releases nitrous oxide. Transport and processing add further emissions.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-production-sustainability-t6",
+     "type": "short-answer",
+     "question": "Q: What is the Red Tractor scheme?",
+     "correctAnswer": "A UK food assurance scheme certifying that food has been produced to standards covering food safety, animal welfare, environmental protection, and traceability from farm to pack.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-production-sustainability-t7",
+     "type": "short-answer",
+     "question": "Q: Give two advantages and two disadvantages of organic farming.",
+     "correctAnswer": "Advantages: no artificial chemicals (better for soil and biodiversity), higher animal welfare, potentially more nutritious food. Disadvantages: lower yields, higher prices, more land needed per unit of food, less visually perfect produce.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "food-production-sustainability-t8",
+     "type": "short-answer",
+     "question": "Q: Why might locally sourced food not always be the most sustainable choice?",
+     "correctAnswer": "Some foods grown locally in heated greenhouses may use more energy than the same food grown naturally overseas and shipped. The full carbon footprint must be considered, not just transport distance.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "food-production-sustainability-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Food Production & Sustainability",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "food-production-sustainability-t9",
+     "type": "short-answer",
+     "question": "Full-Mark Response Compare intensive and organic farming methods and evaluate their impact on sustainability. (8 marks) <div class=\"",
+     "correctAnswer": "Intensive farming uses artificial fertilisers, pesticides, antibiotics, and high-density animal housing to maximise food production at low cost. It yields large quantities of affordable food, which helps feed growing populations and keeps consumer prices down. However, it is less sustainable: artificial fertilisers and pesticides degrade soil health and pollute waterways, high-density housing raises serious animal welfare concerns, and antibiotic overuse contributes to antimicrobial resistance. Organic farming avoids artificial chemicals, uses crop rotation and natural fertilisers (compost, manure), and provides higher animal welfare with outdoor access. It supports biodiversity, improves soil structure, and avoids pesticide residues. However, organic yields are significantly lower (typically 20–40% less), requiring more land to produce the same amount of food, which can drive deforestation. Organic food is also more expensive, limiting access for lower-income consumers. In terms of sustainability, organic farming is better for local ecosystems and animal welfare, but its lower yields mean a larger land footprint per unit of food. Intensive farming is more land-efficient and affordable but damages the environment long-term. The most sustainable approach may combine elements of both: precision farming to reduce chemical use, integrated pest management, and improving intensive welfare standards while making organic more accessible through policy and innovation.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

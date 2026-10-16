@@ -1,0 +1,28 @@
+{
+ "subject": "religious-studies",
+ "board": "AQA",
+ "topic": "RS22-salah-prayer",
+ "topicName": "Salah: Prayer",
+ "version": 1,
+ "tests": [
+  {
+   "id": "RS22-salah-prayer-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Salah: Prayer",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "RS22-salah-prayer-t1",
+     "type": "short-answer",
+     "question": "Explain two Muslim practices during salah.",
+     "correctAnswer": "1) Wudu — before prayer, Muslims perform ritual washing (ablution) of hands, mouth, nose, face, arms, head and feet. This purifies the body and symbolises spiritual cleanliness before approaching Allah. 2) Facing the qiblah — all Muslims face the Ka'bah in Makkah when praying. This unites Muslims worldwide in a single direction of worship and symbolises the unity of the ummah (community).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

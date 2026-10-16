@@ -1,0 +1,96 @@
+{
+ "subject": "law",
+ "board": "AQA",
+ "topic": "equality-discrimination",
+ "topicName": "Equality & Anti-Discrimination Law",
+ "version": 1,
+ "tests": [
+  {
+   "id": "equality-discrimination-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Equality & Anti-Discrimination Law",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "equality-discrimination-t1",
+     "type": "short-answer",
+     "question": "Q: List the nine protected characteristics under the Equality Act 2010.",
+     "correctAnswer": "Age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, and sexual orientation.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "equality-discrimination-t2",
+     "type": "short-answer",
+     "question": "Q: What is the difference between direct and indirect discrimination?",
+     "correctAnswer": "Direct discrimination is treating someone less favourably because of a protected characteristic (e.g. not hiring someone because of their race). Indirect discrimination is applying a seemingly neutral rule that puts people with a protected characteristic at a disadvantage and cannot be objectively justified (e.g. a height requirement that disproportionately excludes women).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "equality-discrimination-t3",
+     "type": "short-answer",
+     "question": "Q: What is the duty to make reasonable adjustments and who does it apply to?",
+     "correctAnswer": "The duty to make reasonable adjustments requires employers, service providers and education providers to take positive steps to remove substantial disadvantages faced by disabled people compared to non-disabled people. This may involve changing practices, providing auxiliary aids or modifying physical features. What is 'reasonable' depends on factors such as the cost, practicality and effectivenes",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "equality-discrimination-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Equality & Anti-Discrimination Law",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "equality-discrimination-t4",
+     "type": "short-answer",
+     "question": "Q: Explain the difference between positive action and positive discrimination.",
+     "correctAnswer": "Positive action is permitted under the Equality Act 2010 and involves measures to encourage or support people with a protected characteristic who are underrepresented or disadvantaged (e.g. targeted training programmes). Positive discrimination is generally unlawful and involves giving preferential treatment to someone because of a protected characteristic regardless of merit (e.g. automatically a",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "equality-discrimination-t5",
+     "type": "short-answer",
+     "question": "Q: What remedies are available for discrimination claims?",
+     "correctAnswer": "Remedies include compensation (which is uncapped in the Employment Tribunal for discrimination claims), recommendations that the employer take steps to prevent further discrimination, and declarations that the claimant's rights have been breached. In non-employment cases, the County Court can award damages including compensation for injury to feelings.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "equality-discrimination-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Equality & Anti-Discrimination Law",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "equality-discrimination-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How effective is the Equality Act 2010 in preventing discrimination in the workplace? (15 marks) <div class=\"",
+     "correctAnswer": "The Equality Act 2010 provides a comprehensive legal framework for preventing workplace discrimination, but its effectiveness is limited by practical and systemic factors. On the positive side, the Act consolidated over 100 separate pieces of legislation into a single statute, making the law more accessible and consistent. It protects nine characteristics and covers direct and indirect discrimination, harassment and victimisation, providing broad protection. The duty to make reasonable adjustments for disabled employees has forced employers to accommodate diverse needs, and the uncapped compensation available in Employment Tribunals provides a strong deterrent against discriminatory conduct. However, significant limitations remain. The burden of proof falls on the claimant, which can be difficult given that employers control most of the evidence. Employment Tribunal fees (though now abolished) and the strict three-month time limit for claims deter many victims from bringing cases. Indirect discrimination can be justified by employers if they show the practice is a proportionate means of achieving a legitimate aim, which gives employers considerable scope to defend discriminatory practices. Furthermore, the gender pay gap persists despite the Act, and discrimination on grounds of pregnancy and maternity continues to be widespread. Research shows many discrimination claims are settled with non-disclosure agreements, which means discriminatory practices may never be publicly cha",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

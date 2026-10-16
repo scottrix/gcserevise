@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "analysing-performance",
+ "topicName": "Analysing Dance Performance",
+ "version": 1,
+ "tests": [
+  {
+   "id": "analysing-performance-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Analysing Dance Performance",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "analysing-performance-t1",
+     "type": "short-answer",
+     "question": "Q: What is the advantage of watching a live performance over a recorded one?",
+     "correctAnswer": "Live performance provides the full sensory experience — you feel the energy, scale and atmosphere in real time, and the audience-performer relationship is immediate and tangible.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "analysing-performance-t2",
+     "type": "short-answer",
+     "question": "Q: Why is repeated viewing useful when analysing a recorded dance?",
+     "correctAnswer": "Repeated viewing lets you focus on different elements each time — first the overall structure, then specific movement details, design features or dancer relationships.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "analysing-performance-t3",
+     "type": "short-answer",
+     "question": "Q: How do the four content categories help structure an analysis?",
+     "correctAnswer": "They provide a systematic framework so you cover all aspects: action (what), dynamics (how), space (where) and relationships (who), ensuring nothing is missed.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "analysing-performance-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Analysing Dance Performance",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "analysing-performance-t4",
+     "type": "short-answer",
+     "question": "Q: Why should analysis always reference the choreographic intention?",
+     "correctAnswer": "Every choreographic choice serves the intention — linking your analysis to it shows you understand why decisions were made, not just what they are.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "analysing-performance-t5",
+     "type": "short-answer",
+     "question": "Q: Name two design elements you should consider alongside movement when analysing a dance.",
+     "correctAnswer": "Costume and lighting — though set/staging and aural setting are also valid design elements that contribute to meaning.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

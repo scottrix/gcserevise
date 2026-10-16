@@ -1,0 +1,96 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "graphical-representations",
+ "topicName": "Graphical Representations",
+ "version": 1,
+ "tests": [
+  {
+   "id": "graphical-representations-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Graphical Representations",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "graphical-representations-t1",
+     "type": "short-answer",
+     "question": "Q: What type of chart would you use to compare the favourite subjects of boys and girls in a school?",
+     "correctAnswer": "A dual (comparative) bar chart, because it shows two groups side by side for each category, making comparison easy.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "graphical-representations-t2",
+     "type": "short-answer",
+     "question": "Q: From a cumulative frequency curve, the total frequency is 80. At what cumulative frequency value do you read the lower quartile?",
+     "correctAnswer": "Lower quartile is at 25% of total: 0.25 × 80 = 20. Read the value on the x-axis at cumulative frequency 20.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "graphical-representations-t3",
+     "type": "short-answer",
+     "question": "Q: Points on a scatter graph generally rise from bottom-left to top-right. What type of correlation does this suggest?",
+     "correctAnswer": "This suggests a positive correlation — as one variable increases, the other also tends to increase.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "graphical-representations-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Graphical Representations",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "graphical-representations-t4",
+     "type": "short-answer",
+     "question": "Q: How do you plot a frequency polygon for a grouped frequency table?",
+     "correctAnswer": "Plot the midpoint of each class interval on the x-axis against its frequency on the y-axis, then join the points with straight lines.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "graphical-representations-t5",
+     "type": "short-answer",
+     "question": "Q: What is the key difference between a bar chart and a histogram?",
+     "correctAnswer": "A bar chart has gaps between bars and is used for discrete/qualitative data; a histogram has no gaps and is used for continuous data, with bar area proportional to frequency.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "graphical-representations-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Graphical Representations",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "graphical-representations-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response The grouped frequency table shows the marks of 40 students in a test. Draw a cumulative frequency curve and use it to find the median and interquartile range. 0–20: 4, 20–40: 8, 40–60: 16, 60–80: 8, 80–100: 4 <div class=\"",
+     "correctAnswer": "Plot cumulative frequencies at upper class boundaries: 20: 4, 40: 12, 60: 28, 80: 36, 100: 40 Draw a smooth S-shaped curve through the points. Median at cumulative frequency = 40 ÷ 2 = 20: Read from 20 on the y-axis → approximately 50 on the x-axis. Lower quartile at cumulative frequency = 40 ÷ 4 = 10: Read from 10 → approximately 35. Upper quartile at cumulative frequency = 3 × 40 ÷ 4 = 30: Read from 30 → approximately 65. Interquartile range = 65 – 35 = 30 marks.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

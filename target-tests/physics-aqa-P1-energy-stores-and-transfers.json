@@ -1,0 +1,106 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P1-energy-stores-and-transfers",
+ "topicName": "P1 Energy Stores And Transfers",
+ "version": 1,
+ "tests": [
+  {
+   "id": "P1-energy-stores-and-transfers-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on P1 Energy Stores And Transfers",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "P1-energy-stores-and-transfers-t1",
+     "type": "short-answer",
+     "question": "Foundation Name the eight energy stores and give one example of each.",
+     "correctAnswer": "Kinetic — moving car; gravitational potential — book on shelf; elastic potential — stretched spring; thermal — hot cup of tea; chemical — food/fuel; nuclear — uranium in reactor; magnetic — two repelling magnets held apart; electrostatic — two opposite charges separated.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P1-energy-stores-and-transfers-t2",
+     "type": "short-answer",
+     "question": "Foundation A ball falls from a height of 2 m. Describe the energy transfers that take place.",
+     "correctAnswer": "At the top: gravitational potential store is at its maximum, kinetic store is zero. As the ball falls: gravitational potential store decreases, kinetic store increases. Energy is transferred mechanically (by gravitational force doing work). Some energy is dissipated to the thermal store of the surroundings due to air resistance.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P1-energy-stores-and-transfers-t3",
+     "type": "short-answer",
+     "question": "Foundation State the conservation of energy principle.",
+     "correctAnswer": "Energy cannot be created or destroyed. It can only be transferred usefully, stored, or dissipated. The total energy input always equals the total energy output.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "P1-energy-stores-and-transfers-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on P1 Energy Stores And Transfers",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "P1-energy-stores-and-transfers-t4",
+     "type": "short-answer",
+     "question": "Higher An electric heater takes in 1500 J of energy. 1200 J is transferred as useful heat to the room. The rest is wasted as light and sound. Calculate the wasted energy and describe what a Sankey diagram would look like.",
+     "correctAnswer": "Wasted energy = 1500 − 1200 = 300 J. The Sankey diagram would have one input arrow (representing 1500 J), one useful output arrow (representing 1200 J, 80% of the width) going straight ahead, and one wasted output arrow (representing 300 J, 20% of the width) pointing downwards.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P1-energy-stores-and-transfers-t5",
+     "type": "short-answer",
+     "question": "Higher A car of mass 1000 kg is moving at 20 m/s. The driver brakes. Explain where the energy from the kinetic store goes and why it cannot all be transferred usefully.",
+     "correctAnswer": "The kinetic store energy is transferred to the thermal store of the brakes and tyres (by friction doing work mechanically) and to the thermal store of the surroundings (by air resistance). Not all energy can be transferred usefully because friction and air resistance always cause some dissipation to the thermal store of the surroundings — this energy cannot be recovered.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P1-energy-stores-and-transfers-t6",
+     "type": "short-answer",
+     "question": "Higher Describe the energy transfers when a phone is being charged, including the pathways.",
+     "correctAnswer": "Chemical store of the power station/battery → transferred electrically through the charger cable → chemical store of the phone battery (useful, storing energy). Some energy is dissipated to the thermal store of the charger and cable (due to electrical resistance) and to the thermal store of the phone battery (resistance during charging).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "P1-energy-stores-and-transfers-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on P1 Energy Stores And Transfers",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "P1-energy-stores-and-transfers-t7",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Describe the energy transfers that take place when a pendulum swings from its highest point to its lowest point and back again. Explain why the pendulum eventually stops. <div class=\"",
+     "correctAnswer": "At the highest point, the pendulum has maximum energy in its gravitational potential store and zero energy in its kinetic store (it is momentarily stationary). As it swings down, energy is transferred from the gravitational potential store to the kinetic store (mechanically, by the force of gravity doing work). At the lowest point, the kinetic store is at its maximum and the gravitational potential store is at its minimum. As the pendulum swings back up, energy is transferred from the kinetic store back to the gravitational potential store. Each swing, some energy is dissipated to the thermal store of the surroundings due to air resistance and friction at the pivot. Because energy is continuously dissipated, less energy is available in the kinetic and gravitational potential stores each swing. Eventually, all the energy has been dissipated to the thermal store of the surroundings and the pendulum stops. Mark scheme: 1 mark — identifying gravitational potential store at top; 1 mark — transfer to kinetic store as it falls; 1 mark — kinetic store maximum at bottom; 1 mark — transfer back to gravitational potential store on the upswing; 1 mark — dissipation to thermal store due to friction/air resistance; 1 mark — explanation that energy dissipation causes the pendulum to stop",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

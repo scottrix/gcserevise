@@ -1,0 +1,96 @@
+{
+ "subject": "law",
+ "board": "AQA",
+ "topic": "tort-law-negligence",
+ "topicName": "Tort Law & Negligence",
+ "version": 1,
+ "tests": [
+  {
+   "id": "tort-law-negligence-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Tort Law & Negligence",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "tort-law-negligence-t1",
+     "type": "short-answer",
+     "question": "Q: What are the four elements the claimant must prove in negligence?",
+     "correctAnswer": "The claimant must prove: (1) the defendant owed them a duty of care, (2) the defendant breached that duty, (3) the breach caused the claimant's damage, and (4) the damage was not too remote.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "tort-law-negligence-t2",
+     "type": "short-answer",
+     "question": "Q: What is the Caparo test for duty of care?",
+     "correctAnswer": "A duty of care exists where: (1) it was reasonably foreseeable that the defendant's conduct could harm the claimant, (2) there was a sufficiently proximate relationship between the parties, and (3) it is fair, just and reasonable to impose a duty.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "tort-law-negligence-t3",
+     "type": "short-answer",
+     "question": "Q: How is breach of duty determined?",
+     "correctAnswer": "Using the objective test: would a reasonable person in the defendant's position have taken the precautions that the defendant failed to take? If the risk of harm was foreseeable and a reasonable person would have acted differently, there is a breach.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "tort-law-negligence-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Tort Law & Negligence",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "tort-law-negligence-t4",
+     "type": "short-answer",
+     "question": "Q: What is contributory negligence and what is its effect?",
+     "correctAnswer": "Contributory negligence occurs where the claimant's own carelessness partly caused their injury. Its effect is that damages are reduced by the percentage the claimant was at fault — e.g. if 25% at fault, damages are reduced by 25%.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "tort-law-negligence-t5",
+     "type": "short-answer",
+     "question": "Q: When is an employer vicariously liable?",
+     "correctAnswer": "An employer is vicariously liable when an employee commits a tort in the course of their employment — even if the employer gave no instructions and was not personally at fault. The key question is whether the employee was acting within the scope of their job.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "tort-law-negligence-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Tort Law & Negligence",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "tort-law-negligence-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response How far does the tort of negligence provide effective compensation for claimants? (15 marks) <div class=\"",
+     "correctAnswer": "The tort of negligence provides a framework for compensating those harmed by others' carelessness, but significant limitations mean that many claimants do not receive effective compensation. Where all four elements are established, the claimant can recover damages to put them in the position they would have been in had the negligence not occurred. This provides meaningful compensation for those with clear, foreseeable injuries caused by an identifiable defendant. Vicarious liability extends protection by holding employers liable for employees' negligence, ensuring that claimants can sue a party with the resources to pay. Contributory negligence, while reducing damages, still allows partially at-fault claimants to recover something. However, the negligence framework has major limitations. The duty of care requirement excludes claimants where the relationship is insufficiently proximate or where the courts consider it unfair to impose liability — this has been used to limit liability for omissions and economic loss. The foreseeability requirement means that unforeseeable types of damage, even if caused by the defendant, are not recoverable. Causation can be impossible to prove where multiple causes contribute to the harm. The cost of litigation is a huge barrier — legal aid for tort claims is almost non-existent, and many claimants cannot afford lawyers. Even successful claimants may receive inadequate damages — the courts use objective measures that do not always reflect the r",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

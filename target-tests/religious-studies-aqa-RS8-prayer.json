@@ -1,0 +1,38 @@
+{
+ "subject": "religious-studies",
+ "board": "AQA",
+ "topic": "RS8-prayer",
+ "topicName": "Prayer",
+ "version": 1,
+ "tests": [
+  {
+   "id": "RS8-prayer-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Prayer",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "RS8-prayer-t1",
+     "type": "short-answer",
+     "question": "Explain two types of Christian prayer with examples.",
+     "correctAnswer": "1) Set prayers are written prayers used repeatedly in worship. The Lord's Prayer (Matthew 6:9-13) is the most important set prayer — Jesus taught it to his disciples and it is used in almost every Christian denomination. 2) Extemporary prayer is spontaneous and informal — Christians speak to God in their own words about current needs and concerns. This is common in Baptist and Pentecostal churches",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "RS8-prayer-t2",
+     "type": "short-answer",
+     "question": "\"Prayer does not work.\" Evaluate this statement.",
+     "correctAnswer": "Some people argue prayer doesn't work because bad things still happen despite prayers, and there is no scientific evidence that prayer changes outcomes. However, Christians would respond that prayer is not like a vending machine — God answers in his own way, which may be \"yes\", \"no\" or \"wait\". Prayer also changes the person praying, giving them peace, strength and perspective. Millions of Christia",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

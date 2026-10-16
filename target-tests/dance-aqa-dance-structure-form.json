@@ -1,0 +1,77 @@
+{
+ "subject": "dance",
+ "board": "AQA",
+ "topic": "dance-structure-form",
+ "topicName": "Dance Structure & Form",
+ "version": 1,
+ "tests": [
+  {
+   "id": "dance-structure-form-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Dance Structure & Form",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "dance-structure-form-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between binary and ternary form?",
+     "correctAnswer": "Binary form has two sections (A B), while ternary form has three (A B A) where the opening section returns after the contrast.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "dance-structure-form-t2",
+     "type": "short-answer",
+     "question": "Q: Describe the structure of a rondo and give its pattern.",
+     "correctAnswer": "A rondo has a main theme that keeps returning, alternating with different contrasting episodes, following the pattern ABACADA.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "dance-structure-form-t3",
+     "type": "short-answer",
+     "question": "Q: How does an abstract structure differ from a narrative structure?",
+     "correctAnswer": "A narrative structure tells a story with characters and events in order; an abstract structure is organised around movement ideas and qualities without a storyline.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "dance-structure-form-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Dance Structure & Form",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "dance-structure-form-t4",
+     "type": "short-answer",
+     "question": "Q: Why might a choreographer choose ternary form for their dance?",
+     "correctAnswer": "Ternary form gives a sense of balance and resolution because the opening section returns, providing familiarity. The middle section offers contrast before the return creates a satisfying conclusion.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "dance-structure-form-t5",
+     "type": "short-answer",
+     "question": "Q: Explain what a thematic structure is and how it works.",
+     "correctAnswer": "A thematic structure is built around one or more movement themes that are developed and varied throughout the piece. The themes reappear in different forms, creating unity while maintaining interest.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

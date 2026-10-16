@@ -1,0 +1,67 @@
+{
+ "subject": "spanish",
+ "board": "AQA",
+ "topic": "SP27-articles-adjectives-and-agreement",
+ "topicName": "Articles, Adjectives and Agreement",
+ "version": 1,
+ "tests": [
+  {
+   "id": "SP27-articles-adjectives-and-agreement-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Articles, Adjectives and Agreement",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "SP27-articles-adjectives-and-agreement-t1",
+     "type": "short-answer",
+     "question": "Write 4 sentences in Spanish about articles, adjectives and agreement.",
+     "correctAnswer": "Four sentences using topic vocabulary, with correct adjective agreement, articles and verb conjugation. Include at least two different tenses for Higher tier.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SP27-articles-adjectives-and-agreement-t2",
+     "type": "short-answer",
+     "question": "Write a paragraph (40-60 words) giving your opinion on articles, adjectives and agreement.",
+     "correctAnswer": "A structured paragraph with: introduction (en mi opinión...), opinion with reason (creo que... porque...), a different viewpoint (sin embargo...), and a conclusion (en conclusión...). Use connecting words and varied vocabulary.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SP27-articles-adjectives-and-agreement-t3",
+     "type": "short-answer",
+     "question": "Translate into Spanish: \"I think articles, adjectives and agreement is important because...\"",
+     "correctAnswer": "\"Creo que [topic] es importante porque...\" — ensure adjective agreement (masculine/feminine), correct verb form, and give a specific reason.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "SP27-articles-adjectives-and-agreement-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Articles, Adjectives and Agreement",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "SP27-articles-adjectives-and-agreement-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Writing task: Write about definite and indefinite articles, adjective agreement, position of adjectives, demonstratives, possessives. <div class=\"",
+     "correctAnswer": "A grade 9 answer will: use at least three tenses accurately; include complex structures (subordinate clauses, pronouns, negation); show precise grammar (agreement, conjugation, accents); express and justify opinions; include cultural knowledge; use a wide range of vocabulary; be well-organised with connecting words (sin embargo, además, por lo tanto, en conclusión). Mark scheme: Content (relevance and detail) + Quality of language (accuracy and range) = total marks",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

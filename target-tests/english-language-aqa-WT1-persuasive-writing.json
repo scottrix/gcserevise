@@ -1,0 +1,48 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "WT1-persuasive-writing",
+ "topicName": "Persuasive Writing",
+ "version": 1,
+ "tests": [
+  {
+   "id": "WT1-persuasive-writing-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Persuasive Writing",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "WT1-persuasive-writing-t1",
+     "type": "short-answer",
+     "question": "Name three persuasive techniques and explain how each works.",
+     "correctAnswer": "Rhetorical questions (make reader think), emotive language (evoke feelings), statistics (add credibility) - plus many other valid techniques.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WT1-persuasive-writing-t2",
+     "type": "short-answer",
+     "question": "Why is it important to address counter-arguments in persuasive writing?",
+     "correctAnswer": "It shows you've considered different viewpoints and strengthens your argument by preemptively refuting opposition.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WT1-persuasive-writing-t3",
+     "type": "short-answer",
+     "question": "Write an opening paragraph persuading your school to introduce a healthy eating policy.",
+     "correctAnswer": "Your paragraph should include: clear viewpoint, rhetorical question or hook, and persuasive techniques.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "subject": "sociology",
+ "board": "AQA",
+ "topic": "SO15-crime-statistics-and-patterns",
+ "topicName": "Crime Statistics & Patterns",
+ "version": 1,
+ "tests": [
+  {
+   "id": "SO15-crime-statistics-and-patterns-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Crime Statistics & Patterns",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "SO15-crime-statistics-and-patterns-t1",
+     "type": "short-answer",
+     "question": "Explain why official statistics may not provide an accurate picture of crime.",
+     "correctAnswer": "Official statistics underestimate crime because: most crime is not reported (dark figure); police do not record all reported crime. The CSEW suggests real crime is about twice the official figure. Self-report studies show middle-class crime is underrepresented.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO15-crime-statistics-and-patterns-t2",
+     "type": "short-answer",
+     "question": "Evaluate explanations for why men commit more crime than women.",
+     "correctAnswer": "Men commit 80% of recorded crime. Heidensohn: patriarchal control restricts women's opportunities. Chesney-Lind: women's crime often responds to abuse. However: the gap is narrowing; female crime is rising; biological explanations (testosterone) are reductionist.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "SO15-crime-statistics-and-patterns-t3",
+     "type": "short-answer",
+     "question": "Assess whether ethnic differences in crime statistics reflect real differences in criminality.",
+     "correctAnswer": "Black people are over-represented in official statistics but this reflects: selective policing (stop and search 9x higher for Black people), labelling, socio-economic factors. Self-report studies show similar offending across ethnic groups. Conclusion: ethnic differences reflect bias in the CJS, not higher criminality.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "SO15-crime-statistics-and-patterns-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Crime Statistics & Patterns",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "SO15-crime-statistics-and-patterns-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate the usefulness of official statistics for understanding patterns of crime. <div class=\"",
+     "correctAnswer": "A grade 9 response will: describe official statistics and their strengths (comprehensive, regularly collected); explain limitations (dark figure, selective reporting, recording practices); compare with alternatives (self-report, victim surveys); evaluate bias; conclude: official statistics are useful for broad patterns but significantly distort the true picture. Triangulation using multiple sources provides a more accurate understanding.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

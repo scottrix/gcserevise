@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g22-geology-of-britain",
+ "topicName": "Geology of Britain",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g22-geology-of-britain-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Geology of Britain",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g22-geology-of-britain-t1",
+     "type": "short-answer",
+     "question": "Q: What are the oldest rocks in Britain and where are they found?",
+     "correctAnswer": "The Lewisian Gneiss, approximately 3 billion years old, found in northwest Scotland. They are Precambrian metamorphic basement rocks that have been through multiple deformation events.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g22-geology-of-britain-t2",
+     "type": "short-answer",
+     "question": "Q: What caused the Caledonian orogeny and what rocks did it produce?",
+     "correctAnswer": "The collision of the continental plates Laurentia (Scotland), Avalonia (England) and Baltica (Scandinavia) ~490-390 Ma. It produced deformed metamorphic rocks in the Scottish Highlands (Moine Schists) and Welsh mountains, with granitic intrusions (e.g. Cairngorms).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g22-geology-of-britain-t3",
+     "type": "short-answer",
+     "question": "Q: Why is the Jurassic Coast important for geology?",
+     "correctAnswer": "It exposes a nearly continuous sequence of Mesozoic rocks from the Triassic through the Jurassic to the Cretaceous, with abundant fossils including ammonites, belemnites and marine reptiles. It is a UNESCO World Heritage Site for its geological significance.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g22-geology-of-britain-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Geology of Britain",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g22-geology-of-britain-t4",
+     "type": "short-answer",
+     "question": "Q: How were the Pennines formed?",
+     "correctAnswer": "The Pennines are a large anticline formed mainly from Carboniferous limestone and millstone grit. They were uplifted and folded during the Variscan orogeny when plates collided to form Pangaea. The limestone was deposited in warm shallow tropical seas.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g22-geology-of-britain-t5",
+     "type": "short-answer",
+     "question": "Q: What formed the White Cliffs of Dover?",
+     "correctAnswer": "Cretaceous chalk, a soft white limestone formed from billions of coccolith (calcareous algae) shells deposited in a warm, shallow tropical sea. The chalk was later uplifted and exposed by erosion of the overlying rocks and coastal wave action.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

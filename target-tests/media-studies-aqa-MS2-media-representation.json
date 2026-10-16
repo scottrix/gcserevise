@@ -1,0 +1,67 @@
+{
+ "subject": "media-studies",
+ "board": "AQA",
+ "topic": "MS2-media-representation",
+ "topicName": "Media Representation",
+ "version": 1,
+ "tests": [
+  {
+   "id": "MS2-media-representation-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Media Representation",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "MS2-media-representation-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between selection and omission in media representation?",
+     "correctAnswer": "Selection is what media producers choose to include in a representation, emphasising certain aspects. Omission is what they choose to leave out. Both shape the representation — e.g. selecting only violent protests and omitting peaceful ones represents protesters as violent.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS2-media-representation-t2",
+     "type": "short-answer",
+     "question": "Q: Explain Laura Mulvey's concept of the 'male gaze'.",
+     "correctAnswer": "Mulvey argued that mainstream cinema and media represent women through a heterosexual male perspective, objectifying their bodies for male pleasure. The camera 'looks' at women as objects to be viewed, and audiences are positioned to identify with this male viewpoint regardless of their own gender.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "MS2-media-representation-t3",
+     "type": "short-answer",
+     "question": "Q: How can media producers challenge stereotypes?",
+     "correctAnswer": "Producers can challenge stereotypes by: creating complex, multi-dimensional characters that defy expectations; giving marginalised groups central rather than peripheral roles; using counter-stereotypical casting and narratives; and subverting audience expectations through representation that contradicts dominant norms.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "MS2-media-representation-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Media Representation",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "MS2-media-representation-t5",
+     "type": "short-answer",
+     "question": "Full-Mark Response Evaluate how representations of gender have changed in contemporary media products. Refer to your CSPs. [15 marks] <div class=\"",
+     "correctAnswer": "Representations of gender in contemporary media have shifted significantly from traditional stereotypes, though change is uneven across different media forms. In the 'This Girl Can' campaign (BBC, 2017), women are represented as active, powerful, and engaged in sport for enjoyment rather than appearance. This directly challenges the 'male gaze' identified by Mulvey, where women are positioned as objects for male visual pleasure. The campaign shows women of different body types, ages, and ethnicities, rejecting the dominant representation of women in sports media as slim, young, and conventionally attractive. However, traditional representations persist in other areas. Video game characters still frequently sexualise women (e.g. Lara Croft's original design), and female characters in action films are often still defined by their appearance. The Bechdel Test continues to be failed by many mainstream films. In men's representation, there has been some diversification. The 'new man' representation shows men as emotionally articulate and nurturing, as seen in some contemporary advertising. But hyper-masculine representations remain dominant in action films and gaming, potentially reinforcing harmful expectations. Intersectionality matters: white, middle-class women are better represented than women of colour or working-class women. Trans and non-binary representation is improving but remains limited. Overall, while contemporary media products increasingly challenge traditional gen",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

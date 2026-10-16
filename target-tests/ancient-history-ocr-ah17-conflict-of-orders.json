@@ -1,0 +1,77 @@
+{
+ "subject": "ancient-history",
+ "board": "OCR",
+ "topic": "ah17-conflict-of-orders",
+ "topicName": "The Conflict of the Orders",
+ "version": 1,
+ "tests": [
+  {
+   "id": "ah17-conflict-of-orders-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on The Conflict of the Orders",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "ah17-conflict-of-orders-t1",
+     "type": "short-answer",
+     "question": "Q: What was the Conflict of the Orders?",
+     "correctAnswer": "A 200-year struggle (494-287 BC) between patricians (aristocratic families who monopolised political power) and plebeians (common citizens who were excluded from office and lawmaking). The plebeians used secession, tribunician power and popular pressure to gradually win political equality.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah17-conflict-of-orders-t2",
+     "type": "short-answer",
+     "question": "Q: Why was the First Secession significant?",
+     "correctAnswer": "In 494 BC, plebeians withdrew en masse to the Sacred Mount, refusing military service. The patricians, facing military crisis, conceded by creating the tribunes of the plebs — officers with veto power to protect plebeian interests. This established the principle that plebeians could use collective action to force political change.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah17-conflict-of-orders-t3",
+     "type": "short-answer",
+     "question": "Q: Why were the Twelve Tables important?",
+     "correctAnswer": "Before the Twelve Tables (451-450 BC), law was unwritten and interpreted exclusively by patrician magistrates, often unfairly. The Tables published laws publicly for all to see, preventing arbitrary judgement. Though they contained harsh provisions, they represented a fundamental principle: equality before the law.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "ah17-conflict-of-orders-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on The Conflict of the Orders",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "ah17-conflict-of-orders-t4",
+     "type": "short-answer",
+     "question": "Q: How did the Licinian-Sextian Laws change Roman politics?",
+     "correctAnswer": "In 367 BC, these laws required at least one of the two consuls to be plebeian, ended the military tribunate with consular power, and limited individual land ownership to 500 iugera. This opened the highest office to plebeians and addressed economic inequality.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "ah17-conflict-of-orders-t5",
+     "type": "short-answer",
+     "question": "Q: What was the significance of the Hortensian Law?",
+     "correctAnswer": "The Hortensian Law (287 BC) made plebiscites (laws passed by the plebeian assembly) binding on all Roman citizens, including patricians, without needing Senate approval. This effectively ended the Conflict of the Orders by giving the plebeian assembly full legislative power.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

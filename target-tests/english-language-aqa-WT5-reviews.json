@@ -1,0 +1,48 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "WT5-reviews",
+ "topicName": "Reviews",
+ "version": 1,
+ "tests": [
+  {
+   "id": "WT5-reviews-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Reviews",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "WT5-reviews-t1",
+     "type": "short-answer",
+     "question": "What are the four key elements of an effective review?",
+     "correctAnswer": "Judgment (your opinion), Evidence (specific examples), Balanced view (pros and cons), Recommendation (who should see/read/use it).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WT5-reviews-t2",
+     "type": "short-answer",
+     "question": "Why should you avoid major spoilers in a film or book review?",
+     "correctAnswer": "Spoilers ruin the experience for readers who haven't seen the film or read the book. You want to inform their decision, not reveal the ending.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "WT5-reviews-t3",
+     "type": "short-answer",
+     "question": "Write an introduction for a review of a restaurant you've visited.",
+     "correctAnswer": "Your introduction should include: the restaurant name, location/cuisine type, and an engaging hook that hints at your overall judgment.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

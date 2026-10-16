@@ -1,0 +1,67 @@
+{
+ "subject": "design-and-technology",
+ "board": "AQA",
+ "topic": "DT4-systems-approach-to-designing",
+ "topicName": "Systems Approach to Designing",
+ "version": 1,
+ "tests": [
+  {
+   "id": "DT4-systems-approach-to-designing-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Systems Approach to Designing",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "DT4-systems-approach-to-designing-t1",
+     "type": "short-answer",
+     "question": "Explain the difference between an open-loop and a closed-loop system, giving an example of each.",
+     "correctAnswer": "Open-loop: no feedback — the system does not monitor its own output. E.g. a fan heater with a simple on/off switch runs at fixed power. Closed-loop: feedback adjusts the output. E.g. a fan heater with a thermostat senses room temperature and adjusts power to maintain the desired temperature.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT4-systems-approach-to-designing-t2",
+     "type": "short-answer",
+     "question": "A washing machine uses sensors to detect load weight and water temperature. Draw a systems diagram and explain how feedback is used.",
+     "correctAnswer": "Input: load sensor, temperature sensor, water level sensor. Process: microcontroller compares sensor data with programmed settings. Output: motor speed, water valve, heater control. Feedback: temperature sensor feeds back actual water temperature; microcontroller adjusts heater to reach target. Load sensor determines cycle time — heavier loads need longer.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "DT4-systems-approach-to-designing-t3",
+     "type": "short-answer",
+     "question": "Why is a closed-loop system more suitable than an open-loop system for controlling a greenhouse irrigation system?",
+     "correctAnswer": "A greenhouse needs precise moisture levels: too little water kills plants, too much causes root rot. Closed-loop: soil moisture sensor provides feedback, microcontroller activates irrigation only when moisture drops below threshold. Open-loop: timer-based watering regardless of soil conditions — wastes water in rain, underwater in drought. Closed-loop is essential where conditions vary.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "DT4-systems-approach-to-designing-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Systems Approach to Designing",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "DT4-systems-approach-to-designing-t4",
+     "type": "short-answer",
+     "question": "Full-Mark Response Design a closed-loop system for an automatic greenhouse ventilation system. Explain the input, process, output and feedback, and justify why a closed-loop approach is necessary. <div class=\"",
+     "correctAnswer": "A grade 9 response will: define input (temperature sensor and humidity sensor inside greenhouse), process (microcontroller compares readings with set points — e.g. 25°C and 60% RH), output (motor opens roof vents, fan activates), feedback (continuous sensor monitoring — when temperature drops below set point, vents close, fan stops); explain why closed-loop is needed (external temperature fluctuates, solar gain varies, open-loop timer cannot respond to actual conditions); discuss safety features (vent limit switches, alarm for sensor failure) and energy efficiency (vents use natural convection before activating fans).",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

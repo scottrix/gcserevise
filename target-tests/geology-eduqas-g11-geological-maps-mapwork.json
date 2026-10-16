@@ -1,0 +1,77 @@
+{
+ "subject": "geology",
+ "board": "Eduqas",
+ "topic": "g11-geological-maps-mapwork",
+ "topicName": "Geological Maps & Mapwork",
+ "version": 1,
+ "tests": [
+  {
+   "id": "g11-geological-maps-mapwork-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Geological Maps & Mapwork",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "g11-geological-maps-mapwork-t1",
+     "type": "short-answer",
+     "question": "Q: What is the difference between strike and dip?",
+     "correctAnswer": "Strike is the compass direction of a horizontal line on a dipping surface. Dip is the angle of maximum slope of the surface, always measured perpendicular to strike, with its own compass direction indicating which way the surface tilts.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g11-geological-maps-mapwork-t2",
+     "type": "short-answer",
+     "question": "Q: How does the V-rule help determine dip direction from a map?",
+     "correctAnswer": "In a valley, a V-shaped outcrop pattern points in the direction of dip if the dip is moderate (V in valley rule). For horizontal beds the outcrop follows contours. For vertical beds the outcrop is straight regardless of topography.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g11-geological-maps-mapwork-t3",
+     "type": "short-answer",
+     "question": "Q: What is an unconformity and how does it appear on a geological map?",
+     "correctAnswer": "An unconformity is a surface where younger rocks rest on eroded older rocks, representing a time gap in deposition. On a map it appears as a geological boundary where the younger formation cuts across the boundaries of the older formations beneath.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "g11-geological-maps-mapwork-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Geological Maps & Mapwork",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "g11-geological-maps-mapwork-t4",
+     "type": "short-answer",
+     "question": "Q: How do you construct a geological cross-section?",
+     "correctAnswer": "1) Draw a topographic profile along the section line. 2) Mark geological boundaries where they intersect the section line. 3) Project each boundary into the subsurface at the correct dip angle. 4) Label each unit with its rock type and age.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "g11-geological-maps-mapwork-t5",
+     "type": "short-answer",
+     "question": "Q: What outcrop pattern would horizontal beds produce on a map?",
+     "correctAnswer": "Horizontal beds produce outcrop patterns that follow contour lines exactly, with the oldest rock exposed in the lowest topographic areas and the youngest on hilltops.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "subject": "statistics",
+ "board": "AQA",
+ "topic": "investigation-design-constraints",
+ "topicName": "Investigation Design Constraints",
+ "version": 1,
+ "tests": [
+  {
+   "id": "investigation-design-constraints-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Investigation Design Constraints",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "investigation-design-constraints-t1",
+     "type": "short-answer",
+     "question": "Q: Name three practical constraints that might affect a statistical investigation.",
+     "correctAnswer": "Time, cost, and access to participants or equipment.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "investigation-design-constraints-t2",
+     "type": "short-answer",
+     "question": "Q: Why is confidentiality important in a statistical investigation?",
+     "correctAnswer": "To protect participants' privacy and comply with data protection laws; it also encourages honest responses.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "investigation-design-constraints-t3",
+     "type": "short-answer",
+     "question": "Q: How can a pilot study help with investigation design?",
+     "correctAnswer": "It identifies practical problems, unclear questions and constraints before the main data collection begins.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "investigation-design-constraints-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Investigation Design Constraints",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "investigation-design-constraints-t4",
+     "type": "short-answer",
+     "question": "Q: What is informed consent?",
+     "correctAnswer": "Permission given by participants after they have been fully told what the investigation involves and how data will be used.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "investigation-design-constraints-t5",
+     "type": "short-answer",
+     "question": "Q: Why should you acknowledge limitations in your conclusions?",
+     "correctAnswer": "Because limitations may affect the reliability or validity of results, and readers need to know how much confidence to place in the findings.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "investigation-design-constraints-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Investigation Design Constraints",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "investigation-design-constraints-t6",
+     "type": "short-answer",
+     "question": "Full-Mark Response A student plans to investigate how much time Year 10 students spend on social media. Identify three constraints and explain how each affects the investigation design. <div class=\"",
+     "correctAnswer": "1. Time constraint: The student has only two weeks to collect data. This limits the sample size, so they may need to survey fewer students or use an online questionnaire to reach more people quickly. 2. Confidentiality: Students may not want others to see their social media usage. The questionnaire should be anonymous (no names) and data should be stored securely so responses cannot be linked to individuals. 3. Ethical consent: Participants must agree to take part and be told how the data will be used. The student should include a clear statement at the start of the questionnaire explaining the purpose and guaranteeing anonymity. Under-16s may need parental consent.",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "subject": "english-language",
+ "board": "AQA",
+ "topic": "R3-language-analysis",
+ "topicName": "Language Analysis",
+ "version": 1,
+ "tests": [
+  {
+   "id": "R3-language-analysis-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Language Analysis",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "R3-language-analysis-t1",
+     "type": "short-answer",
+     "question": "What is the difference between a metaphor and a simile?",
+     "correctAnswer": "A metaphor directly says something IS something else, while a simile compares using \"like\" or \"as\".",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "R3-language-analysis-t2",
+     "type": "short-answer",
+     "question": "What does PEEL stand for?",
+     "correctAnswer": "Point, Evidence, Explain, Link - a structure for writing analytical paragraphs.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "R3-language-analysis-t3",
+     "type": "short-answer",
+     "question": "Why should you avoid writing \"this makes the reader want to read on\"?",
+     "correctAnswer": "It's too vague and generic - you need to explain the specific emotional or intellectual response created.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  }
+ ]
+}

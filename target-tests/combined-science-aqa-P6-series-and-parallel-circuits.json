@@ -1,0 +1,106 @@
+{
+ "subject": "combined-science",
+ "board": "AQA",
+ "topic": "P6-series-and-parallel-circuits",
+ "topicName": "P6 Series And Parallel Circuits",
+ "version": 1,
+ "tests": [
+  {
+   "id": "P6-series-and-parallel-circuits-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on P6 Series And Parallel Circuits",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "P6-series-and-parallel-circuits-t1",
+     "type": "short-answer",
+     "question": "Foundation State the rules for current and voltage in a series circuit.",
+     "correctAnswer": "In a series circuit: current is the same through all components (I_total = I_1 = I_2), and the total voltage is shared across the components (V_total = V_1 + V_2).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P6-series-and-parallel-circuits-t2",
+     "type": "short-answer",
+     "question": "Foundation Two 6 Ω resistors are connected in series to a 12 V battery. Calculate the total resistance and the current in the circuit.",
+     "correctAnswer": "R_total = 6 + 6 = 12 Ω. I = V / R = 12 / 12 = 1 A.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P6-series-and-parallel-circuits-t3",
+     "type": "short-answer",
+     "question": "Foundation Explain why domestic circuits use parallel rather than series wiring. Give two reasons.",
+     "correctAnswer": "1) Each appliance receives the full mains voltage (230 V). 2) Each appliance can be switched on or off independently without affecting the others. If one breaks, the rest still work.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "P6-series-and-parallel-circuits-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on P6 Series And Parallel Circuits",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "P6-series-and-parallel-circuits-t4",
+     "type": "short-answer",
+     "question": "Higher A 10 Ω and a 15 Ω resistor are connected in parallel to a 6 V supply. Calculate the current through each branch and the total current from the supply.",
+     "correctAnswer": "I through 10 Ω = 6 / 10 = 0.6 A. I through 15 Ω = 6 / 15 = 0.4 A. I_total = 0.6 + 0.4 = 1.0 A.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P6-series-and-parallel-circuits-t5",
+     "type": "short-answer",
+     "question": "Higher A circuit has a 12 Ω resistor and a 4 Ω resistor in series. The supply voltage is 24 V. Calculate: (a) the total resistance, (b) the current, (c) the voltage across each resistor.",
+     "correctAnswer": "(a) R_total = 12 + 4 = 16 Ω. (b) I = 24 / 16 = 1.5 A. (c) V across 12 Ω = 1.5 x 12 = 18 V. V across 4 Ω = 1.5 x 4 = 6 V. Check: 18 + 6 = 24 V.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P6-series-and-parallel-circuits-t6",
+     "type": "short-answer",
+     "question": "Higher Explain why adding a resistor in parallel decreases the total resistance of the circuit.",
+     "correctAnswer": "Adding a resistor in parallel provides an additional path for current to flow. Even though the new path has its own resistance, the total current from the supply increases because current can now flow through both paths. Since I_total increases for the same voltage, R_total = V / I_total must decrease.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "P6-series-and-parallel-circuits-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on P6 Series And Parallel Circuits",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "P6-series-and-parallel-circuits-t7",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Explain why domestic circuits are wired in parallel rather than in series. Refer to current, voltage and what happens if one appliance fails. <div class=\"",
+     "correctAnswer": "In a parallel circuit, each appliance is connected in its own separate branch across the supply. This means each appliance receives the full mains voltage of 230 V, so they all operate at their correct power rating. Each appliance can be switched on or off independently without affecting the others. If one appliance breaks or a lamp blows, the circuit in that branch is broken but current still flows through the other branches, so the other appliances continue to work. In a series circuit, if one component fails the entire circuit is broken and nothing works. Also in series, the voltage is shared between components, so appliances would not receive the correct voltage and would not work properly. The current in series is the same through all components, meaning all appliances would have to be on at the same time. Mark scheme: 1 mark — each appliance gets full 230 V, 1 mark — can be switched independently, 1 mark — if one fails others still work, 1 mark — series would share voltage, 1 mark — series: one failure stops all, 1 mark — series: all must be on together",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

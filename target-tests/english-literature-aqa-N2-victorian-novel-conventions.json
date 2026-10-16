@@ -1,0 +1,67 @@
+{
+ "subject": "english-literature",
+ "board": "AQA",
+ "topic": "N2-victorian-novel-conventions",
+ "topicName": "Victorian Novel Conventions",
+ "version": 1,
+ "tests": [
+  {
+   "id": "N2-victorian-novel-conventions-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Victorian Novel Conventions",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "N2-victorian-novel-conventions-t1",
+     "type": "short-answer",
+     "question": "How did serialised publication affect Victorian novel structure?",
+     "correctAnswer": "Serialised publication required cliffhangers to maintain reader interest between instalments. This created episodic structure with regular moments of tension. Chapters often end mid-action or with revelations.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "N2-victorian-novel-conventions-t2",
+     "type": "short-answer",
+     "question": "Why did Victorian novels often have moral purposes?",
+     "correctAnswer": "Victorians saw literature as educational. Novels were expected to teach moral lessons and promote social reform. Authors like Dickens used fiction to campaign against poverty and injustice.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "N2-victorian-novel-conventions-t3",
+     "type": "short-answer",
+     "question": "What are the advantages of first-person narration?",
+     "correctAnswer": "First-person narration creates intimacy with readers, shows events from a character's perspective, allows for unreliable narration and dramatic irony, and lets characters reflect on their own development.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "N2-victorian-novel-conventions-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Victorian Novel Conventions",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "N2-victorian-novel-conventions-t5",
+     "type": "short-answer",
+     "question": "Full-Mark Response 30 marks: How does Stevenson use the conventions of Victorian novel writing to explore the theme of duality in \"The Strange Case of Dr Jekyll and Mr Hyde\"? Write about: Stevenson's use of narrative structure; Stevenson's use of Gothic conventions; how Stevenson uses language to present duality. <div class=\"",
+     "correctAnswer": "Stevenson exploits the Victorian convention of the framed narrative — multiple perspectives gradually revealing truth — to embody the theme of duality itself. The novel's structure is split: Utterson's rational, external perspective gives way to Lanyon's horrified witness account, which finally yields to Jekyll's own confession. This structural fragmentation mirrors the divided self at the novel's heart; just as Jekyll's identity is split across two figures, the narrative is split across multiple narrators, each holding only a partial truth. The reader, like Utterson, must piece together the whole from fragments — experiencing the same struggle for understanding that the duality creates. Stevenson simultaneously uses and subverts Gothic conventions. The foggy London setting and mysterious door are quintessential urban Gothic, creating the atmosphere of dread that Ann Radcliffe defined as terror — \"nothing is so oppressive to the imagination.\" Yet Stevenson subverts Gothic's typical clear moral categories. In Walpole's tradition, good and evil are separate forces; Stevenson collapses them into one body. Hyde is not a separate villain but Jekyll's \"other self,\" making the horror internal rather than external. This subversion reflects the novel's Darwinian anxiety: if humans evolved from primitive ancestors, then civilisation is a veneer, not a transformation. Hyde's \"troglodytic\" appearance literalises this evolutionary fear within a Gothic framework. The prose style itself ena",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 4,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "subject": "physics",
+ "board": "AQA",
+ "topic": "P18-forces-and-elasticity",
+ "topicName": "Forces And Elasticity",
+ "version": 1,
+ "tests": [
+  {
+   "id": "P18-forces-and-elasticity-quick-check",
+   "name": "Quick Check",
+   "description": "Timed check on Forces And Elasticity",
+   "timeLimit": 10,
+   "passMark": 70,
+   "questions": [
+    {
+     "id": "P18-forces-and-elasticity-t1",
+     "type": "short-answer",
+     "question": "Foundation State Hooke's Law and explain what the limit of proportionality is.",
+     "correctAnswer": "Hooke's Law states that extension is directly proportional to the force applied, provided the limit of proportionality is not exceeded. The limit of proportionality is the maximum force at which this proportional relationship still holds. Beyond this point, extension increases more rapidly than force.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P18-forces-and-elasticity-t2",
+     "type": "short-answer",
+     "question": "Foundation A spring has a spring constant of 250 N/m. Calculate the force needed to extend it by 0.08 m.",
+     "correctAnswer": "F = ke = 250 × 0.08 = 20 N",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P18-forces-and-elasticity-t3",
+     "type": "short-answer",
+     "question": "Higher A force of 12 N extends a spring by 0.06 m. Calculate the spring constant and the elastic potential energy stored.",
+     "correctAnswer": "k = F / e = 12 / 0.06 = 200 N/m. E e = ½ke² = ½ × 200 × 0.06² = ½ × 200 × 0.0036 = 0.36 J",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "P18-forces-and-elasticity-exam-practice",
+   "name": "Exam-Style Practice",
+   "description": "Short-answer practice on Forces And Elasticity",
+   "timeLimit": 20,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "P18-forces-and-elasticity-t4",
+     "type": "short-answer",
+     "question": "Higher Describe how to find the spring constant from a force-extension graph.",
+     "correctAnswer": "Plot force on the y-axis and extension on the x-axis. In the Hooke's Law region, the graph is a straight line through the origin. The spring constant k equals the gradient of this straight line (gradient = F/e = k).",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    },
+    {
+     "id": "P18-forces-and-elasticity-t5",
+     "type": "short-answer",
+     "question": "Foundation Explain the difference between elastic deformation and plastic deformation.",
+     "correctAnswer": "Elastic deformation: the object returns to its original shape when the force is removed. Plastic deformation: the object does NOT return to its original shape — the deformation is permanent.",
+     "explanation": "",
+     "marks": 1,
+     "difficulty": 2,
+     "ao": "AO1"
+    }
+   ]
+  },
+  {
+   "id": "P18-forces-and-elasticity-extended",
+   "name": "Extended Practice",
+   "description": "Self-marked extended answers on Forces And Elasticity",
+   "timeLimit": 25,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "P18-forces-and-elasticity-t6",
+     "type": "short-answer",
+     "question": "Extended Answer 6 marks: Describe how you would investigate the relationship between force and extension for a spring. Explain how your results would show whether Hooke's Law is obeyed and how you would determine the spring constant. <div class=\"",
+     "correctAnswer": "Set up a clamp stand with a spring hanging from it and a ruler alongside. Measure the original length of the unstretched spring. Add a 1 N mass hanger and measure the new length. Calculate the extension by subtracting the original length from the new length. Add further 1 N masses one at a time, measuring the new length and calculating the extension each time, up to about 10 N. Record all results in a table. Plot a graph of force (y-axis) against extension (x-axis). If Hooke's Law is obeyed, the graph will be a straight line through the origin, showing that extension is directly proportional to force. The spring constant k equals the gradient of the straight-line section (gradient = ΔF/Δe = k). The point where the line starts to curve is the limit of proportionality, beyond which Hooke's Law no longer applies. To improve accuracy, take readings at eye level to avoid parallax error and repeat the experiment to calculate a mean. Mark scheme: 1 mark for correct apparatus setup; 1 mark for method of adding masses and measuring extension; 1 mark for plotting force-extension graph; 1 mark for straight line through origin confirms Hooke's Law; 1 mark for gradient = spring constant k; 1 mark for identifying limit of proportionality where line curves. (6 marks total)",
+     "explanation": "Extended answer: aim for the mark-scheme points, in order, with the command word addressed.",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}
