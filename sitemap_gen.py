@@ -27,7 +27,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-BASE_URL = 'https://www.scottrix.co.uk'
+BASE_URL = 'https://scottrix.github.io'
 TODAY = subprocess.check_output(['date', '-u', '+%Y-%m-%d']).decode().strip()
 
 
