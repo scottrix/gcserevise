@@ -43,7 +43,7 @@
 | P4 hide empty containers | ✅ DONE (2026-10-14) | flashcards.js / exam-questions.js / target-tests.js hide the whole section (heading included) when no data loads or the dataset is empty — no more bare 'coming soon' headings on the 2,576 data-less topic pages |
 | P3 single-board spec verification | ✅ DONE (2026-10-14) | Spec Focus box on all 261 single-board topic pages (astronomy 1AS0, ancient-history J198, classical-civ J199, dance 8236, engineering 8852, statistics 8382/1ST0; geology/film/electronics named without unverified codes) + Exam Board & Specification section on each of the 10 subject pages; Law honestly flagged: AQA 4160 withdrawn, no board offers GCSE Law — pages kept as A-Level Law foundation |
 | P3 coursework NEA frames | ✅ DONE (2026-10-14) | Coursework & NEA Guide section on all 11 NEA-bearing subject pages (art, music, drama, D&T, food, PE, media, dance, film, electronics, engineering): component weightings, frame/structure per NEA (portfolio AOs, choreographic log, NEA1 science linkage, A&E structure, SoI, circuit-simulation evidence...), timeline and top pitfalls |
-| Past-paper deep links | ⬜ TODO | Spec PDF + specimen papers + mark schemes per board (not just board homepages) |
+| Past-paper deep links | ✅ DONE (2026-10-14) | Specification/Specimen + Exam Dates sections on all 37 past-paper pages (verified URLs only) |
 | TODO/analysis docs | ✅ DONE | This file replaces the stale tracker; analysis doc updated |
 
 ## Audit commands (rerun to regenerate the numbers)
